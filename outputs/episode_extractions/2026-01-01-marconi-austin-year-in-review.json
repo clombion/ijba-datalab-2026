@@ -1,0 +1,388 @@
+{
+  "episode_meta": {
+    "title": "Francesco Marconi & Scott Austin: 2025 Year in Review, What Actually Changed in AI and Media",
+    "date": "2026-01-01",
+    "guests": [
+      {
+        "name": "Francesco Marconi",
+        "role": "CEO",
+        "organization": "Applied Excel"
+      },
+      {
+        "name": "Scott Austin",
+        "role": "Head of Business Development",
+        "organization": "Symbolic AI"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 12249
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "ChatGPT Pulse",
+    "ChatGPT Pro Model",
+    "Claude Code",
+    "Cursor",
+    "Symbolic AI platform",
+    "Google AI Overviews / AI Mode",
+    "Parallel",
+    "Tavily",
+    "OpenAI Atlas",
+    "Perplexity Comet",
+    "Dia (formerly Arc)",
+    "ChatGPT Apps SDK",
+    "MCP (Model Context Protocol)",
+    "Notebook LM"
+  ],
+  "use_cases": [
+    {
+      "description": "ChatGPT Pulse delivers personalized daily news briefings including local transit updates, travel advisories, and AI industry news based on accumulated user conversation data and location context",
+      "tool_used": "ChatGPT Pulse",
+      "organization": "OpenAI (personal use by Nikita Roy)",
+      "outcome": "Most personalized practical news information for daily use; surfaced information user might have missed; provided travel-related border delay warnings",
+      "stage": "distribution"
+    },
+    {
+      "description": "Der Spiegel built an internal AI fact-checking tool piloted in 2024, now fully deployed across all content including stories and social media posts, checking against external sources and their own archive",
+      "tool_used": "Internal AI fact-checking tool",
+      "organization": "Der Spiegel",
+      "outcome": "Reduced corrections, able to detect nuanced factual issues across high volume of content; scaled from pilot to full deployment",
+      "stage": "verification"
+    },
+    {
+      "description": "Symbolic AI's auditing fact-checking feature cross-references every fact in a story against source material and the wider web, flagging discrepancies including date errors and nuanced claims",
+      "tool_used": "Symbolic AI platform",
+      "organization": "Symbolic AI / newsroom customers",
+      "outcome": "Resonated strongly with journalists; works as companion not replacement; catches subtle errors like wrong day-of-week and nuanced claim misinterpretations",
+      "stage": "verification"
+    },
+    {
+      "description": "Philadelphia Inquirer hired their first AI engineer through Lenfest AI Collaborative investment, who built internal tools including a news archive that helps journalists with research",
+      "tool_used": "Custom internal tools / news archive",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Journalists can use archive for research assistance; first dedicated AI engineering capacity in the newsroom",
+      "stage": "research"
+    },
+    {
+      "description": "Newsrooms creating custom GPTs to act as editorial buddies that read through stories and give suggestions, help think through different perspectives",
+      "tool_used": "Custom GPTs",
+      "organization": "Various newsrooms",
+      "outcome": "Provides editorial feedback and alternative perspectives during writing process",
+      "stage": "production"
+    },
+    {
+      "description": "Using AI reasoning models to fact-check data and claims before publishing by putting content through ChatGPT Pro Model with instructions to verify accuracy",
+      "tool_used": "ChatGPT Pro Model",
+      "organization": "Personal workflow (Nikita Roy)",
+      "outcome": "Finds factual nuances, suggests reframing of potentially misleading statements; reasoning models spend 20-30 minutes checking each claim against internet sources",
+      "stage": "verification"
+    },
+    {
+      "description": "Using Claude Code to deploy multiple sub-agents for research across an entire folder of documents, with agents doing deep research on different topics and a synthesis agent combining reports",
+      "tool_used": "Claude Code",
+      "organization": "Personal workflow (Nikita Roy)",
+      "outcome": "Can have 10 different documents for 10 different purposes being worked on simultaneously; fundamentally changed research workflows",
+      "stage": "research"
+    },
+    {
+      "description": "Applied Excel uses AI at every step of data gathering process across domains including science, pharma, and regulation, structuring and contextualizing data that can be queried via MCP",
+      "tool_used": "Applied Excel platform / MCP",
+      "organization": "Applied Excel",
+      "outcome": "Able to query structured data to surface non-obvious insights, e.g., discovering Pfizer is developing a Lyme disease vaccine they abandoned in 2002 and contextualizing it against vaccine sentiment",
+      "stage": "research"
+    },
+    {
+      "description": "CNN and CNBC using alternative data sources like prediction markets as a new lens for interpreting polling and anticipating news events",
+      "tool_used": "Prediction markets data",
+      "organization": "CNN, CNBC",
+      "outcome": "New perspective on events beyond traditional polling; early signal detection before events become news",
+      "stage": "research"
+    },
+    {
+      "description": "AI agents extracting data from 200-page legal filings and answering the same recurring questions reporters ask repeatedly",
+      "tool_used": "AI agents (general)",
+      "organization": "Various newsrooms",
+      "outcome": "100% accuracy in some cases for rote extraction tasks; removes drudgery so journalists can focus on real reporting",
+      "stage": "research"
+    },
+    {
+      "description": "Headline writing bots trained on a newsroom's editorial voice to assist with headline creation",
+      "tool_used": "Custom headline bots",
+      "organization": "Various newsrooms",
+      "outcome": "Quick headline generation matching newsroom style; raises questions about training grounds for early-career journalists",
+      "stage": "production"
+    },
+    {
+      "description": "Canadian news publishers suing OpenAI means their data does not appear in ChatGPT Pulse, which instead uses publicly available info, blogs, and wire services like Reuters and AP",
+      "tool_used": "ChatGPT Pulse",
+      "organization": "Canadian news publishers / OpenAI",
+      "outcome": "ChatGPT Pulse still provides adequate Canadian news coverage using alternative sources, demonstrating publishers' replaceability in AI distribution pipelines",
+      "stage": "distribution"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "2023 was the year of generative AI shock, 2024 was tentative experimentation, and 2025 will be recorded as an operational reckoning moment for the news industry because business models started to get challenged",
+      "speaker": "Nikita Roy",
+      "evidence_type": "expert_assessment"
+    },
+    {
+      "claim": "2025 was a major inflection point in the adoption of AI tools in newsrooms, moving from recommendation-based to native AI applications like answering questions and data analysis",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "expert_assessment"
+    },
+    {
+      "claim": "The chat question-and-answer interface is not the natural consumption mode for news; the fallacy of ChatGPT is thinking people want to converse with news coverage",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "expert_opinion"
+    },
+    {
+      "claim": "Publishing executives are still behind in understanding the ramifications of people getting information instantly and how it is interpreted",
+      "speaker": "Scott Austin",
+      "evidence_type": "industry_observation"
+    },
+    {
+      "claim": "The economic value, the unit of producing content, starts going towards zero because of AI",
+      "speaker": "Nikita Roy",
+      "evidence_type": "expert_assessment"
+    },
+    {
+      "claim": "New news companies need to be data gathering companies focused on organizing, structuring, and contextualizing information that is unique to news",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "expert_opinion"
+    },
+    {
+      "claim": "News organizations sell two things: solving the problem of scarcity of information and a filter of the world through an editorial system with a particular point of view",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "analytical_framework"
+    },
+    {
+      "claim": "In a survey of early career journalists, around 38% had never used an AI tool before, and around 50% of early career journalists said they never used an AI tool and were against AI",
+      "speaker": "Nikita Roy",
+      "evidence_type": "survey_data"
+    },
+    {
+      "claim": "A lot of newsrooms still lack an AI policy, leaving journalists without a roadmap for what they are allowed to do",
+      "speaker": "Nikita Roy",
+      "evidence_type": "industry_observation"
+    },
+    {
+      "claim": "Most news organizations do not have the sophistication or tech teams to develop AI tools internally; they need third-party systems to make real transformation",
+      "speaker": "Scott Austin",
+      "evidence_type": "industry_observation"
+    },
+    {
+      "claim": "AI fact-checking used to be the flying car of journalism, but it now actually exists and works",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "expert_assessment"
+    },
+    {
+      "claim": "AI agents solve the specific technical problem of a model running out of memory by breaking massive tasks into sequential reasoning steps",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "technical_explanation"
+    },
+    {
+      "claim": "2025 was deemed the year of AI agents but was really just the beginning of AI agentic behavior",
+      "speaker": "Nikita Roy",
+      "evidence_type": "expert_assessment"
+    },
+    {
+      "claim": "MCP (Model Context Protocol) is probably one of the most underrated disruptions or innovations that will happen to news",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "expert_opinion"
+    },
+    {
+      "claim": "News organizations are still stuck in old print architecture even if they no longer print, obsessing over every word, publishing, and moving on rather than treating stories as living entities",
+      "speaker": "Scott Austin",
+      "evidence_type": "industry_observation"
+    },
+    {
+      "claim": "We are entering what we call the age of anticipation, where pre-news systems will detect early signals before events become news",
+      "speaker": "Francesco Marconi",
+      "evidence_type": "prediction"
+    },
+    {
+      "claim": "The journalism school penalty framing of ChatGPT use created a generation of early-career journalists afraid to use AI tools",
+      "speaker": "Nikita Roy",
+      "evidence_type": "industry_observation"
+    },
+    {
+      "claim": "The Outcome Health investigation at the Wall Street Journal involved 50 sources over months and led to the CEO being put in prison, demonstrating investigative work AI cannot replicate",
+      "speaker": "Scott Austin",
+      "evidence_type": "case_study"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Google AI Overviews causing drop in traffic to news websites, challenging existing business models built on search referrals",
+      "category": "business_model"
+    },
+    {
+      "description": "AI companies using news data without adequate compensation, with publishers having to guard their content while simultaneously needing to embrace AI",
+      "category": "business_model"
+    },
+    {
+      "description": "The dichotomy of needing to embrace AI for workflows while worrying about business model disruption from the same technology",
+      "category": "strategic"
+    },
+    {
+      "description": "AI personalization platforms like ChatGPT Pulse have access to far more user data than any news organization, making it nearly impossible to compete on personalization",
+      "category": "competitive"
+    },
+    {
+      "description": "Canadian news publishers suing OpenAI means their content is excluded from ChatGPT Pulse, but the platform still functions using alternative sources, demonstrating publisher replaceability",
+      "category": "business_model"
+    },
+    {
+      "description": "38% of surveyed journalists never used an AI tool; 50% of early-career journalists were against AI, creating a significant adoption gap",
+      "category": "adoption"
+    },
+    {
+      "description": "Journalism schools penalized ChatGPT use, creating a generation of graduates afraid to use AI tools and unsure how to use them responsibly",
+      "category": "training"
+    },
+    {
+      "description": "Most newsrooms still lack an AI policy, leaving journalists without clear guidelines on what is permitted",
+      "category": "governance"
+    },
+    {
+      "description": "Institutional inertia: news organizations default to building internally but lack the bandwidth, data infrastructure, and human readiness to do so effectively",
+      "category": "organizational"
+    },
+    {
+      "description": "AI misinterpretation of information: not outright factual errors but nuanced, semantic misrepresentations that are harder to detect",
+      "category": "accuracy"
+    },
+    {
+      "description": "Headline-writing bots and AI automation of entry-level tasks threaten the training grounds for early-career journalists who learn domain expertise on the job",
+      "category": "workforce"
+    },
+    {
+      "description": "Lack of centralized hubs for internal data within news organizations, making AI integration and digital transformation difficult",
+      "category": "infrastructure"
+    },
+    {
+      "description": "Most news organizations spend disproportionate resources on packaging and distribution rather than data gathering, which is becoming the real source of competitive value",
+      "category": "resource_allocation"
+    },
+    {
+      "description": "News organizations still stuck in print-era architecture even when digital, treating stories as finished products rather than living entities",
+      "category": "organizational"
+    },
+    {
+      "description": "The term AI agent is overused in marketing; many tools marketed as agents are just GPT wrappers, creating confusion about actual capabilities",
+      "category": "hype"
+    },
+    {
+      "description": "Fear of job loss among journalists, especially early-career journalists who see AI taking over tasks they trained for like headline writing",
+      "category": "workforce"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "You don't have to explain why you are using AI. You only have to explain if you are not using AI.",
+      "speaker": "Matthias Doepfner (quoted by Francesco Marconi)",
+      "topic": "AI adoption mandate in newsrooms",
+      "pedagogical_value": "Illustrates the cultural shift needed in newsrooms from opt-in to default-on AI usage"
+    },
+    {
+      "text": "I think new news companies need to be data gathering companies. in a very specific way, which is even if the information is available in blogs or government websites, there's so much work that needs to be done to properly organize, structure, contextualize that information, and that becomes something that is unique to news.",
+      "speaker": "Francesco Marconi",
+      "topic": "Future business model for news organizations",
+      "pedagogical_value": "Core strategic reframing of news organizations as structured data companies rather than content producers"
+    },
+    {
+      "text": "AI fact checking used to be kind of the flying car of journalism. But as opposed to flying cars, AI fact checking actually exists and it's working.",
+      "speaker": "Francesco Marconi",
+      "topic": "AI fact-checking maturation",
+      "pedagogical_value": "Vivid analogy capturing the transition of AI fact-checking from science fiction to operational reality"
+    },
+    {
+      "text": "The function of a startup, at least in the information industry, is not to innovate. is to build technology and solutions faster than a company can build.",
+      "speaker": "Francesco Marconi",
+      "topic": "Role of startups vs. legacy news organizations in AI adoption",
+      "pedagogical_value": "Reframes startup value proposition as speed advantage over institutional inertia rather than pure innovation"
+    },
+    {
+      "text": "We are really reading the news, even in breaking news, we are actually reading a history book of the recent past. And so if you think about all the things we've talked about, the ability to process data faster than ever before, real-time networks, digitization of data, availability of all of these sources. we as we enter in this zero latency world where the speed of information or the speed of distributing information is collapsed to zero.",
+      "speaker": "Francesco Marconi",
+      "topic": "Pre-news systems and the age of anticipation",
+      "pedagogical_value": "Foundational concept for understanding the shift from reactive to anticipatory journalism"
+    },
+    {
+      "text": "I don't think that's the natural consumption mode for news. Of course, you can, you know, you can go and ask what's happening in your space or in your area. but the other part of information meets you where you are, that's that's not, you know, been discussed that much.",
+      "speaker": "Francesco Marconi",
+      "topic": "The fallacy of chat-based news consumption",
+      "pedagogical_value": "Challenges dominant assumption that conversational interfaces are the future of news delivery; highlights push vs. pull information dynamics"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "News organizations should reallocate resources from packaging and distribution (the tail end being commoditized by AI) to data gathering, organizing, structuring, and contextualizing unique information",
+      "speaker": "Francesco Marconi",
+      "target_audience": "news executives"
+    },
+    {
+      "advice": "AI adoption must be led from the top by the editor-in-chief or CEO to provide clarity and permission for journalists to use AI tools",
+      "speaker": "Scott Austin",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "News organizations should connect MCP servers to proprietary data sources (e.g., market rankings, product review data) rather than just making article archives available, as content retrieval is commoditized",
+      "speaker": "Francesco Marconi",
+      "target_audience": "news technology teams"
+    },
+    {
+      "advice": "Using AI responsibly is a skill that needs to be taught; newsrooms need clear AI policies so journalists know what is permitted and are not paralyzed by fear",
+      "speaker": "Nikita Roy",
+      "target_audience": "journalism educators, newsroom managers"
+    },
+    {
+      "advice": "Think about the reimagination of scarcity and filtering as the key to surviving in the AI age: scarcity means finding unique contextualized sources AI cannot touch; filtering means selling editorial rubrics and perspectives not just to humans but to other machines",
+      "speaker": "Francesco Marconi",
+      "target_audience": "news strategists"
+    },
+    {
+      "advice": "News organizations should collaborate with technology startups rather than defaulting to build-it-internally, because startups can build solutions faster than institutional inertia allows",
+      "speaker": "Francesco Marconi",
+      "target_audience": "news executives, CTOs"
+    },
+    {
+      "advice": "Journalists entering the field now need all traditional skills (storytelling, multimedia, data savviness) plus proficiency with AI tools to remain competitive",
+      "speaker": "Francesco Marconi",
+      "target_audience": "journalism students, early-career journalists"
+    },
+    {
+      "advice": "Newsrooms should invest in building internal data architecture where everything is digitized and at journalists' fingertips, combining their own content with external data, to avoid falling behind",
+      "speaker": "Scott Austin",
+      "target_audience": "news organizations"
+    },
+    {
+      "advice": "Reimagine newsroom workflows for the AI era rather than just retrofitting AI into print-era processes; consider new team structures combining technical capability and product thinking",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Use AI agents by breaking large investigative tasks into sequential reasoning steps (assessment, contextualization, enrichment, writing) rather than trying to do everything in a single prompt",
+      "speaker": "Francesco Marconi",
+      "target_audience": "journalists, newsroom technologists"
+    }
+  ],
+  "external_references": [
+    "The Science of First",
+    "Outcome Health investigation",
+    "Chris Whipple interview of Susie Wiles",
+    "Axel Springer AI mandate",
+    "Philadelphia Inquirer AI initiative",
+    "Lenfest AI Collaborative",
+    "Der Spiegel AI fact-checking system",
+    "Canadian news publishers vs. OpenAI",
+    "Applied Excel",
+    "Symbolic AI",
+    "CUNY Generative AI Lab",
+    "Prediction markets in news",
+    "IFTTT (If This Then That)",
+    "Newsroom Robots podcast"
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "episode_meta": {
+    "title": "Your Questions Answered: A Live Q&A Session in Collaboration with the Online News Association",
+    "date": "2024-09-02",
+    "guests": [
+      {"name": "Megan Murphy", "role": "Program Director", "organization": "Online News Association (ONA)"},
+      {"name": "Carol", "role": "Colleague of Megan Murphy (unnamed role)", "organization": "Online News Association (ONA)"}
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 9975
+  },
+  "ai_tools": [
+    "ChatGPT (free, paid, and Teams tiers)",
+    "ChatGPT Code Interpreter (data analysis feature)",
+    "Zapier AI automations (no-code)",
+    "Perplexity (AI search engine and browser plugin)",
+    "Wobby AI (data journalism platform)",
+    "Opus Clip (long-form video to short-form clips)",
+    "YesSEO (Slack-based AI tool for headlines and SEO metadata)",
+    "Google Pinpoint (document search and transcription)",
+    "NOTA (AI tools for publishers: headlines, summaries, article-to-video)",
+    "Natural Reader (text-to-speech browser extension)",
+    "Claude for Sheets / Claude for Docs (Google Workspace plugins)",
+    "GPT for Docs (Google Workspace plugin)",
+    "Adobe Firefly (ethically sourced AI image generation)",
+    "Midjourney (AI image generation)",
+    "Elicit (AI search engine for research papers)",
+    "Consensus (AI search engine for research papers)",
+    "Hugging Face (open source AI community/platform)",
+    "Data Wrapper (data visualization, mentioned in Wobby workflow)"
+  ],
+  "use_cases": [
+    {
+      "description": "Analyzing audience analytics (page views, platform data) by uploading Google Analytics files to ChatGPT and querying in plain language via Code Interpreter",
+      "tool_used": "ChatGPT Code Interpreter (Teams tier)",
+      "organization": "General recommendation",
+      "outcome": "Able to analyze data spread across multiple platforms and produce summaries",
+      "stage": "production"
+    },
+    {
+      "description": "Automated weekly audience analytics reports via no-code AI automation: pulling Google Analytics data, sending to ChatGPT for analysis, and delivering summaries via email or Slack",
+      "tool_used": "Zapier AI automations + ChatGPT",
+      "organization": "General recommendation",
+      "outcome": "Scheduled automated analytics summaries (e.g., every Monday morning email or daily Slack updates)",
+      "stage": "production"
+    },
+    {
+      "description": "Podcast data analysis across multiple platforms",
+      "tool_used": "ChatGPT Code Interpreter",
+      "organization": "Newsroom Robots podcast",
+      "outcome": "ChatGPT's data analysis handles pulling together and analyzing podcast data from multiple platforms",
+      "stage": "production"
+    },
+    {
+      "description": "Three-hour foundational AI literacy courses for newsroom staff in small groups of ~20, followed by prompt clinics (experimentation workshops) pairing editorial and tech staff",
+      "tool_used": "Generative AI tools (general)",
+      "organization": "Radio Canada",
+      "outcome": "Led to product idea 'En Bref' — AI-powered news summary slides on their app",
+      "stage": "production"
+    },
+    {
+      "description": "AI-powered news summary slides ('En Bref') on the Radio Canada app — generative AI helps summarize articles into slide-format news briefs",
+      "tool_used": "Generative AI (summarization)",
+      "organization": "Radio Canada",
+      "outcome": "Reduced production burden on editors who previously had to write slide summaries manually",
+      "stage": "production"
+    },
+    {
+      "description": "AI-generated illustrations for articles as hero images, built into their CMS for editors to prompt",
+      "tool_used": "AI image generation (integrated into CMS)",
+      "organization": "Ippen Media (Germany)",
+      "outcome": "Editors can generate illustrations when no photo is available for a story",
+      "stage": "production"
+    },
+    {
+      "description": "Using AI-generated illustrations (not photorealistic) for editorial content with transparency labeling",
+      "tool_used": "AI image generation",
+      "organization": "Semaphore",
+      "outcome": "Illustrations used as editorial visuals with disclosure",
+      "stage": "production"
+    },
+    {
+      "description": "AI-powered headline suggestions and SEO metadata generation across 8+ languages for local newsrooms via Slack integration",
+      "tool_used": "YesSEO",
+      "organization": "400+ local newsrooms",
+      "outcome": "Free tool used by over 400 local newsrooms for headline and SEO optimization",
+      "stage": "production"
+    },
+    {
+      "description": "Repurposing long-form video content into ranked short-form clips for TikTok, Instagram Reels, YouTube Shorts",
+      "tool_used": "Opus Clip",
+      "organization": "General recommendation",
+      "outcome": "Converts long-form video into ~20 ranked short clips with improvement feedback",
+      "stage": "production"
+    },
+    {
+      "description": "Searching through thousands of documents (PDFs, handwritten documents, images, emails) for investigative journalism, with text extraction and transcription",
+      "tool_used": "Google Pinpoint",
+      "organization": "Investigative journalists (general)",
+      "outcome": "AI-powered search across large document collections with OCR for handwritten text",
+      "stage": "production"
+    },
+    {
+      "description": "AI-powered research on scholarly papers — filtering by methodology, time frame; AI-generated abstracts and summaries at a glance; chatting with papers",
+      "tool_used": "Elicit / Consensus",
+      "organization": "General recommendation (health/medical beat journalists)",
+      "outcome": "Rapid filtering and comprehension of research papers for beat reporting",
+      "stage": "production"
+    },
+    {
+      "description": "Connecting to open government data portals, auto-generating AI insights when datasets update, chatting with data, and generating Data Wrapper charts",
+      "tool_used": "Wobby AI",
+      "organization": "European newsrooms (Belgian data startup)",
+      "outcome": "Democratizes data journalism access for smaller newsrooms with limited data journalists",
+      "stage": "production"
+    },
+    {
+      "description": "Converting articles into short video content (Instagram Reels, shorts) with editing capabilities",
+      "tool_used": "NOTA",
+      "organization": "Local newsrooms (general)",
+      "outcome": "Streamlines multi-step video production process from text articles",
+      "stage": "production"
+    },
+    {
+      "description": "AI-assisted episode title/headline brainstorming",
+      "tool_used": "ChatGPT",
+      "organization": "Newsroom Robots podcast",
+      "outcome": "Used as brainstorming co-pilot; all outputs edited by human",
+      "stage": "production"
+    },
+    {
+      "description": "Generative AI search for quick background research on topics, with follow-up questions and website summarization",
+      "tool_used": "Perplexity (including browser plugin)",
+      "organization": "General recommendation",
+      "outcome": "Replaces traditional search for quick research; summarizes websites in-browser",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "ChatGPT Teams ($30/month) does not train on user data, making it more appropriate for newsrooms than the free or $20/month paid tiers which do train on chat history",
+      "speaker": "Nikita Roy",
+      "evidence_type": "factual"
+    },
+    {
+      "claim": "We are in a very experimental phase with this technology, and the way to harness it is by understanding what the technology is, what are the right and wrong use cases, and how we can apply it",
+      "speaker": "Nikita Roy",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI ethics policies should be structured around four key components: (1) transparency and disclosure, (2) accuracy and human oversight, (3) privacy and data use, (4) purpose-driven use",
+      "speaker": "Nikita Roy",
+      "evidence_type": "analytical"
+    },
+    {
+      "claim": "Newsrooms should create AI principles rather than AI guidelines, because principles address the 'why' and can adapt as technology changes, whereas specific guidelines become outdated quickly",
+      "speaker": "Nikita Roy",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Adobe Firefly is a more ethically sourced AI model than Midjourney because it uses Creative Commons images for training",
+      "speaker": "Nikita Roy",
+      "evidence_type": "factual"
+    },
+    {
+      "claim": "Any generative AI tool output currently requires human editing and vetting — nothing should go straight to publish",
+      "speaker": "Nikita Roy",
+      "evidence_type": "experiential"
+    },
+    {
+      "claim": "YesSEO is free and used by over 400 local newsrooms for headline suggestions and SEO metadata in more than 8 languages",
+      "speaker": "Nikita Roy",
+      "evidence_type": "factual"
+    },
+    {
+      "claim": "Slack is using user messages to train their AI models and users must opt out manually",
+      "speaker": "Nikita Roy",
+      "evidence_type": "factual"
+    },
+    {
+      "claim": "The fundamental building block for AI in newsrooms is data infrastructure, and most newsrooms still deal with fragmented, inaccessible, or unclean data",
+      "speaker": "Nikita Roy",
+      "evidence_type": "experiential"
+    },
+    {
+      "claim": "Nick Thompson (CEO of The Atlantic) argued publisher deals with AI companies can be beneficial because they provide tech expertise, insights, and credits that newsrooms lack",
+      "speaker": "Nikita Roy (quoting Nick Thompson)",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Fear and shame around admitting AI use in newsrooms — some journalists use AI but are afraid to tell colleagues because nobody talks about it openly",
+      "category": "cultural"
+    },
+    {
+      "description": "Copyright and intellectual property concerns around AI-generated images, particularly tools like Midjourney that can produce copyrighted characters",
+      "category": "legal/ethical"
+    },
+    {
+      "description": "Trust concerns when AI-generated photorealistic images could be mistaken for actual photographs by audiences",
+      "category": "ethical"
+    },
+    {
+      "description": "ChatGPT and generative AI tools hallucinate — e.g., making up links — requiring constant human verification",
+      "category": "technical"
+    },
+    {
+      "description": "Privacy risks when using AI tools with confidential journalistic data (sources, interviews), especially third-party transcription services",
+      "category": "privacy"
+    },
+    {
+      "description": "AI vendor evaluation difficulty — companies using jargon loosely (e.g., 'fine-tuned model') to sell products that may not deliver as described",
+      "category": "organizational"
+    },
+    {
+      "description": "Tool adoption failures due to high learning curves, lack of workflow integration, and stickiness problems",
+      "category": "organizational"
+    },
+    {
+      "description": "The news industry lacks tech expertise needed to leverage AI, creating dependency on tech companies",
+      "category": "structural"
+    },
+    {
+      "description": "Upskilling an entire journalism workforce for the AI revolution — current efforts are still small relative to the scale of the challenge",
+      "category": "workforce"
+    },
+    {
+      "description": "Data fragmentation across newsrooms — data spread across different sources, inaccessible or unclean, preventing effective AI implementation",
+      "category": "technical/infrastructure"
+    },
+    {
+      "description": "Fear in the media industry about partnering with tech platforms, based on historical experience",
+      "category": "strategic"
+    },
+    {
+      "description": "Competing priorities in newsrooms make it hard to create dedicated space and time for AI experimentation",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We are in a very experimental phase with this technology, and the way to harness it is by us understanding what what the technology is, what are the right and wrong use cases of this, and how we can apply it.",
+      "speaker": "Nikita Roy",
+      "topic": "AI literacy and experimentation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I use AI a lot, but I'm actually afraid to tell anybody in my team that I do because when nobody's talking about it and I'm just afraid that if I say they they wouldn't understand what I mean by that because they're not hearing anyone else is talking about AI.",
+      "speaker": "Nikita Roy (quoting an anonymous journalist)",
+      "topic": "Fear and cultural barriers to AI adoption in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "It's really important, in my opinion, to be able to know the why we're using AI before even getting to the how we are using AI in the newsroom.",
+      "speaker": "Nikita Roy",
+      "topic": "Purpose-driven AI adoption",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I talk about how we can be a one-to-two person newsroom operating as a five person and being able to cover. But what does that mean for the future of work and roles within our newsrooms that is going to be impacted.",
+      "speaker": "Nikita Roy",
+      "topic": "Future of work and workforce impact",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The basics and building blocks of AI is data and it's about data infrastructure. So one thing that you need to be focusing on right now is making sure that you have good data in your newsroom.",
+      "speaker": "Nikita Roy",
+      "topic": "Data infrastructure as foundation for AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Any generative AI tool that I'm using right now, it has to be edited and it has to be vetted and I wouldn't be taking anything straight to publish. And the way I work I think of using AI tools is this term that's thrown out everywhere is my co-pilot I expect them to take me to a particular level with which after that I add in my own insights and my own knowledge.",
+      "speaker": "Nikita Roy",
+      "topic": "Human-AI collaboration and editorial standards",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Use ChatGPT Teams ($30/month) instead of free or paid tiers for newsroom work, as it does not train on your data and provides enterprise-level privacy",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom managers and journalists"
+    },
+    {
+      "advice": "Build AI literacy through structured training: start with foundational courses on AI basics, then run 'prompt clinics' — experimentation workshops pairing editorial and tech staff",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Create internal Slack channels for 'AI Wins' and 'AI Fails' to build shared institutional knowledge about what works and what doesn't",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom teams"
+    },
+    {
+      "advice": "Create AI principles (the 'why') rather than detailed AI guidelines (the 'how'), as principles adapt better to rapidly changing technology",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom leaders and policy makers"
+    },
+    {
+      "advice": "Be transparent about AI use — label AI-generated images with simple disclosures (e.g., 'produced with the help of Adobe Firefly') and choose ethically sourced tools that respect original creators",
+      "speaker": "Nikita Roy",
+      "target_audience": "editors and visual journalists"
+    },
+    {
+      "advice": "When evaluating AI vendors, examine: who the founding team is, privacy/data usage policies, whether their technical claims are accurate (reverse engineer their process), who their other clients are, and whether the tool fits your workflow with minimal learning curve",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom leaders evaluating AI tools"
+    },
+    {
+      "advice": "For confidential interviews, consider running transcription models locally on your computer rather than sending data to third-party AI services",
+      "speaker": "Nikita Roy",
+      "target_audience": "journalists handling sensitive sources"
+    },
+    {
+      "advice": "Start building good data infrastructure now — clean, accessible, unified data — to power future AI models and user experiences for news",
+      "speaker": "Nikita Roy",
+      "target_audience": "newsroom leaders and technologists"
+    },
+    {
+      "advice": "Use Elicit or Consensus for beat reporting that requires reviewing scholarly research papers, especially health/medical beats",
+      "speaker": "Nikita Roy",
+      "target_audience": "beat reporters covering research-heavy topics"
+    },
+    {
+      "advice": "Follow newsletters like The Wayfinder (Ezra Eaman), The Rundown, and Wonder Tools (Jeremy Kaplan) to stay current on AI developments in media",
+      "speaker": "Nikita Roy",
+      "target_audience": "journalists and newsroom staff"
+    }
+  ],
+  "external_references": [
+    "Online News Association (ONA) — AI and Journalism Initiative (journalists.org/AI)",
+    "Harvard Innovation Labs — Spark grant (incubating Newsroom Robots podcast)",
+    "International Center for Journalists (ICFJ) — Nikita Roy is a Knight Fellow",
+    "CUNY Craig Newmark School of Graduate School of Journalism — AI Journalism Lab",
+    "Radio Canada — AI literacy program and 'En Bref' product",
+    "The Guardian — AI principles (respect for content creators/owners)",
+    "WBUR — AI ethics guidelines",
+    "BR (Bavarian Broadcasting, Germany) — AI ethics policy since 2020",
+    "Ippen Media (Germany) — AI image generation built into CMS",
+    "Semaphore — AI-generated illustrations for editorial use",
+    "Hugging Face — open source AI platform; AI and Journalism community",
+    "Reynolds Journalism Institute (RJI) — built YesSEO tool",
+    "The Atlantic — OpenAI publishing partnership (Nick Thompson, CEO)",
+    "OpenAI — publisher licensing deals",
+    "The Wayfinder newsletter — Ezra Eaman (NPO, Dutch Public Broadcaster)",
+    "The Rundown newsletter — daily AI news digest",
+    "Wonder Tools newsletter — Jeremy Kaplan (CUNY)",
+    "Newsroom Robots Academy — Nikita Roy and Jeremy Kaplan collaboration",
+    "Wobby AI — Belgian data journalism startup",
+    "Florent Dodens — former Director of News Gathering at Radio Canada, now Press Lead at Hugging Face",
+    "Nick Thompson — CEO of The Atlantic, LinkedIn video series on tech",
+    "Fortune and Bloomberg — AI journalism coverage",
+    "BBC, Neiman Lab, Quartz, Yahoo Finance, CDC — featured Nikita Roy's insights",
+    "The Economists, Boston Globe, Stanford University, University of Toronto — workshop venues",
+    "ONA24 conference (journalists.org)",
+    "Adobe Creative Commons training data (Adobe Firefly)"
+  ]
+}

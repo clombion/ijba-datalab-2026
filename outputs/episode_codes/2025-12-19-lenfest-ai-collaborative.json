@@ -1,0 +1,369 @@
+{
+  "episode_date": "2025-12-19",
+  "episode_title": "Jim Friedlich, David Chivers & Matt Boggie: How the Lenfest AI Collaborative placed AI engineers in 10 newsrooms",
+  "codes": [
+    {
+      "code": "accidental-origin-of-collaboration",
+      "description": "The Lenfest AI Collaborative started from an accidental meeting between the Lenfest CEO and an OpenAI executive at an industry event, not from a strategic plan.",
+      "excerpts": [
+        "It started by accident. I met Tom Rubin a senior OpenAI executive in charge of their partnerships and their IP at an industry event",
+        "He was a New York Times copyboy before going to law school and then going on to Microsoft and then OpenAI"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "neutral"
+    },
+    {
+      "code": "middleware-role-of-funder",
+      "description": "Lenfest Institute operates as middleware between funders, tech companies, and multiple news organizations, solving the coordination problem that OpenAI described as 'herding the cats.'",
+      "excerpts": [
+        "He said he was having trouble herding the cats, meaning it was hard to talk to multiple newspapers and have them speak with one voice",
+        "We at Lenfest serve as a kind of middleware between funders and partners and technology companies and others and multiple news organizations"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "embedded-engineer-reporting-to-newsroom",
+      "description": "Each of 10 newsrooms received $250K/year to embed an AI engineer who reports directly to the newsroom, not to Lenfest, OpenAI, or Microsoft, preserving editorial independence.",
+      "excerpts": [
+        "they would help fund embedded AI engineering fellows at multiple news organizations. First five of them, eventually ten of them when we added Microsoft",
+        "Each of them received $250,000 a year to embed an AI engineer reporting to them, not to us, not to Microsoft or OpenAI"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "platform-agnosticism-by-design",
+      "description": "The fellowship grants deliberately do not require use of OpenAI or Microsoft products, building diversification of technology dependence into the program structure.",
+      "excerpts": [
+        "the requirements of the grants and the fellowships and the cohort do not include using either of them exclusively or both of them exclusively, they are agnostic to the platform and Matt is using several"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "pivot-to-video-contrast",
+      "description": "Explicit framing of the collaboration as different from the extractive Facebook Pivot to Video era: co-development rather than platform-dictated direction, with no one saying 'go this way because it's good for our platform.'",
+      "excerpts": [
+        "I think there's a difference between the Facebook Pivot to Video, which came and went, and the Facebook Journalism Project, which came and went, and a deeper co-development",
+        "No one is coming to us and saying, we want you to go in this direction because it's good for our platform. Instead, we're being approached and saying, we have some really interesting technologies that we think might be useful to you"
+      ],
+      "speaker": "Jim Friedlich / Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-optimism-as-strategic-posture",
+      "description": "Deliberate adoption of 'AI optimism' as a strategic stance, arguing that other industries (healthcare, finance, pharma) are leaning into AI partnerships and news should too.",
+      "excerpts": [
+        "there's also what David calls an AI optimism built in as well. We looked at AI as an enormous opportunity for the business sustainability of journalism",
+        "There are healthcare companies and financial service companies and streaming media companies and transportation companies and pharma companies leaning into AI"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "first-ai-engineer-ever",
+      "description": "For all 10 organizations in the cohort, including some quite large ones, this was the first AI engineering resource they had ever had on their teams.",
+      "excerpts": [
+        "for most of these organizations, I think actually all of these organizations, this is the first AI engineering resource that they've had in their teams"
+      ],
+      "speaker": "David Chivers",
+      "valence": "negative"
+    },
+    {
+      "code": "dramatically-undercapitalized-field",
+      "description": "Funder's assessment that AI use in news is dramatically undercapitalized, with these being the first AI engineers even in large news organizations.",
+      "excerpts": [
+        "from a funder's perspective, I think this field and the use of AI in this field is dramatically undercapitalized",
+        "these were the first AI engineers in each of these respective news organizations and some of them are quite large"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "negative"
+    },
+    {
+      "code": "community-of-practice-against-isolation",
+      "description": "Creating a structured community of practice for the 10 fellows who would otherwise be isolated as the only person 'speaking their nouns and verbs' in their organization.",
+      "excerpts": [
+        "it can be very lonely in an organization where you have you're the only person speaking your nouns and verbs and you're trying to bring the organization along",
+        "I wanted to make sure that we had this opportunity for the ten fellows to spend substantial time together"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "person-and-a-half-effect",
+      "description": "Each organization effectively gets 'a person and a half' because fellows across the cohort check each other's code, swap solutions, and accelerate each other's experiments.",
+      "excerpts": [
+        "each organization doesn't have one person in practice. They have like a person and a half. Because what's effectively happening is they're checking each other's code, they're swapping code from one project to the other"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "cross-cohort-code-sharing",
+      "description": "Concrete example of collaborative acceleration: Newsday's fellow incorporated Philadelphia Inquirer's freshness-solving code to leapfrog months of development on the data vault project.",
+      "excerpts": [
+        "Shawnee Yu, who is the fellow at News Day, was talking with all of us as a group, she said, okay, I've started to tinker with this. The freshness thing is a real issue. Well, who works with Matt at Philadelphia Inquirer said, hey, we've already solved that problem",
+        "she ended up incorporating the code that they used, the fine-tuning that they did"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "freshness-as-llm-limitation",
+      "description": "LLMs struggle with chronology in archive applications, surfacing a disaster from 20 years ago instead of one from two weeks ago, requiring specific engineering solutions.",
+      "excerpts": [
+        "the LLMs are not really good at understanding the chronology of information. The weights are done in a different way. So you could say, hey, what was a big disaster that happened in this community? And instead of surfacing the disaster that happened two weeks ago, it's surfacing a disaster that happened 20 years ago"
+      ],
+      "speaker": "David Chivers",
+      "valence": "negative"
+    },
+    {
+      "code": "dewey-archive-search-tool",
+      "description": "The Philadelphia Inquirer built Dewey, a RAG-based chatbot that searches the full archive back to 1978, with nightly refresh, enabling reporters to query historical coverage conversationally.",
+      "excerpts": [
+        "It is a full archive search across all of the material that the inquirer has published in its history. Right now, because of some system limitations, we can go back to 1978",
+        "every night it grabs all the stories that we published and updates its knowledge base"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "hackathon-as-accelerator",
+      "description": "A two-week hackathon with Microsoft's MADA team compressed what was expected to be a 24-month project into working code, with production release about four months later.",
+      "excerpts": [
+        "what was initially a brainchild of Matt and his teams that they thought would take 24 months to really stand up. We had working code after that two week hackathon",
+        "I think it was about four months from that point to the point that you were able to release it more broadly to a newsroom"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "40-percent-time-savings",
+      "description": "Quantified impact: deep archive research that previously took a week now saves up to two days with Dewey, approximately 40% time savings for reporters.",
+      "excerpts": [
+        "a deep dive in our archive can take up to a week. We're now saving up to two days out of that, you know, almost a 40% improvement, which is fantastic"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "training-reporters-on-llm-limitations",
+      "description": "Deliberate training program teaching reporters what LLMs are good and bad at: they fail at needle-in-haystack and exhaustive list queries, requiring supporting applications for those use cases.",
+      "excerpts": [
+        "what we've done with all of our research teams is to help them learn better how the LLMs work, what kinds of questions they're very good at, and then to build other supporting applications around them",
+        "Those two queries are very bad for LLMs. They're not good at understanding very specific information"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "neutral"
+    },
+    {
+      "code": "ai-tool-cross-pollination-beyond-editorial",
+      "description": "Editorial-built tools like Dewey find unexpected applications: ad sales using it to research client coverage history, marketing using it to identify reporter coverage trends for campaigns.",
+      "excerpts": [
+        "our ad sales team has been using it to go back and take a look at coverage for potential clients before a meeting",
+        "from a marketing perspective, are there particular trends in a reporter's coverage that we want to highlight in the way that we talk about them"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "photo-archive-as-stretch-goal",
+      "description": "Extending Dewey to incorporate photography: scanning and indexing published photos plus unpublished outtakes from original shoots, making visual assets searchable and reusable.",
+      "excerpts": [
+        "we've already begun what we thought was a stretch goal, which was incorporating our photography into that archive",
+        "go back to some of our archives for those shoots and get all the alts for the photos we didn't use"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-engineer-as-accessible-resource",
+      "description": "Having an embedded AI fellow creates an informal resource that reporters can reach via Slack for quick assistance, providing nudges on data work that reshape stories.",
+      "excerpts": [
+        "we now have a new capability on our team. You have someone who is very familiar with the technology and the code and can be reached out to on Slack",
+        "just massive value just jumping in with a reporter, understanding what data they're looking at, and providing a bit of a nudge in one direction or another"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "job-replacement-fear-overcome-by-experience",
+      "description": "Reporter fears of job replacement dissolved through hands-on use: the tools support well but 'do a terrible job at my job if I leave them alone.'",
+      "excerpts": [
+        "there was a lot of concern and naturally over things like job replacement and function replacement",
+        "the more they got to use the tools, they realized this helps support me really well. And it also does a terrible job at my job if I leave it alone"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "journalists-as-natural-ai-users",
+      "description": "Journalists possess the exact skill set for effective AI use: asking good questions (prompting), natural skepticism (verification), and deadline pressure (efficiency motivation).",
+      "excerpts": [
+        "there is no better profession or skill set than a journalist to use these tools because you're really good at asking questions, which is basically the prompting piece of it",
+        "you're naturally skeptical because you want to verify the information that you're getting and you want to double check your sources"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "news-as-small-market-for-ai-companies",
+      "description": "News is a small opportunity for OpenAI and Microsoft relative to other industries, meaning they will not fine-tune tools for journalism, making newsroom-led co-development essential.",
+      "excerpts": [
+        "news as a field in an industry is a rather small opportunity for OpenAI and Microsoft. So they're not going to spend the time sort of tweaking the tools and fine-tuning the tools for this industry",
+        "one, it's not a huge opportunity in comparison to infrastructure and other things, two, they don't have the expertise to do it"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "mixed"
+    },
+    {
+      "code": "google-answers-traffic-decline",
+      "description": "Google search becoming Google Answers has caused 20-30% drops in top-of-funnel traffic consistently across major news organizations, directly threatening the business model.",
+      "excerpts": [
+        "Google search has become Google Answers and if a news organization was getting forty percent of their daily traffic from Google and half of that number has declined and been satisfied by very good answers",
+        "their top of the funnel traffic is down twenty, twenty-five, thirty percent. And we've seen that pretty consistently across major news organizations"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "negative"
+    },
+    {
+      "code": "content-access-countermeasures",
+      "description": "Emerging strategies to protect publisher value in AI-mediated distribution: OAuth-authenticated LLM access, sending short summaries instead of full articles, content payment clearinghouses.",
+      "excerpts": [
+        "not sending your full article text when requested over an LLM application instead sending a very short summary, maybe some bullet points, but you can save the voice of your best columnist for yourself",
+        "you can use OAuth to authenticate into a publisher or another provider of information"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "neutral"
+    },
+    {
+      "code": "self-funding-ai-investment",
+      "description": "Framing AI development as potentially self-funding: business-facing tools like advertising prospecting can generate revenue that pays for the AI engineering resource.",
+      "excerpts": [
+        "some of the development should pay for itself. The Seattle Times developed an advertising prospecting tool",
+        "They use the tool somewhat skeptically and sold additional advertising fairly quickly out of the box"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "build-once-use-many",
+      "description": "Strategy to extend the collaborative's learnings and code from 10 newsrooms to at least 100 others, based on the principle of building once and reusing many times.",
+      "excerpts": [
+        "take the lessons of the wisdom of the code of the 10 news organizations we're working with and drive that to at least a hundred other news organizations",
+        "the notion is that you build it once and use it many times and we think there's value in that"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-restoring-abandoned-coverage",
+      "description": "AI enables recovery of coverage capacity lost two decades ago: monitoring public meetings through public records and recordings that no news organization can afford to cover with human reporters.",
+      "excerpts": [
+        "AI and the fact that we have these public records and recordings all of a sudden creates an opportunity that we let go of two decades ago",
+        "what I would call kind of utility journalism, things that helps make people's lives better. AI can do that really well with fewer people"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "reimagining-journalism-mission-not-format",
+      "description": "The strategic question should not be 'how do we save the article' but 'what is the job journalism needs to do for people and how can AI deliver that in new ways.'",
+      "excerpts": [
+        "I don't think the question should be like, how do we save the article or how do we drive consumption on site. I think the question should be, what is the job that journalism needs to do for people and how can AI help us deliver that in new ways?"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "anticipate-pivot-learn-as-you-go",
+      "description": "Newsrooms submitted proposals with starting points but explicitly anticipated pivoting and learning, with the collaborative being flexible enough to accommodate course changes.",
+      "excerpts": [
+        "we were very clear. We said, we think this is where we're going to start. We anticipate we're going to pivot. We'll learn as we go",
+        "we've seen a couple experiments from the time that these submissions happened and they've the grants were made to actually starting experimentation that there were vendors out there that solved the problem already. And so those organizations pivoted to the next thing on their list"
+      ],
+      "speaker": "Matt Boggie / David Chivers",
+      "valence": "neutral"
+    },
+    {
+      "code": "two-year-embedding-for-real-change",
+      "description": "Deliberate choice of two-year fellowship duration because meaningful organizational change requires sustained presence, not short-term consulting engagements.",
+      "excerpts": [
+        "we thought it was really important based on the conversations with Matt and some of the other organizations and chief technology and product officers that these fellows were around for a while in the organization. So each fellow is in the news organization for two years"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "slack-channels-for-ai-enthusiasm",
+      "description": "Practical recommendation to create informal communication channels (Slack channels called 'AI Enthusiast' or 'AI Ambassador') to surface bottom-up experimentation and interest.",
+      "excerpts": [
+        "they've set up Slack channels that are basically called like AI enthusiast or AI Ambassador. And it really just encouraging folks to share what they're seeing and how they're trying things"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "staff-already-using-ai-without-leadership-knowing",
+      "description": "Executives should assume their teams are already using AI more than they realize, making guidelines and transparency conversations urgent rather than aspirational.",
+      "excerpts": [
+        "your teams are using it. If you're an executive, your teams are using it more than you realize already. And it's really important to put some guidelines in place and then just have a clear conversation around let us know how you're using it"
+      ],
+      "speaker": "David Chivers",
+      "valence": "mixed"
+    },
+    {
+      "code": "leadership-signal-as-catalyst",
+      "description": "The CEO or editor-in-chief's explicit signal that AI matters -- embracing, rewarding, celebrating efforts -- is positioned as critical for organizational adoption.",
+      "excerpts": [
+        "it's critical to send the signal that this is really, really important to you and you embrace people's efforts and reward them and celebrate them"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "notebook-lm-for-project-memory",
+      "description": "Product managers at the Inquirer use Notebook LM to ingest all project documents, enabling instant recall of decisions, rationale, and timelines across complex projects.",
+      "excerpts": [
+        "our product managers have been using Notebook LM for all of our complex projects. So anytime there's a project charter, requirements document, a decision matrix, meeting notes, they all go in there",
+        "now we can ask things like when did we decide not to make this feature? Or why did we choose this vendor?"
+      ],
+      "speaker": "Matt Boggie",
+      "valence": "positive"
+    },
+    {
+      "code": "chatgpt-for-genealogy-discovery",
+      "description": "Personal use of ChatGPT to locate an ancestor's burial plot in Des Moines, including exact cemetery and plot number, enabling a spontaneous physical visit.",
+      "excerpts": [
+        "Where is Isaac Friedlich buried? circa nineteen oh two. And it says, Isaac Friedlich is buried in Woodlawn Cemetery, plot number twenty-eight, in West Des Moines",
+        "I'm five minutes later standing on the plot of my great great grandfather in Des Moines"
+      ],
+      "speaker": "Jim Friedlich",
+      "valence": "positive"
+    },
+    {
+      "code": "chatgpt-as-cycling-trainer",
+      "description": "Personal use of ChatGPT as a customized training and nutrition planner for long-distance cycling, integrating exercise data and food sources for optimized performance.",
+      "excerpts": [
+        "I have found that ChatGPT is an excellent trainer and training buddy. So I've started to put in sort of exercises and food, you know, sort of food sources and really optimizing when I need to eat, how I need to eat"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode documents the Lenfest AI Collaborative's model of embedding funded AI engineers in 10 local newsrooms with platform-agnostic mandates, explicitly contrasting this co-development approach with the extractive 'pivot to video' era. The most operationally significant finding is the 'person-and-a-half' effect: fellows share code and solve each other's problems across newsrooms, with a concrete example of Newsday incorporating Philadelphia Inquirer's freshness-solving code. The Philadelphia Inquirer's Dewey tool demonstrates how a RAG-based archive search compressed from an expected 24-month build to a two-week hackathon prototype can yield 40% time savings for reporters while cross-pollinating to ad sales and marketing, illustrating AI as a horizontal technology that defies departmental boundaries. The episode surfaces a critical structural tension: news is too small a market for AI companies to fine-tune their tools for, yet the industry is 'dramatically undercapitalized' in AI engineering, creating a gap that only coordinated, funded programs like this collaborative can bridge. Chivers's reframing from 'how do we save the article' to 'what is the job journalism needs to do for people' signals a strategic pivot from defending legacy formats to reimagining journalism's core mission through AI.",
+  "surprises": [
+    "The collaboration started entirely by accident at an industry event, not from any strategic initiative, and the OpenAI executive's background as a former New York Times copyboy gave him personal investment in news.",
+    "All 10 newsrooms in the cohort, including some 'quite large' organizations, had never had a single AI engineer on staff before this program, revealing the depth of the industry's technical undercapitalization.",
+    "A project expected to take 24 months had working code after a two-week hackathon, suggesting that access to experienced AI engineers (not just the technology itself) is the primary bottleneck.",
+    "Dewey, built for editorial research, was adopted by ad sales and marketing without modification, demonstrating that AI tools designed for one department spontaneously find horizontal applications."
+  ],
+  "tensions": [
+    "Platform-agnostic program design funded by OpenAI and Microsoft: the program is deliberately not tied to their products, yet the funding dependency remains, and the 'what happens in year three' question is only partly answered.",
+    "AI optimism as strategic posture vs. 20-30% traffic declines from Google Answers: the program celebrates AI as opportunity while the same technology is actively eroding the news business model.",
+    "Building AI self-sufficiency while acknowledging most newsrooms cannot afford a single AI engineer: the 'build once, use many' aspiration for 100+ newsrooms confronts the reality that homegrown expertise requires startup energy.",
+    "Journalists framed as 'natural AI power users' (skeptical, good at questions) vs. the simultaneous reality that reporter fear of job replacement required training and hands-on experience to overcome.",
+    "News as too small a market for AI companies to invest in fine-tuning vs. the stated goal of co-development with those same companies: the asymmetry of incentives is acknowledged but not fully resolved."
+  ]
+}

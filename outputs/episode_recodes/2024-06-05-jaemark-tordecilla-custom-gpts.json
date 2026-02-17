@@ -1,0 +1,187 @@
+{
+  "episode_date": "2024-06-05",
+  "episode_title": "Jaemark Tordecilla: Unlocking the Potential of Custom GPTs for Newsrooms",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "The more experience they had, the more useful the assistant was because what the assistant does is just the summaries and all the critical thinking and the nose for the news, we leave it up to the reporter. So actually it was a very promising discovery for us because it actually outlines the role of where AI ends and where the journalism begins.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla demonstrates the human-AI division through the COA Beat Assistant, where AI handles document summarization but experienced reporters provide the critical thinking that catches anomalies (like $1200 Celeron laptops) that AI misses, establishing that reporter experience amplifies AI utility rather than being replaced by it."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T02.3"
+      ],
+      "best_quote": {
+        "text": "There were news outlets who generated stories from AI, and we all know that's the worst thing you can do with this technology.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Trust is briefly addressed through the warning against AI-generated stories, positioning accuracy as the paramount concern for the journalism industry."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.3"
+      ],
+      "best_quote": {
+        "text": "You also see the biases. So half the time if it's a white male protagonist in the novel, it suggests Timothy Chalamet.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla surfaces bias through the novel-to-movie GPT revealing systematic casting preferences in training data, while emphasizing that knowing AI limitations makes journalists more open to adoption rather than less."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "There are some tasks where AI could help you very much, like summarization or even dealing with data. And then there are tasks where AI doesn't really do a good job, like the critical thinking part of the journalism. And yet the reason why it's jagged is because no one knows which tasks are which until they test it out.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla applies Ethan Mollick's jagged frontier concept to journalism, noting that custom GPTs dramatically reduced the cost of building AI tools (from thousands of hours of ML training to minutes), while acknowledging accuracy limitations that require human verification."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.4",
+        "T05.5"
+      ],
+      "best_quote": {
+        "text": "I think it's also good that it makes more people comfortable with working with data, if they don't have to do the coding, which is good because a data literate newsroom is a I think is a better newsroom whether it's working on it for stories or for audience or all sorts of things.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "The episode is fundamentally about democratizing AI tool-building: custom GPTs enable journalists without coding skills to create functional applications in minutes, query large datasets with natural language, and share prompt-based apps with colleagues, while Roy notes 40% of surveyed journalists have never tried ChatGPT."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.4"
+      ],
+      "best_quote": {
+        "text": "I would go back to the value chain of the journalism process. So you have reporting, you have writing, editing, and then production and distribution, and then figure out ways where AI could help at each part of the process.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla frames AI adoption strategy along the journalism value chain, identifying specific pain points at each stage (reporting, writing, editing, production, distribution) as the basis for prioritization, always with a human in the loop."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "If I did it using machine learning, I would have required thousands of hours of training and hundreds of hours of manpower just marking up the documents. And so I decided to create a custom GPT and it worked.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "The dependency on OpenAI's platform for custom GPTs (requiring paid ChatGPT Plus subscription) is noted as an access barrier, and the Philippines' position as third globally in GPT usage highlights global adoption patterns."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "It takes me like twenty minutes to generate a really nice infographic off of the data from there. So I don't have to do any R or Python. I just generate the data and paste it into something like Data Wrapper or Flourish and I have a social media post that gets good engagement.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Product innovation is touched through the Philippine government budget GPT that enables rapid infographic creation for social media, but audience-facing product design is not a central focus."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "Every government agency basically gets audited. So you're talking about hundreds of documents for every agency, every town, every province in the Philippines, and there's just not enough reporters to do it.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "The journalist shortage driving AI adoption is illustrated through the Philippine audit document use case, where hundreds of annual audit reports far exceed available reporter capacity."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T10.2"
+      ],
+      "best_quote": {
+        "text": "If this technology really would have its impact in the world that we were talking about, we need journalists who will cover this deeply and it's gonna be hard to cover a topic that you don't understand.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla argues that journalists need AI expertise to serve as effective watchdogs of the technology, positioning journalism literacy as a precondition for accountability."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "Custom GPTs is the easiest way to share prompts and documenting that prompt and getting other people to use it. So if you have a set of instructions that work for you, this is the easiest way to share that instructions set in an app using custom GPTs.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla demonstrates the radical compression of the prototype pipeline: what would have required thousands of hours of ML training can now be prototyped in minutes with custom GPTs, shared immediately with colleagues for feedback, and iterated upon based on real usage."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "A lot of my tools involve working with knowledge files and data sets. And that's because you vetted those sources and you know accurate information is in those sources.",
+        "speaker": "Jaemark Tordecilla"
+      },
+      "summary": "Tordecilla emphasizes the importance of working with vetted data sources rather than relying on LLM general knowledge, establishing responsible data practice as the foundation for accuracy in custom GPT applications."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T05"
+  ],
+  "secondary_themes": [
+    "T03",
+    "T04",
+    "T06",
+    "T11",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T02",
+    "T07",
+    "T08",
+    "T09",
+    "T10"
+  ]
+}

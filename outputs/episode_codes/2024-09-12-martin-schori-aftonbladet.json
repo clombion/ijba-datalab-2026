@@ -1,0 +1,289 @@
+{
+  "episode_date": "2024-09-12",
+  "episode_title": "Martin Schori: The AI Hub Powering Innovation at Sweden's Aftonbladet",
+  "codes": [
+    {
+      "code": "curiosity over litigation",
+      "description": "Choosing to explore AI's benefits while peers focused on threats and lawsuits, positioning journalistic curiosity as the right response",
+      "excerpts": ["when this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue. Although copyright is obviously a very important issue, at the same time we felt that as journalists we should be curious and we should also be talking about what could this new technology be used for the benefits of our readers and ourselves."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "central deprioritization forcing autonomy",
+      "description": "Newsroom AI ideas being deprioritized by central product/tech teams, necessitating a separate hub to move fast",
+      "excerpts": ["many of those ideas were deprioritized by central either centralized or or maybe brand teams like product and tech teams because there were bigger projects going on. So we felt that okay, if we want to be really fast and be experimental, and also educate the rest of the newsrooms... Then we need to build something on top of the organization."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "editorial-led AI credibility",
+      "description": "Staffing the AI hub with editorial people led by an editor to build trust with skeptical journalists",
+      "excerpts": ["we wanted the majority to be editorial. And that's also important, I think, for the credibility in the newsroom. We all know that journalists sometimes can be a little bit if someone comes from another department and wants to talk about something, maybe the journalists will be suspicious and they're not always listening."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "journalist suspicion of outsiders",
+      "description": "Inherent newsroom resistance to initiatives perceived as coming from non-editorial departments",
+      "excerpts": ["journalists sometimes can be a little bit if someone comes from another department and wants to talk about something, maybe the journalists will be suspicious and they're not always listening"],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "prompt queen literacy campaign",
+      "description": "Organization-wide AI prompting masterclass that every employee completed, establishing baseline literacy",
+      "excerpts": ["We called it How to Be a Prompt Queen. And had that, and we actually everybody at Aftonbladet took that class or course."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "proximity over presentation",
+      "description": "AI hub members physically sitting in the newsroom yielding more benefit than formal training sessions",
+      "excerpts": ["I think the most benefits have come out of people from the AI hub sitting out in the newsroom or with other departments. And just being available and hearing what people are talking about and what tasks they're doing and seeing if you could use AI for that basically."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "summary box engagement surprise",
+      "description": "AI article summaries increasing rather than decreasing article read-through, contradicting expectations",
+      "excerpts": ["about 40% of the people who see this box will expand it... those who did expand the box did read the article to a greater extent. Or longer than those who didn't expand it. So that was a bit surprising"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "threshold lowering strategy",
+      "description": "Building deliberately simple prompt-wrapper tools to lower the barrier for journalist AI adoption",
+      "excerpts": ["this was just a very, very small step into using AI. So we should like really lower the threshold to start."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "AI buffet approach",
+      "description": "Curating a destination of 25-30 diverse AI tools for self-service newsroom use",
+      "excerpts": ["all these like the ones that we created or built by ourselves and all the GPTs we did we put in what we call like an AI buffet. So that's like a destination that the journalists or editors can go to"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "non-programmer tool building",
+      "description": "Journalists with no programming experience successfully building useful AI tools (Custom GPTs)",
+      "excerpts": ["Elin that I mentioned before who has no previous experience in programming built, which is a great like proofreading feedback tool for articles that people are using"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "automation promise debunked",
+      "description": "Explicit rejection of the widely-held claim that AI will automate boring editorial tasks and save major time",
+      "excerpts": ["it was very popular to say that AI will replace all the boring tasks and we're gonna save so much time and money. Journalists will no longer have to do all the boring tasks, and instead we can do investigative journalism. That sounds great and it would be fantastic if that happened. But for us at Aftonbladet, at least for us, there aren't that many tasks that this technology can manage to automate. And we've been trying a lot, but we haven't really found that."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "breaking news AI-resistance",
+      "description": "Core breaking news tasks (calling police, following tips, verifying with sources) remaining stubbornly human",
+      "excerpts": ["we're focused on breaking news... their jobs include also following up tips that people send into the newsroom, calling the police or the authorities. So at least for us, there aren't that many tasks that this technology can manage to automate."],
+      "speaker": "Martin Schori",
+      "valence": "neutral"
+    },
+    {
+      "code": "transcription as sole productivity win",
+      "description": "Live transcription identified as the single undisputed AI productivity gain in the newsroom",
+      "excerpts": ["there's a big exception here and that's transcription... if you can upload interviews or you could Schibsted has built its own tool that's you can you could also transcribe, for example, press conferences live, and that's great, and that saves a lot of time."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "CMS integration barrier",
+      "description": "Tools not embedded in the CMS failing to achieve adoption even when useful",
+      "excerpts": ["most people that I've been talking to have kind of the same experience that if you have to go to another destination, although it's just not far away, that's it's an extra task."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "add-on versus time-saver paradox",
+      "description": "AI tools creating new outputs (fact boxes, timelines) rather than saving time on existing tasks, making ROI hard to demonstrate",
+      "excerpts": ["it would save time if we would have done the summaries manually, but we didn't do them before. And also it was the same thing with all this like tools we did with great like fact boxes and timelines... it's also stuff that we might have done before, but not on a large scale. So you couldn't say that we save a lot of time."],
+      "speaker": "Martin Schori",
+      "valence": "mixed"
+    },
+    {
+      "code": "headline generation failure",
+      "description": "AI-generated headlines consistently inferior to experienced tabloid editors despite being one of the most hyped use cases",
+      "excerpts": ["We have often coming from a tabloid background, we put a lot of prestige and pride in our headline making. That was one of the first things I heard about AI - you can use it for headline generation. We've tried that a lot. But still, an editor will come up with an eleventh version that's even better than the first ten."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "bad first impression risk",
+      "description": "Failed AI use cases (like headlines) turning journalists off the technology entirely",
+      "excerpts": ["if you're a journalist, then okay, now I'm gonna try this ChatGPT thing. And then you ask it for ten headlines and they all they're all super bad. Then you're gonna say, okay, well this technology is nothing for me or it's overrated."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "chatbot as journalism",
+      "description": "Insisting the election chatbot is a journalistic product built on original reporting, not a tech shell scraping the internet",
+      "excerpts": ["the election bot is journalism. And I think that's maybe that was something a mistake we did when we started talking about this. That I think a lot of people thought that this is a chatbot... it just goes out on the internet to find the answers. And that was not the case."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "RAG for editorial control",
+      "description": "Using Retrieval Augmented Generation with curated sources to maintain journalistic control over chatbot outputs",
+      "excerpts": ["We wanted to have total control. So we did a RAG model and a huge database with all the data and the answers that we got from the political parties. I think we used almost a hundred different sources and we instructed it to not invent or hallucinate"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "zero hallucination achievement",
+      "description": "Election chatbot producing no detected hallucinations across 150,000+ questions, defying expectations",
+      "excerpts": ["Up until this point we haven't seen any hallucinations or any errors. So that was also amazing"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "tenfold login conversion",
+      "description": "The chatbot driving login rates nearly ten times higher than typical initiatives, proving audience AI product demand",
+      "excerpts": ["usually when we do like all kinds of initiatives for having people logging in, we usually around 5% or something like that. But this one was way higher almost a tenfold."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "adversarial user testing",
+      "description": "Audiences actively trying to break the chatbot or get it to express political bias",
+      "excerpts": ["we did have a lot of people trying to break the bot with having it telling them what party to vote for... We had some malicious attempts"],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "management risk convincing",
+      "description": "Difficulty persuading leadership to approve an AI product that publishes without editorial review of each answer",
+      "excerpts": ["we're used, as you know, to have control of everything that we publish, like every number, every single letter that we put out there have been read through by an editor, but this time we just let we had no control whatsoever. So it took a while to convince our management team"],
+      "speaker": "Martin Schori",
+      "valence": "mixed"
+    },
+    {
+      "code": "audience indifference to AI label",
+      "description": "Users caring about content quality and relevance, not whether AI was involved in creating it",
+      "excerpts": ["people don't really care that much. As long as something is relevant, true, relevant, then they like it and they don't really care how the letters end up in the cell phone."],
+      "speaker": "Martin Schori",
+      "valence": "neutral"
+    },
+    {
+      "code": "chatbot as audience insight engine",
+      "description": "User questions to the election bot revealing what audiences actually want to know, informing future journalism",
+      "excerpts": ["it also gave us a lot of knowledge about what people are wondering about in election times. And those insights we could use for writing new articles, for example, and also next time there's an election, we will know probably what people would be interested in."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "editorial to audience product pivot",
+      "description": "AI hub shifting focus from internal editorial tools to audience-facing products after discovering limited editorial automation gains",
+      "excerpts": ["We've been focusing on more on products and tools for the audience... the goal here is obviously to create or to have a more modern user experience."],
+      "speaker": "Martin Schori",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI bias flipped for equity",
+      "description": "Using AI to audit and combat the very biases AI is typically accused of reinforcing",
+      "excerpts": ["AI is usually and rightfully accused of promoting and reinforcing bias and prejudice, but you can also use it to try to combat that."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "depressing diversity audit results",
+      "description": "AI-powered content analysis revealing a gender gap larger than expected across 100,000 articles",
+      "excerpts": ["we could see that we did have a gender gap, which was probably a little bit bigger than we thought it would be... in general it was quite depressing actually"],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "structural gender gap immovability",
+      "description": "Some gender representation issues being structural (male prime ministers, male soldiers, male football players) and resistant to editorial intervention",
+      "excerpts": ["The Prime Minister in Sweden is a man. Men start wars and shoot at each other every day. We have to report on that. When we report about a Premier League game there will be at least 22 men in that article"],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    },
+    {
+      "code": "KPI difficulty for experimental AI",
+      "description": "Struggling to define meaningful success metrics for experimental AI initiatives beyond usage quantity",
+      "excerpts": ["we didn't have any really like hard KPIs... How do we measure success there? Well, we have no idea how many questions we would get. So that was I think we set the goal after the first day."],
+      "speaker": "Martin Schori",
+      "valence": "mixed"
+    },
+    {
+      "code": "business side AI potential",
+      "description": "Recognizing that subscriptions, churn prevention, and marketing may offer higher AI returns than newsroom editorial tasks",
+      "excerpts": ["there's probably a lot of things that you could do within marketing or the business side, working with subscriptions, with churn prevention, that kind of things... I think a lot of people started there. So I think that there's most big potential when it comes to subscriptions or personalization"],
+      "speaker": "Martin Schori",
+      "valence": "neutral"
+    },
+    {
+      "code": "hub team joy and cohesion",
+      "description": "The AI hub team forming deep bonds, working election night together and socializing on their day off",
+      "excerpts": ["they spent the whole election night working with the chat bot... they said, okay, now it's time to take a day off... and then they went to one of the colleagues and had a barbecue like the AI hub. So they spent even that then they spent the time with them"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "document photo translation for scoops",
+      "description": "Using ChatGPT to transcribe and translate photos of documents for breaking news, yielding multiple scoops",
+      "excerpts": ["when someone posts a document, a photo of a document online... you can use ChatGPT just to transcribe it and translate it and you can get we have several examples on how we have been able to break news that way"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "AI voice anonymization upgrade",
+      "description": "Replacing irritating pitched-up voice disguise with AI-generated alternative voices for source protection",
+      "excerpts": ["when we do an investigation and you want to anonymize a source, for example, but still keep a voice instead of like pitching up the voice, which makes it very irritating to listen at you can use AI to generate another voice instead"],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "dinosaur misidentification humor",
+      "description": "AI gender analysis bot incorrectly identifying a dinosaur image as a woman, illustrating technical limitations with levity",
+      "excerpts": ["we had a picture of a dinosaur and it said like one woman. So it's there's room for improvement. Maybe the tool was built by a man."],
+      "speaker": "Martin Schori",
+      "valence": "mixed"
+    },
+    {
+      "code": "immigrant language accessibility",
+      "description": "Experimenting with AI translation of podcasts for communities where Swedish is a second language",
+      "excerpts": ["in Sweden, for example, we have big communities with where Swedish is like the second language and maybe they want to consume the news in another language, for example. And that's something we've been experimenting with a lot."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "personal chatbot dependency",
+      "description": "Editor personally defaulting to brainstorming with a chatbot before any task, a behavioral shift",
+      "excerpts": ["now whenever I'm gonna do basically anything, I start with brainstorming with a chatbot. And I think that's very good."],
+      "speaker": "Martin Schori",
+      "valence": "positive"
+    },
+    {
+      "code": "cost anxiety constraining experimentation",
+      "description": "OpenAI API costs causing the team to limit user questions on the chatbot, then cautiously raising limits",
+      "excerpts": ["we first we had a limit of 10 questions. I think we raised that until to 30 questions because we didn't we were a bit worried about the cost."],
+      "speaker": "Martin Schori",
+      "valence": "negative"
+    }
+  ],
+  "episode_summary": "Aftonbladet's year-long AI journey represents perhaps the most empirically honest account in the podcast's run: Schori systematically dismantles the conference-circuit narrative that AI will automate editorial drudgework and free journalists for investigative reporting. The pivot from internal editorial tools to audience-facing products (the election chatbot) marks a strategic admission that AI's value in a breaking-news newsroom lies in creating new reader experiences, not in optimizing existing journalist workflows. The chatbot's success (150,000+ questions, zero hallucinations, tenfold login conversion) demonstrates that journalistic AI products built on RAG with original reporting can function as both engagement engines and audience research tools. Most provocatively, Schori's finding that audiences 'don't really care' whether content is AI-generated challenges the industry's anxious transparency discourse, suggesting the AI provenance debate may be more of an internal professional concern than an audience demand. The diversity audit subplot reveals AI's dual potential: the same technology accused of reinforcing bias was used to surface Aftonbladet's own gender gap, a finding Schori described as 'quite depressing' but necessary.",
+  "surprises": [
+    "AI headline generation -- one of the most commonly cited newsroom use cases -- consistently failed at a tabloid newspaper, with human editors always producing a superior version",
+    "The election chatbot achieved zero detected hallucinations across 150,000+ questions, contradicting the prevailing narrative that chatbot errors are inevitable",
+    "Audiences showed near-complete indifference to AI involvement in content, caring only about relevance and accuracy, undermining the industry's emphasis on AI labeling",
+    "AI tools for editorial tasks created new outputs (fact boxes, timelines) rather than saving time on existing ones, meaning productivity gains were illusory",
+    "A journalist with no programming experience (Elin) built one of the most-used AI tools in the newsroom (Budreader), suggesting the technical barrier to AI tool creation is lower than assumed",
+    "The chatbot's login conversion was nearly tenfold higher than typical initiatives, achieved during EU elections -- a topic Swedes normally find boring"
+  ],
+  "tensions": [
+    "Automation narrative versus empirical reality: the widely promoted claim that AI will eliminate boring tasks and fund investigative journalism was tested and found wanting at a major newsroom",
+    "Editorial control versus publishing at scale: the chatbot published 150,000+ unreviewed answers while the newsroom's culture requires editors to approve every letter, representing a fundamental philosophical breach",
+    "AI for equity versus structural immovability: AI revealed and could help address gender gaps in coverage, but much of the imbalance is structural (male politicians, male athletes) and resistant to editorial intervention",
+    "Audience indifference versus industry anxiety: readers don't care how content was made while the industry obsesses over transparency labels, suggesting a disconnect between professional concerns and audience needs",
+    "Tool abundance versus adoption failure: 25-30 tools in the AI buffet, but even the simplest CMS-integrated one required constant reminders to get journalists to use it",
+    "Experimentation ethos versus KPI demands: the hub's mandate was to experiment, but the organization still struggled to articulate what success looked like beyond raw usage numbers"
+  ]
+}

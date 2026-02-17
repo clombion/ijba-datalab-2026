@@ -1,0 +1,286 @@
+{
+  "episode_date": "2024-02-09",
+  "episode_title": "Building AI Products with an Editor-Centric Approach",
+  "codes": [
+    {
+      "code": "editor-centric product development",
+      "description": "A product development philosophy where editors are involved as co-creators at all stages -- not just end users -- ensuring tools match actual workflows and pain points",
+      "excerpts": [
+        "when it comes to developing AI tools, we follow an Editorial tools, we follow an editor-centric product development process, meaning that editors are involved in all stages of this process.",
+        "They are not just users. They are co-creators."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "journalist-first identity",
+      "description": "Alviani's self-identification as a journalist first and product manager second, grounding his AI work in editorial values rather than technical optimization",
+      "excerpts": [
+        "I see myself as a journalist. I spent around seven years working for an Italian daily, La Stampa and writing about politics and economics",
+        "I think it's extremely important that we have more and more breach rules in this field because it helps developing it helps to develop a better understanding"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "pre-ChatGPT AI preparedness",
+      "description": "Ippen Digital's AI education and experimentation began before ChatGPT's launch, positioning them ahead of the generative AI hype cycle",
+      "excerpts": [
+        "the very first workshop in the series took place on the 29th of November 2022 This is exactly one day before the launch of ChatGPT.",
+        "we had already collected a lot of experience on how to develop tools based on LLMs"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Microsoft displacement trauma",
+      "description": "Alviani's formative experience of having to cancel colleagues' contracts when Microsoft replaced human curators with AI, informing his insistence on human-in-the-loop approaches",
+      "excerpts": [
+        "I've been in a situation where I had to tell my colleagues, I'm sorry, we have to cancel your contract. And I've seen what happens when you replace human journalists with AI systems and have seen which kind of consequences this can have",
+        "it became a lesson in how not to implement AI in a newsroom"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "negative"
+    },
+    {
+      "code": "replacement fear as lived experience",
+      "description": "The fear of AI replacing journalists is not hypothetical for Alviani -- he witnessed it firsthand, which gives his editor-centric approach personal urgency",
+      "excerpts": [
+        "This is why I take it very seriously when I hear people talk about the risk and fear of being replaced by an AI system because basically I've been there.",
+        "I've seen what happens when you replace human journalists with AI systems and have seen which kind of consequences this can have and for the people who are directly involved involved but also for the quality of the news coverage."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "negative"
+    },
+    {
+      "code": "cross-functional team composition",
+      "description": "The AI team of ten people deliberately includes editors alongside ML/NLP/computer vision experts and mathematicians, ensuring editorial perspective is embedded in technical work",
+      "excerpts": [
+        "The AI team at IPN consists of ten people. And we have very diverse backgrounds. We have machine learning experts, natural language processing experts, and computer visions... most importantly we have two editors and one of them is a former IPAN trainee"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "multi-tool prototyping platform",
+      "description": "A single platform where editors can access a range of Gen AI capabilities: transcription, summarization, plain language rewriting, and video script generation",
+      "excerpts": [
+        "we have developed a prototyping platform. For a wide range of Gen AI tasks. So editors can, for example, transcribe interviews, summarize articles, rephrase articles in plain language, or generate video scripts"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "illustration-only image policy",
+      "description": "A deliberate policy to only generate illustration-style images never photorealistic ones, ensuring AI-generated visuals are instantly recognizable as non-photographic",
+      "excerpts": [
+        "We do not create images that could be mistaken for photos. So we only produce illustration style Pictures because they are instantly recognizable as AI generated pictures."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "LLM self-evaluation system",
+      "description": "An automated quality gate where LLM outputs are assessed against metrics (correctness, completeness) before presentation to editors; failures trigger automatic reprompting",
+      "excerpts": [
+        "we have been developing a system to self-evaluate the output of an LLM",
+        "if this threshold is mapped by the AI-generated output, then this output is presented to the editor. For final review. But if it's not met, what happens is we generate automatically a feedback... And what happens, the system is able to reprompt itself in order to address those drawbacks or those errors."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "hallucination risk reduction",
+      "description": "Technical approaches to mitigate LLM hallucination through self-evaluation metrics, comparison against original content, and automated reprompting",
+      "excerpts": [
+        "Does it contain information? And are not contained in the original article. So it's basically a system to help editors reviewing content, and this is a way We also to reduce the hallucination risk."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "CMS-integrated AI suggestions",
+      "description": "AI-powered headline and lead suggestions delivered directly within the content management system, reducing friction between editorial workflow and AI assistance",
+      "excerpts": [
+        "We have built and integrated straight into our CMS. an LN powered system that gives editor suggestions for headlines and uh leads"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "reader format choice",
+      "description": "Giving readers agency to choose how they consume articles -- bullet points, summaries, translated, plain language -- based on their current reading context",
+      "excerpts": [
+        "we recently launched an AI feature in our apps to allow readers to read articles in different formats",
+        "if you have just one minute before you have the next meeting you can generate bullet points but if you have a bit more time you can read a longer summary"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "fine-tuning on proprietary corpus",
+      "description": "Training task-specific open-source LLMs on Ippen's own millions of articles to improve domain-specific and language-specific performance",
+      "excerpts": [
+        "We have been fine-tuning task-specific large language models on our articles using open source models."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "human accountability not algorithm",
+      "description": "The principle that when AI-assisted content goes wrong, the newsroom bears responsibility -- not the algorithm",
+      "excerpts": [
+        "if something goes wrong And it can happen, unfortunately. Then it's not the algorithm's fault that something has been published, that it was false, but it's our own. We are accountable for that."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "dual transparency mandate",
+      "description": "Transparency operating on two planes: internal (educating editors about AI capabilities and limitations) and external (reader-facing bylines disclosing AI use)",
+      "excerpts": [
+        "transparency, when we talk about transparency, we mean both internal transparency and external transparency. Internal transparency means basically that we developed a series... additional formats to talk regularly with our editors",
+        "external transparency means bylines. That was really important to us. to make the use of generative AI transparent for the readers."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "countering LinkedIn AI hype",
+      "description": "Actively pushing back against the simplistic productivity claims ('five prompts that will make you more productive') by developing realistic understanding of LLM capabilities",
+      "excerpts": [
+        "We have all red on LinkedIn, X, and so on posts telling us here five prompts that will make you more productive. and so on. Well, I think it's our responsibility to help editors To develop a more realistic approach to LLMs."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "negative"
+    },
+    {
+      "code": "editor internship with AI team",
+      "description": "Two-week embedded internships where editors from any department work directly with the AI team, co-developing and testing applications in agile sprints",
+      "excerpts": [
+        "we introduced dedicated internship with the AI team. That means that everyone at Hipton uh no matter in which department the editors work can do a dedicated internship with my team. That means they spend two weeks working in the team basically for a wall sprint",
+        "everyone doing an internship is getting a broader knowledge on how AI tools really work on limitations, especially of LLMs."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "product discovery over feature requests",
+      "description": "A research methodology where the team visits editors to understand workflows and pain points rather than asking directly what features they want",
+      "excerpts": [
+        "We have established product discovery sessions, meaning that we visit editors, managing editors in different cities and we do deep dive interviews with them.",
+        "We usually don't ask them, what do you want to have? Because this will be a bit tricky question, but we try to better understand how they work"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "weekend quality vulnerability",
+      "description": "Editorial quality risk is highest during off-peak hours (weekends, evenings) when fewer editors are available, making AI quality assistance particularly valuable",
+      "excerpts": [
+        "the risk of editorial and let's say stylistical grammatical errors is becoming bigger and bigger, especially at weekends and in the evening, is there something we can do together?"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "negative"
+    },
+    {
+      "code": "editorial assistant co-developed",
+      "description": "A style guide compliance tool that originated from a managing editor's request and was refined through intern editors from multiple departments",
+      "excerpts": [
+        "the original idea was brought to us by a managing editor. And basically the idea is... the risk of editorial and let's say stylistical grammatical errors is becoming bigger",
+        "together with interns. Due in their internship journalists doing their internship with the AI team, we basically started refining the tool"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "transcription tool evolution",
+      "description": "A tool that started as simple transcription but expanded based on editor feedback to include translation, summarization, bullet points, and quote extraction",
+      "excerpts": [
+        "it started as a transcription tool, but based on the feedback we got from our editors We started basically implementing it or developing it",
+        "you would like to have a translation into German of course, but you would like maybe you would like to have a summary of the most important information... or maybe you would like to know which are the strongest quotes"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "standardization as scaling principle",
+      "description": "Prioritizing AI tools that can scale across multiple newsrooms and portals rather than building bespoke solutions for individual teams",
+      "excerpts": [
+        "when we analyze a potential tool, we always take into account whether it is scalable. or not, which means that we usually don't usually don't build tools for just one or two newsrooms or portals."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "impact-effort prioritization",
+      "description": "Using structured frameworks (impact-effort metrics, feasibility, speed) to prioritize which AI product ideas to pursue, aligned with company OKRs",
+      "excerpts": [
+        "we have sort of refined the framework that I first learned from Ariel. uh zeromick as a mentee in the first mentorship program of the news product alliance the impact effort metrics",
+        "They ask to basically match the overall Company strategy. So we work with OKEs"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "Guardian GPT-3 article as catalyst",
+      "description": "The Guardian's 2020 GPT-3-generated opinion piece as a formative moment that catalyzed Alviani's interest in AI journalism",
+      "excerpts": [
+        "an opinion piece. that was published by The Guardian on its website called A Robot wrote this entire article, Are you scared now? Are you scared yet human? And back at the time I worked for Microsoft News."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "synthetic voice video explainers",
+      "description": "Using AI to generate video scripts that are then augmented with synthetic voices for AI-powered video explainers",
+      "excerpts": [
+        "generate video scripts. That can be later augmented with synthetic voices for AI-powered video explainers."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "Aleph Alpha partnership",
+      "description": "Collaboration with Aleph Alpha, a German company developing its own LLMs, as part of Ippen's strategy to use locally developed models",
+      "excerpts": [
+        "we started experimenting on a variety of use cases with several partners, including Alefalfa, a German company that develops its own LLMs."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "guardrails before development",
+      "description": "The principle that ethical guardrails and principles (human-in-the-loop, responsible use, transparency) must be established before AI tool development begins",
+      "excerpts": [
+        "Human in the loop is and editor in the loop is one of the of our principles. uh that we have set up very early on because it was important to us uh to have very clear guardrails before we started basically developing AI tools"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "bridge role value",
+      "description": "The importance of people who bridge journalism and technology, combining editorial understanding with product management capability",
+      "excerpts": [
+        "I think it's extremely important that we have more and more breach rules in this field because it helps developing it helps to develop a better understanding. For the needs and the pain points of our editors, and at the same time build products that bring real business value."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Alviani presents the most operationally detailed account of AI integration in the podcast corpus so far, revealing that Ippen Digital's editor-centric approach is not merely rhetorical but structurally embedded through cross-functional teams, editor internships, product discovery sessions, and self-evaluating LLM systems. His personal history -- firing colleagues at Microsoft News when AI replaced human curators -- functions as the origin story for his insistence on augmentation over replacement, making his framework simultaneously pragmatic and ideological. The episode reveals a sophisticated three-layer architecture: a prototyping platform for experimentation, CMS-integrated tools for daily workflows, and self-evaluation systems that serve as automated quality gates. Critically, Alviani's approach inverts the typical tech-company playbook: rather than building AI tools and training editors to use them, he embeds editors in the AI team so that tools emerge from editorial pain points, particularly the weekend/evening quality gap that affects local news outlets. The prioritization framework (standardization, impact-effort metrics, OKR alignment) suggests a level of product management maturity rare in newsroom AI efforts.",
+  "surprises": [
+    "Ippen's first AI workshop was literally the day before ChatGPT launched, suggesting genuine pre-hype AI investment rather than reactive adoption",
+    "The self-evaluating LLM system automatically reprompts itself when quality thresholds are not met -- a feedback loop that reduces the burden on human reviewers before they even see the output",
+    "Alviani explicitly frames the 'five prompts' LinkedIn culture as an obstacle to responsible AI adoption, positioning hype as a concrete organizational challenge",
+    "The illustration-only policy for AI-generated images represents an unusually firm and specific ethical red line, not just a general guideline",
+    "The editor internship model inverts the usual training paradigm: instead of teaching editors about AI, it brings editors into the AI development process as co-creators"
+  ],
+  "tensions": [
+    "Alviani experienced AI replacing journalists firsthand at Microsoft, yet he now leads AI product development -- his work requires constant navigation between augmentation and the replacement he fears",
+    "The 'editor-centric' approach privileges existing editorial workflows, which could limit more radical innovation that editors themselves might not envision",
+    "Product discovery sessions deliberately avoid asking editors 'what do you want' -- but this creates a tension between empowering editors as co-creators and the product team ultimately interpreting and filtering their expressed pain points",
+    "The self-evaluation system reduces hallucination risk but could also create overconfidence in AI outputs if editors begin to trust the automated quality gate as a substitute for their own judgment",
+    "Standardization as a scaling principle means tools must work across all 60 portals, which may sacrifice fit-for-purpose specificity that individual newsrooms need"
+  ]
+}

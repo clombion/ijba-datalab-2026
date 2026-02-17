@@ -1,0 +1,315 @@
+{
+  "episode_date": "2024-02-01",
+  "episode_title": "Rethinking the journalism business model in the age of AI",
+  "codes": [
+    {
+      "code": "content as commodity trap",
+      "description": "The idea that journalism's traditional value proposition -- producing content -- is fundamentally undermined by digital reproduction and AI generation, requiring a shift to other value forms",
+      "excerpts": [
+        "If we still think that we're valuable only because we make this thing called content, we are doomed. And AI is not the agent of doom, but it shows us that future.",
+        "That completely sucks away this value of the content and attention economies."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "industry copying inefficiency",
+      "description": "The systemic waste in journalism where news organizations devote massive resources to rewriting each other's stories for their own ad impressions",
+      "excerpts": [
+        "This is what makes our business so incredibly inefficient. is that we devote a huge amount of resource to copying each other. So we have our own page with our own content, with our own clicks and likes and SEO to get our own ad impression and our own pennies.",
+        "Business Insider is famous for rewriting other news sites. Again, as is their right to do so."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "licensing paradox",
+      "description": "The logical contradiction where licensing intermediaries like Business Insider can legally do what AI companies are criticized for -- reading, learning, and reusing news content",
+      "excerpts": [
+        "So now if OpenAI licenses Business Insider and Business Insider rewrites the New York Times, Business Insider can do what Congress was saying OpenAI shouldn't do. Which is to read, learn, and use."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "translation as AI gateway",
+      "description": "Machine translation as a concrete, already-deployed AI benefit that expands news accessibility across language barriers",
+      "excerpts": [
+        "I go and read Helsingon Sonomat in Finnish, the most impossible language I can imagine, thanks to Google Translate and it opens up a world for me. So I think there's a chance to expand one's horizons."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "crowdsourced corpus journalism",
+      "description": "A proposed model where communities contribute raw data (e.g., school board recordings) and AI performs cross-corpus analysis at scale that individuals could not",
+      "excerpts": [
+        "what if that editor said to their readers, okay, I need a hundred of you to go and record your school board meetings this week, then bring them back. and we're going to have the machine transcribe them and then we're going to query that corpus and say how many of these school boards are trying to ban books."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "floor-scale-ceiling framework",
+      "description": "A three-tier framework for understanding AI benefits: raising the floor (enabling the previously unable), scaling ability (doing more faster), and raising the ceiling (doing the previously impossible)",
+      "excerpts": [
+        "AI can raise the floor. It can enable people to do things they otherwise couldn't do. People who can't write can write. People who can't code can code. with limitations. People who can't draw can draw, can illustrate. It also scales ability. I can do something faster and easier and do more of it. It also raises the ceiling and lets us do things that we weren't otherwise capable of doing, like folding proteins or analyzing 100 school board meetings."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "uneven impact distribution",
+      "description": "AI's benefits and harms will not be distributed equally across society, with some losing their sense of purpose while others gain capability",
+      "excerpts": [
+        "On the bad side, it's going to have uneven economic impact, enables the scaling of evil, of doing things, bad things at scale. And it also robs people or takes away people, some of them their sense of purpose, writers, coders, and so on. And all of us is going to be uneven as hell."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "constrained corpus reliability",
+      "description": "LLMs become much more reliable and useful when they operate on a restricted, curated corpus with source citations, compared to open-ended querying",
+      "excerpts": [
+        "when the large language model deals with a constricted corpus. and sites and links to the citations, it's pretty good. It's pretty reliable. It's pretty useful. It's not like asking just a raw model questions, right?"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "query interface as product",
+      "description": "The idea that news organizations should build conversational query interfaces on their content archives, offering personalized access beyond editor-curated homepages or search",
+      "excerpts": [
+        "But if I could go in and query it and its archive, I would be able to get a different view of that news. Better than search. better than the homepage, more specific to my needs.",
+        "rather than complaining about BARD giving people information so they don't have to go to the news site. Why don't you do that, New York Times?"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "Schibsted as innovation exemplar",
+      "description": "Schibsted held up as the singular example of a news company that approaches AI with a competitive, build-first mentality rather than a defensive or litigious posture",
+      "excerpts": [
+        "Shipstead is smarter than any news company I know out there. They have been more innovative. They have been more strategic and bold at every step and more successful in everything, in paywalls, in collaboration, in everything.",
+        "Shipstead's view is let's beat him."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "compete not litigate",
+      "description": "The strategic choice to build competitive AI products rather than suing or passing laws against tech companies",
+      "excerpts": [
+        "they're going at it in this sense of saying we're going to build the best we can so we are competitive with And better than the stuff coming out of Silicon Valley, which is the right way to look at it, rather than other countries which say, let's sue them or let's pass laws against them."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "national language LLM sovereignty",
+      "description": "The movement to create language-specific LLMs so non-English-speaking nations are not dependent on Silicon Valley's English-centric models",
+      "excerpts": [
+        "there's a movement to create a Norwegian language LLM. so that you're not just dependent upon the English language models.",
+        "the CTO of Shipstead at last year's Nordic Media Day urged all publishers to contribute their content to an effort to create not only Norwegian language, but other northern Germanic language, LLMs."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "cooperative research fragile commercial",
+      "description": "The tension between collaborative research phases (where publishers freely contribute data) and commercial phases (where individual interests may fracture cooperation)",
+      "excerpts": [
+        "When they get to the commercial part, it could all change, right? Then all the publishers can say, uh-uh, deal's not good enough. I'm out. Take my stuff out. You can't use it to respond to queries. We'll see"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "digitization as precondition",
+      "description": "Norway's advanced digitization of newspapers and books as a prerequisite for building competitive language-specific AI models",
+      "excerpts": [
+        "in Norway, I said, because they're Norwegian. They're just sane and sensible and smart and good and decent. He said, well, we're we're just digitized. All of our newspapers are digitized. Almost all of our books are already digitized. It's all digital. So that makes it pretty easy to get it in."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "transparency as brand protection",
+      "description": "Failure to disclose AI-generated content destroys publisher credibility, while transparency (even about imperfect AI) preserves trust",
+      "excerpts": [
+        "They just weren't clear enough with their audience. Because what Kinette did was say, we can't cover these thousand high school games... They should have said, by the way, a machine wrote this. It's probably going to screw up. Ha ha ha ha. Tell us what it does. And then it would have been okay."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "hallucination as publishing irresponsibility",
+      "description": "Using generative AI to write articles at scale is irresponsible because of hallucination; the blame lies with the journalist or organization, not the tool",
+      "excerpts": [
+        "I don't think generative AI should be used right now to be writing articles at scale because of the hallucination. No. It's irresponsible.",
+        "the judge interrupted and said, I set out to do no such thing. He didn't care about the technology. He cared about its misuse by attorneys who didn't do their full job. Same will be tr said of journalists if they use this to cheat."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "professional responsibility over tool blame",
+      "description": "Courts and society will hold professionals accountable for AI misuse rather than blaming the technology itself",
+      "excerpts": [
+        "He didn't care about the technology. He cared about its misuse by attorneys who didn't do their full job. Same will be tr said of journalists if they use this to cheat.",
+        "I didn't know the machine could lie, he said. Which is somewhat defensible, right?"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "content to conversation shift",
+      "description": "Journalism must move from a content-production model to a conversational model, returning to media's pre-industrial roots",
+      "excerpts": [
+        "I think that's going back to what is the true nature of society. And by the way, of media from the early days.",
+        "print was conversational. Martin Luther and the Pope were in a conversation between their books and the burnings of them.",
+        "I think there's an opportunity now to return to that conversational nature and rescale media down from mass to a human scale."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "prompting as new literacy",
+      "description": "Prompt writing as a critical professional skill that bridges conversational ability and machine programming, making English itself a programming language",
+      "excerpts": [
+        "the most powerful programming language on planet Earth today is English.",
+        "my colleague Carrie Brown and I teach the students to write prompts for covering the communities they cover. Well, that sounds familiar."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "revenge of the English major",
+      "description": "The inversion where humanities-trained professionals gain power because natural language is now the interface for programming machines",
+      "excerpts": [
+        "this is the revenge of the English major. For he said, and there's limitations to what I'm about to say, but he said that the most powerful programming language on planet Earth today is English."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "internet studies imperative",
+      "description": "The need for a new academic discipline integrating humanities, social sciences, and technology to understand the internet and AI as fundamentally human networks",
+      "excerpts": [
+        "One of the programs that I hope I get to start somewhere else is a program in internet studies. My purpose here actually is to demote the geeks.",
+        "I think we have to bring in the humanities and the social sciences into the decision making there and prepare our students to be leaders. by teaching anthropology and psychology and ethics and community studies and design and history."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "AI as internet extension",
+      "description": "AI understood not as a standalone technology but as an extension of the internet, dependent on it for data and human speech",
+      "excerpts": [
+        "to me, AI is an extension of the internet. For without the internet, there wouldn't be an AI because we wouldn't be able to get all that data. And what data do we get? We get human speech that is there."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "media moral panic cycle",
+      "description": "The recurring pattern where media first hypes a technology as utopia then vilifies it as dystopia, now repeating with AI after the internet",
+      "excerpts": [
+        "media have turned the internet into an enemy. And they're now doing the same thing with AI. Oh, it's dangerous. Oh, it's terrible.",
+        "we saw it first as the future utopia, and then immediately turning on a dime saw it as dystopia and destruction and evil companies, and all of which was too simplistic."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "dangerous AI philosophies",
+      "description": "Concern about the ideological frameworks (transhumanism, long-termism, effective altruism) driving some AI leaders that prioritize hypothetical future beings over present humans",
+      "excerpts": [
+        "the faux philosophies that drive some of the AI boys. Test Creole, transhumanism, long-termism, uh effective altruism, and so on. And they're wacky.",
+        "I'm not scared of AI. I'm scared of a lot of the AI boys who follow this stuff, cult-like."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "LLMs as parlor tricks",
+      "description": "The characterization of current LLM products as surface-level tricks built on powerful underlying technology, better suited to creativity and brainstorming than factual reporting",
+      "excerpts": [
+        "I think what we have to do at this point is recognize that LLMs are parlor tricks. What's behind them is very powerful technology, but at the level at which they work, they don't do much."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "counterfactual framing hypothesis",
+      "description": "The argument that if LLMs had been positioned as fiction/creativity machines rather than search engines, the hallucination problem and public backlash would not exist",
+      "excerpts": [
+        "Imagine, Nikita, if when LLMs came out, instead of saying that they were this super search engine or this way to query the world, what if they'd been positioned as fiction machines? as creativity machines, a lot of the problems that we put on them would go away. Oh yeah, it makes shit up. It's supposed to, right?"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Schibsted conversational product",
+      "description": "Schibsted's concrete implementation of an LLM-powered conversational interface on their product review site, allowing personalized queries against a constrained corpus",
+      "excerpts": [
+        "They took their version of uh Engadget the review site and he said we put all of our all of our content into it. And then that allowed, rather than just searching, that allowed the user to come along, the reader to come along and say, I need a TV that's about this size, but it's in a really bright room."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "sources telling own stories",
+      "description": "Using AI to enable people who are sources to tell their own stories rather than having journalists mediate and potentially exploit their narratives",
+      "excerpts": [
+        "I think there's a chance to use it to have people who are sources, so to speak. tell their own stories rather than us exploiting them and illustrate their stories."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "invisible AI integration",
+      "description": "The observation that AI's most impactful uses are already embedded invisibly in everyday tools like email autocomplete, dictation, and translation",
+      "excerpts": [
+        "I think Google is very frustrated. that when ChatGPT came along and then came into Bing, Google sitting there saying, we've been doing this for years and nobody noticed, because it was just part of it.",
+        "I use it every day when it helps me my email. I use it every day in Translate."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "LLM as cliche machine",
+      "description": "LLMs characterized as fundamentally derivative -- powerful for brainstorming but limited by their tendency to reproduce the most common patterns in training data",
+      "excerpts": [
+        "it's also only so creative, right? Because it it's a cliche machine is what it really is. But it could really spur innovation."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "historical media precedent",
+      "description": "Using the history of print and prior media revolutions (Gutenberg, early magazines) to contextualize and normalize the disruption AI brings",
+      "excerpts": [
+        "When I uh researched in the Gutenberg parenthesis, the early days of media, I saw very much that that print was conversational.",
+        "The earliest magazines, Harper's in eighteen fifty, solicited content from the public for the purposes of public discourse."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "Jarvis mounts a fundamentally iconoclastic argument: journalism's existential crisis predates AI, rooted in an industry addicted to content as a commodity while ignoring the inefficiency of systemic copying. AI does not destroy journalism so much as reveal the unsustainability already present. His prescription is a shift from content production to conversational, community-driven value creation, supported by constrained-corpus LLMs and query interfaces that news organizations should build for themselves rather than ceding to tech platforms. The Schibsted case is deployed as the singular counterexample to Western journalism's default defensive posture -- a company that chooses to compete rather than litigate, and whose Norwegian-language LLM initiative shows what publisher cooperation could achieve. The conversation reveals a deeper thesis: that AI, like the internet before it, is a human network whose governance requires humanistic disciplines, not just technical ones, and that media's moral panic about both technologies is itself a greater danger than the technologies pose.",
+  "surprises": [
+    "Jarvis argues that the biggest threat to journalism is not AI but journalism's own belief that its value lies in content production",
+    "He characterizes current LLMs as 'parlor tricks' despite being an AI proponent, suggesting they would work better if framed as fiction/creativity machines",
+    "The Norwegian publisher cooperation model for building a national LLM directly contradicts the dominant US narrative that publishers and AI companies are adversaries",
+    "Jarvis suggests prompt writing in journalism is essentially the same skill as engagement journalism -- writing prompts to learn about communities",
+    "The Business Insider licensing paradox: through a chain of legal intermediation, the very content rewriting that Congress objects to AI doing is already being done by licensed publishers"
+  ],
+  "tensions": [
+    "Jarvis simultaneously argues LLMs are 'parlor tricks' that 'don't do much' at the user level, while also claiming they represent a transformative opportunity for journalism's reinvention",
+    "He advocates for sources telling their own stories via AI, but this sits in tension with journalism's traditional gatekeeping function and editorial judgment",
+    "The cooperative Norwegian LLM model is praised, but Jarvis himself acknowledges it may fracture when moving from research to commercial phases",
+    "He argues media's moral panic about AI is the real danger, while simultaneously warning about 'dangerous' AI philosophies like transhumanism and long-termism among tech leaders",
+    "The 'revenge of the English major' framing positions AI as democratizing, yet the floor-scale-ceiling framework also acknowledges that AI's benefits will be 'uneven as hell'"
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "episode_meta": {
+    "title": "Djordje Padejski: Why AI Literacy Belongs at the Core of Journalism Education",
+    "date": "2025-09-08",
+    "guests": [
+      {
+        "name": "Djordje Padejski",
+        "role": "Associate Director, JSK Journalism Fellowships",
+        "organization": "Stanford University"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 8266
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Perplexity",
+    "Claude",
+    "Gemini",
+    "Notebook LM",
+    "Google Bard (later became Gemini)",
+    "Deep Seek",
+    "ChatGPT Deep Research",
+    "Eliza chatbot (historical reference)",
+    "ENIAC (historical reference, first computer)",
+    "Google generative AI search",
+    "Storm (Stanford research project combining LLMs with external knowledge bases)",
+    "YesEo (free tool for generating headlines and SEO metadata)"
+  ],
+  "use_cases": [
+    {
+      "description": "Students assigned to analyze a local city council meeting using GPT to extract newsworthy information, then compare results across different AI tools (ChatGPT, Perplexity, Claude, Gemini)",
+      "tool_used": "ChatGPT, Perplexity, Claude, Gemini",
+      "organization": "Stanford University (classroom exercise)",
+      "outcome": "Students discovered through hands-on comparison that different tools had different strengths; Perplexity was found to be much better for research tasks",
+      "stage": "education/experimentation"
+    },
+    {
+      "description": "Students prompted ChatGPT to generate a New York Times-style article based on city council meeting data, then critically assessed the output",
+      "tool_used": "ChatGPT",
+      "organization": "Stanford University (classroom exercise)",
+      "outcome": "Students found the generated article was not a good use of ChatGPT; output did not make sense as journalism",
+      "stage": "education/experimentation"
+    },
+    {
+      "description": "Students used AI tools to convert news articles, write headlines, and brainstorm, then compared and contrasted outputs across multiple tools",
+      "tool_used": "ChatGPT, Perplexity, Claude, Gemini",
+      "organization": "Stanford University (classroom exercise)",
+      "outcome": "Comparative findings emerged organically in the classroom through peer discussion",
+      "stage": "education/experimentation"
+    },
+    {
+      "description": "Students used AI tools for data analysis as part of journalism coursework",
+      "tool_used": "Unspecified AI tools",
+      "organization": "Stanford University (classroom exercise)",
+      "outcome": "Not specified beyond typical use cases",
+      "stage": "education/experimentation"
+    },
+    {
+      "description": "Padejski uses ChatGPT and other models to generate Python code for personal projects, despite not being an engineer",
+      "tool_used": "ChatGPT and other models",
+      "organization": "Personal use",
+      "outcome": "Effective for code generation by a non-engineer who knows enough to direct the tools",
+      "stage": "production"
+    },
+    {
+      "description": "Padejski uses ChatGPT for brainstorming, structuring thoughts, getting feedback, and language assistance as a non-native English speaker",
+      "tool_used": "ChatGPT",
+      "organization": "Personal use",
+      "outcome": "Effective as a starting point for idea generation and language polishing; never used as final product",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT Deep Research to generate curated source lists with 30-40 linked websites for research queries",
+      "tool_used": "ChatGPT Deep Research",
+      "organization": "Personal use (Nikita Roy)",
+      "outcome": "Better source lists compared to Google search, but still requires going to primary sources",
+      "stage": "production"
+    },
+    {
+      "description": "Stanford's Storm project attempts to combine LLMs as text processing interfaces with Wikipedia as an external knowledge base to improve accuracy",
+      "tool_used": "Storm (Stanford research project)",
+      "organization": "Stanford University",
+      "outcome": "Trying to improve accuracy by separating language processing from knowledge generation",
+      "stage": "research"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "AI media coverage has been characterized by exaggerated narratives on both sides -- hype about capabilities and fear-mongering about existential threats -- and journalists are partly responsible for this AI media hype",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Large language models are fundamentally based on probability theory, which means there is always space for various and different outcomes from the same prompt, and they have proven limits rooted in computational theory such as infinite loops",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI tools carry culturally embedded biases from their creators -- Deep Seek brings cultural bias from Chinese society, just as ChatGPT carries its own cultural biases",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "A 1945 New York Times article introducing ENIAC as a 'giant electronic brain' that would find speedy answers to all complex problems could have its headline replaced with ChatGPT and it would describe today's hype cycle",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "A 1971 New York Times article featured Marvin Minsky claiming AI would connect humanity with extraterrestrial and alien life",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI is not going to replace a journalist, but a journalist using AI might replace a journalist not using AI",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI is no longer just a tech beat -- it is involved in healthcare, government, and the financial sector, so reporters on all beats need AI literacy",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "ChatGPT cannot recognize what day it is today, and temporal concepts like 'yesterday' and 'tomorrow' are hard for large language models because that knowledge is not embedded in the model despite computers having built-in clocks",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "ChatGPT and chatbots are way more effective as text generators and text processing tools than as knowledge generators; the knowledge they produce is plausible but not reliable",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "In Silicon Valley there are serious attempts to replace human workers with AI in various sectors, including government workers, but AI should be a complementary tool for humanity, not a replacement",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The history of AI started with symbolic AI (knowledge representation, knowledge graphs) versus the current deep neural networks approach -- two fundamentally different philosophies",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Google's generative AI search blurbs are very problematic, with research showing they pick up questionable statements from various sources",
+      "speaker": "Djordje Padejski",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "AI media hype -- news coverage of AI often resembles speculative fiction rather than real journalism, with exaggerated narratives on both sides downplaying both the real risks and the real benefits of AI",
+      "category": "editorial"
+    },
+    {
+      "description": "Students and uninformed people think AI is magic that can turn work into something fast and spectacular, unaware of fundamental computational limits",
+      "category": "organizational"
+    },
+    {
+      "description": "Teaching tools that are evolving rapidly or not yet launched -- Notebook LM was not launched when the course started; Google Bard launched mid-course and later became Gemini",
+      "category": "organizational"
+    },
+    {
+      "description": "Culturally embedded biases in AI tools -- Deep Seek carries biases from Chinese society, ChatGPT carries its own biases, and these are not always apparent to users",
+      "category": "ethical"
+    },
+    {
+      "description": "Assessing student knowledge is harder in the AI world because students can use ChatGPT to generate written assignments, requiring educators to shift toward in-person assessment methods",
+      "category": "organizational"
+    },
+    {
+      "description": "LLMs have fundamental limits in handling abstractions, emotions, spatial concepts, and temporal concepts -- ChatGPT cannot determine what day it is or distinguish yesterday from tomorrow",
+      "category": "technical"
+    },
+    {
+      "description": "People treat ChatGPT like Google, expecting to ask questions and receive reliable answers, when LLMs are text generators not knowledge generators",
+      "category": "technical"
+    },
+    {
+      "description": "Google generative AI search results are problematic, pulling questionable statements from various sources and distorting the search experience",
+      "category": "technical"
+    },
+    {
+      "description": "ChatGPT is unreliable for fact-checking -- Padejski asked students not to use ChatGPT for fact-checking because it is questionable and a waste of time",
+      "category": "technical"
+    },
+    {
+      "description": "Undergraduate journalism students lack the built-up expertise and journalistic judgment that experienced journalists have, making it harder to recognize when AI output is inadequate",
+      "category": "organizational"
+    },
+    {
+      "description": "AI in Silicon Valley is becoming an ideology, with serious attempts to replace human workers rather than complement them",
+      "category": "ethical"
+    },
+    {
+      "description": "ChatGPT's training data is limited -- many news websites are not included because they lack deals, creating bias in what sources and knowledge are available",
+      "category": "technical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI is not going to replace a journalist, right? But a journalist using AI might replace a journalist not using AI.",
+      "speaker": "Djordje Padejski",
+      "topic": "AI as complement rather than replacement in journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I really thought about how do I teach AI to see AI more than just a tool? It's a sort of like a socio-technical phenomenon that needs obviously more critical engagement, whether you're using it or you're covering it.",
+      "speaker": "Djordje Padejski",
+      "topic": "Course design philosophy for AI literacy",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We as journalists we tend to ignore the fact that the media is also responsible for the ways that this major topic is being reported, actually.",
+      "speaker": "Djordje Padejski",
+      "topic": "Media's role in AI hype cycle",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "ChatGPT and chatbots are way more effective text generators, text processing tools than knowledge generators. There's some knowledge that are generating, but it's a plausible knowledge and therefore it's problematic.",
+      "speaker": "Djordje Padejski",
+      "topic": "Fundamental distinction between text generation and knowledge generation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "They cannot autogenerate their live responses in the classroom. Right? So that has to be something that happens in the classroom with you as a teacher.",
+      "speaker": "Djordje Padejski",
+      "topic": "In-person assessment as solution to AI-enabled plagiarism",
+      "pedagogical_value": "medium"
+    },
+    {
+      "text": "I cannot just teach them how to use Notebook LM today, but there's going to be a different Notebook LM that will be launched in five, ten years from now. And so how do I bring those fundamentals to them so they are ready to do this assessment on their own.",
+      "speaker": "Djordje Padejski",
+      "topic": "Teaching enduring fundamentals over ephemeral tools",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Design AI journalism courses around critical thinking and AI literacy first, not productivity. Teach students to see AI as a socio-technical phenomenon, not just a tool.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism educators"
+    },
+    {
+      "advice": "Use hands-on experimentation in a controlled classroom environment where students test multiple AI tools (ChatGPT, Perplexity, Claude, Gemini) on the same journalism task, then compare and discuss findings together.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism educators"
+    },
+    {
+      "advice": "Teach the historical, cultural, and philosophical context of AI -- from ancient Greek myths about artificial beings to the 1945 ENIAC hype -- so students understand that inflated claims about AI are a recurring pattern, not something new.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism educators"
+    },
+    {
+      "advice": "Shift student assessment from written assignments to in-person classroom participation, live responses, and presentations of investigative proposals, because students cannot autogenerate live responses.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "All educators"
+    },
+    {
+      "advice": "Encourage students to use AI but require disclosure of how they used it, along with a reflection on how effective it was and what they learned from the experience.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "All educators"
+    },
+    {
+      "advice": "Do not ban AI in the classroom. Instead, create frameworks for appropriate use, including disclosure requirements, and welcome it as a teaching opportunity.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "All educators"
+    },
+    {
+      "advice": "Embed AI literacy throughout the entire journalism curriculum rather than treating it as a standalone course, because AI impacts every form of journalism and every beat.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism schools and program directors"
+    },
+    {
+      "advice": "Have students each choose a specific AI-related topic and develop an investigative proposal over the course using an investigative framework, culminating in a final presentation. Students learn from each other's proposals as well as their own.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism educators"
+    },
+    {
+      "advice": "Build interdisciplinary courses and collaborations -- pair journalism and humanities with computer science -- to tackle complex AI topics from multiple perspectives.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Universities and program directors"
+    },
+    {
+      "advice": "Do not use ChatGPT for fact-checking or as a research tool. Use it for brainstorming, idea generation, structuring thoughts, and language assistance, but always go back to primary sources.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalists and journalism students"
+    },
+    {
+      "advice": "Universities should design new degrees focused on AI and journalism, AI and communication, AI and storytelling that go beyond just computer science aspects to include history, ethics, philosophy, practical tools, and investigative methods.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Universities and program directors"
+    },
+    {
+      "advice": "Focus on teaching fundamentals rather than obsessing over the latest AI tools, because the tools will change but the underlying concepts -- limits of computational theory, probability, bias -- remain.",
+      "speaker": "Djordje Padejski",
+      "target_audience": "Journalism educators"
+    }
+  ],
+  "external_references": [
+    "ICIJ Offshore Leaks (investigative project Padejski worked on)",
+    "Walter Cronkite School of Journalism, Arizona State University (where Padejski completed his PhD and first taught AI course)",
+    "Stanford University JSK Journalism Fellowships",
+    "Stanford Human-Centered AI Institute (HAI)",
+    "Computer History Museum (Bay Area exhibition on history of chatbots, including Eliza)",
+    "New York Times article from 1945 introducing ENIAC computer",
+    "New York Times article from 1971 featuring Marvin Minsky on AI and extraterrestrial life",
+    "Marvin Minsky (founding father of AI)",
+    "Eliza chatbot (early chatbot using Rogerian therapy approach)",
+    "'AI as a Snake Oil' (book referenced by Padejski)",
+    "Storm (Stanford research project combining LLMs with Wikipedia knowledge base for improved accuracy)",
+    "Garance Burke (AP investigative reporter, collaborating with Padejski on book)",
+    "Book in progress: handbook for investigating AI and using it (co-authored with Garance Burke/Garan Sperk at AP)",
+    "YesEo (free tool for headline and SEO metadata generation, mentioned by Nikita Roy)",
+    "Deep Seek (Chinese AI model referenced for cultural bias)",
+    "Harvard Innovation Labs Spark Grant (podcast sponsor)",
+    "Newsroom Robots newsletter (newsroomrobots.com)"
+  ]
+}

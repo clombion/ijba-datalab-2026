@@ -1,0 +1,187 @@
+{
+  "episode_date": "2025-02-10",
+  "episode_title": "Neil Brown: The Pulitzer Prizes, AI Transparency, and Journalism's Next Evolution",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T01.2",
+        "T01.3",
+        "T01.4"
+      ],
+      "best_quote": {
+        "text": "I actually, I hope this doesn't come across as blame, mostly as a party game. You know, if I have to make remarks or something like that, I like to go in, see what it says. And it reminds me, it's amazingly sophisticated, cool, and weak all at the same time.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Brown discusses personal ChatGPT use revealing AI's simultaneous sophistication and weakness, reinforcing the irreplaceability of human editorial refinement. The episode also touches on workforce displacement fears via WEF statistics (92M displaced, 170M created) and transcription tools (Fireflies, Granola) as proven productivity wins."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.1",
+        "T02.2",
+        "T02.4"
+      ],
+      "best_quote": {
+        "text": "We didn't say AI was disqualifying in any fashion, and as you can tell from the two that won, it wasn't. But we also didn't linger on essentially a moral judgment about it. We just really believed that transparency is a value we should live by.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Central episode theme: the Pulitzer Board's new AI disclosure questionnaire embodies transparency as a core journalistic value without moral judgment. Brown frames transparency as catching up with technology disclosure rather than something novel, and argues newsrooms must engage audiences early in AI adoption rather than leaving them behind."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "I've had the best luck when the technologists first ask 'what are you trying to do?' Not 'do I have the tool for it.'",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Brown advocates a mission-first approach to AI ethics -- start with the journalistic purpose, not the tool. Poynter recently updated its AI ethics guidelines, and Brown emphasizes that AI use should not be treated as inherently problematic, reflecting a pragmatic rather than prescriptive ethical stance."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "I actually, I hope this doesn't come across as blame, mostly as a party game. You know, if I have to make remarks or something like that, I like to go in, see what it says. And it reminds me, it's amazingly sophisticated, cool, and weak all at the same time.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Technical architecture is not a focus. Brown briefly notes the limitations of ChatGPT output quality -- sophisticated yet weak -- touching on the jagged frontier of AI capabilities. The episode does not discuss model selection, RAG, or engineering decisions in depth."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.4"
+      ],
+      "best_quote": {
+        "text": "The number one mistake to avoid doing again is to put your head down and hope it goes away. I do think that there was a little bit of that, maybe not a little bit, maybe a lot of that, as we moved to online digital journalism.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "A central concern: over 60% of newsroom staff have never tried ChatGPT, risking a repeat of the print-to-digital failure of ignoring disruption. Brown urges every journalist to personally experiment, advocates giving staff on-the-job time to learn, and warns against evaluating AI experiments over too-short timeframes."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.2",
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "Newsrooms today, in my opinion, need to be a much more comfortable blend of technologists and journalists. And by the way, technologists need to know a fair bit about journalism and journalists need to know a fair bit about the technology.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Brown calls for organizational culture change: newsrooms must blend technologist and journalist roles, breaking down silos. He emphasizes leadership responsibility to create experimentation cultures and take longitudinal approaches rather than abandoning tools after 3-6 months."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.2"
+      ],
+      "best_quote": {
+        "text": "The number one mistake to avoid doing again is to put your head down and hope it goes away.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Briefly referenced through the print-to-digital transition analogy, where tech companies evolved information distribution while newsrooms were slow to respond. No substantive discussion of licensing, content scraping, or platform power dynamics."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "I want us to not put creativity and technology at war with each other.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Brown touches on whether AI-assembled content constitutes genuine writing and whether machine-distilled content can meet the creative standard of a Pulitzer Prize. Product innovation is not a central topic, but the question of format quality is implied."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "The number one mistake to avoid doing again is to put your head down and hope it goes away.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Briefly implied through references to the economics of the print-to-digital transition and the need for newsrooms to adapt before being overtaken. No direct discussion of revenue models or business strategy."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T10.2"
+      ],
+      "best_quote": {
+        "text": "We didn't say AI was disqualifying in any fashion, and as you can tell from the two that won, it wasn't. But we also didn't linger on essentially a moral judgment about it. We just really believed that transparency is a value we should live by.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "The Pulitzer Board's AI disclosure questionnaire represents a de facto governance mechanism for the industry. Brown frames it not as regulation but as living journalistic values. The episode positions awards institutions as soft regulators of AI norms in journalism."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "The number one mistake to avoid doing again is to put your head down and hope it goes away.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Brown warns against premature abandonment of AI experiments (3-6 months is too short) and advocates longitudinal evaluation, touching on the MVP abandonment pattern. Not a primary topic."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "Technology does not erase inaccuracy, much as it doesn't automatically cause it either; imperfection is part of the equation regardless of how powerful the tools are.",
+        "speaker": "Neil Brown"
+      },
+      "summary": "Data governance and privacy are not directly addressed. The episode's focus on transparency and accuracy has peripheral relevance to responsible data use, but no specific discussion of source protection, data quality, or privacy."
+    }
+  ],
+  "primary_themes": [
+    "T02",
+    "T05"
+  ],
+  "secondary_themes": [
+    "T01",
+    "T03",
+    "T06",
+    "T10"
+  ],
+  "tangential_themes": [
+    "T04",
+    "T07",
+    "T08",
+    "T09",
+    "T11",
+    "T12"
+  ]
+}

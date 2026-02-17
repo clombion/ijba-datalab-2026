@@ -1,0 +1,291 @@
+{
+  "episode_meta": {
+    "title": "Kasper Lindskow: Building a Scalable AI Infrastructure at Denmark's JP/Politikens Media Group",
+    "date": "2025-03-18",
+    "guests": [
+      {
+        "name": "Kasper Lindskow",
+        "role": "Head of AI",
+        "organization": "JP/Politikens Media Group"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Denmark",
+    "word_count": 12896
+  },
+  "ai_tools": [
+    "Magna (in-house AI editorial assistant suite)",
+    "OpenAI GPT series (GPT-2, GPT-3, ChatGPT)",
+    "Pre-trained Danish transformer language models",
+    "Retrieval Augmented Generation (RAG) system",
+    "Collaborative filtering recommender systems",
+    "Content-based recommender systems",
+    "NLP/ML metadata classification models",
+    "Embedding models for news articles",
+    "ChatGPT (personal use)"
+  ],
+  "use_cases": [
+    {
+      "description": "Magna open chat: journalists use a language model freely in a safe environment, similar to ChatGPT but within editorial policy",
+      "tool_used": "Magna (OpenAI GPT series)",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Provides secure, policy-compliant generative AI access across all news brands",
+      "stage": "production"
+    },
+    {
+      "description": "Writing assistance tools: proofreading, translation, headline suggestions, and article criticism adapted to each brand's style guide and tone of voice",
+      "tool_used": "Magna",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Most-used and highest-value generative tools currently; routinize repetitive tasks; rolled out across all brands",
+      "stage": "production"
+    },
+    {
+      "description": "Article draft generation: journalists input facts and an angle, Magna produces a draft article adapted to the specific news brand's voice and style",
+      "tool_used": "Magna",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Draft not meant for direct publication; serves as input for the reporter's work. Some brands have opted not to roll this out yet",
+      "stage": "production"
+    },
+    {
+      "description": "RAG-based research and story enrichment: journalists search the archive and generate content such as case summaries, fact boxes, FAQs, and quizzes based on prior coverage",
+      "tool_used": "Magna (RAG solution)",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Enables summarization across multiple articles from a brand's own archive, adapted to that brand's style; some brands have held back on this",
+      "stage": "production"
+    },
+    {
+      "description": "Personalized news recommender systems deployed on Ekstra Bladet front page, optimized for engagement while constrained by journalistic values",
+      "tool_used": "Collaborative filtering and content-based recommender systems",
+      "organization": "JP/Politikens Media Group (Ekstra Bladet)",
+      "outcome": "Running for many years; drives engagement, signups, and sales; being expanded across the group",
+      "stage": "production"
+    },
+    {
+      "description": "Automated metadata classification: fine-tuned language models read news articles and classify them by topic and other taxonomies for internal and advertising use",
+      "tool_used": "Fine-tuned Danish transformer NLP models",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Enables topic-based lists on websites, input to recommenders, and semantic audience targeting for advertising",
+      "stage": "production"
+    },
+    {
+      "description": "News article embeddings: positioning articles in multidimensional space for granular similarity and recommendation tasks",
+      "tool_used": "Embedding models",
+      "organization": "JP/Politikens Media Group",
+      "outcome": "Significantly improved recommender system performance for news compared to five years ago",
+      "stage": "production"
+    },
+    {
+      "description": "AI-generated illustrations for certain types of editorial tasks at some brands",
+      "tool_used": "Generative AI (unspecified image generation)",
+      "organization": "JP/Politikens Media Group (select brands)",
+      "outcome": "Used for specific content types",
+      "stage": "production"
+    },
+    {
+      "description": "AI-based summarization of coverage across multiple articles for individual brands",
+      "tool_used": "Magna (RAG solution)",
+      "organization": "JP/Politikens Media Group (select brands)",
+      "outcome": "A number of brands now do AI-based summarization in production",
+      "stage": "production"
+    },
+    {
+      "description": "Personalized bedtime stories for children using generative AI",
+      "tool_used": "ChatGPT",
+      "organization": "Personal use (Kasper Lindskow)",
+      "outcome": "Experimental personal use",
+      "stage": "experimental"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Two recommender systems with the same click rate or sales performance can have very different effects on the news flow, e.g., one biasing toward popular/entertainment content and the other toward niche/long-tail stories",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "empirical - based on PIN project data and open challenge with open-source dataset"
+    },
+    {
+      "claim": "Hallucinations and factuality mistakes, initially expected to be the biggest challenge with generative AI, turned out to be relatively rare when using direct prompting and RAG setups",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "empirical - based on thorough testing from summer 2023 onward"
+    },
+    {
+      "claim": "The real challenge with generative AI output was not factuality but blandness, repetitiveness, and lack of brand-specific voice adaptation",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "empirical - based on internal testing and journalist feedback"
+    },
+    {
+      "claim": "In-housing recommender systems yields more commercial value (engagement, signups) because effective personalization requires customization and adaptation to brand-specific data",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "empirical - based on JP/Politikens experience"
+    },
+    {
+      "claim": "The breakthrough in auto-tagging for news publishers came from transformer models invented in 2017 that became industrially mature around 2019-2020, after a decade of failed auto-tagging projects",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "historical observation"
+    },
+    {
+      "claim": "Tone-of-voice fine-tuning has so far been limited to open-source models; proprietary models have not allowed the type of multi-task tone-of-voice fine-tuning needed for news brands",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "anecdotal - based on industry experience"
+    },
+    {
+      "claim": "AI agents are at a similar maturity stage now as language models were in 2021 - not yet mature enough but with massive potential for news discovery and research in the next 2-5 years",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "prediction based on professional judgment"
+    },
+    {
+      "claim": "Prompting has been pushed as far as it can go for brand voice adaptation; prompt chaining and agents are the next step, followed by fine-tuning",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "anecdotal - based on JP/Politikens development experience"
+    },
+    {
+      "claim": "Even if technology develops exponentially, rolling out AI in newsrooms is change management, which is a linear process",
+      "speaker": "Kasper Lindskow",
+      "evidence_type": "opinion"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Adapting generative AI output to match each news brand's unique tone of voice, writing style, and identity remains the most time-consuming technical challenge",
+      "category": "technical"
+    },
+    {
+      "description": "Prompt overloading: extensive prompts can no longer hold all dependencies from long input, long output, and complex instructions",
+      "category": "technical"
+    },
+    {
+      "description": "Implementing recommender systems at scale requires real-time data flows in milliseconds, not seconds, and front-end infrastructure capable of serving millions of different personalized news flows simultaneously",
+      "category": "technical/infrastructure"
+    },
+    {
+      "description": "Different news brands within the group have different editorial policies on AI use, requiring flexible infrastructure that can enable or disable specific tools per brand",
+      "category": "organizational/editorial"
+    },
+    {
+      "description": "Transitioning from building tools for AI front-runner journalists to building tools that work for average journalists who are not skilled at prompting",
+      "category": "adoption/UX"
+    },
+    {
+      "description": "Balancing two UX paradigms: the new chat/prompting paradigm used by front runners versus the traditional button/dropdown paradigm expected by average journalists",
+      "category": "UX/design"
+    },
+    {
+      "description": "Keeping up with demand from journalists requesting new AI tools faster than the team can build them",
+      "category": "organizational/resources"
+    },
+    {
+      "description": "Controlling bias in metadata classification when moving from fine-tuned models with test sets to generative models with prompted classification",
+      "category": "ethical/technical"
+    },
+    {
+      "description": "Recommender systems can have very different effects on news flow (e.g., overrepresenting entertainment or creating filter bubbles) even when performing equally on engagement metrics, requiring careful monitoring and editorial constraints",
+      "category": "editorial/ethical"
+    },
+    {
+      "description": "Trade-off between centralized AI unit (scalable, solid tools, but slower and further from individual brand needs) and local model (faster, closer to needs, but harder to scale and replicate)",
+      "category": "organizational"
+    },
+    {
+      "description": "Change management lag: even with mature technology, adoption and value realization follow a linear timeline, with 2025 being the big rollout year",
+      "category": "adoption"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We really don't like those factual mistakes, right? We should be trustworthy and we shouldn't be making those mistakes.",
+      "speaker": "Kasper Lindskow",
+      "topic": "Journalistic values and AI factuality",
+      "pedagogical_value": "Illustrates how core journalistic values of trustworthiness shaped the technical priorities of AI development"
+    },
+    {
+      "text": "Even though you might find the first output you saw interesting to read, once you read five of those, it would be too repetitive and boring and not really fitting to each of the news brands.",
+      "speaker": "Kasper Lindskow",
+      "topic": "Generic AI output and brand differentiation",
+      "pedagogical_value": "Highlights the real-world problem with unmodified LLM output in multi-brand publishing - blandness rather than inaccuracy"
+    },
+    {
+      "text": "We shouldn't, in my sort of experience and opinion, make all journalists prompt engineers.",
+      "speaker": "Kasper Lindskow",
+      "topic": "AI tool design for newsroom adoption",
+      "pedagogical_value": "Key design philosophy for building AI tools that serve the average journalist, not just power users"
+    },
+    {
+      "text": "Even if the technology develops exponentially, then rolling it out and adapting it, that's change management. That's a very linear process.",
+      "speaker": "Kasper Lindskow",
+      "topic": "AI adoption timelines",
+      "pedagogical_value": "Important counterpoint to hype about exponential AI progress; grounds expectations in organizational reality"
+    },
+    {
+      "text": "Two recommenders that have the same ability to engage or drive sales... have very different effects on the news flow. And that's sort of the core of your profile, right?",
+      "speaker": "Kasper Lindskow",
+      "topic": "Recommender systems and editorial values",
+      "pedagogical_value": "Demonstrates why engagement metrics alone are insufficient for evaluating AI systems in news; editorial impact must be measured separately"
+    },
+    {
+      "text": "You should still make sure that you really understand the technology well enough... so that you can have an informed dialogue with your vendor... because you need to be able to ask that vendor the right questions and make the right demands.",
+      "speaker": "Kasper Lindskow",
+      "topic": "Build vs. buy and AI literacy for publishers",
+      "pedagogical_value": "Practical advice for smaller publishers who cannot build in-house: understanding AI is essential even when buying"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Start AI development with applied research in collaboration with universities and public innovation funding before committing large internal budgets",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "News publishers beginning AI initiatives"
+    },
+    {
+      "advice": "Use a values compass framework that balances journalistic, technical, business, and user considerations within the constraints of the publisher's core mission when developing AI systems",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "News organizations implementing AI"
+    },
+    {
+      "advice": "Build AI in-house for core editorial functions (writing tools, recommender systems, content distribution) to maintain control over brand voice and editorial values; buy for generic business functions (HR, finance)",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "News publishers making build vs. buy decisions"
+    },
+    {
+      "advice": "Even if you cannot build AI in-house, invest enough to understand the technology so you can ask vendors the right questions and make informed demands",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "Smaller publishers relying on vendors"
+    },
+    {
+      "advice": "Don't try to make all journalists into prompt engineers; build focused tools with specialized prompting underneath so journalists can use them via buttons, not free-form prompts",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "AI tool developers in newsrooms"
+    },
+    {
+      "advice": "When implementing recommender systems, monitor their effect on news flow (topic distribution, diversity, serendipity) not just engagement metrics, and constrain them editorially (e.g., caps on topic overrepresentation, excluding sensitive content categories)",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "News publishers deploying recommender systems"
+    },
+    {
+      "advice": "Maintain test sets for metadata classification even when moving to generative models for tagging, to control for bias across categories and user segments",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "Technical teams doing NLP classification for news"
+    },
+    {
+      "advice": "Allow each editorial brand to set its own AI editorial guidelines rather than enforcing uniform policies, since different brands have different legacies, values, and risk tolerances",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "Multi-brand media groups"
+    },
+    {
+      "advice": "Combine centralized AI infrastructure with local AI hubs (brand-level networks of engaged journalists) to balance scalability with proximity to real editorial needs",
+      "speaker": "Kasper Lindskow",
+      "target_audience": "Large media organizations structuring AI teams"
+    }
+  ],
+  "external_references": [
+    "Platform Intelligence in News (PIN) Project",
+    "Innovation Fund Denmark",
+    "WAN-IFRA (World Association of News Publishers) AI Advisory Board",
+    "Nordic AI Journalism Network",
+    "Harvard Innovation Labs",
+    "Ekstra Bladet (national news brand)",
+    "Politiken (national news brand)",
+    "Jyllands-Posten (national news brand, referred to as 'Unit Boston' in transcript)",
+    "OpenAI GPT series (GPT-2, GPT-3, ChatGPT)",
+    "Transformer model architecture (2017)",
+    "MIND dataset (open-source news recommendation dataset for open challenge)",
+    "Gabby's Dollhouse (children's TV show, personal anecdote)"
+  ]
+}

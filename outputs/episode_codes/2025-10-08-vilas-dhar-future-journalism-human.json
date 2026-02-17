@@ -1,0 +1,343 @@
+{
+  "episode_date": "2025-10-08",
+  "episode_title": "Vilas Dhar: Why the Future of Journalism Is Still Human",
+  "codes": [
+    {
+      "code": "ethics-as-operational-guide",
+      "description": "Framing ethics not as abstract philosophical commitment but as a direct operational input into specific business decisions, technology implementations, and workflow design in newsrooms.",
+      "excerpts": [
+        "ethics is not a abstraction. It's not evaluation. It's not a secondhand thought. It should be the thing that guides the very specific business decisions we make, the ways that we implement these technologies."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "responsible-data-provenance",
+      "description": "Emphasizing that newsrooms must vet data provenance, understand representation gaps in datasets, and assess how data collection may unintentionally exclude voices before deploying AI tools.",
+      "excerpts": [
+        "we're often barreling into trying to put new tools or platforms into place without first ensuring that we have made sure that we have real boundaries around the provenance of data. understanding who's represented in the data sets that are shown in stories."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "neutral"
+    },
+    {
+      "code": "bright-line-rules",
+      "description": "Establishing non-negotiable prohibitions on certain AI uses (e.g., synthetic quotes, unattributed LLM-generated content) as a foundational ethical boundary before exploring permissive use cases.",
+      "excerpts": [
+        "how do we set bright line rules about AI? There are things that we will definitely never use an AI tool to do. For example, the creation of a synthetic quote, right? Using an unattributed source, using LLMs to generate things that might make a story feel stronger, but violate a foundational precept of journalistic ethics."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "transparency-as-trust-mechanism",
+      "description": "Advocating for radical transparency in AI use, including per-story disclosure of how AI was involved, as the primary mechanism for maintaining audience trust during experimentation.",
+      "excerpts": [
+        "How does a editor, a journalist, a newsroom ensure that the people that they are serving know what's AI and what isn't? And there are a number of mechanisms that I think newsrooms, some of them amazing friends of yours and mine are doing out there that range from disclosing all use of AI to maybe partnering every story, every piece of output with an explanation of how AI was used in that particular piece of reporting."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "cross-functional-ai-literacy",
+      "description": "Arguing that AI literacy must be distributed equally across all organizational roles (reporters, editors, executives, data teams, boards) rather than siloed in a technology function.",
+      "excerpts": [
+        "leaders need to be asking, how do we ensure that both the user, the consumer The creator, the architect, and the person who's supposed to oversee it are all equally literate in what AI means in the organization."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "editorial-control-over-ai-implementation",
+      "description": "Shifting AI implementation power back to front-line reporters and journalists who understand the medium, rather than letting technology teams or executives drive adoption top-down.",
+      "excerpts": [
+        "the people who really understand journalism are not necessarily the data and analytics folks. They're the reporters, the journalists, the people who've made a career of understanding the power of this medium and the responsibility of it. So we need to shift power back to those folks and have them be the ones who are driving implementation."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "three-phase-ai-adoption",
+      "description": "A model of progressive AI adoption: Phase 1 (individual exploration/playing), Phase 2 (purposeful integration with domain expertise), Phase 3 (building custom tools rather than consuming commercial ones).",
+      "excerpts": [
+        "People who are just picking up an AI tool and saying, I'm gonna play with this",
+        "How does AI align to the purpose of what we're trying to do? And how do we begin to use the tools in custom ways",
+        "let's stop being consumers of commercial AI tools and build the tools we need in order to do our work effectively"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "domain-expertise-plus-general-ai",
+      "description": "The highest value emerges from pairing journalists' unique domain knowledge and reporting instincts with the broad generalized capabilities of AI tools, not from using either in isolation.",
+      "excerpts": [
+        "the broad generalized universal capacity of some of these big AI tools. A chatbot that knows a little bit of everything. And pairing it with the very specific domain knowledge that you have as an expert in what you do, as a reporter, a journalist who has that particular nose for a particular story."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "sandbox-environments-over-restrictions",
+      "description": "Creating intentional sandbox environments for journalists to experiment with AI safely, rather than restrictive policies that push enterprising journalists to use tools outside organizational controls.",
+      "excerpts": [
+        "if a reporter says, I want to use X, Y, and Z tool to look at highly sensitive data that includes information about vulnerable people. An organization's response to say that AI system hasn't cleared our our thresholds doesn't really work. Because I think, let's admit it, those enterprising journalists are gonna say, well, I'm just gonna do it outside of the environment."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "build-not-buy-imperative",
+      "description": "Arguing that newsrooms must move from being consumers of commercial AI to builders of journalism-specific tools, with the paradigm shift changing both economics and reporting quality.",
+      "excerpts": [
+        "let's stop being consumers of commercial AI tools and build the tools we need in order to do our work effectively. And something really magical happens in that space, that paradigm shift from we'll go see what a vendor will offer to we will build what we need by building our own capacity to create data and AI tools."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "false-dichotomy-media-vs-tech",
+      "description": "Challenging the organizational excuse that newsrooms are media companies not technology companies, arguing this is a false dichotomy that every other sector abandoned years ago.",
+      "excerpts": [
+        "I don't think there is a way to be a media organization in this world today without also being a technology organization.",
+        "I have a real challenge with this idea that executives sometimes because of comfort, sometimes because of inertia, say, we are X and we are not a technology organization."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "compressed-transformation-timeline",
+      "description": "AI transformation is occurring on an 18-month timescale vs. the 10-20 year digital adoption cycles of previous eras, creating unprecedented urgency and discomfort for organizational leaders.",
+      "excerpts": [
+        "what might originally have been a 10-year or 20-year transformation journey is now 18 months. And that creates a real responsibility for leaders and for innovators to take on what sometimes feels quite frictional."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "organizational-reckoning-over-vendor-selection",
+      "description": "Arguing that the fundamental question is not which AI vendor to choose but who the organization aspires to be in an AI-enabled world, requiring existential organizational visioning.",
+      "excerpts": [
+        "This isn't about pilots. It's not about bringing in an AI technology. It's about doing exactly what you described, which is having a fundamental reckoning with What are we as an organization in a world where many of the assumptions we have are being tested",
+        "that's a much more interesting conversation than whether we should pick vendor A or vendor B in order to do X task."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "neutral"
+    },
+    {
+      "code": "environmental-cost-tension",
+      "description": "Acknowledging the significant environmental costs of AI (energy, water) as a legitimate source of internal newsroom tension between AI enthusiasts and skeptics, requiring behavioral rather than purely technical solutions.",
+      "excerpts": [
+        "we're seeing innovators on the edges who are saying things like, you know, we don't need bigger models. We need smaller, more targeted, more intelligent models that actually give us exactly what we need",
+        "We should be asking, how do we transform our social practices so that we can leverage the ways we use these tools to minimize the queries we need, but get much better outcomes from them?"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "bigger-is-not-better-models",
+      "description": "Critiquing the tech industry's fetishization of ever-larger AI models when journalism needs smaller, more targeted, more power-efficient models built for specific purposes.",
+      "excerpts": [
+        "we don't need bigger models. We need smaller, more targeted, more intelligent models that actually give us exactly what we need and leave aside everything else. Those models are much more power effective. They're take much less water. They take much less energy to deliver on."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "journalism-market-too-small-for-bespoke-ai",
+      "description": "Structural market failure: journalism's market size is insufficient to attract commercial AI development specifically for its needs, requiring the industry to build its own solutions or form collaboratives.",
+      "excerpts": [
+        "Who's incentivized to build AI models exclusively for journalism? A sector that maybe is not big enough to command its own market presence that isn't going to be that profit driver. Well, this is the challenge we've struggled with for the last decade is There's not going to be some set of companies that are going to say we're going to innovate massive foundational changes in AI for journalism unless it comes from within journalism itself."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "collaborative-model-sharing",
+      "description": "Proposing that news organizations band together to build shared AI models and data resources, collectively reducing environmental footprints and costs through collaborative governance.",
+      "excerpts": [
+        "What would happen if we could build collaboratives where Many organizations bundled together their data and their models so that we can actually have sharing of a lot of these resources and collectively reduce environmental footprints."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "query-efficiency-as-sustainability",
+      "description": "Reframing AI environmental sustainability from a per-query technical problem to a behavioral question of consolidating multiple inefficient queries into fewer, better-crafted ones.",
+      "excerpts": [
+        "sometimes we need to figure out do we need to ask fifteen queries of a system When really what we need to do is do the human work to figure out how to turn those 15 queries into one really good one. Okay, well there's a really easy way there where you immediately begin to cut down your environmental footprint."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "provenance-tagging-standards-gap",
+      "description": "Identifying the absence of industry-wide consolidation around common provenance standards and verification frameworks as a critical gap in the fight against misinformation.",
+      "excerpts": [
+        "What we haven't seen is some industry consolidation around agreeing to some common standards and some common benchmarks and some common frames that let us think about provenance not just between one user and one provider, but across the entire ecosystem of information."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "ai-for-affirmative-verification",
+      "description": "Using AI not to generate content but to verify it, through tools that test both the content itself and the surrounding information ecosystem to determine authenticity.",
+      "excerpts": [
+        "tools like Gigafact, for example, where you can actually submit something and say, is this real or not? And it'll use AI to both test that piece of collateral, but also test the social and information ecosystem around it",
+        "I could envision a world where we actually have real-time fact checker agents that are enabled by AI. that maybe are sitting with you as you are consuming information."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "trust-crisis-precedes-ai",
+      "description": "Reframing AI-enabled misinformation as a symptom of a pre-existing trust crisis in media institutions, not its cause, with trust erosion making audiences more vulnerable to AI-generated disinformation.",
+      "excerpts": [
+        "people who don't have fundamental trust in these institutions are much more vulnerable to AI-enabled misinformation. So how do we really think about the kinds of verification coalitions, regional trust creation"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "qualitative-metrics-challenge",
+      "description": "Journalism's success metrics are inherently more qualitative and values-driven than commercial sectors, making AI impact measurement harder but also enabling more expansive thinking about AI's role.",
+      "excerpts": [
+        "I don't think Most journalistic organizations are saying how do we increase revenue or profitability by using AI? Or at least that's not the first step in the process. Instead, we're thinking about a much more qualitative framework. How do we free up reporters to be able to do higher value work?"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "journalism-as-public-ai-laboratory",
+      "description": "Unique opportunity for journalism to function as a public-facing laboratory for ethical AI deployment, sharing learnings and failures that benefit all sectors rather than hoarding competitive advantage.",
+      "excerpts": [
+        "Journalism represents an incredible opportunity to do and to share what we're learning and what we're failing at. And so I wonder for a newsroom that's trying to deploy AI, how to take the Lisa framework and turn it into behind the scenes reporting to share with your audience"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "human-irreplaceability-argument",
+      "description": "Philosophical assertion that empathy, vulnerability, care, responsibility, and love remain uniquely human capacities that no AI system can replicate, grounding human agency in emotional and moral understanding.",
+      "excerpts": [
+        "an AI system cannot understand the vulnerability and pain of somebody who has just lost their house because of a bad discriminatory decision. Cannot understand what it feels like to be in the room as your son or daughter gets sentenced by an AI system for something they didn't do. Can't understand empathy or care, responsibility, or love. These are things that are uniquely human in this world."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "displacement-as-values-reckoning",
+      "description": "Reframing the displacement of functional skills (writing, task completion) by AI as an opportunity for society to reorient what it values about human beings toward connection, imagination, and purpose.",
+      "excerpts": [
+        "maybe it will force us into a societal and an individual reckoning That actually changes what we value about ourselves. Our connection to each other, our hopefulness, our optimism, our imagination, our willingness to go and do and try things that make the world a better place."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "mixed"
+    },
+    {
+      "code": "social-innovation-deficit",
+      "description": "Arguing that technological innovation has far outpaced investment in social infrastructure innovation (justice, dignity, equality, economic participation), and that AI makes bridging this gap urgent.",
+      "excerpts": [
+        "for all that we've done over the last fifty years to lionize technological innovation, to put all of these startups and their founders on pedestals. We've not done nearly enough to invest in innovation of our social infrastructure, of our conceptions of justice, of dignity, of equality, and of empathy."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "ai-done-by-us-not-to-us",
+      "description": "Aspiration to shift the framing of AI from something 'done to' communities or 'done for' them, to something built 'by' them through new forms of participation and engagement.",
+      "excerpts": [
+        "I want to get the world to a place where we all believe that AI is being done by us. That we're actually building new forms of participation and engagement."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-as-socratic-interlocutor",
+      "description": "Using AI not to create content but to challenge the user's thinking through Socratic questioning, forcing them to confront weaknesses in their arguments and expand their imagination.",
+      "excerpts": [
+        "I don't want you to create anything, and I don't want you to introduce anything new. I just want you to ask me a lot of questions. I want you to ask me questions that force me to tangle with the weakness of my argument or what I have been too limited in my imagination around."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "optimism-about-people-not-technology",
+      "description": "Drawing a sharp distinction between skepticism about AI technology itself and optimism about the values-driven humans making decisions about AI deployment.",
+      "excerpts": [
+        "I am very rarely optimistic about AI. But I am very optimistic about well-intentioned, values-driven people that are making decisions about how we use AI."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-as-collaborative-storytelling",
+      "description": "Personal example of using AI as a family storytelling tool where human imagination guides the narrative while AI expands the creative possibilities, keeping creative control with humans.",
+      "excerpts": [
+        "over the course of a couple of hours, we told a whole family narrative, a fairy tale of princesses and forests and castles. That was guided by them and their imagination, but was supported and buttressed by these AI systems that built these magical worlds. where it was never out of our control, but it still allowed us to expand our imagination."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "motorcycle-directional-hope",
+      "description": "Metaphor from motorcycle riding: you go where you look, so consciously looking toward a hopeful future creates the conditions for achieving it, even if the outcome is not guaranteed.",
+      "excerpts": [
+        "one of these things that I learned from this like Physical process of riding motorcycle is you look where you want to go. And by looking there, your body changes, your motorcycle responds to you, and almost without intention, without you doing anything, you start riding in that direction."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "restrictive-policy-backfire",
+      "description": "Warning that overly restrictive organizational AI policies will simply push journalists to use tools outside institutional controls, creating worse data leakage and ethical risks than permissive-but-guided approaches.",
+      "excerpts": [
+        "those enterprising journalists are gonna say, well, I'm just gonna do it outside of the environment. And that creates ethical risks around data leakage and vulnerability."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "lisa-framework",
+      "description": "A people-centered framework (Listen, Involve, Share, Assess) for deploying AI that starts with human needs and community engagement rather than technological capabilities.",
+      "excerpts": [
+        "if you're gonna deploy AI, start with people. And I think I want to frame this with you both as an opportunity and a responsibility."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "positive"
+    },
+    {
+      "code": "allure-of-pilot-without-reckoning",
+      "description": "Cautioning against equating pilot implementations with genuine AI transformation, arguing that bringing in a tool is not the same as the organizational reckoning needed to integrate AI meaningfully.",
+      "excerpts": [
+        "This isn't about pilots. It's not about bringing in an AI technology. It's about doing exactly what you described, which is having a fundamental reckoning with What are we as an organization in a world where many of the assumptions we have are being tested and challenged"
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "negative"
+    },
+    {
+      "code": "structural-accountability-allocation",
+      "description": "Calling for explicit allocation of responsibility for AI oversight, risk management, and consumer impact assessment -- not just technological design -- across all organizational levels including boards.",
+      "excerpts": [
+        "allocate responsibility, not just responsibility for the technological design, but for oversight and accountability. for risk management for something that I think is quite important, a consumer-centric or a client-centric view of what the impacts of these tools might be."
+      ],
+      "speaker": "Vilas Dhar",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "Vilas Dhar brings a cross-sector philanthropic perspective to argue that journalism's AI challenge is fundamentally about human values and institutional identity, not technology selection. His three-part ethical framework (responsible data, clear boundaries, transparency) and LISA framework (Listen, Involve, Share, Assess) provide structured approaches to making abstract ethical commitments operationally concrete. The conversation's most distinctive contribution is Dhar's argument that journalism occupies a unique position as a potential public laboratory for ethical AI deployment, since its qualitative and values-driven success metrics force a more expansive reckoning than commercial sectors face. He sharply critiques the false dichotomy between being a media organization and a technology organization, and identifies a structural market failure where journalism is too small a market to attract purpose-built AI investment, making internal capacity-building or collaborative model-sharing essential.",
+  "surprises": [
+    "Dhar explicitly states he is 'very rarely optimistic about AI' despite being a leading voice for AI adoption and human-centered AI futures -- his optimism is about people, not technology.",
+    "The argument that restrictive AI policies actively increase risk by pushing journalists to use tools outside organizational controls is counterintuitive to standard compliance thinking.",
+    "Journalism is framed not as a victim of AI disruption but as uniquely positioned to be a public educator about ethical AI deployment for all sectors.",
+    "The environmental sustainability discussion is reframed from a per-query cost to a behavioral design challenge -- consolidating 15 queries into one well-crafted query.",
+    "Using AI purely as a Socratic questioner (explicitly instructing it to create nothing and introduce nothing new) represents a radical inversion of the typical generative AI use case."
+  ],
+  "tensions": [
+    "Build vs. buy: Dhar advocates strongly for newsrooms building their own AI tools, but acknowledges most lack technical capacity and face a structural market failure where no one will build journalism-specific AI for them.",
+    "Experimentation urgency vs. ethical deliberation: The 18-month transformation timeline creates pressure that directly conflicts with the call for careful boundary-setting and organizational reckoning.",
+    "Institutional trust rebuilding vs. AI-enabled erosion: The pre-existing trust crisis in journalism must be addressed to counter AI misinformation, but the very tools needed to rebuild trust (AI verification) require trust to be adopted.",
+    "Environmental cost vs. AI benefits: Newsrooms face a genuine tension between adopting AI tools that improve journalism and the environmental costs of the large models those tools require.",
+    "Individual agency vs. systemic displacement: Dhar affirms human irreplaceability in emotional and moral domains while acknowledging that functional skills people valued about themselves (writing, task completion) will be displaced.",
+    "Top-down ethical frameworks vs. bottom-up innovation: The call for bright-line rules and structural accountability potentially conflicts with the emphasis on empowering front-line journalists to drive AI implementation on their own terms."
+  ]
+}

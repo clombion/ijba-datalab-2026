@@ -1,0 +1,372 @@
+{
+  "episode_date": "2025-07-15",
+  "episode_title": "Florent Daudens: How Open-Source AI Puts Newsrooms Back in the Driver's Seat",
+  "codes": [
+    {
+      "code": "open-source-as-power-decentralization",
+      "description": "Open-source AI framed as a counter-movement to Big Tech concentration of power, giving newsrooms agency over their AI choices rather than dependency on proprietary vendors.",
+      "excerpts": [
+        "one of the key missions of Hugging Face is is basically fighting the concentration of power. We want people to be able to choose how and what they want to use in AI"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "vendor-lock-in-avoidance",
+      "description": "Open-source models allow switching between models in a single line of code, preventing dependency on any single provider's pricing, terms, or technical decisions.",
+      "excerpts": [
+        "one of the most powerful aspect of open source is you can switch models in one line of code. So it's it's powerful, it it avoids vendor locking",
+        "sometimes you feel like your model is very robust. You don't want to change anything? Well you're not gonna be you won't have to change everything because the model provider decide to do so"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "data-sovereignty-and-consent",
+      "description": "Open-source platforms enable news organizations to control how their data is licensed and used, contrasting with closed models that crawled content without consent.",
+      "excerpts": [
+        "the discussion has been so much focused on closed source models having like basically crawled every data that was available without any regards to consent that people are like, Oh, I didn't even think that I could have the the capacity to decide how I want to share my data",
+        "on the hub you can really decide what kind of license you want to attach to your data set"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "privacy-first-local-inference",
+      "description": "Running AI models locally on journalist devices ensures confidentiality for sensitive work like source protection, with no data transmitted to external servers.",
+      "excerpts": [
+        "if you are concerned about your investigative journalist using open AI's tools Well, if it's a model, it's an open source model... You can download it locally on your computer, for example run that model, use it for really in privacy in a privacy-first manner",
+        "if you have a confidential interview with a sensitive source, you don't have to send any info to an external server, you just run it on your computer"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "model-compression-trend",
+      "description": "Rapid advancement in model distillation and compression means smaller models increasingly match or exceed larger predecessors, enabling on-device deployment.",
+      "excerpts": [
+        "Llama 3.2 was released in um I think it has been released in last July and it was um more than four hundred billion parameters. And six months later you have a smaller model, so 70 billion parameters, which is basically you cut by five the size of the model, but with better performance",
+        "you can really, really envision a small, more powerful model being developed in the next few months, in the next few years and they will be so powerful that they will be able to run on your laptop but also on your cell phone"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "deepseek-as-open-source-milestone",
+      "description": "DeepSeek R1 as a watershed moment proving that open-weights models can match proprietary models' capabilities while being runnable on consumer hardware through distillation.",
+      "excerpts": [
+        "you suddenly had equivalent to open AI's most powerful model, now open source being able to be in a privacy-first manner running on your laptop",
+        "I only have like 16 gigabytes of RAM. And from day one I was able to run this model"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "small-models-for-specific-tasks",
+      "description": "Newsrooms overuse large foundational models for tasks that specialized smaller models handle better, wasting resources and environmental impact due to skills gaps.",
+      "excerpts": [
+        "more often than not the news industry is using big foundational models for tasks that could be tackled with small specialized model, but Probably because lack of you know internal skills or because you know for prototyping to you just ask a question to the chat bot and you get the answer"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "environmental-cost-of-ai",
+      "description": "Each AI query has a measurable environmental cost; image generation via ChatGPT equals a full iPhone charge, raising questions about sustainable AI use at scale.",
+      "excerpts": [
+        "each time you're Sending a request to ChatGPT. Well, basically, let's say you want to generate an image with ChatGPT. Well, it's the equivalent on a full charger for your iPhone. So imagine if everyone is doing the same. it will pile up",
+        "you're seeing a lot of you know news articles about the fragility of the energy grid in the US and elsewhere. And you know, do we need to go nuclear to basic fuel the AI boom"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "question-whether-ai-is-needed",
+      "description": "The first step in responsible AI deployment is asking whether AI is actually a better solution than existing methods for a given task.",
+      "excerpts": [
+        "the first thing is is really be able to understand is AI is a better solution that what you're already doing. Because like You know, I think the news industry really focused on improving productivity as a first step with AI. That's okay, but sometimes it's like, well, do we really need AI for this specific task?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "two-tier-ai-adoption-divide",
+      "description": "Roughly 80% of newsroom staff are disengaged from AI (fear, indifference, or lack of time), creating a widening gap with the 20% who are deeply invested.",
+      "excerpts": [
+        "we're seeing more and more a two-tier approach inside of newsrooms and inside of the industry because you have some people who are really, really interested in AI. And I would say maybe 80% of the people are like either they don't care or they don't have time or they're afraid of AI"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "leadership-responsibility-for-ai-literacy",
+      "description": "Newsroom leadership bears primary responsibility for creating meaningful, ongoing AI learning environments rather than one-off training sessions.",
+      "excerpts": [
+        "it really comes down to the importance of having a good leadership in the news industry because it's up to the leadership to build meaningful conversation to build a robust training architecture",
+        "the old paradigma of oh we're gonna build a training session, it's gonna be ready in six months and then The day we will give this workshop... it doesn't work like that"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "ai-demystification",
+      "description": "Reframing AI as simply 'the ability to talk to a machine with your own words' to lower the barrier to entry for non-technical journalists.",
+      "excerpts": [
+        "you has to make AI your own because it's not that complicated, especially because you know when you look at it, what is AI basically? It's the ability to talk to a machine with your own words"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "killing-initiative-in-newsrooms",
+      "description": "Young journalists' AI ideas being dismissed by established colleagues, stifling innovation from the people most likely to see new possibilities.",
+      "excerpts": [
+        "you have these young students, they're like, oh yeah, we I talked about this idea in my team. And people are like, no, we don't do this. And they're like You know, you're just a basically killing initiative"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "essential-ai-toolkit-for-journalists",
+      "description": "Curated collection of 20 open-source AI tools for daily journalism tasks including transcription, web scraping, image editing, handwriting recognition, and chart data extraction.",
+      "excerpts": [
+        "I call this the essential AI toolkit. So basically it's uh twenty tools that you can use for daily tasks in in journalism"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "shot-listing-via-small-vlm",
+      "description": "A 250-million-parameter vision language model running locally can shot-list an entire video in minutes, a task that previously consumed hours of human labor in TV production.",
+      "excerpts": [
+        "SmallVLM 2 which is like a vision language model. It can understand videos And it's only 250 million parameters... you can shot list a video with it... it takes a few minutes, which is unbelievable. You know, I I used to work on in TV stations and and shot listing is a nightmare and it takes forever"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "handwriting-recognition-breakthrough",
+      "description": "Open-source OCR models achieving 100% accuracy on notoriously illegible handwriting like US presidential transition letters, surpassing human reading ability.",
+      "excerpts": [
+        "recently I'm getting 100% accuracy with, you know, really like letters that are So hard to decipher evil even for a human"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "prompts-as-code",
+      "description": "The Financial Times model of treating prompts like code with shared, collaboratively iterated prompt libraries, creating organizational value from distributed experimentation.",
+      "excerpts": [
+        "the Financial Times... we think about prompt the same way we think about code. So they iterate on the prompt. They have this common prompt library that everyone in the newsroom can have access to",
+        "I see so many journalists or people prompting alone, you know, on their computer and not sharing their experiments"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "missed-product-innovation",
+      "description": "Products like NotebookLM and Perplexity -- built at the intersection of content and technology -- could and should have been developed by newsrooms but were not.",
+      "excerpts": [
+        "these two innovations could have come from newsrooms because When you think about content and tech, you think about products and then you develop something new",
+        "Perplexity without news is like an arm less, you know"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "agents-bypass-ux-and-ads",
+      "description": "AI agents will browse news websites, extract content, and deliver summaries to users who never see the publication's interface, branding, or advertisements.",
+      "excerpts": [
+        "I used uh what we a library called uh browser use. So it just open up my browser, go to the BBC Look for content on the homepage, find the article about the Oscars, read the article for me and give me perfect summary",
+        "You will never see the UXUI, you will never see the ads and you'll just have the information you need"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "documentation-for-llms-not-humans",
+      "description": "Emerging question of whether news content and code documentation should be formatted for machine consumption rather than human reading as AI agents become primary intermediaries.",
+      "excerpts": [
+        "Do we still need to build documentation for humans or do we need to adapt basically documentation for LLMs? Is it gonna be the same for news?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "agent-control-levels",
+      "description": "Framework from Hugging Face's MLN Society team structuring different levels of autonomy surrendered to AI agents, from tool calling to full autonomous operation.",
+      "excerpts": [
+        "they structure it in a way that you have different levels of control and and so for example if you build an agent with tool calling Well, you surrender a certain level of controls, but you're still in the driver's seat",
+        "you could reach the level of full autonomy. So basically you you let the the agent decide which tool it will use and even like if it needs to build tool on the fly it will do it"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "owning-experience-not-just-content",
+      "description": "Strategic paradigm shift from content ownership to experience ownership as the foundation for journalism's future business model.",
+      "excerpts": [
+        "the future of media and journalism isn't just about Owning the content, it's about owning the experience. It's about the inference, the interaction, the integrations that you bring into your experience that's actually might end up being more valuable than even page views were Ever",
+        "newsrooms own the content. So now it's, you know, a question of how do you own the experience"
+      ],
+      "speaker": "Nikita Roy / Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "inference-as-bigger-opportunity-than-training",
+      "description": "Distinguishing between training (one-time model building using crawled content) and inference (ongoing real-time content retrieval), with the latter presenting larger revenue opportunities for publishers.",
+      "excerpts": [
+        "these lawsuits are really focused on on training, whereas there's a lot of opportunity Opportunities in inference, because as we said, if tech companies will focus more and more on building products, I think they will need more and more to integrate news into these products",
+        "And inference is basically when you go and ask a question, they get information from your website"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "news-as-conversation-vs-broadcast",
+      "description": "Conversational AI interfaces can make news less intimidating and more accessible, potentially addressing news avoidance by letting users ask questions they would not ask of a static article.",
+      "excerpts": [
+        "if you think about news as a conversation, basically, well, it's less intimidating. You can ask stupid questions that sometimes you feel you need to ask, whereas you know when you're reading an article, you're like, oh, I don't have the background to understand that"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "personalized-context-per-reader",
+      "description": "AI enabling different levels of context for different readers based on their existing knowledge, removing the constraint of writing for a single assumed audience knowledge level.",
+      "excerpts": [
+        "the context. Like you don't need the same context as me for every news. And AI will be able be it from the publisher or because I decide to to have a different context than you"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "on-device-model-embedding-in-apps",
+      "description": "Embedding small AI models directly into news apps for on-device features like text-to-speech, enabling seamless transitions between reading and listening.",
+      "excerpts": [
+        "you could think of, hey, I'm gonna embed a text to speech model, for example, that is light enough to be run on the fly if the users wants to. So for example, I'm reading an article and I'm like, uh, I don't know, I I'm I'm late for work or whatever. Whatever, well, read the rest for me out loud in my earbuds"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "chatgpt-licensing-information-divide",
+      "description": "ChatGPT only surfaces news from publishers it has licensing deals with, creating a two-tier system where smaller publishers are excluded from AI-mediated information access.",
+      "excerpts": [
+        "Chat GPT that I've been noticing that they only search and pull from news publishers that they have a license with. So if you are not among that and if you have blocked Chat GPT, well good luck to you, you're not even gonna get be included in the sources"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "search-to-article-revenue-model-collapse",
+      "description": "The traditional revenue model based on Google search traffic driving ad impressions on articles is rapidly eroding due to AI overviews, Perplexity, and ChatGPT.",
+      "excerpts": [
+        "for decades the revenue model that newsrooms have relied on quite a substantially has been that one core behavior of people go to Google, they search for something, then they land on an article, you get that ad impression... but that behavior is crumbling fast"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "vibe-coding-as-democratizer",
+      "description": "AI-assisted coding enabling journalists and non-engineers to build functional apps and prototypes, turning writing ability into software development capability.",
+      "excerpts": [
+        "the main use case for me right now for for my personal use in AI is really what we call vibe coding",
+        "you can you can ship an app to the app store and it works and you're you're able to sell it if you want"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "ship-fast-murder-darlings",
+      "description": "Tech industry innovation culture of launching many experiments, refusing to fall in love with any single one, and quickly killing those that do not change trajectories.",
+      "excerpts": [
+        "the way we we build innovation is we launched basically maybe 500 innovations... but at the end you maybe have five innovation on top of that that really changed the trajectory of of the whole company",
+        "innovate faster and and you know don't fall in love with your innovations, that's fundamental"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "zero-meeting-culture",
+      "description": "Hugging Face's no-meeting policy with 250 distributed employees as a productivity model, safeguarding deep thinking time and producing higher output.",
+      "excerpts": [
+        "the biggest cultural shift for me and I love it. I mean after like the first week, like, oh wow, I accomplished so much",
+        "we are really encouraged to safeguard or uh deep thinking time"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "journalist-slack-community-demand",
+      "description": "Overwhelming demand for peer learning communities, with 400 journalists joining Daudens' Slack workspace on day one, maxing out the invite link.",
+      "excerpts": [
+        "we had like 400 people on like day one or something, right? Yeah. I discovered that you can max out an invite link with Slick, which basically was a big surprise for me. But you know it it tells something. It tells that people want to understand how to build with AI"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "cnn-pivot-as-industry-signal",
+      "description": "CNN laying off 200 broadcast staff while hiring 200 data science/development staff as a concrete indicator of the industry's structural shift from broadcast to AI-powered digital.",
+      "excerpts": [
+        "recently CNN decided to lay off I think two hundred people because they what they saw is you know their traditional broadcast content is is basically like the audience is plummeting. But on the other hand, they decided to hire two hundred people in data science, development"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "ai-analytics-beyond-dashboards",
+      "description": "Vision of AI-powered analytics that go beyond static dashboards to understand user intent, suggest editorial actions, and personalize content journeys through agents.",
+      "excerpts": [
+        "with AI you could have something way more interesting because First of all, if you understand the intention of the user with your content, it's gonna give you way more insights",
+        "you could have agents performing several actions for you, such as hey, I'm seeing that this person is uh reading X and Y article"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "tech-companies-climbing-the-stack",
+      "description": "Warning that as AI models commoditize, tech companies will move up the stack to build products directly on content, encroaching on territory traditionally owned by publishers.",
+      "excerpts": [
+        "you're gonna see the tech industry going higher up the stack and and begin to focus more and more on building products and If you build more products, it means that you're gonna go for content or you know how people will interact with content. And I think for the news industry that's a crucial question"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "open-source-model-transparency",
+      "description": "Fully open-source models allow examination of training data, training code, and potential biases, giving newsrooms the ability to audit the tools they deploy in user-facing contexts.",
+      "excerpts": [
+        "with fully open source models you can really look under the hood and you have how the model was trained. You have the training code, but also you have the training data. So it's really important for news organizations because you know there are lots of questions and issues about Copyrights, where does the data come from?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "news-industry-agility-underrated",
+      "description": "Counter to doom narratives: the news industry's history of constant disruption has actually built organizational agility that positions it well for AI adoption.",
+      "excerpts": [
+        "I don't think the news industry is badly suited to adopt AI. I think, you know, we had so many changes and shifts and so on that I think overall the news industry has been able to build an agile structure that is good enough to really be able to be up for the challenge of AI"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Florent Daudens, now straddling journalism and the open-source AI world at Hugging Face, offers a technically grounded argument that open-source AI represents newsrooms' best path to autonomy in an era of increasing Big Tech platform dependency. He details how model compression (DeepSeek R1 running on a MacBook, SmallVLM 2 at 250M parameters doing video shot-listing) is making on-device, privacy-first AI practical for everyday journalism tasks, while the environmental cost of cloud-based inference goes largely unexamined by the industry. The conversation pivots toward a structural warning: as models commoditize, tech companies will climb the stack to build products directly on news content, and innovations like Perplexity and NotebookLM -- which could have been built by newsrooms -- represent missed opportunities. Daudens frames the strategic imperative as moving from owning content to owning experiences, while acknowledging that the 80/20 AI literacy divide within newsrooms and leadership's failure to create ongoing learning environments remain the most stubborn practical barriers.",
+  "surprises": [
+    "Daudens quantifies the AI adoption divide at roughly 80% disengaged versus 20% invested, a strikingly high ratio of disengagement even in an industry aware of AI's impact.",
+    "Each ChatGPT image generation request equals a full iPhone charge in energy consumption, a concrete environmental cost metric rarely cited in newsroom AI discussions.",
+    "He argues that Perplexity and NotebookLM should have been built by newsrooms, framing them as missed product innovation opportunities rather than external threats.",
+    "Hugging Face's zero-meeting policy with 250 distributed employees challenges newsroom norms around collaboration and could be a model for deep work in journalism.",
+    "His personal AI benchmark is deciphering US presidential transition letters, achieving 100% OCR accuracy on handwriting that defeats human readers."
+  ],
+  "tensions": [
+    "Between open-source AI's promise of newsroom autonomy and the reality that most newsrooms lack the technical skills to harness it.",
+    "Between AI's environmental costs and the industry's enthusiasm for deploying it at scale without measuring the footprint.",
+    "Between protecting content from AI training (lawsuits) and needing to be present in AI inference products (ChatGPT, Perplexity) to remain visible.",
+    "Between the tech industry's ship-fast-murder-darlings innovation culture and journalism's tendency to over-invest in single initiatives.",
+    "Between editorial control over content presentation and the inevitability of agents consuming content in ways publishers cannot control.",
+    "Between AI making news conversational and accessible and the risk of losing the crafted, authoritative voice that distinguishes professional journalism."
+  ]
+}

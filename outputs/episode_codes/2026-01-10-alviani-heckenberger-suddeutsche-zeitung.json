@@ -1,0 +1,371 @@
+{
+  "episode_date": "2026-01-10",
+  "episode_title": "Alessandro Alviani & Fabian Heckenberger: How Germany's Sueddeutsche Zeitung is building AI products that audience can trust",
+  "codes": [
+    {
+      "code": "Dog-first cooperation",
+      "description": "The editorial-product partnership is grounded in daily personal rapport (asking about each other's dogs each morning) before discussing AI projects, signaling that cross-functional AI work depends on relational trust",
+      "excerpts": [
+        "when we meet in the morning. We both own a dog and the dogs are rather old and our first question in the morning is most of the time how is your dog doing? And after dealing with this question, we dig deep into the several AI projects",
+        "it's not an AI-first uh uh uh cooperation, it's a dog-first cooperation"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Editorial-product cross-functional design",
+      "description": "AI projects at SZ are driven by a deliberate editorial-product partnership where editorial (Heckenberger) focuses on newsroom implementation and literacy while product (Alviani) focuses on subscriber-facing features and technical infrastructure",
+      "excerpts": [
+        "AI-driven projects are cross-functional by by definition, by design. So and we really coordinate and cooperate at different levels. on joint initiatives",
+        "my role is deeply embedded in the newsroom. As a managing editor, I'm kind of in the rhythm of the so-called editorial process"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Bottom-up peer-to-peer AI adoption",
+      "description": "SZ rejects top-down AI mandates in favor of empowering editorial frontrunners and early adopters who build tools and share them peer-to-peer, creating more trustworthy adoption than manager-driven approaches",
+      "excerpts": [
+        "You cannot impose I guess AI from top down. You need these experts within the newsroom who understand both the journalism that can be powered by AI and the technology behind it. And of course the risks as well.",
+        "this peer-to-peer approach worked very well during the last twelve months. 'Cause it's uh very trustworthy if your colleague right next door developed an assistant"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Langdog as AI literacy platform",
+      "description": "Berlin-based enterprise AI platform deployed organization-wide enabling employees to test different LLMs, share prompts, build assistants, and make them available to colleagues, reaching nearly 50% newsroom adoption",
+      "excerpts": [
+        "Right now we're standing at almost fifty percent and by the end of the year I think we're gonna reach seventy to seventy five percent",
+        "this platform enables our colleagues to test different models against each other, to learn how does each and every model work"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Sharing fails as literacy accelerator",
+      "description": "Deliberately encouraging colleagues to share AI failures alongside successes in training sessions normalizes learning, fosters collaborative problem-solving, and signals that perfection is not expected",
+      "excerpts": [
+        "I really put a lot of attention in trying to invite different people with different backgrounds",
+        "I encourage them to share also fails... it's really important to see We are here to learn together. You don't need to reach immediately a perfect result"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Cross-departmental assistant contagion",
+      "description": "AI assistants built by one department (brand) inspire adoption and adaptation by other departments (editorial), creating organic cross-pollination of use cases",
+      "excerpts": [
+        "Our colleagues here at our brand team. They developed an assistant to double check if their texts are in line with their internal guidelines... from the editorial side, we got also questions. Like, how do you do that?",
+        "it's a similar use case, and we can learn together. How do you do that? Can you share the assistant with me and they can build upon this assistant"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Viral organic assistant demand",
+      "description": "A science department editor's assistant for analyzing 300-page scientific studies generated 30+ colleague requests within two hours of presentation, demonstrating how bottom-up use cases create immediate pull demand",
+      "excerpts": [
+        "One of our Editors in our science department. He developed an assistant that allows our editors to chat. with huge scientific studies, PDFs with three hundred more pages",
+        "within the first two hours he got like Over 30 text messages. Where do I find this? I want to use this as well"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Breaking down fear through practical experience",
+      "description": "Moving AI discussions from theoretical/doomsday scenarios to hands-on practical use eliminates black-and-white thinking as journalists develop their own informed judgment through direct experience",
+      "excerpts": [
+        "it's very important to break it down from a theoretical to a practical level",
+        "then we don't have these black and white discussions anymore and we don't have these uh doomsday scenarios anymore because everyone is way more educated to make up his own mind"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "AI reintroducing editorially abandoned features",
+      "description": "Article summaries were manually written 7-8 years ago but removed because the workload was too high despite reader popularity; GenAI allowed reintroduction with reduced editor burden, framing AI as restoring rather than disrupting",
+      "excerpts": [
+        "we had actually article summaries on our website already seven or eight years ago. And they were entirely manually written. So that basically the additional workload on editors was felt as too high. So at the end, we removed them",
+        "this year we reintroduced them with Genai support and human oversight"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Expert in the loop (not just human)",
+      "description": "SZ elevates the human-in-the-loop concept to expert-in-the-loop: the person who wrote or edited the original article reviews AI output, ensuring domain-specific quality rather than generic human oversight",
+      "excerpts": [
+        "It's not just Who is double checking those summaries is the person who has written the article or edited the article. So you have not just a human in the loop, you have an expert in the loop. So they can basically review them very quickly."
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Self-learning editorial AI systems",
+      "description": "Building systems that compare AI-generated output with the final human-edited version to continuously learn and reduce manual corrections over time, with specific examples like learning SZ's lowercase FIFA convention",
+      "excerpts": [
+        "we have a service that allows us to compare the AI generated version with the version that goes online and is eventually manually or potentially manually edited, so that we can basically learn and improve the quality",
+        "we write FIFA. not in capital letters. An LLM will write FIFA in a sports article, a soccer article, and all in capital letters. Now why do Our editors need to manually fix it every single time if we can basically build a system that is reducing this additional workload"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Expert in the loop stretched across development",
+      "description": "Extending the expert-in-the-loop principle beyond final review to the entire product development process: involving editorial sections in prompt crafting, testing, and iteration from the very beginning",
+      "excerpts": [
+        "Our economic section was involved within the first testing we did. on how these AI summaries could work for Suite Deutsch Zeitung. They were involved in re-crafting, rewriting the prompt",
+        "they had the feeling from the begin on, okay this is something I understand more and more, I understand better and better. I'm involved from the beginning and this builds trust"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Deep CMS integration over separate tools",
+      "description": "Emphasis on integrating AI directly into existing CMS and Figma workflows rather than requiring editors to switch applications, reducing friction as a deliberate adoption strategy",
+      "excerpts": [
+        "Our emphasis is on deep integration. So we want to meet our users. Where they already are. So we eliminate the need for them to switch applications. They don't need to leave the CMS and log in into a different platform"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Multi-LLM pipeline with LLM-as-judge",
+      "description": "Easy-to-understand article versions use a multi-step pipeline: first LLM generates easy language, second LLM-as-judge checks against original, then article author reviews, creating layered quality assurance",
+      "excerpts": [
+        "we have a first LLM involved in translating, in generating a first version in easy language... the second step is basically double checking. Zen LLM as a judge. approach basically. Based on the original article, we check and double check the using LLM, the version, the first draft And then the final version is double checked by the article authors"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Easy language as accessibility innovation",
+      "description": "AI-generated easy-to-understand article versions with a slider for seamless switching between standard and easy language, deployed for election coverage and investigative reporting to increase accessibility",
+      "excerpts": [
+        "We even had a very easy slider. so that users can seamlessly switch between the version in standard language and the version in easy language",
+        "The feedback was extremely positive. People started asking you, are you going to introduce this for all of your articles?"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Election chatbot as coverage complement",
+      "description": "RAG-based chatbot for the German general election justified not as a technology showcase but as a way to cover political topics impossible to address through traditional coverage alone, with sources shown for every answer",
+      "excerpts": [
+        "during an election, you simply can't cover every single party on every single position and on every single topic. So we built the assistance",
+        "the assistant for the German general election provided answers based on our SZ articles and on the party manifestos. And real important, he showed its sources"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Readers in the loop for coverage insights",
+      "description": "Analyzing user interactions with the election chatbot to identify coverage gaps and emerging topics, effectively putting readers in the editorial feedback loop to inform journalistic coverage",
+      "excerpts": [
+        "we didn't just put humans and experts in the loop. We literally put readers in the loop. And this is a significant shift",
+        "during live operations we analyze user interactions. And to spot basically, to gain insights and spot potential gaps in our coverage"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "UX iteration from chatbot generations",
+      "description": "Lessons from the EU election chatbot (users prefer clicking predefined options over typing) led to persona-based entry points for the German election chatbot, showing cross-project UX learning",
+      "excerpts": [
+        "from the last year's EU chatbot, we learned that users often don't want to type long messages. Especially on political topics and especially at the start of a conversation, they prefer clicking on predefined options",
+        "we introduce persona-based text like I'm a student, I'm a pensioner, and users could basically click on them, click on a topic like climate change and pick one or more parties"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "AI WhatsApp hyper-local distribution",
+      "description": "AI-supported WhatsApp channels for eight Munich districts where AI scrapes trusted sources defined by editors for local events and news, enabling hyper-local coverage impossible without the AI layer",
+      "excerpts": [
+        "the AI layer is as scraping trusted sources, our editors defined in advance. And extracting key information on everything that's going on within these several districts",
+        "this wouldn't be possible with these kind of resources for all these uh regions and district without the AI layer, without the AI empowerment"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Risk management as trust architecture",
+      "description": "Systematic risk management for AI products including error categorization, priority error identification (voting recommendations as highest priority to avoid), and rapid response protocols as the core trust-building mechanism",
+      "excerpts": [
+        "errors can happen, errors will happen, but and this is I think the game changer, we know what to do when that happens and we have systems in place to respond quickly",
+        "how do we minimize errors? How do we categorize errors? So priority errors and how can we differentiate them? And how do we react quickly when something goes wrong?"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Live monitoring with sensitive keyword alerts",
+      "description": "Real-time monitoring system using pre-selected sensitive keywords that trigger Slack notifications when users attempt adversarial interactions, enabling prompt and guardrail adjustment multiple times per day during live operations",
+      "excerpts": [
+        "We selected and pre-selected sensitive keywords that were extremely important to us. Why? Because if someone was trying multiple times to break the system by using those sensitive keywords, we would immediately get a slack notification",
+        "adjusting the prompt, adjusting the guardrails live during the live operations, several times per day"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Avoiding voting recommendations as North Star",
+      "description": "The highest-priority error category for the election chatbot was avoiding voting recommendations, reflecting an absolute editorial red line around journalistic neutrality that shaped the entire system design",
+      "excerpts": [
+        "we wanted to avoid voting recommendations. That was something we set up very from the very beginning. That's what I mean with having a clear risk management. This involves also Clearly defining metrics that are basically our North Star here"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "Radical AI transparency for quality media",
+      "description": "Explicit rejection of the argument that since AI is already in every workflow there is no need to flag it; quality media outlets' dependence on subscriber trust demands maximum transparency about AI involvement",
+      "excerpts": [
+        "I'm not a big fan of the argument that almost every content already has pieces of AI in it or consists of is already based on several AI workflows, so you don't need to flag it out. I think the opposite is right.",
+        "You need as quality media outlets, you're deeply depending on the trust of your users and especially your subscribers"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Consistent AI design language",
+      "description": "Building visual habits through consistent branded color, frames, and clear KI/AI labels across all AI-powered features so readers immediately recognize where AI is involved without having to guess",
+      "excerpts": [
+        "it basically uses exactly the same color gradient effects. exactly in the same branded color as set green that we use, for example, for other AI power tools like our summaries",
+        "colors are not enough. That's why we add always a clear label. That is AI, it's KI"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Graduated transparency by editorial proximity",
+      "description": "Transparency obligations increase as AI involvement approaches the final published output; early brainstorming use needs no flagging while content production requires explicit labeling, with ongoing debate about middle cases like TTS",
+      "excerpts": [
+        "If somebody uses an AI assistant for an early brainstorming on, I don't know, interview questions... nobody would think about flagging this out when publishing the interview",
+        "what we are discussing right now, for example, is our TTS, our text-to-speech function. Where actually at the moment we do not flag out that this is an AI generated voice"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "neutral"
+    },
+    {
+      "code": "Strict no AI-generated images policy",
+      "description": "SZ uses AI-generated images only when reporting about AI-generated content or deepfakes, and even then adds a repeating 'AI generated' overlay, developed early in response to subscriber uncertainty after the Pope deepfake incident",
+      "excerpts": [
+        "We use AI-generated optics only in the single exception case when we particularly write or report about this topic, when we write or report about AI-generated content, when we write or report about, for example, deepfakes",
+        "Even when we report on photorealistic AI generated images, we add an overlay. that repeats the word AI generated"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Reinvesting time savings into new formats",
+      "description": "The critical question for AI efficiency is not how much time is saved but whether that saved time is reinvested into previously impossible new formats, making AI a creative enabler rather than just a cost reducer",
+      "excerpts": [
+        "The most important question there is how do you reinvest the time savings there? Can you develop new formats? And this is a crucial question we discussed with our social team. Can you reinvest this time savings in new formats that you could not produce so far due to time constraints?"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Perfection trap and learning delays",
+      "description": "Waiting for AI products to be perfect before launch creates learning delays; the key question is when 'good enough' is good enough to ship and start learning from real users",
+      "excerpts": [
+        "we really want to avoid the perfection trap because this leads to something I called uh learning delays",
+        "we want to be sure that we basically know when we are confident enough to ship this product and Be aware it's not when it's perfect, when we are confident enough that it's good enough to start learning"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "No done column for AI products",
+      "description": "AI product development has no finished state; it requires continuous learning and monitoring, fundamentally different from traditional software releases",
+      "excerpts": [
+        "There is no done column when we build AI products, you know? There's no finish. We basically it's continuous learning, it's continuous monitoring"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "Learning as the biggest barrier to scaling",
+      "description": "Citing an MIT study, the biggest barrier to scaling AI is not infrastructure or talent but learning, because most GenAI systems do not retain feedback or improve over time",
+      "excerpts": [
+        "the biggest barrier to scaling AI is not infrastructure, is not talent, it's learning. Because most GI systems don't retain feedback, don't improve over time"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "negative"
+    },
+    {
+      "code": "Shiny object syndrome resistance",
+      "description": "Disciplined resistance to building flashy AI tools without real editorial or business value, requiring teams to first ask whether a problem is actually an AI problem or better solved by traditional tools",
+      "excerpts": [
+        "there is a second trap. It's basically this shiny object syndrome. And we really don't want to build just flashy AI tools",
+        "is this An AI problem? Is this an AI opportunity? Is it something that we should address with AI tools? Or are there more efficient ways?"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    },
+    {
+      "code": "Habits over clicks as success metric",
+      "description": "Defining AI product success through building reader habits and making journalism part of users' everyday lives rather than superficial metrics like clicks or session duration",
+      "excerpts": [
+        "we just don't focus on superficial metrics like clicks or session duration. We concentrate on something that I truly believe is getting more and more important and this building habits",
+        "how can we make our products our journalistic products, our digital products, more of a habit for users"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Usage data as bottom-up product discovery",
+      "description": "Observing which Langdog assistants are used 3,000 times versus 5 times per month as organic signal for which tools to integrate into official CMS architecture, turning the platform into a product discovery engine",
+      "excerpts": [
+        "we can see this assistant has been used five times over the last uh four uh four weeks, and another one has been used uh three thousand times. over the last four weeks. And of course this is a clear indicator then to dig deeper into this kind of assistant"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "Making journalism surprisingly easy to access",
+      "description": "SZ's core AI product mission framed as making high-quality journalism 'surprisingly easy to access' for readers through innovative discovery and engagement tools",
+      "excerpts": [
+        "This ties directly Into our mission of making high-quality journalism surprisingly easy to access. So it's basically helping readers discover and engage with our content in new ways"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "positive"
+    },
+    {
+      "code": "Pain point mapping before AI application",
+      "description": "Spending hours mapping the entire editorial workflow with dozens of interviews to identify pain points before deciding where traditional tools versus AI should be applied, ensuring solutions match real problems",
+      "excerpts": [
+        "Alessandra and I spent hours and hours scribbling and laying out a workflow map of our editorial process. And we talk to dozens and dozens of people and we ask them what are your pain points",
+        "where can we help with traditional tools? Where could traditional tech Maybe accelerate the process... And then we ask the same questions regarding AI"
+      ],
+      "speaker": "Fabian Heckenberger",
+      "valence": "positive"
+    },
+    {
+      "code": "AI browser threat monitoring",
+      "description": "Proactive monitoring and analysis of emerging AI browsers and AI-based search tools as potential threats to the media business model, reflecting strategic vigilance beyond internal tool building",
+      "excerpts": [
+        "they also closely monitor and analyze emerging trends and tools. like AI browsers, for example, or AI-based search tools to assess their potential impact on our media business"
+      ],
+      "speaker": "Alessandro Alviani",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "This episode provides a detailed operational blueprint for trust-centered AI deployment in a legacy European newsroom. Sueddeutsche Zeitung's approach is distinguished by its dual editorial-product leadership structure, where AI adoption is driven bottom-up through peer-to-peer knowledge sharing via the Langdog platform rather than top-down mandates. The conversation reveals a sophisticated product philosophy: AI products have no 'done' state, the biggest scaling barrier is learning (not infrastructure), and the critical question is not how much time AI saves but whether that time is reinvested into previously impossible formats. A particularly notable framework is the graduated transparency model, where AI involvement must be flagged more prominently the closer it gets to final published output, backed by a strict no-AI-generated-images policy and consistent design language. The episode also surfaces a practical innovation in using chatbot user interaction data to identify coverage gaps, effectively putting readers into the editorial feedback loop.",
+  "surprises": [
+    "Article summaries were manually written at SZ 7-8 years ago and removed because they were too labor-intensive, despite reader popularity -- GenAI essentially restored an abandoned feature rather than creating something new",
+    "A single science department editor's PDF analysis assistant generated 30+ colleague requests within two hours of being presented, showing that organic demand for AI tools already exists within newsrooms",
+    "SZ adjusts chatbot prompts and guardrails multiple times per day during live operations, suggesting AI products require a level of real-time editorial attention more like broadcasting than publishing",
+    "The TTS text-to-speech feature currently does not flag that it uses an AI-generated voice, revealing an unresolved transparency gap in an otherwise rigorously transparent organization",
+    "Both guests' personal AI use is surprisingly sophisticated -- connecting local LLMs to Notion via MCP, building agentic workflows with n8n and Relay, and using AI to generate personalized bedtime stories for nieces"
+  ],
+  "tensions": [
+    "Bottom-up peer-to-peer adoption is celebrated as the ideal approach, yet the organization still tracks adoption metrics (50% heading to 70-75%) that implicitly set top-down targets",
+    "Radical transparency about AI involvement is advocated for quality media, yet the line where transparency becomes impractical (brainstorming use, TTS voices) remains actively debated and unresolved",
+    "The 'no done column' philosophy of continuous AI product iteration conflicts with finite newsroom resources and the need to eventually move on to new projects",
+    "The election chatbot must avoid voting recommendations at all costs to preserve neutrality, yet the persona-based design inherently frames political questions through demographic lenses",
+    "SZ frames AI as restoring features and enabling new formats, but the underlying efficiency gains still implicitly reduce the need for human editorial labor"
+  ]
+}

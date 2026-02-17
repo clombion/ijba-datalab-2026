@@ -1,0 +1,354 @@
+{
+  "episode_meta": {
+    "title": "Cheryl Phillips: How AI Is Uncovering Hidden Stories in Local Government",
+    "date": "2025-05-30",
+    "guests": [
+      {
+        "name": "Cheryl Phillips",
+        "role": "Founder and Co-Director of Big Local News",
+        "organization": "Stanford University"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 10538
+  },
+  "ai_tools": [
+    "Generative AI (entity extraction, summarization)",
+    "Machine learning (anomaly/pattern detection)",
+    "Copilot (GitHub)",
+    "ChatGPT",
+    "Hugging Face",
+    "Ping Pong (Shard Goel, Harvard)",
+    "DataTalk (Stanford Oval Lab)",
+    "SUQL (Structured and Unstructured Query Language)",
+    "Autofolio (entity extraction tool for police records)",
+    "Julius AI",
+    "Gemini (Google)",
+    "BillTrack 50"
+  ],
+  "use_cases": [
+    {
+      "description": "Agenda Watch: scraping and aggregating local government meeting agendas and minutes from hundreds of agencies by targeting the platform companies they contract with, enabling keyword search and pattern detection across jurisdictions",
+      "tool_used": "Custom scraping infrastructure, machine learning",
+      "organization": "Big Local News, Stanford University",
+      "outcome": "Beta site with a couple hundred local governments; plan to scale to 3,000 agencies within six months; enables reporters covering 20+ cities to track issues across jurisdictions",
+      "stage": "beta"
+    },
+    {
+      "description": "Audio analysis of public meetings to detect newsworthiness by analyzing volume spikes (shouting) and silence in eight-second intervals of meeting audio",
+      "tool_used": "Machine learning (audio analysis)",
+      "organization": "Stanford University (class project)",
+      "outcome": "Found that both shouting and silence predicted newsworthiness in public meetings",
+      "stage": "experimental"
+    },
+    {
+      "description": "Marrying Agenda Watch corpus with federal ICE contracts data to identify California local governments that had ICE contracts while publicly claiming not to share data with ICE, in a sanctuary state",
+      "tool_used": "Machine learning, generative AI, LLMs",
+      "organization": "Big Local News, Stanford University, Bay City News",
+      "outcome": "Discovered Santa Clara County (Silicon Valley) had the most ICE contracts despite not being a border county; found city/county officials proclaiming non-cooperation with ICE the day after signing new ICE contracts; published story with Bay City News",
+      "stage": "production"
+    },
+    {
+      "description": "DataTalk: natural language querying of FEC campaign finance data (10 key tables) with built-in transparency showing SQL-like query steps, plain English explanations, caveats, and a shareable dashboard",
+      "tool_used": "DataTalk (Stanford Oval Lab), SUQL",
+      "organization": "Stanford Oval Lab, Big Local News, Brown Institute",
+      "outcome": "Used during 2024 presidential elections; student teams published stories with Honolulu Civil Beat, Bay City News, and Atlanta Journal Constitution; AJC team analyzed campaign spending in swing counties on abortion issues married with ad spending data",
+      "stage": "production"
+    },
+    {
+      "description": "Autofolio: generative AI entity extraction from police misconduct and use of force records (PDFs, audio, video) to build a public-facing database of police use of force and misconduct across California",
+      "tool_used": "Autofolio (generative AI entity extraction)",
+      "organization": "Big Local News, Berkeley Institute for Data Science, Berkeley Investigative Reporting Program, UC Irvine Law Clinic, Community Law Enforcement Accountability Network",
+      "outcome": "Successfully extracting entities (weapon type, officer names, incident details); beginning of public-facing database; earlier manual analysis found 31-34 instances of Bakersfield police breaking bones with batons; follow-up story on mental health incidents",
+      "stage": "pilot"
+    },
+    {
+      "description": "Scraping WARN Act layoff notices from 44 states and piping news detection alerts via Slack channels organized by geography for subscribing newsrooms",
+      "tool_used": "Custom scraping, Slack bots",
+      "organization": "Big Local News",
+      "outcome": "Baltimore Banner published three to four stories in recent months about USAID contractor layoffs discovered through Slack alerts; data published daily as open CSV on Big Local News platform",
+      "stage": "production"
+    },
+    {
+      "description": "Audit Watch: scraping federal audit clearinghouse daily for problematic audits of entities receiving $750,000+ in federal funds, with plans to add generative AI summarization to detect newsworthy findings",
+      "tool_used": "Scraping infrastructure, generative AI (planned)",
+      "organization": "Big Local News",
+      "outcome": "Currently delivers tip alerts; goal is agentic AI solution that can distinguish truly newsworthy audit flags from minor accounting issues",
+      "stage": "pilot"
+    },
+    {
+      "description": "Starling Lab collaboration: authenticating and preserving police body camera footage using blockchain, creating immutable records with full chain of custody and audit trails",
+      "tool_used": "Blockchain (Starling Lab), hashing, notarization, P2P storage network",
+      "organization": "Big Local News, Starling Lab (Stanford), the GRIO",
+      "outcome": "Created authenticated archive of body cam footage with clickable provenance trail for readers; co-published with the GRIO; established chain of custody model including original police press releases as metadata",
+      "stage": "production"
+    },
+    {
+      "description": "Reuters photo authentication using Starling Lab technology, including January 6th Capitol coverage with provenance tracking from camera to wire service",
+      "tool_used": "Starling Lab authentication, blockchain",
+      "organization": "Starling Lab, Reuters",
+      "outcome": "Case study comparing authenticated photos from Obama inauguration and January 6th at same locations; demonstrated transparent edit history via clickable interface",
+      "stage": "production"
+    },
+    {
+      "description": "Tracking legislative actions responding to Trump administration executive orders using BillTrack 50 data across all state legislatures and Congress, with generative AI summarization and confidence scoring",
+      "tool_used": "BillTrack 50, generative AI (summarization and scoring)",
+      "organization": "Big Local News, University of Missouri",
+      "outcome": "In development; goal is a public tool on Big Local News where anyone can sort and filter legislative responses to executive orders; student reporters will write stories for local newsrooms",
+      "stage": "development"
+    },
+    {
+      "description": "Ping Pong used as a walled-garden RAG tool for teaching: uploading tip sheets and course PDFs so students can query course materials in natural language without hallucination risks",
+      "tool_used": "Ping Pong (Shard Goel, Harvard)",
+      "organization": "Stanford University",
+      "outcome": "Students can quickly find information from uploaded course materials; safe experimentation environment",
+      "stage": "production"
+    },
+    {
+      "description": "Drug overdose data analysis revealing a cohort of older Black men (aged 51-70) dying at disproportionately higher rates in industrial and port cities, with data shared to 11+ local newsrooms for local reporting",
+      "tool_used": "Data analysis (traditional and computational)",
+      "organization": "Big Local News, New York Times, Baltimore Banner",
+      "outcome": "Major story published with New York Times and Baltimore Banner; county-level data with pre-built charts released for any newsroom to use; approximately 11 additional local newsrooms received tailored data for local stories",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "A local reporter today might have to cover 20 cities, whereas 15 years ago it might have been one or two",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Local government agencies often contract with just a handful of platform companies for agendas and minutes, making scalable scraping possible by targeting the platforms rather than individual agencies",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "empirical"
+    },
+    {
+      "claim": "Santa Clara County, in the heart of Silicon Valley, had the most ICE contracts in California despite not being a border county",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Silence in public meetings predicted newsworthiness, which was unexpected (in addition to shouting)",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "empirical"
+    },
+    {
+      "claim": "There are over 700 police agencies in the state of California",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Bakersfield police broke people's bones in 31 to 34 instances when they used batons",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "WARN Act layoff notices can be scraped for 44 out of 50 US states",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Any entity receiving $750,000 or more from the federal government must submit a fiscal audit every year to the federal audit clearinghouse",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "regulatory"
+    },
+    {
+      "claim": "A going concern letter in an audit always indicates newsworthiness, meaning the entity is in danger of not being able to continue in business",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "domain expertise"
+    },
+    {
+      "claim": "About a dozen local stories came out of a single nursing home staffing data set after providing training and story recipes to rural newsrooms",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Video analysis AI tools were too limited a few years ago but are now becoming capable enough to extract meaning from large volumes of police body camera footage",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Baltimore Banner published three to four stories in recent months about USAID contractor layoffs discovered through Big Local News Slack alerts",
+      "speaker": "Cheryl Phillips",
+      "evidence_type": "quantitative"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Police misconduct records come in a variety of formats (PDFs, audio, video), are not organized well, and the volume is too much for manual analysis across 700+ agencies",
+      "category": "data quality"
+    },
+    {
+      "description": "Local police agencies are allowed to delete public records after a certain amount of time, requiring proactive collection and preservation before records disappear",
+      "category": "data access"
+    },
+    {
+      "description": "Nuance and context in police PDFs make entity extraction difficult; generative AI still struggles with the complexity of these documents",
+      "category": "technical"
+    },
+    {
+      "description": "AI-generated code solutions are not always correct, and journalists without coding literacy may not be able to identify errors, making it like running with scissors",
+      "category": "accuracy"
+    },
+    {
+      "description": "Matching police report narratives to body camera video to verify accuracy remains an unsolved AI problem due to the complexity of comparing text descriptions with visual events",
+      "category": "technical"
+    },
+    {
+      "description": "Students using AI to get answers without understanding how to verify correctness independently; risk of unquestioning AI consumption",
+      "category": "educational"
+    },
+    {
+      "description": "Audit watch tip alerts require domain expertise to interpret; most audit flags have nuance that non-specialist reporters cannot assess without AI assistance",
+      "category": "domain expertise"
+    },
+    {
+      "description": "Campaign finance data involves complex tables, interrelationships, and rules that require data journalism expertise or specialized tools to navigate",
+      "category": "data complexity"
+    },
+    {
+      "description": "Government information is disappearing from the web at an accelerating rate, compounded by link rot and deliberate removal of federal data",
+      "category": "data preservation"
+    },
+    {
+      "description": "Deep fakes and AI-generated misinformation threaten public trust in authentic media, making provenance and authentication critical",
+      "category": "misinformation"
+    },
+    {
+      "description": "Funding constraints limit the ability to scale federated systems for police accountability across multiple states",
+      "category": "resources"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It's really centered about around lowering the cost of doing accountability journalism, especially for local newsrooms, which as we know are resource strapped.",
+      "speaker": "Cheryl Phillips",
+      "topic": "Mission of Big Local News",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We were able to identify moments in public meetings, like several years worth of public meetings where city county officials essentially proclaimed that they were not sharing data with ICE, even though they had just inked new contracts with ICE, like the day before.",
+      "speaker": "Cheryl Phillips",
+      "topic": "AI-enabled accountability finding through cross-referencing data",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "As the agent does its work, it tells you what it's doing. So you ask that question. And it says thinking and it tells you all the steps it's doing. I'm going to this database, I'm going to this table, this table, this table, this table... And then it explains what it did, both in plain English, and it gives you the code.",
+      "speaker": "Cheryl Phillips",
+      "topic": "Transparency in AI-powered data tools (DataTalk)",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it's a little bit like running with scissors, so you have to be careful. But I do think there's a lot of potential.",
+      "speaker": "Cheryl Phillips",
+      "topic": "AI for learning to code in journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We want to avoid people going and saying, Oh, this must be right because I asked the AI and the AI said. And so that's where we try to really introduce those critical thinking skills and a little code literacy goes a long way.",
+      "speaker": "Cheryl Phillips",
+      "topic": "Teaching critical evaluation of AI outputs",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "It increases the impact for the big data teams if they share it back out, and it makes it possible for the small data teams to be able to cover stories they would otherwise completely miss.",
+      "speaker": "Cheryl Phillips",
+      "topic": "DART Matrix virtuous cycle of data sharing",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Use Copilot (GitHub) if doing any kind of coding; it is a great way to get started with AI-assisted development",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalists learning to code"
+    },
+    {
+      "advice": "Explore Hugging Face as an open source platform with models, tools, and tutorials to get started with AI without depending on proprietary services like ChatGPT",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalists and newsrooms adopting AI"
+    },
+    {
+      "advice": "Use the DART Matrix framework (Data, Algorithms, Recipes, Training) to assess newsroom data capacity and match appropriate tools and support to capability level",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "newsroom managers and editors"
+    },
+    {
+      "advice": "Teach coding fundamentals before introducing AI tools; discourage AI use until about three quarters through the curriculum so students build critical evaluation skills first",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalism educators"
+    },
+    {
+      "advice": "When students submit perfect code, talk to them about it; their code should not be perfect in intro classes, they should be struggling and learning",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalism educators"
+    },
+    {
+      "advice": "Use Ping Pong (Harvard tool) to create walled-garden AI environments for classrooms where students can query uploaded course materials without hallucination risks",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalism educators"
+    },
+    {
+      "advice": "For newsrooms with zero data experts, provide story recipes and hands-on training rather than raw data feeds; for teams with three or more data experts, provide data streams and APIs they can build on",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "data journalism support organizations"
+    },
+    {
+      "advice": "Build open source agentic tools rather than depending on proprietary technology companies; the fact that tools like Stanford Oval's agent are open source is a game changer for journalism",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "journalism technology developers"
+    },
+    {
+      "advice": "Preserve digital records proactively, especially government data that may be deleted or removed; use blockchain-based authentication for critical evidentiary material",
+      "speaker": "Cheryl Phillips",
+      "target_audience": "investigative journalists and news organizations"
+    }
+  ],
+  "external_references": [
+    "Big Local News (Stanford University data sharing platform)",
+    "Stanford Open Policing Project",
+    "Community Law Enforcement Accountability Network (CLEAN)",
+    "Stanford Oval Lab (Open Virtual Assistant Lab, Monica Lam)",
+    "Brown Institute (Stanford and Columbia)",
+    "Starling Lab (Stanford, Jonathan Dotan)",
+    "Berkeley Institute for Data Science",
+    "Berkeley Investigative Reporting Program",
+    "UC Irvine Law Clinic",
+    "California Reporting Project (40 newsrooms)",
+    "BillTrack 50",
+    "Institute for Nonprofit News (INN) Rural News Network",
+    "NICAR/IRE Data Journalism Conference (Minneapolis)",
+    "Story Discovery at Scale conference (Stanford, April)",
+    "Public AI Assistant to Worldwide Knowledge workshop (Stanford Oval)",
+    "WARN Act (federal layoff notice law)",
+    "Federal Audit Clearinghouse",
+    "FEC (Federal Election Commission) campaign finance data",
+    "Wikidata",
+    "ACLU",
+    "National Association for Criminal Defense Lawyers",
+    "Barry Scheck / Innocence Project",
+    "Derek Willis (campaign finance journalist)",
+    "Alex Spanger (data scientist, LLMs)",
+    "Jay Hamilton (Stanford journalism program director)",
+    "Sirdar Tumgoran (Stanford co-teacher)",
+    "Shard Goel (Harvard, Ping Pong tool)",
+    "Mark Horbett (University of Missouri, formerly IRE)",
+    "Georgie Pacheski (Stanford, AI and journalism class)",
+    "Florent Daudens (Hugging Face AI journalism community)",
+    "Bay City News",
+    "Atlanta Journal Constitution",
+    "Honolulu Civil Beat",
+    "Baltimore Banner",
+    "New York Times (Investigative Reporting Fellowship / Upshot)",
+    "The GRIO",
+    "KQED Radio",
+    "USA Today (nursing home staffing story)",
+    "Reuters (Starling Lab photo authentication partnership)",
+    "January 6th Capitol coverage (Reuters photographer case study)",
+    "Gemini (Google, video analysis)",
+    "Julius AI",
+    "Harvard Innovation Labs (SPARP grant)"
+  ]
+}

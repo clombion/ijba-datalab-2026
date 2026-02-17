@@ -1,0 +1,289 @@
+{
+  "episode_meta": {
+    "title": "Natali Helberger: Audience-Centric Approaches to AI Ethics in Media",
+    "date": "2024-07-24",
+    "guests": [
+      {
+        "name": "Natali Helberger",
+        "role": "Professor of Law and Digital Technology; Co-founder, AI, Media and Democracy Lab; Chair, Council of Europe Expert Group on AI and Freedom of Expression",
+        "organization": "University of Amsterdam"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Netherlands",
+    "word_count": 7371
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Google Translate",
+    "Grammarly",
+    "Depot",
+    "Mid Journey",
+    "Adobe Firefly",
+    "Google Maps",
+    "Alexa",
+    "OpenAI (GPT models)",
+    "Gemini",
+    "Meta AI"
+  ],
+  "use_cases": [
+    {
+      "description": "Newsrooms experimenting with audience-facing chatbots",
+      "tool_used": "not specified",
+      "organization": "various newsrooms",
+      "outcome": "Hesitancy due to real-time character and difficulty checking output; earlier models produced nonsensical output",
+      "stage": "pilot"
+    },
+    {
+      "description": "Newsrooms using AI for headline generation, writing article summaries, analyzing documents, and analyzing data",
+      "tool_used": "ChatGPT and others",
+      "organization": "various newsrooms",
+      "outcome": "Becoming embedded in journalistic workflows with editorial checkpoint as final step",
+      "stage": "production"
+    },
+    {
+      "description": "Using AI for transcription and translation in newsrooms",
+      "tool_used": "not specified",
+      "organization": "various newsrooms",
+      "outcome": "Considered just a tool to make content better; no explicit transparency disclosure needed",
+      "stage": "production"
+    },
+    {
+      "description": "Automated news anchors",
+      "tool_used": "not specified",
+      "organization": "various newsrooms",
+      "outcome": "Users are concerned about whether content was produced by AI in this context",
+      "stage": "pilot"
+    },
+    {
+      "description": "Meta labeling AI-generated content with 'made with AI' labels",
+      "tool_used": "Meta AI",
+      "organization": "Meta",
+      "outcome": "First step in transparency but does not tell users enough or solve the deepfake issue",
+      "stage": "production"
+    },
+    {
+      "description": "Using generative AI to create images for presentations instead of stock photos",
+      "tool_used": "generative AI (not specified)",
+      "organization": "personal use (Helberger)",
+      "outcome": "Preferred over generic archive/stock content",
+      "stage": "production"
+    },
+    {
+      "description": "Developing diversity recommender metrics to diversify news recommendation algorithms",
+      "tool_used": "custom diversity recommender systems",
+      "organization": "University of Amsterdam research group",
+      "outcome": "Developed metrics for fragmentation, activation, and representation to improve quality of public debate",
+      "stage": "ideation"
+    },
+    {
+      "description": "Panopticum project exploring design choices to let users express real preferences rather than relying on inferred preferences",
+      "tool_used": "not specified",
+      "organization": "Panopticum",
+      "outcome": "Exploring easy design choices for user preference expression",
+      "stage": "ideation"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Nearly 20% of newsrooms surveyed said their strategy for ethical use of AI was simply not to use AI",
+      "speaker": "Nikita Roy (citing Associated Press / Helberger / Diakopoulos study)",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The major ethical concern among newsrooms was the lack of human oversight, and there is a strong belief that as long as a human is watching over AI, it is more trustworthy",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The least popular strategy among newsrooms was to audit the systems or do responsible procurement",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Ecological concerns and the role of big tech companies were almost not mentioned in the survey responses despite being prominent in public discourse",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "In Europe, there was less empirical evidence for filter bubbles materializing to a significant extent, partly because people use multiple outlets",
+      "speaker": "Natali Helberger",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Being transparent alone does not necessarily increase trust of people; they also want agency and choice",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "60% of respondents in the Netherlands said they would feel misled if something was generated by AI and they were not informed about it",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Users trust in news media using AI and algorithms responsibly is in some countries on par with their trust in social media using them responsibly",
+      "speaker": "Natali Helberger (citing Reuters Institute report)",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Users would very much appreciate being included in the human oversight loop and having the opportunity to complain or flag issues",
+      "speaker": "Natali Helberger",
+      "evidence_type": "quantitative"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Nearly 20% of newsrooms avoid AI entirely due to ethical concerns, inhibiting innovation",
+      "category": "organizational"
+    },
+    {
+      "description": "Lack of human oversight over AI systems is the top ethical concern, but humans cannot detect all issues (e.g., biases in training data) just by looking at output",
+      "category": "technical"
+    },
+    {
+      "description": "AI output problems: inaccurate information, biases, hallucinations, lack of quality in content",
+      "category": "technical"
+    },
+    {
+      "description": "AI implementation in newsrooms is not only a technical problem but also an ethical and cultural problem",
+      "category": "organizational"
+    },
+    {
+      "description": "Liability for AI failures is dumped on end users/professional users in providers' terms of use",
+      "category": "ethical"
+    },
+    {
+      "description": "Smaller newsrooms lack legal departments and find it difficult to know what to look for when procuring AI technology",
+      "category": "organizational"
+    },
+    {
+      "description": "It is difficult or impossible to reach large AI providers for support, especially for smaller newsrooms",
+      "category": "organizational"
+    },
+    {
+      "description": "Transparency labeling (e.g., 'made with AI') is a regulation of the willing; those producing deepfakes to derail elections will not voluntarily label their content",
+      "category": "ethical"
+    },
+    {
+      "description": "Filter bubble and polarization concerns with news recommendation systems, especially for users who only receive news via TikTok or Instagram",
+      "category": "ethical"
+    },
+    {
+      "description": "Explainability of AI models exists in theory but there is less work on making explainability actionable and meaningful for people",
+      "category": "technical"
+    },
+    {
+      "description": "Label blindness: users will be exposed to increasing numbers of AI labels and may eventually stop paying attention",
+      "category": "editorial"
+    },
+    {
+      "description": "Enforcement of the EU AI Act rules in practice remains a major challenge",
+      "category": "ethical"
+    },
+    {
+      "description": "Responsible AI guidelines are often just pledges on paper and need to be translated into actual working practices, skills, routines, funding, and incentives",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI and the implementation of AI in newsrooms is often talked about as a technical problem. But I think this survey also very much showed it's not only a technical problem, it's also an ethical and a cultural problem.",
+      "speaker": "Natali Helberger",
+      "topic": "AI adoption barriers in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Someone who's a party here that is at the moment completely excluded from the loop are, for example, users. And their ability to feedback or to criticize or to let the media organization know when something goes wrong. And in our research we actually saw that users would very much appreciate being included in this loop.",
+      "speaker": "Natali Helberger",
+      "topic": "Audience inclusion in human-in-the-loop oversight",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Being transparent about what parameter you use is very nice and good, but it starts only being really meaningful if you also give people a choice maybe between different parameters or recommendation logics.",
+      "speaker": "Natali Helberger",
+      "topic": "Transparency and user agency in recommendation systems",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think we really need to think of how to distinguish the media and make sure that people know if I want trustworthy content, I go there because it is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it.",
+      "speaker": "Natali Helberger",
+      "topic": "Differentiating news media from social media platforms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Responsible use of AI is not simply something that you can write up in a guideline and that it will automatically materialize, but one also really needs to think of how that should be then internalized in working practices, in skills, in new routines.",
+      "speaker": "Natali Helberger",
+      "topic": "Implementing ethical AI guidelines in practice",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Simply the fact that something has been made with AI does not necessarily say that this is bad content. So I think it's a good first step. But I also think it doesn't tell you enough. So I don't think it will solve the deep fake issue.",
+      "speaker": "Natali Helberger",
+      "topic": "Limitations of AI content labeling",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Use a procurement checklist when acquiring AI tools, covering data quality, data security, training data use, liability, explainability, auditability, support availability, pricing, and ecological footprint",
+      "speaker": "Natali Helberger",
+      "target_audience": "newsrooms, especially smaller ones without large legal departments"
+    },
+    {
+      "advice": "Include users/audience in the human-in-the-loop process by giving them the ability to provide feedback, complain, or flag issues with AI-generated content",
+      "speaker": "Natali Helberger",
+      "target_audience": "media organizations"
+    },
+    {
+      "advice": "Be transparent about AI use when it has significant journalistic impact and is audience-facing, especially when directly generating content; less critical for back-end tools like transcription or translation",
+      "speaker": "Natali Helberger",
+      "target_audience": "newsrooms and journalists"
+    },
+    {
+      "advice": "Give users agency and choice over recommendation systems, including the ability to choose between different recommendation logics and periodically review/update their profiles",
+      "speaker": "Natali Helberger",
+      "target_audience": "media organizations and recommendation system designers"
+    },
+    {
+      "advice": "Distinguish news media from social media by emphasizing fact-checking, human oversight, responsible procurement, and transparency about AI use to build audience trust",
+      "speaker": "Natali Helberger",
+      "target_audience": "media organizations"
+    },
+    {
+      "advice": "Do not start ethical guidelines from scratch; learn from the many existing guidelines that are converging on shared principles like transparency, human oversight, data privacy, and source protection",
+      "speaker": "Natali Helberger",
+      "target_audience": "newsrooms developing AI ethics policies"
+    },
+    {
+      "advice": "Be specific about the type of AI tool applied in transparency disclosures, not just 'made with AI' but which tool and to what end, and harmonize the industry's language around generative AI",
+      "speaker": "Natali Helberger (citing Nordic AI initiative)",
+      "target_audience": "media industry"
+    },
+    {
+      "advice": "Optimize news recommendation algorithms for diversity metrics including fragmentation, activation, and representation rather than just engagement and clicks",
+      "speaker": "Natali Helberger",
+      "target_audience": "news recommendation system developers"
+    },
+    {
+      "advice": "Ask users what kind of information they need about AI use rather than assuming; conduct focus groups to understand audience expectations",
+      "speaker": "Natali Helberger",
+      "target_audience": "media organizations and researchers"
+    }
+  ],
+  "external_references": [
+    "Associated Press and Northwestern University survey on AI strategies in newsrooms (Helberger and Nick Diakopoulos, 2024)",
+    "Nick Diakopoulos, Northwestern University",
+    "AI, Media and Democracy Lab (University of Amsterdam)",
+    "Council of Europe Expert Group on AI and Freedom of Expression",
+    "Reuters Institute for Journalism at Oxford",
+    "EU AI Act",
+    "Nordic AI Media Summit",
+    "Nordic AI initiative (principles on AI transparency in journalism)",
+    "Reuters Institute report on audience attitudes towards algorithms",
+    "Panopticum project (user preference design in recommender systems)",
+    "Council of Europe committee on responsible use of AI in journalism",
+    "Harvard Innovation Labs SPAR grant",
+    "Newsroom Robots podcast",
+    "Bipolis study (AI as cultural problem in newsrooms)"
+  ]
+}

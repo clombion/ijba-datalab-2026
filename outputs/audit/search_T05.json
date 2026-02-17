@@ -1,0 +1,174 @@
+{
+  "caveat": "NOTE: This is a statistical cross-check, not a replacement for interpretive coding. Topic models produce word clusters, not themes.",
+  "method": "Semantic similarity using all-mpnet-base-v2",
+  "theme": {
+    "id": "T05",
+    "name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era"
+  },
+  "query_length_words": 207,
+  "corpus_chunks_total": 556,
+  "corpus_chunks_after_filter": 514,
+  "top_k": 20,
+  "results": [
+    {
+      "rank": 1,
+      "document": "2024-05-01 - Mattia Peretti Balancing AI Innovation with Journalistic Integrity.txt",
+      "chunk_index": 5,
+      "similarity": 0.7848,
+      "word_count": 646,
+      "text": "It's not that everyone, every single person in a news organization needs to become an expert. in AI. I absolutely do not think that. We went through a few years ago in the journalism industry the time where everyone needed to become a coder and everyone needed to learn to code. I don't believe that's true. Definitely not with AI, but we do need to get that literacy because it's just having an impact on all of us as people in society, not just in journalism. And so we need to combine that everyone's understanding with the deeper expertise of someone in the organization, ideally not a single AI expert, but at the very least a team or a working group of people. So then those experiments that are run can immediately be understood by the newsroom so that the newsroom everyone can feed back and participate in whatever it is that an organization is trying to build. And also to link it to the, you know, it's like a triangle almost. There is the AI literacy, there are the experiments in buildin"
+    },
+    {
+      "rank": 2,
+      "document": "2024-09-02 - Your Questions Answered A Live Q&A Session in Collaboration with the Online News Association.txt",
+      "chunk_index": 2,
+      "similarity": 0.7794,
+      "word_count": 627,
+      "text": "So next question from the pre-batch of questions that we got. Can you talk a little bit about How you recommend folks who are working in newsrooms go about training and kind of encouraging their colleagues to experiment with AI. A couple of people wrote in about things like How do you get people to try things out without fear? Can you talk a little bit about if there might be a component of a healthy culture around making errors that might come into play here that you can kind of cultivate as part of these discussions and and safety and guidelines around those mistakes. And as we know, people working in newsrooms are under a lot of pressure. There's a lot going on right now. There's a lot of competing priorities. So how do you think about creating space for AI experiments when everybody feels like there's so many other priorities to be juggling? A lot of that starts with AI literacy in a newsroom and that means dedicated time where It's teams of people, groups of people coming together"
+    },
+    {
+      "rank": 3,
+      "document": "2025-11-15 - Olle Zacharison How BBC News is Shaping its AI Strategy for the Next Era of Journalism.txt",
+      "chunk_index": 4,
+      "similarity": 0.7732,
+      "word_count": 639,
+      "text": "We also have more kind of bespoke models that are customized GPTs to to help our journalists do these kind of tasks We also have interesting discussions and also test licenses with some external tools like from the other external tools like from other tech companies So it's a wide range of things, but it's really about kind of inspiring people to use it more and there I think it's Training courses are one thing, but it's the kind of peer-to-peer learning between journalists that can really accelerate the use. Because it's not enough if a person like me shows up on the screen and says this can be terrific You have to hear it from a colleague that could also be more hands-on and who doesn't come across as an AI evangelist. because that's how some people see a person like me, of course, in in the newsroom. You know, that now he's gonna try to persuade me to use something but doesn't say something to me in my my everyday work. Exactly. And I think what you're highlighting is just like adop"
+    },
+    {
+      "rank": 4,
+      "document": "2025-09-08 - Djordje Padejski Why AI Literacy Belongs at the Core of Journalism Education.txt",
+      "chunk_index": 3,
+      "similarity": 0.7702,
+      "word_count": 650,
+      "text": "But then, you know, how do you teach something that's not even like in the case I remember Notebook LM was not even launched when I started? How do you teach something that it's not even there yet? Right? So And I found it that hands-on experimentation, kind of having that controlled environment of a newsroom where we can discuss, you know, those fundamentals and then experiment directly with the use. of some of these tools and kind of have a conversation about their limitations and strengths is the best way to learn. And of course, you know, providing sort of like kind of ethical considerations, you know, how you would use something like this in your own reporting, and on a top of that, using investigative skills that will help them kind of scrutinize AI and all this thing. So in short, I really thought about How do I teach AI to see AI more than just a tool? It's a sort of like a socio-technical phenomenon that needs obviously more critical engagement, whether you're using it or you'"
+    },
+    {
+      "rank": 5,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 7,
+      "similarity": 0.7638,
+      "word_count": 630,
+      "text": "It's not about bringing in an AI technology. It's about doing exactly what you described, which is having a fundamental reckoning with What are we as an organization in a world where many of the assumptions we have are being tested and challenged by the broad-based adoption of AI in the world around us? What's our role in shepherding those core journalistic virtues in a world where attention is becoming fragmented, where people are finding fundamentally new ways of accessing and processing information? We're adversarial and bad actors are using AI in ways that are deeply kind of convoluted and manipulative. It requires an organizational reckoning and a potential for organizational visioning to ask who do we aspire to be in an AI-enabled world? And to me, that's a much more interesting conversation than whether we should pick vendor A or vendor B in order to do X task. Exactly. Bringing that back actually into the newsroom One of the other big dilemmas that's there is related to the env"
+    },
+    {
+      "rank": 6,
+      "document": "2025-07-15 - Florent Daudens How Open-Source AI Puts Newsrooms Back in the Driver’s Seat.txt",
+      "chunk_index": 7,
+      "similarity": 0.7488,
+      "word_count": 644,
+      "text": "And you know, I also teach journalism at the university and and sometimes It pains me because you have these young students, they're like, oh yeah, we I talked about this idea in my team. And people are like, no, we don't do this. And they're like You know, you're just a basically killing initiative. And don't get me wrong, I think the news industry is not badly suited to adopt AI. I think, you know, we had so many changes and shifts and so on that I think overall the news industry has been able to build an agile structure that is good enough to really be able to be up for the challenge of AI. But it's really like a question of staying aware of the specific needs of it. And you know, for example, when I was a data journalist maybe 10 years ago, more than 10 years ago, the way I I basically learned data journalism was with you know tutorials, communities online, and so on. But um it only gets you so far, first of all. I'm still a bad coder, which says a lot. But also I think you know AI"
+    },
+    {
+      "rank": 7,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 4,
+      "similarity": 0.7422,
+      "word_count": 628,
+      "text": "I think that's one of the big issues of like how do we actually distinguish between all of that? How do you think news organizations need to start to navigate all of these big challenges when they're trying to address that they're upskilling their teams? I think one of the places we can start is at almost a micro level of saying before we begin to think about the very big questions, let's just talk about how AI is being deployed in our own newsroom and our own environment. As I work with organizations, I see these kind of three phases that have been emerging in how AI is used. The first is probably what you and I experience every day. People who are just picking up an AI tool and saying, I'm gonna play with this. And often it's used in ways that aren't deeply strategic, but they're kind of like, oh, I was able to use a chat bot to go out and find a piece of information I was looking for, and it was much more efficient than going to a web search. Or hey, I began to use this to draft an "
+    },
+    {
+      "rank": 8,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 3,
+      "similarity": 0.7325,
+      "word_count": 649,
+      "text": "And I'm wondering, we're thinking a lot about How AI is reshaping the way in which audience are gonna receive their news? And then how do we rethink and keep the ethics of designing AI in a way that it actually serves our audience and it also serves the people who may be traditionally underrepresented in our in our community currently. Well, thanks for raising this Lisa framework. You put your finger on it. I mean, this has been one of the most resonant kind of frameworks as I talk to institutions and organizations across the private and public sectors. This is something that I think is, again, one of those amazing Consequences of a world in which technology is changing everything, but every conversation isn't about technology. So if you're gonna deploy AI, start with people. And I think I want to frame this with you both as an opportunity and a responsibility. The opportunity is this. Every organization in the world right now is struggling with this question of what does it mean to re"
+    },
+    {
+      "rank": 9,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 8,
+      "similarity": 0.7304,
+      "word_count": 623,
+      "text": "What's happening to your data and just it feels like it's AI is just being pushed onto you. Rather than I think like them co-developing it or building it and being a part of this, it's something that it's just being pushed again and I feel like the industry has a bit been a bit tired with so much of change and new change coming forth. And do you think that lack of adoption the thirty eight percent or so Is it for moral reasons that, you know, the issues with with AI, between AI companies and publishers, But also do you sense that perhaps they are thinking, you know, if I use an AI tool to help me write, is that Is that not uh up to standards? Am I cheating? Like do you sense that that could be an issue like the kind of the human blocker? As opposed to the c the curiosity. That's exactly what I have st noticed in my conversations with Oli Courier younger journalists, because when they were back in journalism school and Chad GPT came out that was the language that was being used, right? "
+    },
+    {
+      "rank": 10,
+      "document": "2024-05-01 - Mattia Peretti Balancing AI Innovation with Journalistic Integrity.txt",
+      "chunk_index": 4,
+      "similarity": 0.7272,
+      "word_count": 637,
+      "text": "Because to be honest, sometimes you just assume that that's the answer and we underestimate the challenges that we will have. Maybe the technology could help us, but the barrier to entry for the resources we have, for the technical capacity we have is so high. that it's gonna be wasted time trying to make it work for us. We just can't get there. Or we believe that a solution is easier than it is and actually limitations of large language models, for example. make it so we should not rely on them as much as we think. So the scale up I think it's more about building capacity to understand where the real opportunities are. and literacy in the newsroom so then when a real opportunity is spotted, then we can make the most of it with working across departments. I just I think it's, you know, let's problematize the idea of scale as a good thing in itself in life overall, but also when it comes to adoption of AI. Yeah, you bring up a right point. I think AI is a very powerful transformational "
+    },
+    {
+      "rank": 11,
+      "document": "2024-09-02 - Your Questions Answered A Live Q&A Session in Collaboration with the Online News Association.txt",
+      "chunk_index": 3,
+      "similarity": 0.7271,
+      "word_count": 628,
+      "text": "And that's something that right now generative AI is helping power that and they were able to brainstorm that idea, think through it, experiment with it through these like prompt clinics that they were having these experimentation workshops. So That was a place where they were allowed to fail. They were allowed to experiment and they under guidance and under supervision because Florent was there. They had their team over there. They had their tech team as well to have this cross partnership between different teams. To think about solutions. And this is where I think it's really important because the editorial team has so much of insights, and we need to have that bridge to be able to communicate with the tech teams who will be building products and implementing these solutions. And this is a time in place for them to experiment with it. Apart from that, also I think this just needs to be a lot more transparency in the newsroom regarding how we are using and it's Okay to fail if you hav"
+    },
+    {
+      "rank": 12,
+      "document": "2025-07-15 - Florent Daudens How Open-Source AI Puts Newsrooms Back in the Driver’s Seat.txt",
+      "chunk_index": 6,
+      "similarity": 0.7161,
+      "word_count": 638,
+      "text": "And you have plenty of no code solutions, which is a perfect point of entry because you don't need to understand any line of code, but if you want to explore more, when you can click on the files and then understand a little bit more about you know how the code was built and so on And I think, you know, it's also a a question of I talk to many, many newsrooms and what I'm seeing it's a little bit worrying I think, but um and it's not unique to the news industry, but I feel like We're seeing more and more a two-tier approach inside of newsrooms and inside of the industry because you have some people who are really, really interested in AI. And I would say maybe 80% of the people are like either they don't care or they don't have time or they're afraid of AI. So they don't kind of teach themselves about about it. So I think it really comes down to and you know. In my former career I was a newsroom manager and maybe it's because of that that I have this lens, but I really think it comes d"
+    },
+    {
+      "rank": 13,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 6,
+      "similarity": 0.7147,
+      "word_count": 650,
+      "text": "So and I think the most important thing is that AI does not have the human persistence of doing the 11 interviews or to investigate something further. It can do a lot of the research, but on information that already avail that is available. And so yeah, I can I don't want to sound like a cliche of like the automation versus augmentation. I've started thinking more about the speed versus persistence. as it relates to the relationship with between AI and in and human journalists. This debate that you are talking about is something that I see everywhere. when we start to talk about the future of the newsroom, oftentimes it it does seem like it's looking like this completely automated future. And that's also not at all what I support or I hope because that's the value of journalism, as you said, is those asking the right questions, keeping on finding, then having that human instinct and judgment. But what all of this is pointing towards is we also have to reimagine what our workflows might"
+    },
+    {
+      "rank": 14,
+      "document": "2024-03-29 - Florent Daudens Building an AI-Literate Newsroom at Radio Canada.txt",
+      "chunk_index": 1,
+      "similarity": 0.7128,
+      "word_count": 644,
+      "text": "It's a three-hour block that is really, I would say, the starting point for us, the foundation of AI in our newsroom. We study what AI is and what it is not, because the goal is to demystify it. And then we get our our hands dirty because we we want to explore possible use cases and and developing our prompt engineering skills and it's fundamental for two reasons because I think Journalists need to know what they're talking about to properly inform the public afterward, and you know, to know the possibilities, to be able to imagine concrete use cases in their daily task. So at the end it's a question of Innovation development because training is something extremely important for us. We want people to be able to embrace AI and not suffer from it because If we don't know what we're talking about, if we don't know the possibilities, we will just miss the train and then realize that we have to use it but we don't know how and it's gonna be scary, etc. So I think it's really important to be"
+    },
+    {
+      "rank": 15,
+      "document": "2024-05-01 - Mattia Peretti Balancing AI Innovation with Journalistic Integrity.txt",
+      "chunk_index": 6,
+      "similarity": 0.705,
+      "word_count": 628,
+      "text": "For an organization as big as Internews, which is a for your listeners who may not be familiar with that, is a huge media development organization based in the US, but working in I believe more than a hundred countries all over the world across continents. Of course, a lot of the people working on internews, a lot of the teams are very concerned mostly about the negative impact and the implications. that AI bias and discrimination and other elements have on the communities where they work, where they try to support the health of information ecosystems. At the same time, other teams in the same organization try to build tool to support the sustainability of news organizations in these markets across the world and they understand that the AI has the potential to help. So it was an incredibly interesting experience for me to see what it means to try to bring together these two parts of an organization. not for a shouty match between the two, because one is more right than the other, but b"
+    },
+    {
+      "rank": 16,
+      "document": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+      "chunk_index": 9,
+      "similarity": 0.7034,
+      "word_count": 629,
+      "text": "I think that really focusing on the people who build AI tools, who are affected by AI tools, whether that's Hollywood writers who are striking over their concerns about AI replacing them as script writers, or whether that's people in Kenya who have helped to go through all of these very disturbing images to create AI-powered deepfakes, there's always human beings who you can access. And I think that really understanding this moment as one in which AI companies are seeking to extend their power into a whole number of realms from you know military applications to education to health care is an important thing to keep in mind. As journalists, we need to understand how power and money moves And keeping track of that is is only gonna help inform the public. I think absolutely chronicling some of the Technological advances is crucial, but also understanding those in the greater policy context and how this affects regular people is super important to keep in mind. I think bringing back that a"
+    },
+    {
+      "rank": 17,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 5,
+      "similarity": 0.7011,
+      "word_count": 618,
+      "text": "But also on their capacity to evaluate these new and incoming tools to ask questions about what they need to do to secure them. And then to intentionally create things like sandbox environments that are test beds where journalists can go out and try and play with these tools without creating the risk of new vulnerabilities. So that's kind of the phase two approach, and that's where organizations need to very quickly develop a new muscle and capacity to create ecosystems of AI exploration so that those innovators in the field can do what they need to. And there's a third phase to this work, which is, you know, if we started from okay, we're playing around with tools to just get to know them, we're now using the tools that exist to do what we want to do. Well, maybe the kind of like aspiring plateau here is to get to phase three. where we're actually saying let's stop being consumers of commercial AI tools and build the tools we need in order to do our work effectively. And something rea"
+    },
+    {
+      "rank": 18,
+      "document": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+      "chunk_index": 1,
+      "similarity": 0.701,
+      "word_count": 622,
+      "text": "can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad? Well Actually, our job is to help people understand how it works and what it's already doing in our lives. There's also another crucial point to that of like what the role of journalism is in AI. How are you seeing the importance of this moment in time for the way in which we as reporters are talking about AI? Well, I think there's been a lot of excitement about adopting AI solutions in our newsrooms, which is great, you know, when There are new advances in technology that can help us do better, more impactful work that serves the public. Fantastic. But I think that implementing AI represents some really unique ethical challenges and part of our jobs as journalists is to really dig deep into the model so that we can surface how well they perform and where they have their limitations, some some of the hallucinations, you know, that we've been talking about"
+    },
+    {
+      "rank": 19,
+      "document": "2025-09-08 - Djordje Padejski Why AI Literacy Belongs at the Core of Journalism Education.txt",
+      "chunk_index": 6,
+      "similarity": 0.6969,
+      "word_count": 650,
+      "text": "Obviously journalism is more than just producing a predictive text, right? R AI can technically generate headlines but it may not be a good headline because AI does not understand use judgment It doesn't understand the context, it doesn't understand the audience. You know, you can prompt all these things, but like you still need a human to prompt all these things, right? So the value of journalism Isn't just stitching words together or putting words together. We're not text processors, right? So obviously there are different forms of journalism, but like even I was a print and later on kind of digital journal. But like it's not just like putting words together, right? So it is really asking the right questions, choosing the right angles, if you think about like that's These are all like all necessarily human, right? Thinking about context, think thinking about accountability. AI can't challenge power and investigate corruption. So thinking about decision making, yeah, AI still lacks ju"
+    },
+    {
+      "rank": 20,
+      "document": "2024-11-27 - Agnes Stenbom Reimagining News Through the Eyes of Gen Z.txt",
+      "chunk_index": 1,
+      "similarity": 0.6957,
+      "word_count": 634,
+      "text": "And as you said, your title does not include AI anywhere, but All of your work just shows how much AI is not something that should be siloed away in the newsroom and it in fact is related to you. trust and prototyping what the news features look like, the news future looks like. And within lab, you are prototyping what news futures look like. with AI, talking about it for news outsiders. Can you talk more about the work that you do specifically at InLab and how did that come about? Absolutely. So I was part of founding IMLAB back in 2021 and I did that coming from a background working with AI product development in Shipset. And At that time, we were doing quite a lot of exciting things, working with AI to, I'd say, enhance the products for people who were already on the inside. We were doing lots of great things for those who were already committed to us and to journalism. But we could see at that time and today as well, an escalating trend of news avoidance and information fragmentati"
+    }
+  ]
+}

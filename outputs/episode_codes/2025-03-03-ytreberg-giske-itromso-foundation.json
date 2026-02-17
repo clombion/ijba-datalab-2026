@@ -1,0 +1,409 @@
+{
+  "episode_date": "2025-03-03",
+  "episode_title": "Rune Ytreberg and Lars Adrian Giske: How iTromso is Building an AI-Ready Foundation for News",
+  "codes": [
+    {
+      "code": "Agents not production-ready",
+      "description": "Candid assessment that AI agents have too many failure points for production journalism workflows despite industry hype about 2025 being the year of agents",
+      "excerpts": [
+        "to get back on the agent bit is that they're not production ready as of now. Takes a lot of work and there's so many steps where they can fail. And they will."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Infrastructure-first for agents",
+      "description": "Strategic decision to hold back on agents while building the data infrastructure that will eventually support them",
+      "excerpts": [
+        "we're holding back a little bit on the agents, but while doing that, we're building infrastructure to accommodate agents.",
+        "we're laying the groundwork for that kind of framework."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "neutral"
+    },
+    {
+      "code": "Holistic data platform vision",
+      "description": "Grand plan to build a centralized repository combining all public and private data sources to enable automated pattern detection and journalist notification",
+      "excerpts": [
+        "a holistic data platform that ties into all our data sources, collects data from all the sources that we kind of are dependent on as a news organization. Combines that data, analyzes that data automatically, and notifies journalists about relevant news or insights."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Cross-dataset story generation",
+      "description": "The transformative potential of combining disparate datasets to surface stories no single dataset could reveal",
+      "excerpts": [
+        "If my end goal is having a system that is capable of saying that director A of company B had to sell their house because Company C went bankrupt. That kind of news notification is incredibly powerful for a journalist. And it's very hard to do right now. It requires combining a lot of different data.",
+        "that's where the magic happens, when you combine sources you will have new information that can give you information that you didn't know about before."
+      ],
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "GDPR as two-year gate",
+      "description": "Joining personal-level datasets required two and a half years of legal consultation before any development could begin, showing regulation as a major velocity constraint",
+      "excerpts": [
+        "we've been talking to our lawyers for two years, I think. Two and a half years. To be sure that we don't violate any GDPR rules.",
+        "one dataset could have very important personal information. When you join that data, it gets even more sensitive."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "Lawyer-first golden rule",
+      "description": "Practical advice that legal compliance must precede any data infrastructure development, not follow it",
+      "excerpts": [
+        "a good tip if you're going to build infrastructure like this is call your lawyer first. That's like the golden rule of AI development and data journalism."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "neutral"
+    },
+    {
+      "code": "Granular access control imperative",
+      "description": "Need to monitor and control which journalists access which data at a fine-grained level when working with sensitive personal-level datasets",
+      "excerpts": [
+        "we have to have some sort of access control. So we have to monitor which journalists are looking into the database and getting information. So it needs to be extremely granular."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "neutral"
+    },
+    {
+      "code": "Editorial use as legal shield",
+      "description": "Journalists' editorial purpose provides the legal justification for storing sensitive personal data long-term under GDPR",
+      "excerpts": [
+        "to be allowed to store this data the use has to be editorial. If not we can't store it. As journalists they have a reason to store this data for years."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "neutral"
+    },
+    {
+      "code": "Time series for better AI",
+      "description": "Deliberately requesting 10 years of data in FOIA requests to build time series that enable better regression analysis and pattern detection",
+      "excerpts": [
+        "when we are sending a FOIA request we always send a request not only for the last years of data but for 10 years. So you can have that time series.",
+        "we can get better and better results, better and better analysis if you have time series."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Classical plus generative AI",
+      "description": "Combining classical AI techniques (regression analysis) with generative AI for more robust analytical capabilities",
+      "excerpts": [
+        "we're not only using generative AI to look into this data to find the important information, but we're also doing classical AI, like regression analysis. So that's why for us it's important to get hold of long time series."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Agentic orchestration vision",
+      "description": "Envisioned future where an agentic AI framework identifies data types, selects appropriate analysis tools, and notifies journalists of findings",
+      "excerpts": [
+        "my vision is like having an AI or an agentic framework on top of that, identifying what kind of data is this, what kind of analysis can I run on it. And then calling the tools. And then you notify the journalists of the findings."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Editorial goal primacy",
+      "description": "All data platform and AI development justified by the editorial goal of producing more important information for the local community",
+      "excerpts": [
+        "It's an editorial goal that we're going to produce more important information to our local community than we could before. It's going to improve journalism.",
+        "If you're living in Tromsa and you're going to find out what's happening in our city, you have to go to iTromso."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Built by journalists for journalists",
+      "description": "Insistence that AI assistants must be conceived and directed by journalists, not developers, because editorial domain knowledge determines tool quality",
+      "excerpts": [
+        "they have to be built by journalists for journalists. If you have a developer doing it, they wouldn't understand they couldn't do the analytics of the information.",
+        "the journalists are sitting together with the developers and like a mini workshop. Saying, okay, I have this task. How can we make an assistant that are going to improve the journalism on this specific task?"
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Developers marinated in journalism",
+      "description": "Embedding developers physically in the newsroom and requiring them to attend morning editorial meetings to absorb journalistic values and needs",
+      "excerpts": [
+        "the developers are sitting in the newsroom among the journalists. And they are sort of marinated into journalism.",
+        "Every day we start together with a newsroom at the same meeting. Everyone says what they're going to work with and the developers also have to say, okay, today I'm going to work with this."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Developer-initiated solutions",
+      "description": "Developers embedded in the newsroom proactively proposing technical solutions to editorial problems they observe, as with the avalanche alert system",
+      "excerpts": [
+        "one developer we had discussing at one morning meeting that okay we have to do something more about these avalanches and we have to have a better alert system and a better map. So one of the developers said, Hey, I can make an avalanche alert system for you guys."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "GIN adoption across age barriers",
+      "description": "GIN successfully adopted even by small newsrooms with older journalists who had never previously used AI tools",
+      "excerpts": [
+        "we rolled it out to all of Polaris. That includes newsrooms with three journalists. They're all over fifty, never touched anything that has to do with AI. And the feedback from there is this is excellent. Like it really, really makes my job easier."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Bad tool replacement strategy",
+      "description": "AI adoption succeeds when it replaces a clearly inferior tool rather than adding a new layer of complexity",
+      "excerpts": [
+        "the system is easy to use because it just replaces one bad tool with a much better tool, which is the web portal is being replaced by the GIN interface."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Customization for journalist diversity",
+      "description": "Recognizing that journalists are diverse individuals requiring customized AI tools rather than one-size-fits-all solutions",
+      "excerpts": [
+        "journalists are very different. And that's a good thing. Because it makes journalism better. You have all kind of people with different backgrounds will ask different questions and make different stories. So I think it is so important to make customized tools that would strengthen each and every journalist's needs."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Hands-on project training",
+      "description": "Strategy of teaching AI through real editorial projects rather than abstract training sessions, because resource-constrained newsrooms cannot afford separate training time",
+      "excerpts": [
+        "They have to train while they are working. And I think that's the best way of understanding a new tool and understand how to use AI in your daily work is to actually try start using it in projects, in journalism which are important, because then it matters.",
+        "hands-on projects are the best way to gain familiarity with new tools."
+      ],
+      "speaker": "Rune Ytreberg / Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Editor-mandated AI adoption",
+      "description": "Editor-in-chief formally designating an AI-supported project as the most important initiative, ensuring all journalists participate",
+      "excerpts": [
+        "our editor-in-chief said that okay, we're going to this is going to be our most important project from January to June. And we are going to use AI tools in this project so we can be sure that we get all the journalists on board. It's a decision from our boss and I think it's a good one."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Kotemon as open-source solution",
+      "description": "Adopting Kotemon as a fully customizable open-source RAG system that solves citation, cost, and data sovereignty problems that commercial tools could not",
+      "excerpts": [
+        "Kotemon is basically a front end for interacting with your own data through a language model. Whichever language model.",
+        "since it's open source, you're able to also host it locally on your servers. The data is not going anywhere. You can choose which model to use."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "OpenAI enterprise too expensive",
+      "description": "Commercial AI enterprise solutions priced out of reach for small newspapers, creating internal divisions between haves and have-nots",
+      "excerpts": [
+        "one big limitation using OpenAI enterprise solution was that it's too expensive for a small newspaper. So we couldn't have every journalist on board. And then we had a sort of a division inside the newspaper that wasn't good."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "Tool evaluation journey",
+      "description": "Systematic progression through multiple AI platforms (OpenAI, Anthropic, AnythingLLM, Kotemon), each evaluated and found lacking until the right fit emerged",
+      "excerpts": [
+        "we have tried OpenAI, we have tried Anthropic, we have tried Cloud Projects, we tried AnythingLLM, and we see what they're good at and also the limitations.",
+        "we had a problem with AnythingLLM because the journalist wasn't able to find the sources to verify the sources in an efficient way. So that's why we ended up with Kotemon."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "neutral"
+    },
+    {
+      "code": "Prompting as iterative journalism",
+      "description": "Framing AI prompting as analogous to journalistic questioning -- iterative, specific, hypothesis-driven -- to make it accessible to reporters",
+      "excerpts": [
+        "you're a journalist. Nobody in the world knows better how to ask questions or structure questions or query data or query a source. And you have to think of it like that.",
+        "a good journalist would know that you have to ask precise questions. Don't ask general questions. Don't ask yes or no questions."
+      ],
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "First-prompt frustration barrier",
+      "description": "Common adoption blocker: journalists try one prompt, get a poor result, and permanently dismiss the technology",
+      "excerpts": [
+        "that's often the first reaction from someone who's never touched AI before. Okay, I asked you this, it gave me a shit answer. It doesn't work. I'm never gonna use it again. I say you have to think of this as an iterative process."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Standardized system instruction hierarchy",
+      "description": "Developing a reusable 16-to-20-step system instruction template covering context, task specification, accuracy checks, and output format",
+      "excerpts": [
+        "the system instruction is a sort of the same hierarchy, what is the first part of the prompt, what is the second, what's the third? I think it's about sixteen to twenty sort of steps.",
+        "context, task, specify the task step by step. Define your output, how do you want your output?"
+      ],
+      "speaker": "Rune Ytreberg / Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Models improving, prompting relaxing",
+      "description": "Observation that newer reasoning models require less precise prompting, suggesting the prompting-skill barrier will decrease over time",
+      "excerpts": [
+        "the newer models require less precise prompting. Like O3 is very good at figuring out your intent.",
+        "I think we're moving towards the future where you can be less accurate in your prompting."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Change detection as RAG use",
+      "description": "Novel RAG application: instead of querying for specific information, using RAG to detect changes between successive versions of budget documents",
+      "excerpts": [
+        "RAG systems are really, really good at highlighting changes. Like if you have historic documentation and you get a new document that ties into that, you can ask what is new about this?",
+        "the most newsworthy aspect. This is who you should call."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Politician-reality gap detection",
+      "description": "Using AI to systematically compare political rhetoric with actual budget outcomes, surfacing accountability stories",
+      "excerpts": [
+        "we also had a large prompt that asked to find the gaps between what the politicians are saying and what's actually happening. It found very good stories for us."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Hallucination as publication barrier",
+      "description": "Hallucination risk identified as the primary reason AI-powered interactive products cannot yet be deployed directly to the public",
+      "excerpts": [
+        "As soon as we are able to be sure that it's not hallucinating, that's still the big problem and I think that's still the reason now why we are not publishing such things now."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "Dialogue journalism future",
+      "description": "Vision of future where community members can conversationally query local news data for personalized information about their neighborhood",
+      "excerpts": [
+        "you're standing here making dinner and asking, hey, what's happening now with my school? My children are eight and ten, what's happening? And you will get the answer. And then you say that was pretty, tell me a little more.",
+        "For the first time we really have the possibility to have real interactive journalism. You can call it dialogue journalism."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom as data provider",
+      "description": "Prediction that newsrooms will shift from being website/platform providers to being curators and processors of trusted data consumed through various interfaces",
+      "excerpts": [
+        "Our role will not as much be providing a platform like a website, but it will be providing data, like carefully curated and processed data that helps people make sense of the world around them."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "mixed"
+    },
+    {
+      "code": "Hyper-personalized neighborhood news",
+      "description": "Possibility of delivering personalized news stories to individuals or small neighborhoods rather than mass audiences, unlocking currently unpublishable stories",
+      "excerpts": [
+        "it's a lot of information that we can give directly to each person that we now don't publish because it's way too small an audience. But we could be able to send this sort of personalized news stories directly to one person or ten or the neighborhood.",
+        "neighborhood journalism is going to be important."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Echo chamber awareness",
+      "description": "Acknowledging the risk that hyper-personalized news could create filter bubbles, flagging it as a problem to solve",
+      "excerpts": [
+        "we have to sort of avoid making a lot of echo chambers. So we have to solve that problem."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "ChatGPT referral surge",
+      "description": "Citing Reuters data showing ChatGPT referrals to news sites going from zero to over 100,000 in eight months, signaling a new discovery pathway",
+      "excerpts": [
+        "In eight months, referrals through ChatGPT went from zero to over a hundred thousand in news sites. So it's like I feel like we're almost there, but we're gonna see generative ecosystems of information."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "mixed"
+    },
+    {
+      "code": "Social media survival parallel",
+      "description": "Drawing explicit comparison between the existential threat from social media platforms and the emerging threat from AI companies",
+      "excerpts": [
+        "We barely survived social media as an industry once Facebook and all these giants came and kind of took a lot of our revenue. And with AI, and we have these new tech giants emerging, like OpenAI, Anthropic, Google coming in hard in the AI sphere, does increase competition. Because they are also informational ecosystems."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Bottom-up innovation unleashed",
+      "description": "AI tools enabling non-developers to create solutions, with creativity as the only remaining constraint",
+      "excerpts": [
+        "it allows for an insane amount of bottom-up innovation.",
+        "You don't have to be a developer to create something. It's a creativity unlocker. Creativity is the only limit."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Community engagement as survival",
+      "description": "Deep community interaction and asking audiences what they need positioned as the newsroom's best strategy for institutional survival",
+      "excerpts": [
+        "I think that's maybe our best bet at surviving as the institutions that we are.",
+        "go out and ask, get in contact with our community and ask them what do we need? How can they, how can we solve your problems?"
+      ],
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Every journalist as product developer",
+      "description": "Prediction that in the near future, every journalist will have a role in developing new products and services for specific communities",
+      "excerpts": [
+        "I think we're going to build a lot of new products. And the journalists going to, every journalist going to have some role in developing these new products and services to specific communities."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "AI dependency confession",
+      "description": "Personal admission of becoming completely dependent on AI tools in daily life within just two years",
+      "excerpts": [
+        "I've become totally helpless without AI. It's kind of scary. Like in two years time I went from very capable on my own to being completely dependent on AI systems."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI recipe superiority",
+      "description": "Humorous anecdote where ChatGPT produced a better reindeer heart recipe than local Sami community members, illustrating AI's synthesis capabilities",
+      "excerpts": [
+        "I asked Chat GPT of course and I got three suggestions and we made one of them and that's the best reindeer heart I've ever served to some people in Norway."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This second-part episode shifts from the tactical (specific tools) to the strategic (infrastructure and vision), revealing iTromso's transition from building individual AI products to constructing a foundational data platform designed to support an eventual agentic AI newsroom. The most analytically significant element is the tension between ambition and constraint: the team envisions a future of dialogue journalism, hyper-personalized neighborhood news, and journalists-as-product-developers, while simultaneously acknowledging that agents are not production-ready, hallucination blocks public-facing deployment, and GDPR compliance alone consumed two and a half years. The episode surfaces a distinctive training philosophy -- learning AI through real editorial projects rather than dedicated training sessions -- that is both a pragmatic response to resource constraints and a genuinely effective pedagogy. Lars Giske's prediction that newsrooms will shift from being platforms to being data providers represents a fundamental rethinking of what a news organization is. Perhaps most revealing is the frank assessment that the real competitive threat is not from other newsrooms but from AI companies building their own 'informational ecosystems,' paralleling the social media disruption that the industry barely survived.",
+  "surprises": [
+    "The iTromso team explicitly states AI agents are not production-ready, pushing back against the prevailing 2025 narrative that agentic AI is imminent",
+    "GDPR compliance for joining personal-level datasets required two and a half years of legal work before any development began -- a timeline rarely discussed in AI-for-journalism conversations",
+    "ChatGPT produced a better reindeer heart recipe than local Sami experts, serving as an unexpected illustration of AI's synthesis capabilities across cultural knowledge",
+    "The team predicts newsrooms will stop being platforms entirely and become data providers, which would represent a more radical transformation than most industry discussions acknowledge",
+    "OpenAI enterprise pricing created an internal two-tier system where some journalists could build assistants and others could not, revealing how cost structures can fracture newsroom culture"
+  ],
+  "tensions": [
+    "The vision of an AI-agentic newsroom coexists with the frank admission that agents are not production-ready and have too many failure points",
+    "Hyper-personalized neighborhood news is presented as the future but hallucination risk makes it too dangerous to deploy to the public today",
+    "The team wants every journalist to be an AI-empowered product developer but acknowledges the 25-person newsroom cannot afford dedicated training time",
+    "Open-source tools solve the cost problem but introduce new burdens of self-hosting, customization, and maintenance on a team that is already resource-constrained",
+    "Lars expresses excitement about AI's transformative potential while also confessing he has become 'totally helpless without AI' and calling his own dependency 'kind of scary'",
+    "The newsroom celebrates AI-driven efficiency while acknowledging that AI companies like OpenAI, Anthropic, and Google may render their platform irrelevant entirely"
+  ]
+}

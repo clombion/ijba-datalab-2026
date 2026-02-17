@@ -1,0 +1,331 @@
+{
+  "episode_meta": {
+    "title": "Ole Reissmann: Revolutionizing a Legacy Newsroom with AI at Germany's Der Spiegel",
+    "date": "2024-06-19",
+    "guests": [
+      {
+        "name": "Ole Reissmann",
+        "role": "Head of AI",
+        "organization": "Der Spiegel"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Germany",
+    "word_count": 8873
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "GPT (OpenAI)",
+    "Mistral (Le Chat)",
+    "Google models (Gemini)",
+    "Midjourney",
+    "DALL-E",
+    "Microsoft Azure",
+    "Microsoft Bing",
+    "Perplexity",
+    "Google NotebookLM",
+    "Siri",
+    "Alexa",
+    "text-to-speech models",
+    "Der Spiegel internal AI platform (custom-built tool using multiple LLMs)",
+    "Chrome browser plugin (context tool built by Klaus Hueck)"
+  ],
+  "use_cases": [
+    {
+      "description": "Automated generation of SEO headlines for approximately 150 articles per day, freeing SEO editors to do higher-value work",
+      "tool_used": "Generative AI / LLMs (via internal platform)",
+      "organization": "Der Spiegel",
+      "outcome": "SEO editors freed up time from routine headline checking to do more useful work",
+      "stage": "production"
+    },
+    {
+      "description": "AI-assisted fact-checking tool that extracts factual statements from articles, then verifies them against LLM knowledge, internal article database, and web searches using AI agents visiting multiple websites",
+      "tool_used": "ChatGPT / LLMs with AI agents",
+      "organization": "Der Spiegel",
+      "outcome": "Gets fact-checkers 20-40% of the way there, allowing the department to focus on more complex verification tasks. Provides a confidence score for each fact.",
+      "stage": "pilot"
+    },
+    {
+      "description": "Chrome browser plugin that lets users select a word or phrase in a Spiegel article, searches the Spiegel archive, and returns a summarized background paragraph with linked sources",
+      "tool_used": "ChatGPT / LLM with Spiegel archive (RAG)",
+      "organization": "Der Spiegel",
+      "outcome": "Being tested internally with newsroom staff for quality before potential wider rollout",
+      "stage": "pilot"
+    },
+    {
+      "description": "AI-generated article summaries tested on sister publication Manager Magazin, with human review and approval before publication",
+      "tool_used": "ChatGPT",
+      "organization": "Manager Magazin (Der Spiegel sister publication)",
+      "outcome": "Experiment running for several weeks; impact on audience usage data still being evaluated",
+      "stage": "pilot"
+    },
+    {
+      "description": "Text-to-speech conversion allowing users to listen to every article on the platform",
+      "tool_used": "Text-to-speech AI models",
+      "organization": "Der Spiegel",
+      "outcome": "Running for approximately one and a half years; looking to upgrade to newer, more human-sounding models",
+      "stage": "production"
+    },
+    {
+      "description": "Automated podcast generation pipeline: ingests Spiegel articles on breaking news, generates audio-optimized scripts, converts to speech, and can translate into multiple languages (Russian, English, Turkish). Includes human review of scripts by native speakers before publication.",
+      "tool_used": "Generative AI (built with Bosepark)",
+      "organization": "Der Spiegel (with Bosepark)",
+      "outcome": "Prototype/proof of concept built; to be shown to company but not yet in production",
+      "stage": "ideation"
+    },
+    {
+      "description": "Gender report that automatically extracts names from articles, identifies gender, and produces monthly departmental reports on gender representation in coverage",
+      "tool_used": "GPT (for name extraction and gender identification)",
+      "organization": "Der Spiegel",
+      "outcome": "Multi-year data collected showing significantly more men mentioned than women; used to inform editorial discussions about more equal reporting",
+      "stage": "pilot"
+    },
+    {
+      "description": "Building a vector database of Der Spiegel's article archive to enable personalization and serve as foundation for multiple AI-powered products",
+      "tool_used": "Vector database / embeddings",
+      "organization": "Der Spiegel",
+      "outcome": "Identified as the most important foundational project; under development",
+      "stage": "ideation"
+    },
+    {
+      "description": "Personalization of news content and user experience, including format preferences (read, listen, summary)",
+      "tool_used": "AI / vector database",
+      "organization": "Der Spiegel",
+      "outcome": "Planning to start small and deliberately later in the year; technical foundations being built",
+      "stage": "ideation"
+    },
+    {
+      "description": "Internal AI platform providing secure access to multiple AI models (ChatGPT, Google, etc.) within data protection and data security guidelines, with data kept in Europe via Microsoft Azure",
+      "tool_used": "Microsoft Azure, ChatGPT Enterprise, Google models",
+      "organization": "Der Spiegel",
+      "outcome": "Built in-house; staff can use AI securely; another publishing house is collaborating on the software",
+      "stage": "production"
+    },
+    {
+      "description": "Basic AI training sessions covering ChatGPT and image generation tools (Midjourney, DALL-E) with access to a prompt library afterwards",
+      "tool_used": "ChatGPT, Midjourney, DALL-E",
+      "organization": "Der Spiegel",
+      "outcome": "Over 870 people trained; sessions book out immediately; offering more sessions",
+      "stage": "production"
+    },
+    {
+      "description": "Collaborative press archive database with all articles published in Germany since the Federal Republic, exploring generative AI chat interface for semantic search",
+      "tool_used": "Semantic search / Generative AI",
+      "organization": "Der Spiegel and Axel Springer (joint venture)",
+      "outcome": "Prototype exists for chatting with the archive; currently offers semantic search and entity extraction",
+      "stage": "pilot"
+    },
+    {
+      "description": "Using Google NotebookLM to upload podcast transcripts from Newsroom Robots, creating a RAG system to query expert perspectives on an AI project proposal",
+      "tool_used": "Google NotebookLM",
+      "organization": "Personal use (Ole Reissmann)",
+      "outcome": "Successfully used insights to inform his application to the CUNY AI Journalism Lab",
+      "stage": "production"
+    },
+    {
+      "description": "Translations, transcriptions, and spell checking using traditional AI",
+      "tool_used": "Traditional AI / ML tools",
+      "organization": "Der Spiegel",
+      "outcome": "In use for years prior to generative AI wave",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Der Spiegel's SEO department checks approximately 150 articles on any given day for good SEO headlines",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "More than 870 people at Der Spiegel have taken part in basic AI training sessions on ChatGPT and image generation tools",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "ChatGPT is not very good at fact-checking directly, but it can extract factual statements from sentences which can then be verified against other sources",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The AI fact-checking tool only gets you 20-40% of the way there; the rest requires human expertise for complicated verification",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "On average, many more men than women appear in Der Spiegel's articles, as revealed by the AI-powered gender report",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Der Spiegel has about 10 AI projects going on, with only one or two being external/audience-facing",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Smart speakers from four years ago mostly failed because people only used them for music and weather; now LLM-powered voice interfaces may enable a second coming",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI model costs are getting cheaper and cheaper by the month, but user-facing products at scale with potentially millions of users remain expensive",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Der Spiegel does not want to use photorealistic AI-generated images because they do not want to make up the truth or trick anybody",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "He uploaded his blood work to ChatGPT and received a comprehensive assessment that matched what his doctor told him",
+      "speaker": "Ole Reissmann",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "LLMs present themselves like search engines but produce hallucinations and factual errors, making them unreliable for direct fact retrieval",
+      "category": "technical"
+    },
+    {
+      "description": "Maintaining audience trust while deploying AI, especially for a legacy brand with older paying subscribers who expect factual accuracy",
+      "category": "editorial"
+    },
+    {
+      "description": "Newer text-to-speech models are built for shorter content and speech assistants, causing difficulties with Der Spiegel's long-form articles (40+ minutes)",
+      "category": "technical"
+    },
+    {
+      "description": "High compute costs and energy consumption for user-facing AI products at scale with potentially millions of users",
+      "category": "technical"
+    },
+    {
+      "description": "AI companies trained on publisher content without adequate consent or compensation; new awareness around data protection needed",
+      "category": "ethical"
+    },
+    {
+      "description": "Software tools constantly add new AI features (e.g., image manipulation buttons) that may cross editorial lines, and the newsroom cannot control external software tools",
+      "category": "editorial"
+    },
+    {
+      "description": "Setting strict AI guidelines is difficult because the technology and user expectations are shifting constantly",
+      "category": "organizational"
+    },
+    {
+      "description": "Being a major publishing house but still a small to mid-sized company, making technology development hard and collaboration necessary",
+      "category": "organizational"
+    },
+    {
+      "description": "Prioritization across approximately 10 concurrent AI projects with limited resources in any given year",
+      "category": "organizational"
+    },
+    {
+      "description": "Gender identification by AI is not 100% accurate, and attempting to guess age of people mentioned in articles did not work well",
+      "category": "technical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Maybe the most obvious use cases of generative AI are not the ones we should go after. Because like first we have to ask ourselves why we would want to use AI and what AI is actually good at. And does it serve our mission and does it align with our values?",
+      "speaker": "Ole Reissmann",
+      "topic": "Strategic approach to AI adoption",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We run the fact checking tool not to get rid of the fact checking department, no no, to the contrary. So we run the fact checking tool which is in beta right now and we will hopefully have an up and running version in the next couple of months so everybody can use it at the company. And it only gets you like I don't know twenty, thirty, forty percent there. And the other percent, that's like the stuff humans are really needed for and which is really complicated and where you can't do a web search, like where people have to really dig into it.",
+      "speaker": "Ole Reissmann",
+      "topic": "AI augmenting rather than replacing fact-checkers",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We are really in the trust business and if we were to put something out, we want to make sure that not only a younger audience is happy, but our core audience, which tends to be a little bit older, our paying subscribers, we want to offer them factual information and we really want to make sure that we do not disappoint our readers and that we do not lose trust.",
+      "speaker": "Ole Reissmann",
+      "topic": "Trust and audience considerations in AI deployment",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "There's so much talk about, oh well, these AI LLMs, they are biased. And now it's actually an LLM that's helping us discover our biases. I think that's quite beautiful.",
+      "speaker": "Ole Reissmann",
+      "topic": "Using AI to audit editorial bias in gender representation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I do not trust the LLM and the probability model... I'm gonna put some authoritative sources in there and ask about what did the experts actually say. And I think it gives you a much more interesting, nuanced answer compared to the LLM looks into itself and spills out some hallucinations and maybe some generalizations.",
+      "speaker": "Ole Reissmann",
+      "topic": "RAG approach vs. relying on LLM knowledge alone",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "If we are thinking of user-facing products, I think that's when it gets really expensive, especially with the current models, even though they're getting cheaper and cheaper by the month. We really have to look into like if we were to deploy a user-facing product and potentially millions of people make use of these tools, that's for one costly. And then it's a question of, I mean, this compute, it doesn't come from nowhere, it costs energy, and is this a good use of energy right now.",
+      "speaker": "Ole Reissmann",
+      "topic": "Cost and sustainability concerns for AI at scale",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Do not start with the most obvious use cases of generative AI; first ask whether AI serves your mission and aligns with your values",
+      "speaker": "Ole Reissmann",
+      "target_audience": "newsroom leaders considering AI adoption"
+    },
+    {
+      "advice": "Give the LLM context and authoritative sources (RAG approach) rather than relying on its internal knowledge, which produces hallucinations and generalizations",
+      "speaker": "Ole Reissmann",
+      "target_audience": "journalists and AI practitioners"
+    },
+    {
+      "advice": "Train as many people as possible on AI fundamentals so decisions about AI usage come from the whole organization, not just leadership",
+      "speaker": "Ole Reissmann",
+      "target_audience": "news organizations"
+    },
+    {
+      "advice": "Start with principles rather than strict guidelines, since the technology and user expectations are constantly changing",
+      "speaker": "Ole Reissmann",
+      "target_audience": "news organizations developing AI policies"
+    },
+    {
+      "advice": "Build foundational data infrastructure (vector databases) first before pursuing consumer-facing AI products, as it enables many downstream applications",
+      "speaker": "Ole Reissmann",
+      "target_audience": "news organizations planning AI strategy"
+    },
+    {
+      "advice": "Collaborate with other publishing houses on shared technology and resources, since even major publishers are effectively small to mid-sized tech companies",
+      "speaker": "Ole Reissmann",
+      "target_audience": "news industry leaders"
+    },
+    {
+      "advice": "Do not rush to be first with AI-powered consumer products; it is better to avoid stupid mistakes than to be first to market, especially for trust-based brands",
+      "speaker": "Ole Reissmann",
+      "target_audience": "legacy news organizations"
+    },
+    {
+      "advice": "Consider the energy and compute cost sustainability of AI products, especially for user-facing tools at scale; use smaller, more efficient models where possible",
+      "speaker": "Ole Reissmann",
+      "target_audience": "news organizations building AI products"
+    }
+  ],
+  "external_references": [
+    "Mistral (Le Chat) - European AI company",
+    "OpenAI / ChatGPT",
+    "Google Gemini models",
+    "Microsoft Azure",
+    "Microsoft Bing",
+    "Perplexity",
+    "Midjourney",
+    "DALL-E",
+    "Google NotebookLM",
+    "Bosepark (Berlin-based company; Soholder and Chris Guse mentioned)",
+    "Axel Springer (co-operator of German press archive)",
+    "Manager Magazin (Der Spiegel sister publication)",
+    "CUNY AI Journalism Lab",
+    "Harvard Innovation Labs",
+    "Siri (Apple)",
+    "Alexa (Amazon)",
+    "Stochastic parrots (concept referenced by AI critics)",
+    "Gerrit von Nordheim (fact-checking project lead at Der Spiegel)",
+    "Alex Thiel (fact-checking project contributor at Der Spiegel)",
+    "Klaus Hueck (built Chrome browser context plugin at Der Spiegel)",
+    "Susanne Weingarten (gender report project lead at Der Spiegel)",
+    "Helene Hettele (gender report project contributor at Der Spiegel)"
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "episode_meta": {
+    "title": "Rethinking the journalism business model in the age of AI",
+    "date": "2024-02-01",
+    "guests": [
+      {
+        "name": "Jeff Jarvis",
+        "role": "Co-host of This Week in Google and AI Inside; Author",
+        "organization": "Newmark School of Journalism at CUNY"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 5619
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "GPT-4",
+    "Microsoft Copilot",
+    "Google Translate",
+    "Google Notebook LM",
+    "Bing",
+    "ChatGPT voice function",
+    "Oasis",
+    "GPT Store",
+    "Chromebook dictation"
+  ],
+  "use_cases": [
+    {
+      "description": "OpenAI licensed Axel Springer (owner of Business Insider) content to embed news within Microsoft Copilot and ChatGPT products",
+      "tool_used": "ChatGPT / Microsoft Copilot",
+      "organization": "OpenAI / Axel Springer",
+      "outcome": "Axel Springer content available within AI chat products; raises questions about intermediary licensing when Business Insider rewrites other outlets' stories",
+      "stage": "production"
+    },
+    {
+      "description": "Translation of foreign news content — Jeff Jarvis reads Helsingin Sanomat (Finnish newspaper) using Google Translate",
+      "tool_used": "Google Translate",
+      "organization": "Personal use / Helsingin Sanomat",
+      "outcome": "Able to read news in Finnish, one of the most difficult languages, expanding informational horizons",
+      "stage": "production"
+    },
+    {
+      "description": "Proposed crowdsourced journalism: editor asks 100 readers to record school board meetings, machine transcribes them, then queries the corpus to find patterns (e.g., how many boards are banning books vs. discussing student mental welfare)",
+      "tool_used": "Large language model with restricted corpus",
+      "organization": "Hypothetical newsroom",
+      "outcome": "Would enable analysis at scale that an individual journalist could not perform",
+      "stage": "ideation"
+    },
+    {
+      "description": "Google Notebook LM used to summarize and query a restricted corpus of documents, helping journalists with research",
+      "tool_used": "Google Notebook LM",
+      "organization": "Google",
+      "outcome": "Useful for summarizing restricted document corpora; editorially directed by Steven Johnson",
+      "stage": "production"
+    },
+    {
+      "description": "Schibsted built an LLM-powered interface on top of their product review site (their version of Engadget), allowing users to query reviews conversationally (e.g., specifying TV size, room brightness, thinness)",
+      "tool_used": "LLM with restricted corpus",
+      "organization": "Schibsted",
+      "outcome": "Users get personalized product recommendations from review content with cited sources; reliable because of constrained corpus",
+      "stage": "production"
+    },
+    {
+      "description": "Norwegian initiative to create a Norwegian-language LLM with publishers contributing their digitized content, led in part by Schibsted's CTO urging publishers at Nordic Media Day",
+      "tool_used": "Norwegian language LLM (in development)",
+      "organization": "Schibsted / Norwegian publishers",
+      "outcome": "Research phase underway with publishers cooperating to build competitive Nordic-language models; commercial phase to follow",
+      "stage": "pilot"
+    },
+    {
+      "description": "CNET, GeoMedia, and Gannett used AI to generate articles at scale, resulting in brand damage due to errors and lack of transparency",
+      "tool_used": "Generative AI / Natural language generation",
+      "organization": "CNET / GeoMedia / Gannett",
+      "outcome": "Negative — damaged credibility; Gannett covered high school sports games via machine but failed to disclose AI authorship to audiences",
+      "stage": "production"
+    },
+    {
+      "description": "Lawyer Steven Schwartz used ChatGPT to generate legal case citations that turned out to be fabricated, leading to a show-cause hearing",
+      "tool_used": "ChatGPT",
+      "organization": "Legal profession (individual attorney)",
+      "outcome": "Fabricated citations submitted to court; judge focused on attorney's professional responsibility failure rather than blaming the technology itself",
+      "stage": "production"
+    },
+    {
+      "description": "Jeff Jarvis uses dictation on Chromebook when injured wrist prevented typing, enabled by AI-powered natural language processing",
+      "tool_used": "Chromebook dictation",
+      "organization": "Personal use",
+      "outcome": "Able to continue working despite physical inability to type",
+      "stage": "production"
+    },
+    {
+      "description": "Leo Laporte explored the GPT Store, including building a Lisp programming GPT",
+      "tool_used": "GPT Store / GPT-4",
+      "organization": "Twit Network / This Week in Google",
+      "outcome": "Demonstrated GPT Store functionality; also discovered unauthorized 'girlfriend/boyfriend' chatbots violating platform rules",
+      "stage": "production"
+    },
+    {
+      "description": "Proposed idea: news organizations build a query interface (like Notebook LM) on top of their content and archives so readers can ask questions instead of only browsing editor-curated homepages",
+      "tool_used": "LLM query interface",
+      "organization": "Hypothetical — proposed for New York Times and other news organizations",
+      "outcome": "Would provide personalized, conversational access to news archives; better than search or homepage curation",
+      "stage": "ideation"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "If journalism still thinks it is valuable only because it makes content, it is doomed. AI is not the agent of doom, but it shows us that future.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The news industry is incredibly inefficient because it devotes a huge amount of resource to copying each other, each outlet rewriting the same stories to get their own page views and ad impressions.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI can raise the floor (enabling people who can't write/code/draw to do so), scale ability (do things faster and more), and raise the ceiling (do things previously impossible like protein folding or analyzing 100 school board meetings).",
+      "speaker": "Jeff Jarvis (citing WEF discussion group)",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "On the negative side, AI will have uneven economic impact, enables scaling of evil, and robs some people of their sense of purpose.",
+      "speaker": "Jeff Jarvis (citing WEF discussion group)",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "When a large language model deals with a restricted corpus of information and cites sources, it is pretty good, reliable, and useful — unlike asking a raw model open-ended questions.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Schibsted is smarter than any news company out there — more innovative, more strategic, more bold, and more successful in everything including paywalls and collaboration.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Generative AI should not be used right now to write articles at scale because of hallucination — it is irresponsible.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The most powerful programming language on planet Earth today is English.",
+      "speaker": "Jeff Jarvis (quoting unnamed CEO of an AI company from AI Inside podcast)",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Media have turned the internet into an enemy and are now doing the same thing with AI, driven by moral panic.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "If LLMs had been positioned as fiction/creativity/brainstorming machines rather than super search engines, many of the current problems (hallucination concerns, misuse) would not exist.",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Norway is far ahead because all their newspapers and almost all books are already digitized, making it easier to build language-specific LLMs.",
+      "speaker": "Jeff Jarvis (citing Norwegian AI executive)",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "News content loses value when it can be freely copied digitally and linked to — you cannot control distribution the way you could with physical media like CDs",
+      "category": "organizational"
+    },
+    {
+      "description": "AI-generated content at scale (CNET, GeoMedia, Gannett) damaged publisher credibility when not properly disclosed to audiences",
+      "category": "editorial"
+    },
+    {
+      "description": "Hallucination in generative AI makes it irresponsible for writing news articles at scale",
+      "category": "technical"
+    },
+    {
+      "description": "Uneven economic impact of AI — some people lose their sense of purpose (writers, coders); impact distributed unevenly across society",
+      "category": "ethical"
+    },
+    {
+      "description": "AI enables the scaling of evil — bad actors can do harmful things at much greater scale",
+      "category": "ethical"
+    },
+    {
+      "description": "Labor issues arise from AI-generated illustration displacing human illustrators, similar to how the camera displaced earlier forms of visual art",
+      "category": "organizational"
+    },
+    {
+      "description": "Dangerous philosophies driving some AI leaders — techno-creationism, transhumanism, long-termism, effective altruism — which prioritize hypothetical future humans over present ones and concentrate decision-making power among technologists",
+      "category": "ethical"
+    },
+    {
+      "description": "Media coverage of AI is too simplistic, swinging between utopia and dystopia, failing to provide nuanced understanding",
+      "category": "editorial"
+    },
+    {
+      "description": "English-language dominance in LLMs means non-English languages need dedicated models (motivating the Norwegian LLM initiative)",
+      "category": "technical"
+    },
+    {
+      "description": "Transitioning from research phase to commercial phase of collaborative LLM efforts could break down cooperation when publishers negotiate individual deals",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If we still think that we're valuable only because we make this thing called content, we are doomed. And AI is not the agent of doom, but it shows us that future.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Future of journalism business models",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I didn't know the machine could lie, he said. Which is somewhat defensible, right? You know, that it's presented as a super search engine he said. That's Microsoft's mistake.",
+      "speaker": "Jeff Jarvis (recounting lawyer Schwartz's defense)",
+      "topic": "AI hallucination and professional responsibility",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "AI can raise the floor. It can enable people to do things they otherwise couldn't do. People who can't write can write. People who can't code can code... It also scales ability... It also raises the ceiling and lets us do things that we weren't otherwise capable of doing, like folding proteins or analyzing 100 school board meetings.",
+      "speaker": "Jeff Jarvis (citing WEF discussion)",
+      "topic": "AI capabilities framework: floor, scale, ceiling",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Schibsted's view is let's beat him. I spoke to the board of directors of Schibsted one year and I tried to tell them what they should do in cooperation with Google and the CTO at the time, different guy, said we're better than Google.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Schibsted's competitive approach to AI vs. litigious approaches",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Imagine if when LLMs came out, instead of saying that they were this super search engine or this way to query the world, what if they'd been positioned as fiction machines? As creativity machines, a lot of the problems that we put on them would go away.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Framing and positioning of LLM capabilities",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The judge interrupted and said, I set out to do no such thing. He didn't care about the technology. He cared about its misuse by attorneys who didn't do their full job. Same will be said of journalists if they use this to cheat.",
+      "speaker": "Jeff Jarvis (recounting judge's statement in Schwartz hearing)",
+      "topic": "Professional responsibility when using AI tools",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "News organizations should build LLM-powered query interfaces on top of their own content and archives, allowing readers to conversationally search for personalized information instead of relying solely on editor-curated homepages or traditional search.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News publishers and editors"
+    },
+    {
+      "advice": "Publishers should cooperate to build language-specific LLMs (as Schibsted is doing with Norwegian/Nordic languages) rather than suing or passing laws against tech companies.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News publishers globally"
+    },
+    {
+      "advice": "If using AI to generate content (e.g., high school sports coverage), always disclose AI authorship to the audience and invite corrections — transparency preserves brand trust.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News publishers using AI-generated content"
+    },
+    {
+      "advice": "Journalism must reevaluate and reinvent itself around different spheres of value beyond content production — including conversation, community engagement, and new user experiences.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News industry leaders"
+    },
+    {
+      "advice": "Journalism education should teach prompt writing as a critical skill, help students understand they can now program machines without being coders, and train them on both opportunities and limitations of AI models.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "Journalism educators and schools"
+    },
+    {
+      "advice": "Journalism education should incorporate humanities and social sciences — anthropology, psychology, ethics, community studies, design, and history — to prepare students as leaders who understand the internet and AI as human networks, not just technology.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "Journalism and internet studies educators"
+    },
+    {
+      "advice": "Newsrooms should use AI to enable sources to tell their own stories and to illustrate those stories, rather than relying solely on traditional journalist-mediated narratives.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "Newsrooms and journalists"
+    },
+    {
+      "advice": "Use LLMs with restricted/constrained corpora for reliable results — when the model works with a specific set of documents and cites sources, it is much more reliable than open-ended querying.",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News technologists and product teams"
+    }
+  ],
+  "external_references": [
+    "The Gutenberg Parenthesis (book by Jeff Jarvis)",
+    "The Web We Weave (upcoming book by Jeff Jarvis)",
+    "This Week in Google (podcast, Twit Network)",
+    "AI Inside (podcast by Jeff Jarvis)",
+    "Newsroom Robots (podcast by Nikita Roy)",
+    "Google Notebook LM",
+    "Steven Johnson (editorial director at Google Notebook LM)",
+    "Schibsted (Norwegian/Scandinavian news publisher)",
+    "Nordic Media Day",
+    "Axel Springer",
+    "Business Insider",
+    "OpenAI",
+    "Microsoft Copilot",
+    "CNET",
+    "GeoMedia",
+    "Gannett (referred to as Kinet/Kinette in transcript)",
+    "New York Times",
+    "The Guardian",
+    "Associated Press",
+    "Cleveland Plain Dealer",
+    "San Francisco Chronicle",
+    "Helsingin Sanomat (Finnish newspaper)",
+    "World Economic Forum (WEF) event in San Francisco",
+    "U.S. Senate testimony by Jeff Jarvis",
+    "Bell Labs (Murray Hill, New Jersey)",
+    "Nokia",
+    "AT&T",
+    "Star Ledger / NJ.com",
+    "Harvard Innovation Labs",
+    "Newmark School of Journalism at CUNY",
+    "Carrie Brown (colleague at CUNY, engagement journalism)",
+    "Breadloaf (writers' conference)",
+    "GPT Store",
+    "Oasis (voice-to-text tool)",
+    "Techno-creationism, transhumanism, long-termism, effective altruism (philosophies discussed critically)",
+    "Leo Laporte (host, This Week in Google)",
+    "Paris Martineau (co-host, This Week in Google)"
+  ]
+}

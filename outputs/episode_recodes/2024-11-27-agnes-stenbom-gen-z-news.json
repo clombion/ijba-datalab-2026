@@ -1,0 +1,186 @@
+{
+  "episode_date": "2024-11-27",
+  "episode_title": "Agnes Stenbom: Reimagining News Through the Eyes of Gen Z",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T01.2",
+        "T01.3"
+      ],
+      "best_quote": {
+        "text": "I really think that we need to have more discussions around that -- is it ethical for us to publish things that are produced in ways that we don't understand, if we don't have technical oversight or if we don't have technical expertise that enables us to really understand the process behind production.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Stenbom identifies empathy and creativity as irreplaceably human journalistic skills relative to machine functionality. She reframes displacement concerns around protecting journalism's democratic function rather than preserving specific roles or headcounts, arguing the number of staffers is not bound by natural law."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.2",
+        "T02.4"
+      ],
+      "best_quote": {
+        "text": "Your product makes us feel like shit, so we won't consume it.",
+        "speaker": "Agnes Stenbom (paraphrasing the youth participants)"
+      },
+      "summary": "Trust and audience relationship are central. Around 30% of audiences in Nordic markets actively avoid news, often due to low trust. Young audiences experience negative emotions from news consumption. Stenbom reveals a fundamental disconnect: journalists say emotional impact is not their job, while young people refuse to consume a product that makes them feel bad. Trust-consciousness becomes an existential audience retention issue."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "I really think that we need to have more discussions around that -- is it ethical for us to publish things that are produced in ways that we don't understand, if we don't have technical oversight or if we don't have technical expertise that enables us to really understand the process behind production.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Stenbom exposes a critical ethics-practice gap: no publisher currently has a structured accountability framework for ChatGPT-produced content. The FAST framework (Fairness, Accountability, Sustainability, Transparency) provides Schibsted's operational ethics infrastructure. She argues technical oversight is editorial oversight and that publishing content produced through opaque processes is ethically questionable."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "I think it's very important that when we do so, we make sure that we're not just scratching the surface and allowing the big black box to just be a big black box, but that we are curious around more than the very superficial level.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Technical architecture is referenced indirectly through the warning against treating AI as a black box. Stenbom argues publishers need in-house technical competence to understand what goes on under the hood, but specific technical choices are not detailed."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3"
+      ],
+      "best_quote": {
+        "text": "The real competitive advantage is our newsroom culture, our organizational ability to transform, to rethink, to innovate. And we can't copy that simply by looking or listening at someone else's presentation. That's work that happens in-house.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Schibsted's Shift AI Academy trains thousands of employees across departments with role-specific learning tracks. Stenbom champions open knowledge-sharing across organizations because the real competitive advantage is organizational culture, not tools. She advocates for forums where employees can openly discuss AI risks and concerns rather than suppressing skepticism."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.2",
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "The real competitive advantage is our newsroom culture, our organizational ability to transform, to rethink, to innovate. And we can't copy that simply by looking or listening at someone else's presentation. That's work that happens in-house.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Organizational transformation is a dominant theme. Stenbom describes InLab's dedicated teams with short mandates, Schibsted's institutional 'muscle memory' for risk-taking dating to the 1800s, and the importance of cultural transformation alongside technical training. She advocates for local AI hubs separate from regular roles and anchoring product pitches in user needs rather than technology novelty."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.4"
+      ],
+      "best_quote": {
+        "text": "The real competitive advantage is our newsroom culture, our organizational ability to transform, to rethink, to innovate. And we can't copy that simply by looking or listening at someone else's presentation. That's work that happens in-house.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Collaboration surfaces through the Nordic AI Journalism Network and the argument for open cross-organizational knowledge sharing. Copyright/legal issues with generative AI caused the News is Music prototype to be taken down, but Big Tech power dynamics are not a primary focus."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T08.1",
+        "T08.2",
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "I remember word by word every article that we did last year because it was music and I remember music, but I couldn't tell you what I listened to on my lunch podcast today.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Format innovation is central: News is Music (articles as AI-generated rap songs), the News Clinic (AI avatar news therapist for emotional wellbeing), and the news concierge concept (personalized AI butler delivering news in customized tone). Stenbom argues for treating information as the core product deliverable in multiple formats, challenging the article-centric model. Co-creation with 15-year-olds drives product design."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "I think a key issue in our industry is that many of us recognize that we exist to serve the public. That's why we go to work every day. We rarely let the public be part of deciding what we should be or what we should be doing.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "The business sustainability dimension emerges through the 30% news avoidance rate threatening the audience base. Stenbom frames reaching news outsiders and marginalized communities as both a public service mission and a business necessity. The foundation-ownership model (Tinius Trust) is referenced as enabling longer-term innovation investment."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "I really think that we need to have more discussions around that -- is it ethical for us to publish things that are produced in ways that we don't understand.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Copyright/legal issues are mentioned as the reason the News is Music prototype was taken down, but formal regulatory frameworks or policy proposals are not discussed. The accountability gap for generative AI content is framed as an ethical rather than regulatory challenge."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "I remember word by word every article that we did last year because it was music and I remember music, but I couldn't tell you what I listened to on my lunch podcast today.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "The News is Music prototype was deployed live on Aftonbladet and received positive user feedback but was pulled due to copyright issues, illustrating the production gap. InLab's approach of co-creation with users and short-mandate teams represents a structured prototyping pipeline. The EU election chatbot moved from concept to production deployment."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "I think it's very important that when we do so, we make sure that we're not just scratching the surface and allowing the big black box to just be a big black box.",
+        "speaker": "Agnes Stenbom"
+      },
+      "summary": "Data privacy is not explicitly addressed. The FAST framework includes sustainability and transparency but data-specific governance is not elaborated upon in this episode."
+    }
+  ],
+  "primary_themes": [
+    "T02",
+    "T03",
+    "T05",
+    "T06",
+    "T08"
+  ],
+  "secondary_themes": [
+    "T01",
+    "T09",
+    "T11"
+  ],
+  "tangential_themes": [
+    "T04",
+    "T07",
+    "T10",
+    "T12"
+  ]
+}

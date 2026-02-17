@@ -1,0 +1,359 @@
+{
+  "episode_date": "2025-05-30",
+  "episode_title": "Cheryl Phillips: How AI Is Uncovering Hidden Stories in Local Government",
+  "codes": [
+    {
+      "code": "Lowering Accountability Journalism Cost",
+      "description": "The central mission of Big Local News: using algorithms and automation to reduce the cost of producing strong accountability journalism for resource-strapped local newsrooms",
+      "excerpts": [
+        "It's really centered about around lowering the cost of doing accountability journalism, especially for local newsrooms, which as we know are resource strapped"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Platform Company Scraping Strategy",
+      "description": "Achieving scalable government data collection by targeting the handful of platform companies that local agencies contract with, rather than building individual scrapers for each agency",
+      "excerpts": [
+        "these agencies often contract with just a handful of platform companies. So by targeting the platform companies, we can grab these public and open records and put them into one kind of corpus"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Cross-Jurisdictional Pattern Detection",
+      "description": "Enabling journalists to search across hundreds of local government agencies simultaneously to find patterns, providing both local and national story angles from the same data",
+      "excerpts": [
+        "you can search for your agency or you could search for an issue like, you know, homelessness or, you know, maybe pedestrian or housing",
+        "If you can find that there's this like pattern of incr you know lots of new new contracts going across the US, then you have both a local story and a and a regional or national story"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Infrastructure Before AI",
+      "description": "Prioritizing the construction of robust scraping and data pipeline infrastructure before adding AI analysis layers, recognizing that the plumbing matters more than the intelligence in early stages",
+      "excerpts": [
+        "I've gotta say right now I would the the AI is is limited, it's much more building the infrastructure, the pipe, the kind of the pipes of the the system",
+        "we have a very robust scraping infrastructure"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "neutral"
+    },
+    {
+      "code": "Audio as Newsworthiness Signal",
+      "description": "Experimental finding that volume spikes (shouting) and silence in public meeting audio both predict newsworthy events, with silence being an unexpected predictor",
+      "excerpts": [
+        "the hypothesis was If somebody yells in a meeting, does that detect news?",
+        "we did find that that predicted newsworthiness. Silence also predicted newsworthiness, which was unexpected"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Data Cross-Referencing for Accountability",
+      "description": "Marrying disparate data sets (meeting agendas + federal contracts) to catch government officials contradicting their public statements with their actual contract behavior",
+      "excerpts": [
+        "we were able to identify moments in public meetings, like several years worth of public meetings where city county officials essentially proclaimed that they were not sharing data with ICE, even though they had just inked new contracts with ICE, like the day before"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Reporter Coverage Stretch",
+      "description": "The structural context driving AI need: local reporters now cover 10-20x more jurisdictions than a generation ago due to newsroom contraction",
+      "excerpts": [
+        "a reporter today might have to cover 20 cities, whereas, you know, 15 years ago it might have been one or two"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "negative"
+    },
+    {
+      "code": "Personalized News Detection Alerts",
+      "description": "Allowing reporters to annotate agendas/minutes with their interests, then receiving AI-powered email alerts when matching items appear across jurisdictions",
+      "excerpts": [
+        "if I could just even annotate a few agendas or minutes and then put those into the system, then the AI can use those annotations to build a model that will be perfect for me. So that then I'm getting email alerts of, hey, this thing popped up"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Transparent Agent Reasoning",
+      "description": "DataTalk's design principle of showing every step the AI agent takes -- databases queried, tables joined, code generated, plain English explanation, caveats, and limitations -- to build journalist trust",
+      "excerpts": [
+        "as the agent does its work, it tells you what it's doing. So you ask that question. And it says thinking and it tells you all the steps it's doing. I'm going to this database, I'm going to this table",
+        "it explains what it did, both in plain English, and it gives you the code"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Trust Through Transparency Design",
+      "description": "Building trust into AI products by making the reasoning process visible, editable, and shareable so others can check the journalist's AI-assisted work",
+      "excerpts": [
+        "you can open up the query in a dashboard and actually tweak it, change it, run your new query, save it, publish it to this dashboard, and share it with other people. So somebody else can check your work"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Domain Expert Guardrails",
+      "description": "Hiring a campaign finance subject-matter expert (Derek Willis) to build guardrails into the AI agent, ensuring domain-specific rules and complexity are encoded into the system",
+      "excerpts": [
+        "we hired a campaign finance journalist named Derek Willis, who's pretty much an expert in that field, to help us build the guardrails into the agent"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Entity Extraction from Messy Records",
+      "description": "Using generative AI (Autofolio) to extract structured entities (weapon types, officer names, incident details) from disorganized police misconduct records in mixed formats (PDFs, audio, video)",
+      "excerpts": [
+        "it's using entity extraction. It's a generative AI tool that is trying to to extract things like what kind of weapon was used, who used the weapon. Well, what are the police officer names that were involved",
+        "these are not easy problems. to solve because there's a lot of nuance and context in these PDFs"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "mixed"
+    },
+    {
+      "code": "Scale Requires AI, Not Humans",
+      "description": "Explicit acknowledgment that the volume of police records across 700+ agencies in California is simply too much for manual analysis and that AI is the only path to scale",
+      "excerpts": [
+        "It's too much. It's too much for a person to be able to do. It would take us years to be- We you know we've certainly tried the manual approach"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "neutral"
+    },
+    {
+      "code": "Wandering Officer Problem",
+      "description": "The vision of a federated, multi-state police accountability database that can track officers who move between agencies after misconduct, solving the 'wandering officer' problem at national scale",
+      "excerpts": [
+        "this person was involved in three use of force incidents here. and then left that agency and is now, you know, three states away doing the same thing"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Slack-Based News Detection",
+      "description": "Piping automated news detection alerts (e.g., WARN Act layoff notices) into geography-based Slack channels that subscribing newsrooms monitor for story leads",
+      "excerpts": [
+        "we also pipe news detection alerts in Slack channels that are based by geography. So, you know, we have a channel for KQED Radio in California. We have a channel for the Baltimore Banner"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "WARN Act Layoff Scraping",
+      "description": "Automated daily scraping of WARN Act layoff notices from 44 states, published as open CSV data and piped to subscribing newsrooms, producing concrete published stories",
+      "excerpts": [
+        "we scrape all the layoff notices across the country. We can get it for forty four states",
+        "Baltimore banners done, I want to say, three or four stories in the last months just on contractor companies that had a lot of business with USAID who've now had to have massive layoffs"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "DART Matrix Capability Matching",
+      "description": "A framework (Data, Algorithms, Recipes, Training) for assessing newsroom data capacity and matching appropriate tools and support to capability level, from zero data experts to full data teams",
+      "excerpts": [
+        "we use the data expert capacity in a newsroom as a way to evaluate what a newsroom might need",
+        "if you have zero data experts, in your newsroom, then giving you a feed of data is not going to help you at all. But giving you some training and maybe what we call recipes or story recipes will probably help you"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Virtuous Data Sharing Cycle",
+      "description": "The model where large data teams produce analysis that is then repackaged into accessible formats for smaller newsrooms, increasing impact for the original team while enabling coverage that would otherwise be missed",
+      "excerpts": [
+        "It increases the impact for the big data teams if they share it back out, and it makes it possible for the small data teams to be able to cover stories they would otherwise completely miss"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Story Recipes for Non-Expert Newsrooms",
+      "description": "Providing pre-made analytical templates (story recipes) with training and hand-holding so newsrooms without data expertise can produce data-driven stories from shared data sets",
+      "excerpts": [
+        "we trained all these really rural newsrooms using a spreadsheet how to take their part of the data, analyze it, write a story about it. So we saw basically about a dozen local stories that came out of that one data set"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Open Source as Game Changer",
+      "description": "The strategic importance of open source AI tools for journalism, reducing dependency on proprietary technology companies and enabling community building",
+      "excerpts": [
+        "the fact that this is open source is really I think a game changer for journalism because we don't have to depend again on the technology companies to be pushing for the tool"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Knowledge Graph Vision",
+      "description": "Plans to evolve Agenda Watch from keyword search to a knowledge graph with generative AI that enables natural language querying and contextual analysis across local government data",
+      "excerpts": [
+        "our plan is to make it kind of build in a knowledge graph that will allow people to really use a generative AI to leverage what we can find out of it"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "AI as Running with Scissors",
+      "description": "The cautionary metaphor for journalists using AI coding assistance: powerful but dangerous if you lack the literacy to evaluate whether the code output is correct",
+      "excerpts": [
+        "I think it's a little bit like running with scissors, so you have to be careful"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "mixed"
+    },
+    {
+      "code": "Teach Fundamentals Before AI",
+      "description": "Deliberate pedagogical strategy of teaching coding and critical thinking skills for three-quarters of the curriculum before introducing AI tools, ensuring students can evaluate AI outputs",
+      "excerpts": [
+        "we start them with spreadsheets and then we go straight to Python. and we teach them how to code and we as much as we can discourage them from using AI until about three quarters of the way through the curriculum"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Perfect Code as Red Flag",
+      "description": "Using the quality of student code submissions as a diagnostic: perfect code in intro classes signals unauthorized AI use, since students should be visibly struggling",
+      "excerpts": [
+        "if their code is perfect, I talk to them. Their code should not be perfect. They should be struggling. Especially in an intro class"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "neutral"
+    },
+    {
+      "code": "Unquestioning AI Consumption Risk",
+      "description": "The pedagogical concern that students accept AI outputs without independent verification, illustrated by a student who validated AI output only by comparing it to classmates' manually computed answers",
+      "excerpts": [
+        "well, I got the answer using AI. And it was, you know, it was the right answer. And we're like, well, how did you know it was the right answer? And that student then pointed to all of the other right answers that people had written up up on the board",
+        "We want to avoid people going and saying, Oh, this must be right because I asked the AI and the AI said"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "negative"
+    },
+    {
+      "code": "Blockchain Provenance for Evidence",
+      "description": "Using blockchain-based authentication to create immutable records of police body camera footage with full chain of custody, audit trails, and reader-accessible provenance interfaces",
+      "excerpts": [
+        "we hashed it, we notarized it. to establish what the content was that we obtained when it was obtained",
+        "basically what it did was it created an audit trail, a kind of chain of custody that so you can have this whole piece of kind of level of trust over time"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Proactive Record Preservation",
+      "description": "The urgency of collecting and preserving government records before they disappear, as agencies delete records after set periods and federal data is being actively removed",
+      "excerpts": [
+        "the local agencies put records up, but they're allowed to re to delete them after a certain amount of time. So we have to collect and preserve it before it goes away",
+        "a lot of information is disappearing every day, especially right now. from the web"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "negative"
+    },
+    {
+      "code": "Video AI Maturation Trajectory",
+      "description": "Tracking how video analysis AI was too limited a few years ago but is now approaching capability for extracting meaning from large volumes of body camera footage, with Gemini as a promising tool",
+      "excerpts": [
+        "I tried it a couple years ago and we didn't it it was kind of too hard of a problem, but we're getting there because the tools keep improving",
+        "the folks at the Berkeley Institute for Data Science have, yes. So it's just super great at pinpointing when certain things happen"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Narrative-to-Reality Verification Vision",
+      "description": "The aspirational but currently unsolved goal of using AI to compare police report narratives with body camera video to verify whether written accounts match what actually happened",
+      "excerpts": [
+        "my vision was I wanted to look at the narrative text of police reports from key incidents. and match those to what actually happened in the video. So did they match up to what actually happened in the video? That's a really hard problem and I don't know that that's yet solvable"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "mixed"
+    },
+    {
+      "code": "Multi-Institutional Collaboration Model",
+      "description": "Building accountability infrastructure through coalitions of universities, newsrooms, legal clinics, civil liberties organizations, and defense lawyers, sharing costs and expertise across institutions",
+      "excerpts": [
+        "we work with the Berkeley Institute for Data Science and we work with the Berkeley Investigative Reporting Program, Big Local News. UC Irvine has a law clinic. We work with a lot of other community groups, ACLU and AC National Association for Criminal Defense Lawyers"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Agentic Audit Summarization",
+      "description": "Cheryl's pet project to build an agentic AI solution that can summarize federal audit findings and distinguish truly newsworthy flags from routine accounting issues",
+      "excerpts": [
+        "that's where I think a perfect example of where we can use generative AI to summarize and kind of detect, you know, like, well, this is really something that you should take a look at. You know, this one, it was just an accounting, you know, didn't dot nigh, and it's not that important"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Legislative Tracking with AI Scoring",
+      "description": "Developing a tool to track state legislative actions responding to federal executive orders, using generative AI summarization with confidence scores to detect mimicry or challenge of executive orders",
+      "excerpts": [
+        "we want to build in basically a bill sheet of bills that are or other legislative actions that are happening that seem to be in response to executive orders. And then using a generative AI kind of summarization with a score that tells us what's our confidence level"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Walled Garden AI for Teaching",
+      "description": "Using Ping Pong to create controlled RAG environments where students query uploaded course materials without the hallucination risks of general-purpose chatbots",
+      "excerpts": [
+        "I use ping pong because I think it's a really great like playground for my students",
+        "it's a great way to be able to I take a look at uh to be able to query a a corpus of information without having to worry about the hallucinations"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Police Phrase Pattern Detection",
+      "description": "The observation that police officers use trained phrases (like 'stop resisting') that may not reflect reality, and the potential for AI to detect discrepancies between formulaic language and actual events",
+      "excerpts": [
+        "police officers get training in a certain way, and so they use st the same phrases over and over again. But do those phrases always represent reality?",
+        "One police officer may say stop resisting and somebody's actually really resisting. Another police officer may say it and is saying it because he or she is trying to create a record"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "mixed"
+    },
+    {
+      "code": "Federated Plug-and-Play System",
+      "description": "Vision for a federated national system where states with open police records laws can plug into a shared infrastructure for accountability tracking",
+      "excerpts": [
+        "Maryland has has similar l laws that have opened up use of force and police misconduct records. New York State has, New Orleans has, Chicago. There's a lot of places where if we could kind of almost build a plug-and-play system"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "positive"
+    },
+    {
+      "code": "Funding as Scaling Bottleneck",
+      "description": "The persistent constraint that ambitious infrastructure projects for accountability journalism depend on securing funding that remains uncertain",
+      "excerpts": [
+        "assuming we someday get the funding for it, that you know, uh there could be a federated system"
+      ],
+      "speaker": "Cheryl Phillips",
+      "valence": "negative"
+    }
+  ],
+  "episode_summary": "This episode reveals a fundamentally different model of AI in journalism: rather than a single newsroom deploying AI for its own editorial production, Big Local News at Stanford builds shared data infrastructure and AI-powered news detection tools that serve dozens of local newsrooms simultaneously, functioning as an intermediary that lowers the cost of accountability reporting at scale. The analytical core is the DART Matrix framework, which recognizes that AI readiness is not binary but exists on a spectrum from zero data experts (who need story recipes and hand-holding) to full data teams (who need API-accessible data streams), and that the most impactful model creates a virtuous cycle where large teams' analysis is repackaged for smaller newsrooms. Phillips' work on police accountability demonstrates how AI's primary value lies in entity extraction and cross-referencing of messy, multi-format government records at volumes impossible for human analysis, while the DataTalk tool exemplifies a design philosophy where transparency (showing every reasoning step, providing editable code, flagging caveats) is the mechanism for building journalist trust in AI outputs. The episode also foregrounds a tension between AI capability and AI maturity, with Phillips tracking how video analysis and narrative-to-video verification remain just beyond the practical frontier.",
+  "surprises": [
+    "Silence in public meetings predicted newsworthiness just as much as shouting -- an unexpected finding from audio analysis of government meetings",
+    "Santa Clara County in Silicon Valley, not a border county, had the most ICE contracts in California, discovered through the cross-referencing of meeting agendas with federal contract data",
+    "The infrastructure (scraping, data pipelines) is currently more important than the AI layer -- the pipes matter more than the intelligence at this stage",
+    "A student validated an AI-generated answer solely by comparing it to classmates' manually computed answers, having no independent way to verify the AI output",
+    "Baltimore Banner published three to four stories from a single automated Slack bot alert stream about USAID contractor layoffs, demonstrating that lightweight automation can produce immediate editorial impact"
+  ],
+  "tensions": [
+    "AI capability vs. AI maturity: video analysis tools are approaching usefulness but remain not quite reliable enough for the narrative-to-reality verification Phillips envisions",
+    "Teaching coding fundamentals vs. acknowledging AI will transform how coding is done -- the deliberate three-quarters delay in introducing AI tools to students",
+    "Open source independence vs. funding dependency: the tools are open source and free from tech company control, but the infrastructure still requires grant funding that is not guaranteed",
+    "Scalability ambition vs. current reality: plans for 3,000 agencies and a federated national system contrast with the current beta state of a few hundred agencies",
+    "AI as literacy equalizer (DataTalk enables non-experts to query complex data) vs. AI as running with scissors (code outputs may be wrong and non-experts cannot detect errors)",
+    "Human verification necessity vs. volume impossibility: AI must be checked by humans, but the volume of records (700+ agencies, thousands of hours of video) makes full human review impossible"
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "episode_meta": {
+    "title": "Martin Schori: The AI Hub Powering Innovation at Sweden's Aftonbladet",
+    "date": "2024-09-12",
+    "guests": [
+      {
+        "name": "Martin Schori",
+        "role": "Deputy Managing Editor and Associate Publisher; Program Lead for AI Hub",
+        "organization": "Aftonbladet"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Sweden",
+    "word_count": 8407
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "OpenAI GPT-4o",
+    "Custom GPTs (OpenAI)",
+    "Midjourney",
+    "RAG model (for election chatbot)",
+    "Schibsted transcription tool (proprietary)",
+    "MediaCatch (content analysis platform)",
+    "Text-to-speech AI",
+    "AI voice anonymization tools"
+  ],
+  "use_cases": [
+    {
+      "description": "AI-generated article summaries displayed as expandable three-bullet-point boxes beneath article leads, integrated into the CMS with one-click generation",
+      "tool_used": "OpenAI (GPT)",
+      "organization": "Aftonbladet",
+      "outcome": "About 40% of users who see the box expand it; those who expand read the article to a greater extent than those who don't",
+      "stage": "production"
+    },
+    {
+      "description": "EU election chatbot ('Vi kollar') using a RAG model with nearly 100 sources, allowing logged-in users to ask questions about the EU elections, political parties, and parliament",
+      "tool_used": "OpenAI GPT-4o (RAG model)",
+      "organization": "Aftonbladet",
+      "outcome": "Approximately 18,000 questions on the first day; 150,000-160,000 total questions over two weeks; 60% were user-formulated; near-tenfold increase in user logins vs. typical initiatives; zero hallucinations detected",
+      "stage": "production"
+    },
+    {
+      "description": "Organization-wide AI literacy program called 'How to Be a Prompt Queen' - prompting masterclass taken by all Aftonbladet staff, with follow-up surveys measuring usage changes",
+      "tool_used": "ChatGPT",
+      "organization": "Aftonbladet",
+      "outcome": "Every employee at Aftonbladet completed the course; follow-up survey after 6-8 months showed increased AI usage",
+      "stage": "production"
+    },
+    {
+      "description": "Midjourney training courses for the newsroom covering AI image generation workflows",
+      "tool_used": "Midjourney",
+      "organization": "Aftonbladet",
+      "outcome": "Part of broader AI literacy initiative",
+      "stage": "production"
+    },
+    {
+      "description": "'Sponaran' - a follow-up story suggestion tool where reporters paste an article link and receive five AI-generated story ideas",
+      "tool_used": "OpenAI (prompt wrapper)",
+      "organization": "Aftonbladet",
+      "outcome": "Deployed as part of AI buffet; lowered threshold for journalists to start using AI",
+      "stage": "production"
+    },
+    {
+      "description": "TikTok manuscript generator that converts articles into TikTok video scripts",
+      "tool_used": "Custom GPT / OpenAI",
+      "organization": "Aftonbladet",
+      "outcome": "Available in AI buffet for newsroom use",
+      "stage": "production"
+    },
+    {
+      "description": "'Budreader' - a proofreading and feedback tool for articles, built by a journalist (Elin) with no programming experience",
+      "tool_used": "Custom GPT",
+      "organization": "Aftonbladet",
+      "outcome": "Actively used by journalists for article feedback",
+      "stage": "production"
+    },
+    {
+      "description": "Youth assistance tool that creates fact boxes and timelines written so an 18-year-old reader can understand them",
+      "tool_used": "Custom GPT",
+      "organization": "Aftonbladet",
+      "outcome": "Available in AI buffet; aimed at engaging younger audience",
+      "stage": "production"
+    },
+    {
+      "description": "AI translator tool as a simple prompt wrapper for newsroom translation tasks",
+      "tool_used": "OpenAI (prompt wrapper)",
+      "organization": "Aftonbladet",
+      "outcome": "Part of AI buffet with 25-30 tools total",
+      "stage": "production"
+    },
+    {
+      "description": "Comprehensive content diversity audit analyzing ~100,000 articles, podcasts, social media posts, videos, and photos over one year for gender and diversity representation",
+      "tool_used": "MediaCatch",
+      "organization": "Aftonbladet",
+      "outcome": "Revealed a gender gap larger than expected; some departments (e.g. social media) had slightly more women than men; informed editorial action plan",
+      "stage": "production"
+    },
+    {
+      "description": "Custom GPT for finding female experts that searches internal lists and the open web, understanding context better than traditional keyword search",
+      "tool_used": "Custom GPT (OpenAI)",
+      "organization": "Aftonbladet",
+      "outcome": "Works better than Google for finding experts when the exact title or role is unknown",
+      "stage": "production"
+    },
+    {
+      "description": "Front-page gender balance bot that scrapes the front page at any given moment to report on gender representation",
+      "tool_used": "AI image analysis (custom-built)",
+      "organization": "Aftonbladet",
+      "outcome": "Functional but imperfect; misidentified a dinosaur image as a woman",
+      "stage": "pilot"
+    },
+    {
+      "description": "Live transcription of press conferences and interviews using Schibsted's proprietary transcription tool",
+      "tool_used": "Schibsted transcription tool",
+      "organization": "Aftonbladet / Schibsted",
+      "outcome": "Identified as the single biggest time-saving AI use case in the newsroom",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT to transcribe and translate photos of documents posted online for breaking news coverage",
+      "tool_used": "ChatGPT",
+      "organization": "Aftonbladet",
+      "outcome": "Multiple instances where Aftonbladet broke news using this method",
+      "stage": "production"
+    },
+    {
+      "description": "AI voice anonymization for investigative journalism, replacing pitched-up voice disguise with AI-generated alternative voices",
+      "tool_used": "AI voice generation",
+      "organization": "Aftonbladet",
+      "outcome": "More natural-sounding anonymized audio compared to traditional pitch-shifting",
+      "stage": "production"
+    },
+    {
+      "description": "Experimenting with text-to-speech for converting articles to audio and translating podcasts into other languages for immigrant communities",
+      "tool_used": "Text-to-speech AI / translation AI",
+      "organization": "Aftonbladet",
+      "outcome": "In experimentation; new text-to-speech tool for audience expected in coming weeks at time of recording",
+      "stage": "pilot"
+    },
+    {
+      "description": "AI headline generation experiments for tabloid-style headlines",
+      "tool_used": "ChatGPT",
+      "organization": "Aftonbladet",
+      "outcome": "Failed to match human editor quality; editors consistently produced better headlines than AI suggestions",
+      "stage": "abandoned"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Aftonbladet reaches around 4 million of Sweden's 10 million inhabitants every day, making it Scandinavia's largest newspaper",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "About 40% of users who see the AI-generated article summary box will expand it, and those who expand it read articles to a greater extent than those who don't",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The EU election chatbot received approximately 18,000 questions on its first day alone and 150,000-160,000 questions total over two weeks",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "About 40% of chatbot questions were pre-prompted, while 60% were original questions formulated by users themselves",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The chatbot login conversion rate was nearly tenfold higher than typical login initiatives (which usually achieve around 5%)",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "No hallucinations or errors were detected in any of the chatbot's answers during the entire election period",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The chatbot used almost 100 different sources for its RAG database",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The AI buffet contains approximately 25-30 tools for journalists and editors",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The content diversity audit analyzed approximately 100,000 articles plus podcasts, social media posts, videos, and photos from one year of coverage",
+      "speaker": "Martin Schori",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The promise of AI automating editorial tasks and saving significant time has been exaggerated - at least for a breaking news-focused newsroom like Aftonbladet",
+      "speaker": "Martin Schori",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI-generated headlines consistently failed to match the quality of human editors at Aftonbladet, with editors always producing a better version than the AI's suggestions",
+      "speaker": "Martin Schori",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Transcription is the single biggest productivity gain from AI in the newsroom",
+      "speaker": "Martin Schori",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Audiences don't particularly care whether content is AI-generated as long as it is relevant and true",
+      "speaker": "Martin Schori",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "AI editorial tools that are not integrated into the CMS see low adoption; even the one-click summary tool required constant reminders to get journalists to use it",
+      "category": "organizational"
+    },
+    {
+      "description": "AI ideas from the newsroom were deprioritized by central product and tech teams because bigger projects took precedence, necessitating the creation of a separate AI hub",
+      "category": "organizational"
+    },
+    {
+      "description": "The promise of AI automating boring editorial tasks and saving time proved largely exaggerated for a breaking-news-focused newsroom where core tasks require human judgment (calling sources, following tips, verifying information)",
+      "category": "editorial"
+    },
+    {
+      "description": "AI headline generation failed to match the quality of experienced tabloid editors, and early negative experiences risked turning journalists off from AI entirely",
+      "category": "technical"
+    },
+    {
+      "description": "Launching an audience-facing election chatbot on a politically sensitive topic posed reputational risk, with people actively trying to make the bot express political bias or break it",
+      "category": "editorial"
+    },
+    {
+      "description": "Manually fact-checking all chatbot answers was difficult to keep up with given the volume (18,000 questions on day one)",
+      "category": "operational"
+    },
+    {
+      "description": "Cost concerns with OpenAI API usage at scale required limiting user questions initially to 10, then raising to 30",
+      "category": "technical"
+    },
+    {
+      "description": "Convincing management to greenlight the election chatbot as a major AI bet was difficult because the EU elections are a low-engagement topic in Sweden and the chatbot would publish without editorial review of each answer",
+      "category": "organizational"
+    },
+    {
+      "description": "AI tools for editorial tasks (fact boxes, timelines, summaries) were add-ons rather than time-savers since these items weren't produced at scale before, making it hard to demonstrate productivity gains",
+      "category": "organizational"
+    },
+    {
+      "description": "Measuring KPIs and productivity gains from AI is difficult; hard to quantify increased productivity or set meaningful success metrics for experimental AI projects",
+      "category": "organizational"
+    },
+    {
+      "description": "The gender balance front-page bot had accuracy problems, misidentifying a dinosaur as a woman",
+      "category": "technical"
+    },
+    {
+      "description": "The content diversity audit revealed a gender gap in coverage larger than expected, which Schori described as 'quite depressing'",
+      "category": "editorial"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "When this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue. Although copyright is obviously a very important issue, at the same time we felt that as journalists we should be curious and we should also be talking about what could this new technology be used for the benefits of our readers and ourselves.",
+      "speaker": "Martin Schori",
+      "topic": "Proactive approach to AI adoption vs. defensive posture",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "It was very popular to say that AI will replace all the boring tasks and we're gonna save so much time and money. Journalists will no longer have to do all the boring tasks, and instead we can do investigative journalism. That sounds great and it would be fantastic if that happened. But for us at Aftonbladet, at least for us, there aren't that many tasks that this technology can manage to automate. And we've been trying a lot, but we haven't really found that.",
+      "speaker": "Martin Schori",
+      "topic": "Overpromised productivity gains from editorial AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We wanted to have total control. So we did a RAG model and a huge database with all the data and the answers that we got from the political parties. I think we used almost a hundred different sources and we instructed it to not invent or hallucinate if it didn't know the answer.",
+      "speaker": "Martin Schori",
+      "topic": "Building a trustworthy election chatbot with RAG",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We have often, coming from a tabloid background, we put a lot of prestige and pride in our headline making. That was one of the first things I heard about AI - you can use it for headline generation. We've tried that a lot. But still, an editor will come up with an eleventh version that's even better than the first ten.",
+      "speaker": "Martin Schori",
+      "topic": "AI headline generation failing to match human editors",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "AI is usually and rightfully accused of promoting and reinforcing bias and prejudice, but you can also use it to try to combat that.",
+      "speaker": "Martin Schori",
+      "topic": "Using AI to audit and reduce editorial bias",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "People don't really care that much. As long as something is relevant, true, relevant, then they like it and they don't really care how the letters end up in the cell phone.",
+      "speaker": "Martin Schori",
+      "topic": "Audience indifference to whether content is AI-generated",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Staff the AI hub with a majority of editorial people led by an editorial person to build credibility and trust with the newsroom, rather than having it be a tech-driven initiative",
+      "speaker": "Martin Schori",
+      "target_audience": "news organizations building AI teams"
+    },
+    {
+      "advice": "Start with organization-wide AI literacy training (like prompting masterclasses) before building tools, so the entire newsroom understands the technology's capabilities and limitations",
+      "speaker": "Martin Schori",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Lower the threshold for AI adoption by creating simple prompt-wrapper tools rather than requiring journalists to learn complex workflows; have AI hub members sit in the newsroom to identify real pain points",
+      "speaker": "Martin Schori",
+      "target_audience": "AI teams in newsrooms"
+    },
+    {
+      "advice": "Be honest about what AI cannot do well in editorial work; if a bad first experience (like poor headline generation) turns journalists off, it can undermine broader AI adoption",
+      "speaker": "Martin Schori",
+      "target_audience": "newsroom leaders and AI advocates"
+    },
+    {
+      "advice": "Focus AI audience products on new formats and experiences (like chatbots) rather than automating existing editorial tasks, which may yield limited productivity gains",
+      "speaker": "Martin Schori",
+      "target_audience": "news organizations planning AI strategy"
+    },
+    {
+      "advice": "Use content diversity audits with AI to measure gender and representation gaps in coverage, and then actively work to address them rather than assuming the data will solve itself",
+      "speaker": "Martin Schori",
+      "target_audience": "news organizations concerned with editorial diversity"
+    },
+    {
+      "advice": "When launching AI chatbots, be extremely transparent about AI involvement, prepare for malicious attempts, and use RAG with controlled data sources rather than letting the model access the open internet",
+      "speaker": "Martin Schori",
+      "target_audience": "news organizations building audience-facing AI products"
+    },
+    {
+      "advice": "Look beyond the newsroom for AI applications; subscriptions, churn prevention, personalization, and marketing may offer higher returns than editorial automation",
+      "speaker": "Martin Schori",
+      "target_audience": "media company leaders"
+    }
+  ],
+  "external_references": [
+    "OpenAI / ChatGPT / GPT-4o",
+    "Midjourney",
+    "Schibsted (parent media group of Aftonbladet)",
+    "VG (Verdens Gang) - Norwegian newspaper that inspired Aftonbladet's AI summaries",
+    "MediaCatch - Danish content analysis company used for diversity audit",
+    "Agnes Stenbom (Schibsted colleague who organized Nordic AI in Journalism conference)",
+    "Nordic AI in Journalism conference (spring event)",
+    "Emilia (Sportbladet breaking news editor, AI hub project manager)",
+    "Elin (news editor, AI hub member who built the Budreader tool)",
+    "BBC (referenced for similar diversity audit initiatives)",
+    "Harvard Innovation Labs",
+    "Newsroom Robots podcast / newsletter (newsroomrobots.com)"
+  ]
+}

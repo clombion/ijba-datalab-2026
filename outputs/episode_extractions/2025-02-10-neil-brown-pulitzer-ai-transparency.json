@@ -1,0 +1,259 @@
+{
+  "episode_meta": {
+    "title": "Neil Brown: The Pulitzer Prizes, AI Transparency, and Journalism's Next Evolution",
+    "date": "2025-02-10",
+    "guests": [
+      {
+        "name": "Neil Brown",
+        "role": "President",
+        "organization": "Poynter Institute"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 7417
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Perplexity",
+    "Fireflies (AI transcription service)",
+    "Granola (AI transcription service)",
+    "satellite imagery and computer-assisted reporting tools (referenced in BuzzFeed/NYT Uyghur investigation)",
+    "generative AI tools (unspecified, disclosed by Pulitzer Prize entrants)"
+  ],
+  "use_cases": [
+    {
+      "description": "City Bureau and Invisible Institute used AI in producing 'Missing in Chicago,' a Pulitzer Prize-winning investigative entry that openly disclosed AI use in the submission questionnaire",
+      "tool_used": "Generative AI tools (unspecified)",
+      "organization": "City Bureau and Invisible Institute",
+      "outcome": "Won a Pulitzer Prize; one of the first two winners to openly acknowledge AI use",
+      "stage": "production"
+    },
+    {
+      "description": "The New York Times visual investigations desk used AI to assist their Pulitzer Prize-winning entry",
+      "tool_used": "AI tools (unspecified)",
+      "organization": "New York Times",
+      "outcome": "Won a Pulitzer Prize; one of the first two winners to openly acknowledge AI use",
+      "stage": "production"
+    },
+    {
+      "description": "BuzzFeed and the New York Times used satellite imagery and computer-assisted reporting to map likely Uyghur detention centers across China, identifying far more facilities than the handful China had acknowledged",
+      "tool_used": "Satellite imagery and computer-assisted reporting tools",
+      "organization": "BuzzFeed and New York Times",
+      "outcome": "Won a Pulitzer Prize (circa 2020-2021); revealed extent of Uyghur detention centers across China that were previously unconfirmed",
+      "stage": "production"
+    },
+    {
+      "description": "Neil Brown personally uses ChatGPT to draft remarks and speeches, then edits the output, finding it 'amazingly sophisticated, cool, and weak all at the same time'",
+      "tool_used": "ChatGPT",
+      "organization": "Poynter Institute (personal use)",
+      "outcome": "Reinforced the value of human editing; output deemed not good enough without editorial refinement",
+      "stage": "personal experimentation"
+    },
+    {
+      "description": "Poynter Institute staff use Fireflies for meeting transcription",
+      "tool_used": "Fireflies",
+      "organization": "Poynter Institute",
+      "outcome": "Used as standard meeting note-taking tool",
+      "stage": "production"
+    },
+    {
+      "description": "Poynter Institute encourages staff to experiment with ChatGPT and Perplexity as part of organizational learning",
+      "tool_used": "ChatGPT, Perplexity",
+      "organization": "Poynter Institute",
+      "outcome": "Institutional policy of encouraging experimentation; recently updated AI ethics guidelines",
+      "stage": "experimentation"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Five Pulitzer Prize finalists acknowledged using some form of generative AI, and two of them won, but we don't know if they were the first to use AI -- only the first to be asked about it via the new disclosure questionnaire",
+      "speaker": "Neil Brown",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The Pulitzer Board never previously asked about other technological tools like computer-assisted reporting, data visualization software, or specific gathering techniques, so the AI disclosure requirement may reflect catching up rather than something brand new",
+      "speaker": "Neil Brown",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI use was not disqualifying for the Pulitzer Prizes; the board made no moral judgment about AI and focused on the totality of the journalism produced",
+      "speaker": "Neil Brown",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Technology has been advancing journalism for decades; AI is the latest evolution, not a fundamentally different category",
+      "speaker": "Neil Brown",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "It's 2025 and over 60% of newsroom staff in some organizations have never even tried a tool like ChatGPT",
+      "speaker": "Nikita Roy",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The World Economic Forum's 2025 Future of Jobs report projects 92 million jobs displaced but 170 million new jobs created -- a net positive of 78 million jobs",
+      "speaker": "Nikita Roy",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Technology does not erase inaccuracy, much as it doesn't automatically cause it either; imperfection is part of the equation regardless of how powerful the tools are",
+      "speaker": "Neil Brown",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "If a machine or technology distills content into something that is not ultimately distinctive or distinguished, it probably won't make the cut for a Pulitzer Prize",
+      "speaker": "Neil Brown",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Creativity and technology should not be put at war with each other; there's been great journalism with amazing reporting but weak writing, and vice versa",
+      "speaker": "Neil Brown",
+      "evidence_type": "theoretical"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "The discussion around AI in journalism remains overly binary -- framed as simply 'good' or 'bad' -- rather than nuanced consideration of specific use cases and audience value",
+      "category": "editorial"
+    },
+    {
+      "description": "Newsrooms struggle with the tension between AI's efficiency gains and the displacement of existing jobs and roles, creating labor challenges that are 'really difficult and tricky'",
+      "category": "organizational"
+    },
+    {
+      "description": "Many newsrooms are slow to adopt and experiment with AI tools; over 60% of some newsrooms have never tried ChatGPT, risking falling behind as tech companies evolve information distribution",
+      "category": "organizational"
+    },
+    {
+      "description": "AI-generated content may lack the distinctiveness and creative quality that distinguishes high-end journalism and writing, raising questions about whether machine-assembled work constitutes genuine 'writing'",
+      "category": "editorial"
+    },
+    {
+      "description": "Newsrooms tend to evaluate AI experiments over too-short timeframes (3-6 months) rather than taking a longitudinal approach, leading to premature abandonment of promising tools",
+      "category": "organizational"
+    },
+    {
+      "description": "Maintaining accuracy remains fundamental; AI tools like ChatGPT can produce inaccurate or incomplete results, just as human reporters can transpose facts or misinterpret data",
+      "category": "technical"
+    },
+    {
+      "description": "Ensuring transparency and disclosure about AI use without creating a false impression that AI is uniquely problematic compared to other technological tools that were never disclosed",
+      "category": "ethical"
+    },
+    {
+      "description": "The journalism industry historically puts its head down and hopes disruption goes away, as happened during the print-to-digital transition, and risks repeating this pattern with AI",
+      "category": "organizational"
+    },
+    {
+      "description": "Newsrooms are siloed between technologists and journalists rather than blending these skills; technologists and journalists need to understand each other's domains",
+      "category": "organizational"
+    },
+    {
+      "description": "Newsrooms do not engage their audiences enough in AI product development and adoption, leaving them to catch up after audience behavior has already shifted",
+      "category": "editorial"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We didn't say AI was disqualifying in any fashion, and as you can tell from the two that won, it wasn't. But we also didn't linger on essentially a moral judgment about it. We just really believed that transparency is a value we should live by.",
+      "speaker": "Neil Brown",
+      "topic": "Pulitzer Board's approach to AI disclosure",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I want us to not put creativity and technology at war with each other.",
+      "speaker": "Neil Brown",
+      "topic": "False choice between creativity and technology",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I actually, I hope this doesn't come across as blame, mostly as a party game. You know, if I have to make remarks or something like that, I like to go in, see what it says. And it reminds me, it's amazingly sophisticated, cool, and weak all at the same time.",
+      "speaker": "Neil Brown",
+      "topic": "Personal experience with ChatGPT revealing its limitations",
+      "pedagogical_value": "medium"
+    },
+    {
+      "text": "The number one mistake to avoid doing again is to put your head down and hope it goes away. I do think that there was a little bit of that, maybe not a little bit, maybe a lot of that, as we moved to online digital journalism.",
+      "speaker": "Neil Brown",
+      "topic": "Key lesson from print-to-digital transition applicable to AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Newsrooms today, in my opinion, need to be a much more comfortable blend of technologists and journalists. And by the way, technologists need to know a fair bit about journalism and journalists need to know a fair bit about the technology.",
+      "speaker": "Neil Brown",
+      "topic": "Culture change needed in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I've had the best luck when the technologists first ask 'what are you trying to do?' Not 'do I have the tool for it.'",
+      "speaker": "Neil Brown",
+      "topic": "Effective collaboration between technologists and journalists",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "News organizations should require AI disclosure in journalism submissions and practices, not as a moral judgment but as an extension of the fundamental journalistic value of transparency",
+      "speaker": "Neil Brown",
+      "target_audience": "Awards boards and newsroom leaders"
+    },
+    {
+      "advice": "Every journalist and news professional should personally experiment with AI tools like ChatGPT rather than forming opinions about tools they've never tried -- that's bad reporting",
+      "speaker": "Neil Brown",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Don't repeat the print-to-digital mistake of putting your head down and hoping disruption goes away; embrace risk-taking and give staff time on the job to learn how AI tools work",
+      "speaker": "Neil Brown",
+      "target_audience": "Newsroom executives"
+    },
+    {
+      "advice": "Engage audiences early in AI product development rather than waiting until after you've figured out what the tools can do; drive down the road together with your audience rather than making them wait for you to catch up",
+      "speaker": "Neil Brown",
+      "target_audience": "Newsroom leaders and product teams"
+    },
+    {
+      "advice": "Take a longitudinal approach to AI investments -- collect lessons learned and best practices over time, share them across the industry, and give experiments more than just 3-6 months before making judgments",
+      "speaker": "Neil Brown",
+      "target_audience": "Newsroom executives and media organizations"
+    },
+    {
+      "advice": "Focus on retraining and repurposing existing staff rather than viewing AI as purely a displacement threat; fundamentals remain valuable even as form changes, and people can adapt their skills to modern uses",
+      "speaker": "Neil Brown",
+      "target_audience": "Newsroom executives and HR leaders"
+    },
+    {
+      "advice": "Start with the mission of the work when evaluating AI's role: if the mission is creative endeavor, a large language model may not meet the creative standard; if the mission is gathering information at speed, AI may excel",
+      "speaker": "Neil Brown",
+      "target_audience": "All journalists and editors"
+    },
+    {
+      "advice": "Foster a culture where technologists start by asking journalists 'what are you trying to do?' and journalists learn enough tech literacy to have productive dialogue with technologists",
+      "speaker": "Neil Brown",
+      "target_audience": "Newsroom leaders and cross-functional teams"
+    },
+    {
+      "advice": "The journalism industry needs to do more reporting on itself -- understanding how audiences consume information and where they're heading, rather than reacting after the fact",
+      "speaker": "Neil Brown",
+      "target_audience": "Media industry broadly"
+    }
+  ],
+  "external_references": [
+    "Pulitzer Prizes (AI disclosure questionnaire added to entry process)",
+    "Pulitzer Prize Board",
+    "Poynter Institute (AI ethics guidelines, recently updated)",
+    "City Bureau and Invisible Institute ('Missing in Chicago' Pulitzer winner)",
+    "New York Times visual investigations desk (Pulitzer winner)",
+    "BuzzFeed (Pulitzer Prize-winning Uyghur detention center investigation, circa 2020-2021)",
+    "World Economic Forum Future of Jobs Report 2025",
+    "ChatGPT (OpenAI)",
+    "Perplexity",
+    "Fireflies (AI transcription service)",
+    "Granola (AI transcription service)",
+    "Substack (referenced as platform for journalist-entrepreneurs)",
+    "Tampa Bay Times (Neil Brown's former employer)",
+    "Harvard Innovation Labs (Newsroom Robots podcast, Spark grant)",
+    "Newsroom Robots newsletter (newsroomrobots.com)"
+  ]
+}

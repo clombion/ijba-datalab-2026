@@ -1,0 +1,320 @@
+{
+  "episode_date": "2024-06-05",
+  "episode_title": "Jaemark Tordecilla: Unlocking the Potential of Custom GPTs for Newsrooms",
+  "codes": [
+    {
+      "code": "no-code AI app creation",
+      "description": "Custom GPTs enable journalists to create functional AI applications without any coding, a capability that previously required tools like LangChain and LlamaIndex.",
+      "excerpts": [
+        "OpenAI just released These features that allowed you to create apps basically without doing any code. And Langchain and Lama Index are all the code versions of being able to create something like custom GPT."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "custom GPT as prompt-sharing mechanism",
+      "description": "Custom GPTs are fundamentally a way to document and share effective prompt sets as reusable applications that others can use.",
+      "excerpts": [
+        "Custom GBTs is the easiest way is it's the easiest easiest way to share prompts and documenting that prompt and getting other people to use it. So if you have a set of instructions that work for you. these is the easiest way to share that instructions set in an app using custom GPTs."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "document-scale investigative aid",
+      "description": "Custom GPTs can process 20-100 page dense government audit documents to produce summaries that help reporters identify story leads they would otherwise miss in the volume.",
+      "excerpts": [
+        "there's just not enough reporters to do it. And so I thought that was a great use case.",
+        "we're looking at maybe from twenty to a hundred pages these documents. And they they're really dense."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "traditional ML vs. custom GPT efficiency",
+      "description": "Building the same document analysis capability with traditional machine learning would have required thousands of hours of training and hundreds of hours of manual markup; custom GPTs achieved a working prototype in minutes.",
+      "excerpts": [
+        "if I did it using machine learning, I would have required thousands of hours of training and hundreds of hours of you know, manpower just marking up the documents. And so I decided to create a custom GPT and it worked."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "AI for structure not judgment",
+      "description": "The most effective use of custom GPTs in journalism is to create structure (summaries, headlines) from unstructured data while leaving critical thinking and news judgment to the human reporter.",
+      "excerpts": [
+        "what worked was to just get a summary of a dense document that's full of jargon and use it to make headlines that would be easier for the reporter to read. And then depending on the reporter to do the the critical thinking."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "experience amplification effect",
+      "description": "The more beat experience a reporter has, the more useful the AI assistant becomes -- expertise makes the human-AI combination more powerful, not less.",
+      "excerpts": [
+        "The more experience they had, the more useful the assistant was because what the assistant does is just the summaries and all the the critical thinking and the the no's for the news. we leave it up to the reporter."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "clear AI-journalism boundary",
+      "description": "The COA Beat Assistant experiment clarified a promising division of labor: AI handles summarization, journalists handle critical thinking and news judgment.",
+      "excerpts": [
+        "it actually outlines the role of where DAI ends and where the journalism begins."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "AI blind spot on anomaly detection",
+      "description": "AI failed to flag obviously anomalous transactions (e.g., $1200 Celeron laptops) because it evaluated numbers relative to billion-dollar line items; human contextual knowledge was essential to spot the irregularity.",
+      "excerpts": [
+        "AI couldn't find that because it was looking at the gross number of twelve hundred dollars and you if you have billions of of amount in other items in that document, it would just ignore the small number. And so if you do a summary, the the reporter would see that anomalous transaction that AI might not know to the flag."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "negative"
+    },
+    {
+      "code": "broad prompting failure",
+      "description": "Initial attempts at broad, role-based prompting ('pretend you're an investigative reporter') produced only grade-school-level summaries; success required more specific, structured approaches.",
+      "excerpts": [
+        "At first I was trying to solve everything like to get the information from that document in one shot. Like I was trying prompts like pretend you're an investigative reporter Tell me what stories I could get from this document. And sometimes it would give useful answers, but most of the time it would just give me, you know, grade school level summaries"
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "negative"
+    },
+    {
+      "code": "natural language data querying",
+      "description": "ChatGPT's code interpreter translates natural language questions into Python code, enabling journalists without coding skills to query datasets up to 100MB.",
+      "excerpts": [
+        "what it does is it turns your natural language questions about the data into Python code that it uses to query that data And so you can do all sorts of data manipulation without even knowing Python or PIVA tables or R."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "data literacy democratization",
+      "description": "AI tools make more journalists comfortable working with data by removing the coding barrier, which improves the newsroom overall since data-literate newsrooms are better newsrooms.",
+      "excerpts": [
+        "it's also good that it makes more people comfortable with working with data, if they don't have to do the coding, which is good because a data literate newsroom is a I think is a better newsroom"
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "task-specific AI value",
+      "description": "Generative AI is most useful when solving specific tasks particular to individual newsrooms or reporters, not generic industry-wide problems.",
+      "excerpts": [
+        "what we're discovering w in our journey to our generative AI is that it's most useful when you're using it to solve specific tasks And usually tasks you find in the newsroom are very specific to particular newsrooms or even particular reporters."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "rapid prototyping and iteration",
+      "description": "Custom GPTs enable building working prototypes in minutes that can immediately be shared with colleagues for feedback, inverting the traditional software development cycle.",
+      "excerpts": [
+        "it's easier to do that w once you have a working prototype, you know, rather than just giving them the science of an idea. So I think what's what's really most valuable is getting the thing to work. and then iterating on that afterwards."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "GPT Store as inspiration ecosystem",
+      "description": "The GPT Store provides a browsable ecosystem of examples that, even when not directly applicable, can inspire custom GPT designs for newsroom-specific needs.",
+      "excerpts": [
+        "there are lots of stuff in the GPT store that would show you how it works. And even if it doesn't exactly do what you need it to do, you can take inspiration for for your own app if you dis decide to create your own."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "API actions as real-world bridge",
+      "description": "Custom GPT actions connect to external apps (Slack, spreadsheets, calendars, CMS databases), enabling AI agents to perform real-world tasks beyond the chat interface.",
+      "excerpts": [
+        "actions would allow you to say, send a Slack message into your channel or save information into a a spreadsheet or do a calendar entry even in your calendar"
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "computer vision democratization",
+      "description": "Image recognition capabilities that previously cost thousands of dollars are now available through a $20 ChatGPT subscription, enabling applications like OSINT investigations and OCR.",
+      "excerpts": [
+        "Three years ago even that would have required, you know, thousands of dollars in investment and now it's part of our twenty dollar subscription.",
+        "you can take screenshots from Google Street View of a a street corner and then ask whether particular pictures are uh located in that st street corner."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "jagged frontier concept",
+      "description": "The 'jagged frontier' idea that AI excels at some tasks (summarization, data) but fails at others (critical thinking), and no one knows which tasks are which until tested.",
+      "excerpts": [
+        "there are some tasks where AI could help you very much, like summarization or even dealing with data. And then there are tasks where AI doesn't really do a good job, like I mentioned, the critical thinking part of the journalism. And yet the the reason why it's jagged is because no one knows which tasks are which until they test it out."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "neutral"
+    },
+    {
+      "code": "journalist experimentation imperative",
+      "description": "Journalists must experiment with AI tools both to discover useful applications and to fulfill their watchdog role in covering AI's societal impact.",
+      "excerpts": [
+        "we need journalists who will cover this deeply and it's gonna be hard to cover a topic that you don't understand. So I think it's it's very important to for for journalists to develop expertise in in these kinds of technologies."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "low generative AI adoption in newsrooms",
+      "description": "About 40% of journalists surveyed (from over 1000) had never tried ChatGPT, indicating persistent low adoption despite the technology's transformative potential.",
+      "excerpts": [
+        "there's over a thousand journalists now that I always start off a survey with and see how they use generative AI tools. And about forty percent of the room might have never tried a tool like ChatGPT."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "global south leapfrog potential",
+      "description": "The Philippines is third globally in GPT usage, suggesting that global south countries may leapfrog traditional journalism tools through direct AI adoption.",
+      "excerpts": [
+        "the Philippines is already third in the world in terms of GPT usage. So the first is the United States. second is India and the third is the Philippines."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "student-professor AI gap",
+      "description": "Journalism professors may not be using AI, but their students almost certainly already are, creating a pedagogical disconnect.",
+      "excerpts": [
+        "you may not be using Chat GVT, but I bet your students already do."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "negative"
+    },
+    {
+      "code": "accuracy through vetted sources",
+      "description": "Working with pre-vetted knowledge files and datasets rather than generating content from scratch is the best strategy for maintaining accuracy in journalism AI applications.",
+      "excerpts": [
+        "a lot of my tools, for example, involve working with knowledge files and data sets. And that's because you vetted those sources and you know accurate is information is in those sources."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "AI-generated news as worst practice",
+      "description": "Generating entire news stories with AI is characterized as the worst possible use of the technology, with early adopters who did this serving as cautionary tales.",
+      "excerpts": [
+        "There were news outlets who generated stories from AI, and we all know that's the worst thing you can do with this technology."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "negative"
+    },
+    {
+      "code": "limitation awareness reducing fear",
+      "description": "Understanding AI's limitations actually makes journalists more open to using it, because they realize it will not replace their jobs anytime soon.",
+      "excerpts": [
+        "once you know the limitations, I think it's it's Number one, it makes what I found is it makes most journalists more open to it. Yeah. Because they know it's not going to to replace their jobs anytime soon because it's not good enough to do it."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "journalism value chain AI mapping",
+      "description": "A systematic approach to AI adoption that maps opportunities along the entire journalism value chain: reporting, writing, editing, production, and distribution.",
+      "excerpts": [
+        "I would go back to the value chain of the journalism process. So you have reporting, you have writing, editing, and then production and distribution. and then figure out ways where AI could help at each part of the process."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "AI-data synergy as foundational",
+      "description": "AI and data are fundamentally intertwined, and improving data literacy through AI tools strengthens the newsroom's capabilities across stories, audience understanding, and operations.",
+      "excerpts": [
+        "AI and data really go hand in hand and it's been that way since the beginning of this technology, right?"
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "positive"
+    },
+    {
+      "code": "paywall as access barrier",
+      "description": "Custom GPTs require a paid ChatGPT Plus subscription, limiting accessibility for journalists and newsrooms with constrained budgets.",
+      "excerpts": [
+        "in order to create custom GPTs, you need to have access to the paid version of Chat GPT plus. It's not available without that."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "bias surfacing through playful use",
+      "description": "A playful custom GPT (novel-to-movie pitch) inadvertently reveals training data biases, such as consistently suggesting Timothee Chalamet for white male protagonists.",
+      "excerpts": [
+        "you also see like the biases. So half the time if it's a white male protagonist in the novel, it it's suggest Timothy Chalamet."
+      ],
+      "speaker": "Jaemark Tordecilla",
+      "valence": "negative"
+    },
+    {
+      "code": "low performers catching up via AI",
+      "description": "Research shows AI helps low performers match high performers in output and efficiency, suggesting AI as an equalizer within newsrooms.",
+      "excerpts": [
+        "one of the biggest takeaways from that study was how it actually helps the low performers match with the high performers in their output and their efficiencies."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "Moderna as enterprise custom GPT exemplar",
+      "description": "Moderna's deployment of 750+ custom GPTs with 40% of weekly active users creating their own GPTs serves as a powerful non-journalism reference case for organizational adoption.",
+      "excerpts": [
+        "Modena has spoken about their partnership with OpenAI and how they have deployed over 750 custom GPTs within their entire organization. And that's helped them incredibly in their workflows and processes."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "fact-checking remains human domain",
+      "description": "Despite AI capabilities, fact-checking before publication must remain a human responsibility; AI outputs always require verification.",
+      "excerpts": [
+        "even if you are building a custom GPT, we have to still fact check everything before anything goes to publishing, I feel like, all the time. That's the core value of a journalist"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "audience obligation to experiment",
+      "description": "Journalists owe it to their audiences to experiment with AI tools so they can understand potential misuse and report on it credibly.",
+      "excerpts": [
+        "we owe it to our audience, I believe, in order to play around with it so that we can understand what things might be how it might be being misused or what the potential is."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "multi-domain custom GPT applications",
+      "description": "Custom GPTs have potential across many newsroom functions beyond reporting: marketing, operations, revenue, and grant writing.",
+      "excerpts": [
+        "building custom GPTs for the marketing side of your newsroom, for the operations, how it can help with revenues, how it can help with grant writing. There are so many different avenues."
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode is a deeply practical exploration of custom GPTs as a no-code pathway for journalists to build AI-powered tools, anchored by Tordecilla's COA Beat Assistant that processes dense Philippine government audit documents. The conversation establishes a clear and empirically grounded division of labor: AI excels at summarization and structure extraction from unstructured data, while critical thinking, anomaly detection, and news judgment remain firmly in the human domain -- and experienced reporters benefit more from the tools than novices, inverting the naive displacement narrative. The 'jagged frontier' concept emerges as a key framework, arguing that the boundaries between AI-capable and AI-incapable tasks are unknowable in advance and can only be mapped through widespread experimentation. Notably, the episode highlights a significant adoption gap (40% of surveyed journalists have never tried ChatGPT) alongside evidence that the Philippines ranks third globally in GPT usage, suggesting that global south leapfrogging may outpace traditional journalism establishment adoption.",
+  "surprises": [
+    "Experienced reporters found the AI assistant more useful than less experienced ones, directly inverting the common fear that AI will make expertise irrelevant.",
+    "AI failed to flag an obviously anomalous $1200 Celeron laptop purchase because it evaluated the amount relative to billion-dollar line items -- a concrete example of AI lacking common sense contextual knowledge.",
+    "The Philippines ranks third globally in GPT usage (after the US and India), suggesting Global South countries are adopting generative AI faster than many Western journalism establishments.",
+    "A playful novel-to-movie custom GPT inadvertently became a tool for surfacing training data biases (the Timothee Chalamet pattern), showing how creative experimentation reveals systemic issues.",
+    "OpenAI's release of custom GPTs rendered the entire technical stack (LangChain, LlamaIndex) that Tordecilla was studying in his Harvard class effectively obsolete overnight."
+  ],
+  "tensions": [
+    "The 40% journalist non-adoption rate clashes with the claim that this technology 'will change the world' and therefore the industry -- if everyone agrees it is transformative, why are so many not engaging?",
+    "Custom GPTs require a paid subscription ($20/month), creating an access barrier that contradicts the democratization narrative the episode champions.",
+    "The COA Beat Assistant works best with experienced reporters, suggesting AI amplifies existing inequality rather than equalizing it -- in tension with the cited Harvard/BCG study showing AI helps low performers catch up.",
+    "Tordecilla advocates for human-in-the-loop fact-checking while also celebrating the speed of 'minutes to prototype' development, creating a tension between rapid deployment and careful verification.",
+    "The episode celebrates task-specific newsroom GPTs while acknowledging these are built on a single company's (OpenAI's) proprietary platform, creating the same platform dependency concerns raised in other episodes about tech companies."
+  ]
+}

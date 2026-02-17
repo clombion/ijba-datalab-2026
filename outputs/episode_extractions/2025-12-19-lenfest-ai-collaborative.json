@@ -1,0 +1,293 @@
+{
+  "episode_meta": {
+    "title": "Jim Friedlich, David Chivers & Matt Boggie: How the Lenfest AI Collaborative placed AI engineers in 10 newsrooms",
+    "date": "2025-12-19",
+    "guests": [
+      {
+        "name": "Jim Friedlich",
+        "role": "Executive Director and CEO",
+        "organization": "Lenfest Institute for Journalism"
+      },
+      {
+        "name": "David Chivers",
+        "role": "Lead Advisor, Lenfest AI Collaborative",
+        "organization": "Lenfest Institute for Journalism"
+      },
+      {
+        "name": "Matt Boggie",
+        "role": "Chief Technology and Product Officer",
+        "organization": "Philadelphia Inquirer"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 8450
+  },
+  "ai_tools": [
+    "ChatGPT (OpenAI)",
+    "Dewey (Philadelphia Inquirer custom archive search tool, RAG-based)",
+    "Notebook LM (Google, used by product managers at the Inquirer)",
+    "Microsoft AI tools (via Microsoft partnership and software credits)",
+    "Slack integrations with AI (Chicago Public Media weather and traffic automation)",
+    "OAuth-based LLM authentication (emerging publisher content access method)"
+  ],
+  "use_cases": [
+    {
+      "description": "Dewey: full archive search system using RAG that allows reporters to query the entire Philadelphia Inquirer archive (back to 1978) via a chatbot interface, with nightly refresh of newly published stories",
+      "tool_used": "Dewey (custom RAG application built on LLM)",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Deep archive research that previously took up to a week now saves up to two days (nearly 40% time savings); deployed to newsroom and also used by ad sales and marketing teams",
+      "stage": "production"
+    },
+    {
+      "description": "Incorporating photography into the Dewey archive search, scanning and indexing published photos plus outtakes from original shoots to make visual assets searchable and reusable",
+      "tool_used": "Dewey (extension with image indexing)",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Stretch goal now underway; aims to make all photos including unpublished alternatives accessible for reporting, apps, and products",
+      "stage": "development"
+    },
+    {
+      "description": "Advertising prospecting tool that analyzes the local market, categories, and geography to identify advertisers the sales team has never called on or that resemble existing advertisers",
+      "tool_used": "Custom AI tool (built during two-to-three week sprint)",
+      "organization": "Seattle Times",
+      "outcome": "Sold additional advertising fairly quickly out of the box; demonstrates self-funding potential of AI investments",
+      "stage": "production"
+    },
+    {
+      "description": "Data vault project to make decades of collected local information (own reporting, other sources, public data) accessible via AI, with potential reporting and marketing services applications",
+      "tool_used": "AI-powered data access layer with fine-tuning for news applications",
+      "organization": "Newsday",
+      "outcome": "Fellow Shawnee Yu began work and was able to incorporate freshness-solving code from Philadelphia Inquirer's fellow, accelerating development",
+      "stage": "development"
+    },
+    {
+      "description": "Automated weather reports generated in the voice of WBEZ on-air talent via Slack integration, replacing the hour or two previously spent gathering information from disparate sources",
+      "tool_used": "Slack AI integration",
+      "organization": "Chicago Public Media (WBEZ)",
+      "outcome": "Recording-ready scripts produced on demand; also replicated for traffic reports",
+      "stage": "production"
+    },
+    {
+      "description": "Monitoring and summarizing public meetings to find signal in the noise, enabling coverage of local government that newsrooms had abandoned due to cost",
+      "tool_used": "AI processing of public records and recordings",
+      "organization": "Lenfest AI Collaborative cohort (multiple newsrooms)",
+      "outcome": "Described as restoring a coverage capability lost two decades ago; work underway across the cohort",
+      "stage": "development"
+    },
+    {
+      "description": "Ad sales team using Dewey to research coverage history of potential clients before meetings",
+      "tool_used": "Dewey",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Sales reps can quickly assess how the Inquirer has covered a particular business in the past to bring context to client conversations",
+      "stage": "production"
+    },
+    {
+      "description": "Marketing team using Dewey to identify trends in a reporter's coverage for campaign building and promotional messaging",
+      "tool_used": "Dewey",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Enables data-driven marketing campaigns aligned with editorial strengths",
+      "stage": "production"
+    },
+    {
+      "description": "Product managers using Notebook LM to ingest project charters, requirements documents, decision matrices, and meeting notes for instant retrieval of project history and decisions",
+      "tool_used": "Notebook LM (Google)",
+      "organization": "Philadelphia Inquirer",
+      "outcome": "Can quickly answer questions like 'when did we decide not to make this feature?' or 'why did we choose this vendor?' from source documents",
+      "stage": "production"
+    },
+    {
+      "description": "Converting screenshots and JPEGs of presentation slides into data tables using ChatGPT for manipulation in Excel",
+      "tool_used": "ChatGPT",
+      "organization": "Philadelphia Inquirer (personal executive use)",
+      "outcome": "Each instance saves approximately an hour; estimated cumulative savings of at least a week",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Each of the 10 newsrooms in the collaborative received $250,000 per year to embed an AI engineer who reports directly to the newsroom, not to Lenfest, Microsoft, or OpenAI",
+      "speaker": "Jim Friedlich",
+      "evidence_type": "program structure (direct knowledge)"
+    },
+    {
+      "claim": "The fellowship grants are platform-agnostic; newsrooms are not required to use OpenAI or Microsoft products exclusively or at all",
+      "speaker": "Jim Friedlich",
+      "evidence_type": "program design (direct knowledge)"
+    },
+    {
+      "claim": "For all 10 organizations in the cohort, this was the first AI engineering resource they had ever had on their teams",
+      "speaker": "David Chivers",
+      "evidence_type": "direct observation"
+    },
+    {
+      "claim": "Deep archive research at the Inquirer that previously took up to a week now saves up to two days with Dewey, a nearly 40% time improvement",
+      "speaker": "Matt Boggie",
+      "evidence_type": "internal measurement"
+    },
+    {
+      "claim": "The Dewey prototype that was expected to take 24 months to build had working code after a two-week hackathon with Microsoft's MADA team, and was released broadly to the newsroom about four months later",
+      "speaker": "David Chivers / Matt Boggie",
+      "evidence_type": "direct experience"
+    },
+    {
+      "claim": "Google search becoming Google Answers has caused major news organizations to see their top-of-funnel traffic drop 20-30%, consistently across major news organizations",
+      "speaker": "Jim Friedlich",
+      "evidence_type": "industry observation"
+    },
+    {
+      "claim": "News as a field is a small opportunity for OpenAI and Microsoft relative to infrastructure and other industries, so they will not spend time fine-tuning tools specifically for news",
+      "speaker": "Matt Boggie",
+      "evidence_type": "analysis/assessment"
+    },
+    {
+      "claim": "The use of AI in the news field is dramatically undercapitalized; these were the first AI engineers in each of these respective news organizations, some of which are quite large",
+      "speaker": "Jim Friedlich",
+      "evidence_type": "funder assessment"
+    },
+    {
+      "claim": "Each fellow effectively gives an organization the equivalent of 'a person and a half' because fellows across the cohort check each other's code, swap code, and accelerate each other's work",
+      "speaker": "David Chivers",
+      "evidence_type": "program observation"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "LLMs are not good at understanding chronology of information; they may surface a disaster from 20 years ago instead of one from two weeks ago when querying archives (the 'freshness' problem)",
+      "category": "technical limitation"
+    },
+    {
+      "description": "LLMs perform poorly on very specific needle-in-a-haystack queries ('did we ever mention X person?') and exhaustive list queries ('give me every time we talked about Y'), requiring supporting applications around them",
+      "category": "technical limitation"
+    },
+    {
+      "description": "Reporter concerns about job replacement and function replacement when AI tools are introduced, requiring hands-on experience to overcome",
+      "category": "adoption/culture"
+    },
+    {
+      "description": "Google search shifting to Google Answers has reduced top-of-funnel traffic to news sites by 20-30%, threatening the existing business model",
+      "category": "industry disruption"
+    },
+    {
+      "description": "Sustainability of AI engineering support after the two-year fellowship program ends; newsrooms need to fund these positions on their own",
+      "category": "financial sustainability"
+    },
+    {
+      "description": "Trust in AI platforms given history of failed tech partnerships (Facebook Pivot to Video, Facebook Journalism Project) that 'came and went'",
+      "category": "industry trust"
+    },
+    {
+      "description": "Getting started with AI is a real problem for newsrooms that lack existing engineering skills on their teams",
+      "category": "capacity/skills gap"
+    },
+    {
+      "description": "AI fellows can be isolated as the only person 'speaking their nouns and verbs' in their organization, requiring community of practice to avoid loneliness and burnout",
+      "category": "organizational isolation"
+    },
+    {
+      "description": "AI interfaces becoming a primary gateway for news may erode publisher brands and reduce direct audience relationships",
+      "category": "brand/distribution threat"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "There is no better profession or skill set than a journalist to use these tools because you're really good at asking questions, which is basically the prompting piece of it. You're naturally skeptical because you want to verify the information that you're getting and you want to double check your sources.",
+      "speaker": "Matt Boggie",
+      "topic": "Journalists as natural AI power users",
+      "pedagogical_value": "Reframes AI adoption as a natural extension of core journalistic skills rather than an alien technology"
+    },
+    {
+      "text": "No one is coming to us and saying, we want you to go in this direction because it's good for our platform. Instead, we're being approached and saying, we have some really interesting technologies that we think might be useful to you. Let's work together and figure out ways that they can be applied to your everyday.",
+      "speaker": "Matt Boggie",
+      "topic": "How the Lenfest AI Collaborative differs from past platform partnerships like pivot to video",
+      "pedagogical_value": "Articulates a concrete distinction between extractive platform relationships and co-development partnerships"
+    },
+    {
+      "text": "I don't think the question should be like, how do we save the article or how do we drive consumption on site. I think the question should be, what is the job that journalism needs to do for people and how can AI help us deliver that in new ways?",
+      "speaker": "David Chivers",
+      "topic": "Reframing the AI disruption question for news organizations",
+      "pedagogical_value": "Shifts the strategic conversation from defending legacy formats to reimagining journalism's core mission"
+    },
+    {
+      "text": "The more they got to use the tools, they realized this helps support me really well. And it also does a terrible job at my job if I leave it alone.",
+      "speaker": "Matt Boggie",
+      "topic": "Overcoming reporter fears about AI job replacement",
+      "pedagogical_value": "Captures the experiential shift from AI anxiety to understanding AI as augmentation, not replacement"
+    },
+    {
+      "text": "AI and the fact that we have these public records and recordings all of a sudden creates an opportunity that we let go of two decades ago.",
+      "speaker": "David Chivers",
+      "topic": "AI restoring lost local news coverage capacity like public meetings",
+      "pedagogical_value": "Illustrates how AI can restore journalism functions abandoned due to economics rather than just optimize existing ones"
+    },
+    {
+      "text": "One, it's not a huge opportunity in comparison to infrastructure and other things, two, they don't have the expertise to do it. And what we're learning with AI is there is this sort of conjunction between the human-machine collaboration where the machines can do a lot of things, but they don't have this sort of domain expertise.",
+      "speaker": "Matt Boggie",
+      "topic": "Why newsrooms must build their own AI capabilities rather than waiting for tech companies to build for them",
+      "pedagogical_value": "Explains the structural reason newsrooms cannot outsource AI development to platform companies"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Get started with commercially available AI tools (many have free tiers), experiment with use cases, then be loud internally about marketing the new capability to find unexpected pockets of interest and creativity",
+      "speaker": "Matt Boggie",
+      "target_audience": "small newsrooms without dedicated AI staff"
+    },
+    {
+      "advice": "Develop AI policy and guidelines as an important early step; Lenfest Institute has published a guide to developing newsroom AI policy at lenfestinstitute.org",
+      "speaker": "David Chivers",
+      "target_audience": "all newsrooms"
+    },
+    {
+      "advice": "Set up internal communication channels (e.g., Slack channels called 'AI Enthusiast' or 'AI Ambassador') to encourage staff to share what they're seeing and trying with AI",
+      "speaker": "David Chivers",
+      "target_audience": "newsroom managers"
+    },
+    {
+      "advice": "Accept that your teams are already using AI more than you realize and put guidelines in place with a clear conversation about transparency, especially when AI makes its way into public-facing content",
+      "speaker": "David Chivers",
+      "target_audience": "newsroom executives"
+    },
+    {
+      "advice": "As CEO or editor-in-chief, send the signal that AI is really important, embrace people's efforts, reward them, and celebrate them; as head of technology, find like-minded people and evangelize",
+      "speaker": "Jim Friedlich",
+      "target_audience": "newsroom leadership at all levels"
+    },
+    {
+      "advice": "Train reporters and staff on how LLMs actually learn and what they know, including what types of queries they are bad at, to build realistic expectations and trust",
+      "speaker": "Matt Boggie",
+      "target_audience": "newsroom trainers and technology leads"
+    },
+    {
+      "advice": "Focus AI development on business sustainability use cases so the tools can pay for themselves when grant funding ends (e.g., advertising prospecting, operational efficiency)",
+      "speaker": "Jim Friedlich",
+      "target_audience": "newsrooms receiving AI grants or considering AI investment"
+    },
+    {
+      "advice": "Explore emerging content access mechanisms including OAuth-authenticated LLM access, short summaries instead of full article text to LLMs, and content payment clearinghouses to protect publisher value",
+      "speaker": "Matt Boggie",
+      "target_audience": "news publishers concerned about AI platforms consuming their content"
+    }
+  ],
+  "external_references": [
+    "Lenfest Institute for Journalism (nonprofit parent of Philadelphia Inquirer; lenfestinstitute.org)",
+    "OpenAI (co-funder and partner of the Lenfest AI Collaborative)",
+    "Microsoft (co-funder and partner of the Lenfest AI Collaborative)",
+    "Microsoft MADA (Microsoft Artificial Development Accelerator Program; hosted hackathon with Inquirer)",
+    "Philadelphia Inquirer (Lenfest grantee; built Dewey archive search tool)",
+    "Dallas Morning News (early participant in OpenAI visit)",
+    "Minnesota Star Tribune (early participant in OpenAI visit)",
+    "Seattle Times (built advertising prospecting tool through the collaborative)",
+    "Newsday (working on data vault project with fellow Shawnee Yu)",
+    "Chicago Public Media / WBEZ (Slack AI integrations for weather and traffic; fellow Mark Chinofsky)",
+    "ProPublica (mentioned as exception focused on non-business-sustainability use cases)",
+    "Tom Rubin (senior OpenAI executive, former New York Times copyboy)",
+    "Notebook LM (Google; used by Inquirer product managers; slide generator feature mentioned)",
+    "ChatGPT (OpenAI; used for personal translation, genealogy research, and slide-to-data conversion)",
+    "Harvard Innovation Labs (Nikita Roy's affiliation)",
+    "Job (Broadway play by Maxwell Friedlich, reviewed in Portuguese in Sao Paulo and Rio de Janeiro; Des Moines production)",
+    "RAGBRAI (Register's Annual Great Bicycle Ride Across Iowa; approximately 500 miles)",
+    "Woodlawn Cemetery, West Des Moines (located via ChatGPT for genealogy research)",
+    "Content payment clearinghouses (three competing systems announced at recent conference, some open-source, some commercial)",
+    "OAuth-based LLM publisher authentication (emerging standard for subscriber content access through AI interfaces)"
+  ]
+}

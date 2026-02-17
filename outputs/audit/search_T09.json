@@ -1,0 +1,174 @@
+{
+  "caveat": "NOTE: This is a statistical cross-check, not a replacement for interpretive coding. Topic models produce word clusters, not themes.",
+  "method": "Semantic similarity using all-mpnet-base-v2",
+  "theme": {
+    "id": "T09",
+    "name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era"
+  },
+  "query_length_words": 147,
+  "corpus_chunks_total": 556,
+  "corpus_chunks_after_filter": 514,
+  "top_k": 20,
+  "results": [
+    {
+      "rank": 1,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 10,
+      "similarity": 0.7534,
+      "word_count": 644,
+      "text": "You think about You think about profits, right? Always an easy one. You think about customer kind of NPS. You think about the traditional framework of how you evaluate a business and you say, how does AI help us get closer? I think that's fine. Sometimes like somewhat boring, but fine, right? But journalism, we have a different intention here. I don't think Most journalistic organizations are saying how do we increase revenue or profitability by using AI? Or at least that's not the first step in the process. Instead, we're thinking about a much more qualitative framework. How do we free up reporters to be able to do higher value work? How do we ensure that we are using AI to create more fact-based veracity in our reporting? All of these things that are actually much more values-driven, but are much less metrics-oriented. And I think that creates both an opportunity and a challenge, right? The opportunity is to say we actually get to be much more expansive in our thinking of how we use "
+    },
+    {
+      "rank": 2,
+      "document": "2025-05-30 - Zach Seward How a Five-Person AI Team Is Powering Innovation at The New York Times.txt",
+      "chunk_index": 12,
+      "similarity": 0.7273,
+      "word_count": 647,
+      "text": "I don't know whether I mean they already you know, last few years or and they already exist and are just not on my radar quite yet, or you know, it's gonna be the next few years after this. Well obviously Time will tell. But I think it's very clear each time there's a big platform shift in media that creates opportunities for new startups to emerge and basically take advantage of that shift by not having to worry about the legacy brands. So that certainly describes what Quartz was doing in 2012 when Believe it or not, like print was still the a legacy, you know, that hindered certain other news organizations. And I guess also desktop web. as compared to a focus on mobile, which we were able to to take as we had no desktop traffic to worry about, cannibalizing. So the same thing's gonna happen with AI related news startups, but I think you're right to to suggest like that doesn't change anything about the fundem underlying business models of the industry being any in any better shape th"
+    },
+    {
+      "rank": 3,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 4,
+      "similarity": 0.718,
+      "word_count": 645,
+      "text": "Where what does the value of the news organization lie? And it is in that information gathering. It's about making sense of that information that we are at the end of the day the only industry that I say is a real time structured knowledge network of verified information. Nobody else is that's the first principles of journalism. That's what we're in. Yeah, and you know, on their note, if you think about it Journalism or news organizations sell two things. They sell solving the problem of scarcity of information, which to your point now it's being commoditized, maybe on niche domains or like trade publications that's still protected. And the other thing that they sell is a filter of the world, right? So you you subscribe to the New York Times or the the Wall Street Journal or the Washington Post. Because you want to see the world process through you know an editorial system that has a particular point of view. Now that filter can be hyper-personalized filter as you described on your Cha"
+    },
+    {
+      "rank": 4,
+      "document": "2024-01-06 - Aliya Itzkowitz & Sam Gould (Part One) Insights from FT Strategies' AI Design Sprint Day.txt",
+      "chunk_index": 9,
+      "similarity": 0.7076,
+      "word_count": 222,
+      "text": "Because that's still going to be a mainstream platform, the source and the generative AI source that they have there. Exactly. Yeah, it's it's quite concerning, I think, because it goes back to the same problem that we have in the news industry in general with subscriptions where People self-select sort of unquote quality information. People self-select whether or not they think it's worth paying for. And then you get a situation where people have different realities based on what they're reading. And that's quite dangerous, I think. Absolutely. I think that's an area we have to explore a lot more and think about and talk more about what compensation would look like for publishers so that we still create a healthy information ecosystem, but just don't just eliminate news altogether from there. And I think that's still to be explored in terms of like what the future looks there. That was Alia Itskovitz and Sam Gold from FT Strategies. Join us in our next episode for an insightful discus"
+    },
+    {
+      "rank": 5,
+      "document": "2025-07-09 - Fabian Heckenberg, Naja Nielsen & Gard Steiro The Hard Truths About AI Every Newsroom Leader Can’t Ignore (Recorded Live at Nordic AI in Media Summit 2025).txt",
+      "chunk_index": 7,
+      "similarity": 0.6984,
+      "word_count": 630,
+      "text": "And I think other than human in the loop, is there like a new model in the loop that's checking outputs in a week? That's what we're doing today. You have one algorithm, you want but doing one task And then you set up another agent that do another task in newsroom to try to find the mistakes. And so you have to work with your systems that you reduce the error uh the risk of making mistakes The example of Ha lang being shot was exactly the example I was relating to cause I told this one to our uh head of our sports section. And he read about it, okay this is a mistake. It was a photo shoot an AI misaction. Exactly, he wasn't shot, but Our colleagues from the sports section said over the last twenty years this happened like a dozen times in our sports articles and there was no uh Gen AI involved. And so I think this is also bringing it to another question if humans are not there in the loop and you can create this content. Well anyone actually can start to do that when news as such, the "
+    },
+    {
+      "rank": 6,
+      "document": "2025-11-15 - Olle Zacharison How BBC News is Shaping its AI Strategy for the Next Era of Journalism.txt",
+      "chunk_index": 14,
+      "similarity": 0.6948,
+      "word_count": 640,
+      "text": "It's also like a strategic thing for us to see what's gonna be our rel relationship like with the tech companies. When do we partner up with them and when do we restrict them from accessing our content, of course. But we have to s look at these kind of unique things that we have going for us. A lot of direct traffic to the BBC News website and the news app. that uh other media companies would be very envious of. So I think it it's about like having confidence with your unique strength as a starting point and then see how can we both use AI and sometimes be kind of Avoid the use of AI, but going from these kind of starting points. Exactly. And I think what you're highlighting is such an important point. Because a lot of the major media brands, even if you are being hit by traffic decline from Google search or whatever, that brand awareness is there. People know about the brand people trust. Most of these AI companies, just think about Perplexity and ChatGPT, only became a household name"
+    },
+    {
+      "rank": 7,
+      "document": "2024-12-27 - Upasna Gautam The Product Manager's Guide to AI in News.txt",
+      "chunk_index": 7,
+      "similarity": 0.6921,
+      "word_count": 638,
+      "text": "So like For example, are you a local newsroom trying to increase efficiency? Are you trying to improve content quality? Are you trying to enhance audience trust? Like a well-defined problem not only guides AI implementation, but it also ensures that those newsroom values and journalistic priorities and integrity remain intact. Along with asking the right questions to solve the right problems, you cannot solve every problem at once. And especially the smaller the newsroom is. Focus on the one big problem and break that problem down into smaller pieces. What is that North Star problem? You don't have the resources to try to be everywhere and everything for everyone. And I think there's a lot of great examples of local newsrooms who are doing this successfully. But I think this is again a great learning opportunity. And why I love the news product alliance is that we get to develop the resources and share the knowledge, you know, freely, literally and figuratively freely, so that we can e"
+    },
+    {
+      "rank": 8,
+      "document": "2024-10-23 - Ritvvij Parrikh Personalization Vs. Editorial Judgment At The Times of India, You Can Have Both.txt",
+      "chunk_index": 10,
+      "similarity": 0.6904,
+      "word_count": 618,
+      "text": "I think Bloomberg was able to do it simply because they are a data company. Bloomberg is a data company, they have their Bloomberg terminal. They are far ahead in terms of their technology than most news companies, I would say. So what would you say would be the most critical investment that companies should be making right now for their tech infrastructure so that they are prepared for all of these upcoming changes that are coming in AI. So the first is of course start collecting first party data. That is the most important thing. Second is drive a lot of your audiences to get them to log in so that you know who these users are. If you need to change your value proposition and give them something else that gets them to log in, change your value proposition. But without user information, there's no way to use any AI. The next is uh build great data collection systems and data pipelines. This is way harder than it sounds. It's a solid problem, but it's an extremely tough problem to buil"
+    },
+    {
+      "rank": 9,
+      "document": "2025-07-15 - Florent Daudens How Open-Source AI Puts Newsrooms Back in the Driver’s Seat.txt",
+      "chunk_index": 13,
+      "similarity": 0.6882,
+      "word_count": 633,
+      "text": "And yeah, I totally agree. Like the focus is there's a bigger opportunity with inference. Yes, absolutely. And and first of all with these startups, with these labs developing products, but also and this is where open source comes in, I think It's also a question of what kind of experience as a news publisher do you build with AI and are you able yourself to good to give good inference to your readers, to your audience, to your viewers, whatever. It's really important and I think it can really unlock new revenue streams because, you know, you can think about, for example You generate a video on the fly because a user wants to. Well, do you have the capacity to generate an ad with this video on the fly? And you create a whole new really, really on-demand real-time market for advertisers, it can generate really l lots of new revenues. But also, you know, one key argument of perplexity, for example, is for each query, we get 12 words. Whereas for a Google search or Google Query, you you j"
+    },
+    {
+      "rank": 10,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 9,
+      "similarity": 0.6811,
+      "word_count": 632,
+      "text": "I think right now there's some really interesting incremental tools and so newsrooms are adopting it slowly or you know Slowly, I would say it's fast in the news industry, but it's probably s too slow. But I would also argue that there's room for a huge transformation. So we're seeing some of our customers who the CEO or the editor in chief have really bet on AI throughout the entire company. And so they're putting a lot of investment into. Yeah, and and even if, you know, they do have the resources and the expertise. Uh in in fact there's a lot of companies doing really interesting work like the New York Times, the Washington Post in AI, I think the adoption is is a is also a human factor and I couldn't agree more with you of like it needs to come from the editor-in-chief, the CEO, whoever, to give clarity. And that actually reminds me of this quote from the CEO of Axel Springer, Matthias Daufner, and he said something along the l the lines of You know, you don't have to explain why y"
+    },
+    {
+      "rank": 11,
+      "document": "2024-03-29 - Florent Daudens Building an AI-Literate Newsroom at Radio Canada.txt",
+      "chunk_index": 9,
+      "similarity": 0.6793,
+      "word_count": 635,
+      "text": "One thing I keep on looking at all of these tech companies and social media, they They adopt a very like product thinking methodology to the way they're building out their products, constantly understanding user behavior, collecting a lot of data on users. and then automatically then modifying their products. And that's how we have come to where we are in the way that social media platforms have taken over the traffic, I would say. And The good things that they're doing over there, we could embody maybe the way they're uh working on their products and iterating it so quickly and rapidly. Like every time you go on to like Any of these social media platforms, you regularly see like a new user feature update. It goes away from time to time because they're testing out and seeing if users are liking it or not. And I think those kind of qualities we bring towards the way we are creating news experience. That's what you're saying. It's like like s let's focus on right now what the future of n"
+    },
+    {
+      "rank": 12,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 7,
+      "similarity": 0.6784,
+      "word_count": 630,
+      "text": "It's not about bringing in an AI technology. It's about doing exactly what you described, which is having a fundamental reckoning with What are we as an organization in a world where many of the assumptions we have are being tested and challenged by the broad-based adoption of AI in the world around us? What's our role in shepherding those core journalistic virtues in a world where attention is becoming fragmented, where people are finding fundamentally new ways of accessing and processing information? We're adversarial and bad actors are using AI in ways that are deeply kind of convoluted and manipulative. It requires an organizational reckoning and a potential for organizational visioning to ask who do we aspire to be in an AI-enabled world? And to me, that's a much more interesting conversation than whether we should pick vendor A or vendor B in order to do X task. Exactly. Bringing that back actually into the newsroom One of the other big dilemmas that's there is related to the env"
+    },
+    {
+      "rank": 13,
+      "document": "2025-12-19 - Jim Friedlich, David Chivers & Matt Boggie How the Lenfest AI Collaborative placed AI engineers in 10 newsrooms.txt",
+      "chunk_index": 1,
+      "similarity": 0.677,
+      "word_count": 624,
+      "text": "And what came out of that two-day session was a plan that turned into an agreement that they would help fund embedded AI engineering fellows at multiple news organizations. First Five of them, eventually ten of them when we added Microsoft as the second and equal partner. Each of them received $250,000 a year to embed an AI engineer reporting to them, not to us, not to Microsoft or OpenAI, to do the work of Leveraging AI for the benefit of journalism. That's what I find fascinating about this program. It's sort of a co-development model. with newsrooms coming together and really collaborating. But I have to ask you right at the top about the conversations that a lot of newsroom leaders and editors often have of Should we even trust these tech companies? And should we be even taking money or this sort of engineering support from them? A lot of the times the questions that I often get asked is We're is this just another pivot to video era? And we can see how quickly platforms are s tend "
+    },
+    {
+      "rank": 14,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 5,
+      "similarity": 0.6751,
+      "word_count": 618,
+      "text": "But also on their capacity to evaluate these new and incoming tools to ask questions about what they need to do to secure them. And then to intentionally create things like sandbox environments that are test beds where journalists can go out and try and play with these tools without creating the risk of new vulnerabilities. So that's kind of the phase two approach, and that's where organizations need to very quickly develop a new muscle and capacity to create ecosystems of AI exploration so that those innovators in the field can do what they need to. And there's a third phase to this work, which is, you know, if we started from okay, we're playing around with tools to just get to know them, we're now using the tools that exist to do what we want to do. Well, maybe the kind of like aspiring plateau here is to get to phase three. where we're actually saying let's stop being consumers of commercial AI tools and build the tools we need in order to do our work effectively. And something rea"
+    },
+    {
+      "rank": 15,
+      "document": "2024-01-16 - Aliya Itzkowitz and Sam Gould (Part Two) Potential of Multimodal AI and Autonomous AI Agents in Publishing.txt",
+      "chunk_index": 3,
+      "similarity": 0.6715,
+      "word_count": 630,
+      "text": "And especially when it comes to AI, there's also specific kind of resources in that intersection of AI, UX, and responsible AI. So Pair, I think it is, P A I R, is Google's AIUX lab, and they're they're actually currently working on guidelines for news publications to think about how to use AI products in a responsible way when creating these new user experiences. So that feels like a bit of a mouthful of jargon to say. But I think they're doing some really interesting work over there, and I'm sure they're going to come out with some some really interesting guidelines soon. I think from a UX perspective, it's all about giving readers choices right now. So so making sure that you're catering to a variety of needs and it might not be the case that readers are even aware that these offerings are AI enabled and to be honest, I don't I don't think they even care. I think that's something that sometimes we overestimate maybe as an industry is the desire of readers that things be human led or"
+    },
+    {
+      "rank": 16,
+      "document": "2025-12-19 - Jim Friedlich, David Chivers & Matt Boggie How the Lenfest AI Collaborative placed AI engineers in 10 newsrooms.txt",
+      "chunk_index": 11,
+      "similarity": 0.6694,
+      "word_count": 646,
+      "text": "I mean, I I I think the question should be is What is the job that journalism needs to do for people? This kind of gets to what Matt was saying and how can AI help us deliver that in new ways? And when I think about that, I think it really is quite an expansive question around. ways to grow journalism and the way it lives, breathes, and meets people where they are in their communities. Because we're really focused on local news. So in this case it's really focused about around geography and where people live. And I am very excited about the opportunity. And I just go on to say, I think some of the stuff that Legacy news organizations, because of the nature of the business model and the pressures they're under, have dropped and no longer cover. I would say what I would call kind of utility journalism, things that helps make people's lives better. AI can do that really well with fewer people. in a way that I'll just use public meetings. We we have a bunch of work around sort of monitorin"
+    },
+    {
+      "rank": 17,
+      "document": "2025-12-19 - Jim Friedlich, David Chivers & Matt Boggie How the Lenfest AI Collaborative placed AI engineers in 10 newsrooms.txt",
+      "chunk_index": 8,
+      "similarity": 0.6688,
+      "word_count": 624,
+      "text": "The grant funding, we will certainly be seeking new support from a broad array of funders. And that's the business that we're in, so long as we add value and and develop a track record, uh, we think we'll be successful. Part of the focus that David and I have is to take the lessons of the wisdom of the code of the 10 news organizations we're working with and drive that to at least a hundred other news organizations, including anyone who wants to reach out who's hearing us right now around the world. The notion is that you build it once and use it many times and we think there's value in that and we think And hope there are people to pay for that. And you have already made a lot of your learnings and code available for people to to look at. But I think there's also another broader question I want to ask you for maybe the newsrooms who Are listening to this not a part of this collaborative. Hearing about just how AI engineering support has helped your newsroom. having that dedicated AI e"
+    },
+    {
+      "rank": 18,
+      "document": "2025-07-15 - Florent Daudens How Open-Source AI Puts Newsrooms Back in the Driver’s Seat.txt",
+      "chunk_index": 7,
+      "similarity": 0.6683,
+      "word_count": 644,
+      "text": "And you know, I also teach journalism at the university and and sometimes It pains me because you have these young students, they're like, oh yeah, we I talked about this idea in my team. And people are like, no, we don't do this. And they're like You know, you're just a basically killing initiative. And don't get me wrong, I think the news industry is not badly suited to adopt AI. I think, you know, we had so many changes and shifts and so on that I think overall the news industry has been able to build an agile structure that is good enough to really be able to be up for the challenge of AI. But it's really like a question of staying aware of the specific needs of it. And you know, for example, when I was a data journalist maybe 10 years ago, more than 10 years ago, the way I I basically learned data journalism was with you know tutorials, communities online, and so on. But um it only gets you so far, first of all. I'm still a bad coder, which says a lot. But also I think you know AI"
+    },
+    {
+      "rank": 19,
+      "document": "2025-07-15 - Florent Daudens How Open-Source AI Puts Newsrooms Back in the Driver’s Seat.txt",
+      "chunk_index": 9,
+      "similarity": 0.6655,
+      "word_count": 628,
+      "text": "And this is where you basically you create value inside of your newsroom because you have this use case, you improve it, you it's and you create value fundamentally. And you know extrapolating for the from this simple example. When you think for example about Notebook LM or Perplexity, you know, who are these two new products are really interesting. They are good innovations. But basically they are the intersection of tech and journalism or content. I'll say it again and again, I think these two innovations could have come from newsrooms because When you think about content and tech, you think about products and then you develop something new. And they are developing perplexity, especially on our content. Hundred percent. You know, perplexity without news is like an arm less, you know. But I think that raises a very important point. And a reason why that hasn't happened is because of what perplexity does is basically letting the user, the audience, be in the driver's seat about how the"
+    },
+    {
+      "rank": 20,
+      "document": "2026-01-27 - Melissa Bell, Aron Pilhofer, Mark Chonofsky & David Chivers Chicago Public Media on Building AI Tools That Serve the Audience.txt",
+      "chunk_index": 1,
+      "similarity": 0.6649,
+      "word_count": 648,
+      "text": "Well, Melissa, I'd love to start with you to just compare where has the Chicago public media been from The time you started there with the Lenfest AI Collaborative Program, to where you've seen it, especially over the past year in 2025, how has it grown in its endeavors with AI. Sure. I started here a year and three months ago and when I joined there was some interest within the organization to experiment with AI. But as with many local and public media organizations, resources are tight. We're we don't have a lot of room for experimentation. We need to be very careful about how we're making our spend reach across editorial product maintenance, et cetera, et cetera. So there wasn't a lot of deep newsroom. revenue side, business side, product side, experimentation with AI. That of course puts us further behind the transformation that's happening around the world. And this project really allowed us to kick start our efforts to learn how we can apply this technology to our work. So from a"
+    }
+  ]
+}

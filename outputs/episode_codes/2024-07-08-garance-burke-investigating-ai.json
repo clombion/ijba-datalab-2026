@@ -1,0 +1,349 @@
+{
+  "episode_date": "2024-07-08",
+  "episode_title": "Garance Burke: A Journalist's Guide to Investigating Artificial Intelligence",
+  "codes": [
+    {
+      "code": "AI as universal beat",
+      "description": "The recognition that AI is no longer a niche tech topic but has permeated every journalistic beat from entertainment to politics to economy",
+      "excerpts": [
+        "AI is just now part of every beat that journalists cover. you know, whether you write about entertainment or you're a producer looking at the economy or you are someone who's focused on politics, AI stories are now part of everyone's daily lives"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "neutral"
+    },
+    {
+      "code": "journalistic basics as AI framework",
+      "description": "Applying the traditional who-what-where-when-why framework to AI coverage as an anchor against hype and complexity",
+      "excerpts": [
+        "I always try to take it back to journalistic basics. You know, there's sort of the who, what, where, when, why",
+        "taking it back to those journalistic basics of how the systems work, where they're deployed, how well these models are performing, whether the tools are regulated, who's benefiting and making money as a result of AI's growth and then which communities may be impacted"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "transcending the good-bad binary",
+      "description": "Rejecting the simplistic framing of AI as categorically good or bad in favor of nuanced reporting on how systems actually function and impact people",
+      "excerpts": [
+        "can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad? Well Actually, our job is to help people understand how it works and what it's already doing in our lives"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "algorithmic bias as hardened human bias",
+      "description": "AI systems encoding and amplifying pre-existing societal biases through training on historical data, systematically impacting specific demographic groups",
+      "excerpts": [
+        "It's important to really surface the ways that these systems can harden some of our pre-existing real human biases into these automated decisions",
+        "if you feed that into a model, that could yield a prediction that incorporates that historical bias that's already present in the data"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "child welfare algorithm harm",
+      "description": "A specific case where an algorithm used to decide foster care placement overrepresented communities of color and incorporated questionable data variables like maternal smoking history and disability status",
+      "excerpts": [
+        "a lot of this data was either overrepresenting communities of color who had been a part of the child welfare system at a higher rate than white families over time",
+        "some of the elements that this algorithm in Allegheny County was contemplating... included data points on whether a mother smoked before she was pregnant or a family's disability status, the size of the family"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "data inclusion/exclusion as bias vector",
+      "description": "The fundamental investigative question of what is measured, why, who is represented in the data, and who is excluded -- as the root of algorithmic bias",
+      "excerpts": [
+        "what we need to think about when we think about algorithmic bias is, you know, what's being measured and why and who is a part of the data and who is left out of that data"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "historical bias reproduction",
+      "description": "AI systems trained on historical data reproducing past injustices, exemplified by sentencing tools that reflect racial disparities in historical prison terms",
+      "excerpts": [
+        "a sentencing tool that was trained on some historical data showed that black offenders typically receive longer prison terms than white offenders, even if they committed the same crimes. Now if you feed that into a model, that could yield a prediction that incorporates that historical bias"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "opacity of proprietary AI systems",
+      "description": "The investigative challenge posed by AI companies not disclosing training data, code, or model architecture, requiring alternative methodologies",
+      "excerpts": [
+        "with OpenAI, they're not even disclosing what data they have been trained on. A lot of these large language models, if you just look at that, we have no idea kind of like what the data sources are and how they've been built"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "engineer opacity",
+      "description": "Even the engineers who built large language models cannot fully explain what is happening inside them, compounding the investigative challenge",
+      "excerpts": [
+        "Sometimes these large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "multi-source investigative methodology",
+      "description": "Using diverse investigative approaches when code access is unavailable: impacted communities, ML experts, company insiders, subcontractors, GitHub, government contracts, synthetic datasets",
+      "excerpts": [
+        "you can talk to directly to the communities who are being impacted by a certain model... You can talk to folks who are experts in machine learning... You can look on GitHub and see what all has been logged there. You can look for government contracts. You can find people within AI companies... You also will get insiders who have ethical qualms"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "global south AI labor",
+      "description": "Recognition of the exploited workforce of AI subcontractors in countries like Kenya and Venezuela who classify images and text that feed AI systems, often at great personal cost",
+      "excerpts": [
+        "you have a whole set of workers, you know, AI subcontractors who are often hired in the global south in countries like Kenya, Venezuela to classify the images, the text that feed AI systems. And they have their own experience from a worker standpoint as to what's powering these models"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "human-centered AI storytelling",
+      "description": "Framing AI stories around affected individuals and broader societal issues (voting rights, policing, moral dilemmas) rather than technical specifications to increase audience engagement",
+      "excerpts": [
+        "looking at how to do stories about AI that are really about politics or really about voting rights or are really about moral issues that police are grappling with, that really sort of have an element of an AI tool in them, but that help touch on these broader issues that I think all of us can relate to"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "journalism as AI accountability mechanism",
+      "description": "Positioning investigative journalism as a de facto regulator in the absence of AI laws, with demonstrated real-world impact on policy and enforcement",
+      "excerpts": [
+        "AI systems are really unregulated by and large around the world. And so there's an opportunity to have real-world impact with journalism that deeply and in a nuanced fashion helps the public understand how these tools work, don't work and who they're impacting",
+        "our reporting on child welfare algorithms that helped to prompt a federal civil rights investigation from the U.S. Department of Justice"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "reporting-prompts-regulation pipeline",
+      "description": "A demonstrated causal chain from investigative reporting to government action, showing journalism's power to trigger civil rights investigations and policy changes around AI systems",
+      "excerpts": [
+        "We saw that, for example, with our reporting on child welfare algorithms that helped to prompt a federal civil rights investigation from the U.S. Department of Justice",
+        "We did reporting on predictive and surveillance tools that were used after COVID hit by government agencies to instead monitor marginalized populations and really shed some light there"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "existential risk as distraction",
+      "description": "The argument that AI company-promoted narratives about existential risk and AGI distract from immediate real-world harms like voter misinformation and algorithmic discrimination",
+      "excerpts": [
+        "Thinking about existential risk to my mind really risks itself distracting attention from real world problems such as how AI is being used to misinform voters in this crucial election year",
+        "those have been around for decades, you know, humans have always been fascinated by robots"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "press-release skepticism",
+      "description": "A specific warning against treating AI company claims, demos, and press releases as authoritative sources, calling for the same skepticism applied to any powerful institution",
+      "excerpts": [
+        "This is not a beat in which you want to be taking AI companies press releases as the final word"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "first-to-milestone skepticism",
+      "description": "Wariness of claims that an AI system is 'the first' to achieve something, echoing broader concerns about hype and manufactured urgency in AI PR",
+      "excerpts": [
+        "it's really important to be wary of claims that an AI system is the first to reach a certain milestone or that sometime soon we're gonna get to artificial general intelligence"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "AP Stylebook as AI literacy infrastructure",
+      "description": "The strategic use of the AP Stylebook's authority and reach to democratize AI understanding through standardized definitions and reporting guidance accessible to all journalists",
+      "excerpts": [
+        "I led the writing of this new AI chapter of the AP Style book with that in mind to really democratize understanding of AI models through the vehicle of the AP Style Book",
+        "what we really led with in this chapter is that stories about AI tools should really aim to explain how they were built and how they work"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "demystification of AI coverage",
+      "description": "Countering the perception that AI reporting requires engineering expertise, asserting that traditional journalistic skills are sufficient to interrogate AI systems",
+      "excerpts": [
+        "you really don't need to be an engineer to interrogate these systems or understand them",
+        "what's important for reporters to understand is that we all already have the StreetSmarts to understand AI. This is not a situation where people are ill-equipped"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "chatbot election misinformation",
+      "description": "Testing major chatbots with basic democracy questions revealing dangerous errors: denying polling places exist in Black neighborhoods and falsely suggesting voting by text",
+      "excerpts": [
+        "in response to a prompt about where is my polling place in a predominantly black neighborhood in Philadelphia saying nope, there's no polling place there for you, or another chat bot said in response to a question about how can you vote in California? You can go ahead and send in that vote by text message"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "model testing as journalism",
+      "description": "Using AI models themselves as investigative tools -- prompting, probing, and stress-testing them to surface public-interest information about their capabilities and failures",
+      "excerpts": [
+        "there's also ways to use the models themselves to figure out new ways to bring forward information in the public interest",
+        "You can use a synthetic data set, like sort of a computer generated data set similar to the data used to train the model to simulate what somebody using that tool would experience"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "AI weaponization of campaigns",
+      "description": "Political operatives deploying AI platforms for customized voter outreach, sentiment analysis, and social media amplification, raising concerns about unregulated AI influence on democratic processes",
+      "excerpts": [
+        "Brad Parscale, who's a digital campaign operative who helped engineer Donald Trump's 2016 presidential victory, who now has a new AI-powered platform that he says will really transform campaigning",
+        "AI that can generate customized emails, gauge voter sentiment, amplify the social media posts of anti-woke influencers"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "asymmetric AI campaign adoption",
+      "description": "A gap between the Trump campaign's aggressive AI deployment (Parscale's platform claiming global conservative victories) and the Biden campaign's cautious, still-forming AI strategy",
+      "excerpts": [
+        "The second story dealt with how the Biden campaign is considering using AI and really still smarting from having been outmaneuvered by Donald Trump and his allies in twenty sixteen. So they're actually just still grappling with how to use AI"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "neutral"
+    },
+    {
+      "code": "global AI governance vacuum",
+      "description": "AI systems being largely unregulated worldwide, creating a vacuum that journalism can partially fill as an accountability mechanism",
+      "excerpts": [
+        "AI systems are really unregulated by and large around the world",
+        "it's so unregulated that I think this is another area where journalism can play a role in informing both the public and policy makers"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "global export of AI campaign tactics",
+      "description": "AI-powered campaign strategies trialed in one country being exported globally, with digital consultants applying approaches across borders",
+      "excerpts": [
+        "these issues are global, Nikita... what is trialed here in the US may later show up in Brazil or India or vice versa. campaigns and digital consultants are really trying all sorts of AI approaches to winning elections this year"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "human-starts-human-ends principle",
+      "description": "AP's editorial standard that journalism always begins and ends with a human being, even when AI augments the process in between",
+      "excerpts": [
+        "at AP, we're really very cautious about implementing any AI tools. Our journalism always starts with a human being and ends with a human being"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "AI as grunt-work augmentation",
+      "description": "Using AI to handle large-scale data processing and document analysis that would be infeasible for humans alone, while maintaining human oversight downstream",
+      "excerpts": [
+        "we're so often faced with these huge data sets, massive numbers of documents. And in those situations sometimes, if properly vetted and analyzed by a human downstream, these AI models can be useful in doing some of that grunt work"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "solution-seeking bias",
+      "description": "Warning against applying AI solutions to problems that do not require them, treating AI as a hammer looking for nails",
+      "excerpts": [
+        "I don't think that we should be necessarily applying AI solutions to problems that don't need them"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "AI power and money tracking",
+      "description": "The journalistic imperative to follow the money and power dynamics in AI -- understanding who benefits financially and who extends their institutional power through these systems",
+      "excerpts": [
+        "AI companies are seeking to extend their power into a whole number of realms from military applications to education to health care",
+        "As journalists, we need to understand how power and money moves"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "neutral"
+    },
+    {
+      "code": "privacy and likeness concerns",
+      "description": "Personal and professional concerns about AI's ability to clone voices and faces, exemplified by the Scarlett Johansson/OpenAI controversy",
+      "excerpts": [
+        "we live in an age where it's so easy to clone a person's voice or face, as we've seen in the discussion about Scarlett Johansson and OpenAI's talking chatbot",
+        "some real concerns about privacy and ownership of one's likeness are important to keep at top of mind"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "Silicon Valley export concern",
+      "description": "Awareness that AI systems developed in the Bay Area context carry embedded assumptions and values that may not translate to other global contexts",
+      "excerpts": [
+        "I'm always very personally thinking about this Silicon Valley perspective and how that can be exported in ways that just may not fit the circumstance",
+        "how well do these perform in different languages? If I'm seeing issues crop up in English, one of the languages I speak, how well does it perform in other situations?"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "COVID surveillance pivot",
+      "description": "Government agencies repurposing post-COVID predictive and surveillance tools to monitor marginalized populations, demonstrating function creep in AI deployment",
+      "excerpts": [
+        "We did reporting on predictive and surveillance tools that were used after COVID hit by government agencies to instead monitor marginalized populations and really shed some light there that people hadn't been aware of"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "negative"
+    },
+    {
+      "code": "Stanford fellowship as AI literacy model",
+      "description": "Embedding a journalist at Stanford's HAI and Knight Fellowship for a year to deeply study AI systems, then using that knowledge to create resources (AP Stylebook) that scale to all journalists",
+      "excerpts": [
+        "I was selected to be an inaugural fellow at Stanford University as part of the John S. Knight Journalism Fellowship as well as the Human Centered AI Institute. And so I was able to embed for about a year on the Stanford campus and really think deeply about how these models work"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    },
+    {
+      "code": "personal AI restraint",
+      "description": "An AI investigative journalist being notably cautious with personal AI use due to deep awareness of privacy and data concerns, contrasting with professional experimentation",
+      "excerpts": [
+        "I tend to be very interested in privacy concerns about the data that powers these models, and so I'm probably less likely than your average person to be giving over a lot of very personal or even professional information to these models"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "neutral"
+    },
+    {
+      "code": "ethical AI newsroom implementation",
+      "description": "The challenge and opportunity of newsrooms conducting deeper ethical discussions about when AI assistance is appropriate in news production and what disclosure standards should apply",
+      "excerpts": [
+        "it's really an opportunity to have newsrooms think about the ethics of all of this... there's an opportunity to have deeper ethical discussions about what is the right way to implement AI tooling in our sacred news production"
+      ],
+      "speaker": "Garance Burke",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode positions journalism itself as a frontline accountability mechanism for AI systems in a landscape of near-total regulatory absence. Burke articulates a sophisticated investigative methodology that circumvents the opacity of proprietary AI systems through multi-source approaches -- from impacted communities and Global South laborers to company insiders and model stress-testing. The conversation surfaces a critical tension between AI's embedding across all journalistic beats and the persistent perception that AI coverage requires specialized technical expertise, which Burke explicitly rejects through the AP Stylebook democratization strategy. Most provocatively, the episode frames existential risk narratives promoted by AI companies as themselves a form of misdirection that pulls journalistic attention away from documented harms like racially biased child welfare algorithms and chatbot-generated voter suppression. Burke's personal restraint with AI -- notably privacy-conscious for someone whose work reaches half the world -- reveals the lived cost of deep expertise in AI's data practices.",
+  "surprises": [
+    "The chatbot election testing with Proof News revealed that major chatbots actively directed voters in Black neighborhoods away from polling places and suggested illegal voting methods -- moving beyond general bias concerns to specific voter suppression potential.",
+    "Burke explicitly frames existential risk coverage not just as unhelpful but as itself a distraction strategy that benefits AI companies, positioning the hype cycle as a deliberate power move rather than innocent speculation.",
+    "The AP's editorial standard of 'starts with a human, ends with a human' is presented alongside genuine enthusiasm for using AI to process massive datasets -- suggesting the principle functions as a philosophical guardrail rather than a practical limit on AI use.",
+    "Burke's personal AI use is remarkably restrained for someone who covers AI professionally -- she is less likely than the average person to share personal data with AI models, creating an ironic contrast with her advocacy for journalistic AI experimentation."
+  ],
+  "tensions": [
+    "Between the need for journalists to understand and experiment with AI tools and the simultaneous imperative to remain critically skeptical of those same tools' claims and outputs.",
+    "Between AI's demonstrated utility for investigative journalism (document analysis, transcription) and the principle that AI should not be applied to problems that do not need it.",
+    "Between the global reach and impact of AI systems and the localized, context-dependent nature of the harms they produce (US child welfare, Philadelphia polling places).",
+    "Between the narrative that AI coverage requires no special technical expertise and the reality that Burke's own deep expertise (Stanford fellowship, year of AI study) is what makes her methodology so effective.",
+    "Between the urgency of AI accountability journalism in a regulatory vacuum and the chronic under-resourcing of investigative newsrooms to do this complex, time-intensive work."
+  ]
+}

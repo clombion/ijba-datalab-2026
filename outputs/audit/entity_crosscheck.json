@@ -1,0 +1,366 @@
+{
+  "caveat": "NOTE: This is a statistical cross-check, not a replacement for interpretive coding. Topic models produce word clusters, not themes.",
+  "method": "dslim/bert-base-NER (token classification)",
+  "n_documents": 42,
+  "entities_detected": 939,
+  "top_entities": [
+    {
+      "entity": "AI",
+      "type": "MISC",
+      "count": 1593
+    },
+    {
+      "entity": "Newsroom Robots",
+      "type": "ORG",
+      "count": 85
+    },
+    {
+      "entity": "Google",
+      "type": "ORG",
+      "count": 73
+    },
+    {
+      "entity": "Nikita Roy",
+      "type": "PER",
+      "count": 41
+    },
+    {
+      "entity": "English",
+      "type": "MISC",
+      "count": 30
+    },
+    {
+      "entity": "BBC",
+      "type": "ORG",
+      "count": 28
+    },
+    {
+      "entity": "New York Times",
+      "type": "ORG",
+      "count": 27
+    },
+    {
+      "entity": "Microsoft",
+      "type": "ORG",
+      "count": 27
+    },
+    {
+      "entity": "US",
+      "type": "LOC",
+      "count": 25
+    },
+    {
+      "entity": "Harvard Innovation Labs",
+      "type": "ORG",
+      "count": 24
+    },
+    {
+      "entity": "GPT",
+      "type": "MISC",
+      "count": 24
+    },
+    {
+      "entity": "German",
+      "type": "MISC",
+      "count": 22
+    },
+    {
+      "entity": "ChaGP",
+      "type": "MISC",
+      "count": 21
+    },
+    {
+      "entity": "Germany",
+      "type": "LOC",
+      "count": 21
+    },
+    {
+      "entity": "OpenAI",
+      "type": "ORG",
+      "count": 20
+    },
+    {
+      "entity": "Nordic",
+      "type": "MISC",
+      "count": 20
+    },
+    {
+      "entity": "Times",
+      "type": "ORG",
+      "count": 19
+    },
+    {
+      "entity": "ChaGPT",
+      "type": "ORG",
+      "count": 19
+    },
+    {
+      "entity": "Newsroom Robot",
+      "type": "ORG",
+      "count": 18
+    },
+    {
+      "entity": "French",
+      "type": "MISC",
+      "count": 17
+    },
+    {
+      "entity": "EU",
+      "type": "ORG",
+      "count": 17
+    },
+    {
+      "entity": "Norway",
+      "type": "LOC",
+      "count": 17
+    },
+    {
+      "entity": "Harvard Innovation Lab",
+      "type": "ORG",
+      "count": 15
+    },
+    {
+      "entity": "Harvard",
+      "type": "ORG",
+      "count": 15
+    },
+    {
+      "entity": "Dutch",
+      "type": "MISC",
+      "count": 15
+    },
+    {
+      "entity": "Congress",
+      "type": "ORG",
+      "count": 14
+    },
+    {
+      "entity": "Chicago",
+      "type": "LOC",
+      "count": 14
+    },
+    {
+      "entity": "David",
+      "type": "PER",
+      "count": 14
+    },
+    {
+      "entity": "Ventures",
+      "type": "ORG",
+      "count": 13
+    },
+    {
+      "entity": "API",
+      "type": "ORG",
+      "count": 13
+    },
+    {
+      "entity": "Alessandro",
+      "type": "PER",
+      "count": 13
+    },
+    {
+      "entity": "Aaron",
+      "type": "PER",
+      "count": 13
+    },
+    {
+      "entity": "Estonia",
+      "type": "LOC",
+      "count": 13
+    },
+    {
+      "entity": "Reuters",
+      "type": "ORG",
+      "count": 12
+    },
+    {
+      "entity": "Europe",
+      "type": "LOC",
+      "count": 11
+    },
+    {
+      "entity": "Chinese",
+      "type": "MISC",
+      "count": 11
+    },
+    {
+      "entity": "AP",
+      "type": "ORG",
+      "count": 11
+    },
+    {
+      "entity": "Trump",
+      "type": "ORG",
+      "count": 11
+    },
+    {
+      "entity": "Silicon Valley",
+      "type": "LOC",
+      "count": 10
+    },
+    {
+      "entity": "European",
+      "type": "MISC",
+      "count": 10
+    },
+    {
+      "entity": "Gemini",
+      "type": "ORG",
+      "count": 10
+    },
+    {
+      "entity": "CNN",
+      "type": "ORG",
+      "count": 10
+    },
+    {
+      "entity": "Facebook",
+      "type": "ORG",
+      "count": 9
+    },
+    {
+      "entity": "Robot",
+      "type": "ORG",
+      "count": 9
+    },
+    {
+      "entity": "Craig",
+      "type": "PER",
+      "count": 9
+    },
+    {
+      "entity": "NPO",
+      "type": "ORG",
+      "count": 9
+    },
+    {
+      "entity": "Sweden",
+      "type": "LOC",
+      "count": 9
+    },
+    {
+      "entity": "Pulitzer",
+      "type": "ORG",
+      "count": 9
+    },
+    {
+      "entity": "LinkedIn",
+      "type": "MISC",
+      "count": 8
+    },
+    {
+      "entity": "Canada",
+      "type": "LOC",
+      "count": 8
+    }
+  ],
+  "diff_vs_llm_extractions": {
+    "ner_found_llm_missed": [
+      "AC National Association for Criminal Defense Lawyers",
+      "ACOS Alliance",
+      "AI",
+      "AI Fields",
+      "AI Gene",
+      "AI Inside",
+      "AI, Media and Democracy Lab",
+      "AILL",
+      "AJC",
+      "ALIA",
+      "AOL",
+      "AP",
+      "API",
+      "AR",
+      "Aaron",
+      "Accelerator Program",
+      "Adobe",
+      "Adobe Fire",
+      "Adrian",
+      "Africa",
+      "Aften Bladit",
+      "Aftenblad",
+      "Aftom Lovet",
+      "Afton Bladed",
+      "Afton Bladet",
+      "Afton Glade",
+      "Agnes",
+      "Agnes Stenbaum",
+      "Air Journalism",
+      "Air Media",
+      "Air Talents",
+      "Alan Turin",
+      "Alefalfa",
+      "Aless",
+      "Alessandro",
+      "Alessandro Alvian",
+      "Ali Berzon",
+      "Alia Its",
+      "Alia Itskov",
+      "Alia Izkov",
+      "Allegheny County",
+      "Alliance",
+      "Allie",
+      "Amazon",
+      "America",
+      "American",
+      "Americas",
+      "Andrew Tate",
+      "Anna Eschew",
+      "Anne Pilo"
+    ],
+    "llm_found_ner_missed": [
+      "Adobe Firefly",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Agnes Stenbom",
+      "AI adoption gap",
+      "AI adoption strategy",
+      "AI adoption timelines",
+      "AI agent-based fact-checking system",
+      "AI agent-based system",
+      "AI avatar tools",
+      "AI chatbot",
+      "AI coding assistants",
+      "AI editing tools",
+      "AI fact-checking maturation",
+      "AI foundation models",
+      "AI image description model",
+      "AI image generation",
+      "AI image generation tools",
+      "AI implementation strategy",
+      "AI information inequality",
+      "AI metadata labeling tools",
+      "AI news startups",
+      "AI product teams",
+      "AI recommendation engine",
+      "AI strategy methodology",
+      "AI training platform",
+      "AI transcription tools",
+      "AI translation",
+      "AI voice anonymization tools",
+      "AI voice generation",
+      "AI voices surpassing human naturalness",
+      "AI-generated video",
+      "AI-powered CMS features",
+      "AI-powered curation system",
+      "AI-powered deepfake tools",
+      "AI-powered investigative advantage",
+      "AI-powered reader-facing chatbots",
+      "AI-powered transcription tools",
+      "AI-powered video reformatting tools",
+      "AI-powered writing assistant",
+      "Alan Turing",
+      "Aleph Alpha LLMs",
+      "Alessandro Alviani",
+      "Alexa",
+      "Aliya Itzkowitz",
+      "All educators",
+      "All journalists",
+      "Anna Eshoo",
+      "Anthropic coding assistant benchmark",
+      "Anthropic LLM-based assistants"
+    ],
+    "ner_found_llm_missed_count": 824,
+    "llm_found_ner_missed_count": 472
+  }
+}

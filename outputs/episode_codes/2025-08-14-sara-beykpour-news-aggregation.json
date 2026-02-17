@@ -1,0 +1,365 @@
+{
+  "episode_date": "2025-08-14",
+  "episode_title": "Sara Beykpour: The Next Chapter in News Aggregation",
+  "codes": [
+    {
+      "code": "Agreed-upon facts mission",
+      "description": "Founding particle around the goal of surfacing facts that all sides agree on, before presenting divergent framing",
+      "excerpts": [
+        "We thought, how do we just get people to be up to date on the agreed-upon facts from all sides? First and foremost. And that's really what the core particle story is about.",
+        "we look at the sources from all across the political spectrum and we summarize kind of what is agreed upon. What are the facts that are agreed upon from all sides?"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Social media dysfunction origin",
+      "description": "Twitter experience revealing that unproductive conversations stem from people not starting from the same set of facts",
+      "excerpts": [
+        "Sometimes those conversations are not productive. And those conversations on on a lot of social media platforms, one of the reasons that they're not productive is they're not necessarily starting from the same set of facts."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "negative"
+    },
+    {
+      "code": "Multi-source threshold",
+      "description": "Requiring minimum three articles from two publishers before creating any summary, as a quality and accuracy safeguard",
+      "excerpts": [
+        "we do not summarize a story until at least three articles about it have been written by at least two different publishers"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "LLM reality check process",
+      "description": "Using a second LLM pass to verify every claim in a generated summary against source material, analogized to human proofreading",
+      "excerpts": [
+        "we call a reality check. And what that does is it's an additional LLM process in our whole pipeline that double checks every claim made in the summary against the source material",
+        "LLMs are a lot like humans and it's kind of like you might write something, but you're gonna have someone proofread it or you're gonna have someone check it or double check it. And the more people that you have double checking the work, the more likely it's gonna be error free."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Audit log transparency",
+      "description": "The reality check process producing a visible audit log with evidence and citations that humans can review",
+      "excerpts": [
+        "that process also produces an audit log. So you could see a human can see what is the evidence that each summary is correct. And that audit log also produces a set of citations"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Quote extraction for nuance",
+      "description": "Extracting and displaying verbatim quotes from primary sources within AI summaries to preserve emotion and nuance that summaries flatten",
+      "excerpts": [
+        "we extract important quotes from primary sources and we show those to you within the context of a story and I think seeing from exactly what someone said from the source of the person who said it adds quite a bit of color to what is otherwise kind of like a very general summary"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Human-labeled bias inputs",
+      "description": "Using human-designated political labels from nonpartisan organizations rather than AI to classify source bias, then computing bias metrics automatically",
+      "excerpts": [
+        "We don't use AI currently within particle to identify the bias of a particular story. So we're using human designated labels and um you know, we use labels that are from nonpartisan organizations who say that CNN is like to the left and Fox News is to the right."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Inherited source bias",
+      "description": "Recognition that AI summaries unavoidably inherit the political bias of their source material, making bias transparency essential",
+      "excerpts": [
+        "that bias will trickle into the summary. It's hard to avoid that. And that is true of any any kind of summarization. It's going to be reflective of the bias of the source material."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Ambient bias visibility",
+      "description": "Designing bias indicators as quick visual cues (colored popcorn bubbles on a line) that users can absorb without active effort",
+      "excerpts": [
+        "we created this like very simple line with these little popcorn bubbles that are different colors so that it's something you can just kind of see ambiently as you're reading. Again, we want to remove the work."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Grounding prevents hallucination",
+      "description": "Deliberately constraining AI to summarize existing source material rather than generating novel content, as primary safety strategy",
+      "excerpts": [
+        "The way we approach a lot of this is that we try to avoid asking the AI to just make stuff up. Our goal in using AI here is to leverage what a human might otherwise do, which is to look at the source material and summarize or organize or make it easier to read",
+        "by instructing the AI to like use real coverage As its basis for what it's being asked to do, that removes like a huge percentage of the possibility of it going like completely haywire."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Story version history",
+      "description": "Preserving and displaying the full generation history of evolving stories so users can trace how information changed over time",
+      "excerpts": [
+        "any story you can also see any previous generation of that story. So if it's a story about something unfolding over the day, so an example of this is that the CEO of United Healthcare shot in the middle of New York City. When that happened, that was all the information that we had."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Human editorial aspiration",
+      "description": "Desire to add human editorial notes to AI-generated content so users know a person reviewed their feedback, even if the AI answer stands",
+      "excerpts": [
+        "I'm really interested in doing is having an editorial note that a human can add that anyone would be able to see",
+        "I would love to be able to add a note to particle or some way to kind of communicate back with the user to be like, I saw the concern. Here's why we didn't take that question down"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Platform accountability stance",
+      "description": "Taking organizational responsibility for published AI-generated content, even when errors originate from source articles",
+      "excerpts": [
+        "Ultimately, we take responsibility for what we are what we are publishing. Sometimes those errors are a result of errors that were published by the source articles."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Multi-source error reduction",
+      "description": "Claim that aggregating multiple sources naturally reduces errors because it is unlikely multiple outlets make the same mistake",
+      "excerpts": [
+        "blatant errors like that are very uncommon, especially because we are using multiple sources in order to generate our summaries. And the likelihood that multiple outlets got something very wrong is just very unlikely"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Journalist on staff",
+      "description": "Hiring a journalist to formalize editorial standards and conduct for an AI-native product, bridging tech and journalism norms",
+      "excerpts": [
+        "we do have a journalist on staff and her name is Ellie and uh ever since she's come on board, she's been helping us kind of solidify some of the standards and editorial conduct"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "News UX degradation",
+      "description": "Argument that the user experience for consuming news has deteriorated over 10-15 years, driving people away from news entirely",
+      "excerpts": [
+        "We think that the user experience for consuming the news and keeping up with what's happening has degraded so much over the last, I don't know, decade, fifteen years. And users are getting left behind and they avoid news"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "negative"
+    },
+    {
+      "code": "Monetizing the AI eyeball",
+      "description": "Framing the core business model challenge of AI-mediated news: when AI reads more than humans, how do you monetize the AI's consumption",
+      "excerpts": [
+        "When an AI is ultimately going to do more reading than the humans, how do we monetize the AI's eyeball, essentially, is like an important question."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Facts vs analysis separation",
+      "description": "Envisioning a future where factual news becomes API-like data while analysis evolves through formats like podcasts and newsletters",
+      "excerpts": [
+        "There's going to be the facts that people need to understand a story. And perhaps those ones begin to behave in the way that you suggested, Nikita, which is like maybe those are more like APIs than they are how they're presented today. And then there is analysis."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Tolbit content exchange",
+      "description": "First-of-its-kind licensed content exchange transaction between Particle and Time magazine through the Tolbit marketplace",
+      "excerpts": [
+        "The transaction between particle and time through Tolbit was kind of like the first of its kind, like an online access, licensed access, like exchange transaction."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Principled source inclusion",
+      "description": "Refusing user requests to exclude specific publishers from summaries on principle, maintaining full-spectrum coverage even when controversial",
+      "excerpts": [
+        "what we won't do is allow you to choose the publishers that are included in a summary generation",
+        "We have people write in being like, I don't want to see things from insert your publisher name here. And we tell them like that on principle, this is this is the stance we've decided to take."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "mixed"
+    },
+    {
+      "code": "Topic-based not source-based personalization",
+      "description": "Allowing personalization by topic interest but not by publisher selection, to prevent filter bubbles",
+      "excerpts": [
+        "when we think about personalization, it's very much topic-based. So you're interested in politics or you're interested in sports... But what we won't do is allow you to choose the publishers that are included in a summary generation"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Election prediction through coverage balance",
+      "description": "Personal experience where Particle's balanced coverage surfaced immigration and economy stories that social media algorithms buried, predicting election outcome",
+      "excerpts": [
+        "I was not surprised by the results of the election. One of the reasons was because I had particle... what I saw when I looked at political coverage is that there were a lot of stories about immigration and the economy. Immigration the economy, immigration the economy",
+        "then I think people were surprised when, as it turned out, immigration and the economy were how people voted."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Perplexity KKK controversy",
+      "description": "Distinguishing Particle's work from the Perplexity-powered LA Times controversy where AI sanitized extremist views, clarifying the risk of ungrounded AI generation",
+      "excerpts": [
+        "That section is powered by perplexity, not by particle.",
+        "it was like sanitizing the KKK's views to make it sound like it was just of white Protestant ideology and really diminishing the levels of it"
+      ],
+      "speaker": "Nikita Roy / Sara Beykpour",
+      "valence": "negative"
+    },
+    {
+      "code": "Bias meter cross-aisle moments",
+      "description": "Using content-based (not author-based) bias ratings to reveal surprising moments of ideological agreement, like an anti-Andrew Tate piece rated as right-leaning",
+      "excerpts": [
+        "Someone had wrote an opinion piece in the LA Times about Andrew Tate. And Particle has had rated it as being right of center. That might be unexpected because you might think that an anti-Andrew Tate piece would probably be left-leaning",
+        "We need to find more moments where we agree left and right. Republicans and Democrats, in order to bring us back together."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Story acceleration signal",
+      "description": "Using the rate of new coverage across multiple outlets as a ranking signal for newsworthiness, rather than relying on editorial importance judgments",
+      "excerpts": [
+        "If something is developing and a lot of people are writing about it, you know, across America in a certain amount of time, like we have like a formula that that can kind of see that a story is taking off from multiple places"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI native advantage",
+      "description": "Claiming that being built from scratch with AI integrated deeply in the pipeline gives Particle an advantage over retrofitted competitors",
+      "excerpts": [
+        "Article is an AI native, so we can leverage AI in ways that I think is easier than having to kind of do that after the fact. It's like so deep within our pipeline and and so integrated with everything that we do."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Mission-driven sustainability",
+      "description": "Arguing that deep personal mission and passion for improving news consumption will differentiate Particle from failed predecessors like Artifact",
+      "excerpts": [
+        "We're super mission driven with particle. Both Marcel and I have like really strong feelings about how we can improve the way people consume information.",
+        "News will probably never be Instagram, even if you know you have two of the most incredible founders in the world working on it."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "mixed"
+    },
+    {
+      "code": "Deferred monetization",
+      "description": "Deliberately postponing monetization decisions while relying on VC funding to focus on product-market fit and user experience first",
+      "excerpts": [
+        "monetization is not something that we're immediately focused on... we're lucky, I think, to have the VC funding that we do to give us the time to figure that out and really nail it"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Rapid model obsolescence",
+      "description": "Experiencing how quickly AI models become outdated, with ChatGPT 3.5 going from amazing to useless within two years",
+      "excerpts": [
+        "we were blown away by ChatGPT 3.5 at the end of 2022. And now I wouldn't dream of using ChatGPT 3.5. Like that's just such a terribly old model",
+        "the human ability to just adapt to what is now normal is hilarious. It's insane."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI unpredictability mountain",
+      "description": "Metaphor of an AI mountain that cannot be seen over, expressing fundamental uncertainty about the future of information consumption",
+      "excerpts": [
+        "there's this mountain, this AI mountain ahead of us that we cannot see over because we have no idea how to imagine anything on that on the other side of that",
+        "my daughter who's just about to turn three, like her life and the way she consumes information is gonna be completely different than anything we could possibly imagine."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Corporate vs journalist tension",
+      "description": "Discovering that corporate publisher priorities and incentives differ from those of the journalists working at those same publishers",
+      "excerpts": [
+        "how publishers think and what's important to them... also how that differs from what the journalists even that work at those same publishers and you know how those priorities and incentives might be different as well"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "Search reduced to directory",
+      "description": "Personal shift where Google search has become merely a website directory while LLMs handle all actual information queries",
+      "excerpts": [
+        "I use search to find websites, which is what search was originally used for... It's funny that Google search has really just turned into a website directory for me and it's all come full circle"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "neutral"
+    },
+    {
+      "code": "LLM trust boundaries",
+      "description": "Identifying specific domains where LLMs are not trusted, particularly exhaustive searches like restaurant reviews where completeness matters",
+      "excerpts": [
+        "I don't trust it to do like restaurant reviews... I don't trust the LLM to give me the I feel like it will not do an exhaustive search. So I think that's where I lose trust in it."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "negative"
+    },
+    {
+      "code": "AI birthday invitation benchmark",
+      "description": "Using daughter's birthday invitations as a personal annual benchmark for image model improvement",
+      "excerpts": [
+        "For every single one of her birthdays, I have used an image model to create the like invite of her doing something. And so this every year it's like looks nicer than the previous year because the models have updated."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Algorithmic brainwashing risk",
+      "description": "Warning that consuming news only through analysis in algorithmic feeds creates conditions for literal brainwashing",
+      "excerpts": [
+        "what's been dangerous And is also an opportunity with people getting their news through analysis only, that is where like the bias can come in. And then if you're doing that in an algorithmic way That's where literal brainwashing can come in."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "negative"
+    },
+    {
+      "code": "Particle as map not destination",
+      "description": "Positioning Particle as a starting point and navigation tool that sends users deeper into publisher content rather than being the final destination",
+      "excerpts": [
+        "have particle being a place where you start Because it's so personalized and because it gives you this kind of breath, this kind of like top-level view of what's going on, it's a great place for people to start. And then we can provide you a map of how to go deeper"
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    },
+    {
+      "code": "Clickthrough satisfaction",
+      "description": "Reporting that both Particle and its publisher partners are pleased with click-through rates to original articles, though specific data cannot be shared",
+      "excerpts": [
+        "I will say that we're pleased with the click-through rate. And the partners that we do share that information with have been, I think, pleased with that click-through rate as well."
+      ],
+      "speaker": "Sara Beykpour",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Sara Beykpour articulates a vision of AI-powered news aggregation built on the premise that productive public discourse requires starting from shared facts. Particle's technical architecture reflects an unusual commitment to epistemic humility: multi-source thresholds, layered LLM verification, human-labeled bias inputs, and principled refusal to let users filter out publishers. The conversation reveals a fundamental tension between Particle's democratic information ideals and its unresolved business model, with monetization explicitly deferred while VC funding provides runway. Beykpour's framing of AI as enabling a separation of factual news (becoming API-like) from analysis (evolving into podcasts and newsletters) suggests a structural transformation of journalism's value chain rather than mere automation of existing workflows.",
+  "surprises": [
+    "Particle deliberately refuses user requests to exclude specific publishers, accepting controversy to maintain full-spectrum coverage",
+    "The bias meter rates content rather than authors, revealing unexpected cross-aisle agreement moments like a right-leaning anti-Andrew Tate piece",
+    "Beykpour claims Particle's balanced coverage predicted the 2024 election outcome while social media algorithms buried the decisive issues",
+    "Particle uses human-designated bias labels from nonpartisan organizations rather than AI to classify political lean, despite being an AI-native product",
+    "Beykpour envisions factual news becoming API-like infrastructure while analysis becomes the premium content layer"
+  ],
+  "tensions": [
+    "Particle claims to take responsibility for published content but the content is generated by AI from other publishers' reporting -- accountability is diffuse",
+    "The product is positioned as a map to drive traffic to publishers, yet its very existence as a comprehensive summary reduces the need to visit original sources",
+    "Mission-driven rhetoric about re-engaging people with news coexists with deferred monetization and no clear path to sustainability",
+    "Principled source inclusion is presented as serving users, but users are explicitly told they cannot customize a core aspect of their experience",
+    "Beykpour acknowledges that news will probably never reach Instagram scale, yet the product requires significant scale to achieve the publisher compensation ecosystem she envisions"
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "episode_date": "2025-03-18",
+  "episode_title": "Kasper Lindskow: Building a Scalable AI Infrastructure at Denmark's JP/Politikens Media Group",
+  "codes": [
+    {
+      "code": "University-Industry Research Partnership",
+      "description": "Initiating AI development through formal collaboration with universities and state innovation funding rather than purely internal R&D, creating a hybrid applied-research model",
+      "excerpts": [
+        "we talked to universities about whether they wanted to collaborate with us on this, and uh they wanted to. Then we applied for a lot of money money from uh Innovation Fund Denmark"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Early Mover Strategic Timing",
+      "description": "Deliberately investing in AI before maturity based on anticipation of medium-term relevance, accepting the unusual risk of pre-mature technology investment",
+      "excerpts": [
+        "back in twenty nineteen we uh we looked at AI and we said uh well something is going on here. It's not really ready yet But uh it looks like at the pace it's developing, this will become relevant to us"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Research-to-Production Transition",
+      "description": "The organizational shift from applied research (PIN project) to productionized, centralized AI services for the entire media group",
+      "excerpts": [
+        "PIN concluded in uh in early 2024, mid-2024 or so And uh fortunately at the time AI was sort of mature enough for more applied focus. So there we transitioned the PIN team into a centralized or shared shared AI unit"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Brand-Specific Voice Adaptation",
+      "description": "The core technical challenge of customizing generative AI output to match distinct editorial identities, tones, and writing guides of individual news brands within a media group",
+      "excerpts": [
+        "if you put something into Magna at Extrabladed, one of our news brands it will come up with up with an answer or text that's suitable for extrabladet. If you put the same thing into into MacMat Politiken, it will come up with a very different text",
+        "the next part of our journey with DNAI and with Magna has really been focused on trying to customize and adapt as much as possible to the identity and tone of voice of each of our news brands"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "mixed"
+    },
+    {
+      "code": "Hallucination Surprise",
+      "description": "The unexpected finding that factual hallucinations were less problematic than anticipated when using direct prompting and RAG, challenging initial assumptions about the primary risk of generative AI",
+      "excerpts": [
+        "we thought that the biggest challenge we expected to happen when we started was uh hallucinations and factuality, right?",
+        "really to my surprise at the time, when we prompted it directly and used it in a rack setup, it really so rarely made those factuality mistakes"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Blandness as Primary Problem",
+      "description": "The realization that the real challenge with LLM output is generic, repetitive, and boring text rather than factual errors",
+      "excerpts": [
+        "when you just used the basic models, the output of it would tend to become bland, average, and borrowing. So even though you might find the first output you saw interesting to read, once you read uh five of those, it would be too repetitive and boring"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "negative"
+    },
+    {
+      "code": "Prompt Overloading Limits",
+      "description": "Reaching the ceiling of what prompting alone can achieve for voice adaptation, necessitating prompt chaining, agents, and eventually fine-tuning",
+      "excerpts": [
+        "at this point we're beginning to overload our prompts. So the next step we're in right now where we think we can get value from ECS is uh is prompt chaining and uh beginning to work with agents inside of Magna",
+        "A language model really can't just hold all those dependencies that you get from a really long prompt"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "negative"
+    },
+    {
+      "code": "Fine-Tuning Deferred Intentionally",
+      "description": "Strategic decision to delay fine-tuning because proprietary models did not support multi-task tone-of-voice fine-tuning, while open-source models had lower baseline quality",
+      "excerpts": [
+        "the tone of voice focused fine tuning have had to be based on the open source models. That have a high quality but maybe not as high quality as some of the proprietary models. And the proprietary models haven't allowed you to do the The types of fine-tuning you'd need"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "RAG for Institutional Memory",
+      "description": "Using retrieval augmented generation to ground AI outputs in the publication's own archive, enabling cross-article summaries and story enrichment from proprietary content",
+      "excerpts": [
+        "produce an article that summarizes the coverage we did of this case. across multiple then it will be if you're at at Poltiken it will be uh basing that summary or case overview on all the Polticken wrote about the case"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Iterative User Testing Phases",
+      "description": "Three distinct feedback phases: internal assumptions, small user group testing, and full newsroom deployment, each yielding qualitatively different input",
+      "excerpts": [
+        "it's a really exciting thing, I think, to me to be uh the journey we've been through in that dimension about first working based on our own assumptions. Then working based on input from the room from a small group, and then working based on input from the entire tutorial room because it's really qualitatively different"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Brand-Level Editorial Autonomy",
+      "description": "Allowing each news brand to set its own editorial AI guidelines independently, resulting in different tools being available at different publications within the same group",
+      "excerpts": [
+        "each of the editorial rooms have their own editorial guidelines for how they can use AI. I generative AI and they're different, as they should be",
+        "Some brands are just ready to roll most out... Other brands are saying so we are happy with using the writing assistant tools, but story enrichment, that's too soon for us"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Change Management Linearity",
+      "description": "The insight that technology may advance exponentially but organizational adoption is inherently linear change management",
+      "excerpts": [
+        "Even if the technology is developed develops exponentially. Then uh rolling it out and adapting it, that's change management. That's a very linear process."
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Routine Tasks Create Most Value",
+      "description": "Small, easy-to-use generative AI tools for routine tasks (proofreading, translation, headlines) delivering the most immediate value, ahead of more ambitious applications",
+      "excerpts": [
+        "the uh tools that are creating most value at the time are really the the small on ones that just routinize tasks because they're so easy to use. So like proofreading. Translation, also headline suggestions, the classical ones really."
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Demand Outstripping Supply",
+      "description": "Journalists requesting more AI tools than the team can build, indicating organic demand exceeding capacity",
+      "excerpts": [
+        "we're also getting so many requests for people saying, can't you also build this for me? Can't you also build this for me? Can't you also build this for me? And we're having a big trouble keeping up with that demand"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "mixed"
+    },
+    {
+      "code": "Not Making Prompt Engineers",
+      "description": "Design philosophy that average journalists should not need prompting skills; focused tools with pre-built prompts should serve them via buttons, not chat interfaces",
+      "excerpts": [
+        "we shouldn't, in my sort of experience and and and opinion, make all journalists prompt engineers"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Dual UX Paradigm Challenge",
+      "description": "The tension between the new chat/prompting interface paradigm and the traditional button/dropdown paradigm, requiring both to coexist during a transition period",
+      "excerpts": [
+        "you have two different UI or UX paradigms here. So you have a new one coming up that's based on prompting and chatting and all this. And then you have the old paradigm that you know from Office and your CMS system based on buttons and drop-down menus"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Central vs. Local AI Organization",
+      "description": "Trade-offs between centralized shared AI units (scalable, solid, complex) and local brand-embedded teams (fast, close to needs, hard to scale), with a hybrid hub-and-spoke model as the chosen approach",
+      "excerpts": [
+        "from the local model you get the the closeness to work processes to the needs, usually the flexibility",
+        "in the centralized model, at least that's what we're hoping hoping for, uh it's easier to get the critical mass to build really solid tools",
+        "each of the major brands have a hub. with one person in charge that sort of organized a network of journalists"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "mixed"
+    },
+    {
+      "code": "Front-Runner vs. Average Journalist",
+      "description": "Recognizing that AI enthusiast journalists and average journalists have fundamentally different needs, concerns, and approaches, requiring different tool design and engagement strategies",
+      "excerpts": [
+        "The front runner is uh has been experimenting. They'd be using AI regardless of whether we make tools available for them or not",
+        "the average journalists are not necessarily that interested in and good at prompting and all these things. So they need the tools made available to them in a in a different way"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Hype-Based vs. Use-Based Concerns",
+      "description": "Distinction between journalist worries shaped by public AI hype (before usage) and concrete, practical concerns that emerge from actual tool use",
+      "excerpts": [
+        "typically the people who haven't really gotten into it yet. Well, I'd say that their view on potentials and on worries are lit a little bit sort of based on all that hype that's been circling around AI",
+        "the um worries and the uh Expectations and the sort of potential people see once they begin using it is a lot more interesting"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Values Compass Framework",
+      "description": "A structured process for aligning AI systems with publisher values by balancing journalistic, technical, business, and user considerations within the constraints of core mission",
+      "excerpts": [
+        "the value compass contains uh two different approaches to to um figuring out how to build an aligned AI system",
+        "the value compass sort of helps you to uh to look at what's important to achieve here from a journalistic, also from a technical perspective. And from a business perspective and from a user perspective"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Commercial Values as Legitimate",
+      "description": "The provocation that commercial and technical values should be explicitly balanced alongside journalistic values in AI system design, challenging journalist resistance to this inclusion",
+      "excerpts": [
+        "says also says that they should all legitimately be there, which is a provocation for some journalist at some point, right, saying, should we also be thinking about commercial values and technical values in the second step"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "mixed"
+    },
+    {
+      "code": "Recommender News Flow Divergence",
+      "description": "The empirical finding that equally performant recommender systems (same click rate) produce dramatically different news flows, making editorial impact measurement essential beyond engagement metrics",
+      "excerpts": [
+        "two recommenders that have the same ability to engage or drive sales or whatever you might mention it on in those hardcore metrics and have very different effects on the news flow. And that's sort of you the core of your profile, right?"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "mixed"
+    },
+    {
+      "code": "Editorial Constraints on Recommenders",
+      "description": "Implementing hard limits on recommender behavior: caps on topic overrepresentation, excluding sensitive content like violent crime, and banning sentiment-based optimization",
+      "excerpts": [
+        "we don't want it to have an overrepresentation. in the resource produces for the individual of certain topics. So we hit the recommender system with a hammer and say, up until this point and no more",
+        "stories about really violent crime, are too sensitive for recommended system to handle. So we're not gonna even gonna allow it access to that",
+        "we had a ban on on using uh metadata on sentiment as the input to a recommender system. We didn't want to like encourage it to optimize on on feelings"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Collaborative vs. Content-Based Filtering",
+      "description": "Technical distinction between two recommender paradigms: collaborative filtering biases toward popular content but offers serendipity, while content-based systems match reading history precisely but create stronger filter bubbles",
+      "excerpts": [
+        "typically the collaborative filtering system will be um biased towards the most popular news articles that most people read",
+        "the content-based system uh will be uh a lot better at uh being very well calibrated with the reading history of each reader. And thus recommends a lot more of the of the long tail niche stories"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "In-House for Editorial Control",
+      "description": "The argument that core editorial AI (writing tools, recommenders, distribution) should be built in-house to maintain control over brand voice and editorial values, even at the cost of slower development",
+      "excerpts": [
+        "when you get into the domains where where it sort of affects that core production chain you have in the in the in the newsroom... then I I think that uh you should be building yourself",
+        "you you maintain control and ability to steer your your technology aligned with your profile and values as a publisher"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Vendor Literacy Imperative",
+      "description": "Even publishers who buy rather than build AI must invest enough to understand the technology to ask informed questions and make appropriate demands of vendors",
+      "excerpts": [
+        "you should still make sure that you really understand the technology well enough... so that you can have an informed dialogue with your vendor... because you need to be able to ask that vendor the right questions"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "CMS as Partial Solution",
+      "description": "Recognition that CMS-integrated AI tools will supply front-end interfaces but publishers still need to do their own prompting, fine-tuning, and voice customization underneath",
+      "excerpts": [
+        "most of the CMS systems that uh journalistic CMS systems content management systems that are beginning to integrate generated tools... often they will make the editor and the buttons available. But you still need to do the prompting yourself or the fine chip and the connection to the model yourself underneath"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "neutral"
+    },
+    {
+      "code": "Embeddings for News Understanding",
+      "description": "The shift from discrete metadata labels to continuous embeddings for representing news articles, offering far more granular information but being much harder to interpret",
+      "excerpts": [
+        "When you uh ask an algorithm to embed a news article, you're allowing it to position it in a this is really abstract... to position it in a multidimensional space that it created itself relative to all our news articles",
+        "it's so much more granular than the um information contained in the labels from the classification approach"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Bias Testing Beyond Accuracy",
+      "description": "Expanding model evaluation beyond standard accuracy metrics to include bias testing across categories and demographic segments (gender, age), maintaining test sets even when moving to generative classification",
+      "excerpts": [
+        "we didn't just test for accuracy. Like standard F1 scores... we also tested for different types of bias. So whether um the labels we were putting on the articles the categories were evenly distributed, were representative of what we knew already about our sample",
+        "you still need the test set"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Real-Time Infrastructure Gap",
+      "description": "The technical challenge of implementing recommender systems at scale requiring millisecond-level data flows and front-ends capable of serving millions of personalized news flows simultaneously",
+      "excerpts": [
+        "real time doesn't mean available on a dashboard one second later. It means milliseconds and that requires a lot of technical work for many publishers who just aren't there yet",
+        "your main news flow can not just show one news flow to everyone, but show maybe a million different use flows in real time in milliseconds"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "negative"
+    },
+    {
+      "code": "Agents as Imminent Revolution",
+      "description": "AI agents seen as at a 2021-level maturity for language models: not yet ready but with massive potential for news discovery and research within 2-5 years",
+      "excerpts": [
+        "I think we are maybe where we were with language models back in like 2021, where it was still not mature enough at that point. That's the stage we are with AI agents right now, but exciting potential that we can see"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Platform for Safe Deployment",
+      "description": "Magna as both infrastructure (safe deployment platform for generative AI) and user interface (editorial tools), emphasizing the dual nature of the system",
+      "excerpts": [
+        "really Magnes, two things. It's a platform for safe deployment and productionization of generative AI, and then it's a user interface for the journalists"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "360-Degree Research Framework",
+      "description": "Designing the PIN project to combine hardcore technical development with social science research on ethics and business strategy, creating a holistic approach to AI innovation",
+      "excerpts": [
+        "we collaborated with two technical universities on like hardcore development and experimentation with algorithms And with two social science departments at universities to make sure that we also thought about the social implications of this, the ethics, also the business strategy"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Competitive Threat Awareness",
+      "description": "Acknowledging the existential competitive risk from tech giants deploying AI technologies against news publishers, requiring publishers to get AI implementation right",
+      "excerpts": [
+        "we also need to make sure that we handle the the competitive threats that might come in in the marketplace when tech giants begin using these technologies uh with and against us"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "negative"
+    },
+    {
+      "code": "Predefined Tools Over Free Prompting",
+      "description": "Building focused task-specific tools with extensive pre-built prompts that work at the push of a button, rather than requiring journalists to write their own prompts",
+      "excerpts": [
+        "on top of the basic chat option, we have uh all these sort of sort of more focused tools where journalists don't need to be prompting. They can uh carry out a number of predefined tasks where we did extensive pumping work underneath it. It just really just works for them when they push a button"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    },
+    {
+      "code": "Onboarding and Education Rollout",
+      "description": "The structured approach to training journalists through onboarding sessions, follow-ups, basic courses for all users, and advanced courses for expert ambassadors, with 2025 as the major rollout year",
+      "excerpts": [
+        "we're offering some basic courses that are meant for basically all journalists. who are using these tools and we are offering some uh more advanced courses which are meant for the expert users and ambassadors",
+        "We we are seeing twenty twenty five as the big rollout year where uh the courses and education of the journalists are being rolled out now"
+      ],
+      "speaker": "Kasper Lindskow",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode documents one of the most methodical, long-horizon AI integrations in journalism: JP/Politikens Media Group's five-year journey from university-backed applied research (the PIN project, 2020-2024) to centralized AI services across multiple national news brands. The central analytical tension is between scalable infrastructure and brand-specific editorial identity -- Lindskow's team built Magna as a shared platform but must deeply customize outputs for each brand's distinct voice, revealing that the primary technical challenge is not hallucination (which proved manageable) but the blandness and homogeneity of uncustomized LLM output. The organizational model adopted -- a centralized AI unit with local brand-level hubs -- reflects a broader structural question facing multi-brand media groups about where to place AI expertise. Lindskow's Values Compass framework operationalizes the usually abstract goal of aligning AI with journalistic values by explicitly requiring the balancing of journalistic, technical, business, and user considerations, a process that produced concrete editorial constraints on recommender systems including bans on sentiment-based optimization and hard caps on topic overrepresentation.",
+  "surprises": [
+    "Hallucinations were not the biggest challenge; blandness and lack of brand differentiation proved far more problematic than factual errors in RAG-augmented setups",
+    "Some brands within the same media group that resist generative story enrichment tools are enthusiastic about user-facing chatbots and audio versions, revealing that editorial caution is not uniform across AI applications but is shaped by nuanced editorial identity positions",
+    "The Values Compass explicitly includes commercial values as a legitimate consideration alongside journalistic values, which Lindskow acknowledges is a 'provocation' for some journalists",
+    "Collaborative filtering recommender systems offer more serendipity (bubble puncturing) despite biasing toward popular content, while content-based systems that surface niche journalism actually create stronger filter bubbles",
+    "A ban on using sentiment as input to recommender systems was implemented to prevent optimization on emotional responses"
+  ],
+  "tensions": [
+    "Centralized AI unit efficiency vs. proximity to individual brand editorial needs -- the hub-and-spoke model is a pragmatic compromise but adds organizational complexity",
+    "Exponential technology development vs. linear change management in newsrooms -- mature tools exist but adoption lags by design",
+    "Front-runner journalists (self-taught, chat-paradigm native) vs. average journalists (need buttons, not prompts) -- tool design must serve both populations during an extended transition",
+    "Building AI in-house for editorial control vs. the slower development speed and higher investment this requires compared to vendor solutions",
+    "Brand autonomy (each publication sets its own AI policy) vs. the centralized team's desire for uniform, efficient tool rollout across the group",
+    "Commercial value extraction from AI (engagement, sales) vs. editorial value preservation (diversity, non-sensationalism, profile alignment) in recommender systems"
+  ]
+}

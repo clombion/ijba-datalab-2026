@@ -1,0 +1,287 @@
+{
+  "episode_date": "2024-03-02",
+  "episode_title": "Craig Newmark: Philanthropy's Role in Supporting Journalism in the AI Era",
+  "codes": [
+    {
+      "code": "Early AI theoretical interest",
+      "description": "Personal history of considering AI/NLP as an academic path before it was commercially viable, revealing how long AI ideas have gestated",
+      "excerpts": [
+        "I'm very interested in the nature of consciousness. And my gut told me that if you could write systems which understood natural language you would be far on your way towards understanding it.",
+        "I'm thinking you put together large networks of simulated neurons, and you can understand language. And maybe, like in some of the stories I've read, consciousness might even spontaneously emerge."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI winter pragmatism",
+      "description": "Deciding against pursuing AI in the 1970s due to lack of interest and jobs, illustrating the cyclical nature of AI enthusiasm",
+      "excerpts": [
+        "I realized, oh, this is really hard. And then I'm thinking, close to no one else is interested in this at this time. And there are not going to be any jobs available for decades.",
+        "I could see that nothing was happening back then. I had other things in programming to focus on."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "Surprise at AI pace",
+      "description": "Repeated expressions of being caught off guard by the speed of AI progress, suggesting even tech-savvy observers are overwhelmed",
+      "excerpts": [
+        "the current advances in artificial intelligence have caught me completely by surprise",
+        "the tool Sora from OpenAPI, which is about generating a video, I thought that was two or three years off. And that surprised me.",
+        "I keep getting surprised and I'm just wrong over and over again"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI for customer service",
+      "description": "Framing LLM application through the lens of improving customer service, a mundane but broadly impactful use case",
+      "excerpts": [
+        "you apply AI and large language models to customer service And if you take it seriously and keep the models up to date, you might build customer service systems which are far superior to what most companies do these days",
+        "their job evolves from doing straight customer service to training large language models and I'm guessing That field is both better paid and more fun than being a customer service rep"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Worker role evolution",
+      "description": "AI not replacing workers but transforming their roles into higher-value positions (e.g., customer service reps becoming LLM trainers)",
+      "excerpts": [
+        "their job evolves from doing straight customer service to training large language models and I'm guessing That field is both better paid and more fun than being a customer service rep"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Child safety guardrails",
+      "description": "Concern that GPT systems for children lack adequate protections, and the role of Common Sense Media in filling that gap",
+      "excerpts": [
+        "not enough people are thinking about the guardrails you put around GPT systems that are intended for kids",
+        "I've worked with common sense media and funded them to both develop guidelines and to start rating sites which do large language models, much like common sense media already reviews TV and movies"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Ninth commandment framing",
+      "description": "Grounding AI ethics in a moral/religious framework about not bearing false witness, used to articulate the hallucination problem",
+      "excerpts": [
+        "I'm a kind of a Old Testament kind of guy with a focus on the ninth commandment, which says that you really shouldn't bear false witness or lie to people. And that means you don't want to train large language models to lie to people."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Hallucination as lying",
+      "description": "Reframing technical LLM hallucinations in moral terms as lying, making the issue accessible to non-technical audiences",
+      "excerpts": [
+        "We need very few if any hallucinations. Which is a polite way of talking about the large language model going off the rails and lying to people."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Wikipedia as trust model",
+      "description": "Proposing Wikipedia's reliable/deprecated sources framework as a blueprint for curating LLM training data",
+      "excerpts": [
+        "Maybe the beginning of a solution to that could be found, well, in Wikipedia research. They talk about reliable sources, they talk about deprecated sources.",
+        "When it comes to trustworthiness of large language models, the start is to take a look at Wikipedia reliable sources and deprecated sources."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Nobody thinking about problem",
+      "description": "Claim that the intersection of trustworthy journalism and trustworthy LLMs is a space almost nobody is addressing",
+      "excerpts": [
+        "in terms of trustworthy journalism, trustworthy large language models, no one has the answer because hardly anyone is thinking about the problem"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Philanthropic delegation model",
+      "description": "Newmark's self-described approach of funding smarter people with 'main character energy' rather than driving solutions himself",
+      "excerpts": [
+        "I find people who are smarter than me, who have what some call main character energy, who can better speak up on behalf of these matters that are really important in a free country",
+        "I'm not smart. I know a lot about a few things, and I will normally defer to people who really know the stuff."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Press as immune system",
+      "description": "Metaphor linking trustworthy journalism to democratic survival, grounding philanthropy in civic duty",
+      "excerpts": [
+        "Mr. Scholsky taught us that a trustworthy press is the immune system of democracy. We need a trustworthy press speaking truth to power, asking tough questions, to survive as a democracy."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Journalism as national survival",
+      "description": "Escalating the stakes of journalism support from public good to existential national security concern",
+      "excerpts": [
+        "which in the case of the US is the same as well, we're talking national survival",
+        "we really need it as a matter of national survival"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "mixed"
+    },
+    {
+      "code": "Accessible journalism education",
+      "description": "Using philanthropy to make journalism education free and accessible, particularly for economically disadvantaged students",
+      "excerpts": [
+        "CUNY, the City University of New York, nearly 200 years it's been about helping people who grow up with little or no money helping them get good educations so they could get good jobs",
+        "CUNY journalism is very effective in terms of teaching people who maybe need a hand to become seriously trustworthy reporters"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "AI literacy imperative",
+      "description": "Insistence that journalism schools must teach generative AI skills to both current students and alumni",
+      "excerpts": [
+        "We need journalism schools to start teaching their students and alumni what's happening with generative AI. That means teaching courses that serving journalism professionals as well as students can learn what's going on, can learn prompt engineering"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Philanthropist call to action",
+      "description": "Urging other wealthy individuals to fund journalism, framed as a duty rather than optional charity",
+      "excerpts": [
+        "What I need to do is find some way to influence people with lots of discretionary cash to support journalism because we really need it",
+        "We need philanthropists to get involved hands-on, focusing on trustworthy reporting with generative AI that's been trained with guardrails"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Trust and safety pressure",
+      "description": "Acknowledging that trust and safety teams face external pressures that undermine their ability to do the right thing",
+      "excerpts": [
+        "usually the trust and safety people want to do the right thing, whatever that means, but that's hard to do these days. There's all sorts of pressure on people."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Regulation lag",
+      "description": "Technology outpacing legal, regulatory, and cultural frameworks, with AI accelerating the gap further",
+      "excerpts": [
+        "The internet and everything associated with it has evolved faster than law, regulation, and custom can keep up with. And the AI stuff is doing that even more."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    },
+    {
+      "code": "Hype versus reality",
+      "description": "Journalists need technical literacy to distinguish genuine AI capabilities from marketing claims",
+      "excerpts": [
+        "they need to know to distinguish hype versus reality, and sometimes the too casual way that people speak about artificial intelligence",
+        "Journalists need to get right to the point in terms of the capabilities and limitations of AI as it exists right now"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI for research filtering",
+      "description": "Envisioning journalists using AI to sift through noise and connect dots in large datasets",
+      "excerpts": [
+        "journalists can use AI to do research to filter important signals out of noise. For example, if you have huge amounts of data, sometimes generative AI can connect the dots and make sense out of huge amounts of data"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "AI writing assistance limited",
+      "description": "AI can help with drafts but cannot replicate the human quality of storytelling",
+      "excerpts": [
+        "maybe AI can do a little a little in terms of suggested writing, because I have learned writing to deadline is hard",
+        "I don't see AI being capable of something hard to talk about that humans add to storytelling because storytelling is a really big deal"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "mixed"
+    },
+    {
+      "code": "Scripts as software",
+      "description": "Reframing entertainment scripts as software programs that could be fed into generative AI, blurring content/code boundaries",
+      "excerpts": [
+        "a movie or TV script is a program. It's software. And that could be fed into generative AI at some point to produce something credible."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "Entertainment disruption",
+      "description": "AI implications for entertainment moving faster than industry players expected",
+      "excerpts": [
+        "this is big implications for entertainment, because it's moving faster than the writers, directors, the studios thought"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "mixed"
+    },
+    {
+      "code": "Reactive industry posture",
+      "description": "News and creative industries in a defensive, reactive stance toward AI rather than proactively shaping it",
+      "excerpts": [
+        "it seems like we are still in that reactive stage, trying to cope up with all of the advancements in AI and still being overwhelmed"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Craig GPT as self-reflection",
+      "description": "Playful concept of training an LLM on personal output as both a gag and a potential fact-checking tool",
+      "excerpts": [
+        "maybe I should get some help and feed everything I've written into a GPT system and see what happens because maybe it would be a good fact-checking system for stuff that I've said or not said"
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "positive"
+    },
+    {
+      "code": "Consciousness fascination persists",
+      "description": "Despite decades of pragmatism, Newmark still harbors a science-fiction-inspired hope that consciousness might emerge from AI",
+      "excerpts": [
+        "the part of me that loves science fiction, I guess, thinks maybe consciousness will spontaneously emerge. I've never lost interest in that topic."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "Strategic humility",
+      "description": "Newmark's repeated self-deprecation as rhetorical strategy, positioning himself as connector rather than expert",
+      "excerpts": [
+        "I'm not all that smart. I chat with people, I try to learn",
+        "That's not humility on my part. That's just me being real."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "neutral"
+    },
+    {
+      "code": "Pessimistic near-term outlook",
+      "description": "Despite philanthropic optimism, expressing doubt about near-term ability to manage AI's impact on journalism",
+      "excerpts": [
+        "The people I support are trying to work with well the entire industry and government. To try to figure out how to make sense of all this, and I'm not that optimistic, at least in the near term."
+      ],
+      "speaker": "Craig Newmark",
+      "valence": "negative"
+    }
+  ],
+  "episode_summary": "This episode reveals a paradox at the heart of philanthropic AI engagement: Newmark possesses deep historical perspective on AI (having considered studying neural networks in the 1970s) yet confesses to being repeatedly blindsided by modern AI progress. His approach to the journalism-AI crisis is fundamentally indirect -- funding institutions and individuals rather than prescribing solutions -- which reflects both genuine intellectual humility and the limits of philanthropy when structural answers are absent. The conversation exposes a critical gap: despite massive philanthropic investment in journalism education and ethics centers, neither Newmark nor the institutions he funds have a concrete framework for ensuring LLM trustworthiness, defaulting instead to Wikipedia's consensus model as the closest available analogue. Most strikingly, the discussion stays almost entirely at the level of principle and aspiration rather than implementation, suggesting that even well-resourced actors in the journalism-AI space are still operating in a pre-strategic phase where the problems are easier to name than to solve.",
+  "surprises": [
+    "A tech billionaire and decades-long technologist admits to being 'completely surprised' by generative AI advances and 'wrong over and over again' about timelines",
+    "Newmark frames AI hallucination not as a technical bug but as a moral failing through the lens of the Ninth Commandment -- a distinctly non-technical framing from a software engineer",
+    "Despite funding multiple AI-journalism initiatives, Newmark cannot name specific organizations that are 'at the forefront' of solving the trustworthy-AI-for-journalism problem",
+    "The most concrete AI model for training data curation cited is Wikipedia's community-consensus system rather than any purpose-built journalism tool",
+    "Newmark's most practical personal AI idea -- Craig GPT for self-fact-checking -- started as a fundraising gag, suggesting serious applications often emerge from play"
+  ],
+  "tensions": [
+    "Newmark champions AI literacy for journalists but admits he himself has not taken AI training courses and is 'getting too old for this'",
+    "He expresses excitement about AI's potential while simultaneously saying he is 'not that optimistic, at least in the near term' about managing its impact",
+    "The philanthropy model relies on finding people 'smarter than me' but Newmark also acknowledges 'no one has the answer' -- raising the question of who exactly should be funded to solve unsolved problems",
+    "AI is framed as both a tool journalists should embrace (for research, data analysis, writing help) and a threat that needs guardrails -- without a clear framework for where the line is",
+    "Newmark wants LLMs trained on reliable sources but the conversation never addresses the commercial incentives of LLM companies that make this difficult to enforce"
+  ]
+}

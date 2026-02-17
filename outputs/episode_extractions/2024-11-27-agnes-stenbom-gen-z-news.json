@@ -1,0 +1,282 @@
+{
+  "episode_meta": {
+    "title": "Agnes Stenbom: Reimagining News Through the Eyes of Gen Z",
+    "date": "2024-11-27",
+    "guests": [
+      {
+        "name": "Agnes Stenbom",
+        "role": "Head of InLab and Trust Initiatives; Industrial PhD Candidate",
+        "organization": "Schibsted Media"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Sweden/Norway (Nordic region)",
+    "word_count": 7696
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "custom GPT (buddy reader for editorial feedback)",
+    "generative AI (music generation for News is Music prototype)",
+    "AI chatbots (election chatbot for EU election)",
+    "AI-powered CMS features (summaries, content production)",
+    "AI avatars (News Clinic concept)",
+    "Schibsted Shift AI Academy (training platform)"
+  ],
+  "use_cases": [
+    {
+      "description": "News Clinic: AI-driven news therapist concept -- a self-designed AI avatar that coaches users through news consumption and helps them deal with negative emotions arising from the news",
+      "tool_used": "AI avatar / chatbot",
+      "organization": "Schibsted Media / InLab",
+      "outcome": "Speculative prototype co-created with 15-year-olds; sparked internal discussions about media responsibility for audience emotional wellbeing",
+      "stage": "concept"
+    },
+    {
+      "description": "News is Music: converting written news articles into AI-generated rap songs to make news more engaging for young audiences",
+      "tool_used": "Generative AI (music generation)",
+      "organization": "Schibsted Media / Aftonbladet",
+      "outcome": "Live prototype tested on Aftonbladet with 18-30 age bracket; positive user feedback with young adults saying they appreciated that a traditional news brand dared to experiment; not currently live due to copyright/legal issues",
+      "stage": "pilot"
+    },
+    {
+      "description": "News concierge concept: an individually adapted AI news butler that delivers news at the right time, in a personalized tone of voice, with a user-designed avatar appearance",
+      "tool_used": "AI avatar / personalization",
+      "organization": "Schibsted Media / InLab",
+      "outcome": "Speculative concept from co-creation processes; raises questions about news organizations giving up control of message delivery",
+      "stage": "concept"
+    },
+    {
+      "description": "AI-generated article summaries integrated into the shared CMS across Schibsted brands",
+      "tool_used": "AI-powered CMS features",
+      "organization": "Schibsted Media",
+      "outcome": "Content production features available across Schibsted newsrooms",
+      "stage": "production"
+    },
+    {
+      "description": "EU election chatbot allowing users to interact with election-related content",
+      "tool_used": "AI chatbot",
+      "organization": "Schibsted Media",
+      "outcome": "Deployed for EU election coverage",
+      "stage": "production"
+    },
+    {
+      "description": "Buddy reader: a custom GPT tool where journalists get AI-generated feedback on their text instead of relying on peer review",
+      "tool_used": "Custom GPT",
+      "organization": "Schibsted Media",
+      "outcome": "Journalists can get editorial feedback from AI closer to the editorial process",
+      "stage": "production"
+    },
+    {
+      "description": "Shift AI Academy: a company-wide AI training program with specific learning tracks for product, business, editorial, and engineering staff",
+      "tool_used": "AI training platform",
+      "organization": "Schibsted Media",
+      "outcome": "Thousands of employees enrolled across departments; builds organizational AI literacy",
+      "stage": "production"
+    },
+    {
+      "description": "FAST framework (Fairness, Accountability, Sustainability, Transparency): risk assessment framework with trainings, workshop materials, self-assessment questions, research resources, and testing tools for AI product teams",
+      "tool_used": "Risk assessment framework",
+      "organization": "Schibsted Media",
+      "outcome": "Teams quiz themselves against four principles to assess and mitigate AI risks; originally built for Schibsted at large (including marketplaces and financial services)",
+      "stage": "production"
+    },
+    {
+      "description": "Publishing AI-generated content through ChatGPT in newsroom workflows",
+      "tool_used": "ChatGPT",
+      "organization": "Schibsted Media",
+      "outcome": "Materials created through ChatGPT are published, though accountability gaps remain unresolved",
+      "stage": "production"
+    },
+    {
+      "description": "Agnes Stenbom personally uses ChatGPT daily as a creative sounding board for testing and getting feedback on ideas and writing",
+      "tool_used": "ChatGPT",
+      "organization": "Schibsted Media (individual use)",
+      "outcome": "Enhanced individual creative workflow and idea validation",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Around 30% of people in Schibsted's markets actively choose to avoid news, often due to low trust and feelings that journalism is a negative force in their lives",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "data-referenced"
+    },
+    {
+      "claim": "News avoiders are typically people who are already marginalized in society -- having relatively low socioeconomic status or capital makes you a more likely news avoider",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "research-based"
+    },
+    {
+      "claim": "The important thing to protect is the function of journalism and its role in democracies, not necessarily the current number of staffers -- that is not bound by natural law",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Traditional journalist roles will not change radically overnight but will transform, with future roles connected to what makes human expertise unique compared to machine functionality",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Her research identifies empathy and creativity as areas where human journalists are relatively better than machines",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "research-based"
+    },
+    {
+      "claim": "Technical oversight is essentially editorial oversight and ultimately accountability -- publishers cannot ethically publish content produced in ways they do not understand",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "No publisher currently has a good structured answer for accountability when using generative AI (e.g., ChatGPT) in content production",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The real competitive advantage in AI is newsroom culture and organizational ability to transform, not the tools themselves -- which is why professionals are so open to sharing about AI across organizations",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Schibsted has been around since the 1800s and has a legacy of innovating through uncomfortable bets that creates institutional 'muscle memory' for taking risks",
+      "speaker": "Agnes Stenbom",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "News avoidance: approximately 30% of audiences in Nordic markets actively avoid news, particularly marginalized groups, threatening democratic participation",
+      "category": "audience"
+    },
+    {
+      "description": "Young audiences experience anxiety, stress, sadness, and anger from consuming news, often connecting it to racism and prejudice against minority groups",
+      "category": "audience"
+    },
+    {
+      "description": "Discrepancy between journalist and audience views on responsibility: journalists say emotional impact is not their job, while young people refuse to consume a product that makes them feel bad",
+      "category": "editorial"
+    },
+    {
+      "description": "Legal and copyright issues with generative AI: the News is Music prototype was taken down due to unresolved questions about who holds copyright to original music used to train generative models",
+      "category": "legal"
+    },
+    {
+      "description": "Accountability gap: no publisher currently has a structured way to ensure accountability for content produced through opaque generative AI systems like ChatGPT",
+      "category": "ethical"
+    },
+    {
+      "description": "Organizational resistance and fear: some employees are skeptical, scared, or hesitant about AI adoption despite Schibsted's culture of innovation",
+      "category": "organizational"
+    },
+    {
+      "description": "Risk of superficial AI adoption: organizations rushing to experiment without understanding how AI tools work under the hood, treating them as black boxes",
+      "category": "technical"
+    },
+    {
+      "description": "Tension between giving users control over news delivery (personalized avatars, formats) and maintaining editorial control of the message",
+      "category": "editorial"
+    },
+    {
+      "description": "Job displacement concerns as AI transforms traditional journalism tasks and roles",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Your product makes us feel like shit, so we won't consume it.",
+      "speaker": "Agnes Stenbom (paraphrasing the youth participants)",
+      "topic": "Young audiences' emotional response to news and why they avoid it",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it's very important that when we do so, we make sure that we're not just scratching the surface and allowing the big black box to just be a big black box, but that we are curious around more than the very superficial level.",
+      "speaker": "Agnes Stenbom",
+      "topic": "Need for deep technical understanding of AI tools rather than superficial experimentation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think a key issue in our industry is that many of us recognize that we exist to serve the public. That's why we go to work every day. We rarely let the public be part of deciding what we should be or what we should be doing.",
+      "speaker": "Agnes Stenbom",
+      "topic": "Opening up journalism to co-creation with the public",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The real competitive advantage is our newsroom culture, our organizational ability to transform, to rethink, to innovate. And we can't copy that simply by looking or listening at someone else's presentation. That's work that happens in-house.",
+      "speaker": "Agnes Stenbom",
+      "topic": "Why AI knowledge-sharing across organizations is not a competitive threat",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I really think that we need to have more discussions around that -- is it ethical for us to publish things that are produced in ways that we don't understand, if we don't have technical oversight or if we don't have technical expertise that enables us to really understand the process behind production.",
+      "speaker": "Agnes Stenbom",
+      "topic": "Accountability and technical oversight as editorial responsibility",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I remember word by word every article that we did last year because it was music and I remember music, but I couldn't tell you what I listened to on my lunch podcast today.",
+      "speaker": "Agnes Stenbom",
+      "topic": "The power of music as a news format for engagement and retention",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Co-create news products directly with 'news outsiders' -- the marginalized groups currently disconnected from journalism -- through paid programs and design sprints rather than designing for them in isolation",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "news organizations seeking to reach younger and underrepresented audiences"
+    },
+    {
+      "advice": "Invest in cultural shift alongside technical training: create forums where employees can openly discuss AI risks and concerns rather than suppressing skepticism",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "newsroom leaders managing AI transformation"
+    },
+    {
+      "advice": "Anchor AI product pitches in user needs -- not in the technology being new and cool -- by showing the audience problem first and then how a specific tool can help solve it",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "innovation teams and product managers in newsrooms"
+    },
+    {
+      "advice": "Build in-house technical AI competence so the organization is not just using tools blindly; serious publishers need to understand what goes on under the hood",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "news organizations adopting AI"
+    },
+    {
+      "advice": "Frame AI job displacement discussions around protecting the democratic function of journalism rather than preserving specific current roles or headcounts",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "industry leaders and newsroom managers"
+    },
+    {
+      "advice": "Establish dedicated local AI teams (hubs/task forces) with short mandates where journalists, UX designers, and PMs go full-time on AI transformation, separate from their regular roles",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "newsroom leaders building AI capacity"
+    },
+    {
+      "advice": "Explore new formats beyond the article -- such as music, interactive chatbots, or personalized concierge delivery -- by treating the information as the core product that can be delivered in multiple ways",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "editorial innovation teams"
+    },
+    {
+      "advice": "Focus on leveraging uniquely human skills like empathy and creativity to prepare for a future of hybrid human-AI workflows",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "journalists and newsroom professionals"
+    },
+    {
+      "advice": "Join or create regional professional networks for AI in journalism to share openly about successes, struggles, and responsible practices -- the real competitive advantage cannot be copied from a presentation",
+      "speaker": "Agnes Stenbom",
+      "target_audience": "media professionals and industry organizations"
+    }
+  ],
+  "external_references": [
+    "Schibsted Media (Nordic media group, Norway and Sweden)",
+    "Tinius Trust (owner of Schibsted Media)",
+    "Aftonbladet (Swedish newspaper, Schibsted brand)",
+    "InLab (Inclusion Lab at Schibsted Media)",
+    "News Changemaker Program (InLab youth co-creation program)",
+    "Shift AI Academy (Schibsted company-wide AI training program)",
+    "FAST framework (Fairness, Accountability, Sustainability, Transparency -- Schibsted AI risk assessment)",
+    "Nordic AI Journalism Network (co-founded by Agnes Stenbom and Ulla Sandborg/Sakuson)",
+    "Nordic AI in Media Summit (NAMS) -- annual conference held in Copenhagen",
+    "Swedish Public Broadcasting Radio (Ulla Sakuson's organization)",
+    "ChatGPT (OpenAI)",
+    "Harvard Innovation Labs Spark grant",
+    "Newsroom Robots podcast and newsletter (newsroomrobots.com)"
+  ]
+}

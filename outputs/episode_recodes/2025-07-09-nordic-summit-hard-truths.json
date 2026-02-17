@@ -1,0 +1,183 @@
+{
+  "episode_id": "2025-07-09-nordic-summit-hard-truths",
+  "episode_title": "Fabian Heckenberg, Naja Nielsen & Gard Steiro: The Hard Truths About AI Every Newsroom Leader Can't Ignore",
+  "date": "2025-07-09",
+  "pass": "4-deductive-recode",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.2",
+        "T01.5",
+        "T01.1"
+      ],
+      "best_quote": {
+        "text": "In the start of AI we insisted on humans in loop. And if we still insist on that, we won't take the advantages of AI. It is impossible to have a personalized content with a human in loop.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "Extensive discussion of human-in-the-loop moving to human-on-the-loop (Steiro: 'if we still insist on humans in the loop for everything, we won't take the advantages of AI'). Multi-agent error-checking as alternative to human review. Discussion of what journalism remains uniquely human -- storytelling vs. the article format. Steiro argues tools will be commoditized, so the differentiator is journalism that cannot be copied."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.2",
+        "T02.4",
+        "T02.1"
+      ],
+      "best_quote": {
+        "text": "People are not in doubt that we are competent. They are in doubt about whether we want to do them well. Whether we really have their interests at our hearts and also whether our heart is in the right place because they see so much bullshit around.",
+        "speaker": "Naja Nielsen"
+      },
+      "summary": "Trust is a central theme. INLAB research finding that relevance drives trust among young users. Nielsen distinguishes competence-trust from intention-trust: audiences doubt whether newsrooms have their interests at heart. Human errors (killing the queen, Haaland shooting) used to contextualize AI errors against human fallibility. Generational divergence in news habits and trust signals discussed."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "In a world where it's so easy to create multimodal content and it's getting harder to verify if content is true, there's a chance for quality journalism to double down on what we already did over the last five to ten years.",
+        "speaker": "Fabian Heckenberger"
+      },
+      "summary": "Heckenberger advocates a 'transformative framework' for AI rather than rigid guidelines. Discussion about journalists being bad at admitting their own errors (ethics-practice gap). Steiro frames business value as inseparable from editorial innovation, implying mission-aligned adoption. No deep dive into specific ethics frameworks or procurement."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T04.3"
+      ],
+      "best_quote": {
+        "text": "Use multi-agent systems where one AI performs a task and another AI agent checks for errors, rather than relying solely on human-in-the-loop for quality assurance.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "Brief mention of multi-agent error-checking (one AI performs, another audits). Schibsted AI lab referenced. No deep discussion of model selection, RAG, or technical architecture."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T05.1"
+      ],
+      "best_quote": {
+        "text": "The worst legacy we've got in media, especially in news organizations, is that we believe the one that is the editor in chief must be the most clever man in the room and therefore he or she must make all decisions of importance.",
+        "speaker": "Naja Nielsen"
+      },
+      "summary": "Nielsen says leaders should not pretend to be the smartest in the room. Eri from Helsingin Sanomat referenced as saying leaders are responsible for being informed. Minimal direct discussion of training programs or adoption barriers."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.2",
+        "T06.3",
+        "T06.4",
+        "T06.5"
+      ],
+      "best_quote": {
+        "text": "I think my most important task as a leader is not to point direction, but to foster a discussion within the organization.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "This is the dominant theme. Steiro on fostering organizational discussion rather than pointing direction. Nielsen on decentralized decision-making and learning from Silicon Valley methods. Heckenberger on interdisciplinary teams and the transformative framework. Scenario planning over roadmaps. Three-basket ROI measurement. Prioritization battle between subscriber features, Gen AI, and new tools. Testing on the right users. Every AI project needing business value."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T07.1",
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "All the tools we are presenting here will be from the shelf in a year. So maybe we shouldn't focus so much on that and just wait. What we need to focus on is what really can be our unique selling point for the future.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "Steiro: 'All tools will be off the shelf in a year' implies commoditization dynamic. Facts not copyrightable as legal/economic threat. Foundation ownership model as alternative. No deep platform-dependency or licensing discussion."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T08.1",
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "I started in journalism 25 years ago and I still write my stories the exactly the same way. So the article will die, should die, storytelling won't die.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "Strong discussion of format innovation. Heckenberger: 'News articles are maybe already dead.' Steiro: 'the article will die, should die, storytelling won't die.' AI personalization for younger audiences. Audio as growing format at SZ. Yle testing differently curated news. VGX project for non-users."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T09.1",
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "If we don't think about new business models for journalism in the AI shift, then the products can be as good as we hope for, but we will not be able to earn enough money to finance journalism.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "Central concern. Steiro: every AI project needs business value. Two-pillar model (ads + subscriptions) may not be sustainable. Foundation ownership as financing model. Smaller diversified revenue streams. Newsrooms reluctant to integrate business thinking into editorial AI. Ad revenue threatened for smaller players."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "summary": "Minimal discussion of regulation. Facts not copyrightable as a legal issue is the closest touch point. No discussion of EU AI Act, provenance standards, or journalism as accountability mechanism."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "When testing new AI-powered products for new audiences, recruit users you don't currently have rather than testing on loyal super users, who will always prefer the status quo.",
+        "speaker": "Gard Steiro"
+      },
+      "summary": "VGX project as prototype tested on wrong users. Time-boxed experimentation with one-year timelines and kill discipline. Scenario planning as prototype strategy. Schibsted AI lab. But no deep discussion of prototype-to-production gap or workflow integration."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "summary": "No substantive discussion of data governance, privacy, or source protection in this episode."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T02",
+    "T06",
+    "T08",
+    "T09"
+  ],
+  "secondary_themes": [
+    "T03",
+    "T07",
+    "T11"
+  ],
+  "tangential_themes": [
+    "T04",
+    "T05",
+    "T10",
+    "T12"
+  ]
+}

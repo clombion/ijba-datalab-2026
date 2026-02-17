@@ -1,0 +1,170 @@
+{
+  "episode_id": "2025-09-08-ivar-krustok-estonia-delfi",
+  "episode_title": "Ivar Krustok: How Estonia's Media Giant Builds AI That Actually Works",
+  "date": "2025-09-08",
+  "pass": "4-deductive-recode",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.4"
+      ],
+      "best_quote": {
+        "text": "Rather than maybe it becoming a chat interface, it's more of a Teams push notification with a quick summarization because you can see much more value being derived from this.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "Concrete automation examples: transcription for Estonian, summarization tools, live cross-Baltic translation feed, court case monitoring producing 5-6 articles in first month. Translation as killer app for small languages. Copilot-powered dashboard querying replaces manual filtering."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.2",
+        "T02.1"
+      ],
+      "best_quote": {
+        "text": "We have in Estonia the highest digital only subscriber penetration rate in the world. So we have around 21% people who are digital subscribers and they're paying for the content every month.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "Estonia's high direct traffic driven by high trust provides insulation from platform dependency. Transparency about data handling in audience-facing AI features recommended. 21% digital subscriber penetration reflects strong audience trust. AI image generation campaign required careful cultural sensitivity (national costume patterns, facial expressions)."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T03.2"
+      ],
+      "summary": "Vendor evaluation scrutiny -- vendors adding unnecessary AI features at premium. Image generation campaign: no user images stored or used for training. Limited direct ethics framework discussion."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.2",
+        "T04.3",
+        "T04.4",
+        "T04.5"
+      ],
+      "best_quote": {
+        "text": "It's easy to get a dashboard up and running but it's really hard and it's really testing intense to actually play a groundwork where okay, I want to add something and then it becomes easy because you have a really good foundation.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "Rich technical detail. Internal ChatGPT-like platform on Azure + Hugging Face open-source models. 25-year archive in vector database as RAG. Microsoft Fabric for data infrastructure. Court case monitoring with LLM summarization + Teams push. AI image generation on AWS with open-source models. Agentic browser automation for web scraping. Rapid prototyping with Manus AI + V0.dev + Stitch."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3"
+      ],
+      "best_quote": {
+        "text": "I think this is the first sort of the revolution where I see that news publishers are more openly sharing what they're working on. So I think this is something that I was hoping that was years and years already it would be happening.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "AI literacy program with biweekly open discussions. Pivoted from top-down training to peer-driven idea sharing. 80+ premium ChatGPT licenses company-paid. Initial training approach deemed insufficient -- needed to identify high-ROI use cases from power users first. Internal tool UX gap frustrating users accustomed to ChatGPT."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.2",
+        "T06.4"
+      ],
+      "summary": "Three-bucket AI strategy: everyday tools, experimental projects, literacy programs. Chief AI and Innovation Officer role. Building data foundation over years requiring management patience. Industry collaboration increasing. But organizational strategy not the dominant focus."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T07.3",
+        "T07.4"
+      ],
+      "best_quote": {
+        "text": "I think this is the first sort of the revolution where I see that news publishers are more openly sharing what they're working on.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "Small-market publisher cannot negotiate enterprise deals like large English-language publishers. Vendors adding AI features at premium. Estonia's high direct traffic insulates from platform dependency. Industry collaboration increasing. Token price drops enabling previously prohibitive use cases."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T08.3",
+        "T08.4"
+      ],
+      "summary": "Audience-facing AI image generation campaign (20K images). Third-party summarization on articles. Push notifications evolved from intended chat interface. Copilot-powered analytics. But product reimagination is not the dominant focus -- more about internal tools."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.2",
+        "T09.3"
+      ],
+      "summary": "Audience-facing AI chat not profitable -- monetization of search box cannot match ad revenue from page views. 21% subscriber penetration as world-leading. Token cost drops enabling new use cases. Vendors inflating costs with unnecessary AI. Small-market publisher disadvantage in enterprise deals."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "summary": "No substantive discussion of regulation or governance frameworks."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "I can already send them a test link. Like, okay, we talked about it a while ago that something like this would help. Like is this something you're envisioning and it would already have some sort of mock data already, live data from the API.",
+        "speaker": "Ivar Krustok"
+      },
+      "summary": "Central theme. 3-hour Google Trends prototype with live data using Manus AI + Stitch + V0.dev. Court case tool evolved from chat to push notification in production. Data foundation investment over years enabling rapid iteration. Working prototypes replacing slide decks for stakeholder alignment. Multiple tools at different stages (production, experimental, pilot, planned)."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
+      "summary": "Internal platform ensures data does not leave company infrastructure. No user images stored or used for training in image generation campaign. Transparency about data handling recommended. Structured data precondition for AI tools. 8 years of data foundation work."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T04",
+    "T05",
+    "T11"
+  ],
+  "secondary_themes": [
+    "T02",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T03",
+    "T10"
+  ]
+}

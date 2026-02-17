@@ -1,0 +1,273 @@
+{
+  "episode_meta": {
+    "title": "Building AI Products with an Editor-Centric Approach",
+    "date": "2024-02-09",
+    "guests": [
+      {
+        "name": "Alessandro Alviani",
+        "role": "Product Lead for AI",
+        "organization": "IPPEN Digital"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Germany",
+    "word_count": 3605
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "GPT-3",
+    "text-to-image models",
+    "LLM-powered headline and lead suggestion system",
+    "transcription tool",
+    "editorial assistant",
+    "LLM self-evaluation system",
+    "prototyping platform for Gen AI tasks",
+    "open-source large language models (fine-tuned)",
+    "AI-powered curation system (Microsoft News)",
+    "synthetic voices for AI-powered video explainers",
+    "Aleph Alpha LLMs"
+  ],
+  "use_cases": [
+    {
+      "description": "Prototyping platform for Gen AI tasks allowing editors to transcribe interviews, summarize articles, rephrase articles in plain language, and generate video scripts augmented with synthetic voices",
+      "tool_used": "Prototyping platform (Gen AI)",
+      "organization": "IPPEN Digital",
+      "outcome": "Editors can perform a wide range of generative AI tasks from a single platform",
+      "stage": "production"
+    },
+    {
+      "description": "LLM-powered system integrated into CMS that gives editors suggestions for headlines and leads",
+      "tool_used": "LLM-powered headline/lead suggestion system",
+      "organization": "IPPEN Digital",
+      "outcome": "Editors receive AI-generated headline and lead suggestions directly in CMS",
+      "stage": "production"
+    },
+    {
+      "description": "Tool to suggest how to illustrate a news story using text-to-image models, generating only illustration-style pictures (not photorealistic) to avoid confusion with real photos",
+      "tool_used": "Text-to-image models",
+      "organization": "IPPEN Digital",
+      "outcome": "Images are instantly recognizable as AI-generated; reduces time-consuming illustration task",
+      "stage": "production"
+    },
+    {
+      "description": "Self-evaluation system for LLM output that calculates metrics (correctness, completeness, comprehensiveness) against a threshold, reprompting automatically if threshold is not met",
+      "tool_used": "LLM self-evaluation system",
+      "organization": "IPPEN Digital",
+      "outcome": "Reduces hallucination risk; only content meeting quality threshold is presented to editors for final review",
+      "stage": "production"
+    },
+    {
+      "description": "Fine-tuning task-specific large language models on IPPEN's own articles using open-source models",
+      "tool_used": "Open-source LLMs (fine-tuned)",
+      "organization": "IPPEN Digital",
+      "outcome": "Task-specific models trained on proprietary content",
+      "stage": "production"
+    },
+    {
+      "description": "AI feature in apps allowing readers to read articles in different formats: bullet points, longer summaries, translated into another language, or in plain/simple language",
+      "tool_used": "LLM-based content reformatting",
+      "organization": "IPPEN Digital",
+      "outcome": "Readers can choose format that fits their current reading situation",
+      "stage": "production"
+    },
+    {
+      "description": "Editorial assistant tool co-developed with intern editors to catch editorial, stylistic, and grammatical errors, addressing quality risks especially during weekends and evenings",
+      "tool_used": "Editorial assistant (LLM-based)",
+      "organization": "IPPEN Digital",
+      "outcome": "Tested with four different newsrooms/departments; addresses style guide compliance under time pressure",
+      "stage": "production"
+    },
+    {
+      "description": "Transcription tool that evolved to include translation (e.g., English to German), summarization, bullet point extraction, and identification of strongest quotes from audio",
+      "tool_used": "Transcription tool (AI-powered)",
+      "organization": "IPPEN Digital",
+      "outcome": "Features developed iteratively based on direct editor feedback",
+      "stage": "production"
+    },
+    {
+      "description": "Early experimentation editing newswire content using AI",
+      "tool_used": "LLMs",
+      "organization": "IPPEN Digital",
+      "outcome": "Foundation for later AI tool development",
+      "stage": "pilot"
+    },
+    {
+      "description": "Microsoft replaced human journalists curating MSN website and Edge browser with an AI-powered curation system",
+      "tool_used": "AI-powered curation system",
+      "organization": "Microsoft News",
+      "outcome": "Journalists were let go; negative consequences for people involved and quality of news coverage",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "IPPEN started AI workshops for editors on November 29, 2022 -- exactly one day before the launch of ChatGPT -- demonstrating they were already investing in AI education before the generative AI hype",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Replacing human journalists with AI systems at Microsoft News had negative consequences both for the people directly involved and for the quality of news coverage",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The risk of editorial, stylistic, and grammatical errors is becoming bigger especially at weekends and in the evening due to time pressure",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Editor-centric product development where editors are involved at all stages leads to tools that bring real business value and match editor workflows",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Text-to-image models should only produce illustration-style pictures that are instantly recognizable as AI-generated, never images that could be mistaken for photos",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "When something goes wrong with AI-generated content, it is not the algorithm's fault -- the newsroom is accountable",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The LLM self-evaluation system can reprompt itself based on editor-derived feedback to address errors and reduce hallucination risk",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Risk of journalists being replaced by AI systems, as experienced firsthand at Microsoft News where contracts were cancelled",
+      "category": "organizational"
+    },
+    {
+      "description": "Maintaining trust in news media in the generative AI era requires strict guardrails, human-in-the-loop, and transparency",
+      "category": "ethical"
+    },
+    {
+      "description": "LLM hallucination risk requiring a dedicated self-evaluation system to check factuality and completeness of AI-generated content",
+      "category": "technical"
+    },
+    {
+      "description": "Ensuring AI-generated images are not mistaken for real photos, requiring deliberate restriction to illustration-style outputs",
+      "category": "ethical"
+    },
+    {
+      "description": "Maintaining editorial quality (style guide compliance, grammatical accuracy) under time pressure, especially during weekends and evenings",
+      "category": "editorial"
+    },
+    {
+      "description": "Countering unrealistic hype around LLMs (e.g., 'five prompts that will make you more productive') by helping editors develop a more realistic understanding of AI capabilities and limitations",
+      "category": "organizational"
+    },
+    {
+      "description": "Ensuring transparency both internally (educating editors) and externally (bylines disclosing AI use to readers)",
+      "category": "ethical"
+    },
+    {
+      "description": "Prioritizing which AI product ideas to pursue from many possibilities using scalability, impact-effort metrics, and feasibility criteria",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I've been in a situation where I had to tell my colleagues, I'm sorry, we have to cancel your contract. And I've seen what happens when you replace human journalists with AI systems and have seen which kind of consequences this can have... for the people who are directly involved but also for the quality of the news coverage.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Consequences of replacing journalists with AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "When we talk about responsible use, I talk about the fact that if something goes wrong and it can happen, unfortunately, then it's not the algorithm's fault that something has been published, that it was false, but it's our own. We are accountable for that.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Accountability for AI-generated content",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We do not create images that could be mistaken for photos. So we only produce illustration style pictures because they are instantly recognizable as AI generated pictures.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Responsible use of text-to-image AI in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We usually don't ask them, what do you want to have? Because this will be a bit tricky question, but we try to better understand how they work and later analyze their feedback so we have a better idea of their work day and their pain points.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Product discovery methodology for AI tools",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "They are not just users. They are co-creators.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Editor-centric AI product development",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it's our responsibility to help editors to develop a more realistic approach to LLMs.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Countering AI hype with realistic expectations",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Follow an editor-centric product development process where editors are involved at all stages -- as co-creators, not just end users",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "newsroom product managers and AI teams"
+    },
+    {
+      "advice": "Establish clear guardrails and principles (human-in-the-loop, responsible AI use, transparency) before developing AI tools",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "news organizations implementing AI"
+    },
+    {
+      "advice": "Create dedicated internship programs where editors from different departments spend two weeks embedded with the AI team to co-develop and test tools",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "newsroom leaders and AI product teams"
+    },
+    {
+      "advice": "Build cross-functional AI teams that include editors alongside machine learning experts, NLP experts, and developers",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "news organizations building AI teams"
+    },
+    {
+      "advice": "Conduct product discovery sessions with editors through deep-dive interviews focused on understanding workflows and pain points rather than asking 'what do you want'",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "product managers in newsrooms"
+    },
+    {
+      "advice": "Only use AI-generated images in illustration style that are instantly recognizable as non-photographic to maintain trust",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "newsrooms using text-to-image AI"
+    },
+    {
+      "advice": "Implement LLM self-evaluation systems with metrics like correctness and completeness to reduce hallucination risk before content reaches editors",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "AI engineers and product teams in media"
+    },
+    {
+      "advice": "Prioritize AI tools using standardization (scalability across newsrooms), impact-effort metrics, feasibility, and speed of development, aligned with overall company strategy via OKRs",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "product managers prioritizing AI initiatives"
+    },
+    {
+      "advice": "Use bylines at the bottom of articles to make the use of generative AI transparent for readers",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "news organizations publishing AI-assisted content"
+    }
+  ],
+  "external_references": [
+    "Journalism AI Fellowship Programme at the London School of Economics",
+    "Aleph Alpha (German company developing its own LLMs)",
+    "The Guardian opinion piece: 'A Robot Wrote This Entire Article. Are You Scared Yet, Human?' (GPT-3 generated)",
+    "Microsoft News Hub (Berlin)",
+    "MSN website and Edge browser",
+    "La Stampa (Italian daily newspaper)",
+    "GPT-3 (OpenAI, 2020)",
+    "ChatGPT (OpenAI, launched November 30, 2022)",
+    "News Product Alliance mentorship program",
+    "Ariel Zirulnick (News Product Alliance mentor, impact-effort metrics framework)",
+    "Harvard Innovation Labs Spark grant",
+    "IPPEN Digital / IPPEN Media",
+    "Newsroom Robots podcast and newsletter (newsroomrobots.com)"
+  ]
+}

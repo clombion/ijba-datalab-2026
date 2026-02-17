@@ -1,0 +1,388 @@
+{
+  "episode_date": "2025-09-08",
+  "episode_title": "Djordje Padejski: Why AI Literacy Belongs at the Core of Journalism Education",
+  "codes": [
+    {
+      "code": "AI as socio-technical phenomenon",
+      "description": "Framing AI as more than a tool -- a socio-technical phenomenon requiring critical engagement whether using it or covering it",
+      "excerpts": [
+        "I really thought about how do I teach AI to see AI more than just a tool? It's a sort of like a socio-technical phenomenon that needs obviously more critical engagement, whether you're using it or you're covering it.",
+        "these days really If you think about AI, AI is more than just a tool. It's someone can argue that it's also an ideology."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Media complicity in AI hype",
+      "description": "Journalists being partly responsible for AI hype through exaggerated coverage on both sides -- promotional culture and fear-mongering",
+      "excerpts": [
+        "We as journalists we tend to ignore the fact that the media is also responsible for the ways that this major topic is being reported, actually.",
+        "all these narratives were in a way exaggerated and kind of increased the media attention to AI and you know kind of in a way contributed to this AI media hype"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Snake oil susceptibility",
+      "description": "Questioning why journalists specifically fall for AI promotional claims when their professional role is to serve the public interest critically",
+      "excerpts": [
+        "what I became interested is really Why are we falling for the snake oil? Especially in journalism, right? So what makes us be part of this sort of promotional culture of AI?"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Historical AI hype cycles",
+      "description": "Drawing parallels between current AI hype and historical patterns: 1945 ENIAC coverage, 1971 Minsky predictions about alien contact",
+      "excerpts": [
+        "there's a New York Times article from like 1945 that introduces first computer ENIAC, right? It was welcomed as a sort of like new, the next big thing. And it's really sort of like the headline is like Here's this giant electronic brain that would find speedy answers to all complex problems... you could just put this and replace it with ChatGPT in our age.",
+        "New York Times, 1971. They're featuring Marvin Minsky... And he's like talking about AI, artificial intelligence at that point is something that will connect humanity with interterrestrial and alien life."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Computational limits persist",
+      "description": "Emphasizing that fundamental limits of computational theory (infinite loops, probability theory constraints) apply to modern AI just as they did to earlier systems",
+      "excerpts": [
+        "they're not aware of these fundamentals that I've been talking about, about AI, that are really kinda fundamental limits of computational theory. I've been reading and studying about, you know, infinite loops are the great example. When a computer is in the glitch, So that's happening with AI as much as we think that it's not."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI magic misconception",
+      "description": "Students and uninformed people perceiving AI as magic that can transform work into something fast and spectacular",
+      "excerpts": [
+        "students and young people, uninformed people are in general are thinking that AI is some sort of magic, right? It's some sort of magic that can turn your Whatever you're working on into something fast and spectacular"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Cultural bias in model origins",
+      "description": "Different AI models carrying distinct cultural biases from their creators -- DeepSeek from Chinese society, ChatGPT from American values",
+      "excerpts": [
+        "Deep Seek is now kind of great example of yes, it's great, it's cheaper, but it brings also cultural bias. From those who created those tools, right? So and I'm not saying that ChatGPT does not have cultural bias, but it's just like it's different"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Text processing vs knowledge generation",
+      "description": "Fundamental distinction between LLMs as effective text processors and their inadequacy as reliable knowledge generators",
+      "excerpts": [
+        "ChatGPT and chatbots are way more effective text generators, text processing tools than knowledge generators, right? So they don't There's some knowledge that are generating, but it's a plausible knowledge and therefore it's problematic."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Symbolic vs neural AI history",
+      "description": "Teaching the philosophical split between symbolic AI (knowledge representation/knowledge graphs) and deep neural networks as context for understanding current LLM limitations",
+      "excerpts": [
+        "The history of AI started with symbolic AI... It was a knowledge representation AI, right? So it was a knowledge graphs that we had in 10 or 15 years ago where most of the tech companies were building knowledge graphs versus processing deep neural networks that we have now. So it's been like two different philosophies"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Temporal concept blindness",
+      "description": "LLMs unable to handle basic temporal concepts like what day it is, illustrating gaps between text prediction and actual understanding",
+      "excerpts": [
+        "the other day I was like, okay, ChatGPT, do you know what day is today? And like there's simple things that ChatGPT doesn't know... it doesn't recognize days, kind of temporal concepts are really sort of hard... it's not embedded in the large language model"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Google-to-ChatGPT misconception transfer",
+      "description": "People transferring their (already flawed) habit of asking Google questions to ChatGPT, where the results are even more unreliable",
+      "excerpts": [
+        "People think about it as a sort of like this is like a next Google, I'm just gonna go ask question.",
+        "people, especially journalist young journalist students, always think about, okay, Google was a search engine machine, right? But we always approach to Google as sort of like We can ask questions. And that was never effective strategy to get actually answers."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Tools change, fundamentals remain",
+      "description": "Core teaching philosophy that specific tools are ephemeral but underlying concepts about computational limits, bias, and probability persist",
+      "excerpts": [
+        "the tools that we use, they change and evolve over time and sometimes even rapidly as we can see these days, right? So the with AI. But some of the fundamentals and some of the sort of like underlying concepts that they remain.",
+        "I cannot just teach them how to use Notebook LM today, but there's going to be a different Notebook LM that will be launched in five, ten years from now."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Experimentation as pedagogy",
+      "description": "Structuring courses around hands-on experimentation in controlled classroom settings where students compare multiple AI tools on the same journalism task",
+      "excerpts": [
+        "hands-on experimentation, kind of having that controlled environment of a newsroom where we can discuss, you know, those fundamentals and then experiment directly with the use of some of these tools and kind of have a conversation about their limitations and strengths is the best way to learn."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Comparative tool assessment",
+      "description": "Having student groups use different AI tools on the same task (e.g., city council meeting analysis) then sharing and discussing divergent results",
+      "excerpts": [
+        "Various groups would use, one group would use ChatGPT, the other one would use Perplexity, and then we would have a discussion after that. You know, what were their findings?",
+        "perplexity was much better for some of the research things that we have done, which we know, but like the finding was happening in the classroom."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "In-classroom assessment shift",
+      "description": "Moving from written assignments to live in-person participation and presentation as the primary assessment method because students cannot auto-generate live responses",
+      "excerpts": [
+        "They cannot autogenerate their live responses in the classroom. Right? So that has to be something that happens in the classroom with you as a teacher.",
+        "assessing knowledge is harder in this AI world, but it's not impossible to figure out"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "AI disclosure with reflection",
+      "description": "Requiring students to not just disclose AI use but reflect on its effectiveness and what they learned from the experience",
+      "excerpts": [
+        "if they, for example, used AI to brainstorm or generate some of these responses for their writing assignments. Right, they will have to disclose and not only disclose but tell me how effective was that? What do they learn from that experience?"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Ban futility",
+      "description": "Arguing that banning AI in classrooms is both impossible and counterproductive, advocating for frameworks of appropriate use instead",
+      "excerpts": [
+        "I know that was like a ban early on. Well, we're gonna ban all AI. You cannot ban this, right?"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Calculator analogy for AI",
+      "description": "Drawing parallel between early calculator bans in math classes and current AI bans, noting calculators eventually became essential for advanced work",
+      "excerpts": [
+        "It's almost like the time with calculators, right? Calculators were banned from math classes early on, but now like nobody really I mean actually we're using more advanced calculators to do advanced math"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Journalist not text processor",
+      "description": "Responding to student anxiety by redefining journalism's value as judgment, context, and accountability rather than text production",
+      "excerpts": [
+        "Obviously journalism is more than just producing a predictive text, right? AI can technically generate headlines but it may not be a good headline because AI does not understand use judgment It doesn't understand the context, it doesn't understand the audience.",
+        "We're not text processors, right?"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Augmentation not replacement",
+      "description": "Framing AI as augmenting journalists rather than replacing them, with the caveat that non-adopters risk obsolescence",
+      "excerpts": [
+        "AI is not going to replace a journalist, right? But a journalist using AI might replace a journalist not using AI."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI as every-beat literacy",
+      "description": "AI no longer being confined to the tech beat but requiring literacy from reporters covering healthcare, government, finance, and all other areas",
+      "excerpts": [
+        "AI is not is not anymore just a tech beat, if you think about, you know, how it's changing journalism. Because AI is everywhere now. Like it's involved in healthcare, government, financial sector.",
+        "in order to report on all these various beats, you actually need to have a basics of AI literacy"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI as opportunity not just threat",
+      "description": "Reframing AI from existential threat to opportunity for journalists, particularly in covering AI's impact across sectors",
+      "excerpts": [
+        "Yes, there are all these threats and very reasonable threats, but like there's also lots of opportunities for journalists in the future, right?",
+        "AI might speed up your work by generating few headlines, right? But it will kind of open up space for you to kind of go and dive deeper on some of these topics that AI cannot do."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Speculative fiction journalism",
+      "description": "Critique that contemporary AI news coverage sometimes resembles speculative fiction more than rigorous journalism reporting",
+      "excerpts": [
+        "some of these many news stories that we have seen were more like a speculative fiction sometimes than real journalism reporting, honestly"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Dual harm of hype",
+      "description": "AI hype simultaneously downplaying both the real risks AND the real benefits of AI, doing double damage to public understanding",
+      "excerpts": [
+        "these narratives, these stories were not only downplaying sort of the risks of AI and the threats of AI, which are pretty serious, but they were also downplaying the real potential benefits of AI."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Investigative proposal pedagogy",
+      "description": "Having each student develop an investigative proposal on a self-chosen AI topic throughout the course, building critical thinking step by step",
+      "excerpts": [
+        "they all had a topic of their choice in relation to AI... that they would work on in a structured way using some of my investigative framework to kind of develop a proposal",
+        "they said, well, as much as we learn in the class, we also learn from those proposals"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Interdisciplinary imperative",
+      "description": "Advocating for interdisciplinary collaboration between journalism, humanities, and computer science to address AI's complexity",
+      "excerpts": [
+        "my computer science colleagues here also they were amazed with some of some of the work that I'm doing",
+        "Interdisciplinarity is one of those answers to kinda tackle these complex and challenging topics."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Ancient Greece to AI continuity",
+      "description": "Teaching AI literacy starting from ancient Greek myths about artificial beings to show that creating artificial machines has been a human preoccupation for centuries",
+      "excerpts": [
+        "some of my students were like, whoa, we're talking about ancient Greece here. And I was like, what the ancient Greek myths have to do with AI. Well, you know, people have been thinking about creating artificial machines for centuries."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Silicon Valley AI ideology",
+      "description": "Characterizing AI in Silicon Valley as an ideology with serious attempts to replace human workers across sectors including government",
+      "excerpts": [
+        "Here in the Silicon Valley. We have serious attempts to in various sectors to replace human workers with AI, right? And especially these days where surfacing all these ideas about government workers being replaced by AI."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Demystification as career arc",
+      "description": "Personal career trajectory from computer-assisted reporting to data journalism to OSINT to AI literacy, all unified by demystifying technology for journalists",
+      "excerpts": [
+        "Much of my teaching was always actually about demystifying technology for journalists.",
+        "I've been an investigative reporter and editor, worked on various projects in my career as a journalist that involve like public records and data. Things like ICIJ offshore leaks"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Teaching what doesn't exist yet",
+      "description": "Challenge of teaching tools that launch mid-course or are not yet created, requiring pedagogical flexibility",
+      "excerpts": [
+        "how do you teach something that's not even like in the case I remember Notebook LM was not even launched when I started? How do you teach something that it's not even there yet?"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "mixed"
+    },
+    {
+      "code": "Expertise gap in AI assessment",
+      "description": "Tension between experienced journalists who can evaluate AI output against their judgment versus students who lack baseline expertise to identify AI shortcomings",
+      "excerpts": [
+        "when somebody is just starting their career and haven't built up that expertise yet, but then get introduced to a tool that does seem like it does really great work... how do you kind of push them to write articles, get through the phases of making those mistakes"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Google generative search distortion",
+      "description": "Google's AI-generated search blurbs pulling questionable statements from various sources and distorting the search experience",
+      "excerpts": [
+        "generative AI search, all these All these little blurbs that are now popping up when you're using Google are also very problematic. There's a research that's been already done about those that are picking up from various places very questionable statements"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "negative"
+    },
+    {
+      "code": "Brainstorming assistant ceiling",
+      "description": "Defining the appropriate use boundary for AI: effective for brainstorming, structuring thoughts, and language assistance but never for final products or fact-checking",
+      "excerpts": [
+        "idea generation, structuring your thoughts, kind of brainstorming, that's I mean but these are all like starting points, right? So any of the final product or anything that you you think about you're gonna get from AI.",
+        "I've been really asking my students not to use ChatGPT in their fact checking... it's really questionable and it's a waste of time"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    },
+    {
+      "code": "Non-native speaker AI benefit",
+      "description": "Non-native English speakers finding particular value in ChatGPT's language assistance for professional communication",
+      "excerpts": [
+        "being a I'm not a native English speaker. So I welcome Chat GPT providing that guidance, right? So that also helps a lot."
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Deep research source curation",
+      "description": "Using ChatGPT's deep research feature not for its text output but as a curated source list generator that links to 30-40 primary sources",
+      "excerpts": [
+        "I really like using it for In the research phase is their deep research, but because it gives me a bunch of sources that exactly match what I'm asking in this long question... I tend to find that I get a much better source list compared to just doing a Google search"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "Degrees of tomorrow vision",
+      "description": "Envisioning new interdisciplinary university degrees combining AI with journalism, communication, storytelling, and business with historical, ethical, and practical components",
+      "excerpts": [
+        "Universities across college should think about not just including AI in their teaching, but also thinking about how do they design these kind of new degrees focused on AI and journalism, AI and communication, AI and storytelling"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Curriculum embed over standalone",
+      "description": "AI literacy should be deeply embedded throughout journalism curriculum rather than treated as a standalone course",
+      "excerpts": [
+        "it's so important that AI is not just a standalone course in journalism education, but I think something that is deeply embedded throughout a curriculum where people are thinking through and having these conversations because it's impacting everything"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Non-coder coding with AI",
+      "description": "Non-engineers using ChatGPT to generate functional Python code, enabled by knowing enough to direct the tools",
+      "excerpts": [
+        "I'm not an engineer, but I know enough to kind of use these tools to generate my own code, like in Python and all of that. So that's really kind of great use of it"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "positive"
+    },
+    {
+      "code": "Storm knowledge separation",
+      "description": "Stanford research project attempting to separate LLMs as processing interfaces from external knowledge bases like Wikipedia to improve accuracy",
+      "excerpts": [
+        "Storm. That's trying to kind of play with this notion between using large language models as a processing tools, right, for your interface and then using completely different knowledge base, right? Like using Wikipedia for some of the answers"
+      ],
+      "speaker": "Djordje Padejski",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "Djordje Padejski makes a case for AI literacy as journalism education's most urgent need, grounding his argument in historical continuity rather than technological novelty -- the 1945 ENIAC hype cycle mirrors today's ChatGPT coverage almost word for word. His central insight is that journalists are simultaneously victims and propagators of AI hype, a self-implicating critique that distinguishes his perspective from typical educator commentary. The pedagogical framework he advocates prioritizes in-classroom experimentation and live assessment over written assignments, essentially arguing that AI's existence requires a return to more demanding, presence-based teaching. His distinction between LLMs as text processing tools versus knowledge generators provides a conceptual framework that could shape how newsrooms evaluate AI applications. The conversation surfaces an unresolved tension between teaching enduring fundamentals and preparing students for a professional landscape that demands immediate tool competency.",
+  "surprises": [
+    "A 1945 New York Times headline about ENIAC ('giant electronic brain that would find speedy answers to all complex problems') is virtually interchangeable with today's ChatGPT coverage",
+    "Padejski argues AI hype simultaneously downplays BOTH real risks AND real benefits of AI, doing double damage rather than inflating one side",
+    "The investigative reporter turned educator explicitly characterizes AI as an ideology in Silicon Valley, not merely a technology",
+    "ChatGPT cannot determine what day of the week it is despite computers having built-in clocks, illustrating the gap between text prediction and actual knowledge",
+    "Students reported learning as much from peer investigative proposals as from the instructor's curriculum",
+    "Padejski draws a direct line from ancient Greek myths about artificial beings to current AI development, teaching AI literacy through millennia of human aspiration"
+  ],
+  "tensions": [
+    "Padejski teaches critical AI literacy at Stanford -- an institution deeply embedded in Silicon Valley's AI promotional culture -- creating an inherent positional tension",
+    "The course teaches enduring fundamentals over ephemeral tools, yet students enter a job market that demands immediate tool proficiency",
+    "Encouraging AI use while banning it from fact-checking creates a boundary that may be difficult for students to internalize when tools feel equally capable across tasks",
+    "In-person live assessment is presented as the solution to AI-enabled plagiarism, but this approach requires small class sizes that most universities cannot afford",
+    "Padejski argues AI is a socio-technical phenomenon requiring critical engagement, while simultaneously using it extensively for personal coding and language assistance -- suggesting the tool framing cannot be fully escaped",
+    "The 'journalist using AI will replace journalist not using AI' framing implies urgency that sits uneasily with the deliberate, historically-grounded critical approach he advocates"
+  ]
+}

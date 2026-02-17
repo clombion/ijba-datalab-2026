@@ -1,0 +1,336 @@
+{
+  "episode_meta": {
+    "title": "How Germany's Ippen Digital is Fine-Tuning Large Language Models for Their Newsroom",
+    "date": "2024-02-17",
+    "guests": [
+      {
+        "name": "Alessandro Alviani",
+        "role": "Product Lead for AI",
+        "organization": "Ippen Digital"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Germany",
+    "word_count": 6173
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "LoRA (Low-Rank Adaptation) fine-tuning framework",
+    "Open-source large language models (pre-trained on German language texts)",
+    "Retrieval Augmented Generation (RAG)",
+    "AI-powered transcription tools",
+    "Text-to-image illustration tool",
+    "DALL-E API (mentioned by host as example)",
+    "Parrot (manipulated narrative tracking tool developed during JournalismAI Fellowship)",
+    "AI-powered reader-facing chatbots",
+    "AI agent-based fact-checking system",
+    "AI-powered writing assistant",
+    "Self-evaluating LLM system",
+    "Quote extraction and highlighting system"
+  ],
+  "use_cases": [
+    {
+      "description": "Fine-tuning open-source LLMs on millions of regional/local news articles to improve quality for editing, generating, and reversioning content, especially for German-language nuances like subjunctive verb forms in indirect speech",
+      "tool_used": "Open-source LLMs with LoRA fine-tuning",
+      "organization": "Ippen Digital",
+      "outcome": "Achieved higher accuracy than proprietary models for task-specific use cases; made fine-tuning accessible even to organizations with fewer resources",
+      "stage": "production"
+    },
+    {
+      "description": "Task-specific LLMs fine-tuned for generating headlines, leads, and summaries",
+      "tool_used": "Fine-tuned open-source LLMs",
+      "organization": "Ippen Digital",
+      "outcome": "Higher accuracy than proprietary models for specific tasks; editors involved in evaluating accuracy",
+      "stage": "production"
+    },
+    {
+      "description": "Reader-facing chatbots integrated into articles using RAG, allowing readers to ask for additional context on stories using Ippen's own article database as knowledge base",
+      "tool_used": "RAG-based chatbot system",
+      "organization": "Ippen Digital",
+      "outcome": "Readers can get reliable, sourced information from the organization's own article archive rather than from an unconstrained LLM",
+      "stage": "pilot"
+    },
+    {
+      "description": "Follow-up story chatbot allowing readers to ask what happened since an earlier story, pulling from Ippen's article archive",
+      "tool_used": "RAG-based chatbot system",
+      "organization": "Ippen Digital",
+      "outcome": "Enables readers to catch up on developing stories using the organization's own reliable content",
+      "stage": "pilot"
+    },
+    {
+      "description": "Agent-based workflow for fact-checking and misinformation detection, double-checking information during the writing process against pre-selected reliable external sources",
+      "tool_used": "AI agent-based system",
+      "organization": "Ippen Digital",
+      "outcome": "Supports editors in fact-checking; validates citations and information before publication",
+      "stage": "pilot"
+    },
+    {
+      "description": "Tool chaining workflow for sports journalism: AI transcribes a 24-minute video, translates it to German, extracts quotes, generates a summary, produces a first draft, and self-evaluates accuracy against the original transcript",
+      "tool_used": "Chained AI tools (transcription, translation, quote extraction, summarization, draft generation, self-evaluation)",
+      "organization": "Ippen Digital",
+      "outcome": "Saves journalists significant time that can be reinvested in original reporting such as opinion pieces or interviews",
+      "stage": "pilot"
+    },
+    {
+      "description": "Quote accuracy system: two-step approach that first extracts quotes, then instructs the LLM to preserve those quotes unchanged during content generation, combined with highlighting system for editor review",
+      "tool_used": "Custom two-step prompting approach with AI-engineered highlighting system",
+      "organization": "Ippen Digital",
+      "outcome": "Reliable quote accuracy at scale across 60 news portals and 250 online editors across nine editorial offices",
+      "stage": "production"
+    },
+    {
+      "description": "Tracking manipulated narratives from Russian state-run media: collected 400,000+ articles from outlets like Russia Today and Sputnik, selected 25,000 about Ukraine, grouped them into 200 semantic topics, and assigned propaganda scores using a pre-trained ML model",
+      "tool_used": "Parrot tool, pre-trained machine learning model for propaganda scoring",
+      "organization": "Ippen Digital, Times of London, SyncPeople (startup)",
+      "outcome": "Created early warning system for journalists to detect coordinated efforts to push manipulated narratives; methodology continued to be refined by SyncPeople across platforms including Truth Social and YouTube",
+      "stage": "production"
+    },
+    {
+      "description": "Modular journalism / personalization: breaking articles into modular pieces to serve different story angles to different readers and different publications within the Ippen network",
+      "tool_used": "LLM-powered content reversioning",
+      "organization": "Ippen Digital",
+      "outcome": "Political journalists can either choose story angles or receive AI-suggested angles; same journalist-written article can serve different readers with different versions",
+      "stage": "pilot"
+    },
+    {
+      "description": "AI-powered writing assistant that recommends relevant information from reliable external sources during the writing process using a combination of RAG and agents",
+      "tool_used": "RAG and AI agents",
+      "organization": "Ippen Digital",
+      "outcome": "Enhances articles with relevant information from verified external sources during the writing process",
+      "stage": "ideation"
+    },
+    {
+      "description": "Personal Italian language learning tutor built as a multi-prompt process in the ChatGPT app to help his girlfriend learn Italian",
+      "tool_used": "ChatGPT app",
+      "organization": "Personal use",
+      "outcome": "Functioning as a personalized language tutor that can ask questions and correct answers",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "LLMs trained primarily on English texts struggle with German subjunctive verb forms needed for indirect speech, leading to wrong attributions where indicative is used instead of subjunctive",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Ippen Digital listed more than 200 potential candidate models out of several thousand LLMs before selecting ones to fine-tune",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Using LoRA-based efficient fine-tuning enables fine-tuning just a fraction of the parameters while still achieving very good results, making it accessible even to organizations with fewer resources",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The fine-tuning process started a couple of months ago and does not take years; at some point during fine-tuning you experience a peak in performance",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Having millions of pre-selected and structured articles already available was crucial for speeding up the fine-tuning process",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Fully automating AI applications is probably the best way to destroy trust in the media industry",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "LLMs tend to add a short summary at the very end when reversioning articles for different platforms, which no one wants and doesn't make sense",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "There is a risk that editors will get used to high quality LLM results and won't be as careful in reviewing outputs as they are today",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The industry spent too much time in the last year debating whether AGI has been reached, and far too little time and resources thinking about new AI-assisted workflows",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Ippen Digital runs around 60 news portals across Germany with around 250 online editors across nine editorial offices",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "For the JournalismAI Fellowship project, they collected over 400,000 articles from Russian state-run media, selected 25,000 about Ukraine, grouped them semantically into 200 topics, and used URLs of 8,000 articles to track spread on Twitter",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "ChatGPT, when released in late 2022, hallucinated a list of US-run biolab sites in Ukraine when prompted, demonstrating the risk of LLM misinformation",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "German regional media companies struggle with finding enough journalists on a local and regional level",
+      "speaker": "Alessandro Alviani",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "LLMs trained on English texts produce indicative instead of subjunctive verb forms in German indirect speech, leading to incorrect attributions of quotes",
+      "category": "technical"
+    },
+    {
+      "description": "Ensuring quote accuracy at scale across 60 news portals and 250 editors; LLMs tend to alter or misquote when generating or reversioning content",
+      "category": "technical"
+    },
+    {
+      "description": "LLMs inexplicably add short summaries at the end of reversioned articles, which is unwanted behavior that must be prevented",
+      "category": "technical"
+    },
+    {
+      "description": "Risk of editor complacency: as LLM output quality improves, editors may become less careful in reviewing AI-generated outputs over time",
+      "category": "editorial"
+    },
+    {
+      "description": "Avoiding full automation of AI applications to maintain trust in the media industry; ensuring human-in-the-loop at all stages",
+      "category": "ethical"
+    },
+    {
+      "description": "Scaling AI solutions reliably from individual use to 60 news portals across nine editorial offices",
+      "category": "organizational"
+    },
+    {
+      "description": "Editors should not need to prompt LLMs themselves in daily operations; their strength is reporting, not prompt engineering",
+      "category": "organizational"
+    },
+    {
+      "description": "Difficulty finding enough journalists at the local and regional level in Germany, making AI assistance tools even more critical",
+      "category": "organizational"
+    },
+    {
+      "description": "Combating coordinated manipulation of narratives by state-run media on social networks, especially in election periods",
+      "category": "ethical"
+    },
+    {
+      "description": "RAG-based chatbots can still pull outdated information from similar stories, risking misinformation even with citation sourcing",
+      "category": "technical"
+    },
+    {
+      "description": "Requiring that fine-tuned models use open-source models with commercial licenses that are pre-trained on native German texts, not just translated texts",
+      "category": "technical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Fully automating applications, AI applications, are probably the best way to destroy trust in the media industry. So that's why it's really important to have this approach is probably just semi-automated or half automated if you like to.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Editorial guardrails and trust",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think we spent really last year we spent a lot of time talking about something that I think is a false problem. And there's basically you already rich artificial general intelligence or not. And I think basically we spend far too little time and resources thinking about new AI assisted workflows.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Industry focus on AGI debate vs. practical AI workflows",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We wanted to have open source, to fine-tune an open source model, not a proprietary model. This model had to offer a commercial license and very important, it has to be basically this model has to be pre-trained on German language texts. Not just on text or articles that have been translated into German.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Requirements for selecting models to fine-tune",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We basically build tools to give them the possibility to improve their reporting and basically free them from repetitive tasks and give them time back, basically. Because as I said, we don't find enough journalists as we would like to.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Purpose of AI tools in regional journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "You want to make sure that editors don't need to prompt LLMs themselves. They have other strengths. Their strength is our reporting. That's why we have dedicated prompt editors in the team.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Division of labor between editors and prompt specialists",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The risk is that at some point editors will get used to high quality results coming from LLM and won't be as careful as they are today in reviewing those outputs coming from LLMs.",
+      "speaker": "Alessandro Alviani",
+      "topic": "Risk of editor complacency with AI outputs",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Use efficient fine-tuning frameworks like LoRA to keep costs down; this makes fine-tuning accessible even to organizations with fewer resources than larger companies",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Small and mid-sized media companies considering fine-tuning"
+    },
+    {
+      "advice": "Always involve editors in the fine-tuning process from the start; developers and editors should work together because editors provide critical feedback on quality and accuracy of results",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Media organizations building AI products"
+    },
+    {
+      "advice": "Build task-specific LLMs rather than trying to use one general model for everything; fine-tune separate models for headlines, leads, summaries, etc.",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Newsroom AI teams"
+    },
+    {
+      "advice": "Have pre-selected and structured data ready before starting fine-tuning; having millions of articles already organized is crucial for speeding up the process",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Media companies planning to fine-tune LLMs"
+    },
+    {
+      "advice": "Select open-source models that are natively pre-trained on your language's texts, not models trained on translated texts, to ensure linguistic accuracy",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Non-English-language media organizations"
+    },
+    {
+      "advice": "Think about AI in terms of modular tool chaining rather than single-purpose tools; combine transcription, translation, quote extraction, summarization, and self-evaluation into integrated workflows",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Newsroom technology teams"
+    },
+    {
+      "advice": "Never fully automate AI applications; always maintain a semi-automated approach with human-in-the-loop to preserve trust",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Media industry leaders"
+    },
+    {
+      "advice": "Build systems that highlight quotes and key information in both original and AI-generated text so editors can easily compare and verify accuracy",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Newsroom AI product developers"
+    },
+    {
+      "advice": "Invest in self-evaluating AI systems that can assess the quality of their own outputs before presenting them to editors",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Newsroom AI teams"
+    },
+    {
+      "advice": "Have dedicated prompt editors/engineers rather than expecting journalists to learn prompting; journalists' strength is reporting",
+      "speaker": "Alessandro Alviani",
+      "target_audience": "Newsroom managers and editors"
+    }
+  ],
+  "external_references": [
+    "LoRA (Low-Rank Adaptation) - efficient fine-tuning framework",
+    "JournalismAI Fellowship (2022)",
+    "JournalismAI Festival (December 2022)",
+    "Parrot - tool for tracking manipulated narratives (developed during JournalismAI Fellowship)",
+    "Times of London (collaboration partner on Parrot project)",
+    "SyncPeople - US startup that continued refining the Parrot methodology",
+    "Russia Today - Russian state-run media outlet analyzed in the project",
+    "Sputnik - Russian state-run media outlet analyzed in the project",
+    "Twitter/X - social media platform used to track narrative spread",
+    "Truth Social - platform SyncPeople expanded analysis to",
+    "YouTube - platform SyncPeople expanded analysis to",
+    "ChatGPT (OpenAI)",
+    "Microsoft News (referenced as cautionary example from Alviani's past experience)",
+    "Liverpool FC (Jurgen Klopp resignation video used as tool chaining example)",
+    "Jurgen Klopp - Liverpool FC manager whose resignation video was used as an example",
+    "DALL-E API (mentioned by host as example image generation tool)",
+    "Harvard Innovation Labs (podcast grant sponsor)",
+    "Newsroom Robots Podcast",
+    "Nick Diakopoulos (collaborated on quote accuracy challenge)",
+    "Swapnil Mehta (SyncPeople, continued refining manipulated narrative methodology)",
+    "Ippen Digital CMS (content management system with integrated AI tools)"
+  ]
+}

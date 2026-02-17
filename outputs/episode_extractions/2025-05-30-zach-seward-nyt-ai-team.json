@@ -1,0 +1,275 @@
+{
+  "episode_meta": {
+    "title": "Zach Seward: How a Five-Person AI Team Is Powering Innovation at The New York Times",
+    "date": "2025-05-30",
+    "guests": [
+      {"name": "Zach Seward", "role": "Editorial Director of AI Initiatives", "organization": "The New York Times"}
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 9894
+  },
+  "ai_tools": [
+    "Large Language Models (LLMs, commercial and open source)",
+    "Echo (internal NYT summarization/transformation tool)",
+    "AI transcription (speech-to-text for video)",
+    "Embedding models (for semantic search)",
+    "Computer vision (for speaker identification in video)",
+    "LLM-based chatbots (internal, multiple available)",
+    "LLM APIs (direct access for journalists)",
+    "D3 (JavaScript data visualization library, referenced historically)",
+    "Voice interaction APIs (prototyping stage)"
+  ],
+  "use_cases": [
+    {
+      "description": "Transcribing 500 hours of leaked Zoom recordings from the Election Integrity Network, then using LLM prompts informed by reporters' domain expertise to search transcripts for specific topics (RNC connections, funding sources, Ohio elections, targeting immigrant communities)",
+      "tool_used": "AI transcription + LLM semantic search",
+      "organization": "The New York Times",
+      "outcome": "Successfully identified relevant discussions that keyword search would have missed due to semantic differences in language; published investigation",
+      "stage": "production"
+    },
+    {
+      "description": "Vetting Trump cabinet nominees (Pete Hegseth, Tulsi Gabbard, RFK Jr.) by downloading and transcribing voluminous TV/video appearances and using LLMs to search for specific topics (e.g., Hegseth's drinking habits, Gabbard's statements on adversaries)",
+      "tool_used": "AI transcription + LLM semantic search",
+      "organization": "The New York Times",
+      "outcome": "LLM identified euphemisms and indirect references (e.g., 'getting blitzed', 'having a rager') that keyword searches could not; supported published reporting",
+      "stage": "production"
+    },
+    {
+      "description": "Distinguishing when Tulsi Gabbard was speaking vs. being discussed by others in video transcripts of TV appearances where she was a guest",
+      "tool_used": "Computer vision",
+      "organization": "The New York Times",
+      "outcome": "Classified speaker identity to isolate Gabbard's own statements from host commentary",
+      "stage": "production"
+    },
+    {
+      "description": "Downloading all of RFK Jr.'s Rumble videos (used as his de facto policy statements) and using AI to analyze them for policy positions",
+      "tool_used": "AI transcription + LLM analysis",
+      "organization": "The New York Times",
+      "outcome": "Extracted policy positions from unstructured video content",
+      "stage": "production"
+    },
+    {
+      "description": "Echo tool: summarizing and transforming NYT content — supports literal summaries, headlines, tags, homepage summaries, and 'The Daily' news roundups; users pick from multiple LLMs, provide URLs, use preset or custom prompts, and access via web playground or API",
+      "tool_used": "Echo (internal tool wrapping multiple LLMs)",
+      "organization": "The New York Times",
+      "outcome": "More than half of workflow challenges identified involved summarization; Echo enabled individual desks to solve their own summarization needs without centralized project management",
+      "stage": "production"
+    },
+    {
+      "description": "Improving article search on NYT website using embedding models in the search stack for better semantic relevance, without generating any new content",
+      "tool_used": "Embedding models",
+      "organization": "The New York Times",
+      "outcome": "Showing strong results in improving search relevance for readers",
+      "stage": "pilot/prototype"
+    },
+    {
+      "description": "Prototyping voice interaction with NYT content — exploring what 'talking to the Times' would be like",
+      "tool_used": "Voice interaction APIs",
+      "organization": "The New York Times",
+      "outcome": "Early prototyping stage; seen as a likely important future interface",
+      "stage": "prototype"
+    },
+    {
+      "description": "100-person pilot program giving newsroom staff early access to AI tools in exchange for structured feedback",
+      "tool_used": "Various LLMs / chatbots",
+      "organization": "The New York Times",
+      "outcome": "Key finding: more than half of workflow problems people identified involved summarization, which directly informed the creation of Echo",
+      "stage": "pilot"
+    },
+    {
+      "description": "Using AI to brainstorm SEO headlines (done by key team members using external tools, not yet integrated into CMS)",
+      "tool_used": "LLMs (external to CMS)",
+      "organization": "The New York Times",
+      "outcome": "Functional workaround while CMS integration is deliberately deprioritized",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "More than half of the workflow challenges people in the NYT newsroom face have something to do with summarization — including headlines, tags, homepage summaries, and news roundups",
+      "speaker": "Zach Seward",
+      "evidence_type": "quantitative (internal pilot findings)"
+    },
+    {
+      "claim": "The term 'generative AI' has done a disservice to the news industry because many of the most interesting applications have nothing to do with writing or generating prose — they involve creating structure out of unstructured data sets",
+      "speaker": "Zach Seward",
+      "evidence_type": "opinion"
+    },
+    {
+      "claim": "AI for research and investigations represents the single largest opportunity for AI in the NYT newsroom — it doubles down on an existing advantage (access to leaked documents and inside information)",
+      "speaker": "Zach Seward",
+      "evidence_type": "opinion"
+    },
+    {
+      "claim": "AI opens up reporting on data sets so huge and messy that they could not previously have been considered as candidates for reporting work",
+      "speaker": "Zach Seward",
+      "evidence_type": "anecdotal (multiple NYT investigations cited)"
+    },
+    {
+      "claim": "Access to tools is not what unlocks people to become actual AI users — it's examples that resonate with them and are similar enough to their own work to make a connection",
+      "speaker": "Zach Seward",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI pressure on publishers means there is more value in reporting genuinely new and proprietary facts than in the synthesis and writing up of information",
+      "speaker": "Zach Seward",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI is an equalizing technology — smaller newsrooms can now replicate what only large organizations like the NYT could do years ago, but the differentiator will remain the quality of journalism and access to sources, not the technology itself",
+      "speaker": "Zach Seward",
+      "evidence_type": "opinion"
+    },
+    {
+      "claim": "The NYT has reached about half of its 2,000 journalists with live AI presentations across approximately 40 desks",
+      "speaker": "Zach Seward",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The NYT's CMS currently has no AI integrations — they are deliberately moving more slowly than competitors, viewing short-term CMS integrations as less important than long-term ambitious plans",
+      "speaker": "Zach Seward",
+      "evidence_type": "factual"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Journalists bring wide-ranging preconceptions ('baggage') about what AI means — many associate it primarily with content generation and job replacement, requiring reframing of what AI actually offers",
+      "category": "organizational/cultural"
+    },
+    {
+      "description": "Prioritization across three enormous focus areas (investigations, internal workflows, reader experiences) with a five-person team serving a 2,000-journalist newsroom",
+      "category": "organizational"
+    },
+    {
+      "description": "Brand disintermediation risk — if news consumption shifts to AI agents and chatbots, publishers may lose brand visibility and direct audience relationships, similar to the social media platform era",
+      "category": "strategic/business model"
+    },
+    {
+      "description": "Ethical, labor, and environmental concerns raised by AI — the team engages with these hard questions rather than pretending to have answers",
+      "category": "ethical"
+    },
+    {
+      "description": "Hiring for an AI-in-journalism team is difficult because the field is still small and new, requiring people who combine journalism backgrounds with technical skills",
+      "category": "talent/organizational"
+    },
+    {
+      "description": "CMS integration moves slowly at NYT scale — the CMS is described as an 'inculking behemoth' being rethought by a dedicated team, making AI integration complex",
+      "category": "technical/organizational"
+    },
+    {
+      "description": "Atomization of journalism — once news breaks, facts, opinions, and quotes can be extracted and repackaged by AI systems, undermining the originating newsroom's investment",
+      "category": "strategic/business model"
+    },
+    {
+      "description": "Each individual journalist must figure out how AI fits into their personal workflow — the team cannot prescribe solutions for every role (audio producer, SEO specialist, Metro reporter, etc.)",
+      "category": "adoption"
+    },
+    {
+      "description": "Legal and standards constraints — all journalists must complete legal/standards training before getting access to AI tools, and the organization controls which tools are approved for use with content",
+      "category": "governance"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A lot of the most interesting applications have nothing to do with writing articles or writing out creating prose at all, so much as creating structure out of unstructured data sets to help unlock stories that are hidden in massive data sets you probably previously couldn't have considered as possible to report on and now is a whole new realm of reporting that we can conceive of and actually do.",
+      "speaker": "Zach Seward",
+      "topic": "AI's true value in journalism beyond generation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We find that access to tools is really not the thing that unlocks people like converting to actual users. It's examples that resonate with them. It's examples that they can see themselves going and doing or just are similar enough that it makes a connection to I could use AI to do this.",
+      "speaker": "Zach Seward",
+      "topic": "AI adoption strategy",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We've opened up like an opportunity for new types of reporting you just couldn't even consider doing in the past. The examples we'll talk about are really just feel like the very beginning. They're actually more like things we could have done in the past, just now in a new way. But we're opening up opportunities for just data sets that are so huge and are so messy that it could not have considered them as candidates for reporting work, but now we can and that's quite exciting.",
+      "speaker": "Zach Seward",
+      "topic": "AI expanding the scope of investigative journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "One thing that you know now that you wished you had known eighteen months ago. I don't think we fully appreciated the importance of agency in designing editorial tools with AI, which I think is almost always meant making the prompt that's being used transparent and editable by the journalist who's using it. Like nothing fancier than that.",
+      "speaker": "Zach Seward",
+      "topic": "Key design lesson — journalist agency over AI prompts",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I don't really at the end of the day think that AI is going to be what differentiates any news organization from another news organization when it comes to the investigative work. I fully expect that the tooling we've built could be replicated by others. We hope to open source it ourselves. But to the extent we have an advantage there, it's gonna be the fact that we have the documents to analyze in the first place.",
+      "speaker": "Zach Seward",
+      "topic": "AI as equalizer — competitive advantage lies in source material, not technology",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "If we imagine that reporting today is some mixture of reporting out facts, the research, and digging up genuinely new information and then there's synthesizing and writing up of that new information, I think it does stand to reason that pressure AI puts on publishers means that there's more value in the former, in reporting new facts, than in the latter, writing them up.",
+      "speaker": "Zach Seward",
+      "topic": "Shifting value from writing to original reporting",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Build AI teams with a mix of machine learning engineers, product designers, and editors — crucially, everyone should come from a journalism background while bringing additional technical skills",
+      "speaker": "Zach Seward",
+      "target_audience": "newsroom leaders building AI teams"
+    },
+    {
+      "advice": "Run a pilot program (NYT did 100 people) giving early tool access in exchange for structured feedback to identify the highest-impact use cases before building dedicated tools",
+      "speaker": "Zach Seward",
+      "target_audience": "newsroom leaders planning AI rollout"
+    },
+    {
+      "advice": "Focus on AI enablement rather than AI mandates — provide tools, training, tutorials, and examples, then let individual journalists figure out how AI fits their specific workflows",
+      "speaker": "Zach Seward",
+      "target_audience": "AI strategy leads in newsrooms"
+    },
+    {
+      "advice": "Make prompts transparent and editable by the journalist using the tool — journalist agency is the most important design principle for editorial AI tools",
+      "speaker": "Zach Seward",
+      "target_audience": "AI product designers in media"
+    },
+    {
+      "advice": "Show, don't tell — point to published pieces that used AI methods, as concrete examples do more to shift perceptions and drive adoption than abstract presentations about AI capabilities",
+      "speaker": "Zach Seward",
+      "target_audience": "newsroom AI evangelists"
+    },
+    {
+      "advice": "Build flexible, general-purpose tools (like Echo) that abstract away technical complexity (API calls, content fetching) and let individual desks adapt the tool to their own needs, rather than building bespoke solutions for each team one by one",
+      "speaker": "Zach Seward",
+      "target_audience": "newsroom AI/product teams"
+    },
+    {
+      "advice": "For news startups: if disintermediation by AI agents occurs, organizations not dependent on readers coming to their website (e.g., nonprofits) will be better positioned; consider business models that don't depend on direct audience traffic",
+      "speaker": "Zach Seward",
+      "target_audience": "media entrepreneurs and news startup founders"
+    },
+    {
+      "advice": "Engage openly with the hard ethical, labor, and environmental questions AI raises — don't pretend to have answers, treat them as you would any hard question in a newsroom",
+      "speaker": "Zach Seward",
+      "target_audience": "newsroom leaders"
+    }
+  ],
+  "external_references": [
+    "OpenAI — NYT lawsuit against OpenAI and Microsoft (filed December 2023)",
+    "Quartz — business newsroom co-founded by Seward in 2012",
+    "Election Integrity Network — subject of NYT investigation using AI analysis of 500 hours of leaked Zoom recordings",
+    "Helsingin Sanomat — Finnish newspaper whose editor-in-chief stated 'writing is no longer a core journalistic skill for most journalists' at the Nordic AI Media Summit",
+    "Nordic AI Media Summit (Copenhagen) — referenced as ahead in AI adoption",
+    "Newsroom Robots AI Leadership Summit — held in partnership with the Online News Association (ONA) in Detroit",
+    "Harvard Innovation Labs — host's affiliation and podcast sponsor (Spark grant)",
+    "Rumble — right-wing video platform where RFK Jr. posted policy-related content",
+    "Alexa — referenced as prior wave of voice interface technology",
+    "D3 (JavaScript library) — referenced historically in context of data journalism innovation",
+    "Aaron Pillhofer / AI Lab at Star Tribune (Minneapolis) — cited by audience member as replicating NYT Cooking-like product in a weekend",
+    "NYT Pulitzer Prize for visual investigative reporting (2024)",
+    "NYT Pulitzer Prize for breaking news photography — Doug Mills capturing bullet near Trump",
+    "Pete Hegseth, Tulsi Gabbard, RFK Jr. — Trump cabinet nominees investigated using AI methods",
+    "Rabina Fillion — deputy editor on NYT AI Initiatives team",
+    "Zoe Wynn — engineer on NYT AI Initiatives team",
+    "Dylan Friedman — NYT AI team member based in Washington leading investigation support",
+    "Ali Berzon and Nick Confessore (referred to as 'Nick Carcinity') — NYT reporters on Election Integrity Network investigation",
+    "ChatGPT / Gemini — referenced in context of future agent-mediated news consumption",
+    "Online News Association (ONA) — co-organizer of the summit"
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "episode_meta": {
+    "title": "Craig Newmark: Philanthropy's Role in Supporting Journalism in the AI Era",
+    "date": "2024-03-02",
+    "guests": [
+      {
+        "name": "Craig Newmark",
+        "role": "Founder of Craigslist; Philanthropist",
+        "organization": "Craig Newmark Philanthropies"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 4267
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Sora (OpenAI)",
+    "Craig GPT",
+    "Hologram Craig"
+  ],
+  "use_cases": [
+    {
+      "description": "Applying large language models to customer service, with committed customer service reps updating models when they fail to solve problems, evolving the reps' role into training LLMs",
+      "tool_used": "Large language models (general)",
+      "organization": "General industry example",
+      "outcome": "Customer service systems far superior to current standard; customer service reps evolve into better-paid LLM training roles",
+      "stage": "ideation"
+    },
+    {
+      "description": "Common Sense Media developing guidelines and rating sites that use large language models for suitability for children, similar to their existing TV and movie reviews",
+      "tool_used": "Large language models (general)",
+      "organization": "Common Sense Media",
+      "outcome": "Parents and users can rely on ratings and guidelines for AI-powered sites regarding child safety",
+      "stage": "production"
+    },
+    {
+      "description": "Using Wikipedia's reliable sources and deprecated sources framework as a model for training trustworthy large language models",
+      "tool_used": "Wikipedia consensus building systems",
+      "organization": "Wikipedia / Wikimedia Foundation",
+      "outcome": "Proposed framework for ensuring LLMs are trained on reliable rather than deprecated sources",
+      "stage": "ideation"
+    },
+    {
+      "description": "Craig GPT project: feeding everything Craig Newmark has written into a GPT system to create a fact-checking tool for his own statements",
+      "tool_used": "Craig GPT",
+      "organization": "Bob Woodruff Foundation (fundraising context)",
+      "outcome": "Initially a gag for veterans fundraising; potential evolution into a personal fact-checking system",
+      "stage": "ideation"
+    },
+    {
+      "description": "Journalists using AI to do research, filter important signals out of noise, connect the dots in huge amounts of data, and get suggested writing assistance",
+      "tool_used": "Generative AI (general)",
+      "organization": "News industry (general)",
+      "outcome": "Enhanced research capability, data analysis, and writing assistance for journalists",
+      "stage": "ideation"
+    },
+    {
+      "description": "CUNY AI Journalism Lab teaching journalism professionals and students about generative AI, prompt engineering, and what to use and avoid",
+      "tool_used": "Generative AI (general)",
+      "organization": "CUNY Graduate School of Journalism",
+      "outcome": "AI literacy for journalists; applications open at time of recording",
+      "stage": "pilot"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "If you could write systems which understood natural language you would be far on your way towards understanding consciousness",
+      "speaker": "Craig Newmark",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "In the early 1970s, close to no one was interested in natural language understanding and neural networks, and there were not going to be any jobs available for decades",
+      "speaker": "Craig Newmark",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "If you apply AI and large language models to customer service seriously and keep models up to date, you might build customer service systems far superior to what most companies do",
+      "speaker": "Craig Newmark",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "A trustworthy press is the immune system of democracy",
+      "speaker": "Craig Newmark (attributing to his high school history teacher Mr. Scholsky)",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "The internet and everything associated with it has evolved faster than law, regulation, and custom can keep up with, and AI is doing that even more",
+      "speaker": "Craig Newmark",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "OpenAI's Sora video generation tool surprised Newmark; he thought that capability was two or three years off",
+      "speaker": "Craig Newmark",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "A movie or TV script is a program, software, that could be fed into generative AI at some point to produce something credible",
+      "speaker": "Craig Newmark",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "No one has the answer for trustworthy journalism and trustworthy large language models because hardly anyone is thinking about the problem",
+      "speaker": "Craig Newmark",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "CUNY has been about helping people who grow up with little or no money get good educations for nearly 200 years",
+      "speaker": "Craig Newmark",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Not enough people are thinking about guardrails for GPT systems intended for children",
+      "category": "ethical"
+    },
+    {
+      "description": "Large language models can hallucinate or lie to people, and training them on reliable sources is an unsolved problem",
+      "category": "technical"
+    },
+    {
+      "description": "No one has the answer for trustworthy journalism combined with trustworthy large language models because hardly anyone is thinking about the problem",
+      "category": "editorial"
+    },
+    {
+      "description": "The internet and AI evolve faster than law, regulation, and custom can keep up with",
+      "category": "organizational"
+    },
+    {
+      "description": "Journalists reporting on AI need significant technical background to distinguish hype versus reality",
+      "category": "editorial"
+    },
+    {
+      "description": "Trust and safety teams want to do the right thing but face all sorts of pressure",
+      "category": "organizational"
+    },
+    {
+      "description": "AI advances are outpacing expectations, with tools like Sora arriving years earlier than anticipated, creating reactive rather than proactive responses",
+      "category": "organizational"
+    },
+    {
+      "description": "AI's impact on entertainment industry is moving faster than writers, directors, and studios anticipated",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I'm thinking you put together large networks of simulated neurons, and you can understand language. And maybe, like in some of the stories I've read, consciousness might even spontaneously emerge.",
+      "speaker": "Craig Newmark",
+      "topic": "Early theoretical interest in neural networks and consciousness in the 1970s",
+      "pedagogical_value": "medium"
+    },
+    {
+      "text": "A trustworthy press is the immune system of democracy. We need a trustworthy press speaking truth to power, asking tough questions, to survive as a democracy.",
+      "speaker": "Craig Newmark",
+      "topic": "Role of journalism in democracy and motivation for philanthropic support",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We need very few if any hallucinations. Which is a polite way of talking about the large language model going off the rails and lying to people.",
+      "speaker": "Craig Newmark",
+      "topic": "LLM hallucinations and the need for trustworthy generative AI in journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Journalists need to get right to the point in terms of the capabilities and limitations of AI as it exists right now. But also need to think about the rate at which generative AI is evolving, because people keep surprising us, shocking us with actual progress.",
+      "speaker": "Craig Newmark",
+      "topic": "Journalistic responsibility in covering AI accurately",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think journalists can use AI to do research to filter important signals out of noise. For example, if you have huge amounts of data, sometimes generative AI can connect the dots and make sense out of huge amounts of data.",
+      "speaker": "Craig Newmark",
+      "topic": "Practical AI use cases for journalists",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We need philanthropists to get involved hands-on, focusing on trustworthy reporting with generative AI that's been trained with guardrails.",
+      "speaker": "Craig Newmark",
+      "topic": "Philanthropic support for responsible AI in journalism",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Journalism schools should teach students and alumni about generative AI, including prompt engineering, what to use, and what to avoid",
+      "speaker": "Craig Newmark",
+      "target_audience": "Journalism schools and educators"
+    },
+    {
+      "advice": "Use Wikipedia's reliable sources and deprecated sources framework as a starting point for evaluating what large language models should be trained on",
+      "speaker": "Craig Newmark",
+      "target_audience": "AI developers, trust and safety teams"
+    },
+    {
+      "advice": "Philanthropists should support trustworthy journalism and get involved hands-on, focusing on trustworthy reporting with generative AI trained with guardrails",
+      "speaker": "Craig Newmark",
+      "target_audience": "Philanthropists and people with discretionary cash"
+    },
+    {
+      "advice": "Put guardrails around GPT systems intended for children; defer to Common Sense Media for child safety guidelines and site ratings",
+      "speaker": "Craig Newmark",
+      "target_audience": "AI companies, parents, educators"
+    },
+    {
+      "advice": "Journalists reporting on AI must have significant technical background to distinguish hype versus reality and understand the capabilities and limitations of current AI",
+      "speaker": "Craig Newmark",
+      "target_audience": "Journalists covering AI and technology"
+    },
+    {
+      "advice": "Customer service representatives should evolve their roles from doing straight customer service to training and updating large language models",
+      "speaker": "Craig Newmark",
+      "target_audience": "Companies and customer service professionals"
+    }
+  ],
+  "external_references": [
+    "Craigslist",
+    "Craig Newmark Philanthropies",
+    "CUNY Graduate School of Journalism (City University of New York)",
+    "CUNY AI Journalism Lab",
+    "Newsroom Robots Academy",
+    "Newsroom Robots Podcast",
+    "Common Sense Media",
+    "Wikipedia reliable sources and deprecated sources",
+    "Wikimedia Foundation",
+    "Bloomberg News",
+    "Columbia University Center for Journalism Ethics and Security",
+    "University of Washington Center for an Informed Public",
+    "Harvard Berkman-Klein Center for Internet and Society",
+    "Institute for Rebooting Social Media (Harvard)",
+    "Harvard Innovation Labs",
+    "Bob Woodruff Foundation",
+    "Sora (OpenAI)",
+    "ChatGPT",
+    "Craig GPT",
+    "Hologram Craig",
+    "Wonder Tools newsletter (Jeremy Kaplan)",
+    "Winograd - Natural Language Understanding (book)",
+    "Alan Turing"
+  ]
+}

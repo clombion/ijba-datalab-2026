@@ -1,0 +1,195 @@
+{
+  "episode_date": "2024-09-12",
+  "episode_title": "Martin Schori: The AI Hub Powering Innovation at Sweden's Aftonbladet",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.4",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "It was very popular to say that AI will replace all the boring tasks and we're gonna save so much time and money. Journalists will no longer have to do all the boring tasks, and instead we can do investigative journalism. That sounds great and it would be fantastic if that happened. But for us at Aftonbladet, at least for us, there aren't that many tasks that this technology can manage to automate. And we've been trying a lot, but we haven't really found that.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Schori directly challenges the automation hype, reporting that editorial task automation yielded limited productivity gains at Aftonbladet. Transcription is identified as the single biggest time-saving win. AI headline generation consistently failed to match human editors. The human-in-the-loop model is maintained for the summary tool while the election chatbot moved toward human-on-the-loop."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.1",
+        "T02.2",
+        "T02.4"
+      ],
+      "best_quote": {
+        "text": "People don't really care that much. As long as something is relevant, true, relevant, then they like it and they don't really care how the letters end up in the cell phone.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Schori reports that audiences care about relevance and accuracy more than whether content is AI-generated, challenging assumptions about transparency obligations. The election chatbot required extreme transparency to manage reputational risk, with users actively trying to break or bias the bot."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.3"
+      ],
+      "best_quote": {
+        "text": "AI is usually and rightfully accused of promoting and reinforcing bias and prejudice, but you can also use it to try to combat that.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "The content diversity audit of 100,000 articles using MediaCatch represents a notable use of AI to address rather than reproduce bias. Schori acknowledges AI's reputation for reinforcing prejudice while demonstrating a counter-application: using AI to measure and reduce gender gaps in editorial coverage."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.2",
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "We wanted to have total control. So we did a RAG model and a huge database with all the data and the answers that we got from the political parties. I think we used almost a hundred different sources and we instructed it to not invent or hallucinate if it didn't know the answer.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "The election chatbot's RAG architecture with nearly 100 sources is described in detail, achieving zero detected hallucinations. The AI buffet of 25-30 prompt-wrapper tools demonstrates model selection for different tasks. Headline generation failure illustrates the jagged frontier of AI capabilities."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3",
+        "T05.4",
+        "T05.5"
+      ],
+      "best_quote": {
+        "text": "When this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue. Although copyright is obviously a very important issue, at the same time we felt that as journalists we should be curious and we should also be talking about what could this new technology be used for the benefits of our readers and ourselves.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Aftonbladet's 'Prompt Queen' masterclass reached every employee. The AI buffet of simple tools lowered adoption thresholds. A journalist with no programming experience built the Budreader tool, demonstrating no-code empowerment. The hub team's physical proximity to the newsroom enabled peer learning and identification of real pain points."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.2",
+        "T06.3",
+        "T06.4",
+        "T06.5"
+      ],
+      "best_quote": {
+        "text": "When this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue. Although copyright is obviously a very important issue, at the same time we felt that as journalists we should be curious and we should also be talking about what could this new technology be used for the benefits of our readers and ourselves.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "The episode is a detailed case study in organizational AI strategy. The AI hub was created because central product/tech teams deprioritized newsroom AI ideas. The hub is editorially led, staffed by majority editorial people, and reports directly to leadership. Schori describes managing the prioritization battle, convincing management to greenlight the election chatbot, and the difficulty of measuring KPIs for experimental AI projects."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.1"
+      ],
+      "best_quote": {
+        "text": "When this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Copyright concerns are acknowledged but explicitly deprioritized in favor of curiosity-driven experimentation. The cost of OpenAI API usage at scale is noted as a practical concern, but Big Tech power dynamics are not a focus."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T08.2",
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "We wanted to have total control. So we did a RAG model and a huge database with all the data and the answers that we got from the political parties. I think we used almost a hundred different sources and we instructed it to not invent or hallucinate if it didn't know the answer.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "The EU election chatbot is a flagship audience-facing product innovation: 150,000+ questions, tenfold login conversion, conversational interface for news. AI article summaries with 40% expansion rates demonstrate format innovation. Text-to-speech for immigrant communities represents new content accessibility. Schori explicitly recommends focusing on new formats over automating existing tasks."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.1"
+      ],
+      "best_quote": {
+        "text": "People don't really care that much. As long as something is relevant, true, relevant, then they like it and they don't really care how the letters end up in the cell phone.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Schori suggests AI's highest ROI may be in subscriptions, churn prevention, and marketing rather than editorial automation. The tenfold login conversion from the chatbot hints at subscription funnel value. API costs at scale are noted as a business constraint."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "When this AI boom started a little over a year ago, when you looked around in the business, I think a lot of other media houses were very focused on the threats and who to sue.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Regulation is not substantively addressed. Schori acknowledges copyright as important but frames it as a topic other organizations focused on while Aftonbladet chose to experiment."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "It was very popular to say that AI will replace all the boring tasks and we're gonna save so much time and money. Journalists will no longer have to do all the boring tasks, and instead we can do investigative journalism. That sounds great and it would be fantastic if that happened. But for us at Aftonbladet, at least for us, there aren't that many tasks that this technology can manage to automate. And we've been trying a lot, but we haven't really found that.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "The episode documents the full prototype-to-production pipeline. The AI hub was created to bypass central tech team bottlenecks. CMS integration is identified as critical for adoption (tools outside the CMS see low usage). The one-click summary tool required constant reminders despite CMS integration. The chatbot moved from concept to production with nearly 100 data sources."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T12.1"
+      ],
+      "best_quote": {
+        "text": "We wanted to have total control. So we did a RAG model and a huge database with all the data and the answers that we got from the political parties.",
+        "speaker": "Martin Schori"
+      },
+      "summary": "Source protection surfaces in the use of AI voice anonymization for investigative journalism. Data governance is implicit in the controlled RAG database approach for the chatbot, but data privacy is not a primary discussion topic."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T04",
+    "T05",
+    "T06",
+    "T08",
+    "T11"
+  ],
+  "secondary_themes": [
+    "T02",
+    "T03",
+    "T09"
+  ],
+  "tangential_themes": [
+    "T07",
+    "T10",
+    "T12"
+  ]
+}

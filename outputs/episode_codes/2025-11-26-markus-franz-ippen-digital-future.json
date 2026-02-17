@@ -1,0 +1,362 @@
+{
+  "episode_date": "2025-11-26",
+  "episode_title": "Markus Franz: How Germany's Ippen Digital Is Prototyping the AI-Powered Newsroom of the Future",
+  "codes": [
+    {
+      "code": "innovation-lab-as-future-scout",
+      "description": "Establishing a dedicated, small lab team (4-5 people) whose explicit mandate is to look six months ahead of the mainstream newsroom, exploring technologies not yet ready for production.",
+      "excerpts": [
+        "the lab has the strong focus on transformative innovation means you have existing customers and try to transform them into new products",
+        "we are a tiny team, about four or five people, are mainly technical people, to be honest. We are looking in the future",
+        "the lab is looking a half year into the future if I can say that"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "three-tier-innovation-taxonomy",
+      "description": "Classifying innovation into sustaining (improving existing products), transformative (existing customers into new products like voice), and disruptive (entirely new paradigms like multi-agent systems).",
+      "excerpts": [
+        "there are three parts where you can innovate. So what we are doing is a sustaining innovation",
+        "the Champions League I would say is disruptive innovation. Disruptive innovation for me that will speak later on the topic is the whole area of agent systems"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "multi-agent-systems-as-virtual-teams",
+      "description": "Conceptualizing multi-agent AI architectures as virtual teams with specialized roles (director, video buddy, etc.) that mirror human team structures, with a supervisor agent delegating subtasks.",
+      "excerpts": [
+        "in your team you have specialists, right? They come making the best social posts, they're making the videos, they're writing the best articles. And this is a multi-agent system",
+        "you have a manager or supervisor agent, and this agent is delegating subtasks to specialized agents",
+        "we have right now five or six virtual teams. One team is a little bit more sophisticated is a video team"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "agentic-mesh-architecture",
+      "description": "Agents within the organization consulting each other in a mesh pattern, analogous to how employees seek out domain experts informally, where one virtual team (e.g., Netflix team) calls upon another (e.g., video team).",
+      "excerpts": [
+        "It's getting more and more into an agentic mesh, like in your company, if you have some some kind of question and you know, ooh, this guy is an expert in XOY, I can ask him, and this is what the agents will also do in the future",
+        "we have a video team and the video team will be used by a Netflix team and the Netflix team is generating articles about series and movies"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "human-in-loop-to-human-on-loop-evolution",
+      "description": "A proposed evolution from human-in-the-loop (babysitting AI step-by-step) to human-on-the-loop (agents autonomously fulfill entire jobs for 30 min to hours; human provides oversight, not steering).",
+      "excerpts": [
+        "Human in the loop will be a part, but also human on the loop. So and I call it one loop, because you will have different roles, like a coordinator, like a consultant, where human and machine working more closely together up to an observer",
+        "with this multi-agents, they fulfilling not a task, they fulfilling a job. Create this video experience"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "mixed"
+    },
+    {
+      "code": "voice-as-natural-primary-interface",
+      "description": "Positioning voice as the most natural and inevitable human-computer interface because 'you speak before you can read,' applicable to both newsroom tools and audience-facing experiences.",
+      "excerpts": [
+        "voice you speak before you can read. So voice is the naturalest communication form",
+        "Hey, can you tell me how is my article performing? And you get a voice response directly, even for younger editors, it's for the onboarding processes. It's quite good"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "voice-for-newsroom-analytics",
+      "description": "Replacing dashboard navigation with voice queries for article performance data, reducing cognitive load and enabling conversations like 'what kind of audiences are reading my article?'",
+      "excerpts": [
+        "even if you have some kind of dashboards and and you're figuring out how is my article performing and so on you need some kind of knowledge where's the dashboard where I have to click",
+        "Hey, what kind of audiences are reading my article? Why do I have a bounce rate in my third paragraph"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "audience-facing-conversational-articles",
+      "description": "Envisioning readers being able to ask questions directly to an article via voice, requesting deeper explanation of specific topics or aspects.",
+      "excerpts": [
+        "you can ask and give natural question per voice to your article. Hey, I don't understand it. Can you explain this topic a little bit more or this aspect a little bit more?"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "ambient-newsroom-vision",
+      "description": "A vision of technology (voice gear, AI companions) surrounding journalists as ambient infrastructure, providing a 'second brain, second eyes' that captures fleeting ideas and supports work throughout the physical environment.",
+      "excerpts": [
+        "technology soft and hardware is around us, right? Imagine that if you have here a little voice, voice gear, and I can talk with them if I need it. So it's it's surrounding us, supporting us, augmenting us",
+        "the most thoughts that we have they popping up in our brain, right? And imagine that you have just a button and say hey I got this cool idea. What does it mean?"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "multi-model-frontier-world",
+      "description": "Operating principle that no single AI provider excels at everything; different models are best for different tasks (Anthropic for writing, Gemini for video), requiring a centralized platform to access multiple models.",
+      "excerpts": [
+        "I believe that we are living in a multi model frontier world. So you have Anthropic maybe for writing because they have better skills or Gemini to understand our videos more and more"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "ai-studio-as-centralized-platform",
+      "description": "Building an internal AI Studio platform that provides centralized access to multiple AI models for every employee in the company, as the one production-ready AI tool.",
+      "excerpts": [
+        "what is in production right now is our AI studio where you can work with different kinds of models",
+        "we're building there a platform where we centralized for every employee in the company and can work with that kind of technology"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "start-closed-migrate-open-source",
+      "description": "Strategy of validating feasibility with proprietary models first, then migrating proven use cases to open-source models for cost control and independence, using a divide-and-conquer approach to narrow task scope.",
+      "excerpts": [
+        "we are starting with closed models. So seeing maybe this task can be fulfilled by OpenAI or Anthropic or Google, but if you see it's feasible we go the next step and if you see a return of invest and try to transform that product or that process into open source models",
+        "you can decide what do I run in this closed models, what do I run in open weight model or open source models and divide and conquer"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "tokens-as-currency",
+      "description": "In multi-agent systems, token consumption replaces traditional cost models; agents operate within budgets denominated in tokens rather than time or headcount.",
+      "excerpts": [
+        "tokens are then your money. So what we see in the future is no matter what kind of system you're using, you're orchestrating and have some kind of budget and and this is all your tokens"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "multimodal-personalization",
+      "description": "Next evolution of recommendation systems where the same information is delivered in different formats (text, video, audio) based on user preference and context (e.g., audio while driving).",
+      "excerpts": [
+        "Maybe you're you like to read more text, yeah, you get a textual representation in your recommendation. Maybe the machine understands I'm more like a video person and I get a video recommendation from the same information",
+        "if you're driving your car, you're not able to read, but you you are can listen to something"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "new-product-creation-over-optimization",
+      "description": "Insistence that AI's biggest opportunity is creating entirely new products (e.g., 9AM video news report) rather than just optimizing existing workflows and cutting costs.",
+      "excerpts": [
+        "I think about AI is not about to process optimization at the at the end of the day. You can do that and we will do that. But we have to think about with this new possibilities and opportunities to create new products",
+        "this kind of products where I see a big opportunity even for us as publishers. Not optimizing, cost cutting, workflow optimization"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "think-big-start-small-move-fast",
+      "description": "Mantra for AI experimentation: maintain a large vision but build the tiniest possible product, get feedback immediately, and iterate. Frames this as normal product development, not AI-specific.",
+      "excerpts": [
+        "my mantra is think big, start small, move fast, learn fast. Building the tiniest possible product out of your vision and get as soon as possible feedback from the editors, from the customers. It's just normal product development"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "ai-failure-as-learning",
+      "description": "Normalizing AI project failure as standard product development learning, where not meeting KPIs still generates valuable knowledge about what directions not to pursue.",
+      "excerpts": [
+        "Even if you're not fulfilling your KPIs, you learned. It's maybe not a win, but you learned oh, that's not the direction to go",
+        "where a lot of AI initiatives are failing is because they are too big"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "ai-coding-assistants-enabling-tiny-teams",
+      "description": "AI coding assistants eliminate skill-set barriers, allowing tiny teams without specialists to build full-stack products, threatening incumbent SaaS companies that fail to innovate.",
+      "excerpts": [
+        "Tiny Teams who has in the past limitations because I don't have this back-end developer is I don't have the resource of that back-end developer or front-end developer or PM or PO, you can virtualize that",
+        "every software as a service company, not innovating, will have a problem",
+        "80% with this new app store is done with coding assistance"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "cultural-resistance-and-fear",
+      "description": "Acknowledgment that editorial teams find it frightening to hear about role changes, multi-agent systems, and human-on-the-loop paradigms; some think the CTO is 'crazy.'",
+      "excerpts": [
+        "I think the company thinking about that I'm crazy or something like that is the feedback that I'm always getting",
+        "you will always have two answers. Yeah, with every kind of new technology and this transformative innovation is I don't like it. Yeah. And oh cool"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "negative"
+    },
+    {
+      "code": "generational-divide-in-ai-adoption",
+      "description": "Observation that younger editors are more naturally open to voice and AI technology, making these tools important for recruitment and onboarding of next-generation journalists.",
+      "excerpts": [
+        "we see younger editors are more open to this kind of technology. And this is what we see in every kind of figures",
+        "it's important that we have that kind of technology in the future for younger editors of a little bit of different mindset because they using this kind of technology more naturally"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "mixed"
+    },
+    {
+      "code": "inform-and-educate-strategy",
+      "description": "The approach to change management: lab explores the future and creates MVPs, then a separate AI team works closely with editors and the newsroom to inform and educate about possibilities.",
+      "excerpts": [
+        "Inform and educate, right? But we have to stay ahead of the curve",
+        "we have the AI team. So and we I work closely with the AI team, and the AI team is informing and educating this kind of possibilities and technology to the whole company"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "grounding-and-bounding-agents",
+      "description": "Guardrails strategy for multi-agent systems: ground agents in the publisher's own information base (articles, audience data) and bound their operating context with explicit policies and values.",
+      "excerpts": [
+        "grounding and bounding so the good thing is we as publishers we have a lot of information about our audience about our articles to get grounded answers",
+        "the guardrails is where we are steering the agents and say, hey, this is your bounding context in where you can operate, but not further"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "vendor-lock-in-and-exocortex-ownership",
+      "description": "Concern about personal AI assistants (exocortex/second brain) running on closed platforms, raising questions about whether your 'second brain' truly belongs to you or to the platform company.",
+      "excerpts": [
+        "is it really your second brain if it runs on the OpenAI or Gemini or Google infrastructure or is it a concierge and the assistant of the company?",
+        "becoming your concierge. This is where assistance getting more personal and you are building with that kind of technology a relationship"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "negative"
+    },
+    {
+      "code": "exocortex-as-personal-knowledge-companion",
+      "description": "Host's experience of building a personal AI trained on her own notes, thoughts, and conference learnings, enabling conversation with her own knowledge base rather than generic AI, changing how she thinks and works.",
+      "excerpts": [
+        "I have a conversation with myself because it's trained on my voice there. And it completely changes the way in which I think, the way in which I work, I feel more original",
+        "I'm not drawing on Chad GPT's knowledge. I'm drawing on my own insights, my own knowledge, my own research"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "publisher-industry-collaboration-against-big-tech",
+      "description": "Call for publishers to stop competing with each other and instead collaborate against the real threat: technology companies. Urging shared learning and industry-wide standards.",
+      "excerpts": [
+        "in the future the enemy is not the publisher A or B. That's really clear. The enemy are the technology companies. So what we have to do is learn together on that journey, share experience"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "mixed"
+    },
+    {
+      "code": "scraping-futility",
+      "description": "Recognition that anti-scraping measures like CAPTCHAs are effectively obsolete; Google's own model can solve its own CAPTCHA tests, and crawlers operate in stealth mode mimicking human browsers.",
+      "excerpts": [
+        "Google released last week I guess the Gemini 2.5 computer use model and Google has this capture test on their own pages. And their own model is can answer that capture test. So it's over",
+        "a lot of crawlers are operating in a stealth modus. Even if you have your analytics dashboards, it looks like a desktop browser, like a natural human"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "negative"
+    },
+    {
+      "code": "next-reader-is-an-agent",
+      "description": "Provocative claim that the next customer or reader for publishers will be an AI agent, not a human, requiring fundamental rethinking of content strategy and access policies.",
+      "excerpts": [
+        "your next customer, your next reader is an agent, for sure"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "mixed"
+    },
+    {
+      "code": "self-evolving-llms-as-existential-threat",
+      "description": "Warning about emerging self-evolving LLMs (from Berkeley/Google research) that continuously learn and absorb online content, posing an existential question for publishers about content value.",
+      "excerpts": [
+        "the next Evolution of LLMs is self-evolving LLMs. So the thing is with LLMs right now in the year 2025, October 2025 is a you train a model, that's it. And what Berkeley, I guess from Berkeley is the paper, but the Google has a similar paper about that is what if we create a model, a foundation model, a base world knowledge, and then let the model self-evolve?"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "negative"
+    },
+    {
+      "code": "automate-routine-be-human-for-humans",
+      "description": "Philosophy that AI should offload routine cognitive work so journalists can invest freed time in being physically present in their communities, doing what humans do best: connecting with humans.",
+      "excerpts": [
+        "Do the other nasty stuff that you can automate, automate it. But be present because humans following humans",
+        "use this kind of possibility to eliminate your routine work... be there, be a human for humans"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "daily-active-usage-as-north-star-kpi",
+      "description": "Using daily/weekly active usage as the primary KPI for AI product success: if people keep coming back, the product works; if they churn, iterate.",
+      "excerpts": [
+        "for me the most important KPI is like in the product development, I mean you you reach some audiences. You will activate them and for me the daily active usage is is one of the most important KPI because if the people are using your product it's not that bad"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "technology-driven-product-discovery",
+      "description": "Lab operates primarily from technology-push rather than market-pull: a new technology emerges, the team assesses feasibility and challenges, then explores how it can improve newsroom work.",
+      "excerpts": [
+        "we have a little team for product discovery where we think about okay, there is this new technology. So it's mainly a technology-driven lab. And we see, hey, there's a new technology, it's called voice AI. What does it mean? Yeah, is it feasible right now?"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "neutral"
+    },
+    {
+      "code": "experience-as-product-differentiator",
+      "description": "Framing personalization and all product development through the lens of digital experience: creating an 'endurable positive state' that drives return visits.",
+      "excerpts": [
+        "personalization means one thing. It's about your digital experience. Yeah, you want to have a endurable positive state in your mind, oh this was a great experience. And if you have this kind the likelihood that you come back the next day"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    },
+    {
+      "code": "regulatory-uncertainty-in-agentic-world",
+      "description": "Existing regulatory frameworks like cookie consent become incoherent when the next 'reader' is an AI agent rather than a human with a browser.",
+      "excerpts": [
+        "cookie content is is annoying me personally as a human. How does this look like in our agentic world? We don't know it right now",
+        "As an industry, find a way for really fair usage for agents and our content"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "negative"
+    },
+    {
+      "code": "google-search-replacement-behavior",
+      "description": "Personal shift from Google search to AI-powered research for purchase decisions and daily information needs, illustrating the new 'question in, answer out' customer journey.",
+      "excerpts": [
+        "I'm not googling anymore so often. I ask ChatGPT to do a research. This is my budget, this is how my KPIs is important and not to use so much energy and so on and give me just a report. Because this is the new customer journey"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "mixed"
+    },
+    {
+      "code": "be-curious-not-afraid",
+      "description": "Core advice for newsrooms: be open and curious about technology without fear, try things without being shy, let values guide application rather than resistance.",
+      "excerpts": [
+        "be curious. Try to stay ahead and always think about technology",
+        "don't be afraid to work with LLMs. It's just a machine. The machine is not judging you at the end of the day. Just try it out, be curious"
+      ],
+      "speaker": "Markus Franz",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode presents Markus Franz's vision for an 'ambient newsroom' at Ippen Digital, where multi-agent systems function as virtual teams with specialized roles operating in a mesh architecture, representing what he frames as the 'Champions League' of disruptive innovation. The conversation reveals a significant tension between the CTO's future-forward vision (human-on-the-loop, self-evolving LLMs, agents as next readers) and the cultural reality of a newsroom where some colleagues think he's 'crazy.' Franz articulates a pragmatic bridge strategy: start with proprietary models for validation, migrate to open source, and maintain a separate lab team that looks six months ahead while an AI team educates the broader organization. The most provocative claims concern the obsolescence of anti-scraping defenses, the emergence of self-evolving LLMs that will absorb all published content, and the assertion that publishers' next readers will be AI agents rather than humans, all of which suggest a media industry facing existential transformation far beyond workflow optimization.",
+  "surprises": [
+    "Franz explicitly says the company thinks he is 'crazy,' revealing an unusually candid acknowledgment of internal cultural friction from a sitting CTO.",
+    "The lab is only 4-5 people in a company with 60+ tenants, suggesting that transformative/disruptive innovation is being driven by an extremely lean team relative to the organization's scale.",
+    "Franz's concept of 'one loop' (combining human-in-the-loop and human-on-the-loop with roles ranging from coordinator to observer) is a more nuanced human-AI collaboration framework than typically discussed in media.",
+    "The assertion that 'your next reader is an agent' reframes content strategy not just around human audience but around machine consumption, which has profound implications for business models, consent frameworks, and content design."
+  ],
+  "tensions": [
+    "CTO's visionary 'ambient newsroom' rhetoric vs. newsroom teams who are fearful and think he is 'crazy' -- revealing a gap between technical leadership and editorial culture.",
+    "Advocacy for open-source independence vs. acknowledgment that the open-source AI ecosystem is 'declining' while closed models advance, creating a dependency paradox.",
+    "New product creation framed as the primary AI opportunity vs. simultaneous acknowledgment that cost-cutting workflow optimization 'is normal in the business area' -- suggesting internal pressure toward both.",
+    "Enthusiasm for AI as technology that 'will change everything' vs. warning about self-evolving LLMs and platform concierge products that represent existential threats to publishers.",
+    "Call for industry collaboration against big tech while simultaneously operating a lab that experiments with those same tech companies' closed models."
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "episode_meta": {
+    "title": "Should AI have the 'right to read' news like humans do?",
+    "date": "2024-01-23",
+    "guests": [
+      {
+        "name": "Jeff Jarvis",
+        "role": "Director of the Tow Knight Center for Entrepreneurial Journalism; Professor",
+        "organization": "Craig Newmark Graduate School of Journalism at the City University of New York (CUNY)"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "United States",
+    "word_count": 6590
+  },
+  "ai_tools": [
+    "GPT-4",
+    "ChatGPT",
+    "Microsoft Copilot",
+    "Microsoft Bing (with ChatGPT)",
+    "Large Language Models (LLMs)",
+    "Common Crawl"
+  ],
+  "use_cases": [
+    {
+      "description": "New York Times demonstrated GPT could verbatim reproduce entire articles from memory when prompted with sufficient paragraphs of an article, exposing a memorization flaw in LLMs",
+      "tool_used": "GPT (OpenAI)",
+      "organization": "New York Times / OpenAI",
+      "outcome": "Used as evidence in copyright lawsuit to show models can reproduce copyrighted content",
+      "stage": "production"
+    },
+    {
+      "description": "Microsoft Copilot used to chat and query specific New York Times news content, retrieving and producing content from the NYT website",
+      "tool_used": "Microsoft Copilot",
+      "organization": "Microsoft / New York Times",
+      "outcome": "Cited as evidence of unauthorized content retrieval in NYT lawsuit",
+      "stage": "production"
+    },
+    {
+      "description": "A lawyer used ChatGPT to generate case citations for federal court, which turned out to be fabricated",
+      "tool_used": "ChatGPT",
+      "organization": "Not specified (individual lawyer)",
+      "outcome": "Fabricated citations submitted to court; highlighted LLM hallucination problem",
+      "stage": "production"
+    },
+    {
+      "description": "Proposal for a news API that would allow AI companies to query a database of news under negotiated contracts with limitations and payment terms",
+      "tool_used": "Proposed news API",
+      "organization": "News industry (proposed)",
+      "outcome": "Conceptual proposal for a licensing mechanism between news organizations and AI companies",
+      "stage": "ideation"
+    },
+    {
+      "description": "Amy Reinhardt's executive program project at CUNY exploring the creation of a news LLM",
+      "tool_used": "LLM (proposed news-specific)",
+      "organization": "Associated Press / CUNY",
+      "outcome": "Academic/executive program research project",
+      "stage": "ideation"
+    },
+    {
+      "description": "OpenAI negotiated licensing deals with Springer and the Associated Press for content use",
+      "tool_used": "OpenAI models",
+      "organization": "OpenAI / Springer / Associated Press",
+      "outcome": "Licensing agreements established, though Jarvis argues this set precedent before principles were established",
+      "stage": "production"
+    },
+    {
+      "description": "Discussion of LLMs potentially extending literacy by enabling people intimidated by writing to speak to the machine and have it help articulate their stories",
+      "tool_used": "LLMs (general)",
+      "organization": "Marshall Project (discussed as potential beneficiary)",
+      "outcome": "Theoretical; raised concerns about code-switching to dominant language norms",
+      "stage": "ideation"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "AI training on news content is fair use because it is transformative — the model does not reproduce content, it learns statistical patterns to comprehend language",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Newspapers were not included in copyright until 1909 in the US; the original 1790 US copyright only covered maps, books, and charts",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The US Postal Act of 1792 enabled newspapers to send each other copies of their papers for free, intentionally creating a network for news sharing",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Newspapers employed 'scissors editors' whose job was to cut content from other newspapers and reprint it — they wanted credit but it was free",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The New York Times' demonstration of GPT reproducing articles verbatim was a 'parlor trick on a parlor trick' — they gave the model most of the article text, leaving only predictable words remaining",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The biggest threat AI brings to the news business is that it commodifies content — making content is no longer special, but reporting, trust, authority, and service remain valuable",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Sam Altman stated at Davos that OpenAI doesn't need to train on NYT data and expects models will learn from smaller amounts of higher quality data, similar to how a human can learn high school biology from one or two textbooks",
+      "speaker": "Nikita Roy (reporting Sam Altman's statement)",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "LLMs reflect back the 'publishing of the privileged' — our cliches, biases, and misapprehensions — because training data comes predominantly from those who had the privilege to publish",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Models trained on AI-generated content degrade in quality — they 'go crazy a bit' and don't work as well, creating need for verified human-quality training data",
+      "speaker": "Nikita Roy",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "If we regulate and write laws for what generative AI does today, we would completely miss the path of technological development",
+      "speaker": "Nikita Roy (reporting Rebecca Tushnet's view)",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Copyright was originally created (1710) for booksellers and publishers to create a marketplace for creativity as a tradable asset, not primarily to protect authors",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "News organizations lobbying politicians they should be independent of creates a conflict — they shouldn't be in a position to seek favors and be indebted to politicians",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "When radio emerged, newspapers tried to restrict them: radio could only do news twice a day, had to use wire services, couldn't have advertising, and couldn't cover events until 12 hours afterward",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "In Canada's C-18 legislation, when news organizations tried to get money from Google and Facebook for social media content, Facebook simply dropped news entirely",
+      "speaker": "Jeff Jarvis",
+      "evidence_type": "quantitative"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "LLMs have no sense of fact — they don't lie but don't know what truth is (hallucination problem)",
+      "category": "technical"
+    },
+    {
+      "description": "LLMs have a currency problem — models are only trained up to a certain date, lacking real-time information",
+      "category": "technical"
+    },
+    {
+      "description": "Models can memorize and reproduce copyrighted content verbatim, which is a technical flaw that creates legal exposure",
+      "category": "technical"
+    },
+    {
+      "description": "News organizations are lobbying politicians they should be independent of, compromising editorial independence",
+      "category": "ethical"
+    },
+    {
+      "description": "Training data predominantly reflects the 'publishing of the privileged,' embedding Western perspectives and excluding underrepresented communities and less digitized countries",
+      "category": "ethical"
+    },
+    {
+      "description": "Models trained on AI-generated output produce degraded results ('gray goo' / 'textpocalypse'), creating a need for verified human-quality data",
+      "category": "technical"
+    },
+    {
+      "description": "LLMs extending literacy could force marginalized communities to 'code switch' to the white hegemony of language, as models mimic dominant publishing norms",
+      "category": "ethical"
+    },
+    {
+      "description": "Determining where liability lies for AI outputs — at the model level, the application level, or the user level — remains unresolved",
+      "category": "ethical"
+    },
+    {
+      "description": "News industry's protectionist response to AI mirrors its historical resistance to radio, TV, and internet — risking being left behind rather than adapting",
+      "category": "organizational"
+    },
+    {
+      "description": "Fair use boundaries are unclear — Larry Lessig described fair use as 'the right to hire a lawyer' — and will require litigation to clarify for AI",
+      "category": "ethical"
+    },
+    {
+      "description": "Acquisition of training data (e.g., Books3) raises ethical questions as creators of those datasets did not purchase every copy of the books included",
+      "category": "ethical"
+    },
+    {
+      "description": "OpenAI's licensing deals with Springer and AP may have set commercial precedent before legal and ethical principles were established",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Does the machine have the same right to read and learn and use information as a journalist? Because every journalist on Earth reads other journalists' work and gets information from sources and does not pay them, learns from it and uses it and repurposes it in their journalism.",
+      "speaker": "Jeff Jarvis",
+      "topic": "AI right to read and fair use",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The biggest threat that AI brings to our business is that it commodifies content. Now comes a machine that can make no end of content. And making content ain't so special. Writing isn't so special. Reporting is. Trust is, authority is, service is. That's where the value of journalism should be resident.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Value of journalism in the AI era",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "All it's playing back to us is our cliches and our biases and our misapprehensions about the world as it is.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Bias in LLM training data",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "News organizations are being quite short-sighted, as they have been in the past... when radio came along newspapers tried to keep them out of the news business. They made them sign an agreement that said that they would do no news or that they would do only news only twice a day.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Historical pattern of news industry resisting new technology",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "If it is just data, then you can't own information. You can only own the treatment of it. I argue that news stories are just another form of data visualization. You could make a chart, you could make a box, you could make a story.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Nature of news content as data",
+      "pedagogical_value": "medium"
+    },
+    {
+      "text": "Rather than fighting at this point, as we are out of our field, we should be looking for ways to make it possible for AI companies to query and serve information from us and license for that purpose.",
+      "speaker": "Jeff Jarvis",
+      "topic": "Constructive approach to AI-news partnerships",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Distinguish between AI training (fair use) and AI querying/output (licensable) — fight for licensing on the output side rather than trying to block all use of content",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News organizations and publishers"
+    },
+    {
+      "advice": "Create a news API with keys distributed under contracts with limitations, enabling AI models to query a database of news under negotiated terms and payment",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News industry leaders and technologists"
+    },
+    {
+      "advice": "Focus on labor laws and unfair competition laws rather than copyright law to address concerns about job displacement from generative AI",
+      "speaker": "Nikita Roy (citing Rebecca Tushnet)",
+      "target_audience": "Policymakers and news industry advocates"
+    },
+    {
+      "advice": "News organizations should stop lobbying politicians they should be independent of — this creates conflicts of interest and indebtedness",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News organizations"
+    },
+    {
+      "advice": "Invest in digitizing content from underrepresented regions (e.g., African continent) to address training data gaps rather than relying solely on existing Western-centric digital content",
+      "speaker": "Nikita Roy",
+      "target_audience": "AI companies and global news organizations"
+    },
+    {
+      "advice": "Negotiate constructively with AI companies rather than going to Congress and courts expecting a 'bucket of money' — AI is here and people will use it",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "News industry executives"
+    },
+    {
+      "advice": "Rethink the 'romantic author' myth in copyright — recognize that creativity involves a chain of contributors and consider a 'credit rate' system that records the string of contributions to creative products",
+      "speaker": "Jeff Jarvis",
+      "target_audience": "Copyright policymakers and legal scholars"
+    },
+    {
+      "advice": "AI liability should be placed at the application level rather than the model level — suing at the model level is like suing Gutenberg for everything ever printed",
+      "speaker": "Jeff Jarvis (reporting WEF San Francisco discussion)",
+      "target_audience": "Policymakers and AI regulators"
+    }
+  ],
+  "external_references": [
+    "The Gutenberg Parenthesis: The Age of Print and Its Lessons for the Age of the Internet (book by Jeff Jarvis)",
+    "New York Times v. OpenAI and Microsoft (copyright lawsuit)",
+    "US Senate Judiciary Subcommittee on Privacy, Technology and Law (hearing on AI and future of journalism)",
+    "Common Crawl (open web archiving protocol)",
+    "Books3 (training dataset of books used for LLMs)",
+    "The Atlantic (published list of books in Books3; published Matthew Kirschenbaum's 'textpocalypse' piece)",
+    "Section 230 (US law on platform liability)",
+    "C-18 (Canadian legislation on social media and news compensation)",
+    "Statute of Anne (1710 English copyright law)",
+    "US Copyright Act of 1790",
+    "US Copyright Act of 1909",
+    "US Postal Act of 1792",
+    "Berne Convention (International Convention on Copyright)",
+    "World Economic Forum / Davos 2024",
+    "World Economic Forum event on AI governance (San Francisco)",
+    "This Week in Google (podcast co-hosted by Jeff Jarvis)",
+    "AI Inside (podcast co-hosted by Jeff Jarvis)",
+    "Harvard Innovation Labs",
+    "Harvard Gazette (interview with Rebecca Tushnet)",
+    "Rebecca Tushnet (First Amendment lawyer, Harvard Law School)",
+    "Larry Lessig (Harvard, fair use commentary)",
+    "Michel Foucault (theory of authorship)",
+    "Roger Lynch (CEO of Conde Nast, testified at Senate hearing)",
+    "Sam Altman (OpenAI CEO, Davos statements)",
+    "Amy Reinhardt (Associated Press, CUNY executive program)",
+    "Will Slauter (author of 'Who Owns the News')",
+    "Matthew Kirschenbaum (Professor of English, University of Maryland — 'textpocalypse' concept)",
+    "Matt Marconi (referenced as first episode guest discussing verified training data)",
+    "Marshall Project (discussed re: literacy and AI)",
+    "Conde Nast",
+    "Associated Press (licensing deal with OpenAI)",
+    "Springer (licensing deal with OpenAI)",
+    "NMA (Association for Newspapers and Magazines)",
+    "NAB (Association for Broadcast)",
+    "CUNY Craig Newmark Graduate School of Journalism executive program",
+    "Tow Knight Center for Entrepreneurial Journalism",
+    "Harvard Innovation Labs SPARC grant (podcast sponsor)",
+    "Entertainment Weekly (founded by Jeff Jarvis)",
+    "Advance.net / Advance Local (Jeff Jarvis former role)"
+  ]
+}

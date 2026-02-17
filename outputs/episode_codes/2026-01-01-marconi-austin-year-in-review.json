@@ -1,0 +1,392 @@
+{
+  "episode_date": "2026-01-01",
+  "episode_title": "Francesco Marconi & Scott Austin: 2025 Year in Review, What Actually Changed in AI and Media",
+  "codes": [
+    {
+      "code": "Phased AI reckoning timeline",
+      "description": "Periodization of newsroom AI adoption across three years: 2023 as shock, 2024 as tentative experimentation, 2025 as operational reckoning when business models were directly challenged",
+      "excerpts": [
+        "I feel like 2023 was the year of the generative AI shock in the industry. We were just grappling with what this means",
+        "2024 was a lot of tentative experimentation that happened, but 2025 I felt like is will be recorded as part of in history as a sort of operational reckoning moment for the industry because our business models have started to get challenged"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "Inflection from experimentation to foundational system",
+      "description": "Recognition that 2025 marked the point where AI shifted from novelty to foundational infrastructure in newsrooms, with native AI applications replacing mere recommendation",
+      "excerpts": [
+        "2025 coming to the realization that actually this is going to be a foundational system and it's going to be a completely different way of thinking about information",
+        "applications of AI that are not just recommendation. native AI applications from you know answering questions about the news to data analysis"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Embrace-and-defend dichotomy",
+      "description": "The paradox facing newsrooms that must simultaneously embrace AI for internal workflows while defending against external AI companies commoditizing their business model",
+      "excerpts": [
+        "you can't be a journalist anymore without embracing AI and using AI throughout your entire workflow. And so you're grappling with both of those, that you really need to embrace AI in a big way, but at the same time won't worry about the perils of how you're going to adapt from a business standpoint",
+        "that dichotomy is just really, really interesting, I think, right now, how companies are are dealing with it"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "mixed"
+    },
+    {
+      "code": "ChatGPT fallacy for news consumption",
+      "description": "The mistaken assumption that conversational Q&A is the natural consumption mode for news, when the more important function is editorial push: information meeting you where you are",
+      "excerpts": [
+        "I actually call it the the fallacy of Chat GPT meaning I've seen many, many experiments of okay, you can now converse with the news coverage of you know a news organization. I don't think that's the natural consumption mode for news.",
+        "the other part of information meets you where you are, that's that's not, you know, been discussed that that much"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "negative"
+    },
+    {
+      "code": "Proactive AI as distribution disruptor",
+      "description": "Emergence of AI systems like ChatGPT Pulse that proactively deliver hyper-personalized news based on deep user context, fundamentally disrupting traditional news distribution",
+      "excerpts": [
+        "every day when I go into my Chat GPT, it gives me this highlight, check out your pulse for the day. And it is the most personalized practical news information that I need for my day",
+        "it knows exactly what I need to know for my day. It knows exactly what I need to know about I'm traveling. It's like, hey, you might find face delays at the border because of these new rules that have come out"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "mixed"
+    },
+    {
+      "code": "Surveillance capitalism advantage over publishers",
+      "description": "AI companies possess conversational user data and behavioral signals that far exceed what any news organization can collect, creating an insurmountable personalization gap",
+      "excerpts": [
+        "now it's a system that knows everything about me more than any newsroom has. If you're a news organization, how do you compete with that?",
+        "you're talking about conversations now that you're having and your innermost secrets and questions and your day-to-day really"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Speed versus personalization gap",
+      "description": "AI can produce personalized news in milliseconds while human-curated newsletters take hours, creating an asymmetric competition that news organizations cannot win on these terms",
+      "excerpts": [
+        "news organizations, you know, it takes three hours to create a newsletter that's just general, right? And what you're talking about is milliseconds that's incompletely personalized just to what you want"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "negative"
+    },
+    {
+      "code": "Publisher replaceability in AI pipelines",
+      "description": "Canadian news publishers suing OpenAI demonstrate that AI platforms can route around blocked content using alternative sources, showing publishers are more replaceable than they think",
+      "excerpts": [
+        "what's even more concerning is that most Canadian news publishers, all the major ones, are suing open AI. So their data does not show up on ChatGPT Pulse. They are using publicly available information, all kinds of news sources and blogs"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "News as data gathering company",
+      "description": "Strategic reframing of news organizations as data gathering companies that organize, structure, and contextualize information, rather than content production factories",
+      "excerpts": [
+        "I think new news companies need to be data gathering companies. in a very specific way, which is even if the information is available in blogs or government websites, there's so much work that needs to be done to properly organize, structure, contextualize that information, and that becomes something that is unique to news",
+        "the AI companies are not necessarily interested in that. because their business model is about scale, it's about as many agnostic use cases as possible"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Content unit economics approaching zero",
+      "description": "AI is driving the economic value of producing content toward zero, as any creator can now access production-level tools, collapsing the cost advantage of traditional newsrooms",
+      "excerpts": [
+        "the biggest strain that AI is putting on just all of these different workflows is it's the economic value, the unit of producing content starts going towards zero",
+        "any TikTok creator can sit and spin up almost a world-class studio in their bedrooms and have access to all of these content level softwares"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Scarcity and filtering reimagined",
+      "description": "News organizations sell two things being commoditized by AI: scarcity of information and editorial filtering. Survival requires reimagining both by finding unique data sources AI cannot access and selling editorial rubrics to machines, not just humans",
+      "excerpts": [
+        "News organizations sell two things. They sell solving the problem of scarcity of information, which to your point now it's being commoditized. And the other thing that they sell is a filter of the world",
+        "scarcity has to do with How do you find the most unique contextualized sources of information that an AI can touch? That could be offline, that could be, you know, private. data and then the the filtering how do you sell these the editorial rubrics the the point of view in the world the perspective Not to humans but to other machines to to use"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Hidden process of news",
+      "description": "The under-appreciated, non-automatable human processes behind journalism: negotiation with editors, source cultivation, word-by-word legal review, and the social dynamics of investigative reporting",
+      "excerpts": [
+        "journalism is hard. It there's a lot of nuance in words in semantics. There's negotiation in wording because words have meaning and meaning meaning can be interpreted differently. There's conjoling of information out of sources. There's the interpretation of data that requires the human experience.",
+        "even when we felt like after 50 sources that we had real evidence that there was actually fraud going on... once we had started piecing together the story, then you're talking with, you know, the the lawyer that's representing them and the editors that are involved with it, it becomes, you know, 20 people involved"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "positive"
+    },
+    {
+      "code": "Speed versus persistence framing",
+      "description": "Reframing the AI-journalism relationship beyond the automation/augmentation cliche to speed (what AI offers) versus persistence (what humans uniquely contribute) in investigative work",
+      "excerpts": [
+        "I don't want to sound like a cliche of like the automation versus augmentation. I've started thinking more about the speed versus persistence. as it relates to the relationship with between AI and in and human journalists"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "Outcome Health as AI-proof case study",
+      "description": "The Wall Street Journal Outcome Health fraud investigation as archetypal example of journalism that AI cannot replicate: tip-based, source-reliant, requiring months of human persistence",
+      "excerpts": [
+        "he got a tip about a company called Outcome Health in Chicago several years ago... This is not publicly available data, but this is information that somebody has that works closely at the company",
+        "there's no technology, there's no AI that could help us move faster because every word that we put on that page mattered"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom control tower vision",
+      "description": "Future newsroom reimagined as an airport control tower with highly specialized, well-compensated professionals controlling information flow, rather than current production-heavy model",
+      "excerpts": [
+        "It's going to be more like a control tower at an airport where you have these highly specialized professionals. that are very well compensated because they are doing a critical thing. They are controlling the flow of information"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Journalism school AI penalty effect",
+      "description": "Journalism schools penalizing ChatGPT use created a generation of graduates who associate AI with cheating, producing fear and resistance rather than informed adoption",
+      "excerpts": [
+        "when they were back in journalism school and Chad GPT came out that was the language that was being used, right? If you use Chat GPT, you would be penalized for it. So you come out n worried about how to use, you're not really knowing how to use"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Early-career displacement anxiety",
+      "description": "AI automating entry-level tasks like headline writing threatens the traditional training ground where junior journalists learn domain expertise on the job",
+      "excerpts": [
+        "the student had asked me, well we just spend like learning how to write headlines and working on that. And so what are we going to be doing?",
+        "We always talk about AI as the new intern. Well what happens to the early career journalist who learn on the job to embed and learn this domain expertise"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "AI literacy as survival skill",
+      "description": "AI proficiency joining the cumulative stack of required journalist skills (writing, multimedia, data) as a non-negotiable competency for employability",
+      "excerpts": [
+        "you're going to be hired and you're going to keep your job if you can work in tandem with AI and to not be scared of it",
+        "the requirements are all of the above, plus you need to know how to use AI tools"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI adoption divide",
+      "description": "Significant gap between newsroom executives who must engage with AI due to business impact and journalists on the ground who resist it, with 38-50% of early-career journalists never having used AI tools",
+      "excerpts": [
+        "around 38% had never used an AI tool before. Another stat that had shocked me, it was group of early career journalists, and around 50% of that group had never seen said that they never used an AI tool and they were actually also very against AI",
+        "You have a big divide between product teams and I would say still journalists. in in using AI or being exposed to AI"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Missing AI policy as paralysis source",
+      "description": "Absence of clear AI policies in newsrooms leaves journalists without guidance, amplifying fear and inaction because they do not know what is permitted",
+      "excerpts": [
+        "a lot of newsrooms still lack an AI policy. Those discussions are happening, but they don't have a roadmap in terms of what am I allowed to do? I don't want to get fired or have my name out there as one of those examples of AI slop"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Top-down leadership requirement",
+      "description": "AI adoption in newsrooms requires explicit endorsement from editor-in-chief or CEO to give clarity and permission, rather than leaving journalists to navigate on their own",
+      "excerpts": [
+        "Having the guardrails to begin with, but having a leader in the newsroom, not just a publishing executive or somebody on the business side, right? It's got to be working with the editor in chief",
+        "You don't have to explain why you are using AI. You only have to explain if you are not using AI"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "positive"
+    },
+    {
+      "code": "Build vs. buy institutional inertia",
+      "description": "News organizations default to building internally but lack bandwidth, data infrastructure, and human readiness; startups exist to build faster than institutional inertia allows",
+      "excerpts": [
+        "there's institutional inertia for either human inertia or the systems are not in place or the data is not in place. That it's almost faster for and more reliable for these organizations to collaborate with with technology companies",
+        "the function of a startup, at least in the information industry, is not to innovate. is to build technology and solutions faster than a company can can build"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI fact-checking as realized flying car",
+      "description": "AI fact-checking, once considered science fiction in journalism, now actually works and is being deployed at scale, unlike many other predicted AI applications",
+      "excerpts": [
+        "AI fact checking used to be kind of the flying car of journalism. But as opposed to flying cars, AI fact checking actually exists and it's working",
+        "things like, you know, spell check or alignment with grammar, uh I just feel like there's things that are base level"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Reasoning models for claim verification",
+      "description": "Using AI reasoning models that spend 20-30 minutes checking every claim against internet sources, representing a qualitative leap beyond simple fact-checking",
+      "excerpts": [
+        "you're also having these reasoning models that can go and spend twenty to thirty minutes looking at every single claim that is being made, go and check the internet sources for that and come back and give you a summary"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "Agent as memory solution",
+      "description": "AI agents reconceptualized not as autonomous robots but as solutions to context window limitations, breaking large tasks into sequential reasoning steps that mirror journalistic workflows",
+      "excerpts": [
+        "AI agents are actually very solve very specific problem. which is a model running out of memory",
+        "the agentic process is actually a manifestation of a workflow that journalists have, which is you have a big task. You have to investigate this this case or these finances or something. And you are breaking down this massive task into sequential reasoning steps"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "neutral"
+    },
+    {
+      "code": "Templates of thinking vs. templates of writing",
+      "description": "Evolution from old NLG-style templates for automated story writing to encoding journalistic reasoning processes (assessment, contextualization, enrichment) as reusable thinking templates",
+      "excerpts": [
+        "it's not about the templates of writing, it's the templates of thinking",
+        "journalists in the book we call these uh news theorems, where as a experienced journalist you have this intuition about what types of questions to ask"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Agent hype versus reality",
+      "description": "Widespread marketing misuse of the term 'AI agent' when most products are just GPT wrappers, creating confusion about actual capabilities versus true agentic behavior",
+      "excerpts": [
+        "a lot of people say that they are using AI agents in their newsroom. And that's also because it's marketing by a lot of tech companies are saying it's AI agent. No, it's basically just a wrapper around chat gpt it's it's basically a gpt that you're having that's not an AI agent",
+        "a true ai agent is something that you give it uh basically a bunch of data on you tell it what your goal is, what it needs to do, it will understand which documents it needs to look into"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "MCP as underrated news disruption",
+      "description": "Model Context Protocol positioned as the most underrated innovation for news, enabling AI models to connect to external tools and data sources and creating new business model possibilities",
+      "excerpts": [
+        "MCP is probably one of the most underrated kind of disruptions or innovations that will happen to news",
+        "the the business model aspect when We are still yet to see that area is still evolving and developing and agents play a huge role in that"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "MCP archive trap",
+      "description": "First-mover reflex to dump content archives into MCP servers repeats the mobile-era mistake of copying print to screen; the real value is connecting MCP to proprietary data, not articles",
+      "excerpts": [
+        "the first wave of MCPs will be kind of, you know, when newsrooms were trying to transition to mobile were just trying to copy their website or their newspaper",
+        "The winning game for a publisher is to connect the MCP to proprietary sources of of data. So for the Wall Street Journal could be markets, could be their rankings"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "mixed"
+    },
+    {
+      "code": "Print-era architecture persistence",
+      "description": "News organizations remain stuck in print-era architecture even when fully digital, treating stories as finished artifacts rather than living entities, obsessing over words and moving on",
+      "excerpts": [
+        "news organizations are still stuck in that old print architecture, even if they don't print anymore Where they obsess over every word and publish something, high five and move on, when the reality is the story is still a living entity"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "negative"
+    },
+    {
+      "code": "Pre-news systems and age of anticipation",
+      "description": "Prediction that 2026 will see emergence of pre-news systems that detect early signals before events become news, shifting journalism from reactive history-reading to anticipatory intelligence",
+      "excerpts": [
+        "even in breaking news, we are actually reading a history book of the recent past",
+        "what happens when you no longer are able to break the news and you are now seeing it what are the early signals that you can detect before it becomes news",
+        "We are entering what we call the age of anticipation"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "Prediction markets as journalistic data",
+      "description": "News organizations like CNN and CNBC beginning to use prediction markets as alternative data sources, representing a new analytical lens beyond traditional polling",
+      "excerpts": [
+        "company in news organizations like CNN, CNBC are starting to use alternative sources of data like prediction markets as kind of a a new lens uh you know on our new perspective or a new reinterpretation of polling"
+      ],
+      "speaker": "Francesco Marconi",
+      "valence": "positive"
+    },
+    {
+      "code": "AI misinterpretation as distinct risk",
+      "description": "AI misinterpretation of nuance and semantics identified as a distinct and more insidious risk than outright factual errors or hallucinations",
+      "excerpts": [
+        "there's the misinterpretation. And that really worries me in spitting out information that may not be exactly right. It's not that they're a hundred percent, you know, obvious factual incorrect information, but there's nuance and there's semantics and there's all sorts of different ways that information can be interpreted differently"
+      ],
+      "speaker": "Scott Austin",
+      "valence": "negative"
+    },
+    {
+      "code": "AI as systems thinking teacher",
+      "description": "Exposure to AI reasoning transparency may be altering how humans approach problems, potentially making society more logical through exposure to machine thinking processes",
+      "excerpts": [
+        "it has helped me become a better systems thinker because you are seeing this like very logical way of breaking down problems",
+        "I think people that get exposure to the reasoning kind of inherently get exposure to a new type of machine thinking. And so I wonder if the way that we approach problems as a society will become more logical over time"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "First principles reckoning for journalism",
+      "description": "The necessity for journalism to return to its first principles as a real-time structured knowledge network of verified information to find its value in an AI-mediated ecosystem",
+      "excerpts": [
+        "this has to be of first principles. reckoning for the news industry",
+        "we are at the end of the day the only industry that I say is a real time structured knowledge network of verified information. Nobody else is that's the first principles of journalism"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom architecture reimagination",
+      "description": "Prediction that 2026 marks the beginning of fundamentally restructuring newsrooms rather than retrofitting AI into print-era team structures and workflows",
+      "excerpts": [
+        "AI is going to rewrite that architecture of the newsroom because this is the inflection point that All of our past logic is just not gonna hold true",
+        "What does a newsroom look like in this new era, not just retrofitting into a print era architecture"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "mixed"
+    },
+    {
+      "code": "Job fear versus role change fear",
+      "description": "Journalist concerns are a mix of job loss anxiety and resistance to role change, with job loss being the dominant fear especially among early-career journalists",
+      "excerpts": [
+        "I'd say it's mixed, but definitely a lot more on the job loss",
+        "we as an industry are not talking enough about that. And that's what causes a lot of fear"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Workflow reimagination imperative",
+      "description": "The need to reimagine newsroom workflows from first principles in the AI era, analogous to how the typewriter-to-computer transition fundamentally changed work processes",
+      "excerpts": [
+        "what all of this is pointing towards is we also have to reimagine what our workflows might possibly look like in this era",
+        "What do those workflows look like before you had computers and it was just a typewriter? It looked very different to now when you're having AI as this technology"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "This year-in-review roundtable frames 2025 as the year AI forced an 'operational reckoning' in journalism, moving beyond experimentation to directly threaten business models through tools like Google AI Overviews and ChatGPT Pulse. The three participants converge on a strategic vision where news organizations must shift upstream from content production (whose unit economics are approaching zero) to data gathering, structuring, and contextualizing unique information. A persistent tension runs through the conversation between the acknowledged necessity of AI adoption and the reality that most journalists -- especially early-career ones -- resist or fear the technology, in part because journalism schools framed AI use as cheating and newsrooms lack clear policies. The discussion identifies MCP, agentic workflows, and pre-news anticipatory systems as key 2026 developments, while anchoring journalism's irreducible value in human persistence, source relationships, and the hidden negotiation processes that AI cannot replicate.",
+  "surprises": [
+    "50% of early-career journalists surveyed had never used an AI tool and were actively against AI, despite entering a profession being reshaped by it",
+    "Canadian publishers suing OpenAI are effectively excluded from ChatGPT Pulse, yet the product still delivers adequate Canadian news coverage using alternative sources",
+    "ChatGPT Pulse, using accumulated conversation data, delivers more personalized and useful daily news than any publisher's newsletter",
+    "Francesco Marconi frames AI agents not as autonomous entities but as solutions to the mundane problem of context window memory limitations",
+    "The host (a data scientist building AI tools for journalism) identifies Claude Code -- an engineering tool -- as her primary interface for textual research and multi-agent workflows"
+  ],
+  "tensions": [
+    "News organizations must embrace AI to survive but face existential business model threats from the same technology companies building that AI",
+    "AI literacy is positioned as a survival skill for journalists, yet the dominant fear among journalists is job loss rather than role evolution",
+    "Journalism schools penalized AI use as cheating, then the industry demands AI proficiency from graduates of those same programs",
+    "The discussion celebrates human persistence and the hidden process of journalism while acknowledging that production and distribution -- where most newsroom resources are deployed -- are being commoditized",
+    "MCP is framed as the most underrated disruption for news, yet the predicted first wave of MCP implementations will repeat the mobile-era mistake of just dumping content archives"
+  ]
+}

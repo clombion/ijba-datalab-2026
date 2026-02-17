@@ -1,0 +1,261 @@
+{
+  "episode_meta": {
+    "title": "Rune Ytreberg & Lars Adrian Giske: Building AI Tools for Investigative Journalism in Local News",
+    "date": "2025-02-18",
+    "guests": [
+      {
+        "name": "Rune Ytreberg",
+        "role": "Head of Data Journalism Lab",
+        "organization": "iTromso / Polaris Media"
+      },
+      {
+        "name": "Lars Adrian Giske",
+        "role": "Head of AI",
+        "organization": "iTromso"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Norway",
+    "word_count": 8131
+  },
+  "ai_tools": [
+    "Property Bot (alert system for property transactions)",
+    "LAILA (AI research assistant / cobot for data-driven journalism)",
+    "Fisheries Database (AI anomaly detection on 5 million fish transactions)",
+    "GIN (AI-powered system ranking municipal documents by newsworthiness)",
+    "Domain-specific AI research assistants (RAG-based chat with FOIA documents)",
+    "OCR assistant (converting PDF images to text for ingestion)",
+    "OpenAI platform assistants",
+    "Anthropic LLM-based assistants",
+    "Vector database with RAG system",
+    "Python script for PDF-to-JSON conversion and forced prompting for timelines",
+    "Slack notification/alert system (built on top of GIN)"
+  ],
+  "use_cases": [
+    {
+      "description": "Automated ingestion of nightly property transactions with alert system notifying journalists of newsworthy transactions across 70 local newspapers",
+      "tool_used": "Property Bot",
+      "organization": "iTromso / Polaris Media (70 newspapers)",
+      "outcome": "Produces several news stories per week; convinced Polaris Media leadership to fund further AI development",
+      "stage": "production"
+    },
+    {
+      "description": "Anomaly and pattern detection across 5 million fish transactions over 20 years to flag non-sustainable fishing activities",
+      "tool_used": "Fisheries Database (AI anomaly detection)",
+      "organization": "iTromso",
+      "outcome": "Detected a company engaged in non-sustainable practices; iTromso was the only newspaper able to film the police and Coast Guard raid because they already knew the target from their AI system",
+      "stage": "production"
+    },
+    {
+      "description": "AI-powered ranking and summarization of municipal zoning/planning documents to surface newsworthy items from hundreds of daily PDFs",
+      "tool_used": "GIN",
+      "organization": "iTromso / 36 Polaris newspapers covering 130 municipalities",
+      "outcome": "Reduced document review time from 60-90 minutes to 5 minutes per day; two summer interns delivered five cover stories in their first week; lowered threshold for junior journalists to cover complex beats",
+      "stage": "production"
+    },
+    {
+      "description": "Investigation of systemic understaffing at the University Hospital of Northern Norway using FOIA documents analyzed via a RAG system with health investigation system prompts",
+      "tool_used": "Domain-specific AI research assistant (vector database + RAG)",
+      "organization": "iTromso",
+      "outcome": "Discovered an X-ray crisis where at least five people died due to a freelance doctor who spent insufficient time reviewing X-ray images over many years; work that would have taken two to three journalists many weeks was done in seconds",
+      "stage": "production"
+    },
+    {
+      "description": "Collaborative cross-border investigation with Swedish newspaper Goteborgs-Posten requiring timeline generation from large document corpus",
+      "tool_used": "Python script for PDF-to-JSON conversion combined with batch prompting to OpenAI for timeline extraction",
+      "organization": "iTromso and Goteborgs-Posten",
+      "outcome": "Successfully generated timeline of events from hundreds of documents after overcoming RAG limitations on aggregation tasks",
+      "stage": "production"
+    },
+    {
+      "description": "Analysis of annual financial reports to detect significant changes and alert journalists",
+      "tool_used": "LAILA (research assistant)",
+      "organization": "iTromso",
+      "outcome": "Journalists receive alerts when significant changes appear in new annual reports compared to historical data",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "80% of the time a journalist spends on a story is spent on initial research and finding the story",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "professional estimate"
+    },
+    {
+      "claim": "50% of all correspondence between municipalities and inhabitants of Norway is about urban development or planning and zoning",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "stated statistic"
+    },
+    {
+      "claim": "60% of municipalities in Norway publish all needed zoning/planning data openly, leaving 40% that do not",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "stated statistic from scaling experience"
+    },
+    {
+      "claim": "80% of Norwegians own their own house, making urban development and zoning a critical beat for local newspapers",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "stated statistic"
+    },
+    {
+      "claim": "GIN reduced daily document review from 60-90 minutes to 5 minutes for journalists",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "measured outcome"
+    },
+    {
+      "claim": "Two summer interns fresh out of journalism school delivered five cover stories in their first week using GIN",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "observed outcome"
+    },
+    {
+      "claim": "The AI newsworthiness model trained on journalist gut-feeling (thumbs up/down) was better at capturing relevant entities than manually curated entity lists",
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "evidence_type": "observed outcome during development"
+    },
+    {
+      "claim": "Fish is the second largest industry after oil in northern Norway, with significant non-sustainable activity",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "contextual claim"
+    },
+    {
+      "claim": "Four municipalities decided to start publishing data openly after seeing the value of the GIN tool, increasing government transparency",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "observed outcome"
+    },
+    {
+      "claim": "At least five people died due to an X-ray doctor who did not spend enough time reviewing images, discovered through their AI-assisted FOIA document analysis",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "investigative finding"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "40% of Norwegian municipalities do not publish zoning and planning data openly, limiting GIN's coverage to only 130 of Norway's municipalities and roughly half of Polaris newsrooms",
+      "category": "data access"
+    },
+    {
+      "description": "Plethora of different municipal systems, web portals, and data providers with no standardized format across Norway",
+      "category": "data standardization"
+    },
+    {
+      "description": "Municipal document portals have poor UI with minimal metadata -- titles are often uninformative (e.g., just 'referencing project'), forcing journalists to manually sift through 400-500 documents daily",
+      "category": "data quality"
+    },
+    {
+      "description": "RAG systems cannot reliably perform aggregation tasks such as generating timelines across an entire document corpus due to context window limits and how vector database querying works",
+      "category": "technical limitation"
+    },
+    {
+      "description": "Risk of hallucination in LLM outputs, including hallucinated source citations, requiring careful fact-checking and journalist-in-the-loop verification",
+      "category": "accuracy / hallucination"
+    },
+    {
+      "description": "Many FOIA documents were PDF images rather than searchable text, requiring an OCR preprocessing step before they could be ingested into the AI system",
+      "category": "data quality"
+    },
+    {
+      "description": "Prompting quality varied significantly between a 21-year-old developer and a 30-year veteran investigative journalist, producing very different outputs -- highlighting the need for editorial-developer collaboration",
+      "category": "workflow / collaboration"
+    },
+    {
+      "description": "When expert journalists are sick or on vacation, local newsrooms lose critical beat coverage because institutional knowledge resides in individuals rather than systems",
+      "category": "organizational / knowledge management"
+    },
+    {
+      "description": "Small local newsroom (25-person team) competing against a competitor twice their size, requiring extreme efficiency",
+      "category": "resource constraints"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We started with low hanging fruits. That was very easy to get our hands on and that we could very efficiently get the product out and show our editor that this is actually working and it's going to have an impact. It's going to produce better journalism.",
+      "speaker": "Rune Ytreberg",
+      "topic": "strategy for AI adoption in newsrooms",
+      "pedagogical_value": "Demonstrates a pragmatic, iterative approach to introducing AI in newsrooms -- start with simple, high-impact tools to build editorial buy-in"
+    },
+    {
+      "text": "All the police published was a short little notification saying there is an ongoing raid at a fisheries plant in northern Norway. That was all we had. But we knew exactly where to go. So we were there ten minutes after the police and were able to film it, do interviews. Nobody had access like we did.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "AI-powered investigative advantage",
+      "pedagogical_value": "Vivid example of how AI anomaly detection gave a small local newsroom an exclusive investigative edge that no competitor could match"
+    },
+    {
+      "text": "It's gone from spending an hour to an hour and a half sitting and manually doing this work to spending five minutes doing it. That's a huge timesaver... every day when you come to work, you have the day's stories ready for you. You just have to start calling sources.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "GIN's impact on journalist workflow",
+      "pedagogical_value": "Quantifies the concrete efficiency gains of AI tools in daily journalism workflow, showing how AI shifts journalist time from research to reporting"
+    },
+    {
+      "text": "Nobody else is as capable of asking the right questions in a methodical way... And verify the answers. And be able to very easily detect okay this is a hallucination because this information here is not part of the document because we are very good at verifying outputs.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "journalists as ideal users of generative AI",
+      "pedagogical_value": "Argues that journalistic skills -- questioning, verification, source-checking -- make journalists uniquely well-suited to work with and audit AI systems"
+    },
+    {
+      "text": "The knowledge that the senior journalists have on their beat is somehow transferred into the system. So now fresh journalists will learn from the ranking of the documents. The knowledge from the senior journalist is put inside the system so new journalists can learn from the old journalists, even if they have never met each other before.",
+      "speaker": "Rune Ytreberg",
+      "topic": "codifying editorial expertise into AI systems",
+      "pedagogical_value": "Illustrates how AI can serve as a vehicle for institutional knowledge transfer, addressing the critical problem of expertise loss in small newsrooms"
+    },
+    {
+      "text": "I think it's all about combining complementary methods. Be they gen AI or machine learning or traditional just if-and-then coding. Once you start seeing how they can complement each other and building systems that integrate all of these approaches, that's when you get something really useful.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "hybrid AI approach for journalism",
+      "pedagogical_value": "Advocates against treating LLMs as a silver bullet; emphasizes that the most effective journalism AI systems combine multiple techniques including traditional programming, ML, and generative AI"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Start with low-hanging fruits that demonstrate clear value to editors, then scale from there once you have buy-in and funding",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "newsroom leaders and data journalists starting AI adoption"
+    },
+    {
+      "advice": "Build domain-specific AI tools rather than general-purpose ones to reduce hallucination risk and increase accuracy of alerts and analysis",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "newsroom AI developers"
+    },
+    {
+      "advice": "Always keep a journalist in the loop -- AI systems should assist, not replace, editorial judgment and fact-checking",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "newsrooms implementing AI tools"
+    },
+    {
+      "advice": "Combine generative AI with traditional machine learning, vector databases, and conventional programming rather than relying on LLMs alone",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "newsroom developers and AI product teams"
+    },
+    {
+      "advice": "Pair developers and journalists closely when building AI tools -- developers bring prompting technique expertise while journalists bring editorial domain knowledge; both are essential",
+      "speaker": "Rune Ytreberg / Lars Adrian Giske",
+      "target_audience": "newsroom AI teams"
+    },
+    {
+      "advice": "Model journalist expertise (gut feeling) through training data rather than hardcoding rules or entity lists -- let the AI learn patterns from expert editorial judgment",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "newsroom AI developers building newsworthiness models"
+    },
+    {
+      "advice": "Seek out strategic partners and collaborators (like IBM) through media hubs and networks -- small teams cannot build everything alone",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "small local newsrooms with limited technical resources"
+    },
+    {
+      "advice": "Be aware of RAG system limitations, especially for aggregation tasks like timeline generation; supplement with batch processing and traditional database approaches",
+      "speaker": "Rune Ytreberg / Lars Adrian Giske",
+      "target_audience": "journalists and developers using RAG for document analysis"
+    }
+  ],
+  "external_references": [
+    "iTromso (local newspaper in Tromso, Norway)",
+    "Polaris Media (Scandinavian media house owning 70+ local newspapers)",
+    "IBM (co-creation workshop partner for GIN development)",
+    "OpenAI platform (used for building initial AI assistants)",
+    "Anthropic LLM (used as alternative to OpenAI for document analysis)",
+    "Goteborgs-Posten (Swedish investigative newspaper, cross-border collaboration partner)",
+    "AI Journalism Lab at City University of New York (CUNY) (where Rune Ytreberg was a participant)",
+    "Harvard Innovation Labs (supporting Newsroom Robots podcast via Spark grant)",
+    "Norwegian Innovation Research Council (provided funding for LAILA project in 2022)",
+    "University Hospital of Northern Norway (subject of understaffing investigation)",
+    "Norwegian FOIA web portal system (public records request system)"
+  ]
+}

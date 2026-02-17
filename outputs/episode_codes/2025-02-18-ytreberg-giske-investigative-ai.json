@@ -1,0 +1,335 @@
+{
+  "episode_date": "2025-02-18",
+  "episode_title": "Rune Ytreberg & Lars Adrian Giske: Building AI Tools for Investigative Journalism in Local News",
+  "codes": [
+    {
+      "code": "Low-hanging fruit strategy",
+      "description": "Deliberately starting AI adoption with simple, high-impact tools to build editorial buy-in before attempting more complex systems",
+      "excerpts": [
+        "We started with low hanging fruits. That was very easy to get our hands on and that we could very efficiently get the product out and show our editor that this is actually working and it's going to have an impact. It's going to produce better journalism."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Property bot as gateway",
+      "description": "The simplest AI product -- automated property transaction alerts -- served as proof of concept that unlocked group-wide funding",
+      "excerpts": [
+        "the first thing we did was to make a small, very efficient, very low cost property bot. It just took all the property transactions every night",
+        "he asked us, can you do this for the rest of the group? For all the 70 newspapers? And we said yes, of course."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "AI as data journalism extension",
+      "description": "AI framed not as a new paradigm but as a natural evolution of existing data-driven journalism practices",
+      "excerpts": [
+        "for us it's not like AI is something completely new. We think of AI as a sort of a continuation of the data-driven journalism we've already doing."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Anomaly detection for investigations",
+      "description": "Using AI to detect patterns and anomalies in massive datasets (5 million fish transactions) to flag potential investigative targets",
+      "excerpts": [
+        "we downloaded five million fish transactions for the last twenty years and we put it into a database and we used AI for look to look for patterns and anomalies. Because AI is really good at looking at patterns and anomalies.",
+        "we were able to in fact detect a company that we wanted to investigate"
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "AI-enabled exclusive access",
+      "description": "AI anomaly detection gave the newsroom advance knowledge that yielded exclusive on-scene coverage of a police raid no competitor could match",
+      "excerpts": [
+        "all the police published was a short little notification saying there is an ongoing raid at a fisheries plant in northern Norway. That was all we had. But we knew exactly where to go. So we were there ten minutes after the police and were able to film it, do interviews. Nobody had access like we did."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "80% research time problem",
+      "description": "Quantifying that the vast majority of journalist time goes to finding stories rather than writing them, identifying the key bottleneck AI can address",
+      "excerpts": [
+        "80% of the time a journalist spends on the story is spent on initial research, right? Like actually finding the story. So anything we can do to kinda make that process quicker is very helpful."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "neutral"
+    },
+    {
+      "code": "Domain-specific over general",
+      "description": "Deliberate strategy of building narrow, beat-specific AI tools rather than general-purpose ones to reduce hallucination risk",
+      "excerpts": [
+        "all the tools you made so far are domain specific. They are experts on one domain because we think that's the best way of using AI to ensure that we are reducing the risk of hallucination.",
+        "we wanted to train the AI expert to be expert in one domain and then it will be more accurate on the alerts it's going to send to the journalists."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Journalist-in-the-loop mandate",
+      "description": "Absolute requirement for human editorial oversight at every step, particularly because of hallucination risk in high-stakes reporting",
+      "excerpts": [
+        "the systems we have made is trying to reduce the risk of hallucination by making them domain specific and then they have always a journalist in the loop.",
+        "It can't fade, okay? The assistance we have made because it's still a risk of hallucination."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "neutral"
+    },
+    {
+      "code": "Editor-driven development",
+      "description": "AI tool development initiated and directed by editorial leadership, not by the technology team",
+      "excerpts": [
+        "all our development is headed by editors. And so it was the editor-in-chief that came to me and said, okay, we have to improve on this speed."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Municipal portal pain point",
+      "description": "The core problem GIN solves: journalists manually sifting through 400-500 poorly labeled municipal documents daily",
+      "excerpts": [
+        "the main pain point for the journalists were the municipal web portals they had to access to go through the municipal archives",
+        "you have to go through four or five hundred of these every day to find the properly newsworthy items. Manually."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Newsworthiness modeling via gut feel",
+      "description": "Training the AI model on expert journalists' thumbs-up/thumbs-down judgments rather than explicit rules, effectively codifying editorial intuition",
+      "excerpts": [
+        "we asked them to evaluate a huge data set of public documents, giving it a thumbs down or a thumbs up. Is it newsworthy or is it not? Because they have that expertise. It's become a gut feeling, right?",
+        "It's a gut feeling system."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Machine outperforms manual curation",
+      "description": "The gut-feeling model outperformed manually curated entity lists, demonstrating that emergent AI pattern recognition can exceed human specification",
+      "excerpts": [
+        "the system was much better at capturing these entities than we were. Because it became obvious in the training data. So we dropped that pretty quickly.",
+        "I made long lists of all the entries it should look for, but in the end the system didn't use it."
+      ],
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "60-to-5 minute transformation",
+      "description": "Quantified efficiency gain: daily document review reduced from 60-90 minutes to 5 minutes through AI-ranked document interface",
+      "excerpts": [
+        "it's gone from spending an hour to an hour and a half sitting and manually doing this work to spending five minutes doing it.",
+        "every day when you come to work, you have the day's stories ready for you. You just have to start calling sources."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Intern competence acceleration",
+      "description": "Summer interns with no beat experience produced five cover stories in their first week using GIN, demonstrating AI's capacity to flatten expertise hierarchies",
+      "excerpts": [
+        "we had two summer interns that were fresh out of journalism school working for us. And within the first week they delivered five cover stories based on the system.",
+        "fresh journalists straight out of journalism school was able to pick up news stories that were highly relevant."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Institutional knowledge transfer",
+      "description": "Senior journalists' beat expertise codified into the AI system so new journalists can learn from predecessors they have never met",
+      "excerpts": [
+        "the knowledge that the senior journalists have on their beat is somehow transferred into the system. So now fresh journalists will learn from the ranking of the documents. The knowledge from the senior journalist is put inside the system so new journalists can learn from the old journalists, even if they have never met each other before."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Vacation coverage vulnerability",
+      "description": "Small newsrooms lose entire beat coverage when one or two expert journalists are absent, creating an existential operational problem AI can address",
+      "excerpts": [
+        "when they're out sick or on vacation, we're bare. Like we lose a lot of the coverage that we have and that's the problem, right? Especially for a local newsroom."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Data access as scaling bottleneck",
+      "description": "40% of Norwegian municipalities do not publish data openly, limiting GIN's expansion and revealing that the real constraint is data availability, not technology",
+      "excerpts": [
+        "60% of municipalities in Norway publish all this data that we need openly. But that leaves 40% that don't.",
+        "I was naive. I thought that every municipality would follow the same standards as Tromsa. They did not. There was a plethora of different systems and web portals."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "AI driving government transparency",
+      "description": "Four municipalities began publishing data openly after seeing GIN's value, demonstrating how journalism AI tools can catalyze civic transparency",
+      "excerpts": [
+        "four municipalities decided to start publishing openly. Because they saw the value of the tool. Once we explain like this will not only make our journalism quicker, it will also increase coverage of a very important area and increase public participation."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "IBM co-creation partnership",
+      "description": "Strategic partnership with IBM for a two-day co-creation workshop that scoped and designed the entire GIN solution, demonstrating small newsrooms leveraging external expertise",
+      "excerpts": [
+        "we came into contact with IBM, which was really excited about the idea of like gaining experience within the publishing industry.",
+        "over two days time, we kind of scoped out the entire solution, figured out how we were gonna do this. And got work and we did it like a month later we had a working prototype."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Health investigation via RAG",
+      "description": "Using a RAG system with health investigator system prompts to analyze FOIA documents, discovering an X-ray crisis with five deaths",
+      "excerpts": [
+        "we took the in Norway we have in the health department you have some specific people that are going to investigate flaws in the health system. And there they have an instruction manual. So we took their system instruction and put it as a system instruction in the RAG system.",
+        "please give me an overview of the four five most life-threatening situation or most severe consequences for these patients. And then we discovered the X-ray crisis at the university."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Weeks-to-seconds acceleration",
+      "description": "AI-assisted document analysis accomplished in seconds what would have taken two to three journalists many weeks manually",
+      "excerpts": [
+        "To do that work manually in investigation would take two, three journalists a lot of time, many, many weeks. And we were able to find that to detect the most important documents in just some seconds."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Prompting expertise gap",
+      "description": "Dramatic difference in output quality between a 21-year-old developer and a 30-year veteran journalist doing the same prompting task, revealing prompting as an editorial skill",
+      "excerpts": [
+        "we had one junior developer, an excellent guy, 21 years old, making some of the assistance. But he has not that much knowledge about investigative journalism. So he did the prompting in a totally different way than I did. And then we had very different output.",
+        "that's why I think it's so important that you have a developer and a journalist working together."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "mixed"
+    },
+    {
+      "code": "Journalists as ideal AI users",
+      "description": "Argument that journalists' core skills of questioning, verification, and source-checking make them uniquely suited to working with and auditing AI",
+      "excerpts": [
+        "Nobody else is as capable of asking the right questions in a methodical way.",
+        "And verify the answers. And be able to very easily detect okay this is a hallucination because this information here is not part of the document because we are very good at verifying outputs."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "RAG aggregation limitation",
+      "description": "Discovery that RAG systems cannot reliably perform aggregation tasks like timeline creation across document corpora due to context window and vector retrieval constraints",
+      "excerpts": [
+        "aggregation tasks. Like create a timeline of all the important events within this corpus of documents. It can't do that because of the context limit, how querying a vector database works.",
+        "the last six months I've really seen the limitation also of a rag system."
+      ],
+      "speaker": "Lars Adrian Giske / Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "Hallucinated citations problem",
+      "description": "AI systems can hallucinate source citations -- particularly problematic for journalists who need to verify every claim against original documents",
+      "excerpts": [
+        "You can get sources, it does that for you, but it's not very accurate, and it can hallucinate sources, which is pretty bad. When you're trying to fact check."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Side-by-side verification UI",
+      "description": "Building a document viewer alongside the chat interface that highlights exactly where the AI pulls information, enabling rapid fact-checking",
+      "excerpts": [
+        "we have a system that side-by-side view with the chat where you get the it pulls out the original documentation, highlights where it gets its information. Makes fact-checking super fast."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "Hybrid AI architecture",
+      "description": "Combining generative AI, traditional machine learning, vector databases, and conventional coding for optimal results rather than relying on LLMs alone",
+      "excerpts": [
+        "I think it's all about combining complementary methods. Be they gen AI or machine learning or traditional just if-and-then coding. Once you start seeing how they can complement each other and building systems that integrate all of these approaches, that's when you get something really useful.",
+        "don't be blind on one solution, one model."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "positive"
+    },
+    {
+      "code": "PDF preprocessing burden",
+      "description": "Many FOIA documents are scanned PDF images requiring OCR preprocessing before AI ingestion, adding an unanticipated technical step",
+      "excerpts": [
+        "we discovered that a lot of the documents was PDF pictures. They were not able to upload. So we made a little OCR assistant that we're going to just get the text also the documents."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "negative"
+    },
+    {
+      "code": "Cross-border AI collaboration",
+      "description": "Using AI tools to enable investigative collaboration with a Swedish newspaper, requiring shared timelines generated from document corpora",
+      "excerpts": [
+        "we started to work together with a Swedish newspaper, Goteborgs-Posten, which is maybe the best investigative newspaper in Sweden about this news story. And the first thing he asked me was, okay Rune you have to send me the timeline."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Competitive survival pressure",
+      "description": "Being half the size of their local competitor forces extreme efficiency, making AI tools essential for competitive parity",
+      "excerpts": [
+        "we're one of two papers in Tromsa. Other one is twice our size. We have to work very quickly. We have to work very fast and we have to deliver just as good."
+      ],
+      "speaker": "Lars Adrian Giske",
+      "valence": "negative"
+    },
+    {
+      "code": "Personalized AI research assistant vision",
+      "description": "Long-term vision of every journalist having their own customized AI research assistant delivering personalized story suggestions each morning",
+      "excerpts": [
+        "each journalist should have their own personal AI research assistants that are customized to their needs. And so when you come to work every morning you will get a notice, maybe on your cell phone or your eyeglasses. And it will tell you, okay, you're working in this newspaper, you're serving this community with these specific needs. So maybe you should look into these news stories today."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    },
+    {
+      "code": "Analog carpenter metaphor",
+      "description": "Characterizing journalists as analog artisans working with outdated manual methods, highlighting the gap AI can close",
+      "excerpts": [
+        "The journalist is the last some sort of carpenter, okay? It's like an analogue carpenter that they're working traditionally. It's many good things to say about that, but I really believe that it's possible to strengthen, improve the research by getting an AI system to help you dig through waste amounts of data."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI strengthening local position",
+      "description": "AI tools enabling local newsrooms to produce more relevant community journalism, strengthening their position and differentiation in local markets",
+      "excerpts": [
+        "I think AI if you use it right, I think AI is going to help the local newspapers to strengthen their position in the local community.",
+        "it helped us to have a more important position in our local society."
+      ],
+      "speaker": "Rune Ytreberg",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode presents the most operationally detailed case study in the dataset of AI tools built inside a small local newsroom. iTromso's approach is analytically distinctive in three ways: first, they frame AI not as a disruptive force but as a continuation of data journalism, which dramatically lowers the psychological barrier to adoption; second, their tools are domain-specific and editor-initiated, reversing the common pattern of technologists pushing solutions on journalists; third, the GIN system's 'gut feeling' newsworthiness model represents a genuinely novel approach to codifying tacit editorial knowledge. The most striking empirical finding is the intern test -- two summer journalism students producing five cover stories in their first week using GIN -- which demonstrates AI's capacity to flatten expertise hierarchies in local news. The episode also surfaces important practical limitations: RAG systems fail at aggregation tasks, hallucinated citations remain a serious obstacle for fact-checking workflows, and the real bottleneck to scaling is not technology but the 40% of municipalities that do not publish data openly. The conversation reveals that AI adoption in local journalism is less about sophisticated technology and more about strategic sequencing, editorial buy-in, and data access.",
+  "surprises": [
+    "A 25-person local newsroom in northern Norway is running one of the most sophisticated AI-for-journalism operations documented in this podcast series",
+    "The AI newsworthiness model trained on journalist gut feeling outperformed carefully curated entity lists, suggesting tacit knowledge can be more reliably codified than explicit rules",
+    "Four Norwegian municipalities changed their transparency practices because of a journalism AI tool, demonstrating that newsroom technology can drive government accountability in unexpected directions",
+    "The biggest barrier to scaling GIN was not technology but government data availability -- 40% of municipalities simply do not publish the needed data",
+    "A 21-year-old developer and a 30-year veteran journalist produced dramatically different outputs from the same RAG system, revealing prompting as a domain expertise problem rather than a technical skill"
+  ],
+  "tensions": [
+    "The tools are built for journalist efficiency but the most powerful finding (intern cover stories) suggests they may reduce the premium on experienced beat knowledge",
+    "Domain-specific tools minimize hallucination risk but create a proliferation of narrow systems rather than a unified AI solution",
+    "The team celebrates GIN's success but candidly acknowledges RAG systems have serious limitations for aggregation and can hallucinate citations",
+    "AI tools empower the small iTromso newsroom but the scaling ambition across 70 Polaris newspapers hits fundamental data infrastructure barriers",
+    "The 'journalist-in-the-loop' principle is presented as non-negotiable but the 80% time savings on research raises questions about whether verification pace will keep up with AI-accelerated discovery"
+  ]
+}

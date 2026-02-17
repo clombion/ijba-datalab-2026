@@ -1,0 +1,174 @@
+{
+  "caveat": "NOTE: This is a statistical cross-check, not a replacement for interpretive coding. Topic models produce word clusters, not themes.",
+  "method": "Semantic similarity using all-mpnet-base-v2",
+  "theme": {
+    "id": "T03",
+    "name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom"
+  },
+  "query_length_words": 215,
+  "corpus_chunks_total": 556,
+  "corpus_chunks_after_filter": 514,
+  "top_k": 20,
+  "results": [
+    {
+      "rank": 1,
+      "document": "2024-09-02 - Your Questions Answered A Live Q&A Session in Collaboration with the Online News Association.txt",
+      "chunk_index": 6,
+      "similarity": 0.8091,
+      "word_count": 641,
+      "text": "So these AI ethics policies are not something that's fixed and done. And so in the second most Important part component of a lot of these AI ethics policies that I'm seeing is related to accuracy and human oversight. Because at the moment, if you're using any generative AI tools There is no guarantee that they are completely free of any errors. And so how are you maintaining human involvement in these AI processes to ensure an ethical use of AI and establishing clear lines of accountability for AI use within the organization. So that's another important thing that I've been seeing. And then another key component is regarding privacy and data use. And I think that's really important to have in an AI ethics policy because as journalists you have a lot of confidential data and sensitive information and not only that from like your audience. So if you are building a personalized algorithm, for example, how are you protecting your users' data How are you protecting the interviews that your "
+    },
+    {
+      "rank": 2,
+      "document": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+      "chunk_index": 9,
+      "similarity": 0.7739,
+      "word_count": 629,
+      "text": "I think that really focusing on the people who build AI tools, who are affected by AI tools, whether that's Hollywood writers who are striking over their concerns about AI replacing them as script writers, or whether that's people in Kenya who have helped to go through all of these very disturbing images to create AI-powered deepfakes, there's always human beings who you can access. And I think that really understanding this moment as one in which AI companies are seeking to extend their power into a whole number of realms from you know military applications to education to health care is an important thing to keep in mind. As journalists, we need to understand how power and money moves And keeping track of that is is only gonna help inform the public. I think absolutely chronicling some of the Technological advances is crucial, but also understanding those in the greater policy context and how this affects regular people is super important to keep in mind. I think bringing back that a"
+    },
+    {
+      "rank": 3,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 3,
+      "similarity": 0.7483,
+      "word_count": 649,
+      "text": "And I'm wondering, we're thinking a lot about How AI is reshaping the way in which audience are gonna receive their news? And then how do we rethink and keep the ethics of designing AI in a way that it actually serves our audience and it also serves the people who may be traditionally underrepresented in our in our community currently. Well, thanks for raising this Lisa framework. You put your finger on it. I mean, this has been one of the most resonant kind of frameworks as I talk to institutions and organizations across the private and public sectors. This is something that I think is, again, one of those amazing Consequences of a world in which technology is changing everything, but every conversation isn't about technology. So if you're gonna deploy AI, start with people. And I think I want to frame this with you both as an opportunity and a responsibility. The opportunity is this. Every organization in the world right now is struggling with this question of what does it mean to re"
+    },
+    {
+      "rank": 4,
+      "document": "2024-07-24 - Natali Helberger Audience-Centric Approaches to AI Ethics in Media.txt",
+      "chunk_index": 3,
+      "similarity": 0.7319,
+      "word_count": 649,
+      "text": "Uh is will that use be for training, which I think also for journalism and the protection of sources is a really important question. But think also questions about liability. Whose liability is it when something goes wrong? And if you look in the terms of use of a lot of these companies You will find that most of the diviability is dumped on the end user, the professional user. So, for example, a journalist using or media organization using the technology What does the the provider of the large language model does to enable human oversight? How much explanation is there? How easy is the interface to use? How easy is it to audit the system? Is there someone answering the phone when things go wrong? Which is also very often heard uh complain that it's really difficult or if not impossible to reach these large providers, especially if you are working at a smaller newsroom. But also issues of course around pricing, ecological footprint. So in this list we try to list aspects that you could"
+    },
+    {
+      "rank": 5,
+      "document": "2024-07-24 - Natali Helberger Audience-Centric Approaches to AI Ethics in Media.txt",
+      "chunk_index": 1,
+      "similarity": 0.7093,
+      "word_count": 619,
+      "text": "Another interesting thing in the survey was that least popular or least most mostly used strategy was to actually order the systems or do responsible procurement and look into What kind of tools are we working with? So that was really interesting. So lack of human oversight is one of uh important concerns and then The second most pressing concern we saw is problems with the output, inaccurate information, biases, lack of quality in in the content, so that also very much taps into this discussion about disinformation, deep fakes, but also systems that hallucinate and that we cannot trust that the output they give us is is trustworthy. And then there are more broader questions about what does that mean for journalism as a practice and as as a business? What does that mean for jobs? What does that mean for the competitiveness of the sector? What does that mean for the way you do journalism? But what I also really found interesting is what concerns were not mentioned because these were ope"
+    },
+    {
+      "rank": 6,
+      "document": "2024-07-24 - Natali Helberger Audience-Centric Approaches to AI Ethics in Media.txt",
+      "chunk_index": 10,
+      "similarity": 0.709,
+      "word_count": 636,
+      "text": "So I think we really need to think of how to distinguish the media and make sure that that people know if I want trustworthy content, I go there because It is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it, they know what they're doing, and they do it for my good to inform me better and not to you know make me click more or fall down rabbit holes and and that is really opportunity also to to use it in a good way Yeah, and I find that that explanation you're talking about, that disting it's an opportunity for us to distinguish ourselves from social media companies by being more transparent and explaining more about how we are using AI. But I'm also a a question that I get often is how much do I need to tell and when do I need to tell that I'm using AI? And as you were saying, like if you are, for example, having an automated content and writing it completely, that AI is doing it from the beginn"
+    },
+    {
+      "rank": 7,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 7,
+      "similarity": 0.7077,
+      "word_count": 630,
+      "text": "It's not about bringing in an AI technology. It's about doing exactly what you described, which is having a fundamental reckoning with What are we as an organization in a world where many of the assumptions we have are being tested and challenged by the broad-based adoption of AI in the world around us? What's our role in shepherding those core journalistic virtues in a world where attention is becoming fragmented, where people are finding fundamentally new ways of accessing and processing information? We're adversarial and bad actors are using AI in ways that are deeply kind of convoluted and manipulative. It requires an organizational reckoning and a potential for organizational visioning to ask who do we aspire to be in an AI-enabled world? And to me, that's a much more interesting conversation than whether we should pick vendor A or vendor B in order to do X task. Exactly. Bringing that back actually into the newsroom One of the other big dilemmas that's there is related to the env"
+    },
+    {
+      "rank": 8,
+      "document": "2024-12-27 - Upasna Gautam The Product Manager's Guide to AI in News.txt",
+      "chunk_index": 7,
+      "similarity": 0.7002,
+      "word_count": 638,
+      "text": "So like For example, are you a local newsroom trying to increase efficiency? Are you trying to improve content quality? Are you trying to enhance audience trust? Like a well-defined problem not only guides AI implementation, but it also ensures that those newsroom values and journalistic priorities and integrity remain intact. Along with asking the right questions to solve the right problems, you cannot solve every problem at once. And especially the smaller the newsroom is. Focus on the one big problem and break that problem down into smaller pieces. What is that North Star problem? You don't have the resources to try to be everywhere and everything for everyone. And I think there's a lot of great examples of local newsrooms who are doing this successfully. But I think this is again a great learning opportunity. And why I love the news product alliance is that we get to develop the resources and share the knowledge, you know, freely, literally and figuratively freely, so that we can e"
+    },
+    {
+      "rank": 9,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 1,
+      "similarity": 0.6957,
+      "word_count": 644,
+      "text": "in the principles that should guide us and apply them directly to the challenges that we're facing when we have new tools, new mechanisms, maybe even some fundamental new ways that we work together. So that should give you the frame and how I think about this, and I think so many people do, which is ethics is not a abstraction. It's not evaluation. It's not a secondhand thought. It should be the thing that guides the very specific business decisions we make, the ways that we implement these technologies. So in that context, you've spoken to kind of this three-part framework. I love frameworks. Um they help me make sense of a complicated world. And I think each of these are particularly relevant and germane to folks who are making these decisions in the newsroom. The first is responsible data. You know, we are moving so quickly into a world where AI is embedded into all kinds of activities from sourcing and actually validating the idea that stories are important to actually reporting th"
+    },
+    {
+      "rank": 10,
+      "document": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+      "chunk_index": 1,
+      "similarity": 0.6932,
+      "word_count": 622,
+      "text": "can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad? Well Actually, our job is to help people understand how it works and what it's already doing in our lives. There's also another crucial point to that of like what the role of journalism is in AI. How are you seeing the importance of this moment in time for the way in which we as reporters are talking about AI? Well, I think there's been a lot of excitement about adopting AI solutions in our newsrooms, which is great, you know, when There are new advances in technology that can help us do better, more impactful work that serves the public. Fantastic. But I think that implementing AI represents some really unique ethical challenges and part of our jobs as journalists is to really dig deep into the model so that we can surface how well they perform and where they have their limitations, some some of the hallucinations, you know, that we've been talking about"
+    },
+    {
+      "rank": 11,
+      "document": "2024-01-16 - Aliya Itzkowitz and Sam Gould (Part Two) Potential of Multimodal AI and Autonomous AI Agents in Publishing.txt",
+      "chunk_index": 3,
+      "similarity": 0.6855,
+      "word_count": 630,
+      "text": "And especially when it comes to AI, there's also specific kind of resources in that intersection of AI, UX, and responsible AI. So Pair, I think it is, P A I R, is Google's AIUX lab, and they're they're actually currently working on guidelines for news publications to think about how to use AI products in a responsible way when creating these new user experiences. So that feels like a bit of a mouthful of jargon to say. But I think they're doing some really interesting work over there, and I'm sure they're going to come out with some some really interesting guidelines soon. I think from a UX perspective, it's all about giving readers choices right now. So so making sure that you're catering to a variety of needs and it might not be the case that readers are even aware that these offerings are AI enabled and to be honest, I don't I don't think they even care. I think that's something that sometimes we overestimate maybe as an industry is the desire of readers that things be human led or"
+    },
+    {
+      "rank": 12,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 8,
+      "similarity": 0.6819,
+      "word_count": 623,
+      "text": "What's happening to your data and just it feels like it's AI is just being pushed onto you. Rather than I think like them co-developing it or building it and being a part of this, it's something that it's just being pushed again and I feel like the industry has a bit been a bit tired with so much of change and new change coming forth. And do you think that lack of adoption the thirty eight percent or so Is it for moral reasons that, you know, the issues with with AI, between AI companies and publishers, But also do you sense that perhaps they are thinking, you know, if I use an AI tool to help me write, is that Is that not uh up to standards? Am I cheating? Like do you sense that that could be an issue like the kind of the human blocker? As opposed to the c the curiosity. That's exactly what I have st noticed in my conversations with Oli Courier younger journalists, because when they were back in journalism school and Chad GPT came out that was the language that was being used, right? "
+    },
+    {
+      "rank": 13,
+      "document": "2024-05-01 - Mattia Peretti Balancing AI Innovation with Journalistic Integrity.txt",
+      "chunk_index": 7,
+      "similarity": 0.6806,
+      "word_count": 643,
+      "text": "So kind of just briefly if you could just help me understand what are the key things you think news organizations need to be keeping in mind when writing these AI policy guidelines. That's an interesting one. So I I got the opportunity to do this work uh last spring, about one year ago with uh with The Guardian here in the UK. So The Guardian published, I believe, in June of last year their Generative AI uh principles, which can still be found online. And I was working closely with uh Chris Moran, who is the head of editorial innovation, I think is his fancy title. Someone who should absolutely be on your podcast, by the way, if he hasn't been interviewed yet. So we'll make that connection happen. And uh Chris was already kind of like at the time coordinating an internal working group with people from different departments thinking about generative AI doing as I was saying, a lot of literacy work inside with a lot of training that everyone in the organization could follow to understand"
+    },
+    {
+      "rank": 14,
+      "document": "2025-02-10 - Neil Brown The Pulitzer Prizes, AI Transparency, and Journalism’s Next Evolution.txt",
+      "chunk_index": 2,
+      "similarity": 0.6806,
+      "word_count": 637,
+      "text": "are dealing with a belief that transparency is a value we we should live by, that that means being more not just transparent with our audience, but being accessible and explaining. how we gathered the material and how it's presented so that there is not even the accidental possibility of deception or mis or misleading presentation. It's a it's actually uh you're gonna it's funny to ask about AI when I say this, it's still very much a human endeavor. So there's gonna be missteps. But by and large, what we did at the Pulitzers is what news organizations and a lot of organizations in the information. playing field are dealing with, which is how do you make sure that your material is trustworthy? How do you make sure that your audience is getting value from it? And can we be as open and upfront about that? And I do like the word upfront about that as possible. So we were glad to do that. I can't discuss any specific conversations that went on within the board about any particular entry, bu"
+    },
+    {
+      "rank": 15,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 10,
+      "similarity": 0.6759,
+      "word_count": 644,
+      "text": "You think about You think about profits, right? Always an easy one. You think about customer kind of NPS. You think about the traditional framework of how you evaluate a business and you say, how does AI help us get closer? I think that's fine. Sometimes like somewhat boring, but fine, right? But journalism, we have a different intention here. I don't think Most journalistic organizations are saying how do we increase revenue or profitability by using AI? Or at least that's not the first step in the process. Instead, we're thinking about a much more qualitative framework. How do we free up reporters to be able to do higher value work? How do we ensure that we are using AI to create more fact-based veracity in our reporting? All of these things that are actually much more values-driven, but are much less metrics-oriented. And I think that creates both an opportunity and a challenge, right? The opportunity is to say we actually get to be much more expansive in our thinking of how we use "
+    },
+    {
+      "rank": 16,
+      "document": "2026-01-01 - Francesco Marconi & Scott Austin 2025 Year in Review, What Actually Changed in AI and Media.txt",
+      "chunk_index": 6,
+      "similarity": 0.6642,
+      "word_count": 650,
+      "text": "So and I think the most important thing is that AI does not have the human persistence of doing the 11 interviews or to investigate something further. It can do a lot of the research, but on information that already avail that is available. And so yeah, I can I don't want to sound like a cliche of like the automation versus augmentation. I've started thinking more about the speed versus persistence. as it relates to the relationship with between AI and in and human journalists. This debate that you are talking about is something that I see everywhere. when we start to talk about the future of the newsroom, oftentimes it it does seem like it's looking like this completely automated future. And that's also not at all what I support or I hope because that's the value of journalism, as you said, is those asking the right questions, keeping on finding, then having that human instinct and judgment. But what all of this is pointing towards is we also have to reimagine what our workflows might"
+    },
+    {
+      "rank": 17,
+      "document": "2025-10-08 - Vilas Dhar Why the Future of Journalism Is Still Human.txt",
+      "chunk_index": 4,
+      "similarity": 0.6618,
+      "word_count": 628,
+      "text": "I think that's one of the big issues of like how do we actually distinguish between all of that? How do you think news organizations need to start to navigate all of these big challenges when they're trying to address that they're upskilling their teams? I think one of the places we can start is at almost a micro level of saying before we begin to think about the very big questions, let's just talk about how AI is being deployed in our own newsroom and our own environment. As I work with organizations, I see these kind of three phases that have been emerging in how AI is used. The first is probably what you and I experience every day. People who are just picking up an AI tool and saying, I'm gonna play with this. And often it's used in ways that aren't deeply strategic, but they're kind of like, oh, I was able to use a chat bot to go out and find a piece of information I was looking for, and it was much more efficient than going to a web search. Or hey, I began to use this to draft an "
+    },
+    {
+      "rank": 18,
+      "document": "2024-05-01 - Mattia Peretti Balancing AI Innovation with Journalistic Integrity.txt",
+      "chunk_index": 5,
+      "similarity": 0.6525,
+      "word_count": 646,
+      "text": "It's not that everyone, every single person in a news organization needs to become an expert. in AI. I absolutely do not think that. We went through a few years ago in the journalism industry the time where everyone needed to become a coder and everyone needed to learn to code. I don't believe that's true. Definitely not with AI, but we do need to get that literacy because it's just having an impact on all of us as people in society, not just in journalism. And so we need to combine that everyone's understanding with the deeper expertise of someone in the organization, ideally not a single AI expert, but at the very least a team or a working group of people. So then those experiments that are run can immediately be understood by the newsroom so that the newsroom everyone can feed back and participate in whatever it is that an organization is trying to build. And also to link it to the, you know, it's like a triangle almost. There is the AI literacy, there are the experiments in buildin"
+    },
+    {
+      "rank": 19,
+      "document": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+      "chunk_index": 7,
+      "similarity": 0.6489,
+      "word_count": 645,
+      "text": "You know, think about how these models were built, you know, whether the output that you're gonna get is actually gonna be accurate, you know, is this an ethical application? for an AI model to help augment some of your journalism at an AP, we're really very cautious about implementing any AI tools. Our journalism always starts with a human being and ends within a human being. So I think it's a It's a time of great experimentation across the industry, which is, you know, a unique chance that we have, right, to consider these models. But I don't think that we should be necessarily applying AI solutions to to problems that don't need them. Exactly. And I'm curious to hear in your investigation so far, what are those some of the specific ways in which it has been helping you to do your job and augment your reporting? Well, I think one very basic tool that we have is an AI model that generates transcriptions from podcasts. Which allows me to go back and see what was said without having to "
+    },
+    {
+      "rank": 20,
+      "document": "2024-07-24 - Natali Helberger Audience-Centric Approaches to AI Ethics in Media.txt",
+      "chunk_index": 2,
+      "similarity": 0.6451,
+      "word_count": 628,
+      "text": "But then I think about audience-facing tools, and we are seeing a lot of newsrooms like experimenting with chatbots and those kinds of tools that if we were to scale them, how do we build in that human oversight component and Is this is this something that is feasible if we were to build massive AI systems looking forward to more like the future? Whew, this is a question that I think I would love to discuss with you also because I know you have a more technical background. I think the Part of the reason why newsrooms are actually rather hesitant of using AI directly in the user-facing relationship is exactly because of the real life character and and the difficulty of checking what the output is. And we had of course example with earlier models that went terribly wrong where the models would just talk nonsense and and and still are. And I think that is very much a concern. The hope is also that models get better. and are trained on high quality data and that that can be a way to mitiga"
+    }
+  ]
+}

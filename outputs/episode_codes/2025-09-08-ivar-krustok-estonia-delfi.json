@@ -1,0 +1,351 @@
+{
+  "episode_date": "2025-09-08",
+  "episode_title": "Ivar Krustok: How Estonia's Media Giant Builds AI That Actually Works",
+  "codes": [
+    {
+      "code": "World-leading digital penetration",
+      "description": "Estonia achieving the highest digital-only subscriber penetration rate globally at 21%, defying assumptions about small-market limitations",
+      "excerpts": [
+        "We have in Estonia the highest digital only subscriber penetration rate in the world. So we have around 21% people who are digital subscribers and they're paying for the content every month.",
+        "I think a lot of markets still haven't hit nearly the ceiling as a lot of them claim to."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Three-bucket AI strategy",
+      "description": "Organizing AI work into everyday editorial tools, experimental long-term projects, and AI literacy/upskilling as a structured framework",
+      "excerpts": [
+        "we currently try to put everything in three different buckets. So we have one that's sort of these everyday editorial teams tools... And then we have these experimental long term projects... And then the third bucket is everything related to the literacy inside the company and upskilling of workers"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Small language AI leap",
+      "description": "Estonian as a Finno-Ugric language experiencing disproportionately large improvement from generative AI compared to other languages, because the baseline was so low",
+      "excerpts": [
+        "Estonian Finnish Ukraine language is completely on another tree from all other languages. So that means previously there was really hard for us to do a lot of this language related tools.",
+        "compared to a lot of other languages our like skill or like how well it understands the Estonian language jump I think a lot more than maybe another in other languages."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Est English linguistic artifact",
+      "description": "AI-generated Estonian text structurally following English sentence patterns while being grammatically correct, creating a detectable non-native quality",
+      "excerpts": [
+        "the grammar is all there. But the sentences are built in a way that American language is built rather than how the Estonian language is built. So you yes, you understand exactly what it's trying to convey to you But the forming of the language is incorrect."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "Western media linguistic colonization",
+      "description": "AI amplifying an existing cultural trend where Western media influence was already reshaping Estonian sentence structures before AI arrived",
+      "excerpts": [
+        "This is actually happening already. I would say this has been happening already without the AI because we are really, really influenced by the Western media. And a lot of like people are growing up in Estonia because again we're a small language, that means we don't do dubbing"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "Live cross-Baltic translation",
+      "description": "Building a real-time translation feed across Estonian, Latvian, Lithuanian, and Russian so editors can read all countries' news in their language",
+      "excerpts": [
+        "the tool that we built actually has like a live feed of all three countries and you can read them in your local languages just to ensure that we don't miss what's happening in other Baltic states because previously it took relatively long to get like information from one country to another country"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Token price collapse enabling",
+      "description": "Dramatic reduction in AI token prices over 1-2 years making previously prohibitive tools economically viable at scale",
+      "excerpts": [
+        "the token prices, all it is translation and everything has dropped massively over even the last year and if I took even two years the price for all of this has almost dropped to I don't want to say nothing, but almost nothing"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Speed over perfection for basics",
+      "description": "Prioritizing rapid delivery of basic editorial tools (transcription, translation, summarization) over UX polish or fine-tuning",
+      "excerpts": [
+        "What we hope to achieve was trying to get like these basic tools ready as quickly as possible in a way that provides value rather than like going into the nitty gritty and making sure everything's perfect, making sure that the UX is perfect"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Internal ChatGPT clone rationale",
+      "description": "Building an in-house ChatGPT-like platform to avoid 400+ individual subscriptions and maintain data control in a small market where enterprise deals are harder to negotiate",
+      "excerpts": [
+        "if you're on a smaller market then you have to sort of ensure that your four hundred, five hundred employees... that they could also access these tools",
+        "at least I can maybe give some additional value to the editorial team that maybe these platforms by just having a subscription cannot give"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "mixed"
+    },
+    {
+      "code": "Model mixing strategy",
+      "description": "Combining multiple specialized open-source models that each excel at specific tasks rather than relying on one general-purpose model",
+      "excerpts": [
+        "a lot of times there are really, really I would say niche But really valuable language models out there that do a really specific job really well. And they might be really bad for other things... we're trying to mix and match these different models"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "25-year archive as RAG",
+      "description": "Indexing 25 years of multilingual content in a vector database to enable natural language queries of the organization's entire editorial history",
+      "excerpts": [
+        "we now have an archival tool that yet is not maybe functioning perfectly, but at least all our text is in a vector database and we can actually ask Okay, give me quotes from this person from this period"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "mixed"
+    },
+    {
+      "code": "Chat to push notification pivot",
+      "description": "Tools originally designed as chat interfaces proving more valuable as push notifications with summaries, revealing that proactive delivery beats reactive querying",
+      "excerpts": [
+        "Rather than maybe it becoming a chat interface, it's more of a Teams push notification with a quick summarization because you can see much more value being derived from this."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Court case story discovery",
+      "description": "AI monitoring tool for court cases producing 5-6 articles in its first month that journalists would otherwise have missed",
+      "excerpts": [
+        "around five to six articles have come out of it that otherwise probably would have been not noticed. Because again the volume is there, it's not the easiest interface for a human being to actually go and find these cases"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Permanent experimentation mindset",
+      "description": "Acknowledging that even tools in production remain experimental because the end result of maximum value delivery keeps shifting",
+      "excerpts": [
+        "I still think that in a lot of cases we're still in the experimental mode, even if we're talking actually about okay, these are actually already shown to the users",
+        "even if you have the pieces, I think the end result might still be a bit different in like three months, in four months"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "Data foundation before AI",
+      "description": "Investing years in foundational data infrastructure before AI tools can be built on top, with clean foundations making later migrations easy",
+      "excerpts": [
+        "It's easy to get a dashboard up and running but it's really hard and it's really like testing intense to actually play a groundwork where okay, I want to add something and then it becomes easy because you have a really good foundation.",
+        "the foundation level was just clearly built I think that's kind of like the main thing"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Dashboards becoming obsolete",
+      "description": "Belief that traditional dashboards will be replaced by conversational data interfaces and push-based text summaries for editorial staff",
+      "excerpts": [
+        "the old structure of building different dashboards I'm not a huge believer of it",
+        "Written text Easy numbers, these sort of things, I think this is when we'll finally get to a point where the data literacy is in a way at a level that I'm happy with."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "Industry jargon training gap",
+      "description": "AI bots requiring extensive training on domain-specific terminology that seems obvious to humans but is opaque to models",
+      "excerpts": [
+        "a lot of uh we say placements and ad inventory and all of these words that are really industry specific, you still have to sort of train a lot to make sure that every time when you're mentioning a really add specific keyword to make sure that the database sort of understands what it is"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "Clippy anxiety",
+      "description": "Self-conscious comparison of push-based morning performance summaries to Microsoft's Clippy, reflecting tension between useful proactive AI and annoying assistants",
+      "excerpts": [
+        "I don't wanna make the comparison to Clippy. But it's getting to a point that it might look something like clippy where you wake up in the morning, when your work day starts, it will say that okay, yesterday You wrote these articles, you got these page views"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "mixed"
+    },
+    {
+      "code": "Audience-facing AI unprofitable",
+      "description": "Observation from conversations with multiple publishers that audience-facing AI chat and search features are not yet profitable because they replace ad-rich page views",
+      "excerpts": [
+        "if you're losing X amount of page views, for instance that had, I don't know, let's say ten advertisements, five advertisements, depending on the device. And if now this user gets the same information from a small search box You're not gonna monetize it the same way."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "Third party for cost optimization",
+      "description": "Using third-party vendors for audience-facing AI features where the vendor can optimize costs across multiple publisher clients",
+      "excerpts": [
+        "we're trying to use third party vendors that might be able to like optimize a lot of this workload on multiple like agreement deals with some model or they're optimizing really, really heavily how to ensure that this language model, this prompting and all of this take as less resources as possible"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "Image generation cultural mismatch",
+      "description": "AI image models defaulting to smiling faces clashing with typical Nordic/Estonian facial expressions, producing awkward results",
+      "excerpts": [
+        "Estonians their pictures aren't maybe the happiest because We live in a Nordic dark country... all the models' faces were really smiling, really happy. And when you were trying to combine these sort of things, the end result wasn't maybe the best."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "User data privacy as differentiator",
+      "description": "Positioning transparent data handling (no image storage, no training on user data) as a trust-based competitive advantage for news publishers",
+      "excerpts": [
+        "we didn't want these pictures to be stored anywhere in our cloud infrastructure, we didn't want these images to go anywhere for training",
+        "this is sort of the barrier to AI generated news publishers and sort of trust driven AI using news publishers"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Unnecessary AI upsell",
+      "description": "Vendors adding AI features to existing products and charging premiums when the pre-AI version was already sufficient",
+      "excerpts": [
+        "a lot of companies we're seeing that not only in the media landscape, but in a lot of other cases, they're just adding AI to a thing that existed for that platform for years and years already",
+        "In a lot of cases, like do I need this feature? Now I'm paying a lot of extra for this feature, but I was happy fully with the other features"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "High trust insulates from platforms",
+      "description": "Estonia's high trust in news driving direct traffic that provides insulation from Google and Facebook algorithm changes",
+      "excerpts": [
+        "One of the good things that has come from this is it has gone down relatively last years, but trust in news and what usually happens when there's higher trust in news is you get a lot of direct traffic."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "AI literacy training pivot",
+      "description": "Shifting from top-down generic AI training to peer-driven discussions where power users identify specific high-ROI use cases to scale",
+      "excerpts": [
+        "rather than maybe me starting from a point of teaching them, because we already have a good enough workforce that is good at using these tools. These are now split into these, let's say, gatherings",
+        "What are these specific things that I would do in order to like sort of enhance my work life?"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "mixed"
+    },
+    {
+      "code": "Build tools before training",
+      "description": "Realizing that AI literacy training is ineffective unless specific tools are built first that people can actually use in their daily work",
+      "excerpts": [
+        "we just need to say build better before we actually increase the literacy",
+        "I want to make sure that okay, once I do that they can actually then use the products that I'm showcasing"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "3-hour prototype workflow",
+      "description": "Using Manus AI, Google Stitch, and Vercel V0.dev in sequence to build working prototypes with live data in approximately three hours",
+      "excerpts": [
+        "I can already send them a test link. Like, okay, we talked about it a while ago that something like this would help. Like is this something you're envisioning and it would already have some sort of mock data already, live data from the API.",
+        "you can get a working prototype in like three hours that's from zero with a design and access with live data"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Prototype over presentation",
+      "description": "Replacing slide deck discussions with working prototypes to eliminate misalignment between stakeholder expectations and final products",
+      "excerpts": [
+        "the business side can then actually sort of feel and use it without going through a multi-month process of discussion and arguing before actually like anybody really seeing what the end product would look like"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Agent browser scraping",
+      "description": "Using AI agents operating normal browsers to scrape public governmental data from databases not designed for automated access",
+      "excerpts": [
+        "you can now build really easily like this bots that You're seeing it running... because agent bots they're basically behaving like normal browsers, then in that case you can automate the funnel where it's just you're gonna keep it running for the night"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "Metadata human superiority",
+      "description": "Belief that human-added metadata to articles is more valuable than machine-generated metadata for enabling AI capabilities",
+      "excerpts": [
+        "I think the data or articles as in data in this case are much more valuable the more metadata that humans will add to this article rather than the machine figuring out what this is"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "neutral"
+    },
+    {
+      "code": "Open sharing revolution",
+      "description": "Observing that AI challenges have created unprecedented openness among news publishers about sharing learnings, failures, and use cases",
+      "excerpts": [
+        "this is the first sort of the revolution where I see that news publishers are more openly sharing what they're working on. So I think this is something that I was hoping that was years and years already it would be happening.",
+        "I see like the huge value coming in from that. Like I say probably tens and tens of hours just because a few talks that I had with other people"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Small market enterprise disadvantage",
+      "description": "Small-language publishers unable to negotiate the same enterprise AI deals and free licenses that large English-language publishers receive",
+      "excerpts": [
+        "if you're on a larger market, it's easy to get this sort of contracts where you get free licenses and so on and so on, you get better support. just because they value our news content, even if they're not saying it maybe as outly as I would like them to say it"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "negative"
+    },
+    {
+      "code": "Data openness by default",
+      "description": "Company policy of making data accessible to anyone who knows where to find it, with restrictions only on financial documents",
+      "excerpts": [
+        "we're trying to make sure that If anybody's really interested in something, they can find it, unless it's sort of these really heavy finance-related documents and these sort of things that are maybe in a different pool"
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Chinese open-source model opportunity",
+      "description": "Seeing Chinese open-source models as an opportunity for self-hosted deep research capabilities despite geopolitical complexity",
+      "excerpts": [
+        "it seems a lot of these let's say top notch models that are coming out was Chinese model that could offer you deep research functionality. You could hold this model on your own servers."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    },
+    {
+      "code": "Microsoft Paint AI parenting",
+      "description": "Personal anecdote of discovering AI drawing features in Microsoft Paint with his children, where the AI failed at road signs",
+      "excerpts": [
+        "Microsoft Paint has no AI integration and because I have two small kids... they have a really unique feature where when you're drawing something, you can write on a window next to it, like what are you trying to draw. And it's live generating from your drawing",
+        "He got really angry with the machine saying that AI doesn't know anything about road signs."
+      ],
+      "speaker": "Ivar Krustok",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Ivar Krustok presents a pragmatic, infrastructure-first approach to AI adoption at Delfi Media that stands in contrast to the product-launch-oriented strategies common at larger English-language publishers. His three-bucket framework (everyday tools, experimental projects, literacy) reveals that the most impactful AI applications often look different from initial expectations -- chat interfaces pivot to push notifications, archival tools become court case monitors, and training programs require built tools before they become effective. The small-market context creates distinctive pressures: Estonian's Finno-Ugric language structure produces unique AI artifacts ('Est English'), enterprise AI deals are harder to negotiate, and audience-facing AI features are harder to monetize. Yet Estonia's world-leading digital subscriber penetration and high direct traffic from audience trust create resilience that larger markets lack. Krustok's personal rapid-prototyping workflow (Manus AI to Stitch to V0.dev in three hours) exemplifies a broader theme of AI collapsing the gap between idea and working product, enabling stakeholder alignment through demonstration rather than discussion.",
+  "surprises": [
+    "Estonia has the highest digital-only subscriber penetration in the world at 21%, in a country of only 1.3 million people",
+    "AI-generated Estonian is detectable not through grammar errors but through English-influenced sentence structure ('Est English'), and this was already happening culturally before AI",
+    "The most valuable AI tool (court case monitor) pivoted from its intended chat interface to push notifications -- proactive delivery proved far more useful than reactive querying",
+    "Audience-facing AI chat/search features are not yet profitable for any publisher Krustok has spoken with, because they replace ad-rich page views with bare-bones search box answers",
+    "AI image generation models defaulting to smiling faces created a cultural mismatch with Estonian/Nordic facial expressions",
+    "Krustok can build a working prototype with live API data and custom design in approximately 3 hours using a chain of AI tools"
+  ],
+  "tensions": [
+    "Delfi wants to build its own ChatGPT for data control and cost, but acknowledges it will probably never be as good as commercial platforms -- creating a permanent UX gap for its 400+ employees",
+    "The three-bucket strategy separates everyday tools from experimental projects, yet Krustok admits even production tools remain in permanent experimentation as optimal delivery formats keep shifting",
+    "AI literacy training cannot succeed without built tools, but tools cannot be properly used without literacy -- creating a chicken-and-egg problem",
+    "Vendors adding AI features that Delfi does not need inflates costs, but stripping those features risks losing access to the underlying product",
+    "Open data philosophy (everything accessible except finance) creates transparency, but connecting that data to AI agents raises questions about where transparency becomes a liability",
+    "Estonian trust in news provides insulation from platform dependency, yet that trust could erode if AI-generated content quality issues (like Est English) undermine perceived authenticity"
+  ]
+}

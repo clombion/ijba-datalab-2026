@@ -1,0 +1,186 @@
+{
+  "episode_meta": {
+    "title": "Aliya Itzkowitz & Sam Gould (Part One): Insights from FT Strategies' AI Design Sprint Day",
+    "date": "2024-01-06",
+    "guests": [
+      {"name": "Aliya Itzkowitz", "role": "Manager", "organization": "FT Strategies (Financial Times)"},
+      {"name": "Sam Gould", "role": "Data Scientist", "organization": "FT Strategies (Financial Times)"}
+    ],
+    "host": "Nikita Roy",
+    "country": "UK",
+    "word_count": 5900
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Large Language Models (LLMs, pre-trained)",
+    "Generative AI (text-based)",
+    "Virtual avatars (referenced from Philippines use case)"
+  ],
+  "use_cases": [
+    {
+      "description": "Reformatting/repackaging content — turning articles into bullet points, shorter versions, different formats for different audiences",
+      "tool_used": "Generative AI / LLMs",
+      "organization": "Multiple publishers (FT Strategies design sprint participants)",
+      "outcome": "Most popular use case category (~70% of ideas with sub-editing combined)",
+      "stage": "ideation/pilot"
+    },
+    {
+      "description": "Sub-editing and checking functions — applying style guides, checking for errors before publication",
+      "tool_used": "Generative AI / LLMs",
+      "organization": "Multiple publishers",
+      "outcome": "Second most popular category (combined ~70% with reformatting)",
+      "stage": "ideation/pilot"
+    },
+    {
+      "description": "Email routing — automatically routing inbound news tips/emails to correct departments",
+      "tool_used": "AI/ML classification",
+      "organization": "A news agency (unnamed)",
+      "outcome": "Internal efficiency use case",
+      "stage": "ideation"
+    },
+    {
+      "description": "Text-to-video — creating short-form video from written stories to target younger readers",
+      "tool_used": "Generative AI (text-to-video)",
+      "organization": "Multiple publishers",
+      "outcome": "Less popular but discussed",
+      "stage": "ideation"
+    },
+    {
+      "description": "Automating sheep auction reporting section of local newspaper using custom model",
+      "tool_used": "Custom ML model",
+      "organization": "Small local UK newsroom (unnamed)",
+      "outcome": "Automated a key recurring section",
+      "stage": "production"
+    },
+    {
+      "description": "Virtual avatars for sports reporting",
+      "tool_used": "Generative AI (virtual avatars)",
+      "organization": "Philippines publication (unnamed)",
+      "outcome": "Cutting-edge experimentation",
+      "stage": "pilot"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "About 70% of AI use case ideas from publishers fell into two categories: content reformatting/personalization and sub-editing/checking functions",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The news industry tends to approach new technologies from a position of loss aversion rather than opportunity",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Generative AI has made AI more accessible — no longer need expensive data labeling and heavy infrastructure to get started",
+      "speaker": "Sam Gould",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Western publishers focus more on intellectual property concerns while Asian publishers are more concerned about fake news/misinformation",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "When top publications block ChatGPT from crawling their sites, it degrades the quality of information in public AI models",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "theoretical"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Publishers paralyzed by the breadth of AI possibilities — too many options leads to inaction",
+      "category": "organizational"
+    },
+    {
+      "description": "Getting buy-in from rest of organization and securing funding; demonstrating ROI",
+      "category": "organizational"
+    },
+    {
+      "description": "Buy vs. build decision — whether to invest in building custom solutions or purchase existing tools",
+      "category": "organizational"
+    },
+    {
+      "description": "Information quality concerns — AI-generated misinformation, hallucinations, especially heading into election year",
+      "category": "ethical"
+    },
+    {
+      "description": "Job loss fears among newsroom employees",
+      "category": "organizational"
+    },
+    {
+      "description": "Digital divide: structural limitations (infrastructure, political challenges) in Global South limit AI adoption",
+      "category": "technical"
+    },
+    {
+      "description": "Top publications blocking AI crawlers degrades quality of public AI models, creating information inequality",
+      "category": "ethical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "As an industry, we've really been talking about AI for most of twenty twenty-three. But then it's only a few publishers that are really beginning to leverage it in a meaningful way and actually implement AI-driven solutions.",
+      "speaker": "Aliya Itzkowitz",
+      "topic": "AI adoption gap",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We were internally calling this day a non-technical hackathon because we weren't coding up this idea. But we were thinking about it more in terms of how do we mobilize the organization around this opportunity.",
+      "speaker": "Sam Gould",
+      "topic": "AI strategy methodology",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Someone had written 'garbage tsunami' at the beginning of the day. And then at the end of the day, they wrote 'opportunity tsunami.'",
+      "speaker": "Aliya Itzkowitz",
+      "topic": "Shifting attitudes toward AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I'm concerned that [building in-house models] might create division between haves and have nots. And I'm particularly concerned because... when a bunch of top publications ban ChatGPT from crawling their websites... what's feeding those public models [is] probably lower quality information.",
+      "speaker": "Aliya Itzkowitz",
+      "topic": "AI information inequality",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Generative AI is more accessible typically than AI of the past, in that you don't need an expensive process to go and label and clean thousands and thousands of data points and to spin up heavy infrastructure to train those models.",
+      "speaker": "Sam Gould",
+      "topic": "Accessibility of generative AI",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Start with identifying business challenges/opportunities first, then see which ones AI can solve — don't start with the technology",
+      "speaker": "Sam Gould",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Validate user needs before making large investments in AI tools — run small proof of concepts first",
+      "speaker": "Sam Gould",
+      "target_audience": "publishers considering AI investment"
+    },
+    {
+      "advice": "Bring cross-functional, diverse teams together when designing AI solutions — this leads to more robust, safer solutions",
+      "speaker": "Sam Gould",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Create clear action plans with named accountability — assign specific people to own AI initiatives",
+      "speaker": "Sam Gould / Aliya Itzkowitz",
+      "target_audience": "newsroom leaders"
+    },
+    {
+      "advice": "Bring responsible AI into the conversation from the very beginning of the design process",
+      "speaker": "Sam Gould",
+      "target_audience": "AI product teams"
+    }
+  ],
+  "external_references": [
+    "Google News Initiative (GNI) — partnership for AI design sprint",
+    "Journalism AI (Charlie Beckett, LSE) — global report on AI in journalism",
+    "FT Strategies AI Design Sprint methodology",
+    "EU AI Act (mentioned in context of European regulatory approach)",
+    "Data Miner (Aliya's former employer, AI for newsrooms)"
+  ]
+}

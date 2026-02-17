@@ -1,0 +1,141 @@
+{
+  "episode_date": "2024-05-01",
+  "episode_title": "Mattia Peretti: Balancing AI Innovation with Journalistic Integrity",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "secondary",
+      "sub_themes_present": ["T01.1", "T01.5"],
+      "best_quote": {
+        "text": "Schibsted and many others have had quite a success in just introducing automated summaries to their articles... seeing that time on page kind of like increases as well. So it's not that we give people a summary and they just read that and ignore the rest.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti describes AI summaries as entry points that increase engagement rather than replace articles, and notes that investigative AI for dataset analysis has been a proven use case for years, while human-in-the-loop remains essential for editorial quality."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": ["T02.1", "T02.2"],
+      "best_quote": {
+        "text": "We need to do much more work in building that relationship and being independent from any tool, from any platform. We have seen it with social media putting down in their priorities news and not producing it anymore.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti emphasizes building direct audience relationships independent of platforms as crucial for trust preservation, noting that past dependence on social media platforms should serve as a warning for how newsrooms approach AI platforms."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "primary",
+      "sub_themes_present": ["T03.1", "T03.4"],
+      "best_quote": {
+        "text": "I feel like the risk with putting too strict guidelines is to communicate to your team that you don't trust them to know how to do the right thing. To really send the message that we as the management team or this AI working group, we are really afraid that you're gonna mess it up.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti draws on his Guardian experience to argue forcefully for principles over prescriptive guidelines, noting that overly strict rules become outdated within a month and risk communicating distrust, while guidelines without literacy and experimentation become 'just a performative exercise.'"
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": ["T04.4"],
+      "best_quote": {
+        "text": "The limitations of large language models are still significant and need to be considered when repackaging content, despite improvements.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Technical architecture receives minimal attention; Peretti acknowledges LLM limitations but focuses on strategic and organizational questions rather than engineering details."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": ["T05.1", "T05.2", "T05.3"],
+      "best_quote": {
+        "text": "There is the AI literacy, there are the experiments in building products, and then everyone has been rushing to come up with guidelines and principles for generative AI and so on. Neither of these three things can exist and can have success without the other two, in my opinion.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti introduces the 'triangle' model where AI literacy, experimentation, and guidelines must develop in parallel, drawing on his Internews experience facilitating knowledge-sharing communities across 100+ countries and arguing that not everyone needs to become an AI expert but everyone needs basic literacy."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "primary",
+      "sub_themes_present": ["T06.1", "T06.3", "T06.4"],
+      "best_quote": {
+        "text": "I wish that sometimes there was more time spent on a step before thinking, okay, what are we trying to do? What are our goals in the first place? And is AI in this case actually helping us can help us achieve that goal rather than approaching it immediately as we need to use it.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti challenges the assumption that AI adoption is inherently valuable, advocating for 'why before how' thinking, arguing against scaling as a goal in itself, and describing the post-hype pragmatic phase where organizations are consolidating toward genuine value rather than trying everything."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "primary",
+      "sub_themes_present": ["T07.1", "T07.2", "T07.3"],
+      "best_quote": {
+        "text": "I think it's just very, very important that we're not naive about what are their goals. At the end of the day these are for profit organizations. Their mission is profit. The mission is not the mission that we have as journalists.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti articulates the tech-publisher tension with unusual candor, acknowledging his own Google funding while arguing tech companies should pay for news data, describing the relationship as 'very, very tricky,' and warning against the naivety of treating profit-driven companies as mission-aligned partners."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "secondary",
+      "sub_themes_present": ["T08.1", "T08.3"],
+      "best_quote": {
+        "text": "What Artifact was doing beyond the personalization of content, the possibilities to repackage a piece of information in different formats for different audiences was something that I was really enjoying as a user.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti highlights Artifact's content repackaging as a model and notes the Schibsted summary success, positioning format flexibility and personalization as areas where AI creates genuine user value."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": ["T09.2"],
+      "best_quote": {
+        "text": "These tech companies are the richest organizations and companies on the planet. So it's not that, oh my god, if we don't pay you for our content, we will just fail. That's just not the case.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Economic concerns surface through the platform dependency discussion and the argument that tech companies can afford to pay for news content, but business models are not a sustained focus."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": ["T10.1"],
+      "best_quote": {
+        "text": "We have seen it with social media putting down in their priorities news and so not producing it anymore. Or we have seen over the last ten, fifteen years social media becoming super relevant for a little bit and then disappearing, regulation changing.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Regulation is mentioned only in passing as part of the broader platform dependency discussion, without detailed engagement with specific regulatory frameworks."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "tangential",
+      "sub_themes_present": ["T11.2"],
+      "best_quote": {
+        "text": "Challenges explored with AI in journalism in 2020 are still being explored today, showing these are ongoing evolving problems rather than ones with a single solution.",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti notes the persistence of the same AI challenges from 2020 to 2024, implicitly acknowledging the production gap, but the episode does not focus on the mechanics of moving prototypes to production."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": ["T12.2"],
+      "best_quote": {
+        "text": "We're gaining efficiency, we're doing some things faster. What are we losing? Like I use sometimes ChatGPT for helping me brainstorm an idea... But I also worry if I rely too much on it, what muscle in my brain I'm not exercising anymore?",
+        "speaker": "Mattia Peretti"
+      },
+      "summary": "Peretti raises the novel concern of cognitive atrophy from AI dependency -- a personal data/privacy consideration about what we lose when we delegate cognitive functions to external tools."
+    }
+  ],
+  "primary_themes": ["T03", "T05", "T06", "T07"],
+  "secondary_themes": ["T01", "T02", "T08"],
+  "tangential_themes": ["T04", "T09", "T10", "T11", "T12"]
+}

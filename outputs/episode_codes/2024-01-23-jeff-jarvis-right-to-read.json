@@ -1,0 +1,375 @@
+{
+  "episode_date": "2024-01-23",
+  "episode_title": "Jeff Jarvis (Part One): Should AI have the 'right to read' news like humans do?",
+  "codes": [
+    {
+      "code": "Machine right to read analogy",
+      "description": "The provocative framing that AI companies should have the same right to read and learn from published content as human journalists do",
+      "excerpts": [
+        "Does the machine have the same right to read and learn and use information as a journalist? Because every journalist on Earth reads other journalists' work and gets information from sources and does not pay them, learns from it and uses it and repurposes it in their journalism.",
+        "does the company making the machine or the user of the machine or the program, whether that's Google or OpenAI, have the same rights as WCBS radio or clear channel radio to rip and read stories out of the newspaper"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "Training vs query distinction",
+      "description": "The critical legal and ethical distinction between AI training on content (learning language patterns) and AI querying/outputting specific content from publications",
+      "excerpts": [
+        "content that's used to just train the program how to speak and how to understand what we're saying... The query or output is different insofar as I ask it a question, does it come back to me and give me content that is in fact from a publication",
+        "I think the training is fair use because it is transformative"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "Newspapers' late copyright inclusion",
+      "description": "The historical fact that newspapers were excluded from US copyright until 1909, undermining claims that news has always been copyright-protected",
+      "excerpts": [
+        "Newspapers were not included in copyright in in this original formulation in 1710 in England, was not included in the U. S. copyright at first. Only maps, books, and charts were",
+        "Copyright was not included until 1909 for newspapers"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "Scissors editors precedent",
+      "description": "The historical practice of newspapers employing 'scissors editors' who literally cut content from other papers and reprinted it for free, establishing a precedent for content sharing",
+      "excerpts": [
+        "Newspapers employed people called scissors editors, their actual job title, where they would cut things out of others' newspapers and then get them typeset and print them, and they they wanted credit. But it was for free.",
+        "the US Postal Act of seventeen ninety two enabled newspapers to send each other copies of their papers for free. And this was an intentional way to set up a network for news"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "News industry lobbying independence conflict",
+      "description": "The conflict created when news organizations lobby the politicians they claim to be independent of, creating indebtedness that undermines editorial independence",
+      "excerpts": [
+        "I'm upset about my fellow journalists and news organizations. Number one, that they are lobbying the politicians they should be independent of. And they shouldn't be in a position to seek favors and be indebted to politicians."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "Historical protectionism pattern",
+      "description": "News organizations repeating their historical pattern of trying to suppress new technologies (radio, TV, internet) through restrictive agreements and legislation",
+      "excerpts": [
+        "when radio came along Newspapers tried to keep them out of the news business. They made them sign an agreement that said that they would do no news or that they would do only news only twice a day and that news would have to come from the wire services",
+        "They tried to keep journalists out of congressional press galleries. That was the reception of newspapers to radio, and to T V, and now to the Internet, and then to AI"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "NYT lawsuit as parlor trick",
+      "description": "Jarvis dismissing the New York Times' demonstration of GPT reproducing articles verbatim as a contrived demonstration rather than evidence of normal model behavior",
+      "excerpts": [
+        "They went through a lot of hoops to get the machine to repeat something. They were they gave them lots of paragraphs of an article, and kind of the only words left for it to predict were those that were left",
+        "that was a parlor trick on a parlor trick. And I don't think it's the real issue here"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "News API as licensing mechanism",
+      "description": "Proposing a technology-first solution where news organizations create an API with keys and contracts, allowing AI companies to query and serve news under negotiated terms",
+      "excerpts": [
+        "we in the news industry should be creating an API to news. It's the way technology people think. Why wouldn't we create an API with keys that we can give out under contracts with limitations for news",
+        "the model would be free to come back to a query and say Well yes, in answer to your question, I'll give you the background, but here's what the New York Times says"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "AI commodifies content not journalism",
+      "description": "The argument that AI's biggest threat is making the production of content trivial, while the true value of journalism lies in reporting, trust, authority, and service",
+      "excerpts": [
+        "the biggest threat that AI brings to our business is that it commodifies content. Now comes a machine that can make no end of content. And making content ain't so special. Writing isn't so special. Reporting is. Trust is, authority is, service is. That's where the value of journalism should be resident"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Content obsession critique",
+      "description": "The argument that journalism has become overly fixated on 'content' as its primary value proposition, when the real value should reside in relationships, trust, and service",
+      "excerpts": [
+        "I think that we in journalism have gotten too obsessive about this idea of content. And we think that our value is entirely resonant in this thing we make called content"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "LLM hallucination framing debate",
+      "description": "Jarvis objecting to the term 'hallucination' for LLM factual errors, noting models don't lie but simply have no concept of truth",
+      "excerpts": [
+        "what I hate when they call it hallucination, but the fact that it has no sense of fact. It doesn't lie, it doesn't know what truth is"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "LLM currency problem",
+      "description": "The practical limitation that LLMs are only trained up to a certain date and lack real-time information, creating an opportunity for news organizations",
+      "excerpts": [
+        "The second is currency. the models only go up to a certain date",
+        "I see a value in news and not just news in Wikipedia and and other sources. in saying we're gonna make it easy for you that when the model hits something where it knows uh it's been trained to know what it doesn't know"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Negotiate don't litigate",
+      "description": "The strategic recommendation that news organizations should negotiate constructively with AI companies rather than seeking courtroom victories or legislative handouts",
+      "excerpts": [
+        "Rather than fighting at this point, as we are out of our out of our field. We should, I think, be looking for ways to make it possible for AI companies to query And serve information from us and licensed for that purpose",
+        "I think that there are opportunities for us to just think more positively about this rather than going to Congress and courts. And thinking that if we win, we'll get a bucket of money"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "OpenAI premature licensing precedent",
+      "description": "The concern that OpenAI's early licensing deals with Springer and AP established commercial norms before legal and ethical principles were properly debated",
+      "excerpts": [
+        "I do think that OpenAI probably made a tactical error in negotiating with Springer and the Associated Press, because it sets a precedent before the principles are set. It's trying to say, well, don't sue us. Here it is."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "Common Crawl as legitimate archive",
+      "description": "Defending Common Crawl's archiving of the open web as entirely legitimate, and criticizing the NYT for demanding their free content be removed from it",
+      "excerpts": [
+        "Common Crawl, which is an open and free protocol that goes and archives the textual web, it's been mainly for researchers... That's the open and free web. And that should be just their right to do",
+        "The New York Times has demanded of Common Crawl that they take down their content, even that archival of content that was free. Well, I think that's a moral issue of the New York Times trying to deprecate the value of our web"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "Books3 acquisition ethics",
+      "description": "Acknowledging that while fair use may cover training, the acquisition of training data like Books3 raises ethical questions since creators didn't purchase every book included",
+      "excerpts": [
+        "Books 3 is obviously different, because the creators of that database, which again was done for scholarship, was incredibly valuable for scholarship. But once large language models came along, uh had different set of value, and they didn't buy every copy of those books"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Ego in the training data",
+      "description": "Jarvis's personal admission that he would feel miffed if his books weren't included in AI training data, revealing the emotional/ego dimension of the copyright debate",
+      "excerpts": [
+        "I, of course, egotistically went and looked up my first books to see if they were there. And they were, and if they hadn't been, I would have been really miffed and hurt. I would have felt really unimportant because I don't write just to make money, I write to get ideas out there"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "News as data visualization",
+      "description": "Reframing news stories as just another form of data visualization alongside charts and infographics, challenging the idea that news content has unique ownership claims",
+      "excerpts": [
+        "I argue that that news stories are just another form of data visualization. You could make a chart, you could make a box, you could make a story"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "LLMs mirror privileged publishing",
+      "description": "The critical insight that LLM training data overwhelmingly reflects those who had the privilege to publish, reproducing dominant biases, cliches, and worldviews",
+      "excerpts": [
+        "the models are reflecting back to us the publishing of the privileged. To your point about the rest of the world and even within the world, those who didn't publish, those who didn't have things there",
+        "All it's playing back to us is our cliches and our biases and our misapprehensions about the world as it is"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "Textpocalypse gray goo risk",
+      "description": "The degradation that occurs when AI models train on AI-generated content, producing progressively worse outputs in a feedback loop",
+      "excerpts": [
+        "when models spew out content and train on that content, we end up in the end with a gray goo",
+        "the models are ingesting AI content, and that kind of makes them go crazy a bit. and spit out things and the model doesn't work as well"
+      ],
+      "speaker": "Jeff Jarvis / Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Untapped non-Western training data",
+      "description": "The massive opportunity to digitize content from underrepresented regions, particularly Africa, as a way to address training data gaps before resorting to synthetic data",
+      "excerpts": [
+        "Just think about all of the countries that are still not as digitized. One of the things we had spoken about was like in the African continent. A lot of the governments over there, everything that is out there it's and is digital is actually written from a Western perspective",
+        "what if we go and invest heavily on making Transforming things from print to digital"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "LLMs as literacy extension",
+      "description": "The possibility that LLMs could extend literacy by enabling people intimidated by writing to speak their stories and have machines help articulate them",
+      "excerpts": [
+        "LLMs might extend literacy to the extent that they enable people who are intimidated by writing or illustrating to write or illustrate their own stories",
+        "being able to speak to the machine, being able to hear back, being able to have the machine give you back the things that you want to say, I think is quite intriguing"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "Code-switching to dominant language",
+      "description": "The critique that AI-mediated writing assistance forces marginalized communities to conform to the 'white hegemony of language' embedded in training data",
+      "excerpts": [
+        "Two of my students, one who has a different serving people who are imprisoned, another First Nations in Canada, said, whoa, Jarvis, then you're making everybody code switch. to the white hegemony of language, because it's gonna mimic that which came from those who had the privilege to publish"
+      ],
+      "speaker": "Jeff Jarvis (relaying students' critique)",
+      "valence": "negative"
+    },
+    {
+      "code": "Cracked mirror metaphor",
+      "description": "The characterization of LLMs as a fascinating but warped, cracked, and inadequate mirror of society that we must play with while recognizing its limitations",
+      "excerpts": [
+        "It's a cracked mirror, it's a warped mirror, it's an inadequate mirror. It's a fascinating mirror, and it's a mirror we can play with and do things with, but we must recognize its limitations"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "News LLM representativeness problem",
+      "description": "Questioning whether a news-specific LLM would be valuable given that news data itself is not representative of the world's diversity",
+      "excerpts": [
+        "if you're just gonna be training on news data, how much of the news so far, let's say, has really been representative of the world?",
+        "we have now all of these conversations over about DEI and diversity and having making sure that we're including more diverse perspectives"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "Never-trusted-news population",
+      "description": "The challenge to the 'rebuilding trust' narrative: many communities never trusted news in the first place",
+      "excerpts": [
+        "when I used the phrase rebuilding trust in news. And I think it was one of my students who said, whoa, there's a lot of people who never trusted news. And I think that's absolutely true"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "LLMs reveal our biases back",
+      "description": "The analytical opportunity to use LLM training data as a concordance to discover and expose the cliches, biases, and blind spots in published knowledge",
+      "excerpts": [
+        "if I had this concordance of all the available text in the world, rather than having it spit out more of the same, what interests me is to be able to query that data to find our cliches and our biases and our misapprehensions and our connections",
+        "it could also tell us what's missing"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "Copyright as publisher marketplace creation",
+      "description": "The historical argument that copyright was originally designed to create a tradable marketplace for publishers, not to protect individual authors as commonly believed",
+      "excerpts": [
+        "at the very beginning in 1710, it was booksellers and publishers who demanded a system that would create a marketplace for creativity as a tradable asset",
+        "The author was protected in the sense that they could sell it in the first place, but then it was no longer theirs"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "Credit rate chain of creation",
+      "description": "The concept of tracking a chain of creative contributions rather than attributing creation to a single romantic author figure",
+      "excerpts": [
+        "I came up with this concept that I call credit rate. that argues that there's a string of contributions to creativity. If somebody you see somebody out there who does something interesting and you write a poem about it, then I come along and I write song lyrics about it. Somebody else comes along and writes music for that.",
+        "Every one of those actors along that way deserves some credit for contributing to the creative product in the end"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "positive"
+    },
+    {
+      "code": "Liability layer confusion",
+      "description": "The unresolved question of where liability should fall in the AI stack: at the model level (absurd, like suing Gutenberg), the application level, or the user level",
+      "excerpts": [
+        "If it lies at the model level then there's this absurd thing where it's like trying to go back and sue Gutenberg for everything that's ever been printed",
+        "If Microsoft puts up ChatGPT on Bing and doesn't make clear that it doesn't do facts, and you're the poor lawyer who comes along and asks it for case citations... Then maybe Microsoft should be liable for misleading"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    },
+    {
+      "code": "Regulate for tomorrow not today",
+      "description": "The warning against writing AI laws based on current capabilities, which would miss the trajectory of technological development",
+      "excerpts": [
+        "if we would be the risk of regulating and creating laws around this right now Is that we don't know how they are going to be changing the world basically. And if if we go down and write laws for what we expected to do today, we would completely miss this path of technological development"
+      ],
+      "speaker": "Nikita Roy (citing Rebecca Tushnet)",
+      "valence": "neutral"
+    },
+    {
+      "code": "Labor law not copyright law",
+      "description": "The argument that concerns about AI-driven job displacement should be addressed through labor and unfair competition laws, not copyright",
+      "excerpts": [
+        "if you care about the potential for lost jobs and that generative AI models would bring about, we need to look to labor laws and unfair competition laws. and not copyright. Copyright's not gonna help you with that"
+      ],
+      "speaker": "Nikita Roy (citing Rebecca Tushnet)",
+      "valence": "neutral"
+    },
+    {
+      "code": "C-18 cautionary tale",
+      "description": "Canada's C-18 legislation as a warning: when forced to pay for news, Meta simply dropped news entirely, leaving publishers worse off",
+      "excerpts": [
+        "in C18 in Canada with social media. the news organizations tried to get money out of Google and Facebook. Facebook just dropped news entirely",
+        "now I think we're going to see the same thing happen with AI"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "negative"
+    },
+    {
+      "code": "Fair use as right to hire lawyer",
+      "description": "The inherent ambiguity of fair use doctrine, which provides no clear-cut answers and will require costly litigation to resolve in the AI context",
+      "excerpts": [
+        "Larry Lessig of Harvard famously said that fair use is the right to hire a lawyer. It's not set in stone. We're gonna have arguments about this in court."
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Shrinking fair use vs expanding it",
+      "description": "The accusation from both sides that the other is destroying copyright: publishers say Jarvis expands fair use to make copyright meaningless, he says they shrink it to the same effect",
+      "excerpts": [
+        "they're thus, with the legislators, with the Senate, trying to shrink fair use to the extent that copyright won't exist. Now I was accused later on in the hearing of expanding fair use so much that copyright wouldn't exist"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "mixed"
+    },
+    {
+      "code": "Altman's smaller-better-data claim",
+      "description": "Sam Altman's assertion at Davos that future models will learn from smaller amounts of higher quality data, analogous to learning high school biology from one textbook",
+      "excerpts": [
+        "Sam Altman actually just this week at Davos in the World Economic Forum spoke about how we actually don't need to train on the New York Times data and was talking about how these the change that he's expecting in these models is that they would be able to take smaller amounts of higher quality data"
+      ],
+      "speaker": "Nikita Roy (reporting Sam Altman)",
+      "valence": "neutral"
+    },
+    {
+      "code": "Authorship tied to liability history",
+      "description": "The historical insight that the concept of authorship emerged not from creativity but from the need to identify who could be held liable for published words",
+      "excerpts": [
+        "our sense of authorship... didn't really come until the point at which authors were held liable for their words. In the early days of print It was the printer who would get beheaded or behanded for what they printed"
+      ],
+      "speaker": "Jeff Jarvis",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "This episode mounts a systematic historical and legal argument that the news industry's aggressive copyright claims against AI companies are not only strategically self-defeating but also historically inconsistent with journalism's own traditions of information sharing. Jarvis's 'scissors editors' example and the 1792 Postal Act reveal that free content circulation was foundational to American journalism, directly contradicting the NYT's claim of longstanding copyright protection. The episode's most analytically important contribution is the training-vs-query distinction: conceding that training is fair use while arguing for licensable query mechanisms (like a news API) offers a practical middle ground the industry is largely ignoring in favor of litigation. The discussion also surfaces a deeper existential challenge: AI commodifies the production of content, which forces journalism to relocate its value proposition from the artifact (the article) to the relationships and processes (reporting, trust, authority, service) that produce it. This reframing, if taken seriously, would require a fundamental rethinking of news business models.",
+  "surprises": [
+    "Jeff Jarvis admits he would be 'miffed and hurt' if his books were NOT included in AI training data, revealing an ego dimension that cuts against the copyright protection narrative",
+    "Newspapers were excluded from US copyright until 1909 and the 1792 Postal Act intentionally enabled free content sharing between newspapers, directly contradicting the NYT's historical claims",
+    "Jarvis's students corrected his 'rebuilding trust' framing by pointing out many communities never trusted news in the first place",
+    "The suggestion to use LLMs not for output generation but as analytical tools to discover biases, cliches, and gaps in our published knowledge inverts the typical use case",
+    "The argument that news stories are 'just another form of data visualization' alongside charts and infographics, challenging the special status of journalistic content"
+  ],
+  "tensions": [
+    "Jarvis argues training is fair use but acknowledges Books3 raised legitimate acquisition ethics issues, creating an inconsistency in his own framework",
+    "LLMs could extend literacy to marginalized communities but simultaneously force them to code-switch to dominant language norms embedded in training data",
+    "The training-vs-query distinction offers a pragmatic middle ground, but OpenAI's premature licensing deals with Springer and AP have already muddied the principled debate",
+    "Jarvis calls for negotiation over litigation, but the industry's loss-aversion PTSD (from giving content away for free to internet platforms) makes cooperative approaches politically impossible",
+    "The 'content is commodified' argument implies journalism must find new value propositions, but most publishers are still investing heavily in content production as their core business",
+    "The C-18 example shows platforms will simply drop news if forced to pay, but doing nothing allows unrestricted use without compensation, creating a lose-lose for publishers"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "episode_id": "2025-07-15-florent-daudens-open-source-ai",
+  "episode_title": "Florent Daudens: How Open-Source AI Puts Newsrooms Back in the Driver's Seat",
+  "date": "2025-07-15",
+  "pass": "4-deductive-recode",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.3",
+        "T01.4"
+      ],
+      "best_quote": {
+        "text": "you has to make AI your own because it's not that complicated, especially because you know when you look at it, what is AI basically? It's the ability to talk to a machine with your own words.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Extensive practical demonstrations of AI automating specific journalism tasks: transcription, web scraping, image editing, handwriting recognition, chart data extraction, SEO headlines, shot listing. Daudens positions AI as communication skill rather than replacement. CNN layoff/hiring example shows workforce restructuring."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.4",
+        "T02.3"
+      ],
+      "best_quote": {
+        "text": "the future of media and journalism isn't just about owning the content, it's about owning the experience. It's about the inference, the interaction, the integrations that you bring into your experience that's actually might end up being more valuable than even page views were ever.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Discussion of AI agents browsing and extracting news content bypassing publisher UX. News avoidance linked to lack of personalization and conversational engagement. ChatGPT only surfaces licensed publishers, creating information access divide. Less direct discussion of trust mechanisms."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "one of the key missions of Hugging Face is is basically fighting the concentration of power. We want people to be able to choose how and what they want to use in AI.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens emphasizes asking 'whether AI is truly a better solution' before deployment (question-whether-ai-is-needed). Environmental cost discussion (each ChatGPT image = full iPhone charge). Copyright and training data concerns. Missing ecological awareness in newsroom AI adoption."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.2",
+        "T04.3",
+        "T04.5"
+      ],
+      "best_quote": {
+        "text": "one of the key missions of Hugging Face is is basically fighting the concentration of power. We want people to be able to choose how and what they want to use in AI.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "This is the core theme. Deep technical coverage of open-source vs proprietary models. Model compression trend (Llama 400B to 70B matching performance). SmallVLM 2 at 250M parameters. DeepSeek R1 distillation. Embedding models for semantic search. Browser Use for agentic web browsing. Small models for specific tasks. On-device model embedding. Platform-agnosticism by design."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3",
+        "T05.5"
+      ],
+      "best_quote": {
+        "text": "we're seeing more and more a two-tier approach inside of newsrooms and inside of the industry because you have some people who are really, really interested in AI. And I would say maybe 80% of the people are like either they don't care or they don't have time or they're afraid of AI.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Two-tier divide quantified at 80/20. Essential AI Toolkit as structured learning resource. Slack community for journalists (400 members day one). FT shared prompt library. Build ongoing training into daily workflows, not one-off sessions. Vibe coding as democratizer. No-code empowerment through LLMs for app building."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.4"
+      ],
+      "best_quote": {
+        "text": "innovate faster and and you know don't fall in love with your innovations, that's fundamental.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Leadership must create space and resources for experimentation. Ship fast, don't fall in love with innovations (Hugging Face CEO: 500 launches, 5 change trajectory). CNN organizational restructuring as example. Killing initiative in newsrooms as cultural problem."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T07.1",
+        "T07.2",
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "Perplexity without news is like an arm less, you know. But I think that raises a very important point. And a reason why that hasn't happened is because of what perplexity does is basically letting the user, the audience, be in the driver's seat about how they're going to be interacting with that content.",
+        "speaker": "Florent Daudens and Nikita Roy"
+      },
+      "summary": "Open source as power decentralization against Big Tech concentration. ChatGPT only surfaces licensed publishers. Perplexity and NotebookLM as innovations newsrooms missed. Copyright/scraping concerns. Google AI Overviews diverting traffic. Pending fair use lawsuits."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T08.1",
+        "T08.2",
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "the future of media and journalism isn't just about owning the content, it's about owning the experience. It's about the inference, the interaction, the integrations that you bring into your experience that's actually might end up being more valuable than even page views were ever.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "News as conversation vs broadcast. Embedding small TTS models in apps for on-device audio. NotebookLM and Perplexity as missed product innovations by newsrooms. Experience ownership over content ownership. News avoidance addressed through conversational interfaces. On-demand format transformation."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.2",
+        "T09.1"
+      ],
+      "best_quote": {
+        "text": "the future of media and journalism isn't just about owning the content, it's about owning the experience.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "AI agents will bypass publisher UX and ads, threatening ad-based revenue. Focus on inference-based revenue streams. CNN restructuring as business model pivot. Perplexity captures richer intent data (12 words vs Google's 3). But no deep dive into specific revenue models."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T10.1"
+      ],
+      "summary": "Pending fair use/fair dealing lawsuits referenced. No deep regulatory discussion."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1"
+      ],
+      "best_quote": {
+        "text": "innovate faster and and you know don't fall in love with your innovations, that's fundamental.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Vibe coding enables rapid prototyping by non-coders. Ship fast, iterate. 500 launches, 5 matter. Essential AI Toolkit as prototyping resource. But limited discussion of production gap."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "Run open-source AI models locally for sensitive or confidential journalism work to maintain privacy and avoid sending data to external servers.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Local transcription for source protection using Whisper. Privacy-first local inference. Environmental cost of AI (energy consumption). Run open-source models locally for confidential work."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T04",
+    "T05",
+    "T07",
+    "T08"
+  ],
+  "secondary_themes": [
+    "T02",
+    "T03",
+    "T06",
+    "T09",
+    "T11",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T10"
+  ]
+}

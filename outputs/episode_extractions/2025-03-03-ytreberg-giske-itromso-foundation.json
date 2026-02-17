@@ -1,0 +1,281 @@
+{
+  "episode_meta": {
+    "title": "Rune Ytreberg and Lars Adrian Giske: How iTroms\u00f8 is Building an AI-Ready Foundation for News",
+    "date": "2025-03-03",
+    "guests": [
+      {
+        "name": "Rune Ytreberg",
+        "role": "Head of the Data Journalism Lab",
+        "organization": "iTroms\u00f8"
+      },
+      {
+        "name": "Lars Adrian Giske",
+        "role": "Head of AI",
+        "organization": "iTroms\u00f8"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Norway",
+    "word_count": 8977
+  },
+  "ai_tools": [
+    "GIN (AI-powered document monitoring platform)",
+    "Kotemon (open-source RAG front-end)",
+    "OpenAI (GPT models, O3 referenced)",
+    "Anthropic (Claude, Claude Projects)",
+    "AnythingLLM",
+    "Notebook LM (Google)",
+    "Windsurf (AI code editor)",
+    "ChatGPT (including Advanced Voice Mode with real-time video)",
+    "Open-source models via Ollama (Llama, Mistral)",
+    "Graph RAG (entity relationship mapping)"
+  ],
+  "use_cases": [
+    {
+      "description": "Building a centralized editorial data platform that combines multiple public and private data sources (property registers, tax data, company data, police logs, FOIA responses) at the personal level to enable pattern detection and automated journalist notifications",
+      "tool_used": "Custom data platform with classical AI (regression analysis) and generative AI",
+      "organization": "iTroms\u00f8",
+      "outcome": "Infrastructure under construction since before Christmas 2024; two-and-a-half years of legal consultation with lawyers to ensure GDPR compliance before starting",
+      "stage": "development"
+    },
+    {
+      "description": "GIN platform replacing public web portals for monitoring planning documents and public correspondence across 13 municipalities, rolled out to all journalists across the Laris media group including small newsrooms",
+      "tool_used": "GIN",
+      "organization": "iTroms\u00f8 / Laris media group",
+      "outcome": "Described as a 'huge success' in adoption; journalists over fifty who never touched AI gave feedback that it 'really makes my job easier'",
+      "stage": "production"
+    },
+    {
+      "description": "School district redistribution project ('Min Skole' / 'My School') using a RAG system built on Kotemon loaded with all underlying municipal data on school district evaluations, used to train all 25 journalists on AI while covering an ongoing editorial story",
+      "tool_used": "Kotemon (RAG system with re-ranking, side-by-side source citation, graph RAG)",
+      "organization": "iTroms\u00f8",
+      "outcome": "Designated by editor-in-chief as most important project January to June; serves dual purpose of AI training and editorial coverage",
+      "stage": "deployment"
+    },
+    {
+      "description": "Politics/municipal finance assistant that ingests quarterly budget reports from Troms\u00f8 municipality and automatically identifies changes, most newsworthy aspects, and suggests sources to call",
+      "tool_used": "RAG system with large language model prompts",
+      "organization": "iTroms\u00f8",
+      "outcome": "Found good news stories by identifying gaps between what politicians say and what is actually happening; used sentiment analysis to surface most problematic issues for journalist follow-up",
+      "stage": "production"
+    },
+    {
+      "description": "Customized AI assistants built through mini workshops where individual journalists sit with developers to create tools tailored to specific journalistic tasks",
+      "tool_used": "Various LLMs (OpenAI, Anthropic, open-source models)",
+      "organization": "iTroms\u00f8",
+      "outcome": "Multiple domain-specific assistants developed over the past year with standardized system instruction hierarchy (16-20 steps covering accuracy, context, task, output format)",
+      "stage": "production"
+    },
+    {
+      "description": "Avalanche alert system and mapping tool for Troms\u00f8, proposed by a developer during a morning newsroom meeting after discussion about deadly avalanches caused by climate change",
+      "tool_used": "Custom development",
+      "organization": "iTroms\u00f8",
+      "outcome": "Developer proposed and built the system after being embedded in newsroom and understanding editorial needs",
+      "stage": "production"
+    },
+    {
+      "description": "City project highlighting social inequality in Troms\u00f8 using combined data sources",
+      "tool_used": "Data analysis and AI tools",
+      "organization": "iTroms\u00f8",
+      "outcome": "Completed project now being continued in new direction (school districts project)",
+      "stage": "completed"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "AI agents are not production-ready as of now; they take a lot of work and there are many steps where they can fail",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "practitioner experience"
+    },
+    {
+      "claim": "Two and a half years of legal consultation were required before they could start building the centralized data platform due to GDPR sensitivity of joining personal-level datasets",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "direct experience"
+    },
+    {
+      "claim": "OpenAI enterprise solution was too expensive for a small newspaper, creating a division where some journalists could make their own assistants but most could not",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "direct experience"
+    },
+    {
+      "claim": "In eight months, referrals through ChatGPT went from zero to over a hundred thousand to news sites, citing Reuters data",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "industry data (Reuters)"
+    },
+    {
+      "claim": "Newer language models like O3 require less precise prompting because they are better at figuring out user intent",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "practitioner testing"
+    },
+    {
+      "claim": "iTroms\u00f8 expects to have the most AI-competent newsroom in Norway before summer",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "stated goal/prediction"
+    },
+    {
+      "claim": "Hallucination remains the primary barrier preventing publication of AI-generated interactive products to the public",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "practitioner assessment"
+    },
+    {
+      "claim": "The newsroom role will shift from providing a platform (website) to providing carefully curated and processed data",
+      "speaker": "Lars Adrian Giske",
+      "evidence_type": "prediction/analysis"
+    },
+    {
+      "claim": "Kotemon is the best RAG system they have seen so far, solving citation and source verification problems that OpenAI enterprise and AnythingLLM could not",
+      "speaker": "Rune Ytreberg",
+      "evidence_type": "comparative practitioner evaluation"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "AI agents are not production-ready; too many failure points in multi-step workflows",
+      "category": "technical maturity"
+    },
+    {
+      "description": "GDPR compliance for joining personal-level datasets (property, tax, company, income data) required two and a half years of legal work",
+      "category": "legal/regulatory"
+    },
+    {
+      "description": "Need for extremely granular access control and monitoring of which journalists access which data in the centralized platform",
+      "category": "data security"
+    },
+    {
+      "description": "Joined datasets become exponentially more sensitive than individual datasets, requiring higher security standards",
+      "category": "data privacy"
+    },
+    {
+      "description": "OpenAI enterprise solution too expensive for small newspapers, creating internal divisions between journalists with and without AI access",
+      "category": "cost/accessibility"
+    },
+    {
+      "description": "AnythingLLM lacked adequate source verification for journalists to efficiently check citations",
+      "category": "tool limitations"
+    },
+    {
+      "description": "Journalists' initial frustration with AI outputs ('I asked it, it gave me a shit answer, it doesn't work, I'm never gonna use it again')",
+      "category": "adoption/training"
+    },
+    {
+      "description": "Small newsroom (25 staff) cannot afford dedicated training time; journalists must learn AI while doing daily work",
+      "category": "resource constraints"
+    },
+    {
+      "description": "Hallucination preventing deployment of AI-powered interactive products to the public",
+      "category": "accuracy/trust"
+    },
+    {
+      "description": "Increased competition from tech giants (OpenAI, Anthropic, Google) creating new informational ecosystems that may not include traditional news platforms",
+      "category": "industry disruption"
+    },
+    {
+      "description": "Risk of creating echo chambers with hyper-personalized news delivery",
+      "category": "editorial ethics"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "A good tip if you're going to build with infrastructure like this is call your lawyer first. That's like the golden rule of AI development and data journalism is like, can we actually use this data.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "GDPR compliance and legal preparation for data platforms",
+      "pedagogical_value": "Practical first-step advice for any newsroom building data infrastructure"
+    },
+    {
+      "text": "If my end goal is having a system that is capable of saying that director A of company B had to sell their house because Company C went bankrupt. That kind of news notification is incredibly powerful for a journalist. And it's very hard to do right now. It requires combining a lot of different data.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "Vision for automated cross-dataset news discovery",
+      "pedagogical_value": "Concrete example of the value of joining datasets for investigative journalism"
+    },
+    {
+      "text": "Our role will not as much be providing a platform like a website, but it will be providing data, like carefully curated and processed data... that helps people make sense of the world around them.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "Future role of newsrooms in the AI era",
+      "pedagogical_value": "Reframes the newsroom value proposition from distribution platform to data curation"
+    },
+    {
+      "text": "They have to train while they are working. And I think that's the best way of understanding a new tool and understand how to use AI in your daily work is to actually try start using it in projects, in journalism which are important, because then it matters. Then you have to be sure that it doesn't hallucinate.",
+      "speaker": "Rune Ytreberg",
+      "topic": "AI training strategy for small newsrooms",
+      "pedagogical_value": "Practical model for resource-constrained newsrooms: embed training in real editorial projects"
+    },
+    {
+      "text": "You're a journalist. Nobody in the world knows better how to ask questions or structure questions or query data or query a source. And you have to think of it like that.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "Prompting as a journalistic skill",
+      "pedagogical_value": "Reframes AI prompting as a natural extension of core journalistic competencies"
+    },
+    {
+      "text": "We barely survived social media as an industry once Facebook and all these giants came and kind of took a lot of our revenue... And with AI, and we have these new tech giants emerging, like you have OpenAI, you have Anthropic, you have Google coming in hard in the AI sphere, does increase competition. Because they are also informational ecosystems.",
+      "speaker": "Lars Adrian Giske",
+      "topic": "Competitive threat from AI companies to news organizations",
+      "pedagogical_value": "Historical parallel between social media disruption and emerging AI disruption of news"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Call your lawyer first before building any data infrastructure; establish legal compliance (especially GDPR) before beginning development",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "newsrooms building data platforms"
+    },
+    {
+      "advice": "Build AI tools with journalists, not for them - involve journalists from first workshop through testing, feedback, and design to create ownership, understanding, and willingness to adopt",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "newsroom developers and managers"
+    },
+    {
+      "advice": "Embed developers in the newsroom so they attend morning meetings, understand journalism as a domain, and can proactively suggest technical solutions to editorial problems",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "newsroom leadership"
+    },
+    {
+      "advice": "Train journalists on AI through real, important editorial projects rather than dedicated training sessions - small newsrooms cannot afford separate training time",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "small and medium newsrooms"
+    },
+    {
+      "advice": "Teach journalists that prompting is an iterative process - start with simple specific questions, refine, and avoid frustration from poor first results",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "journalists new to AI"
+    },
+    {
+      "advice": "Use open-source tools like Kotemon to provide AI access to all journalists rather than expensive enterprise solutions that create internal divides",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "budget-constrained newsrooms"
+    },
+    {
+      "advice": "Always request 10 years of data when sending FOIA requests to build time series that enable better regression analysis and pattern detection",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "data journalists"
+    },
+    {
+      "advice": "Get editorial leadership buy-in: have the editor-in-chief mandate AI-supported projects so all journalists participate, not just volunteers",
+      "speaker": "Rune Ytreberg",
+      "target_audience": "newsroom leadership"
+    },
+    {
+      "advice": "Build community engagement and ask your audience what they need as the best strategy for surviving AI disruption as an institution",
+      "speaker": "Lars Adrian Giske",
+      "target_audience": "local news organizations"
+    }
+  ],
+  "external_references": [
+    "GIN platform (iTroms\u00f8's AI-powered document monitoring system, discussed in Part 1 of conversation)",
+    "Kotemon (open-source RAG front-end, available on GitHub)",
+    "Open WebUI (referenced as comparable to Kotemon)",
+    "Notebook LM (Google's document analysis tool)",
+    "AnythingLLM (open-source LLM interface)",
+    "Windsurf (AI code editor)",
+    "OpenAI enterprise platform",
+    "Anthropic Claude / Claude Projects",
+    "Ollama (local LLM runtime for Llama, Mistral)",
+    "Reuters (referral data showing ChatGPT traffic to news sites)",
+    "Laris media group (parent company of iTroms\u00f8)",
+    "Harvard Innovation Labs (Nikita Roy's affiliation)",
+    "Rosetta Stone (language learning tool, referenced as comparison)",
+    "Workshop in Vienna (end of January, prompting training for journalists)",
+    "OpenAI O3 model (referenced for improved intent understanding)",
+    "OpenAI O4 model (referenced for code generation capability)",
+    "iTroms\u00f8 (founded 1898)"
+  ]
+}

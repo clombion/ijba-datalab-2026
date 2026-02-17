@@ -1,0 +1,388 @@
+{
+  "episode_date": "2024-03-29",
+  "episode_title": "Florent Daudens: Building an AI-Literate Newsroom at Radio Canada",
+  "codes": [
+    {
+      "code": "Three-tier training architecture",
+      "description": "Radio Canada's structured AI literacy program with three levels: expertise group, foundational training, and experimentation workshop (prompt clinic)",
+      "excerpts": [
+        "there are three different aspects. The first one is the creation of an expertise group The second one is training for journalists and managers also on the basics of AI. And then an experimentation workshop I would call it l a sort of uh you know orange belt uh level for AI."
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Cross-functional expertise group",
+      "description": "AI knowledge sharing through a group that spans machine learning developers, analysts, other departments, and journalists, meeting regularly",
+      "excerpts": [
+        "the expertise group is really designed as a cross-functional group. We don't machine learning developers. There is also an analyst, people from other departments, and obviously journalists",
+        "we meet in person every two weeks or three to brainstorm on coverage topics, share the latest developments in the field and ongoing project"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Demystification as pedagogy",
+      "description": "Training approach centered on deconstructing AI to its fundamentals (probabilistic next-word prediction) to replace fear with understanding",
+      "excerpts": [
+        "the goal is to demystify it",
+        "to understand that it's really a probabilistic calculation of the next word one after another is really s a deconstruction of of AI at at the core of what it is",
+        "It's always a slide where people are like, oh, okay."
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Embrace before suffering",
+      "description": "The imperative to proactively engage with AI rather than wait until it becomes mandatory and disorienting",
+      "excerpts": [
+        "we want people to be able to embrace AI and not suffer from it",
+        "If we don't know what we're talking about, if we don't know the possibilities, we will just miss the train and then realize that we have to use it but we don't know how and it's gonna be scary"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Permission to fail",
+      "description": "Explicitly encouraging journalists to make mistakes with AI as a learning strategy, countering perfectionist newsroom culture",
+      "excerpts": [
+        "putting this tool in the hands of journalists is also a way for us to encourage them to experiment and to send the message that They can make mistakes too, they have to make mistakes with AI because it's the starting point to learn"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Industry training deficit",
+      "description": "Only 10% of newsrooms train journalists in AI and 13% do not even consider it, revealing widespread institutional neglect",
+      "excerpts": [
+        "only 10% of newsrooms train their journalists in AI and and I remember uh a comment you you wrote on LinkedIn Another stat was 13% of newsroom don't even think about it, don't even consider training"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "Attitude transformation metric",
+      "description": "Measuring training success by shift in word associations: from fear/replacement/loss-of-control to creativity/possibility/sense-of-control",
+      "excerpts": [
+        "at the beginning of the training session, ask them, for you, what is AI in a world or two? And not everything is is black, but I got words like fear, replacement, loss of control. I even had uh octopus",
+        "at the end he in the end of the the session Ask them the same question and you know I've divided the the whiteboard in two and I have words like creativity, sense of control, possibility"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Hallucination as inherent feature",
+      "description": "Teaching that hallucinations are not bugs but deeply embedded in how probabilistic models work, making them partly necessary",
+      "excerpts": [
+        "we explain the concept of hallucinations, why it's in fact deeply embedded in the concept of AI and why it's in a way necessary"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "LLM is not search engine",
+      "description": "Key training concept distinguishing LLMs from search engines and teaching grounding techniques",
+      "excerpts": [
+        "to understand that an LLM is not a search engine and we don't we shouldn't use it as a search engine. But then we see how to ground an NLM to a database or to the web"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "Prime minister press conference exercise",
+      "description": "Training exercise demonstrating AI's inability to identify the editorial lead of a story when the newsworthy element carries low statistical weight",
+      "excerpts": [
+        "if you ask to ChatGPT, hey, give me a summary of the press conference. He will not focus on nuclear energy because the Prime Minister the didn't even tell the word nuclear, it was in the question",
+        "Sometimes you can't rely on summarization for an important news conference from the Prime Minister if you haven't heard it. If you haven't Exercise your editorial judgment"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Needle not haystack",
+      "description": "For journalists, the value often lies in the exception rather than the summary, which AI systematically underweights",
+      "excerpts": [
+        "for journalists It's the needle in a haystack that is interesting and not the whole overview of the document"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "Editorial judgment boundary",
+      "description": "Clear rule: when editorial judgment is required, AI should not be the decision-maker; AI is appropriate only for tasks where editorial judgment is not at stake",
+      "excerpts": [
+        "each time your edital judgment is on site, you shouldn't have an interaction with with AI. But when it's for a TDU status, for example, or you know, when you have a specific question That's perfect."
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "Shared prompt library",
+      "description": "Internal Google Sheets-based prompt library enabling collective knowledge sharing rather than individual artisanal AI use",
+      "excerpts": [
+        "this training program also led us to the creation of an internal Prince library",
+        "if we each use chat gpt in a corner it will remain something artisanal and not very effective"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Prompt clinic as level two",
+      "description": "Follow-up workshop where journalists decompose their tasks and identify AI-assistable ones, producing concrete tools through short iterations",
+      "excerpts": [
+        "the pronktonic is the idea of, you know, in fact, it's an idea I've been simmering since the start of the training, and I see it really as a level two",
+        "we approach it not from the angle of employment in general, but rather like all the tasks that constitute our job"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Task decomposition method",
+      "description": "Having journalists break down their job into constituent tasks as the starting point for identifying AI opportunities",
+      "excerpts": [
+        "we ask everyone to break down the task of their job and think about which tasks AI could be useful to implement",
+        "if you just have the idea of, hey, this is It's a painful point for me, this specific task, and I would like to automate it"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Bottom-up use case discovery",
+      "description": "Conviction that the best AI applications will emerge from practitioners in daily operations, not top-down mandates",
+      "excerpts": [
+        "the best use cases, and I'm convinced about that, will come from people using it in their operations"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Content adaptation potential",
+      "description": "Using AI to repurpose content across multiple platforms (TV to web article, TV to TikTok) when resources are limited",
+      "excerpts": [
+        "We have many platforms to fill, as I said. We have TV, radio stations, we have TikTok accounts, websites, news apps",
+        "if we manage to configure tools well, starting for example with a few shot prompts or if it's if necessary with fine-tuning, we would be able, for example, to generate a a web article draft from a TV the text"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Transcription unlocks data torrent",
+      "description": "Mass transcription of radio/TV content could unlock vast data for indexing, entity recognition, training, and accessibility from a unique cultural heritage",
+      "excerpts": [
+        "if we can transcribe everything we produce and everything we have produced before, we potentially unlock a torrent of data",
+        "it's a unique cultural heritage in the country and it has m a major value both for the public and for AI development"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "OCR via vision model",
+      "description": "Using ChatGPT's vision feature to extract data from scanned access-to-information documents that cannot otherwise be machine-read",
+      "excerpts": [
+        "a colleague used the text extraction function with the vision in Chat GPT in images to generate Excel files from access to information's request because I don't know why, but uh most of the time when we have data from access to information requests, it's always scanned in a way we can't extract the data"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Automated politician fact-checking",
+      "description": "Radio France project that automatically checks numbers stated by politicians on air against statistical databases",
+      "excerpts": [
+        "as soon as a politician says a number on their uh in their shows, it automatically fact checks in database databases of statistical institute if it's true or not"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Election data natural language query",
+      "description": "Custom-built tool to query election results databases using natural language, potentially useful for election night coverage",
+      "excerpts": [
+        "I developed a tool to probe the results database from natural language queries. And it's quite impressive",
+        "We could consider uploading the results of the last 10 years or more and imagine what a useful tool it could be for election night"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom as tech company",
+      "description": "Argument that news organizations must reconceive themselves as both content businesses and technology companies",
+      "excerpts": [
+        "I think newsroom, news organizations need to think about themselves as yes content business but also as tech companies",
+        "It's not natural for us. It's not natural to collaborate with developers. It's not natural to think about machines."
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Rethinking information presentation",
+      "description": "Need to create different information forms for human audiences versus external platforms like search engines and ChatGPT",
+      "excerpts": [
+        "What forms of journalism are we going to present to our public users? And what we will send to the external platforms like Search engines or chat GPT",
+        "do we still focus on writing classical web articles or do we think of ways of new ways of presenting information"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "Personalization tension",
+      "description": "Unresolved tension between creating individualized news experiences and the democratic mandate to inform a shared public",
+      "excerpts": [
+        "Do we want to create an individual news offer for each people? Is it a bad idea?",
+        "it raises interesting question about, for example, personalization... our goal is to inform the general public and have different ideas confronting in the s in the public space. But also what if you as a user want something very specific?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Writing value questioned",
+      "description": "Provocative question from external entrepreneur about whether writing will remain journalism's core value proposition",
+      "excerpts": [
+        "Do you think writing will still be an important added value in journalism in the next few years",
+        "it's a tough question because I think as journalists Words are carefully crafted and it's very important to craft them well, but we also need to open the question of What's the most important thing?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Quebec French model gap",
+      "description": "Historical difficulty of AI models with Quebec French accent and vocabulary, now largely overcome but revealing language hegemony in AI training",
+      "excerpts": [
+        "Then they improved in French, but with the French accent. And with the Quebec accent, for example, the error rate was still high",
+        "Amazon was the first to train its models with Quebec speakers and then it became really usable in production"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "mixed"
+    },
+    {
+      "code": "Cultural sovereignty in AI",
+      "description": "Concern that even non-American AI companies (like French Mistral) initially train only in English, sidelining other language communities",
+      "excerpts": [
+        "the French startup Mistral, which developed really small but but very efficient models. They that by the way they recently raised I think uh forty four four hundred million dollars and and so they're really expanding and their first model uh it was my Mistral uh 7B it was uh it had only been trained in English and I must say I was surprised"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "Montreal AI hub advantage",
+      "description": "Being located in an AI research hub (Bengio, Pineau, LeCun) provides ecological immersion that benefits journalists' access and understanding",
+      "excerpts": [
+        "Montreal is an AI hub, notably with uh thinkers researchers like uh Yoshua Benjo Joel Pinault they are among the brightest in in the field",
+        "for us, for the Canada, for journalists. It does immerse us in the in the ecosystem and it's a big advantage"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "RAG teaching assistant",
+      "description": "Building a RAG-based chatbot from course notes and transcribed lectures that students can query, described as most important pedagogical change in 8 years",
+      "excerpts": [
+        "I ingested all my course notes in and uh in this tool and you know I record each class to then transcribe transcribe it automatically with whisper and add it to the robot",
+        "It's been eight years since I started this course, and I think it's the most important change in my Pedagogical approach"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Coding pedagogy transformation",
+      "description": "AI changing the answer to 'should journalists learn to code?' from 'understand fundamentals' to 'interact with machines naturally to produce code outputs'",
+      "excerpts": [
+        "I think with AI my answer changed a little bit. I think you can interact with machines in a much more natural way",
+        "make me a bar chart in D3GS with the Canadian population by province. And you will have a decent code that you can use"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Self-taught through AI assistance",
+      "description": "Using ChatGPT itself to learn AWS, cron jobs, and other technical skills needed to build AI tools, demonstrating AI as a learning accelerator",
+      "excerpts": [
+        "I didn't know anything about, for example, AWS or uh almost nothing and by just interacting with ChatGPT and asking it to hey help me to program this newsletter and then Host it on AWS and schedule a crumb job",
+        "with uh trial and errors, I was able to create this automate the newsletter"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Automated AI newsletter",
+      "description": "Building a personal automated newsletter that synthesizes ~50 AI sources daily using ChatGPT and AWS, for self-education",
+      "excerpts": [
+        "one of the best way I found to being and keeping updated about AI was to build automated newsletter based on chat GPT to synthesize I think around 50 different sources in a news in a daily newsletter that I receive in my inbox automatically"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Curiosity as human singularity",
+      "description": "Identifying spontaneous curiosity and editorial judgment as the two fundamentally human qualities that AI cannot replicate",
+      "excerpts": [
+        "above all it's curiosity Because a machine will not spontaneously ask itself a question. And the other thing is editorial judgment.",
+        "When there is editorial judgment involved, it will always remain something only and fundamental, fundamentally human."
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "General tool versus specialized tool",
+      "description": "Training on ChatGPT 3.5 as a general public tool while recognizing that newsroom implementation requires specialized tools or models",
+      "excerpts": [
+        "the training session is on ChatGPT 3. 5 and the disclaimer is The training is on a I would say it's a general public tool. It's not a specialized tool",
+        "if we want to implement AI in newsrooms, we have to think about really more specialized tools or models"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI marketing skepticism",
+      "description": "Need for journalists to distinguish genuine AI capabilities from marketing-inflated claims and false AI labels",
+      "excerpts": [
+        "there is a lot of marketing about it and and you know it's it's a real revolution in a sense, but it there's also a lot of AI labels where it's not really AI. So we have to be able to differentiate true from from you know false Claims about AI"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "Budget and time scarcity",
+      "description": "AI training is popular and effective but constrained by limited training budget and time, as it is not anyone's full-time role",
+      "excerpts": [
+        "the problem we have right now is having enough time and training budget to train everyone in the newsroom but we are on an ongoing basis giving this training so it's it's not my full-time job"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "negative"
+    },
+    {
+      "code": "Mixed-team creativity",
+      "description": "Deliberately composing training groups from different backgrounds (TV, radio, web) to generate diverse perspectives and creativity",
+      "excerpts": [
+        "we try to build the groups with people from different background or different teams So for example, we have usually people from TV, radio or web, and it gives a lot of interesting conversation"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    },
+    {
+      "code": "Prompt as journalism parallel",
+      "description": "Drawing explicit parallel between prompt engineering and journalistic questioning -- both are about asking the right questions",
+      "excerpts": [
+        "as a journalist, we our specialty or specialization is asking the right questions and it's the same with the machine. How do you talk to it?"
+      ],
+      "speaker": "Florent Daudens",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Daudens presents the most operationally detailed and methodologically coherent AI adoption program across the podcast series so far, revealing that effective newsroom AI integration is fundamentally a training and culture problem rather than a technology procurement one. His three-tier architecture (expertise group, foundational training, prompt clinic) addresses not just skill gaps but psychological barriers -- the measured shift from 'fear' and 'octopus' to 'creativity' and 'possibility' shows that demystification itself is a strategic intervention. The prime minister press conference exercise is perhaps the episode's most analytically important moment: it crystallizes the precise boundary between AI utility and editorial irreplaceability by showing that AI systematically misses the journalistic lead because it optimizes for statistical weight rather than news value. Daudens' dual identity as newsroom leader and self-taught coder who uses ChatGPT to learn AWS exposes a paradox: the person best positioned to bridge journalism and technology does so through individual initiative rather than institutional support, suggesting that newsroom AI transformation currently depends on the accident of having the right champion in the right role. His provocation that newsrooms must become 'both content and tech companies' represents an identity challenge more profound than any tool adoption.",
+  "surprises": [
+    "Only 10% of newsrooms train journalists in AI despite the technology's obvious relevance to the industry -- and 13% have not even considered it",
+    "The most effective training exercise involves a failure case: showing that ChatGPT misses the lead of a prime minister's press conference because the newsworthy element has low statistical weight in the transcript",
+    "A French AI startup (Mistral) initially trained its model only in English, undermining assumptions about European AI sovereignty",
+    "Daudens built an automated 50-source AI newsletter and AWS-hosted tools despite having no formal coding background, learning entirely through ChatGPT interaction",
+    "The word 'octopus' appeared as a journalist's one-word association with AI, suggesting visceral fear responses that training programs must address before any technical content",
+    "Daudens frames hallucination not as a bug to be fixed but as something 'deeply embedded in the concept of AI and in a way necessary' -- a more nuanced position than most industry discourse"
+  ],
+  "tensions": [
+    "Training on general public tools (ChatGPT 3.5) while acknowledging that real newsroom implementation requires specialized models -- creating a gap between training context and deployment reality",
+    "The prompt clinic encourages bottom-up innovation but risks overloading developers who do not have time for implementation, creating an idea-to-execution bottleneck",
+    "Daudens champions collective prompt sharing over individual use, yet most of his own breakthrough projects (election tool, automated newsletter, RAG assistant) are individual weekend projects",
+    "The conviction that newsrooms must become tech companies conflicts with the reality that collaboration with developers 'is not natural' for journalists and represents a deep cultural shift",
+    "Content adaptation AI could free time for journalism, but the question of whether writing itself remains valuable is left deliberately unresolved -- suggesting the efficiency argument may erode journalism's identity",
+    "The demand for AI training is high but constrained by budget and time, with the training champion doing this alongside other responsibilities rather than as a dedicated role"
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "episode_meta": {
+    "title": "Florent Daudens: Building an AI-Literate Newsroom at Radio Canada",
+    "date": "2024-03-29",
+    "guests": [
+      {
+        "name": "Florent Daudens",
+        "role": "Director of News Gathering and Deployment",
+        "organization": "Radio Canada"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Canada",
+    "word_count": 10391
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "ChatGPT 3.5",
+    "GPT-4",
+    "Whisper (OpenAI)",
+    "Mistral 7B",
+    "Mixtral 8x7B",
+    "Google Pinpoint",
+    "LangChain",
+    "LangSmith",
+    "Custom GPTs (OpenAI)",
+    "HeyGen",
+    "D3.js",
+    "Google Colab",
+    "AWS",
+    "GPT Newspaper (LangChain)",
+    "LinkedIn translation feature"
+  ],
+  "use_cases": [
+    {
+      "description": "Three-hour AI training sessions for journalists covering AI fundamentals, ethics, and prompt engineering, training approximately 100 people in three months",
+      "tool_used": "ChatGPT 3.5",
+      "organization": "Radio Canada",
+      "outcome": "Shift in journalist attitudes from fear/replacement to creativity/possibility; highest scores for concrete applicability among all training sessions",
+      "stage": "production"
+    },
+    {
+      "description": "Cross-functional AI expertise group meeting every two to three weeks to brainstorm coverage topics, share developments, and discuss ongoing projects, with a Google Group for async exchange",
+      "tool_used": "Google Groups",
+      "organization": "Radio Canada",
+      "outcome": "Better understanding of AI issues and generation of news story ideas",
+      "stage": "production"
+    },
+    {
+      "description": "Internal prompt library hosted on Google Sheets where journalists contribute and gradually improve shared prompts",
+      "tool_used": "Google Sheets",
+      "organization": "Radio Canada",
+      "outcome": "Pooling of prompts as a common organizational tool rather than individual artisanal use",
+      "stage": "production"
+    },
+    {
+      "description": "Prompt clinic as a level-two follow-up workshop where journalists break down their job tasks and identify which ones AI could assist with, producing concrete tools (prompts, programs, Google Colabs, GPTs)",
+      "tool_used": "Various",
+      "organization": "Radio Canada",
+      "outcome": "Opportunity identification exercise producing concrete, short-iteration tools",
+      "stage": "pilot"
+    },
+    {
+      "description": "Using ChatGPT vision to extract text from scanned access-to-information request documents and generate Excel files",
+      "tool_used": "ChatGPT (vision feature)",
+      "organization": "Radio Canada",
+      "outcome": "Significant time saver for extracting data from scanned documents that could not otherwise be machine-read",
+      "stage": "production"
+    },
+    {
+      "description": "Generating wrong answers for news quizzes, leveraging the model's tendency to generate correct answers by prompting it for incorrect ones",
+      "tool_used": "ChatGPT",
+      "organization": "Radio Canada",
+      "outcome": "Creative and funny wrong answers for quiz content",
+      "stage": "production"
+    },
+    {
+      "description": "Twitter/X thread generation tool that takes an article and generates a tweet or thread with a specified number of tweets in a chosen language for a specific audience",
+      "tool_used": "ChatGPT",
+      "organization": "Radio Canada / personal project",
+      "outcome": "Significant time saver for content adaptation; synthesis exercise works well though always needs tailoring",
+      "stage": "production"
+    },
+    {
+      "description": "Hallmark movie scenario generator created for Christmas using AI",
+      "tool_used": "AI (unspecified)",
+      "organization": "Radio Canada",
+      "outcome": "Creative content generation example",
+      "stage": "production"
+    },
+    {
+      "description": "Probing election results database using natural language queries",
+      "tool_used": "AI tool (custom-built)",
+      "organization": "Personal project (Daudens)",
+      "outcome": "Impressive quality of responses though prompt costs could be high; opened to LinkedIn community for stress testing and iteration",
+      "stage": "pilot"
+    },
+    {
+      "description": "Content adaptation from TV story text to web article drafts, and from TV stories to TikTok scripts using few-shot prompts or fine-tuning",
+      "tool_used": "GPT / carefully crafted prompts",
+      "organization": "Radio Canada",
+      "outcome": "Significant potential time gain for journalists managing multiple platforms (TV, radio, web, TikTok, news apps)",
+      "stage": "ideation"
+    },
+    {
+      "description": "Transcription of all radio and TV content produced, unlocking data for indexing, entity recognition, internal training, and accessibility",
+      "tool_used": "Whisper (OpenAI)",
+      "organization": "Radio Canada",
+      "outcome": "Archives department already seeing their work evolve; potential to unlock a torrent of data from electronic media heritage",
+      "stage": "pilot"
+    },
+    {
+      "description": "Automatic fact-checking of numbers said by politicians on air against statistical institute databases",
+      "tool_used": "AI (unspecified, research project)",
+      "organization": "Radio France (with Research Institute)",
+      "outcome": "Automatic verification when a politician states a number on-air",
+      "stage": "pilot"
+    },
+    {
+      "description": "RAG-based AI teaching assistant for university digital journalism course, ingesting course notes and transcribed class recordings",
+      "tool_used": "LangChain, LangSmith, Whisper",
+      "organization": "University of Montreal",
+      "outcome": "Students can clarify concepts, get feedback on assignments; teacher can log questions to identify gaps in instruction; described as most important pedagogical change in eight years of teaching",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT to help students learn data visualization coding (D3.js) by interacting with the model to generate code and understand syntax",
+      "tool_used": "ChatGPT, D3.js",
+      "organization": "University of Montreal",
+      "outcome": "Students can interact with machines more naturally to produce code outputs and learn fundamentals",
+      "stage": "production"
+    },
+    {
+      "description": "Brainstorming course plan for digital journalism course using ChatGPT",
+      "tool_used": "ChatGPT",
+      "organization": "University of Montreal",
+      "outcome": "Generated an eight-point plan; not used as-is but prompted deeper reflection on existing course plan",
+      "stage": "production"
+    },
+    {
+      "description": "Custom GPT with ingested Mandarin textbook for personal language learning practice",
+      "tool_used": "Custom GPTs (OpenAI)",
+      "organization": "Personal (Daudens)",
+      "outcome": "Effective practice tool for learning Mandarin",
+      "stage": "production"
+    },
+    {
+      "description": "AI-cloned avatar speaking Mandarin Chinese using HeyGen",
+      "tool_used": "HeyGen",
+      "organization": "Personal (Daudens)",
+      "outcome": "Teacher said the AI clone spoke better Chinese than Daudens himself",
+      "stage": "pilot"
+    },
+    {
+      "description": "Automated daily AI newsletter synthesizing approximately 50 sources including research papers, hosted on AWS with a cron job",
+      "tool_used": "ChatGPT, AWS",
+      "organization": "Personal (Daudens)",
+      "outcome": "Daily inbox summary of most important AI news and research papers; built by interacting with ChatGPT to learn AWS and cron scheduling",
+      "stage": "production"
+    },
+    {
+      "description": "Using Google Pinpoint to ingest large document collections (up to 200,000 documents) including videos, audio, images for investigation and research purposes",
+      "tool_used": "Google Pinpoint",
+      "organization": "Radio Canada (mentioned as general journalism tool)",
+      "outcome": "Automatic tagging, indexing, transcription, text extraction from images; efficient for investigation purposes",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Only 10% of newsrooms train their journalists in AI, and 13% of newsrooms don't even consider training their staff in AI",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "In three months, approximately 100 people at Radio Canada received AI training",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "At the beginning of training sessions, journalists associate AI with words like fear, replacement, loss of control, and octopus; by the end, they use words like creativity, sense of control, and possibility",
+      "speaker": "Florent Daudens",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The training session scores among the highest for concrete applicability of learning to work",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "GPT-4 scores approximately 85% in English and 83% in French on a three-shot accuracy benchmark on MMLU",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Mixtral 8x7B scores slightly better on the MMLU benchmark in French than in English",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Mistral raised approximately 400 million dollars",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "An LLM is not a search engine and should not be used as one",
+      "speaker": "Florent Daudens",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Hallucinations are deeply embedded in the concept of AI and are in a way necessary",
+      "speaker": "Florent Daudens",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "With Radio Canada and CBC combined, they are probably the place where the most feeds, shootings, and live broadcasts converge in the news media in Canada every day",
+      "speaker": "Florent Daudens",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Google Pinpoint allows uploading up to 200,000 documents per collection",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The Andrew Ng machine learning specialization is approximately 100 hours",
+      "speaker": "Florent Daudens",
+      "evidence_type": "quantitative"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Insufficient time and training budget to train everyone in the newsroom; AI training is not Daudens' full-time job",
+      "category": "organizational"
+    },
+    {
+      "description": "French language models were historically poor; trained on French from France, not Quebec French, leading to high error rates with Quebec accents",
+      "category": "technical"
+    },
+    {
+      "description": "Cultural sovereignty issues with AI models — e.g., Mistral's first model (7B) was trained only in English despite being a French startup",
+      "category": "ethical"
+    },
+    {
+      "description": "If journalists miss exercising editorial judgment and rely on AI summarization, they risk missing the lead of important stories (e.g., the Prime Minister press conference example)",
+      "category": "editorial"
+    },
+    {
+      "description": "Individual use of ChatGPT remains artisanal and not very effective; value is only created by pooling prompts and sharing collectively",
+      "category": "organizational"
+    },
+    {
+      "description": "Newsrooms do not naturally think of themselves as tech companies; collaboration with developers is not natural for journalists",
+      "category": "organizational"
+    },
+    {
+      "description": "Personalization of news raises tension between informing the general public with diverse perspectives versus serving individual user preferences",
+      "category": "ethical"
+    },
+    {
+      "description": "Cost of prompts can be high when querying structured data like election results databases",
+      "category": "technical"
+    },
+    {
+      "description": "Resources are increasingly limited while the number of platforms to fill (TV, radio, TikTok, web, apps) keeps growing",
+      "category": "organizational"
+    },
+    {
+      "description": "Risk of overloading developers who don't have time to work on AI projects; need for short concrete iterations instead",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If we don't know what we're talking about, if we don't know the possibilities, we will just miss the train and then realize that we have to use it but we don't know how and it's gonna be scary",
+      "speaker": "Florent Daudens",
+      "topic": "AI literacy urgency in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Sometimes you can't rely on summarization for an important news conference from the Prime Minister if you haven't heard it. If you haven't exercised your editorial judgment to know what was important for this press conference.",
+      "speaker": "Florent Daudens",
+      "topic": "Limits of AI summarization vs. editorial judgment",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "If we each use ChatGPT in a corner it will remain something artisanal and not very effective",
+      "speaker": "Florent Daudens",
+      "topic": "Collective vs. individual AI adoption",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We need to think ourselves as both content and tech companies. It's crucial, I think.",
+      "speaker": "Florent Daudens",
+      "topic": "Newsroom identity and innovation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think above all it's curiosity. Because a machine will not spontaneously ask itself a question. And the other thing is editorial judgment.",
+      "speaker": "Florent Daudens",
+      "topic": "Human singularity in journalism vs. AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The best use cases, and I'm convinced about that, will come from people using it in their operations.",
+      "speaker": "Florent Daudens",
+      "topic": "Bottom-up innovation from practitioners",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Train journalists in AI basics including what AI is and is not, prompt engineering, and ethical guidelines; demystify AI so people feel empowered rather than scared",
+      "speaker": "Florent Daudens",
+      "target_audience": "newsroom managers and editors"
+    },
+    {
+      "advice": "Build cross-functional expertise groups including journalists, developers, analysts, and people from other departments to share AI knowledge",
+      "speaker": "Florent Daudens",
+      "target_audience": "newsroom managers"
+    },
+    {
+      "advice": "Create a shared internal prompt library rather than having individuals use AI tools in isolation; conceive prompts as a common organizational tool",
+      "speaker": "Florent Daudens",
+      "target_audience": "newsrooms adopting AI"
+    },
+    {
+      "advice": "Encourage journalists to make mistakes with AI because mistakes are the starting point for learning",
+      "speaker": "Florent Daudens",
+      "target_audience": "newsroom managers and journalists"
+    },
+    {
+      "advice": "Do not use LLMs as search engines; instead ground them to databases or web search tools when factual retrieval is needed",
+      "speaker": "Florent Daudens",
+      "target_audience": "journalists using AI"
+    },
+    {
+      "advice": "When editorial judgment is required, do not rely on AI; only use AI for tasks where editorial judgment is not at stake",
+      "speaker": "Florent Daudens",
+      "target_audience": "journalists"
+    },
+    {
+      "advice": "Think about AI implementation using specialized tools or models rather than general public tools like ChatGPT 3.5",
+      "speaker": "Florent Daudens",
+      "target_audience": "newsrooms implementing AI"
+    },
+    {
+      "advice": "Break down job tasks and identify which ones AI could assist with, rather than approaching AI from a general employment angle",
+      "speaker": "Florent Daudens",
+      "target_audience": "journalists and newsroom staff"
+    },
+    {
+      "advice": "Newsrooms should think of themselves as both content businesses and tech companies",
+      "speaker": "Florent Daudens",
+      "target_audience": "news organizations"
+    },
+    {
+      "advice": "Rethink how information is presented to the public vs. what is sent to external platforms like search engines or ChatGPT; consider new forms of journalism beyond classical web articles",
+      "speaker": "Florent Daudens",
+      "target_audience": "news organizations"
+    },
+    {
+      "advice": "Take Andrew Ng's courses (free short courses and machine learning specialization) to gain theoretical and practical foundations in AI",
+      "speaker": "Florent Daudens",
+      "target_audience": "journalists and anyone learning AI"
+    }
+  ],
+  "external_references": [
+    "Reuters Institute study on media training for AI (finding: only 10% of newsrooms train journalists in AI)",
+    "MMLU benchmark (Massive Multitask Language Understanding)",
+    "Andrew Ng's courses at Stanford University (short courses and machine learning specialization)",
+    "Gallicagram dataset (French newspapers, 85 billion words, for fine-tuning models in French)",
+    "GPT Newspaper project by LangChain",
+    "Yoshua Bengio (AI researcher, Montreal)",
+    "Joelle Pineau (AI researcher, Montreal)",
+    "Yann LeCun (AI researcher, French)",
+    "Jeff Jarvis (referenced prior Newsroom Robots episode)",
+    "Philippe Bhatt / Philippe Baudouin (AI entrepreneur, Montreal)",
+    "Radio France (research institute project on fact-checking politician statements)",
+    "Harvard Innovation Labs",
+    "Newsroom Robots podcast / newsletter (newsroomrobots.com)",
+    "Mistral (French AI startup)",
+    "OpenAI",
+    "LangChain",
+    "LangSmith",
+    "Google Pinpoint",
+    "HeyGen",
+    "D3.js",
+    "Amazon (early Quebec French speech model training)",
+    "University of Montreal (where Daudens teaches digital journalism)",
+    "CBC (English counterpart of Radio Canada)"
+  ]
+}

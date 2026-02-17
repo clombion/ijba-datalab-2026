@@ -1,0 +1,281 @@
+{
+  "episode_meta": {
+    "title": "Jaemark Tordecilla: Unlocking the Potential of Custom GPTs for Newsrooms",
+    "date": "2024-06-05",
+    "guests": [
+      {
+        "name": "Jaemark Tordecilla",
+        "role": "Nieman Fellow at Harvard University; former editor-in-chief of GMA News Online",
+        "organization": "Harvard University / GMA News Online"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "Philippines",
+    "word_count": 5240
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "ChatGPT Plus",
+    "Custom GPTs (OpenAI)",
+    "GPT Store",
+    "GPT Vision",
+    "Code Interpreter (ChatGPT)",
+    "DALL-E",
+    "LangChain",
+    "LlamaIndex",
+    "Midjourney",
+    "Canva GPT",
+    "Data Wrapper",
+    "Flourish"
+  ],
+  "use_cases": [
+    {
+      "description": "COA Beat Assistant: A custom GPT that processes Philippine Commission on Audit reports (20-100 page dense government audit documents) to produce summaries and headlines, helping reporters identify anomalous transactions and story leads from hundreds of annual audit documents",
+      "tool_used": "Custom GPTs (OpenAI)",
+      "organization": "GMA News Online / Philippines newsrooms",
+      "outcome": "Successfully flagged anomalous government spending (e.g., $1200 Celeron laptops purchased by the education department); reporters with more experience found the assistant more useful; clarified where AI ends and journalism begins",
+      "stage": "pilot"
+    },
+    {
+      "description": "Processing large structured datasets (CSV files up to 100 MB) using natural language queries that ChatGPT's code interpreter converts to Python code, enabling journalists without coding skills to do data manipulation",
+      "tool_used": "Code Interpreter (ChatGPT) / Custom GPTs",
+      "organization": "General newsroom use case",
+      "outcome": "Enables journalists without Python, pivot table, or R skills to extract aggregate and granular information from large datasets",
+      "stage": "production"
+    },
+    {
+      "description": "Philippine government budget GPT: A custom GPT containing every line item of the Philippine government budget, allowing anyone to query and generate data for infographics",
+      "tool_used": "Custom GPTs (OpenAI)",
+      "organization": "Personal project (Jaemark Tordecilla)",
+      "outcome": "Takes about 20 minutes to generate an infographic from queried data, pasted into Data Wrapper or Flourish for social media posts with good engagement",
+      "stage": "pilot"
+    },
+    {
+      "description": "Image recognition app built in about 10 minutes using three photos and instructions, demonstrating custom GPT vision capabilities for open source investigations (e.g., matching photos to Google Street View screenshots)",
+      "tool_used": "GPT Vision / Custom GPTs",
+      "organization": "Demonstration project",
+      "outcome": "Demonstrated that image recognition capability previously costing thousands of dollars is now available in a $20 subscription",
+      "stage": "ideation"
+    },
+    {
+      "description": "OCR on photos of documents (e.g., receipts, whistleblower photos of documents) using GPT vision capabilities",
+      "tool_used": "GPT Vision / Custom GPTs",
+      "organization": "General newsroom use case",
+      "outcome": "No fancy technology needed; available with vanilla ChatGPT subscription",
+      "stage": "ideation"
+    },
+    {
+      "description": "Using custom GPT actions to connect to external apps: sending Slack messages, saving information to spreadsheets, creating calendar entries, and potentially publishing directly to a CMS database for editor review",
+      "tool_used": "Custom GPTs Actions / APIs",
+      "organization": "General newsroom use case",
+      "outcome": "Enables real-world task automation from within custom GPTs",
+      "stage": "ideation"
+    },
+    {
+      "description": "Midjourney prompt generator: A third-party custom GPT that takes a simple image description and adds detailed prompt parameters for better Midjourney image generation",
+      "tool_used": "Custom GPTs / Midjourney",
+      "organization": "Third-party GPT Store app",
+      "outcome": "Produces much better images by automatically adding prompt details",
+      "stage": "production"
+    },
+    {
+      "description": "Novel-to-movie pitch GPT: Takes a novel title and creates a log line, movie pitch with director/cast suggestions, and optionally generates a movie poster",
+      "tool_used": "Custom GPTs / DALL-E",
+      "organization": "Personal project (Jaemark Tordecilla)",
+      "outcome": "Demonstrates breadth of training data (knows obscure novels and actors from different countries) and also reveals biases (e.g., frequently suggesting Timothee Chalamet for white male protagonists)",
+      "stage": "production"
+    },
+    {
+      "description": "Moderna deployed over 750 custom GPTs within their entire organization for tasks including generating clinical study reports, preparing investor presentations, summarizing contracts, and providing quick answers on internal policies",
+      "tool_used": "Custom GPTs (OpenAI)",
+      "organization": "Moderna",
+      "outcome": "About 40% of Moderna's weekly active users were creating their own GPTs, demonstrating ease of adoption and workflow improvement",
+      "stage": "production"
+    },
+    {
+      "description": "AI-assisted translation between English and Tagalog for newsrooms publishing in both languages",
+      "tool_used": "AI tools (general)",
+      "organization": "GMA News Online (proposed)",
+      "outcome": "Identified as a pain point in the journalism value chain where AI could help",
+      "stage": "ideation"
+    },
+    {
+      "description": "Custom GPTs for meeting notes and agenda drafting based on topics",
+      "tool_used": "Custom GPTs (OpenAI)",
+      "organization": "Personal workflow (Nikita Roy)",
+      "outcome": "Automates recurring ChatGPT prompting tasks",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Custom GPTs are the easiest way to share prompts and instruction sets as an app without any coding",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Building the COA Beat Assistant using traditional machine learning would have required thousands of hours of training and hundreds of hours of manpower for marking up documents; custom GPTs achieved a working prototype in minutes",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The more experience reporters had covering their beat, the more useful the custom GPT assistant was, because the AI handles summaries while reporters do the critical thinking",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "About 40% of Moderna's weekly active users were creating their own GPTs",
+      "speaker": "Nikita Roy",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "About 40% of journalists surveyed (from over a thousand) had never tried a tool like ChatGPT",
+      "speaker": "Nikita Roy",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "The Philippines is third in the world in terms of GPT usage, after the United States and India",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "Image recognition capabilities that would have cost thousands of dollars three years ago are now part of a $20 ChatGPT subscription",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "A Harvard/BCG study found that AI helped low performers match with high performers in output and efficiency",
+      "speaker": "Nikita Roy",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "There are some tasks where AI helps very much (summarization, data) and some where it does not (critical thinking in journalism), and no one knows which tasks are which until they test it — the concept of the jagged frontier",
+      "speaker": "Jaemark Tordecilla",
+      "evidence_type": "theoretical"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "ChatGPT initially produced only grade-school-level summaries when prompted broadly (e.g., 'pretend you're an investigative reporter, tell me what stories I could get'); required iterating to more specific, structured prompting approaches",
+      "category": "technical"
+    },
+    {
+      "description": "AI could not identify anomalous transactions on its own (e.g., $1200 Celeron laptops) because it looked at gross numbers and ignored small amounts relative to billion-dollar line items; critical thinking and news judgment must remain with the reporter",
+      "category": "editorial"
+    },
+    {
+      "description": "Custom GPTs require a paid ChatGPT Plus subscription, which limits access",
+      "category": "organizational"
+    },
+    {
+      "description": "About 40% of journalists surveyed had never tried ChatGPT, indicating low adoption of generative AI tools in newsrooms",
+      "category": "organizational"
+    },
+    {
+      "description": "Accuracy and hallucination risks: custom GPTs can misunderstand or produce incorrect information from documents, requiring fact-checking before anything goes to publishing",
+      "category": "editorial"
+    },
+    {
+      "description": "Some news outlets generated entire stories from AI, which is described as the worst thing you can do with this technology; knowing limitations is paramount for an industry where accuracy is most important",
+      "category": "ethical"
+    },
+    {
+      "description": "Bias in AI outputs: the novel-to-movie GPT frequently suggests Timothee Chalamet for white male protagonists, revealing biases in the training data",
+      "category": "ethical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Custom GPTs is the easiest way is it's the easiest easiest way to share prompts and documenting that prompt and getting other people to use it. So if you have a set of instructions that work for you. these is the easiest way to share that instructions set in an app using custom GPTs.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Custom GPTs as prompt-sharing mechanism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The more experience they had, the more useful the assistant was because what the assistant does is just the summaries and all the the critical thinking and the the no's for the news. we leave it up to the reporter. So actually it was a very promising discovery for us because it actually outlines the role of where DAI ends and where the journalism begins.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Human-AI collaboration boundary in journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "There are some tasks where AI could help you very much, like summarization or even dealing with data. And then there are tasks where AI doesn't really do a good job, like I mentioned, the critical thinking part of the journalism. And yet the the reason why it's jagged is because no one knows which tasks are which until they test it out.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Jagged frontier concept applied to journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We do all agree. Uh all all our reporting suggests that this is technology that will change the world. So if it it will change the world then It stands a reason, it's gonna change our industry. So we need, you know, people to be on this.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Urgency of journalist engagement with AI",
+      "pedagogical_value": "medium"
+    },
+    {
+      "text": "A lot of my tools, for example, involve working with knowledge files and data sets. And that's because you vetted those sources and you know accurate is information is in those sources. That's why the most interesting uh use case I've found is that is to to find structured data out of those data sets because you've vetted those data sets already.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Accuracy strategy: working with vetted source data",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it it's also good that it makes more people comfortable with working with data, if they don't have to do the coding, which is good because a data literate newsroom is a I think is a better newsroom whether it's working on on it for stories or for audience or all sorts of things.",
+      "speaker": "Jaemark Tordecilla",
+      "topic": "Data democratization in newsrooms via AI",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Think about AI along the journalism value chain — reporting, writing, editing, production, and distribution — and figure out where AI could reduce pain points at each step, always keeping a human in the loop",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Newsroom editors and leaders"
+    },
+    {
+      "advice": "Build a working prototype of a custom GPT quickly (in minutes), then share it immediately with colleagues for feedback rather than just presenting an idea; iterate based on how others use it differently than you",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Journalists experimenting with AI"
+    },
+    {
+      "advice": "Use custom GPTs with vetted knowledge files and datasets rather than generating stories from scratch, since accuracy is paramount in journalism",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Newsrooms adopting AI"
+    },
+    {
+      "advice": "Identify your most frequently used ChatGPT prompts and create custom GPTs to automate those recurring tasks",
+      "speaker": "Nikita Roy",
+      "target_audience": "Individual journalists and knowledge workers"
+    },
+    {
+      "advice": "Journalists need to develop expertise in AI technologies because they need to be watchdogs covering this technology, and it is hard to cover a topic you do not understand",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Journalists and journalism educators"
+    },
+    {
+      "advice": "Explore the GPT Store for inspiration; even if existing GPTs don't do exactly what you need, they can inspire your own custom GPT designs",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Journalists exploring custom GPTs"
+    },
+    {
+      "advice": "Get more smart journalists playing around with AI tools to figure out which tasks are helped by AI and which are not, and share findings with the whole community",
+      "speaker": "Jaemark Tordecilla",
+      "target_audience": "Journalism community"
+    }
+  ],
+  "external_references": [
+    "OpenAI (custom GPTs, GPT Store, GPT Vision, DALL-E, Code Interpreter)",
+    "Moderna-OpenAI partnership (750+ custom GPTs deployed organization-wide)",
+    "LangChain",
+    "LlamaIndex",
+    "Midjourney",
+    "Canva",
+    "Data Wrapper",
+    "Flourish",
+    "GMA News Online (Philippines leading digital news outlet)",
+    "Commission on Audit (COA) — Philippines government audit body",
+    "Harvard Innovation Labs",
+    "Nieman Fellowship at Harvard University",
+    "Harvard Business School and Boston Consulting Group study on AI productivity",
+    "Ethan Mollick (researcher involved in the Harvard/BCG study; concept of the jagged frontier)",
+    "Google Street View (mentioned for open source investigations)",
+    "Newsroom Robots podcast and newsletter (newsroomrobots.com)",
+    "Harvard Innovation Lab Spark Grant"
+  ]
+}

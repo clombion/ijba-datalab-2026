@@ -1,0 +1,296 @@
+{
+  "episode_meta": {
+    "title": "Aliya Itzkowitz and Sam Gould (Part Two) Potential of Multimodal AI and Autonomous AI Agents in Publishing",
+    "date": "2024-01-16",
+    "guests": [
+      {
+        "name": "Aliya Itzkowitz",
+        "role": "Consultant",
+        "organization": "FT Strategies"
+      },
+      {
+        "name": "Sam Gould",
+        "role": "Consultant",
+        "organization": "FT Strategies"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "UK",
+    "word_count": 5831
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "GPT-4 Vision (GPT-4V)",
+    "LangChain",
+    "OpenAI Assistants API",
+    "DALL-E",
+    "Figma (used with GPT-4V)",
+    "Latent Consistency Model (LCM)",
+    "ChatDev",
+    "Dataminr"
+  ],
+  "use_cases": [
+    {
+      "description": "Using image-to-text models to generate captions for images in articles",
+      "tool_used": "GPT-4 Vision",
+      "organization": "General publisher use case",
+      "outcome": "Automated generation of image descriptions for editorial content",
+      "stage": "ideation"
+    },
+    {
+      "description": "Translating foreign language text within images (e.g., street signs, protest placards) to help tell multilingual stories",
+      "tool_used": "GPT-4 Vision",
+      "organization": "General publisher use case",
+      "outcome": "Breaking language barriers in visual journalism",
+      "stage": "ideation"
+    },
+    {
+      "description": "Converting wireframe designs and Figma designs into working website code",
+      "tool_used": "GPT-4 Vision",
+      "organization": "Various products (semi-viral)",
+      "outcome": "Significantly speeding up design-to-code development process",
+      "stage": "production"
+    },
+    {
+      "description": "Autonomous agent that scrapes competitor pricing from websites by taking screenshots, interpreting pages via vision model, and navigating to extract data",
+      "tool_used": "GPT-4 Vision with autonomous agent framework",
+      "organization": "Demo/YouTube proof of concept",
+      "outcome": "Created in 15 minutes; runs in 5 minutes to collect competitor pricing data that would be very hard to do at scale traditionally",
+      "stage": "pilot"
+    },
+    {
+      "description": "Multiple AI agents simulating different roles of a software company (CEO, CTO, coder) collaborating to produce working code",
+      "tool_used": "ChatDev",
+      "organization": "Research proof of concept",
+      "outcome": "Demonstrated that complex coding tasks can be broken down and handled by multiple cooperating agents",
+      "stage": "pilot"
+    },
+    {
+      "description": "Personalization of content formats for readers including summarization, re-wording articles into personalized tones, and providing more context behind stories",
+      "tool_used": "Large language models (general)",
+      "organization": "Various publishers from design sprint",
+      "outcome": "Getting quality journalism in front of more eyes by tailoring delivery",
+      "stage": "ideation"
+    },
+    {
+      "description": "Internal administrative use cases such as staffing projects, budgeting, and other business operations using AI agents",
+      "tool_used": "AI agents (general)",
+      "organization": "FT Strategies (exploring for longer program)",
+      "outcome": "Potentially huge efficiencies for internal-facing tasks",
+      "stage": "ideation"
+    },
+    {
+      "description": "Using ChatGPT for writing code as part of personal and professional workflow",
+      "tool_used": "ChatGPT",
+      "organization": "Personal use (Sam Gould)",
+      "outcome": "Found LLMs much more effective for structured code than for blog writing",
+      "stage": "production"
+    },
+    {
+      "description": "Building an automated morning motivational message system that picks a random principle, sends it to an LLM, and texts the result each morning",
+      "tool_used": "Large language model (unspecified)",
+      "organization": "Personal project (Sam Gould)",
+      "outcome": "Daily personalized motivational texts generated from a database of principles",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT to compose poems for friends' birthdays, colleagues' send-offs, and similar occasions",
+      "tool_used": "ChatGPT",
+      "organization": "Personal use (Aliya Itzkowitz)",
+      "outcome": "Fun creative output, though requiring modification to tone down ChatGPT-style adjectives",
+      "stage": "production"
+    },
+    {
+      "description": "Creating an AI Santa character for an internal Christmas email using image generation",
+      "tool_used": "DALL-E",
+      "organization": "FT Strategies (internal)",
+      "outcome": "Fun internal engagement piece",
+      "stage": "production"
+    },
+    {
+      "description": "Using Dataminr for hyper-local news filtering and personal information advantage",
+      "tool_used": "Dataminr",
+      "organization": "Dataminr / Personal use (Aliya Itzkowitz)",
+      "outcome": "Filtered hyper-local news alerts (collisions, helicopter activity, etc.)",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "2023 was all about text generation tools like ChatGPT, but 2024 will be all about multimodal AI",
+      "speaker": "Nikita Roy",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Multimodal models like image-to-text are not in the forefront of everyone's consciousness; people are still trying to get to grips with text-to-text models, creating a real opportunity for businesses to move quickly and get ahead of the curve",
+      "speaker": "Sam Gould",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "People only care that something is AI when the AI doesn't work or does something wrong",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "As more news publishers start working with AI, the advantages will get competed away just like websites and apps did, so it always comes back to offering truly unique and differentiated content",
+      "speaker": "Aliya Itzkowitz",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Bill Gates wrote that AI agents are the future of how everyone will interact with software",
+      "speaker": "Sam Gould",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The destination of the future for publishers may look less like a website and more like a custom agent",
+      "speaker": "Sam Gould",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "LLMs are much more effective for writing code than for writing blog articles due to the structured nature of code",
+      "speaker": "Sam Gould",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "By the time you think through your prompt and clear instructions for blog writing, you've already worked out what you're trying to say without needing the LLM output",
+      "speaker": "Sam Gould",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "There tends to be a six-month or one-year lag before innovation case studies get written up by official trade bodies",
+      "speaker": "Sam Gould",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Image-to-text models can go wrong in many ways when generating captions (as documented by Simon Willison's article on GPT-4V and prompt injection)",
+      "category": "technical"
+    },
+    {
+      "description": "News industry has historically been a one-size-fits-all model for user experience, making it difficult to differentiate through UI/UX",
+      "category": "organizational"
+    },
+    {
+      "description": "AI agent systems are quite complex and may be too early for the industry to fully adopt",
+      "category": "technical"
+    },
+    {
+      "description": "Web scraping at scale is very hard because web pages have all different formats, making it difficult to create reliable scraping code",
+      "category": "technical"
+    },
+    {
+      "description": "Separating signal from noise in AI information: there is a lot of promotional fluff on sources like LinkedIn, and it is difficult for people not well-versed in the field to distinguish valuable content from advertisements",
+      "category": "organizational"
+    },
+    {
+      "description": "ChatGPT-generated text has recognizable tropes (excessive enthusiastic adjectives) that require human modification to be usable",
+      "category": "editorial"
+    },
+    {
+      "description": "Internal-facing AI use cases (administrative functions, staffing, budgeting) don't get as much airtime as newsroom use cases, leading people to overlook potentially huge efficiencies",
+      "category": "organizational"
+    },
+    {
+      "description": "The industry may overestimate readers' desire for things to be human-led or human-created",
+      "category": "editorial"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I think people only care that it's AI when the AI doesn't work or does something wrong",
+      "speaker": "Aliya Itzkowitz (paraphrasing a conference attendee)",
+      "topic": "Reader perception of AI in news",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it always comes back to the same thing in our industry, which is are you offering people content that's truly unique and differentiated or not? And that's always at the heart of most of the problems that publications are facing, whether it's how do I monetize, how do I transform, how do I survive",
+      "speaker": "Aliya Itzkowitz",
+      "topic": "Content differentiation as the core challenge for publishers",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The key way that we saw that being used was not so much as a generation tool, but really to look at it as kind of an interpretation tool. So it's not about maybe how people are conceptualizing language models and text-to-text models as giving an input and then trying to generate lots and lots of text content... But really we wanted to look at models like GPT for vision and image to text models as interpreting the image and providing some rich information back",
+      "speaker": "Sam Gould",
+      "topic": "Reframing multimodal AI as interpretation rather than generation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "This is really a call to action for the industry to say you have to think about this because... there is this sense of maybe of one size fits all, there is this also this opportunity to innovate in this area. One could argue that readers and audiences are starting to look for this",
+      "speaker": "Sam Gould",
+      "topic": "Publisher UX innovation with AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "A destination of the future starts to look less like a website and more like a custom agent",
+      "speaker": "Sam Gould",
+      "topic": "AI agents as the future of publisher platforms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "You should work out kind of what you're looking to get. Are you looking for practical code snippets and tutorials? Are you looking for thought leadership? Like what would be most useful? And then to try and pick the sources and the people and curate your feeds to really support that so that you can separate out the signal from the noise",
+      "speaker": "Sam Gould",
+      "topic": "Staying current with AI developments",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Think of multimodal AI as an interpretation tool rather than a generation tool — use image-to-text models to extract and interpret information from images rather than trying to generate new content",
+      "speaker": "Sam Gould",
+      "target_audience": "Publishers and newsrooms"
+    },
+    {
+      "advice": "Start thinking about how to become a destination rather than just a source — consider how AI can enable richer, more interactive user experiences",
+      "speaker": "Sam Gould",
+      "target_audience": "Publishers"
+    },
+    {
+      "advice": "Don't overlook internal-facing AI use cases (administrative tasks, staffing, budgeting) which may offer more immediate and actionable efficiencies than newsroom-facing ones",
+      "speaker": "Aliya Itzkowitz",
+      "target_audience": "Publishing organizations"
+    },
+    {
+      "advice": "Put AI agents on your research radar now, even if it may seem too soon — other industries are already building with these tools and the technology will only get easier to work with",
+      "speaker": "Sam Gould",
+      "target_audience": "Publishers and media technologists"
+    },
+    {
+      "advice": "Cultivate a fluff detector when consuming AI information — learn to separate promotional content from genuinely valuable insights, and curate your information sources based on what you specifically need (practical tutorials vs. thought leadership)",
+      "speaker": "Sam Gould",
+      "target_audience": "Anyone keeping up with AI developments"
+    },
+    {
+      "advice": "Follow specific people rather than topics for staying current — identify thought leaders on LinkedIn, Medium, Twitter, and technical sources like GitHub and Reddit based on what type of content they produce",
+      "speaker": "Sam Gould and Aliya Itzkowitz",
+      "target_audience": "Publishers and AI practitioners"
+    },
+    {
+      "advice": "Read Simon Willison's article on GPT-4V and prompt injection before deploying vision models for tasks like image captioning",
+      "speaker": "Sam Gould",
+      "target_audience": "Developers and publishers implementing multimodal AI"
+    },
+    {
+      "advice": "Focus on content quality — scoops, angles, and on-the-ground reporting — as the primary differentiator, with AI supporting delivery and personalization of that journalism",
+      "speaker": "Aliya Itzkowitz",
+      "target_audience": "News publishers and editors"
+    }
+  ],
+  "external_references": [
+    "Simon Willison's article/blog on GPT-4V and prompt injection",
+    "Bill Gates article on AI agents as the future of software interaction",
+    "PAIR (Google's AI UX lab) — working on guidelines for news publications on responsible AI in user experiences",
+    "LangChain (AI framework with agents component)",
+    "OpenAI Dev Day / Assistants API",
+    "ChatDev (multi-agent research framework simulating software company roles)",
+    "Figma",
+    "FT Strategies Insights page and newsletter",
+    "New York Times strategy on becoming a 'destination'",
+    "Dataminr",
+    "Newsroom Robots podcast and newsletter (newsroomrobots.com)",
+    "arXiv (paper repository, mentioned as having wrapper tools for custom feeds)",
+    "Reddit",
+    "GitHub",
+    "Harvard Innovation Labs"
+  ]
+}

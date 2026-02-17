@@ -1,0 +1,193 @@
+{
+  "episode_date": "2024-09-02",
+  "episode_title": "Your Questions Answered: A Live Q&A Session in Collaboration with the Online News Association",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.3",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "I talk about how we can be a one-to-two person newsroom operating as a five person and being able to cover. But what does that mean for the future of work and roles within our newsrooms that is going to be impacted.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "The episode catalogs numerous AI tools for journalistic tasks (data analysis, headline generation, video repurposing, document search, scholarly paper navigation) and demonstrates the one-to-five person force multiplier concept. Roy insists all AI output requires human editing and vetting, maintaining a human-in-the-loop stance while acknowledging workforce impact implications."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.1",
+        "T02.3"
+      ],
+      "best_quote": {
+        "text": "Any generative AI tool that I'm using right now, it has to be edited and it has to be vetted and I wouldn't be taking anything straight to publish. And the way I work I think of using AI tools is this term that's thrown out everywhere is my co-pilot I expect them to take me to a particular level with which after that I add in my own insights and my own knowledge.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Transparency obligations are addressed through recommendations to label AI-generated images and choose ethically sourced tools. Trust concerns arise around photorealistic AI images being mistaken for real photographs. The co-pilot framing positions AI as augmentation rather than replacement."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.2",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "It's really important, in my opinion, to be able to know the why we're using AI before even getting to the how we are using AI in the newsroom.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Roy articulates a four-pillar ethics framework (transparency, accuracy/oversight, privacy/data, purpose-driven use) and advocates principles over prescriptive guidelines. She emphasizes the 'why before how' orientation and details responsible procurement practices including reverse-engineering vendor claims and scrutinizing privacy policies."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T04.4",
+        "T04.5"
+      ],
+      "best_quote": {
+        "text": "The basics and building blocks of AI is data and it's about data infrastructure. So one thing that you need to be focusing on right now is making sure that you have good data in your newsroom.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Technical considerations surface around hallucination risks (ChatGPT making up links), the importance of data infrastructure as the foundation for AI, and the distinction between ethically sourced models (Adobe Firefly using Creative Commons) versus opaque alternatives."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3",
+        "T05.4",
+        "T05.5"
+      ],
+      "best_quote": {
+        "text": "We are in a very experimental phase with this technology, and the way to harness it is by us understanding what what the technology is, what are the right and wrong use cases of this, and how we can apply it.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "This is a central theme. The episode showcases Radio Canada's structured literacy program (3-hour courses plus prompt clinics), recommends Slack channels for peer learning, identifies fear and shame as adoption barriers (anonymous journalist afraid to tell colleagues), and demonstrates no-code tool applications across multiple platforms. The experimental phase framing is explicit throughout."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.3",
+        "T06.4"
+      ],
+      "best_quote": {
+        "text": "It's really important, in my opinion, to be able to know the why we're using AI before even getting to the how we are using AI in the newsroom.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Organizational strategy surfaces through the why-before-how framework and the challenge of competing priorities blocking AI experimentation. Historical fear of tech partnerships is acknowledged alongside the pragmatic argument for publisher-AI company deals providing expertise and resources."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T07.1",
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "The basics and building blocks of AI is data and it's about data infrastructure. So one thing that you need to be focusing on right now is making sure that you have good data in your newsroom.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "The tech expertise gap between news and tech industries is acknowledged. Roy discusses the ambivalence around publisher deals with AI companies, citing The Atlantic's OpenAI partnership as a potentially beneficial model while acknowledging industry fear based on historical platform dependency."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T08.3",
+        "T08.4"
+      ],
+      "best_quote": {
+        "text": "I talk about how we can be a one-to-two person newsroom operating as a five person and being able to cover. But what does that mean for the future of work and roles within our newsrooms that is going to be impacted.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Format innovation is demonstrated through tools like Opus Clip (long-form to short-form video), NOTA (article-to-video), and Radio Canada's AI-powered summary slides. AI-generated illustrations are discussed with the photorealism prohibition as an ethical boundary."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "I talk about how we can be a one-to-two person newsroom operating as a five person and being able to cover. But what does that mean for the future of work and roles within our newsrooms that is going to be impacted.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "The local news crisis is addressed through tools like YesSEO (free, used by 400+ local newsrooms) and Wobby AI (democratizing data journalism). The force-multiplier framing implicitly addresses resource constraints at small newsrooms."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "Any generative AI tool that I'm using right now, it has to be edited and it has to be vetted and I wouldn't be taking anything straight to publish.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Regulation is not directly addressed. Copyright concerns around AI-generated images are noted but framed as practical tool-selection guidance rather than policy analysis."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "We are in a very experimental phase with this technology, and the way to harness it is by us understanding what what the technology is, what are the right and wrong use cases of this, and how we can apply it.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Workflow integration is identified as a primary adoption barrier, with Roy noting that tools with high learning curves or poor workflow fit fail to stick. The Radio Canada example shows how prompt clinics led to the production-deployed 'En Bref' product, illustrating the experiment-to-production path."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "The basics and building blocks of AI is data and it's about data infrastructure. So one thing that you need to be focusing on right now is making sure that you have good data in your newsroom.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Privacy risks with third-party transcription services are explicitly raised, with local model running recommended for confidential sources. Slack's data training policy is flagged as a concern. Data quality and infrastructure are positioned as foundational preconditions for AI adoption."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T03",
+    "T05"
+  ],
+  "secondary_themes": [
+    "T02",
+    "T04",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T11",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T10"
+  ]
+}

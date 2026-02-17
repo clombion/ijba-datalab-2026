@@ -1,0 +1,362 @@
+{
+  "episode_date": "2026-01-27",
+  "episode_title": "Melissa Bell, Aron Pilhofer, Mark Chonofsky & David Chivers: Chicago Public Media on Building AI Tools That Serve the Audience",
+  "codes": [
+    {
+      "code": "Resource scarcity as adoption constraint",
+      "description": "Local and public media organizations face tight budgets that leave little room for AI experimentation beyond core editorial, product, and maintenance needs, making external funding crucial for kickstarting AI adoption",
+      "excerpts": [
+        "as with many local and public media organizations, resources are tight. We're we don't have a lot of room for experimentation. We need to be very careful about how we're making our spend reach across editorial product maintenance",
+        "That of course puts us further behind the transformation that's happening around the world"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "negative"
+    },
+    {
+      "code": "Not repeating the internet mistake",
+      "description": "Explicit framing of AI adoption as a second chance after journalism's mixed results adapting to internet disruption, with moral urgency not to miss this transformation opportunity",
+      "excerpts": [
+        "I think the journalism industry had mixed results on adapting to the internet's disruption of journalism and missed a lot of opportunity to take their journalism forward, their distribution forward, their community gathering forward with the new tools available to them",
+        "I think it's really important now for us to not miss this new opportunity where everything is almost being rewritten in the technology space"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI integrated into product roadmap not separate",
+      "description": "Deliberate refusal to create a separate AI product roadmap; instead AI is positioned as an enabling component within the broader product strategy, preventing AI from becoming siloed or performative",
+      "excerpts": [
+        "I wouldn't say that we have an AI product roadmap. I would say we have a product roadmap of which AI is a part",
+        "AI is contributing and enabling us to conceive of and launch potentially God willing successful products that we wouldn't otherwise be able to launch"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "Transcription unlocking audio archive",
+      "description": "Using AI transcription to make decades of WBEZ audio content searchable and citable alongside print archives, creating entirely new opportunities for historical archival work and source discovery",
+      "excerpts": [
+        "we have an audio archive that is so extensive we don't actually know quite how much we have. And we're going to be able to use models to transcribe that and then make that available",
+        "you could see start to see sources coming up in in print pieces in a way that that's much more time consuming to do now"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "positive"
+    },
+    {
+      "code": "Translation as equity tool",
+      "description": "AI translation enabling dramatically faster English-to-Spanish content delivery for Chicago's Spanish-speaking audience, transforming turnaround from 'yesterday's news tomorrow' (effectively last week's news) to near-real-time",
+      "excerpts": [
+        "We have already been translating material into Spanish. using AI as part of the workflow uh enables us to do that faster",
+        "it's basically last week's news, which isn't news. That was kind of the process it took to get to actually going from the English to Spanish once it went through the whole sort of human exchange"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "Trust-building through small wins",
+      "description": "Deliberately starting with small, quick proof-of-concept projects like Slack weather/traffic integrations to build newsroom trust before pursuing larger enterprise-level AI deployments",
+      "excerpts": [
+        "he came into the organization. and really understood that there needed to be quick proof of concepts and sort of trust built",
+        "really identify small impactful projects like Slack integrations of giving the weather report or the traffic report and the voice of WBEZ"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "Respecting editorial voice in AI outputs",
+      "description": "AI-generated Slack weather and traffic reports deliberately crafted to match WBEZ's editorial voice, which differs significantly from commercial radio, demonstrating that AI adoption requires voice fidelity",
+      "excerpts": [
+        "the voice of WBEZ, which is very different than, you know, the the commercial radio. Hey everybody, the Dan Ryan is, you know, crazy today. That's not the voice of WBEZ"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "AI fellow as embedded translator",
+      "description": "The AI fellow's role as an outsider who must earn trust by understanding people and workflows first, not by pushing AI solutions, effectively translating between technical capabilities and editorial needs",
+      "excerpts": [
+        "newsrooms are tricky places, you know, and especially for non-journalists",
+        "For me it's about getting to know people and getting to know the the work they're doing"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "neutral"
+    },
+    {
+      "code": "AI solution to non-AI problem as fear source",
+      "description": "Journalist reluctance and fear specifically traced to past experiences of being presented with AI solutions to problems that don't exist or that AI doesn't solve well, rather than inherent technophobia",
+      "excerpts": [
+        "People's reluctance and fear is around people who've come to them with an AI solution to a problem that they don't have or a problem that is not well solved by an AI system"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "negative"
+    },
+    {
+      "code": "Natural language to SQL for reporters",
+      "description": "Building a tool that enables a journalist to conversationally query a complex Chicago schools spreadsheet without knowing SQL, creating a reusable data access pattern from a seemingly one-off request",
+      "excerpts": [
+        "we had someone who came to me with a an enormous spreadsheet of data about Chicago, Chicago schools and was having trouble navigating it",
+        "AI enabled web development processes. We were able to build a device that would enable her to to query a spreadsheet, which we turn into a database using SQL without her having to know any SQL"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "positive"
+    },
+    {
+      "code": "One-off requests revealing reusable patterns",
+      "description": "Individual journalists' seemingly one-off data access requests actually reveal reusable tool patterns that can serve similar future needs across the organization",
+      "excerpts": [
+        "sometimes journalists, sometimes people working on the business side of the organization have demands that maybe seem to them to be one off, but enable us to build systems that we can use for sort of similar kinds of thing in the future"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "positive"
+    },
+    {
+      "code": "Guardrails against content generation",
+      "description": "Explicit, firm boundary that generative AI should never be used to generate editorial content including links; the useful space is around content generation, not in it",
+      "excerpts": [
+        "We're spending a lot of time ensuring that the role of generative AI specifically is that there are guardrails around it and that we are not in the business of generating content at any point, up to and including links. We're not interested in that. We're not focused on that. But around it is a space for us to experiment"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "neutral"
+    },
+    {
+      "code": "Personalization beyond more-of-the-same",
+      "description": "Traditional recommendation engines fail by providing 'more of the same'; the aspiration is content tools that understand individual readers and surface genuinely relevant, not just topically similar, content",
+      "excerpts": [
+        "traditional recommendation engines don't really do that. They sort of provide you more of the same or you know, you're a Vikings fan, so here's more Vikings",
+        "having the ability to create a tool that more or less sort of understands you and understands what might be interesting to you and relevant, that's a really big step forward"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "LLM inference rejected for content recommendation",
+      "description": "Discovering through practice that LLM inference is not the right approach for content recommendation, pivoting to traditional machine learning and third-party vendors as more cost-effective and technically appropriate",
+      "excerpts": [
+        "I think there's broad consensus that not only should we not really be doing content recommendation using LM inference, but Building it ourselves is probably not the way forward",
+        "there are some great models and great techniques and vendors out there who can do it better for us. at a a lower cost of of staff time"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "neutral"
+    },
+    {
+      "code": "Demos not memos",
+      "description": "AI-enabled prototyping tools transforming product development from writing lengthy specification documents to producing functional demos, dramatically accelerating product cycles",
+      "excerpts": [
+        "demos, not memos. And never more true than now, the ability of like a product manager, somebody to just say, Hey, I'm gonna hack something together and we're gonna see what this might be. look like rather than writing a a forty page memo describing it"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "Tooling sophistication explosion",
+      "description": "The dramatic increase in what non-technical people can now build with AI-backed tools like Figma Make, which did not exist two years ago, fundamentally changing product development capacity",
+      "excerpts": [
+        "the number and level of sophistication of the tooling you can put in a non-technical person's hand today that didn't exist. Two years ago",
+        "I have been playing around with Figma and its AI-backed design to us of Figma Make, I think is what it's called. And it's astounding what you are capable of doing"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "AI skeptic as AI practitioner",
+      "description": "The AI fellow self-identifies as an AI skeptic who does not use AI tools in personal life while using them extensively at work, presenting skepticism as a feature that builds trust rather than a contradiction",
+      "excerpts": [
+        "I came to this job as really an AI skeptic and I think I still maintain a skeptical mindset. I don't use AI tools in at least the popular sense in my personal life at all, use it extensively for writing code for work",
+        "as soon as I get home, I'm like, I don't deal with this anymore"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "mixed"
+    },
+    {
+      "code": "Hallucinated book list incident",
+      "description": "The Chicago Sun-Times published a book list where 7 of 10 recommended books were AI hallucinations (imaginary titles by real authors), created by a Hearst freelancer using AI against policy, going viral on Bluesky and Stephen Colbert",
+      "excerpts": [
+        "I woke up one morning and got a note from our COO Drew Brody, who mentioned there was a viral blue sky post. that showed a book list in an insert in the Chicago Sun-Times that included ten books to read this summer. And of those ten books, I believe seven were completely imaginary",
+        "One of their freelance reporters had been using AI to Create stories. That obviously contradicts the policy at Hearst"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "negative"
+    },
+    {
+      "code": "AI failure overshadowing real journalism",
+      "description": "The viral hallucinated book list appeared on Stephen Colbert while CPM's actual investigative journalism into consumer pricing went unnoticed, illustrating how AI failures disproportionately attract attention",
+      "excerpts": [
+        "what shows up on Stephen Colbert is a hallucinated AI list, not the incredible investigation that we did into. you know, consumer pricing in Chicago",
+        "It was just sort of the perfect combination of media gossip, of tech fears, of something that, you know, a book list... it's also a little silly"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "negative"
+    },
+    {
+      "code": "AI failure as policy catalyst",
+      "description": "The book list incident served as catalyst for creating formal AI policy, writing a public letter of apology, and opening internal dialogue about responsible AI use -- turning crisis into institutional learning",
+      "excerpts": [
+        "it was an opportunity for us to really assert how we want to use AI here, how we better set up systems. to protect ourselves against situations like this in the future",
+        "We started a a process to create a really solid AI policy within our organization"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "mixed"
+    },
+    {
+      "code": "Leadership vulnerability as AI trust strategy",
+      "description": "AI moments require leaders to embrace vulnerability and transparency about mistakes rather than being buttoned-up, using AI as an opportunity to surface organizational humanity and authenticity",
+      "excerpts": [
+        "one of the both the opportunities that AI presents to us is better surfacing our humanity and better surfacing our authenticity",
+        "I think that this is a moment for us as leaders to reconsider that and to say we need to admit that we're humans and that we err and that there is going to be a learning curve for us just as much as there is for anyone else"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "positive"
+    },
+    {
+      "code": "Membership model as AI motivation",
+      "description": "AI strategy at CPM is directly tied to strengthening community-supported membership by creating tools that deepen audience connection to local information, making membership sustainability the driving purpose behind AI adoption",
+      "excerpts": [
+        "our goal is to continue to build our membership model out. We want to be truly the best supported public media organization, fully community supported",
+        "thinking about how do we use this technology to build tools that help support their needs in their lives"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "positive"
+    },
+    {
+      "code": "Build vs. buy with minimal team",
+      "description": "With only one AI fellow and two product managers, the build-vs-buy decision requires rigorous triage: build only when data is uniquely yours or the use case is too small for vendors; otherwise buy",
+      "excerpts": [
+        "our product team is we have two product managers. So the literal minimum number of people to even call it a team",
+        "if it's something that we and only we can do or if it's utilizing data or content that's ours and only ours and if it requires, you know, access to PII or anything like that, then that that argues in favor of a build versus a buy situation"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "neutral"
+    },
+    {
+      "code": "Grant proposal obsolescence speed",
+      "description": "AI moving so fast that original grant proposals become obsolete before implementation, requiring program flexibility to pivot when vendors already offer what was proposed to be built in-house",
+      "excerpts": [
+        "we had proposals that came in and then there was a vendor before we even had a fellow that was doing what seemed like a very good job. And the news partner would say, hey, can we shift? Because we're not going to build this thing"
+      ],
+      "speaker": "David Chivers",
+      "valence": "neutral"
+    },
+    {
+      "code": "MCP as modular integration enabler",
+      "description": "Model Context Protocol recognized as transformational for making AI work modular and bolt-on rather than monolithic, with Lenfest fellows becoming early champions after OpenAI collaboration access",
+      "excerpts": [
+        "MCP is a relatively new phenomenon, but already it's like really becoming clear that it's going to be transformational for a lot of this work we're doing",
+        "having access when it was being developed at OpenAI exclusively, like having access to the folks that were doing that so that the fellows could really get a strong understanding of it"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "Fellow cohort as community of practice",
+      "description": "Lenfest AI fellows self-organized biweekly working group meetings within a month, creating a structured community of practice with demos, problem-solving, and industry trend monitoring that evolved from rigid to relaxed as trust built",
+      "excerpts": [
+        "I sort of said to the group of fellows, we were already having regular meetings with all of the grantees. I said, hey, do you guys want to do like a fellows only every other week meeting and mark was like we've already been doing that for the last month",
+        "We started out with a v a very structured approach. We said we're gonna divide it into 20 minutes of 20 minutes of just sort of structured chat and then 20 minutes of a demo"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "Cross-pollination from outside journalism",
+      "description": "Bringing AI professionals from outside journalism into newsrooms creates cross-pollination that is described as unlike any previous cohort-based program, with fellows forming genuine friendships and sharing knowledge across organizational boundaries",
+      "excerpts": [
+        "it's bringing so many people in from outside journalism into journalism and the sort of cross-polonization and I think in some ways it's kind of a model",
+        "it has been really exceptional. It's just a super fun group. They're folks are cool to be around and And it's like nothing else I've been involved in"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "Talk-to-people scale advantage",
+      "description": "At the scale of local/public media, the most effective way to evaluate whether AI tools work is simply talking to the people using them rather than building elaborate analytics, a human-centered evaluation approach",
+      "excerpts": [
+        "At our scale, we can talk to people. That's the the beginning and the end of it",
+        "the most important test is so you have this problem at the beginning. We've given you a new tool. How is it working? Does it solve your problem? What would you like to see in it?"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "positive"
+    },
+    {
+      "code": "Engineer's hammer-by-the-printer skepticism",
+      "description": "The tech professional who is most familiar with computers is also the most skeptical of them, keeping a metaphorical hammer next to the printer, grounding AI adoption in practical rather than enthusiastic terms",
+      "excerpts": [
+        "the old joke that your tech enthusiast has like everything tech enabled in their home and the the engineer has a printer which she has a hammer next to to dispatch swiftly if it misbehaves",
+        "I've spent so long in my career in various capacities wrestling with computers and I've seen how easily they can misbehave"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "mixed"
+    },
+    {
+      "code": "Public-private partnership trust building",
+      "description": "The Lenfest collaborative's unusual structure where funders (including OpenAI and Microsoft) are actively involved and available for technical strategy discussions creates a productive dynamic uncommon in grant programs",
+      "excerpts": [
+        "we've also just learned a ton in being able to like rub elbows with some very, very senior, very fancy, very smart people. at Microsoft and OpenAI who have been incredibly generous with their time",
+        "the grantor, the ones funding the program, aren't often this involved in this project in a productive way like this"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    },
+    {
+      "code": "CEO as non-user leader",
+      "description": "The CEO of CPM openly admits to barely using AI personally beyond planning children's birthday parties, yet leads the organization's AI transformation, challenging the assumption that AI leadership requires personal AI fluency",
+      "excerpts": [
+        "I don't really use it that much. I do experiment with it a little bit. I use it mostly in organizing events and parties",
+        "I'm playing with it a little bit more in like my personal life before I introduce it to my business life because I don't really I don't want to get too involved with it in a business sense until there's some clear ways to introduce it"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "neutral"
+    },
+    {
+      "code": "Dual-asset uniqueness of public media",
+      "description": "Chicago Public Media's combination of public radio (WBEZ) and print/web (Chicago Sun-Times) creates a unique institution for AI experimentation, with audio and text archives offering distinct AI application opportunities",
+      "excerpts": [
+        "Chicago public media is a unique institution in our collective because they have both the public media radio assets and they have a traditional print and web publication in the Chicago Sun-Times"
+      ],
+      "speaker": "David Chivers",
+      "valence": "positive"
+    },
+    {
+      "code": "Expect failure in quasi-R&D framework",
+      "description": "AI product work occupies a space between R&D and production: expecting things to work more than in pure R&D but also expecting some level of failure and revision, with willingness to kill unsuccessful projects",
+      "excerpts": [
+        "It's this weird space. It's not quite RD. We expect things to work more than they do in an RD framework, but we also do expect some level of failure and revision",
+        "if they're not working, we'll kill them. That's just the way it goes"
+      ],
+      "speaker": "Mark Chonofsky",
+      "valence": "neutral"
+    },
+    {
+      "code": "Local business outreach via AI",
+      "description": "Planned use of AI tools for local business outreach to better understand businesses for underwriting campaigns, connecting AI strategy directly to public media revenue sustainability",
+      "excerpts": [
+        "How are we thinking about building strong connections to local businesses by building outreach models that can ensure we understand their businesses better on our underwriting campaigns?"
+      ],
+      "speaker": "Melissa Bell",
+      "valence": "positive"
+    },
+    {
+      "code": "When can I have this as adoption signal",
+      "description": "The most-uttered phrase at Lenfest cross-organizational demos is 'when can I have this?', signaling genuine demand for AI tools when they solve real problems demonstrated through practical demonstration",
+      "excerpts": [
+        "I've been to more than one convening where or you know, weekly call where someone is demoing something and the instant reaction is, oh, when can I in fact actually verbatim, when can I have this is probably the most uttered phrase at demos"
+      ],
+      "speaker": "Aron Pilhofer",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This episode captures AI adoption at a resource-constrained public media organization that pairs a legacy radio station (WBEZ) with a legacy newspaper (Chicago Sun-Times), revealing how the Lenfest AI Collaborative fellowship model enables institutions to leapfrog their own capacity limitations. The conversation is grounded in operational pragmatism: the AI fellow self-identifies as a skeptic, the product team consists of only two people, and the CEO openly admits she barely uses AI personally. Chicago Public Media's approach centers on finding AI-shaped problems through relational trust-building rather than pushing technology solutions, yielding practical wins like audio archive transcription and dramatically faster Spanish translation. The hallucinated book list incident -- where 7 of 10 AI-generated book recommendations were imaginary -- serves as a cautionary inflection point that paradoxically catalyzed the organization's formal AI policy and opened internal dialogue. A recurring theme is the distinction between building and buying, with the team discovering through practice that some initial grant proposals (like LLM-based content recommendation) were better served by third-party vendors, requiring program flexibility to pivot.",
+  "surprises": [
+    "The AI fellow is a self-described AI skeptic who refuses to use AI tools in his personal life at all, yet uses them extensively for work -- framing skepticism as a professional asset rather than a contradiction",
+    "The CEO of the organization openly admits to using AI primarily for planning children's birthday parties, yet leads the AI transformation strategy",
+    "The fellows self-organized their own biweekly working group within the first month of the program, before the program administrators even proposed it",
+    "The hallucinated book list incident involved licensed content from Hearst that went into papers across the country, but only Chicago Public Media's name became publicly attached to the failure",
+    "The team discovered that LLM inference was not the right technical approach for content recommendation and pivoted to traditional machine learning vendors, contradicting the initial grant proposal"
+  ],
+  "tensions": [
+    "The organization explicitly refuses to use generative AI for content generation 'up to and including links,' yet experiments extensively with AI in every area around content production",
+    "The CEO positions AI adoption as imperative to not repeat journalism's failed internet adaptation, yet she herself barely uses AI tools personally",
+    "The program is funded in partnership with OpenAI and Microsoft, creating a potential tension between independent journalistic values and technology company interests in promoting AI adoption",
+    "The AI fellow builds trust by being available and not pushing AI, yet his entire role exists to accelerate AI adoption within the organization",
+    "Grant proposals became obsolete before implementation because the AI space moved so fast, raising questions about whether structured funding programs can keep pace with the technology they are meant to support"
+  ]
+}

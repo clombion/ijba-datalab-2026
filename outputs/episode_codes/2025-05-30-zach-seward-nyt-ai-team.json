@@ -1,0 +1,321 @@
+{
+  "episode_date": "2025-05-30",
+  "episode_title": "Zach Seward: How a Five-Person AI Team Is Powering Innovation at The New York Times",
+  "codes": [
+    {
+      "code": "Lean Team by Design",
+      "description": "Deliberately building a five-person editorial AI team (two ML engineers, a product designer, an editor, and Seward) to serve a 2,000-journalist newsroom, prioritizing journalism backgrounds combined with technical skills",
+      "excerpts": [
+        "what we decided to do with with our our team was hire two machine learning engineers, a product designer, an editor, and myself, which is like another editor",
+        "crucially everyone comes from a journalism background and then sort of brings specific other skill sets to bear enough to allow us to do prototypes"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Three-Pillar AI Strategy",
+      "description": "Organizing AI work into three focus areas: research and investigations, internal workflows, and reader experiences, each enormous in scope and requiring constant prioritization",
+      "excerpts": [
+        "first is using AI for research and investigations... Number two is internal workflows and processes... And then the last area focuses reader experiences"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Investigations as Largest Opportunity",
+      "description": "Identifying AI-assisted investigations as the single greatest opportunity, doubling down on an existing institutional advantage in access to leaked documents and insider information",
+      "excerpts": [
+        "it came pretty clear early on that the one of the largest, if not the biggest, opportunities for AI in our newsroom is going to be for investigations that this was an opportunity to kind of double down on an existing advantage"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Structure from Unstructured Data",
+      "description": "Reframing AI's primary value in journalism as creating structure from unstructured data sets (documents, video, transcripts) rather than generating prose",
+      "excerpts": [
+        "a lot of the most interesting applications have nothing to do with writing articles or writing out creating prose at all, so much as creating structure out of unstructured data sets to help unlock stories that are hidden in massive data sets you probably previously couldn't have considered as possible to report on"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Generative AI as Misnomer",
+      "description": "The term 'generative AI' misleads journalists about the technology's value, since many of the most impactful applications do not involve generating text at all",
+      "excerpts": [
+        "generative AI as a term has done kind of a disservice to our industry in particular, because it's not that there aren't generative applications of large language models that are interesting for media. There absolutely are some of those, but a lot of the most interesting applications have nothing to do with writing articles"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "negative"
+    },
+    {
+      "code": "Semantic Search Over Keyword Search",
+      "description": "Using LLMs to search transcripts semantically rather than via keywords, catching indirect references, euphemisms, and circumlocutions that keyword search misses",
+      "excerpts": [
+        "using AI instead of like a typical keyword search, you know, is able to get op you know to get over the semantic differences in language where this group isn't so stupid to have been saying, even in their private meetings, you know, we wanted target immigrant communities",
+        "he's talking about getting blitzed and having a rager and things that like Obviously any keyword search was not gonna pick up, but AI was able to with minimal of prompting"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Reporter Expertise in Prompts",
+      "description": "The finding that combining reporter domain knowledge with LLM prompts produces significantly better results than generic prompting, making journalist expertise a critical input to AI analysis",
+      "excerpts": [
+        "the reporter's background information on the organization being part of the prompt mattered quite a bit to the quality of the results that we were able to get",
+        "the killer combination and What found is like AI plus reporters expertise goes a long way"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Previously Unconceivable Reporting",
+      "description": "AI enabling investigation of data sets so massive and messy they could not previously have been considered candidates for journalistic work",
+      "excerpts": [
+        "we're opening up opportunities for just data sets that are so huge and are so messy that it could not have considered them as candidates for reporting work, but now we can and that's quite exciting"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Summarization as Universal Need",
+      "description": "The discovery through a 100-person pilot that more than half of newsroom workflow challenges involve some form of summarization, broadly defined to include headlines, tags, homepage summaries, and news roundups",
+      "excerpts": [
+        "more than half of the workflow challenges that people face around the newsroom have in some way, shape, or form to do with summarization. Obviously literally writing summaries is a big deal, a big part of what we do, but you expand the definition to include headlines, tags. the homepage summary, the last five minutes of the daily"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Enabling Not Prescribing",
+      "description": "Positioning the AI team as an enablement function that provides tools, training, and examples, then lets individual journalists figure out how AI fits their specific workflows",
+      "excerpts": [
+        "our team is it fundamentally an AI enablement team. Like we're in charge of making sure that our journalists have access to all the right best tools",
+        "it's on each individual employee to figure out how AI fits into their workflows, their day-to-day. And if it does at all, you know"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Examples Over Access",
+      "description": "The insight that access to tools does not drive adoption; concrete examples that resonate with a journalist's specific work are what convert people into actual AI users",
+      "excerpts": [
+        "access to tools is really not the thing that unlocks people like converting to act to being actual users. It's examples that resonate with them. It's examples that they can see themselves going and doing or just are similar enough that it makes a connection"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Roadshow as Adoption Vehicle",
+      "description": "Live presentations across 40 desks reaching approximately half of 2,000 journalists, combining practical tool introductions with colleague use cases, serving as the primary adoption mechanism",
+      "excerpts": [
+        "Just on their what we call our roadshow presentation to all the various desks at the times. You know, I'm still getting used to the scale of the place, so I I'm told there are 40 different desks. And there are two thousand journalists. I think by now we've reached about half of them"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Echo as Platform Tool",
+      "description": "Building a general-purpose summarization/transformation tool (Echo) that abstracts technical complexity and lets individual desks adapt it to their own needs rather than building bespoke solutions for each team",
+      "excerpts": [
+        "a tool called Echo we use internally for summarizing or otherwise transforming any piece of content from the Times",
+        "we're not We're not gonna solve all these different teams summarization challenges one by one. They're gonna solve it if we you know, can provide the right tools and guidance and standards"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Journalist Agency as Design Principle",
+      "description": "The key retrospective insight that the most successful AI tools make the underlying prompt transparent and editable by the journalist, giving them visible control even if they rarely change it",
+      "excerpts": [
+        "I don't think we fully appreciated the importance of agency in designing editorial tools with with AI, which I think is Almost always meant making the prompt that's being used transparent and editable by the journalist who's using it. Like nothing fancier than that"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Deliberate Slowness on CMS Integration",
+      "description": "The NYT intentionally has zero AI in its CMS, deprioritizing short-term integrations like SEO headline suggestions in favor of more ambitious long-term plans",
+      "excerpts": [
+        "we're not nearly as aggressive as some other news outlets, for instance, in integrating AI into our CMS. you know, I I definitely not as far along as the Nordic publications",
+        "I don't lose sleep over not being able to suggest SEO headlines with with AI and our CMS"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Legal Training Gate for AI Access",
+      "description": "Requiring all journalists to complete legal and standards training before accessing any AI tools, establishing formal governance guardrails",
+      "excerpts": [
+        "We've developed a legal and standards training that you have to take before getting access to any of that"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Brand Disintermediation Fear",
+      "description": "The existential concern that AI agents and chatbots will disintermediate news brands from their audiences, analogous to the social media platform era but potentially more fundamental",
+      "excerpts": [
+        "what happens to news consumption if At least definitely an if, but like if people are mostly getting all of their news, entertainment, information and digital consumption through something like a chat bot uh or their own personal assistant, that's a great question"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "negative"
+    },
+    {
+      "code": "Facts Over Writing Valuation",
+      "description": "The argument that AI pressure on publishers shifts value from synthesis/writing toward the reporting of genuinely new, proprietary facts",
+      "excerpts": [
+        "I think it does stand to reason that like pressure AI puts on publishers means that there's more value in the former that in in reporting new facts than in the latter writing them up assuming that, you know, where there are new interfaces that are writing up those facts in different forms"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "mixed"
+    },
+    {
+      "code": "Writing Not Dead Yet",
+      "description": "Pushback against the Nordic provocation that writing is no longer a core journalistic skill, arguing it has elements of truth but does not ring true in the US market",
+      "excerpts": [
+        "It's hard to imagine that people won't continue to appreciate clarity of writing, well spun narratives and other aspects of writing that have endured for a long time",
+        "it kind of reminds me of I think I wrote a piece ten years ago or more. The headline was like, the home screen is dead or you know, the homepage has died. It was like it had some truth to it but it wasn't actually true"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "mixed"
+    },
+    {
+      "code": "AI as Equalizer Technology",
+      "description": "The view that AI democratizes capabilities previously exclusive to large newsrooms, but competitive advantage will remain in journalism quality and source access, not technology",
+      "excerpts": [
+        "I don't really at the end of the day think That AI is going to be what differentiates any news organization from another news organization when it comes to the investigative work",
+        "to the extent we have an advantage there, it's gonna be again like the fact that we have the documents to analyze in the first place"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Open Source Tooling Intent",
+      "description": "Explicit intent to open source the investigation tools NYT has built so that other newsrooms can replicate the capability",
+      "excerpts": [
+        "I fully expect that the like tooling we've built could be replicated by others. We hope to source it ourselves. And let as many people use it as possible"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Semantic Search for Readers",
+      "description": "Using embedding models to improve article search on the NYT website, delivering better relevance without generating any new content",
+      "excerpts": [
+        "using embedding models as part of our search stack. is showing really strong results in sorts of improving the relevance of the results you get. And again, without generating anything"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Voice Interface as Next Frontier",
+      "description": "Prototyping voice interaction with NYT content as a likely important future interface, informed by the sense that this wave of voice technology may be the real one after Alexa's false start",
+      "excerpts": [
+        "voice interaction is really interesting to us",
+        "Alexa had its moment five or so years ago. voice interfaces have have sort of come and uh come and gone in popularity, but I think there's a decent bet that this is this is this is the real one"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Spreadsheet as Investigation Metaphor",
+      "description": "Using the spreadsheet as the overriding metaphor for investigative AI tooling -- structuring analysis as row-by-row examination of data sets",
+      "excerpts": [
+        "using a spreadsheet as the sort of overriding metaphor that's been quite successful"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Lawsuit Separation from Editorial AI",
+      "description": "The organizational and operational separation between the NYT's lawsuit against OpenAI/Microsoft and the editorial AI team's work, with Seward learning about the lawsuit from a push notification",
+      "excerpts": [
+        "I learned about that the way everybody else did, which was a push notification on my phone from the Times app",
+        "that's about as much as I can or would they'll say about the the lawsuit because that as that anecdote suggests, it's totally separate from my team"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Preconception Reframing Work",
+      "description": "The significant effort required to reframe journalist preconceptions about AI, expanding their narrow view (usually focused on content generation and job replacement) to encompass non-generative applications",
+      "excerpts": [
+        "everyone has played with it at home or has their like prior like sort of personal experience of AI",
+        "the the main vo uh takeaway for a lot of people is it expands their view of what AI is. And I that that seems like a success"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "AI Startup Opportunity Cycle",
+      "description": "Historical pattern of platform shifts creating opportunities for media startups unencumbered by legacy, with AI likely to produce a new crop of journalism ventures",
+      "excerpts": [
+        "I think it's very clear each time there's a big platform shift in media that creates opportunities for new startups to emerge and basically take advantage of that shift by not having to worry about the legacy brands"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Nonprofit Resilience to Disintermediation",
+      "description": "The observation that nonprofits and mission-driven newsrooms whose goal is maximum reach rather than monetized traffic may be better positioned in a disintermediated, agent-mediated future",
+      "excerpts": [
+        "if you're a nonprofit where your goal is simply to reach as many people as possible with your journalism It may not be an issue at all that you're getting disintermediated"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "mixed"
+    },
+    {
+      "code": "Talking as the Job",
+      "description": "The surprise that a large portion of the AI team's work is simply talking to journalists -- roadshows, workshops, one-on-one conversations -- rather than building technology",
+      "excerpts": [
+        "I've been surprised how much of the job has turned out to be talking"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Fact-Checking Remains Old-Fashioned",
+      "description": "Despite AI assistance in finding and structuring information, the final fact-checking process remains traditional -- going back to original material to verify quotes and claims",
+      "excerpts": [
+        "there's always like a point at which like the AI steps away and then reporting becomes Once again, pretty old-fashioned in terms of like the process of fact-checking from the air, which is going back to the original material and looking at it"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "neutral"
+    },
+    {
+      "code": "Engaging Hard Questions Honestly",
+      "description": "The approach of openly engaging with ethical, labor, and environmental AI concerns rather than pretending to have answers, treating them like any hard question in a newsroom",
+      "excerpts": [
+        "we could all talk about the very important naughty ethical questions, labor questions, and environmental questions that AI raises. I don't like we don't go around pretending to have great answers to all of all of those we want to engage in those hard questions"
+      ],
+      "speaker": "Zach Seward",
+      "valence": "positive"
+    },
+    {
+      "code": "Product Thinking Deficit in Newsrooms",
+      "description": "The host's observation that newsrooms lack product thinking more than they lack AI knowledge, and that framing AI within product development mindsets is more effective than teaching AI in isolation",
+      "excerpts": [
+        "something that's missing in our conversations is not even AI, it's product thinking We are building news as a product. What does that mean for us? What and AI comes secondary to it"
+      ],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    }
+  ],
+  "episode_summary": "This episode captures the New York Times' deliberately cautious approach to AI integration, where a five-person editorial team serves as an enablement function rather than a mandate-issuing authority across a 2,000-journalist newsroom. The most analytically significant finding is the reframing of AI's primary value: Seward argues that the term 'generative AI' is a misnomer for journalism because the greatest opportunities lie in creating structure from unstructured data sets for investigations, not in text generation. The team's key retrospective insight -- that journalist agency (prompt transparency and editability) is the most important design principle -- reveals an emergent understanding that trust in AI tools depends more on visible control than on output quality. The episode exposes a strategic tension between the NYT's deliberate slowness (zero CMS integration, long-term ambition over short-term feature parity) and the competitive pressure from Nordic and peer outlets moving faster, with Seward betting that journalism quality and source access will remain more differentiating than technology adoption speed.",
+  "surprises": [
+    "More than half of all newsroom workflow challenges identified in the 100-person pilot were forms of summarization, making it a far more universal need than expected",
+    "The NYT's CMS has zero AI integrations despite being one of the world's largest newsrooms, by deliberate strategic choice rather than incapacity",
+    "Seward learned about the NYT's OpenAI lawsuit from a push notification on his phone like any other reader, illustrating the complete operational separation between legal and editorial AI efforts",
+    "A huge portion of the five-person AI team's work is simply talking to journalists rather than building technology",
+    "The design principle of making prompts transparent and editable mattered more than expected -- the mere visibility of control boosted trust even when journalists rarely changed the prompts"
+  ],
+  "tensions": [
+    "Deliberate slowness on CMS/workflow AI vs. competitive pressure from Nordic publications and US peers who are moving faster",
+    "AI as equalizer for small newsrooms vs. the continued importance of institutional advantages (source access, leaked documents) that only large organizations possess",
+    "The value of writing and narrative craft vs. the emerging premium on original fact-finding as AI commoditizes synthesis",
+    "Enablement philosophy (let journalists figure it out) vs. the reality that many journalists need hand-holding and concrete examples, not just tool access",
+    "Brand protection and audience relationships vs. the inevitability of agent-mediated news consumption that may disintermediate publishers again",
+    "Five-person team scope vs. the enormity of three focus areas and 2,000 journalists to reach -- perpetual prioritization challenge"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "episode_meta": {
+    "title": "Garance Burke: A Journalist's Guide to Investigating Artificial Intelligence",
+    "date": "2024-07-08",
+    "guests": [
+      {
+        "name": "Garance Burke",
+        "role": "Global Investigative Journalist",
+        "organization": "Associated Press"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 6975
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "chatbots (five most popular, unspecified by name)",
+    "AI transcription model (used at AP for podcast transcription)",
+    "child welfare algorithm (Allegheny County, Pennsylvania)",
+    "sentencing tool (historical bias example)",
+    "predictive and surveillance tools (post-COVID government use)",
+    "Brad Parscale's AI-powered campaign platform",
+    "AI-powered deepfake tools",
+    "OpenAI's talking chatbot (Scarlett Johansson voice controversy)",
+    "GitHub (referenced as a source for examining AI model logs)"
+  ],
+  "use_cases": [
+    {
+      "description": "AI algorithm used by child welfare agencies to decide which children may be at risk and should be sent to foster care, using data about local families including maternal smoking history, disability status, and family size",
+      "tool_used": "Child welfare algorithm (Allegheny County)",
+      "organization": "Allegheny County, Pennsylvania child welfare agency",
+      "outcome": "Algorithm was found to overrepresent communities of color and incorporate questionable data variables; AP reporting prompted a federal civil rights investigation from the U.S. Department of Justice",
+      "stage": "production"
+    },
+    {
+      "description": "Sentencing tool trained on historical data that showed black offenders typically receive longer prison terms than white offenders for the same crimes, potentially reproducing that bias in predictions",
+      "tool_used": "Sentencing tool (unspecified)",
+      "organization": "Unspecified criminal justice agency",
+      "outcome": "Demonstrated how historical bias in training data can be reproduced in AI predictions",
+      "stage": "production"
+    },
+    {
+      "description": "Testing five most popular chatbots with basic questions about US democracy (polling places, voting methods) in collaboration with Proof News",
+      "tool_used": "Five most popular chatbots (unspecified by name)",
+      "organization": "Associated Press and Proof News",
+      "outcome": "Chatbots gave incorrect answers: one told a user in a predominantly Black neighborhood in Philadelphia there was no polling place; another said California voters could vote by text message",
+      "stage": "production"
+    },
+    {
+      "description": "AI model used at AP to generate transcriptions from podcasts, saving journalists time on deadline",
+      "tool_used": "AI transcription model (unspecified)",
+      "organization": "Associated Press",
+      "outcome": "Time savings for journalists who no longer need to listen to full recordings",
+      "stage": "production"
+    },
+    {
+      "description": "Brad Parscale's AI-powered platform for political campaigning, including customized email generation, gauging voter sentiment, and amplifying social media posts of anti-woke influencers",
+      "tool_used": "Brad Parscale's AI-powered campaign platform",
+      "organization": "Brad Parscale's digital campaign operation (Trump-aligned)",
+      "outcome": "Claims it will transform campaigning and usher in conservative victories worldwide",
+      "stage": "production"
+    },
+    {
+      "description": "Biden campaign considering AI use for motivating voters, identifying deceptive content, and using AI for fundraising",
+      "tool_used": "Unspecified AI tools",
+      "organization": "Biden campaign",
+      "outcome": "Already using AI for fundraising; still grappling with broader AI strategy",
+      "stage": "pilot"
+    },
+    {
+      "description": "Government agencies using predictive and surveillance tools after COVID to monitor marginalized populations",
+      "tool_used": "Predictive and surveillance tools (unspecified)",
+      "organization": "Unspecified government agencies",
+      "outcome": "AP reporting shed light on surveillance of marginalized populations that people had not been aware of",
+      "stage": "production"
+    },
+    {
+      "description": "AP exploring content analysis of large amounts of data using AI, particularly around election cycle messaging shown to voters",
+      "tool_used": "Unspecified AI content analysis tools",
+      "organization": "Associated Press",
+      "outcome": "Under consideration to add new insights about voter messaging",
+      "stage": "ideation"
+    },
+    {
+      "description": "AI used in military applications to help make targeting decisions",
+      "tool_used": "Unspecified AI military tools",
+      "organization": "Unspecified military entities",
+      "outcome": "Not specified",
+      "stage": "production"
+    },
+    {
+      "description": "AI used to decide parole eligibility",
+      "tool_used": "Unspecified AI parole tools",
+      "organization": "Unspecified criminal justice agencies",
+      "outcome": "Not specified",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "AP's work is seen by half the world's population every day",
+      "speaker": "Garance Burke",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "AI systems are really unregulated by and large around the world",
+      "speaker": "Garance Burke",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AP reporting on child welfare algorithms helped prompt a federal civil rights investigation from the U.S. Department of Justice",
+      "speaker": "Garance Burke",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "A chatbot told a user in a predominantly Black neighborhood in Philadelphia there was no polling place, and another said California voters could vote by text message",
+      "speaker": "Garance Burke",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "A sentencing tool trained on historical data showed black offenders typically receive longer prison terms than white offenders even for the same crimes",
+      "speaker": "Garance Burke",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Sometimes large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood",
+      "speaker": "Garance Burke",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Brad Parscale says his AI-powered tools will usher in a wave of conservative victories worldwide",
+      "speaker": "Garance Burke",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Narratives about AI models wiping out humanity have been around for decades; focusing on existential risk distracts from real-world problems like AI-driven voter misinformation",
+      "speaker": "Garance Burke",
+      "evidence_type": "theoretical"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Proprietary nature of AI technologies -- companies like OpenAI do not disclose what data their models were trained on, making it difficult for journalists to investigate",
+      "category": "technical"
+    },
+    {
+      "description": "Complexity of AI systems making some journalists feel the statistics underlying models are too difficult for the average reporter to understand",
+      "category": "organizational"
+    },
+    {
+      "description": "Hype cycle around AI leading to a tiresome binary of 'is AI good or bad' rather than nuanced reporting on how systems actually work",
+      "category": "editorial"
+    },
+    {
+      "description": "AI companies pushing existential risk narratives that distract attention from real-world harms like voter misinformation",
+      "category": "editorial"
+    },
+    {
+      "description": "Algorithmic bias -- AI models trained on historical data can harden pre-existing human biases into automated decisions, systematically impacting specific groups",
+      "category": "ethical"
+    },
+    {
+      "description": "AI chatbot hallucinations -- chatbots generating inaccurate information, a concern when implementing them in newsrooms",
+      "category": "technical"
+    },
+    {
+      "description": "AI systems are largely unregulated around the world, leaving journalism as one of the few accountability mechanisms",
+      "category": "ethical"
+    },
+    {
+      "description": "Privacy concerns about personal data being used to train models and the ease of cloning a person's voice or face",
+      "category": "ethical"
+    },
+    {
+      "description": "News fatigue making it harder to engage audiences on AI-related topics",
+      "category": "editorial"
+    },
+    {
+      "description": "Ethical challenges of implementing AI in newsrooms -- determining when it is appropriate to insert AI assistance into news production and what level of disclosure is needed for audiences",
+      "category": "ethical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I think that taking it back to those journalistic basics of how the systems work, where they're deployed, how well these models are performing, whether the tools are regulated, who's benefiting and making money as a result of AI's growth and then which communities may be impacted by these tools, whether that be negatively or positively, can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad.",
+      "speaker": "Garance Burke",
+      "topic": "Foundational approach to AI journalism",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Thinking about existential risk to my mind really risks itself distracting attention from real world problems such as, you know, how AI is being used to misinform voters in this crucial election year.",
+      "speaker": "Garance Burke",
+      "topic": "Existential risk vs. real-world AI harms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Sometimes these large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood. So I think that, you know, keeping in mind that there's a whole lot of different ways to approach understanding AI and its impacts is really paramount.",
+      "speaker": "Garance Burke",
+      "topic": "Investigative methodology for opaque AI systems",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "This is not a beat in which you want to be taking AI companies press releases as the final word.",
+      "speaker": "Garance Burke",
+      "topic": "Journalistic skepticism toward AI company claims",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "At AP, we're really very cautious about implementing any AI tools. Our journalism always starts with a human being and ends with a human being.",
+      "speaker": "Garance Burke",
+      "topic": "AP's editorial standards for AI use in the newsroom",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "AI systems are really unregulated by and large around the world. And so there's an opportunity to have real-world impact with journalism that deeply and in a nuanced fashion helps the public understand how these tools work, don't work and who they're impacting.",
+      "speaker": "Garance Burke",
+      "topic": "Journalism's role in AI accountability given regulatory gaps",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Return to journalistic basics -- who, what, where, when, why -- when covering AI. Focus on how systems work, where they're deployed, how well they perform, who benefits, who is impacted, and whether they are regulated.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Always try to understand the data used to power AI models and scrutinize outputs just as critically as any other source of information. Investigate what is in the dataset and what is not.",
+      "speaker": "Garance Burke",
+      "target_audience": "Investigative journalists"
+    },
+    {
+      "advice": "Be wary of claims that an AI system is the first to reach a milestone or that AGI is imminent. Consider the source and report against your own hypotheses.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Use multiple methodologies to investigate AI when you cannot access the code base: talk to impacted communities, machine learning experts, AI company insiders, AI subcontractors, check GitHub, look for government contracts, and use synthetic datasets to simulate user experience.",
+      "speaker": "Garance Burke",
+      "target_audience": "Investigative journalists"
+    },
+    {
+      "advice": "Focus on human stories -- the people who build AI, the people affected by AI, and the workers (often in the global south, e.g., Kenya, Venezuela) who label the data that feeds AI systems.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Test AI models yourself to discover their limitations. Use prompts with basic questions, use synthetic datasets, and experiment creatively to surface information in the public interest.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Use the AP Stylebook AI chapter as a resource for clear definitions and guidance on covering AI, especially for writing about AI on deadline.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    },
+    {
+      "advice": "Newsrooms should have deeper ethical discussions about when it is appropriate to implement AI in news production and what level of disclosure is needed for audiences.",
+      "speaker": "Garance Burke",
+      "target_audience": "Newsroom leaders and editors"
+    },
+    {
+      "advice": "You don't need to be an engineer to interrogate AI systems. Journalists already have the street smarts to understand AI.",
+      "speaker": "Garance Burke",
+      "target_audience": "All journalists"
+    }
+  ],
+  "external_references": [
+    "AP Stylebook AI chapter",
+    "Associated Press (AP) standards guiding internal use of AI",
+    "Proof News (collaboration on chatbot election testing)",
+    "Stanford University John S. Knight Journalism Fellowship",
+    "Stanford Human-Centered AI Institute (HAI)",
+    "Allegheny County, Pennsylvania child welfare algorithm",
+    "U.S. Department of Justice (federal civil rights investigation prompted by AP reporting)",
+    "GitHub (as a resource for examining AI model logs)",
+    "Brad Parscale's AI-powered campaign platform",
+    "OpenAI (referenced for non-disclosure of training data and Scarlett Johansson voice controversy)",
+    "AP series 'The AI Campaign'",
+    "Harvard Innovation Labs (Newsroom Robots podcast sponsor)",
+    "Newsroom Robots newsletter (newsroomrobots.com)"
+  ]
+}

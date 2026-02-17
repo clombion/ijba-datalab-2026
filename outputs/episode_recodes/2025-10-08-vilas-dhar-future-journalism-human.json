@@ -1,0 +1,172 @@
+{
+  "episode_id": "2025-10-08-vilas-dhar-future-journalism-human",
+  "episode_title": "Vilas Dhar: Why the Future of Journalism Is Still Human",
+  "date": "2025-10-08",
+  "pass": "4-deductive-recode",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.2",
+        "T01.3",
+        "T01.1"
+      ],
+      "best_quote": {
+        "text": "An AI system cannot understand the vulnerability and pain of somebody who has just lost their house because of a bad discriminatory decision. Cannot understand what it feels like to be in the room as your son or daughter gets sentenced by an AI system for something they didn't do. Can't understand empathy or care, responsibility, or love. These are things that are uniquely human in this world.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "Strong emphasis on the irreplaceable human core. Dhar: AI cannot understand 'vulnerability, pain, empathy, care, responsibility, or love.' AI as complementary tool, not replacement. AI automating less interesting tasks to free reporters. Using AI as Socratic interlocutor rather than content creator. Human-centered AI storytelling."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.2",
+        "T02.1",
+        "T02.3"
+      ],
+      "best_quote": {
+        "text": "People who don't have fundamental trust in media institutions are much more vulnerable to AI-enabled misinformation; AI is a symptom of the trust crisis, not its cause.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "Trust crisis precedes AI. People without fundamental trust in media more vulnerable to AI-enabled misinformation. Provenance-tagging standards gap. Transparency by partnering stories with AI use explanations. Dhar reframes: AI is symptom of trust crisis, not its cause."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.2",
+        "T03.3",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "I am very rarely optimistic about AI. But I am very optimistic about well-intentioned, values-driven people that are making decisions about how we use AI.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "This is the dominant theme. Ethics as operational guide, not abstraction. Three-part framework: responsible data, clear boundaries, transparency. Bright-line rules about what AI will never be used for (synthetic quotes, unattributed sources). LISA framework (Listen, Involve, Share, Assess). Organizational reckoning over vendor selection. Responsible data provenance. Environmental sustainability of AI."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T04.1"
+      ],
+      "summary": "Brief mention of needing smaller, more targeted models. Gigafact and JournaPilot as specific tools. Real-time fact-checker agents envisioned. But no deep technical architecture discussion."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.4"
+      ],
+      "summary": "Reporters, editors, data teams, and executives should all be equally AI-literate. Shift power to front-line reporters. Sandbox environments for experimentation. Restrictive policies push experimentation outside organizational controls. But training programs not the focus."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.2",
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "I don't think there is a way to be a media organization in this world today without also being a technology organization.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "No way to be a media org without being a tech org (false dichotomy). Organizational reckoning: who do we aspire to be? Front-line reporters should have editorial control over AI. Siloing AI teams from editorial prevents integrated implementation. 18-month transformation timescale vs 10-20 year cycles. Build vs buy as identity question."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T07.3",
+        "T07.4"
+      ],
+      "best_quote": {
+        "text": "Who's incentivized to build AI models exclusively for journalism? A sector that maybe is not big enough to command its own market presence that isn't going to be that profit driver. Well, this is the challenge we've struggled with for the last decade is there's not going to be some set of companies that are going to say we're going to innovate massive foundational changes in AI for journalism unless it comes from within journalism itself.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "Journalism market too small for bespoke AI -- no company will build massive foundational changes for journalism. Innovation must come from within journalism. Build tools rather than consume commercial ones. MuckRock and JournaPilot as examples. Big tech incentivized for massive generalized models, not journalism-specific ones."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T08.3"
+      ],
+      "summary": "LISA framework (Listen, Involve, Share, Assess) is audience-centric. JournaPilot for repurposing investigative journalism. Real-time fact-checker agents as product concept. But product reimagination is not the focus."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "summary": "Journalism too small to command market presence. Build rather than buy changes economics. Environmental cost tension. Qualitative success metrics harder to measure. But no deep business model discussion."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T10.2",
+        "T10.3"
+      ],
+      "best_quote": {
+        "text": "Journalism has a unique opportunity to share what it learns and fails at with AI deployment, building a repository of complex decisions that applies across all sectors.",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "Journalism as public AI laboratory. Behind-the-scenes reporting on AI deployment decisions builds trust and serves as accountability. Provenance-tagging standards gap. Journalism sharing AI lessons across all sectors. Structural accountability allocation."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "summary": "No substantive discussion of prototype-to-production pipelines."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "We should be asking, how do we transform our social practices so that we can leverage the ways we use these tools to minimize the queries we need, but get much better outcomes from them?",
+        "speaker": "Vilas Dhar"
+      },
+      "summary": "Responsible data provenance as first ethical step. Vet provenance of data, understand who is represented, identify exclusions. Restrictive policies cause data leakage. Environmental cost of AI (energy, water). Query efficiency as sustainability."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T02",
+    "T03",
+    "T06",
+    "T07"
+  ],
+  "secondary_themes": [
+    "T05",
+    "T10",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T04",
+    "T08",
+    "T09",
+    "T11"
+  ]
+}

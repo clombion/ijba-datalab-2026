@@ -1,0 +1,192 @@
+{
+  "episode_date": "2024-03-29",
+  "episode_title": "Florent Daudens: Building an AI-Literate Newsroom at Radio Canada",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.4"
+      ],
+      "best_quote": {
+        "text": "I think above all it's curiosity. Because a machine will not spontaneously ask itself a question. And the other thing is editorial judgment.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens articulates the human-AI boundary through the Prime Minister press conference example, showing how AI summarization misses editorial judgment, while demonstrating efficiency gains in transcription, content adaptation across platforms, and data extraction from scanned documents."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.4"
+      ],
+      "best_quote": {
+        "text": "Do we want to create an individual news offer for each people? Is it a bad idea? What will we lose in the trade-off between our goal is to inform the general public and have different ideas confronting in the public space. But also what if you as a user want something very specific?",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens raises the tension between personalized news and the public broadcasting mandate to inform broadly, touching on how audience consumption habits may shift with AI-powered devices and conversational interfaces."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T03.1"
+      ],
+      "best_quote": {
+        "text": "Sometimes you can't rely on summarization for an important news conference from the Prime Minister if you haven't heard it. If you haven't exercised your editorial judgment to know what was important for this press conference.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Ethics is woven into the training sessions rather than treated as a standalone topic, with Daudens emphasizing that AI should not be used when editorial judgment is at stake -- a practical ethical principle embedded in daily workflow decisions."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.2",
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "An LLM is not a search engine and we shouldn't use it as a search engine. But then we see how to ground an LLM to a database or to the web search tool.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens demonstrates technical sophistication in distinguishing LLMs from search engines, building RAG-based teaching assistants with LangChain, evaluating French-language model performance on MMLU benchmarks, and noting that Mixtral outperforms GPT-4 in French."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2",
+        "T05.3",
+        "T05.4",
+        "T05.5"
+      ],
+      "best_quote": {
+        "text": "If we don't know what we're talking about, if we don't know the possibilities, we will just miss the train and then realize that we have to use it but we don't know how and it's gonna be scary.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "This is the central theme: Daudens describes Radio Canada's three-tier literacy program (expertise group, three-hour training sessions, prompt clinics), showing how training shifts journalist attitudes from fear to creativity, while building a shared prompt library and arguing that individual ChatGPT use remains 'artisanal and not very effective' without collective sharing."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.2",
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "We need to think ourselves as both content and tech companies. It's crucial, I think.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens advocates for a cultural identity shift where newsrooms see themselves as both content and tech companies, describing the cross-functional expertise group structure and the importance of collaboration between journalists and developers."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "The French startup Mistral... their first model, Mistral 7B, it had only been trained in English and I must say I was surprised.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens briefly touches on cultural sovereignty issues with AI models, noting that even French AI startup Mistral initially trained only in English, and highlighting Montreal's unique position as an AI hub."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T08.1",
+        "T08.2",
+        "T08.3"
+      ],
+      "best_quote": {
+        "text": "Do we still focus on writing classical web articles or do we think of new ways of presenting information and really focus on how will people interact with devices, with platforms, and with information.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens envisions fundamental changes in how information is presented, distinguishing between content for audiences versus content for search engines/AI, and exploring personalized newspapers (GPT Newspaper), voice interfaces, and content adaptation across TV, radio, TikTok, and news apps."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "Our resources are increasingly limited. So if we manage to configure tools well, starting for example with a few shot prompts or if necessary with fine-tuning, we would be able to generate a web article draft from a TV text and it can be a significant gain for journalists.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Resource constraints at Radio Canada drive the use case for AI content adaptation, with Daudens noting that platforms to fill (TV, radio, TikTok, web, apps) keep growing while resources shrink."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T10.2"
+      ],
+      "best_quote": {
+        "text": "There's also a lot of AI labels where it's not really AI. So we have to be able to differentiate true from false claims about AI.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens briefly notes the importance of journalists being able to identify genuine versus marketing AI claims, positioning informed journalism as a form of accountability."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "We really want to do short concrete iterations and we will capitalize on that... we don't want to overload developers who don't have the time to work on it.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Daudens emphasizes short concrete iterations in the prompt clinic approach, creating working tools (prompts, Google Colabs, GPTs) rather than grand projects, and building prototypes that emerge from daily operations rather than top-down mandates."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "For the transcription of video or audio, models were primarily trained in English and they were therefore useless in French. And with the Quebec accent, the error rate was still high.",
+        "speaker": "Florent Daudens"
+      },
+      "summary": "Data quality concerns emerge through the lens of language representation -- models trained on French from France fail Quebec French speakers, raising questions about whose data and whose language gets represented in AI systems."
+    }
+  ],
+  "primary_themes": [
+    "T01",
+    "T05"
+  ],
+  "secondary_themes": [
+    "T02",
+    "T03",
+    "T04",
+    "T06",
+    "T08",
+    "T11"
+  ],
+  "tangential_themes": [
+    "T07",
+    "T09",
+    "T10",
+    "T12"
+  ]
+}

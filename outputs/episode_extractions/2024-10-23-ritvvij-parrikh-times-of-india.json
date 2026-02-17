@@ -1,0 +1,264 @@
+{
+  "episode_meta": {
+    "title": "Ritvvij Parrikh: Personalization Vs. Editorial Judgment? At The Times of India, You Can Have Both",
+    "date": "2024-10-23",
+    "guests": [
+      {
+        "name": "Ritvvij Parrikh",
+        "role": "Senior Director of Product",
+        "organization": "The Times of India"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "India",
+    "word_count": 7281
+  },
+  "ai_tools": [
+    "Signals (in-house personalization/recommender system at Times of India)",
+    "Growth Rx (in-house real-time clickstream data pipeline tool at Times of India)",
+    "ChatGPT",
+    "Google Analytics",
+    "BigQuery",
+    "BloombergGPT (referenced as Bloomberg's own trained LLM)"
+  ],
+  "use_cases": [
+    {
+      "description": "Personalized article recommendations displayed in 'For You' widgets on the Times of India website and app feed, driven by the in-house Signals recommender system",
+      "tool_used": "Signals (in-house recommender system)",
+      "organization": "The Times of India",
+      "outcome": "Sustained CTR increase of approximately 85% on web and 30-40% on app over 1.5 years; around 50% of personalized page views come from stories older than two days, successfully recirculating evergreen archive content",
+      "stage": "Production"
+    },
+    {
+      "description": "Personalized push notifications sent to app users based on recommender system outputs",
+      "tool_used": "Signals (in-house recommender system)",
+      "organization": "The Times of India",
+      "outcome": "Part of the broader personalization strategy driving engagement improvements",
+      "stage": "Production"
+    },
+    {
+      "description": "Real-time clickstream data collection and low-latency data pipeline for powering recommendation models, replacing reliance on delayed Google Analytics data",
+      "tool_used": "Growth Rx (in-house data pipeline tool)",
+      "organization": "The Times of India",
+      "outcome": "Near real-time data availability enabling responsive recommender systems; strong data audit tools ensuring accuracy comparable to banking/finance standards",
+      "stage": "Production"
+    },
+    {
+      "description": "Self-learning AI model that dynamically adjusts recommendations based on story supply fluctuations (e.g., print dump at 4-5 AM vs. lower output midday) without hard-coded rules",
+      "tool_used": "Signals (in-house recommender system)",
+      "organization": "The Times of India",
+      "outcome": "System autonomously identifies when CTR drops due to reduced recent story supply and digs deeper into the archive to find relevant content",
+      "stage": "Production"
+    },
+    {
+      "description": "Editorial team providing training data (tagging evergreen vs. non-evergreen stories) and editorial judgment insights that are encoded into the recommendation algorithm",
+      "tool_used": "Signals (in-house recommender system)",
+      "organization": "The Times of India",
+      "outcome": "Better alignment of algorithmic recommendations with journalistic values; content moderation layer allows editors to reject inappropriate recommendations",
+      "stage": "Production"
+    },
+    {
+      "description": "Custom ChatGPT prompt configured for Parrikh's eight-year-old daughter with age-appropriate guardrails for answering factual questions",
+      "tool_used": "ChatGPT",
+      "organization": "Personal use",
+      "outcome": "Child can satisfy curiosity with age-appropriate factual answers",
+      "stage": "Personal use"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Personalization at Times of India has sustained a CTR increase of almost 85% on the web and 30-40% on the app over the last one and a half years",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "First-party performance data"
+    },
+    {
+      "claim": "Around 50% of personalized page views come from stories older than two days, demonstrating the ability to recirculate evergreen archive content",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "First-party performance data"
+    },
+    {
+      "claim": "The business of news is all about chasing moving targets -- the editorial team chases the news cycle, distribution teams chase changing SEO algorithms and social media trends, and ad floor prices constantly change",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Conceptual framework / professional observation"
+    },
+    {
+      "claim": "Most off-the-shelf personalization models were not built to run news businesses; news companies using personalization mostly add widgets or tabs rather than running the entire business through it",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Industry observation"
+    },
+    {
+      "claim": "Amazon changes its prices on its platform almost 2.5 million times a day",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "External industry statistic"
+    },
+    {
+      "claim": "60% of all trading in the US is algorithmic",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "External industry statistic"
+    },
+    {
+      "claim": "Analytics is a backward-looking science that gives blended data at platform or cohort level, missing the nuances of individual user preferences that only machines can observe",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Professional analysis"
+    },
+    {
+      "claim": "Newsrooms will eventually train their own LLMs with their own archives once LLMs become critical to distributing and personalizing content, but currently LLMs are seen as cost optimization tools",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Professional prediction"
+    },
+    {
+      "claim": "Multiple revenue models (affiliate, subscription, direct ads, indirect ads, sponsored content) cannibalize each other when operating on the same surface area and same users without algorithmic optimization",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Professional analysis"
+    },
+    {
+      "claim": "Recommender systems have been around for 15 years and the news industry hasn't fully adopted them, so jumping directly to LLMs is not practical",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Professional observation"
+    },
+    {
+      "claim": "Bloomberg was able to train its own LLM because it is fundamentally a data company with its Bloomberg terminal, far ahead in technology compared to most news companies",
+      "speaker": "Ritvvij Parrikh",
+      "evidence_type": "Industry observation"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Off-the-shelf personalization APIs are not built for news; news has unique dynamics (moving targets, multiple news cycle curves, evergreen vs. breaking content) that standard e-commerce or entertainment recommender systems cannot handle",
+      "category": "Technical"
+    },
+    {
+      "description": "News is a low average revenue per user product, limiting how much can be spent on algorithms compared to big tech companies, requiring judicious use of minimal data points",
+      "category": "Financial/Resource"
+    },
+    {
+      "description": "Building in-house real-time data pipelines is extremely hard and costly to outsource, requiring banking-level data accuracy standards",
+      "category": "Technical/Infrastructure"
+    },
+    {
+      "description": "Concept drift and data drift: rapid changes in business features (e.g., dynamic paywalls) cause data definitions to become misaligned with reality if not updated in tandem",
+      "category": "Data quality"
+    },
+    {
+      "description": "Cultural shift from editorial-controlled homepages to algorithm-driven personalization requires editorial buy-in and maintaining guardrails for journalistic ethics",
+      "category": "Organizational/Cultural"
+    },
+    {
+      "description": "A/B testing in news is flawed because the news cycle constantly evolves; a test validated over two weeks gets committed permanently but may become invalid as conditions change",
+      "category": "Methodological"
+    },
+    {
+      "description": "House of brands strategy (splitting audiences across multiple publications) and siloed division heads for different revenue models lead to local optimization rather than global revenue optimization",
+      "category": "Organizational/Structural"
+    },
+    {
+      "description": "Multiple revenue models (affiliate, subscription, ads, sponsored content) operating on the same surface area and users cannibalize each other's revenue without algorithmic coordination",
+      "category": "Business/Revenue"
+    },
+    {
+      "description": "LLM hallucination risk means generated content still requires human oversight, and reasoning capabilities in LLMs are not yet mature enough for reliable news production",
+      "category": "Technical/AI limitations"
+    },
+    {
+      "description": "Stale stories being recommended during early testing iterations, requiring editorial team oversight to catch and correct errors",
+      "category": "Technical/Quality"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The business of news is all about chasing moving targets. Effectively the editorial team is constantly chasing a news cycle. It keeps changing. Our distribution teams are constantly chasing a changing SEO algorithm or changing trends on social media. The floor prices of ad rates are constantly changing.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Defining news from an algorithms perspective",
+      "pedagogical_value": "Powerful conceptual framework for understanding why news recommender systems differ from standard ones; useful for teaching the unique dynamics of algorithmic news distribution"
+    },
+    {
+      "text": "There is no rich country with low energy, like energy as an electricity. Similarly, there is no rich media company that doesn't have strong data pipelines, strong first-party data and deep algorithms.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Data infrastructure as foundational to media business success",
+      "pedagogical_value": "Memorable analogy connecting data infrastructure to media business viability; excellent for arguing the strategic necessity of data investment in newsrooms"
+    },
+    {
+      "text": "One of the best things about working in a newsroom is that all stories are vetted. All stories are written by journalists. There's no conspiracy theory or there's no fake news out there. So we are in fact operating in a very safe environment. So if there should be a personalization system, it's in a newsroom and not outside one.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Safety advantage of newsroom personalization versus social media platforms",
+      "pedagogical_value": "Strong argument for why newsrooms are uniquely positioned for responsible personalization; counters fears about algorithmic curation in journalism"
+    },
+    {
+      "text": "I foresee that in the coming years, recommender systems and news businesses will evolve to operate more like fintech slash mutual fund algorithms where we look at each revenue model -- affiliate, subscription, sponsored content, direct ads, indirect ads -- as a different asset class similar to equity, debt, gold, real estate.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Future of revenue optimization through recommender systems",
+      "pedagogical_value": "Novel conceptual framework for newsroom revenue optimization; bridges fintech thinking with media business models; highly original and valuable for teaching innovative media strategy"
+    },
+    {
+      "text": "We use as less data points as possible to personalize. So think of it as a multi-tier system where if you're dipping into the archive, we'll have only one or two attributes associated with each story... So there is constantly this calculation of what is the least amount of information that can give us the highest return.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Efficient data use in resource-constrained news personalization",
+      "pedagogical_value": "Practical insight into building scalable recommendation systems under resource constraints typical of news organizations; challenges assumption that more data always equals better outcomes"
+    },
+    {
+      "text": "Generative AI is two, three years old right now. Recommended systems have been around in the market for almost 15 years. We've not fully adopted those and we are imagining that we can participate in the LLM race. It's not practical.",
+      "speaker": "Ritvvij Parrikh",
+      "topic": "Prioritizing recommender systems over LLMs for news organizations",
+      "pedagogical_value": "Sobering reality check on industry hype around generative AI; useful for teaching strategic prioritization of AI investments in newsrooms"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Start collecting first-party data immediately -- it is the most important foundational investment for any AI initiative",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organizations / media companies"
+    },
+    {
+      "advice": "Drive audiences to log in so you know who your users are; change your value proposition if needed to incentivize login, because without user information there is no way to use any AI effectively",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organizations / media companies"
+    },
+    {
+      "advice": "Build great in-house data collection systems and data pipelines; treat your data with the accuracy and rigor of a banking and finance company to avoid concept drift and data drift",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organizations / media companies"
+    },
+    {
+      "advice": "Build self-learning AI systems without hard-coded rules embedded in the algorithm; let the algorithm learn to adapt to changing conditions rather than encoding business rules that become stale",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "Product teams building news recommender systems"
+    },
+    {
+      "advice": "Identify what is at the core of your business and build that in-house as a long-term asset; use off-the-shelf tools only for non-core functions that could be replaced by adding more people",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organizations evaluating build vs. buy for AI"
+    },
+    {
+      "advice": "Do not A/B test without an extremely strong hypothesis; testing for the sake of testing leads to permanently committed code that may not remain valid as the news cycle changes",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "Product managers in news organizations"
+    },
+    {
+      "advice": "Focus cross-functional collaboration on building long-term assets (like encoding editorial judgment into algorithms) rather than one-time projects like election coverage that every competitor also does",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organization leadership"
+    },
+    {
+      "advice": "Recommender systems should be adopted before investing in LLMs; the journey through strong data systems, server-side traffic handling, and scalable recommender systems prepares you to eventually train your own models",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organizations planning AI strategy"
+    },
+    {
+      "advice": "Calculate the cost of revenue across all revenue models; without understanding how one revenue model cannibalizes another, there is no way to ensure long-term strategic profitability",
+      "speaker": "Ritvvij Parrikh",
+      "target_audience": "News organization revenue and business strategy teams"
+    }
+  ],
+  "external_references": [
+    "Google News and Axios research project called 'News Lifespan' (four types of news cycle curves)",
+    "Netflix CEO quote about competing with people's sleeping time",
+    "Bloomberg and BloombergGPT (Bloomberg training its own LLM)",
+    "Vox Media's house of brands structure (The Verge, Strategizer, New York Magazine, Vox)",
+    "Amazon's dynamic pricing (2.5 million price changes per day)",
+    "YouTube's algorithm-driven, geography-agnostic personalization model",
+    "Economic Times and India Times (Times of India sister publications)",
+    "US algorithmic trading (60% of all US trading is algorithmic)",
+    "Unilever (as example of offline business organizational structure)",
+    "Harvard Innovation Labs Spark Grant (podcast funding)"
+  ]
+}

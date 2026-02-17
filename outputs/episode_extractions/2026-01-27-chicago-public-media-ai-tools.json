@@ -1,0 +1,295 @@
+{
+  "episode_meta": {
+    "title": "Melissa Bell, Aron Pilhofer, Mark Chonofsky & David Chivers: Chicago Public Media on Building AI Tools That Serve the Audience",
+    "date": "2026-01-27",
+    "guests": [
+      {
+        "name": "Melissa Bell",
+        "role": "CEO",
+        "organization": "Chicago Public Media"
+      },
+      {
+        "name": "Aron Pilhofer",
+        "role": "Chief Product and Membership Officer",
+        "organization": "Chicago Public Media"
+      },
+      {
+        "name": "Mark Chonofsky",
+        "role": "AI Fellow (Lenfest AI Collaborative)",
+        "organization": "Chicago Public Media"
+      },
+      {
+        "name": "David Chivers",
+        "role": "Lead Advisor, Lenfest AI Collaborative",
+        "organization": "Lenfest Institute for Journalism"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 8272
+  },
+  "ai_tools": [
+    "AI-powered transcription models (unspecified)",
+    "AI-powered translation tools (unspecified, used for English-to-Spanish translation)",
+    "AI-enabled web development tools (used to build natural-language-to-SQL query interface)",
+    "Slack integrations (AI-generated weather and traffic reports in the voice of WBEZ)",
+    "Figma Make (AI-backed design tool, mentioned by Aron Pilhofer for prototyping)",
+    "MCP (Model Context Protocol, referenced as emerging transformational tool from OpenAI)",
+    "AI coding assistants (used by Mark Chonofsky for writing code)",
+    "ChatGPT / generative AI (used by Aron Pilhofer for coding, prototyping, vendor comparison)",
+    "Machine learning models (for content recommendation, distinguished from LLM-based approaches)",
+    "Content recommendation vendors (third-party, chosen over building in-house)"
+  ],
+  "use_cases": [
+    {
+      "description": "Transcribing an extensive audio archive from WBEZ radio to make decades of audio content searchable, discoverable, and citable alongside the print archive",
+      "tool_used": "AI transcription models (unspecified)",
+      "organization": "Chicago Public Media",
+      "outcome": "Unlocks 40+ years of audio journalism for discoverability; enables audio sources to appear in print pieces; creates new opportunities for historical archival work",
+      "stage": "production"
+    },
+    {
+      "description": "Translating editorial content from English to Spanish to better serve Spanish-speaking audiences in the Chicagoland area",
+      "tool_used": "AI translation tools (unspecified)",
+      "organization": "Chicago Public Media",
+      "outcome": "Dramatically faster turnaround from 'yesterday's news tomorrow' to near-real-time; previously translated content was essentially last week's news by the time it was published",
+      "stage": "production"
+    },
+    {
+      "description": "Building a natural-language interface for a journalist to query a large spreadsheet of Chicago schools data without needing to know SQL",
+      "tool_used": "AI-enabled web development tools (natural language to SQL)",
+      "organization": "Chicago Public Media",
+      "outcome": "Enabled a journalist to query a complex dataset conversationally; created a reusable data access tool pattern for similar future needs",
+      "stage": "production"
+    },
+    {
+      "description": "Slack integrations delivering weather and traffic reports in the editorial voice of WBEZ",
+      "tool_used": "Slack AI integrations (custom-built)",
+      "organization": "Chicago Public Media",
+      "outcome": "Quick proof of concept that built trust with on-air talent and newsroom staff; demonstrated AI can respect editorial voice",
+      "stage": "production"
+    },
+    {
+      "description": "Content recommendation to improve recirculation and surface relevant content to individual audience members",
+      "tool_used": "Initially proposed LLM-based approach; pivoted to third-party vendors using traditional machine learning techniques",
+      "organization": "Chicago Public Media",
+      "outcome": "Decision that LLM inference was not the right approach; consensus to use external vendors with better models at lower staff cost",
+      "stage": "ideation"
+    },
+    {
+      "description": "Using AI for rapid prototyping and demos instead of lengthy written memos to accelerate product development cycles",
+      "tool_used": "Figma Make, AI coding tools, generative AI (unspecified)",
+      "organization": "Chicago Public Media",
+      "outcome": "Product managers can produce functional demos of potential features rather than writing 40-page memos; faster product cycles",
+      "stage": "production"
+    },
+    {
+      "description": "Using AI to compare and contrast technology vendor feature sets, API robustness, and capabilities during platform assessment",
+      "tool_used": "Generative AI (unspecified, likely ChatGPT)",
+      "organization": "Chicago Public Media",
+      "outcome": "Streamlined vendor evaluation process",
+      "stage": "production"
+    },
+    {
+      "description": "Planned use of AI to parse massive data sets for deep investigative reporting",
+      "tool_used": "Unspecified AI tools",
+      "organization": "Chicago Public Media",
+      "outcome": "Expected to make investigative journalism more efficient for journalists",
+      "stage": "ideation"
+    },
+    {
+      "description": "Planned AI tools for local business outreach to better understand businesses for underwriting campaigns",
+      "tool_used": "Unspecified AI tools",
+      "organization": "Chicago Public Media",
+      "outcome": "Expected to deepen connection to local community and strengthen membership business",
+      "stage": "ideation"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "Chicago Public Media has both public media radio assets (WBEZ) and a traditional print/web publication (Chicago Sun-Times), making it a unique institution in the Lenfest collaborative",
+      "speaker": "David Chivers",
+      "evidence_type": "factual"
+    },
+    {
+      "claim": "The journalism industry had mixed results adapting to the internet's disruption and missed many opportunities; it is critical not to repeat that mistake with AI",
+      "speaker": "Melissa Bell",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI translation reduced turnaround from 'yesterday's news tomorrow' (essentially last week's news) to much faster publication for Spanish-language content",
+      "speaker": "David Chivers",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Chicago Public Media's audio archive is so extensive they don't actually know how much they have",
+      "speaker": "Mark Chonofsky",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Content recommendation should not be done using LLM inference; traditional machine learning and third-party vendors are better suited",
+      "speaker": "Mark Chonofsky",
+      "evidence_type": "experiential"
+    },
+    {
+      "claim": "The product team at Chicago Public Media consists of only two product managers, the minimum to even call it a team",
+      "speaker": "Aron Pilhofer",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "MCP (Model Context Protocol) is going to be transformational for modular AI integration work in newsrooms",
+      "speaker": "David Chivers",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "In the Chicago Sun-Times AI-generated book list incident (May 2025), 7 out of 10 recommended books were hallucinated (imaginary titles by real authors), created by a Hearst freelancer using AI against policy",
+      "speaker": "Melissa Bell",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "People's reluctance and fear around AI comes from being presented with AI solutions to problems they don't have or problems not well-solved by AI",
+      "speaker": "Mark Chonofsky",
+      "evidence_type": "experiential"
+    },
+    {
+      "claim": "The Lenfest AI Fellows independently organized their own biweekly working group meetings within the first month of the program",
+      "speaker": "David Chivers",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Limited resources at local and public media organizations constrain experimentation with AI; tight budgets leave little room for exploration beyond editorial, product, and maintenance needs",
+      "category": "organizational"
+    },
+    {
+      "description": "Building trust with newsroom staff as a non-journalist AI fellow; newsrooms are tricky places for outsiders and require proving value through small, impactful wins",
+      "category": "organizational"
+    },
+    {
+      "description": "People's reluctance and fear around AI stems from previous experiences where someone pushed an AI solution to a problem they didn't have or that AI doesn't solve well",
+      "category": "editorial"
+    },
+    {
+      "description": "The AI-generated book list incident (Chicago Sun-Times, May 2025) demonstrated how AI hallucinations can slip through multiple editorial safeguards and go viral, overshadowing the organization's real investigative journalism",
+      "category": "ethical"
+    },
+    {
+      "description": "Deciding what to build in-house versus buy from vendors, especially with only one AI fellow and an overburdened product team of two",
+      "category": "technical"
+    },
+    {
+      "description": "The AI space moves so fast that original grant proposals can become obsolete before implementation; need for flexibility to pivot when vendors already offer proposed solutions",
+      "category": "technical"
+    },
+    {
+      "description": "Ensuring generative AI is used with guardrails and never in the business of generating content, including links, while still finding the useful space around it",
+      "category": "ethical"
+    },
+    {
+      "description": "Traditional recommendation engines provide 'more of the same' rather than truly relevant, individually targeted content; building better personalization without the 'semi-embarrassing' approaches other news organizations have tried",
+      "category": "technical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I think the journalism industry had mixed results on adapting to the internet's disruption of journalism and missed a lot of opportunity to take their journalism forward, their distribution forward, their community gathering forward with the new tools available to them. So I think it's really important now for us to not miss this new opportunity where everything is almost being rewritten in the technology space.",
+      "speaker": "Melissa Bell",
+      "topic": "Learning from past failures of digital adaptation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "People's reluctance and fear is around people who've come to them with an AI solution to a problem that they don't have or a problem that is not well solved by an AI system.",
+      "speaker": "Mark Chonofsky",
+      "topic": "Understanding newsroom resistance to AI",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We're spending a lot of time ensuring that the role of generative AI specifically is that there are guardrails around it and that we are not in the business of generating content at any point, up to and including links. We're not interested in that. We're not focused on that. But around it is a space for us to experiment.",
+      "speaker": "Aron Pilhofer",
+      "topic": "Guardrails and boundaries for generative AI in newsrooms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I wouldn't say that we have an AI product roadmap. I would say we have a product roadmap of which AI is a part. AI is contributing and enabling us to conceive of and launch potentially God willing successful products that we wouldn't otherwise be able to launch.",
+      "speaker": "Aron Pilhofer",
+      "topic": "Integrating AI into product strategy rather than treating it as separate",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "One of the both the opportunities that AI presents to us is better surfacing our humanity and better surfacing our authenticity. And a lot of times I think there's a tendency, especially in leadership roles, to be a little bit more buttoned up and not admit to mistakes... I think that this is a moment for us as leaders to reconsider that and to say we need to admit that we're humans and that we err and that there is going to be a learning curve for us just as much as there is for anyone else.",
+      "speaker": "Melissa Bell",
+      "topic": "Leadership transparency and responding to AI failures",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I came to this job as really an AI skeptic and I think I still maintain a skeptical mindset. I don't use AI tools in at least the popular sense in my personal life at all, use it extensively for writing code for work and in the ways that it's integrated into our workflow processes... But you know, as soon as I get home, I'm like, I don't deal with this anymore.",
+      "speaker": "Mark Chonofsky",
+      "topic": "Healthy skepticism from the AI practitioner's perspective",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Start with small, impactful proof-of-concept projects (like Slack integrations) to build trust before pursuing larger enterprise-level AI deployments",
+      "speaker": "David Chivers",
+      "target_audience": "Newsrooms and AI fellows beginning AI adoption"
+    },
+    {
+      "advice": "Get to know people and their workflows personally; don't push AI solutions but instead make yourself available when people hit tedious barriers that AI can genuinely help with",
+      "speaker": "Mark Chonofsky",
+      "target_audience": "AI fellows and technologists entering newsrooms"
+    },
+    {
+      "advice": "Do not create a separate AI product roadmap; integrate AI as an enabling component within the broader product roadmap",
+      "speaker": "Aron Pilhofer",
+      "target_audience": "News product leaders"
+    },
+    {
+      "advice": "Build in-house only when the use case is specific enough to your situation that you'll stay ahead of competitors or when it's too small for outside vendors to develop; otherwise, buy from vendors",
+      "speaker": "Mark Chonofsky",
+      "target_audience": "Newsroom product and engineering teams"
+    },
+    {
+      "advice": "Produce demos, not memos: use AI-enabled prototyping to quickly show what a product could look like rather than writing lengthy specifications",
+      "speaker": "Aron Pilhofer",
+      "target_audience": "Product managers and newsroom leaders"
+    },
+    {
+      "advice": "When AI failures happen publicly, respond with authenticity and transparency; use the incident as an opportunity to establish clear AI policies, apologize to the audience, and create space for internal dialogue about responsible AI use",
+      "speaker": "Melissa Bell",
+      "target_audience": "News organization leaders"
+    },
+    {
+      "advice": "Create a community of practice among AI fellows with structured biweekly meetings that include project demos, problem-solving, and tracking broader AI industry developments",
+      "speaker": "Mark Chonofsky",
+      "target_audience": "Cohort-based AI fellowship programs"
+    },
+    {
+      "advice": "Be flexible and willing to pivot from original grant proposals when the AI landscape changes or when vendors already offer what you planned to build",
+      "speaker": "David Chivers",
+      "target_audience": "AI program administrators and grantees"
+    }
+  ],
+  "external_references": [
+    "Lenfest Institute for Journalism",
+    "Lenfest AI Collaborative and Fellowship Program",
+    "OpenAI",
+    "Microsoft",
+    "Chicago Public Media",
+    "WBEZ (public radio)",
+    "Chicago Sun-Times",
+    "Philadelphia Inquirer (and Project Dewey, referenced from prior episode)",
+    "Hearst Publications",
+    "Figma Make (AI-backed design tool)",
+    "Slack (product manager AI demo example)",
+    "MCP (Model Context Protocol)",
+    "MADAP (referenced from prior episode on Philadelphia Inquirer)",
+    "Stephen Colbert (Late Show, covered the AI book list incident)",
+    "Bluesky (platform where AI book list incident went viral)",
+    "Data Storytelling Conference 2014 (Aron Pilhofer's talk: 'Building Stuff That Doesn't Suck')",
+    "Google Meet (used for fellow working group meetings)",
+    "Newsroom Robots podcast",
+    "Harvard Innovation Labs"
+  ]
+}

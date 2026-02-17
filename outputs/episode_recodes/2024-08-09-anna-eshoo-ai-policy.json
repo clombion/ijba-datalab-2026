@@ -1,0 +1,141 @@
+{
+  "episode_date": "2024-08-09",
+  "episode_title": "Congresswoman Anna Eshoo: Shaping the Future of AI Policy",
+  "theme_codings": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "relevance": "secondary",
+      "sub_themes_present": ["T01.3"],
+      "best_quote": {
+        "text": "We have to be purposeful about it. We can't let it fall to a second or third tier in terms of an overall effort.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Eshoo addresses workforce displacement fears, referencing the Hollywood writers' strike and arguing that purposeful job training must be a priority. She notes many AI jobs do not require a PhD, signaling accessibility alongside disruption."
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": ["T02.1", "T02.3"],
+      "best_quote": {
+        "text": "Transparency is the antiseptic. It's the antiseptic for the work that we do so that everyone knows and has a basic understanding of what it is, how it works. And that it's going to be helpful to them and not harmful.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Transparency is framed as the foundational antidote to AI harms. Eshoo documents constituents' inability to distinguish real from fake content and their demand for protection, positioning misinformation amplification through generative AI as a primary public concern."
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "relevance": "secondary",
+      "sub_themes_present": ["T03.3"],
+      "best_quote": {
+        "text": "Good data in is good data out. Bad data in is bad data out.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Eshoo identifies inherited systemic inequities being compounded by AI and uses the garbage-in-garbage-out framework to argue for data quality as an ethical precondition, though she does not detail specific ethics frameworks."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "relevance": "tangential",
+      "sub_themes_present": ["T04.5"],
+      "best_quote": {
+        "text": "Transparency is the antiseptic. It's the antiseptic for the work that we do so that everyone knows and has a basic understanding of what it is, how it works. And that it's going to be helpful to them and not harmful.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Black box AI models are criticized for their opacity, but the discussion remains at the policy level rather than addressing specific technical architectures or engineering choices."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "relevance": "secondary",
+      "sub_themes_present": ["T05.1"],
+      "best_quote": {
+        "text": "So many of the jobs, as the companies have told me, you don't need a PhD for it.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Eshoo advocates purposeful workforce training for AI-era roles and democratizing AI access, noting that many AI jobs are more accessible than assumed. The Create Act legislation aims to expand AI research resource access."
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "relevance": "secondary",
+      "sub_themes_present": ["T06.1"],
+      "best_quote": {
+        "text": "We have to be purposeful about it. We can't let it fall to a second or third tier in terms of an overall effort.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "As a Congressional leader, Eshoo models executive-level sponsorship and 'seize the moment' rhetoric, framing AI as an exciting new chapter requiring purposeful investment and leadership commitment."
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "primary",
+      "sub_themes_present": ["T07.1", "T07.3"],
+      "best_quote": {
+        "text": "Who owns it? Who owns it? If, you know, huge swaths and there are huge swaths of content that are swept up to be used in whatever way.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Content ownership and the training data wars are central to this episode. Eshoo frames AI companies' scraping of news content as a fundamental ownership violation, referencing the NYT lawsuit and Hollywood strike. She argues legislation is needed to address the power imbalance between tech companies and content creators."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "They worry about what their children are exposed to, but themselves as well, because they don't know real from fake. And they deserve to know. They deserve to be protected.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "The episode does not focus on new news product formats or personalization; audience experience is addressed only through the lens of constituent concerns about deceptive content."
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "That's the writer's product is something that they've produced. You know, that's their gold.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "The economic value of content is invoked metaphorically (writers' product as 'their gold') but the episode does not analyze business models, revenue strategies, or market dynamics in detail."
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "relevance": "primary",
+      "sub_themes_present": ["T10.1"],
+      "best_quote": {
+        "text": "Transparency is the antiseptic. It's the antiseptic for the work that we do so that everyone knows and has a basic understanding of what it is, how it works. And that it's going to be helpful to them and not harmful.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "This is a core theme. Eshoo details a tripartite legislative framework addressing national security/biosecurity, democratization of AI (Create Act), and deception. She champions the AI Foundation Model Transparency Act and acknowledges Congress's slow legislative pace as a challenge."
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "We have to be purposeful about it. We can't let it fall to a second or third tier in terms of an overall effort.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "The episode does not address prototyping, production pipelines, or the operational journey of AI deployment in newsrooms."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "relevance": "secondary",
+      "sub_themes_present": ["T12.2"],
+      "best_quote": {
+        "text": "Good data in is good data out. Bad data in is bad data out.",
+        "speaker": "Anna Eshoo"
+      },
+      "summary": "Data quality is framed as a foundational concern: Eshoo's garbage-in-garbage-out argument extends to misinformation being scraped and amplified by generative AI systems, though she does not address source protection or privacy-specific technical measures."
+    }
+  ],
+  "primary_themes": ["T02", "T07", "T10"],
+  "secondary_themes": ["T01", "T03", "T05", "T06", "T12"],
+  "tangential_themes": ["T04", "T08", "T09", "T11"]
+}

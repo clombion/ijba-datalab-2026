@@ -1,0 +1,272 @@
+{
+  "episode_date": "2024-09-02",
+  "episode_title": "Your Questions Answered: A Live Q&A Session in Collaboration with the Online News Association",
+  "codes": [
+    {
+      "code": "ChatGPT tier literacy",
+      "description": "Distinguishing between free, paid, and Teams subscription tiers and their privacy implications for newsroom use",
+      "excerpts": ["get a ChatGPT Teams account. Now that is different from the free version or a paid version of ChatGPT because in the ChatGPT teams they are saying that they do not train on your data."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "no-code automation empowerment",
+      "description": "Using tools like Zapier to create AI-powered workflows without programming knowledge, democratizing technical capability",
+      "excerpts": ["you can create Zapier AI automation... there are no code AI automations. So one thing that Zapier allows you to do is, for example, you can create it so that every week it's able to go and pull in your Google Analytics, and then from there it's able to send a prompt to ChatGPT that looks at that data and then analyzes and produces a summary."],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "experimental phase framing",
+      "description": "Positioning the current moment as fundamentally experimental, requiring understanding before deployment",
+      "excerpts": ["We are in a very experimental phase with this technology, and the way to harness it is by us understanding what the technology is, what are the right and wrong use cases of this, and how we can apply it."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "structured AI literacy programs",
+      "description": "Formal training programs that progress from foundational courses to hands-on prompt clinics, as modeled by Radio Canada",
+      "excerpts": ["building these three hour foundational courses on AI's basics... then they would do another session like prompt clinics. And these were dedicated experimentation workshops where they would bring together people from the editorial side of the newsroom, as well as technologists"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "cross-departmental bridge building",
+      "description": "Pairing editorial staff with technologists to generate AI solutions from genuine newsroom pain points",
+      "excerpts": ["the editorial team has so much of insights, and we need to have that bridge to be able to communicate with the tech teams who will be building products and implementing these solutions"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "AI use as taboo",
+      "description": "Journalists secretly using AI but afraid to disclose it due to cultural silence and fear of judgment",
+      "excerpts": ["I use AI a lot, but I'm actually afraid to tell anybody in my team that I do because when nobody's talking about it and I'm just afraid that if I say they they wouldn't understand what I mean by that because they're not hearing anyone else is talking about AI."],
+      "speaker": "Nikita Roy (quoting anonymous journalist)",
+      "valence": "negative"
+    },
+    {
+      "code": "AI wins and fails channels",
+      "description": "Creating shared Slack channels for documenting positive and negative AI experiences to build institutional knowledge",
+      "excerpts": ["have something like just a Slack channel, which is an AI wins and AI fails... if it did not work, you put it in AI fails because for example, somebody was like, oh, I tried it to get it to help me with like research and it like made up links."],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "hallucination awareness spreading",
+      "description": "Using shared failure documentation to inform colleagues about AI limitations like fabricated links",
+      "excerpts": ["Maybe somebody else on your team did not know that ChatGPT makes up links. But if you put that in your AI Fields tab, that's building knowledge within your team."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "photorealistic image prohibition",
+      "description": "Newsrooms drawing lines at photorealistic AI images to prevent audience confusion with actual photography",
+      "excerpts": ["Creating superrealistic images if that's not been taken by a photojournalist, for example, that gets audience members to then not know if something was AI generated and would lead to trust issues."],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "illustration as safe zone",
+      "description": "AI-generated illustrations (not photos) as an ethically acceptable use case for editorial visuals",
+      "excerpts": ["a lot of newsrooms like Semaphore, for example, you can see that what they've been doing is making illustrations out of it. And that's one place where a lot of people are experimenting"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "ethical sourcing of training data",
+      "description": "Choosing AI tools based on whether their training data respects original creators, with Adobe Firefly as exemplar",
+      "excerpts": ["Adobe Firefly is a more ethically sourced AI model than something like Midjourney. And so that's one that that's one way I'm seeing newsrooms decide which tool that they use if it aligns with their ethical kind of standards."],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "principles over guidelines",
+      "description": "Advocating for flexible AI principles (the 'why') rather than rigid guidelines (the 'how') that quickly become outdated",
+      "excerpts": ["I think there's a difference with the principles. It's more of a why would we use AI approach like instead of like the details of how exactly, the yes or no use cases. Because the technology is changing so quickly"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "four pillars of AI ethics",
+      "description": "Four recurring components across newsroom AI ethics policies: transparency/disclosure, accuracy/human oversight, privacy/data use, purpose-driven use",
+      "excerpts": ["there are four components I feel like four key components that I've been noticing across multiple AI ethics guidelines. So the first one is always in regards to transparency and disclosure... accuracy and human oversight... privacy and data use... purpose-driven use."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "why before how",
+      "description": "Insistence on understanding the purpose of AI adoption before selecting tools or methods",
+      "excerpts": ["It's really important, in my opinion, to be able to know the why we're using AI before even getting to the how we are using AI in the newsroom."],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "local newsroom tool access",
+      "description": "Free or affordable AI tools specifically designed for under-resourced local newsrooms",
+      "excerpts": ["YesSEO is a Slack-based free AI tool and it was actually built by a fellow at the Reynolds Journalism Institute... it's free and over 400 local newsrooms use that Slack tool"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "AI as co-pilot not replacement",
+      "description": "Positioning AI tools as assistants that bring work to a baseline level requiring human finishing",
+      "excerpts": ["Any generative AI tool that I'm using right now, it has to be edited and it has to be vetted and I wouldn't be taking anything straight to publish. And the way I work I think of using AI tools is this term that's thrown out everywhere is my co-pilot I expect them to take me to a particular level with which after that I add in my own insights and my own knowledge."],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "human expertise superiority",
+      "description": "Experienced journalists performing at a level better than GPT models, reducing AI to a brainstorming role",
+      "excerpts": ["if you have been working in this space for a while, you already are able to perform at a level better than these GPT models. And this is just to help you brainstorm with it."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "vendor jargon skepticism",
+      "description": "Warning that AI vendors misuse technical terms like 'fine-tuned' to oversell capabilities",
+      "excerpts": ["if somebody's saying that they have fine-tuned a model. What do they mean by that? Is that just them taking your data and creating a bot on top of that? Are they actually taking examples of data from you and then creating a model that is bespoke and specific to your tone and voice. So a lot of those are like ways in which people are trying to sell you products and playing around with the different jargons and words."],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "privacy policy vigilance",
+      "description": "Constant need to monitor data usage policies of existing tools, not just new AI vendors",
+      "excerpts": ["Slack now is using your messages to train their AI models and you have to go and opt out of it if you don't want to be doing that... it's not just vendors coming to you, it's tools that you're already using that you need to be constantly looking at their privacy policy"],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "workflow integration as adoption gate",
+      "description": "Tools that require separate workflows or have steep learning curves fail to achieve adoption",
+      "excerpts": ["if they have a huge learning curve that's where they lose me... And if it's not able to be built into my workflow, again, that's something that that's that's that that's part of the adoption. And so your team is not going to be adopting it because it's not a part of their workflow"],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "local transcription for source protection",
+      "description": "Running AI transcription locally to avoid sending confidential interview data to third-party services",
+      "excerpts": ["If it's a very confidential interview, the risk is high. Would you is there a possibility for you to run a transcription model locally on your computer so you're not sending that data out to anywhere else"],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "one-to-two becomes five",
+      "description": "AI enabling tiny newsrooms to operate with the output capacity of larger teams, raising workforce implications",
+      "excerpts": ["I talk about how we can be a one-to-two person newsroom operating as a five person and being able to cover. But what does that mean for the future of work and roles within our newsrooms"],
+      "speaker": "Nikita Roy",
+      "valence": "mixed"
+    },
+    {
+      "code": "industry-wide upskilling deficit",
+      "description": "Current AI literacy efforts are insufficient relative to the scale of transformation needed across journalism",
+      "excerpts": ["to be honest, I don't think we are seeing as much. Like ONA has been taking part and helping in these AI literacy CUNY at CUNY we are doing that, but these are still at the end of the day in my opinion still small"],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "data infrastructure as foundation",
+      "description": "Good data infrastructure, not tools, as the prerequisite for meaningful AI adoption in newsrooms",
+      "excerpts": ["the basics and building blocks of AI is data and it's about data infrastructure. So one thing that you need to be focusing on right now is making sure that you have good data in your newsroom."],
+      "speaker": "Nikita Roy",
+      "valence": "neutral"
+    },
+    {
+      "code": "data fragmentation crisis",
+      "description": "Most newsrooms struggling with data spread across sources, inaccessible or unclean, preventing AI readiness",
+      "excerpts": ["most newsrooms that I talk to are all still dealing with data being fragmented in different different sources, people not having access to data or not having access to clean data"],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "publisher deal pragmatism",
+      "description": "Arguing that licensing deals with AI companies provide necessary tech expertise and resources rather than capitulation",
+      "excerpts": ["it's not about avoiding the tech platforms but it's about making the right deals and making the right bets with the particular tech companies that could help them understand the tech platforms be much closer and understand what's happening"],
+      "speaker": "Nikita Roy (quoting Nick Thompson)",
+      "valence": "mixed"
+    },
+    {
+      "code": "tech expertise gap in news",
+      "description": "The news industry fundamentally lacking the technical expertise to build AI independently, creating dependency",
+      "excerpts": ["what is missing in the news industry right now is tech expertise and that's something that the tech companies are having and that's one way to understand why people are rushing towards these deals"],
+      "speaker": "Nikita Roy",
+      "valence": "negative"
+    },
+    {
+      "code": "internet parallel warning",
+      "description": "Drawing comparison between current AI disruption and the internet revolution 25 years ago to emphasize scale of change",
+      "excerpts": ["it's sort of like 25 years ago with the advent of the internet and all of its impacts on journalism"],
+      "speaker": "Megan Murphy",
+      "valence": "neutral"
+    },
+    {
+      "code": "open source transparency advantage",
+      "description": "Hugging Face's open source model contrasted with OpenAI's closed approach as enabling journalistic scrutiny",
+      "excerpts": ["Hugging Face is an open source AI company. And so it's different from the way OpenAI works, for example, where everything is a closed source model, so you don't have any insights into the operations of how a model is working, how it's being trained"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "democratizing data journalism",
+      "description": "AI tools like Wobby enabling small newsrooms to access and analyze government data without dedicated data journalists",
+      "excerpts": ["this is really democratizing the access to data, especially for smaller newsrooms and like newsrooms that would not have been able to constantly get these insights because there's only one data journalist or two data journalists in your team and you're overwhelming them"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "product-led AI experimentation",
+      "description": "Radio Canada's prompt clinics leading to actual product innovation (En Bref) through structured experimentation",
+      "excerpts": ["they came to the prompt clinic and decided what if we try to get generative AI to help summarize and create these news as slides for us. And that's something that right now generative AI is helping power that"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "permission to fail culture",
+      "description": "Creating designated spaces where failure with AI is expected and valued as learning",
+      "excerpts": ["That was a place where they were allowed to fail. They were allowed to experiment and they under guidance and under supervision"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "CMS-integrated image generation",
+      "description": "AI image generation built directly into editorial workflows so editors can create visuals without leaving their CMS",
+      "excerpts": ["Ippen Media, which is a newsroom in Germany, they actually have AI generation, visual AI image generation built into their CMS for their editors"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "long-form to short-form repurposing",
+      "description": "AI tools converting long-form content into social media shorts, addressing the content multiplication challenge",
+      "excerpts": ["you are able to take a long form video... and you're able to repurpose it into shorts. So it will convert it into like 20 different short clips that could be posted as TikTok, Instagram reels, YouTube shorts"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "scholarly paper navigation",
+      "description": "AI search engines for research papers enabling beat reporters to filter, summarize, and interact with academic literature",
+      "excerpts": ["you can go and do a search on illicit, for example, talking specifically about the effects of long-term COVID, and it will pull out eight different research papers and now you can filter through specifically... at a glance it's pulling out the summary of the paper, the methodology used, the outcomes, what their conclusions were"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    },
+    {
+      "code": "Guardian ethical sourcing framework",
+      "description": "The Guardian's AI principles as a model for evaluating tools based on respect for content creators and owners",
+      "excerpts": ["they said that it's with respect for those who create and own content. So that was one of their principles... making sure that all of these Gen AI tools are also the genuine image generation tools that they use are respecting the work of the people who have created those original images"],
+      "speaker": "Nikita Roy",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "This Q&A session reveals the journalism industry in mid-2024 as simultaneously tool-saturated and structurally unprepared: Roy can rattle off dozens of AI tools for specific tasks, but acknowledges that the foundational data infrastructure and workforce training needed to make them meaningful remain absent. The most revealing moment is the anonymous journalist who uses AI secretly out of fear, exposing a gap between enthusiastic conference discourse and the shame-laden reality of newsroom culture. Roy's distinction between AI 'principles' (adaptable) and 'guidelines' (brittle) reflects a deeper recognition that the technology is changing faster than organizations can codify rules. The session's emphasis on tool recommendations over structural transformation suggests the industry is treating AI adoption as a procurement problem rather than an organizational change management challenge. Notably, Roy herself surfaces the uncomfortable question she wishes people would ask -- what does AI efficiency mean for jobs -- only when directly prompted, revealing even advocates' reluctance to confront displacement head-on.",
+  "surprises": [
+    "An anonymous journalist is afraid to tell colleagues they use AI, suggesting AI adoption in newsrooms operates more like a closeted behavior than a celebrated innovation",
+    "Roy acknowledges experienced journalists already outperform GPT models, framing AI as merely a brainstorming aid rather than a capability upgrade",
+    "The biggest structural barrier identified is not AI tools but data fragmentation -- most newsrooms cannot even organize their existing data, let alone power AI with it",
+    "Roy admits current AI literacy efforts including her own are 'still small' relative to the industry-wide reskilling needed, an unusually candid self-assessment from someone leading those efforts"
+  ],
+  "tensions": [
+    "Tool abundance versus structural unreadiness: dozens of AI tools are available but newsrooms lack the data infrastructure, clean data, and technical expertise to deploy them meaningfully",
+    "Efficiency gains versus job displacement: Roy celebrates one-to-two person newsrooms operating as five, then immediately asks 'but what does that mean for the future of work' without answering",
+    "Experimentation culture versus competing priorities: newsrooms are told to create space for AI play while simultaneously facing resource constraints and 'a lot of competing priorities'",
+    "Publisher deal pragmatism versus historical tech platform distrust: signing AI licensing deals is framed as acquiring necessary expertise, but this perpetuates the dependency that created the news industry's tech deficit",
+    "Open sharing versus privacy anxiety: the session recommends Slack channels for AI wins/fails while also warning that Slack itself trains on your messages"
+  ]
+}

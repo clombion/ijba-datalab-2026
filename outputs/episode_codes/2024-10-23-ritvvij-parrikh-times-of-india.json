@@ -1,0 +1,339 @@
+{
+  "episode_date": "2024-10-23",
+  "episode_title": "Ritvvij Parrikh: Personalization Vs. Editorial Judgment? At The Times of India, You Can Have Both",
+  "codes": [
+    {
+      "code": "Historical continuity of personalization",
+      "description": "Framing personalization not as novel but as a continuation of what media has always done (e.g., regional editions as early personalization)",
+      "excerpts": [
+        "historically media has always been personalized. It took us some time to realize that even newspapers and TV channels, when they started launching regional channels and regional editions, they were in principle personalizing in one way. It's localization, but it is still personalization simply because you are putting out more relevant stories and more targeted relevant ads."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "neutral"
+    },
+    {
+      "code": "Off-the-shelf rejection",
+      "description": "The decision to build in-house rather than buy commercial personalization APIs, and the rationale for doing so",
+      "excerpts": [
+        "our first thought was to just buy an off-the-shelf personalization API and plug it to the website But over the last three years we've realized it's actually a completely different way of operating your business. And the challenge is that there aren't many personalization models that were In principle, built to run news businesses."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "News as moving targets",
+      "description": "Conceptual framework defining news business as fundamentally about chasing dynamic, shifting targets across editorial, distribution, and monetization",
+      "excerpts": [
+        "the business of news is all about chasing moving targets. Effectively the editorial team is constantly chasing a news cycle. It keeps changing. Our distribution teams are constantly chasing a changing SEO algorithm or changing trends on social media. The floor prices of ad rates are constantly changing."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "neutral"
+    },
+    {
+      "code": "Multiple news cycle curves",
+      "description": "Recognition that different types of news stories have different temporal lifecycle patterns requiring different algorithmic treatment",
+      "excerpts": [
+        "there was a very good Project or a research done by Google News and I think Axios. It's called News Lifespan, where they've laid out four different types of news cycle curves So there's one news cycle curve where the news breaks, it spikes up, and then it drops very quickly. Then things like elections, they have a slow build-up and a quick drop"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "neutral"
+    },
+    {
+      "code": "Evergreen archive recirculation",
+      "description": "The ability of recommender systems to surface older, still-relevant content from archives that human editors would not surface",
+      "excerpts": [
+        "while most editorially distributed stories are less than maybe a day or two old Around 50% of the page views from personalization come from stories that are greater than two days old. So we are able to tap into evergreen stories in the archive and recirculate them"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Self-learning over rules-based",
+      "description": "Strong preference for AI systems that learn autonomously rather than being governed by hard-coded business rules",
+      "excerpts": [
+        "build self-learning AI without any rules embedded in the algorithm. So and let the algorithm pick up what is the right things to show at this moment of time.",
+        "Instead of we defining a rule, the model itself tries to find it."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Supply-driven CTR dynamics",
+      "description": "The observation that recommendation performance drops when fresh content supply drops, requiring the system to autonomously adapt",
+      "excerpts": [
+        "we started observing that when the supply drops, the CTR drops because the personalization model doesn't have enough recent stories of your interest. Now, there were two ways to address this. Either I put a hard-coded rule... But by putting that rule, what would have happened is that we are now restricting ourselves"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "mixed"
+    },
+    {
+      "code": "Data minimalism under constraint",
+      "description": "Using the fewest possible data points for highest return due to news being a low-ARPU business",
+      "excerpts": [
+        "news is a low average revenue per user. Product, which means we have a lot of users, but we earn less per user. And given that we cannot spend a lot of money on algorithms, unlike maybe big tech companies. And hence we are very judicious about which data points. to use. So we use as less data points as possible to personalize."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "mixed"
+    },
+    {
+      "code": "Multi-tier filtering architecture",
+      "description": "Progressive narrowing of content candidates through stages, adding more attributes at each tier to manage computational cost",
+      "excerpts": [
+        "think of it as a multi-tier system where if you're dipping into the archive, we'll have only one or two attributes associated with each story. If we then we will go ahead and reduce from let's say the archive, which is probably, I don't know, 10 million stories, bring it down to a million. add few more data attributes. Then from a million down to maybe 100k, add few more data attributes."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Real-time data infrastructure",
+      "description": "Building proprietary low-latency data pipelines as foundational infrastructure, replacing delayed third-party analytics",
+      "excerpts": [
+        "at least at the times of India, we've gone ahead and built our own in-house data pipelines. It's a tool called as Growth Rx. When we send all of our clickstream data. It's extremely low latency, so it happens almost in real time."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Banking-grade data discipline",
+      "description": "Treating newsroom data with the accuracy and rigor standards of financial services institutions",
+      "excerpts": [
+        "We've also built very strong data audit tools to ensure that almost like a BFSI company, like a banking company, we are able to Treat our data with as much accuracy as possible.",
+        "build your data pipeline in a way that you think of yourself as a banking and finance company and you treat your data with that much respect"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Editorial judgment as training signal",
+      "description": "Encoding editors' tacit knowledge about newsworthiness and editorial decision-making into algorithmic systems",
+      "excerpts": [
+        "a lot of our conversations with the editorial team with respect to what is news, what is editorial judgment. How would they have chosen in in a particular situation? The explanation that they give us helps us formulate some of these things in AI terms. I think that's a much bigger contribution."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom as safe personalization environment",
+      "description": "Argument that newsrooms are uniquely positioned for responsible personalization because all content is already vetted by journalists",
+      "excerpts": [
+        "one of the best things about working in a newsroom is that all stories are vetted. All stories are written by journalists. There's no conspiracy theory or there's no fake news out there. So we are in fact operating in a very safe environment. So if there should be a personalization system, it's in a newsroom and not outside one."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Editorial-algorithm coexistence",
+      "description": "Maintaining editorial control over top stories while delegating the rest to algorithmic personalization",
+      "excerpts": [
+        "we still leave the first five stories or a certain number of stories that are Editorially recommended because it's important for edit editors to drive the first five or the first page view or the first scroll rather. But apart from that, I think our editorial team understands that till we have built a model with the guardrails of what journalism's ethics are. They're pretty fine with it."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Competing with attention economy",
+      "description": "Framing news media as competing directly with social media, streaming, and search for user attention",
+      "excerpts": [
+        "we as an industry compete with social media, search, chat GPT, Netflix, OTT platforms. right for attention and it is important that we we look at that comp competition very clearly otherwise time spent on our platforms will keep dropping"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Only machines beat machines",
+      "description": "Argument that analytics and human-driven business rules cannot compete with algorithmic competitors; only algorithmic systems can match them",
+      "excerpts": [
+        "analytics effectively is a backward-looking science. You can look at information, but information that's one day old, one week old, one month old. Analytics is also often a blended gives you blended data... these are patterns that we as humans can't observe. That's only what machines can observe"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "mixed"
+    },
+    {
+      "code": "Revenue as mutual fund portfolio",
+      "description": "Novel framework treating different revenue models as asset classes with individual risk-reward optimization per user",
+      "excerpts": [
+        "I foresee that in the coming years, recommender systems and news businesses will evolve to operate more like fintech slash mutual fund algorithms where we look at each revenue model let's say affiliate subscription sponsored content Direct ads, indirect ads as a different asset class similar to equity, debt, gold, real estate. And then for each user, now you identify what is the probability of this user buying a certain from a certain revenue model."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Revenue model cannibalization",
+      "description": "Problem where multiple revenue streams operating on the same surface area and users undermine each other without algorithmic coordination",
+      "excerpts": [
+        "If you increase the quantity of affiliate stories Maybe that user was not interested in affiliate and he might have wanted a subscription, wanted to buy a subscription, and now affiliate has cannibalized subscription revenue"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Cost of revenue awareness",
+      "description": "Argument that pursuing one revenue model without calculating the cost to other models destroys long-term value",
+      "excerpts": [
+        "How do you become a millionaire? You start a billionaire, start an airline company, and then in a couple of years you'll become a millionaire. So the cost of revenue is basically that We can internally choose to say that we will now do subscriptions or affiliate or something like that, but until you know what's it what is it going to cost in terms of all other revenue models There's no way to ensure that long term you are earning more than what you are right now."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Flawed A/B testing culture",
+      "description": "Critique of A/B testing without strong hypotheses, where test results get permanently committed even as conditions change",
+      "excerpts": [
+        "this entire culture of A B testing has taken a lot of us as product managers down a wrong path where we constantly do not have a strong hypothesis. And we're like, hey, let's say B test it. But that's not the right way to do certain things simply because, as I mentioned earlier, the news business constantly evolves."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Concept drift and data drift",
+      "description": "Problem where rapid business changes cause data definitions to diverge from reality, undermining AI systems",
+      "excerpts": [
+        "let's say typically all stories that are paywalled have a flag associated with it. And now I build a feature which is going to dynamically add a paywall on a story. But You don't you choose not to change the flag at that moment of time. So now what is a paywall story? That definition has changed. This is called as concept drift."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "House of brands dysfunction",
+      "description": "Critique of media companies splitting audiences across multiple publications, a legacy of lacking ad targeting capability",
+      "excerpts": [
+        "let's say a publication, let's say Vox. Is split into 10, 15 different publications. You have the Word, Strategizer, New York, and Vox itself. And necessarily, what this means is that the Vox media has split its own Audiences focus across 15 different publications. Historically, this was the case simply because news media companies did not have ad targeting systems"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Local vs. global optimization",
+      "description": "Problem where siloed division heads each optimize their own targets rather than the company's overall revenue",
+      "excerpts": [
+        "each of these different division heads are essentially locally optimizing for their own targets. versus globally optimizing for the company's revenue."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Generalist vs. specialist leadership",
+      "description": "Critique that the news industry's focus on general management prevents breakthrough technology innovation",
+      "excerpts": [
+        "as a industry we focus a lot on general management. Whereas I think increasingly you need specialists to identify what are the different technologies and innovations to bet on... The reason for it is the industry is filled with a lot of gender managers There aren't many situations where a company has broken through with a very clear tech innovation"
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Cross-functional assets over projects",
+      "description": "Distinguishing between one-time cross-functional projects (e.g., elections) and enduring assets built from cross-functional knowledge",
+      "excerpts": [
+        "are you leveraging cross-function insights to build an asset that will differentiate your product compared to your competitor? Often we end up building technology which is more like a services project instead of a long-term asset that differentiates here."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "mixed"
+    },
+    {
+      "code": "GenAI as content transformation",
+      "description": "Vision of generative AI enabling personalization of content format and presentation, not just distribution",
+      "excerpts": [
+        "with generative AI, effectively we have the tools to now transform content from one format to another. So I foresee that effectively In the long run, most focus of editorial teams will be on news gathering and news verification, whereas most news production That is once a story is written, how best to write it, how best to present it, etc. will be give given over to recommender systems."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "LLMs premature for news",
+      "description": "Argument that the industry has not yet adopted 15-year-old recommender technology and therefore jumping to LLMs is impractical",
+      "excerpts": [
+        "generative AI is two, three years old right now. Recommended systems have been around in the market for almost 15 years. We've not fully adopted those and we are imagining that we can participate in the LLM race. It's not practical."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "negative"
+    },
+    {
+      "code": "Core vs. peripheral AI distinction",
+      "description": "Framework for deciding build-vs-buy: build in-house what is core to business (distribution/personalization), buy off-the-shelf for peripheral functions (image generation, rewriting)",
+      "excerpts": [
+        "identify what is at the core of your business. So I think recommended systems and distribution from an audience perspective is at the core of our business... But if you're using AI to actually do things like generate a cover image or to rewrite a story or extend, convert it into bullets, stuff like this, these are things on this On the side of your business, it's not at the core of your business because you could have just replaced that function by adding more people."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Data infrastructure as prerequisite",
+      "description": "Argument that first-party data collection, user login, and strong data pipelines must precede any AI adoption",
+      "excerpts": [
+        "the first is of course start collecting first party data. That is the most important thing. Second is drive a lot of your audiences to get them to log in so that you know who these users are.",
+        "build great data collection systems and data pipelines. This is way harder than it sounds."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Newsroom as attention marketplace",
+      "description": "Defining the media business model as buying and selling minutes of attention",
+      "excerpts": [
+        "we are in the game of buying and selling minutes of attention. You give out content, people come to your platform, they give you their minutes of attention, and you Sell some of that to advertisers."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "neutral"
+    },
+    {
+      "code": "Personalized ChatGPT for child",
+      "description": "Personal use of AI as a safe, age-appropriate knowledge companion for a child",
+      "excerpts": [
+        "we have an eight-year-old daughter. She asks us a lot of questions. She reads a lot. And I think we've Given her access to Chat GPT, we've made made a custom prompt which clearly states her age and states what to what Chat GPT can answer and cannot answer, and that is really simplified our life where she gets to satisfy her curiosity."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Data-energy analogy",
+      "description": "Analogy comparing data infrastructure to electricity: no rich country lacks energy, no rich media company lacks strong data",
+      "excerpts": [
+        "there is no rich country with low energy, like energy as an electricity. Similarly, there is no rich media company that doesn't have strong data pipelines, strong first-party data and deep algorithms."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Recommenders as operating system",
+      "description": "Vision of recommender systems becoming the foundational operating system for the entire news business, not just a feature",
+      "excerpts": [
+        "I foresee recommender systems becoming the operating system of the news business. The business of media is a real estate business where every pixel should either drive engagement or monetization."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Proven CTR gains from personalization",
+      "description": "Quantified evidence of personalization's impact on engagement metrics",
+      "excerpts": [
+        "Over the last one and a half year, we've sustained increment in CTR of almost 85% on the web And almost 30 to 40% on the app."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    },
+    {
+      "code": "Institutional tech advantage as luck",
+      "description": "Attributing success to inherited institutional infrastructure rather than personal achievement",
+      "excerpts": [
+        "I'm a very lucky person. The company has a lot of great engineers. We've had a history of building amazing technology. There's a lot of foundational infrastructural problems that the company has solved over the years. So I've been lucky to not run into these problems Purely incidental, nothing to do with me."
+      ],
+      "speaker": "Ritvvij Parrikh",
+      "valence": "positive"
+    }
+  ],
+  "episode_summary": "Ritvvij Parrikh presents a deeply technical and strategically original vision of personalization at the Times of India, arguing that recommender systems -- not generative AI -- should be the foundational 'operating system' of the news business. His most distinctive contribution is the 'mutual fund' framework for revenue optimization, where each revenue model (subscriptions, affiliate, ads) is treated as an asset class with per-user risk-reward calculations, solving the problem of revenue model cannibalization that plagues siloed newsroom structures. The conversation reveals a pragmatic philosophy of data minimalism under constraint, where limited ARPU forces judicious use of the fewest data points for maximum return, contrasting sharply with big tech's data-maximalist approaches. Parrikh is notably skeptical of the industry's rush toward LLMs, arguing that newsrooms have not yet mastered 15-year-old recommender technology and that generative AI currently serves only peripheral cost-optimization functions rather than core distribution needs.",
+  "surprises": [
+    "50% of personalized page views come from stories older than two days, suggesting algorithmic curation unlocks substantial value from archives that human editors systematically ignore",
+    "The 'mutual fund portfolio' framework for revenue optimization is a genuinely novel conceptual contribution not commonly found in media industry discourse",
+    "Parrikh argues strongly against the industry's A/B testing culture, calling it fundamentally flawed for news because test results get permanently committed even as the news cycle makes them obsolete",
+    "He frames the Times of India's success partly as 'luck' -- inherited institutional infrastructure -- suggesting the barrier to entry for other newsrooms may be structural rather than strategic",
+    "The analogy of data infrastructure to national energy supply ('no rich country with low energy') reframes data investment as existential rather than optional"
+  ],
+  "tensions": [
+    "Tension between self-learning AI (no rules) and the need for editorial guardrails and content moderation -- the system is described as rule-free yet editors can reject recommendations",
+    "Tension between personalization for engagement and editorial mission: the first five stories remain editorially controlled, implicitly acknowledging that pure algorithmic curation may not serve journalistic values",
+    "Tension between the argument that newsrooms should build bespoke systems and the reality that most newsrooms lack the engineering talent and infrastructure Times of India has",
+    "Tension between dismissing LLMs as premature and acknowledging that generative AI will eventually transform content presentation and personalization",
+    "Tension between advocating minimal data usage (low ARPU constraint) and calling for banking-grade data discipline and comprehensive first-party data collection"
+  ]
+}

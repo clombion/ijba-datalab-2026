@@ -1,0 +1,274 @@
+{
+  "episode_meta": {
+    "title": "Mattia Peretti: Balancing AI Innovation with Journalistic Integrity",
+    "date": "2024-05-01",
+    "guests": [
+      {
+        "name": "Mattia Peretti",
+        "role": "Knight Fellow",
+        "organization": "International Center for Journalists (ICFJ)"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "UK",
+    "word_count": 7394
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "OpenAI",
+    "Perplexity",
+    "Artifact",
+    "GPT-3.5",
+    "Microsoft Teams",
+    "Spotify (recommendation algorithms)",
+    "YouTube (recommendation algorithms)",
+    "Google Search"
+  ],
+  "use_cases": [
+    {
+      "description": "Automated summaries added to articles, with editorial oversight and human in the loop, leading to increased time on page as summaries serve as entry points for readers",
+      "tool_used": "Large language models (unspecified)",
+      "organization": "Schibsted",
+      "outcome": "Increased time on page; summaries act as entry points that encourage readers to read full articles rather than replacing them",
+      "stage": "production"
+    },
+    {
+      "description": "Repackaging content in different formats for different audiences, including AI-powered summaries and personalization",
+      "tool_used": "Artifact (AI news app)",
+      "organization": "Yahoo News (acquired Artifact)",
+      "outcome": "Yahoo acquired Artifact to leverage its content repackaging and personalization capabilities",
+      "stage": "production"
+    },
+    {
+      "description": "Exploring innovative AI implementations across the organization with an internal working group spanning departments",
+      "tool_used": "Generative AI (unspecified)",
+      "organization": "The Guardian",
+      "outcome": "Published generative AI principles; not many public-facing projects yet but significant internal experimentation",
+      "stage": "pilot"
+    },
+    {
+      "description": "Agreement and licensing deal with OpenAI for French language content",
+      "tool_used": "OpenAI",
+      "organization": "Le Monde",
+      "outcome": "Licensing deal established",
+      "stage": "production"
+    },
+    {
+      "description": "Optimizing paywalls for subscription-based organizations using machine learning",
+      "tool_used": "Machine learning tools (unspecified)",
+      "organization": "Various subscription-based news organizations",
+      "outcome": "Successful paywall optimization",
+      "stage": "production"
+    },
+    {
+      "description": "Using AI to analyze and find information in huge datasets for investigative journalism",
+      "tool_used": "Traditional machine learning / NLP",
+      "organization": "Various news organizations",
+      "outcome": "Finding information in large datasets that would be impractical manually",
+      "stage": "production"
+    },
+    {
+      "description": "Building an internal AI literacy community via Microsoft Teams channel to facilitate knowledge sharing across a globally distributed organization",
+      "tool_used": "Microsoft Teams",
+      "organization": "Internews",
+      "outcome": "Facilitated cross-organizational knowledge sharing on AI potential and risks across 100+ countries",
+      "stage": "production"
+    },
+    {
+      "description": "Journalism AI initiative working with teams on AI-powered summaries and making news archives accessible to journalists",
+      "tool_used": "Various AI/ML tools",
+      "organization": "Journalism AI (POLIS at LSE / Google News Initiative)",
+      "outcome": "Teams explored challenges in 2020 that remain relevant today, including AI summaries and archive search",
+      "stage": "pilot"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "The news industry has moved past the peak generative AI hype and into a more pragmatic phase at the beginning of 2024, with organizations focusing on strategy and real value rather than trying everything",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Automated article summaries increase time on page rather than replacing full article reads, because they serve as entry points that get people interested in reading more",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Challenges explored with AI in journalism in 2020 (AI-powered summaries, unlocking news archives) are still being explored today, showing these are ongoing evolving problems rather than ones with a single solution",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "AI literacy, experimentation/products, and guidelines/principles form a triangle where none can succeed without the other two",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Principles are more effective than prescriptive guidelines because technologies evolve so fast that detailed guidelines become outdated within a month",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "Too-strict AI guidelines risk communicating to your team that management doesn't trust them to do the right thing",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Tech companies' AI development is a net negative for society as a whole",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Tech companies should pay for access to news data because they are the richest organizations on the planet and it is a matter of fairness",
+      "speaker": "Mattia Peretti",
+      "evidence_type": "theoretical"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Limitations of large language models remain significant and need to be considered when repackaging content, despite improvements",
+      "category": "technical"
+    },
+    {
+      "description": "Organizations often approach AI adoption as a goal in itself rather than evaluating whether AI actually helps achieve specific organizational goals",
+      "category": "organizational"
+    },
+    {
+      "description": "Barrier to entry for AI adoption may be too high given an organization's resources and technical capacity, leading to wasted time",
+      "category": "organizational"
+    },
+    {
+      "description": "Knowledge sharing across newsrooms is a major challenge: some groups work with AI while others have no idea it is being used",
+      "category": "organizational"
+    },
+    {
+      "description": "AI risks are often relegated to an afterthought (e.g., last 5 minutes of a 50-minute webinar) rather than integrated into discussions from the start",
+      "category": "ethical"
+    },
+    {
+      "description": "AI guidelines risk becoming a performative exercise if not backed by real literacy and experimentation",
+      "category": "editorial"
+    },
+    {
+      "description": "Too-prescriptive guidelines become outdated within a month as technologies evolve rapidly",
+      "category": "editorial"
+    },
+    {
+      "description": "News organizations risk becoming hostage to tech company platforms and losing direct relationships with their audiences",
+      "category": "organizational"
+    },
+    {
+      "description": "Balancing the relationship with tech companies is extremely difficult: partnering risks naivety about profit motives, but complete detachment means missing real opportunities",
+      "category": "ethical"
+    },
+    {
+      "description": "Reliance on AI tools may atrophy cognitive capacities like memory, brainstorming, and independent information processing",
+      "category": "ethical"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I really feel it's like interesting this moment where We are beyond, as I was saying, the phase of let's try everything out. We're still trying things, but I see a healthy consolidation a little bit of the thinking into where is the real value. And ideally more value for the users, not just for us.",
+      "speaker": "Mattia Peretti",
+      "topic": "Industry maturation in AI adoption",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "There is the AI literacy, there are the experiments in building products, and then everyone has been rushing to come up with guidelines and principles for generative AI and so on. Neither of these three things can exist and can have success without the other two, in my opinion.",
+      "speaker": "Mattia Peretti",
+      "topic": "The triangle of AI literacy, experimentation, and guidelines",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I feel like the risk with putting to strict guidelines is to communicate in to your team that you don't trust them to know how to do the right thing. To really send the message then we as the management team or this AI working group, we are really afraid that you're gonna mess it up.",
+      "speaker": "Mattia Peretti",
+      "topic": "Principles versus prescriptive guidelines",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "I think it's just very, very important that we're not naive about what are their goals. At the end of the day is these are for profit organizations. Their mission is profit. The mission is not the mission that we have as journalists.",
+      "speaker": "Mattia Peretti",
+      "topic": "Tech company partnerships",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We need to do much more work in building that relationship and being independent from any tool, from any platform. We have seen it, you know, with tech com the social media, you know, putting down in their priorities news and so not producing it anymore.",
+      "speaker": "Mattia Peretti",
+      "topic": "Building direct audience relationships independent of platforms",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "We're gaining efficiency, we're doing some things faster. What are we losing? Like I use sometimes ChatGPT for helping me brainstorm an idea or start something new, and it is helpful sometimes. I get some useful feedback. But I also worry if I rely too much on it, what muscle in my brain I'm not exercising anymore?",
+      "speaker": "Mattia Peretti",
+      "topic": "Personal trade-offs of AI adoption and cognitive atrophy",
+      "pedagogical_value": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Before adopting AI, spend more time asking 'why' — what are the organizational goals, and can AI actually help achieve them? Do not treat AI adoption as a value in itself.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organization leadership"
+    },
+    {
+      "advice": "Develop AI literacy, experimentation, and guidelines in parallel as a triangle — none can succeed without the other two. Do not take them step by step sequentially.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organizations"
+    },
+    {
+      "advice": "Write AI principles (the 'why') rather than prescriptive guidelines (the 'how'), because principles are closer to organizational values and do not become outdated as quickly as technology-specific guidelines.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organizations writing AI policies"
+    },
+    {
+      "advice": "Structure AI principles to address three distinct audiences: internal teams, readers, and society/industry at large.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organizations writing AI policies"
+    },
+    {
+      "advice": "Integrate discussion of AI risks from the very beginning of any training or literacy initiative rather than treating them as an afterthought.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "AI literacy trainers and newsroom educators"
+    },
+    {
+      "advice": "Not everyone needs to become an AI expert, but everyone needs basic AI literacy. Combine organization-wide understanding with deeper expertise from a dedicated team or working group.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organization leadership"
+    },
+    {
+      "advice": "Build direct relationships with audiences that are not dependent on tech platforms, to avoid being hostage to platform priorities that can change at any time.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News publishers"
+    },
+    {
+      "advice": "Do not be naive about tech companies' profit-driven motives in any partnership or collaboration, even while acknowledging the real opportunities they offer.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "News organizations considering tech partnerships"
+    },
+    {
+      "advice": "Facilitate internal knowledge sharing across departments and teams as a foundational step for AI literacy, especially in large distributed organizations.",
+      "speaker": "Mattia Peretti",
+      "target_audience": "Large media and media development organizations"
+    }
+  ],
+  "external_references": [
+    "Journalism AI (joint initiative of POLIS at London School of Economics and Google News Initiative)",
+    "International Center for Journalists (ICFJ)",
+    "POLIS — journalism think tank at the London School of Economics",
+    "Google News Initiative",
+    "The Guardian — Generative AI Principles (published June 2023)",
+    "Schibsted (Nordic publisher)",
+    "Le Monde",
+    "OpenAI",
+    "Artifact (AI news app by Instagram co-founders, acquired by Yahoo News)",
+    "Yahoo News",
+    "Internews (media development organization)",
+    "Axel Springer (licensing deal with OpenAI)",
+    "Associated Press (AP) (licensing deal)",
+    "Craig Newmark Graduate School of Journalism",
+    "Microsoft (funding Peretti's work at Craig Newmark Graduate School of Journalism)",
+    "Perplexity (AI search tool)",
+    "Charlie Beckett (previously on the podcast, associated with Journalism AI)",
+    "Chris Moran (Head of Editorial Innovation, The Guardian)"
+  ]
+}

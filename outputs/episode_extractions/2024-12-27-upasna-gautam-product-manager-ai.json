@@ -1,0 +1,246 @@
+{
+  "episode_meta": {
+    "title": "Upasna Gautam: The Product Manager's Guide to AI in News",
+    "date": "2024-12-27",
+    "guests": [
+      {
+        "name": "Upasna Gautam",
+        "role": "Senior Product Manager",
+        "organization": "CNN"
+      }
+    ],
+    "host": "Nikita Roy",
+    "country": "US",
+    "word_count": 6295
+  },
+  "ai_tools": [
+    "ChatGPT",
+    "Stellar (CNN's content management platform)",
+    "Google Docs (mentioned as analogy with AI enhancements)",
+    "Microsoft Word (mentioned as analogy with AI enhancements)"
+  ],
+  "use_cases": [
+    {
+      "description": "Automating content tagging to reduce repetitive manual work for journalists",
+      "tool_used": "AI-powered tools (unspecified)",
+      "organization": "CNN",
+      "outcome": "Streamlined workflows so journalists can focus on creativity, strategy, and reporting",
+      "stage": "ideation"
+    },
+    {
+      "description": "Automating transcription of content",
+      "tool_used": "AI-powered tools (unspecified)",
+      "organization": "CNN",
+      "outcome": "Faster and more efficient publishing processes",
+      "stage": "ideation"
+    },
+    {
+      "description": "Automating translation of content",
+      "tool_used": "AI-powered tools (unspecified)",
+      "organization": "CNN",
+      "outcome": "Faster and more efficient publishing processes",
+      "stage": "ideation"
+    },
+    {
+      "description": "Data integration into editorial workflow - surfacing dashboards showing story performance with actionable insights such as suggesting better headlines or identifying high-performing story formats in real time",
+      "tool_used": "AI-powered tools (unspecified)",
+      "organization": "CNN",
+      "outcome": "Equip journalists to make decisions that are both fast and informed",
+      "stage": "ideation"
+    },
+    {
+      "description": "Content modularity - reusing assets like videos, text blocks, images to scale content creation across platforms",
+      "tool_used": "Stellar platform",
+      "organization": "CNN",
+      "outcome": "Scalable content creation across platforms",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT to draft initial versions of documents, synthesize large amounts of information, explore alternative approaches to a problem, and translate technical documentation into executive summaries",
+      "tool_used": "ChatGPT",
+      "organization": "CNN",
+      "outcome": "Reduced time spent on repetitive or lower-value tasks, enhanced productivity, rapid iteration",
+      "stage": "production"
+    },
+    {
+      "description": "Using ChatGPT to reframe communication and tailor messages for diverse audiences across hundreds of global stakeholders, and draft templates for operational processes",
+      "tool_used": "ChatGPT",
+      "organization": "CNN",
+      "outcome": "Ability to operate at scale with personalized communication",
+      "stage": "production"
+    }
+  ],
+  "key_claims": [
+    {
+      "claim": "AI isn't going to take you from zero to one - you have to have a strong foundation to build upon",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "Not every inefficiency warrants an AI solution",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "CNN's current staff of product, technology, and design is about 350 to 400 people",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "quantitative"
+    },
+    {
+      "claim": "CNN ran a presidential election on the new Stellar platform with zero critical incidents",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "There is a blind race in the news industry to adopt AI without understanding the problem being solved",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "If you're a good writer or a good coder, AI will make you even better; if you're bad, it will make you even worse",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "anecdotal"
+    },
+    {
+      "claim": "The journalism industry has eroding trust over the past couple of years and cannot attract top tech talent as easily as other industries",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "AI can easily amplify misinformation if not carefully managed",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "theoretical"
+    },
+    {
+      "claim": "CNN deploys changes to production every single week through constant shipping, testing, and iterating",
+      "speaker": "Upasna Gautam",
+      "evidence_type": "anecdotal"
+    }
+  ],
+  "challenges": [
+    {
+      "description": "Asking the right questions to solve the right problems - tendency to skip product discovery and jump to solutions, especially with AI shiny object syndrome",
+      "category": "organizational"
+    },
+    {
+      "description": "Balancing speed with trust - AI can accelerate content creation but also amplifies misinformation if not carefully managed; need for robust safeguards, guardrails, and ethical frameworks",
+      "category": "ethical"
+    },
+    {
+      "description": "Inequality of access to AI tools - under-resourced newsrooms cannot adopt as quickly due to lack of resources, knowledge, or information",
+      "category": "organizational"
+    },
+    {
+      "description": "Editorial teams fear AI might erode journalistic values, replace human judgment, or take their jobs",
+      "category": "editorial"
+    },
+    {
+      "description": "Centralization of dispersed data - massive collections of valuable information about audiences and teams scattered across systems in larger newsrooms",
+      "category": "technical"
+    },
+    {
+      "description": "Inability to attract top tech talent to the journalism industry compared to other industries",
+      "category": "organizational"
+    },
+    {
+      "description": "Migrating from legacy CMS to new platform required almost a year of training and onboarding, going team by team with different nuanced needs",
+      "category": "organizational"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI isn't going to take you ever from zero to one. You have to have a strong foundation to build upon.",
+      "speaker": "Upasna Gautam",
+      "topic": "Prerequisites for AI adoption",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Not every inefficiency warrants an AI solution. And this is not just AI related. I think this is pro AI. especially now because it's shiny object syndrome around it. But in general, when it comes to product development, we tend to skip over the product discovery process and immediately start making assumptions to create a solution.",
+      "speaker": "Upasna Gautam",
+      "topic": "Problem identification before AI implementation",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "There is this sometimes blind race to just adopt without understanding the problem that's actually being solved.",
+      "speaker": "Upasna Gautam",
+      "topic": "Industry-wide AI adoption pitfalls",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "If you're a good writer or a good coder, it will make you an even better writer or an even better coder. But if you suck at writing and you're a bad coder, it will make you even worse.",
+      "speaker": "Upasna Gautam",
+      "topic": "AI as force multiplier",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "The foundational work, the human work of identifying the right problems to solve, asking the right questions, setting the scale clear purpose-driven vision. Like you can't outsource that stuff to AI.",
+      "speaker": "Upasna Gautam",
+      "topic": "Limits of AI in product management",
+      "pedagogical_value": "high"
+    },
+    {
+      "text": "Involving editorial teams early in the process, whether they're your customer or not, and co-designing solutions and gathering feedback with them. It's like the ultimate product management hack in news.",
+      "speaker": "Upasna Gautam",
+      "topic": "Editorial-product collaboration",
+      "pedagogical_value": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "advice": "Deeply understand user pain points before proposing AI solutions - talk to users in depth, observe workflows, conduct interviews, identify bottlenecks",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Product managers in newsrooms"
+    },
+    {
+      "advice": "Position AI as an enabler, not a replacement - demonstrate how it eliminates friction and frees journalists to focus on high-value work",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Product and technology teams working with editorial staff"
+    },
+    {
+      "advice": "Define clear key metrics of success and align AI solutions to those metrics - quantify and qualify the trade-off for end users",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Product managers in newsrooms"
+    },
+    {
+      "advice": "Start stakeholder relationships by asking three questions: What's your biggest goal? What's your biggest pain point? How do you measure success?",
+      "speaker": "Upasna Gautam",
+      "target_audience": "New product managers entering newsrooms"
+    },
+    {
+      "advice": "Focus on one big North Star problem and break it into smaller pieces rather than trying to solve everything at once, especially for smaller newsrooms",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Under-resourced and local newsrooms"
+    },
+    {
+      "advice": "Build a strong, flexible, modular platform foundation before layering AI capabilities on top",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Newsroom technology teams"
+    },
+    {
+      "advice": "Involve editorial teams early in the process and co-design solutions with them - they need to be sponsors, advocates, and teammates",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Product managers in newsrooms"
+    },
+    {
+      "advice": "Prototype and pilot tools with small, willing teams before scaling to build confidence",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Newsroom AI implementation teams"
+    },
+    {
+      "advice": "Prioritize ongoing education about AI's limitations and capabilities so editorial teams feel empowered, not intimidated",
+      "speaker": "Upasna Gautam",
+      "target_audience": "Product managers and newsroom leaders"
+    }
+  ],
+  "external_references": [
+    "News Product Alliance",
+    "Harvard Innovation Labs",
+    "Stellar (CNN's content management platform)",
+    "ChatGPT",
+    "CNN",
+    "Google Docs",
+    "Microsoft Word",
+    "Newsroom Robots podcast",
+    "Harvard Innovation Lab Spark grant"
+  ]
+}
