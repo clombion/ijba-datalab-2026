@@ -1,0 +1,18 @@
+﻿Descriptif des fichiers contenus dans le zip
+
+Base_OP_AAAA_LXXXX.csv : Ce fichier fourni les statistiques sur le niveau des loyers du parc locatif privé au 01/01/AAAA. 
+Elles sont fournies à l’échelle de l’agglomération, de différentes zones géographiques plus fines ainsi qu’à l’échelle de la ville centre et de sa périphérie (pour certaines agglomérations). 
+Cette base contient 28 variables qui sont détaillées dans le fichier « descriptif_OP_AAAA_LXXXX.xls ».
+
+table_zones_AAAA_LXXXX_1.xls : Ce fichier contient 3 variables qui permettent de faire le lien entre la base de résultats et les quatre fichiers aux format KML (ci-dessous).
+Il est constitué à partir du fichier zonage « LXXXXZonageAAAA.csv » qui définit le périmètre géographique, le découpage des zones géographiques plus fines, ainsi que les codes Insee, les codes Iris et le nom de commune au 1er janvier AAAA.
+
+Les fichiers KML permettent d’afficher sur une carte à partir d’un logiciel de SIG les contours du périmètre d’observation « LXXXX_agglo_AAAA.kml », des zones géographiques « LXXXX_zone_cal_AAAA_1.kml »,
+de la ville centre et sa périphérie « LXXXX_zone_compl_AAAA.kml » et des communes « LXXXX_zone_elem_AAAA.kml »
+
+
+NB:
+XXXX = code observatoire (les deux premiers caractères correspondent au numéro du département, et les deux derniers au numéro de l’observatoire dans le département:
+Exemple : L3400 et L3401 sont les deux codes observatoires du département de l’Hérault, respectivement Montpellier et Sète
+
+AAAA = Année d’enquête
