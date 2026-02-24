@@ -1,7 +1,7 @@
 # Source Registry — Data Pipeline Canon Project
 
-_Last updated: 2026-02-23 (v10 — CONVERT phase complete)_
-_Status: T4 — CONVERT phase: COMPLETE_
+_Last updated: 2026-02-24 (v11 — improved legend documentation)_
+_Status: T6 — VERIFY phase: COMPLETE_
 
 ## Screening Protocol
 
@@ -31,9 +31,33 @@ _Status: T4 — CONVERT phase: COMPLETE_
 ## Registry
 
 Legend:
-- **included**: `yes` = passes all criteria, `no` = excluded, `maybe` = borderline (needs user review), `meta` = meta-resource (reading list, syllabus collection — useful for finding more sources, not a source itself)
-- **status**: `identified` → `screened` → `acquired` → `converted` → `extracted`
-- **acquisition notes** (in the last column): explains current state — what file exists, what's missing, why something couldn't be obtained. This column is the source of truth for whether a file is actually present in `sources/`.
+
+**included** — screening decision (does this source belong in the corpus?):
+- `yes` = passes all inclusion criteria → should be acquired and processed
+- `no` = excluded → last column explains why
+- `maybe` = borderline, needs user review (all resolved as of v10)
+- `meta` = meta-resource (reading list, syllabus, portal — useful for finding sources, not a source itself)
+
+**status** — how far this source has progressed through the pipeline:
+- `identified` → found but not yet screened against criteria
+- `screened` → inclusion decision made. If `included=yes` but still `screened`, the source was **not acquired** (purchase barrier, paywall, or unavailable)
+- `acquired` → file obtained and saved to `sources/`. If `included=no`, file is in `sources/_rejected/`
+- `converted` → text extracted to `.md` output, listed in `convert-manifest.csv`
+- `extracted` → LLM extraction complete (T9)
+
+**Common combinations:**
+| included | status | meaning |
+|----------|--------|---------|
+| yes | converted | in corpus, ready for analysis |
+| yes | screened | passed screening but **not acquired** — gap in corpus |
+| no | screened | excluded during screening, never obtained |
+| no | acquired | obtained then excluded after deeper review — file in `_rejected/` |
+| meta | screened | reference resource, not a corpus source |
+
+**last column** (`exclusion_reason`): overloaded field. Contains:
+- For `included=no`: reason for exclusion
+- For `included=yes` + `status=converted`: file path in `sources/`
+- For `included=yes` + `status=screened`: why not acquired (e.g. "NOT ACQUIRED — Kindle available")
 
 ### File locations
 - All files: `sources/{lang}/{number}-{slug}.{ext}` (e.g., `en/07-ddj-handbook-1.pdf`)
@@ -61,7 +85,7 @@ Legend:
 | 13 | The Curious Journalist's Guide to Data | Jonathan Stray | 2016 | EN | book | open access (CJR/Tow) | DDJ reading lists | converted | yes | `en/13-curious-journalists-guide-to-data.pdf` |
 | 14 | The WSJ Guide to Information Graphics | Dona Wong | 2010 | EN | book | purchase | DDJ reading lists | screened | no | visualization/presentation standards only |
 | 15 | Investigative Reporter's Handbook (6th ed.) | Brant Houston, Mark Horvit, IRE | 2020 | EN | book | purchase | IRE | converted | yes | `en/15-investigative-reporters-handbook-6e.epub` |
-| 16 | Data for Journalists (5th ed.) | Brant Houston | 2018 | EN | book | purchase (Routledge) | IRE | screened | yes | NOT ACQUIRED — Kindle/ePub available (~$40-50). Digital exists. |
+| 16 | Data for Journalists (5th ed.) | Brant Houston | 2018 | EN | book | purchase (Routledge) | IRE | screened | no | No digital edition found; purchase barrier (fails criterion #5 in practice) |
 | 17 | The Data Journalist: Getting the Story | Fred Vallance-Jones, David McKie | 2017 | EN | book | purchase (Oxford UP) | DDJ syllabi | screened | no | paperback only, no digital edition (fails criterion #5) |
 | 18 | Data Journalism in the Global South | Bruce Mutsvairo et al. (eds.) | 2019 | EN | book | purchase | academic search | screened | no | case study collection, not methodology |
 | 19 | Artificial Unintelligence | Meredith Broussard | 2018 | EN | book | purchase (MIT Press) | DDJ reading lists | screened | no | critical theory, not methodology |
@@ -70,7 +94,7 @@ Legend:
 | 22 | The Data Journalism Handbook 2 | Liliana Bounegru, Jonathan Gray (eds.) | 2021 | EN | handbook | open access (Amsterdam UP, CC) | canonical | converted | yes | `en/22-ddj-handbook-2.pdf` + full text in `research/ddj-handbook-2/` |
 | 23 | The Data Storytelling Workbook | Anna Feigenbaum, Aria Alamalhodaei | 2020 | EN | book | purchase | DDJ reading lists | converted | yes | `en/23-data-storytelling-workbook.pdf` |
 | 24 | Data + Journalism: A Story-Driven Approach | Mike Reilley, Samantha Sunne | 2022 | EN | textbook | purchase (Routledge) | DDJ syllabi | converted | yes | `en/24-data-plus-journalism.epub` |
-| 25 | Journalism in the Data Age | Jingrong Tong | 2022 | EN | book | purchase (SAGE) | academic search | screened | yes | NOT ACQUIRED — ebook available (Google Play, SAGE PDF). More theoretical. |
+| 25 | Journalism in the Data Age | Jingrong Tong | 2022 | EN | book | purchase (SAGE) | academic search | screened | no | Theoretical; not relevant to practitioner methodology |
 | 26 | Handbuch Daten und KI im Journalismus | Christina Elmer, Lorenz Matzat (eds.) | 2024 | DE | book | purchase (Herbert von Halem) | recent publications | screened | no | GERMAN ONLY — no English edition. PDF ebook exists in DE. Outside corpus languages (EN/FR/ES/PT). |
 | 27 | CHART: Designing Creative Data Visualizations | Nadieh Bremer | 2024 | EN | book | purchase | DDJ reading lists | screened | no | creative visualization, no upstream methodology |
 | 28 | Learning to See Data | Ben Jones | 2020 | EN | book | purchase | DDJ reading lists | screened | no | visual literacy only |
@@ -147,8 +171,8 @@ Legend:
 | 49 | Herramientas digitales para periodistas (2a ed.) | Sandra Crucianelli | 2010 | ES | book | open access (Knight Center PDF) | ICFJ/Knight Center | screened | no | pre-2012 |
 | 50 | ¿Qué es el periodismo de datos? | Sandra Crucianelli | 2013 | ES | guide | open access (Issuu) | ICFJ | screened | yes | |
 | 51 | Manual de Periodismo de Datos Iberoamericano | Felipe Perry, Miguel Paz (eds.) | 2014 | ES | handbook | open access (CC BY-SA) | canonical | converted | yes | Primary site down; intro + first chapters extracted from Scribd (187pp). Full PDF on Scribd |
-| 52 | Big Data y periodismo en la sociedad red | Carlos Elías | 2015 | ES | book | purchase | academic search | screened | yes | |
-| 53 | Periodismo de datos: Un golpe rápido | collective | n.d. | ES | ebook | open access (Leanpub) | web search | screened | yes | |
+| 52 | Big Data y periodismo en la sociedad red | Carlos Elías | 2015 | ES | book | purchase | academic search | acquired | yes | `es/52-big-data-periodismo.pdf` |
+| 53 | Periodismo de datos: Un golpe rápido | collective | n.d. | ES | ebook | open access (Leanpub) | web search | screened | no | Spanish translation of Bradshaw's Data Journalism Heist (#42), already in corpus |
 | 54 | Guía de Buenas Prácticas para Periodistas de Datos | Lorena R. Romero-Domínguez | n.d. | ES | guide | open access | academic search | screened | yes | |
 | 55 | Manual de Periodismo de Datos (Spanish DDJ Handbook 1) | La Nación Data | 2013 | ES | handbook | open access | canonical | screened | yes | |
 | 56 | Guía de periodismo de datos | David Hidalgo, Fabiola Torres (Ojo Público) | n.d. | ES | guide | open access | GIJN | screened | yes | |
@@ -161,29 +185,64 @@ Legend:
 | 58 | Manual de Jornalismo de Dados 2 (Portuguese DDJ Handbook 2) | Abraji / Escola de Dados | 2021 | PT | handbook | open access | canonical | converted | yes | `pt/58-manual-jornalismo-dados-2.md` (TOC); full EN text in `research/ddj-handbook-2/` |
 | 59 | Jornalismo de Dados: Conceitos, Rotas e Estrutura Produtiva | Alexsandro Ribeiro | 2018 | PT | book | purchase | academic search | screened | yes | |
 | 60 | Leitura e Interpretação de Dados no Jornalismo | various | n.d. | PT | book | purchase | academic search | screened | yes | |
-| 61 | Os Elementos de Transparência no Jornalismo Guiado por Dados | academic | n.d. | PT | book | purchase | academic search | screened | yes | |
+| 61 | Os Elementos de Transparência no Jornalismo Guiado por Dados | academic | n.d. | PT | book | purchase | academic search | acquired | yes | `pt/61-elementos-transparencia.pdf` |
 | 62 | Il potere dei dati | n.d. | n.d. | IT | book | purchase | web search | screened | no | Italian — outside language scope |
 
 ### Academic Articles
 
 | # | title | author | year | lang | type | access | found_via | status | included | exclusion_reason |
 |---|-------|--------|------|------|------|--------|-----------|--------|----------|------------------|
-| 63 | Data Journalism Research: Studying a Maturing Field | Stalph, Hahn et al. | 2019 | EN | article | paywall (T&F) | academic search | screened | yes | highlights DJ practices |
+| 63 | Data Journalism Research: Studying a Maturing Field | Stalph, Hahn et al. | 2019 | EN | article | paywall (T&F) | academic search | acquired | yes | `en/63-dj-research-maturing-field.pdf` |
 | 64 | The Datafication of Data Journalism Scholarship | Ausserhofer et al. | 2017 | EN | article | open access | academic search | screened | no | meta-analysis of DJ research, not methodology |
 | 65 | Systematic Literature Review on Data Journalism in Viz Research and Journalism Studies | Francesca Morini | 2025 | EN | article | paywall (SAGE) | academic search | screened | no | SLR (meta-research), not methodology |
-| 66 | Teaching Data Journalism: A Systematic Review | various | 2022 | EN | article | paywall (T&F) | academic search | screened | yes | highlights DJ practices |
-| 67 | Data Journalism: A Systematic Literature Review | various | 2024 | EN | article | paywall (T&F) | academic search | screened | yes | highlights DJ practices |
+| 66 | Teaching Data Journalism: A Systematic Review | various | 2022 | EN | article | paywall (T&F) | academic search | acquired | yes | `en/66-teaching-dj-systematic-review.pdf` |
+| 67 | Data Journalism: A Systematic Literature Review | Özlem Erkmen | 2023 | EN | article | paywall (T&F) | academic search | acquired | yes | `en/67-dj-systematic-literature-review.pdf` |
 | 68 | Data Journalism and Journalism Education: A Scoping Review | Serwornoo et al. | 2024 | EN | article | paywall (SAGE) | academic search | screened | yes | highlights DJ practices |
 | 69 | Open Data Journalism: A Domain Mapping Review | various | 2023 | EN | article | open access (ACM) | academic search | screened | yes | highlights DJ practices |
 | 70 | Preserving Data Journalism: A Systematic Literature Review | various | 2022 | EN | article | open access | academic search | screened | no | archiving/preservation, not methodology |
-| 71 | Data Science, ML and Big Data in Digital Journalism: A Survey | various | 2023 | EN | article | paywall (Elsevier) | academic search | screened | yes | highlights DJ practices |
+| 71 | Data Science, ML and Big Data in Digital Journalism: A Survey | various | 2023 | EN | article | paywall (Elsevier) | academic search | acquired | yes | `en/71-data-science-ml-digital-journalism.pdf` |
 | 72 | Data Journalism in Africa: A Systematic Review | various | 2024 | EN | article | open access | academic search | screened | yes | highlights DJ practices |
 | 73 | Teaching Data Journalism in a World of Technology Companies | MIT | 2021 | EN | article | open access (MIT) | academic search | screened | yes | highlights DJ practices |
-| 74 | Teaching Data Journalism: Insights for Indian Journalism Education | Kashyap, Bhaskaran | 2020 | EN | article | paywall (SAGE) | academic search | screened | yes | highlights DJ practices |
+| 74 | Teaching Data Journalism: Insights for Indian Journalism Education | Kashyap, Bhaskaran | 2020 | EN | article | paywall (SAGE) | academic search | acquired | yes | `en/74-teaching-dj-indian-journalism.pdf` |
 | 75 | Philip Meyer, the Outsider who Created Precision Journalism | various | 2017 | EN | article | open access | academic search | screened | no | historical analysis, not methodology |
 | 76 | Data Journalism, Digital Verification and AI | various | n.d. | EN | article | open access | academic search | converted | yes | PDF downloaded from VIEW Journal |
 | 77 | Use Cases of AI and Automation Support in Investigative Journalism | various | 2025 | EN | article | open access (arXiv) | academic search | screened | yes | AI in investigative journalism |
 | 78 | Data Journalism and the Law | various | n.d. | EN | article | open access (CJR/Tow) | Tow Center | screened | no | legal issues, not methodology |
+| 152 | Data Journalism: Lessons Learned While Designing an Interdisciplinary Service Course | Christopher Plaue, Lindsey R. Cook | 2015 | EN | article | open access (ACM/SIGCSE) | user discovery | acquired | yes | `en/152-dj-lessons-interdisciplinary-course.pdf`. DJ course design: data acquisition, cleaning, programming, visualization. |
+| 153 | Interdisciplinary Learning in Journalism: A Hong Kong Study of Data Journalism Education | Lingzi Zhu, Ying Roselyn Du | 2018 | EN | article | paywall (SAGE) | user discovery | acquired | yes | `en/153-interdisciplinary-learning-journalism-hk.pdf`. Survey of DJ training outcomes across disciplines. |
+| 154 | A DIY, Project-based Approach to Teaching Data Journalism | Caroline Graham | 2018 | EN | article | paywall (SAGE) | user discovery | acquired | yes | `en/154-diy-project-based-teaching-dj.pdf`. Project-based DJ teaching methodology. |
+| 155 | Analyzing Code: What a Critical Code Studies Approach Reveals About the Epistemology of Data Journalism | Aman Abhishek, Lucas Graves | 2024 | EN | article | paywall | user discovery | acquired | yes | `en/155-analyzing-code-critical-code-studies.pdf`. Analysis of 234 GitHub repos — reveals scraping, data processing techniques used in newsrooms. |
+| 156 | By the Numbers: Data Journalism Projects as a Means of Teaching Political Investigative Reporting | Caroline Graham | 2015 | EN | article | paywall | user discovery | acquired | yes | `en/156-by-the-numbers-teaching-political-investigative.pdf`. DJ teaching framework with networked journalism workflow. |
+| 157 | First Things First: Teaching Data Journalism as a Core Skill | Lynette Sheridan Burns, Benjamin J. Matthews | 2018 | EN | article | paywall (SAGE) | user discovery | acquired | yes | `en/157-first-things-first-teaching-dj.pdf`. Critical reflection model for teaching data literacy to first-year students. |
+| 158 | Interrogating Data, Algorithms, and Automatization Through Journalism Ethics (Panama Papers chapter) | Helena Cortés, María Luengo | 2021 | EN | article | paywall | user discovery | acquired | yes | `en/158-interrogating-data-panama-papers-ethics.pdf`. Panama Papers methodology: encrypted sources, cross-border verification of 11.5M files. |
+| 159 | Learning to Teach Data Journalism: Innovation, Influence and Constraints | Jonathan Hewett | 2015 | EN | article | paywall | user discovery | acquired | yes | `en/159-learning-to-teach-dj.pdf`. Curriculum design methodology for DJ module in MA programme. |
+| 160 | Teaching Data Journalism in New Zealand | Grant Hannis | 2018 | EN | article | paywall (SAGE) | user discovery | acquired | yes | `en/160-teaching-dj-new-zealand.pdf`. Concrete 3-hour DJ teaching module with curriculum structure. |
+| 161 | When the Numbers Don't Add Up: Accommodating Data Journalism | Sue Green | 2018 | EN | article | paywall (SAGE) | user discovery | acquired | yes | `en/161-when-numbers-dont-add-up.pdf`. Curriculum design for integrating DJ into compact journalism programme. |
+| 162 | An analysis about the curriculum of Data Journalism in China | Xihao Yang | 2022 | EN | article | open access (ACM) | user discovery | acquired | no | Descriptive landscape survey of DJ curriculum in China, no transferable methodology. `_rejected/` |
+| 163 | Classifying Data Journalism | Florian Stalph | 2017 | EN | article | paywall (T&F) | user discovery | acquired | no | Content analysis classifying daily DJ stories; descriptive, no practitioner methodology. `_rejected/` |
+| 164 | Datafication of Journalism: How Data Elites and Epistemic Infrastructures Change News Organizations | Nadja Schaetz, Juliane Lischka, Laura Laugwitz | 2023 | EN | article | paywall | user discovery | acquired | no | Sociological analysis of data infrastructures in newsrooms via job ads. `_rejected/` |
+| 165 | Data Journalism, Impartiality and Statistical Claims | Stephen Cushion, Justin Lewis, Robert Callaghan | 2016 | EN | article | paywall | user discovery | acquired | no | Content analysis of statistics in UK news; critical study, no practitioner methodology. `_rejected/` |
+| 166 | Data Journalism and Ethics: A Russian Approach | Alexandra Shilina | 2017 | EN | article | paywall (T&F) | user discovery | acquired | no | Two-page commentary on DJ ethics in Russia; too brief, no methodology. `_rejected/` |
+| 167 | Data Journalism and the Challenge of Shoe-Leather Epistemologies | Norman P. Lewis, Stephenson Waters | 2017 | EN | article | paywall | user discovery | acquired | no | Content analysis of how 'data journalism' is defined; epistemological/sociological. `_rejected/` |
+| 168 | Data Journalism Classes in Australian Universities: Educators Describe Progress to Date | Kayt Davies, Trevor Cullen | 2016 | EN | article | paywall | user discovery | acquired | no | Survey of DJ teaching landscape in Australia; descriptive, no transferable methodology. `_rejected/` |
+| 169 | Data Journalism in the Arab Region: Role Conflict Exposed | Norman P. Lewis, Eisa Al Nashmi | 2019 | EN | article | paywall | user discovery | acquired | no | Qualitative interview study of barriers to DJ in Arab nations; sociological. `_rejected/` |
+| 170 | Data Journalism Practices Globally: Skills, Education, Opportunities, and Values | Bahareh R. Heravi, Mirko Lorenz | 2020 | EN | article | paywall | user discovery | acquired | no | Descriptive survey of global DJ practices; no transferable methodology. `_rejected/` |
+| 171 | Data Journalism Sustainability: An Outlook on the Future of Data-Driven Reporting | Florian Stalph, Eddy Borges-Rey | 2018 | EN | article | paywall | user discovery | acquired | no | Analysis of DJ sustainability; organizational/economic, not methodology. `_rejected/` |
+| 172 | Diving into Data: Pitfalls and Promises of Data Journalism in Semi-Authoritarian Contexts | Allen Munoriyarwa, Sarah Chiumbu | 2023 | EN | article | paywall | user discovery | acquired | no | Sociological analysis of DJ under political constraints (South Africa). `_rejected/` |
+| 173 | Exploring the Normative Foundation of Journalism Education: Nordic Journalism Educators' Conceptions | Maarit Jaakkola, Panu Uotila | 2022 | EN | article | paywall | user discovery | acquired | no | Survey of Nordic educators' normative conceptions; not DJ-specific methodology. `_rejected/` |
+| 174 | All Forest, No Trees? Data Journalism and the Construction of Abstract Categories | Wilson Lowrey, Jue Hou | 2018 | EN | article | paywall | user discovery | acquired | no | Sociology of quantification; critical/theoretical, no practitioner methodology. `_rejected/` |
+| 175 | Probabilistic Storytelling and Temporal Exigencies in Predictive Data Journalism | Christian Pentzold, Denise Fechner | 2021 | EN | article | paywall | user discovery | acquired | no | Epistemological study of predictive analytics in DJ; theoretical. `_rejected/` |
+| 176 | Remaining in Control with an Illusion of Interactivity: The Paternalistic Side of Data Journalism | Ester Appelgren | 2019 | EN | article | paywall | user discovery | acquired | no | Short critical essay on paternalism in DJ visualization; theoretical. `_rejected/` |
+| 177 | The Data Journalism Workforce: Demographics, Skills, Work Practices, and Challenges | Simona Bisiani et al. | 2023 | EN | article | paywall | user discovery | acquired | no | Descriptive workforce survey; documents practices but no transferable methodology. `_rejected/` |
+| 178 | The Evolution of Data Journalism: A Case Study of Australia | Scott Wright, Kim Doyle | 2018 | EN | article | paywall (T&F) | user discovery | acquired | no | Case study of DJ evolution in Australia; historical/sociological. `_rejected/` |
+| 179 | The Impact of Public Transparency Infrastructure on Data Journalism | Lindita Camaj, Jason Martin, Gerry Lanosga | 2022 | EN | article | paywall | user discovery | acquired | no | Comparative analysis of transparency infrastructure effects on DJ; sociological. `_rejected/` |
+| 180 | The Inapplicability of Objectivity: Understanding the Work of Data Journalism | Jingrong Tong, Landong Zuo | 2019 | EN | article | paywall | user discovery | acquired | no | Epistemological study of objectivity norms in DJ; critical/theoretical. `_rejected/` |
+| 181 | Towards an Epistemology of Data Journalism in the Devolved Nations of the UK | Eddy Borges-Rey | 2017 | EN | article | paywall | user discovery | acquired | no | Epistemological framework; purely theoretical. `_rejected/` |
+| 182 | Transparency, Interactivity, Diversity, and Information Provenance in Everyday Data Journalism | Rodrigo Zamith | 2019 | EN | article | paywall | user discovery | acquired | no | Content analysis of DJ output characteristics; analytical, not production methodology. `_rejected/` |
+| 183 | What Makes for Great Data Journalism? | Mary Lynn Young, Alfred Hermida, Johanna Fulda | 2017 | EN | article | paywall | user discovery | acquired | no | Evaluative analysis of DJ quality criteria; no practitioner methodology. `_rejected/` |
+| 184 | Writing With Data: A Study of Coding on a Data-Journalism Team | Chris Aaron Lindgren | 2020 | EN | article | paywall | user discovery | acquired | no | Code studies theorizing coding as 'intermediary writing'; academic analysis, not DJ workflow. `_rejected/` |
+| 185 | "API-Based Research" or How Digital Sociology and Journalism Studies Can Learn from the Cambridge Analytica Breach | Tommaso Venturini, Richard Rogers | 2019 | EN | article | paywall | user discovery | acquired | no | Research methodology for studying platforms, not journalism production methodology. `_rejected/` |
+| 186 | "In the Beginning Were the Data": Economic Journalism as/and Data Journalism | Angel Arrese | 2022 | EN | article | paywall | user discovery | acquired | no | Historical/conceptual analysis of economic journalism and DJ; theoretical. `_rejected/` |
 | 79 | Jornalismo guiado por dados: aproximações entre identidade jornalística e cultura hacker | Marcelo Träsel | n.d. | PT | article | open access | academic search | screened | yes | highlights DJ practices |
 | 80 | Jornalismo de Dados: Conceitos e Categorias | academic | n.d. | PT | article | open access (Knight Center) | academic search | screened | yes | concepts and categories |
 | 81 | Data Journalism (encyclopedia entry) | Brant Houston | n.d. | EN | article | paywall (Wiley) | academic search | screened | no | encyclopedia entry — definitional, not methodology |
@@ -215,8 +274,8 @@ Legend:
 | 110 | CFPJ — Formations en datajournalisme | CFPJ | ongoing | FR | curriculum | cfpj.com | web search | screened | meta | training program |
 | 111 | EMI — Bases du datajournalisme | EMI | ongoing | FR | curriculum | emi-ecoles.com | web search | screened | meta | training program |
 | 112 | Paris Nanterre — Master Journalisme de données | Paris Nanterre | 2025 | FR | curriculum | university site | web search | screened | meta | university course |
-| 113 | Comment devenir un bon datajournaliste (MOOC) | Rue89 / Kayser-Bril | 2015 | FR | curriculum | archived | web search | screened | yes | |
-| 114 | Jean-Marc Manach — Data et journalisme (MOOC) | Jean-Marc Manach | n.d. | FR | curriculum | open access | web search | screened | yes | |
+| 113 | Comment devenir un bon datajournaliste (MOOC) | Rue89 / Kayser-Bril | 2015 | FR | curriculum | archived | web search | screened | no | MOOC — video/interactive format, not analyzable as text |
+| 114 | Jean-Marc Manach — Data et journalisme (MOOC) | Jean-Marc Manach | n.d. | FR | curriculum | open access | web search | screened | no | MOOC — video/interactive format, not analyzable as text |
 | 115 | UC3M Data Journalism Course | UC3M Madrid | ongoing | ES | curriculum | open access (syllabus) | web search | screened | meta | syllabus |
 | 116 | ICFJ Online Course: Periodismo de datos para investigar la corrupción | ICFJ | 2019 | ES | curriculum | open access | ICFJ | converted | yes | Course page content fetched |
 | 117 | Fundación Gabo — 15 recursos para periodismo de investigación y de datos | Fundación Gabo | n.d. | ES | meta | open access | GIJN | screened | meta | curated list |

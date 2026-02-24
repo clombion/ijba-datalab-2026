@@ -1,5 +1,5 @@
 # Project Status: Data Pipeline Canon — What Endures in the LLM Era
-_Last updated: 2026-02-23 (v8)_
+_Last updated: 2026-02-24 (v9)_
 
 ## Research Questions
 - **RQ1**: What do data journalism practitioners and educators recommend at each stage of the data pipeline?
@@ -15,8 +15,8 @@ _Last updated: 2026-02-23 (v8)_
 |------|--------|-------|
 | Define | ✅ Complete | RQs, hypotheses, task map, horizon table, scope, corpus selection protocol |
 | Find | ✅ Complete | 160 entries (v7); expansion search added 9 new candidates in verification, investigative methods, data ethics |
-| Get | 🔄 In progress | ~50 sources acquired; 8 expansion candidates acquired (#142–#144, #146–#150); #145 needs manual download; ~6 still being procured; sources folder reorganized |
-| Verify | ⬜ Not started | |
+| Get | ✅ Complete | ~90 acquired; 75 converted outputs; 15 included-not-acquired (purchase barrier or paywalled) |
+| Verify | ✅ Complete | T6 corpus profile: 71 sources, 5.31M words, 4 languages. 8 thin sources (<1K words), 2 conversion warnings, 15 gaps. See `corpus-profile.md` |
 | Clean | ⬜ Not started | Includes translation task for FR/ES/PT sources |
 | Analyse | ⬜ Not started | |
 | Present | ⬜ Not started | |
@@ -46,31 +46,25 @@ _Last updated: 2026-02-23 (v8)_
 | llm_relevance | enum: endures, displaced, needs_update | RQ2, H2, H3 |
 | notes | text (nullable) | — |
 
-## Current Step: GET
+## Current Step: VERIFY (T6) → CLEAN (T8)
 
-### Acquisition status (see source-registry.md for the authoritative per-item detail)
+### T6 Corpus Profile (2026-02-24)
 
-**The registry is the single source of truth.** Every entry's last column shows: file location if acquired, "PROCUREMENT IN PROGRESS" if being obtained, "NOT ACQUIRED" + reason if unavailable.
+Corpus profile generated via `utils/corpus_profile.py`. Key findings:
+- **71 deduplicated sources**, 5.31M words (median 16.7K/source)
+- **Language**: EN-dominant (92.5%). FR/ES/PT present but thin (8 sources total, 8.5% of corpus)
+- **Format**: NICAR consolidated files dominate (39.8% of words). 34 PDFs, 9 EPUBs, 14 md-native
+- **Type**: guides (41.6%), books (20.7%), handbooks (8.6%). 2 "unknown" type sources need registry mapping
+- **Decade**: 2020s (59.1%), 2010s (15.4%), 22 sources with unknown year (25.5% of words)
+- **Thin sources**: 8 under 1K words (portal pages, stubs, TOC-only entries)
+- **Gaps**: 15 included-but-not-converted (purchase barriers + paywalled articles)
+- **Warnings**: 2 PDF word-count deltas >10% (#146 Al Jazeera, #54 Guía Buenas Prácticas)
 
-**Summary counts (as of 2026-02-23, v8):**
-- **Acquired**: ~50 sources (PDFs, EPUBs, markdown, cloned repos). All organized in `sources/{lang}/` with standard naming.
-- **Expansion search acquired**: #142–#144, #146–#150 (8 of 9 sources). #145 (Follow the Money) needs manual download from archive.org.
-- **Procurement in progress**: #23 Data Storytelling Workbook
-- **Not acquired — digital exists, can still procure**: #16 (Houston, Kindle ~$40), #25 (Tong, SAGE ebook)
-- **Not acquired — paperback/physical only**: #17 (Vallance-Jones, OUP Canada), #43 (Felle, Abramis), #44 (LaFleur, IRE spiral-bound)
-- **Excluded — wrong language**: #26 (Elmer/Matzat, German only)
-- **Paywalled articles**: ~7 still need institutional access
-- **Excluded (acquired but not in corpus)**: Apostles of Certainty, Nerd Journalism → `sources/_rejected/`
+Full report: `research/pipeline-canon/corpus-profile.md`
 
-**Maybe items resolved (v7):**
-- #133 Digital Technology and Journalism → **excluded** (theory/case studies)
-- #134 Journalism in an Era of Big Data → **excluded** (theory-heavy)
-- #137 The Watchdog Still Barks → **excluded** (impact analysis, no methods)
-- #139 Best Practices for Data Journalism → **included** (practitioner workflow guide)
+### Previous: GET phase
 
-**New acquisitions since v6:**
-- #24 Data + Journalism (Reilley/Sunne) — acquired
-- #141 Nerd Journalism (Cairo) — acquired, excluded (viz history)
+See source-registry.md for authoritative per-item detail. ~90 acquired, 75 converted, 15 gaps.
 
 ## Key Decisions Made
 - RQs: two research questions confirmed (session 1)
@@ -89,11 +83,9 @@ T1 (Define) → T2+T3 (Find) → T4 (Get, manual) → T5 (Convert) → T6 (Verif
 ```
 
 ## Next Actions
-1. User manually downloads #145 (Follow the Money) from archive.org: https://web.archive.org/web/20200706122418/http://test.irrp.org.ua/wp-content/uploads/2017/11/Follow-The-Money.pdf → save as `sources/en/145-follow-the-money-occrp.pdf`
-2. User finishes procuring #23 (Data Storytelling Workbook)
-3. Optionally procure #16 (Houston, ~$40) and #25 (Tong, SAGE ebook)
-4. User downloads remaining browser-blocked PDFs and paywalled articles
-5. Once corpus sufficiently populated → T5 (convert to text) → T6 (verify representativeness)
+1. **Decision**: proceed to T8/T9 with current corpus, or go back to GET for remaining gaps?
+2. If proceeding: T8 (Clean + translate FR/ES/PT) → T9 (LLM extraction)
+3. Optional: procure remaining gaps (#16 Houston ~$40, #25 Tong, paywalled articles)
 
 ## Completed: Research Expansion (v7)
 

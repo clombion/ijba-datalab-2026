@@ -106,6 +106,17 @@ def word_count(text: str) -> int:
     return len(text.split())
 
 
+def load_existing_manifest() -> dict[str, ManifestRow]:
+    """Load existing manifest keyed by output_path. Returns empty dict if missing."""
+    if not MANIFEST_PATH.exists():
+        return {}
+    by_output: dict[str, ManifestRow] = {}
+    with open(MANIFEST_PATH, newline="") as f:
+        for row in csv.DictReader(f):
+            by_output[row["output_path"]] = row
+    return by_output
+
+
 def make_row(
     source_path: Path,
     output_path: Path,
@@ -448,10 +459,46 @@ def convert_nicar_file(path: Path, fmt: str) -> str | None:
 
 
 def process_nicar(
-    nicar_dir: Path, dry_run: bool = False
+    nicar_dir: Path, dry_run: bool = False, force: bool = False,
 ) -> list[ManifestRow]:
-    """Process entire NICAR archive. Returns manifest rows."""
+    """Process entire NICAR archive. Returns manifest rows.
+
+    Skips years whose output .md already exists unless --force is set.
+    """
     rows: list[ManifestRow] = []
+    en_dir = SOURCES_ROOT / "en"
+
+    # Check which year outputs already exist
+    existing_years: set[int] = set()
+    if not force:
+        for prefix, (year, slug) in NICAR_YEAR_MAP.items():
+            if (en_dir / f"{slug}.md").exists():
+                existing_years.add(year)
+
+    if existing_years and not force:
+        # Re-read existing outputs for manifest rows without reconverting
+        for prefix, (year, slug) in NICAR_YEAR_MAP.items():
+            dst = en_dir / f"{slug}.md"
+            if dst.exists():
+                text = dst.read_text(errors="replace")
+                wc = word_count(text)
+                rows.append(make_row(nicar_dir, dst, "nicar-consolidation", wc))
+
+        all_years = set(y for _, (y, _) in NICAR_YEAR_MAP.items())
+        missing = all_years - existing_years
+        if not missing:
+            console.print("  [dim]SKIP[/] all NICAR years already converted")
+            return rows
+        console.print(
+            f"  [dim]SKIP[/] {len(existing_years)} years already converted, "
+            f"processing {len(missing)} new"
+        )
+        # Only clear rows for years we'll reconvert
+        rows = [r for r in rows
+                if not any(f"97x-nicar-{y}" in r["output_path"]
+                           or any(s in r["output_path"]
+                                  for _, (yy, s) in NICAR_YEAR_MAP.items() if yy in missing)
+                           for y in missing)]
 
     # Collect all convertible files, grouped by year
     year_files: dict[int, list[tuple[Path, str, str]]] = {}  # year → [(path, fmt, md_text)]
@@ -479,12 +526,19 @@ def process_nicar(
         year = get_nicar_year(path, nicar_dir)
         if year is None:
             continue
+        # Skip years already converted
+        if year in existing_years and not force:
+            continue
         if year not in year_files:
             year_files[year] = []
         year_files[year].append((path, fmt, ""))
 
+    if not year_files:
+        return rows
+
     console.print(
-        f"  NICAR: {convertible} convertible, {skipped} skipped "
+        f"  NICAR: {convertible} convertible, {skipped} non-text "
+        f"— converting {sum(len(v) for v in year_files.values())} files "
         f"across {len(year_files)} years"
     )
 
@@ -514,7 +568,6 @@ def process_nicar(
     console.print(f"  NICAR converted: {total_converted}, failed: {total_failed}")
 
     # Consolidate into per-year files
-    en_dir = SOURCES_ROOT / "en"
     for year in sorted(year_texts):
         if not year_texts[year]:
             continue
@@ -588,6 +641,7 @@ def main(
         raise typer.Exit(1)
 
     langs = [only_lang] if only_lang else LANG_DIRS
+    existing_manifest = load_existing_manifest() if not force else {}
     rows: list[ManifestRow] = []
     stats = {"converted": 0, "skipped": 0, "failed": 0, "already_md": 0}
 
@@ -620,6 +674,12 @@ def main(
 
         dst = src_dir.parent / f"{name}.md"
         if dst.exists() and not force:
+            rel_dst = str(dst.relative_to(SOURCES_ROOT))
+            if rel_dst in existing_manifest:
+                rows.append(existing_manifest[rel_dst])
+            else:
+                text = dst.read_text(errors="replace")
+                rows.append(make_row(src_dir, dst, "dir", word_count(text)))
             console.print(f"[dim]SKIP[/] {name} (already converted)")
             stats["skipped"] += 1
             continue
@@ -658,6 +718,12 @@ def main(
 
             # Skip if output exists (idempotent)
             if dst.exists() and not force:
+                rel_dst = str(dst.relative_to(SOURCES_ROOT))
+                if rel_dst in existing_manifest:
+                    rows.append(existing_manifest[rel_dst])
+                else:
+                    text = dst.read_text(errors="replace")
+                    rows.append(make_row(src, dst, suffix.lstrip("."), word_count(text)))
                 console.print(f"[dim]SKIP[/] {src.name}")
                 stats["skipped"] += 1
                 continue
@@ -696,7 +762,7 @@ def main(
     nicar_dir = SOURCES_ROOT / "en" / "nicar"
     if nicar_dir.exists() and (not only_lang or only_lang == "en"):
         console.print("\n[bold]NICAR archive[/]")
-        nicar_rows = process_nicar(nicar_dir, dry_run=dry_run)
+        nicar_rows = process_nicar(nicar_dir, dry_run=dry_run, force=force)
         rows.extend(nicar_rows)
         stats["converted"] += len(nicar_rows)
 
