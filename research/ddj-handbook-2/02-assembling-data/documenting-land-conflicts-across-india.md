@@ -1,0 +1,36 @@
+---
+title: "Making a Database to Document Land Conflicts Across India"
+authors: []
+section: "Assembling Data"
+source_url: "https://datajournalism.com/read/handbook/two/assembling-data/documenting-land-conflicts-across-india"
+---
+
+**Abstract**
+
+**Documenting land conflicts** to tell deeper, more nuanced and bigger stories of land and its relationship **with India’s diverse society**.
+
+**Keywords:** land conflict, India, data journalism, databases, collaboration
+
+Land is a scarce resource in India. The country only has **2.4% of the world’s land area** but supports over 17% of the world’s population. As one of the world’s fastest-growing economies, it requires large swathes of lands to fuel its ambitious agenda of industrial and infrastructure growth. At least 11 million hectares of land are required for development projects in the next 15 years. But a huge section of India’s population—mostly marginalized communities—depend on land for their sustenance and livelihood. Over **200 million people depend on forests** while **118.9 million depend on farming land** in India.
+
+These competing demands cause conflicts. In many cases land is forcefully acquired or fraudulently grabbed by the state or private interests, dissenters are booked by the state agencies under false charges, compensation is paid partially, communities are displaced, houses are torched, and people get killed. Social disparities around caste, class and gender also fuel land struggles. Climate change-induced calamities are making land-dependent communities further vulnerable to displacements. All this is reflected in the many battles taking place over land across India.
+
+As journalists writing about development issues in India, we come across many such conflicts. However, we realized it was not easy to sell those stories happening in remote corners of India to the editors in New Delhi. The mainstream media did not report on land conflicts except the ones that turned fatally violent or that were fought in the national courts. Sporadic Reporting by a few journalists had little impact. Voices of the people affected by such conflicts remained unheard. Their concerns remained unaddressed.
+
+The reason, we thought, was that the reporters and the **editors looked at the conflicts as isolated incidents.** We knew land conflicts were one of the most important stories about India’s political economy. But the question was how to sell it to editors and readers. We thought that if journalists could scale up their reporting on individual cases of conflict to examine broader trends, their stories could not only have wider reach but might also show the intensity of various kind of conflicts and their impact on people, the economy and the environment. The biggest challenge to achieving this was the lack of a database which journalists could explore to see what trends are emerging around specific kinds of conflicts, such as those over roads, townships, mining or wildlife-protected areas. There was no such database of ongoing land conflicts in India. So we decided to build one.
+
+In November 2016, we started [**Land Conflict Watch**](https://www.landconflictwatch.org), a research-based data journalism project which aims to map and document all ongoing land conflicts in India. We developed a **documentation methodology in consultation with academics working on land governanc****e**. We put together a network of researchers and journalists, who live across the country, to document the conflicts in their regions following this methodology.
+
+www.landconflictwatch.org
+
+For the purpose of this project, **we defined land conflict as any situation that has conflicting demands or claims over the use or ownership of land,** and where communities are one of the contesting parties. Ongoing conflicts where such demands or claims have already been recorded in a written or audio-visual format at any place, from the village level to the national level, are included. These records could be news reports, village assembly resolu- tions, records of public consultation for development projects, complaints submitted by people to government authorities, police records or court documents. Conflicts such as property disputes between two private parties or between a private party and the government are excluded unless they directly affect broader publics.
+
+The researchers and journalists track national and local media coverage about their regions and interact with local activists, community organizations and lawyers to find cases of conflict. They then collect and verify information from publicly available government documents and independent studies, and by talking to affected parties. Data such as location of conflict, reasons behind the conflict, number of affected people, affected area, land type—whether private, common or forest—names of the government and corporate agencies involved, and a narrative summary of the conflict are documented.
+
+Researchers file all the data into reporting-and-review software built into the [**Land Conflict Watch website**](https://www.landconflictwatch.org/#home). Data is examined and verified by dedicated reviewers. The software allows to-and-fro workflow between the researchers and the reviewers before the data is published. The dashboard, on the portal, not only presents the macro picture of the ongoing conflicts at the national level but zooms in to give details of each conflict, along with the supporting documents, at the micro level. It also provides the approximate location of the conflict on an interactive map.
+
+About **35 journalists and researchers are currently contributing**. As of September 2018, t**he project had documented over 640 cases**. These conflicts affect close to 7.3 million people and span over 2.4 million hectares of land. Investments worth USD186 billion are attached to projects and schemes affected by these conflicts.
+
+As a conflict is documented, it is profiled on the portal as well as on social media to give a heads-up to national journalists and researchers. **The project team then collaborates with journalists to create in-depth, investigative stories** at the intersection of land rights, land conflicts, politics, economy, class, gender and the environment using this data. We also collaborate with national and international media to get these stories published. Many of these stories have been republished by other mainstream media outlets. We have also conducted training to support journalists in using the database to find and scale up stories around land governance.
+
+Land Conflict Watch is an ongoing project. Apart from designing stories, we also work with academics, researchers and students to initiate public debates. Land Conflict Watch’s data has been cited by policy think tanks in their reports. Land-governance experts have written op-eds in national newspapers using the data. We regularly get requests from students at Indian and foreign universities to use our data in their research. Non-profit organizations use land conflict data, documents and cases to strengthen their campaigns to fight for the land rights of conflict affected communities. The stories inform people and help shape discourse around land rights and governance-related issues in India.
