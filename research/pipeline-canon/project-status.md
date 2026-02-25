@@ -1,5 +1,5 @@
 # Project Status: Data Pipeline Canon — What Endures in the LLM Era
-_Last updated: 2026-02-25 (v11 — T10 RELEVANCE + T11 MERGE complete)_
+_Last updated: 2026-02-25 (v12 — T12 ANALYSE complete)_
 
 ## Research Questions
 - **RQ1**: What do data journalism practitioners and educators recommend at each stage of the data pipeline?
@@ -18,7 +18,7 @@ _Last updated: 2026-02-25 (v11 — T10 RELEVANCE + T11 MERGE complete)_
 | Get | ✅ Complete | ~90 acquired; 75 converted outputs; 15 included-not-acquired (purchase barrier or paywalled) |
 | Verify | ✅ Complete | T6 corpus profile: 71 sources, 5.31M words, 4 languages. 8 thin sources (<1K words), 2 conversion warnings, 15 gaps. See `corpus-profile.md` |
 | Clean | ✅ Complete | T8: 81 sources, 5.14M words. 7 excluded (4 stubs + 3 DDJ Handbook 1 translations). 15 non-EN sources translated to EN. See `corpus/corpus-registry.csv` |
-| Analyse | 🔶 In progress | T9 extraction complete (4,351 extracts). T10 relevance scoring complete. T11 horizon table merged. T12 analysis next. |
+| Analyse | ✅ Complete | T9 extraction (4,351 extracts). T10 relevance. T11 merge. T12 analysis: 6 CSVs + narrative report. H1/H2/H3 all confirmed. |
 | Present | ⬜ Not started | |
 
 ## Scope & Criteria
@@ -46,7 +46,23 @@ _Last updated: 2026-02-25 (v11 — T10 RELEVANCE + T11 MERGE complete)_
 | llm_relevance | enum: endures, displaced, needs_update | RQ2, H2, H3 |
 | notes | text (nullable) | — |
 
-## Current Step: ANALYSE (T12)
+## Current Step: PRESENT (T13)
+
+### T12 Analyse (2026-02-25)
+
+Deterministic cross-tabulation + LLM narrative synthesis of horizon-table.csv. Key findings:
+
+- **H1 confirmed**: Analyse 27.0% vs Clean 5.6% — coverage is uneven (4.8:1 ratio)
+- **H2 confirmed**: Epistemological 89.4% endures vs tool-specific 10.6% endures — abstract principles survive, tool advice does not
+- **H3 confirmed**: Three redefinition candidates — Clean (80.2%), Get (49.1%), Analyse (35.6%)
+- **Overall**: 69.5% endures, 29.5% needs_update, 1.1% displaced (46 extracts)
+- **46 displaced extracts**: defunct tools (18), manual text preprocessing (12), search operator syntax (10), obsolete workflows (6)
+- **6,452 unique themes** across 4,351 extracts; Verify > Analyse > Present for thematic density
+
+Outputs:
+- `research/pipeline-canon/analysis/` — 6 CSVs (step_distribution, type_x_relevance, step_x_relevance, themes_by_step, displaced_extracts, source_coverage)
+- `research/pipeline-canon/analysis/t12_report.md` — full narrative synthesis
+- Script: `utils/analyse/t12_1_analyse_horizon.py`
 
 ### T10 Relevance + T11 Merge (2026-02-25)
 
@@ -113,9 +129,8 @@ T1 (Define) → T2+T3 (Find) → T4 (Get, manual) → T5 (Convert) → T6 (Verif
 ```
 
 ## Next Actions
-1. **T12 (Analyse)**: Quantitative + qualitative analysis of horizon-table.csv — step distribution (H1), extract-type × relevance (H2), redefinition candidates (H3)
-2. **T13 (Present)**: Synthesize findings into deliverable format
-3. Optional: procure remaining gaps (#16 Houston ~$40, #25 Tong, paywalled articles)
+1. **T13 (Present)**: Synthesize findings into deliverable format
+2. Optional: procure remaining gaps (#16 Houston ~$40, #25 Tong, paywalled articles)
 
 ## Completed: Research Expansion (v7)
 
@@ -141,4 +156,5 @@ T1 (Define) → T2+T3 (Find) → T4 (Get, manual) → T5 (Convert) → T6 (Verif
 - Extractions: `research/pipeline-canon/extractions/` (81 per-source JSONs, 4,351 extracts)
 - Relevance scores: `research/pipeline-canon/relevance/` (81 per-source JSONs with llm_relevance)
 - Horizon table: `research/pipeline-canon/horizon-table.csv` (final merged output, 4,351 rows)
+- Analysis: `research/pipeline-canon/analysis/` (6 CSVs + t12_report.md)
 - DDJ Handbook 2 (already in repo): `research/ddj-handbook-2/`

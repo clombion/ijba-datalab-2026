@@ -1,0 +1,71 @@
+pipeline_step,rank,theme,count
+Define,1,collaboration,38
+Define,2,project management,22
+Define,3,hypothesis,18
+Define,4,research design,17
+Define,5,workflow,16
+Define,6,data literacy,14
+Define,7,planning,13
+Define,8,algorithmic accountability,13
+Define,9,methodology,13
+Define,10,transparency,12
+Find,1,public records,29
+Find,2,data discovery,18
+Find,3,FOI,17
+Find,4,search operators,15
+Find,5,source identification,14
+Find,6,document trails,14
+Find,7,OSINT,14
+Find,8,data acquisition,14
+Find,9,verification,13
+Find,10,backgrounding,12
+Get,1,FOI,66
+Get,2,web scraping,46
+Get,3,data acquisition,43
+Get,4,data collection,40
+Get,5,crowdsourcing,36
+Get,6,scraping,34
+Get,7,FOIA,26
+Get,8,ethics,25
+Get,9,automation,25
+Get,10,data access,22
+Verify,1,verification,189
+Verify,2,data quality,77
+Verify,3,fact-checking,41
+Verify,4,reproducibility,27
+Verify,5,documentation,24
+Verify,6,transparency,24
+Verify,7,ethics,23
+Verify,8,geolocation,22
+Verify,9,accountability,21
+Verify,10,provenance,21
+Clean,1,data cleaning,68
+Clean,2,OpenRefine,23
+Clean,3,data quality,15
+Clean,4,regex,15
+Clean,5,workflow,14
+Clean,6,Excel,13
+Clean,7,VisiData,13
+Clean,8,data reshaping,10
+Clean,9,data preservation,9
+Clean,10,spreadsheets,8
+Analyse,1,reproducibility,56
+Analyse,2,VisiData,44
+Analyse,3,collaboration,39
+Analyse,4,verification,33
+Analyse,5,methodology,31
+Analyse,6,accountability,28
+Analyse,7,transparency,28
+Analyse,8,data analysis,25
+Analyse,9,documentation,25
+Analyse,10,cross-referencing,24
+Present,1,transparency,96
+Present,2,visualization,38
+Present,3,storytelling,37
+Present,4,audience engagement,36
+Present,5,reproducibility,28
+Present,6,data visualization,27
+Present,7,accessibility,23
+Present,8,interactivity,23
+Present,9,methodology,21
+Present,10,open data,19

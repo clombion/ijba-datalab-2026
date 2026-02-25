@@ -156,3 +156,9 @@
 
 ## 2026-02-25T17:47 — t8_clean_corpus [live]
 - Added pass4_strip_code_blocks to cleaning pipeline. Strips fenced code blocks and long indented code blocks, replaces with [CODE BLOCK REMOVED] placeholder. Ready for future re-cleans.
+
+## 2026-02-25T18:00 — t12_1_analyse_horizon.py [live]
+- Generated 6 analysis CSVs from 4351 extracts
+
+## 2026-02-25T18:06 — t12_1_analyse_horizon.py [live]
+- T12 complete: 6 analysis CSVs + narrative report from 4,351 extracts. H1/H2/H3 all confirmed.
