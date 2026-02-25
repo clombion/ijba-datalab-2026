@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = []
+# dependencies = ["typer>=0.9.0"]
 # ///
 """Action log utility — append timestamped entries to action-log.md.
 
@@ -14,9 +14,14 @@ Module usage:
     log_action("chunk_corpus.py", "Chunked 81 sources into 142 chunks")
 """
 
+from __future__ import annotations
+
 import sys
 from datetime import datetime
 from pathlib import Path
+from typing import Annotated
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent
 ACTION_LOG = ROOT / "research" / "pipeline-canon" / "action-log.md"
@@ -34,37 +39,24 @@ def log_action(script: str, message: str, tag: str = "live") -> None:
         f.write(entry)
 
 
-def main():
-    script = None
-    message = None
-    tag = "live"
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--script" and i + 1 < len(args):
-            script = args[i + 1]
-            i += 2
-        elif args[i] == "--message" and i + 1 < len(args):
-            message = args[i + 1]
-            i += 2
-        elif args[i] == "--tag" and i + 1 < len(args):
-            tag = args[i + 1]
-            i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
-
-    if not script or not message:
-        print("Usage: uv run utils/log_action.py --script NAME --message MSG [--tag TAG]", file=sys.stderr)
-        sys.exit(1)
-
-    log_action(script, message, tag)
-    print(f"Logged: {script} [{tag}]", file=sys.stderr)
-
-
 if __name__ == "__main__":
-    main()
+    import typer
+
+    app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=True)
+
+    def version_callback(value: bool) -> None:
+        if value:
+            print(f"log-action {__version__}")
+            raise typer.Exit()
+
+    @app.command()
+    def main(
+        script: Annotated[str, typer.Option("--script", help="Name of the calling script.")],
+        message: Annotated[str, typer.Option("--message", help="Log message text.")],
+        tag: Annotated[str, typer.Option("--tag", help="Log tag.")] = "live",
+        version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+    ) -> None:
+        log_action(script, message, tag)
+        print(f"Logged: {script} [{tag}]", file=sys.stderr)
+
+    app()

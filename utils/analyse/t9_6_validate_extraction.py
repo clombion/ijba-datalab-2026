@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
 """T9 Validation — check extraction completeness and quality.
 
@@ -14,8 +14,12 @@ import subprocess
 import sys
 from collections import Counter
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
@@ -28,6 +32,14 @@ MIN_WORDS_FOR_EXTRACTS = 2000
 MIN_EXTRACT_LEN = 20
 MAX_EXTRACT_LEN = 2000
 MAX_THEMES = 5
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
+
+
+def version_callback(value: bool) -> None:
+    if value:
+        Console().print(f"t9_6_validate_extraction {__version__}")
+        raise typer.Exit()
 
 
 def validate_file(path: Path) -> tuple[list[str], list[str]]:
@@ -84,24 +96,15 @@ def validate_file(path: Path) -> tuple[list[str], list[str]]:
     return errors, warnings
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
-
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Validate only this source ID.")] = None,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Check extraction completeness and quality."""
     files = sorted(EXTRACTIONS_DIR.glob("*_chunk*.json"))
-    if only_id:
-        files = [f for f in files if f.name.startswith(f"{only_id}-")]
+    if only:
+        files = [f for f in files if f.name.startswith(f"{only}-")]
 
     if not files:
         console.print("[yellow]No extraction files found.")
@@ -151,4 +154,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

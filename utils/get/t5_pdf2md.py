@@ -92,7 +92,7 @@ def _check_layout_available() -> bool:
 # ---------------------------------------------------------------------------
 
 
-@dataclass
+@dataclass(frozen=True, slots=True)
 class VerifyStats:
     pdf_words: int
     md_words: int
@@ -101,7 +101,7 @@ class VerifyStats:
     missing_headings: int
 
 
-@dataclass
+@dataclass(slots=True)
 class AnalysisResult:
     total_pages: int
     repeated_headers: list[str]
@@ -224,14 +224,13 @@ def _convert_layout_subprocess(pdf_path: str) -> str:
 
 
 def verify(pdf_path: str, md_text: str) -> tuple[list[str], VerifyStats]:
-    doc = pymupdf.open(pdf_path)
-    pdf_wc = count_words_pdf(doc)
-    md_wc = len(md_text.split())
-    delta_pct = abs(pdf_wc - md_wc) / pdf_wc * 100 if pdf_wc else 0
+    with pymupdf.open(pdf_path) as doc:
+        pdf_wc = count_words_pdf(doc)
+        md_wc = len(md_text.split())
+        delta_pct = abs(pdf_wc - md_wc) / pdf_wc * 100 if pdf_wc else 0
 
-    toc_headings = find_toc_headings(doc)
-    missing = [h for h in toc_headings if h not in md_text]
-    doc.close()
+        toc_headings = find_toc_headings(doc)
+        missing = [h for h in toc_headings if h not in md_text]
 
     warnings = []
     w = check_word_parity(pdf_wc, md_wc)
@@ -251,31 +250,30 @@ def verify(pdf_path: str, md_text: str) -> tuple[list[str], VerifyStats]:
 
 
 def analyze_pdf(pdf_path: str) -> AnalysisResult:
-    doc = pymupdf.open(pdf_path)
-    page_count = len(doc)
+    with pymupdf.open(pdf_path) as doc:
+        page_count = len(doc)
 
-    headers = [extract_zone_text(doc[i], "top", 50) for i in range(page_count)]
-    footers = [extract_zone_text(doc[i], "bottom", 50) for i in range(page_count)]
-    rep_headers = find_repeated_text(headers)
-    rep_footers = find_repeated_text(footers)
+        headers = [extract_zone_text(doc[i], "top", 50) for i in range(page_count)]
+        footers = [extract_zone_text(doc[i], "bottom", 50) for i in range(page_count)]
+        rep_headers = find_repeated_text(headers)
+        rep_footers = find_repeated_text(footers)
 
-    toc_headings = find_toc_headings(doc)
-    suggested = suggest_margins(doc)
+        toc_headings = find_toc_headings(doc)
+        suggested = suggest_margins(doc)
 
-    trials = []
-    pdf_wc = count_words_pdf(doc)
-    for m in MARGIN_CANDIDATES:
-        md = convert(pdf_path, use_layout=False, margins=m)
-        md_wc = len(md.split())
-        missing = [h for h in toc_headings if h not in md]
-        trials.append({
-            "margins": m,
-            "md_words": md_wc,
-            "delta_pct": round(abs(pdf_wc - md_wc) / pdf_wc * 100, 1) if pdf_wc else 0,
-            "missing_headings": len(missing),
-        })
+        trials = []
+        pdf_wc = count_words_pdf(doc)
+        for m in MARGIN_CANDIDATES:
+            md = convert(pdf_path, use_layout=False, margins=m)
+            md_wc = len(md.split())
+            missing = [h for h in toc_headings if h not in md]
+            trials.append({
+                "margins": m,
+                "md_words": md_wc,
+                "delta_pct": round(abs(pdf_wc - md_wc) / pdf_wc * 100, 1) if pdf_wc else 0,
+                "missing_headings": len(missing),
+            })
 
-    doc.close()
     return AnalysisResult(
         total_pages=page_count,
         repeated_headers=rep_headers,

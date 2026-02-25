@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T10 Validation — check relevance scoring completeness.
 
@@ -13,8 +13,13 @@ import json
 import sys
 from collections import Counter
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
@@ -22,26 +27,25 @@ RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
 console = Console()
 
 VALID_RELEVANCE = {"endures", "displaced", "needs_update"}
+RELEVANCE_LABELS = ["endures", "needs_update", "displaced"]
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
+def version_callback(value: bool) -> None:
+    if value:
+        console.print(f"t10_3_validate_relevance {__version__}")
+        raise typer.Exit()
 
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
 
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Validate only sources matching this ID prefix.")] = None,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     files = sorted(RELEVANCE_DIR.glob("*.json"))
-    if only_id:
-        files = [f for f in files if f.name.startswith(f"{only_id}-")]
+    if only:
+        files = [f for f in files if f.name.startswith(f"{only}-")]
 
     if not files:
         console.print("[yellow]No relevance files found.")
@@ -88,7 +92,15 @@ def main():
     console.rule("[bold]Summary")
     console.print(f"  Files: {len(files)}")
     console.print(f"  Total extracts: {total_extracts}")
-    console.print(f"  Distribution: {dict(dist)}")
+    dist_table = Table(show_header=True)
+    dist_table.add_column("Relevance")
+    dist_table.add_column("Count", justify="right")
+    dist_table.add_column("%", justify="right")
+    for label in RELEVANCE_LABELS:
+        n = dist.get(label, 0)
+        pct = 100 * n / total_extracts if total_extracts else 0
+        dist_table.add_row(label, str(n), f"{pct:.1f}%")
+    console.print(dist_table)
     console.print(f"  Errors: {total_errors}")
     console.print(f"  Warnings: {total_warnings}")
 
@@ -100,4 +112,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

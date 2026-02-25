@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
 """Classify chunks as context_ok or context_needed based on heading quality.
 
@@ -17,8 +17,12 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
@@ -30,6 +34,14 @@ console = Console()
 RE_NICAR_FILENAME = re.compile(r"^\d{4}-.+")
 # Backtick-wrapped headings (OCR garbage)
 RE_BACKTICK_HEADING = re.compile(r"`[^`]+`")
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
+
+
+def version_callback(value: bool) -> None:
+    if value:
+        Console().print(f"t9_2_classify_chunks {__version__}")
+        raise typer.Exit()
 
 
 def classify_chunk(chunk_path: Path) -> str:
@@ -63,21 +75,13 @@ def classify_chunk(chunk_path: Path) -> str:
     return "context_ok"
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
-
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Process only this source ID.")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Preview without writing.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Classify chunks as context_ok or context_needed."""
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found. Run chunk_corpus.py first.")
         sys.exit(1)
@@ -86,8 +90,8 @@ def main():
     with open(MANIFEST_CSV, newline="") as f:
         rows = list(csv.DictReader(f))
 
-    if only_id:
-        rows = [r for r in rows if r["source_id"] == only_id or r["source_file"].startswith(f"{only_id}-")]
+    if only:
+        rows = [r for r in rows if r["source_id"] == only or r["source_file"].startswith(f"{only}-")]
 
     ok_count = 0
     needed_count = 0
@@ -117,25 +121,29 @@ def main():
             ok_count += 1
 
     # Write updated manifest
-    fields = list(rows[0].keys()) if rows else []
-    with open(MANIFEST_CSV, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
+    if not dry_run:
+        fields = list(rows[0].keys()) if rows else []
+        with open(MANIFEST_CSV, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fields)
+            writer.writeheader()
+            writer.writerows(rows)
 
     console.rule("[bold]Summary")
     console.print(f"  context_ok: {ok_count}")
     console.print(f"  context_needed: {needed_count}")
     if needed_files:
         console.print(f"  Needed: {', '.join(needed_files)}")
+    if dry_run:
+        console.print("  [dim](dry run — no files written)[/]")
 
-    subprocess.run(
-        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-         "--script", Path(__file__).name,
-         "--message", f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}"],
-        check=False, capture_output=True,
-    )
+    if not dry_run:
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":
-    main()
+    app()

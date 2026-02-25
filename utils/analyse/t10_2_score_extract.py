@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = []
+# dependencies = ["typer>=0.9.0"]
 # ///
 """CLI for LLM to score an extract for LLM-era relevance (T10).
 
@@ -15,69 +15,56 @@ Usage:
 import json
 import sys
 from pathlib import Path
+from typing import Annotated
+
+import typer
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
 
 VALID_RELEVANCE = {"endures", "displaced", "needs_update"}
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=True)
 
-def main():
-    file_path = None
-    index = None
-    relevance = None
-    rationale = None
 
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
+def version_callback(value: bool) -> None:
+    if value:
+        print(f"t10_2_score_extract {__version__}")
+        raise typer.Exit()
 
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--file" and i + 1 < len(args):
-            file_path = args[i + 1]; i += 2
-        elif args[i] == "--index" and i + 1 < len(args):
-            index = int(args[i + 1]); i += 2
-        elif args[i] == "--relevance" and i + 1 < len(args):
-            relevance = args[i + 1]; i += 2
-        elif args[i] == "--rationale" and i + 1 < len(args):
-            rationale = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
 
-    # Validate
-    missing = []
-    if not file_path: missing.append("--file")
-    if index is None: missing.append("--index")
-    if not relevance: missing.append("--relevance")
-    if not rationale: missing.append("--rationale")
-    if missing:
-        print(f"Error: missing required arguments: {', '.join(missing)}", file=sys.stderr)
-        sys.exit(1)
-
+@app.command()
+def main(
+    file: Annotated[str, typer.Option("--file", help="Relevance JSON file path.")],
+    index: Annotated[int, typer.Option("--index", help="Extract index to score.")],
+    relevance: Annotated[str, typer.Option("--relevance", help="Relevance label: endures, displaced, needs_update.")],
+    rationale: Annotated[str, typer.Option("--rationale", help="Rationale for the relevance score.")],
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    # Validate relevance
     if relevance not in VALID_RELEVANCE:
         print(f"Error: --relevance must be one of: {', '.join(sorted(VALID_RELEVANCE))}", file=sys.stderr)
         print(f"  Got: {relevance}", file=sys.stderr)
-        sys.exit(1)
+        raise typer.Exit(code=1)
 
     # Resolve path
-    p = Path(file_path)
+    p = Path(file)
     if not p.is_absolute():
         p = RELEVANCE_DIR / p.name if not p.exists() else p
     if not p.exists():
-        p = RELEVANCE_DIR / Path(file_path).name
+        p = RELEVANCE_DIR / Path(file).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}", file=sys.stderr)
-        sys.exit(1)
+        print(f"Error: file not found: {file}", file=sys.stderr)
+        raise typer.Exit(code=1)
 
     data = json.loads(p.read_text())
     extracts = data.get("extracts", [])
 
     if index < 0 or index >= len(extracts):
         print(f"Error: index {index} out of range (0-{len(extracts) - 1})", file=sys.stderr)
-        sys.exit(1)
+        raise typer.Exit(code=1)
 
     extracts[index]["llm_relevance"] = relevance
     extracts[index]["relevance_rationale"] = rationale
@@ -87,4 +74,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

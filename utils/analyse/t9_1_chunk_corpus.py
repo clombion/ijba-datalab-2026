@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
 """T9 CHUNK — Deterministic chunking of corpus files for LLM extraction.
 
@@ -19,9 +19,13 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
 from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
@@ -50,6 +54,14 @@ RE_NICAR_SUBPATH = re.compile(r"^## \d{4}-.+/.+")
 # Any file extension in heading (binary dump indicator)
 RE_NICAR_BINARY_EXT = re.compile(r"\.(pdf|csv|ipynb|xlsx?|png|jpg|gif|zip|tar|gz|json|geojson|shp|rds|rda|Rmd|r|py|sql|txt|html?|xml)\s*$", re.IGNORECASE)
 NICAR_SECTION_MAX_WORDS = 10_000
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
+
+
+def version_callback(value: bool) -> None:
+    if value:
+        Console().print(f"t9_1_chunk_corpus {__version__}")
+        raise typer.Exit()
 
 
 def read_registry() -> list[dict]:
@@ -163,7 +175,7 @@ def chunk_word_boundary(text: str, max_words: int) -> list[str]:
     return chunks if chunks else [text]
 
 
-def filter_nicar(text: str) -> str:
+def filter_nicar(text: str) -> tuple[str, int]:
     """Filter NICAR consolidated files.
 
     The NICAR files are scraped repos where each ## heading is either:
@@ -221,8 +233,7 @@ def extract_chunk_headings(text: str) -> list[str]:
     """Extract all markdown headings from a chunk."""
     headings = []
     for line in text.splitlines():
-        m = re.match(r"^(#{1,6})\s+(.+)", line)
-        if m:
+        if m := re.match(r"^(#{1,6})\s+(.+)", line):
             headings.append(m.group(2).strip().rstrip("{").strip())
     return headings[:20]  # cap at 20 to keep header reasonable
 
@@ -230,35 +241,21 @@ def extract_chunk_headings(text: str) -> list[str]:
 # ── Main ──────────────────────────────────────────────────────────────
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-
-    dry_run = False
-    max_words = DEFAULT_MAX_WORDS
-    only_id = None
-
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--dry-run":
-            dry_run = True; i += 1
-        elif args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        elif args[i] == "--max-words" and i + 1 < len(args):
-            max_words = int(args[i + 1]); i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
-
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Process only this source ID.")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Preview without writing.")] = False,
+    max_words: Annotated[int, typer.Option("--max-words", help="Max words per chunk.")] = DEFAULT_MAX_WORDS,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Deterministic chunking of corpus files for LLM extraction."""
     if not REGISTRY_CSV.exists():
         console.print("[red]corpus-registry.csv not found.")
         sys.exit(1)
 
     registry = read_registry()
-    if only_id:
-        registry = [r for r in registry if get_file_id(r["file"]) == only_id]
+    if only:
+        registry = [r for r in registry if get_file_id(r["file"]) == only]
 
     if not dry_run:
         CHUNKS_DIR.mkdir(parents=True, exist_ok=True)
@@ -308,19 +305,20 @@ def main():
         stats[strategy] += 1
 
         nicar_skipped = 0
-        if strategy == "nicar_filter":
-            chunks, nicar_skipped = chunk_nicar_filter(text, max_words)
-            total_skipped_nicar += nicar_skipped
-        elif strategy == "heading_h1":
-            chunks = chunk_heading_h1(text, max_words)
-        elif strategy == "heading_h5":
-            chunks = chunk_heading_h5(text, max_words)
-        elif strategy == "heading_h2":
-            chunks = chunk_heading_h2(text, max_words)
-        elif strategy == "word_boundary":
-            chunks = chunk_word_boundary(text, max_words)
-        else:  # single
-            chunks = chunk_single(text, max_words)
+        match strategy:
+            case "nicar_filter":
+                chunks, nicar_skipped = chunk_nicar_filter(text, max_words)
+                total_skipped_nicar += nicar_skipped
+            case "heading_h1":
+                chunks = chunk_heading_h1(text, max_words)
+            case "heading_h5":
+                chunks = chunk_heading_h5(text, max_words)
+            case "heading_h2":
+                chunks = chunk_heading_h2(text, max_words)
+            case "word_boundary":
+                chunks = chunk_word_boundary(text, max_words)
+            case _:
+                chunks = chunk_single(text, max_words)
 
         n = len(chunks)
 
@@ -392,4 +390,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

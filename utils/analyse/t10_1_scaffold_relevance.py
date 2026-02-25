@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T10 Scaffold — create relevance JSONs from merged T9 extractions.
 
@@ -17,8 +17,12 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
@@ -26,22 +30,21 @@ RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
 
 console = Console()
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
 
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        console.print(f"t10_1_scaffold_relevance {__version__}")
+        raise typer.Exit()
 
+
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Process only sources matching this ID prefix.")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Show what would be created without writing files.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     RELEVANCE_DIR.mkdir(parents=True, exist_ok=True)
 
     # Find merged extraction files (chunk: null)
@@ -49,8 +52,8 @@ def main():
     # Filter to merged files only (no _chunk in name)
     merged = [f for f in files if "_chunk" not in f.name]
 
-    if only_id:
-        merged = [f for f in merged if f.name.startswith(f"{only_id}-")]
+    if only:
+        merged = [f for f in merged if f.name.startswith(f"{only}-")]
 
     console.rule(f"[bold]T10 SCAFFOLD RELEVANCE — {len(merged)} sources")
     created = 0
@@ -88,13 +91,15 @@ def main():
             "extracts": rel_extracts,
         }
 
-        out_path.write_text(json.dumps(rel_data, indent=2, ensure_ascii=False) + "\n")
+        if not dry_run:
+            out_path.write_text(json.dumps(rel_data, indent=2, ensure_ascii=False) + "\n")
         created += 1
 
-    console.print(f"  Created: {created}")
-    console.print(f"  Skipped (exist): {skipped}")
+    prefix = "[DRY RUN] " if dry_run else ""
+    console.print(f"  {prefix}Created: {created}")
+    console.print(f"  {prefix}Skipped (exist): {skipped}")
 
-    if created:
+    if created and not dry_run:
         subprocess.run(
             ["uv", "run", str(ROOT / "utils" / "log_action.py"),
              "--script", Path(__file__).name,
@@ -104,4 +109,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

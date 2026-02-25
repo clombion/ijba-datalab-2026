@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
 """Count-gated merge of chunk extractions into per-source extraction JSONs.
 
@@ -17,8 +17,12 @@ import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
@@ -27,22 +31,22 @@ EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
 
 console = Console()
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
 
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        Console().print(f"t9_7_merge_chunks {__version__}")
+        raise typer.Exit()
 
+
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Merge only this source ID.")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Preview without writing.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Merge chunk extractions into per-source extraction JSONs."""
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found.")
         sys.exit(1)
@@ -53,8 +57,8 @@ def main():
         for row in csv.DictReader(f):
             sources[row["source_file"]].append(row)
 
-    if only_id:
-        sources = {k: v for k, v in sources.items() if v[0]["source_id"] == only_id or k.startswith(f"{only_id}-")}
+    if only:
+        sources = {k: v for k, v in sources.items() if v[0]["source_id"] == only or k.startswith(f"{only}-")}
 
     console.rule(f"[bold]MERGE CHUNKS — {len(sources)} sources")
     merged = 0
@@ -109,16 +113,21 @@ def main():
             "extracts": all_extracts,
         }
 
-        out_path.write_text(json.dumps(merged_data, indent=2, ensure_ascii=False) + "\n")
+        if dry_run:
+            console.print(f"  [cyan]WOULD MERGE[/] {stem} — {len(all_extracts)} extracts from {total} chunks")
+        else:
+            out_path.write_text(json.dumps(merged_data, indent=2, ensure_ascii=False) + "\n")
+            console.print(f"  [green]OK[/] {stem} — {len(all_extracts)} extracts from {total} chunks")
         merged += 1
-        console.print(f"  [green]OK[/] {stem} — {len(all_extracts)} extracts from {total} chunks")
 
     console.rule("[bold]Summary")
     console.print(f"  Merged: {merged}")
     console.print(f"  Incomplete (skipped): {skipped_incomplete}")
     console.print(f"  Already merged (skipped): {skipped_exists}")
+    if dry_run:
+        console.print("  [dim](dry run — no files written)[/]")
 
-    if merged:
+    if merged and not dry_run:
         subprocess.run(
             ["uv", "run", str(ROOT / "utils" / "log_action.py"),
              "--script", Path(__file__).name,
@@ -128,4 +137,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T12 Analyse — deterministic cross-tabulations of horizon-table.csv.
 
@@ -16,9 +16,13 @@ import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
 from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 HORIZON_CSV = ROOT / "research" / "pipeline-canon" / "horizon-table.csv"
@@ -30,8 +34,16 @@ EXTRACT_TYPES = ["epistemological", "procedural", "organizational", "tool-specif
 
 console = Console()
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
-def read_horizon():
+
+def version_callback(value: bool) -> None:
+    if value:
+        console.print(f"t12_1_analyse_horizon {__version__}")
+        raise typer.Exit()
+
+
+def read_horizon() -> list[dict]:
     rows = []
     with open(HORIZON_CSV, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -39,15 +51,17 @@ def read_horizon():
     return rows
 
 
-def write_csv(path, fieldnames, rows):
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
-    console.print(f"  ✓ {path.relative_to(ROOT)} ({len(rows)} rows)")
+def write_csv(path: Path, fieldnames: list[str], rows: list[dict], *, dry_run: bool = False) -> None:
+    if not dry_run:
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(rows)
+    prefix = "[DRY RUN] " if dry_run else ""
+    console.print(f"  {prefix}✓ {path.relative_to(ROOT)} ({len(rows)} rows)")
 
 
-def step_distribution(rows):
+def step_distribution(rows: list[dict], *, dry_run: bool = False) -> Counter:
     """Per-step counts, %, secondary_step counts (H1)."""
     total = len(rows)
     primary = Counter(r["pipeline_step"] for r in rows)
@@ -67,11 +81,12 @@ def step_distribution(rows):
         OUT_DIR / "step_distribution.csv",
         ["pipeline_step", "primary_count", "primary_pct", "secondary_count", "combined_count"],
         out,
+        dry_run=dry_run,
     )
     return primary
 
 
-def type_x_relevance(rows):
+def type_x_relevance(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
     """extract_type × llm_relevance cross-tab with row % (H2)."""
     counts = defaultdict(Counter)
     type_totals = Counter()
@@ -94,11 +109,11 @@ def type_x_relevance(rows):
     fields = ["extract_type", "total"]
     for lr in RELEVANCE_LABELS:
         fields.extend([lr, f"{lr}_pct"])
-    write_csv(OUT_DIR / "type_x_relevance.csv", fields, out)
+    write_csv(OUT_DIR / "type_x_relevance.csv", fields, out, dry_run=dry_run)
     return counts
 
 
-def step_x_relevance(rows):
+def step_x_relevance(rows: list[dict], *, dry_run: bool = False) -> tuple[defaultdict, Counter]:
     """pipeline_step × llm_relevance cross-tab with row % (H3)."""
     counts = defaultdict(Counter)
     step_totals = Counter()
@@ -126,11 +141,11 @@ def step_x_relevance(rows):
     for lr in RELEVANCE_LABELS:
         fields.extend([lr, f"{lr}_pct"])
     fields.extend(["redef_count", "redef_pct"])
-    write_csv(OUT_DIR / "step_x_relevance.csv", fields, out)
+    write_csv(OUT_DIR / "step_x_relevance.csv", fields, out, dry_run=dry_run)
     return counts, step_totals
 
 
-def themes_by_step(rows):
+def themes_by_step(rows: list[dict], *, dry_run: bool = False) -> set[str]:
     """Top 10 themes per pipeline step (split semicolons, count) (RQ1)."""
     step_themes = defaultdict(Counter)
     all_themes = set()
@@ -156,22 +171,23 @@ def themes_by_step(rows):
         OUT_DIR / "themes_by_step.csv",
         ["pipeline_step", "rank", "theme", "count"],
         out,
+        dry_run=dry_run,
     )
     return all_themes
 
 
-def displaced_extracts(rows):
+def displaced_extracts(rows: list[dict], *, dry_run: bool = False) -> list[dict]:
     """All displaced rows with full context (RQ2 qualitative)."""
     displaced = [r for r in rows if r["llm_relevance"] == "displaced"]
     fields = [
         "source_id", "source_title", "author", "year", "pipeline_step",
         "extract_type", "themes", "extract", "relevance_rationale", "notes",
     ]
-    write_csv(OUT_DIR / "displaced_extracts.csv", fields, displaced)
+    write_csv(OUT_DIR / "displaced_extracts.csv", fields, displaced, dry_run=dry_run)
     return displaced
 
 
-def source_coverage(rows):
+def source_coverage(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
     """Which sources cover which steps, source count per step (RQ1)."""
     step_sources = defaultdict(set)
     source_info = {}
@@ -197,11 +213,12 @@ def source_coverage(rows):
         OUT_DIR / "source_coverage.csv",
         ["pipeline_step", "source_count", "source_ids"],
         out,
+        dry_run=dry_run,
     )
     return step_sources
 
 
-def print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_themes, displaced_rows, step_sources):
+def print_summary(rows: list[dict], primary_counts: Counter, type_rel: defaultdict, step_rel: defaultdict, step_totals: Counter, all_themes: set[str], displaced_rows: list[dict], step_sources: defaultdict) -> None:
     """Print summary stats to console."""
     total = len(rows)
     sources = len({r["source_id"] for r in rows})
@@ -270,14 +287,11 @@ def print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_the
         console.print(f"  {step}: {len(step_sources.get(step, set()))} sources")
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-    for arg in sys.argv[1:]:
-        print(f"Unknown argument: {arg}", file=sys.stderr)
-        sys.exit(1)
-
+@app.command()
+def main(
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Show what would be written without writing files.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     if not HORIZON_CSV.exists():
         console.print(f"[red]horizon-table.csv not found: {HORIZON_CSV}")
         sys.exit(1)
@@ -290,24 +304,25 @@ def main():
     console.print()
 
     # Generate all 6 CSVs
-    primary_counts = step_distribution(rows)
-    type_rel = type_x_relevance(rows)
-    step_rel, step_totals = step_x_relevance(rows)
-    all_themes = themes_by_step(rows)
-    displaced_rows = displaced_extracts(rows)
-    step_sources = source_coverage(rows)
+    primary_counts = step_distribution(rows, dry_run=dry_run)
+    type_rel = type_x_relevance(rows, dry_run=dry_run)
+    step_rel, step_totals = step_x_relevance(rows, dry_run=dry_run)
+    all_themes = themes_by_step(rows, dry_run=dry_run)
+    displaced_rows = displaced_extracts(rows, dry_run=dry_run)
+    step_sources = source_coverage(rows, dry_run=dry_run)
 
     console.print()
     print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_themes, displaced_rows, step_sources)
 
-    # Log action
-    subprocess.run(
-        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-         "--script", Path(__file__).name,
-         "--message", f"Generated 6 analysis CSVs from {len(rows)} extracts"],
-        check=False, capture_output=True,
-    )
+    if not dry_run:
+        # Log action
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Generated 6 analysis CSVs from {len(rows)} extracts"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":
-    main()
+    app()

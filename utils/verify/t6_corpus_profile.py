@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T6 VERIFY — Corpus profile from metadata.
 
@@ -11,15 +11,21 @@ Usage:
     uv run utils/verify/t6_corpus_profile.py
 """
 
+from __future__ import annotations
+
 import csv
 import re
 import statistics
 import sys
 from collections import defaultdict
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
 from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 MANIFEST = ROOT / "research" / "pipeline-canon" / "sources" / "convert-manifest.csv"
@@ -27,6 +33,8 @@ REGISTRY = ROOT / "research" / "pipeline-canon" / "source-registry.md"
 OUTPUT = ROOT / "research" / "pipeline-canon" / "corpus-profile.md"
 
 console = Console()
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
 
 # ── Parse manifest ──────────────────────────────────────────────────
@@ -143,7 +151,7 @@ def fmt_words(n: int) -> str:
 
 # ── Report sections ─────────────────────────────────────────────────
 
-def section_corpus_size(sources: list[dict], md_lines: list[str]):
+def section_corpus_size(sources: list[dict], md_lines: list[str]) -> None:
     words = [s["words"] for s in sources]
     total = sum(words)
     med = int(statistics.median(words))
@@ -159,7 +167,7 @@ def section_corpus_size(sources: list[dict], md_lines: list[str]):
     md_lines.append("")
 
 
-def section_by_key(sources: list[dict], key: str, label: str, section_num: int, md_lines: list[str]):
+def section_by_key(sources: list[dict], key: str, label: str, section_num: int, md_lines: list[str]) -> None:
     groups: dict[str, list[int]] = defaultdict(list)
     for s in sources:
         groups[s[key]].append(s["words"])
@@ -189,7 +197,7 @@ def section_by_key(sources: list[dict], key: str, label: str, section_num: int, 
     md_lines.append("")
 
 
-def section_thin(sources: list[dict], md_lines: list[str]):
+def section_thin(sources: list[dict], md_lines: list[str]) -> None:
     thin = [s for s in sources if s["words"] < 1000]
     console.rule("[bold]6. Thin Sources (< 1,000 words)")
     if not thin:
@@ -213,7 +221,7 @@ def section_thin(sources: list[dict], md_lines: list[str]):
     md_lines.append("")
 
 
-def section_gaps(sources: list[dict], registry: list[dict], md_lines: list[str]):
+def section_gaps(sources: list[dict], registry: list[dict], md_lines: list[str]) -> None:
     """Sources marked included=yes in registry but not in manifest."""
     converted_nums = set()
     converted_parents = set()
@@ -245,7 +253,7 @@ def section_gaps(sources: list[dict], registry: list[dict], md_lines: list[str])
     console.rule("[bold]7. Known Gaps (included but not converted)")
     if not gaps:
         console.print("  None")
-        md_lines.append("## 7. Known Gaps\n\nNone — all included sources are converted.\n")
+        md_lines.append("## 7. Known Gaps\n\nNone \u2014 all included sources are converted.\n")
         return
 
     table = Table(title="Gaps")
@@ -265,7 +273,7 @@ def section_gaps(sources: list[dict], registry: list[dict], md_lines: list[str])
     md_lines.append("")
 
 
-def section_warnings(sources: list[dict], md_lines: list[str]):
+def section_warnings(sources: list[dict], md_lines: list[str]) -> None:
     warned = [s for s in sources if s.get("warnings")]
     console.rule("[bold]8. Conversion Warnings")
     if not warned:
@@ -290,14 +298,17 @@ def section_warnings(sources: list[dict], md_lines: list[str]):
 
 # ── Main ────────────────────────────────────────────────────────────
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-    for arg in sys.argv[1:]:
-        print(f"Unknown argument: {arg}", file=sys.stderr)
-        sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        from rich.console import Console
+        Console().print(f"t6-corpus-profile {__version__}")
+        raise typer.Exit()
 
+
+@app.command()
+def main(
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     if not MANIFEST.exists():
         console.print(f"[red]Manifest not found: {MANIFEST}")
         sys.exit(1)
@@ -308,7 +319,7 @@ def main():
     manifest_rows = parse_manifest()
     registry = parse_registry()
 
-    # Build registry lookup: num → entry
+    # Build registry lookup: num -> entry
     reg_by_num = {e["num"]: e for e in registry}
 
     # Build enriched source list
@@ -337,7 +348,7 @@ def main():
         })
 
     md_lines: list[str] = [
-        "# Corpus Profile — Data Pipeline Canon",
+        "# Corpus Profile \u2014 Data Pipeline Canon",
         f"_Generated: {__import__('datetime').date.today()}_\n",
     ]
 
@@ -357,4 +368,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

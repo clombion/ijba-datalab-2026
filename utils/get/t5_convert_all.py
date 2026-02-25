@@ -36,6 +36,7 @@ import re
 import shutil
 import subprocess
 import sys
+from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Annotated
@@ -148,13 +149,12 @@ def pdf_raw_extract(pdf_path: str) -> str:
     """Fallback: extract text via pymupdf get_text() when pymupdf4llm drops pages."""
     import pymupdf as _pymupdf
 
-    doc = _pymupdf.open(pdf_path)
-    parts = []
-    for page in doc:
-        text = page.get_text().strip()
-        if text:
-            parts.append(text)
-    doc.close()
+    with _pymupdf.open(pdf_path) as doc:
+        parts = []
+        for page in doc:
+            text = page.get_text().strip()
+            if text:
+                parts.append(text)
     return "\n\n---\n\n".join(parts)
 
 
@@ -647,7 +647,7 @@ def main(
     stats = {"converted": 0, "skipped": 0, "failed": 0, "already_md": 0}
 
     # ── Directory-based sources (special handling) ──────────────────────
-    DIR_SOURCES: dict[str, tuple[Path, callable]] = {
+    DIR_SOURCES: dict[str, tuple[Path, Callable[..., ManifestRow]]] = {
         "33-data-journalism-wells": (
             SOURCES_ROOT / "en" / "33-data-journalism-wells",
             convert_wells_book,

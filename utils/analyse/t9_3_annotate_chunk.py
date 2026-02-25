@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = []
+# dependencies = ["typer>=0.9.0"]
 # ///
 """CLI for LLM Pass 0 — write section labels into chunk metadata header.
 
@@ -12,43 +12,39 @@ Usage:
 
 import sys
 from pathlib import Path
+from typing import Annotated
+
+import typer
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=True)
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
 
-    file_path = None
-    sections = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--file" and i + 1 < len(args):
-            file_path = args[i + 1]
-            i += 2
-        elif args[i] == "--sections" and i + 1 < len(args):
-            sections = args[i + 1]
-            i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        typer.echo(f"t9_3_annotate_chunk {__version__}")
+        raise typer.Exit()
 
-    if not file_path or not sections:
-        print("Usage: uv run utils/analyse/t9_3_annotate_chunk.py --file PATH --sections TEXT", file=sys.stderr)
-        sys.exit(1)
 
+@app.command()
+def main(
+    file: Annotated[str, typer.Option("--file", help="Chunk file path (relative or absolute).")],
+    sections: Annotated[str, typer.Option("--sections", help="Semicolon-separated section labels.")],
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Write section labels into chunk metadata header."""
     # Resolve path (could be relative or absolute)
-    p = Path(file_path)
+    p = Path(file)
     if not p.is_absolute():
         p = CHUNKS_DIR / p.name if not p.exists() else p
     if not p.exists():
-        p = CHUNKS_DIR / Path(file_path).name
+        p = CHUNKS_DIR / Path(file).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}", file=sys.stderr)
+        typer.echo(f"Error: file not found: {file}", err=True)
         sys.exit(1)
 
     text = p.read_text()
@@ -72,8 +68,8 @@ def main():
         lines.insert(insert_idx, sections_line)
 
     p.write_text("".join(lines))
-    print(f"Annotated {p.name}: {sections}")
+    typer.echo(f"Annotated {p.name}: {sections}")
 
 
 if __name__ == "__main__":
-    main()
+    app()

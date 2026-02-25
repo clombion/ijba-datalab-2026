@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich", "anthropic"]
+# dependencies = ["rich", "anthropic", "typer>=0.9.0"]
 # ///
 """T8 TRANSLATE — LLM translation of non-EN corpus files to English.
 
@@ -18,15 +18,21 @@ Usage:
 Requires ANTHROPIC_API_KEY in environment.
 """
 
+from __future__ import annotations
+
 import csv
 import os
 import re
 import sys
 import time
 from pathlib import Path
+from typing import Annotated
 
 import anthropic
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
@@ -34,6 +40,8 @@ REGISTRY_CSV = CORPUS / "corpus-registry.csv"
 TRANSLATION_LOG = CORPUS / "translation-log.csv"
 
 console = Console()
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
 MODEL = "claude-sonnet-4-20250514"
 MAX_CHUNK_WORDS = 40_000  # split files larger than this
@@ -143,33 +151,28 @@ def _translate_chunk(
     return message.content[0].text
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
+def version_callback(value: bool) -> None:
+    if value:
+        from rich.console import Console
+        Console().print(f"t8-translate-corpus {__version__}")
+        raise typer.Exit()
 
-    dry_run = False
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--dry-run":
-            dry_run = True; i += 1
-        elif args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
 
+@app.command()
+def main(
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Show what would be translated.")] = False,
+    only: Annotated[str | None, typer.Option("--only", help="Translate only source with this ID.")] = None,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     if not REGISTRY_CSV.exists():
         console.print("[red]Registry not found. Run clean_corpus.py first.")
         sys.exit(1)
 
     non_en = read_registry()
-    if only_id:
-        non_en = [r for r in non_en if r["id"] == only_id]
+    if only:
+        non_en = [r for r in non_en if r["id"] == only]
 
-    console.rule(f"[bold]T8 TRANSLATE — {len(non_en)} non-EN sources")
+    console.rule(f"[bold]T8 TRANSLATE \u2014 {len(non_en)} non-EN sources")
 
     if not dry_run:
         api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -180,75 +183,78 @@ def main():
 
     log_rows: list[dict] = []
 
-    for row in non_en:
-        corpus_file = CORPUS / row["file"]
-        if not corpus_file.exists():
-            console.print(f"  [red]MISSING[/] {row['file']}")
-            continue
+    try:
+        for row in non_en:
+            corpus_file = CORPUS / row["file"]
+            if not corpus_file.exists():
+                console.print(f"  [red]MISSING[/] {row['file']}")
+                continue
 
-        text = corpus_file.read_text()
-        words_before = len(text.split())
+            text = corpus_file.read_text()
+            words_before = len(text.split())
 
-        if is_already_translated(text):
-            console.print(f"  [dim]SKIP (already translated)[/] {row['file']}")
-            continue
+            if is_already_translated(text):
+                console.print(f"  [dim]SKIP (already translated)[/] {row['file']}")
+                continue
 
-        if dry_run:
-            console.print(
-                f"  [cyan]WOULD TRANSLATE[/] {row['file']} "
-                f"({row['lang']}, {words_before:,}w)"
-            )
-            continue
-
-        console.print(
-            f"  [yellow]TRANSLATING[/] {row['file']} "
-            f"({row['lang']}, {words_before:,}w)..."
-        )
-
-        try:
-            translated = translate_text(client, text, row["lang"])
-            words_after = len(translated.split())
-
-            # Validate word count ratio
-            ratio = words_after / words_before if words_before else 0
-            if ratio < 0.5 or ratio > 2.0:
+            if dry_run:
                 console.print(
-                    f"    [red]WARNING: word ratio {ratio:.2f} "
-                    f"({words_before:,} → {words_after:,})[/]"
+                    f"  [cyan]WOULD TRANSLATE[/] {row['file']} "
+                    f"({row['lang']}, {words_before:,}w)"
+                )
+                continue
+
+            console.print(
+                f"  [yellow]TRANSLATING[/] {row['file']} "
+                f"({row['lang']}, {words_before:,}w)..."
+            )
+
+            try:
+                translated = translate_text(client, text, row["lang"])
+                words_after = len(translated.split())
+
+                # Validate word count ratio
+                ratio = words_after / words_before if words_before else 0
+                if ratio < 0.5 or ratio > 2.0:
+                    console.print(
+                        f"    [red]WARNING: word ratio {ratio:.2f} "
+                        f"({words_before:,} \u2192 {words_after:,})[/]"
+                    )
+
+                # Write with marker
+                output = f"{TRANSLATED_MARKER}\n\n{translated}\n"
+                corpus_file.write_text(output)
+
+                console.print(
+                    f"    [green]OK[/] {words_before:,}w \u2192 {words_after:,}w "
+                    f"(ratio {ratio:.2f})"
                 )
 
-            # Write with marker
-            output = f"{TRANSLATED_MARKER}\n\n{translated}\n"
-            corpus_file.write_text(output)
+                log_rows.append({
+                    "id": row["id"],
+                    "file": row["file"],
+                    "lang": row["lang"],
+                    "words_before": words_before,
+                    "words_after": words_after,
+                    "ratio": f"{ratio:.2f}",
+                    "status": "ok",
+                })
 
-            console.print(
-                f"    [green]OK[/] {words_before:,}w → {words_after:,}w "
-                f"(ratio {ratio:.2f})"
-            )
+            except Exception as e:
+                console.print(f"    [red]ERROR: {e}[/]")
+                log_rows.append({
+                    "id": row["id"],
+                    "file": row["file"],
+                    "lang": row["lang"],
+                    "words_before": words_before,
+                    "words_after": 0,
+                    "ratio": "0",
+                    "status": f"error: {e}",
+                })
 
-            log_rows.append({
-                "id": row["id"],
-                "file": row["file"],
-                "lang": row["lang"],
-                "words_before": words_before,
-                "words_after": words_after,
-                "ratio": f"{ratio:.2f}",
-                "status": "ok",
-            })
-
-        except Exception as e:
-            console.print(f"    [red]ERROR: {e}[/]")
-            log_rows.append({
-                "id": row["id"],
-                "file": row["file"],
-                "lang": row["lang"],
-                "words_before": words_before,
-                "words_after": 0,
-                "ratio": "0",
-                "status": f"error: {e}",
-            })
-
-        time.sleep(2)  # rate limit between files
+            time.sleep(2)  # rate limit between files
+    except KeyboardInterrupt:
+        console.print("\n[yellow]Interrupted. Files processed so far are saved.[/]")
 
     # Write translation log
     if log_rows and not dry_run:
@@ -263,4 +269,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

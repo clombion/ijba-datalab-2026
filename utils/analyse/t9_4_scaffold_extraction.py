@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
 """Create empty extraction JSON scaffolds for each chunk.
 
@@ -17,8 +17,12 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
@@ -29,22 +33,22 @@ EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
 
 console = Console()
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
 
-    only_id = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        Console().print(f"t9_4_scaffold_extraction {__version__}")
+        raise typer.Exit()
 
+
+@app.command()
+def main(
+    only: Annotated[str | None, typer.Option("--only", help="Process only this source ID.")] = None,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Preview without writing.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Create empty extraction JSON scaffolds for each chunk."""
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found. Run chunk_corpus.py first.")
         sys.exit(1)
@@ -59,10 +63,11 @@ def main():
     with open(MANIFEST_CSV, newline="") as f:
         manifest = list(csv.DictReader(f))
 
-    if only_id:
-        manifest = [r for r in manifest if r["source_id"] == only_id or r["source_file"].startswith(f"{only_id}-")]
+    if only:
+        manifest = [r for r in manifest if r["source_id"] == only or r["source_file"].startswith(f"{only}-")]
 
-    EXTRACTIONS_DIR.mkdir(parents=True, exist_ok=True)
+    if not dry_run:
+        EXTRACTIONS_DIR.mkdir(parents=True, exist_ok=True)
     created = 0
     skipped = 0
 
@@ -89,19 +94,25 @@ def main():
             "extracts": [],
         }
 
-        out_path.write_text(json.dumps(scaffold, indent=2, ensure_ascii=False) + "\n")
+        if dry_run:
+            console.print(f"  [cyan]WOULD CREATE[/] {out_path.name}")
+        else:
+            out_path.write_text(json.dumps(scaffold, indent=2, ensure_ascii=False) + "\n")
         created += 1
 
     console.print(f"  Created: {created}")
     console.print(f"  Skipped (exist): {skipped}")
+    if dry_run:
+        console.print("  [dim](dry run — no files written)[/]")
 
-    subprocess.run(
-        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-         "--script", Path(__file__).name,
-         "--message", f"Created {created} extraction scaffolds, skipped {skipped} existing"],
-        check=False, capture_output=True,
-    )
+    if not dry_run:
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Created {created} extraction scaffolds, skipped {skipped} existing"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":
-    main()
+    app()

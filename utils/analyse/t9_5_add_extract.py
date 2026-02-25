@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = []
+# dependencies = ["typer>=0.9.0"]
 # ///
 """CLI for LLM to add an extract to an extraction JSON file.
 
@@ -22,6 +22,11 @@ Usage:
 import json
 import sys
 from pathlib import Path
+from typing import Annotated
+
+import typer
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
@@ -29,79 +34,51 @@ EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
 VALID_STEPS = {"Define", "Find", "Get", "Verify", "Clean", "Analyse", "Present"}
 VALID_TYPES = {"procedural", "epistemological", "organizational", "tool-specific"}
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=True)
 
-def main():
-    file_path = None
-    extract = None
-    chapter = None
-    step = None
-    secondary_step = None
-    extract_type = None
-    themes = None
-    notes = None
 
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
+def version_callback(value: bool) -> None:
+    if value:
+        typer.echo(f"t9_5_add_extract {__version__}")
+        raise typer.Exit()
 
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--file" and i + 1 < len(args):
-            file_path = args[i + 1]; i += 2
-        elif args[i] == "--extract" and i + 1 < len(args):
-            extract = args[i + 1]; i += 2
-        elif args[i] == "--chapter" and i + 1 < len(args):
-            chapter = args[i + 1]; i += 2
-        elif args[i] == "--step" and i + 1 < len(args):
-            step = args[i + 1]; i += 2
-        elif args[i] == "--secondary-step" and i + 1 < len(args):
-            secondary_step = args[i + 1]; i += 2
-        elif args[i] == "--type" and i + 1 < len(args):
-            extract_type = args[i + 1]; i += 2
-        elif args[i] == "--themes" and i + 1 < len(args):
-            themes = args[i + 1]; i += 2
-        elif args[i] == "--notes" and i + 1 < len(args):
-            notes = args[i + 1]; i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
 
-    # Validate required
-    missing = []
-    if not file_path: missing.append("--file")
-    if not extract: missing.append("--extract")
-    if not chapter: missing.append("--chapter")
-    if not step: missing.append("--step")
-    if not extract_type: missing.append("--type")
-    if missing:
-        print(f"Error: missing required arguments: {', '.join(missing)}", file=sys.stderr)
-        print("Required: --file --extract --chapter --step --type", file=sys.stderr)
-        sys.exit(1)
-
+@app.command()
+def main(
+    file: Annotated[str, typer.Option("--file", help="Extraction JSON file path.")],
+    extract: Annotated[str, typer.Option("--extract", help="Extract text.")],
+    chapter: Annotated[str, typer.Option("--chapter", help="Chapter or section title.")],
+    step: Annotated[str, typer.Option("--step", help="Pipeline step (Define/Find/Get/Verify/Clean/Analyse/Present).")],
+    extract_type: Annotated[str, typer.Option("--type", help="Extract type (procedural/epistemological/organizational/tool-specific).")],
+    secondary_step: Annotated[str | None, typer.Option("--secondary-step", help="Secondary pipeline step, or null.")] = None,
+    themes: Annotated[str | None, typer.Option("--themes", help="Comma-separated themes.")] = None,
+    notes: Annotated[str | None, typer.Option("--notes", help="Additional notes.")] = None,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    """Add an extract to an extraction JSON file."""
     # Validate enums
     if step not in VALID_STEPS:
-        print(f"Error: --step must be one of: {', '.join(sorted(VALID_STEPS))}", file=sys.stderr)
-        print(f"  Got: {step}", file=sys.stderr)
+        typer.echo(f"Error: --step must be one of: {', '.join(sorted(VALID_STEPS))}", err=True)
+        typer.echo(f"  Got: {step}", err=True)
         sys.exit(1)
 
     if extract_type not in VALID_TYPES:
-        print(f"Error: --type must be one of: {', '.join(sorted(VALID_TYPES))}", file=sys.stderr)
-        print(f"  Got: {extract_type}", file=sys.stderr)
+        typer.echo(f"Error: --type must be one of: {', '.join(sorted(VALID_TYPES))}", err=True)
+        typer.echo(f"  Got: {extract_type}", err=True)
         sys.exit(1)
 
     if secondary_step and secondary_step != "null" and secondary_step not in VALID_STEPS:
-        print(f"Error: --secondary-step must be null or one of: {', '.join(sorted(VALID_STEPS))}", file=sys.stderr)
+        typer.echo(f"Error: --secondary-step must be null or one of: {', '.join(sorted(VALID_STEPS))}", err=True)
         sys.exit(1)
 
     # Resolve file path
-    p = Path(file_path)
+    p = Path(file)
     if not p.is_absolute():
         p = EXTRACTIONS_DIR / p.name if not p.exists() else p
     if not p.exists():
-        p = EXTRACTIONS_DIR / Path(file_path).name
+        p = EXTRACTIONS_DIR / Path(file).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}", file=sys.stderr)
+        typer.echo(f"Error: file not found: {file}", err=True)
         sys.exit(1)
 
     # Parse themes
@@ -125,8 +102,8 @@ def main():
     p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
     n = len(data["extracts"])
-    print(f"Added extract #{n} to {p.name} (step={step}, type={extract_type})")
+    typer.echo(f"Added extract #{n} to {p.name} (step={step}, type={extract_type})")
 
 
 if __name__ == "__main__":
-    main()
+    app()

@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T8 CLEAN — Deterministic cleaning of converted corpus files.
 
@@ -14,14 +14,20 @@ Usage:
     uv run utils/clean/t8_clean_corpus.py --registry-only  # regenerate CSV only
 """
 
+from __future__ import annotations
+
 import csv
 import re
 import shutil
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
 from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 SOURCES = ROOT / "research" / "pipeline-canon" / "sources"
@@ -31,6 +37,8 @@ REGISTRY = ROOT / "research" / "pipeline-canon" / "source-registry.md"
 CSV_OUT = CORPUS / "corpus-registry.csv"
 
 console = Console()
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
 # Sources excluded from corpus
 EXCLUDED_IDS = {
@@ -47,7 +55,7 @@ EXCLUDED_IDS = {
 
 
 def parse_registry() -> dict[str, dict]:
-    """Parse source-registry.md table rows → dict keyed by source number."""
+    """Parse source-registry.md table rows -> dict keyed by source number."""
     text = REGISTRY.read_text()
     entries: dict[str, dict] = {}
     for line in text.splitlines():
@@ -126,14 +134,14 @@ TRANSLATED_MARKER = "<!-- translated -->"
 ENCODING_FIXES = {
     "&nbsp;": " ",
     "&amp;": "&",
-    "&reg;": "®",
-    "&copy;": "©",
-    "&trade;": "™",
-    "&mdash;": "—",
-    "&ndash;": "–",
-    "&hellip;": "…",
-    "&laquo;": "«",
-    "&raquo;": "»",
+    "&reg;": "\u00ae",
+    "&copy;": "\u00a9",
+    "&trade;": "\u2122",
+    "&mdash;": "\u2014",
+    "&ndash;": "\u2013",
+    "&hellip;": "\u2026",
+    "&laquo;": "\u00ab",
+    "&raquo;": "\u00bb",
     "&ldquo;": "\u201c",
     "&rdquo;": "\u201d",
     "&lsquo;": "\u2018",
@@ -142,11 +150,11 @@ ENCODING_FIXES = {
     "&gt;": ">",
     "&quot;": '"',
     "\u00a0": " ",  # non-breaking space
-    "ﬁ": "fi",  # fi ligature
-    "ﬂ": "fl",  # fl ligature
-    "ﬀ": "ff",  # ff ligature
-    "ﬃ": "ffi",  # ffi ligature
-    "ﬄ": "ffl",  # ffl ligature
+    "\ufb01": "fi",  # fi ligature
+    "\ufb02": "fl",  # fl ligature
+    "\ufb00": "ff",  # ff ligature
+    "\ufb03": "ffi",  # ffi ligature
+    "\ufb04": "ffl",  # ffl ligature
 }
 
 
@@ -174,7 +182,7 @@ def pass2_fix_encoding(text: str) -> str:
 RE_PANDOC_ANCHOR = re.compile(r"\[\]\{#[^}]+\}")
 # Section number spans: [1]{.header-section-number}
 RE_SECTION_NUM = re.compile(r"\[\d+\]\{\.header-section-number\}")
-# Span with classes: [text]{.class .class lang="xx"} → keep text
+# Span with classes: [text]{.class .class lang="xx"} -> keep text
 RE_SPAN_CLASS = re.compile(r"\[([^\]]*)\]\{[^}]+\}")
 # Pandoc div open: ::: {#id .class lang="xx"} or :::::::: {.section}
 RE_DIV_OPEN = re.compile(r"^:{3,}\s*\{[^}]*\}\s*$")
@@ -282,8 +290,7 @@ def discover_sources() -> list[dict]:
         if lang_dir.name not in ("en", "es", "fr", "pt"):
             continue
         for md_file in sorted(lang_dir.glob("*.md")):
-            m = re.match(r"(\d+)", md_file.name)
-            if not m:
+            if not (m := re.match(r"(\d+)", md_file.name)):
                 continue
             source_id = int(m.group(1))
             sources.append({
@@ -372,24 +379,19 @@ def discover_nicar_sources() -> list[dict]:
 # ── Main ────────────────────────────────────────────────────────────
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
+def version_callback(value: bool) -> None:
+    if value:
+        from rich.console import Console
+        Console().print(f"t8-clean-corpus {__version__}")
+        raise typer.Exit()
 
-    dry_run = False
-    registry_only = False
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--dry-run":
-            dry_run = True; i += 1
-        elif args[i] == "--registry-only":
-            registry_only = True; i += 1
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
 
+@app.command()
+def main(
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Show what would happen without writing.")] = False,
+    registry_only: Annotated[bool, typer.Option("--registry-only", help="Regenerate CSV only.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     if not REGISTRY.exists():
         console.print(f"[red]source-registry.md not found: {REGISTRY}")
         sys.exit(1)
@@ -436,7 +438,7 @@ def main():
                 pct = (delta / original_words * 100) if original_words else 0
                 console.print(
                     f"  [cyan]{src['relative']}[/] "
-                    f"{original_words:,}w → {cleaned_words:,}w "
+                    f"{original_words:,}w \u2192 {cleaned_words:,}w "
                     f"([yellow]-{delta:,}w, -{pct:.1f}%[/])"
                 )
             else:
@@ -446,8 +448,8 @@ def main():
                 delta = original_words - cleaned_words
                 pct = (delta / original_words * 100) if original_words else 0
                 console.print(
-                    f"  [green]OK[/] {src['relative']} → {out_path.name} "
-                    f"({original_words:,}w → {cleaned_words:,}w, "
+                    f"  [green]OK[/] {src['relative']} \u2192 {out_path.name} "
+                    f"({original_words:,}w \u2192 {cleaned_words:,}w, "
                     f"-{delta:,}w/{pct:.1f}%)"
                 )
             cleaned += 1
@@ -474,7 +476,7 @@ def main():
                 pct = (delta / original_words * 100) if original_words else 0
                 console.print(
                     f"  [cyan]{nsrc['relative']}[/] "
-                    f"{original_words:,}w → {cleaned_words:,}w "
+                    f"{original_words:,}w \u2192 {cleaned_words:,}w "
                     f"([yellow]-{delta:,}w, -{pct:.1f}%[/])"
                 )
             else:
@@ -484,8 +486,8 @@ def main():
                 delta = original_words - cleaned_words
                 pct = (delta / original_words * 100) if original_words else 0
                 console.print(
-                    f"  [green]OK[/] {nsrc['relative']} → {out_path.name} "
-                    f"({original_words:,}w → {cleaned_words:,}w, "
+                    f"  [green]OK[/] {nsrc['relative']} \u2192 {out_path.name} "
+                    f"({original_words:,}w \u2192 {cleaned_words:,}w, "
                     f"-{delta:,}w/{pct:.1f}%)"
                 )
             cleaned += 1
@@ -531,4 +533,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    app()

@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """Pipeline status tracker — shows progress and suggests next actions.
 
@@ -18,9 +18,13 @@ import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
 from rich.table import Table
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
@@ -29,6 +33,15 @@ CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
 RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
+
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
+
+
+def version_callback(value: bool) -> None:
+    if value:
+        from rich.console import Console
+        Console().print(f"pipeline_status {__version__}")
+        raise typer.Exit()
 
 
 def read_registry() -> list[dict]:
@@ -61,39 +74,7 @@ def count_extracts(path: Path) -> int:
     return len(data.get("extracts", []))
 
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
-
-    stage = None
-    next_n = None
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--stage" and i + 1 < len(args):
-            stage = args[i + 1]; i += 2
-        elif args[i] == "--next" and i + 1 < len(args):
-            next_n = int(args[i + 1]); i += 2
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
-
-    console = Console()
-    registry = read_registry()
-    manifest = read_manifest()
-
-    if stage == "chunks" or stage is None:
-        show_chunk_status(console, registry, manifest)
-    if stage == "extract" or stage is None:
-        show_extract_status(console, registry, manifest)
-    if stage == "relevance" or stage is None:
-        show_relevance_status(console, registry)
-    if next_n:
-        show_next(console, registry, manifest, next_n)
-
-
-def show_chunk_status(console: Console, registry: list[dict], manifest: dict):
+def show_chunk_status(console: Console, registry: list[dict], manifest: dict) -> None:
     chunked = set(manifest.keys())
     total = len(registry)
     done = sum(1 for r in registry if r["file"] in chunked)
@@ -121,7 +102,7 @@ def show_chunk_status(console: Console, registry: list[dict], manifest: dict):
         console.print(f"  [yellow]Not chunked:[/] {', '.join(missing[:10])}{'...' if len(missing) > 10 else ''}")
 
 
-def show_extract_status(console: Console, registry: list[dict], manifest: dict):
+def show_extract_status(console: Console, registry: list[dict], manifest: dict) -> None:
     console.rule("[bold]Extraction Status (T9)")
 
     total_sources = len(registry)
@@ -177,7 +158,7 @@ def show_extract_status(console: Console, registry: list[dict], manifest: dict):
             console.print(f"    ...and {len(incomplete) - 15} more")
 
 
-def show_relevance_status(console: Console, registry: list[dict]):
+def show_relevance_status(console: Console, registry: list[dict]) -> None:
     console.rule("[bold]Relevance Status (T10)")
     if not RELEVANCE_DIR.exists():
         console.print("  [dim]Not started[/]")
@@ -202,7 +183,7 @@ def show_relevance_status(console: Console, registry: list[dict]):
     console.print(f"  Total scored: {total_scored}")
 
 
-def show_next(console: Console, registry: list[dict], manifest: dict, n: int):
+def show_next(console: Console, registry: list[dict], manifest: dict, n: int) -> None:
     console.rule(f"[bold]Next {n} to Process")
     count = 0
 
@@ -238,5 +219,25 @@ def show_next(console: Console, registry: list[dict], manifest: dict, n: int):
         count += 1
 
 
+@app.command()
+def main(
+    stage: Annotated[str | None, typer.Option("--stage", help="Show status for a specific stage: chunks, extract, relevance.")] = None,
+    next: Annotated[int | None, typer.Option("--next", help="Show next N sources to process.")] = None,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
+    console = Console()
+    registry = read_registry()
+    manifest = read_manifest()
+
+    if stage == "chunks" or stage is None:
+        show_chunk_status(console, registry, manifest)
+    if stage == "extract" or stage is None:
+        show_extract_status(console, registry, manifest)
+    if stage == "relevance" or stage is None:
+        show_relevance_status(console, registry)
+    if next:
+        show_next(console, registry, manifest, next)
+
+
 if __name__ == "__main__":
-    main()
+    app()

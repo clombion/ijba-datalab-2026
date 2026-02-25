@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["rich"]
+# dependencies = ["rich", "typer>=0.9.0"]
 # ///
 """T11 Final merge — count-gated join of extractions + relevance → horizon-table.csv.
 
@@ -16,8 +16,12 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from typing import Annotated
 
+import typer
 from rich.console import Console
+
+__version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
@@ -34,22 +38,21 @@ CSV_FIELDS = [
     "extract_type", "themes", "llm_relevance", "relevance_rationale", "notes",
 ]
 
+app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 
-def main():
-    if "--help" in sys.argv or "-h" in sys.argv:
-        print(__doc__)
-        sys.exit(0)
 
-    force = False
-    args = sys.argv[1:]
-    i = 0
-    while i < len(args):
-        if args[i] == "--force":
-            force = True; i += 1
-        else:
-            print(f"Unknown argument: {args[i]}", file=sys.stderr)
-            sys.exit(1)
+def version_callback(value: bool) -> None:
+    if value:
+        console.print(f"t11_1_merge_horizon {__version__}")
+        raise typer.Exit()
 
+
+@app.command()
+def main(
+    force: Annotated[bool, typer.Option("--force", help="Skip count gate.")] = False,
+    dry_run: Annotated[bool, typer.Option("--dry-run", help="Show what would be written without writing files.")] = False,
+    version: Annotated[bool | None, typer.Option("--version", callback=version_callback, is_eager=True, help="Show version.")] = None,
+) -> None:
     # Read registry
     registry = []
     with open(REGISTRY_CSV, newline="") as f:
@@ -107,21 +110,24 @@ def main():
                 "notes": ext.get("notes", ""),
             })
 
-    with open(HORIZON_CSV, "w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
-        writer.writeheader()
-        writer.writerows(rows)
+    if not dry_run:
+        with open(HORIZON_CSV, "w", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=CSV_FIELDS)
+            writer.writeheader()
+            writer.writerows(rows)
 
-    console.print(f"  Total rows: {len(rows)}")
-    console.print(f"  Written to: {HORIZON_CSV.relative_to(ROOT)}")
+    prefix = "[DRY RUN] " if dry_run else ""
+    console.print(f"  {prefix}Total rows: {len(rows)}")
+    console.print(f"  {prefix}Written to: {HORIZON_CSV.relative_to(ROOT)}")
 
-    subprocess.run(
-        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-         "--script", Path(__file__).name,
-         "--message", f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv"],
-        check=False, capture_output=True,
-    )
+    if not dry_run:
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":
-    main()
+    app()
