@@ -13,7 +13,6 @@ Usage:
 
 import csv
 import json
-import subprocess
 import sys
 from pathlib import Path
 from typing import Annotated
@@ -24,6 +23,9 @@ from rich.console import Console
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
@@ -121,12 +123,7 @@ def main(
     console.print(f"  {prefix}Written to: {HORIZON_CSV.relative_to(ROOT)}")
 
     if not dry_run:
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv")
 
 
 if __name__ == "__main__":

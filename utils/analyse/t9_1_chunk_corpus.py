@@ -16,7 +16,6 @@ Usage:
 
 import csv
 import re
-import subprocess
 import sys
 from pathlib import Path
 from typing import Annotated
@@ -28,6 +27,8 @@ from rich.table import Table
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
@@ -381,12 +382,7 @@ def main(
     # Log action
     if not dry_run:
         breakdown = ", ".join(f"{v} {k}" for k, v in sorted(stats.items()) if v)
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"Chunked {len(registry)} sources into {total_chunks} chunks\nStrategy breakdown: {breakdown}"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"Chunked {len(registry)} sources into {total_chunks} chunks\nStrategy breakdown: {breakdown}")
 
 
 if __name__ == "__main__":

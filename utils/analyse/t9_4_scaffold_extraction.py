@@ -14,7 +14,6 @@ Usage:
 
 import csv
 import json
-import subprocess
 import sys
 from pathlib import Path
 from typing import Annotated
@@ -25,6 +24,9 @@ from rich.console import Console
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
@@ -106,12 +108,7 @@ def main(
         console.print("  [dim](dry run — no files written)[/]")
 
     if not dry_run:
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"Created {created} extraction scaffolds, skipped {skipped} existing"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"Created {created} extraction scaffolds, skipped {skipped} existing")
 
 
 if __name__ == "__main__":

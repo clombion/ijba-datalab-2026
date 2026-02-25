@@ -13,7 +13,6 @@ Usage:
 
 import csv
 import json
-import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -25,6 +24,9 @@ from rich.console import Console
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
@@ -128,12 +130,7 @@ def main(
         console.print("  [dim](dry run — no files written)[/]")
 
     if merged and not dry_run:
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"Merged {merged} sources, skipped {skipped_incomplete} incomplete + {skipped_exists} existing"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"Merged {merged} sources, skipped {skipped_incomplete} incomplete + {skipped_exists} existing")
 
 
 if __name__ == "__main__":

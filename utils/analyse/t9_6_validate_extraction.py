@@ -10,7 +10,6 @@ Usage:
 """
 
 import json
-import subprocess
 import sys
 from collections import Counter
 from pathlib import Path
@@ -22,6 +21,9 @@ from rich.console import Console
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
 
 console = Console()
@@ -139,12 +141,7 @@ def main(
     console.print(f"  Errors: {total_errors}")
     console.print(f"  Warnings: {total_warnings}")
 
-    subprocess.run(
-        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-         "--script", Path(__file__).name,
-         "--message", f"Validated {len(files)} files, {total_extracts} extracts, {total_errors} errors, {total_warnings} warnings"],
-        check=False, capture_output=True,
-    )
+    log_action(Path(__file__).name, f"Validated {len(files)} files, {total_extracts} extracts, {total_errors} errors, {total_warnings} warnings")
 
     if total_errors:
         console.print(f"  [red]FAIL[/] — {len(files_with_errors)} files with errors")

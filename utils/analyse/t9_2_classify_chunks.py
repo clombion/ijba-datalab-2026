@@ -14,7 +14,6 @@ Usage:
 
 import csv
 import re
-import subprocess
 import sys
 from pathlib import Path
 from typing import Annotated
@@ -25,6 +24,9 @@ from rich.console import Console
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
 
@@ -137,12 +139,7 @@ def main(
         console.print("  [dim](dry run — no files written)[/]")
 
     if not dry_run:
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}")
 
 
 if __name__ == "__main__":

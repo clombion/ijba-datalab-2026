@@ -12,7 +12,6 @@ Usage:
 """
 
 import csv
-import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -25,6 +24,9 @@ from rich.table import Table
 __version__ = "1.0.0"
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "utils"))
+from log_action import log_action  # noqa: E402
+
 HORIZON_CSV = ROOT / "research" / "pipeline-canon" / "horizon-table.csv"
 OUT_DIR = ROOT / "research" / "pipeline-canon" / "analysis"
 
@@ -315,13 +317,7 @@ def main(
     print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_themes, displaced_rows, step_sources)
 
     if not dry_run:
-        # Log action
-        subprocess.run(
-            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
-             "--script", Path(__file__).name,
-             "--message", f"Generated 6 analysis CSVs from {len(rows)} extracts"],
-            check=False, capture_output=True,
-        )
+        log_action(Path(__file__).name, f"Generated 6 analysis CSVs from {len(rows)} extracts")
 
 
 if __name__ == "__main__":
