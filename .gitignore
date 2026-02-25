@@ -14,3 +14,20 @@ research/pipeline-canon/sources/
 
 # Generated artifacts
 utils/webscraper-schema/.webcrack-out/
+
+# Heavy binary files — kept locally, not in git
+*.mp3
+*.pptx
+*.tar.gz
+*.zip
+*.crx
+*.png
+
+# Large specific files
+reference/iri_data_literacy_curriculum_final.pdf
+reference/IJBA Data J/Data J 2023-2024/Ressources Cours/Cours 3 - Consolidation et analyse/general_results.csv
+reference/IJBA Data J/Data J 2017-2018/ijba_datavisualisation.pdf
+reference/IJBA Data J/Data J 2018-2019/Cours Visualisation de données/ijba_datavisualisation.pdf
+
+# OS / editor
+.DS_Store
