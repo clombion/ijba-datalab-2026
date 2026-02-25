@@ -1,0 +1,1000 @@
+{
+  "source_id": "147",
+  "source_file": "147-responsible-data-handbook.md",
+  "source_title": "Responsible Data Handbook",
+  "author": "The Engine Room",
+  "year": "2014 (updated)",
+  "chunk": null,
+  "chunk_words": 31737,
+  "extracts": [
+    {
+      "extract": "Determining the questions that you are trying to answer is the most important part of a data collection process. Data should always be gathered for a reason: namely, because you think the answer to your question lies within.",
+      "chapter": "What's Your Question?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "research question",
+        "data collection",
+        "purpose"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Project design can translate seemingly fluffy principles into tangible, concrete steps and activities. It can help narrow down a possibly bewildering array of tools and techniques into those best suited for achieving responsible outcomes, and set the scene for how you and your colleagues and partners will interact with data.",
+      "chapter": "Designing Responsible Projects",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project design",
+        "responsible data",
+        "planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't design alone: think carefully about who needs to be in the room, and engage the various stakeholders or experts as soon as possible. It's usually a bad idea to bring specialists like techies or lawyers into planning processes after essential components have already been decided.",
+      "chapter": "Designing Responsible Projects",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "stakeholders",
+        "project design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Check yourself: give yourself opportunities for monitoring and calibrating, and don't wait for the project to be shut down before learning lessons and parsing failures. Periodically check whether you are staying true to the responsible data standards and ethical framework that you set for yourself up front.",
+      "chapter": "Designing Responsible Projects",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "monitoring",
+        "ethics",
+        "iterative review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Document the process: track both the small and big picture approach to have a clear, organisational baseline that can be relied upon as people come and go and the project evolves. This will also make it much easier for you to draw out lessons learned from the project.",
+      "chapter": "Designing Responsible Projects",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "process tracking",
+        "institutional memory"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Threat modelling is a type of risk assessment. To conduct a threat modelling exercise, identify: Assets (types of data the project will create or use), Risks (vulnerabilities in the data flow), Adversaries (individuals or groups interested in making threats real), Threats (potential harms grouped as loss, illegitimate access, or manipulation), Likelihood, and Mitigation Strategy.",
+      "chapter": "Don't Panic, Plan: Assessing Risks and Threats",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "threat modelling",
+        "risk assessment",
+        "security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Feed your findings back into your project lifecycle diagram. Does this leave any critical gaps? Do you need additional resources? Should you reconsider the project in its entirety? Asking these questions will help you focus on finding the right responses.",
+      "chapter": "Don't Panic, Plan: Assessing Risks and Threats",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "risk assessment",
+        "project lifecycle",
+        "resource planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Prevention is only half of what you can do. There will always be residual risk and threats you cannot foresee. This is why it is important to prepare for incidents to happen, so you can contain them or mitigate their impact. Encourage a culture of openness and learning from mistakes, not blame.",
+      "chapter": "Don't Panic, Plan: Assessing Risks and Threats",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "contingency planning",
+        "error culture",
+        "risk mitigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Which technologies do you plan to use? Work out what you need before choosing a platform: be sure it has the functionality you need to grow along with your program and that you have budgeted for development, testing, maintenance and support. No technology is ever 100% secure, but technology that has been independently audited will have fewer vulnerabilities.",
+      "chapter": "Budgeting",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "technology choice",
+        "budgeting",
+        "security audit"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Trust is important, but sometimes you will need to verify that best practices are being followed. At what stages in your project do you need to assure the quality of the work being done? This can happen at the data collection stage, during data migrations and verification, or when data is analysed.",
+      "chapter": "Budgeting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "quality assurance",
+        "data integrity",
+        "workflow stages"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data integrity includes aspects of both information security and information quality. Key questions: Is the data checked for changes at key points? Are changes flagged with version control? Is the data collection process well-documented through a codebook? Does the data include contextual metadata necessary to understand it?",
+      "chapter": "A Home for Healthy Data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "version control",
+        "codebook",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data storage mitigation strategies: only store the minimal amount of data necessary to complete the task; de-identify data by default; encrypt your data at all stages of collection, usage, transmission and storage; conduct regular audits and penetration tests of your security measures.",
+      "chapter": "A Home for Healthy Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data minimisation",
+        "encryption",
+        "security",
+        "storage"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can store some information separately from the rest. For example, if you have a database with case files, you can replace the names with codes and create a spreadsheet with the codes and their resolution to real names, then store this spreadsheet on another, highly-protected computer.",
+      "chapter": "A Home for Healthy Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data separation",
+        "pseudonymisation",
+        "security"
+      ],
+      "notes": "Book notes this alone will not achieve true anonymisation"
+    },
+    {
+      "extract": "A general security principle is to limit user access to only the minimum amount of data that they need to be able to do their work effectively, and only have access for as long as they need it. People should also only have the minimum permissions that they need to do their job.",
+      "chapter": "For Your Eyes Only",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "access control",
+        "least privilege",
+        "permissions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are two main ways of getting data: using existing data (publicly available like a census, or non-released data via FOI requests, or scraping social media) and collecting new data (gathering data directly from subjects or generating it indirectly, e.g. logging GPS pings).",
+      "chapter": "What's Your Question?",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "existing data",
+        "new data",
+        "FOI",
+        "scraping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "No matter where data come from, try your best to ensure that it is good data. The most basic aspects of data quality are accuracy, validity and timeliness.",
+      "chapter": "What's Your Question?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "accuracy",
+        "validity",
+        "timeliness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Designing the data collection process requires asking: What are you collecting and why? Who provides the data and did you get their consent? Who will collect the information—ensure they are appropriate in relation to participants' identities (gender, race, class, language)? How will you collect—establish a clear process.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data collection design",
+        "consent",
+        "enumerator selection",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Consider the impact of the data collection method on desired conversational outcomes. Conversations about sensitive topics shouldn't be interrupted by the data collection tool; do what you can to remove external factors that might act as inhibitors for respondents.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "sensitive topics",
+        "respondent experience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When deciding what data to collect, consider the minimum amount of data necessary to reach the project goals. The rationale for collection should be that it is necessary to achieve your goals, not just that it would make things easier or save you time.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data minimisation",
+        "purpose limitation",
+        "collection scope"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Metadata can reveal a lot of information that you were deliberately not collecting, or that you want to protect. If this is the case, make purging of metadata part of the collection process from the very beginning, or configure the tools you are using to not create it in the first place.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metadata",
+        "privacy",
+        "data collection",
+        "operational security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In some cases, paper is a good option if using electronic devices will create suspicion or risk. But also consider that electronic devices can be password protected and encrypted to protect the data in ways that paper cannot.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tool choice",
+        "paper vs digital",
+        "security tradeoffs"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When working with existing data, remember that it was collected by someone else for specific purposes that probably don't match yours. This can lead to biases and gaps. Try to gain insight into the context before using it: Who published/licensed the data? Who funded the process? What biases might it hold? What methods were used to collect it?",
+      "chapter": "Evaluating Existing Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "secondary data",
+        "provenance",
+        "bias",
+        "context assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data should be usable as well as useful. Data will need to be machine readable for most types of analysis. Moving data from one format to another needs to be planned and executed carefully, so as not to lose information or inadvertently manipulate the data. Make sure to keep versions, and clearly document your steps.",
+      "chapter": "Managing Existing Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data formats",
+        "machine readability",
+        "version control",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even when data is de-identified, anonymized or aggregated so individuals are not immediately apparent, the possibility to re-identify individuals is always there, especially when combining that data with complementary sources. This is the Mosaic effect.",
+      "chapter": "Managing Existing Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "re-identification",
+        "mosaic effect",
+        "anonymisation limits",
+        "privacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's worth spending time trying to identify types of people reflected by data, even when they are not readily apparent. Organize this as a brainstorming exercise with the project team, to try and work out as much as possible about the people behind a found data set, then use those intuitions to consider relevant responsibilities.",
+      "chapter": "Managing Existing Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hidden populations",
+        "data ethics",
+        "team exercise",
+        "re-identification risk"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When presenting existing data, it is critical to include information about the data's provenance and the context in which it was produced. Being explicit about the data's contextual unknowns is essential for enabling others to manage your project's data responsibly.",
+      "chapter": "Managing Existing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "provenance",
+        "transparency",
+        "contextual unknowns",
+        "data presentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Informed consent is composed of three components: disclosure of research objectives and any risks of participating; capacity of individuals to understand implications of participating; and voluntariness of their participation.",
+      "chapter": "Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "informed consent",
+        "disclosure",
+        "capacity",
+        "voluntariness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Consent should be linked to a clearly identifiable purpose rather than a vague, omnibus, open-ended one. Disclosure should include: the nature and objectives of the project, the purpose for which data is collected, how the data will be used, what risks the data and its use might pose, and what opportunities data subjects will have to review and revoke consent.",
+      "chapter": "Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "consent policy",
+        "purpose limitation",
+        "disclosure checklist",
+        "data rights"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Research increasingly indicates that consent has its limitations. Due to bounded rationality, people cannot possibly understand what they are consenting to and what possible uses their data might be put to in the future. Projects should be wary of relying wholly on consent to legitimize any sort of practice or wide use of data.",
+      "chapter": "Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "consent limitations",
+        "bounded rationality",
+        "privacy self-management"
+      ],
+      "notes": "Citing Daniel Solove on privacy self-management"
+    },
+    {
+      "extract": "Examine the raw data before doing anything to manipulate it. This includes making a complete backup of the original material, kept separate from any other activities. This can be vital for ensuring accuracy, for availability in case of accidental deletion, and for responding to accusations of manipulation, for example in a court situation.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "raw data backup",
+        "data integrity",
+        "chain of custody",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Go back and ask: reach out to a small sample of the surveyed population for more in-depth analysis. If the initial group was part of a small qualitative research project, you might scale up through a more quantitative questionnaire to support your first research.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "re-validation",
+        "sampling",
+        "mixed methods",
+        "follow-up"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cross-checking: if there are other data available about the same subject, look at how they compare. With video footage, this can include examining extra metadata (time, location, camera type), matching location features with satellite photos or maps, and checking whether activity is validated by other information sources like reports, social media, or newspapers.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "triangulation",
+        "video verification",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Messy data may hide harmful information. If we don't make sure that we can clearly name, describe and recognise all the information contained in data sets, we might make improper assumptions about the risks that data might pose. Gaps and assumptions come to the fore much more clearly after creating some order.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data cleaning rationale",
+        "hidden risks",
+        "data transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cleaning data can mean: finding and removing unwanted bits of data in spreadsheets, formatting data correctly for the tools you are using, dealing with inconsistencies in the data, and structuring it so it can be used effectively.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "formatting",
+        "consistency",
+        "structure"
+      ],
+      "notes": "Sourced from School of Data"
+    },
+    {
+      "extract": "Filtering is usually the first step in checking data for consistency. It creates a menu-like list of data aggregates present in a column. Tools like Microsoft Excel, Libre Office Calc, Apple Numbers or Google Sheets all offer strong filtering functionalities. A first filtering round will already offer an overview of how comparable the data set is and where the main need for cleanup lies.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "filtering",
+        "spreadsheets",
+        "data exploration",
+        "consistency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For more advanced data cleanup, Open Refine offers powerful ways to combine, compare and reconcile your data. Open Refine lets you combine and aggregate slightly differing types of data using algorithms that assist with fuzzy comparisons of not-quite-equal information. It also lets you execute faceted search on your data.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "fuzzy matching",
+        "reconciliation",
+        "data cleanup"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A complementary aspect of data cleanup is making sure the information that has been collected is fully and exhaustively described. Describing information means documenting and collecting metadata (data about data). When preparing the data set for analysis, look into all the metadata you might have and make sure they are documented.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metadata",
+        "documentation",
+        "data description",
+        "preparation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is smart to adopt common standards and file formats for the data, so that they can be more easily shareable, more resilient (future-proof) and also comparable with other data sets—i.e. interoperable. One example is the CSV format. Having data live in a proprietary format like .xls might mean that one day the company that owns it stops supporting it, the data set becomes unusable, and the knowledge is lost.",
+      "chapter": "Verifying & Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "file formats",
+        "CSV",
+        "interoperability",
+        "future-proofing",
+        "open standards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All data, no matter how it is collected, will contain a certain amount of bias. It is your task to analyse what those biases might be, to minimise them to the extent possible, identify the ones that cannot be removed, and make sure that persistent biases are well known and explicitly flagged throughout the research.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "bias",
+        "transparency",
+        "limitations",
+        "research integrity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bias is the tendency of results to favor a certain outcome, due to the implicit construction or logic of the collection or processing of the data, the way that the data was collected (setting, sequence of questions) and the way that the data is analysed. Being aware of sampling bias, how it impacts analysis and limits what we can say about the overall population is important.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "bias types",
+        "sampling bias",
+        "methodology",
+        "analysis limits"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Take special care if you are working with comparative data: differences in collection techniques, or even differing definitions, might seriously skew your results. If you are collecting and comparing data on sexual abuse between several countries, terms like assault and rape might have very different definitions in different places.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "comparative data",
+        "definitional bias",
+        "cross-cultural analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Consider testing for data collection bias in your results. Often results may be accidentally or deliberately manipulated by the people collecting the data. Participants may fear losing benefits if they give negative answers. The collector may have had trouble gaining access to the correct mix of participants. Check for this by re-validating a small sample.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "collection bias",
+        "re-validation",
+        "social desirability bias",
+        "sampling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every data set contains outliers—data points that are so different from all others that they really skew the results. These can be anomalies or may just be errors in data entry. Going through the data set carefully and removing these is part of the data analyst's standard toolkit. However, make sure you are only reducing data noise, not changing the data to fit your expected outcome.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "outliers",
+        "data noise",
+        "data entry errors",
+        "confirmation bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even if two variables might seem to be related, it doesn't mean that one caused the other. The classic example is the correlation between crime rates and ice cream consumption during summer months. The two variables are correlated, but neither causes the other—both are causally linked to temperature.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "statistical literacy",
+        "spurious correlation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Connect with experts in the field for opinion: experts working in the field you are doing research on might provide a valuable resource in knowing what your results actually mean, and whether there are gaps or blind spots in your research that you should address before starting the analysis.",
+      "chapter": "Managing Bias & Assumptions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "expert review",
+        "blind spots",
+        "peer validation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Once data is collected, it can be released at various levels: closed networks within an organisation, platform-dependent sharing between peer organisations, publishing with closed licenses, or publishing with fully open licenses. Carefully consider the various forms that sharing can take.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sharing spectrum",
+        "data release",
+        "access levels",
+        "licensing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be aware of the blind spots that internal sharing often entails: you are probably seeking feedback from like-minded individuals who share your own biases and won't provide truly independent feedback. The wider you go, the more diverse feedback will be, but the less control you have.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "echo chamber",
+        "peer review",
+        "internal bias",
+        "feedback diversity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data aggregation is a crucial point of risk assessment: sometimes standalone data deemed safe becomes harmful when combined with other data sets, or data that you thought was anonymised becomes easily discernible once combined with other data, using triangulation techniques.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data aggregation",
+        "triangulation risk",
+        "re-identification",
+        "combined datasets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sharing your data with unusual suspects will provide you with opinions outside the echo chamber you are used to. You could share the data back with the people reflected in the data and see what they think of what it reveals.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "sanity check",
+        "participant feedback",
+        "external review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Once the data set is shared publicly, the proverbial cat is out of the bag. Any personally identifiable information that hasn't been properly addressed will be impossible to mitigate because someone might have already made a copy. A final risk assessment of the data is more than warranted before publication.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pre-publication review",
+        "risk assessment",
+        "irreversibility",
+        "PII"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There might be no such thing as perfect anonymisation. De-identified data sets can be combined with other supposedly anonymous data to re-identify individuals. This chapter uses the term de-identification rather than anonymisation because it doesn't have the magic bullet feeling and because the word itself implies that it can be undone.",
+      "chapter": "Anonymising Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "anonymisation limits",
+        "de-identification",
+        "terminology",
+        "mosaic effect"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Anonymisation techniques: Data masking (supplying only part of a data set or deleting columns), Pseudonymisation (exchanging values for codes), Aggregation (rounding large numbers or providing only small samples), Derived data (providing the age of a person instead of the exact date of birth).",
+      "chapter": "Anonymising Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "anonymisation techniques",
+        "data masking",
+        "pseudonymisation",
+        "aggregation",
+        "derived data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Create an expert group of advisors who have experience with your project and with releasing data safely. Ideally some will be outsiders without biased connections to the project. Also seek advice from people with skills in de-anonymising, such as data scientists, open data experts and ethical hackers.",
+      "chapter": "Anonymising Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "pre-release review",
+        "adversarial testing",
+        "expert advisory",
+        "red team"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "No data is neutral, and presenting information can reveal even more biases. Use data as accurately as possible, and take care not to misrepresent topics or skew the data in order to suit your particular advocacy or campaigning need—it will make for an unreliable and easily discreditable campaign.",
+      "chapter": "Presenting Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data neutrality",
+        "misrepresentation",
+        "accuracy",
+        "advocacy ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When presenting data, ensure that marginalised groups are appropriately treated and they are not being omitted, trivialised, judged or romanticised. Be intentional in how they are represented and what this means for your participants and beyond.",
+      "chapter": "Presenting Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "representation",
+        "marginalised groups",
+        "inclusion",
+        "editorial ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data can never represent all people and all nuances of a cultural or social mosaic. It is vital to remember that data is inherently exclusive and rarely tells the whole story. When collecting or finding data, ask yourself: who does the data leave out? Who is not reflected and what impact might that have?",
+      "chapter": "Power to the People",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "inclusion",
+        "data gaps",
+        "representation",
+        "exclusion"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Transparency calls for disclosure: keeping an open and easily accessible account of methodology, intent of data use, who will use it and for how long, as well as how the data, the analyses and the learnings will be shared. Privacy should be granted to those without power; transparency should be demanded of those with power.",
+      "chapter": "Power to the People",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "power asymmetry",
+        "privacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you intend on using your data in legal cases, data management systems must: allow for an auditable chain of custody, ensure the integrity and authenticity of the data (e.g. through hashing and forensic examination), and ensure that data content itself is verifiable.",
+      "chapter": "What Types of Laws and Procedures Apply to Your Data Project?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chain of custody",
+        "legal evidence",
+        "hashing",
+        "forensic examination",
+        "authenticity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Legal systems often include a purpose limitation principle, in which data collected for one purpose cannot be used for any other purpose without the consent of the data subject. Data sharing can challenge this foundational principle, especially if the common principle of data minimisation was also ignored.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "purpose limitation",
+        "data minimisation",
+        "legal principles",
+        "repurposing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Published data or online data is not necessarily open data. Data published as an Excel table within a PDF document, without an open license, is not open data because it can't be easily managed or re-used. Whether or not you want to open your data is an important consideration.",
+      "chapter": "Publishing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "machine readability",
+        "licensing",
+        "access"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you don't license your data properly, others won't know if or how they can use it. Licensing makes it clear how you want your data to be used. Retaining attribution makes it easier to see how your data has been used by other parties and to maintain some level of accountability to the data owners.",
+      "chapter": "Publishing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "licensing",
+        "attribution",
+        "data tracking",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Deciding what to do with the data after it has served its purpose is an integral part of the project design process and should be informed by the risk assessment. Map where the data is, ensure responsible data procedures are upheld after closing, and dispose of or archive appropriately.",
+      "chapter": "Archiving Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data lifecycle",
+        "project closure",
+        "archiving",
+        "disposal"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good principle from the information security community is to only have the data you need for the time when you need it. If it is important to keep the data forever, you must plan for resources to continually update and support safe data management practices for the data.",
+      "chapter": "Archiving Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data retention",
+        "data minimisation",
+        "lifecycle management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Try to store data to be archived in popular, interoperable formats which are likely to be used in future. Over the course of a few years formats may go out of use and software systems become unable to use the data.",
+      "chapter": "Archiving Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "file formats",
+        "interoperability",
+        "future-proofing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Collecting data about someone creates an inherent power imbalance to the extent that the data collector effectively owns a commodity relating intimately to an individual. That data could have negative consequences for the data subject, such as whether or not they receive vital services.",
+      "chapter": "The World of Data: Opportunities and Risks",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "power imbalance",
+        "data ownership",
+        "data as commodity",
+        "harm"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Adopting a critical approach to avert a data for data's sake methodology will go a long way towards ensuring fairness and balance. Future-proofing is also an issue: what seems unproblematic data right now may turn out to be very sensitive in the future. Minimizing the data collected can in itself be a responsible measure.",
+      "chapter": "The World of Data: Opportunities and Risks",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data for data's sake",
+        "future-proofing",
+        "data minimisation",
+        "critical approach"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Removing all personally identifiable information from a data set isn't necessarily enough to protect identities. With increasing sophistication of analytical techniques and algorithms, de-identified data sets can be combined with other supposedly anonymous data to re-identify individuals. This phenomenon, known as the Mosaic Effect, is particularly challenging because evaluating the risk requires anticipating all data sets that might be combined with yours.",
+      "chapter": "Am I Working with Data?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "mosaic effect",
+        "de-identification",
+        "re-identification risk",
+        "algorithmic analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first step for live data processes is to clearly define who should have access to exactly what data at which point. Create a Roles-Responsibilities-Functionality Map to identify who should do what and when.",
+      "chapter": "Collecting New Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "access control",
+        "roles and responsibilities",
+        "live data",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For sharing data with a limited set of actors, consider whether data sharing should be governed by explicit agreements such as MoUs or contracts. Entering into agreements about the conditions, limitations and ethical guidelines can impose some measure of control and establish shared expectations.",
+      "chapter": "Sharing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data sharing agreements",
+        "MoU",
+        "contracts",
+        "governance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Managing data responsibly is not simply the task of one person: it's an overarching theme to be considered throughout (and after\\!) the lifecycle of a project. Ensuring appropriate and responsible processes will require the input and engagement of researchers, communications focal points, technical staff, enumerators and local consultants.",
+      "chapter": "Am I Working with Data?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team responsibility",
+        "data lifecycle",
+        "cross-functional",
+        "project management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How you store your data should be measured against the particular risks you or your partners may be facing, and your personal priorities: are you more concerned about data loss, or surveillance? No method of storing data is 100% safe, so it is essential that you backup your data, no matter how or where it is stored.",
+      "chapter": "Dude, Where's My Data?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storage decisions",
+        "risk priorities",
+        "backup",
+        "data loss vs surveillance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Deleting digital information is more than just clicking delete. As a general rule, everything that is on a hard drive needs to be overwritten several times. There are free tools to help you do this.",
+      "chapter": "Archiving Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data disposal",
+        "secure deletion",
+        "overwriting"
+      ],
+      "notes": ""
+    }
+  ]
+}

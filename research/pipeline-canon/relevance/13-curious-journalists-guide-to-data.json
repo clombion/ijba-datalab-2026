@@ -1,0 +1,905 @@
+{
+  "source_id": "13",
+  "source_file": "13-curious-journalists-guide-to-data.md",
+  "source_title": "The Curious Journalist's Guide to Data",
+  "author": "Jonathan Stray",
+  "year": "2016",
+  "extracts": [
+    {
+      "extract": "Data is not something that exists in nature, and unemployed people are a very different thing than unemployment data. Data is created. It is a record, a document, an artifact, dripping with meaning and circumstance.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data ontology",
+        "quantification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The ontological distinction between data and reality is a foundational epistemological insight unaffected by LLMs"
+    },
+    {
+      "extract": "Data journalism is different from pure statistical analysis because we need culture, law, and politics to tell us what data matters and how. The data alone doesn't determine the story. But the story still has to be true, and hopefully also thorough and fair.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalism epistemology",
+        "subjectivity",
+        "truth"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The need for cultural and political context to determine what data matters cannot be automated away"
+    },
+    {
+      "extract": "Journalists need to understand the methods of any field they touch, or they will be unable to tell good work from bad. They won't know which analyses are worth repeating. Even worse, they will not understand which data matters.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "methodological literacy",
+        "evaluation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Methodological literacy for evaluating work quality remains essential even when LLMs assist analysis"
+    },
+    {
+      "extract": "Data cannot tell us what to do, but it can sometimes tell us about consequences. Where prediction is possible, there is convincing evidence that data is essential. Purely qualitative methods, no matter how sophisticated, just don't seem to be as accurate.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "prediction",
+        "quantitative vs qualitative"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The epistemological claim about data's predictive power vs qualitative methods remains valid"
+    },
+    {
+      "extract": "The use of statistics in journalism, like the use of statistics in general, will always involve artistry. Questions of action can hone and refine data work, but actual action—making a choice and doing—requires practical knowledge, wisdom, and creativity.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "judgment",
+        "limits of data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Judgment, wisdom, and creativity in applying statistics to action are inherently human capacities LLMs cannot replace"
+    },
+    {
+      "extract": "Quantification is the process that creates data. You can only measure what you can conceive. That's the first challenge of quantification. The next challenge is actually measuring it, and knowing that you measured it accurately.",
+      "chapter": "Quantification",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "quantification",
+        "measurement",
+        "data creation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The conceptual challenges of quantification and measurement validity are unchanged by LLMs"
+    },
+    {
+      "extract": "Many words have quantitative aspects. Words like 'all,' 'every,' 'none,' and 'some' are so explicitly quantitative that they're called quantifiers. Comparisons like 'more' and 'fewer' are clearly about counting. The relation between words and numbers is of fundamental importance to the pursuit of truth. It tells you when you should be counting something.",
+      "chapter": "The Quantities of Everyday Language",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "quantitative reasoning",
+        "language",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding quantitative aspects of language and when to count is a reasoning skill LLMs support but do not replace"
+    },
+    {
+      "extract": "Do not guess; try to count. And if you cannot count, admit that you are guessing.",
+      "chapter": "The Quantities of Everyday Language",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "counting",
+        "evidence",
+        "intellectual honesty"
+      ],
+      "notes": "Quoting historian G. Kitson Clark",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The imperative to count rather than guess and to admit uncertainty is a timeless epistemic principle"
+    },
+    {
+      "extract": "Asking why the data was collected does not answer how it was collected, but it's often a big hint. The census is not an 'objective' count but a bureaucratic process that generates data for specific purposes.",
+      "chapter": "Counting Race",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "institutional context",
+        "bias"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questioning data provenance and institutional context remains essential regardless of AI tools"
+    },
+    {
+      "extract": "If you want to know what the data really measures, the only thing that matters is how it was collected. The census up to 1950 counts something different than the census from 1960 onward, even though both call it 'race.' If the collection method is obscure, so is the data.",
+      "chapter": "Counting Race",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data collection",
+        "measurement validity",
+        "provenance"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding that collection method defines what data truly measures is a foundational verification principle"
+    },
+    {
+      "extract": "What you should count depends on what you care about, that is, it depends on the story you are attempting to tell. And after looking at the data you may realize that you want to count something else. Your initial story may turn out to be uninteresting, unfair, or just plain wrong.",
+      "chapter": "The Problem of What to Count",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "operationalization",
+        "framing",
+        "iteration"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The iterative nature of defining what to count based on story needs is an editorial judgment LLMs cannot automate"
+    },
+    {
+      "extract": "In practice we end up replacing rich concepts with much simpler proxies. We get 'test scores' instead of 'educational attainment.' In experimental science this is called operationalizing a variable, a fancy name for picking a definition that's both analytically useful and practical enough to create data.",
+      "chapter": "The Problem of What to Count",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "operationalization",
+        "proxy measures",
+        "abstraction"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The concept of operationalization and proxy measures is epistemological knowledge unchanged by LLMs"
+    },
+    {
+      "extract": "You should be skeptical of any headline that says the number of jobs in the United States has changed by fewer than about 105,000 since last month. That's because the monthly jobs growth estimate has a margin of error of about plus or minus 105,000.",
+      "chapter": "Sampling and Quantified Error",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "margin of error",
+        "statistical significance",
+        "skepticism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism about claims within margins of error is a statistical literacy principle that endures"
+    },
+    {
+      "extract": "The error of a measurement is a necessary part of understanding what that measurement means. A reputable source will report the margin of error along with the results.",
+      "chapter": "Sampling and Quantified Error",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "margin of error",
+        "uncertainty",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding measurement error as essential to data meaning is a foundational principle"
+    },
+    {
+      "extract": "Randomness is the key to sampling, because it makes over-representation by any one group extremely unlikely. Randomness is not subject to selection bias precisely because it has no relation to anything else.",
+      "chapter": "Sampling and Quantified Error",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "random sampling",
+        "selection bias",
+        "representativeness"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The role of randomness in sampling and selection bias prevention is unchanged statistical knowledge"
+    },
+    {
+      "extract": "Reliable data includes measures of error: how much the reported information is expected to differ from the reality it represents. If you do not know and cannot reasonably guess the sources and magnitudes of possible error, then you don't really know what the data means.",
+      "chapter": "The Problem of Measurement Error",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "measurement error",
+        "uncertainty",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding error sources and magnitudes as prerequisite to understanding data meaning endures"
+    },
+    {
+      "extract": "The idea of measurement error is the idea of quantified uncertainty. This is one of the tremendous achievements of modern thought—the recognition that knowing how much we don't know has great value.",
+      "chapter": "The Problem of Measurement Error",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "epistemology",
+        "measurement error"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The epistemological value of quantified uncertainty is a timeless insight"
+    },
+    {
+      "extract": "All quantification throws out information. It has to. That's the point of abstraction: to strip away enough detail that it's possible to use powerful general-purpose reasoning tools. Quantification represents the world through the systematic creation of data, a limited but powerful way to gather and summarize information.",
+      "chapter": "Quantification Is Representation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "abstraction",
+        "representation",
+        "limits of data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that abstraction necessarily discards information is a philosophical constant"
+    },
+    {
+      "extract": "It's been said that data speaks for itself. This is nonsense. The data didn't tell a story, you did. You saw a story that connects the data to the world. All data analysis is really data interpretation, and relies on combining data with something else, such as previously known facts or cultural knowledge. Data, on its own, has no meaning at all.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interpretation",
+        "subjectivity",
+        "context"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data never speaks for itself; interpretation requires combining data with external knowledge, even more relevant with LLMs"
+    },
+    {
+      "extract": "Context is where subjectivity enters into data interpretation. Actually the context comes before the data; it tells us what data is relevant, even what questions are relevant. Subjectivity is at the core of journalism, because there is no objective theory that tells us which true stories are the best.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "subjectivity",
+        "framing",
+        "context"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Subjectivity in context and story selection is an irreducible human editorial function"
+    },
+    {
+      "extract": "Finding a story in the data will always be an act of cultural creation. But those stories must still be true! The first big idea is the effect of chance, which can obscure the real relation between variables or create the appearance of a connection where none exists. The second is the nature of cause. Above all is the idea of considering multiple explanations for the same data.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "alternative explanations",
+        "chance",
+        "causation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Considering multiple explanations for data, including chance and causation, is timeless analytical reasoning"
+    },
+    {
+      "extract": "Our very first questions have to be about the source of the data, the quantification process. Who recorded this and how? The first step in data analysis is seeing the frame: the assumptions about how the data was collected and what it means.",
+      "chapter": "Did the Policy Work?",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data provenance",
+        "framing",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questioning data provenance and collection framing is a verification first principle"
+    },
+    {
+      "extract": "If you can't express the core of your analysis in plain, non-technical language, you probably don't understand what you're doing.",
+      "chapter": "Did the Policy Work?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "plain language",
+        "analytical clarity"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Expressing analysis in plain language as test of understanding endures and is even more important when LLMs generate jargon"
+    },
+    {
+      "extract": "The key skill in being right: Consider other explanations. There are common alternative explanations that are always worth considering: First, chance—sheer luck could be fooling us. Second, correlation—the decrease could be related without being caused. Third, everything else—the change could be caused by something that has never occurred to us.",
+      "chapter": "Did the Policy Work?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "alternative explanations",
+        "causation",
+        "chance",
+        "correlation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The checklist of alternative explanations (chance, correlation, confounders) is timeless analytical method"
+    },
+    {
+      "extract": "The less likely it is that something can occur by chance, the more likely it is that something other than chance is the right explanation. The probability that you would see data like yours purely by chance is known as the p-value in statistics.",
+      "chapter": "Arguing From the Odds",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "p-value",
+        "statistical significance",
+        "chance"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding p-values and statistical significance is foundational statistical literacy"
+    },
+    {
+      "extract": "No mathematical procedure can turn uncertainty into truth\\! We can only find different ways of talking about the strength of the evidence. The right threshold to declare something 'significant' depends on how you feel about the relative risks of false negatives and false positives for your particular case.",
+      "chapter": "Arguing From the Odds",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical significance",
+        "uncertainty",
+        "limits of statistics"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The limits of mathematical procedures in establishing truth and the role of judgment in thresholds endures"
+    },
+    {
+      "extract": "Rough estimates can be incredibly useful for checking your story, and there's a trove of practical lore devoted to them. We're asking whether or not we should believe that chance is a good explanation for seeing the data, and we only need an order-of-magnitude estimate for that.",
+      "chapter": "Arguing From the Odds",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "estimation",
+        "verification",
+        "back-of-envelope"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now generate rough order-of-magnitude estimates quickly, but the principle of using estimates for verification still endures"
+    },
+    {
+      "extract": "Bayesian statistics works by asking: What hypothetical world is most likely to produce the data we have? And how much more likely is it to do so than the alternatives? The possible 'worlds' are captured by statistical models, little simulations of hypothetical realities that produce fake data. Then we compare the fake data to the real data to decide which model most closely matches reality.",
+      "chapter": "Statistical Inference",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Bayesian statistics",
+        "modeling",
+        "hypothesis testing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Bayesian reasoning about which model best fits data is a conceptual framework unchanged by LLMs"
+    },
+    {
+      "extract": "A better story than 'stoplight worked' or 'chance decline' would be 'stoplight probably worked.' Journalists tend to be uncomfortable with intermediate probability values. But if that's your best knowledge, it's what you must say.",
+      "chapter": "Statistical Inference",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "intellectual honesty",
+        "probability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Communicating intermediate probability honestly rather than false certainty remains an editorial imperative"
+    },
+    {
+      "extract": "There is no escape from judgment. But even very rough estimates may be usefully combined. If nothing else, the existence of the prior in statistical formulas helpfully reminds us to consult all other sources!",
+      "chapter": "Statistical Inference",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Bayesian reasoning",
+        "prior knowledge",
+        "judgment"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The necessity of judgment and consulting all sources when combining evidence is inherently human"
+    },
+    {
+      "extract": "Every statement about cause is really a statement about the way the world would have been without that cause, a counterfactual statement. Causation is so tricky because it requires reasoning about imaginary worlds that we can never observe directly.",
+      "chapter": "What Would Have Happened Anyway?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "causation",
+        "counterfactual reasoning"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Counterfactual reasoning as the foundation of causal claims is a philosophical principle unchanged by LLMs"
+    },
+    {
+      "extract": "The correct comparison is not 'up or down,' but 'what would have happened otherwise?' Any claim of cause is implicitly a claim about data from a world we don't ever get to see. It's worth thinking about how to approximate this world through comparisons or modeling.",
+      "chapter": "What Would Have Happened Anyway?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "counterfactual reasoning",
+        "comparison",
+        "causation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Comparing to what would have happened otherwise rather than simple up/down is timeless causal reasoning"
+    },
+    {
+      "extract": "Cause cannot usually be read directly from the data. Usually, the data alone cannot tell you which causal pattern produced your correlation. We have to use other information to figure out the correct causal structure.",
+      "chapter": "Causal Models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "causation",
+        "correlation",
+        "limits of data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that causation cannot be read directly from data requires human domain knowledge"
+    },
+    {
+      "extract": "The third variable in a three-way causal structure is called a confounder. Confounding variables appear frequently in real world analyses. The key is to look for another variable that causes both of the variables you see as related. You can only find a confounder by thinking about the broader context of the data.",
+      "chapter": "Causal Models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "confounding variables",
+        "causation",
+        "context"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding confounding variables requires contextual knowledge that LLMs can assist with but not replace"
+    },
+    {
+      "extract": "The best way to figure out causation is to do an experiment. Journalists don't normally get to do experiments. Sometimes we can evaluate other people's experiments, but usually we are reduced to dealing with observational data. Causal models are a way of expressing the possible causal relationships between variables to clarify our thinking.",
+      "chapter": "Causal Models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "experiments",
+        "observational data",
+        "causal models"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The distinction between experimental and observational data and limits of each is foundational"
+    },
+    {
+      "extract": "The data alone cannot tell us that a story is true, because there could be many other stories that produce the same data. In journalism work, a narrative extracted from the data—'the story'—is morally equivalent to a hypothesis.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis testing",
+        "alternative explanations",
+        "journalism epistemology"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that many stories can produce the same data and stories are hypotheses is timeless"
+    },
+    {
+      "extract": "Your list of hypotheses should include definitional problems, quantification troubles, errors in the data, random chance, and as many confounding variables as you can think of. The basic rule is this: you have to imagine it before you can prove that it's true.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis generation",
+        "checklist",
+        "alternative explanations"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now help generate lists of alternative hypotheses systematically, enhancing but not replacing this checklist approach"
+    },
+    {
+      "extract": "Good data analysis is more about ruling out many false interpretations, rather than trying to prove a single interpretation is correct. Falsification is a much more robust practice than verification. There are many reasons why proving a story wrong is a better goal than proving a story right.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "falsification",
+        "Popper",
+        "verification",
+        "confirmation bias"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Falsification as superior to verification is a foundational epistemological principle"
+    },
+    {
+      "extract": "It's useful to inquire against your hopes. Your critics certainly will. We know from landmark cognitive psychology experiments that there are biases in human cognition that lead us to reject, discredit, and selectively forget information that doesn't fit with what we already believe.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "confirmation bias",
+        "cognitive bias",
+        "self-criticism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Inquiring against your hopes and awareness of confirmation bias is more critical than ever with LLM-generated analysis"
+    },
+    {
+      "extract": "At the beginning of data analysis work, dream up all sorts of possible interpretations, all sorts of possible stories. The available data will rule some of them out. The stories which survive that test are the ones you have to choose between. The remaining set of hypotheses will tell you which information you need to rule each of them out.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis testing",
+        "method of elimination",
+        "investigation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can help systematically generate rival hypotheses, but the human discipline of elimination-based reasoning still essential"
+    },
+    {
+      "extract": "The concept of triangulation in the social sciences captures the idea that a true hypothesis should be supported by many different kinds of evidence, including qualitative evidence and theoretical arguments. What you see in the data cannot contradict what you see in the street, so you always need to look in the street.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "mixed methods",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Triangulation across qualitative and quantitative evidence is a core verification method unchanged by LLMs"
+    },
+    {
+      "extract": "The story you run is the story that survives your best attempts to discredit it.",
+      "chapter": "Truth by Elimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "falsification",
+        "editorial judgment",
+        "rigor"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Publishing only stories that survive attempts to discredit them is a timeless editorial standard"
+    },
+    {
+      "extract": "A journalist is responsible for the ideas that end up in their reader's head. There are two parts: ensuring that the data and the story clearly and accurately represents the reality, and ensuring that this accurate representation is what the reader actually comes away with.",
+      "chapter": "Communication",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "communication",
+        "audience responsibility",
+        "accuracy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalist responsibility for what ends up in readers heads is an ethical principle unaffected by AI"
+    },
+    {
+      "extract": "Data visualization can be helpful because it transfers some of the cognitive work of understanding data to the enormously powerful human visual system. With a well-designed visualization, you don't need to think about it to see a trend or a cluster.",
+      "chapter": "Perception",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "cognition",
+        "perception"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The cognitive science of visualization leveraging human visual perception is unchanged by LLMs"
+    },
+    {
+      "extract": "Our unconscious ability to compare lengths is why you should generally start the Y axis at zero. Otherwise, the relative lengths won't correspond to the relative values, and we'll perceive incorrect relationships. Ignoring visual perception when creating data visualizations is like ignoring the consensus meanings of words when writing.",
+      "chapter": "Perception",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "chart design",
+        "perception"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now generate charts and suggest Y-axis settings, but understanding perceptual principles behind design choices still matters"
+    },
+    {
+      "extract": "Information comes in two flavors: examples and statistics. You can collect a small amount of specific information from many people and summarize it with statistics. Or you can collect rich, open-ended information from just a few people and present each as an in-depth example. In the best case, a story combines numbers and narratives.",
+      "chapter": "Representation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "quantitative vs qualitative",
+        "storytelling",
+        "mixed methods"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The complementary roles of examples and statistics in storytelling is a timeless communication principle"
+    },
+    {
+      "extract": "Generally, examples are much more persuasive than statistics—even when they shouldn't be. The statistical information simply didn't figure into the way readers formed their impressions. People chose bypass surgery twice as often when the anecdotes favored it, completely ignoring the stated odds of a cure.",
+      "chapter": "Examples Trump Statistics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "cognitive bias",
+        "anecdotes vs data",
+        "persuasion"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The cognitive finding that anecdotes overpower statistics in persuasion is a human cognition constant"
+    },
+    {
+      "extract": "If you want the reader to walk away with a fair and representative idea of what the data means, then your examples should be average. They should be typical. Well-chosen examples bring clarity, accuracy, and life to a story.",
+      "chapter": "Examples Trump Statistics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "representative examples",
+        "storytelling",
+        "accuracy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Choosing representative rather than dramatic examples for accuracy is a timeless editorial principle"
+    },
+    {
+      "extract": "Not everyone is on Twitter, not everyone is Tweeting, and even fewer are speaking on the topic of your story. This data has a bias toward certain types of people. Any representation of public sentiment created from social media data will be biased in an unknown way—the results will be skewed relative to a random sample, and the worst part is you won't know how skewed they are.",
+      "chapter": "Who Is in the Data?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "selection bias",
+        "social media data",
+        "representativeness"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Social media bias critique now extends to LLM training data bias; the principle endures but needs to encompass AI-generated data too"
+    },
+    {
+      "extract": "The most important principle of communicating uncertainty is this: Communicate it. Don't let someone come away from your story with a warped sense of the risk, or too certain about something subtle.",
+      "chapter": "Communicating Uncertainty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "communication",
+        "intellectual honesty"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Communicating uncertainty to audiences is a timeless editorial obligation"
+    },
+    {
+      "extract": "One way to communicate a probability is to talk about its frequency interpretation—as a count of some number of things out of some larger number. Frequencies work particularly well if you can compare the denominator to familiar units of population. Get your measurements in units of people whenever possible—it's a unit that everyone understands.",
+      "chapter": "Communicating Uncertainty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "probability communication",
+        "frequency framing",
+        "audience"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Frequency framing for communicating probabilities leverages human cognition, unaffected by LLMs"
+    },
+    {
+      "extract": "Humans have a nonlinear perception of numerical probabilities. People exaggerate the probability of very rare events (like plane crashes) while underappreciating the probability of very likely events (like heart disease). Telling people the actual numbers does not change this perception, because their perception is not based on numbers.",
+      "chapter": "Communicating Uncertainty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "probability perception",
+        "cognitive bias",
+        "risk communication"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Nonlinear human perception of probability is a cognitive constant no technology changes"
+    },
+    {
+      "extract": "Prediction is important because action is important. What use is journalism that doesn't help you decide what to do? Prediction also has close links to truth. Falsification is one of the strongest truth-finding methods, and it's prediction that allows us to compare our ideas with the world to see if they hold up.",
+      "chapter": "Prediction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "prediction",
+        "falsification",
+        "actionable journalism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The connection between prediction, action, and falsification is a timeless epistemological framework"
+    },
+    {
+      "extract": "Expert political predictions were consistently no better than guessing. A 'dart-throwing chimp' would do just as well. Leaning on experts doesn't excuse the journalist from disseminating bad predictions unchallenged.",
+      "chapter": "Prediction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "expert prediction",
+        "skepticism",
+        "accountability"
+      ],
+      "notes": "Based on Tetlock's Expert Political Judgment",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLM-based forecasting tools now outperform some expert predictions, making the critique of expert prediction even more potent but requiring updated framing"
+    },
+    {
+      "extract": "What does help is keeping track of your predictions. The simplest way is to write down each prediction you make and, when the time comes, tally it as right or wrong. If you really do care about making correct predictions, the very best thing you can do is track your accuracy.",
+      "chapter": "Prediction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prediction tracking",
+        "calibration",
+        "accountability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tracking prediction accuracy as calibration practice is timeless and applies to LLM outputs too"
+    },
+    {
+      "extract": "Simple statistical methods are almost always better than humans at combining information to predict behavior. A review of 136 studies showed statistical prediction was as good or better than clinical prediction about 90 percent of the time.",
+      "chapter": "Prediction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical prediction",
+        "human judgment",
+        "modeling"
+      ],
+      "notes": "Based on Meehl's Clinical Versus Statistical Prediction",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs and ML now extend statistical prediction capabilities far beyond simple models, strengthening the point but changing the methods"
+    },
+    {
+      "extract": "Three lessons for journalism: First, prediction is really hard, and almost everyone who does it is doing no better than chance. Second, it pays to use the best available method of combining information, and that method is often simple statistical prediction. Third, if you really do care about making correct predictions, the very best thing you can do is track your accuracy.",
+      "chapter": "Prediction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "prediction",
+        "statistical methods",
+        "accountability"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs now offer additional prediction methods beyond simple statistics, but the three lessons framework needs updating to include AI tools"
+    },
+    {
+      "extract": "Standards of journalistic accuracy apply to descriptions of the future at least as much as they apply to descriptions of the present, if not more so. In the case of predictions it's especially important to be clear about uncertainty, about the limitations of what can be known.",
+      "chapter": "Prediction",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "prediction",
+        "uncertainty",
+        "journalistic standards"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Standards of accuracy applying to predictions and communicating uncertainty about the future is a permanent editorial principle"
+    },
+    {
+      "extract": "Data can demolish or reinforce stereotypes, so it's important for the journalist to be aware that these stereotypes are in play. It's not enough for data to be presented 'accurately.' We have to ask what the recipient will end up believing about the world, and about the people represented by the data.",
+      "chapter": "Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "stereotypes",
+        "audience impact",
+        "representation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Awareness of how data can reinforce or demolish stereotypes is more relevant than ever with AI-generated content"
+    },
+    {
+      "extract": "My advice is to look always for the underlying sense of the thing, the plain-language explanation. Keep searching until you find an answer that makes sense. It's not knowing everything that makes a technical professional, but being willing to find out.",
+      "chapter": "Going Further",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "learning",
+        "plain language",
+        "professional development"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Seeking the underlying plain-language explanation and willingness to learn endures as professional disposition"
+    }
+  ]
+}

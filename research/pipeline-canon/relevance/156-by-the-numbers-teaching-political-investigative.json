@@ -1,0 +1,329 @@
+{
+  "source_id": "156",
+  "source_file": "156-by-the-numbers-teaching-political-investigative.md",
+  "source_title": "By the Numbers: Data Journalism Projects as a Means of Teaching Political Investigative Reporting",
+  "author": "Caroline Graham",
+  "year": "2015",
+  "extracts": [
+    {
+      "extract": "The 2013 project methodology was thus developed around a data-driven research framework, which could transform the information gathering process for students so there would be: 'Less guessing, less looking for quotes; instead, a journalist can build a strong position supported by the data.' The first half of the semester would be dedicated to data collection; students would spend the remaining six weeks finding story angles, contextualizing the data findings with research and interviews and compiling their reports and visualizations for publication.",
+      "chapter": "Pedagogical Advantages and Practical Limitations",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "research design",
+        "data-driven framework",
+        "structured workflow"
+      ],
+      "notes": "Explicit two-phase design: collect first, then contextualize with interviews",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data-first research design with structured collection-then-contextualization workflow remains valid regardless of tools"
+    },
+    {
+      "extract": "Before the semester began, Crikey was approached to secure its interest in publishing a political accountability investigation that would attempt to quantify the level of political involvement of Australia's politicians. It was then necessary, in collaboration with Crikey's editorial team, to establish the scope of the investigation: It would be limited to Australia's House of Representatives (150 federal MPs) and political involvement would be quantified across three fields: committee work, speeches and questions (both questions without notice and questions in writing).",
+      "chapter": "Stage 1: Planning the Project",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scoping",
+        "publisher collaboration",
+        "operationalization"
+      ],
+      "notes": "Scope defined collaboratively with publisher before data collection began",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaborative scoping with publishers before data collection is a human editorial process unaffected by LLMs"
+    },
+    {
+      "extract": "Although information-gathering and fact-checking tasks can be distributed across a network of contributors, practices of sense-making invariably require a single analytical voice.",
+      "chapter": "Stage 1: Planning the Project",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "networked journalism",
+        "analytical authority",
+        "distributed work"
+      ],
+      "notes": "Citing van der Haak et al. (2012)",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The need for a single analytical voice in sense-making endures even when LLMs assist with information gathering"
+    },
+    {
+      "extract": "This 'brief' was then taken to the student cohort in a class run as a news conference. Students were encouraged to share their views on politics and political reporting, and to imagine what a data-driven approach might offer. They brainstormed ideas for the project and questions they had about the federal political process in Australia. These questions framed the research design, collection and analysis, and the process of asking them gave the students a greater sense of ownership of the project and an understanding of its direction and implications.",
+      "chapter": "Stage 1: Planning the Project",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "question framing",
+        "collaborative planning",
+        "ownership"
+      ],
+      "notes": "News-conference format used to generate research questions from team",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaborative question framing through news-conference format builds team ownership, a human organizational process"
+    },
+    {
+      "extract": "Almost all data were collected from the Hansard, Australia's official online record of parliamentary debates. Information was also taken from MPs' biographies on the same website. From a research perspective, this ensured the information's credibility and consistency; from a teaching perspective, it also meant students became adept at searching the complicated site over the course of the semester.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "official sources",
+        "credibility",
+        "consistency"
+      ],
+      "notes": "Single authoritative source chosen to ensure data reliability",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Official sources remain important but LLMs can now help navigate and extract from complex government sites"
+    },
+    {
+      "extract": "The nature of the data collection was informed by traditional research methodologies—in this case, content analysis. As part of the research design, it was important to ensure the validity and reliability of the results. As coders, students were provided with a clear coding manual and coding response sheets, and reliability checks (10 per cent of coding cross-coded by another person) to ensure accuracy were conducted.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis",
+        "coding manual",
+        "inter-coder reliability",
+        "validity"
+      ],
+      "notes": "10% cross-coding threshold for reliability checks",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Content analysis coding manuals and reliability checks endure but LLMs can now assist with inter-coder reliability and coding tasks"
+    },
+    {
+      "extract": "Each student was assigned six MPs to investigate. In addition, students were also assigned a seventh MP, selected from a group of four politicians who were coded as part of the research design testing process. This cross-coding was an important way to check for errors or inconsistencies. Students always coded the control-group politician first, and once they could demonstrate that they had done so correctly, moved on to their remaining (individual) coding.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-coding",
+        "control group",
+        "error checking",
+        "quality assurance"
+      ],
+      "notes": "Control-group coding as gating mechanism before independent work",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Cross-coding and control groups remain valid QA but LLMs can supplement or accelerate consistency checks"
+    },
+    {
+      "extract": "By far, the most important strategy used to facilitate the coding process was electronic code response sheets. For each of the three coding parts, students received an Excel or Word document to record results in; these documents used functions like drop-down responses and automated data-checking processes to save time and improve accuracy.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data entry templates",
+        "constrained input",
+        "automation",
+        "accuracy"
+      ],
+      "notes": "Drop-downs and automated checks embedded in collection instruments",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Drop-down templates and automated data-checking in Excel are largely superseded by LLM-assisted data entry and validation"
+    },
+    {
+      "extract": "When students were coding speeches and questions, each line in Excel represented one speech or question, which eliminated the risk of fabricated data. This also made analysis of the data in excel possible.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "granular records",
+        "fabrication prevention"
+      ],
+      "notes": "One-row-per-record structure as built-in verification mechanism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "One-row-per-record structure as fabrication prevention is a data integrity principle independent of tooling"
+    },
+    {
+      "extract": "The data that were submitted required some cleaning in terms of format and consistency of presentation; however, there were very few errors found in the coding during this clean-up process and only one minor error found and corrected after publication.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "format standardization",
+        "error rate"
+      ],
+      "notes": "Low error rate attributed to coding manual and electronic templates",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data cleaning for format consistency is now substantially accelerated by LLMs, though human review remains necessary"
+    },
+    {
+      "extract": "Continually pointing to the potential findings and placing the coding in the context of the overall investigative project was very important in maintaining enthusiasm for the project during the collection phase.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "motivation",
+        "tedium management",
+        "project context"
+      ],
+      "notes": "Managing monotony of data collection through outcome visibility",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Maintaining team motivation during tedious collection by pointing to findings is a human management challenge unaffected by AI"
+    },
+    {
+      "extract": "While coding, students were encouraged to develop and share potential story angles. Where possible, coding questions could then be integrated to collect information for particular stories.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "story discovery",
+        "iterative collection",
+        "angle development"
+      ],
+      "notes": "Collection and story-finding run in parallel, not strictly sequential",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Iterative story discovery during data collection is an editorial judgment process that LLMs support but do not replace"
+    },
+    {
+      "extract": "Once the coding was complete, the data were analysed by a research assistant who was proficient in statistics. The findings were presented to students in the form of facts, lists, correlations and tables, including most and least active politicians; the average numbers of speeches and questions (by category); average length of committee service (against time served in parliament); the relationships between gender, age, experience, social media and performance; performance of backbenchers relative to those with a ministerial portfolio; party differences in performance; the extent to which country MPs are represented in parliament; the performance difference between marginal MPs and those in 'safe seats'; and the breakdown of speeches and questions by topic.",
+      "chapter": "Stage 2: Data Collection and Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistical analysis",
+        "specialist roles",
+        "comparative analysis",
+        "correlation"
+      ],
+      "notes": "Analysis delegated to statistics-proficient specialist; findings fed back to reporters",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Statistical analysis delegated to a specialist can now be partially handled by LLMs, though human statistical expertise remains important for interpretation"
+    },
+    {
+      "extract": "The structure of the research process (conducting the data collection first) also seemed to have increased the knowledge base of the cohort who, by their own admission, initially had limited political knowledge. Working with the data, even at a micro level, had provided a framework for a broader understanding. The timing of the interviews (at the tail end of the research process) framed them as context or comment seeking (rather than idea or angle seeking) and meant that students approached their sources armed with a lead and the key pieces of information already in place.",
+      "chapter": "Stage 3: Finding News Angles and Adding Context",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data-first interviewing",
+        "domain knowledge",
+        "source engagement"
+      ],
+      "notes": "Data immersion builds domain knowledge; interviews become confirmatory rather than exploratory",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data-first interviewing where immersion builds domain knowledge is an epistemological insight about learning that endures"
+    },
+    {
+      "extract": "Students nominated an angle or area they were interested in investigating from the data and were allowed to work in pairs or individually on their stories. Those who chose to work alone were still allocated a 'hub' of students researching in a similar area so that they would have some support and feedback from other students and could share some research and resources.",
+      "chapter": "Stage 3: Finding News Angles and Adding Context",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "story selection",
+        "team structure",
+        "peer support"
+      ],
+      "notes": "Hub structure for solo reporters working adjacent angles",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Hub structures for peer support among reporters working adjacent angles is organizational design unaffected by AI"
+    },
+    {
+      "extract": "As part of their completed package for Crikey, students were also required to create an infographic to visualize their findings. Students initially sketched out their ideas on paper, then recreated them electronically using 'Tableau', 'Piktochart', 'Infogr.am' and 'Easel.ly', which all provided intuitive drag-and-drop options, attractive templates and easy embedding within Crikey's web platform.",
+      "chapter": "Stage 4: Writing and Visualizing the Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "visualization tools",
+        "infographics",
+        "sketch-first workflow",
+        "embedding"
+      ],
+      "notes": "Paper sketch before digital; free web-based tools chosen for accessibility",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Sketch-first-then-digital visualization workflow endures but specific tools like Piktochart/Easel.ly are dated; LLMs can now generate charts directly"
+    },
+    {
+      "extract": "Students also reported that the process of creating the infographic helped them clarify and conceptualize their research, in turn making the writing process easier. However, it should be acknowledged that from a publication point of view, any errors in the infographics were difficult to subedit or change, and as a result, only some of the submitted graphics were published.",
+      "chapter": "Stage 4: Writing and Visualizing the Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization as sensemaking",
+        "editability",
+        "publication standards"
+      ],
+      "notes": "Visualization aids understanding but static graphics create correction problems",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Visualization as sensemaking tool and the editability problem for static graphics remain relevant regardless of AI"
+    },
+    {
+      "extract": "A second research assistant was also commissioned to make a widget (web application) to allow readers to search the data by politician or electorate. In order to do this, the database results were simplified to 'rate' MPs in each of the three areas of quantifiable political activity.",
+      "chapter": "Stage 4: Writing and Visualizing the Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactive search",
+        "data simplification",
+        "reader engagement"
+      ],
+      "notes": "Raw data simplified into ratings for public-facing interactive tool",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Building interactive search widgets required a specialist; LLMs now enable journalists to create simple data apps directly"
+    },
+    {
+      "extract": "While manual collection appeared to help students understand the process and guaranteed the exclusivity of the results, combining some collection with existing open-source data or using technology-based collection techniques would likely increase student engagement.",
+      "chapter": "Benefits, Challenges and Conclusions",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "manual vs automated collection",
+        "engagement trade-offs",
+        "open data"
+      ],
+      "notes": "Recommendation for future projects; manual collection has pedagogical value but monotony cost",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Manual collection has pedagogical value but LLMs and scraping tools now make automated collection far more accessible"
+    },
+    {
+      "extract": "One of the constraints of teaching journalism students within this area is perceptual (rather than actual) concerns about their ability and willingness to learn statistics or work with data.",
+      "chapter": "Benefits, Challenges and Conclusions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data anxiety",
+        "perceived barriers",
+        "numeracy"
+      ],
+      "notes": "Citing Dunwoody and Griffin (2013); barrier is attitudinal not aptitudinal",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data anxiety among journalism students persists but LLMs lower the barrier to working with numbers, potentially reducing this concern"
+    },
+    {
+      "extract": "The process of designing the research framework (creating and testing the coding frameworks) and cleaning and analysing the data was enormously time consuming and a somewhat specialized process. For such initiatives to work, a small group of professionals need to invest time into content, coordination and training, and developing the underpinning frameworks for contributors.",
+      "chapter": "Benefits, Challenges and Conclusions",
+      "pipeline_step": "Define",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "framework design cost",
+        "specialist investment",
+        "coordination overhead"
+      ],
+      "notes": "Central challenge: networked collection requires heavy upfront framework design by specialists",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Framework design and coordination overhead remain but LLMs can substantially reduce the specialist investment needed for coding manuals and templates"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "source_id": "160",
+  "source_file": "160-teaching-dj-new-zealand.md",
+  "source_title": "Teaching Data Journalism in New Zealand",
+  "author": "Grant Hannis",
+  "year": "2018",
+  "chunk": "1/1",
+  "chunk_file": "160-teaching-dj-new-zealand_chunk1.md",
+  "chunk_words": 2436,
+  "extracts": [
+    {
+      "extract": "I ask the students to suggest stories that might arise from the data. At first, the students struggle with this and often do not suggest ideas directly related to the data. Instead, they suggest more conventional types of journalism. I encourage the students to think directly about the data: what stories can be found there?",
+      "chapter": "Finding Stories in the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "story-finding",
+        "data-driven-thinking",
+        "pedagogical-challenge"
+      ],
+      "notes": "Highlights a common novice struggle: defaulting to conventional journalism frames rather than letting data suggest stories"
+    },
+    {
+      "extract": "I ask the students whether we need to do anything to make the data more manageable. The students are somewhat intimidated by the data's status as official statistics. Gradually I steer the conversation to the need to rationalize some of the data to make it easier to use -- for instance, removing subtotals and summing the data for China and Hong Kong. I then clean up the data in Excel and sort it from highest to lowest.",
+      "chapter": "Finding Stories in the Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-cleaning",
+        "spreadsheets",
+        "official-statistics",
+        "rationalization"
+      ],
+      "notes": "Students intimidated by official data; cleaning framed as making data 'manageable' rather than fixing errors"
+    },
+    {
+      "extract": "I ask the students how we can visually depict the data. I remind the students that data journalism usually has visually engaging and interactive graphics. I introduce the students to Datawrapper, a free online software tool that can produce visual displays of data with simple interactivity. I take the students through the process of inputting the data into a world map using a Datawrapper template.",
+      "chapter": "Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "visualization",
+        "Datawrapper",
+        "interactive-maps",
+        "free-tools"
+      ],
+      "notes": "Datawrapper chosen for accessibility and simplicity"
+    },
+    {
+      "extract": "Drawing on an earlier discussion on graphing data, I remind the students of the need for good statistical practice. The world map's title should clearly say what the chart is displaying and should state the source of the data.",
+      "chapter": "Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "labeling",
+        "transparency",
+        "source-attribution",
+        "chart-standards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To help the students grasp what data journalism is, I ask them to visit an excellent New Zealand data journalism site. I use a New Zealand site because it has direct applicability to the students, covering topics they identify with and showing them that New Zealand journalists do data journalism. Typically, this piques the students' interest.",
+      "chapter": "Introducing the Concept",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "local-examples",
+        "motivation",
+        "relevance",
+        "exemplars"
+      ],
+      "notes": "Pedagogical principle: use locally relevant published data journalism to motivate and orient students"
+    },
+    {
+      "extract": "I ask them to suggest some possible data journalism topics, in particular thinking of how topics they have written articles about themselves could be developed as pieces of data journalism. I also ask them to suggest sources of data for such articles.",
+      "chapter": "Introducing the Concept",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "story-ideation",
+        "data-sources",
+        "brainstorming",
+        "topic-development"
+      ],
+      "notes": "Bridges conventional reporting experience to data journalism by reframing existing beats"
+    },
+    {
+      "extract": "To ensure the students understand how to undertake the data visualization, each student creates his/her own world map of the data. I inspect each map to make sure it has been done correctly.",
+      "chapter": "Students Demonstrate Their Understanding",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "hands-on-practice",
+        "assessment",
+        "visualization",
+        "replication"
+      ],
+      "notes": "Verification through reproduction: students must individually replicate the demonstrated workflow"
+    },
+    {
+      "extract": "To teach journalism students data journalism and statistics generally, the lecturer must have a strong relevant background. I have a PhD in economics and before coming to Massey worked for many years as a financial journalist. I had to learn new skills to design and teach the data journalism module. Partly, I taught myself, including using the very helpful tutorials on the Datawrapper website.",
+      "chapter": "Teacher Needs Technical Skills",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "instructor-competence",
+        "self-teaching",
+        "technical-skills",
+        "prerequisites"
+      ],
+      "notes": "Argues data journalism instruction requires both quantitative and journalistic expertise in the instructor"
+    },
+    {
+      "extract": "Stats NZ release most of their information as dense Excel spreadsheets. Since this module, I have gone through several spreadsheets while writing a story and been able to recognise and translate this information to readers.",
+      "chapter": "Students' Views",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "official-data",
+        "spreadsheets",
+        "translation",
+        "government-sources"
+      ],
+      "notes": "Student testimony; describes workflow of obtaining government Excel files and interpreting them for readers"
+    },
+    {
+      "extract": "I would like to take the students through more of the functionality of Excel, so they become more conversant in the basic tasks of cleaning up and manipulating data. I would also like to require the students to each produce their own piece of data journalism, in the form of an article and an interactive chart.",
+      "chapter": "The Future",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "Excel",
+        "data-manipulation",
+        "assessment-design",
+        "student-production"
+      ],
+      "notes": "Aspirational; argues cleaning and manipulation need more instructional time alongside a production-based assessment"
+    },
+    {
+      "extract": "I have frequently encountered journalism students' aversion to mathematics. Attendance was so poor at my early classes that I felt obliged to introduce a compulsory test to encourage the students to attend. As well as this stick, I have recently been able to introduce a carrot -- a NZ business journalism prize for the best business journalism student on the course.",
+      "chapter": "Students' Aversion to Maths",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "maths-aversion",
+        "motivation",
+        "incentives",
+        "attendance",
+        "assessment"
+      ],
+      "notes": "Institutional challenge: maths aversion requires both compulsory assessment and positive incentives to overcome"
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "source_id": "33",
+  "source_file": "33-data-journalism-wells.md",
+  "source_title": "Data Journalism: A Quick & Practical Guide",
+  "author": "Rob Wells",
+  "year": "ongoing",
+  "chunk": "3/4",
+  "chunk_file": "33-data-journalism-wells_chunk3.md",
+  "chunk_words": 37691,
+  "extracts": [
+    {
+      "extract": "Filtering creates a subset of the data based on criteria. All records where the amount is greater than 150,000. All records that match 'College Park.' Something like that. Filtering works with rows -- when we filter, we get fewer rows back than we start with. Selecting simply returns only the fields named. So if you only want to see city and amount, you select those fields. Selecting works with columns. You will have the same number of records when you are done, but fewer columns of data to work with.",
+      "chapter": "Filters and selections",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "filtering",
+        "subsetting",
+        "column selection",
+        "dplyr"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A general tip about using filter: it's easier to work your way towards the filter syntax you need rather than try and write it once and trust the result. Each time you modify your filter, check the results to see if they make sense. This adds a little time to your process but you'll thank yourself for doing it because it helps avoid mistakes.",
+      "chapter": "Combining filters",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "filtering",
+        "iterative refinement",
+        "error prevention",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Any time you are given a dataset from anyone, you should immediately be suspicious. Is this data what I think it is? Does it include what I expect? Is there anything I need to know about it? Will it produce the information I expect? One of the first things you should do is give it the smell test. Failure to give data the smell test can lead you to miss stories and get your butt kicked on a competitive story.",
+      "chapter": "Data Cleaning Part I: Data smells",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data skepticism",
+        "verification",
+        "data quality",
+        "smell test"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Some common data smells are: Missing data or missing values, Gaps in data, Wrong type of data, Outliers, Sharp curves, Conflicting information within a dataset, Conflicting information across datasets, Wrongly derived data, Internal inconsistency, External inconsistency, Wrong spatial data, Unusable data, including non-standard abbreviations, ambiguous data, extraneous data, inconsistent data.",
+      "chapter": "Data Cleaning Part I: Data smells",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data smells",
+        "data quality checklist",
+        "error detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Not all of these data smells are detectable in code. You may have to ask people about the data. You may have to compare it to another dataset yourself. Does the agency that uses the data produce reports from the data? Does your analysis match those reports? That will expose wrongly derived data, or wrong units, or mistakes you made with inclusion or exclusion.",
+      "chapter": "Data Cleaning Part I: Data smells",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human verification",
+        "cross-referencing",
+        "data custodian",
+        "institutional knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We're also going to introduce a new argument to our function that reads in the data, read_csv(), called 'guess_max.' As R reads in the csv file, it will attempt to make some calls on what 'data type' to assign to each field: number, character, date, and so on. The 'guess_max' argument says: look at the values in the whatever number of rows we specify before deciding which data type to assign.",
+      "chapter": "Wrong Type",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data types",
+        "type inference",
+        "readr",
+        "guess_max",
+        "R"
+      ],
+      "notes": "R/tidyverse-specific but the principle of controlling type inference applies broadly"
+    },
+    {
+      "extract": "Things that should be characters -- like state, city, name -- are characters (chr). Things that should be numbers (dbl) -- like amount -- are numbers. Date columns -- like date_approved -- are stored as dates. The id column is a good example. It read in as a number (dbl), which makes sense, because it really is just a string of numbers. But we'd never need to do math on these values; it wouldn't make sense to add two ids together. So it is probably best stored as a character. The opposite would be more problematic. If something that should be stored as a number we want to do math on was stored as a character, we couldn't actually use it to do math.",
+      "chapter": "Wrong Type",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data types",
+        "semantic correctness",
+        "identifiers vs numbers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do the 135,073 NAs represent loans that weren't forgiven? Do they represent loans that might have been forgiven, but the data is simply missing the amount of money? We could check the documentation, which isn't particularly helpful. We could check the 'forgiveness_date' column, to see how many NAs it has. Before we decide to base a publishable finding on this column, we should call the custodian of the data to confirm our hypothesis of NA values in these columns, that they represent loans that have not been forgiven.",
+      "chapter": "Missing Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "missing data",
+        "NA values",
+        "data custodian",
+        "confirmation",
+        "documentation"
+      ],
+      "notes": "Demonstrates journalistic duty to confirm meaning of missing values before publishing"
+    },
+    {
+      "extract": "It's good to be aware of all gaps in data, but they don't always represent a problem.",
+      "chapter": "Gaps in data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "gaps in data",
+        "contextual understanding",
+        "temporal data"
+      ],
+      "notes": "Gaps may reflect real-world events (e.g. program expiry) rather than data errors"
+    },
+    {
+      "extract": "Any time you are going to focus on a column for analysis, you should check for suspicious values. Are there any unusually large values or unusually small values? Are there any values that should not exist in the data?",
+      "chapter": "Suspicious Outliers",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "outliers",
+        "range checks",
+        "data validation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Those are all the same value, so at least this number is internally consistent. But is it correct? Did someone mistype it when entering the data? A call to the bank -- Bank of America in both cases -- or the companies could help resolve this mystery. Or a call to the SBA -- the owner of the data -- to ask about small values generally may help us understand if small values like this are suspicious or not.",
+      "chapter": "Suspicious Outliers",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "internal consistency",
+        "outlier investigation",
+        "reporting calls",
+        "data custodian"
+      ],
+      "notes": "Internal consistency does not prove correctness; human follow-up needed"
+    },
+    {
+      "extract": "Cleaning data is the process of fixing issues in your data so you can answer the questions you want to answer. Data cleaning is a critical step that you can't skip past. A standard metric is that 80 percent of the time working with data will be spent cleaning and verifying data, and 20 percent the more exciting parts like analysis and visualization.",
+      "chapter": "Data Cleaning Part II: Janitor",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data cleaning",
+        "time allocation",
+        "80/20 rule",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every developer, every data system, every agency, the all have opinions about how data gets collected. Some decisions make sense from the outside. Some decisions are based entirely on internal politics: who is creating the data, how they are creating it, why they are creating it. Is it automated? Is it manual? Are data normalized? Are there free form fields where users can just type into or does the system restrict them to choices? Your journalistic questions -- what you want the data to tell you -- is almost never part of that equation.",
+      "chapter": "Data Cleaning Part II: Janitor",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "institutional context",
+        "data collection",
+        "journalist vs data producer"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most difficult problems to fix in data is duplicate records in the data. They can creep in with bad joins, bad data entry practices, mistakes -- all kinds of reasons. A duplicated record isn't always there because of an error, but you need to know if it's there before making that determination.",
+      "chapter": "Duplicates",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "duplicates",
+        "deduplication",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Remember the motivating question that's driving us to do this cleaning: What's the total amount of loans (at least in this tiny slice of data) for Arnold, MD in ZIP code 21012? We don't need the street_address field to answer that question. So we're not going to bother cleaning it. That's a good approach for the future. A good rule of thumb is that you should only spend time cleaning fields that are critical to the specific analysis you want to do.",
+      "chapter": "Cleaning strings",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "question-driven cleaning",
+        "efficiency",
+        "scope management"
+      ],
+      "notes": "Clean only what your question requires"
+    },
+    {
+      "extract": "One rule you should follow when using this is: do not overwrite your original fields. Always work on a copy. If you overwrite your original field, how will you know if it did the right thing? How can you compare it to your original data?",
+      "chapter": "Refinr, Open Refine in R",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "non-destructive cleaning",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using human judgement, you can say if you agree with the cluster. If you do, click the 'merge' checkbox. When it merges, the new result will be what it says in New Cell Value. Most often, that's the row with the most common result. Be careful\\! If you merge two things that aren't supposed to be together, it will change your data in a way that could lead to inaccurate results.",
+      "chapter": "Manually cleaning data with Open Refine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "clustering",
+        "string matching",
+        "human judgment",
+        "Open Refine",
+        "merge risk"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A question for all data analysts -- if the dataset is bad enough, can it ever be cleaned? There's no good answer. You have to find it yourself.",
+      "chapter": "Manually cleaning data with Open Refine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality limits",
+        "judgment",
+        "feasibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The next circle of Hell on the Dante's Inferno of Data Journalism is the PDF. Governments everywhere love the PDF and publish all kinds of records in a PDF. The problem is a PDF isn't a data format -- it's a middle finger, saying I've Got Your Accountability Right Here, Pal.",
+      "chapter": "Cleaning Data Part IV: PDFs",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "PDF extraction",
+        "government data",
+        "data access",
+        "format barriers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Unfortunately, harvesting tables from PDFs with Tabula is an exercise in getting your hopes up, only to have them dashed. We'll start with an example.",
+      "chapter": "Cleaning Data Part IV: PDFs",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Tabula",
+        "PDF extraction",
+        "expectations management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All things considered, that was pretty easy. Many - most? - electronic PDFs aren't so easy to parse. Sometimes you'll need to open the exported CSV file and clean things up before importing into R. Other times you'll be able to do that cleaning in R itself. Here's the sad truth: THIS IS PRETTY GOOD. It sure beats typing it out. And since many government processes don't change all that much, you can save the code to process subsequent versions of PDFs.",
+      "chapter": "Cleaning up the data in R",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "code reuse",
+        "automation",
+        "government data"
+      ],
+      "notes": "Saving processing code for repeated use on future PDF releases"
+    },
+    {
+      "extract": "Often, as data journalists, we're looking at data across time or at data stored in multiple tables. And to do that, we need to often need to merge that data together. Depending on what we have, we may just need to stack data on top of each other to make new data. If we have 2019 data and 2018 data and we want that to be one file, we stack them. If we have a dataset of cows in counties and a dataset of populations in county, we're going to join those two together on the county -- the common element.",
+      "chapter": "Combining and joining",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "joins",
+        "combining data",
+        "stacking",
+        "common keys",
+        "merging"
+      ],
+      "notes": "Distinguishes stacking (bind_rows) from joining (left_join etc.)"
+    },
+    {
+      "extract": "Rule 1 in joining data is having an idea of what you are expecting to get. So with a left join with applications on the left, I have 195,869 applications, so I expect to get 195,869 rows when I'm done.",
+      "chapter": "Joining data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "joins",
+        "expected row count",
+        "verification",
+        "sanity check"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "R is saying it can't join those two columns because one of them is a character column and the other is a double (number) column. When joining, the two columns need to have the same data type.",
+      "chapter": "Joining data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "joins",
+        "data types",
+        "type coercion",
+        "join errors"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Joining datasets allows you to expand the range and sophistication of questions you're able to ask. It is one of the most powerful tools in a journalist's toolkit.",
+      "chapter": "Joining data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "joins",
+        "analytical power",
+        "enrichment",
+        "data integration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes, governments put data online on a page or in a searchable database. And when you ask them for a copy of the data underneath the website, they say no. Why? Because they have a website. That's it. That's their reason. They say they don't have to give you the data because they've already given you the data, never mind that they haven't given to you in a form you can actually load into R with ease. Lucky for us, there's a way for us to write code to get data even when an agency hasn't made it easy: webscraping.",
+      "chapter": "Scraping data with Rvest",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "data access",
+        "government resistance",
+        "FOIA workaround"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Why would we ever write code to grab a single table? There's several reasons: 1. Our methods are transparent. If a colleague wants to run our code from scratch to factcheck our work, they don't need to repeat the manual steps, which are harder to document than writing code. 2. Let's suppose we wanted to grab the same table every day, to monitor for changes. Writing a script once, and pressing a single button every day is going to be much more efficient than doing this manually every day. 3. If we're doing it manually, we're more likely to make a mistake, like maybe failing to copy every row from the whole table. 4. It's good practice to prepare us to do more complex scraping jobs.",
+      "chapter": "Scraping data with Rvest",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "automation",
+        "web scraping",
+        "error reduction"
+      ],
+      "notes": "Four reasons to code scraping even for simple one-off tables"
+    },
+    {
+      "extract": "A note about advanced scraping -- every site is different. Every time you want to scrape a site, you'll be puzzling over different problems. But the steps remain the same: find a pattern, exploit it, clean the data on the fly and put it into a place to store it.",
+      "chapter": "Advanced rvest",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "pattern recognition",
+        "iteration",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's always a good idea to spot check the results, especially any values that look suspiciously high or low.",
+      "chapter": "Advanced rvest",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "spot checking",
+        "verification",
+        "outlier detection",
+        "scraped data"
+      ],
+      "notes": "Applied to scraped data but universally applicable"
+    },
+    {
+      "extract": "It's important to keep in mind that Census data represents people - you, your neighbors and total strangers. It also requires some level of definitions, especially about race & ethnicity, that may or may not match how you define yourself or how others define themselves.",
+      "chapter": "Intro to APIs: The Census",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Census data",
+        "ethics",
+        "representation",
+        "race and ethnicity",
+        "definitions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "But if the bars overlap, it means the difference between the two counties is within the margin of error, and the differences aren't statistically significant. So is the difference between Calvert and Montgomery significant? Nope. Is the difference between Howard and everyone else significant? Yes it is.",
+      "chapter": "The ACS",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "margin of error",
+        "statistical significance",
+        "ACS",
+        "uncertainty",
+        "error bars"
+      ],
+      "notes": "Using error bar visualization to assess statistical significance in survey data"
+    },
+    {
+      "extract": "Visualizing data is becoming a much greater part of journalism. Large news organizations are creating graphics desks that create complex visuals with data to inform the public about important events. To do it well is a course on its own. And not every story needs a feat of programming and art. Sometimes, you can help yourself and your story by just creating a quick chart, which helps you see patterns in the data that wouldn't otherwise surface.",
+      "chapter": "Visualizing your data for reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "exploratory analysis",
+        "pattern detection",
+        "reporting"
+      ],
+      "notes": "Visualization as analytical tool, not just publication output"
+    },
+    {
+      "extract": "Is this art? No. Does it quickly tell you something meaningful? It does. We're mainly going to use these charts to help us in reporting, so style isn't that important.",
+      "chapter": "Bar charts",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "exploratory visualization",
+        "quick charts",
+        "function over form"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Doing data visualization well, and at professional level, takes time, skill and practice to perfect. Understanding it and doing it at a complex level is an entire class on its own. But simple stuff -- and even some slightly complicated stuff -- can be done with tools made for people who aren't data viz pros.",
+      "chapter": "Visualizing your data for publication",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "publication quality",
+        "Datawrapper",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every chart needs a title, a source line and a credit line. Most need chatter (called description here). Really think about the title and description: the title is like a headline and the description provides some additional context. Another way to think about it: the title is the most important lesson from the graphic, and the description could be the next most important lesson or could provide more context to the title.",
+      "chapter": "Datawrapper",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart annotation",
+        "title",
+        "source",
+        "credit",
+        "description",
+        "Datawrapper"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Another way we can look at the data is geographically. Is there a spatial pattern to our data? Can we learn anything by using distance as a metric? What if we merge non-geographic data into geographic data?",
+      "chapter": "Geographic data basics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "geographic analysis",
+        "spatial patterns",
+        "distance",
+        "data integration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The degree of difficulty here goes from 'Easy' to 'So Hard You Want To Throw Your Laptop Out A Window.' And the curve between the two can be steep. You can learn how to scrape 'Easy' in a day. The hard ones take a little more time, but it's often well worth the effort because it lets you get stories you couldn't get without it.",
+      "chapter": "Scraping data with Rvest",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "difficulty curve",
+        "skill investment",
+        "data access"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In programming, there's a principle called 'DRY' which stands for 'Don't Repeat Yourself.' If you find yourself copying the same code over and over again, with minor changes, it's better to find a way to avoid that.",
+      "chapter": "Advanced rvest",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "DRY principle",
+        "code efficiency",
+        "for loops",
+        "iteration",
+        "programming"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The bad news is that it's more complicated because it's more like survey data with a large sample. That means there's margins of error and confidence intervals to worry about.",
+      "chapter": "The ACS",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ACS",
+        "margin of error",
+        "confidence intervals",
+        "survey data",
+        "Census"
+      ],
+      "notes": "ACS estimates require attention to uncertainty, unlike decennial census hard counts"
+    }
+  ]
+}

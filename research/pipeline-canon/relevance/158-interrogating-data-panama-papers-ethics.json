@@ -1,0 +1,431 @@
+{
+  "source_id": "158",
+  "source_file": "158-interrogating-data-panama-papers-ethics.md",
+  "source_title": "Interrogating Data, Algorithms, and Automatization Through Journalism Ethics (Panama Papers chapter)",
+  "author": "Helena Cortés, María Luengo",
+  "year": "2021",
+  "extracts": [
+    {
+      "extract": "Data journalism is based on three fundamental pillars: the development of technology, the use of new journalistic practices (for example, mathematical knowledge, the ability to find data sets on the deep web and request data from government bodies, and competence in cleaning up data), and the participation and involvement of civil society, which is becoming increasingly aware of the importance of open data to governance.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Find",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "data cleaning",
+        "open data",
+        "skills"
+      ],
+      "notes": "Martinisi 2013, Parasie and Dagiral 2013, Cohen et al. 2011 cited",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Three pillars of DJ endure but skills like finding data on deep web and cleaning are now substantially assisted by LLMs"
+    },
+    {
+      "extract": "Much of the time, government data is often 'dirty,' with missing metadata, incorrect fields, or gaps in collection. Journalists have to extract data from PDFs, validate it, and clean up data sets to make them usable in applications, report it out, and then present it in context.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "validation",
+        "government data",
+        "PDF extraction"
+      ],
+      "notes": "Howard 2014 p.64 quoted",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "PDF extraction and data validation remain necessary but LLMs have dramatically improved automated PDF handling"
+    },
+    {
+      "extract": "On May 9, 2016, the ICIJ decided to publish a searchable data set that strips away the secrecy of nearly 214,000 offshore entities. The consortium did not publish the totality of the leak to avoid disclosing raw documents or personal information en masse. The database contains a great deal of information about company owners, proxies and intermediaries in secrecy jurisdictions, but it doesn't disclose bank accounts, email exchanges and financial transactions contained in the documents. The principle that guided the selection of the information published was 'public interest.'",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data publication",
+        "privacy",
+        "public interest",
+        "redaction",
+        "selective disclosure"
+      ],
+      "notes": "ICIJ decision on Panama Papers database release",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Selective publication balancing public interest and privacy in leaked databases is an ethical principle that endures"
+    },
+    {
+      "extract": "In line with the basic principles of interpreting data, journalists should avoid creating trends and patterns that are not clearly inferred from data. Data are just statistics, and they may be interpreted in more than one way. In other words, journalists may have access to a data set, but that data set may not contain a pattern that supports a headline or a news item.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interpretation",
+        "false patterns",
+        "analytical integrity",
+        "bias"
+      ],
+      "notes": "Elias 2015 cited",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Avoiding false patterns and maintaining analytical integrity when interpreting data is a fundamental journalistic principle"
+    },
+    {
+      "extract": "Together with their partners, Süddeutsche Zeitung checked and compared thousands of documents John Doe had delivered to us. We double cross-examined with other publications and documents or files from lawsuits. Not in a single case there were any doubts.",
+      "chapter": "Ethical Debates on Sources: Journalism Stands for Public Interest",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source verification",
+        "cross-referencing",
+        "document verification",
+        "collaboration"
+      ],
+      "notes": "Wolfgang Krach, editor in chief of Süddeutsche Zeitung",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-examining leaked documents against external records for source verification is a foundational verification practice"
+    },
+    {
+      "extract": "They also agreed to make use of the source's documents, at all times interrogating the data he provided and comparing or contrasting them with information from other databases, such as Interpol's list of wanted persons and European and US sanctions orders.",
+      "chapter": "Ethical Debates on Sources: Journalism Stands for Public Interest",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "external databases",
+        "sanctions lists",
+        "Interpol",
+        "triangulation"
+      ],
+      "notes": "The Guardian, El Confidencial, La Nacion approach described",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-referencing with Interpol and sanctions lists for triangulation is a verification method independent of AI"
+    },
+    {
+      "extract": "Times editors believe that they owe it to their readers to do their own evaluation of the material. And that is happening now. We didn't have access to the documents, and that is a very big issue. This is a great trove of documents—certainly interesting and valuable—and it takes a while to know what to make of them.",
+      "chapter": "Ethical Debates on Sources: Journalism Stands for Public Interest",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "independent verification",
+        "editorial standards",
+        "source access",
+        "due diligence"
+      ],
+      "notes": "Matt Purdy, NYT deputy exec editor; NYT was not part of ICIJ consortium",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Independent editorial evaluation of source material as professional standard endures"
+    },
+    {
+      "extract": "This was not a case of a single-fact story that we could simply confirm and go with. This was a case where hundreds of reporters had been working on it for a long time. However, reporters and editors worked on a follow-up article that was published the day after. Purdy stated that the newspaper's strategy was one of 'integrating it with our own reporting' and stressed the paper's unwavering commitment to comparing sources.",
+      "chapter": "Ethical Debates on Sources: Journalism Stands for Public Interest",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "integration",
+        "source comparison",
+        "follow-up reporting",
+        "editorial strategy"
+      ],
+      "notes": "NYT strategy for handling Panama Papers without direct access to leak",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Integrating external reporting with own verification rather than accepting consortium findings at face value endures"
+    },
+    {
+      "extract": "Not all news organizations are suited to the 'radical sharing' of information that these kinds of investigation require. Titles that participate in such international investigations cannot put aside any material to produce exclusives for themselves, and they need to agree on embargo dates.",
+      "chapter": "Collaboration Between Media: The Importance of Sharing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "radical sharing",
+        "embargo",
+        "international investigations",
+        "newsroom organization"
+      ],
+      "notes": "Marina Walker, ICIJ deputy director",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Radical sharing requirements and embargo discipline in collaborative investigations are organizational principles unaffected by AI"
+    },
+    {
+      "extract": "Early on, just as the first documents were becoming searchable through the I.C.I.J.'s sophisticated in-house system, it became apparent just how much we would have to relearn journalistic habits acquired over decades of reporting. We would have to learn how to share.",
+      "chapter": "Collaboration Between Media: The Importance of Sharing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "information sharing",
+        "journalistic habits",
+        "ICIJ platform",
+        "cultural change"
+      ],
+      "notes": "Michael Forsythe, NYT, reflecting on Paradise Papers after missing Panama Papers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Learning to share information across newsrooms in collaborative investigations is a cultural challenge independent of technology"
+    },
+    {
+      "extract": "Publishing raw data online, as Wikileaks did, without professional filtering performed by journalists, can pose a threat to national security, and even to certain people. Journalism is still necessary to select, organize, and disseminate news stories contained in massive data, while also minimizing invasions of privacy and disclosures of information affecting states' security.",
+      "chapter": "The Professionalization of Leaktivism and Social Change",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial filtering",
+        "privacy",
+        "national security",
+        "gatekeeping",
+        "responsible disclosure"
+      ],
+      "notes": "Contrasts WikiLeaks approach with ICIJ/Panama Papers approach",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial filtering of raw leaks to protect privacy and security is a gatekeeping function that endures and gains relevance with LLM-scale data processing"
+    },
+    {
+      "extract": "The newspapers involved in the Panama Papers investigation did not publish all the documents of the leak in unredacted form. Instead, they made an extra careful effort to avoid the release of personal information of nonpublic figures, playing a gatekeeper role.",
+      "chapter": "Data Transparency and Journalists' Ability to Hold Power to Account",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "redaction",
+        "privacy",
+        "gatekeeper role",
+        "selective publication",
+        "nonpublic figures"
+      ],
+      "notes": "NYT description of ICIJ consortium approach",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Redacting personal information of nonpublic figures in published leaked data is an ethical practice that endures"
+    },
+    {
+      "extract": "Charts are the only way of understanding complex ideas and connections. New visualization tools allowed journalists to develop multimedia pieces that made complex information more comprehensible and accessible. Journalists developed an interactive news game called 'Stairway to Tax Heaven,' in which players learn how to conceal their savings through offshore companies to avoid paying tax. And The Guardian published short explanatory videos and created a making-of podcast in which journalists who worked on the investigation talked about their experiences.",
+      "chapter": "Conclusions",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "interactivity",
+        "multimedia",
+        "news games",
+        "explainers",
+        "podcasts"
+      ],
+      "notes": "Combines passages from lines 105-106 and Conclusions section",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Visualization and multimedia storytelling endure but LLMs add new capabilities for rapid interactive content creation"
+    },
+    {
+      "extract": "The best version of data journalism—that guided by ethical principles—can contribute to democracy in three ways. It can strengthen journalistic objectivity by ensuring that stories are supported by quantitative evidence; it can offer news media organizations new tools for enforcing government accountability; and it can increase citizens' participation by giving them, through their own access to the relevant data, the opportunity to decide if those data support the journalist's own conclusion.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "democratic function",
+        "objectivity",
+        "accountability",
+        "citizen participation",
+        "open data",
+        "quantitative evidence"
+      ],
+      "notes": "Parasie and Dagiral 2013 cited",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Three democratic contributions of data journalism -- objectivity, accountability, citizen participation -- are fundamental values"
+    },
+    {
+      "extract": "A large-scale implementation of data journalism in newsrooms may be restricted by a lack of resources such as time, tools, manpower, and the financial means and expertise required to appeal against denials of requests for data. Issues related to the organization of the newsroom, the behavior and structure of the market, and the power of government have curbed the development of data journalism. It is quite difficult to incorporate data journalism's routines into daily work, owing to the presence of established routines or a lack of time, people, and institutional or structural support. Under such circumstances, data journalism becomes reduced to the production of charts.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resource constraints",
+        "newsroom organization",
+        "institutional barriers",
+        "routines",
+        "capacity"
+      ],
+      "notes": "Fink and Anderson 2015, Solop and Wonders 2016, Manovich 2011, De Maeyer et al. 2015 cited",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Resource constraints and institutional barriers to DJ adoption endure but LLMs substantially lower the time and expertise barriers described"
+    },
+    {
+      "extract": "There are three important areas of concern in relation to data journalism: data transparency and quality, social science research ethics, and the inscription of values into technological systems.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "transparency",
+        "research ethics",
+        "values in technology",
+        "critical data studies"
+      ],
+      "notes": "Lewis 2015 cited",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Three ethical concerns of data transparency, research ethics, and values in technology are fundamental and endure"
+    },
+    {
+      "extract": "The ability to work with data depends on both the digital tools available in each newsroom and the public institutions that offer open access to information.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tooling",
+        "open data",
+        "institutional access",
+        "newsroom infrastructure"
+      ],
+      "notes": "Anderson 2012 cited",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Dependency on newsroom tooling and open data access endures but LLMs provide new capabilities that reduce some tooling gaps"
+    },
+    {
+      "extract": "As a rule, data sets cannot be released in raw form, because they contain personal or private information. Indeed, governments and public institutions sometimes make this point in order to avoid giving journalists the information they are looking for.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy",
+        "raw data",
+        "government resistance",
+        "FOI",
+        "access barriers"
+      ],
+      "notes": "LaFleur 2014 cited",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Privacy as both genuine concern and government pretext for withholding data is a tension that endures"
+    },
+    {
+      "extract": "Journalists must weigh the benefits of open data against the risks of personal harm that may come with publication, particularly at a time when private information can be so easily shared and searched.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy",
+        "harm assessment",
+        "open data",
+        "ethical balancing",
+        "publication decisions"
+      ],
+      "notes": "Howard 2014 quoted in Lewis and Westlund 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Weighing open data benefits against personal harm risks is an ethical balancing act that becomes more important with AI"
+    },
+    {
+      "extract": "In a world with so many political interests and economic dependency, where investigative journalism is expensive and unaffordable, where technology makes distances shorter and information travels all over the world at the speed of light, cooperation is becoming a key aspect for future journalism. Collaborative work may also be a way for newsrooms that have fewer and fewer journalists to avoid giving up on investigation work.",
+      "chapter": "Collaboration Between Media: The Importance of Sharing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "sustainability",
+        "resource pooling",
+        "international cooperation",
+        "newsroom economics"
+      ],
+      "notes": "Nacho Cardero, editor in chief of El Confidencial",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaboration as survival strategy for under-resourced newsrooms is an organizational reality that endures"
+    },
+    {
+      "extract": "Data journalism uses methods reinforced by values such as numeric infallibility, scientific rigor, computational neutrality, crowdsourced collaboration, intra- and extra newsroom cooperation and hyperlocal empathy, to generate exclusives that are generally perceived as more accurate and transparent.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific rigor",
+        "neutrality",
+        "collaboration",
+        "accuracy",
+        "transparency",
+        "methodology"
+      ],
+      "notes": "Borges 2016 p.842 quoted",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Values of scientific rigor, neutrality, and collaboration in data journalism methodology are fundamental principles"
+    },
+    {
+      "extract": "Journalistic criteria—in other words, having reliable sources, comparing them, collaborating with other media outlets, and only publishing pieces on topics that are in public interest—can clarify professional journalism's stance vis-à-vis the grey area of leaktivism, and the application of them definitely represents a step forward in the establishment and survival of data journalism in today's newsrooms.",
+      "chapter": "Conclusions",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "source reliability",
+        "source comparison",
+        "collaboration",
+        "public interest",
+        "leaktivism",
+        "professional standards"
+      ],
+      "notes": "Authors' concluding synthesis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reliable sources, comparison, collaboration, and public interest as professional standards endure"
+    },
+    {
+      "extract": "The New York Times was quick to grasp the importance of the leak and devoted an article to the insights of the investigation started by the German reporters Obermayer and Obermaier, detailing even the search program that they used to hunt for specific names or business: Blacklight.",
+      "chapter": "Ethical Debates on Sources: Journalism Stands for Public Interest",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "search tools",
+        "Blacklight",
+        "name matching",
+        "entity search",
+        "leaked documents"
+      ],
+      "notes": "Only named tool in the chapter",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Search tools like Blacklight for name matching in leaked documents are now supplemented by LLM-powered entity extraction"
+    },
+    {
+      "extract": "Despite the global nature of today's world, proximity is, paradoxically, still an important strength: each newspaper focused on its local issues, emphasizing different topics to make the whole picture more comprehensive.",
+      "chapter": "Conclusions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "proximity",
+        "local angle",
+        "global-local",
+        "collaborative coverage",
+        "editorial focus"
+      ],
+      "notes": "Authors' conclusion about division of labor in global investigations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Proximity and local angle in global collaborative investigations is a journalistic principle independent of technology"
+    },
+    {
+      "extract": "Only the combination of powerful computers and the World Wide Web has offered the possibility of storing and analyzing (or generating by web robots) big databases in order to discover ideas for a story or to add facts and proofs to a story which has already been initially investigated by classical journalistic means.",
+      "chapter": "How Ethical Approaches to Data Have Changed Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational methods",
+        "story discovery",
+        "evidence",
+        "CAR",
+        "databases"
+      ],
+      "notes": "Wormer 2007 quoted",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Computers for storing and analyzing databases endure as a concept but LLMs vastly expand what is possible beyond traditional database querying"
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "source_id": "52",
+  "source_file": "52-big-data-periodismo.md",
+  "source_title": "Big Data y periodismo en la sociedad red",
+  "author": "Carlos Elías",
+  "year": "2015",
+  "extracts": [
+    {
+      "extract": "Computer scientists know how to handle data, but journalists are the ones who know how to ask questions so that the data tell a story. It is journalists who, in contact with political and economic power, use their instinct to organize data and uncover information that the powerful perhaps prefer to keep hidden among trillions of numbers and that should not surface as a journalistic headline. And it is also journalists who know how to turn cold numbers into a compelling story that captures readers.",
+      "chapter": "Big data and virtual public opinion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data analysis",
+        "storytelling",
+        "journalist role",
+        "investigative instinct"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalists knowing how to ask questions and turn numbers into compelling stories is a human editorial function LLMs cannot replace"
+    },
+    {
+      "extract": "Working with numerical data, whether in large or small quantities, remains subjective and can in no way aspire to become the truth. The way of obtaining data, of quantifying what is human, is always subjective and depends on what we measure and how we measure it. Big data only reinforces the idea that we must know very well the measure of that datum and its source. Moreover, the algorithms for cross-referencing or searching data are also subjective and depend on what the algorithm's creator thinks.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "subjectivity",
+        "measurement",
+        "algorithms",
+        "critical thinking"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Subjectivity in data measurement and the need to understand methodology and source critically endures and applies equally to LLM outputs"
+    },
+    {
+      "extract": "Big data is prone to apophenia, which is the pernicious tendency to see patterns, connections, or both in random events and meaningless data. Leinweber (2007) demonstrated that by using data mining techniques we can prove a spurious correlation between butter production in Bangladesh and changes in the Standard & Poor's 500 Index.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "correlation",
+        "patterns",
+        "critical thinking"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning about apophenia and spurious correlations in big data is even more relevant with LLMs that can pattern-match at scale"
+    },
+    {
+      "extract": "When one analyzes, for example, a Facebook friends list or a Twitter follower list, one finds an agglomeration of entities ranging from friends, work colleagues, and family members to politicians, celebrities, and companies. The results of such analyses of large datasets must be handled with great care, because one might conclude that a famous person interests us more than a family member, when reality contradicts that assertion.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "data quality",
+        "social media",
+        "interpretation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Careful interpretation of social media data and avoiding misleading conclusions from aggregated digital traces endures"
+    },
+    {
+      "extract": "All of these aspects must be analyzed in depth before undertaking an investigation or a report using mass data techniques obtained from the Internet. A journalist or social researcher must understand that there is a difference between what is legal and what is moral.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "privacy",
+        "legal",
+        "data collection"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Distinguishing legal from moral in data ethics is a fundamental principle that endures"
+    },
+    {
+      "extract": "Investigative journalism does not consist of summarizing or piecing together the discoveries or data of others, but of carrying out original research, often using raw materials. It can be conducted through a series of interviews, or by cross-checking data and figures. On many occasions, the fruits and originality of the investigation are due to the discovery of patterns or connections that no one had previously observed.",
+      "chapter": "Journalistic sources and network society",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "investigative journalism",
+        "cross-referencing",
+        "patterns",
+        "original research"
+      ],
+      "notes": "Attributed to David Randall",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Original research through cross-checking data to discover unseen patterns is an investigative principle that endures"
+    },
+    {
+      "extract": "The five phases are: 1. The lead: the starting point of an investigative piece. 2. The inquiry: consulting sources and documents to support or refute the lead. 3. The publication: loose ends must be avoided, as they can undermine the entire investigative work. It is better to hold back a story if there are doubts. 4. The pressure: from the very first moment a piece of investigative journalism is published, the journalist and the outlet where they publish will face pressure from those affected. 5. The prison: in many cases those in power go after the investigative journalist.",
+      "chapter": "Journalistic sources and network society",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "investigative journalism",
+        "workflow",
+        "verification",
+        "sources"
+      ],
+      "notes": "De Pablos Coello 5Ps model",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Five phases of investigative journalism from lead to publication pressure are an enduring workflow model"
+    },
+    {
+      "extract": "The journalist's role is fundamental and generally requires four things: 1. Without being a mathematician, it is useful to have an interest in numbers, statistics, large quantities of numerical data (data mining), and in general in everything that can be expressed through numerical variables. 2. Without having to be a computer engineer, it is highly advisable to have a special interest in computer programming and to be capable, if not of writing code, at least of knowing what to ask of an engineer. 3. A passion for journalistic narrative. 4. An enthusiasm for artistic expression: sometimes it is simply not enough to build a story from numbers.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "numeracy",
+        "programming",
+        "storytelling",
+        "visualization"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Four journalist competencies endure conceptually but LLMs now allow journalists to code, analyze stats, and visualize without deep specialist knowledge"
+    },
+    {
+      "extract": "Meyer proposes the opposite: he measures a great deal of data and seeks an explanation for it. Taking into account a very important principle of philosophical logic — which states that correlation does not imply causation — it becomes necessary to develop a theory capable of finding the real cause from a data correlation. This theory is called Grounded Theory.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "grounded theory",
+        "correlation",
+        "causation",
+        "hypothesis",
+        "methodology"
+      ],
+      "notes": "Philip Meyer's approach",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation does not imply causation and the need for theory to explain data patterns is a foundational epistemological principle"
+    },
+    {
+      "extract": "The journalistic project was designed as a social science research project: each researcher received a guide of topics they were to ask the respondents. The questions were neutral and leading questions were not permitted. They lasted 45 minutes and space was left for respondents to provide first-person accounts of their experiences. Demographic data were collected from the interviewees, including where they lived, their age, ethnic origin, educational qualifications, and even their criminal history.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "data collection",
+        "research methods",
+        "collaboration"
+      ],
+      "notes": "Reading the Riots project",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Structured interview protocols with neutral questions and demographic data collection is a research design principle that endures"
+    },
+    {
+      "extract": "The steps for applying this theory to a phenomenon from which data can be obtained are the following: 1. Theoretical sample: individuals, situations, and events idealized for the process of analysis. 2. Data collection or familiarization: compiling data and designing databases. In this phase, memos begin to be constructed. 3. Coding or categorization: this is the process of naming or labeling things, categories, and properties. It begins with open coding, then axial coding, and finally selective coding, where the initial categories are reduced and the core variable or central category is sought.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "grounded theory",
+        "coding",
+        "categorization",
+        "methodology",
+        "data analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Grounded theory coding methodology endures but LLMs can now assist with open, axial, and selective coding processes"
+    },
+    {
+      "extract": "Meyer considers that his success as a journalist in discarding the first two sociological theories did not lie in the use of early computers but in applying the scientific method to the explanation and presentation of the facts. That is, the current change does not lie in the use of computers but in the application that newspaper made of grounded theory to construct a journalistic narrative. The Guardian's historical contribution lies in the method, not in the machinery.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "methodology",
+        "grounded theory",
+        "narrative"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Primacy of scientific method over machinery in data journalism is a foundational insight that endures in the LLM era"
+    },
+    {
+      "extract": "Finding the right data is just as difficult as locating the best source to interview for a report. Professional standards do not change. The traditional journalist must always be wary of statements and interested sources offered to them by communications offices. The same applies to data: one must check who compiled it, under what methodology, and above all whether the information extracted from it is valid.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data quality",
+        "sources",
+        "methodology"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Verifying who compiled data, under what methodology, and whether conclusions are valid is a core verification principle"
+    },
+    {
+      "extract": "Data journalism: 80% routine work, 10% great idea, and 10% production. Data journalism is laborious and highly routine: 80% of the time is spent reformatting PDF files or converting datasets into spreadsheets. The data journalist is the bridge between those who generate millions of data points and the public, which has no time to filter them but has the right to know what those data say.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "data cleaning",
+        "time management",
+        "routine"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The 80% routine cleaning work is now substantially reduced by LLMs, fundamentally changing the time allocation in data journalism"
+    },
+    {
+      "extract": "Data journalism can only begin in two ways: either you have a question that requires data, or you have a dataset that needs to be questioned. Compilation is the true heart of data journalism. This data can be found through methods ranging from advanced computing techniques — even hacking — government websites to scraping hidden online databases using tools such as OutWit Hub, Scraperwiki. Sometimes data is provided by an organization, but many other times surveys or online forms are used: this is called crowdsourcing.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "scraping",
+        "crowdsourcing",
+        "question-driven"
+      ],
+      "notes": "Attributed to Paul Bradshaw",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Two entry points to DJ and data compilation methods endure but scraping tools mentioned are outdated; LLMs now assist with all collection methods"
+    },
+    {
+      "extract": "Raw data normally arrive duplicated, in incorrect codes, and in formats that those in power — political, economic, scientific, etc. — introduce to make them difficult to read. On the other hand, there is a lot of information irrelevant for journalistic purposes. Detecting and extracting the important data is the hardest part for the traditional journalist. In this regard, it is recommended to receive training in spreadsheet design or statistics and data mining programs.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "skills",
+        "spreadsheets",
+        "training"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data cleaning challenges endure but LLM-assisted cleaning dramatically reduces the difficulty for traditional journalists"
+    },
+    {
+      "extract": "The point is not to publish data, but to draw a conclusion, which becomes the headline. What matters is knowing how to cross-reference data from different sources to obtain new information: for example, we can cross-reference data on illnesses in Madrid's neighborhoods with data on air pollution. Within numerical data series, it is very important to detect patterns and trends and, above all, atypical behaviors. Anomaly has always been a news value since the birth of journalism.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "patterns",
+        "anomaly detection",
+        "data analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-referencing data sources to find patterns and anomalies as news is a core analytical practice that endures"
+    },
+    {
+      "extract": "It is not just about verifying the source that compiles the data, but above all the data themselves. Darrel Huff pointed out that if you want to prove something absurd, take a lot of data, torture them until they say what you want to prove and call the resulting confession statistics.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "statistics",
+        "data quality",
+        "critical thinking"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning against torturing data to confess desired conclusions is a critical thinking principle that endures"
+    },
+    {
+      "extract": "One of the most common fallacies that can occur is inferring that two events are related because they occur together. From the beginnings of Western thought, great philosophers such as Aristotle, Hume, and Kant have warned us that correlation does not imply causation. The temptation to link data and, motu proprio, draw causal conclusions — that is, produce a good headline — can be very dangerous if what we seek is the truth, journalism's ultimate objective.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "fallacies",
+        "critical thinking",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation vs causation warning and temptation to produce false headlines from data is an enduring epistemological principle"
+    },
+    {
+      "extract": "In journalism, data are useless if they do not tell a story. Moreover, the story cannot be fiction — it has to be true. The journalist's obligation is not that of the artist. The journalist must first obtain — above all else — the truth, and only then produce an appropriate visualization. Not the reverse: attracting audiences with appealing visualizations that do not describe the truth, or that mask it.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "truth",
+        "storytelling",
+        "ethics"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Truth must precede visualization; attractive graphics must not mask falsehood is a core journalistic ethics principle"
+    },
+    {
+      "extract": "Good design still matters. And these turn out much better — more informative — if the visualization design is developed ad hoc for a specific story. That is, there is no comparison if the visualization is produced by human journalists who understand the specific problems they want to visualize, because they have in mind the story to tell, versus when the data are fed into a machine with a standard algorithm.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "design",
+        "storytelling",
+        "journalist role"
+      ],
+      "notes": "Attributed to Simon Rogers",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Custom ad-hoc visualization design by journalists who understand the story remains ideal but LLMs now enable non-designers to create story-specific charts"
+    },
+    {
+      "extract": "Digital journalism establishes the primacy of immediacy over reflection and interpretation and, very especially, to the detriment of quality.",
+      "chapter": "Future of journalism profession in the network society",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "quality",
+        "speed vs. depth",
+        "digital journalism"
+      ],
+      "notes": "Quoting Maria Teresa Sandoval",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tension between immediacy and quality in digital journalism is an enduring structural challenge"
+    },
+    {
+      "extract": "If journalism wants to survive, it will have to take in young people and offer them good working conditions so that they can train in peace. But also, if it wants to survive, it cannot do without veteran journalists, who are the only ones capable of transmitting to the young the idiosyncrasies of the craft.",
+      "chapter": "Tension between expert bloggers and craft journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training",
+        "craft knowledge",
+        "mentorship",
+        "newsroom sustainability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Need for mentorship between veteran and young journalists to transmit craft knowledge endures regardless of AI tools"
+    },
+    {
+      "extract": "An economist --- or a physicist or a sociologist --- may be able to write a good economic --- or scientific --- analysis that is comprehensible to the general public, but it would be altogether ridiculous for them to publish a report in which they interview colleagues in the hallway or question themselves. It would be very difficult for them to write a vibrant chronicle of how a budget is debated in a parliament or how a new exoplanet is discovered.",
+      "chapter": "Tension between expert bloggers and craft journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "craft knowledge",
+        "genre expertise",
+        "reporting vs. analysis",
+        "journalism identity"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Domain experts cannot replicate journalistic craft skills like interviews, chronicles, and accountability reporting"
+    },
+    {
+      "extract": "Journalistic genres --- especially the chronicle and the feature report --- are far more attractive for achieving large audiences or goals of persuasion of public opinion than simple analyses or opinion columns by experts.",
+      "chapter": "Future of journalism profession in the network society",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "genre",
+        "audience engagement",
+        "storytelling",
+        "journalism identity"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalistic genres being more effective for audience engagement than expert analysis is a communication principle that endures"
+    },
+    {
+      "extract": "The best weapon of mass persuasion is beauty; and journalists have always tried to use art --- whether literary or visual art through the image --- not only to recount and publish the truth, but to bring it closer to the segment of the public most reluctant to become aware of real problems.",
+      "chapter": "Tension between expert bloggers and craft journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "visual journalism",
+        "audience engagement",
+        "craft knowledge"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Beauty and art as tools for making truth accessible to reluctant audiences is an enduring principle of communication"
+    },
+    {
+      "extract": "One would need to analyze why someone, motu proprio and without pay, begins to publish information.",
+      "chapter": "Future of journalism profession in the network society",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source evaluation",
+        "motivation analysis",
+        "credibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Analyzing motivations of unpaid information publishers is a source evaluation principle that endures and applies to AI-generated content"
+    },
+    {
+      "extract": "A physicist or an economist working at a university does not contemplate denouncing corruption, uncovering a Watergate or a GAL scandal; rather, they will use the media to proselytize their point of view and sell more books, have more cited articles, or attract more funding for their research. It is not necessarily a social service, any more than the magazine published by an energy multinational or a tobacco company need be. Communication and journalism must not be confused.",
+      "chapter": "Tension between expert bloggers and craft journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalism identity",
+        "accountability",
+        "source evaluation",
+        "independence"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Distinguishing journalism from communication and noting experts have their own agendas is an independence principle that endures"
+    }
+  ]
+}

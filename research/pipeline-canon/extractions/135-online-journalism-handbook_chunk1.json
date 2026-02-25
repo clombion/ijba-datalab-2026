@@ -1,0 +1,791 @@
+{
+  "source_id": "135",
+  "source_file": "135-online-journalism-handbook.md",
+  "source_title": "The Online Journalism Handbook: Skills to Survive and Thrive in the Digital Age",
+  "author": "Paul Bradshaw",
+  "year": "3rd ed., 2023",
+  "chunk": "1/5",
+  "chunk_file": "135-online-journalism-handbook_chunk1.md",
+  "chunk_words": 37798,
+  "extracts": [
+    {
+      "extract": "Considering sourcing along those three dimensions---people, documents, and data---can be particularly useful when planning sourcing. It can ensure your newsgathering is original and multi-layered and, in particular, it can help you think about how each type of source can lead to the another.",
+      "chapter": "The three categories of source",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sourcing strategy",
+        "triangulation",
+        "source diversity"
+      ],
+      "notes": "Bradshaw's three-source framework: people, documents, data"
+    },
+    {
+      "extract": "Documents can lead you to people ... Conversely, people can lead you to documents ... people can lead you to data ... data can lead to people ... Documents can lead you to data, too ... data can lead to documents. Knowing how to triangulate between the different types of sources is a key skill for a journalist---it will improve your reporting and help unlock new story leads.",
+      "chapter": "The three categories of source",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "triangulation",
+        "sourcing strategy",
+        "story leads"
+      ],
+      "notes": "Six directional links between people, documents, data"
+    },
+    {
+      "extract": "Although the internet can connect us with people through video calls and direct messaging, the world wide web is fundamentally a web of documents---and social media updates or profiles, for example, are documents, not people, a distinction that is important to bear in mind in ensuring that your reporting includes an original human element.",
+      "chapter": "The three categories of source",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sourcing",
+        "digital literacy",
+        "documents vs people"
+      ],
+      "notes": "Caution: web sources are documents not people"
+    },
+    {
+      "extract": "Conducting a source audit can be a valuable exercise as a journalist or newsroom to help understand where your sourcing can be improved. This involves measuring the characteristics of sources---such as gender, disability, race, sexuality, age, class, and location---and comparing that information to data on your local community (often available from the national census or local bodies).",
+      "chapter": "The importance of diverse sourcing",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "source diversity",
+        "source audit",
+        "representation",
+        "demographics"
+      ],
+      "notes": "References NPR diversity script example"
+    },
+    {
+      "extract": "In journalism, who you know is what you know ... It means journalists are either limited or strengthened by their range of contacts ... Who you know is who gives you information or access to an exclusive. Who you know is whose stories you tell and how; who you include in your reports; and who you book on your shows.",
+      "chapter": "The importance of diverse sourcing",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source diversity",
+        "contacts",
+        "editorial bias"
+      ],
+      "notes": "Elizabeth Pears quote via Calver, Kemp, and Ryder 2017"
+    },
+    {
+      "extract": "Safiya Umoja Noble's 2018 book Algorithms Of Oppression explores how search results, rather than being neutral sources of information, actually reflect institutional and commercial biases. ... search Google Images for the word 'beautiful'. Then search for the word 'professor'. Try to identify what types of people are missing from the results---and why that might be.",
+      "chapter": "The importance of diverse sourcing",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic bias",
+        "search engines",
+        "representation",
+        "critical data studies"
+      ],
+      "notes": "Links search bias to sourcing gaps"
+    },
+    {
+      "extract": "Making sure that you follow a wide range of sources on social media is a key step in ensuring you are retaining editorial independence and not merely repeating what a well-resourced media team is putting out online. And seek out people who don't have a presence on social media: remember that women and people from underrepresented groups are more likely to suffer abuse online and may be less likely to post updates or have a publicly accessible profile as a result.",
+      "chapter": "Making leads come to you: updates and personal newswires",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial independence",
+        "source diversity",
+        "social media bias"
+      ],
+      "notes": "Social media absence correlates with vulnerability to abuse"
+    },
+    {
+      "extract": "Updates from individuals should be judged differently from updates from other journalists and news organisations: information may not be verified or put into context---those things are your job\\! Once you've identified a potentially newsworthy update, you'll need to do some extra reporting to turn it into a story, including: 1. Establishing whether the story has already been reported, and if so, whether you can move the story on with some new information. 2. Verifying that information is correct by checking other relevant sources. 3. Gathering extra information through interviews and background research.",
+      "chapter": "Making leads come to you: updates and personal newswires",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "social media sourcing",
+        "news judgement"
+      ],
+      "notes": "Three-step process for turning social update into story"
+    },
+    {
+      "extract": "When most people use search engines, they make the mistake of searching for what they want to know. However, to use them most effectively as a journalist you should instead describe what you expect to find. The difference is subtle but important: Who do you expect might have published this information? When do you think this information was published? What type of document do you expect to contain this information? Where in the document do you expect certain words to appear? What specialist jargon might be used in the document? What qualities do you expect the information not to have?",
+      "chapter": "Finding documents and data using advanced search techniques",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search strategy",
+        "advanced search",
+        "information retrieval"
+      ],
+      "notes": "Core search philosophy: describe expected document not desired answer"
+    },
+    {
+      "extract": "Search operators allow you to specify something about the search results you want to get, beyond the words that you are using. The filetype: operator narrows to PDFs, spreadsheets, presentations; site: narrows to particular web domains; intitle: and inurl: narrow results to those where keywords are in the title or URL of the document.",
+      "chapter": "Finding documents and data using advanced search techniques",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "Google",
+        "advanced search"
+      ],
+      "notes": "Table 3.1 search operators: filetype, site, intitle, inurl, date tools"
+    },
+    {
+      "extract": "The site: operator allows you to specify the type of source of information by identifying the domain that the information sits on. Adding site:gov to a search will limit results to governmental websites. For universities: site:edu in the US, site:ac.uk in the UK. Charities and non-profits use the .org domain. The site: operator can also be used to be even more specific: adding site:atlantapd.org to a search will limit results to that particular website.",
+      "chapter": "Looking for documents and data with authority: Using the site: operator",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "domain filtering",
+        "authority",
+        "Google"
+      ],
+      "notes": "Detailed site: operator guidance with country-specific examples"
+    },
+    {
+      "extract": "You should always judge information carefully as a journalist before including it in your reporting, based on: Who published it (are they independent? Do they have credentials?). When it was published. Where it was published. Why it was published (is it intended to persuade?). How the information was created: for example, is this just someone's opinion or have they undertaken significant research such as a large-scale survey? What else you can find out that either confirms or contradicts the information.",
+      "chapter": "Evaluating online sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "source evaluation",
+        "credibility assessment"
+      ],
+      "notes": "Six-question framework: who, when, where, why, how, what else"
+    },
+    {
+      "extract": "Limiting searches to particular domains can help avoid the dominance of Wikipedia and increase the likelihood that you will find authoritative information---but note that a particular domain is not a guarantee of authority, or of accuracy. Government webpages may be out of date or contain misleading information ... students are often given webspace to publish anything they want on .edu and .ac websites. Even the academics who also publish on those domains are not always independent.",
+      "chapter": "Evaluating online sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "credibility",
+        "domain authority",
+        "critical evaluation"
+      ],
+      "notes": "Domain is heuristic not guarantee of authority"
+    },
+    {
+      "extract": "The user-generated content (UGC) organisation First Draft's five pillars of verification include a further consideration: provenance (are you looking at the original account, article, or piece of content).",
+      "chapter": "Evaluating online sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "provenance",
+        "UGC",
+        "First Draft"
+      ],
+      "notes": "References First Draft 2019"
+    },
+    {
+      "extract": "Authoritative information often comes in particular types of documents: reports are often published in PDFs or Word documents. Spreadsheets are published in Excel files or CSVs. Presentations are published in PowerPoint. Use the filetype: operator: filetype:pdf, filetype:xls, filetype:xlsx, filetype:ppt. Bear in mind that documents are sometimes created in one format and saved in another: spreadsheets and presentations may be exported to PDF format before publishing.",
+      "chapter": "Drilling down to reports, presentations, or spreadsheets: The filetype: operator",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "file formats",
+        "data acquisition"
+      ],
+      "notes": "Practical tip: try multiple filetypes as format conversions happen"
+    },
+    {
+      "extract": "A threat model evaluates the security risks in your work. It involves answering four simple questions: What information do you not want other people to know? Why might someone want that information? Who? What can they do to get it? What might happen if they do?",
+      "chapter": "Protecting your sources and stories online",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information security",
+        "threat modelling",
+        "source protection"
+      ],
+      "notes": "Four-question threat model framework"
+    },
+    {
+      "extract": "One very basic security practice is to make sure that you use strong passwords, and don't use the same password for different accounts. Use a pass phrase instead. If you find it difficult to remember multiple passwords for multiple accounts, consider using a password manager. Many accounts also offer two-factor authentication. If your threat model suggests that you need an extra layer of protection you can explore encryption.",
+      "chapter": "Protecting your sources and stories online",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information security",
+        "passwords",
+        "encryption",
+        "source protection"
+      ],
+      "notes": "Escalating layers: passwords, 2FA, encryption"
+    },
+    {
+      "extract": "For sources who need extra protection---whistleblowers or protestors, for example---advise them not to use devices and accounts owned by their employers to contact you: it is common for a log to be kept of all webpages visited, emails sent, and documents printed.",
+      "chapter": "Protecting your sources and stories online",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source protection",
+        "whistleblowers",
+        "operational security"
+      ],
+      "notes": "Practical source-facing advice"
+    },
+    {
+      "extract": "One research project explored how a data-driven approach to investigations could provide an alternative to the traditional hypothesis-driven approach, allowing computers to highlight unusual patterns in data rather than relying solely on journalists to decide on the story they are expecting to find.",
+      "chapter": "Robot journalism and augmented journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "data-driven investigation",
+        "hypothesis-driven",
+        "automation",
+        "pattern detection"
+      ],
+      "notes": "Broussard 2014; contrasts hypothesis-driven vs data-driven approaches"
+    },
+    {
+      "extract": "Algorithms cannot ask questions, explain new phenomena, or establish causality. Journalists would still be needed to observe non-quantified events and help form public opinion.",
+      "chapter": "Robot journalism and augmented journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "automation limits",
+        "causality",
+        "human judgement"
+      ],
+      "notes": "Graefe 2016; inherent limits of algorithmic analysis"
+    },
+    {
+      "extract": "Automated journalism, or robot journalism, relied on predictable sources of data in fields where stories could be written routinely at a scale or speed that human journalists could not match. In addition to adding increased scale to reporting, robot reporting was typically more accurate: around 7% of human-written company earning reports at AP contained errors compared with only about one percent when generated automatically.",
+      "chapter": "Robot journalism and augmented journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "automation",
+        "accuracy",
+        "scale",
+        "robot journalism"
+      ],
+      "notes": "AP earnings reports case; Graefe 2016"
+    },
+    {
+      "extract": "Data could be incomplete, biased, or contain errors. Likewise, the algorithms used to interpret it might also be subject to problems: one robot reporting project in Norway generated a headline that celebrated the poor guy scoring a late own goal as the hero of the game.",
+      "chapter": "Robot journalism and augmented journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "algorithmic error",
+        "automation limits"
+      ],
+      "notes": "Waldal example; applies to both data and algorithms"
+    },
+    {
+      "extract": "Dorr and Hollnbuchner outlined an ethical framework around algorithmic journalism, suggesting that news organisations and journalists consider issues of accuracy and objectivity, and how it might be possible to exercise transparency and disclosure around the inputs and other elements involved.",
+      "chapter": "Robot journalism and augmented journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "ethics",
+        "transparency",
+        "algorithmic journalism",
+        "disclosure"
+      ],
+      "notes": "Dorr and Hollnbuchner 2016 ethical framework"
+    },
+    {
+      "extract": "Analytics is a broad term used in the media industry to refer to the process of measuring user behaviour and using those measurements to try to improve the performance of the organisation. This can include: Using analytics to improve journalism; Using analytics to improve advertising; Using analytics to improve the product; Using analytics to improve marketing.",
+      "chapter": "The growing importance of analytics in online journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "analytics",
+        "metrics",
+        "audience measurement"
+      ],
+      "notes": "Four domains where analytics applies"
+    },
+    {
+      "extract": "Page views are the number of pages that were viewed. Unique users are a measurement of how many separate users are using your site---identification is normally done by each different device accessing a webpage. Bounce rate refers to the percentage of users who leave after viewing just one page. Dwell time or visit duration refers to the amount of time a user spends on your page. These four terms give you the basic information about your audience.",
+      "chapter": "The growing importance of analytics in online journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metrics",
+        "page views",
+        "bounce rate",
+        "dwell time",
+        "audience measurement"
+      ],
+      "notes": "Four foundational web metrics defined"
+    },
+    {
+      "extract": "Engagement might be measured through a range of metrics, including the time spent per visit or how far down the page they scrolled, through to the proportion of users sharing an article, or actions such as posting comments and voting. The more engaged the average user is, the more a publisher can normally charge for advertising.",
+      "chapter": "The growing importance of analytics in online journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "engagement metrics",
+        "audience measurement",
+        "commercial value"
+      ],
+      "notes": "Engagement links editorial to commercial"
+    },
+    {
+      "extract": "There were two strong arguments against web traffic targets for individual journalists: first, reporters would end up writing easier but less important stories rather than stories that might be more important but take more time to report. Second, there were concerns that a story's traffic could be influenced by a number of factors, many of which were not within the reporter's control.",
+      "chapter": "The impact of web-only publishers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "metrics",
+        "perverse incentives",
+        "editorial independence",
+        "traffic targets"
+      ],
+      "notes": "Trinity Mirror 2015 case; metrics can distort editorial priorities"
+    },
+    {
+      "extract": "A major part of a journalist's work involves forward-planning: identifying forthcoming news events that provide a reliable source of stories. Examples might include press conferences, meetings, cultural events, anniversaries, demonstrations, and industry conferences. These form the reporter's news diary.",
+      "chapter": "Building a news diary: Finding events listings",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "forward planning",
+        "news diary",
+        "events",
+        "story leads"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Another phrase to search for along with the name of your area or field is release calendar or release schedule. This is a list of forthcoming dates when a public body is planning to publish data or reports, or when a company is planning to release new products. You can often get an idea of what to expect by looking at the last set of data that was released and how it was reported.",
+      "chapter": "Building a news diary: Finding events listings",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "release calendar",
+        "data publication",
+        "forward planning"
+      ],
+      "notes": "Technique for anticipating data releases"
+    },
+    {
+      "extract": "If an organisation doesn't provide its own alerts for updates, you can create your own email alerts to notify you whenever a specific webpage is changed using services like Visualping and Versionista. This can be particularly useful for pages where organisations regularly publish new information: for example, sports teams' results pages, public bodies' meeting listings, and Freedom of Information disclosure logs.",
+      "chapter": "Alerts and updates via email",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "monitoring",
+        "alerts",
+        "webpage change detection",
+        "FOI"
+      ],
+      "notes": "Visualping, Versionista for tracking page changes"
+    },
+    {
+      "extract": "People tend to fit into particular categories in stories: Power (political, financial, or cultural): these people often initiate stories. Experts to provide the big picture, context, or analysis. Representatives to act as the voice of a particular group. Witnesses to describe what happened. Case studies to help the audience understand the impact of the issue.",
+      "chapter": "Finding human sources online",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source typology",
+        "sourcing strategy",
+        "human sources"
+      ],
+      "notes": "Five source categories: power, experts, representatives, witnesses, case studies"
+    },
+    {
+      "extract": "Those people also tend to play particular roles in stories: Action: a person does or says something newsworthy. Colour and context: providing further details about the newsworthy event. Reaction to move a story on---typically that reaction should come from political, expert, or representative sources. Response: where a person or organisation is criticised then a right of reply will need to be sought.",
+      "chapter": "Finding human sources online",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "source roles",
+        "story structure",
+        "right of reply"
+      ],
+      "notes": "Four roles sources play: action, colour/context, reaction, response"
+    },
+    {
+      "extract": "To find an expert then, try to imagine the documents that might contain information about a relevant expert (a profile page, a piece of research, or a presentation). Then create searches that describe those documents. Profile pages for academic experts are likely to include professor or doctor and on educational domains like .edu and .ac.uk. Research about the subject will contain the names of experts (the authors). Reports by experts are likely to be in PDF formats. Presentations by experts are likely to be in PowerPoint or PDF formats.",
+      "chapter": "Finding experts",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "expert sourcing",
+        "search strategy",
+        "advanced search"
+      ],
+      "notes": "Document-imagination method applied to finding experts"
+    },
+    {
+      "extract": "Open source intelligence is the process of gathering intelligence from open, public sources: postings on social media and forums; databases and directories; cuttings, reports, and documents; and clues in media such as video and photos. The skill is knowing where to look, and how to interrogate those sources---for example, by using advanced search operators, using reverse image searches, or looking for metadata in photos.",
+      "chapter": "Open source intelligence: Using LinkedIn, reverse image search, people search, and other tools",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "OSINT",
+        "open source intelligence",
+        "verification",
+        "metadata"
+      ],
+      "notes": "Definition of OSINT and key techniques"
+    },
+    {
+      "extract": "The biggest difference between open source investigation and traditional journalism is that everything is transparent: you can easily share it with online users, and nothing is hidden. Crowdsourcing and collaboration are often part of it: you can do so much more in a team, and with these types of techniques, it's even more important that you work with more people because they all find different things and you all need to monitor different things.",
+      "chapter": "Open source intelligence: Using LinkedIn, reverse image search, people search, and other tools",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "OSINT",
+        "transparency",
+        "collaboration",
+        "crowdsourcing"
+      ],
+      "notes": "Johanna Wild interview; OSI transparency principle"
+    },
+    {
+      "extract": "Open source investigation often involves combining different methods---not only monitoring what's on social media but we might first identify a specific video and try to geolocate that to determine the exact location where it was taken; we might identify people that are interesting and find other ways to research them, like phone book apps to check who's behind a number---it's the combination of using all those techniques together in an investigative workflow.",
+      "chapter": "Open source intelligence: Using LinkedIn, reverse image search, people search, and other tools",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "OSINT",
+        "geolocation",
+        "investigative workflow",
+        "multi-method"
+      ],
+      "notes": "Johanna Wild interview; combined-methods approach"
+    },
+    {
+      "extract": "A reverse image search is a search based on an image rather than words: you upload an image and the search engine will show results of any webpages it knows of where the same, or similar, images appear. TinEye.com is one such search engine, and Bing Visual Search allows you to search by image too. Because people tend to use the same profile pictures in lots of different places, they can be especially useful in conducting reverse image searches to find other places where they have a profile.",
+      "chapter": "Open source intelligence: Using LinkedIn, reverse image search, people search, and other tools",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "reverse image search",
+        "verification",
+        "OSINT",
+        "TinEye"
+      ],
+      "notes": "Technique for both finding and verifying sources"
+    },
+    {
+      "extract": "Case studies are harder to find than experts: contact details for those affected by a particular issue aren't likely to be published by a single type of organisation like universities so you need to be more creative. You might think of the sorts of communities where those affected might gather online. ... Remember that with case studies in particular, it's not always about finding a way to contact the potential case study directly: often you're looking for a go-between, someone who knows the right person.",
+      "chapter": "Finding case studies---and go-betweens",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "case studies",
+        "community sourcing",
+        "go-betweens",
+        "human interest"
+      ],
+      "notes": "Go-between strategy: charities, community admins"
+    },
+    {
+      "extract": "Note that some online communities may not be as diverse as the real-world communities they are supposed to reflect due to lower rates of internet access or literacy in certain groups within that community, or even the qualities of the online community itself. Be prepared to visit places in those communities physically in order to ensure that your sourcing doesn't suffer from blind spots.",
+      "chapter": "Finding case studies---and go-betweens",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "digital divide",
+        "source diversity",
+        "online community bias"
+      ],
+      "notes": "Cites Kurwa 2019 on digitally gated communities"
+    },
+    {
+      "extract": "Any witnesses to a newsworthy event are likely to have many journalists trying to contact them, and your approach should be sensitive to that. You should also consider the physical safety of witnesses, and their emotional welfare, when communicating with them---indeed, their wellbeing and safety should be the first thing you ask about. Always be guided by respect for their needs and give them advice on where they can access help.",
+      "chapter": "Finding witnesses",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ethics",
+        "witness welfare",
+        "sensitive sourcing",
+        "trauma"
+      ],
+      "notes": "Cites First Draft guide to working with social sources"
+    },
+    {
+      "extract": "Once you have introduced yourself, explained how you found them, and which organisation you work for, it is always better to speak to someone directly---face-to-face or on the phone---than via messages as early as possible, as this makes it easier to build trust and provide emotional support. It also makes it more likely that you can verify their account. Don't forget to tell them when they can expect to see the story---and update them if that changes.",
+      "chapter": "Finding witnesses",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "interviewing",
+        "trust building",
+        "witness contact",
+        "verification"
+      ],
+      "notes": "Move from messaging to direct contact ASAP"
+    },
+    {
+      "extract": "Another approach may be to think about witnesses who may not have shared content on social media about the event. Think instead about who is likely to have been in the location and where to find those people online. ... Another tip is to use Google Street View to look at the location of the event and identify local businesses and shops whose employees may well have seen what happened---then find their phone numbers online and call them!",
+      "chapter": "Finding witnesses",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "witness sourcing",
+        "Google Street View",
+        "geolocation",
+        "creative sourcing"
+      ],
+      "notes": "Lateral thinking: identify likely bystanders via Street View"
+    },
+    {
+      "extract": "For more recent changes, try conducting a relevant Google search and clicking on cache next to the relevant result. For older changes, the Internet Archive's Wayback Machine can give you snapshots going further back. Search for the URL and you will be presented with a calendar showing what dates it has saved that page.",
+      "chapter": "Finding older versions of webpages and pages that have disappeared: Caches",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web archives",
+        "Wayback Machine",
+        "cache",
+        "verification"
+      ],
+      "notes": "Cummings blog post example: cache revealed backdated edit"
+    },
+    {
+      "extract": "It is important to remember that Google only indexes a small part of the web: most of it is invisible to search engines. The invisible web (sometimes called deep web) refers to millions of pages that cannot be found by search engines. The dark web refers to pages that have been intentionally hidden. Some research tasks are far better resolved by going straight to source, by finding interactive mediums or sources of expertise far beyond the crowd.",
+      "chapter": "The invisible web and the dark web",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "invisible web",
+        "dark web",
+        "search limitations",
+        "deep web"
+      ],
+      "notes": "Murray Dick quote; search engines cover small fraction of web"
+    },
+    {
+      "extract": "New Freedom of Information laws and a growing open data movement made it much easier for journalists to access data on everything from politics and the environment to education and culture---or for citizens to get hold of it and highlight stories that journalists should be digging into.",
+      "chapter": "The rise of data-driven journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI",
+        "open data",
+        "data access",
+        "civic data"
+      ],
+      "notes": "FOI and open data as structural enablers of data journalism"
+    },
+    {
+      "extract": "Data journalism's distinctiveness from CAR lay in the way that it often connected to data directly on the internet; the growth of data visualisation, often abbreviated to datavis; and the way that user interactions and interactivity could be built into the storytelling.",
+      "chapter": "The rise of data-driven journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism",
+        "CAR",
+        "data visualisation",
+        "interactivity"
+      ],
+      "notes": "Three features distinguishing data journalism from CAR"
+    },
+    {
+      "extract": "Factchecking had historically been done before publication, both by reporters---when presented with claims by interviewees---and by subeditors, who checked journalists' copy before publication. But with sources able to publish their claims directly to audiences, and audiences able to spread misinformation without any checks in place, the focus shifted outwards.",
+      "chapter": "Information wars: Fake news, sockpuppetry, and propaganda",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "factchecking",
+        "verification",
+        "misinformation",
+        "post-publication"
+      ],
+      "notes": "Shift from pre-publication to post-publication factchecking"
+    },
+    {
+      "extract": "The need for explainers to help make sense of complex stories, and for more positive and empowering solutions journalism, were both identified as potential strategies for addressing news avoidance.",
+      "chapter": "Selective news avoidance",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "solutions journalism",
+        "explainers",
+        "news avoidance",
+        "audience engagement"
+      ],
+      "notes": "Newman et al. 2022; response to selective avoidance"
+    },
+    {
+      "extract": "Metadata about phones and internet communication revealed very detailed information about the movements of individuals, what webpages they visited, and who they communicated with. Data was collected even when phones were switched off. This made it possible to identify who journalists were making contact with, not only at the time but retrospectively too.",
+      "chapter": "New threats to journalism online",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "metadata",
+        "surveillance",
+        "source protection",
+        "information security"
+      ],
+      "notes": "Post-Snowden: metadata exposes journalist-source relationships"
+    },
+    {
+      "extract": "Press releases raise important ethical issues for journalists. As Patricia A. Curtin puts it: Public relations practitioners provide information subsidies to the media on behalf of their clients to influence the media agenda and potentially affect public opinion. In other words, a news organisation's independence in choosing the most important stories and collecting the information to report them can be compromised by the availability of free content paid for by someone else.",
+      "chapter": "Making leads come to you: updates and personal newswires",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "press releases",
+        "information subsidies",
+        "editorial independence",
+        "PR"
+      ],
+      "notes": "Curtin 2009; information subsidy concept"
+    },
+    {
+      "extract": "Third-party analytics tools like Bitly and Buffer will give you a special URL for any link you want to share, and then track when people click on that link. This allows you to test what times most people click on your link, which social media platforms the links tend to perform best on, or what accompanying text is most effective in getting users to click.",
+      "chapter": "Analytics tools",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "analytics",
+        "A/B testing",
+        "link tracking",
+        "social media optimisation"
+      ],
+      "notes": "Bitly, Buffer for distribution testing"
+    },
+    {
+      "extract": "It is no longer enough to simply relay information from one part of society to another; journalists are expected to be expert curators and verifiers, data journalists, or multimedia producers. Our ability to protect our sources now relies not just on institutional support, but on technological savviness. And we must earn our readers' trust and engagement---we cannot take it for granted.",
+      "chapter": "Summary",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalist role",
+        "curation",
+        "verification",
+        "trust",
+        "multiskilling"
+      ],
+      "notes": "Ch2 summary; expanded journalist competencies"
+    },
+    {
+      "extract": "When you find images or other media online or on social media, bear in mind that the user still retains copyright over those, and you cannot usually publish a picture without permission from the copyright holder. If you find user-generated image content on Twitter, you can message the account holder to find out if they originated the image and would be prepared to allow you to use the image with a credit. It is important to establish that the person giving permission has the right to do so and ideally owns the photograph.",
+      "chapter": "Do you have permission to use media?",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "copyright",
+        "permissions",
+        "UGC",
+        "provenance",
+        "media law"
+      ],
+      "notes": "Permission chain: identify originator, verify ownership, get consent"
+    },
+    {
+      "extract": "Remember that you don't have editorial control over live video so it's important to consider any potential ethical issues if you intend to link to or use the material: could something distressing happen on the stream that may traumatise viewers? Could it put witnesses or law enforcement at risk? You may need to use only parts of the video, or blur elements, when publishing it.",
+      "chapter": "Finding witnesses",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "ethics",
+        "live video",
+        "editorial control",
+        "harm minimisation"
+      ],
+      "notes": "Risk assessment for live/UGC video use"
+    },
+    {
+      "extract": "Domingo et al. (2007) identified three more dimensions of convergence beyond physical changes in the newsroom: multiskilled professionals; multiplatform delivery; and active audience.",
+      "chapter": "Cultural convergence",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "convergence",
+        "multiskilling",
+        "multiplatform",
+        "audience participation"
+      ],
+      "notes": "Domingo et al. 2007 convergence framework"
+    },
+    {
+      "extract": "Having a mobile-first strategy meant assuming that a typical reader would be accessing your stories on a mobile device. News website content management systems were increasingly designed to be responsive: to respond to the device being used and display content accordingly. Publishers also focused more on web performance optimisation (WPO): making sure pages loaded as quickly as possible.",
+      "chapter": "The move to mobile-first",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "mobile-first",
+        "responsive design",
+        "web performance",
+        "CMS"
+      ],
+      "notes": "Mobile-first as design and editorial strategy"
+    },
+    {
+      "extract": "WAN-IFRA recommended that publishers consider the corporate goals of each platform they are considering publishing on, and how that might impact on their own objectives---as well as each platform's core audience and their information consumption profiles. But it also warned publishers against locking themselves to Facebook, a related loss of branding and context, and relying too much on superficial metrics.",
+      "chapter": "The rise of platform publishing and distributed content",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "organizational",
+      "themes": [
+        "platform publishing",
+        "platform dependency",
+        "metrics",
+        "distribution strategy"
+      ],
+      "notes": "WAN-IFRA platform evaluation guidance; Pfeiffer 2015"
+    }
+  ]
+}

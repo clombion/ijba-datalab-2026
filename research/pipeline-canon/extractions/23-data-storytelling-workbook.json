@@ -1,0 +1,1530 @@
+{
+  "source_id": "23",
+  "source_file": "23-data-storytelling-workbook.md",
+  "source_title": "The Data Storytelling Workbook",
+  "author": "Anna Feigenbaum, Aria Alamalhodaei",
+  "year": "2020",
+  "chunk": null,
+  "chunk_words": 76745,
+  "extracts": [
+    {
+      "extract": "Data stories are intentional communicative artefacts that present data in an interesting, evocative, and informative way. Our aim is to focus on the human elements of what is in a dataset in order to be able to more clearly pinpoint what is at stake, and to communicate it effectively and empathetically to our audiences.",
+      "chapter": "Why Storytelling?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data humanism",
+        "audience engagement",
+        "storytelling definition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every dataset contains many possible stories. Our aim in this workbook is not to teach you how to create one true story, or even how to develop the best story. Rather, the aim of this workbook is to cultivate the mind-sets needed for you to become a better data storyteller.",
+      "chapter": "Why Storytelling?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "multiple narratives",
+        "reflexivity",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "At the heart of developing data storytelling education is the task of balancing truth, accuracy, and transparency with engaging narratives. At the same time, it is crucial that we educate ourselves and the next generation not just to tell data stories, but to tell them responsibly.",
+      "chapter": "Challenges to Data Storytelling Education",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "accuracy",
+        "transparency",
+        "responsibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even when people are able to attend training classes online and offline, skill development and retention is difficult without regular engagement. Like learning a language, without the ability to practise everyday conversation, skills get lost.",
+      "chapter": "Challenges to Data Storytelling Education",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills retention",
+        "training",
+        "professional development"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Rather than focus on specific software or tools, this workbook focuses on the resources, skills, and mind-sets needed to turn ideas into communicative artefacts.",
+      "chapter": "A Guide to Using this Workbook",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool-agnostic",
+        "mindsets",
+        "skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An on-going commitment to collaboration is essential for successful data storytelling. This means committing to curiosity-driven work, clarity in mutual expectations, coordination of working practices, and care for how we treat each other.",
+      "chapter": "Workbook Design",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "Four Cs",
+        "teamwork"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We come to believe in this myth that data is untouched and pure. We act as if data can exist in a realm apart from humans. But just as a photograph is not an objective representation of reality, neither is data. Data require human participation. Just like photography, it needs to be understood as framed and framing.",
+      "chapter": "A Holistic Approach to Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "raw data myth",
+        "framing",
+        "data ontology"
+      ],
+      "notes": "Citing Gitelman and Jackson 2013"
+    },
+    {
+      "extract": "Working with codes, themes, and other labelling systems can turn qualitative data into structured data, making it ripe for visual storytelling using charts and graphs.",
+      "chapter": "A Holistic Approach to Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "qualitative data",
+        "structured data",
+        "coding"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The more we zoom in on a data point, the more we see its complexity, while the more we zoom out, the more we see its context. When presenting data, the goal is to zoom in enough to realistically relate complexity, while zooming out enough to give the context the audience needs to understand its potential meanings and significance.",
+      "chapter": "A Holistic Approach to Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "context",
+        "complexity",
+        "zoom",
+        "audience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before starting any data storytelling project, we always think first about audience. The task 'Think, Feel, Do' asks two questions: 1. What do we want our audience to think, feel, or do? 2. Thinking backwards from this objective: what key messages does our audience need to receive, understand and believe in order to perform these actions?",
+      "chapter": "Understanding your Audience",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience analysis",
+        "Think Feel Do",
+        "objectives"
+      ],
+      "notes": "Adapted from Susan O'Halloran 2014"
+    },
+    {
+      "extract": "There is no such thing as a general public. Understanding your audience segments involves asking questions about who you are writing for: How much detail is too much? When is it better to use technical terms versus translating your findings into everyday language? What elements of your data's backstory should you include?",
+      "chapter": "Different Audiences, Different Data Stories",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience segmentation",
+        "specificity",
+        "data literacy levels"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good data storyteller needs to know their audience and adjust accordingly. It might be that you need to present the same finding in five different ways. As long as you are clear on the key messages, this kind of tailoring becomes easier to do over time.",
+      "chapter": "Different Audiences, Different Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience adaptation",
+        "key messages",
+        "tailoring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In order to close the gap between what you would like your audience to think, feel, or do, and what they currently think, feel, or do, you need to understand them. Whatever strategy for gathering insights on audiences you employ, it is important to identify gaps between current mind-sets and the mind-set your work aims to achieve.",
+      "chapter": "Audience Listening",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience research",
+        "Mind the Gap",
+        "information gaps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Finding a balance between author-driven and reader-driven approaches. Where the goal is for your audience to do something quite directed, an author-driven approach is more common. When creating a data story you need to meet your audience half-way, providing a structure for your audience to follow while leaving them with enough room to explore and reflect for themselves.",
+      "chapter": "Audience Listening",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "author-driven",
+        "reader-driven",
+        "interactivity",
+        "narrative structure"
+      ],
+      "notes": "Drawing on Segel and Heer 2010"
+    },
+    {
+      "extract": "Instead of building a data story around your process of data analysis, by starting with your research question or hypothesis, a data storyteller should be focused on key insights. The exposition and inciting incident should backup the climax of the main insight, rather than explain how you got to your research question.",
+      "chapter": "Narrative in Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative arc",
+        "key insight",
+        "Freytag pyramid"
+      ],
+      "notes": "Adapting Brent Dykes' data narrative arc"
+    },
+    {
+      "extract": "In example 1, the character of the data story is the researcher and the narrative arc is about research methodology. In example 2, the characters are students. Instead of taking centre stage, the data analyst fades into the background, and the data points become humanised. The narrative represents the emotional journey, rather than the research journey.",
+      "chapter": "Narrative in Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "humanising data",
+        "narrative perspective",
+        "data humanism"
+      ],
+      "notes": "Belonging at BU case study"
+    },
+    {
+      "extract": "Action timelines, plot types, and emotional arcs can be used as templates to help you construct a data story. While the basic plot types can help to imagine overall stories, emotional arcs can assist in how a story is structured for emotional engagement with the audience.",
+      "chapter": "Types of Narrative",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "emotional arcs",
+        "plot types",
+        "narrative structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "News stories are often a good place to look out for how journalists use different types of characters to create narrative with data: Event as Character, Person as Character, Place as Character. Composite characters help reduce complexity for audiences and can provide a more diverse range of traits, but carry the danger of collapsing differences.",
+      "chapter": "Data as Characters",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "characterisation",
+        "narrative technique",
+        "composite characters"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All data comes from somewhere. The more you know about the backstory of the data in front of you, the more able you are to tell effective data stories with it. Many data journalists and data visualisers have taken up the practice of keeping a data diary that records where they got their figures and what they did to collect, store, further investigate, or statistically analyse them.",
+      "chapter": "All Data Has a Backstory",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "provenance",
+        "data diary",
+        "transparency",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When writing nonfiction, conflict needs to be understood loosely with a focus on sparking curiosity, connecting with core values, or igniting compassion from your audience. Narrative tension between familiar entities can help the reader navigate a story and provide background context beyond the content of the data story itself.",
+      "chapter": "What is Conflict in Data Storytelling?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "conflict",
+        "narrative tension",
+        "curiosity",
+        "nonfiction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In order to justify its existence, every passage of description should do two or more of the following: provide background information on context, add further evidence to the main data insight, add depth to the broader context, show something unique about the data, add conflict or complicate the data, provide data backstory. Follow a two-ticks minimum principle.",
+      "chapter": "Details, Details",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "detail selection",
+        "writing craft",
+        "Details Tick List"
+      ],
+      "notes": "Adapted from Marcy Kennedy 2016"
+    },
+    {
+      "extract": "The challenge is getting the right balance between movement and detail. If a writer gets too caught up in the details of description, the reader can quickly get bored. Too much detail can lose your audience and muddle your main insights. The trick is finding what details to include and when to give description the axe.",
+      "chapter": "Details, Details",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "detail balance",
+        "writing craft",
+        "audience engagement"
+      ],
+      "notes": "Drawing on Flaherty 2009 boat metaphor"
+    },
+    {
+      "extract": "Visualizing Impact developed a brief format that helps everyone involved in a project align on communication objectives, audience, potential stories, and information hierarchy. They also allocated more time to exploratory analysis, where researchers and designers work together to identify potential stories and visual concepts, sharing the analytical and creative load.",
+      "chapter": "Spotlight: Visualizing Impact",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "brief format",
+        "collaboration",
+        "exploratory analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The role of challenger is integral in our process. A challenger is a person who comes in at various points in the development of a data story to offer a fresh and experienced eye, capturing red flags, gaps, or missed opportunities. Creating space for challengers allows us to access the wealth of experience that might be at the disposal of a significantly larger team.",
+      "chapter": "Spotlight: Visualizing Impact",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "peer review",
+        "challenger role",
+        "quality assurance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By the time we reach the review stage, our focus is on final fact checking and verification of sources. Every visual we publish contains sources in the footer. It is critical to reference our sources directly on the visual to maintain credibility and trust.",
+      "chapter": "Spotlight: Visualizing Impact",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "source attribution",
+        "credibility",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Bureau set out to count homeless deaths. McClenaghan searched out information on how and when people were dying: sat quietly in funerals, talked to family members, collected coroners reports, travelled to doctors surgeries, shadowed homeless outreach teams, contacted soup kitchens and hostels, and compiled scores of Freedom of Information requests.",
+      "chapter": "Spotlight: Dying Homeless",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "FOI",
+        "investigative methods",
+        "counting the uncounted"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bureau Local was set up with the belief that regional journalism is a crucial part of a healthy society and that collective reporting produces broader and deeper investigations than would be possible by any individual newsroom. We asked collaborators to submit all their findings through an online form, which we worked to cross-check and verify.",
+      "chapter": "Spotlight: Dying Homeless",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "collaborative journalism",
+        "crowdsourcing",
+        "verification",
+        "Bureau Local"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Subject matter, source or media location, beliefs and opinions, time and confidence, confidence and skills, and emotions are all factors that affect how people engage with data visualisations. Whether a visualisation is effective depends in large part on how, by whom, when and where it is accessed.",
+      "chapter": "Spotlight: Seeing Data Project",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience engagement",
+        "visualisation effectiveness",
+        "reception factors"
+      ],
+      "notes": "Kennedy et al. 2016 research findings"
+    },
+    {
+      "extract": "A major finding from our research was the important role that emotions play in peoples engagements with data visualisations. A broad range of emotions emerged including pleasure, anger, sadness, guilt, shame, relief, worry, love, empathy, excitement, offence.",
+      "chapter": "Spotlight: Seeing Data Project",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "emotion",
+        "audience response",
+        "visualisation",
+        "affect"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To become a data storyteller dedicated to transparency and accountability, one must be equipped to ask difficult questions about where data comes from, who can access it, and who can engage with the tools and skills needed to analyse and visualise it.",
+      "chapter": "The Growing Data Divide",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data divide",
+        "access",
+        "transparency",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The data divide is growing for three reasons: accessing, analysing, and visualising data requires time and resources that smaller organisations lack; sensitive subjects often have no straightforward data source; and there is an asymmetry of data power between those who collect and mine data and those whom data collection targets.",
+      "chapter": "The Growing Data Divide",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data divide",
+        "data literacy",
+        "data power",
+        "access inequality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data literacy researchers argue that we must go beyond just making data public. We need participatory data architectures, infrastructures that can enable people to interpret and apply data in beneficial ways. Better data skills can also help get around barriers by embedding understandings of data types and file compatibility into workplace practice.",
+      "chapter": "How Open is Open Data?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "data literacy",
+        "participatory infrastructure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Complex database systems, jargon heavy taxonomies, PDF locked documents, and scattered datasets can make open data inaccessible, even when it has officially been made open. Supplementary data acquisition skills, such as successful navigation of legal mechanisms like Freedom of Information must also be integrated into training.",
+      "chapter": "How Open is Open Data?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open data barriers",
+        "FOI",
+        "data formats",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In efforts to counter the problem of no data, many people turn to participatory data collection. This citizen-generated data can be used as an advocacy tool, putting pressure on organisations and governments to establish better public data protocols, and at times, shape new practices and policies.",
+      "chapter": "Counting the Uncounted",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "citizen-generated data",
+        "participatory data collection",
+        "advocacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As data storytellers it is crucial to ask who is counting the uncounted and why. The uncounted are most often children, ethnic and sexual minorities, those living in poverty and those living in urban, overcrowded housing. Being uncounted has effects for political participation, allocation of public resources, and gathering of data needed for evidence-based policy reform.",
+      "chapter": "Counting the Uncounted",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "missing data",
+        "data gaps",
+        "marginalised populations",
+        "ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The collection and interpretation of data always rests in human hands. Data becomes biased when researchers fail to account for the way that our assumptions can implicitly shape how we gather and interpret data. Whenever we develop a research question, we do so with certain assumptions.",
+      "chapter": "Data and Bias",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "bias",
+        "assumptions",
+        "objectivity",
+        "data fundamentalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Standpoint theory asks us to think about how our identities and experiences matter for how we go about gathering, analysing, and storytelling with data. Asking which perspectives are present or absent on a project, and how this may or may not affect the data storytelling process, will lead to stronger stories and more accurate evidence-based knowledge claims.",
+      "chapter": "Standpoints Matter",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "standpoint theory",
+        "positionality",
+        "bias reduction",
+        "reflexivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In order to prevent data discrimination, greater transparency is clearly needed, though transparency in itself is not enough. What is needed is more empirical research into how discrimination emerges in data, more comprehensive law and policy around data and automation, and further collaboration between decision-makers and citizens.",
+      "chapter": "Data Discrimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data discrimination",
+        "algorithmic bias",
+        "transparency",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Unlike other forms of discrimination, data discrimination is uniquely dangerous because it is based on automated processes that carry the authoritative veneer of objectivity, making data-driven outcomes appear rational and unchallengeable. Data tools are embedded within processes and technologies that are highly secretive and subtle.",
+      "chapter": "Data Discrimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic bias",
+        "automation",
+        "objectivity veneer",
+        "opacity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Amnesty Decoders uses micro-tasking to engage digital activists in ground-breaking human rights research. The process involves five steps: 1) Define the task and methodology, 2) Get data, archive and pre-process, 3) Design and develop, 4) Engage volunteers, 5) Verify, analyse, publish. Each task is completed by multiple Decoders as the main verification mechanism.",
+      "chapter": "Spotlight: Amnesty Decoders",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "micro-tasking",
+        "verification",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Visualisation libraries like D3 and Gephi, as well as software like Tableau, embed 19th century conventions into contemporary design practice. Templates make it increasingly easy to visualise data without needing to participate in other parts of the data process. But templates can limit creative potential and when the same graphic symbols tell every story, the individuality of the data gets lost.",
+      "chapter": "Visual Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "templates",
+        "D3",
+        "Gephi",
+        "Tableau",
+        "visual conventions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We integrate visualisation into the process of our data storytelling. Rather than treat visualisation as a separate design step that comes after all the data analysis is complete, it can function as part of a two-way communication system. Often the most important questions emerge during the process of visualising: What standpoints are being privileged? Who or what is missing?",
+      "chapter": "Visual Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "iterative visualisation",
+        "exploratory analysis",
+        "reflexivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When the process of designing a visualisation is detached from the process of data collection, preparation, and analysis, it can be hard to create a meaningful data story. Understanding the context, backstory, or potential biases of the data you are working with is important for adding meaning.",
+      "chapter": "Visual Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "design process",
+        "meaning-making"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Feminist data visualisation addresses how biases in perception and representation can become embedded into design practice. If data being visualised does not include demographic information about gender, then gender cannot be visualised at all. It was only after we noticed this pattern when reading through recap summaries that we decided to add additional codes to the dataset.",
+      "chapter": "Feminist Data Visualisation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "feminist data viz",
+        "gender bias",
+        "missing variables",
+        "coding"
+      ],
+      "notes": "CATO police misconduct example"
+    },
+    {
+      "extract": "D'Ignazio and Klein offer six core principles of Feminist Data Visualisation: rethink binaries with emphasis on multiplicity; embrace multiple perspectives rather than a single view from nowhere; consider communities not just individual users; recognise knowledge as situated; legitimise embodiment and affect; make the labour of the visualisation process more visible.",
+      "chapter": "Feminist Data Visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "feminist data viz",
+        "design principles",
+        "situated knowledge",
+        "multiplicity"
+      ],
+      "notes": "D'Ignazio and Klein 2016"
+    },
+    {
+      "extract": "Three key areas where current data visualisation conventions face their biggest challenges: Exclusivity - people believe dataviz requires advanced skills; Sanitisation and Impersonalisation - templates prioritise formal structure over emotion and empathy; Inability to Capture Complex Personhood - visualisations struggle to account for the idea that people are always beset by contradictions.",
+      "chapter": "Challenges for Data Visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualisation limitations",
+        "exclusivity",
+        "empathy",
+        "complex personhood"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before you can begin to visualise data, it is often useful to transform it into something more structured. Moving information from a Word document table into a spreadsheet requires careful planning. Each record needs its own row and everything that describes it in columns. Create data validations in each column to generate dropdown lists ensuring consistency.",
+      "chapter": "A Quick Guide to Structuring Your Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data structuring",
+        "spreadsheets",
+        "data validation",
+        "data entry"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the biggest challenges when creating or modifying datasets is the tedious task of cleaning data. The more structure you give to your data early on, the easier it makes your life later. This means creating well thought-out spreadsheets in advance, using data validation functions to ensure consistency, and becoming familiar with cleaning software like OpenRefine.",
+      "chapter": "A Quick Guide to Structuring Your Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "OpenRefine",
+        "data structure",
+        "planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As we become more and more reliant on computers to do the work of structuring and visualising data for us, we become less and less mindful of the importance of digging into the data. When we cut and paste from dashboards without understanding how the graphs and numbers got there, we are limiting our capacity to critically question data.",
+      "chapter": "A Quick Guide to Structuring Your Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical data literacy",
+        "automation dependence",
+        "dashboards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Learning how to read denotation, connotation, and myth provides insight into how the simplest of images can be loaded with layers of meaning. Thinking like a mythologist can help improve our decision-making around colour, shape, and emotion. This is important when visually representing sensitive subjects or creating icons that will travel across languages and cultures.",
+      "chapter": "Semiotics for Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "semiotics",
+        "visual literacy",
+        "connotation",
+        "cultural meaning"
+      ],
+      "notes": "Drawing on Barthes"
+    },
+    {
+      "extract": "We have organised universal design principles into Four Pillars: Symbol, Colour, Caption, and Editorial. Symbols should be resonant (the audience quickly gets what you are trying to represent) and relevant (the right match for your audience). Colours must also be resonant and relevant, with cultural considerations essential.",
+      "chapter": "Four Pillars for Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "Four Pillars",
+        "symbol design",
+        "colour",
+        "visual design principles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Pictograms should be developed in accordance with the culture, beliefs, attitude and expectations of the target population. When communicating specific health and medication information with patients, pictograms may be interpreted differently depending on the individual's country of residence, education level, and gender.",
+      "chapter": "Four Pillars for Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pictograms",
+        "cultural context",
+        "cross-cultural design",
+        "health communication"
+      ],
+      "notes": "Citing Barros et al. 2014 and Richler et al. 2012"
+    },
+    {
+      "extract": "Our interpretations of a color's meaning are highly influenced by culture. For clear communication and unambiguous information delivery, it is essential to understand the needs, customs, and attitudes of the end user. Investigations into cultural perceptions of color are essential whenever designing for a new audience, market or global campaign.",
+      "chapter": "Four Pillars for Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "colour",
+        "cultural context",
+        "audience",
+        "visual design"
+      ],
+      "notes": "Citing Visocky O'Grady 2008"
+    },
+    {
+      "extract": "I don't attempt to be objective in the representations I make. What I do is, I make a representation of events that's consistent with the facts, but I make it as emotionally engaging as possible to the reader. Evans pushes back against claims to objectivity that rely on a non-locatable standpoint.",
+      "chapter": "Spotlight: Kate Evans",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "emotion",
+        "situated perspective",
+        "visual storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data Justice Lab used a multi-methods approach: scraping government websites, filing freedom of information requests, holding workshops to enable discussions between people across sectors, and interviews with practitioners and civil society organizations. This enabled first systematic mapping of data analytics systems across local authorities in the UK.",
+      "chapter": "Spotlight: Data Justice Lab",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "multi-methods",
+        "FOI",
+        "web scraping",
+        "participatory research"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Forensic Architecture combines digital technologies with investigative journalism to produce detailed inquiries into incidents of human rights violations. They cross-referenced satellite imagery with first-hand testimony from survivors and witnesses to produce a timeline of events. Data is not only visualized, but used as evidence in legal cases to establish culpability.",
+      "chapter": "Spotlight: Forensic Architecture",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "satellite imagery",
+        "testimony",
+        "forensic methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The datasets needed for housing justice work are difficult to integrate, aggregate, and cross-reference. The poor state of data on housing makes evidence-based analysis and advocacy challenging. Key insights included: Lack of standardisation in recordings of data; Cleanliness of data does not correlate to usefulness; Classifying data by relevance to stories is more beneficial than dismissing data as dirty.",
+      "chapter": "Spotlight: Housing Justice Database Project",
+      "pipeline_step": "Clean",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data integration",
+        "dirty data",
+        "standardisation",
+        "housing data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How can data journalism projects tell stories about big issues at scale while also affirming the provisionality and acknowledging the models, assumptions and uncertainty involved in the production of numbers? How can data journalism support marginalised communities to use data to tell their own stories on their own terms, rather than telling their stories for them?",
+      "chapter": "Spotlight: Data Journalism Handbook",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical data practice",
+        "uncertainty",
+        "community voice",
+        "scale"
+      ],
+      "notes": "Gray and Bounegru twelve challenges"
+    },
+    {
+      "extract": "Linking data together helps generate data literacy, open information, and combat the fragmentation and lack of accountability that results from scattered data. The prototype focused on individual councils organised around different types of data that emerge throughout the regeneration process, reflecting existing ways that organisations use data in research and advocacy.",
+      "chapter": "Spotlight: Housing Justice Database Project",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "participatory data infrastructure",
+        "data linking",
+        "advocacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It was the process of visually organising this information that revealed the data stories that mattered. Reality is simply too messy and too complex to capture. But the process of visualising entanglement helped to highlight which things were most entangled and to identify dependencies in ways that were both generative and constraining.",
+      "chapter": "Challenges for Data Visualisation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "visual analysis",
+        "complexity",
+        "entanglement",
+        "emergent insight"
+      ],
+      "notes": "Hodder 2012 tanglegram example"
+    },
+    {
+      "extract": "When selecting colours, keep in mind how contrast can be used to highlight significance or show difference. Contrast can be created through your choices of colour hue (type of colour), colour value (lightness or darkness of a colour), and colour saturation (purity of a colour).",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "colour design",
+        "visual contrast",
+        "chart design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you want a particular category standout as the subject of your data story, you may choose to create a contrast in its saturation or value. This is particularly useful when the point you are trying to make is not that this category is the largest or smallest, but where it falls in relation to the others.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "colour design",
+        "visual emphasis",
+        "narrative framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You may also want to use contrast to highlight variables in your data if you are trying to point out a pattern that is not necessarily going to stand out on its own. We wanted to highlight the pattern we found around gendered violence and violence against women. This led us to make the decision to use a bold colour only for those categories that related to women and gendered violence, colouring the other categories in a dull grey.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "colour design",
+        "pattern highlighting",
+        "visual emphasis",
+        "editorial decisions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Taking colour blindness and aging into account, the American Disability Act suggests that best practice is to provide a 70 percent contrast between type and background. Visocky O'Grady suggest making sure that the contrast you select works well in greyscale and avoids eye strain.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "accessibility",
+        "colour design",
+        "inclusive design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Colour metaphors refer to the use of different colours that carry particular meanings or connotations in a shared cultural context (i.e. green for go, red for stop). A colour gradient refers to a range of colour transitions that is often gradual and blends together as it progresses. When you have ordinal data, a colour metaphor may be useful for telling your data story. For interval data, colour gradients are a common choice to represent change, rankings, or intensity.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "colour design",
+        "data types",
+        "visual encoding",
+        "metaphor"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Arcia and her team found that colour analogies worked well when paired with a human figure to help represent gradations of scale. While it comes with additional costs, working directly with target audience communities through participatory infographic design is the best way to create graphics that can enhance health literacy.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "participatory design",
+        "audience research",
+        "health communication",
+        "cultural relevance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When colour was attributed to symbols that were not metaphorically resonant, the image failed to make a connection. Colour scales also failed to connect with users when the colour metaphor was unfamiliar. These findings further support other researchers around the importance of the cultural relevance.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "cultural relevance",
+        "visual encoding",
+        "audience comprehension",
+        "metaphor"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Andy Kirk addresses colour blindness design: using red/green variations, opting for a non red-green variation, using a second encoding such as shapes or text to help with comprehension, or (when budget allows) offering two versions of a colour scale for the user to choose between.",
+      "chapter": "Creating Colour Contrasts",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "accessibility",
+        "colour design",
+        "inclusive design",
+        "redundant encoding"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As the same visual image can mean different things to different people, we need to guide viewers to the intended message of our data story—our Think, Feel, and Do. This means that we need to limit the possible meanings a visual image can have. Captions work to guide audiences toward your Think, Feel, and Do. By crafting carefully worded text that anchors the images in your data story, you can stop viewers' interpretations drifting away from your intended messages.",
+      "chapter": "Captions",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "captions",
+        "audience guidance",
+        "polysemy",
+        "narrative framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When creating your captions think about the other possible interpretations of your visual images—including charts, graphs and other illustrated elements of your data story. Then brainstorm how best to use captions to steer the viewer along the narrative of your data story. Captions can also be used to highlight details and spotlight elements essential to your data story.",
+      "chapter": "Captions",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "captions",
+        "editorial decisions",
+        "narrative framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Editorial layout refers to how the different visual elements of your data story are strategically arranged onto a page, screen, poster or whatever platform you are using in order to effectively and efficiently reach your target audience. The layout you choose should work well to get across your intended message—the Think, Feel, Do of your data story.",
+      "chapter": "Editorial Layout",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "editorial layout",
+        "platform design",
+        "audience targeting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Layout should come at the start of the planning process. Before you even begin to select symbols, fonts or chart types, ask: What different screen sizes does this layout need to work for? Today many design experts suggest that you begin by planning for the smallest display size and then increase the scale and level of detail for larger versions. This is what people working in user experience and web design refer to as optimisation.",
+      "chapter": "Editorial Layout",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "editorial layout",
+        "responsive design",
+        "planning",
+        "mobile-first"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Working with restricted layout templates can help guide your design process. The '6 card design' challenge gives each group a set of index cards and the brief that they must design a 6 element visual data story that can work on a smartphone screen (either by swiping through the story or as stand-alone mini-narratives), and be fitted together to form a printable poster.",
+      "chapter": "Editorial Layout",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "design constraints",
+        "modular design",
+        "teaching method",
+        "responsive design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While these design principles are a good starting place, it is also important to embrace the experimental and break out of these proscriptive structures. A spin on this same activity asks participants to take their modular 6 card design and then redesign it, throwing out all the rules of grids and order to see what else they can create.",
+      "chapter": "Editorial Layout",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "design experimentation",
+        "creative process",
+        "teaching method"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Segel and Heer found that there were seven commonly employed genres of narrative visualisation: magazine style, annotated chart, partitioned poster, flow chart, comic strip, slide show, and film/video/animation. These genres can be mixed. What matters is how each of these different styles of layout supports some narrative structures, while limiting others.",
+      "chapter": "Seven Genres of Narrative Visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative visualisation",
+        "genre",
+        "editorial layout",
+        "chart selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Segel and Heer also found across their research sample an 'under-utilization of common narrative messaging techniques such as repetition of key points, introductory texts, and final summaries and syntheses.'",
+      "chapter": "Seven Genres of Narrative Visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "narrative technique",
+        "data storytelling",
+        "editorial layout"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A final important part of creating effective and efficient designs is to avoid unnecessary features. Making good editorial decisions requires learning how to differentiate between functional flourishes and ornamental embellishments.",
+      "chapter": "Chartjunk",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chartjunk",
+        "editorial decisions",
+        "visual simplicity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If a grid is needed in order to follow how information is plotted on a graph, then the lines should be muted, ideally in a very pale grey. It is useful to always ask oneself if gridlines are necessary. If so, can they be further faded into the background? This principle can also be applied to extra numbers or variables in a graph. If there seems to be too many interval figures, consider what might be removed or condensed without skewing the information you want to present.",
+      "chapter": "Chartjunk",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chartjunk",
+        "gridlines",
+        "visual simplicity",
+        "chart design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Embellishments can at times, when properly chosen and designed, represent information redundantly in useful ways, and even when they aren't information in and of themselves, can meaningfully support the display of information. Few notes the potential effectiveness of properly designed embellishments that work memorably or metaphorically, immersing readers in the data presented.",
+      "chapter": "Chartjunk",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "chartjunk",
+        "embellishment",
+        "memorability",
+        "visual design"
+      ],
+      "notes": "Stephen Few's counter-argument to Tufte"
+    },
+    {
+      "extract": "Used as a tool for visually editing one's work, 'chartjunk' can help differentiate between those visual elements that are needed to tell your data story, and those that are embellishments. But eliminating chartjunk does not have to mean excluding illustrative elements from your visual data stories. Introducing extra information to a graph or chart can also, at times, help create context and humanise data.",
+      "chapter": "Chartjunk",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "chartjunk",
+        "humanising data",
+        "editorial decisions",
+        "visual editing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you are working with a low data literacy audience, you may want to select a basic chart that is more familiar to lay readers, or that incorporates symbols rather than just numbers. Understanding the principles of good visual design—and the seductive allure of fancy software—can help you engage with charts more confidently, expanding your literacy of their potentials and their pitfalls.",
+      "chapter": "Chartjunk",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience literacy",
+        "chart selection",
+        "data literacy",
+        "visual design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Andy Kirk's CHRTS provides a taxonomy for thinking about what kind of chart is best for your data: C for Categorical (comparing categories and distributions), H for Hierarchical (part-to-whole relationships), R for Relational (correlations and connections), T for Temporal (trends over time), S for Spatial (mapping spatial patterns). Within each cluster the decision of what particular graph to use will often depend on the number of variables you have in the data you are trying to visually represent.",
+      "chapter": "Storytelling with Andy Kirk's CHRT(S)",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "chart selection",
+        "taxonomy",
+        "data types",
+        "visual encoding"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The samples in these datasets are not the same, so you cannot combine them together directly. Each one can inform your story, but any visualisation must account for the different context and backstory of each dataset. Depending on what data stories you want to tell, different aspects of these datasets can be visualised using a wide variety of graphs.",
+      "chapter": "Storytelling with Andy Kirk's CHRT(S)",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "dataset context",
+        "methodological rigour"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tree structures are effective for two reasons. First, they use the symbol of a tree to help the viewer quickly grasp the concept. Second, they represent the information in a hierarchical format, providing the viewer with an ordering system that shows how different pieces of information relate to each other.",
+      "chapter": "The Power of Trees",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tree diagrams",
+        "hierarchical data",
+        "visual metaphor",
+        "chart selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Clarity was the most important consideration in the design of this RiotID guide. The team knew that the infographic would be translated into multiple languages and used by people from a range of cultures, with varying technical literacy. Faced with these challenges, the designers decided to use a tree diagram.",
+      "chapter": "The Power of Trees",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "clarity",
+        "cross-cultural design",
+        "audience analysis",
+        "chart selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Treemaps display information hierarchies by representing data categories as nested rectangles. The area size of the rectangle is generally proportional to its quantity or value. Treemaps are space-constrained, which means that they are more compact than other visualisations. Treemaps are a good way to display a large quantity of information. They are especially useful if you want to show how a system or entity is divided.",
+      "chapter": "The Power of Trees",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "treemaps",
+        "hierarchical data",
+        "chart selection",
+        "compact design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By hovering over the treemap's rectangles, the user can view more specific information about that data point. While the treemap lets the user quickly and easily grasp the basic contours of information, the interactive functions make the level of detail scalable according to the user's needs. These features make treemaps powerful narrative tools for the data storyteller.",
+      "chapter": "The Power of Trees",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactivity",
+        "treemaps",
+        "scalable detail",
+        "user experience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Network graphs are used to illuminate associations or relationships between data points. In a network graph, relationships are displayed as nodes connected by links. The thickness of the links can indicate the strength of an association between nodes. Variables such as node size and link thickness can be powerful indicators of information; the position of nodes, their colour, and whether or not the edges are directional are other important ways that researchers can use network graphs to construct meaning.",
+      "chapter": "Narrative Networks",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "network graphs",
+        "relational data",
+        "visual encoding",
+        "social network analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We call this 'interviewing your dataset.' The same questions police officers would ask a suspect in person, they can ask of their dataset: Who are the individuals most linked together in the network? How are they linked? Who may be vulnerable? Who is a gatekeeper?",
+      "chapter": "Narrative Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interrogation",
+        "analytical questions",
+        "network analysis",
+        "investigative method"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative journalists, NGOs, think tanks, investors, activist groups, and academic researchers commonly use 'bottom-up' social network analysis. Software tools like Oligrapher and Graph Commons offer easy to use platforms that do not require coding and can be used for researching, recording and visualising networks.",
+      "chapter": "Narrative Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "network analysis",
+        "social network analysis",
+        "no-code tools"
+      ],
+      "notes": "Also mentions Kumu"
+    },
+    {
+      "extract": "Bounegru and her colleagues point out that the text accompanying the graphs—headlines, labels, captions, and articles—are a key part of constructing narrative meaning. These pieces of written information help frame the data story and cue the reader toward what to look for and pay attention to. Accompanying text can also help make network graphs more accessible to less statistically minded readers.",
+      "chapter": "Narrative Networks",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "narrative framing",
+        "captions",
+        "network graphs",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When network graphs are used to analyse very large data sets, they are often presented in an interactive format that allows the user to manipulate the graphical display, zoom in on individual nodes, or otherwise 'move' through the visualisation. Data visualisers can also introduce a temporal dimension to a network graph in order to show how associations change over time. Gephi and Cytoscape are two open-source programs that are useful for visualising these kinds of larger or more complex networks.",
+      "chapter": "Narrative Networks",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "network analysis",
+        "interactivity",
+        "temporal data",
+        "open-source tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While timelines provide an excellent means of reducing complex information and stripping down details into easy to process chunks, there are also limits to what these linear representations can do. Timelines are full of absences. Deciding what events, people, or moments in time to include on a chronological map involves a process of elevating some things, while eliminating others. What gets left off the timeline becomes visually absent from the history being presented.",
+      "chapter": "Tinkering with Timelines",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "timelines",
+        "absence",
+        "editorial decisions",
+        "selection bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Timelines force data storytellers to make difficult decisions about what data points should be emphasised and why. Having a clear approach to how you are making your selections can help negotiate biases and standpoints.",
+      "chapter": "Tinkering with Timelines",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "timelines",
+        "editorial decisions",
+        "selection criteria",
+        "bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Linear, chronological representations generally can only depict forward movement. It is difficult to use them to compare and contrast information or accounts of events, to show multiple perspectives, or tell stories about entanglements or networks. For this reason, timelines often work well as an accompaniment to other forms of data storytelling.",
+      "chapter": "Tinkering with Timelines",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "timelines",
+        "limitations",
+        "multi-format storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The visual presentation of life courses is often disconnected from the underlying data, leading to a separation of evidence-based information and personal narratives. From a data storytelling perspective, bringing together broader, quantitative or statistical data with personal stories can maximise the impacts of evidence and interventions by displaying data points chronologically, situated in the larger context of what was going on in someone's life.",
+      "chapter": "Life Course Narratives",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "life course",
+        "personal narrative",
+        "mixed methods",
+        "humanising data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you work with data over a long enough period, it's inevitable that you will come across data sets that contain missing values. The task of the data storyteller is not to throw up her hands and say 'Oh well' to missing data, but to find ways to include it in the narratives she tells.",
+      "chapter": "Visualising Absence",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "missing data",
+        "data quality",
+        "narrative responsibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Andy Kirk outlines three different ways that 'nothing' can appear in data. First, data sets often contain zero values—the data is available, it's just a zero amount. Second, cases where parts of the data simply aren't available—the data isn't zero, it's non-existent or 'null.' Third, blank spaces can be deliberately introduced into a data visualisation in order to tell a more compelling story. Blank spaces can be used to heighten tension, call attention to an issue, or to show gaps between two or more amounts.",
+      "chapter": "Visualising Absence",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "missing data",
+        "null values",
+        "zero values",
+        "visual absence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Measures of gender inequality, such as wage gap data, don't tell the whole story of women's lives if data about, say, Indigenous women's experiences are missing. We don't have a good sense of what is happening at the community level because there are few reliable, consistent or public data sources available for neighbourhoods or municipalities which disaggregate the population by gender identity, disability, racialized group or Indigenous status.",
+      "chapter": "Visualising Absence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "missing data",
+        "disaggregation",
+        "equity",
+        "data gaps",
+        "intersectionality"
+      ],
+      "notes": "Katherine Scott quote"
+    },
+    {
+      "extract": "Comics are: approachable, accessible, and relatable. Comics combine words and images, using sequential story panels to take the reader through the narrative. Making use of panels can help break complex processes into less complex units, helping guide the reader through transitions. Panels might be used in a data-driven comic story to move from detail to broader context, or as a way of drilling-down from broader picture to smaller detail.",
+      "chapter": "Learning from Comics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "comics",
+        "sequential art",
+        "accessibility",
+        "data storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In data comics, this layered storytelling style can help capture the uncertainty of data—both as a claim to truth, as well as in relation to the experience or issue it captures. The plurality of meaning in comics can work to convey a diversity of experiences, as promoted by feminist designers calling for a more humanising data visualisation.",
+      "chapter": "Learning from Comics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "data comics",
+        "feminist design",
+        "humanising data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Graphic medicine works reclaim the human side of health experiences from the clinical lexicon upheld by healthcare systems. Including quantitative data in graphic medicine often is a way of connecting the clinical definition of what the artist is experiencing and juxtaposing it to the actual lived experience with the illness or disability.",
+      "chapter": "Graphic Medicine",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "graphic medicine",
+        "humanising data",
+        "health communication",
+        "lived experience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With its greater emphasis on narrative, structural flow, and the use of iconography to capture sensitive subjects, graphic social science can enhance the ways that we communicate quantitative data and embed this data in human stories. As numbers are given narratives, stats come to tell complicated—and contested—stories.",
+      "chapter": "Graphic Social Science",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "graphic social science",
+        "humanising data",
+        "narrative",
+        "contested knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Multisensory approaches are concerned with bringing new insights to traditional research practices, which often assume a singular, universal subject position. Rather than assume that everyone experiences and inhabits the world in the same ways, multisensory methods are reflexive and experimental; they stress that the creation and representation of knowledge is shaped by the experiences and position of the person doing, or participating in, the research.",
+      "chapter": "Multisensory Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "multisensory methods",
+        "positionality",
+        "reflexivity",
+        "knowledge production"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A simple way to introduce multisensory experience into your data story is by incorporating interactivity: inviting the user to play or manipulate with the data in real time. This allows the user to compare different trends in data, explore how variables interact, or simply allow for free and open exploration. Interactive data visualisations highlight the dynamism of data by showing how user choice influences what the data shows.",
+      "chapter": "Multisensory Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactivity",
+        "user experience",
+        "data exploration",
+        "dynamic visualisation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Multisensory data visualisations can expand the field of what comes to count as data. By combining one or more of the other senses, researchers transform numerical data from information to experience. The collection, translation, and communication of data is enlivened when senses and bodies are taken into account, bringing about opportunities for discussions and interactions that might otherwise remain invisible.",
+      "chapter": "Multisensory Data Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "multisensory methods",
+        "embodied data",
+        "data definition",
+        "experiential design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As designers, we tend to want to solve complex social issues through data visualization but I think the real negotiation happens when we acknowledge that it's not about solving a particular problem but rather to pose questions that allow a certain discourse to take place. To open up a space for dialogue that recognizes these sensitive topics and makes them accessible to a larger audience.",
+      "chapter": "Spotlight: Patil Tchilinguirian",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "design philosophy",
+        "dialogue",
+        "social issues",
+        "data visualisation ethics"
+      ],
+      "notes": "Tchilinguirian quote"
+    },
+    {
+      "extract": "Participation is important as a way of broadening one's own perspective. If you're able to actually involve the people with whom or for whom you are doing the work, I think in most cases it produces a better outcome. More participation, the better. There's that trading of worldviews that happens. The participants become more aware of the affordances of design as well.",
+      "chapter": "Spotlight: Catherine D'Ignazio",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "participatory design",
+        "perspective",
+        "collaboration",
+        "co-creation"
+      ],
+      "notes": "D'Ignazio quote"
+    },
+    {
+      "extract": "We flipped our research model based on her feedback. It's not always doing everything perfectly and knowing how to perfectly design for equity, but it's being adaptable enough in the process that when you learn something you're doing in a hegemonic way, that you can shift that practice and being open to hearing that. I feel that's part of the feminist process as well.",
+      "chapter": "Spotlight: Catherine D'Ignazio",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "feminist method",
+        "adaptive process",
+        "equity",
+        "reflexivity",
+        "co-creation"
+      ],
+      "notes": "D'Ignazio on breast pump hackathon"
+    },
+    {
+      "extract": "We don't always have to innovate the form of presentation. There's a lot of potential and power in the classic data presentation methods because you can wield their authority in a political way. You can critique the authority, and certainly that's what a feminist position does. We can also use that. You can deploy neutrality intentionally as a strategy.",
+      "chapter": "Spotlight: Catherine D'Ignazio",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "feminist design",
+        "strategic presentation",
+        "authority",
+        "neutrality as strategy"
+      ],
+      "notes": "D'Ignazio quote"
+    },
+    {
+      "extract": "Our comprehension of a phenomenon like climate change is severely limited by numbers alone. It is not the real-time data transfers that make this work compelling, but the engagement of our senses. The visual pulsations of the LED lights combine with the fragments of sound in the plaza, bringing the object of the glacier ever closer, in an intimate reckoning that defies physical distance.",
+      "chapter": "Spotlight: Herald/Harbinger",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "multisensory methods",
+        "embodied data",
+        "climate communication",
+        "beyond numbers"
+      ],
+      "notes": ""
+    }
+  ]
+}

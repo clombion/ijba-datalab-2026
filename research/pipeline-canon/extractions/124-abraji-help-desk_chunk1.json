@@ -1,0 +1,52 @@
+{
+  "source_id": "124",
+  "source_file": "124-abraji-help-desk.md",
+  "source_title": "Abraji Help Desk — Manual de Jornalismo de Dados",
+  "author": "Abraji",
+  "year": "ongoing",
+  "chunk": "1/1",
+  "chunk_file": "124-abraji-help-desk_chunk1.md",
+  "chunk_words": 904,
+  "extracts": [
+    {
+      "extract": "Start from scratch: investigate family, former spouses, whereabouts of children. Court records search: note names of parties and lawyers. Personalized biography: family, financial connections, 'who are they really?'",
+      "chapter": "Methodology of Juliana Dal Piva",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "investigative method",
+        "background research",
+        "public records",
+        "sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Website owners use the same Google AdSense (Pub-) and Analytics (UA-) IDs across multiple sites. Exploits the 'personal greed' of actors who sacrifice anonymity to maintain advertising revenue, revealing connections between apparently unrelated sites.",
+      "chapter": "UA/Pub Tool: Tracking Anonymous Networks",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "digital forensics",
+        "network analysis",
+        "open-source intelligence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Mass outreach: 30–40 messages; replies may come months later.",
+      "chapter": "Methodology of Juliana Dal Piva",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "persistence",
+        "investigative method"
+      ],
+      "notes": ""
+    }
+  ]
+}

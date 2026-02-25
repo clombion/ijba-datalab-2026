@@ -1,0 +1,591 @@
+{
+  "source_id": "97",
+  "source_file": "97i-nicar-2024.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "2/2",
+  "chunk_file": "97i-nicar-2024_chunk2.md",
+  "chunk_words": 26002,
+  "extracts": [
+    {
+      "extract": "Some of the data sets in Austin have all the address parts crammed into a single field. Regex can easily explode that into individual columns. We are building a pattern in our regular expression field, creating a group to capture each part of the address that we want to keep. We'll continue the pattern outside the group until we get to the next part we want to keep, when we'll create a new group, and so on.",
+      "chapter": "Splitting Socrata addresses",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regex",
+        "data cleaning",
+        "address parsing",
+        "field splitting"
+      ],
+      "notes": "Core pattern: build capture groups for each desired field, with non-captured separators between"
+    },
+    {
+      "extract": "Take note for a minute at the number of matches at the top right: There are 325 matches, and that is how many records we should end up with. You'll want to keep referring back to that and making sure you have 325 groups.",
+      "chapter": "Splitting Socrata addresses",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "regex",
+        "validation",
+        "record counts",
+        "sanity checks"
+      ],
+      "notes": "Use match counts as running validation while building regex patterns"
+    },
+    {
+      "extract": "Now, take a moment and check how many matching groups we have. Wait ... WHOA ... we have only 314. What could've gone wrong? Scroll down the Test string until you find something amiss. The colors help you spot problems easily. BEE CAVE and WEST LAKE HILLS have spaces while AUSTIN and PFLUGERVILLE do not. It looks like our city group did not capture a needed space, which wasn't really revealed until we tried to carry out the pattern with the comma that is found after the city. This happens a lot … we need to back up and fix the error.",
+      "chapter": "Catching errors",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "regex",
+        "debugging",
+        "edge cases",
+        "data quality",
+        "iterative refinement"
+      ],
+      "notes": "Regex patterns frequently break on edge cases (spaces in city names); dropping match counts signal the error; visual inspection in regex101 helps locate failures"
+    },
+    {
+      "extract": "Now that we have a pattern with our six groups of data, we can substitute them in any order we want using a search and replace, and we can build our substitution string right here in Regex101 as well. Our goal with the substitution string is to pull back our six groups, but to put tabs in between each of them. If we can build a search and replace like this, then we can paste the result back into Excel, and each group will become its own column.",
+      "chapter": "The substitution string",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regex",
+        "substitution",
+        "tab-separated",
+        "spreadsheet import",
+        "field splitting"
+      ],
+      "notes": "Tab-delimited substitution enables direct paste-to-spreadsheet workflow"
+    },
+    {
+      "extract": "This can work fine for a small data set, but things bog down on the site if you have many rows or columns of data. I often use regex101 with sample text to figure out my patterns, but then use them in a text editor or within a R or Python script.",
+      "chapter": "Limitations of regex101",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex101",
+        "scalability",
+        "workflow",
+        "prototyping",
+        "text editors"
+      ],
+      "notes": "Prototype regex patterns on sample data in regex101, then execute at scale in code editor or script"
+    },
+    {
+      "extract": "When I want to clean a single column of data, I often download the data and will just copy out one column into my text editor and work it before pasting back the results into Excel, carefully making sure they still line up.",
+      "chapter": "Splitting Socrata addresses",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "spreadsheet",
+        "text editor",
+        "column isolation",
+        "workflow"
+      ],
+      "notes": "Isolate a single column in a text editor for cleaning, then paste back — requires careful row alignment"
+    },
+    {
+      "extract": "With regular expressions, you can search for a pattern of characters. Instead of searching just for 512-, you can look for 'three numbers together at the beginning of a line that are then followed by a dash'. If you capture that matching pattern as a group, you can then replace that group with parentheses outside it, no matter what the contents of the group.",
+      "chapter": "Key concept: patterns",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "abstraction",
+        "data cleaning"
+      ],
+      "notes": "Core insight: regex replaces literal string matching with pattern-based matching, enabling batch transformations across heterogeneous values"
+    },
+    {
+      "extract": "Windows and MacOS sometimes treat new line tokens differently. On a Mac, \\n is a 'new line', but Windows uses \\R. The regex101 editor will recognize either, and Visual Studio Code also seems to handle either, but if you are on Windows and have trouble, you might need to use \\R instead of \\n in some cases.",
+      "chapter": "New lines differe between Mac and PCs",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "cross-platform",
+        "newlines",
+        "text encoding",
+        "gotchas"
+      ],
+      "notes": "Platform-specific newline tokens are a common source of regex failures when moving between OS"
+    },
+    {
+      "extract": "And remember, if you are stumped by something, chances are you are not the first. Google and Stack Overflow are your friends. ChatGPT might be helpful, too, if you are good at prompts.",
+      "chapter": "More Regex",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "troubleshooting",
+        "community resources",
+        "LLM assistance",
+        "self-directed learning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reshaping data is considered a part of analyzing and visualizing data. Basically, you will process your data for a specific type of data visualization. Two approaches: 1. Convert data from a wide to a long format, or spread data (Unpivot Table) 2. Convert data from a long to a wide format, or summarize data (Pivot Table)",
+      "chapter": "Reshaping data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data reshaping",
+        "pivot",
+        "unpivot",
+        "wide-to-long",
+        "long-to-wide",
+        "visualization"
+      ],
+      "notes": "Reshaping is framed as prerequisite to visualization; two canonical directions"
+    },
+    {
+      "extract": "Normally, we reshape data from wide to long format when we have multiple columns, variables or measures that we want to consolidate or plot together.",
+      "chapter": "Wide to long",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data reshaping",
+        "wide-to-long",
+        "consolidation",
+        "visualization"
+      ],
+      "notes": "Decision rule for when wide-to-long is needed"
+    },
+    {
+      "extract": "The =FLATTEN() function helps consolidate all the values from one or more data ranges into a single column. To hold the range of consolidated values returned from the FLATTEN() function, we need to use the =ARRAYFORMULA() function because it enables the display of values into multiple rows and/or columns.",
+      "chapter": "Google Sheets Function – Flatten()",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "FLATTEN",
+        "ARRAYFORMULA",
+        "wide-to-long",
+        "data reshaping"
+      ],
+      "notes": "FLATTEN + ARRAYFORMULA is the Google Sheets approach to unpivoting"
+    },
+    {
+      "extract": "If you need to split the newly created column into two columns, you can use the =SPLIT() function and wrap it around the =FLATTEN() function. Just make sure you wrap the above function inside the =ARRAYFORMULA() function.",
+      "chapter": "Google Sheets Function – SPLIT()",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "SPLIT",
+        "FLATTEN",
+        "ARRAYFORMULA",
+        "nested functions",
+        "data reshaping"
+      ],
+      "notes": "Three-function nesting pattern: ARRAYFORMULA(SPLIT(FLATTEN(...))) for multi-column unpivot"
+    },
+    {
+      "extract": "Normally, we create a pivot table when we have data in a long format with multiple categories or groups in one column and we want to see the summary statistics for each category/group.",
+      "chapter": "Long to wide",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "pivot table",
+        "long-to-wide",
+        "summary statistics",
+        "data reshaping"
+      ],
+      "notes": "Decision rule for when long-to-wide (pivot) is needed"
+    },
+    {
+      "extract": "First, select the long table by placing your cursor inside it, then hold Cmd/Ctrl-A. Next, go to Insert > Pivot table > New sheet. Under Rows, add state. Under Columns, add data_updated. Under Values, add tot_deaths. Uncheck Show Totals.",
+      "chapter": "Use Pivot Table",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "pivot table",
+        "long-to-wide",
+        "data reshaping"
+      ],
+      "notes": "Step-by-step pivot table creation in Google Sheets for COVID-19 data"
+    },
+    {
+      "extract": "ID columns refer to the columns in the long table that you want to keep and not spread in the flipped table. Using a Pivot table in Google Sheets may be the fastest and most efficient way to flip data from a long to a wide format. It works even when you have multiple ID columns in your datatable.",
+      "chapter": "The case of multiple ID columns",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "pivot table",
+        "ID columns",
+        "data reshaping",
+        "Google Sheets"
+      ],
+      "notes": "Pivot tables handle multi-column ID cases that formula approaches struggle with"
+    },
+    {
+      "extract": "Apps Script can be used to create custom functions interacting with your Google Sheet files and the data they contain. In this session, we will adopt and revise the free scripts written by Robin Gertenbach, a data scientist working for Google. Using scripts is a faster way to reshape data. These scripts will generate two custom functions melt(), to reshape data from wide to long, and cast(), to reshape data from long to wide. You just need to set up the scripts for one Google Sheets template, and you can make a copy and reuse it for multiple reshaping tasks.",
+      "chapter": "App Scripts",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "Apps Script",
+        "melt",
+        "cast",
+        "data reshaping",
+        "reusable templates"
+      ],
+      "notes": "Custom Apps Script functions melt/cast extend Google Sheets with R/Python-style reshape capabilities"
+    },
+    {
+      "extract": "To deal with large datasets, you need a more powerful platform or a programming language such as Python and R outside of Google Sheets. A convenient platform for you to write Python/R code to reshape data and write the output back to Google Sheets is Google Colab.",
+      "chapter": "Google Colab",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Colab",
+        "Python",
+        "R",
+        "scalability",
+        "Google Sheets",
+        "large datasets"
+      ],
+      "notes": "Google Sheets formula/script approaches hit limits; Colab provides Python/R for larger datasets with Sheets integration"
+    },
+    {
+      "extract": "First, you need to upload your data to Google Drive, create a new spreadsheet in Google Sheets, or upload your data to Colab directly. Then, connect Google Colab to Google Sheets using the gspread package. Third, import the pandas package and use the pivot() function to flip data from a long to a wide format. To flip data from a wide to a long format, use the melt() function. Fourth, write the new dataframe back to your Google Sheets.",
+      "chapter": "How to reshape data in Colab?",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "Google Colab",
+        "pandas",
+        "gspread",
+        "pivot",
+        "melt",
+        "workflow",
+        "data reshaping"
+      ],
+      "notes": "Four-step Colab workflow: upload → connect via gspread → pandas pivot/melt → write back to Sheets"
+    },
+    {
+      "extract": "Google Sheets can handle up to 10 million cells or 18,278 columns (column ZZZ). The Apps Script we added to Google Sheets can't flip long tables of the third and fourth datasets because both are too large for the script to handle.",
+      "chapter": "App Scripts",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "scalability",
+        "limits",
+        "Apps Script"
+      ],
+      "notes": "Hard limits on Google Sheets capacity constrain spreadsheet-based reshaping"
+    },
+    {
+      "extract": "Useful applications of text analysis: Organizing documents, Exploratory exercise, Data analysis. Tips: Keep it simple. Use available resources. Research the backdrop of these resources. Automation still requires manual verification.",
+      "chapter": "Text analysis in different languages for investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "text analysis",
+        "NLP",
+        "verification",
+        "automation",
+        "simplicity"
+      ],
+      "notes": "Four guiding principles for text analysis in journalism; emphasis on manual verification of automated results"
+    },
+    {
+      "extract": "My favorite techniques: Entity extraction (Named Entity Recognition), Identify themes (Topic Modeling), Label types of words (Part Of Speech Tagging), Split text into smaller units (Tokenization: sentences / words), Find the base form of a word (Lemmatization), Resolve relationships between entities (Coreference Resolution), Find information based on the meaning of the query (Semantic Search).",
+      "chapter": "Text analysis in different languages for investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "NLP",
+        "NER",
+        "topic modeling",
+        "POS tagging",
+        "tokenization",
+        "lemmatization",
+        "coreference resolution",
+        "semantic search"
+      ],
+      "notes": "Seven core NLP techniques for investigative journalism"
+    },
+    {
+      "extract": "Tools: DocumentCloud (MuckRock), Aleph (OCCRP), Datashare (ICIJ), Pinpoint (Google). Python libraries: Spacy, Stanza, NLTK, Transformers, BERTopic.",
+      "chapter": "Text analysis in different languages for investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "DocumentCloud",
+        "Aleph",
+        "Datashare",
+        "Pinpoint",
+        "spaCy",
+        "Stanza",
+        "NLTK",
+        "Transformers",
+        "BERTopic",
+        "NLP tools"
+      ],
+      "notes": "Two tiers of text analysis tools: GUI platforms for document management, Python libraries for custom NLP"
+    },
+    {
+      "extract": "Your automated analysis is only going to be as good as your OCR.",
+      "chapter": "Text analysis with DocumentCloud",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "OCR",
+        "data quality",
+        "text extraction",
+        "upstream dependencies"
+      ],
+      "notes": "OCR quality is the bottleneck for all downstream text analysis"
+    },
+    {
+      "extract": "Upload, Extract, Analyze, Search, Annotate, Redact, Edit, Embed & Publish, Collaborate, Add-Ons. Web upload, Batch upload CLI, Scraper Add-On. OCR, Entity extraction, Table extraction add-ons, Regex Add-On.",
+      "chapter": "Text analysis with DocumentCloud",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "DocumentCloud",
+        "document management",
+        "OCR",
+        "entity extraction",
+        "workflow",
+        "collaboration"
+      ],
+      "notes": "DocumentCloud workflow covers full pipeline from upload through publication; add-ons extend core functionality"
+    },
+    {
+      "extract": "There's an Add-On for that. Some of my favorites: Transcribe Audio (Whisper), Klaxon, GPT 3.5 Turbo Playground, Custom metadata scraper, Bad Redactions, Scraper.",
+      "chapter": "Text analysis with DocumentCloud",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "DocumentCloud",
+        "add-ons",
+        "Whisper",
+        "GPT",
+        "transcription",
+        "redaction detection",
+        "scraping"
+      ],
+      "notes": "DocumentCloud add-ons include AI transcription, LLM analysis, and automated redaction detection"
+    },
+    {
+      "extract": "Image to Text: Optical Character Recognition (OCR) — Tesseract, in R and Python. Audio to Text: Automated Transcription/Speech-to-Text — Whisper (OpenAI-WhisperGUI).",
+      "chapter": "Dealing with Images and Audio",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "Tesseract",
+        "Whisper",
+        "transcription",
+        "speech-to-text",
+        "data extraction"
+      ],
+      "notes": "Two modality conversion pipelines: image→text via Tesseract, audio→text via Whisper"
+    },
+    {
+      "extract": "Language Detection: R: {textcat} (~60 languages), Python: {langdetect} (~50 languages), {polyglot} (+100 languages), Google Sheets: =DETECTLANGUAGE(). Language Translation: R: {translateR}, Deepl, Python: {polyglot}, {deepl-python}, Google Sheets: =GOOGLETRANSLATE().",
+      "chapter": "Translation Tools",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "language detection",
+        "translation",
+        "multilingual",
+        "R",
+        "Python",
+        "Google Sheets",
+        "DeepL"
+      ],
+      "notes": "Toolkit for multilingual analysis spanning R, Python, and Google Sheets; library coverage varies from 50 to 100+ languages"
+    },
+    {
+      "extract": "Finding non-English resources: What Language (e.g., 'Bahasa Indonesia', 'Portuguese'). Low-Resource Languages vs. High-Resource Languages. What Task: Tokenizer, Stemmer, Lemmatizer, 'Part of Speech' tagger. What Type (e.g., R, Python, open source, user interface). Example search: Indonesian tokenizer Python.",
+      "chapter": "Finding non-English resources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "multilingual NLP",
+        "low-resource languages",
+        "tool selection",
+        "search strategy"
+      ],
+      "notes": "Three-axis search framework for finding NLP tools: language × task × implementation type"
+    },
+    {
+      "extract": "A corpus (plural corpora) or text corpus is a large and structured set of texts. Tokenizing is the process of splitting your corpus into subsections: phrases, sentences, words. The goal of both stemming and lemmatization is to reduce inflectional forms and sometimes derivationally related forms of a word to a common base form. Stemming usually refers to a crude heuristic process that chops off the ends of words. Lemmatization usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word.",
+      "chapter": "Some text analysis concepts",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "NLP",
+        "corpus",
+        "tokenization",
+        "stemming",
+        "lemmatization",
+        "text preprocessing"
+      ],
+      "notes": "Core NLP vocabulary: corpus → tokenize → stem/lemmatize; lemmatization is more precise but computationally heavier than stemming"
+    },
+    {
+      "extract": "Copy the Regular Expression pattern you built in Regex101 and insert into the Find text field in VS Code. Copy the Substitution pattern and insert it into the Replace field. Click on the button on the far-right of the Find line, the one that has .* in it. Now, hit the 'Replace All' button to the far-right of the Replace field. Once you run the search and replace, you can copy and paste the results into a spreadsheet and it will be six distinct columns.",
+      "chapter": "Using a code editor",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VS Code",
+        "regex",
+        "find and replace",
+        "text editor",
+        "workflow"
+      ],
+      "notes": "Regex101-to-VS-Code workflow: prototype pattern online, then execute in editor with .* regex mode enabled"
+    },
+    {
+      "extract": "We want to split these six distinct pieces into their own columns for each record. Why? Many reasons, but one is to use the latitude and longitude for data visualizations. We will build a Regular Expression pattern to Find and capture six groups of text and then Replace those groups with tabs between them so we can put them back into a spreadsheet as columns.",
+      "chapter": "Defining our goal",
+      "pipeline_step": "Define",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "geocoding",
+        "visualization",
+        "regex",
+        "field splitting",
+        "goal definition"
+      ],
+      "notes": "Defines the purpose of field splitting: enable downstream geocoding and visualization by separating lat/long from composite address fields"
+    },
+    {
+      "extract": "Many government agencies use Socrata as their open data portal: From Austin to Boston; from Los Angeles to New York.",
+      "chapter": "Splitting Socrata addresses",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "Socrata",
+        "open data portals",
+        "government data",
+        "data sources"
+      ],
+      "notes": "Socrata is a widespread government open data platform; familiarity with its data formats is broadly applicable"
+    },
+    {
+      "extract": "A regular expression (regex or regexp for short) is a special text string for describing a search pattern. Searching text with a pattern instead for a specific string of characters can be VERY useful for cleaning data. The concept is available in many programming languages and tools. While we'll use regex101.com to learn the syntax, that site can handle only so much data. In practice, I tend to use regex101 to test my patterns on sample data, but then execute them in a spreadsheet formula, code editor or in a programming language like R or Python.",
+      "chapter": "Don't fear the regex",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "data cleaning",
+        "cross-platform",
+        "prototyping"
+      ],
+      "notes": "Regex is a universal data cleaning skill transferable across tools; prototype on samples, execute in production environment"
+    },
+    {
+      "extract": "You can actually save this example in regex101 under SAVE & SHARE in the top left panel. If you create a login with regex101 you can keep a dashboard of them.",
+      "chapter": "Limitations of regex101",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex101",
+        "documentation",
+        "pattern library",
+        "reusability"
+      ],
+      "notes": "Building a personal regex pattern library in regex101 for reuse"
+    },
+    {
+      "extract": "We need to use something called a 'character set' that allows us to include more than one token within a group. We signify this by putting what we want inside of square brackets: So we need to put the \\w inside square brackets along with the space so we can catch both.",
+      "chapter": "Catching errors",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regex",
+        "character sets",
+        "pattern building",
+        "iterative refinement"
+      ],
+      "notes": "Character sets (square brackets) are the fix for patterns that need to match heterogeneous character types"
+    },
+    {
+      "extract": "The Washington Post published a racing line chart on March 1, 2023. Harry Stevens, the reporter and designer, provides his data source and codebook at this link. Estimates for every country's carbon dioxide emissions since 1750 was gathered from The Global Carbon Project.",
+      "chapter": "Dataset #4 from the GCP - CO2",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data sourcing",
+        "codebook",
+        "transparency",
+        "Washington Post",
+        "racing chart",
+        "CO2 emissions"
+      ],
+      "notes": "Example of journalist providing source data and codebook alongside published visualization"
+    },
+    {
+      "extract": "wide_df = df.pivot(index=['Country', 'ISO 3166-1 alpha-3','UN M49'], columns='Year', values='Total')",
+      "chapter": "Dataset #4 from the GCP - CO2",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "pandas",
+        "pivot",
+        "multi-index",
+        "Python",
+        "data reshaping"
+      ],
+      "notes": "pandas pivot() with multi-column index for preserving ID columns during reshape"
+    }
+  ]
+}

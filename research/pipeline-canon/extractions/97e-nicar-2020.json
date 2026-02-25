@@ -1,0 +1,3049 @@
+{
+  "source_id": "97",
+  "source_file": "97e-nicar-2020.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": null,
+  "chunk_words": 143957,
+  "extracts": [
+    {
+      "extract": "Cloud-based notebooks (Google Colab, Binder, Kaggle, Azure) solve the problem of IT departments that won't let you install software, computer labs with restricted environments, and the need to share data exploration with journalism colleagues who don't have the same setup.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "cloud computing",
+        "collaboration",
+        "accessibility"
+      ],
+      "notes": "Surveys multiple platforms with tradeoffs: Colab free+Python, Binder no-login, Kaggle 20GB uploads"
+    },
+    {
+      "extract": "SQLite stores dates as text, unlike some other relational databases. To treat them as dates, use the date() function. The strftime function will return NULL if you attempt to parse an invalid date. You can use it to run some limited integrity checks on columns with date values.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "SQL",
+        "dates",
+        "data integrity"
+      ],
+      "notes": "strftime-as-validator pattern: SELECT *, strftime('%Y', open_date) AS date_test FROM inspections WHERE date_test IS NULL"
+    },
+    {
+      "extract": "Use julianday() to convert date strings into numbers so you can subtract them to find the difference between dates. To convert to years, divide by 365.25.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "SQL",
+        "dates",
+        "calculation"
+      ],
+      "notes": "Pattern: julianday(close_case_date) - julianday(open_date) / 365.25 AS years_open"
+    },
+    {
+      "extract": "When writing nested queries, it's helpful to write the inner query (subquery) first, then build the outer query on top of that. You must give the inner query a name using AS and set it off using parentheses. Use tabs to set off lines of your query so that you can easily read them.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "SQL",
+        "subqueries",
+        "code readability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "AP DataKit is an open-source command-line tool designed to better structure and manage projects. It makes it easier to standardize and share work among members of your team, and to keep your past projects organized and easily accessible for future reference. Keep all parts of a project cleanly separated: data, code, configuration, documentation.",
+      "chapter": "2020-ap-datakit.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "reproducibility",
+        "file organization"
+      ],
+      "notes": "Uses Cookiecutter templates; standard dirs: analysis/, config/, data/manual|processed|source, docs/, output/"
+    },
+    {
+      "extract": "Automate data and code syncing to take the guesswork out of storage and backup. Additional plugins can help you manage the storage of flat data files, sync your code to GitLab or GitHub and push your output to data.world for sharing.",
+      "chapter": "2020-ap-datakit.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "version control",
+        "cloud storage",
+        "data sharing",
+        "automation"
+      ],
+      "notes": "datakit-data for S3, datakit-github/gitlab for VCS, datakit-dworld for publishing"
+    },
+    {
+      "extract": "When default table-finding in pdfplumber doesn't work on complex PDFs, use explicit_vertical_lines and explicit_horizontal_lines to tell pdfplumber exactly where table boundaries are. Identify header regions first, extract column separators from header cells, then find row separators by locating key entities (like payee names) in a specific column. Feed those coordinates back as explicit lines.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "pdfplumber",
+        "table parsing",
+        "messy data"
+      ],
+      "notes": "VERIFY on every page, not just one sample page - 3000-page PDFs are not trivial"
+    },
+    {
+      "extract": "To rotate each page 90 degrees before extraction, use pdftk: pdftk file.pdf cat 1-endeast output file_rotated.pdf. Start with pdfplumber docs. Use debug_tablefinder() to visually inspect what pdfplumber detects. Crop the page to isolate regions of interest before attempting table extraction.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "pdfplumber",
+        "pdftk",
+        "visual debugging"
+      ],
+      "notes": "Iterative approach: visualize -> crop -> adjust settings -> re-visualize"
+    },
+    {
+      "extract": "IMPORTANT - THIS IS A DEMO, TO DO THIS FOR REAL YOU'D WANT TO VERIFY THAT THIS WORKED ON EVERY PAGE, NOT JUST THIS ONE. THIS IS FROM A 3000-PAGE PDF, IT'S NOT AS TRIVIAL AS IT SOUNDS.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "PDF extraction",
+        "verification",
+        "scalability"
+      ],
+      "notes": "Extraction settings tuned on one page may fail on others in large documents"
+    },
+    {
+      "extract": "Request medical examiner data or physical reports of deaths. Then map to show where. Enrich with data from Census & Bureau of Labor Statistics. And don't stop checking. Request this information from your state department of health. FOIA new hires, system contracts, training, etc. Build a timeline of any failures.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "public records",
+        "COVID-19",
+        "investigative methods"
+      ],
+      "notes": "Covers racial disparities, unemployment, nursing homes, PPP loans"
+    },
+    {
+      "extract": "Get data from the state court system. Should include fields like: defendant, charged crime, case disposition, convicted crime. Explore the data and ask questions: How many charged with sexual assault are convicted? Do they plead down? Calculate by county/judicial district. Talk to sources: Rape crisis centers, assault victim advocates, state attorney general.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "courts",
+        "criminal justice",
+        "sourcing",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Procurement data can be the bread and butter of your beat. FOIA from state comptroller all expenditures and/or contracts on COVID-19 purchases. Build database over time to catch any patterns or interesting expenditures.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "procurement",
+        "FOIA",
+        "beat reporting",
+        "longitudinal tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Voter registration data - great for contacts and identity verification. Pet license database - people who won't give you their cell number do want to get their dogs back. Property or parcel databases - who owns that land? FOIA logs - what are other people requesting (most are not reporters).",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "sourcing",
+        "identity verification",
+        "creative data use"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A PDF is not a spreadsheet. ALWAYS fight for that spreadsheet. ALWAYS appeal.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOIA",
+        "data formats",
+        "advocacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Create your own tracking systems, priority lists and alerts if you don't have an editor holding you to account. For FOIAs, create a system that tracks what you've sent, legal timeline, when to follow up, each time contact was made, and alerts to action. Give yourself cutoff dates for how long you have to dig into something before deciding you can't move forward (for a coding problem, it can be 20 mins, for a story idea, maybe it's a few days, for a data cleaning project, maybe it's 3 weeks).",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "FOIA tracking",
+        "time management",
+        "solo journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Never, never, never touch your raw data! Always make copies just in case.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data preservation",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Design a wide network of expert resources that you can call on for advice or data analysis and cultivate those relationships BEFORE you need them. Find an expert and build a relationship of respect. Let them challenge your method. Let them poke holes in your research. Let them ask questions. This will help you defend the decision-making process and write your methodology later.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "expert networks",
+        "methodology",
+        "peer review",
+        "sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "See whether other journalists in other regions have done similar stories to the one you're doing. Read their stories and methods, and reach out to them for advice. Often people are thrilled to share their lessons learned from a hard project and to know that they're contributing to your work.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "story research",
+        "collaboration",
+        "methodology",
+        "prior art"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't discount working with startups, NGOs, granting organizations and academic researchers who have an interest in your reporting. Be clear and transparent about roles and define journalistic boundaries early. For more formal agreements, consider signing an MOU making it clear what role you each have and that they do not have say in your story.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "academic partnerships",
+        "editorial independence",
+        "MOUs"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep track of all your steps. You need to be able to defend your work and it can be used in the future for other stories. Try tools like Workbench, Jupyter Notebooks for this. In Excel, consider making separate tabs for each step of work. Keep notes throughout the process of how you're doing everything, which choices you're making, and why, so that you can easily understand and summarize at the end when you're writing your methodology.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "methodology",
+        "documentation",
+        "data diary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Argue for an expandable methodology section. Even if only a few people read it, it's the knowledgeable ones who do. Admit what you don't know or couldn't figure out. Don't be ashamed about being unable to see the entire picture - sometimes stories come in stages. Those missing pieces can also become part of the story.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "methodology",
+        "transparency",
+        "limitations",
+        "honesty"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For an editor who isn't as tech-savvy, make a notebook or Excel doc showing the steps you did so they and others can understand. Transparency is critical. Don't talk down to them, help them understand what you're trying to achieve and why it can take time.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editor communication",
+        "transparency",
+        "workflow documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's not just about the software or code: Critical, logical thinking. Basic math. Understanding the context of the data. Verifying the data with ground truth. Good organizational skills. Asking questions. Knowing which tool to use and how to use it. Knowing how to interpret results.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "analytical thinking",
+        "data literacy",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Getting the data: Find downloadable data online. Scrape it. Request via open records laws. Build your own database.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "FOIA",
+        "scraping",
+        "database building"
+      ],
+      "notes": "Four canonical paths to data"
+    },
+    {
+      "extract": "The role of data: Foundational data, Decorative data, Responsive data.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data role",
+        "story design",
+        "editorial judgment"
+      ],
+      "notes": "Three-part taxonomy of how data functions in a story"
+    },
+    {
+      "extract": "The editor's role in data projects: Be clear, consistent about goals. Ask what kinds of data are available. Discuss known/suspected problems with the data. Encourage creative thinking, brainstorm solutions. Ask reporters what worries them. Backstop frequently throughout. Do your own research. Discuss methodology. Look at the data with/without your reporter. Challenge the data (not the reporter).",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editing",
+        "editorial process",
+        "backstopping",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "10 questions every editor should ask: Does the data answer our questions? Does it tell us something we didn't think to ask? Where did you find the data? How did you vet/clean the data? How did you calculate those numbers? Are you keeping a data diary? Did you replicate your data work? Could someone else? Have you consulted experts or done a scientific lit review? Do we need a white paper? Can you write a nerd graf/story now? What is the significance of the data?",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial checklist",
+        "verification",
+        "reproducibility",
+        "methodology"
+      ],
+      "notes": "Canonical backstopping checklist from Beelman/LaFleur"
+    },
+    {
+      "extract": "Data checks: What is the source of the data? How many records should you have/do you have? Is data missing? Is the data within reasonable ranges? Is everything included? Are there consistency issues? Are totals within reasonable bounds? Have you done internal checks? Are there duplicates? Gut check.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "verification checklist",
+        "completeness",
+        "duplicates"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do my findings make sense? Compared to what? Company XX has done XX terrible thing, but what about other companies in the same industry? Should you report a rate or a raw number? Is your data on the same scale?",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "comparison",
+        "rates vs counts",
+        "analytical framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Other considerations: Are there codes that you don't understand or questions you need answered? Can you go look at one? Ground truth. Is the data a sample with a margin of error? Are changes over time reasonable? How else could you look at the data? Are there lurking variables? With maps -- did you use the right projection? Are you matching data sets? Beware data portals.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ground truth",
+        "sampling error",
+        "lurking variables",
+        "map projection",
+        "data matching"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Read the methodology. Know the sample size and margin of error. Know the questions. Know who funded the research. If the source won't provide the methodology, that's a red flag. Don't report numbers for which you haven't checked the methodology.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "polling data",
+        "methodology review",
+        "funding transparency",
+        "red flags"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Best practices: Look at your data. Maintain a consistent universe of cases. Keep a data diary or detailed markdown file. Backup your data (Never work from original). Check against reports. Make sure you're using the right tool. Check with experts from different sides of the issue. Show findings to the targets and experts. Duplicate your work - don't just rerun the same script that could have created an error. Have another person duplicate your work.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "best practices",
+        "data diary",
+        "reproducibility",
+        "independent verification",
+        "expert review"
+      ],
+      "notes": "Distinction: replicating via same script is not sufficient - need independent duplication"
+    },
+    {
+      "extract": "A name is not enough. Lots of people have the same name.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data matching",
+        "identity resolution",
+        "record linkage"
+      ],
+      "notes": "On matching datasets: need more than name alone"
+    },
+    {
+      "extract": "Understand the methodology: It should be logical, make sense. Find similar stories and study what they did. Check with experts from different sides. Find a guide. Use the IRE Resource Center. Understand the process of how data was gathered.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology review",
+        "editorial backstopping",
+        "prior art"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Other backstops: Ask for a copy of the record layout. Ask for who else may have done similar research. Read that research. Read the documentation or data how-to file. Find the experts. Ask for a detailed description of the work (white paper to nerd box). Seek a second opinion from a trusted colleague. Have a backstop process in place.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editorial process",
+        "backstopping",
+        "record layout",
+        "second opinion"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data diary: For backstop. For story footnoting/lawyering. For staying on track. What you did. How you did it. File names. Copy of code/syntax. Should be clear so that your editor and colleagues can make sense of it. Later you can link back to page or number in fact check. Highlight everything that was derived from data (or docs) and go back and check.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data diary",
+        "documentation",
+        "fact-checking",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Gathering your own data - Pitfalls: Time and effort, Accuracy concerns, Consistency concerns. Benefits: Totally original data reporting, Control over all aspects of the data. Reminders: Leave time for follow up after collecting your data. If you've built a database, set a cut-off date. Use verification or double entry. Attempt to get ground truth.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "original data",
+        "double entry",
+        "ground truth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Workflow: You need to have one. Everyone needs to use it. Make sure all parties are included in the beginning. Project management system. Google doc. Github. Backout scheduling.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "workflow",
+        "project management",
+        "team coordination"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Thesis, what is it, how does the data support it. Outline the project and the story/ies. Footnote story memos and drafts (increases accuracy and saves time). Write the nut grafs first. Structure is as important as prose. Avoid number overload - use your strongest finding from your data. Going from your data findings to your story is little different than going from notes/findings to your story.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story writing",
+        "structure",
+        "nut graf",
+        "number discipline"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Story Structure: Chronology (or reverse chronology) is the easiest to write and for a reader to follow. Warning: don't make the reader jump time. Thematic structure is more complicated to write, but can be effective for the right material. Even within a thematic structure, you can use internal chronology. Characters: Who are they and what themes/points do they illustrate? Data gives you an entire population to choose the best characters and scenes.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "chronology",
+        "thematic structure",
+        "character selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Nerd box: Details of what you did, why, and how you did it. Keeps story flowing. Adds transparency. You don't always need one. Sometimes you need something more extensive. Write it before writing story.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology box",
+        "transparency",
+        "story structure"
+      ],
+      "notes": "Write methodology before story so findings are clear in your mind"
+    },
+    {
+      "extract": "Words matter: Making conclusions you can't back up. Rates versus raw numbers. The 'more' dilemma. Percent versus percentage points. False precision: 53.14 percent. Avoid number overload. Adjust money for inflation. When analyzing income or home values, use median rather than average. Keep numbers to graphics.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision",
+        "rates vs counts",
+        "inflation adjustment",
+        "median vs average",
+        "number literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't forget about the graphics/apps: They can't be an afterthought. Text needs to be edited. Data needs to be rechecked. Need a workflow - that's not just email.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "graphics",
+        "visualization",
+        "workflow",
+        "editorial process"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most common things journalists want to do with a date/time field is to calculate response times of local public safety units. Convert time into seconds by multiplying TIME(HOUR,MINUTE,SECOND) by 86400. To deal with calls that run across midnight, use an IF statement checking whether the receive date differs from the arrive date.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "response times",
+        "date/time calculation",
+        "public safety"
+      ],
+      "notes": "Pattern: =(IF(N4=O4, M4-K4, (86400-K4)+M4))/60"
+    },
+    {
+      "extract": "Text-to-Columns is handy if the column you are trying to split is delimited. But sometimes it won't work and sometimes your data won't be neat and tidy. String functions (LEFT, MID, SEARCH, RIGHT) save the day when Text-to-Columns strips leading zeros or data isn't consistently delimited. These functions are also available in SQL, R and Python with slight syntax variations.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "string functions",
+        "data cleaning",
+        "leading zeros",
+        "text parsing"
+      ],
+      "notes": "Text-to-Columns destroys leading zeros; string functions preserve them"
+    },
+    {
+      "extract": "When splitting names with middle initials: first assess whether you have a consistent pattern. Check whether periods are consistent. Use LEN to measure string length, then test whether the second-to-last byte is a space using MID and IF. Be sure to troll through your data and look for anomalies. Use the Filter feature or run a Pivot Table to look for problem records.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "name parsing",
+        "data cleaning",
+        "pattern detection",
+        "anomaly detection"
+      ],
+      "notes": "Check for suffixes (Jr, III) that break patterns; handle manually if few"
+    },
+    {
+      "extract": "IF statements are extremely powerful for assigning categories to data based on certain criteria and for data cleanup functions that require looking for patterns. Use IF functions to rearrange data that comes in report fashion or has problems that make sorting or PivotTables impossible. IF functions need a pattern in order to work.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "IF statements",
+        "data restructuring",
+        "categorization"
+      ],
+      "notes": "Key insight: IF needs a pattern - identify the repeating structure first"
+    },
+    {
+      "extract": "Election data often comes with just raw vote totals and no indication of who won. Use a combination of IF, LARGE, MAX, INDEX, MATCH to determine winners and handle ties. LARGE finds the nth-largest value in an array; if the largest equals the second-largest, it's a tie. INDEX returns a value at a row/column intersection. MATCH finds which column holds the maximum.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "election data",
+        "INDEX-MATCH",
+        "winner determination"
+      ],
+      "notes": "Formula: =IF(LARGE(D3:i3,1)>LARGE(d3:i3,2), INDEX(header,1,MATCH(MAX(D3:i3),D3:i3,0)),Tie)"
+    },
+    {
+      "extract": "VLOOKUP requires that the field you're matching on is the farthest left column of the lookup table. If your table is set up differently, use a combination of INDEX and MATCH functions instead. MATCH finds the row number, INDEX returns the value at that position.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "VLOOKUP",
+        "INDEX-MATCH",
+        "data joining"
+      ],
+      "notes": "INDEX-MATCH is more flexible than VLOOKUP for non-standard table layouts"
+    },
+    {
+      "extract": "Tableau Reshaper is a tool for normalizing data, whether you plan to use Tableau or not. Make sure the columns you want to convert are on the right side of your spreadsheet and the columns you want attached to each row are on the left side. Make sure headers are presented exactly as you want them in the final data.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data normalization",
+        "wide to long",
+        "Tableau",
+        "Excel"
+      ],
+      "notes": "Converts wide data to long format; exports to CSV if exceeds 1M rows"
+    },
+    {
+      "extract": "You can use Weeknum and Weekday in conjunction with Pivot Tables to display data in a sort of calendar form. This would be useful if you're looking for patterns in your data based on the calendar. Put WeekNum in the Row, WeekDay in the Column and whatever field you want to count or sum in the Data box.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "pivot tables",
+        "temporal patterns",
+        "calendar analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can build hyperlinks with a formula to launch documents directly from Excel. Use HYPERLINK() with concatenation to build paths from file name columns. Store documents in a sub-directory of the folder where the spreadsheet lives. This works for Word documents, other Excel files or PDFs.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "hyperlinks",
+        "document management",
+        "FOIA"
+      ],
+      "notes": "Pattern: =HYPERLINK(.\\documents\\ & E2, E2) to link spreadsheet rows to source documents"
+    },
+    {
+      "extract": "In a graph database, the data is either a node, a relationship, or an attribute. Use Cypher commands CREATE, LOAD CSV, and MERGE to build the graph. MERGE prevents duplicate nodes when loading CSV data. Attributes go in curly braces as property key-value pairs. Every query must start with a MATCH and end with a RETURN.",
+      "chapter": "2020-graph-databases-networks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "graph databases",
+        "Neo4j",
+        "Cypher",
+        "network analysis"
+      ],
+      "notes": "Applied to political donation networks"
+    },
+    {
+      "extract": "Use fuzzy matching in Cypher with regex: WHERE d.name =~ '.*Bamford.*' for partial match, WHERE d.name =~ '(?i).*Bamford.*' for case-insensitive. Filter relationships by properties like donation value: WHERE t.value >= 100000. Whenever you're writing Cypher, keep the Refcard up as a syntax reference.",
+      "chapter": "2020-graph-databases-networks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Cypher",
+        "fuzzy matching",
+        "regex",
+        "graph queries"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An easy place to track down APIs is a government open data portal. Many are built on Socrata which standardizes the API. The API Endpoint returns JSON data. If you aren't sure about JSON, you can convert API contents to CSV using online tools. Use Postman to visually explore and test API calls before writing code.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "open data",
+        "Socrata",
+        "Postman",
+        "JSON"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are two kinds of API: a web API (talk to a URL) and a Python library API (a way of talking to Python that handles the URL for you behind the scenes). Sometimes it's just easier to write Python than trying to talk to a URL. Use Python requests to download data, then give it to pandas to turn it into a filterable dataframe.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "Python",
+        "requests",
+        "pandas",
+        "data acquisition"
+      ],
+      "notes": "Example: response = requests.get(url); df = pd.DataFrame(response.json())"
+    },
+    {
+      "extract": "When you use some APIs, you need to prove who you are via API keys. API keys are sometimes in the URL, sometimes a parameter in the URL, sometimes separate keys combined using OAuth, or signed requests with encryption. If you run into OAuth or signed requests, it's best to switch to a library.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "authentication",
+        "API keys",
+        "OAuth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The best-kept secret of scraping: skipping scraping at all, and using the provider's unadvertised API. If you've ever tried to scrape a site and failed because the URLs didn't seem to work right, look for a secret website API that the site uses internally to load data.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "secret APIs",
+        "data acquisition",
+        "web inspection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Beyond data APIs: Geocoding APIs can convert locations into latitude and longitude (Google Maps, Census Bureau). Communication APIs enable texting or calling (Twilio) or sending emails (Mailgun, Sendgrid). For most APIs they'll offer both a URL-based API and official or unofficial libraries.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "geocoding",
+        "APIs",
+        "Twilio",
+        "communication tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For machine learning workshops, use Google Colaboratory which provides both a notebook environment and a GPU for free. Turn on the GPU from Runtime > Change runtime type. You can also load GitHub repos directly into Colab by entering the org name in the GitHub tab.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "Google Colab",
+        "GPU",
+        "Jupyter notebooks"
+      ],
+      "notes": "Quartz AI Studio workshops for journalists learning ML"
+    },
+    {
+      "extract": "If something seems like too much work, it probably is. Try to find a better solution. Take advantage of being in the IRE/NICAR community - everyone is here to share and help!",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "efficiency",
+        "community",
+        "IRE/NICAR",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This project began with a little moment: Reporter Maurice Tamman, who lives on a sailboat in New York Harbor, noticed fish in nearby waters that were normally found farther south. He started digging into the data, and he discovered that marine creatures are fleeing warming seas, in an epic underwater refugee crisis.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story origin",
+        "observation",
+        "curiosity",
+        "data-driven investigation"
+      ],
+      "notes": "Reuters Ocean Shock investigation - observation leading to data investigation"
+    },
+    {
+      "extract": "The Implant Files: Driving this investigation was data collected by the U.S. Food and Drug Administration. The analysis guided reporters to problem devices and helped focus reporting. AP decided to look at spinal cord stimulators. Data gives you an entire population to choose the best characters and scenes.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data-driven investigation",
+        "character selection",
+        "FDA data",
+        "story focus"
+      ],
+      "notes": "Data led to devices, devices led to victims/characters"
+    },
+    {
+      "extract": "You don't have to be able to do data analyses to be able to understand, manage and edit data-driven stories. But you should have an understanding of its power and limits. You do have to be an organized, logical thinker. Don't be intimidated by your data reporter's skills; have him/her walk you through everything.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editing",
+        "data literacy",
+        "editorial management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Datedif is useful for calculating ages from birthdates. It gives you the difference between two dates in whatever unit of measure you specify. You can use the TODAY() function to refer to today's date. Example: =Datedif(b2,today(), 'y') gives years since birthdate.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "dates",
+        "age calculation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Understanding Excel errors: #DIV/0\\! means dividing by zero or blank cell - use IF to check before dividing. #N/A means formula couldn't return a legitimate result, often from VLOOKUP with no match. #NAME? means a typo in your formula. #REF\\! means invalid cell reference. #VALUE\\! means wrong data type in a function.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "error handling",
+        "debugging",
+        "data quality"
+      ],
+      "notes": "Pattern for DIV/0: =if(b2>0, b2/c2, 0)"
+    },
+    {
+      "extract": "Observable is a JS-based data viz canvas where other cells update in real time as changes are made. You can pull things in from other Observable notebooks. RStudio Cloud provides cloud-based RStudio instances where multiple accounts can participate in a workspace with different roles and modify a project together.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Observable",
+        "RStudio Cloud",
+        "visualization",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Littlest JupyterHub provides roughly 50-100 users with the same coding environment. Made for folks who are not network admins. You're in control: you specify how users log in, what data they have access to, what resources are available to them. You can set this up on services like Digital Ocean, AWS and others.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "JupyterHub",
+        "teaching",
+        "infrastructure",
+        "cloud computing"
+      ],
+      "notes": "For newsroom or classroom environments needing shared compute"
+    },
+    {
+      "extract": "To manage large JSONL files from labeling tasks, use command-line tool json2csv to convert to CSV with selected fields. For large CSV files (3GB+), take a slice with tail -n 5000 to create a manageable working sample. Clean zip files of Mac artifacts with zip -d to remove __MACOSX and .DS_Store entries.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data wrangling",
+        "JSONL",
+        "CSV",
+        "command line",
+        "file management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use ClassificationInterpretation.from_learner to identify which images confuse the model most. top_losses() returns the indices of the most confused predictions, allowing you to inspect and fix mislabeled training data.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "fast.ai",
+        "model debugging",
+        "training data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use ffmpeg to extract frames from video at regular intervals: ffmpeg -i source -vf fps=1 -vsync 0 -frame_pts 1 %04d.jpg extracts one frame per second with frame number in filename.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "ffmpeg",
+        "video analysis",
+        "frame extraction"
+      ],
+      "notes": "For building image classification training sets from video"
+    },
+    {
+      "extract": "The goal is to see if we can spot something specific in a video. This would be useful especially if you had hours of video you didn't have time to watch. Our plan will be: Download a computer-vision model pre-trained on 1.2 million images; Further train that model on images containing 'yes bikes' and 'no bikes'; Chop up our video into frames; Use the model to detect bikes in frames",
+      "chapter": "Quartz AI Studio: Sorting Images with fast.ai",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "machine learning",
+        "image classification",
+        "transfer learning",
+        "video analysis"
+      ],
+      "notes": "Workflow for applying pre-trained CV model to journalistic video analysis"
+    },
+    {
+      "extract": "Training a computer-vision mode from scratch to solve our problem would take thousands of images. Maybe more. Instead we take advantage of an existing model that was trained to detect objects -- from planes, to cars, to dogs, to birds -- by processing millions of images. This model is called 'resnet34.' With fast.ai we can infuse this model with our images (and their labels). This takes advantage of all of resnet34's 'knowledge' of image-detection and tacks on our particular problem. This technique is called 'transfer learning.'",
+      "chapter": "Quartz AI Studio: Transfer Learning with ResNet",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transfer learning",
+        "neural networks",
+        "pre-trained models",
+        "image classification"
+      ],
+      "notes": "Core concept: reuse existing models rather than training from scratch"
+    },
+    {
+      "extract": "We can take a look to see where the model was most confused, and whether what the model predicted was reasonable or not. In this case the mistakes look reasonable (none of the mistakes seems obviously naive). This is an indicator that our classifier is working correctly. Furthermore, when we plot the confusion matrix, we can see how the mistakes are being made.",
+      "chapter": "Quartz AI Studio: Evaluating Model Performance",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "model evaluation",
+        "confusion matrix",
+        "error analysis",
+        "validation"
+      ],
+      "notes": "Inspecting top losses and confusion matrix as validation step for ML classifiers"
+    },
+    {
+      "extract": "Probably the trickiest part of machine learning image problems involve pairing the images with their proper labels. There are many ways to do this. Sometimes the labels are in the file names. Sometimes they're in a list. Ours are in two separate folders, or directories. I made these folders by sorting through about 300 maps of helicopter flight paths. Took me about 15 minutes.",
+      "chapter": "Quartz AI Studio: Helicopter Circling Detection",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data labeling",
+        "image classification",
+        "training data",
+        "manual coding"
+      ],
+      "notes": "Manual labeling effort is modest -- 300 images in 15 minutes -- for effective ML"
+    },
+    {
+      "extract": "Transformations apply visual fun to the training images to mix things up a bit and help make the model more generalizable -- that is, for example, seeing more kinds of images of bikes than the images we have by changing the lighting, the cropping, the rotation, and the flip of the images.",
+      "chapter": "Quartz AI Studio: Data Augmentation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data augmentation",
+        "generalization",
+        "image transforms",
+        "training data"
+      ],
+      "notes": "Augmentation compensates for small training sets"
+    },
+    {
+      "extract": "We'll add our new transforms, and we'll change the size of the training images. To the model, these will look like brand new images it has never seen before. That's because in the training process, our convolutional neural network looks at small groups of pixels at a time. If we use bigger versions of the image, it's still a bike to us, but those clusters of pixels will be completely new to the computer.",
+      "chapter": "Quartz AI Studio: Progressive Resizing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "progressive resizing",
+        "data augmentation",
+        "neural networks",
+        "training strategy"
+      ],
+      "notes": "Resizing images creates effectively new training data from the same source images"
+    },
+    {
+      "extract": "Working with Dan Keemahill and Madlin Mekelburg over a couple of weeks during the 2019 Texas state legislative session, I have have a set of 3,797 tweets humans at the Austin American-Statesman have determined are -- or are not -- statements that can be fact-checked.",
+      "chapter": "Quartz AI Studio: Checkable Tweets Classifier",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "fact-checking",
+        "human coding",
+        "collaboration",
+        "classification"
+      ],
+      "notes": "Newsroom-academic collaboration for hand-coding training data"
+    },
+    {
+      "extract": "First, we need a model trained to recognize the patterns of English. We'll be using a model trained on thousands of long Wikipedia articles. It's called wikitext-103. We'll then use transfer learning to further train wikitext-103 on our particular corpus: several thousand #txlege tweets. So we benefit from its training on both English-language articles and #txlege tweets. That will give us a language model that's good at detecting patterns in #txlege tweets.",
+      "chapter": "Quartz AI Studio: Language Model Fine-tuning",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "NLP",
+        "transfer learning",
+        "language models",
+        "text classification",
+        "fine-tuning"
+      ],
+      "notes": "Two-step approach: language model then classifier, both using transfer learning"
+    },
+    {
+      "extract": "We want as many tweets for the language model as possible to learn the patterns of #txlege tweets. We'll start with the text of the 3,797 'hand-coded' tweets (though for the language model, we ignore the checkable/not checkable part of that file). To that, we'll add the additional tweets I collected. We'll mush those all into one big file of tweets.",
+      "chapter": "Quartz AI Studio: Building Language Models",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "training data",
+        "corpus building",
+        "language models",
+        "data collection"
+      ],
+      "notes": "Labeled and unlabeled data combined for language model; labels only needed for classifier"
+    },
+    {
+      "extract": "We can open the 'black box' a little to see what words the model is keying into.",
+      "chapter": "Quartz AI Studio: Model Interpretability",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "interpretability",
+        "explainability",
+        "NLP",
+        "attention",
+        "transparency"
+      ],
+      "notes": "Using intrinsic attention to inspect which words drive classification decisions"
+    },
+    {
+      "extract": "'Entities' in documents are, generally, names -- names of people, places, and things such as companies. Finding out which entities are mentioned in a trove of documents can be pretty helpful, especially when you don't previously know someone or some place is included the document. There are services online that do this kind of extraction, including DocumentCloud, Amazon Comprehend and Google Natural Language.",
+      "chapter": "Quartz AI Studio: Entity Extraction from Documents",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "NER",
+        "entity extraction",
+        "document analysis",
+        "spaCy",
+        "DocumentCloud"
+      ],
+      "notes": "NER as discovery tool for document dumps -- finding unknown actors"
+    },
+    {
+      "extract": "JSONL is a file format that stores data in a JSON file, with each record living on its own line in the file. This next block reads the PDF file and turns it into a JSONL file, which is much easier to work with.",
+      "chapter": "Quartz AI Studio: PDF to JSONL Processing",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data formats",
+        "PDF processing",
+        "JSONL",
+        "data conversion",
+        "pipeline"
+      ],
+      "notes": "PDF-to-JSONL as standard preprocessing step for document analysis"
+    },
+    {
+      "extract": "We're going to remove 'stop' words, such as a and the. Then we'll remove all the punctuation and pronouns. Plus some garbage tokens that came along with the emails we have. Everything gets cleaned up with this reusable function.",
+      "chapter": "Quartz AI Studio: Text Preprocessing for Similarity",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "text preprocessing",
+        "stop words",
+        "NLP",
+        "data cleaning",
+        "tokenization"
+      ],
+      "notes": "Standard NLP preprocessing pipeline: stop words, punctuation, pronouns, domain-specific garbage"
+    },
+    {
+      "extract": "Almost every token in the text will have an associated vector of 300 values -- which is, in a way, its position in 300-dimentional space. For a series of words, or an entire page, spaCy averages all the token-vectors into one 300-value vector. We're going to use 'cosine similarity' to compare this one document to every other document in the set.",
+      "chapter": "Quartz AI Studio: Document Similarity with Vectors",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "word vectors",
+        "cosine similarity",
+        "document similarity",
+        "NLP",
+        "spaCy"
+      ],
+      "notes": "Vectors as mathematical representations enabling semantic comparison of documents"
+    },
+    {
+      "extract": "We have to do this because pages and paragraphs often cover multiple topics, which might confuse the model. And, Universal Sentence Encoder is built to encode sentences... and so it ignores anything after the 128th word in its input. The code below cuts the text into sentences, but groups any two consecutive sentences under 15 words long together.",
+      "chapter": "Quartz AI Studio: Semantic Search Engine",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "text chunking",
+        "sentence segmentation",
+        "semantic search",
+        "preprocessing"
+      ],
+      "notes": "Chunking strategy must respect both model input limits and topic coherence"
+    },
+    {
+      "extract": "When is a sentence 'similar' to another? Remember those 512-dimensional vectors? We're treating two sentences as similar if their vectors are close together. Our search results are 'nearest neighbors,' which is what it sounds like.",
+      "chapter": "Quartz AI Studio: Nearest Neighbor Search",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "nearest neighbors",
+        "semantic similarity",
+        "vector search",
+        "information retrieval"
+      ],
+      "notes": "Nearest neighbor as intuitive explanation of semantic search"
+    },
+    {
+      "extract": "Roughly a third of the content published by Bloomberg News uses some form of automated technology. The system used by the company, Cyborg, is able to assist reporters in churning out thousands of articles on company earnings reports each quarter.",
+      "chapter": "2020-newsroom-automation: Automation at Bloomberg",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom automation",
+        "NLG",
+        "Bloomberg",
+        "scale",
+        "earnings reporting"
+      ],
+      "notes": "Scale of automation in major newsroom -- one-third of all content"
+    },
+    {
+      "extract": "How do we decide on automation? Is the data available? Can we get it in a format we can use? Once we get the data, is it clean enough to use reliably? Can we process the data regularly? Does anyone care?",
+      "chapter": "2020-newsroom-automation: Bloomberg Decision Framework",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation strategy",
+        "editorial decision-making",
+        "feasibility assessment",
+        "data availability"
+      ],
+      "notes": "Five-question checklist for deciding whether to automate a reporting task"
+    },
+    {
+      "extract": "Automation can track down the what, freeing up the reporter to track down the why. Automation is never going to replace the journalist, it's going to augment the work that they do.",
+      "chapter": "2020-newsroom-automation: Automation Philosophy",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "automation",
+        "augmentation",
+        "journalism roles",
+        "human-machine collaboration"
+      ],
+      "notes": "Key framing: automation as augmentation not replacement"
+    },
+    {
+      "extract": "What could go wrong? Document format changes. Incorrect data. Human error. Data not available. Outliers. Something we haven't thought of... until it happens.",
+      "chapter": "2020-newsroom-automation: Automation Risks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation risks",
+        "error handling",
+        "data quality",
+        "robustness"
+      ],
+      "notes": "Taxonomy of failure modes for automated data pipelines"
+    },
+    {
+      "extract": "Improving technologies make it easier to scrape Web sites, pull down data, and produce stories. Automation doesn't have to be done with massive resources and limitless data servers. 'Automate the Boring Stuff With Python.' Web scraping/APIs. Time management skills.",
+      "chapter": "2020-newsroom-automation: Accessible Automation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation",
+        "accessibility",
+        "small newsrooms",
+        "Python",
+        "web scraping"
+      ],
+      "notes": "Automation is accessible to small newsrooms, not just Bloomberg-scale operations"
+    },
+    {
+      "extract": "Though Quakebot automatically writes posts and creates maps, posts are never published without human review. Once a post is written the copy desk gets a slack alert and reads through the story before publishing it.",
+      "chapter": "2020-newsroom-automation: LA Times Quakebot",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "automated publishing",
+        "human oversight",
+        "editorial workflow",
+        "earthquake reporting"
+      ],
+      "notes": "Human-in-the-loop requirement even for fully automated content"
+    },
+    {
+      "extract": "Quakebot is an application that monitors recent earthquakes, detects 'qualifying' earthquakes, automatically generates post and related assets about the qualifying earthquake, pushes the post into our CMS. Polls the USGS's ANSS GeoJSON feed of world earthquakes. Feed contains all earthquakes in the last hour. Polling frequency is every minute.",
+      "chapter": "2020-newsroom-automation: LA Times Quakebot Architecture",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data feeds",
+        "real-time monitoring",
+        "automated alerts",
+        "USGS",
+        "GeoJSON",
+        "earthquake"
+      ],
+      "notes": "Architecture of automated data monitoring: poll, detect, generate, publish"
+    },
+    {
+      "extract": "Our always-on live wildfires map aims to provide our most up-to-date coverage of fire perimeters, hotspots and evacuation zones in California. The map is populated by a custom feed of data sources we assembled and automated. It includes government sources such as CalFire, GeoMAC, NOAA, and NASA. It also mixes in an exclusive feeds of fires spotted by Descartes Labs' satellite imagery algorithm. Each data source has its own python scraper, most of which are available as packages on PyPi.",
+      "chapter": "2020-newsroom-automation: LA Times Fire Map",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data aggregation",
+        "geospatial",
+        "automated scraping",
+        "satellite imagery",
+        "wildfire",
+        "multi-source"
+      ],
+      "notes": "Multi-source automated data aggregation combining government and commercial satellite feeds"
+    },
+    {
+      "extract": "In addition to our overall fire map, the app also allows for specific fires to be embedded within articles. This eliminates the need for custom, one-off illustrator or d3 map fire perimeter and evacuation zone maps.",
+      "chapter": "2020-newsroom-automation: Reusable Map Components",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reusable components",
+        "data visualization",
+        "maps",
+        "automation",
+        "newsroom efficiency"
+      ],
+      "notes": "Automation eliminates one-off production work through reusable embeddable components"
+    },
+    {
+      "extract": "Right now we're working on several projects related to the idea of computational story discovery, which is the use of algorithms and automating to surface interesting news leads for journalists. For instance I have some students working on a fact spotting system to scan the congressional record for fact checkable claims and send a daily newsletter.",
+      "chapter": "2020-newsroom-automation: Computational Story Discovery",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "story discovery",
+        "fact-checking",
+        "algorithmic leads"
+      ],
+      "notes": "Diakopoulos: algorithms as lead-generation tools, not replacement for reporting"
+    },
+    {
+      "extract": "We developed this particular system to help support national politics reporters in figuring out where to go to talk to people. What it does is it data mines a national voter file, including every registered voter in the US to try to pull out interesting patterns in things like new registrations as well as other variables of interest. Counties get ranked on the degree of statistical outlier-y-ness as well as factors like the political relevance in terms of vote margins, if the district flipped recently, and if it has an open seat in 2020. A tip sheet is generated using natural language generation to convey the interesting bits from the statistical analysis.",
+      "chapter": "2020-newsroom-automation: Lead Locator",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data mining",
+        "voter files",
+        "statistical analysis",
+        "NLG",
+        "story leads",
+        "Washington Post"
+      ],
+      "notes": "Diakopoulos Lead Locator: statistical outlier detection + NLG tip sheets for reporters"
+    },
+    {
+      "extract": "The automation here is really limited to the collection and ranking of documents. All of the metadata, summarization, and subsequent reporting around the lead still requires a lot of human effort.",
+      "chapter": "2020-newsroom-automation: Algorithm Tips",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "human-machine collaboration",
+        "computational journalism"
+      ],
+      "notes": "Automation handles collection and ranking; humans handle interpretation and reporting"
+    },
+    {
+      "extract": "Some experts estimate that only about 15% of a reporter's job and about 9% of an editor's job could be automated using current levels of AI technology. More often than not AI and automation technologies actually create new types of work, like the configuration, parameterization, knowledge management, data production, and template writing tasks involved with setting up, operating, and supervising automated systems. Instead of destroying jobs in journalism, AI appears to be creating them.",
+      "chapter": "2020-newsroom-automation: AI and Journalism Jobs",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "automation",
+        "journalism jobs",
+        "new skills",
+        "AI impact",
+        "labor"
+      ],
+      "notes": "Diakopoulos: AI creates new work types rather than replacing existing journalism roles"
+    },
+    {
+      "extract": "Be honest with yourself. Is this going to take a lot of time? If yes, ask the agency for another file format. But if you're on deadline...",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "file formats",
+        "FOIA",
+        "data acquisition",
+        "time management"
+      ],
+      "notes": "First step in PDF extraction: assess effort and consider requesting native format"
+    },
+    {
+      "extract": "Try opening the PDF in MS Word. let it figure out where the row and column boundaries are. Then copy and paste to EXCEL. COMETDOCS.com: Free subscription for IRE members, converts in minutes. LAST RESORT: SUBLIME TEXT EDITOR. Copy and paste the PDF contents into Sublime. To ensure the contents can be imported into Google sheets or Excel, we must define where to split the columns. Add a delimiter such as *. Save as TXT or CSV file. Import into Excel.",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "data conversion",
+        "Excel",
+        "Cometdocs",
+        "text editors",
+        "delimiters"
+      ],
+      "notes": "Escalation ladder: Word copy-paste, Cometdocs, Sublime text editor as last resort"
+    },
+    {
+      "extract": "JOINING PDFS in a FOLDER: pdftk a.pdf b.pdf cat output c.pdf. Or all pdfs in the folder into a new file called combined.pdf: pdftk *.pdf cat output combined.pdf. SPLIT A PDF FILE INTO SEPARATE PAGES: pdftk combined.pdf burst. The files will be automatically named pg_0001.pdf, pg_0002.pdf, etc.",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pdftk",
+        "PDF manipulation",
+        "command line",
+        "splitting",
+        "merging"
+      ],
+      "notes": "pdftk commands for joining and splitting PDFs from the command line"
+    },
+    {
+      "extract": "Why extract text: Searching. Finding and counting entities (names, organizations). Crude count of records. Tabular data. Classifying. Different tools do better at different jobs: DocumentCloud: OCR, entity extraction. Overview: OCR, entity extraction. Cometdocs. Tabula: Text PDFs only, extract tables. PDF Tables. Adobe Acrobat Pro. Abbyy Finereader.",
+      "chapter": "2020-pdf-ocr-extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "PDF extraction",
+        "tool selection",
+        "DocumentCloud",
+        "Tabula",
+        "text extraction"
+      ],
+      "notes": "Tool-to-task mapping for PDF extraction; different tools excel at different jobs"
+    },
+    {
+      "extract": "Why use command-line tools? Free. Reproducible. Lots of online documentation. Many documents, able to run in background (or cloud). Integrate in pipeline with other tools/analysis (like classifier). Understand pieces of process, how other tools work under the hood.",
+      "chapter": "2020-pdf-ocr-extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "command line",
+        "reproducibility",
+        "pipeline integration",
+        "open source",
+        "OCR"
+      ],
+      "notes": "Case for CLI tools: reproducibility, scale, pipeline integration, understanding"
+    },
+    {
+      "extract": "A regular expression is a common, compact way to represent some sort of pattern in text. You can use one to: Help you search within a document. Reformat or otherwise clean up an inconsistent or 'dirty' data set. Extract structured data from plain text. Many common programming languages, text editors and search tools support regular expressions, so you can use them in whatever environment you find most comfortable.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "data cleaning",
+        "text extraction",
+        "cross-platform"
+      ],
+      "notes": "Regex as universal data-cleaning and extraction skill across environments"
+    },
+    {
+      "extract": "Literals: Letters and numbers refer to themselves. Escaping: A ton of characters in regular expressions have special meanings; to override that meaning for a particular character, put a backslash before it. Character classes: You can specify a class of characters by surrounding them in square brackets. Groups: You can surround a part of a regular expression in parentheses to treat it as a unit. Quantifiers: Several symbols exist to let you specify how many times in a row to match a given character, class or group. Anchors: A caret matches the beginning of a line of text. A dollar sign similarly matches the end of a line.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "syntax reference",
+        "text processing"
+      ],
+      "notes": "Core regex building blocks: literals, escaping, classes, groups, quantifiers, anchors"
+    },
+    {
+      "extract": "Scraping is... catching, collecting or coaxing data off the web. Web scrapers are often called CRAWLERS if they pull data from multiple webpages, EXTRACTORS if they pull data from a single webpage.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "crawlers",
+        "extractors",
+        "data acquisition"
+      ],
+      "notes": "Terminology distinction between crawlers (multi-page) and extractors (single-page)"
+    },
+    {
+      "extract": "You can use this Google Sheets formula to scrape a table or a list: =ImportHTML(\"url\", \"element\", number of element). The 'url' is the link you are scraping. The 'element' is the HTML tag. The number is the order the element is in.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "ImportHTML",
+        "web scraping",
+        "no-code",
+        "HTML tables"
+      ],
+      "notes": "No-code scraping with Google Sheets ImportHTML function"
+    },
+    {
+      "extract": "With XML, you can find the 'XPath'. An XPath is like an address, or a map, to a very specific spot in the webpage's code. You can scrape everything at a particular XPath using this Google Sheets formula: =importxml(\"url\",\"XPath\"). XPaths open up a whole new world: all bold text: //b. All large text (known as headers): //h1. All headers with the word 'Parish': //h1[contains(.,'parish')].",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "XPath",
+        "Google Sheets",
+        "ImportXML",
+        "web scraping",
+        "no-code",
+        "structured extraction"
+      ],
+      "notes": "XPath for targeted element extraction via Google Sheets ImportXML"
+    },
+    {
+      "extract": "Google Sheets has a third import function you can use for scraping: =importFeed(\"source\",\"items\"). It scrapes data from an RSS feed, which is useful if you want to scrape something at regular intervals.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "RSS feeds",
+        "Google Sheets",
+        "ImportFeed",
+        "monitoring",
+        "periodic scraping"
+      ],
+      "notes": "RSS feeds for regular-interval data collection via Google Sheets"
+    },
+    {
+      "extract": "Some other good tools: DownThemAll (Firefox add-on) highlights a whole list of links or images/media and downloads them. Zapier and IFTTT (websites) -- these automation tools can help keep track of new data, such as new Instagram posts or tweets. Try: save RSS feed content to a Google Sheet or get emailed tweets from a certain area. Web Scraper (Chrome extension) has you build a sitemap for a site to be crawled.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "scraping tools",
+        "browser extensions",
+        "IFTTT",
+        "Zapier",
+        "automation",
+        "monitoring"
+      ],
+      "notes": "Ecosystem of no-code/low-code scraping and monitoring tools"
+    },
+    {
+      "extract": "VisiData is an easy-to-use multipurpose tool to explore, clean, edit, and restructure data. Rows can be selected, filtered, and grouped; columns can be rearranged, transformed, and derived via regex or Python expressions; and workflows can be saved, documented, and replayed.",
+      "chapter": "VisiData Tutorial: Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "terminal tools",
+        "data exploration",
+        "data cleaning",
+        "reproducibility"
+      ],
+      "notes": "VisiData as terminal-based Swiss army knife for data exploration and cleaning"
+    },
+    {
+      "extract": "To persist your customizations from session to session, you can specify them in your computer's ~/.visidatarc file. The ~/.visidatarc file expects its commands to be written in Python. If you know Python and are willing to acquaint yourself with VisiData's architecture, you can use your ~/.visidatarc file to customize VisiData in ways far more powerful than simple option-setting -- including creating your own commands.",
+      "chapter": "VisiData Tutorial: Configuration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "configuration",
+        "customization",
+        "Python",
+        "reproducible workflow"
+      ],
+      "notes": "Persistent configuration via .visidatarc for repeatable data analysis workflows"
+    },
+    {
+      "extract": "From anywhere within VisiData, you can press D to view the command log relevant to your current sheet. Navigational commands do not appear in the command log. The reason: Navigating around a sheet doesn't alter its contents. The command log behaves virtually the same as any other sheet in VisiData. That means you can sort, filter, and otherwise edit its rows, columns, and cells. That also means you can save just like you'd save any other sheet.",
+      "chapter": "VisiData Tutorial: Command Log",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "command log",
+        "reproducibility",
+        "audit trail",
+        "data provenance"
+      ],
+      "notes": "VisiData command log enables reproducible data analysis workflows"
+    },
+    {
+      "extract": "To fully replay the example-cmdlog.vd log we saved, run the following command: vd --play example-cmdlog.vd. We don't point VisiData to the dataset itself, since that information (the path to the dataset) is now specified within the command log. You can also run: vd --play example-cmdlog.vd --batch --output cmdlog-results.csv, which will replay the command log in 'batch' mode and save the final sheet to a CSV.",
+      "chapter": "VisiData Tutorial: Replay and Batch Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "replay",
+        "batch processing",
+        "reproducibility",
+        "automation",
+        "command log"
+      ],
+      "notes": "Command log replay enables fully automated batch data processing pipelines"
+    },
+    {
+      "extract": "VisiData can open a range of filetypes, including: CSV files, and any other delimiter-separated formats. Excel spreadsheets. Fixed-width files. SQLite databases. Postgres databases. JSON / JSONL. XML. Shapefiles. HTML (looks for table tags). Website URLs.",
+      "chapter": "VisiData Tutorial: File Format Support",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "file formats",
+        "data import",
+        "interoperability",
+        "CSV",
+        "JSON",
+        "databases"
+      ],
+      "notes": "VisiData handles wide range of formats including databases, geospatial, and web URLs"
+    },
+    {
+      "extract": "For machine learning, we need access to a computer that's got a lot of memory and can do a lot of math relatively quickly. For the math part, we'll want a computer with a graphics processing unit (GPU). The computer we use can be in the 'cloud'. We've tailored these notebooks for use with Google Colaboratory, which as of this writing is cheapest way to get going (it's currently free). You essentially 'borrow' a virtual computer in the Google universe to do your calculations.",
+      "chapter": "Quartz AI Studio: Cloud Computing Setup",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "cloud computing",
+        "GPU",
+        "Google Colab",
+        "machine learning infrastructure",
+        "accessibility"
+      ],
+      "notes": "Google Colab as free entry point for GPU-based ML in journalism"
+    },
+    {
+      "extract": "Given a folder full of images, we want a list of descriptions of each image. One way to solve this problem would be to teach, or train a model. For good results, we'd need to use millions of images. It's doable... but there's another option. That is, use a pre-trained model -- one already trained by some other, kind people, who built it using millions of images and then shared it on the internet for others to use. Note that ResNet does not contain 1.2 million images\\! It contains the complex mathematical formula -- the neural network and all of its structure and values -- that were fine-tuned by processing those images.",
+      "chapter": "Quartz AI Studio: Pre-trained Models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pre-trained models",
+        "ResNet",
+        "ImageNet",
+        "neural networks",
+        "model reuse"
+      ],
+      "notes": "Key distinction: models contain learned parameters, not training data"
+    },
+    {
+      "extract": "Instead of downloading and using a pretrained model, we can send each image to an online service to detect the contents. There are several available, and in this case we'll use Google's Vision AI service. These services generally allow you to try some images for free, and then you must pay for any over that limit. As of this writing, Google Vision allows you to do 1,000 checks in a month for free.",
+      "chapter": "Quartz AI Studio: Cloud Vision APIs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Vision",
+        "cloud APIs",
+        "image classification",
+        "pricing",
+        "API services"
+      ],
+      "notes": "Cloud vision APIs as alternative to local models with free tiers for small-scale use"
+    },
+    {
+      "extract": "To process data in real time -- say, as tweets are tweeted or whenever a helicopter is flying -- you can also host your code on a service like Render. The guide for production deployment to Render is at course.fast.ai/deployment_render.html.",
+      "chapter": "Quartz AI Studio: Production Deployment",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "deployment",
+        "production",
+        "real-time",
+        "Render",
+        "cloud hosting",
+        "ML inference"
+      ],
+      "notes": "Moving from notebook prototype to production deployment for real-time classification"
+    },
+    {
+      "extract": "We want to make a model that will work for our specific, unique problem: detecting whether helicopter flight maps show a copter was 'circling' or 'not circling.' We'll use a pre-trained model -- one already trained by some other, kind people. We'll use the 'smarts' of that model, which has learned to detect patterns in images generally, to solve our particular problem. We do that by additionally training the original model on our own data set -- the helicopter flight maps.",
+      "chapter": "Quartz AI Studio: Custom Image Classifier for Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transfer learning",
+        "custom classifiers",
+        "helicopter surveillance",
+        "image classification"
+      ],
+      "notes": "Adapting general-purpose CV to specific journalistic investigation need"
+    },
+    {
+      "extract": "We'll be using a very cool, all-purpose video tool called 'ffmpeg.' The next, admittedly cryptic command, pulls out a .jpg image from the video every second (the fps or frames per second is set to 1). It also names the images using the format 'myframe0000.jpg' ... with the four zeros increasing with every frame.",
+      "chapter": "Quartz AI Studio: Video Frame Extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "ffmpeg",
+        "video processing",
+        "frame extraction",
+        "data preparation",
+        "multimedia"
+      ],
+      "notes": "ffmpeg for converting video to frames as preprocessing for image classification"
+    },
+    {
+      "extract": "Making predictions -- that is, guessing the class or contents of an image -- is something for which you don't need a powerful computer. You don't need a GPU, or graphics processing unit. A regular computer's CPU (central processing unit) will do just fine.",
+      "chapter": "Quartz AI Studio: CPU vs GPU for Inference",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "GPU",
+        "CPU",
+        "inference",
+        "training",
+        "hardware requirements",
+        "accessibility"
+      ],
+      "notes": "Training requires GPU; inference can run on laptop CPU -- key accessibility point"
+    },
+    {
+      "extract": "Our election-result sentences are the brainchild of Aliza Aufrichtig. It is an algorithm that fills in variations in sentences based on notable possible events within voting patterns. You could consider it a madlib, but it takes a lot more programmatic and editorial awareness to get it right in so many cases.",
+      "chapter": "2020-newsroom-automation: NYT Election Sentences",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "template writing",
+        "NLG",
+        "election coverage",
+        "editorial judgment",
+        "New York Times"
+      ],
+      "notes": "Template-based automation requires both programming and editorial sophistication"
+    },
+    {
+      "extract": "How do journalists get data? ...from humans? Ask nicely. FOIA. Hard way. ...from computers? Download. Easy way. Scrape. Hard way.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "FOIA",
+        "web scraping",
+        "data sourcing"
+      ],
+      "notes": "Simple taxonomy of data acquisition methods for journalists"
+    },
+    {
+      "extract": "Different programming languages, text editors and other tools handle regular expressions in their own ways. Some of the things that differ most often are: Character classes -- the shorthand for various character classes can vary between environments. Escaping -- some environments have different rules about when certain characters do and don't need to be escaped. Group references -- you might need to refer to groups by using dollar signs rather than backslashes. Flags -- some environments support the use of 'flags', which modify the rules.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "cross-platform differences",
+        "syntax variation",
+        "portability"
+      ],
+      "notes": "Regex syntax varies across environments -- check character classes, escaping, groups, flags"
+    },
+    {
+      "extract": "Frequency tables are dead-simple, but also quite powerful. For the dead-simple usage: Navigate to any column, and then press Shift-F. With just one keystroke, VisiData has already told us something useful about the dataset: That the 'operators' associated with 31% of the wildlife strikes are, according to the FAA, 'unknown.' We have also learned, from the 'bins' mini-report at the bottom-right of the screen, that there are 282 distinct values in the 'OPERATOR' column.",
+      "chapter": "Frequency tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "frequency tables",
+        "data profiling",
+        "exploratory analysis"
+      ],
+      "notes": "Single-keystroke frequency table generation reveals distribution and cardinality instantly"
+    },
+    {
+      "extract": "Sometimes you want to count how often combinations of columns occur. VisiData also makes this easy. First, turn the columns you want to count into 'key' columns, using the \\! button. Then, type gF. With just a few more keystrokes, we've learned something else: Virtually all wildlife strikes with 'unknown' operators were identified based on carcasses found at the airport (rather than reports from pilots, for example).",
+      "chapter": "Multi-column frequencies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "cross-tabulation",
+        "multi-variable analysis",
+        "frequency tables"
+      ],
+      "notes": "Multi-column frequency tables reveal relationships between variables"
+    },
+    {
+      "extract": "By default, frequency tables just count the number of times each value appears. But in VisiData, you can specify additional calculations by setting the column's 'aggregators'. VisiData's aggregators include min, max, mean, median, sum, distinct, and others. To add an aggregator to a column, navigate to that column and press +. When using aggregators, make sure that you've assigned the proper type (# for integer columns, etc.) to the columns of interest, so that VisiData knows how to calculate the aggregations correctly.",
+      "chapter": "Adding aggregators",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "summary statistics",
+        "data types"
+      ],
+      "notes": "Must set column types before aggregation; type assignment is a prerequisite for numerical operations"
+    },
+    {
+      "extract": "To get a bird's-eye view of your entire dataset, press Shift-I, which will provide summary statistics for each of your columns. In VisiData, this is called the 'Describe Sheet'. You'll notice that there are only min/max/median/etc. calculations for the columns we've given types. If we go back to the data sheet and tell VisiData that the HEIGHT, SPEED, and BIRDS_STRUCK fields are numbers, too, then pressing Shift-I will result in full summary statistics.",
+      "chapter": "Summarizing all columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data profiling",
+        "summary statistics",
+        "Describe Sheet"
+      ],
+      "notes": "Describe Sheet gives instant dataset overview; numeric summaries require explicit type assignment"
+    },
+    {
+      "extract": "Rather than guess at your column's data types, VisiData assumes that they're all plain-old text. If that column is a number or date, and you want to do any math-y operations on your column (e.g., sorting, summing, averaging, et cetera), you'll have to specify its type. To set a column's type, navigate over to that column and press one of the following keys: # for Integer, % for Float, $ for Currency, @ for Date, ~ for Text.",
+      "chapter": "How to set column types",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data types",
+        "type casting",
+        "data preparation"
+      ],
+      "notes": "Explicit type assignment is essential before any numerical analysis in VisiData"
+    },
+    {
+      "extract": "VisiData provides several ways to filter your datasets: Row selection + double-quote, Frequency tables + Enter, Frequency tables + row selection + g + Enter. Pressing double-quote will create a copy of your current sheet but one that contains only selected rows. From any row in any frequency table, you can press Enter to create a new dataset containing only the rows that match that value.",
+      "chapter": "How to filter rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "filtering",
+        "subsetting",
+        "row selection"
+      ],
+      "notes": "Three complementary filtering approaches: select-then-copy, frequency-drill-down, multi-value frequency select"
+    },
+    {
+      "extract": "In VisiData, you can select rows by evaluating a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. The two keystrokes for this are z| and z\\. For instance: z| then OPERATOR == 'BUSINESS' and STATE == 'FL' then Enter selects 625 rows matching that compound condition.",
+      "chapter": "Via expressions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "expression filtering",
+        "Python expressions",
+        "compound conditions"
+      ],
+      "notes": "Python expressions enable complex multi-column filtering without writing scripts"
+    },
+    {
+      "extract": "Expression columns evaluate a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. You can create an expression column by pressing =. Let's say we want to identify wildlife strikes that were reported to have occurred at least 100 feet above ground. We could press = to bring up the 'new column expr=' prompt, type HEIGHT >= 100, and press Enter.",
+      "chapter": "How to create an expression column",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "computed columns",
+        "derived data",
+        "Python expressions"
+      ],
+      "notes": "Expression columns allow on-the-fly derived analysis without modifying source data"
+    },
+    {
+      "extract": "You can split the text in any column in VisiData into two or more columns, based on a pattern (i.e., a 'regular expression') that you provide. To split a column, navigate to that column, and press :. Each value in the new column is a list of the pieces that resulted from the split. But you probably want each piece in its own column. To do that press (, which is the 'expand column' command.",
+      "chapter": "How to create new columns by splitting another one",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "column splitting",
+        "regex",
+        "data parsing",
+        "text processing"
+      ],
+      "notes": "Split-then-expand workflow for parsing compound fields like date-time strings"
+    },
+    {
+      "extract": "Just like you can split a column by using :, you can extract part of a column into a new column by using ;. For instance, if you want to extract the first string of numbers from each aircraft type, (e.g., 28 from PA-28, 46 from PA-46 MALIBU, and 717 from B-717-200), press ; then type (\\d+) (with one set of parentheses for each capture group), and then hit Enter.",
+      "chapter": "How to create a new column by capturing it from another column",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "regex capture",
+        "data extraction",
+        "pattern matching"
+      ],
+      "notes": "Regex capture groups allow surgical extraction of structured substrings from messy fields"
+    },
+    {
+      "extract": "To join two or more sheets in VisiData, you'll do the following: 1. In the sheets you want to join, mark the shared columns as 'keys'. 2. In the Sheets Sheet, select the sheets you want to join. 3. Press & to open the join-choice prompt, type your desired join type and press Enter. VisiData supports seven types of joins: inner, outer, full, diff, append, extend, merge.",
+      "chapter": "The sheet-joining three-step",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "joins",
+        "data merging",
+        "relational analysis"
+      ],
+      "notes": "VisiData supports full range of join types comparable to SQL, all via keyboard shortcuts"
+    },
+    {
+      "extract": "VisiData's pivot tables are similar to pivot tables you might have created in various spreadsheet programs. Pivot tables create a cross-tabulation of two or more columns in a dataset. In VisiData, creating a pivot table involves the following steps: Use \\! to designate the column(s) you want to serve as the pivot table's rows. Optional: Use + to specify additional metrics. Navigate to the column you want to serve as the pivot table's columns. Press Shift-W.",
+      "chapter": "Creating pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "pivot tables",
+        "cross-tabulation",
+        "data reshaping"
+      ],
+      "notes": "Pivot table creation in 3-4 keystrokes; column order affects output ordering"
+    },
+    {
+      "extract": "To 'melt' a dataset is to reshape it from a 'wide' format to a 'long' one, specifically by converting each value in each column into its own row. Melting a dataset in VisiData involves the following steps: Optional: Use \\! to designate the column(s) you want to keep unmelted. Optional: Use - to hide the columns you don't want to appear, at all, in the melted sheet. Press Shift+M.",
+      "chapter": "Melting datasets",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data reshaping",
+        "wide to long",
+        "melt",
+        "tidy data"
+      ],
+      "notes": "Wide-to-long reshaping via melt; key columns stay fixed while non-key columns become variable-value pairs"
+    },
+    {
+      "extract": "If you're only using VisiData to preview a dataset, consider loading just the beginning of the file. If you're working with a simple CSV file, you can accomplish this by using head on the command-line, combined with vd -f csv e.g.: head -n 1000 faa-wildlife-strikes.csv | vd -f csv. Alternatively, you can use a written-for-speed tool, such as xsv, to slice or filter the file before loading it into VisiData. You can also just press Control-c while the data is loading, which will halt the loading process. VisiData handles this gracefully.",
+      "chapter": "Only load part of the file",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "performance",
+        "large datasets",
+        "data preview",
+        "command-line piping"
+      ],
+      "notes": "Three strategies for handling large files: head piping, pre-filtering with xsv, graceful load interruption"
+    },
+    {
+      "extract": "By default, VisiData considers the first row of a tabular dataset to be its columns' names. That's a safe assumption for many formats, but Excel spreadsheets often buck that trend, with titles, notes, or other cruft coming before the actual column names. You can auto-populate column names by navigating to the row that contains your desired column names, then type g^ to name all unnamed columns with the values in this row, or gz^ to name all columns.",
+      "chapter": "How to fix funky spreadsheets column names",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data cleaning",
+        "column headers",
+        "Excel",
+        "spreadsheet quirks"
+      ],
+      "notes": "Common Excel import problem: headers not on first row; VisiData offers flexible header row selection"
+    },
+    {
+      "extract": "You can do nearly all of the above from the Columns Sheet (Shift-C). When you're dealing with datasets with a particularly large number of columns, doing it this way can often be easier; you can see more of the columns at once, and you can adjust multiple columns at once. Setting column types: You can select multiple rows of the Columns Sheet and type g#, for example, to set all of the selected columns' types to integer.",
+      "chapter": "Manipulating columns from the Columns Sheet",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "Columns Sheet",
+        "batch operations",
+        "metadata management"
+      ],
+      "notes": "Columns Sheet enables batch type-setting and metadata operations across many columns simultaneously"
+    },
+    {
+      "extract": "VisiData is fast: it opens in a blink of an eye, and can load multi-megabyte datasets nearly instantly. It's nimble: makes it easy to search, filter, sort, and join any table. It's great for getting a grasp of new datasets: With just a few keystrokes, you can summarize any column. It works with lots of data formats: CSV, Excel, JSON, and more. It's non-destructive: VisiData won't alter your raw data unless you explicitly tell it to.",
+      "chapter": "Why use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "VisiData",
+        "tool selection",
+        "exploratory analysis",
+        "non-destructive analysis"
+      ],
+      "notes": "Key advantage: non-destructive exploration of data without altering source files"
+    },
+    {
+      "extract": "VisiData isn't for every task. You might want to choose another tool for: Complex analysis -- you're probably better off using Python, R, or another programming language. 'Literate' analysis -- although VisiData lets you save and replay your analyses, it's not as legible/flexible as Jupyter notebooks, R Markdown, or other tools. Mission-critical analysis -- VisiData is well-engineered, but still a relatively young piece of software.",
+      "chapter": "Why not use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "reproducibility",
+        "analytical complexity",
+        "limitations"
+      ],
+      "notes": "VisiData is for exploration, not production analysis; literate/reproducible workflows need different tools"
+    },
+    {
+      "extract": "Dynamic columns (for instance, those created with the = command) are calculated 'lazily' -- i.e., only when they're needed. If you're running a lot of operations on a dynamic column -- perhaps calculating its average, median, and sum -- you can save some time by first 'caching' it. When you cache a dynamic column, VisiData calculates its current state and never recomputes it. To cache (or re-cache) a column, navigate to it in your sheet and type z'.",
+      "chapter": "Caching dynamic columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "performance optimization",
+        "lazy evaluation",
+        "caching"
+      ],
+      "notes": "Cache computed columns before running multiple aggregations to avoid repeated recalculation"
+    },
+    {
+      "extract": "For many of the wildlife strikes in the dataset, species is 'unknown'. We want to focus just on the known species, so we'll filter out the unknowns. Press | to raise the select-by-search prompt, type 'unknown', press Enter. Now, all the unknown species are selected. But we want the opposite of that: only known species selected. To do that, let's toggle the selection for all rows, by typing gt (mnemonic: 'global toggle'). Now press double-quote to create a new sheet containing only those rows.",
+      "chapter": "Select only known species",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data filtering",
+        "unknown values",
+        "selection inversion",
+        "data quality"
+      ],
+      "notes": "Select-then-invert pattern: select unwanted rows, toggle all, then copy selected -- effective for excluding categories"
+    },
+    {
+      "extract": "To get the denominator for our calculations, we'll want to know the total number of reported collisions for each state. Create a frequency table on the STATE column with Shift-F. Then create a frequency table for the combination of STATE and SPECIES columns using gF. Then join the two frequency tables using the three-step join process with an inner join. Now that we have the numerator and denominator in the same sheet, let's calculate the percentage with an expression column: count * 100 / state_total.",
+      "chapter": "Count the number of collisions per state",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "rate calculation",
+        "normalization",
+        "frequency tables",
+        "joins",
+        "derived metrics"
+      ],
+      "notes": "Multi-step analytical workflow: create denominator table, create numerator table, join them, compute rate"
+    },
+    {
+      "extract": "Many of the highest-ranking species-state combinations seem to come from 'states' -- like the striped skunk that was struck in Nova Scotia -- with very few reported collisions. So let's limit the results to species-state combinations with at least 20 reports. To do that, we'll use z|, VisiData's 'select by expression' command: count >= 20. Then press double-quote to create a new sheet containing only the selected rows.",
+      "chapter": "Limit to rows with at least 20 collisions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "minimum threshold",
+        "small sample filtering",
+        "statistical validity",
+        "outlier handling"
+      ],
+      "notes": "Applying minimum count thresholds to exclude unreliable rates from small samples -- essential for honest analysis"
+    },
+    {
+      "extract": "As you can see, many of the reported collisions are missing height data, or appear to have occurred on the ground (i.e., HEIGHT == 0). So, let's focus only on collisions reported to have occurred above the ground. Type z| and then, at the prompt, type HEIGHT > 0. Then press Enter. Now press double-quote to create a new sheet with only the selected rows.",
+      "chapter": "Select only rows where HEIGHT is greater than zero",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "missing data",
+        "zero values",
+        "data subsetting",
+        "analytical scope"
+      ],
+      "notes": "Distinguishing between missing data and meaningful zeros is a key analytical decision"
+    },
+    {
+      "extract": "This is a two-step process. First, navigate to the HEIGHT column, and press + to add an aggregator. At the prompt type 'mean' and then press Enter. Adding an aggregator doesn't change the appearance of the sheet. Then, to get the average for each animal, navigate to the SPECIES column, and press Shift-F to create a frequency sheet. The mean HEIGHT now appears as an additional column in the frequency table.",
+      "chapter": "Get the average collision height for each species",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "group-by analysis",
+        "mean calculation"
+      ],
+      "notes": "Aggregator-then-frequency pattern: set aggregator on metric column, then create frequency table on grouping column"
+    },
+    {
+      "extract": "What if we want to find the species that are disproportionately involved in collisions in their state? How would you do that? (Hint: It involves just one more frequency table and one more join.)",
+      "chapter": "Take it one step further",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "disproportionality analysis",
+        "comparative rates",
+        "analytical extension"
+      ],
+      "notes": "Moving from descriptive to comparative analysis: asking about disproportionality requires baseline comparison"
+    },
+    {
+      "extract": "From anywhere within VisiData, you can press D to view the command log relevant to your current sheet. It ignores actions you may have taken outside of the current sheet's direct lineage. Essentially, it answers the question: What steps did I take to get here? Navigational commands do not appear in the command log. The reason: Navigating around a sheet doesn't alter its contents.",
+      "chapter": "Viewing the command log",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "reproducibility",
+        "command log",
+        "audit trail",
+        "analytical provenance"
+      ],
+      "notes": "Command log provides analytical provenance; distinguishes transformative actions from navigation"
+    },
+    {
+      "extract": "The command log behaves virtually the same as any other sheet in VisiData. That means you can sort, filter, and otherwise edit its rows, columns, and cells. That also means you can save just like you'd save any other sheet, with Control-s. To fully replay a saved command log, run: vd --play example-cmdlog.vd. You can adjust the replay behavior via various command line arguments, such as --replay-wait 2 which will pause two seconds between steps, or --batch --output cmdlog-results.csv which will replay in batch mode and save the result.",
+      "chapter": "Saving the command log",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "reproducibility",
+        "batch processing",
+        "command replay",
+        "automation"
+      ],
+      "notes": "Command logs can be saved, shared, and replayed for reproducible analysis; batch mode enables automation"
+    },
+    {
+      "extract": "VisiData can open a range of filetypes including: CSV files and any other delimiter-separated formats, Excel spreadsheets, Fixed-width files, SQLite databases, Postgres databases, MySQL databases, HDF5 files, SAS files, Stata .dta files, JSON/JSONL, XML, YAML, Shapefiles, HTML (looks for table tags), Website URLs (downloads the HTML, and then looks for table tags).",
+      "chapter": "Compatible filetypes",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "file formats",
+        "data import",
+        "format compatibility"
+      ],
+      "notes": "VisiData handles nearly all formats journalists encounter; some require additional pip packages"
+    },
+    {
+      "extract": "VisiData guesses which kind of file you're trying to open based on the file's extension. For instance, it will try to open my-csv-data.xlsx as an Excel file. To override that default, specify the filetype with the --filetype flag. For instance: vd my-csv-data.xlsx --filetype csv. You can also use the shorter -f flag.",
+      "chapter": "How to specify the file format",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "file format override",
+        "data import",
+        "file extensions"
+      ],
+      "notes": "Override format detection when file extensions are misleading"
+    },
+    {
+      "extract": "VisiData obeyed but marked some cells with a ! error/warning annotation -- specifically the empty cells, because Python considers it impossible to convert nothingness to a whole number. To examine this general error in greater detail, we can press z + Control-e to reveal its full traceback. There are two types of cell errors: Errors caused by type conversions (yellow exclamation mark) and errors stemming from dynamic column expressions such as =HEIGHT / 0 (red exclamation mark).",
+      "chapter": "Examining cell errors",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "error handling",
+        "data quality",
+        "type conversion errors",
+        "debugging"
+      ],
+      "notes": "Error annotations reveal data quality issues; two error types distinguish structural from computational problems"
+    },
+    {
+      "extract": "To persist your customizations from session to session, you can specify them in your computer's ~/.visidatarc file. Open that file in the editor of your choosing and, for each option you wish to modify, write options.my_example_option = my_custom_value. If you know Python and are willing to acquaint yourself with VisiData's architecture, you can use your ~/.visidatarc file to customize VisiData in ways far more powerful than simple option-setting -- including creating your own commands.",
+      "chapter": "The ~/.visidatarc file",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "configuration",
+        "customization",
+        "workflow automation"
+      ],
+      "notes": "Persistent configuration via .visidatarc enables standardized workflows and custom commands"
+    },
+    {
+      "extract": "Installing a plugin involves two steps: First, make the plugin available to VisiData. Depending on the plugin, you'll do this either by saving the plugin file to your ~/.visidata/ directory, or by running pip install [plugin_package_name]. Then, use your ~/.visidatarc configuration file to import the plugin. As with any software you download, plugins may contain malicious code. If you're unsure whether a plugin is safe to install, err on the side of caution.",
+      "chapter": "How to install a plugin",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "plugins",
+        "extensibility",
+        "deduplication",
+        "security"
+      ],
+      "notes": "Plugin ecosystem extends VisiData capabilities; security caution warranted for third-party code"
+    },
+    {
+      "extract": "In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press Space to initiate the longname-command prompt, and type random-rows. At the prompt, type the number of rows you'd like to include, and then press Enter.",
+      "chapter": "Select a random sample of rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "random sampling",
+        "data subsetting",
+        "exploratory analysis"
+      ],
+      "notes": "Quick random sampling for exploration of large datasets"
+    },
+    {
+      "extract": "There's just one step left before we can join the tables: making sure that the two frequency tables share the exact same key column. VisiData uses each sheet's 'key' columns to determine which rows to join. Because the key for the state-counts table is the STATE column, this table should also have STATE as its only key column. That means we need to un-key the SPECIES column.",
+      "chapter": "Prepare the state-species frequency table for joining",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "joins",
+        "key columns",
+        "data preparation",
+        "relational logic"
+      ],
+      "notes": "Key column alignment is essential before joining; must match key structure between tables being joined"
+    },
+    {
+      "extract": "One of VisiData's strengths is how quickly it lets you summarize your data. Frequency tables are a great example. To create one, press Shift+F. VisiData is an easy-to-use multipurpose tool to explore, clean, edit, and restructure data. Rows can be selected, filtered, and grouped; columns can be rearranged, transformed, and derived via regex or Python expressions; and workflows can be saved, documented, and replayed.",
+      "chapter": "Step 2: Test-drive a frequency table",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "VisiData",
+        "rapid exploration",
+        "data summarization",
+        "terminal tools"
+      ],
+      "notes": "Terminal-based tools offer speed advantages for initial data exploration over GUI applications"
+    },
+    {
+      "extract": "Command logs can help you demonstrate specific VisiData behavior to others, especially if that behavior involves more than a few steps. You'll want to do this, for instance, when filing potential bug reports. Some advice for doing so: When attaching a command log to a GitHub issue or comment, you'll need to change the file extension, since GitHub will reject filenames ending in .vd. If replaying the command log requires a specific dataset, attach that dataset in the same message and aim to make it as simple as possible.",
+      "chapter": "Sharing command logs on GitHub",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "collaboration",
+        "bug reporting",
+        "documentation",
+        "sharing"
+      ],
+      "notes": "Command logs serve as shareable analytical provenance; include minimal reproducible datasets when sharing"
+    },
+    {
+      "extract": "Navigate to any column, and then press Shift-F. With just one keystroke, VisiData has already told us something useful about the dataset: That the 'operators' associated with 31% of the wildlife strikes are, according to the FAA, 'unknown.' We have also learned, from the 'bins' mini-report at the bottom-right of the screen, that there are 282 distinct values in the 'OPERATOR' column.",
+      "chapter": "Frequency tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "frequency tables",
+        "data profiling",
+        "exploratory analysis"
+      ],
+      "notes": "Single-keystroke frequency tables for instant column profiling"
+    },
+    {
+      "extract": "Sometimes you want to count how often combinations of columns occur. VisiData also makes this easy. First, turn the columns you want to count into 'key' columns, using the \\! button. Then, type gF. With just a few more keystrokes, we've learned something else: Virtually all wildlife strikes with 'unknown' operators were identified based on carcasses found at the airport (rather than reports from pilots, for example).",
+      "chapter": "Multi-column frequencies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "cross-tabulation",
+        "multi-column frequency",
+        "data exploration"
+      ],
+      "notes": "Multi-column frequency tables reveal patterns in variable combinations"
+    },
+    {
+      "extract": "By default, frequency tables just count the number of times each value appears. But in VisiData, you can specify additional calculations by setting the column's 'aggregators'. VisiData's aggregators include min, max, mean, median, sum, distinct, and others. To add an aggregator to a column, navigate to that column and press +.",
+      "chapter": "Adding aggregators",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "summary statistics",
+        "grouped calculations"
+      ],
+      "notes": "Aggregators enrich frequency tables beyond simple counts"
+    },
+    {
+      "extract": "When using aggregators, make sure that you've assigned the proper type (# for integer columns, etc.) to the columns of interest, so that VisiData knows how to calculate the aggregations correctly.",
+      "chapter": "Adding aggregators",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data types",
+        "type casting",
+        "aggregation"
+      ],
+      "notes": "Column type assignment is prerequisite for correct aggregation"
+    },
+    {
+      "extract": "To get a bird's-eye view of your entire dataset, press Shift-I, which will provide summary statistics for each of your columns. In VisiData, this is called the 'Describe Sheet'. You'll notice that there are only min/max/median/etc. calculations for the columns we've given types.",
+      "chapter": "Summarizing all columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "summary statistics",
+        "describe sheet",
+        "data profiling"
+      ],
+      "notes": "Quick full-dataset profiling with Shift-I"
+    },
+    {
+      "extract": "Rather than guess at your column's data types, VisiData assumes that they're all plain-old text. If that column is a number or date, and you want to do any math-y operations on your column (e.g., sorting, summing, averaging, et cetera), you'll have to specify its type. To set a column's type, navigate over to that column and press one of the following keys: # Integer, % Float, $ Currency, @ Date, ~ Text.",
+      "chapter": "How to set column types",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data types",
+        "type casting",
+        "data preparation"
+      ],
+      "notes": "Explicit type assignment required before numeric/date operations"
+    },
+    {
+      "extract": "In VisiData, pressing the double-quote key will create a copy of your current sheet --- but one that contains only selected rows. So, to view only wildlife strikes that involved hawks, you could: Navigate to the SPECIES column, Press | to select by searching, then type hawk, and then press Enter. Then, press the double-quote key, which should give you a filtered sheet.",
+      "chapter": "Filtering selected rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "filtering",
+        "row selection",
+        "subset creation"
+      ],
+      "notes": "Select-then-filter workflow for creating data subsets"
+    },
+    {
+      "extract": "In VisiData, you can select rows by evaluating a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. The two keystrokes for this are z| and z\\. For instance: Type gu to unselect all rows, Type z|, Type OPERATOR == 'BUSINESS' and STATE == 'FL', Press Enter.",
+      "chapter": "Via expressions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "expression filtering",
+        "Python expressions",
+        "conditional selection"
+      ],
+      "notes": "Python expressions enable complex multi-column filtering logic"
+    },
+    {
+      "extract": "Expression columns evaluate a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. You can create an expression column by pressing =. Let's say we want to identify wildlife strikes that were reported to have occurred at least 100 feet above ground. We could press = to bring up the 'new column expr=' prompt, type HEIGHT >= 100, and press Enter.",
+      "chapter": "How to create an expression column",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "computed columns",
+        "expression columns",
+        "derived variables"
+      ],
+      "notes": "Expression columns create derived variables using Python syntax"
+    },
+    {
+      "extract": "You can split the text in any column in VisiData into two or more columns, based on a pattern (i.e., a 'regular expression' a.k.a. 'regex') that you provide. To split a column, navigate to that column, and press :. Just like you can split a column by using :, you can extract part of a column into a new column by using ;. For instance, type (\\d+) (with one set of parentheses for each capture group).",
+      "chapter": "How to create new columns by splitting another one",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "regex",
+        "column splitting",
+        "text extraction",
+        "data parsing"
+      ],
+      "notes": "Regex split and capture for parsing structured text in columns"
+    },
+    {
+      "extract": "To join two or more sheets in VisiData, you'll do the following: 1. In the sheets you want to join, mark the shared columns as 'keys'. 2. In the Sheets Sheet, select the sheets you want to join. 3. Press & to open the join-choice prompt, type your desired join type and press Enter. VisiData supports seven types of joins: inner, outer, full, diff, append, extend, merge.",
+      "chapter": "The sheet-joining three-step",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "joins",
+        "data merging",
+        "relational operations"
+      ],
+      "notes": "Seven join types available; key columns determine join behavior"
+    },
+    {
+      "extract": "VisiData's pivot tables are similar to pivot tables you might have created in various spreadsheet programs. Creating a pivot table involves the following steps: Use \\! to designate the column(s) you want to serve as the pivot table's rows. Optional: Use + to specify additional metrics. Navigate to the column you want to serve as the pivot table's columns. Press Shift-W.",
+      "chapter": "Creating pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "pivot tables",
+        "cross-tabulation",
+        "reshaping"
+      ],
+      "notes": "Pivot table creation via key columns and Shift-W"
+    },
+    {
+      "extract": "To 'melt' a dataset is to reshape it from a 'wide' format to a 'long' one, specifically by converting each value in each column into its own row. Melting a dataset in VisiData involves the following steps: Optional: Use \\! to designate the column(s) you want to keep unmelted. Optional: Use - to hide the columns you don't want to appear. Press Shift+M.",
+      "chapter": "Melting datasets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "melt",
+        "wide to long",
+        "data reshaping"
+      ],
+      "notes": "Wide-to-long reshaping with optional key column preservation"
+    },
+    {
+      "extract": "If you're only using VisiData to preview a dataset, consider loading just the beginning of the file. If you're working with a simple CSV file, you can accomplish this by using head on the command-line, combined with vd -f csv e.g.: head -n 1000 faa-wildlife-strikes.csv | vd -f csv. Alternatively, you can use a written-for-speed tool, such as xsv, to slice or filter the file before loading it into VisiData. You can also just press Control-c while the data is loading, which will halt the loading process.",
+      "chapter": "Only load part of the file",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "large files",
+        "performance",
+        "data preview",
+        "command-line pipes"
+      ],
+      "notes": "Multiple strategies for handling large files: head, xsv pre-filter, or Ctrl-C halt"
+    },
+    {
+      "extract": "By default, VisiData considers the first row of a tabular dataset to be its columns' names. That's a safe assumption for many formats, but Excel spreadsheets often buck that trend, with titles, notes, or other cruft coming before the actual column names. You can auto-populate column names by navigating to the row that contains your desired column names and typing g^ to name all unnamed columns with the values in this row, or gz^ to name all columns.",
+      "chapter": "How to fix funky spreadsheets' column names",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "Excel",
+        "header rows",
+        "column naming",
+        "data cleaning"
+      ],
+      "notes": "Common problem with Excel files where headers are not in first row"
+    },
+    {
+      "extract": "We want to focus just on the known species, so we'll filter out the unknowns. Navigate to the SPECIES column, press | to select by searching, type 'unknown', press Enter. Now, all the unknown species are selected. But we want the opposite: only known species selected. To do that, let's toggle the selection for all rows, by typing gt (mnemonic: 'global toggle'). Now press double-quote to create a new sheet containing only those rows.",
+      "chapter": "Select only known species",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "data filtering",
+        "inverse selection",
+        "data cleaning"
+      ],
+      "notes": "Select-then-invert pattern for excluding unwanted categories"
+    },
+    {
+      "extract": "Because we'll later be joining this sheet to another sheet, let's hide the percent and histogram columns. There's just one step left before we can join the tables: making sure that the two frequency tables share the exact same key column. VisiData uses each sheet's 'key' columns to determine which rows to join.",
+      "chapter": "Prepare the state-species frequency table for joining",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "join preparation",
+        "key columns",
+        "data alignment"
+      ],
+      "notes": "Key column alignment is prerequisite for correct joins"
+    },
+    {
+      "extract": "Now that we have the numerator and denominator in the same sheet, let's calculate the percentage of known-species collisions to each species in each state. Let's create the new column by pressing =, typing count * 100 / state_total, and then pressing Enter. Rename the column, press % to tell VisiData that it's a 'float'-type numeric column. By default, VisiData assumes that newly created columns are just plain-old text.",
+      "chapter": "Calculate each species' state-level percentages",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "calculated columns",
+        "percentages",
+        "normalization"
+      ],
+      "notes": "Complete workflow: join tables then compute derived metric via expression column"
+    },
+    {
+      "extract": "Many of the highest-ranking species-state combinations seem to come from 'states' --- like the striped skunk that was struck in Nova Scotia --- with very few reported collisions. So let's limit the results to species-state combinations with at least 20 reports. To do that, we'll use z|, VisiData's 'select by expression' command. Type z| to raise the selection prompt. Then, type count >= 20.",
+      "chapter": "Limit to rows with at least 20 collisions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "VisiData",
+        "minimum threshold",
+        "statistical validity",
+        "small sample filtering"
+      ],
+      "notes": "Setting minimum count thresholds to avoid misleading rankings from small samples"
+    },
+    {
+      "extract": "As you can see, many of the reported collisions are missing height data, or appear to have occurred on the ground (i.e., HEIGHT == 0). So, let's focus only on collisions reported to have occurred above the ground. To do that, we'll use z|, VisiData's 'select by expression' command. Type z| and then, at the prompt, type HEIGHT > 0.",
+      "chapter": "Select only rows where HEIGHT is greater than zero",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "missing data",
+        "zero values",
+        "subsetting",
+        "data quality"
+      ],
+      "notes": "Filtering out missing/zero values before analysis"
+    },
+    {
+      "extract": "This is a two-step process. First, navigate to the HEIGHT column, and press + to add an aggregator. At the prompt, type mean and then press Enter. Then, to get the average for each animal, navigate to the SPECIES column, and press Shift-F to create a frequency sheet. By default, frequency tables are sorted by the raw count of matching rows. To sort by the highest average collision height, navigate to the HEIGHT_mean column, and press ].",
+      "chapter": "Get the average collision height for each species",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "mean",
+        "grouped statistics",
+        "sorting"
+      ],
+      "notes": "Add aggregator to column first, then create frequency table to see grouped stats"
+    },
+    {
+      "extract": "It seems like a lot of these species show up just a few times --- too few to be particularly informative. Let's do something about that. First, type z| to raise the 'select by expression' prompt. Then, type count >= 20. Now press double-quote to create a new sheet containing only the selected rows.",
+      "chapter": "Limit the results to relatively common species",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "minimum sample size",
+        "statistical reliability",
+        "filtering",
+        "outlier removal"
+      ],
+      "notes": "Repeated pattern: threshold filtering to ensure analytical reliability"
+    },
+    {
+      "extract": "VisiData makes it easy to search, filter, sort, and join any table. It's great for getting a grasp of new datasets. With just a few keystrokes, you can summarize any column. It works with lots of data formats: CSV, Excel, JSON, and more. It's non-destructive: VisiData won't alter your raw data unless you explicitly tell it to.",
+      "chapter": "Why use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "exploratory analysis",
+        "non-destructive analysis",
+        "data formats"
+      ],
+      "notes": "Key selling points: speed, format flexibility, non-destructive workflow"
+    },
+    {
+      "extract": "VisiData isn't for every task. You might want to choose another tool for: Complex analysis --- you're probably better off using Python, R, or another programming language. 'Literate' analysis --- although VisiData lets you save and replay your analyses, it's not as legible/flexible as Jupyter notebooks, R Markdown, or other tools. Mission-critical analysis --- VisiData is well-engineered, but still a relatively young piece of software.",
+      "chapter": "Why not use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "reproducibility",
+        "literate programming",
+        "analytical rigor"
+      ],
+      "notes": "Honest assessment of tool limitations; reproducibility gap acknowledged"
+    },
+    {
+      "extract": "Puppeteer is Google's Node library that can control headless Chrome. It can: Take screenshots and PDFs of pages, Automate form submission, UI testing, keyboard input, Serve as a testing environment for JavaScript / web page rendering, Scrape web pages (save HTML).",
+      "chapter": "What is Puppeteer?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Puppeteer",
+        "headless browser",
+        "web scraping",
+        "JavaScript rendering"
+      ],
+      "notes": "Headless Chrome automation for scraping JavaScript-rendered pages"
+    },
+    {
+      "extract": "Process for collecting data: Collect --- Just request the page you want, wait for it to load, then save it all. Parse / extract --- At your leisure, load that saved page, and grab the data you seek. Transform --- Take that data and add to a database, save it as JSON, etc.",
+      "chapter": "Process for collecting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "ETL pipeline",
+        "collect-parse-transform",
+        "data collection"
+      ],
+      "notes": "Three-phase scraping: collect raw, parse at leisure, transform to usable format"
+    },
+    {
+      "extract": "Build a pipeline: Amazon Simple Queue Service --- Your to do list of URLs. Amazon Elastic Container Service --- Dockerized tasks are triggered by items in SQS (This is where Puppeteer runs). Amazon Simple Storage Service --- Save all HTML, screenshots and JSON.",
+      "chapter": "Build a pipeline",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "scraping infrastructure",
+        "AWS",
+        "SQS",
+        "Docker",
+        "cloud pipeline",
+        "scalable collection"
+      ],
+      "notes": "Production-scale scraping architecture: queue-driven, containerized, cloud storage"
+    },
+    {
+      "extract": "A note about organization: Use a consistent structure that allows for an easy look at the latest data.",
+      "chapter": "A note about organization",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "file organization",
+        "data management",
+        "naming conventions",
+        "scraping"
+      ],
+      "notes": "Brief but important: consistent file naming/structure for scraped data"
+    },
+    {
+      "extract": "Puppeteer Recorder Chrome plugin: Allows you to 'record' your browsing and user interactions, and generates the Puppeteer node you need to reproduce those actions. Record clicks, input events etc. Record screenshots. Pause the recording when navigating. Monitor recorded events. Export to Puppeteer code. Tweak the settings of the generated code.",
+      "chapter": "Also helpful: Puppeteer Recorder Chrome plugin",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Puppeteer",
+        "browser automation",
+        "code generation",
+        "scraping productivity"
+      ],
+      "notes": "Record-and-replay approach lowers barrier to writing scraping scripts"
+    },
+    {
+      "extract": "Generally, a web page consists of specifically formatted text files: .html (HyperText Markup Language) files give structure to a page, .css (Cascading Style Sheet) files determine how the page looks, .js (JavaScript) files add interactivity. Most HTML elements are represented by a pair of tags --- an opening tag and a closing tag. HTML elements can have any number of attributes, such as IDs, which uniquely identify elements, classes, which identify a type of element, and styles, which define how specific elements appear --- that will be useful to know about when we're scraping.",
+      "chapter": "HTML basics",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "HTML",
+        "web structure",
+        "scraping foundations",
+        "element identification"
+      ],
+      "notes": "Essential web literacy for identifying scrapeable elements"
+    },
+    {
+      "extract": "You can inspect specific elements on the page by right-clicking on the page and selecting 'Inspect' or 'Inspect Element' from the context menu. Hover over elements in the 'Elements' tab to highlight them on the page. This can be helpful when you're trying to figure how to uniquely identify the element you want to scrape. To examine all of the source code that makes up a page, you can 'view source.' Try to locate the element(s) that you want to target (use Ctrl+F to find).",
+      "chapter": "Inspecting HTML in your browser",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "browser devtools",
+        "element inspection",
+        "scraping preparation",
+        "HTML navigation"
+      ],
+      "notes": "Browser DevTools as prerequisite step before writing scraping code"
+    },
+    {
+      "extract": "There are many ways to grab content from HTML, and every page you scrape data from will require a slightly different trick. At this stage, your job is to find a pattern or identifier in the code for the element you'd like to extract, which we will then give as instructions to our Python code. Inspect the table element or view the page source. How would you pick the table element out from all of the elements that make up the page? Is it the only table? If not, does it have any attributes, like a class or ID, that would allow you to target it?",
+      "chapter": "Practice",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "pattern recognition",
+        "element targeting",
+        "HTML analysis"
+      ],
+      "notes": "Every scrape requires finding unique identifiers -- no universal approach"
+    },
+    {
+      "extract": "Today, we'll use two third-party Python libraries to help us scrape: requests is the de facto standard for making HTTP requests, similar to what happens when you type a URL into a browser window and hit enter. bs4, or BeautifulSoup, is a popular library for parsing HTML into a data structure that Python can work with.",
+      "chapter": "Import libraries",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Python",
+        "requests",
+        "BeautifulSoup",
+        "web scraping",
+        "libraries"
+      ],
+      "notes": "Core Python scraping stack: requests + BeautifulSoup"
+    },
+    {
+      "extract": "If you want to make sure that your request was successful, you can check the status_code attribute of the Python object that was returned. A 200 code means all is well. 404 means the page wasn't found, etc.",
+      "chapter": "Request the page",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "HTTP status codes",
+        "error checking",
+        "web requests",
+        "validation"
+      ],
+      "notes": "Always verify HTTP response status before proceeding with parsing"
+    },
+    {
+      "extract": "Before we start targeting and extracting pieces of data in the HTML, we need to turn that chunk of text into a data structure that Python can work with. That's where the BeautifulSoup (bs4) library comes in. We'll create a new instance of a BeautifulSoup object. We need to give it two things: The HTML we'd like to parse and a string with the name of the type of parser to use --- html.parser is the default and usually fine, but there are other options.",
+      "chapter": "Turn your HTML into soup",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "BeautifulSoup",
+        "HTML parsing",
+        "data structures",
+        "web scraping"
+      ],
+      "notes": "Parse HTML string into navigable tree structure"
+    },
+    {
+      "extract": "Our general strategy: 1. Find the main table with the data we want to grab. 2. Get a list of rows (the tr element) in that table. 3. Use a Python for loop to go through each table row and find the data inside it (td, or 'table data'). To accomplish this, we'll use two bs4 methods: find(), which returns the first element that matches whatever criteria you hand it, and find_all(), which returns a list of elements that match the criteria.",
+      "chapter": "Target and extract the data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "BeautifulSoup",
+        "table extraction",
+        "web scraping",
+        "find",
+        "find_all"
+      ],
+      "notes": "Standard table-scraping pattern: find table, find rows, loop and extract cells"
+    },
+    {
+      "extract": "Notice that the first item that prints is the header row with the column labels. You are free to keep these headers if you want, but I typically skip that row and define my own list of column names. Another thing to consider: On better-constructed web pages, the cells in the header row will be represented by th ('table header') tags, not td ('table data') tags. We can skip the first row by using list slicing: rows[1:], which means, take everything in the rows list starting with the second item.",
+      "chapter": "Loop through the rows and extract the data",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "table parsing",
+        "header handling",
+        "list slicing",
+        "Python"
+      ],
+      "notes": "Handle header rows separately; th vs td distinction matters"
+    },
+    {
+      "extract": "This is returning the entire Tag object --- we just want the contents inside it. You can access the .text attribute of the tag to get the text inside. It's also generally good practice to trim off external whitespace for each value, and you can use the Python built-in string method strip() to accomplish this as you march across the row.",
+      "chapter": "Loop through the rows and extract the data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text extraction",
+        "whitespace cleaning",
+        "strip",
+        "web scraping",
+        "data cleaning"
+      ],
+      "notes": "Always strip whitespace when extracting text from HTML elements"
+    },
+    {
+      "extract": "Now that we've targeted our lists of data for each row, we can use Python's built-in csv module to write each list to a CSV file. Define a list of headers to match the data. Using a with block, open a new CSV file to write to: Create a csv.writer object, Write out the list of headers using the writerow() method, Drop in the for loop and instead of just printing, create a list of items and use writerow() to write your list of data to file.",
+      "chapter": "Write the results to file",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "CSV output",
+        "Python csv module",
+        "data export",
+        "web scraping"
+      ],
+      "notes": "Standard pattern for writing scraped data to CSV"
+    },
+    {
+      "extract": "Remove internal whitespace: Python does not have a built-in string method to remove internal whitespace, but Googling around will yield a common strategy: Using the split() method to separate individual words in the string, then join()ing the resulting list on a single space. As a one-liner: my_text_clean = ' '.join(my_text.split()).",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "whitespace cleaning",
+        "Python string methods",
+        "split-join pattern",
+        "data cleaning"
+      ],
+      "notes": "split-then-join idiom for normalizing internal whitespace"
+    },
+    {
+      "extract": "Fetch multiple years: The table we scraped has WARN notices for the current year, but the agency also maintains pages with WARN notices for previous years. See if you can figure out how to loop over multiple pages and scrape the contents of each into a single CSV.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multi-page scraping",
+        "pagination",
+        "longitudinal data",
+        "web scraping"
+      ],
+      "notes": "Scaling from single-page to multi-page scraping via URL iteration"
+    },
+    {
+      "extract": "Build a lookup table: Each numeric code in the 'WIA Code' column corresponds to a local area. See if you can figure out how to create a lookup dictionary that maps the numbers to their locations, then as you're looping over the data table, replace the numeric value in that column with the name of the local area instead.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "lookup tables",
+        "data enrichment",
+        "code replacement",
+        "Python dictionaries"
+      ],
+      "notes": "Dictionary-based lookup for replacing codes with human-readable labels"
+    },
+    {
+      "extract": "Fix encoding errors: You might have noticed a few encoding problems --- e.g., Nestle is being rendered as NestlA. This is due to an encoding problem --- the warn_page.text is not encoded as utf-8. Using decode() and encode(), see if you can fix this. Hint: It looks like the state of Maryland is a big fan of latin-1.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "character encoding",
+        "utf-8",
+        "latin-1",
+        "data cleaning",
+        "web scraping"
+      ],
+      "notes": "Encoding mismatches common in government web scraping; detect and convert"
+    },
+    {
+      "extract": "Use Cheerio to parse the HTML file into an object that you can traverse. Extract the table that holds the data we want. Clean up code with regex. Parse the HTML table and quickly turn it into JSON. Save some metadata for the collection. Write the file out.",
+      "chapter": "Parse script",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "Cheerio",
+        "HTML parsing",
+        "regex cleaning",
+        "JSON conversion",
+        "Node.js"
+      ],
+      "notes": "Node.js parsing pipeline: Cheerio parse, regex clean, JSON output with metadata"
+    },
+    {
+      "extract": "Dynamic columns (for instance, those created with the = command) are calculated 'lazily' --- i.e., only when they're needed. If you're running a lot of operations on a dynamic column --- perhaps calculating its average, median, and sum --- you can save some time by first 'caching' it. When you cache a dynamic column, VisiData calculates its current state and never recomputes it. To cache a column, navigate to it and type z'.",
+      "chapter": "Caching dynamic columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "performance",
+        "lazy evaluation",
+        "caching",
+        "computed columns"
+      ],
+      "notes": "Cache computed columns to avoid redundant recalculation"
+    },
+    {
+      "extract": "In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press Space to initiate the longname-command prompt, and type random-rows. At the prompt, type the number of rows you'd like to include, and then press Enter.",
+      "chapter": "Select a random sample of rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "random sampling",
+        "data subset",
+        "exploratory analysis"
+      ],
+      "notes": "Quick random sampling for large dataset exploration"
+    },
+    {
+      "extract": "You can sort on multiple columns at once by 'key'-ing those columns (via \\!) and then typing either g[ (ascending) or g] (descending).",
+      "chapter": "How to sort rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "multi-column sort",
+        "data ordering"
+      ],
+      "notes": "Multi-column sorting via key columns"
+    },
+    {
+      "extract": "You can do nearly all of the above from the Columns Sheet (Shift-C). When you're dealing with datasets with a particularly large number of columns, doing it this way can often be easier; you can see more of the columns at once, and you can adjust multiple columns at once. Setting column types: You can select multiple rows of the Columns Sheet and type g#, for example, to set all of the selected columns' types to integer.",
+      "chapter": "Manipulating columns from the Columns Sheet",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "Columns Sheet",
+        "bulk operations",
+        "column management"
+      ],
+      "notes": "Columns Sheet enables batch column operations on wide datasets"
+    },
+    {
+      "extract": "Even if you don't want to edit your raw data in VisiData, knowing how to edit cells will still come in handy, since virtually everything --- including settings --- in VisiData is represented as columns and rows.",
+      "chapter": "Editing Row Cells",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "cell editing",
+        "settings",
+        "metasheets"
+      ],
+      "notes": "Everything-is-a-sheet philosophy means editing skills transfer to configuration"
+    },
+    {
+      "extract": "The order of the columns in a pivot table is based on the order the relevant values appear in the source sheet. If you want them to appear, instead, in alphabetical order, sort the source sheet's relevant column(s) first.",
+      "chapter": "Creating pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "pivot tables",
+        "column ordering",
+        "data presentation"
+      ],
+      "notes": "Pivot column order inherits from source; sort first if alphabetical order needed"
+    }
+  ]
+}

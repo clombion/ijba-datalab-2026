@@ -1,0 +1,1218 @@
+<!-- chunk: 1/1 | source: 97b-nicar-2015.md | words: 4974 -->
+<!-- headings: NICAR 2015 Tipsheets & Session Notes; nicar15-notes/bridging-the-developer-journalist-gap.md; Bridging the developer/journalist gap; Winning is good; But there are gaps; Challenges; Timelines; Being treated like a code monkey; How should journalists reach out to technologists; Data gone wrong; Middle part of the process; Questions; nicar15-notes/building-happy-teams.md; How to build a happy team; What's the purpose of your team?; How do you support your team?; How do you build a successful team?; How do you iterate on organization, not just product; Handling merging teams; Giving space to the team, managing managers -->
+
+# NICAR 2015 Tipsheets & Session Notes
+
+
+## nicar15-notes/bridging-the-developer-journalist-gap.md
+
+# Bridging the developer/journalist gap
+
+[Anthony DeBarros](https://twitter.com/anthonydb), DocumentCloud/IRE
+[Maureen Linke](https://twitter.com/maureenlinke), AP
+[Chrys Wu](https://twitter.com/macdiva), NYT
+
+
+## Winning is good
+
+Both developers and journalists want to do storytelling well.
+
+Developers do a good job when nobody notices anything's gone wrong. For some, it's a moral choice to work informing the public.
+
+Share a drive to be creative, enjoy the creative process.
+
+## But there are gaps
+
+Journalists v. IT departments
+
+Data vis v. journalists
+
+#### Challenges
+
+* Timelines
+* Changing workflow
+* Getting developers engaged
+* Being treated as code monkey when you're a journalist
+* Getting people to sit at the same table
+
+## Timelines
+
+Journalist expectations are based on what they already know. Why does it take so long to do something?
+
+Bring in the technologist early.
+
+Journalists' and developers' timelines are very different.
+
+Developers should educate newsrooms about realistic timelines.
+
+## Being treated like a code monkey
+
+Developers should have input into the project, not just be told what to do.
+
+"Proposing solutions" v. "proposing ideas"
+
+"If you would have told us you were doing this…"
+
+The "product" includes not just the words, video, data viz, etc. It's the all-encompassing container, including delivery mechanism. Everyone should understand the capabilities and limitations.
+
+Developers should create a presence in the newsroom. "Don't be the order taker at the drive-thru window."
+
+Personal relationships are key.
+
+## How should journalists reach out to technologists
+
+Bring them in early. Sometimes too early, but too early is better than too late.
+
+Have an idea what the story is before bringing in the technologist.
+
+Difficult for journalists to know when to bring in technologists, how they set priorities,etc.
+
+Different conversations at different times.
+
+Technologists are a tiny proportion of the whole newsroom, so it's hard for everyone to have an opportunity to work on projects.
+
+Some rules of thumb in one newsroom:
+
+* Involve us from day one
+* Data is not an optional, illustrative, extra. It's integral to the project.
+
+## Data gone wrong
+
+If a developer isn't involved early with data, bad things can happen.
+
+Missing data. Human error, machine error. Live data (election streams) can be fuzzy.
+
+Doing it at showtime is too late.
+
+From a presentation standpoint: I can't tell you anything until I see what the data is.
+
+So developers should avoid making specific commitments early on in the process.
+
+Pin it on your boss: "This is a really good idea, but I'll have to run it by my boss after I take a look at the data."
+
+
+## Middle part of the process
+
+Constant communication helps.
+
+When you're on a big project, a 10-minute status check-in every day or two can be a big help.
+
+"The only way to avoid surprised disappointment is to communicate."
+
+Specs help: Will the table be sortable. If there's a dropdown, what are the values. Should the map zoom in all the way or not?
+
+The journalist will often have reasons why or why not that the developer may not know.
+
+No surprises.
+
+## Questions
+
+Working almost as another editor on a story as a data person.
+
+Developing a culture of respect. Treat the developer as a journalist who can discover parts of the story too.
+
+Communicate why what you're finding is important.
+
+How do you say no?
+
+Comes from a place of respect. It's not that you don't want to do it, it's that it doesn't serve the story. They need to trust your judgment. Analytics come into play too.
+
+More granular analytics also help you figure out what features to include. Diminishing returns.
+
+How do you deal with developers having to split time between business side and editorial?
+
+Developers have responsibilities to fulfill, can't always take the time to work for the newsroom. Reporters can pitch stories to developers. Work as a side project, talk to manager, etc.
+
+## nicar15-notes/building-happy-teams.md
+
+# How to build a happy team
+
+[Brian Boyer, NPR](https://twitter.com/brianboyer)
+[Trei Brundrett, Vox](https://twitter.com/clockwerks)
+[Becca Aronson, Texas Tribune](http://www.texastribune.org/about/staff/becca-aaronson/)
+[Adam Schweigert, INN](http://investigativenewsnetwork.org/author/aschweigert/)
+[Lauren Rabiano, Vox](http://www.laurenrabaino.com/)
+
+[Brian Boyer's blog re: teams](http://happyhacks.tumblr.com)
+
+## What's the purpose of your team?
+
+Knowing what your mission is means you have a bar against which you can measure your work. If impact is important, how do you measure impact. If our job is to make people care, a lot of decisions get bounced off that.
+
+That mission came out of conversation with the team.
+
+Texas Tribune mission is politics and community engagement, which drives what they build.
+
+INN supports lots of different resources, aims to be a shared resource for them. Office hours every month. Mission came out of a conversation about how INN can suport its newsrooms.
+
+Vox product team supports 7 websites, so mission is product-centric.
+
+Mission statement is sort of hokey, (so NPR calls it a manifesto), but it's just a thing to hold up to say "are we doing this or not?"
+
+## How do you support your team?
+
+Understand the ultimate goal. Have someone who's in charge of keeping everything in order and on task.
+
+
+## How do you build a successful team?
+
+Finding personalities that complement each other, support team goal.
+
+It's important to like each other.
+
+Potential for individual growth.
+
+Inaugural team retrospective. A lot of folks felt like they didn't understand their role.
+
+"Responsibility without authority is like an apathy machine." — Brian Boyer
+
+Teams get unhappy when they feel like they're just churning.
+
+## How do you iterate on organization, not just product
+
+There's a lot of value in just the way you're organized — iterate on that too.
+
+Are responsibilities divided in a way that makes sense?
+
+The team is a product.
+
+We need more structure. Sprints. Documentation. A lot of it is GitHub.
+
+## Handling merging teams
+
+People's roles change.
+
+## Giving space to the team, managing managers
+
+Document/manifesto, making case for changes.
+
+Work on process to shield team from having to worry about that.
+
+Project planning meeting: Totally not transparent enough. People did not understand their destiny. Tweak: Open invite. You don't have to come if you're busy, but it's an open forum.
+
+## Creating visibility
+
+Training editors. Keep list of what you're doing, give clear options for priorities/costs.
+
+## The value of titles
+
+They can hold weight differently inside and outside of teams.
+
+Reporting structure is important too.
+
+INN lets people decide what their titles are if it's important to them.
+
+People don't want their titles to dictate what they do.
+
+One thing that's wrapped up in titles is opportunity. Upward mobility.
+
+## How do you create opportunity in a team
+
+Hard when there's limited budget, limited understanding of how effective the work we do is. So many people love their prose.
+
+Hard to shift the cultural dynamic, to get people to see we can have authority on a subject and add value.
+
+You can only move people up so far. Part of keeping people around is helping them learn.
+
+Don't skimp on perks. Conferences, a budget, etc. Ask them what makes you most happy and try to get it for them.
+
+If you can rig your team so no one has a shit job. But everyone does grunt work. Give people agency. We don't just take requests. Come to us with a problem, we'll help you solve it. Don't come to us with a solution.
+
+Making happy teams is about hearing what people have to say.
+
+## Meetings
+
+30-minute meeting. List of questions that we need answers for — be direct about it. Not "so, how do you feel about this." Have a purpose and intent. Small meetings, communicated out.
+
+Every meeting has to have an agenda. Even five minute meetings. Five minutes at the beginning is a lot better than an hour at the end.
+
+Don't just have an agenda. Have homework (ahead of time). Literally standing meeting, leaning is not allowed.
+
+Pushback against meetings that aren't for making decisions. Make sure only essential people are there.
+
+## Questions
+
+### Translating mission up and down
+
+Very short meeting every week with boss. Go through all the plans. Then boss can be scapegoat.
+
+"Steering wheels". Bring up backlog of potential stuff, prioritize through lens of mission. 
+
+Analytics and evidence can help make a point.
+
+Managers have to spend time helping team understand what's important. That's the work.
+
+### Recruiting
+
+"Be vicious. A bad hire is the worst thing in the world." No false positives. If anyone says no, they're off the list.
+
+Recruiting is a job, and only you as a manager can do it (not HR).
+
+Dual benefit to showing your work: Other teams can benefit, you can benefit from other teams.
+
+### Dealing with remote teams: checking up vs. personal interaction
+
+Slack as watercooler.
+
+Created opportunities to meet outside of work. INN Book Club, Office Hours.
+
+Even if your team is local, you don't socialize enough.
+
+### Teams of peers, advice of interpersonal interaction
+
+"Don't hire jerks."
+
+"Consensus is the best but only works if you're roommates or a country."
+
+Let's test it out.
+
+Have a tiebreaker.
+
+Culture of honest and open critique.
+
+### How do you create safe spaces?
+
+Anonymous surveys as starting point.
+
+Make a clear statement about why that's valuable to the organization.
+
+You have to make time for it.
+
+Critique session for in-progress projects.
+
+Shielding your team can be an excuse for not having hard conversations.
+
+## nicar15-notes/data-on-the-beat.md
+
+# CAR on the beat
+
+Jennifer Smith Richards [@jsmithrichards](https://twitter.com/jsmithrichards), The Columbus Dispatch
+Christopher Weaver [@cdweaver](https://twitter.com/cdweaver), Wall Street Journal
+Kate Martin [@KateReports](https://twitter.com/katereports), The News Tribune, Tacoma
+
+[Tipsheet](https://docs.google.com/document/d/10zBu1WAjX3JSo1M_mJm7ylnxaF035a1NkPa_wxaIbzQ/edit)
+
+### Procurement database
+
+All spending
+
+Can use to find purchase orders, then FOIA those
+
+### Time/expectations management
+
+Batch tasks
+
+Do small tasks to fill in time (file FOIA while waiting for callbacks)
+
+Keep lists of stories to do: one list of short-turnarounds, one list of bigger projects
+
+Estimate time accurately (e.g. overestimate time)
+
+Make sure it's a story before you say it's a story
+
+### Etc.
+
+Hoard data.
+
+#### How do you know what data is available?
+
+Talk to companies that specialize in analytics of your industry.
+
+Records retention schedule
+
+#### Using data in unconventional way?
+
+Roadkill database
+
+WSJ BLS and Census data to find locations that might be good places to cover specific stories
+
+#### What's good data for finding out about relationships between health systems and cities
+
+Stuff one arm of government sends to another.
+
+Hospital Cost Report
+
+#### BLS publishes data down to county level, has subject-matter experts, regional press offices
+
+"Let yourself fall down the rabbit hole". Go to a federal agency and see what's available.
+
+Request city cellphone numbers and who's assigned to them.
+
+#### Tools for using data in your newsroom
+
+Monitor websites: Change detection, [Google Alerts](https://www.google.com/alerts)
+
+[PANDA project](http://pandaproject.net/)
+
+[Tabula](http://www.tabula.com/)
+
+[CometDocs](http://www.cometdocs.com/) ([get it from IRE, for members](http://www.ire.org/blog/ire-news/2013/05/22/ire-announces-partnership-cometdocs/))
+
+#### How do you find stories in routine data
+
+Dataset of claims against the city for damages from vehicles
+
+EPA spills database
+
+Deer hunting data: Most prolific deer hunters in the state
+
+#### Difference between data reporting and beat reporting
+
+Part of data reporting is evangelizing to beat reporters. Having to let go of old beat.
+
+#### How can you help other reporters?
+
+Run interference on other people who want reporters to do more work.
+
+Let beat reporters know data exists. Monitor budgets. "If you ever want to do something like that, I can help."
+
+"Being super-available."
+
+Swoop in and ask for data.
+
+## nicar15-notes/humanizing-data.md
+
+# Humanizing data
+
+[Ryan Gabrielson](http://www.propublica.org/site/author/ryan_gabrielson)
+[Katie Park](https://twitter.com/katiepark)
+[Ron Nixon](http://topics.nytimes.com/top/reference/timestopics/people/n/ron_nixon/)
+[Nikole Hannah-Jones](http://www.propublica.org/site/author/nikole_hannah-jones)
+
+"Everybody and their mom writes a census story."
+
+"Numbers are a representation of things in the real world."
+
+How many people still have outhouses? Census has it!
+
+People 65+ are more likely to have houses with "other means of sewage disposal". But the story had only a few numbers in it. It was mostly people.
+
+When you write a densely-populated numbers story, it looks like The Matrix.
+
+## Nikole Hannah-Jones
+
+[Resegregation in the American South](http://www.theatlantic.com/features/archive/2014/04/segregation-now/359813/)
+
+Use data to find out what the story is, but not (necessarily) to tell it.
+
+### Who is the face?
+
+* One city or several?
+* A School?
+* A Team?
+* A Class?
+* Multiple characters or one?
+* Teacher or student?
+* Family?
+
+### Basic framework
+
+1. James (grandfather) — history of segregation leading up to and after Brown
+2. Melissa (mother) — Story of desegregation nationally and in Tuscaloosa
+3. D'Leisha — Intentional resegregation, present inequalities
+
+"You have to put more than just a human face, you have to tell a whole story."
+
+## Katie Park
+
+[slides](http://katie-park.com/nicar-2015.pdf)
+
+Can data visualization show empathy?
+
+"The near and the far" — individual stories and broader picture.
+
+Reducing a person to a little circle. It was important to represent them in a way that made them a little more human. [Used names.](http://www.washingtonpost.com/wp-srv/special/national/child-shootings-in-2012/)
+
+[Onesies](http://www.washingtonpost.com/sf/investigative/2014/08/30/in-virginia-thousands-of-day-care-providers-receive-no-oversight/?hpid=z3).
+
+[Provide context to meet people where they are](http://www.washingtonpost.com/sf/syrian-refugees/story/refuge/). "Since you started reading 10 Syrians have left the country."
+
+Breaking it down individually: [Intercept breakdown of U.S. liability payments to Afghanistan](https://theintercept.co/condolences/), shows an individual incident and a cost, rather than a total.
+
+## Ryan Gabrielson
+
+Humanizing data is a reporting challenge.
+
+Find the people whose numbers are being tracked. [California Watch Policing Overtime](http://californiawatch.org/node/16109)
+
+Get out from behind the desk. Track them down.
+
+"Treat data stories like you treat every story."
+
+[Deadly Force in Black and White](http://www.propublica.org/article/deadly-force-in-black-and-white)
+
+Supplementary Homicide Report: Documents homicides police deem justified.
+
+Simple graphic tells the story.
+
+Humanizing doesn't just mean "where's your lead anecdote". It's telling the story so people can understand in context of themselves and their community.
+
+## nicar15-notes/lightning-talks.md
+
+# Lightning Talks
+
+
+## The end of maps, in 7 charts 
+[Darla Cameron](http://www.washingtonpost.com/people/darla-cameron), Washington Post
+
+[Slides](https://docs.google.com/presentation/d/1yi-moviuq0Z87UUhsn7kEnwTuXYV3kOSLXkN3VDnsz4/pub?start=false&loop=false&delayms=3000&slide=id.p)
+
+Maps tend to show population density.
+
+Seven solutions for maps that don't tell stories.
+
+#### Lack of context
+
+Solution: Population squares
+
+#### Hidden info
+
+Solution:  List or table
+
+#### Too much data
+
+Small multiples
+
+#### National population maps
+
+Use other data points
+
+#### Wrong data display
+
+Map as navigation and/or put a face on it
+
+#### Too many categories
+
+Table or list
+
+#### Data isn't geographic
+
+Streamgraphs!
+
+Don't assume that since it's geographic data it must be explained on a map.
+
+## Beautiful Satellite Images in 5 Minutes
+[Jeff Larson, Pro Publica](http://www.propublica.org/site/author/jeff_larson) 
+
+[Slides](http://s3.amazonaws.com/thejefflarson/nicar-satellite/index.html)
+
+Images from space. Raw data is hard to color-correct.
+
+Schooner-tk for processing satellite images
+
+companion to GDAL and landsat util
+
+#### Multiblend
+
+Color-corrects series of images to same color profile
+
+#### Blend
+
+Gets rid of clouds
+
+#### Contrast
+
+"Black metal"
+
+#### Stitch
+
+Stitches images together into mosaics
+
+
+## 10 Things I Hate About You
+[Lily Mihalik](https://twitter.com/mazet) and [Anthony Pesce](https://twitter.com/anthonyjpesce), LA Times
+
+[Slides](https://docs.google.com/presentation/d/1PR3Jgqd65pL24Z_B8SxohljHlXJIbS1NuJeAhMGKmOo/edit#slide=id.g5aefec5516e9d4430)
+
+How designers and developers can work together
+
+#### Hit & run
+Designers: "Here's a comp. Work your magic!"
+
+#### Frontloading creativity
+Dream big early, feature requests early, edit later.
+
+#### Because I said so
+
+I know code vs. I know design. Compromise or convince.
+
+#### Thinking magical
+"Whip this up"
+
+"Can't you just"
+
+#### Lazy CSS
+Programmer: "It's close enough"
+Designer: "Argh"
+
+#### Speaking each other's love language
+Programmers paying attention to details, designers learning how to talk code
+
+#### Hierarchy of features
+Priorities and motivations
+
+#### Gotcha
+Iterate: You have to.
+
+#### Please and thank you
+
+## Stop trying to multitask. You’re terrible at it.
+[Chris Canipe WSJ](http://chriscanipe.com/)
+
+Programming's art. Requires critical thinking. Building elaborate machines every day. And constantly being interrupted.
+
+When we split time, we lose time. Losses to context switching.
+
+Attention is a finite resource.
+
+Your time is **your** time. Protect it. Build walls.
+
+Do tasks in order, don't switch between them.
+
+Don't be like me.
+
+
+## 5 data visualizations - each in 5 lines or less of R code
+
+[Sharon Machlis, Computerworld](http://www.computerworld.com/author/sharon-machlis)
+
+[Slides](http://www.computerworld.com/article/2893271/5-data-visualizations-in-5-minutes-each-in-5-lines-or-less-of-r.html)
+
+## Seven awesome features you will want in your next charting tool
+[Gregor Aisch](http://driven-by-data.net/)
+
+Inline text editing — edit labels without editing your data
+
+Direct selection of data points - add labels by clicking
+
+Free text annotations
+
+Adapting charts for different viewports
+
+Tight newsroom integration
+
+Multi-user support
+
+Custom javascript expert mode
+
+
+## The Five Stages of Terrible Data: Denial, Anger, Bargaining, Depression, Acceptance
+[Steven Rich WaPo](http://www.washingtonpost.com/people/steven-rich)
+
+[Slides](http://slides.com/stevenrich/yourdataisprobablybad#/)
+
+
+Using data *because* it exists is like eating the cleanest food in the trash can.
+
+Bad data looks like good data
+
+Missing data
+missing fields
+produced by companies
+field defs. fuzzy
+dirty
+
+can't always blame the data
+
+Understand:
+how it was collected
+why it was collected
+every column
+purpose
+
+two types of bad data
+
+bad data: Can use if can clean
+irredemably bad data: nope.
+
+#### Denial
+Can't be that bad
+
+#### Anger
+Isn't that bad!
+
+#### Bargaining
+What if it isn't that bad
+
+#### Depression
+It's bad and I feel bad
+
+#### Acceptance
+It's bad and I'll move past it.
+
+If you don't get through the stages, everyone suffers.
+
+#### How can we stop it?
+
+Slow. Down. Can't always do it today.
+
+Pick up the phone.
+
+Try to poke holes in it.
+
+Help your neighbor. Friends don't let friends use bad data.
+
+Bad data leads to bad stories.
+
+Bad stories lead to bad policies.
+
+Bad policies lead to bad outcomes.
+
+KNOW THY DATA.
+
+
+## Wrestling with data (without coding)
+MaryJo Webster
+
+10 favorite wrestling moves
+
+#### Need year in its own colum
+
+Excel date functions
+
+#### Addresses
+
+Text to columns
+
+#### Extra spaces
+
+Trim
+
+#### House numbers from names
+
+LEFT and MID (string functions)
+
+#### Transposition
+
+Transpose
+
+#### Multiple columns to multiple rows
+
+Tableau reshaper
+
+#### Reports
+
+IF THEN to create new rows, then can split
+
+If functions can also categorize
+
+#### Data with codes only, want the name
+
+VLOOKUP
+
+#### Standardize names
+
+Open Refine
+
+#### PDFs
+
+Tabula
+
+
+## What do blind people see? A thought-talk about our obsession with visuals and how it translates for the blind
+[Suyeon Son](https://twitter.com/suymilk)
+
+[Slides](http://suyeon-son.com/presentations/nicar2015-lt/#/)
+
+Let's get uncomfortable.
+
+What you see is not what I see.
+
+Perception != Sensation
+
+By abstraction. Associate visuals with other senses.
+
+By touch.
+
+By taste.
+
+By sound.
+
+## Stop letting the cool factor detract from your journalism
+
+[Ashlyn Still AJC](http://www.ajc.com/staff/ashlyn-still/)
+
+[Slides](http://ashlynstill.github.io/lightningtalk_ashlyn.pdf)
+
+We get too distracted by new and exciting.
+
+The Snowfall effect: Only works if it enhances the story.
+
+Our job isn't to make incredible things on the web, it's to tell incredible stories on the web.
+
+Every story doesn't need a cool interactive. Don't force visuals for the sake of visuals.
+
+Reporters: Talk early and often to data viz folks. Data Viz folks: Talk to reporters.
+
+Look at why you love cool stories, not just why they're cool.
+
+Don't say no to cool things just because they're cool things.
+
+## nicar15-notes/processes-for-data-driven-projects.md
+
+# Processes, Standards and Documentation for Data-Driven Projects
+
+#### (A.k.a. teamwork)
+
+[Paul Overberg, USA Today](http://www.usatoday.com/staff/1101/paul-overberg/)
+[Christopher Groskopf, NPR](http://www.npr.org/people/348761273/christopher-groskopf)
+
+
+## Case study — Changing Face, USA Today
+[changingface.usatoday.com](http://changingface.usatoday.com)
+
+* Focus on diversity
+* Data driven
+* ~70 newsrooms
+* National umbrella
+* Local data -> Local stories and approaches
+
+##### Based on USA Today diversity index:
+
+* every county 1960-2060
+* every public school, 1991-2011
+* Cities/tracts, 2000,2010
+
+#### Content for USA Today:
+
+* 3 major stories
+* Supporting graphics, video, interactives
+
+#### Content for networked newsrooms:
+
+* Data files
+* Advisories
+* Documentation
+* Data dictionary
+* Webinars for print and broadcast
+* Consultation
+
+### E pluribus pluribus!
+
+* Not a project
+* No set team
+* No common goal
+* No set schedule
+* No shared project
+
+Calls for a separate set of skills
+
+"Some people don't know how to play nice with the other kids."
+
+### To succeed when no one's in charge…
+
+* Listen **hard** (no project vocab/shorthand)
+* Respect: Focus
+* Respect: Park ego
+* Start project vocab early
+* Document early, often and in public
+* Signal all turns!
+
+## 16 solutions for data-driven projects
+
+bit.ly/nicar15-process-slides
+bit.ly/nicar15-process-notes
+bit.ly/nicar15-process
+
+Solutions for what? We're so bad at everything!
+
+Two people who make mistakes: Me and everyone else.
+
+### 1. Automate everything you reasonably can.
+
+Suggestion: Use bash
+
+### 2. Make scripts idempotent
+
+Cleanup after yourself. Running it twice shouldn't change the output.
+
+### 3. Never modify originals
+
+Treat files as immutable objects. 15 steps = 15 files
+
+### 4. Name things using least-to-most-specific pattern
+
+Year-Month-Day-Org-Topic
+
+Dashes to slashes creates a directory structure
+
+### 5. Test to validate the original data
+
+Is it what your souce is?
+
+### 6. Test to audit your transformations
+
+Is your file format conversion lossy?
+
+### 7. Test when you assert novel facts.
+
+CYA
+
+### 8. Write detailed logs
+
+It doesn't hurt to write to several different files.
+
+### 9. Script setup and querying on databases
+
+Then export to a neutral format.
+
+### 10. Follow the crowd
+
+Use CSV for tables. Use JSON for hierarchies. Use csvkit, ogr2ogr, jq etc. for processing.
+
+### 11. Define and follow coding conventions
+
+E.g. [NPR Visuals best practices](http://bit.ly/nprviz-best-practices)
+
+Better to have some process than no process.
+
+### 12. Store documentation with code
+
+In version control (earlier code = earlier/relevant documentation).
+
+### 13. Document provenance of data
+
+How was this data created?
+
+### 14. Have a setup script
+
+New users should not need to know how your dependencies work
+
+### 15. Be a ticketing zealot
+
+If you find a bug, don't fix it. Don't get distracted.
+
+### 16. Use comments to explain the why
+
+But **code** should never be confusing. And don't restate the code in comments.
+
+### 17(?). Be smart about breaking the rules.
+
+## Questions
+
+#### Ideas outside scope?
+
+"Let's talk later"
+
+#### Small temas or individuals?
+
+"Love letters to future you"
+
+#### Strategies for dealing with terrible filenames (if files are immutable)
+
+Files of originals, first step is to copy and change names
+
+#### Project management tools
+
+Training people in, like a militia.
+
+* People who we can mandate what they use
+* People who will learn if you approach them correctly (often 1 on 1)
+* Intransigent. Sometimes you just have to file a ticket and send an email.
+
+#### Doing data before the USA Today  project
+
+Bosses agreed USA Today should spearhead the project.
+
+Set up the timetable to front load on purpose.
+
+Maximizing asynchronousness
+
+#### Ticketing systems
+
+GitHub issues, because it integrates nicely. But it's not great.
+
+#### Allotting time for documentation as opposed to tutorials, etc.
+
+Part of the project planning. Whatever it takes to get it done. It's time well spent.
+
+Two sources of documentation in CSVkit. API docs and tutorial. Very different audiences.
+
+Non-technical users require non-technical documentation.
+
+#### Forcing yourself to comply with the rules
+
+Sometimes, but more guidelines.
+
+Worry less about editing SQL table than a file, because you're not going to hand edit SQL
+
+#### Dealing with non-reproducable steps
+
+1. Anytime you're doing something like Open Refine (or mapping one value to another e.g. normalizing data). Produce a mapping file, then use that.
+
+2. Also document that step in the code. Code break, say what you did, use new file.
+
+#### Feedback on documentation
+
+If it's bad, you'll get feedback.
+
+Share to smaller group first.
+
+Iterate documentation.
+
+## nicar15-notes/readme.md
+
+These are notes from sessions I'm attending at the National Institute of Computer Assisted Reporting conference in Atlanta, Ga. March 5-8, 2015.
+
+[Follow #NICAR15 on Twitter](https://twitter.com/hashtag/nicar15)
+
+[NICAR15 Schedule](http://www.ire.org/blog/car-conference-blog/2015/03/04/nicar15-schedule-updates-and-changes/)
+
+[Chrys Wu's links to everything](http://blog.chryswu.com/2015/02/20/nicar-2015-slides-links-tutorials/)
+
+## Thursday
+
+* [Facilitated discussion: Time and task management](time-and-task-management.md)
+* [Uncovering racial and economic divides using data](uncovering-racial-and-economic-divides-using-data.md)
+* [Data on the Beat](data-on-the-beat.md)
+* [Humanizing Data](humanizing-data.md)
+
+## Friday
+
+* [Bridging the developer-journalist gap](bridging-the-developer-journalist-gap.md)
+* [Red alert: Tools to automatically generate story leads](red-alert-story-leads.md)
+* [Lightning Talks](lightning-talks.md)
+
+## Saturday
+
+* [Processes, Standards and Documentation for Data Driven Projects](processes-for-data-driven-projects.md)
+* [How to build a happy team](building-happy-teams.md)
+
+## Sunday
+
+* Installation Party!
+* QGIS 2
+* Advanced DocumentCloud
+
+## nicar15-notes/red-alert-story-leads.md
+
+# Red alert: Tools to automatically generate story leads
+
+[Abe Handler](https://twitter.com/abehandler), The Lens
+
+[Thomas Thoren](https://twitter.com/thomasjthoren), The Lens
+
+[Todd Wallack](https://twitter.com/twallack), Boston Globe
+
+[slides](http://bit.ly/RedAlertNICARSlides)
+
+## Basic tools
+
+* Google alerts
+* Email lists
+* RSS Feeds (FEC)
+* [IFTTT](https://ifttt.com/)
+* Twitter
+
+## Page monitoring tools
+
+* [Page Monitor](https://chrome.google.com/webstore/detail/page-monitor/pemhgklkefakciniebenbfclihhmmfcd?hl=en) (Chrome)
+* [SiteDelta](https://addons.mozilla.org/en-us/firefox/addon/sitedelta/) (FF)
+* [Changedetection.com](https://www.changedetection.com/), [followthatpage.com](https://www.followthatpage.com/)
+
+## Socrata
+
+Common govt. data portal service, supports RSS feeds for updates or new data
+
+## Other news apps
+
+E.g. [Sunlight Foundation's Scout](https://scout.sunlightfoundation.com/), [Influence Explorer](http://influenceexplorer.com/)
+
+[Justia.com](https://www.justia.com/)
+
+SEC Filings
+
+[Morningstar Document Research](http://www.10kwizard.com/) (paid) — monitor whether any company based in a particular state files a form with any particular word.
+
+## Custom tools
+
+Marshall Project's Klaxon checks webpages for changes and sends out alerts automatically
+
+PANDA's email alerts
+
+Baltimore Sun scrapes court appeals decisions
+
+Boston Globe scrapes state court site
+
+CPI scrapes lobbying reports and adds to Google Spreadsheet
+
+P-D built scrapers for 911 calls, PACER RSS Feeds, ethics commission for large donations
+
+Boston Globe scrapes court system data, court filings
+
+Have tools that have more than one purpose. Repurpose what you have.
+
+## Alert systems at The Lens
+
+Gets city contracts. Looks at owners of those firms who got the contracts. Looks at donations from ethics data.
+
+Alert reporter by email, update public-facing app.
+
+Gaol: Use alert system to get new insights about contracting. Don't know contracts' values or dates, so computer tries to extract this info and reporter verifies. Reporter is training the app to get better.
+
+## nicar15-notes/time-and-task-management.md
+
+# Time & Task Management
+
+**Facilitator: Brent Jones**
+
+This was a small group discussion with four others.
+
+There are a lot of roles that everyone has to take on – infinite number of stories that you COULD be doing, but what SHOULD you be doing?  What’s working well for you?
+
+###What are you using now?
+
+* Different colored Post-its and lists.
+* Primary to do list – ‘To Do 5-14’ – long list of items kept on a laptop.
+* [Trello](https://trello.com/) App (online so you can access it anywhere you are) – allows you to create boards – project boards and daily schedule in there, you can attach files.
+* Paper list.  Sometimes ineffective because he’s on the road or he needs to add something to the list.
+* [Omnifocus](https://www.omnigroup.com/omnifocus) app – built specifically for task management with teams – it’s for work and home stuff.
+* [Google Calendar](https://www.google.com/calendar): Excel document of what you need – what time do you need to arrive? What do you need?  Also allows you to set reminders.
+
+### Work environment, volume of work, projects or individual tasks, desk or on the road?
+
+* Distractions that can’t be put on hold – using headphones instead of earbuds to signify you are doing a task.  
+* Finding a solution to centralize your distractions – finding a solution to your distractions so you’re more efficient day to day.  
+
+### What’s your system?
+
+* Book: [Getting Things Done by David Allen](http://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280) – it defines a process and how to get things organized.
+* Pull tasks out of project – how many tasks can I get done this week to contribute to the larger project.  Putting things in order 
+* Planning: seeing projects and identify different areas that clash.
+
+### Don’t forget about the bigger picture!
+
+* I’m going to work today and here’s what I’m going to get done today but what are your other responsibilities are? ex. Keep up with new tools.
+* Where am I going and where do I want to be in 5 or 10 years?
+
+### What about other responsibilities, how do you handle those?
+
+* Working with other people is tricky – making sure those expectations are managed.
+* Managing your world – creates a kind of competition so people don’t want to drop the ball
+* Sometimes you have to let things fail and work to improve things next time.
+* Setting clear expectations: Do you want me to call this person or are you going to do it?  I’m going to deal with my world and you need to deal with your world.
+
+
+### Exercise:
+
+Think of One thing you have to do?  Think about that thing and think about the next physical thing you need to do to make that happen and write it down.  
+
+#### RESULTS!
+
+If there’s a project that’s kind of stuck – thinking about the next physical action you need to do to move it forward – writing it down helps!
+
+## nicar15-notes/uncovering-racial-and-economic-divides-using-data.md
+
+# Uncovering racial and economic divides using data
+
+[Slides](http://bit.ly/1BLgX5q)
+[IRE link](http://ire.org/events-and-training/event/1494/1706/)
+
+* [David Herzog](http://journalism.missouri.edu/staff/david-herzog/)
+* [Nikole Hannah-Jones](http://www.propublica.org/site/author/nikole_hannah-jones)
+* [Tim Henderson](https://twitter.com/timhendersonsl)
+* [Malik Singleton](http://www.journalism.cuny.edu/faculty/)
+
+### Detecting racial disparities in your town
+
+— David Herzog
+
+Driven by reaction to Ferguson
+
+News orgs were covering pieces of the story
+
+[NYT: Arrest warrants per capita in Missouri towns](http://www.nytimes.com/interactive/2014/08/24/us/100000003072720.embedded.html?_r=0)[Buzzfeed: Segregation in Ferguson](http://www.buzzfeed.com/jsvine/the-ferguson-area-is-even-more-segregated-than-you-thought)
+
+#### Wanted to look at comprehensive picture
+
+* Law Enforcement
+* Economy
+* Education
+* Segregation
+
+##### Tried to get data at city level
+
+Looked at 22 MO cities:
+
+* At least 10k people
+* At least 10% black population
+
+##### Law Enforcement data
+
+* Adult and juvenile arrest rate disparities
+* Traffic stop disparities
+* Warrants per 10k population
+* Percent of total municipal revenue from courts
+
+Turned it into a local TV news story
+
+#### Economy
+
+* Poverty disparity
+* Unemployment disparity
+
+#### Segregation
+
+Buzzfeed used dissimilarity index
+
+* Black-white dissimilarity
+* Isolation
+* Black-white interaction
+* Delta
+
+Census bureau on housing patterns
+
+Turned into a story by NPR affiliate with interactive map.
+
+### Racial inequality: Finding out why
+
+— Nikole Hannah-Jones
+
+[Slides](https://docs.google.com/presentation/d/1BieE5i9z0jG9hje9M4xy2Fi1fBrwNkhynWHkXH9beQo/edit)
+
+[Mapping creation of segregation](projects.propublica.org/graphics/city-maps)
+
+#### Is it class, not race?
+
+Not in Westchester county: [Mapping segregation in Westchester](http://www.propublica.org/article/mapping-segregation-in-westchester)
+
+#### Why are schools segregated?
+
+Where is resegregation happening most?
+
+[Segregation Now](http://www.propublica.org/article/segregation-now-the-resegregation-of-americas-schools)
+
+Finding national trend: Easier said than done. Months of research to write one graf.
+
+##### Making their own data
+
+[School Segregation After Brown](projects.propublica.org/segregaion-now/)
+
+Displayed data and created database for others to use.
+
+[School districts didn't know whether they had been under an order or not](http://www.propublica.org/article/lack-of-order-the-erosion-of-a-once-great-force-for-integration)(!)
+
+#### Truth-squadding
+
+Testing assumptions
+
+[Census dot map laid over school district zones.](http://www.propublica.org/article/segregation-now-the-resegregation-of-americas-schools#dleisha)
+
+[Differences between Ferguson, Normandy and Clayton](http://www.propublica.org/article/ferguson-school-segregation)
+
+
+"Racism gets reduced to intent, as if intent is all that matters." — David J. Leonard
+
+Racial inequality is not an accident or simply a legacy of the past.
+
+### Tim Henderson
+
+[Section 8 units by census tract](data.lohud.com/watchdog/section8.php)
+
+### Questions
+
+#### Avoiding preaching to the choir and "singing the same old song"
+
+#### Working with reporters, coders, data team
+
+#### Breaking through preconceptions, prejudices of audience

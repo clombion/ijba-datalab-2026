@@ -1,0 +1,787 @@
+{
+  "source_id": "21",
+  "source_file": "21-digital-investigative-journalism.md",
+  "source_title": "Digital Investigative Journalism",
+  "author": "Oliver Hahn, Florian Stalph (eds.)",
+  "year": "2018",
+  "chunk": "2/3",
+  "chunk_file": "21-digital-investigative-journalism_chunk2.md",
+  "chunk_words": 39944,
+  "extracts": [
+    {
+      "extract": "If you make a tooltip or rollover assume that no one will ever see it. You cannot expect the reader to interact with your graphic. All critical information must be visible in the very first layer and not hidden behind interactivity.",
+      "chapter": "Interactive Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "interactivity",
+        "user experience",
+        "information design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Mirko Lorenz describes the workflow for data journalism as: Data Acquisition (scrape it, cleanse it, structure it, and start digging into it), Data Filtering (mine it for nuggets of information), Visualisation (create charts, graphics, or any kind of multimedia), Storytelling (tell the story around it, to vamp up the dry statistics and point out the interesting parts). The further along you move in that process, the more value you create for the reader.",
+      "chapter": "Interactives in the News",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data journalism workflow",
+        "data acquisition",
+        "visualization",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Topics best suited for interactive treatment include 'Big data' stories concerning stories buried in large data sets, non-statistical process visualisations that help the audience understand an issue, and personalised information generators such as calculators. Outliers often make for good stories, as do stories which involve processes or personalisable information.",
+      "chapter": "Interactives in the News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "interactivity",
+        "story selection",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Whether interactives are used is less dependent on the subject but due in part to the availability of 'newsworthy' data, and in part to newsroom dynamics. Since producing those interactives takes a lot of resources, 'important' stories are more likely to be selected for coverage.",
+      "chapter": "Interactives in the News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resource allocation",
+        "newsroom dynamics",
+        "interactivity",
+        "editorial decisions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Not all newsrooms have dozens of people in an interactive lab; they often rely on the eagerness of individuals willing to invest extra time in side projects, and in learning to work with available tools on their own. This can potentially lead to the journalistic output to be shaped less by what could be considered the best way of representing the data and more by what can be done and is available for free.",
+      "chapter": "Does Digital Journalism Need Interactives?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom resources",
+        "tool constraints",
+        "data visualization",
+        "skills gap"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data Visualisation is there to clarify—not to simplify. While it is necessary to remove unnecessary information and simplify the message, we must be extremely careful in ensuring that nothing essential is removed. Sometimes, clarity can require additional data to provide the appropriate context—a task extremely well suited for interactivity.",
+      "chapter": "Complex Visual Storytelling Needs Interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "clarity",
+        "simplification",
+        "context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The decision to use interactivity has to be deliberate, conscious, and considered. Does this particular piece really need to show more data than we can fit in a static graphic? Interactivity is an extra layer for visualisations that will make it more complex and therefore more time-consuming.",
+      "chapter": "Rules of Thumb: Justify Interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactivity",
+        "design decisions",
+        "data visualization",
+        "editorial judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every visual decision generates meaning. Our eye assigns meaning to every detail that is there. We assign significance to it at least subliminally. So be careful not to generate the wrong cues. Disable interactivity if it does not have a purpose.",
+      "chapter": "Rules of Thumb: No Arbitrary Interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visual meaning",
+        "interactivity",
+        "design principles",
+        "user cognition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Make the decision who is driving: author or reader. An author-driven approach uses linear storytelling and the author guides the reader through the visualisations. A reader-driven approach gives the reader many more options to interact and explore. The BBC Specials team found that when taking a prescriptive narrative approach, more readers are likely to complete all stages of the interactive.",
+      "chapter": "Rules of Thumb: Lean Forward or Lean Back",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative design",
+        "author-driven",
+        "reader-driven",
+        "interactivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A graphic should work on different comprehension levels (the 'Bart and Lisa approach'). Bart, with his low-attention span, should be able to get the message without having to move the mouse at all; whereas Lisa can dig way deeper to satisfy her curiosity. The important parts have to be there even without interacting.",
+      "chapter": "Rules of Thumb: Bart and Lisa Approach",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information design",
+        "layered storytelling",
+        "accessibility",
+        "audience levels"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If we decide to use the latest web technologies there has to be a fallback solution. Rather than showing a message like 'Please go to your desktop computer', it would be good to have a static fallback image that shows as much as possible. Consider all the platforms and devices and offer at least a fallback solution.",
+      "chapter": "Rules of Thumb: Have a Fallback Solution",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "responsive design",
+        "mobile",
+        "fallback",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Interactive features often remain undiscovered by the audience. If you are deciding to use an interactive graphic, make it clear how this interactivity is supposed to work. Include annotations, instructions, directions, or suggest the interactivity with visual means. Do not assume the reader will intuitively know what to do.",
+      "chapter": "Rules of Thumb: Suggest Interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "user experience",
+        "affordances",
+        "interactivity",
+        "design guidance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Geolocation involves using all available material to confirm the location of an image. Often this involves satellite imagery available on services such as Bing Maps, Google Earth, Google Maps, and Terraserver. On the ground imagery whose location has already been established is also frequently used, including Panoramio and Google Street View.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "satellite imagery",
+        "verification",
+        "image analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What must first be established is the original source of the image. Reverse image search functions on Google Image Search or TinEye is the first tool to use in the search for the original source. One pitfall is that dynamically generated pages can lead to misleading results—the date given in search results may be when the webpage was created, not when the image was posted.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reverse image search",
+        "source verification",
+        "provenance",
+        "pitfalls"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Videos can be harder to find. Unlike photographs, there is currently no reverse search platform for videos, but Amnesty International's YouTube Dataviewer will extract the preview frames from a YouTube video, allowing them to be easily reverse image searched. However, it will not be accurate if the video is edited, shortened, or extended with additional footage.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "video verification",
+        "YouTube",
+        "reverse image search",
+        "Amnesty International"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you are able to find the original source of the image, look at whatever was posted along with it. An Instagram image or Facebook post might have the location listed in the description or discussed in the comments. The next step would be to look at the profile it was posted on. Does it usually post about one location? Is the person who posted it talking about their movements?",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "social media analysis",
+        "source investigation",
+        "geolocation",
+        "context clues"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Begin first by identifying large features and distinct landmarks. These two larger features take you to the same location, but next the video should be re-examined to identify other smaller features. The position of the curb, the location of utility poles (visible by the shadows they cast), the position of buildings and trees. While these features would not have led to the location, they allowed confirmation of the location and precise position of the camera.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "landmark identification",
+        "satellite imagery",
+        "verification technique"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Understanding how information is organised and shared online can also be useful. A bus visible in an image would suggest the location is on a bus route. In many countries bus routes and tramlines are available online and often include maps. On Google Earth and Yandex Maps tram and bus routes are sometimes visible, which can dramatically reduce the number of areas needing to be looked at.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "open data",
+        "transport infrastructure",
+        "online databases"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The only way to develop geolocation skills is simply just to do it. When I began verifying images, I found it extremely helpful to write out the steps I had taken to verify the image. This allowed me to really understand the process in my mind, and to develop my own approaches. It also pays to revisit old cases, reviewing images you may have looked at months or years ago, as often you will spot new details.",
+      "chapter": "Visual Analysis: Verification via Geolocation and Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "skill development",
+        "geolocation",
+        "practice",
+        "reflective learning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative journalists adopt a distinctly quasi-scientific approach, setting out to prove or disprove a hypothesis through triangulation of information from various sources. Traditional methods of authentication include assessing the reliability of individual sources and cross-checking with two or more independent sources to corroborate facts.",
+      "chapter": "eyeWitness to Atrocities: Verifying Images with Metadata",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "hypothesis testing",
+        "source reliability",
+        "corroboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When images are shared via Facebook, Twitter, YouTube, or WhatsApp, key information about the source and context are often stripped or misattributed. Smartphone apps designed to collect key metadata information such as time, date and location at the point of capture include eyeWitness to Atrocities, Truepic, Whistler, the Guardian Project's CameraV and Proofmode.",
+      "chapter": "eyeWitness to Atrocities: Verifying Images with Metadata",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "metadata",
+        "image verification",
+        "social media stripping",
+        "evidence tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Courts require images to be reliable. In assessing reliability, courts consider whether images are original and unedited from the source, the chain of custody record, and information about the time, date and location at the point of capture. The chain of custody means information to establish the integrity of the image by tracing where it has been, who has had access and how susceptible to tampering it has been.",
+      "chapter": "eyeWitness to Atrocities: Legal Reliability",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chain of custody",
+        "evidence standards",
+        "legal admissibility",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Technology tools are best deployed through collaborative, reciprocal partnerships where assumptions and design are open to consultative re-evaluation. Technology tools designed for human rights investigations are not suited to all contexts. Investigators should consider physical and digital security risks, availability of equipment, level of technology skills, access to Wi-Fi and cell tower coverage.",
+      "chapter": "eyeWitness to Atrocities: Challenges to Consider",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "technology deployment",
+        "security",
+        "partnerships",
+        "context assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Human rights investigators should adhere to the 'do no harm' principle, which is the ethical obligation not to jeopardise the safety of victims and witnesses. The person collecting the data, the victims and bystanders appearing in images should have the opportunity to consent to use of the data where possible and appropriate.",
+      "chapter": "eyeWitness to Atrocities: Challenges to Consider",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "do no harm",
+        "informed consent",
+        "ethics",
+        "source protection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A more targeted approach to data collection like crowdseeding may ameliorate concerns about anonymous, inexperienced documenters, as it allows for selection and training of the documenters. It is important that technology tools for human rights investigations complement, rather than replace, other documentation and verification methods.",
+      "chapter": "eyeWitness to Atrocities: Challenges to Consider",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "crowdseeding",
+        "crowdsourcing",
+        "training",
+        "complementary methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is a vast gulf between facts and truth, and history is strewn with factual images that have been used to tell lies. Photography's relationship with truth is little more than 'belief' imposed by the viewer. The photographer's own methodology, personal ethics and politics all lead to the actual act of framing—the taking of the photograph—and then a second act of framing occurs in how publications use and contextualise a particular image.",
+      "chapter": "A Matter of Perspective: Truth, Evidence and the Role of Photography",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "photography",
+        "truth",
+        "framing",
+        "editorial context",
+        "subjectivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Photography can assist in helping us to understand on an emotional level, but it can't explain. In the digital arena one cannot with any certainty look at a photograph and say, 'So that is how it was.' A photograph becomes a starting point in a wider dialogue rather than an end, a static piece of evidence.",
+      "chapter": "A Matter of Perspective: Truth, Evidence and the Role of Photography",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "photography",
+        "evidence",
+        "digital age",
+        "truth claims",
+        "limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A forensic approach builds up a more complete sense of depth of coverage and evidence. The similarities between the role that the photograph plays in journalistic discourse and in the courtroom is striking: in both arenas the photograph serves to help the audience grasp complex issues by simplifying them and by giving a sense of place and orientation that textual descriptions alone cannot deliver.",
+      "chapter": "A Matter of Perspective: Truth, Evidence and the Role of Photography",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "forensic photography",
+        "evidence",
+        "visual journalism",
+        "courtroom parallels"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Three-dimensional scanning creates an enormous data set of a particular environment which can be recreated as a three-dimensional model. This is 'pure documentary' where a data set is collected free from the hindrance of any bias or perspective, free from the limitations of a two-dimensional camera. Everything is collected, and it is only later that this moment is recreated so that it can be interrogated from multiple perspectives.",
+      "chapter": "A Matter of Perspective: Truth, Evidence and the Role of Photography",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "3D scanning",
+        "forensic architecture",
+        "evidence collection",
+        "digital documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Step 1 Source: Journalists should always prefer sources of particularly high credibility such as news agencies and known professional photographers. If the origin of a photograph cannot be clarified, it should not be spread. Social networking sites should be regarded as a toxic environment for image research, as captions are often deliberately or mistakenly falsified.",
+      "chapter": "The Context Verification of Digital Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source assessment",
+        "credibility",
+        "social media",
+        "image verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Step 2 Seriality: When assessing the authenticity of a possibly faked photograph, it is a good strategy to ask the source for further material from the same series. Additional aspects of the situation become visible which allow a better assessment. If the source cannot or will not provide further material, the credibility of the justification is a further hint for authenticity.",
+      "chapter": "The Context Verification of Digital Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "photo series",
+        "authenticity",
+        "source cooperation",
+        "verification technique"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Step 3 Quality of Data: Digital manipulations are much more difficult to apply to RAW files than to JPEGs. Editorial teams should request access to any RAW file related to a photograph of questionable authenticity. The accompanying metadata should be included in the assessment—GPS coordinates, focal length, shutter speed should be compared with the caption. Metadata readers available only online should be avoided since sensitive image material should not be uploaded without further need.",
+      "chapter": "The Context Verification of Digital Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "RAW files",
+        "metadata",
+        "EXIF data",
+        "image forensics",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Step 4 External Validation: If the source is credible, the photo is part of a larger series, and data is high quality, fair journalistic care has been provided. If not, the search radius should extend to the Web. Use monitoring pages such as snopes.com to search for keywords or URLs. Step 5 Conspicuous Features: Examine attire for cultural context, religious traditions, or climatic conditions. Search for anything containing writing—road signs, number plates, advertisements. Even power sockets or floor coverings can indicate which country.",
+      "chapter": "The Context Verification of Digital Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "external validation",
+        "visual clues",
+        "cultural indicators",
+        "debunking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Step 6 Similar Pictures: Use image search images.google.com to insert the URL or upload the image directly to find it elsewhere. The context published can be helpful in assessing authenticity. Step 7 Plausibility: Compare visible phenomena such as weather with databases. Wolframalpha.com makes it possible to search historical weather data. If there is sunshine in a photo and the database indicates heavy rain, you might be confronted with a fake.",
+      "chapter": "The Context Verification of Digital Photographs",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reverse image search",
+        "plausibility check",
+        "weather data",
+        "verification checklist"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A fuzzy or perceptual hash is a fingerprint of a file derived from various features from its content. Unlike cryptographic hash functions, it can efficiently help identify images that contain a high percentage of similarities. An investigator can then take the files with the highest percentage of similarities and manually review those individual images. Tools like SSDeep and pHash compute these fuzzy hashes.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "perceptual hashing",
+        "image forensics",
+        "duplicate detection",
+        "SSDeep"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Metadata can contain relevant footprints: GPS coordinates, camera model, serial number, timestamps, lens focal length, whether flash was used. Photo editing software often adds metadata about manipulation when saving. It is suggested to examine all tags and their contents—a correlation between metadata and other evidence could quickly close the investigation. Since metadata are easy to read, write and delete, it is not possible to completely rely on them.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metadata analysis",
+        "EXIF",
+        "image forensics",
+        "GPS",
+        "camera fingerprinting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In rare cases, if an image is edited with software that saves alteration to the image but misses updating the preview inside metadata, by extracting the preview thumbnail you can spot the difference and discover the original image before manipulation.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "thumbnail forensics",
+        "metadata",
+        "image manipulation detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Error Level Analysis (ELA) is one of the dominant image tampering localisation methods. It is based on the idea that each re-saving of a JPEG file compresses it with lower quality. An area that was edited would have a different compression level, so under ELA it would be brighter than other areas. Each technique aims at detecting different tampering traces; there is no silver bullet, and not all algorithms should be expected to work on all images. It is suggested to use different algorithms and correlate the traces found.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "error level analysis",
+        "image forensics",
+        "JPEG compression",
+        "tampering detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Most social media platforms tend to strip metadata from uploaded multimedia to protect users' privacy. Sometimes images from social networks or messaging applications are also resized or cropped. Investigation on images coming from social media should take care of this sanitisation and focus on forensic techniques not based on metadata.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social media",
+        "metadata stripping",
+        "image forensics",
+        "platform limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When evaluating an image forensic tool it should meet requirements: easy integration in verification workflows, easy to use with little training, graphical interface and visual analysis, summary and exhaustive results with clear indicators, support metadata extraction and duplicate detection, access to source code or explanation of techniques used—never trust 'black box' tools as an investigator should understand the methods used.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tool evaluation",
+        "image forensics",
+        "transparency",
+        "workflow integration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Image forensics is not a matter of tools only, it is also about processes and people. Workflows should take care of image validation, and people should be trained to understand the problem of image authenticity and to know how much trust to put in digital media.",
+      "chapter": "Photo Manipulation: Software to Unmask Tampering",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "image forensics",
+        "training",
+        "workflow design",
+        "digital literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Fact-checking is the most popular method of debunking and an important tool for protecting the truth. Common techniques include checking the source (or even double-checking), checking geolocation, and verification of the information. Tools include Google for investigating origins of rumours, and tools for checking pictures to authenticate user-generated photos. The most common methods are verifying information about a website and its owner, geolocation verification, using metadata, and asking witnesses.",
+      "chapter": "Fact-Checking as Defence Against Propaganda in the Digital Age",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "debunking",
+        "source verification",
+        "geolocation",
+        "propaganda"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Open source research groups differ from other investigators in their decentralized nature with contributors flung across the world and no central newsroom. They use materials openly available to anyone with an internet connection. While some use non-digital research, the vast majority is built off of open source materials, which bring challenges in verification and contextualization.",
+      "chapter": "Crowdsourced and Patriotic Digital Forensics in the Ukrainian Conflict",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "open source intelligence",
+        "crowdsourcing",
+        "decentralized research",
+        "OSINT"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A frequent type of investigation will be to uncover the social network profiles of soldiers and cross-reference the materials on these pages to establish which military units have had active participation. Cross-referencing photographs and videos from citizens, soldiers, media outlets and government sources provides a timeline tracking equipment from one country to another and to major battles.",
+      "chapter": "Crowdsourced and Patriotic Digital Forensics in the Ukrainian Conflict",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "social media analysis",
+        "cross-referencing",
+        "OSINT",
+        "military tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Crowdsourcing research involves a call for readers to share the burden of data collection and verification, in hopes of increasing the quantity and quality of analysis for large amounts of information. Bellingcat's Vehicle Tracking Project used the free platform Check to verify photographs and videos, where volunteers gathered over 350 pieces of evidence with exact times and locations established for most materials.",
+      "chapter": "Crowdsourced and Patriotic Digital Forensics in the Ukrainian Conflict",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourced verification",
+        "volunteer research",
+        "evidence gathering",
+        "Bellingcat"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cooperating with major media outlets is beneficial in increasing the quality of the investigation and generating exposure. If you work together with a large publication, all Russian publications will write about your work. But there are issues: staffs at these outlets often have hard deadlines and are not able to wait while you gather facts. Independent publication offers more flexibility with updating an investigation with newly discovered facts.",
+      "chapter": "Crowdsourced and Patriotic Digital Forensics in the Ukrainian Conflict",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "media partnerships",
+        "publication strategy",
+        "editorial flexibility",
+        "amplification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Digital research can be just as trustworthy and appealing to audiences as shoe leather journalism if it is properly presented and contextualized. With user-generated content and internet access expanding globally, the practices of open source research and verification will only become more important over time.",
+      "chapter": "Crowdsourced and Patriotic Digital Forensics in the Ukrainian Conflict",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open source intelligence",
+        "credibility",
+        "digital research",
+        "contextualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The internet gave us an opportunity to create digital scrapbooks, where each individual story can be told in wider context, allowing us to follow characters, events and trends over a period of time. Digital formats now allow us to show how stories relate to each other; they empower journalists to place intimate, engaging, on-the-ground storytelling into a much wider context of crises and events.",
+      "chapter": "In-Depth Crisis Reporting",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "digital storytelling",
+        "context",
+        "longitudinal reporting",
+        "narrative structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Coda's operational formula: deploy like everyone else after a crisis, but go in with a long-lens view and commit to a story for an extended period. The core editorial team defines trends or 'currents' that run through the crisis and works with local and international journalists. Each individual piece of content, regardless of format, is placed in one of the currents allowing the audience to follow a narrative line and see wider context.",
+      "chapter": "In-Depth Crisis Reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "organizational",
+      "themes": [
+        "crisis journalism",
+        "thematic curation",
+        "longform",
+        "narrative architecture"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When selected carefully, currents could greatly aid the process of journalistic discovery. Thematic rather than chronological curation of the content did not just allow following trends and individual characters as stories developed, but crucially generated stories that had an infinitely longer shelf life than those reported in reaction to news events.",
+      "chapter": "In-Depth Crisis Reporting",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "thematic analysis",
+        "editorial framing",
+        "story longevity",
+        "discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The president deliberately changed the measurement category without indication—he chose statistics that fit his narrative while completely breaking with previously established use of statistical comparisons. This inconsistent use of data reveals a systematic use of numbers that favour a certain agenda. Politicians have leaned heavily on statistics to buttress their authority, often stretching evidence too far, interpreting data too loosely.",
+      "chapter": "Truth Corrupted: The Role of Fact-Based Journalism in a Post-Truth Society",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical manipulation",
+        "data literacy",
+        "fact-checking",
+        "political claims"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data sources—be it that they are provided by governmental bodies, non-governmental organisations or whistleblowers—allow citizens and journalists to compare claims and statements with actual underlying data, ultimately holding elites and governments accountable. As Segnini puts it: 'Data can help a reporter fill in the missing pieces, and it also allows journalists to expose a universe beyond the one sources are willing to share.'",
+      "chapter": "Truth Corrupted: The Role of Fact-Based Journalism in a Post-Truth Society",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism",
+        "accountability",
+        "evidence-based reporting",
+        "post-truth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If a data reporter doesn't go out into the field and report, they are only doing a third of their job. Data journalism could greatly benefit from enhancing stories and findings drawn from quantitative data with a qualitative narrative—appending personal accounts with rows of data. Giving these numbers voices and faces would make data journalism more tangible and relatable.",
+      "chapter": "Truth Corrupted: The Role of Fact-Based Journalism in a Post-Truth Society",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data journalism",
+        "field reporting",
+        "qualitative narrative",
+        "mixed methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism needs to fulfil two tasks: First, educating readers by explaining calculations, modelling, and statistical indicators—creating transparency regarding employed methods while dispelling fears of over-complicated stories. Data journalists need to become educators. Secondly, developing appealing and intelligible storytelling formats. A more visual journalism can create empathy and lead to more inclusivity in contrast to fabricating exclusivity through the use of jargon.",
+      "chapter": "Truth Corrupted: The Role of Fact-Based Journalism in a Post-Truth Society",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data literacy",
+        "transparency",
+        "storytelling",
+        "education",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We need to distinguish predictive and descriptive data journalism. Forecasts based on advanced statistical modelling and likelihoods have a margin of error. After failing predictions, negative repercussions harm not only predictive data journalism but data journalism in general. Descriptive, explanatory and analytical data-driven journalism applies more basic statistical calculations and should not be conflated with predictive models.",
+      "chapter": "Truth Corrupted: The Role of Fact-Based Journalism in a Post-Truth Society",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "predictive journalism",
+        "descriptive journalism",
+        "statistical methods",
+        "credibility"
+      ],
+      "notes": ""
+    }
+  ]
+}

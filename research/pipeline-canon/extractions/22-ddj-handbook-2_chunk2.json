@@ -1,0 +1,718 @@
+{
+  "source_id": "22",
+  "source_file": "22-ddj-handbook-2.md",
+  "source_title": "The Data Journalism Handbook 2",
+  "author": "Liliana Bounegru, Jonathan Gray (eds.)",
+  "year": "2021",
+  "chunk": "2/4",
+  "chunk_file": "22-ddj-handbook-2_chunk2.md",
+  "chunk_words": 35553,
+  "extracts": [
+    {
+      "extract": "Data journalists often jump between techniques as they need: Scraping data with Python notebooks, throwing the result into a spreadsheet, copying it for cleaning in Refine before pasting it back again.",
+      "chapter": "Coding With Data in the Newsroom",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "tool switching",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When setting off to do something new, particularly in the beginning of your learning, make sure you leave yourself enough time to be able to complete your task with a tool you know (e.g., spreadsheet). If you are just starting to learn and strapped for time, you may want to use a familiar tool and wait until you have more time to experiment.",
+      "chapter": "Coding With Data in the Newsroom",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "deadline management",
+        "skill development",
+        "newsroom workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We prioritized displaying numbers for the reader's local area. Once this was done and there was a bit of extra time, we did the next item on the list: A visualization comparing the reader's local area to other areas, and the national average. The project could have gone to publication at any point thanks to how we worked. This iterative workflow helps you focus and manage expectations at the same time.",
+      "chapter": "Coding With Data in the Newsroom",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "iterative development",
+        "prioritization",
+        "deadline management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "40% of responding data teams were three to five members and 30% of them counted only one or two members. These small numbers pose a challenge to internal code reviewing practices. Data journalists thus often work on their own, either because they don't have colleagues, because there are no peer-review systems in place or because there is no one with the right skills to review their code.",
+      "chapter": "Coding With Data in the Newsroom",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "code review",
+        "team size",
+        "quality control"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data, despite its aura of hard objective truth, can be distorted and misrepresented. There are many ways in which data journalists can introduce error into their interpretation of a data set and publish a misleading story. There could be issues at the point of data collection which prevent general inferences being made to a broader population.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "error",
+        "bias",
+        "epistemology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Excel hides much of the process of working with data by design. Formulas are only visible when clicking on a cell. This means that it is harder to review the actual steps taken to reaching a given conclusion. Excel-based workflows generally encourage the removal of the steps taken to arrive at a conclusion. Values rather than formulas are often copied across to other sheets or columns, leaving the 'undo' key as the only route back.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "spreadsheets",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Literate programming environments like Jupyter Notebooks produce human-readable documents that mix plain English, visualizations and code in a single document that can be rendered in HTML and published on the web. Original data can be linked to explicitly, and any other technical dependencies such as third-party libraries will be clearly identified.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Jupyter Notebooks",
+        "reproducibility",
+        "literate programming",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A Jupyter Notebook was able to clearly capture how we had performed this type of deduplication by presenting a table at the relevant step that set out the fields that were used to assert the identity of individuals. These same processes have been used at Global Witness for fact-checking purposes as well.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "entity resolution",
+        "deduplication",
+        "fact-checking",
+        "Jupyter Notebooks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Jupyter Notebooks have also proven particularly useful when there is need to monitor a specific data set over time. We acquired a new snapshot from the land registry and reused and published a notebook we had developed for the same purpose two years previously. This yielded comparable results with minimal overheads. The notebook has an additional advantage: It allowed Global Witness to show its methodology in the absence of being able to republish the underlying source data.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "longitudinal analysis",
+        "reproducibility",
+        "methodology",
+        "Jupyter Notebooks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Technologies that make a reporter's assumptions explicit and their methods reproducible are valuable. They aid collaboration and open up an increasingly technical discipline to scrutiny from various publics. Given the current crisis of trust in journalism, a wider embrace of reproducible approaches may be one important way in which data teams can maintain their credibility.",
+      "chapter": "Accounting for Methods: Spreadsheets, Scripts and Programming Notebooks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "trust",
+        "transparency",
+        "credibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When information is abundant, not sharing the how-we-got-there may deprive the reader of the means to understand and make sense of a story.",
+      "chapter": "Working Openly in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology",
+        "open source",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Working openly and making various data sets, tools, code, methods and processes transparent and available can help data journalists improve the quality of their work. Documenting processes can encourage journalists to be more organized, more accurate and less likely to miss errors. It can also lighten the burden of editing and reviewing complex stories, enabling readers to report issues.",
+      "chapter": "Working Openly in Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "open source",
+        "transparency",
+        "quality control",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One common approach to transparency is through the methodology section, also known as the 'nerd box.' If your intention is to reach a wider audience, a box inside the article or even a footnote with a succinct explanation of your methods may be sufficient. It is important to avoid jargon, explain how data was obtained and used, ensure readers don't miss important caveats, and explain in the most clear and direct way how you reached your conclusion.",
+      "chapter": "Working Openly in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "methodology box",
+        "transparency",
+        "audience",
+        "plain language"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The BuzzFeed News team has an index of all its open-source data, analysis, libraries, tools and guides. They release not only the methodology behind their reporting, but also the scripts used to extract, clean, analyze and present data. This practice makes their work reproducible as well as enabling interested readers to explore the data for themselves.",
+      "chapter": "Working Openly in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "open source",
+        "reproducibility",
+        "code sharing",
+        "GitHub"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The dirty secret of computational journalism is that the 'algorithmic' part of a story is not the part that takes all of the time and effort. Getting the data, cleaning it and following up algorithmic leads is the hard part. Surveys of data scientists consistently show that most of their work is data wrangling and cleaning—often up to 80%—and journalism is no different.",
+      "chapter": "Making Algorithms Work for Reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "data wrangling",
+        "data cleaning",
+        "workflow",
+        "effort allocation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reporters analyzed over 100,000 doctor disciplinary records from every US state. Rather than reading every report, they first drastically reduced this pile by applying machine learning to find reports that were likely to concern sexual abuse. They were able to cut down their pile more than 10 times, to just 6,000 documents, which they then read and reviewed manually.",
+      "chapter": "Making Algorithms Work for Reporting",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "machine learning",
+        "document classification",
+        "investigative journalism"
+      ],
+      "notes": "Atlanta Journal-Constitution License to Betray"
+    },
+    {
+      "extract": "Just getting the data was a huge challenge. There is no national database of doctor disciplinary reports, just a series of state-level databases. Many of these databases do not contain a field indicating why a doctor was disciplined. At first, the team tried to get the reports through freedom of information requests. This proved to be prohibitively expensive. So, the team turned to scraping documents from state medical board websites. These documents had to be OCR'd and loaded into a custom web-based application for collaborative tagging and review.",
+      "chapter": "Making Algorithms Work for Reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "scraping",
+        "FOI",
+        "OCR",
+        "collaboration tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "OpenRefine is a long-standing hero for all sorts of cleaning tasks. Dedupe.io is machine learning applied to the problem of merging near-duplicate names in a database. Classic text-wrangling methods like regular expressions should be a part of every data journalist's education.",
+      "chapter": "Making Algorithms Work for Reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "deduplication",
+        "regular expressions",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Computational thinking is the reflexive process through which a set of programmatic steps are taken to solve a problem. The infusion of computational thinking into professional journalism challenges the fundamental thought system in journalism from descriptive storytelling to abstract reasoning, autonomous research and visualization of quantitative facts.",
+      "chapter": "Journalism With Machines? From Computational Thinking to Distributed Cognition",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "abstraction",
+        "journalism epistemology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As journalists use networked software and hardware to augment their capacity to produce news at scale and speed, their cognition becomes distributed across the range of platforms and tools they use. Who owns and manages journalists' access to that wealth of knowledge and free analytical power? We experienced this when Google shut down its online data visualization tool Google Fusion Tables. After the closure, dozens of data journalism projects became unavailable.",
+      "chapter": "Journalism With Machines? From Computational Thinking to Distributed Cognition",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "platform dependency",
+        "distributed cognition",
+        "tool sustainability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "These reporters are almost pure newsgatherers—their goal is not to produce a visualization nor to tell stories with data. Instead, they use records to explore a potential story. Their work is integral to the reporting project, often driving the development of an investigation.",
+      "chapter": "Ways of Doing Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "empirical journalism",
+        "investigation",
+        "computer-assisted reporting"
+      ],
+      "notes": "On empirical journalism tradition"
+    },
+    {
+      "extract": "Visual and open-source investigations expand our notion of 'data' into videos, crowdsourced social media and other digital artefacts. While it's less dependent on coding, it fits solidly in the tradition of data journalism by uncovering—through original research—what others would like to hold secret.",
+      "chapter": "Ways of Doing Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "OSINT",
+        "open-source investigation",
+        "digital artefacts",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Linking a dataviz to a data source, providing access to the raw data and explaining methodologies are seen by some participants as ethical practices which create transparency and counterbalance the subjectivity of selection and interpretation which is an inevitable aspect of visualizing data.",
+      "chapter": "Data Visualizations: Newsroom Trends and Everyday Engagements",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "transparency",
+        "subjectivity",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Widespread recognition that audiences increasingly consume news on small, mobile screens has led to a turn away from elaborate and interactive visualizations to greater simplicity and linearity, or simple visual forms with low levels of interactivity. This has led to a predominance of certain chart types, such as bar charts and line charts, and to the advent of scrollytelling.",
+      "chapter": "Data Visualizations: Newsroom Trends and Everyday Engagements",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile first",
+        "data visualization",
+        "scrollytelling",
+        "design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists increasingly need 'soft knowledge of Internet culture,' including an understanding of how data visualizations may be more likely to circulate online than text, floating free of their original contexts. This requires understanding of strategies such as embedding explanatory text into a visualization file so that the image cannot be circulated without the explanation.",
+      "chapter": "Data Visualizations: Newsroom Trends and Everyday Engagements",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "context",
+        "misinformation",
+        "social media"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Audiences need to feel that they have the necessary skills to decode visualizations, and many participants indicated a lack of confidence in this regard. A broad range of emotions emerged in relation to engagements with dataviz. Whether a visualization is effective depends in large part on how, by whom, when and where it is accessed.",
+      "chapter": "Data Visualizations: Newsroom Trends and Everyday Engagements",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "audience engagement",
+        "emotions",
+        "visualization effectiveness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I don't have really advanced statistical skills. The way that I often start analyzing data is through relatively simple calculations that other people can replicate. At a certain point with other more advanced statistical approaches you present readers with an ultimatum: Either you trust the journalist's analysis or you don't. There is a certain benefit to doing things with simple calculations.",
+      "chapter": "Sketching With Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "simplicity",
+        "replicability",
+        "trust",
+        "accessibility"
+      ],
+      "notes": "Mona Chalabi interview"
+    },
+    {
+      "extract": "Data can be used as an opportunity to do two different things: To 'zoom in' or 'zoom out.' My responsibility as a data journalist is to zoom out from that one specific incident and give readers context using data. On the other hand, we can zoom in: We can say to readers, here is the national employment rate but also this is what it looks like for women, for different age groups, for different racial and ethnic groups.",
+      "chapter": "Sketching With Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "disaggregation",
+        "zoom in zoom out",
+        "audience"
+      ],
+      "notes": "Mona Chalabi interview"
+    },
+    {
+      "extract": "I think good data visualizations should communicate uncertainty. So few data journalists take the time to communicate uncertainty. So few data journalists take the time to reach out to communities that aren't geeks. My approach to data journalism is based on the idea that you don't necessarily need specific vocabularies or expertise to be smart.",
+      "chapter": "Sketching With Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "accessibility",
+        "data literacy",
+        "inclusion"
+      ],
+      "notes": "Mona Chalabi interview"
+    },
+    {
+      "extract": "Part of the beauty of data visualization is that it can make things feel more visceral. You don't say 'bankers in London earn this much,' you say 'bankers in London earn 7,000 times what a social worker earns.' All of those analogies really help people. My illustrations are also transparent about their shortcomings. Readers have access to that critique in a way that they don't with computer generated graphics.",
+      "chapter": "Sketching With Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "analogy",
+        "comparability",
+        "transparency"
+      ],
+      "notes": "Mona Chalabi interview"
+    },
+    {
+      "extract": "A now-common format begins with a single chart and then proceeds to manipulate it—zooming in and out, travelling through time, switching out data—in order to fully explore the data set. This pairs exceptionally well with scrollytelling and is especially valuable on mobile, where there may not be enough space to show all elements of a chart at once.",
+      "chapter": "The Web as Medium for Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scrollytelling",
+        "data visualization",
+        "mobile",
+        "interactive graphics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Another twist on the 'huge data sets' idea—and one that I've found to be incredibly compelling to readers—is to show the reader where they fall in a data set, usually by asking for a couple of personal details.",
+      "chapter": "The Web as Medium for Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "personalization",
+        "audience engagement",
+        "interactive graphics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ai2html, a script open-sourced by The New York Times, generates a responsive html snippet from Adobe Illustrator files. Maps built with ai2html can leverage a traditional cartographer's skill set and still have sharp, machine-readable text. The lack of interactivity in such maps is often a blessing. Data journalists should be thoughtful in their use of the web's unique features.",
+      "chapter": "The Web as Medium for Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "ai2html",
+        "maps",
+        "responsive design",
+        "interactivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Fewer people interact with charts than previously assumed. Most people will miss content if it's hidden behind interactivity, which led many graphic reporters to decide not to hide anything in the first place. Instead of adding to a story, interactivity becomes the story. We've seen great examples of explorable explanations where readers can enter their personal data to then see how they fit into the greater scheme.",
+      "chapter": "Four Recent Developments in News Graphics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactivity",
+        "audience engagement",
+        "design decisions",
+        "news graphics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A newsroom has two options when it comes to charting tools: Use an external charting tool such as Datawrapper or Infogram, or build an in-house charting tool. Although the second option sounds like a great idea, many newsrooms will find that it uses more resources than expected. External charting tools are built by dedicated teams that will maintain the tool and offer training.",
+      "chapter": "Four Recent Developments in News Graphics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "charting tools",
+        "Datawrapper",
+        "newsroom resources",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Although it has become good practice to make raw data available after a data-driven investigation, the step of building a searchable interface for that data is considerably less common. A database on its own contains many human decisions; what was collected and what was left out, and how it was categorized, sorted or analyzed. No piece of data is objective.",
+      "chapter": "Searchable Databases as a Journalistic Product",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "databases",
+        "objectivity",
+        "data decisions",
+        "news applications"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Providing an online database allows readers to search for their own city, politician or doctor and connects the story to their own life. Provided there are analytics running on these search queries, this also gives the newsroom more data on what their readers are interested in—potentially providing more leads for future work.",
+      "chapter": "Searchable Databases as a Journalistic Product",
+      "pipeline_step": "Present",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "databases",
+        "audience engagement",
+        "personalization",
+        "lead generation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Best practices for journalistic databases: Develop a process for how to fix mistakes ahead of publication. Build in a feedback channel. Either keep the database up to date, or clearly mark that it is no longer maintained. Allocate enough resources for maintenance over time. Observe how readers are using the database. Be transparent: Make the choices built into every database visible so readers know what they're looking at.",
+      "chapter": "Searchable Databases as a Journalistic Product",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "databases",
+        "maintenance",
+        "transparency",
+        "best practices",
+        "error correction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Responsible data practices are ongoing approaches rather than checklists to be considered at specific points. Approaches which prioritize the rights of people reflected in the data throughout the entire investigation, from data gathering to publication, are a core part of optimizing journalism for trust.",
+      "chapter": "Searchable Databases as a Journalistic Product",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "responsible data",
+        "ethics",
+        "privacy",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Like all other facts, data needs to be verified. Before trying to create known knowns, ask yourself: Is the data true? What does each number actually mean? What is the source? Why was the data collected? Who made the data set? How was the data table created? Are there outliers in the data? Do they make sense? And, often forgotten: What does the source not say?",
+      "chapter": "Data Journalism Should Focus on People and Stories",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data quality",
+        "critical questions",
+        "source assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You should be precise while doing data analysis. But in order to keep your story 'efficiently graspable,' there needs to be a limit on precision in the final publication. Using '4 out of 10 people' is probably better than '41.8612%.' The best data journalism might hardly be recognizable as such—making data journalism an invisible craft. Form facilitates data, facilitates story. Story is king.",
+      "chapter": "Data Journalism Should Focus on People and Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "precision",
+        "accessibility",
+        "audience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Algorithmic accountability reporting is a re-orientation of the traditional watchdog function of journalism towards the power wielded through algorithms. Despite their ostensible objectivity, algorithms can and do make mistakes and embed biases that warrant closer scrutiny. What makes an algorithm newsworthy is when it somehow makes a 'bad' decision—doing something it was not supposed to do, or not doing something it was supposed to do.",
+      "chapter": "The Algorithms Beat: Angles and Methods for Investigation",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "bias",
+        "watchdog journalism",
+        "algorithms"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Four driving forces underlie many algorithmic accountability stories: (a) discrimination and unfairness, (b) errors or mistakes in predictions or classifications, (c) legal or social norm violations, and (d) misuse of algorithms by people either intentionally or inadvertently.",
+      "chapter": "The Algorithms Beat: Angles and Methods for Investigation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "story angles",
+        "investigation framework"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The basic idea of auditing is that if the inputs to algorithms are varied in enough different ways, and the outputs are monitored, then inputs and outputs can be correlated to build a theory for how the algorithm may be functioning. When algorithms can be accessed via APIs or online web pages, output data can be collected automatically. For personalized algorithms, auditing techniques have been married to crowdsourcing in order to gather data from a range of people who may each have a unique view of the algorithm.",
+      "chapter": "The Algorithms Beat: Angles and Methods for Investigation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "algorithm auditing",
+        "reverse engineering",
+        "crowdsourcing",
+        "APIs"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Focus on the outcomes and impacts of algorithms rather than trying to explain the exact mechanism of their decision making. Identifying algorithmic discrimination (i.e., an output) oftentimes has more value to society as an initial step than explaining exactly how that discrimination came about. By focusing on outcomes, journalists can provide a first-order diagnostic and signal an alarm which other stakeholders can then dig into.",
+      "chapter": "The Algorithms Beat: Angles and Methods for Investigation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "outcomes focus",
+        "investigation strategy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Since algorithms necessarily rely on a quantified version of reality that only incorporates what is measurable as data they can miss a lot of the social and legal context. By understanding what a particular algorithm actually quantifies about the world—how it 'sees' things—journalists can inform critique by illuminating the missing bits that would support a decision in the richness of its full context.",
+      "chapter": "The Algorithms Beat: Angles and Methods for Investigation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithms",
+        "quantification",
+        "context",
+        "critical data studies"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Social media can be used as a proxy to better understand individuals and their actions. Alternatively, the web can be seen as an ecosystem in its own right in which stories take place on social platforms. Misinformation campaigns, algorithmically skewed information universes and trolling attacks are all phenomena unique to the social web.",
+      "chapter": "Telling Stories With the Social Web",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "social media",
+        "data sources",
+        "misinformation",
+        "digital ecosystem"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are broadly three different ways to harvest data from the social web: APIs, personal archives and scraping. The kind of data that official channels like API data streams provide is very limited. Social media companies only provide a sliver of their data through APIs. Extracting social media data through scraping is often against the terms of service and can result in a lawsuit.",
+      "chapter": "Telling Stories With the Social Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social media data",
+        "APIs",
+        "scraping",
+        "data access",
+        "legal constraints"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the biggest issues with social media data is that we cannot assume that the people we hear on Twitter or Facebook are representative samples of broader populations offline. Not every user necessarily represents a person—there are bots and cyborgs. A vast amount of people often choose to remain silent, and it is only the extreme reactions that are recorded and fed back into algorithms that disproportionately amplify the loudest.",
+      "chapter": "Telling Stories With the Social Web",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "representativeness",
+        "social media bias",
+        "bots",
+        "selection bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Which websites share the same Google Analytics ID? If the websites share the same ID, it follows that they are operated by the same registrant. Viewing the source code of the web page, he found a Google Analytics ID, which he inserted into reverse lookup software that furnishes a list of other websites using the same ID. He found a network of websites sharing a similar anti-Ukraine narrative.",
+      "chapter": "Digital Forensics: Repurposing Google Analytics IDs",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "digital forensics",
+        "OSINT",
+        "network discovery",
+        "Google Analytics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists make and follow links in code, public records, databases and leaks, piecing it all together for an account of 'who's behind' particular operations. 'Discovery' is an investigative or digital forensics approach for journalistic mining and exposure, where one would identify and subsequently strive to contact the individual, organization or media group to interview them.",
+      "chapter": "Digital Forensics: Repurposing Google Analytics IDs",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "OSINT",
+        "digital forensics",
+        "investigation",
+        "source identification"
+      ],
+      "notes": ""
+    }
+  ]
+}

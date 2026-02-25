@@ -1,0 +1,311 @@
+{
+  "source_id": "153",
+  "source_file": "153-interdisciplinary-learning-journalism-hk.md",
+  "source_title": "Interdisciplinary Learning in Journalism: A Hong Kong Study",
+  "author": "Zhu and Du",
+  "year": "2018",
+  "extracts": [
+    {
+      "extract": "DJ builds on the older practices of CAR and takes them further by engaging with data analysts, infographic designers and visualizers in producing and communicating stories via multimedia platforms.",
+      "chapter": "Literature Review and Research Background",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "interdisciplinary collaboration",
+        "data journalism definition",
+        "team composition"
+      ],
+      "notes": "Citing Yang and Du 2016; positions DJ as inherently collaborative across analyst/designer/journalist roles",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "DJ as inherently collaborative across analyst/designer/journalist roles needs updating since LLMs can now fill some of these specialist functions"
+    },
+    {
+      "extract": "Howard (2014) defined DJ as 'gathering, cleaning, organizing, analysing, visualizing, and publishing data to support the creation of acts of journalism'.",
+      "chapter": "Literature Review and Research Background",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline definition",
+        "data journalism workflow",
+        "operational framework"
+      ],
+      "notes": "Canonical pipeline definition from Howard 2014; maps directly to Get-Clean-Analyse-Present steps",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The canonical pipeline definition -- gather, clean, organize, analyse, visualize, publish -- remains the conceptual framework for DJ"
+    },
+    {
+      "extract": "Most theorists agree data skill sets include accessing data, analysing data and developing stories on the basis of data analysis, which are beyond traditional journalistic skills like conducting interviews and writing reports.",
+      "chapter": "Literature Review and Research Background",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "skill taxonomy",
+        "data literacy",
+        "journalism education"
+      ],
+      "notes": "Citing Treadwell et al. 2016; frames DJ skills as additive to traditional journalism, not replacing it",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data skills as additive to traditional journalism endures but the specific skills needed shift when LLMs handle technical data tasks"
+    },
+    {
+      "extract": "Some data journalists began their career as graphic designers or computer scientists rather than reporters. Based on their educational background, data journalists' development paths can be summarized into two categories: the journalism path, which is based on a journalistic background complemented by technological skills, and the technology path, which contributes to news production from the starting point of offering technological support.",
+      "chapter": "Literature Review and Research Background",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "career pathways",
+        "team composition",
+        "interdisciplinary roles"
+      ],
+      "notes": "Two-path model (journalism-to-tech vs tech-to-journalism); citing Fink and Anderson 2015",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The two-path model (journalism-to-tech vs tech-to-journalism) needs updating as LLMs blur the boundary between these career trajectories"
+    },
+    {
+      "extract": "Students' low levels of mathematical and quantitative literacy skills made teaching DJ difficult.",
+      "chapter": "Literature Review and Research Background",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "numeracy barriers",
+        "journalism education"
+      ],
+      "notes": "Quoting Davies and Cullen 2016 survey of 25 Australian universities; 11 of 25 cited this barrier",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Low numeracy as a barrier to DJ endures but LLMs can now scaffold quantitative reasoning, partially mitigating this challenge"
+    },
+    {
+      "extract": "Data acquisition, analysis and visualization are frequently mentioned typical skills that data journalists should master.",
+      "chapter": "Methods",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skill taxonomy",
+        "pipeline stages",
+        "data literacy"
+      ],
+      "notes": "Authors' synthesis citing Gray et al. 2012, Karlsen and Stavelin 2014, Treadwell et al. 2016, Yang and Du 2016",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The skill taxonomy of acquisition, analysis, and visualization as core DJ competencies remains a valid framework"
+    },
+    {
+      "extract": "Significant differences exist in data analysis and data visualization. J&C majors and science majors show no difference in identifying data.",
+      "chapter": "Findings",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "skill gaps",
+        "data literacy",
+        "interdisciplinary learning"
+      ],
+      "notes": "Finding tables: data analysis t=-3.37 p<0.01, visualization t=-2.12 p<0.05, identifying data not significant. Science majors outperform on analysis/viz but not on finding data.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The finding that science majors outperform on analysis/viz but not data identification reflects enduring disciplinary strengths"
+    },
+    {
+      "extract": "The biggest difficulty is that the students have no foundation in this field and without prior knowledge, they had nothing to connect to and understand the new subject.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scaffolding",
+        "prior knowledge",
+        "journalism education"
+      ],
+      "notes": "Instructor quote; implies DJ education needs prerequisite scaffolding before technical skills",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The need for prerequisite scaffolding before technical DJ skills is a pedagogical principle that endures"
+    },
+    {
+      "extract": "Many programmers told me it's easy to master a code language, but you will give up at the first step — environment configuration. Without the configuration, you cannot install the software or the software cannot run well.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "environment setup",
+        "technical barriers",
+        "tooling"
+      ],
+      "notes": "Alumnus A3 quote; environment configuration as a hidden barrier to entry for journalists learning technical tools",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Environment configuration as a hidden barrier to entry is now largely eliminated by LLMs that can debug setup issues and cloud-based tools"
+    },
+    {
+      "extract": "Actually my course was focused on data visualization. However, since many students had no background of data journalism, I had to supplement the content with the workflow of data journalism production.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum design",
+        "workflow knowledge",
+        "scaffolding"
+      ],
+      "notes": "Instructor quote; teaching visualization in isolation fails without upstream pipeline context",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching visualization in isolation fails without upstream pipeline context; this curriculum design principle endures"
+    },
+    {
+      "extract": "The efforts the students made after class, the practice they had, led to differences among students. The excellent students in my class all spent a lot of time exploring more after class—they even gave assignments to themselves—while there were also students who just reached the minimum requirements of the homework.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deliberate practice",
+        "self-directed learning",
+        "skill development"
+      ],
+      "notes": "Instructor quote; self-assigned practice distinguishes high performers in technical skill acquisition",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Self-directed practice and deliberate effort distinguishing high performers is a learning principle that endures across all tooling eras"
+    },
+    {
+      "extract": "Using data to tell news stories is a team effort in which reporting meets programming and involves reporters, editors, programmers, graphic artists, web designers and app developers. One opinion is that for journalists, the aim of mastering programming languages is to empower them to create stories for digital platforms with the same precision as traditional media, so they do not need to become an expert in computer coding.",
+      "chapter": "Discussion",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "role boundaries",
+        "interdisciplinary collaboration"
+      ],
+      "notes": "Citing Doherty 2012; argues journalists need functional not expert-level coding; DJ as team sport",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The argument that journalists need functional not expert coding needs updating since LLMs now handle most coding tasks directly"
+    },
+    {
+      "extract": "It is not easy for students to get a clear study goal. When you become a worker, with a clear goal to solve the problems you meet in your daily work, your study can be more efficient. More interactions with the industry, such as inviting practitioners to deliver lectures or visiting newsrooms, can help learners have a concrete understanding of DJ and make their learning more goal oriented.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "industry engagement",
+        "problem-based learning",
+        "goal-oriented training"
+      ],
+      "notes": "Alumna quote plus authors' synthesis; real-world problem framing accelerates DJ skill acquisition",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Industry engagement and problem-based learning for goal-oriented training are pedagogical strategies that endure"
+    },
+    {
+      "extract": "Science majors and journalism majors have complementary skills in DJ production and can help each other solve problems. Cooperation between them can enhance learning efficiency.",
+      "chapter": "Implications for DJ Education",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interdisciplinary collaboration",
+        "team composition",
+        "peer learning"
+      ],
+      "notes": "Key finding: mixed-discipline teams outperform single-discipline cohorts in DJ training",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Complementary skills between science and journalism majors endure but LLMs partially bridge the gap, changing team dynamics"
+    },
+    {
+      "extract": "Another way to help students deal with the difficulties is to engage them in realistic, problem-centred activities. The visible outcomes, such as building a website, could bring students confidence and a sense of achievement. These instant and apparent rewards can motivate learners to achieve more.",
+      "chapter": "Implications for DJ Education",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "problem-based learning",
+        "tangible outputs",
+        "motivation"
+      ],
+      "notes": "Visible deliverables as pedagogical strategy; applicable to newsroom training design",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Problem-centered activities with visible tangible outputs as motivation is a pedagogical principle unaffected by AI tools"
+    },
+    {
+      "extract": "It is unnecessary to bring all the knowledge and skills involved in the training of computer science and journalism into the training of DJ. In fact, using data for news storytelling requires only a very basic set of coding and programming skills. Moreover, for the interdisciplinary educational materials to be organically absorbed by the learners, they should be organized into a logical and systematic structure, in order to effectively guide the students towards the integration of multiple subject areas step by step.",
+      "chapter": "Implications for DJ Education",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum design",
+        "minimum viable skills",
+        "scaffolding",
+        "progressive complexity"
+      ],
+      "notes": "Authors' key recommendation: pare skills to minimum viable set and sequence them logically",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Paring skills to minimum viable set needs updating since the minimum viable technical set has shrunk with LLM assistance"
+    },
+    {
+      "extract": "To avoid the polarity problem, both discipline-based and interdisciplinary experiences should be taken as essential in the curriculum design. In terms of the discipline-based approach, students should be equipped with the necessary knowledge and skills of their own major, be it journalism, computer science, visual design or others. As for interdisciplinary experiences, it can be achieved through in-depth interdisciplinary interactions, such as practical case studies, team projects, field trips to the industry as well as exchange visits with other schools and departments.",
+      "chapter": "Implications for DJ Education",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum design",
+        "interdisciplinary balance",
+        "case studies",
+        "team projects"
+      ],
+      "notes": "Citing Jacobs 1989 polarity problem; balance domain depth with cross-domain integration activities",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Balancing discipline-based depth with interdisciplinary integration through case studies and team projects endures as curriculum design"
+    },
+    {
+      "extract": "The instructor observed that in the short term it is easier to enter DJ via the technology path.",
+      "chapter": "Discussion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "career pathways",
+        "skill acquisition",
+        "tech-first approach"
+      ],
+      "notes": "Practitioner observation; technologists learn journalism faster than journalists learn technology, at least initially",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The observation that technologists learn journalism faster than the reverse may shift as LLMs lower the technical learning curve for journalists"
+    },
+    {
+      "extract": "If several students could form a learning group to encourage each other, they could do some projects based on what they have learnt in class. In this way, they can practise more.",
+      "chapter": "Implications for DJ Education",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "peer learning",
+        "learning communities",
+        "project-based learning"
+      ],
+      "notes": "Small-group project work as mechanism to multiply practice time outside class",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Small learning groups encouraging peer practice through projects is a pedagogical structure that endures"
+    },
+    {
+      "extract": "One cannot master any kind of coding language in a short time. The learning process always makes people frustrated.",
+      "chapter": "Qualitative Results",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "learning curve",
+        "technical barriers",
+        "persistence"
+      ],
+      "notes": "Alumnus A2 quote; frustration tolerance as prerequisite for technical skill development in journalism",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Frustration with coding language learning curves is being mitigated by LLMs that generate code from natural language, lowering the barrier"
+    }
+  ]
+}

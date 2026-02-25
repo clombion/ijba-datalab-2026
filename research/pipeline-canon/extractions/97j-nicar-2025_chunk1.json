@@ -1,0 +1,1023 @@
+{
+  "source_id": "97",
+  "source_file": "97j-nicar-2025.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "1/3",
+  "chunk_file": "97j-nicar-2025_chunk1.md",
+  "chunk_words": 36923,
+  "extracts": [
+    {
+      "extract": "Divide the new index value by the old one, producing the percentage change in the index. Multiply the result by the old dollar value. Essentially, you're pumping up (inflating) the old value to state it in current terms. Since readers are most familiar with what things cost now, journalists almost always inflate the old value to state it in current terms.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "inflation adjustment",
+        "CPI",
+        "audience comprehension"
+      ],
+      "notes": "Core inflation-adjustment formula for comparing dollar values across time"
+    },
+    {
+      "extract": "The CPI can't be used to analyze differences in the cost of living in different areas.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "CPI",
+        "methodological limitation",
+        "comparative analysis"
+      ],
+      "notes": "Critical caveat about CPI misuse"
+    },
+    {
+      "extract": "National reporting on the CPI can make it seem distant for local audiences, so it's important to remember that the CPI is calculated not just for the nation, but for four regions, nine multi-state groupings called divisions, and separately for 23 of the largest metro areas.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "CPI",
+        "localization",
+        "regional data"
+      ],
+      "notes": "Localize national economic data using sub-national CPI series"
+    },
+    {
+      "extract": "In addition to the CPI index and its components, which show price changes, BLS also publishes actual price levels for representative examples of more than 70 food items and a half-dozen fuel items. These actual prices can help you illustrate inflation stories.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "BLS",
+        "price data",
+        "storytelling",
+        "inflation"
+      ],
+      "notes": "Use actual price-level series alongside index data for concrete illustration"
+    },
+    {
+      "extract": "Each BLS series has an ID. The most-cited index -- the national CPI-U without seasonal adjustment -- is CUUR0000SA0. Knowing the ID makes it easier to retrieve it from the BLS.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "BLS",
+        "series ID",
+        "data retrieval",
+        "API"
+      ],
+      "notes": "BLS series IDs as keys for programmatic or manual data retrieval"
+    },
+    {
+      "extract": "The temperature setting allows you to use less likely words instead of the most likely next one. If you downgrade the temperature to 0.0, conversations will almost always produce the same result! For journalism classification tasks, use temperature=0 to keep responses predictable and mostly reproducible.",
+      "chapter": "Temperature",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "LLM",
+        "temperature",
+        "reproducibility",
+        "classification"
+      ],
+      "notes": "Practical guidance on temperature=0 for deterministic LLM outputs"
+    },
+    {
+      "extract": "One of my favorite use cases for using the API is to put things in categories, which has the technical term of classification. The original response says 'This legislative bill would be categorized as ENVIRONMENT,' which is not okay. I want it to just say the category name\\! You can head on over to ChatGPT itself to engineer a good prompt. Re-run your model until you feel happy with it.",
+      "chapter": "Automatic categorization",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "classification",
+        "prompt engineering",
+        "LLM",
+        "iteration"
+      ],
+      "notes": "Iterative prompt refinement to constrain LLM output format"
+    },
+    {
+      "extract": "We can't just say, 'oh wow, computers seem cool, let's just trust whatever it says\\!' Our job as journalists who request trust from our audience is to actually test the results. We can do this one of two ways: 1. Run the classifier over all of our bills, then take a sample of the results to hand-label and compare with the LLM's judgment. 2. Have a small hand-labeled test dataset that we use to verify the LLM's results before moving on to classify everything. The second path is usually the best since it allows you to tweak your results before running your prompt against everything.",
+      "chapter": "Checking the results",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "validation",
+        "ground truth",
+        "hand-labeling",
+        "LLM verification",
+        "accuracy"
+      ],
+      "notes": "Gold-standard verification workflow: hand-label first, then test LLM against it"
+    },
+    {
+      "extract": "Even with a small 88-row dataset the LLM will change its mind on some of them. The answers actually change if you re-run the LLM category assignment!",
+      "chapter": "Checking the results",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM",
+        "non-determinism",
+        "reproducibility",
+        "validation"
+      ],
+      "notes": "LLM outputs are inherently non-deterministic even on identical inputs"
+    },
+    {
+      "extract": "One way to force the AI to return what you're looking for is using a tool like Structured Outputs to demand OpenAI gives you the exact response you're looking for. If you're using a non-OpenAI LLM, try out Instructor. If you're using a local model, Outlines is for you.",
+      "chapter": "Structured outputs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "structured outputs",
+        "Pydantic",
+        "Instructor",
+        "Outlines",
+        "output formatting"
+      ],
+      "notes": "Structured output tools by provider: OpenAI Structured Outputs, Instructor (multi-provider), Outlines (local)"
+    },
+    {
+      "extract": "When doing bulk classification, it's important to examine the outputs systematically and not just spot check\\! That way you know how or why the AI might be going wrong, and either tweak your prompt or build knowledge of the mistakes into your process.",
+      "chapter": "Reflection",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "systematic validation",
+        "classification",
+        "error analysis",
+        "LLM"
+      ],
+      "notes": "Systematic examination over spot-checking for bulk AI classification"
+    },
+    {
+      "extract": "LLMs don't always listen to your rules. They might respond in formats you didn't ask for, add extra categories, or overrule the rules you specified. Using a temperature of 0 and structured outputs tools like Structured Outputs and Instructor help keep responses in line with your rules to make your analysis process that much easier.",
+      "chapter": "Reflection",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM reliability",
+        "structured outputs",
+        "guardrails",
+        "classification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Never listen to scores when dealing with transcription tools, always test them in the field. In transcription a 80% score is far worse than a 80% score on, say, a math test. Having one out of every ten words be wrong is not great in practice.",
+      "chapter": "Whisper",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transcription",
+        "Whisper",
+        "accuracy metrics",
+        "field testing"
+      ],
+      "notes": "Benchmark scores mislead; field-test transcription quality directly"
+    },
+    {
+      "extract": "According to everyone, and the excellently-named paper Careless Whisper: Speech-to-Text Hallucination Harms, Whisper makes a lot of bad mistakes. One of the biggest problems is silence. Whisper isn't very good at silence\\! It's trained to transcribe, so when there's silence it tends to start writing regardless of what's going on. One way to fix this is voice activity detection, which cuts out silences before it transcribes.",
+      "chapter": "But... Whisper is actually bad\\!",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Whisper",
+        "hallucination",
+        "voice activity detection",
+        "transcription quality"
+      ],
+      "notes": "VAD as preprocessing step to prevent Whisper hallucinations on silence"
+    },
+    {
+      "extract": "Each model has a context window, which is the amount of text it can handle at one time. To summarize you often use tools that break it up into sections, summarize each part, then give you a final, overall summary.",
+      "chapter": "But what if it's just too long?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "context window",
+        "summarization",
+        "chunking",
+        "LLM"
+      ],
+      "notes": "Tree-summarize pattern for documents exceeding context window"
+    },
+    {
+      "extract": "Local models are important to discuss because journalists are very cheap, and also obsessed with privacy. If we can avoid using the cloud it might make sense to do so.",
+      "chapter": "Local models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "local models",
+        "privacy",
+        "cost",
+        "newsroom infrastructure"
+      ],
+      "notes": "Privacy and cost as drivers for local model adoption in journalism"
+    },
+    {
+      "extract": "To make these giant models fit on your computer, they are quantized, or made into smaller versions. Because an LLM is a big magic box of numerical calculations, you can make it smaller by just rounding off the numbers inside of it. Usually q4 is still fine, anything lower starts to know too little. You'll go for a q4 version of the 36B model -- the numbers are rounded off which makes the model a lot smaller, but more parameters is better than a higher quantization.",
+      "chapter": "Local models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "quantization",
+        "local models",
+        "model selection",
+        "GGUF"
+      ],
+      "notes": "Practical heuristic: prefer more parameters at lower quantization (q4) over fewer parameters at full precision"
+    },
+    {
+      "extract": "We talk to LM Studio using the same OpenAI library as when we talk to GPT -- every tool seems to have standardized on the conversation format they use. We just set the base_url and api_key according to what LM Studio tells us to use.",
+      "chapter": "Local models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "LM Studio",
+        "OpenAI API",
+        "local models",
+        "interoperability"
+      ],
+      "notes": "OpenAI-compatible API as de facto standard for LLM interoperability"
+    },
+    {
+      "extract": "It's probably important to think about how even though you can get an answer from a tool like this, it doesn't mean it's a good answer. It's easy to be distracted by AI seeming fancy and confident, when really it's just a computer pushing numbers around\\!",
+      "chapter": "Translation",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI skepticism",
+        "verification",
+        "translation quality"
+      ],
+      "notes": "Confidence of AI output does not equal correctness"
+    },
+    {
+      "extract": "How can you trust anything? Even if we're impressed by output from AI at first blush, it might not have the consistent quality necessary to perform real tasks. Or maybe it does?",
+      "chapter": "Reflection",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "trust",
+        "AI quality",
+        "consistency",
+        "skepticism"
+      ],
+      "notes": "Central epistemological question for AI-assisted journalism"
+    },
+    {
+      "extract": "That's how John Keefe and Jeremy Merrill helped ICIJ navigate through over 300gb of multilingual data in the Luanda Leaks. Searching through your documents\\! Sometimes you don't know exactly the words you're looking for, you just want something that kind of captures a feeling.",
+      "chapter": "Document similarity",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "embeddings",
+        "semantic search",
+        "document similarity",
+        "ICIJ",
+        "Luanda Leaks"
+      ],
+      "notes": "Embeddings enable meaning-based search across multilingual document troves"
+    },
+    {
+      "extract": "These days everyone loves to search across documents. You shouldn't do it, but people love it.",
+      "chapter": "Document similarity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "RAG",
+        "document QA",
+        "skepticism",
+        "reliability"
+      ],
+      "notes": "Skepticism toward RAG-based document QA for journalism — links to NYC chatbot failures"
+    },
+    {
+      "extract": "Being able to use apps opens up a whole new world of testing, helping ensure all of the participants are comfortable with the use and quality of the tool. Whether AI is flawed or AI is a perfect angel, the more people who are participating with it the better! Technical people can get too obsessed with playing with their toys, and even normal folks can get into patterns and miss blind spots.",
+      "chapter": "Reflection",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "Gradio",
+        "newsroom adoption",
+        "testing",
+        "inclusivity",
+        "collaboration"
+      ],
+      "notes": "Lightweight app interfaces (Gradio) democratize AI tool evaluation across newsroom roles"
+    },
+    {
+      "extract": "AI can help us gather and present news more efficiently. But AI is frequently convincing but wrong -- sometimes in ways that only an expert, or at least an attentive reader, can detect. If we don't want AI to degrade the quality of our journalism, we need to make sure that it's doing a good job by quantitatively assessing the results of our AI methodologies.",
+      "chapter": "Quantitatively assess your AI methodology",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI verification",
+        "quantitative assessment",
+        "journalism quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Vibes are not enough. Use real examples. You need to formally define what's a right or wrong answer. You also need to check the model's performance against the true distribution of input data (not just examples you came up with off the top of your head).",
+      "chapter": "Why quantitatively assess your AI methodology?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ground truth",
+        "evaluation",
+        "vibes",
+        "formal testing",
+        "LLM"
+      ],
+      "notes": "Anti-pattern: relying on informal impression of AI output quality"
+    },
+    {
+      "extract": "You need to know your accuracy rate. It's usually okay if the accuracy rate isn't 100% (AI trades accuracy for speed/scale), but it's good to know how much accuracy you're giving up.",
+      "chapter": "Why quantitatively assess your AI methodology?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "accuracy rate",
+        "tradeoffs",
+        "speed vs accuracy",
+        "LLM"
+      ],
+      "notes": "Explicit accuracy-speed tradeoff acknowledgment"
+    },
+    {
+      "extract": "You might need MORE than an accuracy rate. Different kinds of errors are bad in different ways, so you should quantify those. If your AI methodology misses Trump saying 'Good morning' at the start of a segment, that's not a big problem. If quotes from others get misattributed to Trump, or are just made up, that is a big problem.",
+      "chapter": "Why quantitatively assess your AI methodology?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "error taxonomy",
+        "false positives",
+        "false negatives",
+        "accuracy"
+      ],
+      "notes": "Not all errors are equal; classify error severity by journalistic impact"
+    },
+    {
+      "extract": "Your prompt can usually be improved. You can probably spend 10 minutes fiddling with your prompt to make it better. If you have an accuracy rate, you can see if a change to a prompt makes the accuracy rate go up.",
+      "chapter": "Why quantitatively assess your AI methodology?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "iteration",
+        "accuracy measurement"
+      ],
+      "notes": "Accuracy rate as feedback signal for prompt refinement"
+    },
+    {
+      "extract": "Find ground truth. Select 50 random examples, put them in a spreadsheet, make a column for the right answer, then go through the examples and write the right answer. Why random? You want to estimate how well your model performs at the real task. If you select just a few examples -- or, worse, just try to make up a few -- your ground truth data might miss some of the complexities of your real data, causing your accuracy rate to be wrong. Why a few dozen? You want to roughly reflect the diversity of your data, and you'll learn about gaps in your methodology from seeing the kinds of errors it makes.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ground truth",
+        "gold data",
+        "random sampling",
+        "annotation",
+        "evaluation"
+      ],
+      "notes": "Step 1 of AI methodology assessment: create gold data from random sample of 50"
+    },
+    {
+      "extract": "Extra credit: generate two ground truth datasets, one for preliminary development, and one for calculating your final accuracy rates.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "train-test split",
+        "gold data",
+        "evaluation methodology"
+      ],
+      "notes": "Dev/test split prevents overfitting prompt to evaluation set"
+    },
+    {
+      "extract": "The accuracy rate is just the number of right answers divided by the total number of examples. You can also use metrics like Krippendorff's Alpha and Cohen's Kappa.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "accuracy",
+        "inter-rater reliability",
+        "Krippendorff Alpha",
+        "Cohen Kappa"
+      ],
+      "notes": "Beyond simple accuracy: inter-annotator agreement metrics"
+    },
+    {
+      "extract": "Stretch goal: classify answers as right, wrong, or okay. What if the model's guess doesn't match the right answer, but it's still an okay answer, perhaps because it's close enough or the right answer is ambiguous? You have to make this decision for yourself, based on your task.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evaluation",
+        "ambiguity",
+        "partial credit",
+        "annotation guidelines"
+      ],
+      "notes": "Three-tier evaluation (right/wrong/okay) for ambiguous classification tasks"
+    },
+    {
+      "extract": "Consider false positives versus false negatives in establishing accuracy. You may try to balance the two (balancing precision and recall) if you're trying to establish estimates of the prevalence of classes within the dataset; or, you might want to bias your classifier towards generating fewer false positives in exchange for more false negatives, or vice versa. This is task specific; there's no right answer.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision",
+        "recall",
+        "false positives",
+        "false negatives",
+        "tradeoffs"
+      ],
+      "notes": "Task-specific precision/recall tradeoff decision"
+    },
+    {
+      "extract": "What's the baseline? If you're doing a classification task and one answer is more common than another, if you guessed the most common answer for everything, what would your accuracy rate be? The accuracy of your AI methodology should be substantially higher than this baseline.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "baseline",
+        "majority class",
+        "evaluation",
+        "classification"
+      ],
+      "notes": "Always compare AI accuracy against naive majority-class baseline"
+    },
+    {
+      "extract": "Ask yourself, how good is good enough? If you're publishing AI-written text, unedited by humans, under your byline, 100% accuracy is probably the bar -- because errors mean corrections. On the other hand, if you're filtering a bunch of videos to find which ones talk about abortion so that a reporter can watch them and verify each one, the bar is probably much lower. For the latter kind of project, accuracy rates around 70% might be good enough. Consider publishing the accuracy rate in your methodology.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "accuracy threshold",
+        "human-in-the-loop",
+        "methodology transparency",
+        "risk"
+      ],
+      "notes": "Accuracy bar depends on whether human verification follows; publish accuracy in methodology"
+    },
+    {
+      "extract": "If you're using AI to estimate the prevalence of something, use traditional sampling methodologies to calculate an estimate with a margin of error.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "sampling",
+        "margin of error",
+        "prevalence estimation",
+        "statistical methods"
+      ],
+      "notes": "Apply traditional survey methodology when AI produces prevalence estimates"
+    },
+    {
+      "extract": "Try variations of your original prompt and see if the accuracy rate is higher. Test a different LLM and see if the accuracy rate is higher. Some general guidance is that all else being equal, a bigger model will perform better on any task than a smaller model from the same provider. Conversely, a smaller model will almost always be faster and cheaper to run, so if you can get equivalent results with the smaller one, use that. Newer models tend to be better\\!",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "model selection",
+        "prompt iteration",
+        "cost optimization",
+        "LLM comparison"
+      ],
+      "notes": "Post-assessment optimization: vary prompt, model size, and provider"
+    },
+    {
+      "extract": "NHTSA investigation alerter evaluation: Get a spreadsheet of 100 recent investigations. Apply a proposed prompt to each investigation via the OpenAI API. Examine the investigations classified by AI as 'irrelevant' and code which ones are actually relevant. Then examine the ones classified as 'relevant' and code which ones are actually irrelevant. I find that the mental load is lower when you're looking for a single kind of error, rather than making a decision from scratch about each one. Calculate accuracy rate, false-positive rate and false-negative rate. Think about trade-offs between false positives (alert fatigue) and false negatives (possibly missing a story). Seeing too high of a false-positive rate, adjust the prompt and repeat.",
+      "chapter": "Example Quantitative Evaluations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "evaluation workflow",
+        "false positives",
+        "false negatives",
+        "alert fatigue",
+        "prompt iteration"
+      ],
+      "notes": "Concrete evaluation workflow: code errors by type separately to reduce cognitive load"
+    },
+    {
+      "extract": "Florida private schools evaluation: Extract sample of 50 schools and research each to manually code them. Test simple prompt across the 50 school sample. Calculate accuracy rate. Tweak the prompt to decrease false-negative rate, aiming to maximize recall because all the flagged schools will be manually checked by reporters. Repeat multiple times, comparing new prompt answers against the already-generated gold data.",
+      "chapter": "Example Quantitative Evaluations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "evaluation workflow",
+        "recall",
+        "human-in-the-loop",
+        "gold data",
+        "iteration"
+      ],
+      "notes": "Maximize recall when human reporters will verify all positives anyway"
+    },
+    {
+      "extract": "Podcast guests extraction evaluation: Generate an initial prompt and apply it to 100 episode descriptions. Quickly go through the 100 descriptions and extracted guest names, correcting the incorrect ones, and treat that as preliminary gold data. Calculate accuracy rate, incorrectly-included non-guest rate (false-positive rate) and missed-guest rate (false-negative rate). Look at misclassified episode summaries, adjust the preliminary gold data in case there are places where you made a mistake (which is really likely). Eventually, I added a second column -- not just the 'right answer' but also 'okay' answers that would be ignored for calculating accuracy rates.",
+      "chapter": "Example Quantitative Evaluations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "extraction",
+        "evaluation workflow",
+        "gold data revision",
+        "okay category",
+        "false positives"
+      ],
+      "notes": "Iterative gold data refinement: annotator errors are common and should be corrected during prompt iteration"
+    },
+    {
+      "extract": "TikTok ad classification evaluation: Build a list of 50 TikTok videos already manually classified across all three groups. Test simple prompt across the 50 video list. Run the prompt again across the videos two more times with randomized ordering of the videos to again generate classifications. Calculate an accuracy rate for each round. Look at variability in accuracy across rounds to potentially adjust the prompts to generate more consistent results.",
+      "chapter": "Example Quantitative Evaluations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "evaluation workflow",
+        "consistency",
+        "ordering effects",
+        "multi-run",
+        "LLM"
+      ],
+      "notes": "Multi-run with randomized ordering tests for LLM consistency and order sensitivity"
+    },
+    {
+      "extract": "You have to ruthlessly check this. It's good, but it is not perfect.",
+      "chapter": "2025-ai-starter-pack-r.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM verification",
+        "data extraction",
+        "skepticism"
+      ],
+      "notes": "Matt Waite on LLM-based data extraction quality"
+    },
+    {
+      "extract": "Offload tasks we would do because it would be better, but aren't worth spending the time doing.",
+      "chapter": "2025-ai-starter-pack-r.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI use case",
+        "cost-benefit",
+        "newsroom workflow",
+        "task delegation"
+      ],
+      "notes": "Matt Waite: LLMs best for tasks that improve quality but aren't worth manual time"
+    },
+    {
+      "extract": "Traditionally, journalists would use formulas in Excel or Google Sheets to 'interview' the data to find trends, stories and data points. Instead of spreadsheet formulas, interview the data with prompts.",
+      "chapter": "2025-ai-tools-newsroom-data-analyst-exercise.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "ChatGPT Data Analyst",
+        "prompting",
+        "spreadsheets"
+      ],
+      "notes": "LLM-based data analysis as alternative to spreadsheet formulas"
+    },
+    {
+      "extract": "Learning point: It got the number right for Texas, but some read the first spreadsheet tab for the cell and others read the second spreadsheet for the cell. Will need to designate tab on future prompts for multi-tab sheets.",
+      "chapter": "2025-ai-tools-newsroom-data-analyst-exercise.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ChatGPT Data Analyst",
+        "spreadsheet tabs",
+        "prompt specificity",
+        "verification"
+      ],
+      "notes": "LLMs can read wrong tab; specify tab explicitly in prompts"
+    },
+    {
+      "extract": "Be careful here as the data could be misread. I always check tabs in the sheet for a dictionary or go to the source/creator for clarity. Still, this could be a helpful guide/check.",
+      "chapter": "2025-ai-tools-newsroom-data-analyst-exercise.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "verification",
+        "source documentation",
+        "LLM"
+      ],
+      "notes": "AI-generated data dictionaries need verification against original documentation"
+    },
+    {
+      "extract": "Use it as a tool to get to information, like footnotes in Wikipedia. Use it to interpret sample data (not full dataset itself). Use it to create a data dictionary. Search large PDFs for information. Writing code but check for bugs. Don't use it for: Final data analysis work. Personal data. Replacing work of team members. Processing entire datasets (smaller samples). Writing stories or public content. Check with bosses, policies, attorney before using it in a new way.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom AI policy",
+        "acceptable use",
+        "do/don't",
+        "governance"
+      ],
+      "notes": "Newsroom do/don't list for LLM use: sample data only, code review, no final analysis"
+    },
+    {
+      "extract": "IMPORTHTML formula for Google Sheets: =IMPORTHTML(\"URL\",\"table\", 0). One problem: If you go to type on the screen after you scrape, your data disappears because the spreadsheet is linked to the web page. To remedy, highlight all data, copy it, open new tab, and Paste Special > Paste values only.",
+      "chapter": "2025-ai-tools-newsroom-scraping-fundamentals.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "IMPORTHTML",
+        "Google Sheets",
+        "web scraping",
+        "data capture"
+      ],
+      "notes": "Paste-values-only step critical to preserve scraped data"
+    },
+    {
+      "extract": "You always, always, always work off a COPY of your dataset in case you mess something up.",
+      "chapter": "2025-ai-tools-newsroom-scraping-fundamentals.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data hygiene",
+        "backup",
+        "working copy"
+      ],
+      "notes": "Fundamental data practice: never edit originals"
+    },
+    {
+      "extract": "Note: Be sure to fact-check any data off a Wikipedia page.",
+      "chapter": "2025-ai-tools-newsroom-scraping-fundamentals.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Wikipedia",
+        "fact-checking",
+        "data quality",
+        "source reliability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "News desert project: Scraped 170 newsrooms daily and ID'ed geocoded name entities and classified articles in state of Missouri (did television and newspaper). Types of stories produced when and where. Used SpaCy's model when and where. Found TV more likely to focus on crime and newspapers sports and features.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "NER",
+        "SpaCy",
+        "news deserts",
+        "content analysis",
+        "geocoding",
+        "classification"
+      ],
+      "notes": "Houston Chronicle NLP pipeline: scrape, NER, geocode, classify at scale"
+    },
+    {
+      "extract": "Be transparent and show our work.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology",
+        "reproducibility"
+      ],
+      "notes": "Houston Chronicle principle for AI-assisted reporting"
+    },
+    {
+      "extract": "2025 Texas Bill Tracker: More than 4k bills in a session. How to tag them with one of 32 categories. Ask AI for a reasoning for the bill and how it classified it.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "classification",
+        "explainability",
+        "legislative data",
+        "chain of thought"
+      ],
+      "notes": "Request reasoning alongside classification to enable verification"
+    },
+    {
+      "extract": "Google Pinpoint: 'Golden Document' is the doc you highlight areas you want it to pull from. Turns fields into columns of data. Do spot checks to test output.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Pinpoint",
+        "document extraction",
+        "golden document",
+        "spot checks"
+      ],
+      "notes": "Template-based extraction from documents with mandatory spot-check verification"
+    },
+    {
+      "extract": "If you intend to push your responses into a CSV or database or require certain fields, you should really be using structured outputs with Pydantic. It's a way of demanding a certain output which started with OpenAI and has moved to a lot of the other providers.",
+      "chapter": "Structured responses",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Pydantic",
+        "structured outputs",
+        "data pipeline",
+        "schema enforcement"
+      ],
+      "notes": "Pydantic models as schema enforcement for LLM output destined for databases"
+    },
+    {
+      "extract": "The numerical result changes each time. It might be close to the same each time, but is that good enough? And is it even accurate? You might want to use this for qualitative work and maybe not for quantitative.",
+      "chapter": "Let's run it again.",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM non-determinism",
+        "quantitative vs qualitative",
+        "video analysis",
+        "reproducibility"
+      ],
+      "notes": "Gemini video analysis produces variable numerical results across runs; better for qualitative than quantitative"
+    },
+    {
+      "extract": "We want to know who's in the image, but don't want to send it off to an AI tool in the cloud -- we're cheap\\! We're private\\! We're independent\\! Instead, we're lucky that there are entire tools that can categorize images for us locally. This model is a zero-shot classifier, which means we don't need to teach it what we're looking for, it already knows what many things in the world are.",
+      "chapter": "Looking at one image",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "CLIP",
+        "zero-shot classification",
+        "image analysis",
+        "local models",
+        "privacy"
+      ],
+      "notes": "Local zero-shot image classification (CLIP) for privacy-conscious newsrooms"
+    },
+    {
+      "extract": "It's good to test our model first, because it might actually not understand what you want it to identify. While most models are good at things like cats and dogs and boats, our specific use case might be outside of its knowledge.",
+      "chapter": "Looking at one image",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "model testing",
+        "domain specificity",
+        "image classification"
+      ],
+      "notes": "Always test model on your specific use case before scaling up"
+    },
+    {
+      "extract": "We use PySceneDetect to split the video into scenes, then use a zero-shot image classifier (CLIP) on the middle frame of each scene. We set a 98% confidence threshold -- if the model isn't 98% sure, it labels the image as 'unknown'. This combines scene detection with per-scene classification to produce structured, reproducible data about video content.",
+      "chapter": "Splitting scenes",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PySceneDetect",
+        "CLIP",
+        "video analysis",
+        "confidence threshold",
+        "pipeline"
+      ],
+      "notes": "Decompose video analysis into scene-split + per-frame classification for reproducibility"
+    },
+    {
+      "extract": "These prompts won't produce perfect results every time. But use what you can, just as you wouldn't use everything from a Google search or other research, just use what you think works.",
+      "chapter": "2025-ai-tools-newsroom-handout-exercises.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM output curation",
+        "selective use",
+        "critical judgment"
+      ],
+      "notes": "Treat LLM output like search results: curate selectively, don't accept wholesale"
+    },
+    {
+      "extract": "Role play with your prompts: Give GPT, Gemini or Claude a role to play as it executes the prompt. It helps tailor the content to that person's or audience's needs.",
+      "chapter": "2025-ai-tools-newsroom-handout-exercises.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "role prompting",
+        "prompt engineering",
+        "persona"
+      ],
+      "notes": "Role assignment as prompt engineering technique"
+    },
+    {
+      "extract": "Shipwrecks and federal law enforcement accountability data have been removed from the web in the first week of March. At the rate we're going, the 50 federal datasets we're showing you in the next hour might not be there by the end of this session.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "government datasets",
+        "data preservation",
+        "disappearing data"
+      ],
+      "notes": "Dave Cuillier on accelerating removal of federal datasets from the web (March 2025)"
+    },
+    {
+      "extract": "Tracking just 'core inflation' makes it easier to see underlying trends. The BLS calls this 'all items less food and energy,' which are the most volatile items in the index.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "core inflation",
+        "CPI",
+        "trend analysis",
+        "volatility"
+      ],
+      "notes": "Use core CPI (less food and energy) to isolate underlying price trends"
+    },
+    {
+      "extract": "AI models aren't yet capable of doing everything their designers say they are capable of. Be skeptical. AI models aren't yet capable of doing everything we might think they're capable of. If your setup didn't work very well, how would you know? An AI model might be capable of doing what you want it to, but your prompt might not actually accomplish that very well. If so, how would you know? This shouldn't take hours.",
+      "chapter": "Why quantitatively assess your AI methodology?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI skepticism",
+        "capability gap",
+        "prompt quality",
+        "verification urgency"
+      ],
+      "notes": "Three layers of potential failure: model capability, task suitability, prompt quality"
+    },
+    {
+      "extract": "For now we won't fact-check it, we'll just assume that went well.",
+      "chapter": "Ask Gemini about the video",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "fact-checking",
+        "verification gap",
+        "Gemini",
+        "video analysis"
+      ],
+      "notes": "Ironic acknowledgment: skipping verification is common but unwise"
+    },
+    {
+      "extract": "Is it worth the money and increase in time to try this with GPT instead of the faster, free facebook/bart-large-mnli model? Only one way to find out: make a demo and turn our newsroom loose on it!",
+      "chapter": "Gradio with OpenAI",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cost-benefit",
+        "model comparison",
+        "newsroom testing",
+        "Gradio",
+        "evaluation"
+      ],
+      "notes": "Build internal demos to let newsroom staff comparative-test AI tools"
+    },
+    {
+      "extract": "Most concepts can be transferred from model to model, so just know that even if we're working with OpenAI's GPT in the examples below, we could just as well be working with another one.",
+      "chapter": "Model selection",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "model agnosticism",
+        "transferability",
+        "LLM interoperability"
+      ],
+      "notes": "Core LLM concepts (prompting, temperature, structured output) transfer across providers"
+    },
+    {
+      "extract": "OCCRP uses AI to look through unstructured data. Whisper and other models to transcribe audio and structure audio of leaks. Uses facial recognition software to identify people for relationships (organized crime member). Scam Empire investigation used AI for video and audio analysis.",
+      "chapter": "2025-ai-tools-newsroom-session-notes.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "organizational",
+      "themes": [
+        "OCCRP",
+        "Aleph",
+        "unstructured data",
+        "transcription",
+        "facial recognition",
+        "investigations"
+      ],
+      "notes": "OCCRP multimodal AI pipeline: transcription + facial recognition + document search"
+    },
+    {
+      "extract": "For some political junkies, The Post found that 1 in 4 videos was about politics and social issues. Other users saw as little as 1 in 100 videos about political issues. In this story, we didn't even need to say (in the main body of the story) that the classification came from AI. We of course did note it in the story's methodology.",
+      "chapter": "Example Sentences in the Paper",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology disclosure",
+        "AI transparency",
+        "publishing",
+        "Washington Post"
+      ],
+      "notes": "Mention AI classification in methodology section rather than story body"
+    },
+    {
+      "extract": "For workers who aren't technical: using ChatGPT is fine because as a human it's easy to understand the response. The difference between getting 'YES, a donut' as a response and 'Yes - a donut' is meaningless to a person, but they're very different things when you're a computer. Trying to automatically parse responses when the LLM can decide to go rogue can be a real pain.",
+      "chapter": "Structured outputs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "structured outputs",
+        "parsing",
+        "automation",
+        "output variability"
+      ],
+      "notes": "Structured outputs essential for automated pipelines; human-in-the-loop can tolerate format variation"
+    },
+    {
+      "extract": "Decide if AI can even help you or if it's a dead end that will never work as well as you need it to. Run your methodology against the full-size dataset, now that you're confident that it will work.",
+      "chapter": "How to quantitatively assess your AI methodology's success",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "feasibility assessment",
+        "go/no-go",
+        "full-scale deployment"
+      ],
+      "notes": "Final assessment step: kill the project or scale up with confidence"
+    },
+    {
+      "extract": "FRED offers lots of ways to customize and chart economic time series and to combine or index them.",
+      "chapter": "2025-adjust-for-inflation.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "FRED",
+        "economic data",
+        "time series",
+        "charting"
+      ],
+      "notes": "FRED as combined data-retrieval and visualization platform for economic time series"
+    }
+  ]
+}

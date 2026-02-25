@@ -1,0 +1,150 @@
+{
+  "source_id": "97",
+  "source_file": "97f-nicar-2021.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "extracts": [
+    {
+      "extract": "Causal inference is the process of determining causality. The most important thing to remember is that the heart of causality is manipulation. You have to change something in order to measure the effect of it. This lack of manipulation is the reason why correlation is not causation.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "causal inference",
+        "correlation vs causation",
+        "analytical rigour"
+      ],
+      "notes": "Core principle: no causation without manipulation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Causal inference principles and the distinction between correlation and causation are fundamental statistical reasoning that LLMs cannot replace"
+    },
+    {
+      "extract": "Good causal inference questions sound like experiments. If you can't think of an experiment that would help you answer a causal question, you probably can't answer it at all, even if you use a lot of advanced statistics.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "causal inference",
+        "question framing",
+        "research design"
+      ],
+      "notes": "Practical litmus test for whether a causal question is answerable",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The experimental framing test for causal questions is an enduring analytical reasoning heuristic"
+    },
+    {
+      "extract": "Randomized controlled trials are the gold standard for causal inference. But in the real world, they are often too expensive, too time-consuming, or too unethical. If you can't run an experiment, the next best thing is to use a quasi-experimental method, which involves creating a treatment and control group from an existing dataset without designing and running an experiment yourself.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "causal inference",
+        "quasi-experimental methods",
+        "research design",
+        "hierarchy of evidence"
+      ],
+      "notes": "Establishes a hierarchy: RCT > quasi-experiment > regression",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The hierarchy of evidence from RCTs to quasi-experiments to regression is foundational research design knowledge"
+    },
+    {
+      "extract": "Difference in differences is useful when you have two groups, one treatment and one control, and two points in time, one before the intervention and another after. Card and Krueger used this approach to compare employment levels in New Jersey, which raised its minimum wage, to nearby areas of Pennsylvania, which did not.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "difference in differences",
+        "quasi-experimental methods",
+        "causal inference"
+      ],
+      "notes": "Concrete example from economics applied to policy journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Difference-in-differences as a quasi-experimental method is enduring statistical methodology"
+    },
+    {
+      "extract": "Regression discontinuity design is useful when there is a cutoff in some continuous variable that results in very different outcomes for observations near the cutoff, even though all the observations around the cutoff are fairly similar. By comparing observations just above and just below the cutoff, we can measure a causal effect.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regression discontinuity",
+        "quasi-experimental methods",
+        "causal inference"
+      ],
+      "notes": "Illustrated with incumbency advantage example using vote share cutoff at 50%",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Regression discontinuity design is enduring statistical methodology for causal inference"
+    },
+    {
+      "extract": "Regressions are often used to illustrate the relationship between two variables. But causality can't be measured without manipulation, so while a regression can help test a causal hypothesis by showing whether data is consistent with it, it can't on its own prove causality. Even when you're controlling for a lot of variables, you're really just doing a more advanced correlation.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "regression",
+        "correlation vs causation",
+        "analytical rigour",
+        "statistical literacy"
+      ],
+      "notes": "Key warning against over-interpreting regression results",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning against over-interpreting regression as causal is critical statistical literacy that persists in the LLM era"
+    },
+    {
+      "extract": "You should be extremely skeptical of drawing conclusions from correlations. You cannot make up for bad causal inference methods with more data, more code, more graphics, or more credentials.",
+      "chapter": "Causal Inference for Dummies",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "analytical rigour",
+        "skepticism",
+        "statistical literacy"
+      ],
+      "notes": "Concluding warning; the 'more data' point pushes back against big-data solutionism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism toward correlational claims and resistance to big-data solutionism are more important than ever with LLMs"
+    },
+    {
+      "extract": "The Data Unit Guide is an organizational guide to data journalism for small-to-medium and non-profit newsrooms, covering modules on assembling and developing teams, integrating data units within newsroom hierarchies, choosing software and platforms, demonstrating and quantifying contributions, and securing sustainable funding.",
+      "chapter": "Data Unit Guide (DUG)",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom structure",
+        "data teams",
+        "sustainability",
+        "small newsrooms"
+      ],
+      "notes": "Module-level summary; original is a full standalone guide at dug.news",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Organizational guidance for data units remains relevant but should now address how LLM tools change team composition and skill requirements"
+    },
+    {
+      "extract": "Git scraping uses GitHub Actions to automate tracking changes to a scraped data source over time, providing a version-controlled record of how data evolves.",
+      "chapter": "Git Scraping: Tracking Changes to a Scraped Data Source Using GitHub Actions",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "scraping",
+        "version control",
+        "automation",
+        "GitHub Actions",
+        "data collection"
+      ],
+      "notes": "Simon Willison lightning talk; git history serves as both acquisition log and change-detection mechanism",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Git scraping with GitHub Actions endures as a technique but LLMs can now generate and maintain scraping scripts, changing the skill barrier"
+    }
+  ]
+}

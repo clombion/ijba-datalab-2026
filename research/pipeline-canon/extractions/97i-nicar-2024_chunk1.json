@@ -1,0 +1,1016 @@
+{
+  "source_id": "97",
+  "source_file": "97i-nicar-2024.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "1/2",
+  "chunk_file": "97i-nicar-2024_chunk1.md",
+  "chunk_words": 37907,
+  "extracts": [
+    {
+      "extract": "We are the best advocates for our journalistic needs. It's critical that newsrooms take a beat and think through what their needs are, instead of trusting vendors to tell us what our needs are.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI adoption",
+        "newsroom strategy",
+        "vendor independence"
+      ],
+      "notes": "Framing: journalists should define own needs before evaluating AI tools"
+    },
+    {
+      "extract": "GitHub Copilot plugin for VSCode helps me scaffold whole Svelte app projects on the fly. I designed an entire internal Minneapolis crime tracking dashboard in R using only GPT4 prompts.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "AI coding assistants",
+        "data dashboards",
+        "rapid prototyping"
+      ],
+      "notes": "Hargarten example: LLMs for scaffolding entire analysis/viz projects"
+    },
+    {
+      "extract": "Any of the LLM tools can generate near-flawless FOIA or state data practices requests in the correct format, and a few times even found and appended my contact information.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "FOIA",
+        "records requests",
+        "LLM utility"
+      ],
+      "notes": "Hargarten: LLMs drafting public records requests with correct legal citations"
+    },
+    {
+      "extract": "It's not in a place where it can automagically just do all your work for you (yet). It's very good at coding and solving tech challenges, but soulless-to-suspect around much else. Our journalistic sensibilities are necessary to guide these tools.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI limitations",
+        "human judgment",
+        "journalistic expertise"
+      ],
+      "notes": "Hargarten: AI shifts focus from nuts-and-bolts to accuracy, creativity, storytelling"
+    },
+    {
+      "extract": "Manual checking of data integrity is so, so important and often ignored. Problems can be very specific to the problem and they arise very unexpectedly. So always assuming there could be something off about the tool is a good attitude.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data integrity",
+        "verification",
+        "AI skepticism"
+      ],
+      "notes": "June Kim: default assumption that AI output may contain errors"
+    },
+    {
+      "extract": "Don't be AFRAID to experiment and fail. Just don't publish anything unless it has human editing/quality control on the back end. (AP's 80/20 rule)",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "experimentation",
+        "quality control",
+        "editorial standards"
+      ],
+      "notes": "Reilley: AP 80/20 rule -- AI drafts, humans verify before publication"
+    },
+    {
+      "extract": "Prompting is an art all by itself. Depending upon the tool, there can be wildly different results between asking for the same thing one way versus another. More detail is important, but not so much that it crosses and confuses your asks.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "LLM interaction",
+        "specificity"
+      ],
+      "notes": "Hargarten: prompt craft as distinct skill; balance detail vs. confusion"
+    },
+    {
+      "extract": "Understanding how the tools are built and being diligent about learning and communicating the limitations of the tool/methodologies. Very flawed. A lot of work to ask people to do, but there's just no way around it.",
+      "chapter": "AI-driven tools, tips and tricks to empower your data journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI literacy",
+        "transparency",
+        "methodological disclosure"
+      ],
+      "notes": "June Kim: journalists must understand and communicate AI tool limitations"
+    },
+    {
+      "extract": "Embrace being lazy but with caution... LLMs hallucinate, get things wrong frequently, and are non-deterministic. You already know what the answer should look like. 80% of your time is spent on easy but time-consuming tasks. Save time/energy for the hard problems that require your thinking, judgment and expertise.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI workflow",
+        "task delegation",
+        "human judgment",
+        "efficiency"
+      ],
+      "notes": "Kao/Soma: use LLMs for tasks where you already know what correct output looks like"
+    },
+    {
+      "extract": "LLMs can also help with tasks that require basic, commonly known domain knowledge, like: Template code, Basic SQL, Boilerplate data viz (including identifying common approach), Regex, Explaining vague errors and exceptions, Simple line editing (finding headlines or alternative phrasing) (BUT it can water-down nuanced/complex thoughts)",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "LLM task suitability",
+        "coding assistance",
+        "data viz",
+        "regex"
+      ],
+      "notes": "Taxonomy of LLM-suitable tasks for data reporters"
+    },
+    {
+      "extract": "LLMs are generating statistically likely tokens to imitate people based on context. They have no internal monologue - they need to compute out loud. They can't go back and edit what they randomly generated, even if it's wrong. BUT they have perfect working memory (of what's already written down).",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM architecture",
+        "AI mental model",
+        "token prediction"
+      ],
+      "notes": "Kao: understanding LLM mechanics helps journalists use them more effectively"
+    },
+    {
+      "extract": "Provide outside knowledge: 'I googled _____ and found'. Work iteratively. Let the model talk\\! 'State the assumptions and then...' 'Work step-by-step' 'Critique your reasoning/conclusions'. Unlock parts of the LLM that might have better abilities: 'As an expert...'",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "chain-of-thought",
+        "iterative workflow"
+      ],
+      "notes": "Practical prompting strategies: supply context, step-by-step, role assignment"
+    },
+    {
+      "extract": "You are good at what the model isn't, e.g.: define the goal, break down the task, logic/creativity/metacognition",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human-AI division of labor",
+        "metacognition",
+        "task decomposition"
+      ],
+      "notes": "Humans define goals and decompose tasks; LLMs execute rote work"
+    },
+    {
+      "extract": "Terms and conditions keep changing -- don't know at what point your data, prompts, and responses will be used to improve existing commercial products like ChatGPT. Sensitive documents or datasets -- you might not feel comfortable relying on a third-party entity. Can deploy to an air-gapped computer if needed.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data privacy",
+        "local LLMs",
+        "source protection",
+        "security"
+      ],
+      "notes": "Bengani: rationale for running LLMs locally vs. cloud for sensitive journalism"
+    },
+    {
+      "extract": "Test the same thing over and over again to see how varied and inconsistent the results can be. Check the context overflow setting and ensure you handle that by setting a higher context length, chunking your documents to ensure there's no overflow, ensuring third-party libraries haven't specified different max token lengths.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "LLM reliability testing",
+        "context window",
+        "chunking",
+        "reproducibility"
+      ],
+      "notes": "Bengani: repeated testing reveals non-determinism; manage context overflow"
+    },
+    {
+      "extract": "Just because an LLM might be able to do something, it doesn't mean it's the right approach. Large language models are awful at everything they do and it's only by a strange, strange accident that we find them useful.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "AI skepticism",
+        "appropriate technology"
+      ],
+      "notes": "Soma: LLM capability does not equal suitability; critical evaluation needed"
+    },
+    {
+      "extract": "Error resilient tasks: Problems with tight feedback loops. A large number of tasks where individual errors don't matter too much. Tasks where low-quality outputs can just be ignored.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "error tolerance",
+        "task design",
+        "LLM suitability"
+      ],
+      "notes": "Soma: LLMs best for error-resilient tasks with tight feedback loops"
+    },
+    {
+      "extract": "Errors are going to happen, so anticipate and measure them. Take a large handful, evaluate with a human. Out of 4 scored by a human as YES, our AI marked 3 as YES and one as MAYBE. Out of the 5 scored as YES by the AI, the human only agreed on 3 of them.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "confusion matrix",
+        "human evaluation",
+        "error measurement",
+        "validation"
+      ],
+      "notes": "Soma: sample-and-validate approach; confusion matrix for AI output quality"
+    },
+    {
+      "extract": "Don't trust the answers. Measure the errors\\! (Confusion matrices + error tracking). Don't trust the output. Validate and repair\\! (Guardrails). Don't trust the bot. Provide suggestions that humans can ignore instead of demands\\!",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "validation pipeline",
+        "guardrails",
+        "human-in-the-loop",
+        "error tracking"
+      ],
+      "notes": "Soma: three-part LLM validation framework -- measure, validate/repair, human override"
+    },
+    {
+      "extract": "CAPTCHAs are a common way to prevent bots from accessing a website. They are sometimes used by government entities to make it harder for journalists to access public information. There are three primary strategies to overcoming CAPTCHAs: Find a way to never have to solve a CAPTCHA. Solve the CAPTCHA programatically with some type of Optical Character Recognition. Solve the CAPTCHA with a human worker.",
+      "chapter": "Automated CAPTCHA solving with Anti-Captcha API",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "CAPTCHA",
+        "public records",
+        "automation"
+      ],
+      "notes": "Little: three strategies for overcoming CAPTCHAs blocking public data access"
+    },
+    {
+      "extract": "The sitekey is not always this easy to find. Some custom implementations purposely hide the sitekey to make it more difficult to solve the CAPTCHA. In these cases, you may need to use a more advanced method to find the sitekey.",
+      "chapter": "Automated CAPTCHA solving with Anti-Captcha API",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "CAPTCHA",
+        "reverse engineering",
+        "sitekey"
+      ],
+      "notes": "Little: sitekeys may be hidden in JavaScript; inspect source code"
+    },
+    {
+      "extract": "Using the tools described by Leon Yin's Finding Undocumented APIs to find an API that has the information we need. It is possible to find an API that appears to be protected by a CAPTCHA but it's actually not. Other times, the API requires a CAPTCHA solution to be sent as a parameter.",
+      "chapter": "Automated CAPTCHA solving with Anti-Captcha API",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "undocumented APIs",
+        "web scraping",
+        "CAPTCHA bypass"
+      ],
+      "notes": "Little: undocumented APIs can sometimes bypass CAPTCHA entirely"
+    },
+    {
+      "extract": "Import by range. Use janitor to help with unwieldy names. Append a prefix for certain columns to name. Convert bad Excel numbers to true numbers. Overwrite names if you need to.",
+      "chapter": "A really bad spreadsheet",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "R",
+        "janitor",
+        "Excel import",
+        "column naming"
+      ],
+      "notes": "R workflow for wrangling messy UN population spreadsheet"
+    },
+    {
+      "extract": "Not opening a CSV through import can truncate data starting with a zero such as Northeastern zip codes or ID numbers. We do not want to change the data itself.",
+      "chapter": "Google Sheets: Importing and data prep",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data import",
+        "CSV",
+        "leading zeros",
+        "Google Sheets"
+      ],
+      "notes": "Garcia: always use import function to preserve leading zeros in zip codes/IDs"
+    },
+    {
+      "extract": "=importHTML(\"URL\", \"table\", 1). URL = The URL of the webpage you are trying to scrape. table = This parameter takes two options: table or list. 1 = the number of the table on the page.",
+      "chapter": "Google Sheets: Importing and data prep",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "web scraping",
+        "HTML tables",
+        "importHTML"
+      ],
+      "notes": "Garcia: importHTML function for pulling static HTML tables into Sheets"
+    },
+    {
+      "extract": "API stands for Application Programming Interface. It enables two software applications to communicate with each other. REST stands for Representational State Transfer. Data exchange between the client and the server is based on the use of HTTP, which allows you to type in your client requests in your own web browser as your regular URLs.",
+      "chapter": "Gathering data with APIs",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "APIs",
+        "REST",
+        "HTTP",
+        "data collection"
+      ],
+      "notes": "Nguyen: foundational explanation of REST API data collection for journalists"
+    },
+    {
+      "extract": "Most of the time, your need won't be satisfied if you just rely on an HTTP url to collect small chunks of data. You need to use some Python/R code to help with authentication and pagination. To do so, you need to harness THREE basic tools: Google Colab: a coding environment. ChatGPT: a bot that can teach you some Python code. Dev Tools: web browser's developer tools that allow you to inspect websites, track API requests, and analyze API responses.",
+      "chapter": "Gathering data with APIs",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "API pagination",
+        "authentication",
+        "developer tools",
+        "Google Colab"
+      ],
+      "notes": "Nguyen: three-tool stack for advanced API data collection"
+    },
+    {
+      "extract": "Open the website on Chrome browser and turn on Dev Tools. Monitor the Network tab, especially the fetch/XHR section, where some API requests may show up. Find the cURL under the Name column. Convert cURL to Python code.",
+      "chapter": "Gathering data with APIs",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "undocumented APIs",
+        "developer tools",
+        "cURL",
+        "reverse engineering"
+      ],
+      "notes": "Nguyen: using browser DevTools to discover hidden APIs and convert to Python"
+    },
+    {
+      "extract": "Found and reverse-engineered underlying APIs powering each search portal. Built four scrapers using similar set of sequential requests: Autocomplete and verify address, Choose apartment number, Check availability and list plans. Only made possible by using a session to keep track of cookies and params. Scraped ~100x addresses at once by making each scraper asynchronous. Circumvented IP blocking with a proxy.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "async",
+        "proxy",
+        "session management",
+        "reverse engineering"
+      ],
+      "notes": "Yin: Still Loading project -- async scraping with session/cookie management"
+    },
+    {
+      "extract": "Don't repeat yourself: Structured naming system for outputs. Make a todo list: AWS SQS (a queuing service) is useful for keeping tabs on what's to be done. Save receipts: Keep raw data, don't parse until later. Circumvent blocking: Use proxies as a last resort. Different levels of proxies.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data management",
+        "raw data preservation",
+        "queuing",
+        "naming conventions"
+      ],
+      "notes": "Yin: bookkeeping tips for large scraping projects -- save raw, parse later"
+    },
+    {
+      "extract": "Used OpenAddresses and NYC Open Data to collect 12M addresses from 45 cities. Census Geocoder to merge incorporated city and block group. Goal: Collect plans for 10% of addresses in each census block group (stratified sample) to collect representative samples in each city.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "sampling strategy",
+        "stratified sampling",
+        "open data",
+        "geocoding"
+      ],
+      "notes": "Yin: stratified sampling at block-group level for representative coverage"
+    },
+    {
+      "extract": "AWS -> elastic container service = break down the problem into bite-sized chunks. Large scale projects are all about breaking things down, and thinking a series of functions/inputs/outputs. Write a scraper to scrape one page at a time, and funnel documents to an s3 bucket. Write a script that takes a start and end case number, scrapes those cases.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "containerization",
+        "cloud computing",
+        "task decomposition",
+        "AWS"
+      ],
+      "notes": "Mahajan: decompose large scraping into smallest unit of work; container per task"
+    },
+    {
+      "extract": "Build it step by step: Local computer => Local docker image => One cloud instance => Multiple cloud instances. Separate scraping and analysis. Collect data in as raw a state as possible. Back-of-the-envelope math. Manage time, money and time spent building.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "infrastructure scaling",
+        "raw data",
+        "cost management",
+        "Docker"
+      ],
+      "notes": "Kao: progressive scaling from local to cloud; separate collection from analysis"
+    },
+    {
+      "extract": "Look at the cost structure of your tools; design your system to save money. Compute: Fargate vs EC2 - Fargate is about 20% more expensive, but it shuts down when it finishes the task. Storage: S3 (cost per transaction: directory listing vs retrieving a file; ongoing storage costs). Turn on cloud resources only when you're using them\\!",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cloud costs",
+        "AWS",
+        "infrastructure economics",
+        "resource management"
+      ],
+      "notes": "Kao: practical cloud cost management for news organizations"
+    },
+    {
+      "extract": "Scheduling: Use cron (locally) or configure cloud instances to kick off at set times or intervals. Be discrete: Break tasks up into smallest unit of work. Use queuing to communicate between tasks. Keep logs: Record what was done to help troubleshoot. Optimize: Use queues and logs to find bottlenecks.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scheduling",
+        "task queuing",
+        "logging",
+        "optimization",
+        "cron"
+      ],
+      "notes": "General tips for large-scale data collection operations"
+    },
+    {
+      "extract": "Tighten loops, experiment, re-run, change schemas to suit analysis. Tunable run times to parse >100K documents. Hasura (GraphQL) + Observable (Analysis + Data Memos). Up-to-date fact checking.",
+      "chapter": "Large-scale scraping projects",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "iteration",
+        "schema evolution",
+        "document parsing",
+        "fact-checking"
+      ],
+      "notes": "Mahajan: iterative analysis workflow with queryable database for large document sets"
+    },
+    {
+      "extract": "Text extraction from PDFs and OCRing image files is much more of an art than a science. The tools below are meant to give you a lot of different options to try to get the text out of an image PDF and into a format that you can work with. Sometimes they will work amazingly well. Sometimes they won't work at all.",
+      "chapter": "Introduction (PDF/OCR tipsheet)",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "PDF extraction",
+        "OCR",
+        "data liberation",
+        "trial and error"
+      ],
+      "notes": "PDF text extraction requires experimentation; no single tool works universally"
+    },
+    {
+      "extract": "I often use this tool to check for hidden text, particularly in documents that have redactions. Lawyers for Paul Manafort accidentally filed a document in court that wasn't properly redacted -- even though the document contained blacked out sections, the text was still present in the document.",
+      "chapter": "Scenario 1: Analyzing a computer generated pdf",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "PDF text extraction",
+        "redaction failures",
+        "pdftotext",
+        "hidden text"
+      ],
+      "notes": "pdftotext reveals text under redactions -- powerful verification technique"
+    },
+    {
+      "extract": "The general standard for OCR is 300 dpi, or 300 dots per inch, though ABBYY recommends using 400-600 for font sizes smaller than 10 point. In ImageMagick, this is specified using the density flag.",
+      "chapter": "Scenario 3: Combining skills for searchable PDF",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "image resolution",
+        "DPI",
+        "ImageMagick",
+        "tesseract"
+      ],
+      "notes": "300 DPI standard for OCR; 400-600 for small fonts; ImageMagick density flag"
+    },
+    {
+      "extract": "convert -density 300 russia_findings.pdf -depth 8 -strip -background white -alpha off russia_findings.tiff. -density ups the dpi to 300. -depth 8 is the number of bits in a color sample. -strip strips off any junk on the file. -background white sets the background to help with contrasting text. -alpha off handles transparency.",
+      "chapter": "Scenario 3: Combining skills for searchable PDF",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "ImageMagick",
+        "PDF-to-image",
+        "OCR preprocessing",
+        "image optimization"
+      ],
+      "notes": "ImageMagick convert workflow: optimize image for OCR with density, depth, strip, background"
+    },
+    {
+      "extract": "OCR'd PDFs don't often have the lines, curves and rects that pdfplumber uses to parse computer-generated text. Instead, we are using the pixel position of each word and the structure of the PDF to pass in explicit lines where each column should be separated based on our own visual inspection of the document.",
+      "chapter": "Next steps: pdfplumber example",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pdfplumber",
+        "table extraction",
+        "OCR post-processing",
+        "pixel positioning"
+      ],
+      "notes": "OCR'd PDFs need explicit column lines; use pixel positions from visual inspection"
+    },
+    {
+      "extract": "A major advantage of Jupyter over spreadsheets is that rather than manipulating the data through a haphazard series of clicks and keypunches, we will be gradually grinding it down using a computer programming script that is transparent and reproducible.",
+      "chapter": "The read_csv method",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "Jupyter",
+        "scripted analysis"
+      ],
+      "notes": "Scripted analysis in Jupyter enables transparent, reproducible data work"
+    },
+    {
+      "extract": "On closer inspection, we can see that Bell 206 helicopter is listed two different ways, as BELL 206 and bell 206. The variation in capitalization is causing pandas to treat them as two distinct values. This is a common problem and a simple example of how dirty data can trip up a computer program.",
+      "chapter": "Cleaning data columns",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "case normalization",
+        "pandas",
+        "string methods"
+      ],
+      "notes": "value_counts reveals dirty data; str.upper() standardizes capitalization"
+    },
+    {
+      "extract": "In the real world, you will almost always need to clean your data before you can analyze it, though the challenges will typically be more complex than this one. The basic process is always the same: Identify the problem, fix it, and then check your work. The value_counts method is one of the most useful tools in this process.",
+      "chapter": "Cleaning data columns",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning workflow",
+        "value_counts",
+        "verification",
+        "pandas"
+      ],
+      "notes": "Universal cleaning cycle: identify problem, fix, check work"
+    },
+    {
+      "extract": "When you import a CSV file with read_csv it will take a guess at column types -- for example, integer, float, boolean, datetime or string -- but it will default to a generic object type. The to_datetime method included with pandas can handle the conversion.",
+      "chapter": "datetime data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pandas",
+        "datetime conversion",
+        "data types",
+        "to_datetime"
+      ],
+      "notes": "pd.to_datetime converts string dates; check info() to verify type changes"
+    },
+    {
+      "extract": "In a typical analysis, you'd import all of your libraries in one cell at the top of the file. That way, if you need to install or make changes to the packages a notebook uses, you know where to find them and you won't hit errors importing a package midway through running a file.",
+      "chapter": "Make a basic bar chart",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "Jupyter",
+        "code organization",
+        "notebook best practices",
+        "imports"
+      ],
+      "notes": "Notebook hygiene: all imports at top of file"
+    },
+    {
+      "extract": "If we change a variable, future cells that use that variable won't change unless we run them again. This is one reason that it can be good to clear cell outputs and rerun your analysis every so often. If you've been going back and forth editing cells, you may have saved variables in memory that are no longer accurate.",
+      "chapter": "Add a color",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "Jupyter",
+        "reproducibility",
+        "kernel restart",
+        "cell execution order"
+      ],
+      "notes": "Restart kernel and rerun to catch stale variable state"
+    },
+    {
+      "extract": "These charts give us plenty of areas where we might want to dig in and ask more questions, but none are polished enough to pop into a news story quite yet. Downloading the file as an SVG will let anyone with graphics software like Adobe Illustrator take this file and tweak the design.",
+      "chapter": "Polishing your chart",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "SVG export",
+        "Altair",
+        "graphics handoff"
+      ],
+      "notes": "Export Altair charts as SVG for graphics department polish"
+    },
+    {
+      "extract": "Simplify: Break complex tasks into smaller steps. Use chain-of-thought and step-by-step prompting. Provide training examples to help with new or complex tasks. Add relevant contextual information whenever possible. Repeat the main instructions at the end if need be. Include words or phrases to guide the responses.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "chain-of-thought",
+        "few-shot learning",
+        "LLM best practices"
+      ],
+      "notes": "Reilley: 6 practical prompting rules for journalism workflows"
+    },
+    {
+      "extract": "Use clear punctuation, headings and section markers. Specify the output structure you want (format, lenses, version of software for image generation). Write and rewrite the prompt, and use Regenerate buttons until you get a result you want. Be Crystal Clear: Chat with the AI like you're giving directions to a lost tourist or a new intern.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "output structure",
+        "iteration",
+        "clarity"
+      ],
+      "notes": "Reilley: specify output format; iterate prompts; treat LLM like intern"
+    },
+    {
+      "extract": "AI is better at creating effective language around information you already have sourced and know to be true. Facts relayed by AI can be effective leads but should be independently confirmed. Similar thinking: You wouldn't quote Wikipedia but you might find the footnote links useful.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "fact-checking",
+        "AI verification",
+        "source hierarchy",
+        "independent confirmation"
+      ],
+      "notes": "Reilley: AI facts = leads not sources; treat like Wikipedia -- follow the footnotes"
+    },
+    {
+      "extract": "ChatGPT can write code to deploy a machine learning model. And it can produce a set of sentences to train on. Flagging keywords is cool. Flagging ideas is cooler. Speed up big doc review, or set up alerts.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "document review",
+        "text classification",
+        "LLM-assisted ML"
+      ],
+      "notes": "LLMs can generate training data and ML code for document classification"
+    },
+    {
+      "extract": "If you disclose, put it in an editor's note at the start or a footnote at the end of the story. AI images or video should ALWAYS be labeled as illustrations produced with AI.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI disclosure",
+        "transparency",
+        "editorial standards",
+        "labeling"
+      ],
+      "notes": "Reilley: always label AI-generated images; disclose AI use in editor's note"
+    },
+    {
+      "extract": "LLMs can generate near-flawless data practices requests, properly citing state laws, rough template of a FOIA letter and sometimes include PIO and contact info. Build a data dictionary and design basic interactive templates. Generate whole R data dashboards, build a fast webpage, solve complex dataviz solutions, translate between data formats.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "LLM utility",
+        "FOIA",
+        "data dictionary",
+        "dashboards",
+        "code generation"
+      ],
+      "notes": "Reilley: comprehensive list of LLM capabilities for data journalism"
+    },
+    {
+      "extract": "Provide Reference Text: Include reference materials for more reliable answers, especially on less-known topics. Allow Time for Thinking: Ask the AI to explain its thought process for better answers. Test, Test, and Retest: Keep throwing a mix of challenges at the AI. Assign it a role: Reporter, doctor, expert in a certain field.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "role assignment",
+        "reference text",
+        "testing"
+      ],
+      "notes": "Reilley: advanced prompting -- reference text, think-aloud, role personas, testing"
+    },
+    {
+      "extract": "Datasette Cloud is a collaborative space for your newsroom to share and analyze data. Each organization gets a space -- a private space to collaborate on data. Philosophically, avoiding lockin is very important to us. You should be able to extract your data at any time, in an open format.",
+      "chapter": "Introduction to Datasette Cloud",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Datasette",
+        "data collaboration",
+        "open formats",
+        "vendor lock-in",
+        "newsroom tools"
+      ],
+      "notes": "Willison: Datasette Cloud as collaborative newsroom data platform; anti-lock-in"
+    },
+    {
+      "extract": "Enrichments are a powerful new Datasette feature which allow you to run data modification operations against rows in a table. We'll use the regular expression enrichment to add a hireYear column: Source column: hireDate. Regular expression: (\\d{4})-.*. Output column: hireYear.",
+      "chapter": "Running an enrichment",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Datasette",
+        "regex enrichment",
+        "data transformation",
+        "column extraction"
+      ],
+      "notes": "Datasette enrichments: apply regex transforms to columns via GUI"
+    },
+    {
+      "extract": "datasette-extract is a brand new Datasette plugin that lets you enter unstructured data into a Datasette table using the OpenAI GPT-4 model. We're going to start an events calendar for the city, without any tedious data entry.",
+      "chapter": "Extracting data into a table with AI",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Datasette",
+        "GPT-4",
+        "structured extraction",
+        "unstructured data",
+        "AI data entry"
+      ],
+      "notes": "Willison: datasette-extract uses GPT-4 to structure unstructured text into tables"
+    },
+    {
+      "extract": "Work the cost-benefit, ChatGPT and the like are great, when they work. Flatten privilege -- attending NICAR is awesome, a masters is great. If you can't have that yet, AI can help fill some gaps in access. Think about your unique selling point -- if ChatGPT can be a decent data analyst and an improving writer, what makes you special?",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI access equity",
+        "professional identity",
+        "cost-benefit",
+        "newsroom strategy"
+      ],
+      "notes": "Ford: AI as access equalizer for under-resourced reporters; consider unique human value"
+    },
+    {
+      "extract": "ChatGPT can be hit or miss as an attorney, but it can write clean Python (or other languages) faster than you can type. Excellent tutor, build on what you're starting at NICAR. You still need to be able to read the code. Can debug well if the code is relatively short.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "AI coding",
+        "debugging",
+        "code literacy",
+        "LLM tutoring"
+      ],
+      "notes": "Ford: LLMs write code fast but you must read and verify; good for short code debugging"
+    },
+    {
+      "extract": "newsroom guidelines, personal ethics, trained on proprietary or private data w/o permission, bias in models, risk of plagiarism, energy consumption for model training, transparency/passing off LLM content as human work, feeding an LLM proprietary info that becomes training data, use cases that reduce trust, supply chain ethics (RLHF; data sources)",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI ethics",
+        "newsroom policy",
+        "bias",
+        "transparency",
+        "data privacy",
+        "plagiarism"
+      ],
+      "notes": "Kao: comprehensive taxonomy of AI ethical concerns for newsrooms"
+    },
+    {
+      "extract": "Treat it like an intern -- always check its work. Generally, legalistic records requests get better responses. So let it be your pitbull (for informal purposes, and be mindful of security). Help draft the initial request, battle it out with citations.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "records requests",
+        "AI drafting",
+        "verification",
+        "legal citations"
+      ],
+      "notes": "Ford: LLMs draft legal records requests but output requires human verification"
+    },
+    {
+      "extract": "Visual debugging is typically the first thing I do when I'm working with a PDF for the first time. pdfplumber comes with a set of features for identifying and extracting tables on a given page. debug_tablefinder shows you what the table-finding method sees.",
+      "chapter": "pdfplumber practice",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pdfplumber",
+        "visual debugging",
+        "table extraction",
+        "PDF parsing"
+      ],
+      "notes": "Singer-Vine: always start with visual debugging; debug_tablefinder shows table detection"
+    },
+    {
+      "extract": "Page.filter takes a function that will return True for objects we want to keep and False for those we want to ditch. Text and graphical objects can have two types of colors: stroking_color (the outline) and non_stroking_color (the fill). With text, you're almost always looking for the non_stroking_color.",
+      "chapter": "pdfplumber practice",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pdfplumber",
+        "PDF filtering",
+        "character attributes",
+        "color-based extraction"
+      ],
+      "notes": "Singer-Vine: filter PDF objects by color/attribute for targeted text extraction"
+    },
+    {
+      "extract": "I Do, We Do, You Do. Demonstrate a concept, go through it together, then give them plenty of time to experiment on their own while you and your coach walk around and answer questions. The pace will be slower than you think. Most people who come to this class will have zero experience with programming, so be empathetic.",
+      "chapter": "Session description (Intro to pandas)",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teaching methodology",
+        "pedagogy",
+        "data journalism training"
+      ],
+      "notes": "IRE teaching approach: I Do/We Do/You Do scaffolding for novice programmers"
+    },
+    {
+      "extract": "If you can, find an opportunity when someone has gotten an error and take 5 minutes to walk through basic debugging strategy: Reading the traceback error from bottom to top, strategic Googling, etc.",
+      "chapter": "Session description (Intro to pandas)",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "debugging",
+        "error handling",
+        "teaching",
+        "traceback reading"
+      ],
+      "notes": "Teaching tip: demonstrate real-time debugging -- read tracebacks bottom-to-top"
+    },
+    {
+      "extract": "By default, Python's third-party packages are all installed in a shared global folder. This approach is fine for your first experiments with Python, but it quickly falls apart when you start to get serious about coding. Programmers solve this problem by creating a virtual environment for each project that isolates them into discrete, independent containers.",
+      "chapter": "The pipenv environment manager",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "virtual environments",
+        "Python",
+        "dependency management",
+        "reproducibility"
+      ],
+      "notes": "Virtual environments prevent dependency conflicts between projects"
+    },
+    {
+      "extract": "Overview of textual data -- gold standard because most data programs can import/export, not proprietary. .csv -- most common; each piece of data is separated by a comma. .tsv or .tab -- tab-separated values. You'll get custom delimiters sometimes: pipe, tilde, semicolon.",
+      "chapter": "Google Sheets: Importing and data prep",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text files",
+        "CSV",
+        "TSV",
+        "delimiters",
+        "data formats"
+      ],
+      "notes": "Garcia: text-based formats are gold standard -- non-proprietary, universally importable"
+    },
+    {
+      "extract": "Help your process, help your colleagues, add something interactive to your reporting, ROI is strong because it can be done fairly quickly and bears fruit for a long time.",
+      "chapter": "AI 202: Cooking with generative AI",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interactive tools",
+        "ROI",
+        "newsroom efficiency",
+        "internal tools"
+      ],
+      "notes": "Ford: LLM-built web apps for reporting have high ROI -- quick to build, long-lasting value"
+    },
+    {
+      "extract": "GPTExcel can turn even the most complex verbal descriptions into functional Excel formulas. Can provide straightforward explanations of what the formula is doing. Can choose Excel, Sheets or Airtable for specific syntax. Can do SQL, VBA, Regex and Google Scripts too.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GPTExcel",
+        "Excel formulas",
+        "SQL generation",
+        "spreadsheet AI"
+      ],
+      "notes": "Reilley: GPTExcel translates natural language to formulas across platforms"
+    },
+    {
+      "extract": "native PDFs (text is selectable) vs. image PDFs (basically a picture of a piece of paper, requires Optical Character Recognition to extract text)",
+      "chapter": "Google Sheets: Importing and data prep",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF types",
+        "OCR",
+        "data extraction",
+        "native vs image PDF"
+      ],
+      "notes": "Garcia: critical distinction between native (searchable) and image PDFs for data extraction"
+    },
+    {
+      "extract": "Assign it a role: 'You are a data journalist and need to...' Fill out two fields in the custom instructions pulldown menu. Tailor your results the way you want them. Helps ChatGPT better understand you, your needs and expectations. Tell it to cite sources, provide links and bulleted list of edits.",
+      "chapter": "Hands-on with AI Tools for Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prompt engineering",
+        "role assignment",
+        "custom instructions",
+        "ChatGPT"
+      ],
+      "notes": "Reilley: custom instructions personalize LLM output; specify role and output preferences"
+    }
+  ]
+}

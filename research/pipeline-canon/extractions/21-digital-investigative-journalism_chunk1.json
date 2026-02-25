@@ -1,0 +1,921 @@
+{
+  "source_id": "21",
+  "source_file": "21-digital-investigative-journalism.md",
+  "source_title": "Digital Investigative Journalism",
+  "author": "Oliver Hahn, Florian Stalph (eds.)",
+  "year": "2018",
+  "chunk": "1/3",
+  "chunk_file": "21-digital-investigative-journalism_chunk1.md",
+  "chunk_words": 39995,
+  "extracts": [
+    {
+      "extract": "As every piece of information gets digitised, journalists need to incorporate new practices to access digital sources, encode new information configurations and extract meaning of novel information types. Each kind of information requires specific approaches; digital formats can be highly distinct, contain accurate and detailed information and metadata.",
+      "chapter": "Digital Investigative Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "digital sources",
+        "data formats",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The documents I pored through would sometimes be incomplete. Pages could be inexplicably missing. Or someone filled out government forms incorrectly. You needed to understand exactly why the documents were collected, to begin with, and what might be hidden from public inspection.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "source criticism",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You also needed to know these were not an end, but a start. They sparked more questions. They altered the way you would do interviews. And who you asked questions. More importantly, you had to keep in mind that a pile of documents was fundamentally boring to most readers. Your job was to find the story—the important journalism—and find an engaging way to incorporate it in the telling.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "story finding",
+        "data as starting point",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you learned how to use a spreadsheet, you could begin to do a better job going through public records. If you learned how to use a database manager, you could go bigger.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "spreadsheets",
+        "databases",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Criminal justice experts told us the key ratios to examine. When police said disparate ticketing happened only in high-crime neighbourhoods, we mapped the data. That was not true. Blacks and whites were treated differently regardless of neighbourhood crime rates.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "mapping",
+        "statistical analysis",
+        "expert consultation",
+        "hypothesis testing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Each discipline has its own key variables. Like preparing for any interview with a public official, knowing the right measures to check can lead to most revealing answers.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "domain expertise",
+        "statistical measures",
+        "interview preparation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Knowing database tools led us to check the completeness of the files. Unlike the earlier Afghanistan war logs, we could find almost every incident involving a US casualty. That was reassuring, particularly since we could not expect the Pentagon to vouch for the completeness of a purloined database.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data completeness",
+        "leaked data",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I assembled a list of more than 100 private security contractors that were known to be involved in Iraq. I took that database and flung it against the text inside the war logs. I then ran more queries against the war logs to see if we missed others.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database matching",
+        "cross-referencing",
+        "text search"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Because data journalism can be time-consuming and complicated, you can get perhaps the best results when you work with colleagues to share the burden. More minds may lead to better questions for the data, and then stronger stories.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "team structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists can approach data differently than those more trained in computer sciences. Traditional IT managers compare data sets that were designed to talk with each other. Journalists may wonder if the payroll list of school teachers includes registered sex offenders.",
+      "chapter": "The Rise of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "database matching",
+        "journalistic method",
+        "lateral thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The machine readability of data, the concentration of data, the explicitness of data, the predictability of data, the quality and granularity of data, and the availability of data — the way that those factors combine determines the difficulty of doing journalism with that data.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "data access",
+        "data assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When starting out in data journalism it is natural to look for sources where the data is ready-made for analysis, in the form of spreadsheets. This is a practical decision, but also one to consider critically, because such practical decisions also shape the types of stories that we are more likely to do as journalists—and the types that we are unlikely to report.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source selection bias",
+        "story selection",
+        "data availability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Many reporters will try to understand the systems that operate in the field that they are planning to cover. There may be charities and NGOs who have data, businesses that must be registered with directors and shareholders named, annual reports, mechanisms for recording and monitoring information, jobs and contracts advertised online, social media accounts updated.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source mapping",
+        "data discovery",
+        "beat knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is often worth thinking about technology services which might have an API for the data you need—an API (Application Programming Interface) is a way of querying data held by an organisation. In one story about unsolved crimes, I used the UK police force API to gather 37 million records.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "data collection",
+        "automation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Often the numbers on their own are not meaningful: It is important to establish the context that makes those numbers significant. One source of context is time: Are those numbers getting worse or better? Another source of context is the promises and claims made by people in power.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "contextualisation",
+        "trend analysis",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The importance of exclusivity as a news value often leads data journalists to seek out data which is not easily accessible: The importance of scraping skills (automating the mass collecting of data from multiple webpages or documents), drafting successful FOI requests, or the use of coding to analyse large data sets can also contribute to the strength of a story.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "FOI",
+        "coding",
+        "exclusivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Proactive stories typically begin with a hunch—a hypothesis or hypotheses—that the journalist suspects may prove to be true when tested against the evidence. However, data-driven techniques are beginning to offer alternatives: reporting that begins with a data set and looks for unusual patterns, while data analysis begins with discovery rather than a hypothesis.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis-driven",
+        "exploratory analysis",
+        "discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data should be treated like any other source, and a journalist working with data should seek to check that it is accurate (through accessing a second source, for example) and that they have attempted to contact all parties involved. Sometimes conversations can highlight incorrect assumptions about the data, or flaws that the reporter was not aware of.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "source triangulation",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists should remain sceptical about surveys which do not disclose their sample size or methodology. An understanding of statistics, and a willingness to report the margin of error, is important for journalists dealing with surveys.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "surveys",
+        "statistical literacy",
+        "methodology transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Threat modelling is an important first step. News organisations could once mount a legal defence against revealing their sources in court, but now individual journalists must be able to plan a technical defence first—otherwise, sources may be compromised without either party being aware.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source protection",
+        "threat modelling",
+        "digital security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Are we choosing data because there is a story that needs telling—or choosing stories because the data is easy to find? Are we treating data with the same scepticism as we would treat a human source? Does a fetishisation of numbers lead us to ignore the human element in a story?",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial judgment",
+        "data scepticism",
+        "human element"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For an investigative project to have impact, the journalist needs to provide a measure of the issue at play and be able to follow up on this measure through time. Absent such measurements, officials might simply argue that the story being described is an anecdote that does not represent the overall situation.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "measurement",
+        "accountability",
+        "impact",
+        "longitudinal tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Some journalists have adapted and became aggregators and curators of databases as well as providers of data-based reports. The processes they follow involve the definition of the issue to be measured through the creation of a methodology, before collecting and structuring data. Such efforts can last several years and have profound impacts.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "database creation",
+        "methodology design",
+        "long-term projects"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By leaving measurements to the authorities alone, a society implicitly accepts to be ruled by their government's prejudice. Measuring independently is fully part of the idea of keeping power accountable.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "independent measurement",
+        "accountability",
+        "counter-narratives"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Measurement projects rarely require any kind of hardware. They usually aggregate information that is available in news reports or in social media and structure it in a database, following a precise methodology. The costs lie only in the time spent gathering and structuring information.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cost-effectiveness",
+        "database creation",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Opening data and making it available lets others reuse it and expand the original project's reach. ProPublica set up an online shop where it sells the data sets derived from their measurement operations, grossing ,000 over two years.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "open data",
+        "data reuse",
+        "sustainability",
+        "revenue"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By defining a methodology, making it public and collecting data, journalists engage in science insofar as they create knowledge in a way that can be replicated and falsified.",
+      "chapter": "Measuring the Unmeasured with Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "replicability",
+        "methodology transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are three key questions ICIJ takes into account to decide which topic to investigate: Is it a global issue? Are people affected by it in a systematic way? Is it possible to create change?",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story selection",
+        "impact assessment",
+        "cross-border collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Collaborations do not work without trust. ICIJ's model requires reporters to share leads and findings, which multiplies the power of the investigative team across borders. ICIJ looks for journalists who like to share. If one journalist gives out information but does not receive anything back, trust is easily lost.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "trust",
+        "collaboration",
+        "radical sharing",
+        "cross-border"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To facilitate collaboration, there should be a set of ground rules on how the collaboration will work that everyone agrees to when joining a project. Common goals and deadlines are established, as is the publication date. A project manager makes sure everyone collaborates.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "ground rules",
+        "coordination"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ICIJ has found that having regional coordinators helps mitigate cultural differences and better assist with local needs. Their main task is to keep in constant communication with journalists from their regions and to follow-up on the progress of their reporting, and to help identify connections between different countries.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "regional coordination",
+        "cross-border",
+        "team structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is key not to take things for granted. When the data is reviewed, it has to be explored with a critical eye. The process involves verifying the authenticity of the information and understanding the data. Rushing things is not the best approach! Complex data sets require time to check and better understand what kind of information is available inside them.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data exploration",
+        "authenticity",
+        "due diligence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In the Panama and Paradise Papers, we used specific terms that are part of the offshore lingo to make searches more effective and identified types of documents that contained information that could lead to useful findings—such as financial statements, board meetings, and shareholder certificates.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "domain vocabulary",
+        "search strategy",
+        "document types"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All the data work should be combined with traditional investigative reporting skills. Conducting interviews, finding good expert sources and going to the field to see how the data connects with the world are also key to understanding what the full story is. A combination of shoe-leather reporting, data reporting and analysis, and the work of developers facilitates the production of important public interest journalism.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "shoe-leather reporting",
+        "mixed methods",
+        "field work"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Threat modelling is a standard process followed in information technology to identify potential threats and vulnerabilities. The technique can easily be applied to journalism. Five questions: what do I want to protect? who do I want to protect it from? how bad are the consequences if I fail? how likely is it that I will need to protect it? and how much trouble am I willing to go through to prevent potential consequences?",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "threat modelling",
+        "cybersecurity",
+        "source protection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ICIJ adapted existing open-source technology to provide a secure platform where team members could investigate the leaked documents. The files were processed and indexed so that journalists could make searches in a similar way to searching in Google. We partnered with Neo4j and Linkurious to obtain software that allowed reporters to easily understand who was connected to whom inside the leaks.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "document search",
+        "graph databases",
+        "Neo4j",
+        "Linkurious",
+        "network analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By sharing large quantities of the project's data with the public, we gave a second life to the investigation. The Offshore Leaks database received 12 million visits and is used regularly by academics, NGOs and tax agencies. By connecting their data to ours, governments are recovering millions of dollars in unpaid taxes.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public databases",
+        "impact",
+        "data sharing",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We used international trade databases, such as UN Comtrade or national import and export statistics to gain insight into the fuel business. Through thorough database research, the team established the sulphur content of the diesel fuel exported as well as the destined recipients. It was partly on that basis that they identified the priority countries for on-the-ground investigations.",
+      "chapter": "Data-Driven Human Rights Investigations",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "trade databases",
+        "UN Comtrade",
+        "prioritisation",
+        "field research"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For this kind of topic, which has never been investigated before, you have to go out and leave your desk. To go into the field, find people willing to speak, talk to insiders, seamen, blending and refinery experts, petrolab supervisors, ship-to-ship providers, authorities, take fuel samples—those were key for our success.",
+      "chapter": "Data-Driven Human Rights Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "field work",
+        "expert sources",
+        "physical evidence",
+        "mixed methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In some contexts data is scarce. In war-torn regions, in countries struggling with political turmoil or in remote areas, it is unlikely that a formal office operates to aggregate data. This is a scenario where researchers have to go into the field and then come up with innovative technological solutions to face the scope of the human rights violations. In data journalism, it often goes unnoted that a lot of databases have yet to be established.",
+      "chapter": "Data-Driven Human Rights Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data scarcity",
+        "conflict zones",
+        "database creation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Making the data machine-readable and thus analysable made it possible to prove that Chad's former president was well informed of the hundreds of deaths that occurred in prisons operated by the security forces. In 2016, Habré became the first dictator convicted for human rights abuses based on universal jurisdiction.",
+      "chapter": "Data-Driven Human Rights Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "digitisation",
+        "machine readability",
+        "evidence",
+        "legal impact"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first step is to find out what an official is earning. Ask for everything—not just salary, but all other benefits including per diems, bonuses, paid transportation costs, housing costs. In some countries, you can also request information from a tax office about the earnings officials have reported, including stock dividends, fees, and all other sources of income.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "financial records",
+        "public records",
+        "salary disclosure",
+        "FOI"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Asset declaration forms, required of politicians in many countries, are worth checking. They contain much more than simple earning information. Just do not believe everything on them. When CIN reporters compared earnings reported by MPs with official salary records from Parliament, they found some legislators had failed to report as much as half of their actual earnings.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "asset declarations",
+        "cross-checking",
+        "financial disclosure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Online land records can tell you if property has been mortgaged. Learning the date of a mortgage allows you to put together a timeline of when someone acquired their possessions. These records also show the amount, which bank gave it out and under what terms, who may have partnered to co-sign on a property loan, and from whom land was purchased.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "land records",
+        "property tracking",
+        "timeline reconstruction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Online databases are now available that allow for searches across multiple databases, the best being LexisNexis, Dialog, and Dun & Bradstreet. Reporters abroad can often get free access to these resources at diplomatic libraries, such as at a US Embassy. They can also usually be found at public libraries or university libraries.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "LexisNexis",
+        "company databases",
+        "library access"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When looking up a person's name, do not give up if you do not find a company at first glance. Always try variations, like searching only a surname or different spellings. To avoid identification, people often purposely misspell their name, use a middle name or maiden name, or just make up a name. You should also try searching by both personal and company addresses.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search techniques",
+        "name variations",
+        "identity obfuscation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To hide their identity, people often use a proxy—a person who knowingly or unknowingly acts on behalf of another. When looking up companies, always check additional names, and also run a search by the names of their registration agents. People in the same circle often use the same agent to establish companies.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "proxies",
+        "beneficial ownership",
+        "registration agents",
+        "network analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Make sure you go back in time, too. In some databases, only the current information is available. But if you look at old records, you might find the connection you are looking for. Archival data is often available. Get the company's whole history.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "historical records",
+        "archival research",
+        "corporate history"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Get financial reports and audits. In most countries, these are public documents. They will contain information about connected companies, transactions with related parties, including owners, and if you know how to read them or can find someone to show you, they will tell you all you need to know about business activities.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "financial reports",
+        "audits",
+        "corporate records",
+        "financial literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tracking offshores is not a Mission Impossible. You do not know unless you systematically track through available databases. It is not easy and it takes patience and determination, but sometimes you get lucky. Some jurisdictions, including Panama, Cyprus, and the Isle of Man, have opened up websites where records are obtainable for free or cheap.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "offshore tracking",
+        "company registries",
+        "persistence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "New knowledge management databases can help to figure out all the places where a particular politician or company has been mentioned across many different databases, automatically generating maps of asset ownership. Machine learning can help separate common names and give more accurate results. Artificial intelligence can use past patterns of criminal structures to find yet undiscovered criminal activity.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "knowledge management",
+        "entity resolution",
+        "AI"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists should carefully consider how a drone can enlighten a story and captivate audiences. Simply because a drone is accessible does not mean it is the best tool for the job, especially when considering how the novelty of technology can be a distraction from the focus of the story. Always ask: Why use a drone for this story?",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "drones",
+        "tool selection",
+        "editorial judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While drones can add to a story by revealing a radically different perspective than what's observed on the ground, they can also distort reality for the audience, sometimes in unexpected ways. Drone visuals alone fail to convey the human story. If the only visuals were captured by drone, I would have reconsidered using them given the lack of ground context.",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "drones",
+        "visual distortion",
+        "ground truth",
+        "context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do research before flying, not only to check for legal and spatial information (airspace, nearby airports, et cetera) and ground hazards but also to get a sense of the story you are going to tell with the drone. Look at satellite imagery, photos, 3D buildings on Google Earth. Still, when flying, expect visual surprises and be prepared to take advantage of them.",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "drones",
+        "pre-flight research",
+        "satellite imagery",
+        "safety"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do not do something in the air with a drone that you would not do the equivalent of when reporting on the ground. For example, if you would not climb a fence to take photographs over the top then do not use a drone to do the same.",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "drones",
+        "ethics",
+        "privacy",
+        "journalism ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is important to adopt a flight operations manual, including pre-flight and post-flight checklists, and maintenance logs, to ensure safe operations. Responsible and safe drone use will likely lead to more friendly rules and regulations and a bright future for drone journalism.",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "drones",
+        "safety protocols",
+        "operations manual"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One way for journalists to find innovative ways to tell stories with drones is to observe how other industries and professions are applying the technology. This kind of interdisciplinary observation and learning is crucial for understanding the capabilities of the technology. Journalists, farmers, and archaeologists are using the same drones and sensors, yet the way each industry leverages the technology differs.",
+      "chapter": "Drone Journalism: Storytelling from a New Perspective",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interdisciplinary",
+        "innovation",
+        "drones",
+        "photogrammetry"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A basic understanding of the process of programming, the most important html terms and constantly working with them have enriched my job and saved time. I suddenly understand programmers. And perhaps most importantly, our Visual Stories are getting better—from one line of code to the next.",
+      "chapter": "Visual Storytelling: Show, Not Tell? Show AND Tell",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "coding literacy",
+        "HTML",
+        "multimedia production"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The most effective way to carry the reader through the story was to apply Aristotle's rules for drama: introduction, build tension, (happy) end. We had high reader exit rates with non-linear stories and photo-centric narratives without dramatic structure.",
+      "chapter": "Visual Storytelling: Show, Not Tell? Show AND Tell",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "dramaturgy",
+        "reader retention"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We need a planning tool for central topic management. Whether you use Trello, Slack or Desknet—a list of projects that are in process and status management (In which phase is the project? What is the next step? Who is involved?) facilitate the work of the entire editorial staff, but especially that of multimedia journalists who work in multiple areas at the same time.",
+      "chapter": "Visual Storytelling: Show, Not Tell? Show AND Tell",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "editorial planning",
+        "Trello",
+        "Slack"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The only way to ensure that multimedia storytelling still remains affordable is to use networks. Present Visual Stories on all platforms and in all existing media and channels. Video journalists who accompany authors, photographers who also shoot on research trips, and motion designers who are also thinking about web and TV. Make outstanding research shine on as many channels as possible.",
+      "chapter": "Visual Storytelling: Show, Not Tell? Show AND Tell",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-platform",
+        "multimedia production",
+        "cost management",
+        "synergies"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When we design Visual Stories, we now structure them for 10 to no more than 15 minutes of user time. Videos no longer than a minute; text segments that fit on a smartphone screen. Do not overload the user with interactive graphics, and keep them simple.",
+      "chapter": "Visual Storytelling: Show, Not Tell? Show AND Tell",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multimedia length",
+        "user attention",
+        "mobile design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When measuring the interaction rates on The New York Times graphics, only about 10-15% of readers click the buttons the creators intend to be clicked—no matter how salient they are or how many arrows point towards them. As Archie Tse put it: nobody is interacting with news graphics.",
+      "chapter": "Interactivity to the Rescue",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interactivity",
+        "user engagement",
+        "data visualisation",
+        "design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Core innovation in VR storytelling is the fact that users are at the centre of the narrative. New kinds of questions have to be answered by journalists: Who is the user within that story? How do you design the presence of the viewer? To what extent does that have an impact on the story? Producers have to think in two dimensions: the role of the users (Participant vs Observant) and the question of influence within the narration.",
+      "chapter": "Immersive Journalism: How Virtual Reality Impacts Investigative Storytelling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VR",
+        "immersive journalism",
+        "user design",
+        "narrative structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Within technology-driven projects, we can observe highly differentiated teams that include, amongst others, technologists, computer scientists, architects, designers, and visual journalists. Journalists need to enrich their professional repertoire to meet the specific requirements of digital investigation.",
+      "chapter": "Immersive Storytelling and Visual Investigation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "interdisciplinary",
+        "skills development"
+      ],
+      "notes": "Part II introduction"
+    },
+    {
+      "extract": "ICIJ created its Data & Research Unit, a multidisciplinary team of data journalists, database engineers and developers, to work on developing technologies to facilitate the sharing and exploration of documents and to perform data analysis. The increased size of leaks highlights the importance of the relationship with and the protection of whistleblowers.",
+      "chapter": "Uncovering International Stories with Data and Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team structure",
+        "data unit",
+        "multidisciplinary",
+        "whistleblower protection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Obtaining hard copies of company records is important—they can hide treasures. You can find all sorts of documents—from loans, to partnership agreements, to court verdicts. These, looked at by too few reporters who are intimidated by their complexity, can yield copies of IDs, passports, or registration records. Always get everything you can. You never know when a piece of information will prove valuable.",
+      "chapter": "Following the Money Trail: Investigative Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "company records",
+        "hard copies",
+        "document collection",
+        "thoroughness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Trinity Mirror data team looks for investigation ideas and data sets that can provide multiple stories for its different local and national publications (such as crime, schools or hospitals), a model which has also been adopted by a number of other organisations.",
+      "chapter": "Zeroes and Ones: Investigating with Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "scalable stories",
+        "local-national",
+        "data team",
+        "efficiency"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,981 @@
+{
+  "source_id": "97",
+  "source_file": "97j-nicar-2025.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "2/3",
+  "chunk_file": "97j-nicar-2025_chunk2.md",
+  "chunk_words": 39289,
+  "extracts": [
+    {
+      "extract": "Whisper isn't just one piece of software - it's a collection of models with different sizes and names that you have to download separately. Whisper models go all the way up to large-v3, but it's pretty slow\\! OpenAI recommends you use their new-ish turbo model, which is just about as good as the large models but much much faster.",
+      "chapter": "Transcribe with WhisperX",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "transcription",
+        "AI models",
+        "model selection",
+        "WhisperX"
+      ],
+      "notes": "Practical advice on choosing between Whisper model sizes for transcription tasks"
+    },
+    {
+      "extract": "There's no good comparison library in Python\\! I like to just throw files into VS Code and do it manually, but we'll do a little DIY situation to compare here.",
+      "chapter": "Comparing transcripts",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transcription",
+        "verification",
+        "comparison",
+        "quality control"
+      ],
+      "notes": "Advice on comparing transcript outputs from different models for quality checking"
+    },
+    {
+      "extract": "If you want to use Hugging Face + pipelines + whatever models from over there, you just need to convert your detects into a supervision-friendly format. I just print out what my model gives me and ask an LLM.",
+      "chapter": "Video processing: Car tracking",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "computer vision",
+        "object detection",
+        "supervision library",
+        "interoperability"
+      ],
+      "notes": "Pragmatic tip on converting between ML model output formats using LLMs"
+    },
+    {
+      "extract": "What if you don't just want cars, though -- you want to be Bloomberg, and spot taxis and box trucks and commercial vehicles and all sorts of specific cars\\! While you might try to find a model that does that for you, you can also train your own with a handful of pictures and videos.",
+      "chapter": "Going further\\!",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "computer vision",
+        "custom models",
+        "training",
+        "Roboflow"
+      ],
+      "notes": "Guidance on when to train custom vision models vs using off-the-shelf"
+    },
+    {
+      "extract": "The actual number is around 20 and 20, so no\\! Let's maybe not trust the all-knowing AI with this one.",
+      "chapter": "...but also: can we do it with Gemini?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI limitations",
+        "verification",
+        "counting",
+        "Gemini",
+        "ground truth"
+      ],
+      "notes": "Gemini counted ~10-12 cars when actual was ~20; demonstrates LLM unreliability for precise counting"
+    },
+    {
+      "extract": "ALWAYS TRY TO GET IT WITHOUT FOIA FIRST",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "records requests",
+        "strategy"
+      ],
+      "notes": "Core FOIA principle from Tisha Thompson, ESPN"
+    },
+    {
+      "extract": "THINK ABOUT HOW MANY RECORDS YOU MAY RECEIVE. 'SNOW' and 'ICE' = roughly 4,000 emails from one agency in a 24 HR period. Keyword search for 'SEAT' = 'Seatgeek', 'Superseats USA' & 'Supreme Seats'. But 'SEAT' is also part of the word 'Seattle'. In Washington state, there 6,000+ businesses containing the word 'Seattle'.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "keyword search",
+        "precision",
+        "records requests"
+      ],
+      "notes": "Demonstrates how imprecise keyword searches in FOIA requests can produce overwhelming or irrelevant results"
+    },
+    {
+      "extract": "YOU NEED TO RESEARCH THE LAW BEFORE YOU SEND\\! WHAT I DO EVERY SINGLE TIME BEFORE I SEND A REQUEST: I google 'Reporters Committee Open Government' for state requests and 'Reporters Committee FOIA' for federal requests.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "legal research",
+        "RCFP",
+        "records requests"
+      ],
+      "notes": "Tisha Thompson's routine for legal preparation before filing records requests"
+    },
+    {
+      "extract": "The hardest lesson I ever learned when the ambassadors denied my appeal for current records... I WILL NEVER AGAIN WRITE 'From January 1, 2003 until the present day.' I NOW WRITE 'From January 1, 2003 until this request is processed.'",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "date ranges",
+        "records requests",
+        "lesson learned"
+      ],
+      "notes": "Hard-won lesson: use 'until processed' not 'until present day' to avoid records going stale during long fights"
+    },
+    {
+      "extract": "Request Broad Data to Narrow In. Ask for metadata or summary-level data that doesn't require redaction. Provide technical instructions -- agencies often claim they 'can't extract' data when they can. Use legal precedent to assert your right to electronic records. Example: Instead of requesting full emails (which the agency said would take years to redact), I asked for email metadata. I provided case law for why they would need to give these records, AND I even gave them the PowerShell commands for extracting the metadata.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "metadata",
+        "data extraction",
+        "technical assistance",
+        "records strategy"
+      ],
+      "notes": "Advanced FOIA strategy: request metadata instead of full records, provide technical instructions to agency"
+    },
+    {
+      "extract": "Request System Manuals to Reveal Hidden Data. Agencies may claim they 'don't have' data simply because they don't know where it's stored. Request system documentation to uncover what data fields exist and how they're recorded. Example: 'I am requesting any contracts, instruction manuals, data dictionaries, glossaries of terms, record layouts or handbooks related to the Sheriff's Office's crime incident database or case management system.' Why this works: Exposes what data is actually collected. Helps refine follow-up requests. Prevents agencies from denying data exists.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "data dictionaries",
+        "system manuals",
+        "hidden data",
+        "records strategy"
+      ],
+      "notes": "Request system documentation before data itself to discover what fields exist"
+    },
+    {
+      "extract": "Don't let records delays stall your reporting or writing. Let your editor help you map out what story you can do with or without the records. Share your system for tracking public records (a spreadsheet or some other database) with your editor with key information.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "FOIA",
+        "editors",
+        "story planning",
+        "project management"
+      ],
+      "notes": "Editor relationship management around FOIA delays"
+    },
+    {
+      "extract": "B.E.S.T. -- How Your Editor Can Back You Up. B - Boss Voice - Editors can call FOIA officers and demand answers. E - Escalation - They can push agencies, PIOs, or officials when you're being ignored. S - Strategic Planning - They can help figure out workarounds if records are denied. T - Taking Legal Action - They can help persuade your org to sue when necessary. If you're stuck, ask: 'Can my editor step in and push for this?'",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "FOIA",
+        "editors",
+        "escalation",
+        "legal action",
+        "newsroom strategy"
+      ],
+      "notes": "Framework for leveraging editor authority in FOIA disputes"
+    },
+    {
+      "extract": "Track your requests with notiFOIA. It's a Google sheet that tracks your records requests and sends you an email reminder when you haven't heard from an agency. It can be a repository for your records so you can find them quickly. It's great if you file multiple records requests per week, are worried a request will get lost in the shuffle, want notifications without using a third-party service.",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "FOIA",
+        "tracking",
+        "notiFOIA",
+        "Google Sheets",
+        "project management"
+      ],
+      "notes": "Kate Martin's notiFOIA tool for tracking records requests via Google Sheets"
+    },
+    {
+      "extract": "A git scraper is a GitHub repository configured to use GitHub Actions to scrape websites or other online resources and record changes to them over time. Enter the URL of the website - or direct URL to a JSON file - in the description field when you create the repository. It will be configured to track changes to that page once per day, or any time you manually activate the scraper.",
+      "chapter": "1. Git scraping",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "git scraping",
+        "GitHub Actions",
+        "automation",
+        "data collection",
+        "Simon Willison"
+      ],
+      "notes": "Simon Willison's git-scraper-template for automated change tracking"
+    },
+    {
+      "extract": "Websites are complicated beasts these days. Scraping just through parsing HTML often doesn't work - we need to load up the entire website in a real browser first. Some websites are resistant to scraping techniques. We're journalists, we have legitimate reasons to need that data\\! Using JavaScript can solve both of these problems. We can extract any data that's visible on the page, and we can bypass all known forms of anti-scraping technology if we start by doing it in our own browsers.",
+      "chapter": "2. Scraping with in-browser JavaScript",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "JavaScript",
+        "browser automation",
+        "anti-scraping"
+      ],
+      "notes": "Rationale for in-browser JS scraping over traditional HTML parsing"
+    },
+    {
+      "extract": "Web pages can get large with a lot of tokens. You can estimate the number of tokens before attempting a prompt using ttok. It's good practice to try different models and figure out the cheapest one that works for your particular problem. For this particular website the shot-scraper technique shown earlier is a better bet - it's much more reliable than LLMs.",
+      "chapter": "3. Structured data extraction using LLM",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "LLM scraping",
+        "cost management",
+        "token estimation",
+        "model selection",
+        "reliability"
+      ],
+      "notes": "Willison advises estimating token costs, testing cheapest models, and preferring deterministic scraping when possible"
+    },
+    {
+      "extract": "Where LLM scraping gets really interesting is on harder content, such as PDFs. We'll feed the whole PDF file to Gemini 2.0 Pro with a schema. OpenAI models can't yet handle PDFs but they work very well with images. You can use the filepath directly rather than a URL, if you have the file saved locally.",
+      "chapter": "3. Structured data extraction using LLM",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "LLM extraction",
+        "PDF processing",
+        "Gemini",
+        "structured data",
+        "schema"
+      ],
+      "notes": "Different LLM providers have different capabilities: Gemini handles PDFs natively, OpenAI needs images"
+    },
+    {
+      "extract": "This is the ultimate hack for scraping data from a website that really, really doesn't want to be scraped. The Gemini models can accept video as input. The trick is simple: record a video of your screen, browse through a website clicking on different links and pausing for a few seconds each time, then get Gemini to turn that video into JSON data.",
+      "chapter": "4. Video scraping using Google AI Studio",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "video scraping",
+        "Gemini",
+        "screen recording",
+        "anti-scraping bypass",
+        "structured extraction"
+      ],
+      "notes": "Novel technique: record screen while browsing, feed video to Gemini for data extraction"
+    },
+    {
+      "extract": "(Does it train on your input data if you're using it for free? Maybe - I don't have a solid answer about that yet. So don't try it out with anything confidential.)",
+      "chapter": "4. Video scraping using Google AI Studio",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data privacy",
+        "AI training data",
+        "confidentiality",
+        "Google AI Studio"
+      ],
+      "notes": "Warning about potential training data use when using free AI tools"
+    },
+    {
+      "extract": "What can you get -- and get quick? Think about what you might need in a moment's notice: City salaries, including OT and 'other pay'. Vehicle crash data. Assessor data. Be a resource. You'll quickly be the go-to for all things data (that may and may not exist). Hold mini-sessions with staff to spread the knowledge (and so it's not all on you\\!). One Sheets on topics that are guaranteed to come up: Crime, Wildfires, Extreme Heat.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "small teams",
+        "data readiness",
+        "beat reporting",
+        "knowledge sharing",
+        "TV journalism"
+      ],
+      "notes": "Cody Lillich advice for solo data journalists in TV: stockpile common datasets, train colleagues"
+    },
+    {
+      "extract": "Problem: CBP data portal only goes back to FY2022. Solution: Scrub monthly pdfs to get archival data to give a more accurate timeline along our sectors. Provides our producers with quick data and perspective that is updated once a month.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "PDF scraping",
+        "archival data",
+        "immigration",
+        "workarounds",
+        "data gaps"
+      ],
+      "notes": "Workaround for incomplete government data portals by scraping archived PDFs"
+    },
+    {
+      "extract": "Check your work. Always ask sources for datasets! Befriend the data stewards in your city. Design consistency. Communicate often, show drafts -- Save yourself from unnecessary revisions. Keep the data team (no matter how small) organized.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "verification",
+        "source relationships",
+        "data stewards",
+        "collaboration",
+        "small teams"
+      ],
+      "notes": "Junyao Yang (Mission Local) lessons for small data teams"
+    },
+    {
+      "extract": "When you get data: Make a copy. Create two folders: Original and working. You want to keep your original data pristine in case you mess up. Name files and versions in a reasonable way: Schools.final = not good. Schools.1.0 = better. Schools.2013-02-03 = best. Find a system that works for YOU\\!",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data management",
+        "file naming",
+        "version control",
+        "data integrity"
+      ],
+      "notes": "Kate Martin's file management system for data projects"
+    },
+    {
+      "extract": "Think of data as a source. You wouldn't run a one-source story on most things. Don't depend on data for the single source either. Data can: answer questions, raise questions, mislead you, and point you in the wrong direction. You can: misinterpret data, take it out of context, write an incorrect formula, find hidden gems, fact-check source statements, bring hidden issues to light.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data as source",
+        "verification",
+        "skepticism",
+        "critical thinking"
+      ],
+      "notes": "Kate Martin: data is a source that needs corroboration like any other"
+    },
+    {
+      "extract": "Time management in small newsrooms. There is never enough time. Keep two running lists of story ideas: One list of stories you can do today to satisfy your boss. One list of project candidates that you can chip away at. Have five minutes? File records requests, look for documents and experts, write sections of the story. Write a story and don't turn it in. Work on your project story. When your boss asks for your daily story, then turn it in.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "time management",
+        "small newsrooms",
+        "project planning",
+        "workflow"
+      ],
+      "notes": "Kate Martin's time management strategy for balancing daily and project work"
+    },
+    {
+      "extract": "Check yourself before you wreck yourself. That story you thought was awesome, might not be. WARNING SIGN: If you are really excited about a story, double check your facts and formulas. You might have made a BIG error. Report it out a little before you tell your boss. When you know the story is solid, send your boss a memo with a few paragraphs. Underpromise and overdeliver. Have a minimum viable product if the story falls through. This is all about managing expectations.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "confirmation bias",
+        "editorial process",
+        "minimum viable story"
+      ],
+      "notes": "Excitement about findings as a warning sign for errors; minimum viable product concept for stories"
+    },
+    {
+      "extract": "Two guiding principles: Enable as much reuse as possible, within reason. Remember later WTF I've done. Python, in JupyterLab notebooks. DVC for backing up large files outside of GitHub. (But use whatever works in your specific context, seriously\\!) Lots of GIS-related work. QGIS for experimenting. GeoPandas for posterity. Illustrator for publication.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "tool chain",
+        "GIS",
+        "workflow"
+      ],
+      "notes": "Justin Myers (Chicago Sun-Times): reusability and documentation as core workflow principles"
+    },
+    {
+      "extract": "Know how to share intermediate results with people. Even simple annotated screenshots help a ton. How do you provide your colleagues with: Clarity? Empowerment? Inspiration? Communicate, communicate, communicate.",
+      "chapter": "2025-data-reporting-smaller-teams.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "communication",
+        "collaboration",
+        "intermediate results",
+        "newsroom workflow"
+      ],
+      "notes": "Justin Myers on sharing work-in-progress with non-data colleagues"
+    },
+    {
+      "extract": "Pinpoint features: Create a searchable repository of PDFs. Automatically parses the documents and attempts to organize content. Extract structured data. Uses AI and machine learning. Works best with a collection of documents that follow a similar format. Uses an annotated template to 'learn'. Golden Document: One 'master' document to act as a template for the rest of the collection. How to choose your golden doc? Ideally the golden doc will be one with as many fields filled in order to let Pinpoint know what it should expect.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Pinpoint",
+        "PDF extraction",
+        "template annotation",
+        "structured data",
+        "AI"
+      ],
+      "notes": "Rosmery Izaguirre (POLITICO) on using Pinpoint's golden document approach for standardized PDFs"
+    },
+    {
+      "extract": "How can we check and clean the results Pinpoint provided? Spot check. Programmatically count a repeating field and make sure it lines up. Put it through a different type of parser using OpenAI or other programmatical methods.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "extraction validation",
+        "spot checking",
+        "cross-checking"
+      ],
+      "notes": "Multiple verification methods for AI extraction results"
+    },
+    {
+      "extract": "Do initial validation on a random sample. We ran our pipeline on ~50 precincts with different PDF formats and it scored nearly 100% vs. human review. Find a 'known' value you can check against (subtotals work great for this). We aggregated precincts to the county-level and compared to AP's county report. Programmatically flag values that are far off from what you'd expect. Check min, max, changes from previous years of data if possible.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "validation",
+        "sampling",
+        "known values",
+        "cross-reference",
+        "election data",
+        "outlier detection"
+      ],
+      "notes": "Sean McMinn (POLITICO): multi-layer validation strategy for AI-extracted election data"
+    },
+    {
+      "extract": "Cross-check against multiple extraction methods -- Run the same document through pipeline more than once to compare results. Can use another AI pipeline to see how well the first one did.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-validation",
+        "redundant extraction",
+        "AI verification",
+        "pipeline reliability"
+      ],
+      "notes": "Using multiple AI pipelines as cross-checks on each other"
+    },
+    {
+      "extract": "but you (really, truly) cannot trust LLMs\\! LLMs are next-word prediction machines. just use pdfplumber\\!\\!\\! ...but if you won't listen to me... Document Q&A models: Only uses content on the page\\! Can be wrong, but won't hallucinate. Has a confidence score. Very speedy\\!\\!\\! Use docTR, not tesseract. But Azure Form Recognizer and AWS Textract still beat it.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM limitations",
+        "hallucination",
+        "pdfplumber",
+        "OCR",
+        "document QA",
+        "trust"
+      ],
+      "notes": "Jonathan Soma: strong preference for deterministic tools (pdfplumber) over LLMs; document QA models as safer middle ground"
+    },
+    {
+      "extract": "Sometimes the LLM will get weird and return something you don't want. You can improve this by adding validation. The first one, which you should consider making routine, is to lower the 'temperature' of the model, which is a way to dial down its creativity and make it more consistent. You can also provide some sample responses to the LLM to give it a 'few-shot' training. You can also force the function to retry when there's an error. One way to manage that is to allow an 'other' category.",
+      "chapter": "Structured responses",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "LLM classification",
+        "validation",
+        "temperature",
+        "few-shot learning",
+        "retry logic",
+        "error handling"
+      ],
+      "notes": "Ben Welsh/Derek Willis: progressive strategies for controlling LLM output reliability"
+    },
+    {
+      "extract": "Requesting answers one by one can take a long time. And it can end up costing you money. The solution is to submit your requests in batches and then get the answers back from the LLM as JSON you can parse.",
+      "chapter": "Bulk prompts",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "LLM classification",
+        "batching",
+        "cost management",
+        "efficiency"
+      ],
+      "notes": "Batch processing strategy for LLM classification at scale"
+    },
+    {
+      "extract": "You should take a random sample and code them with the correct answers. We use scikit-learn to evaluate how well the LLM does on the supervised sample. Check the ones that are wrong. Tweak your prompt to match.",
+      "chapter": "Evaluate",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "evaluation",
+        "ground truth",
+        "scikit-learn",
+        "classification report",
+        "prompt iteration"
+      ],
+      "notes": "Rigorous evaluation workflow: hand-code sample, split train/test, measure precision/recall, iterate"
+    },
+    {
+      "extract": "We feed the training set into few-shot pre-prompts and see if it improves the results. LLM classifiers can outperform traditional machine-learning methods with significantly less code.",
+      "chapter": "Improve",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "LLM classification",
+        "few-shot learning",
+        "machine learning comparison",
+        "improvement"
+      ],
+      "notes": "Key finding: LLM classifiers outperform sklearn SVM with less code when improved with few-shot examples"
+    },
+    {
+      "extract": "Matching up two sets of names that aren't quite the same, but refer to the same thing. Typically for investigative reporting that's names of people or names of companies. Of course it could also be names of places or other things too.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "fuzzy matching",
+        "entity resolution",
+        "record linkage",
+        "investigative reporting"
+      ],
+      "notes": "Max Harlow: definition and core use case for fuzzy matching in journalism"
+    },
+    {
+      "extract": "So there's a recipe here. A repeatable pattern we can use in investigations. There was a leak from a Jersey-based bank of 53,000 names of individuals who held accounts there. We wanted to find out which ones were notable public figures. To do this I scraped lists of 'interesting' people -- the Forbes rich list, data published on people who had given donations to UK political parties, and other sources.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fuzzy matching",
+        "investigative pattern",
+        "leaked data",
+        "entity matching",
+        "public interest"
+      ],
+      "notes": "Repeatable investigative pattern: match leaked/obtained names against curated lists of notable people"
+    },
+    {
+      "extract": "False positives and false negatives. The first type are the ones we see in our data -- false positives, where the computer thinks two things are the same when they actually aren't. The other type are the records that we don't see in our data -- false negatives. The amount of false positives can also be called precision, the amount of false negatives is recall. On projects like those I've described, we probably want to bias towards having more false positives -- as we're going to manually go through the results anyway. And we can't go through results that aren't there.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "precision",
+        "recall",
+        "false positives",
+        "false negatives",
+        "fuzzy matching",
+        "tradeoffs"
+      ],
+      "notes": "For investigative matching, bias toward recall (more false positives) since manual review follows"
+    },
+    {
+      "extract": "Now let's look at how we can actually improve matches like this -- by using multiple fields. This is the most powerful technique we're going to see today. That's because it can make your matches both more accurate and faster. If we have two people with the same name but we know one lives in Australia and the other lives in the UK, they shouldn't be a match. Using this data can also, perhaps counterintuitively, make matches faster too\\!",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "blocking",
+        "fuzzy matching",
+        "multi-field matching",
+        "performance optimization"
+      ],
+      "notes": "Blocking: using additional fields (e.g. country) to both improve accuracy and reduce computation"
+    },
+    {
+      "extract": "Know your data. A lot depends on the nature of your specific data, what kind of issues it has and how it was produced can guide your approach. For example, the donations data I showed you at the start -- this used to include lots of people with 'na' in their name -- this is how names were entered for people with no middle name, by putting 'not applicable' in that field. Knowing these kinds of details let you tackle them. That all said fuzzy matching itself can be a bit of a fuzzy science, and it's often worthwhile to try a few different approaches and see what works best.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "domain knowledge",
+        "fuzzy matching",
+        "data provenance",
+        "iteration"
+      ],
+      "notes": "Understanding data provenance and quirks is essential before fuzzy matching"
+    },
+    {
+      "extract": "Same name, same person. Keep in the back of your mind when matching up records like this that two people or two companies with the same name aren't necessarily the same\\! Even if it's an exact match.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "entity resolution",
+        "false positives",
+        "verification",
+        "matching caveats"
+      ],
+      "notes": "Critical caveat: exact name match does not guarantee same entity"
+    },
+    {
+      "extract": "AI is getting better every day, and it's worth considering. But you don't know what it's really doing. It is also non-deterministic, and it can be slow and expensive. So it might be worth trying, and even more so in the future, but I would still recommend you start with the approaches I've discussed here.",
+      "chapter": "2025-fuzzy-matching.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI limitations",
+        "determinism",
+        "fuzzy matching",
+        "transparency",
+        "cost"
+      ],
+      "notes": "Max Harlow: prefer traditional fuzzy matching over AI for transparency and determinism"
+    },
+    {
+      "extract": "Given the limitations of today's personal computers, it becomes difficult to work with datasets larger than a few gigabytes. Campaign contributions, voter registration files, consumer complaints, climate estimates, social media extracts and many other newsworthy sources often exceed tens of millions of records and surpass the capabilities of a typical laptop. Data journalists can turn to Athena to interrogate these datasets without having to invest in expensive hardware or learn a new programming language. SQL is a standard tool in the data journalist's toolbox, and Athena is built to work with it.",
+      "chapter": "How do newsrooms use it?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Amazon Athena",
+        "big data",
+        "SQL",
+        "cloud computing",
+        "scalability"
+      ],
+      "notes": "Amazon Athena as solution for datasets too large for local machines"
+    },
+    {
+      "extract": "Telling it to extract data using the JSON schema. Handling edge cases. Troubleshooting when it didn't correctly parse what the precinct name should be. Troubleshooting when it was picking up on 'election day' or 'mail-in' votes. We want a prompt and schema that will handle any of those.",
+      "chapter": "2025-extracting-data-documents-ai.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "JSON schema",
+        "prompt engineering",
+        "edge cases",
+        "election data",
+        "troubleshooting"
+      ],
+      "notes": "Iterative prompt+schema refinement to handle diverse document formats"
+    },
+    {
+      "extract": "Think of Actions as renting a blank computer from GitHub. To use it, you will need to install the latest version of whatever language you are using, as well as any corresponding package managers and libraries. Because these Actions are used so often, GitHub has a marketplace where you can find pre-packaged steps for common tasks.",
+      "chapter": "Write your workflow file",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub Actions",
+        "automation",
+        "cloud computing",
+        "CI/CD"
+      ],
+      "notes": "Mental model for GitHub Actions: renting a blank cloud computer"
+    },
+    {
+      "extract": "GitHub Actions provides two error-handling settings that will be helpful. One is called fail-fast. This flag controls whether the entire matrix job should fail if one job in the matrix fails. In our case, we want to mark this flag as false; even if one state's scraper fails, we still want the job to be completed. The second error-handling setting is called continue-on-error. When true, this allows the Action to continue running subsequent steps even if an earlier step fails.",
+      "chapter": "Matrix strategy",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub Actions",
+        "error handling",
+        "matrix strategy",
+        "resilience",
+        "automation"
+      ],
+      "notes": "Error handling strategies for parallel scraping jobs in GitHub Actions"
+    },
+    {
+      "extract": "With multiple jobs running in parallel, we can no longer guarantee their order of completion. We'll solve that by splitting the action into two steps. First, we'll run all scrapers in parallel and save their outputs in temporary storage known as artifacts. Then, once every job finishes, we'll collect those Artifacts and make a single commit. This approach ensures that all parallel jobs contribute their changes without overwriting each other.",
+      "chapter": "Matrix strategy",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "GitHub Actions",
+        "artifacts",
+        "parallel processing",
+        "data pipeline",
+        "fan-in pattern"
+      ],
+      "notes": "Fan-in pattern: parallel scrape jobs save artifacts, then single commit job collects all"
+    },
+    {
+      "extract": "GitHub may automatically disable workflows if there's a period of inactivity. To get around this you can have your workflow commit an updated text file every time your Action runs.",
+      "chapter": "Write your workflow file",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub Actions",
+        "automation",
+        "workflow maintenance",
+        "inactivity"
+      ],
+      "notes": "Workaround for GitHub auto-disabling inactive workflows: commit a datestamp file"
+    },
+    {
+      "extract": "VLOOKUP is a function that allows you to 'join' data from one sheet to another. You can transfer one column of information over to another sheet, matching based on common values. IMPORTANT: the left-most column in this range needs to be the one you are matching/joining on. If you Google how to do a VLOOKUP, it won't include this first step I'm going to show you. But I can guarantee you, my approach saves a lot of headache and simplifies the ultimate formula. What we're going to do is assign a name to the 'range.'",
+      "chapter": "2025-if-vlookup-google-sheets.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VLOOKUP",
+        "Google Sheets",
+        "data joining",
+        "named ranges",
+        "spreadsheets"
+      ],
+      "notes": "MaryJo Webster: always use named ranges with VLOOKUP to simplify formulas"
+    },
+    {
+      "extract": "Do a quick pivot table on the 'race' column and notice that we've got quite a few inconsistencies. When I was prepping this data, I took this column out of the pivot table and pasted it into the sheet that is called 'race_lookup.' Notice that it's the column called 'original.' And then I added a new column where I typed the value I wanted to replace each one with. We'll use a VLOOKUP to match those original values back in the dataset and create a new column where we'll drop the new values. This is a very easy data cleanup option when you have inconsistencies but it isn't hundreds of them.",
+      "chapter": "2025-if-vlookup-google-sheets.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "VLOOKUP",
+        "lookup tables",
+        "standardization",
+        "pivot tables"
+      ],
+      "notes": "Using pivot table to identify inconsistencies, then VLOOKUP with a lookup table for standardization"
+    },
+    {
+      "extract": "Data journalists are very used to negotiating for records and turning a pile of record soup into structured data.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism identity",
+        "records negotiation",
+        "structuring data"
+      ],
+      "notes": "Michael Corey: data journalism as the craft of turning unstructured records into structured data"
+    },
+    {
+      "extract": "Mapping Process: Digitized images of property records, usually from microfilm. OCR using Amazon Textract. Search for terms associated with racial covenants. Show each 'hit' to 5 volunteers on the Zooniverse crowdsourcing platform. They transcribe the text of the covenant, buyer, seller, date, and the property identifying information. Compare each of their responses to determine how confident we are in the answers. Finally we want to put those on a map.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "OCR",
+        "Zooniverse",
+        "historical records",
+        "digitization",
+        "pipeline"
+      ],
+      "notes": "Full pipeline: microfilm -> OCR -> keyword search -> 5x crowdsource transcription -> confidence check -> mapping"
+    },
+    {
+      "extract": "Why crowdsourcing? It's more accurate. We don't have 300 graduate assistants. We do have 11,000+ volunteers. Crowdsourcing is not just faster and more scalable than hiring a couple grad students, it's also more accurate. But the key thing is you have to be willing to do the community engagement to find crowdsourcing volunteers.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourcing",
+        "accuracy",
+        "community engagement",
+        "volunteers",
+        "scalability"
+      ],
+      "notes": "Crowdsourcing as both more scalable AND more accurate than small expert teams"
+    },
+    {
+      "extract": "Property identification is hard (Pls slow your LLM roll). What is the lot, block, and addition? Many possible answers. Only one is correct, requires context and additional research. Each individual property really matters. Statistically good is not good enough. There are machine-learning based approaches that can surely get pretty good, statistically, at flagging and even transcribing racial covenants. But statistically good is not good enough.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "accuracy",
+        "AI limitations",
+        "individual records",
+        "statistical vs exact",
+        "crowdsourcing"
+      ],
+      "notes": "When individual records matter (property mapping), statistical accuracy from ML is insufficient; human review required"
+    },
+    {
+      "extract": "How we map matters. How will this map be received? And what does that mean for how we map? We're talking about structural racism here. There are so many people who are motivated to not hear this information. So if we color in a lot on this map, we better be sure there was really a covenant there. Because what happens after we make a map, is that people want to discharge or disavow that covenant on their property. If someone goes through the effort of filing that paperwork, and then they find out nope, it was a mistake. It doesn't take many of those to kill all your goodwill.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "accuracy",
+        "mapping",
+        "consequences",
+        "trust",
+        "structural racism",
+        "presentation ethics"
+      ],
+      "notes": "High-stakes accuracy: errors in mapping racial covenants undermine real-world remedial action and credibility"
+    },
+    {
+      "extract": "Working with public historians and community. From a historian's perspective: You don't need to prove racism exists. Deep community and historian connections give your work credibility. Your level of trust is likely starting at 0. Journalism's traditional practices are what got you there. These should be your collaborators, not your sources. Crediting generously is free. But it's also time to start paying people. What is in it for your collaborators? Start by asking what they would like out of this work. Before you have decided what you will do.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "community collaboration",
+        "trust",
+        "historians",
+        "crediting",
+        "ethics",
+        "co-creation"
+      ],
+      "notes": "Collaborative journalism principles: treat community as collaborators not sources, credit generously, ask what they want first"
+    },
+    {
+      "extract": "tiers of problem-solving: Using a tool. Writing a scraper. Undocumented APIs. Intercepting browser requests. Pack-ratting with HAR and WARC/WACZ files.",
+      "chapter": "Passive Scraping for social media",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping hierarchy",
+        "APIs",
+        "HAR files",
+        "WARC files",
+        "problem solving tiers"
+      ],
+      "notes": "Jonathan Soma: escalating tiers of scraping difficulty from tools to passive capture"
+    },
+    {
+      "extract": "Data journalism doesn't always involve fancy coding -- sometimes it's a lot of counting. Data journalism can be about conveying information in a novel way. A data story can be built around a single trend or observation. It's great for confirming/quantifying what you're hearing from human sources.",
+      "chapter": "2025-news-to-data-journalism.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism definition",
+        "counting",
+        "trends",
+        "quantification",
+        "accessibility"
+      ],
+      "notes": "Beginner track panel: data journalism as counting, confirming, and contextualizing"
+    },
+    {
+      "extract": "Bonus: if you want notifications every time something changes, every GitHub repository includes a hidden RSS feed. Add .atom to the commits page URL, for example: https://github.com/simonw/scrape-openai-models/commits/main.atom. I subscribe to these in NetNewsWire.",
+      "chapter": "1. Git scraping",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "git scraping",
+        "RSS",
+        "monitoring",
+        "change detection",
+        "GitHub"
+      ],
+      "notes": "Hidden feature: append .atom to GitHub commits URL for RSS change notifications"
+    },
+    {
+      "extract": "You can combine shot-scraper javascript with Git scraping. I also wrote up a trick for working around scraping prevention services that exclude GitHub Actions by proxying traffic through an Apple TV on a home network, see Using a Tailscale exit node with GitHub Actions.",
+      "chapter": "2. Scraping with in-browser JavaScript",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "shot-scraper",
+        "git scraping",
+        "anti-scraping bypass",
+        "Tailscale",
+        "proxying"
+      ],
+      "notes": "Combining shot-scraper with git scraping; Tailscale proxy to bypass IP-based scraping blocks"
+    },
+    {
+      "extract": "A common thing that trips you up with nested IF statements is not getting enough parentheses in there. Always count how many opening ones and make sure you have the same number of closing ones. If you get an error message, first thing to check is number of parentheses and whether they are all in the correct place.",
+      "chapter": "2025-if-vlookup-google-sheets.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "spreadsheets",
+        "IF statements",
+        "debugging",
+        "Google Sheets",
+        "formulas"
+      ],
+      "notes": "MaryJo Webster: common debugging tip for nested IF statements"
+    },
+    {
+      "extract": "The process is the product. When we started, we assumed that getting to the finished map was the goal. But our volunteers and other community members have taught us that just mapping covenants is not the real goal. The real goal and the secret to Mapping Prejudice's success is the experience of absorbing new information together, talking about that, and that is what opens people to new possibilities for reparative change.",
+      "chapter": "2025-quantifying-history.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "process vs product",
+        "community engagement",
+        "crowdsourcing",
+        "impact",
+        "civic change"
+      ],
+      "notes": "Key insight: the participatory process of data creation may matter more than the finished product"
+    },
+    {
+      "extract": "It's important to make a distinction. Essential - Does this align with our mission? Distinct - Are we uniquely positioned to tell this story? Impact - Could this lead to meaningful change? Can the problems described be rectified? Timing - Is this the right moment for the story? Obstacles - Are there legal, ethical, or reputational risks? What are the biggest hurdles? Result - What's the biggest vs. minimum viable version of the story? When will we know it's time to walk away?",
+      "chapter": "2025-beginner-foia.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editorial framework",
+        "story assessment",
+        "mission alignment",
+        "impact",
+        "minimum viable story"
+      ],
+      "notes": "EDITOR CHECK framework for evaluating whether to pursue a data story"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "source_id": "150",
+  "source_file": "150-amnesty-algorithmic-accountability-toolkit.md",
+  "source_title": "Amnesty International Algorithmic Accountability Toolkit",
+  "author": "Amnesty International",
+  "year": "2025",
+  "chunk": null,
+  "chunk_words": 2845,
+  "extracts": [
+    {
+      "extract": "A fact-finding mission to build a picture of: where and by whom algorithmic systems are being deployed, whether they are having detrimental impacts on people's lives, what information is available in the public domain, what further research avenues are possible, and options for challenging systems and seeking change.",
+      "chapter": "Project Scoping — Scoping Phase Aims",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "scoping",
+        "investigation-design",
+        "research-questions"
+      ],
+      "notes": "Scoping as structured pre-investigation fact-finding"
+    },
+    {
+      "extract": "Build relationships with local activists, journalists and organizations. Only proceed if your work is additive to local efforts.",
+      "chapter": "Project Scoping — Considerations for Global Organizations",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "duplication-avoidance",
+        "community-engagement"
+      ],
+      "notes": "Applies to any cross-jurisdictional investigation"
+    },
+    {
+      "extract": "Involve stakeholders, community members, and affected people as early as possible. Participatory research approaches include community-led data collection, collaborative workshops, and mapping exercises. Build a shared understanding of algorithmic harm and allow communities to shape the project and its goals.",
+      "chapter": "Project Scoping — Participatory Methods",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "participatory-research",
+        "community-engagement",
+        "co-design"
+      ],
+      "notes": "Communities shape goals, not just provide testimony"
+    },
+    {
+      "extract": "Early steps: desk research (reviews of official government communications, strategy and procurement documents), FOIs (submit broadly to relevant public sector agencies — Lighthouse Reports submitted 100+ FOIs for their Suspicion Machine investigation), and speaking to impacted communities (engagement with individuals subjected to new technologies, obtaining copies of official decision communications).",
+      "chapter": "Project Scoping — Knowledge of the System",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "desk-research",
+        "FOI",
+        "source-development",
+        "document-acquisition"
+      ],
+      "notes": "Three-pronged early knowledge-building: documents, FOIs, community engagement"
+    },
+    {
+      "extract": "Investigating potential human rights impacts requires both sociotechnical analysis and human rights-focused research. A holistic approach considers harms along the lifecycle of the technical system from inception to use. Analysis of civil society reports, news reports, and interviews with impacted communities can surface key human rights harms even if technical research cannot be undertaken.",
+      "chapter": "Project Goals and Lifecycle — Holistic View",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "sociotechnical-analysis",
+        "mixed-methods",
+        "workaround-strategies"
+      ],
+      "notes": "Non-technical evidence paths viable when code access unavailable"
+    },
+    {
+      "extract": "Discussions around change should precede any investigation. A theory of change incorporates goals, channels of influence, key messages, tactics and activities, with mechanisms for monitoring and evaluating success.",
+      "chapter": "Project Goals and Lifecycle — Affecting Change",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "theory-of-change",
+        "impact-planning",
+        "pre-investigation-design"
+      ],
+      "notes": "Impact strategy precedes rather than follows investigation"
+    },
+    {
+      "extract": "Embed participatory approaches throughout a project's duration. After scoping, ensure regular consultation and reshape the project to align with community needs. Published research should be translated and made accessible (Easy to Read versions, explainer videos, presentations to communities).",
+      "chapter": "Project Ethics and Principles — Community Participation",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "accessibility",
+        "participatory-research",
+        "translation",
+        "community-engagement"
+      ],
+      "notes": "Accessibility as ethical obligation in output design"
+    },
+    {
+      "extract": "Embed racial justice and anti-discrimination within the strategy. Interview individuals with diverse identities. Intersectionality examines how different forms of discrimination overlap and interact — critical for analyzing how algorithmic systems compound harms against specific groups.",
+      "chapter": "Project Ethics and Principles — Anti-Discrimination and Intersectional Lens",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "intersectionality",
+        "anti-discrimination",
+        "sampling-strategy",
+        "analytical-framework"
+      ],
+      "notes": "Intersectionality as analytical lens, not just ethical add-on"
+    },
+    {
+      "extract": "Prioritize safety over revelation of information. Invest in planning to assess risks and benefits for communities and the research team. Develop risk mitigation strategies in partnership with stakeholders. Do not proceed if the risk of harm is too high.",
+      "chapter": "Project Ethics and Principles — Security Considerations",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "safety",
+        "risk-assessment",
+        "ethics",
+        "harm-prevention"
+      ],
+      "notes": "Safety trumps publication — a hard constraint"
+    },
+    {
+      "extract": "Where security allows, direct engagement with government officials should be the first port of call. Provides opportunities to interrogate the system and understand policy drivers.",
+      "chapter": "Obtaining Access to Information — Direct Engagement with Government Officials",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "source-development",
+        "government-engagement",
+        "interviews"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Freedom of Information requests are critical for circumventing lack of publicly available information. Template requests should cover: technical documentation (system architecture, algorithmic design), data collected/exploited, example model inputs and outputs, Data Protection Impact Assessments, equalities or human rights impact assessments, and bias or statistical assessments. Example model inputs/outputs and technical documentation are essential first ports of call.",
+      "chapter": "Obtaining Access to Information — Freedom of Information Requests",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "document-acquisition",
+        "template-strategy",
+        "algorithmic-transparency"
+      ],
+      "notes": "Prioritizes model I/O and technical docs as first requests"
+    },
+    {
+      "extract": "Data protection laws grant people the right to access information organizations hold about them. Subject Access Requests can reveal system inputs and data processing when working with people subjected to algorithmic systems.",
+      "chapter": "Obtaining Access to Information — Subject Access Requests",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "SARs",
+        "data-protection",
+        "document-acquisition",
+        "individual-rights"
+      ],
+      "notes": "Requires working directly with affected individuals"
+    },
+    {
+      "extract": "Interview academics, analysts, practitioners, and front-line workers. Start by looking for relevant media and academic articles, reaching out to authors and quoted experts.",
+      "chapter": "Obtaining Access to Information — Expert Interviews",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "source-development",
+        "expert-interviews",
+        "literature-review"
+      ],
+      "notes": "Publication trail as source-finding strategy"
+    },
+    {
+      "extract": "Map out the 'dream scenario' data and triangulate publicly available information with FOI requests. Public records, survey data, and quarterly/yearly reports from public sector agencies can be valuable.",
+      "chapter": "Obtaining Access to Information — Alternative Data Sources",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "triangulation",
+        "data-strategy",
+        "public-records",
+        "ideal-dataset"
+      ],
+      "notes": "Dream scenario mapping as planning technique"
+    },
+    {
+      "extract": "Map the supply chain from computing hardware to cloud providers to AI companies to government deployment. Useful sources: tender notices and RFPs, published government strategies, loan agreements or MoUs with international organizations, public company information, marketing materials and demonstrations, companies search databases and job advertisements, research letters requesting responses from private companies.",
+      "chapter": "Obtaining Access to Information — Procurement Research and Supply Chain",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "supply-chain-mapping",
+        "procurement",
+        "corporate-research",
+        "OSINT"
+      ],
+      "notes": "Comprehensive source list for algorithmic supply chain investigation"
+    },
+    {
+      "extract": "Testimonies and focus groups are the backbone of evidence on algorithmic harms. Additional methods include legal analysis (international human rights law, UN reports, domestic law, court transcripts), discourse analysis (media reporting, government interviews, policy documents), and survey data (short surveys with people subject to the technology).",
+      "chapter": "Human Rights Research — Methods and Data Sources",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "testimony",
+        "mixed-methods",
+        "qualitative-data",
+        "survey-design"
+      ],
+      "notes": "Testimony as primary evidence; quantitative as supplementary"
+    },
+    {
+      "extract": "Research solely focused on technical aspects without meaningful participation of impacted people can gesture towards false notions that issues can be solved through technical fixes alone.",
+      "chapter": "Introduction — Four Core Elements",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "techno-solutionism",
+        "participation",
+        "framing-bias"
+      ],
+      "notes": "Warns against purely technical framing of algorithmic harm"
+    },
+    {
+      "extract": "Looking at technology within the political, social, economic and cultural incentives and environmental factors. The word 'system' denotes that these tools are 'intricate, dynamic arrangements of people and code' that cannot be reduced to the technology component.",
+      "chapter": "Introduction — Four Core Elements",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sociotechnical-framing",
+        "systems-thinking",
+        "context"
+      ],
+      "notes": "Redefines 'system' beyond technology to include people and context"
+    },
+    {
+      "extract": "The core idea of statistical bias and fairness testing: compare accuracy of algorithmic decisions across demographic groups. Measuring fairness is not purely technical — proposed measures must be interrogated from legal, philosophical and sociological perspectives. Even when a specific definition of fairness is met, discrimination may still be present.",
+      "chapter": "Algorithmic Auditing — Statistical Bias and Fairness Testing",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "fairness-metrics",
+        "statistical-testing",
+        "bias-audit",
+        "limits-of-quantification"
+      ],
+      "notes": "Fairness metrics are necessary but insufficient"
+    },
+    {
+      "extract": "Compile a checklist of what you can learn (inputs, processing, models, outputs). Interrogate design choices — these are not neutral decisions. Examine redactions (not always applied correctly). Use information for follow-up questions. Corroborate with testimonial evidence.",
+      "chapter": "Algorithmic Auditing — Reviewing Documentation",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "document-review",
+        "verification",
+        "corroboration",
+        "redaction-analysis"
+      ],
+      "notes": "Redactions themselves are analytically informative"
+    },
+    {
+      "extract": "Full access (White Box): Rotterdam Municipality's welfare algorithm — Lighthouse Reports obtained source code, variable lists, model evaluations, documentation, trained model file, and raw data, enabling direct stress-testing and bias analysis. Code access (Reverse Engineering): France's CNAF — researchers obtained redacted documentation and source code, reconstructed the system, ran tests using publicly available demographic data. Outcome data only (Black Box): Sweden's Social Insurance Agency — without access to source code or inputs, researchers requested data on outputs and outcomes for statistical bias and fairness testing.",
+      "chapter": "Algorithmic Auditing — Audit Scenarios",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "audit-methodology",
+        "white-box",
+        "black-box",
+        "reverse-engineering",
+        "access-levels"
+      ],
+      "notes": "Three audit scenarios calibrated to level of data access"
+    },
+    {
+      "extract": "Center lived experiences of impacted people. Demystify the technology (simple language, graphics). Challenge false dichotomy between innovation and regulation. Present positive, rights-affirming vision of technology's role. Co-design key messages with partner organizations. Time publications strategically.",
+      "chapter": "Affecting Change — Shaping Narratives (Communications)",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative-strategy",
+        "accessibility",
+        "framing",
+        "publication-timing",
+        "co-design"
+      ],
+      "notes": "Communication strategy as integral to investigation, not afterthought"
+    },
+    {
+      "extract": "Documenting evidence alone is not enough. Post-publication, researchers must continue to pursue accountability through advocacy, litigation and other means.",
+      "chapter": "Introduction — Four Core Elements",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "impact",
+        "accountability",
+        "post-publication",
+        "advocacy"
+      ],
+      "notes": "Publication as midpoint, not endpoint"
+    },
+    {
+      "extract": "AI systems can lead to discrimination through direct discrimination (explicit distinction between groups, e.g., algorithm includes protected characteristics) or indirect discrimination (neutral presentation but disproportionate impact). Proxies — inputs correlated with protected characteristics such as postcode correlating with socioeconomic status and race — are a key mechanism.",
+      "chapter": "Human Rights Research — Right to Equality and Non-Discrimination",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "proxy-variables",
+        "discrimination",
+        "algorithmic-bias",
+        "direct-vs-indirect"
+      ],
+      "notes": "Proxy variable awareness essential for bias analysis"
+    }
+  ]
+}

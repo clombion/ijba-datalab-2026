@@ -1,0 +1,725 @@
+{
+  "source_id": "97",
+  "source_file": "97e-nicar-2020.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "4/4",
+  "chunk_file": "97e-nicar-2020_chunk4.md",
+  "chunk_words": 34554,
+  "extracts": [
+    {
+      "extract": "Navigate to any column, and then press Shift-F. With just one keystroke, VisiData has already told us something useful about the dataset: That the 'operators' associated with 31% of the wildlife strikes are, according to the FAA, 'unknown.' We have also learned, from the 'bins' mini-report at the bottom-right of the screen, that there are 282 distinct values in the 'OPERATOR' column.",
+      "chapter": "Frequency tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "frequency tables",
+        "data profiling",
+        "exploratory analysis"
+      ],
+      "notes": "Single-keystroke frequency tables for instant column profiling"
+    },
+    {
+      "extract": "Sometimes you want to count how often combinations of columns occur. VisiData also makes this easy. First, turn the columns you want to count into 'key' columns, using the \\! button. Then, type gF. With just a few more keystrokes, we've learned something else: Virtually all wildlife strikes with 'unknown' operators were identified based on carcasses found at the airport (rather than reports from pilots, for example).",
+      "chapter": "Multi-column frequencies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "cross-tabulation",
+        "multi-column frequency",
+        "data exploration"
+      ],
+      "notes": "Multi-column frequency tables reveal patterns in variable combinations"
+    },
+    {
+      "extract": "By default, frequency tables just count the number of times each value appears. But in VisiData, you can specify additional calculations by setting the column's 'aggregators'. VisiData's aggregators include min, max, mean, median, sum, distinct, and others. To add an aggregator to a column, navigate to that column and press +.",
+      "chapter": "Adding aggregators",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "summary statistics",
+        "grouped calculations"
+      ],
+      "notes": "Aggregators enrich frequency tables beyond simple counts"
+    },
+    {
+      "extract": "When using aggregators, make sure that you've assigned the proper type (# for integer columns, etc.) to the columns of interest, so that VisiData knows how to calculate the aggregations correctly.",
+      "chapter": "Adding aggregators",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data types",
+        "type casting",
+        "aggregation"
+      ],
+      "notes": "Column type assignment is prerequisite for correct aggregation"
+    },
+    {
+      "extract": "To get a bird's-eye view of your entire dataset, press Shift-I, which will provide summary statistics for each of your columns. In VisiData, this is called the 'Describe Sheet'. You'll notice that there are only min/max/median/etc. calculations for the columns we've given types.",
+      "chapter": "Summarizing all columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "summary statistics",
+        "describe sheet",
+        "data profiling"
+      ],
+      "notes": "Quick full-dataset profiling with Shift-I"
+    },
+    {
+      "extract": "Rather than guess at your column's data types, VisiData assumes that they're all plain-old text. If that column is a number or date, and you want to do any math-y operations on your column (e.g., sorting, summing, averaging, et cetera), you'll have to specify its type. To set a column's type, navigate over to that column and press one of the following keys: # Integer, % Float, $ Currency, @ Date, ~ Text.",
+      "chapter": "How to set column types",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "data types",
+        "type casting",
+        "data preparation"
+      ],
+      "notes": "Explicit type assignment required before numeric/date operations"
+    },
+    {
+      "extract": "In VisiData, pressing the double-quote key will create a copy of your current sheet --- but one that contains only selected rows. So, to view only wildlife strikes that involved hawks, you could: Navigate to the SPECIES column, Press | to select by searching, then type hawk, and then press Enter. Then, press the double-quote key, which should give you a filtered sheet.",
+      "chapter": "Filtering selected rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "filtering",
+        "row selection",
+        "subset creation"
+      ],
+      "notes": "Select-then-filter workflow for creating data subsets"
+    },
+    {
+      "extract": "In VisiData, you can select rows by evaluating a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. The two keystrokes for this are z| and z\\. For instance: Type gu to unselect all rows, Type z|, Type OPERATOR == 'BUSINESS' and STATE == 'FL', Press Enter.",
+      "chapter": "Via expressions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "expression filtering",
+        "Python expressions",
+        "conditional selection"
+      ],
+      "notes": "Python expressions enable complex multi-column filtering logic"
+    },
+    {
+      "extract": "Expression columns evaluate a given Python expression for every row in your dataset. These expressions can reference any column in your dataset. You can create an expression column by pressing =. Let's say we want to identify wildlife strikes that were reported to have occurred at least 100 feet above ground. We could press = to bring up the 'new column expr=' prompt, type HEIGHT >= 100, and press Enter.",
+      "chapter": "How to create an expression column",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "computed columns",
+        "expression columns",
+        "derived variables"
+      ],
+      "notes": "Expression columns create derived variables using Python syntax"
+    },
+    {
+      "extract": "You can split the text in any column in VisiData into two or more columns, based on a pattern (i.e., a 'regular expression' a.k.a. 'regex') that you provide. To split a column, navigate to that column, and press :. Just like you can split a column by using :, you can extract part of a column into a new column by using ;. For instance, type (\\d+) (with one set of parentheses for each capture group).",
+      "chapter": "How to create new columns by splitting another one",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "regex",
+        "column splitting",
+        "text extraction",
+        "data parsing"
+      ],
+      "notes": "Regex split and capture for parsing structured text in columns"
+    },
+    {
+      "extract": "To join two or more sheets in VisiData, you'll do the following: 1. In the sheets you want to join, mark the shared columns as 'keys'. 2. In the Sheets Sheet, select the sheets you want to join. 3. Press & to open the join-choice prompt, type your desired join type and press Enter. VisiData supports seven types of joins: inner, outer, full, diff, append, extend, merge.",
+      "chapter": "The sheet-joining three-step",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "joins",
+        "data merging",
+        "relational operations"
+      ],
+      "notes": "Seven join types available; key columns determine join behavior"
+    },
+    {
+      "extract": "VisiData's pivot tables are similar to pivot tables you might have created in various spreadsheet programs. Creating a pivot table involves the following steps: Use \\! to designate the column(s) you want to serve as the pivot table's rows. Optional: Use + to specify additional metrics. Navigate to the column you want to serve as the pivot table's columns. Press Shift-W.",
+      "chapter": "Creating pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "pivot tables",
+        "cross-tabulation",
+        "reshaping"
+      ],
+      "notes": "Pivot table creation via key columns and Shift-W"
+    },
+    {
+      "extract": "To 'melt' a dataset is to reshape it from a 'wide' format to a 'long' one, specifically by converting each value in each column into its own row. Melting a dataset in VisiData involves the following steps: Optional: Use \\! to designate the column(s) you want to keep unmelted. Optional: Use - to hide the columns you don't want to appear. Press Shift+M.",
+      "chapter": "Melting datasets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "melt",
+        "wide to long",
+        "data reshaping"
+      ],
+      "notes": "Wide-to-long reshaping with optional key column preservation"
+    },
+    {
+      "extract": "If you're only using VisiData to preview a dataset, consider loading just the beginning of the file. If you're working with a simple CSV file, you can accomplish this by using head on the command-line, combined with vd -f csv e.g.: head -n 1000 faa-wildlife-strikes.csv | vd -f csv. Alternatively, you can use a written-for-speed tool, such as xsv, to slice or filter the file before loading it into VisiData. You can also just press Control-c while the data is loading, which will halt the loading process.",
+      "chapter": "Only load part of the file",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "large files",
+        "performance",
+        "data preview",
+        "command-line pipes"
+      ],
+      "notes": "Multiple strategies for handling large files: head, xsv pre-filter, or Ctrl-C halt"
+    },
+    {
+      "extract": "By default, VisiData considers the first row of a tabular dataset to be its columns' names. That's a safe assumption for many formats, but Excel spreadsheets often buck that trend, with titles, notes, or other cruft coming before the actual column names. You can auto-populate column names by navigating to the row that contains your desired column names and typing g^ to name all unnamed columns with the values in this row, or gz^ to name all columns.",
+      "chapter": "How to fix funky spreadsheets' column names",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "Excel",
+        "header rows",
+        "column naming",
+        "data cleaning"
+      ],
+      "notes": "Common problem with Excel files where headers are not in first row"
+    },
+    {
+      "extract": "We want to focus just on the known species, so we'll filter out the unknowns. Navigate to the SPECIES column, press | to select by searching, type 'unknown', press Enter. Now, all the unknown species are selected. But we want the opposite: only known species selected. To do that, let's toggle the selection for all rows, by typing gt (mnemonic: 'global toggle'). Now press double-quote to create a new sheet containing only those rows.",
+      "chapter": "Select only known species",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "data filtering",
+        "inverse selection",
+        "data cleaning"
+      ],
+      "notes": "Select-then-invert pattern for excluding unwanted categories"
+    },
+    {
+      "extract": "Because we'll later be joining this sheet to another sheet, let's hide the percent and histogram columns. There's just one step left before we can join the tables: making sure that the two frequency tables share the exact same key column. VisiData uses each sheet's 'key' columns to determine which rows to join.",
+      "chapter": "Prepare the state-species frequency table for joining",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "join preparation",
+        "key columns",
+        "data alignment"
+      ],
+      "notes": "Key column alignment is prerequisite for correct joins"
+    },
+    {
+      "extract": "Now that we have the numerator and denominator in the same sheet, let's calculate the percentage of known-species collisions to each species in each state. Let's create the new column by pressing =, typing count * 100 / state_total, and then pressing Enter. Rename the column, press % to tell VisiData that it's a 'float'-type numeric column. By default, VisiData assumes that newly created columns are just plain-old text.",
+      "chapter": "Calculate each species' state-level percentages",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "calculated columns",
+        "percentages",
+        "normalization"
+      ],
+      "notes": "Complete workflow: join tables then compute derived metric via expression column"
+    },
+    {
+      "extract": "Many of the highest-ranking species-state combinations seem to come from 'states' --- like the striped skunk that was struck in Nova Scotia --- with very few reported collisions. So let's limit the results to species-state combinations with at least 20 reports. To do that, we'll use z|, VisiData's 'select by expression' command. Type z| to raise the selection prompt. Then, type count >= 20.",
+      "chapter": "Limit to rows with at least 20 collisions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "VisiData",
+        "minimum threshold",
+        "statistical validity",
+        "small sample filtering"
+      ],
+      "notes": "Setting minimum count thresholds to avoid misleading rankings from small samples"
+    },
+    {
+      "extract": "As you can see, many of the reported collisions are missing height data, or appear to have occurred on the ground (i.e., HEIGHT == 0). So, let's focus only on collisions reported to have occurred above the ground. To do that, we'll use z|, VisiData's 'select by expression' command. Type z| and then, at the prompt, type HEIGHT > 0.",
+      "chapter": "Select only rows where HEIGHT is greater than zero",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "missing data",
+        "zero values",
+        "subsetting",
+        "data quality"
+      ],
+      "notes": "Filtering out missing/zero values before analysis"
+    },
+    {
+      "extract": "This is a two-step process. First, navigate to the HEIGHT column, and press + to add an aggregator. At the prompt, type mean and then press Enter. Then, to get the average for each animal, navigate to the SPECIES column, and press Shift-F to create a frequency sheet. By default, frequency tables are sorted by the raw count of matching rows. To sort by the highest average collision height, navigate to the HEIGHT_mean column, and press ].",
+      "chapter": "Get the average collision height for each species",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VisiData",
+        "aggregation",
+        "mean",
+        "grouped statistics",
+        "sorting"
+      ],
+      "notes": "Add aggregator to column first, then create frequency table to see grouped stats"
+    },
+    {
+      "extract": "It seems like a lot of these species show up just a few times --- too few to be particularly informative. Let's do something about that. First, type z| to raise the 'select by expression' prompt. Then, type count >= 20. Now press double-quote to create a new sheet containing only the selected rows.",
+      "chapter": "Limit the results to relatively common species",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "minimum sample size",
+        "statistical reliability",
+        "filtering",
+        "outlier removal"
+      ],
+      "notes": "Repeated pattern: threshold filtering to ensure analytical reliability"
+    },
+    {
+      "extract": "VisiData makes it easy to search, filter, sort, and join any table. It's great for getting a grasp of new datasets. With just a few keystrokes, you can summarize any column. It works with lots of data formats: CSV, Excel, JSON, and more. It's non-destructive: VisiData won't alter your raw data unless you explicitly tell it to.",
+      "chapter": "Why use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "exploratory analysis",
+        "non-destructive analysis",
+        "data formats"
+      ],
+      "notes": "Key selling points: speed, format flexibility, non-destructive workflow"
+    },
+    {
+      "extract": "VisiData isn't for every task. You might want to choose another tool for: Complex analysis --- you're probably better off using Python, R, or another programming language. 'Literate' analysis --- although VisiData lets you save and replay your analyses, it's not as legible/flexible as Jupyter notebooks, R Markdown, or other tools. Mission-critical analysis --- VisiData is well-engineered, but still a relatively young piece of software.",
+      "chapter": "Why not use VisiData?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "reproducibility",
+        "literate programming",
+        "analytical rigor"
+      ],
+      "notes": "Honest assessment of tool limitations; reproducibility gap acknowledged"
+    },
+    {
+      "extract": "Puppeteer is Google's Node library that can control headless Chrome. It can: Take screenshots and PDFs of pages, Automate form submission, UI testing, keyboard input, Serve as a testing environment for JavaScript / web page rendering, Scrape web pages (save HTML).",
+      "chapter": "What is Puppeteer?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Puppeteer",
+        "headless browser",
+        "web scraping",
+        "JavaScript rendering"
+      ],
+      "notes": "Headless Chrome automation for scraping JavaScript-rendered pages"
+    },
+    {
+      "extract": "Process for collecting data: Collect --- Just request the page you want, wait for it to load, then save it all. Parse / extract --- At your leisure, load that saved page, and grab the data you seek. Transform --- Take that data and add to a database, save it as JSON, etc.",
+      "chapter": "Process for collecting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "ETL pipeline",
+        "collect-parse-transform",
+        "data collection"
+      ],
+      "notes": "Three-phase scraping: collect raw, parse at leisure, transform to usable format"
+    },
+    {
+      "extract": "Build a pipeline: Amazon Simple Queue Service --- Your to do list of URLs. Amazon Elastic Container Service --- Dockerized tasks are triggered by items in SQS (This is where Puppeteer runs). Amazon Simple Storage Service --- Save all HTML, screenshots and JSON.",
+      "chapter": "Build a pipeline",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "scraping infrastructure",
+        "AWS",
+        "SQS",
+        "Docker",
+        "cloud pipeline",
+        "scalable collection"
+      ],
+      "notes": "Production-scale scraping architecture: queue-driven, containerized, cloud storage"
+    },
+    {
+      "extract": "A note about organization: Use a consistent structure that allows for an easy look at the latest data.",
+      "chapter": "A note about organization",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "file organization",
+        "data management",
+        "naming conventions",
+        "scraping"
+      ],
+      "notes": "Brief but important: consistent file naming/structure for scraped data"
+    },
+    {
+      "extract": "Puppeteer Recorder Chrome plugin: Allows you to 'record' your browsing and user interactions, and generates the Puppeteer node you need to reproduce those actions. Record clicks, input events etc. Record screenshots. Pause the recording when navigating. Monitor recorded events. Export to Puppeteer code. Tweak the settings of the generated code.",
+      "chapter": "Also helpful: Puppeteer Recorder Chrome plugin",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Puppeteer",
+        "browser automation",
+        "code generation",
+        "scraping productivity"
+      ],
+      "notes": "Record-and-replay approach lowers barrier to writing scraping scripts"
+    },
+    {
+      "extract": "Generally, a web page consists of specifically formatted text files: .html (HyperText Markup Language) files give structure to a page, .css (Cascading Style Sheet) files determine how the page looks, .js (JavaScript) files add interactivity. Most HTML elements are represented by a pair of tags --- an opening tag and a closing tag. HTML elements can have any number of attributes, such as IDs, which uniquely identify elements, classes, which identify a type of element, and styles, which define how specific elements appear --- that will be useful to know about when we're scraping.",
+      "chapter": "HTML basics",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "HTML",
+        "web structure",
+        "scraping foundations",
+        "element identification"
+      ],
+      "notes": "Essential web literacy for identifying scrapeable elements"
+    },
+    {
+      "extract": "You can inspect specific elements on the page by right-clicking on the page and selecting 'Inspect' or 'Inspect Element' from the context menu. Hover over elements in the 'Elements' tab to highlight them on the page. This can be helpful when you're trying to figure how to uniquely identify the element you want to scrape. To examine all of the source code that makes up a page, you can 'view source.' Try to locate the element(s) that you want to target (use Ctrl+F to find).",
+      "chapter": "Inspecting HTML in your browser",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "browser devtools",
+        "element inspection",
+        "scraping preparation",
+        "HTML navigation"
+      ],
+      "notes": "Browser DevTools as prerequisite step before writing scraping code"
+    },
+    {
+      "extract": "There are many ways to grab content from HTML, and every page you scrape data from will require a slightly different trick. At this stage, your job is to find a pattern or identifier in the code for the element you'd like to extract, which we will then give as instructions to our Python code. Inspect the table element or view the page source. How would you pick the table element out from all of the elements that make up the page? Is it the only table? If not, does it have any attributes, like a class or ID, that would allow you to target it?",
+      "chapter": "Practice",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "pattern recognition",
+        "element targeting",
+        "HTML analysis"
+      ],
+      "notes": "Every scrape requires finding unique identifiers -- no universal approach"
+    },
+    {
+      "extract": "Today, we'll use two third-party Python libraries to help us scrape: requests is the de facto standard for making HTTP requests, similar to what happens when you type a URL into a browser window and hit enter. bs4, or BeautifulSoup, is a popular library for parsing HTML into a data structure that Python can work with.",
+      "chapter": "Import libraries",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Python",
+        "requests",
+        "BeautifulSoup",
+        "web scraping",
+        "libraries"
+      ],
+      "notes": "Core Python scraping stack: requests + BeautifulSoup"
+    },
+    {
+      "extract": "If you want to make sure that your request was successful, you can check the status_code attribute of the Python object that was returned. A 200 code means all is well. 404 means the page wasn't found, etc.",
+      "chapter": "Request the page",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "HTTP status codes",
+        "error checking",
+        "web requests",
+        "validation"
+      ],
+      "notes": "Always verify HTTP response status before proceeding with parsing"
+    },
+    {
+      "extract": "Before we start targeting and extracting pieces of data in the HTML, we need to turn that chunk of text into a data structure that Python can work with. That's where the BeautifulSoup (bs4) library comes in. We'll create a new instance of a BeautifulSoup object. We need to give it two things: The HTML we'd like to parse and a string with the name of the type of parser to use --- html.parser is the default and usually fine, but there are other options.",
+      "chapter": "Turn your HTML into soup",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "BeautifulSoup",
+        "HTML parsing",
+        "data structures",
+        "web scraping"
+      ],
+      "notes": "Parse HTML string into navigable tree structure"
+    },
+    {
+      "extract": "Our general strategy: 1. Find the main table with the data we want to grab. 2. Get a list of rows (the tr element) in that table. 3. Use a Python for loop to go through each table row and find the data inside it (td, or 'table data'). To accomplish this, we'll use two bs4 methods: find(), which returns the first element that matches whatever criteria you hand it, and find_all(), which returns a list of elements that match the criteria.",
+      "chapter": "Target and extract the data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "BeautifulSoup",
+        "table extraction",
+        "web scraping",
+        "find",
+        "find_all"
+      ],
+      "notes": "Standard table-scraping pattern: find table, find rows, loop and extract cells"
+    },
+    {
+      "extract": "Notice that the first item that prints is the header row with the column labels. You are free to keep these headers if you want, but I typically skip that row and define my own list of column names. Another thing to consider: On better-constructed web pages, the cells in the header row will be represented by th ('table header') tags, not td ('table data') tags. We can skip the first row by using list slicing: rows[1:], which means, take everything in the rows list starting with the second item.",
+      "chapter": "Loop through the rows and extract the data",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "table parsing",
+        "header handling",
+        "list slicing",
+        "Python"
+      ],
+      "notes": "Handle header rows separately; th vs td distinction matters"
+    },
+    {
+      "extract": "This is returning the entire Tag object --- we just want the contents inside it. You can access the .text attribute of the tag to get the text inside. It's also generally good practice to trim off external whitespace for each value, and you can use the Python built-in string method strip() to accomplish this as you march across the row.",
+      "chapter": "Loop through the rows and extract the data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text extraction",
+        "whitespace cleaning",
+        "strip",
+        "web scraping",
+        "data cleaning"
+      ],
+      "notes": "Always strip whitespace when extracting text from HTML elements"
+    },
+    {
+      "extract": "Now that we've targeted our lists of data for each row, we can use Python's built-in csv module to write each list to a CSV file. Define a list of headers to match the data. Using a with block, open a new CSV file to write to: Create a csv.writer object, Write out the list of headers using the writerow() method, Drop in the for loop and instead of just printing, create a list of items and use writerow() to write your list of data to file.",
+      "chapter": "Write the results to file",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "CSV output",
+        "Python csv module",
+        "data export",
+        "web scraping"
+      ],
+      "notes": "Standard pattern for writing scraped data to CSV"
+    },
+    {
+      "extract": "Remove internal whitespace: Python does not have a built-in string method to remove internal whitespace, but Googling around will yield a common strategy: Using the split() method to separate individual words in the string, then join()ing the resulting list on a single space. As a one-liner: my_text_clean = ' '.join(my_text.split()).",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "whitespace cleaning",
+        "Python string methods",
+        "split-join pattern",
+        "data cleaning"
+      ],
+      "notes": "split-then-join idiom for normalizing internal whitespace"
+    },
+    {
+      "extract": "Fetch multiple years: The table we scraped has WARN notices for the current year, but the agency also maintains pages with WARN notices for previous years. See if you can figure out how to loop over multiple pages and scrape the contents of each into a single CSV.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multi-page scraping",
+        "pagination",
+        "longitudinal data",
+        "web scraping"
+      ],
+      "notes": "Scaling from single-page to multi-page scraping via URL iteration"
+    },
+    {
+      "extract": "Build a lookup table: Each numeric code in the 'WIA Code' column corresponds to a local area. See if you can figure out how to create a lookup dictionary that maps the numbers to their locations, then as you're looping over the data table, replace the numeric value in that column with the name of the local area instead.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "lookup tables",
+        "data enrichment",
+        "code replacement",
+        "Python dictionaries"
+      ],
+      "notes": "Dictionary-based lookup for replacing codes with human-readable labels"
+    },
+    {
+      "extract": "Fix encoding errors: You might have noticed a few encoding problems --- e.g., Nestle is being rendered as NestlA. This is due to an encoding problem --- the warn_page.text is not encoded as utf-8. Using decode() and encode(), see if you can fix this. Hint: It looks like the state of Maryland is a big fan of latin-1.",
+      "chapter": "Extra credit problems",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "character encoding",
+        "utf-8",
+        "latin-1",
+        "data cleaning",
+        "web scraping"
+      ],
+      "notes": "Encoding mismatches common in government web scraping; detect and convert"
+    },
+    {
+      "extract": "Use Cheerio to parse the HTML file into an object that you can traverse. Extract the table that holds the data we want. Clean up code with regex. Parse the HTML table and quickly turn it into JSON. Save some metadata for the collection. Write the file out.",
+      "chapter": "Parse script",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "Cheerio",
+        "HTML parsing",
+        "regex cleaning",
+        "JSON conversion",
+        "Node.js"
+      ],
+      "notes": "Node.js parsing pipeline: Cheerio parse, regex clean, JSON output with metadata"
+    },
+    {
+      "extract": "Dynamic columns (for instance, those created with the = command) are calculated 'lazily' --- i.e., only when they're needed. If you're running a lot of operations on a dynamic column --- perhaps calculating its average, median, and sum --- you can save some time by first 'caching' it. When you cache a dynamic column, VisiData calculates its current state and never recomputes it. To cache a column, navigate to it and type z'.",
+      "chapter": "Caching dynamic columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "performance",
+        "lazy evaluation",
+        "caching",
+        "computed columns"
+      ],
+      "notes": "Cache computed columns to avoid redundant recalculation"
+    },
+    {
+      "extract": "In VisiData, you can create a randomly-sampled copy of any sheet. To create a random-sample sheet, press Space to initiate the longname-command prompt, and type random-rows. At the prompt, type the number of rows you'd like to include, and then press Enter.",
+      "chapter": "Select a random sample of rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "random sampling",
+        "data subset",
+        "exploratory analysis"
+      ],
+      "notes": "Quick random sampling for large dataset exploration"
+    },
+    {
+      "extract": "You can sort on multiple columns at once by 'key'-ing those columns (via \\!) and then typing either g[ (ascending) or g] (descending).",
+      "chapter": "How to sort rows",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "multi-column sort",
+        "data ordering"
+      ],
+      "notes": "Multi-column sorting via key columns"
+    },
+    {
+      "extract": "You can do nearly all of the above from the Columns Sheet (Shift-C). When you're dealing with datasets with a particularly large number of columns, doing it this way can often be easier; you can see more of the columns at once, and you can adjust multiple columns at once. Setting column types: You can select multiple rows of the Columns Sheet and type g#, for example, to set all of the selected columns' types to integer.",
+      "chapter": "Manipulating columns from the Columns Sheet",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "Columns Sheet",
+        "bulk operations",
+        "column management"
+      ],
+      "notes": "Columns Sheet enables batch column operations on wide datasets"
+    },
+    {
+      "extract": "Even if you don't want to edit your raw data in VisiData, knowing how to edit cells will still come in handy, since virtually everything --- including settings --- in VisiData is represented as columns and rows.",
+      "chapter": "Editing Row Cells",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "cell editing",
+        "settings",
+        "metasheets"
+      ],
+      "notes": "Everything-is-a-sheet philosophy means editing skills transfer to configuration"
+    },
+    {
+      "extract": "The order of the columns in a pivot table is based on the order the relevant values appear in the source sheet. If you want them to appear, instead, in alphabetical order, sort the source sheet's relevant column(s) first.",
+      "chapter": "Creating pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "pivot tables",
+        "column ordering",
+        "data presentation"
+      ],
+      "notes": "Pivot column order inherits from source; sort first if alphabetical order needed"
+    }
+  ]
+}

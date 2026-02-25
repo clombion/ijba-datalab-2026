@@ -1,0 +1,607 @@
+{
+  "source_id": "10",
+  "source_file": "10-finding-stories-spreadsheets.md",
+  "source_title": "Finding Stories in Spreadsheets",
+  "author": "Paul Bradshaw",
+  "year": "2015",
+  "chunk": "2/3",
+  "chunk_file": "10-finding-stories-spreadsheets_chunk2.md",
+  "chunk_words": 38263,
+  "extracts": [
+    {
+      "extract": "Dates are enormously useful bits of data. They can help us to find stories about peaks and troughs: whether things are getting better or worse; what times of the year or week are or were best or worst for a particular event.",
+      "chapter": "Extracting days, months and years from full dates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "date analysis",
+        "temporal patterns",
+        "story discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To find a story about trends in dates, you first need to extract the month, day or year from each date. The simple functions DAY, MONTH and YEAR will extract just the day, month or year from any cell. The TEXT function gives you much greater control over what date information you extract and how it is shown, including the ability to show days or months as words.",
+      "chapter": "Extracting days, months and years from full dates",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "date extraction",
+        "TEXT function",
+        "temporal decomposition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Make sure you know whether the dates use UK or US date formatting - and that the formulae are interpreting them correctly. UK dates use day/month/year; US dating uses month/day/year.",
+      "chapter": "Extracting days, months and years from full dates",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "date formatting",
+        "regional conventions",
+        "data validation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is best to extract parts of dates into a separate column so you can still see the original dates in full. Using the TEXT function to fill extra columns with the specific data you want to work with, while leaving the full dates alone to be checked alongside that.",
+      "chapter": "Using the Format Cells Custom option",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "column design",
+        "audit trail"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you have written a formula to extract part of a date and get a whole date as a result (and an odd one at that), it is probably because the cell you are writing in is formatted as date itself. To solve this problem just fix your formatting: select the cells and open the Format cells menu.",
+      "chapter": "Dealing with errors in date functions",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "error diagnosis",
+        "cell formatting",
+        "troubleshooting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If a date is stored as a series of characters instead of as a number, date functions will return a VALUE error. In these situations you can try to convert the series of characters into a date using the DATEVALUE function; or use other functions to extract the relevant part of the date.",
+      "chapter": "Dealing with errors in date functions",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "DATEVALUE",
+        "data type conversion",
+        "error handling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you are drawing any conclusions about the worst month, year or day, you need to take account of the possibility that the year or month with the most failing inspections might simply be the year or month with the most inspections full stop. You need to make sure you look at proportions rather than absolute numbers.",
+      "chapter": "Finding the story: worst years and months for hygiene inspections",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "proportional reasoning",
+        "base rate fallacy",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "At this point you should be pausing and thinking: I am not seeing the full picture here. Just as the changing inspection numbers might raise questions, these proportions should make you pick up the phone to ask them. Your story might not be about those early years, but they are a clue to a wider problem.",
+      "chapter": "Finding the story: worst years and months for hygiene inspections",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "data skepticism",
+        "follow-up reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If your spreadsheet problem is not solvable with a single function, the best approach is often to break it down into smaller problems which, individually, can. The key question to ask is: does this formula get me any closer to the result I need?",
+      "chapter": "How old is someone? Ages and using TODAY",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "problem decomposition",
+        "iterative approach",
+        "computational thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Once you have identified a possible error like this, do not write it off immediately. You may be able to add an error checking formula to correct it. A simple subtraction formula will get us either the correct result, or one which is only one year out. All we need is a way of identifying which result it is, and correcting the initial age accordingly.",
+      "chapter": "How old is someone? Ages and using TODAY",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "error correction",
+        "Boolean arithmetic",
+        "systematic checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is no point combining multiple calculations into one powerful formula if the formula is not going to make sense to you later, or if your data is going to be used by colleagues or people who come after you. It is often better to have columns with each stage of the calculation clearly labelled.",
+      "chapter": "Making it easy to understand: breaking the formula back up",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "spreadsheet design",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ages can be particularly interesting angles to explore in any dataset: the oldest, youngest, or general demographic makeup of people in a dataset can all be newsworthy.",
+      "chapter": "How old is someone? Ages and using TODAY",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "demographic analysis",
+        "story angles",
+        "newsworthiness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The leap year point is really important: remember that Excel stores dates as the number of days since 1900 - so years with 366 days will have those extra days added into the total. This is another example of identifying possible problems in calculations and building in corrections.",
+      "chapter": "Watching out for leap years",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "edge cases",
+        "date arithmetic",
+        "error prevention"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The DATE function is a useful way of making sure that your date is understood correctly by Excel. It takes three ingredients: a year, a month, and a day of the month - in that order. If you have a date which has been formatted unusually, this ensures that they are interpreted correctly.",
+      "chapter": "Watching out for leap years",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "DATE function",
+        "data type enforcement",
+        "Excel"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The functions RIGHT, LEFT and MID are tailor-made for extracting parts of data such as postcodes, zip codes or telephone numbers. These will respectively grab a specified number of characters from the end, beginning, or middle of a cell. They work particularly well where you always want the same number of characters.",
+      "chapter": "Grabbing or checking parts of information: RIGHT, LEFT and MID",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "string extraction",
+        "data parsing",
+        "text functions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If your data already has a particular character that marks one part from another - such as a space between first name and surname, or slashes between day, month and year - then you can use the menu option Text to columns to split it, rather than needing to use a function. Note that if you use this, the original column will no longer exist, so you might want to duplicate it first.",
+      "chapter": "Splitting names, dates, addresses: text to columns",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "text to columns",
+        "data splitting",
+        "data preservation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The LEN function will tell you the number of characters in a given cell, which can then be used to calculate the start or end position for a MID, LEFT or RIGHT function. You can use LEN within a LEFT, RIGHT or MID function as a nested function, e.g. =LEFT(A2,LEN(A2)-3) to grab a variable number of characters.",
+      "chapter": "Introducing LEN",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "LEN function",
+        "nested functions",
+        "variable-length extraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The SEARCH function tells us at what position a specified character or characters occur in a cell. It is not case sensitive, so if you want to be a little fussier you can use the FIND function which has exactly the same parameters but is case sensitive.",
+      "chapter": "SEARCH and FIND",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "SEARCH function",
+        "FIND function",
+        "pattern matching"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You could check that the date of birth is being treated as a number by Excel in a number of ways. Firstly, by looking at the alignment: aligned right is how Excel aligns numbers. Secondly, you could reformat it as number or general. Thirdly, you could use the function ISNUMBER to check if a specified cell contains a number.",
+      "chapter": "Finding the story: how old are Guantanamo prisoners",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data type validation",
+        "ISNUMBER",
+        "alignment checks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are also rows which generate VALUE errors when you attempt to calculate an age. This is because the date of birth field does not contain a date, but a string of text such as '26 yrs old in 07', 'UNDISCLOSED', 'UNKNOWN' or 'c. 1974'. Some further research might yield more information, but more likely we will have to be clear that a certain proportion of our figures are unknown.",
+      "chapter": "Finding the story: how old are Guantanamo prisoners",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "missing data",
+        "transparency",
+        "limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first thing to do in any situation like this is break down the task into its constituent problems/challenges. We need to: identify where the number of years is stated, extract that number, identify where the months are stated, extract those months, identify other context like 'suspended' or 'minimum', convert years and months to a number, convert to a common measure.",
+      "chapter": "Case study: extracting numbers from phrases",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "problem decomposition",
+        "task planning",
+        "data extraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Note that this process involves a lot of trial and error: our initial formula works for most cells, but we then focus on error handling with the cells where it does not. You can adapt and repeat the above processes for months, weeks and days to get the numbers you need.",
+      "chapter": "Case study: extracting numbers from phrases",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "trial and error",
+        "iterative refinement",
+        "error handling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The simple way to convert all measures to a common measure is to convert to the lowest common denominator. Multiply the years figures by 365 to get days, multiply the months by 31, multiply the weeks by 7. Once done, you can add up all figures for each sentence to get a total, then calculate the difference between the two sentences.",
+      "chapter": "Case study: extracting numbers from phrases",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "unit conversion",
+        "common denominator",
+        "comparison"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is worth adding a column which just measures the length of the description cell, so you can sort it and pick out outliers. The longest cell on that basis may contain more than one mention of the word being searched for or extra caveats which are important to factor in.",
+      "chapter": "Manual cleaning: identifying unusual words",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "outlier detection",
+        "LEN function",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can use COUNTIF as a checking formula. COUNTIF(I2,\"*year*\") will count 1 if 'year' is in that cell, or 0 if not. Any 0 value should also match any VALUE error in your earlier SEARCH formula. You can use filters to check that they all do, and investigate any that do not.",
+      "chapter": "Adding checking formulae",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "COUNTIF",
+        "cross-validation",
+        "checking formulae"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Despite all this work to extract the numbers from the data, in the end it was decided to leave this dimension out of the eventual story, as it became clear that the article was going to focus on the proportion of requests which were not eligible for review. Often in journalism you have to be prepared to leave out material because the focus of your story has changed, regardless of the work that went into it.",
+      "chapter": "Sometimes hard work ends up left out of the story",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial judgement",
+        "story focus",
+        "sunk cost"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Consistent formatting can be important both in the presentation of information and in trying to combine it. A map with 'PARIS' for one marker and 'new york' for another is going to look pretty unprofessional. Because computers sometimes treat a lower case letter and an upper case letter as separate things, you might come across errors when trying to merge datasets.",
+      "chapter": "Formatting text consistently with UPPER, LOWER, PROPER",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "case normalisation",
+        "data merging",
+        "presentation quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As with TRIM and SUBSTITUTE it is a good idea to create a new column for your cleaned data, write a formula using PROPER, UPPER or LOWER to grab and format the contents of the first cell, and then copy it down the entire column.",
+      "chapter": "Formatting text consistently with UPPER, LOWER, PROPER",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cleaning workflow",
+        "column design",
+        "non-destructive editing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "FIXED and ROUND do not just create the effect of rounding numbers up or down: the resulting number is indeed fixed. If you add 1 to that number and format it to show four decimal places it is 4.1500, not 4.1457. This is distinct from using the Format cells menu which only changes how numbers are displayed.",
+      "chapter": "Rounding and formatting numbers: FIXED and ROUND",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FIXED",
+        "ROUND",
+        "data precision",
+        "formatting vs transformation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Transposing is the process of switching rows into columns and vice versa. If we wanted to sort the data to see the longest wait time for a particular hospital, we could not - because sorting works by columns. Transposing the data solves this problem: when rows become columns we can pick the column for one hospital, and sort it.",
+      "chapter": "Changing rows into columns: TRANSPOSE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "TRANSPOSE",
+        "data restructuring",
+        "sorting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As always, you should save a copy of your data before altering it. You may want to copy data from one sheet, and paste-and-transpose into a new sheet, so as to keep the two versions separate.",
+      "chapter": "The Paste Special option: the one-off transpose",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data preservation",
+        "backup",
+        "non-destructive editing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Although array formulae are very impressive and powerful, most of the time you may decide for the purposes of clarity and simplicity to avoid them. It may be clearer to split the calculation into two stages: a column showing the change for each month, then a cell calculating the average for that column.",
+      "chapter": "Array formulae",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "array formulae",
+        "clarity vs power",
+        "spreadsheet design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The most likely reason for using an array formula is the smaller and faster file sizes that are generated as a result: a spreadsheet using a single array formula is smaller and quicker to use than one performing thousands of calculations separately. However, complex array formulae can actually slow down the performance of the spreadsheet.",
+      "chapter": "Array formulae",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "array formulae",
+        "performance",
+        "file size",
+        "Excel"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In terms of considerations you need to be clear when this data was collected: waiting time data can be over a year old by the time it is released. You also need to be clear that these are average waiting times - many people will be waiting far longer. There are many ways that waiting time statistics can be massaged.",
+      "chapter": "The last chapter's story: worst time at hospital",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data timeliness",
+        "averages",
+        "statistical literacy",
+        "caveats"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data in Google Sheets is not as secure as data that only sits on your own computer. So if you are dealing with sensitive data and are concerned about others either hacking into your account or accessing it through legal avenues, then you may want to avoid such web-based services.",
+      "chapter": "Introduction to Google Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data security",
+        "Google Sheets",
+        "sensitive data",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You only need to use IMPORT functions if you expect the data to change, because it will always import the latest data. If you do not expect it to change then it will be quicker and easier to simply make a copy of the data. IMPORT functions will stop working if the source data is taken offline, so it is always a good idea to make a static copy of the data.",
+      "chapter": "IMPORT functions in Google Sheets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "IMPORT functions",
+        "live data",
+        "data archiving",
+        "link rot"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "IMPORTHTML can grab information stored in a HTML table or a HTML list. Information might look like it is in a table or list, but if it is not contained in particular tags in the raw HTML, then this function will not work. There is no need to check the raw HTML before you use this function - it is only worth checking as part of troubleshooting if your formula does not work first time.",
+      "chapter": "Grabbing data from webpage tables and lists: IMPORTHTML",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "IMPORTHTML",
+        "web scraping",
+        "Google Sheets",
+        "HTML structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using trial and error - starting with the first table, then the second, and so on - is invariably much quicker than trying to identify the position of a table from the raw HTML. For that reason it is often better to use cell references for each parameter rather than have all the information in the formula, so you can easily change the number.",
+      "chapter": "Grabbing data from webpage tables and lists: IMPORTHTML",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "trial and error",
+        "parameterised queries",
+        "scraping workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "IMPORTXML is the most powerful of the IMPORT functions. Its primary purpose is to enable you to pull in XML documents that are hosted online, but it can also be adapted to grab data from HTML webpages too. IMPORTXML allows you to craft any query you like using XPath. At its core all you need to know is: take the name of the tag containing your data, and put two slashes in front of it.",
+      "chapter": "Grabbing data from XML: IMPORTXML",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "IMPORTXML",
+        "XPath",
+        "web scraping",
+        "XML"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Trial and error is an important part of the process. It is not about getting the formula right first time, but trying different queries and seeing how useful the results are, triangulating between queries that are too narrow and queries that are too broad until you get the Goldilocks query that is just right.",
+      "chapter": "Using IMPORTXML with HTML webpages",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "trial and error",
+        "iterative refinement",
+        "query design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "GOOGLETRANSLATE is particularly useful if you are dealing with data in other languages, or where the language is mixed, and want to see it in your own. If you are searching data for terms in your own language, these functions help you spot references using other languages. They also help you translate searches into a variety of other languages.",
+      "chapter": "GOOGLETRANSLATE and DETECTLANGUAGE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "GOOGLETRANSLATE",
+        "multilingual data",
+        "Google Sheets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "DETECTLANGUAGE is particularly useful as a way to error-check Google Translate. Not always because it actually does get the language right: but more because it tells you what language Google thinks the cell is in, and therefore what language it is translating from if you have not specified that.",
+      "chapter": "Detecting the language: DETECTLANGUAGE",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "DETECTLANGUAGE",
+        "error checking",
+        "translation validation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always generate an example URL for the search you want before adapting it. A quick bit of googling on the query parameter throws up a Search Protocol Reference document which confirms the URL structure. This process of testing, re-testing, googling, refining, tweaking and adapting are all integral elements of spreadsheet work and data journalism more generally.",
+      "chapter": "Advanced: combining translations into one search",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "URL construction",
+        "iterative testing",
+        "research methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can use GOOGLEFINANCE to convert from one currency to another. Converting currency really means grabbing the exchange rate between any two currencies which you can then apply to an amount. Financial formulae often use the TODAY function to grab data in relation to today's date, such as the last 30 days numbers.",
+      "chapter": "Converting currency: GOOGLEFINANCE",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "GOOGLEFINANCE",
+        "currency conversion",
+        "financial data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You only have to use GOOGLEFINANCE once - but the data will change every day. You only have to create and publish a chart once - but it will also change every day. You can use functions that fetch live data to feed live charts to get the best out of both. Those functions include GOOGLEFINANCE, IMPORTHTML, IMPORTXML, IMPORTFEED, and IMPORTDATA.",
+      "chapter": "Publishing live data in a live chart",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "live charts",
+        "automation",
+        "data visualisation",
+        "Google Sheets"
+      ],
+      "notes": ""
+    }
+  ]
+}

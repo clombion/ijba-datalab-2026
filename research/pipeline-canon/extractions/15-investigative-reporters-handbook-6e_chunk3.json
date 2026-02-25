@@ -1,0 +1,838 @@
+{
+  "source_id": "15",
+  "source_file": "15-investigative-reporters-handbook-6e.md",
+  "source_title": "Investigative Reporter's Handbook (6th ed.)",
+  "author": "Brant Houston, Mark Horvit, IRE",
+  "year": "2020",
+  "chunk": "3/5",
+  "chunk_file": "15-investigative-reporters-handbook-6e_chunk3.md",
+  "chunk_words": 37949,
+  "extracts": [
+    {
+      "extract": "When reporters chronicle murder investigations, they need to explain the 'why' behind the progress, or lack thereof. Journalists can get a better understanding of police investigative procedure by enrolling in police administration courses; studying police manuals; and reading books on criminal investigation.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "domain knowledge",
+        "source development",
+        "investigative planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's important to examine the background of the accused, not only looking for problems but for evidence of redeeming qualities. Remember that many innocent people are accused of crimes. In many cases journalists are quick to accept the initial narrative provided by authorities.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "fairness",
+        "source skepticism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When reaching out to a sensitive source, try to find an intermediary who knows about the allegations and might help connect you with the survivor. This could be an attorney, advocate or relative. When interviewing an assault survivor, overcommunicate. Be very clear about what you are doing, explain why you'll need to ask detailed questions, discuss the individual's willingness to be named.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "interviewing",
+        "ethics",
+        "sensitive sources"
+      ],
+      "notes": "Advice from Marisa Kwiatkowski on sexual assault investigations"
+    },
+    {
+      "extract": "Drug cases rely heavily on the police use of informants. That is always risky; informants tend to be unreliable. Many have criminal records and receive a reduced prison sentence in exchange for their information. 'Professional' informants, especially those who are incarcerated, incriminate cellmates. Some accusations, made for mercenary reasons, lead to wrongful convictions.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source reliability",
+        "verification",
+        "criminal justice"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By working human sources and looking for complaints filed with a police internal affairs unit, a citizens' review board, a licensing or disciplinary agency or in court, journalists might uncover officers taking advantage of their vice assignments. To supplement people and document trails, journalists can observe the life of the streets firsthand or carefully navigate websites.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "document trails",
+        "observation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "KHOU-TV in Houston obtained data listing tickets given to drivers for running red lights. When they analyzed the data, they found that a group of officers were signing on as witnesses for tickets their colleagues issued when they could not have been at the scene because they were elsewhere in the city, writing other tickets at the same time.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "cross-referencing",
+        "pattern detection"
+      ],
+      "notes": "Example of matching records across datasets to detect fraud"
+    },
+    {
+      "extract": "A TV station in Austin used ticket data and dashcam video to build the case that Texas DPS officers were pulling over Hispanic people and listing them as white, to skew the data. Their report included footage recorded by the officer's own dashboard camera as corroborating evidence.",
+      "chapter": "Delving Into Different Crimes",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "racial profiling",
+        "multimedia evidence",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Numbers can lie locally as well as nationally. Many journalists have examined local crime statistics and found patterns in which certain crimes were being mischaracterized by police. This is especially common in cases of sexual assault, which can be categorized as a different type of assault or even a completely unrelated category, making a location look safer than it actually is.",
+      "chapter": "Crime Statistics",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "verification",
+        "official statistics",
+        "classification bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists often rely on the FBI's Uniform Crime Reports for statistics that can be compared state to state. The UCR data is valuable but has limitations: it covers only eight categories, reporting is voluntary, and some definitions have changed over time, so making comparisons and drawing nationwide conclusions can be tricky.",
+      "chapter": "Crime Statistics",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "official statistics",
+        "data limitations",
+        "comparability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When dealing with conviction rates, it's best to start with what's missing. Request logs of all cases police send to prosecutors and look for types of crimes that don't result in charges. If police reported 50 sexual assaults but prosecutors only brought charges in five, that's a red flag. Prosecutors might be avoiding difficult cases or police investigations didn't gather sufficient evidence.",
+      "chapter": "Crime Statistics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "gap analysis",
+        "criminal justice",
+        "accountability"
+      ],
+      "notes": "Advice from reporter Ryan Gabrielson"
+    },
+    {
+      "extract": "A reported crime is considered cleared by police if it results in an arrest or in the gathering of enough evidence that an arrest could have been made. When the emphasis is on clearing crimes for statistical reasons, quite a few arrested suspects turn out to be innocent. If eventually freed due to lack of evidence, the line on the statistical chart might still read 'crime solved.'",
+      "chapter": "Crime Statistics",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "official statistics",
+        "clearance rates",
+        "data quality",
+        "misleading metrics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists should scrutinize the reporting forms. Do they capture the relationship between victim and offender? Are crime statistics charted by neighborhood rather than citywide only? Relying on citywide statistics does not allow police to plan crime fighting by precinct. A citywide drop in aggravated assaults might mask an increase in knife fights within a particular precinct.",
+      "chapter": "Records Divisions and Public Information Officers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data granularity",
+        "aggregation bias",
+        "spatial analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Current and former employees should be cultivated as much as possible. Sources in other law enforcement agencies can provide perspective. If the prosecutor's office or the police department is in need of reform, there is always the chance one will blow the whistle on the other. Each side possesses files on specific cases that journalists would not normally see.",
+      "chapter": "People Trails",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "institutional friction",
+        "whistleblowers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists will find that police department manuals describe established document trails. After studying such a manual, a journalist might know precisely what form to request and thus might get it by dint of that knowledge.",
+      "chapter": "Document and Data Trails",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "FOI",
+        "institutional knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Many newsrooms focus almost exclusively on standardized test scores to measure effectiveness. There is an overreliance on this data because many factors can influence performance, from economic demographics to resource distribution. That said, there are good stories to be done by examining school testing data.",
+      "chapter": "Test Scores",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data limitations",
+        "confounding variables",
+        "education data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Hacker used regression analysis to show suspiciously remarkable improvements among historically low-performing schools. She pinpointed one impoverished school where fourth-graders had trouble adding and subtracting yet nearly all fifth-graders got perfect scores on the math test. The high scores came only in the one grade where poor test scores have severe consequences and educators have greater incentive to fudge.",
+      "chapter": "Test Scores",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regression analysis",
+        "anomaly detection",
+        "data analysis",
+        "education"
+      ],
+      "notes": "Dallas Morning News investigation of cheating"
+    },
+    {
+      "extract": "In the days and weeks after the shooting, reporters filed hundreds of records requests with the school district, sheriff's office, local police, state law enforcement, prosecutors, and the FBI. They sought police and fire rescue reports, radio transmissions, 911 calls, surveillance video, body camera footage, personnel files, emails, school safety reports, discipline statistics, and draft versions of reports.",
+      "chapter": "School Violence",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "document collection",
+        "multi-agency requests",
+        "comprehensive sourcing"
+      ],
+      "notes": "Sun-Sentinel Parkland investigation methodology"
+    },
+    {
+      "extract": "Reporters used data from a state safety reporting system, where schools were supposed to report incidents. They highlighted schools that reported few incidents, then checked news reports and discovered that assaults, rapes and murders had occurred but never been reported. This lack of reporting has been documented in districts around the country.",
+      "chapter": "School Violence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "cross-referencing",
+        "underreporting",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using data collected by the U.S. Department of Education, ProPublica built a national database to examine racial disparities in school discipline. The Civil Rights Data Collection, when paired with population data, allows journalists to determine whether students of color are being disproportionately disciplined.",
+      "chapter": "School Discipline",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data joining",
+        "demographic analysis",
+        "equity",
+        "federal data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative journalists have found dropout statistics to be confusing, unreliable or outright false. Education Week reported that states, school districts and federal researchers may all use different methods and definitions to tally dropouts. Thus the results can vary enormously, which is why high school dropout numbers can be notoriously unreliable.",
+      "chapter": "Student Retention",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "definitional variance",
+        "comparability",
+        "education data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One approach is to break out expenditures school by school. Many journalists do their calculating at the district level rather than the individual school level. The trouble is that many districts allocate expenditures unequally from school to school. Whether done intentionally or not, schools in well-to-do neighborhoods can fare better, an equation that favors political clout over real need.",
+      "chapter": "The Money Trail",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data granularity",
+        "aggregation bias",
+        "equity",
+        "follow the money"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Covering a school district is like covering any other beat. It's essential to build sources by visiting classrooms and getting to know teachers, support staff and parents. Reporters should make frequent open-records requests for key documents and become familiar with school data available in every state thanks to federal reporting requirements.",
+      "chapter": "Approaches to Investigating the Schools",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "beat reporting",
+        "source development",
+        "FOI",
+        "routine coverage"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When you find a problem at one school, look for it elsewhere. Parks learned that one Texas school district was using isolation rooms to punish special-needs students, and using the same terminology, she did open-records requests to search for it elsewhere.",
+      "chapter": "Approaches to Investigating the Schools",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "pattern replication",
+        "FOI",
+        "scaling findings"
+      ],
+      "notes": "Tip from Eva Parks at IRE Conference"
+    },
+    {
+      "extract": "Rosenthal learned of the story while sitting in on a public hearing and found many of the subjects for his story by reaching out through social media to parents whose children had been kicked out of their classes. This illustrates the importance of attending routine meetings and hearings and of using all the tools at a reporter's disposal to humanize their work.",
+      "chapter": "Special-Needs Students",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "social media",
+        "routine meetings",
+        "humanizing data"
+      ],
+      "notes": "Houston Chronicle investigation of disabled children in Texas schools"
+    },
+    {
+      "extract": "The Tampa team made dozens of record requests and examined 10 years of standardized testing data, school-level financial reports, teacher personnel records and complaints about teachers along with subsequent investigations. They proved that the district had made a series of decisions that made failure at the schools inevitable.",
+      "chapter": "Racial, Class and Gender Equity",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "longitudinal analysis",
+        "multi-dataset",
+        "document collection",
+        "equity"
+      ],
+      "notes": "Tampa Bay Times Failure Factories project"
+    },
+    {
+      "extract": "A university's accreditation process can provide a journalist with vast resources on the quality of its education. The self-study provides an internal look at strengths and weaknesses. The visiting team report is likely to be more objective and hard-hitting. Follow-up reports on trouble spots may prompt downgrading to provisional accreditation.",
+      "chapter": "Accreditation Documents",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "accreditation",
+        "institutional documents",
+        "higher education"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "FERPA requires schools to safeguard confidentiality of students' education records. But to be a confidential FERPA record, a document must not merely mention a student; it must actually be about that student. FERPA does not apply to parking tickets, complaints against employees that mention a student, or crime reports. The existence of some protected information does not mean an entire document is protected because it can be redacted.",
+      "chapter": "FERPA",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "legal barriers",
+        "redaction",
+        "education records"
+      ],
+      "notes": "Analysis by attorney Frank LoMonte"
+    },
+    {
+      "extract": "Fonger covered complaints about the water at city council meetings almost immediately, tracked down reports of illnesses, filed open-records requests for documents illuminating how bad the situation was and how the city tried to cover it up, and broke news about a scientific study contradicting the official line that the water was safe. His work shows the impact made by a beat reporter who isn't afraid to dig and knows where to look.",
+      "chapter": "Investigating the Environment",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "beat reporting",
+        "FOI",
+        "local sourcing",
+        "persistence"
+      ],
+      "notes": "Flint water crisis local reporting"
+    },
+    {
+      "extract": "The annual Toxics Release Inventory reports can be used for daily reporting, quick enterprise stories such as finding top polluters in a coverage area, and for long-term investigative projects. A journalist can search by report types or by categories such as chemicals, industries and facilities. While the data is generally a year or two old and has other limitations, it can lead to many public-service stories.",
+      "chapter": "Using the Toxics Release Inventory",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "federal databases",
+        "environmental data",
+        "TRI",
+        "data limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Hartford Courant matched the TRI database with a state database on pollution from sewage-treatment plants, used TRI for daily stories and for a longer story on ozone-eating chemicals, gave information to bureau reporters, and analyzed transfers of chemicals to landfills and private disposal companies.",
+      "chapter": "Using the Toxics Release Inventory",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data joining",
+        "cross-database analysis",
+        "environmental data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's important to look at more than just the regulations on the books, but to investigate whether, and how, they are being enforced. At both federal and state level, it is not uncommon to find few fines being imposed, and even fewer being collected, as lawyers for companies and agencies often negotiate them down to little or nothing.",
+      "chapter": "State and Local Agencies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "enforcement gap",
+        "regulatory analysis",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Record examined hundreds of pages of emails and stacks of state and federal documents from regulatory agencies obtained through open-records requests. The paper reported that DuPont worked to keep the pollution secret for decades, then downplayed the extent of the problem. The resulting stories talked about volatile organic compounds and parts-per-billion but the lead of the story is anything but technical.",
+      "chapter": "Federal Regulation: The Environmental Protection Agency",
+      "pipeline_step": "Present",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "document analysis",
+        "accessible writing",
+        "technical translation"
+      ],
+      "notes": "North Jersey Record DuPont investigation"
+    },
+    {
+      "extract": "An investigation into waste disposal should involve spending time at the dump to see what really is discarded, how it is handled by employees and how little space is left. Another technique is to follow waste from its source.",
+      "chapter": "Investigating Soil Pollution and Waste",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "observation",
+        "field reporting",
+        "verification",
+        "waste tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative reporters can wait for bridge disasters and then report diligently on government reports, or they can provide a public service by doing their work beforehand, starting with an analysis of a federal database known as the National Bridge Inventory. The latter -- the preventive investigation -- is without question preferable.",
+      "chapter": "Investigating Transportation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "proactive investigation",
+        "prevention",
+        "public interest",
+        "databases"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In safety investigations, government reports and databases are invaluable, but simple day-to-day observations can also lead to questions: Which streets have the highest accident rates? Which railroad crossing is the most dangerous? Compiling a list of top locations with highest accident rates would be a public service, but an investigation into why they occur would be even more valuable.",
+      "chapter": "Investigating Transportation",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "investigative planning",
+        "observation",
+        "data-driven reporting",
+        "public service"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reporters at the Portland Press Herald used a database obtained through Maine's Freedom of Access Act to analyze about 160,000 motor vehicle crashes. They found that accidents involving suspended drivers are six times more likely to be fatal, four times more likely to lead to incapacitating injury and 10 times more likely to involve alcohol or drugs.",
+      "chapter": "Car Inspections and Driving Records",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "FOI",
+        "crash data",
+        "statistical findings"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Check the bus company's safety record on federal websites. Don't forget to check with your state DOT. Make a federal public records request for the company's most recent Compliance Review. SafeStat has summary information on Accident Reports and Inspections -- request the full reports from the agency that issued them. Check for complaints with the state AG and Better Business Bureau.",
+      "chapter": "Buses",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "multi-agency records",
+        "safety data",
+        "compliance"
+      ],
+      "notes": "Tip sheet from Michael Grabell of Dallas Morning News"
+    },
+    {
+      "extract": "The St. Louis Post-Dispatch determined that Illinois highway officials frequently awarded contracts without competitive bidding by analyzing Federal Highway Administration data on every highway construction project involving federal money for five years. The data showed location, date, completion date, estimated cost, final cost, name of contractor and number of bidders.",
+      "chapter": "Roads",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "procurement",
+        "contracts",
+        "follow the money"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists could serve the public interest simply by following up on recommendations from the NTSB or on airworthiness reports from the FAA. After a crash, journalists frequently find recommendations that might have helped prevent the accident, but manufacturers and regulators sometimes ignore or try to reverse NTSB or FAA recommendations.",
+      "chapter": "Investigating Aviation",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regulatory follow-up",
+        "accountability",
+        "prevention",
+        "document trails"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "NTSB programs and DOT units overlap, so journalists frequently get different answers and findings from the various agencies. Going to several agencies can be advantageous because they can get documents and information from one agency when another denies access.",
+      "chapter": "Regulatory Agencies",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multi-agency sourcing",
+        "FOI strategy",
+        "overlapping jurisdiction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists often focus on illegal activity or violations of written policies. But that approach fails when the policies or laws themselves are part of the problem. Hannah-Jones stresses that while it can be difficult to prove intent, doing so is not necessary if the result of the action is a policy, procedure, program or regulation that results in injustice.",
+      "chapter": "Racial Equality",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing",
+        "systemic analysis",
+        "disparate impact",
+        "investigative strategy"
+      ],
+      "notes": "Advice from Nikole Hannah-Jones"
+    },
+    {
+      "extract": "It's crucial to remember that the existence of a law, regulation or policy often isn't key to the story. The enforcement, or lack of enforcement, of that law or regulation can have huge impact. Examining how policies and regulations are being followed is a key way to determine why a system might be racially unequal.",
+      "chapter": "Laws, Policies and Procedures",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "enforcement gap",
+        "systemic analysis",
+        "equity",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Chicago Tribune analyzed property valuations and determined that the county's system tended to increase values for low-income people more than for wealthier residents, resulting in low-income residents seeing property taxes increase at a higher rate. Newsday showed that a new appeals system resulted in wealthier landowners lowering their valuations while low-income residents did not see the same benefits.",
+      "chapter": "The Wealth Gap",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "property records",
+        "equity",
+        "disparate impact"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The reporters discovered that the actual number of transgender people murdered is greatly undercounted due to the way gender is recorded -- victims are often listed as male or female, with no other distinction. They also found that those who murder transgender people tended to get shorter prison sentences.",
+      "chapter": "LGBTQ Issues",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "classification bias",
+        "undercount",
+        "LGBTQ"
+      ],
+      "notes": "Mic data analysis"
+    },
+    {
+      "extract": "Be careful, when interviewing those who oppose LGBTQ issues, that your work does not give credibility to dangerous viewpoints. The trick is to explain an issue without providing false balance that appears to give equal weight to views that are demonstrably inaccurate. Work to include moderate voices, not only those on the extremes.",
+      "chapter": "LGBTQ Issues",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing",
+        "false balance",
+        "ethical reporting",
+        "presentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Wall Street Journal mined two key data sets from the Census Bureau and the Bureau of Labor Statistics. The Census data included American Community Survey data with median pay by occupation and gender. The BLS data included earnings by gender and education level. A key goal was to examine the pay gap across occupations while including factors such as education level.",
+      "chapter": "Unequal Wages and Resources",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "census data",
+        "equity",
+        "controlling for variables"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Read police incident reports carefully and keep a lookout for slurs and other signs of bias. Just because police didn't identify something as a hate crime doesn't mean it isn't one. Find out how police track hate crimes internally. If officers don't know how to correctly code an incident, dozens or even hundreds of crimes can be misclassified.",
+      "chapter": "Investigating Hate",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "classification bias",
+        "close reading",
+        "data quality",
+        "hate crimes"
+      ],
+      "notes": "Tips from Rachel Glickhouse of ProPublica"
+    },
+    {
+      "extract": "Compile a list of hate crime incidents in your area using news clips and cases tracked by nonprofit groups. You can then compare your list to the official data and look for discrepancies. Establish relationships with diverse communities. Many victims don't report to police, in part because of a lack of trust.",
+      "chapter": "Investigating Hate",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "cross-referencing",
+        "community sourcing",
+        "underreporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Desmond created a team to collect court records of evictions across the U.S. and compiled a database of 83 million records from 2000 to 2016. From that database his team found that landlords in 2016 were evicting at least one in 50 renters nationwide. From that data, reporters told the stories of people losing their homes.",
+      "chapter": "Investigating Poverty Issues",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "database construction",
+        "court records",
+        "scale",
+        "humanizing data"
+      ],
+      "notes": "Eviction Lab at Princeton"
+    },
+    {
+      "extract": "Investigations into poverty generally fall into three areas: exposing appalling living conditions and societal injustices, showing how businesses or con artists exploit the poor, and uncovering fraud and waste in government programs intended to help impoverished families. Some investigations may include elements of all three.",
+      "chapter": "A Wide Array of Approaches",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "investigative framing",
+        "typology",
+        "poverty reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Think about how you dress and the car you drive -- you don't want to stand out or look like a city official. Know where you are going, take sensible precautions. Be trustworthy -- if someone asks for confidentiality and you grant it, keep it. Be empathetic but do not make promises on what you will write. Leave information on how to get in touch with you.",
+      "chapter": "Special Challenges for Reporters",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "field reporting",
+        "interviewing",
+        "trust building",
+        "safety",
+        "ethics"
+      ],
+      "notes": "Tips for reporting in impoverished communities"
+    },
+    {
+      "extract": "Know the law governing payday lenders, check cashers and others. Check court filings -- they are a rich source and can point you to people who feel wronged. Get census data to study demographics of areas surrounding payday lenders and check-cashing stores -- these data are especially important for mapping.",
+      "chapter": "Financial Exploitation",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "legal framework",
+        "court records",
+        "census data",
+        "mapping",
+        "financial exploitation"
+      ],
+      "notes": "Tips from Nixon and Hacker"
+    },
+    {
+      "extract": "One of the most effective and traditional ways to investigate the failings of a system is to combine documentation and interviews with officials and experts with the detailed story of a person trying to get help from the system.",
+      "chapter": "Investigating the Programs",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "humanizing data",
+        "systemic analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When the St. Louis Post-Dispatch matched a database of state employees against a database of absent parents, they identified Illinois state employees who owed child support, including some whose job was to enforce child-support laws.",
+      "chapter": "Child-Support Enforcement",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data matching",
+        "cross-referencing",
+        "accountability",
+        "irony"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The combination of documents and sources -- along with monitoring social media of impoverished neighborhoods and anti-poverty groups -- can provide direction, but the reporting will be detached until journalists get out into the community and begin seeing poverty through the perspective of those who live it.",
+      "chapter": "Special Challenges for Reporters",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "immersive reporting",
+        "perspective",
+        "community sourcing",
+        "social media"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Response times are often excellent in some parts of the city (usually the most affluent) and substandard in others (usually the poorest and most crime-ridden). Many news organizations document response time disparities by analyzing computerized records of 911 calls. Law enforcement agencies may erase 911 recordings after a set period of time, so journalists must move quickly.",
+      "chapter": "Patrol Officers, Dispatchers and 911 Operators",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "spatial analysis",
+        "equity",
+        "time-sensitive data",
+        "911 data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The police report about the overdose was important corroborating information, and it was obtained only after a months-long battle with the Pasadena police. The department initially refused to provide a report, saying officers had not prepared one. The Times pointed out that failing to do so violated departmental policy and pressured officials to comply with the policy and the California Public Records Act.",
+      "chapter": "Campus Leadership",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "persistence",
+        "legal leverage",
+        "records access"
+      ],
+      "notes": "LA Times USC medical school dean investigation"
+    },
+    {
+      "extract": "Journalists have obtained lists of bus drivers from school districts, matched names with criminal databases and found speeding tickets, alcohol-related offenses and other violations, including child molestation. Similar techniques: running databases of foster care parents against databases of felons, or comparing teacher databases with prison records.",
+      "chapter": "School Staff and Services",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data matching",
+        "background checks",
+        "cross-referencing",
+        "public safety"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes a campus that lists a larger number of sexual assaults might actually be safer because it is doing a better job of policing and publicizing such cases. Multiple reports have shown that many crimes, such as sexual assault, are greatly underreported on campuses.",
+      "chapter": "Campus Safety",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interpretation",
+        "counterintuitive findings",
+        "reporting bias",
+        "undercount"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reporters used geographic databases obtained from researchers and universities to project the potential impact of future storms. Reuters examined temperature readings from NOAA, federal trawl survey data, U.S. Coast Guard reports on fishing vessel locations, as well as fisheries data collected by the United Nations and multiple countries.",
+      "chapter": "Investigating Climate Change",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "geographic data",
+        "multi-source data",
+        "climate data",
+        "projections"
+      ],
+      "notes": "ProPublica/Texas Tribune/Reveal 'Hell and High Water' and Reuters ocean project"
+    }
+  ]
+}

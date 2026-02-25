@@ -1,0 +1,231 @@
+{
+  "source_id": "159",
+  "source_file": "159-learning-to-teach-dj.md",
+  "source_title": "Learning to Teach Data Journalism: Innovation, Influence and Constraints",
+  "author": "Jonathan Hewett",
+  "year": "2015",
+  "chunk": "1/1",
+  "chunk_file": "159-learning-to-teach-dj_chunk1.md",
+  "chunk_words": 8756,
+  "extracts": [
+    {
+      "extract": "FoI offers students a gateway to data journalism as it often involves datasets (typically numbers), the analysis of changes over time and pattern-detection. It introduces aspects of computational thinking, and many students have used FoI effectively in their data journalism.",
+      "chapter": "Coherence and integrity",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "freedom-of-information",
+        "data-acquisition",
+        "computational-thinking"
+      ],
+      "notes": "FoI as pipeline entry point to data journalism practice"
+    },
+    {
+      "extract": "finding stories in data; understanding its structure and context; gathering, cleaning and analysing it; and presenting data stories. Important, too, might be working collaboratively with other specialists, and exploring new tools, techniques and theoretical approaches.",
+      "chapter": "Socialization revisited",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data-journalism-pipeline",
+        "collaboration",
+        "interdisciplinary"
+      ],
+      "notes": "Core competency list spanning the full DJ workflow"
+    },
+    {
+      "extract": "Mathematical, statistical and technological literacy -- and, indeed, high levels of competence -- would be essential, almost assumed.",
+      "chapter": "Socialization revisited",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "statistical-literacy",
+        "skills-baseline"
+      ],
+      "notes": "Prescriptive claim about prerequisite competences for DJ"
+    },
+    {
+      "extract": "The data journalism module has addressed this challenge by taking an approach akin to continued professional development, highlighting current practice. One assessment requires students to blog about their own progress as data journalists and encourages them to regard data journalism as, in effect, a beat for their reporting.",
+      "chapter": "Relevance and currency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "reflective-practice",
+        "blogging",
+        "beat-reporting",
+        "experiential-learning"
+      ],
+      "notes": "Treating DJ as a beat to maintain currency; blogging as assessment"
+    },
+    {
+      "extract": "Typically, they include 'how to' posts; critical analysis of pieces of data journalism; interviews with practitioners; their own data journalism practice -- including experimentation -- and reflections on this; and the evaluation of relevant new tools or techniques.",
+      "chapter": "Relevance and currency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "critical-analysis",
+        "tool-evaluation",
+        "experimentation",
+        "reflective-practice"
+      ],
+      "notes": "Taxonomy of student blogging outputs that double as professional development"
+    },
+    {
+      "extract": "by encouraging critical reflection, it aims to support professional development. The structure and activities help students to collaborate and operate effectively in the environment of modern networked journalism. They foster, too, an open approach and independent learning (important for future career development) that involve contact with practitioners and peers -- reflecting a key element in the practice and growth of data journalism",
+      "chapter": "Relevance and currency",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "networked-journalism",
+        "collaboration",
+        "professional-development",
+        "open-practice"
+      ],
+      "notes": "Claim that networked, collaborative learning mirrors professional DJ practice"
+    },
+    {
+      "extract": "There is little by way of an established 'canon' or agreed body of knowledge, theory and practices on which to base a curriculum. It is a work in progress, with continuing fluidity, differing approaches and a relatively small corpus (compared to other aspects of journalism) of 'classic' examples of the kind that journalism educators tend to draw upon for case studies and other learning activities.",
+      "chapter": "Relevance and currency",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "canon-absence",
+        "curriculum-design",
+        "field-maturity"
+      ],
+      "notes": "Key claim: DJ lacks an established canon, complicating pedagogy"
+    },
+    {
+      "extract": "Problem-solving abilities of this kind are an important skill in data journalism and sought by employers",
+      "chapter": "Programme management",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "problem-solving",
+        "software-troubleshooting",
+        "self-directed-learning"
+      ],
+      "notes": "Context: students resolving software installation/config issues (Tableau, Open Refine) themselves"
+    },
+    {
+      "extract": "Work primarily with live/real data in class",
+      "chapter": "Emerging themes",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "authentic-data",
+        "pedagogy",
+        "hands-on"
+      ],
+      "notes": "Quality document point; flagged as area for development, not yet positive"
+    },
+    {
+      "extract": "data journalism can be seen partly as an extension of the 'traditional' areas that journalism programmes have long taught: discovering relevant facts, verifying (and disputing) claims, reporting and analysis",
+      "chapter": "Conclusion",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "traditional-journalism",
+        "fact-finding",
+        "reporting"
+      ],
+      "notes": "Frames DJ as extension of core journalism: discover, verify, dispute, report, analyse"
+    },
+    {
+      "extract": "Greater emphasis on data would need some existing elements to be omitted from the curriculum, and further specialization. More on statistical analysis, visualization/design and programming are prime candidates.",
+      "chapter": "Coherence and integrity",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum-design",
+        "specialization",
+        "statistics",
+        "visualization",
+        "programming"
+      ],
+      "notes": "Identifies three areas DJ education should deepen: stats, viz, programming"
+    },
+    {
+      "extract": "students are taught by currently practising data journalists; internships of relevant data work alongside established professionals, ideally with interdisciplinary teams (e.g. web developers and designers); and students learning explicitly about new and changing practices, ideas and approaches. They would hear and learn from others working in data journalism (not only those formally teaching them) and in related fields (e.g. computing and open data).",
+      "chapter": "Socialization revisited",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interdisciplinary",
+        "practitioner-involvement",
+        "socialization",
+        "team-composition"
+      ],
+      "notes": "Prescriptive model for DJ socialization: practitioners, interdisciplinary teams, cross-field learning"
+    },
+    {
+      "extract": "the intensive, hands-on data work clearly required smaller groups",
+      "chapter": "Student satisfaction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "class-size",
+        "hands-on",
+        "pedagogy"
+      ],
+      "notes": "Empirical finding: classes over 30 failed for DJ; small groups reinstated"
+    },
+    {
+      "extract": "an understanding of using Excel and being able to spot an angle in numbers is not as hard a climb as you may think at this stage. Data skills helped me get a front page splash",
+      "chapter": "Student satisfaction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "spreadsheets",
+        "numeracy",
+        "story-finding",
+        "career-impact"
+      ],
+      "notes": "Alumni testimony; Excel + angle-spotting as accessible entry point to DJ impact"
+    },
+    {
+      "extract": "the development of data journalism education may be impacted more profoundly and/or immediately than other areas of journalism education because of its interaction with other fields -- notably statistics, computing, data science and visualization. For 'mainstream' journalism education, these may be an optional extra; for data journalism, they relate to its core functions.",
+      "chapter": "Resistance to change",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interdisciplinary",
+        "statistics",
+        "computing",
+        "data-science",
+        "visualization"
+      ],
+      "notes": "Key claim: DJ uniquely requires integration with stats/CS/viz; not optional"
+    },
+    {
+      "extract": "where ethical issues related to data journalism are best addressed: in a module dedicated to data journalism, or one focused on ethical and professional standards? Similar questions arise in relation to the law, and even public administration (e.g. in relation to the data-related activities of public bodies).",
+      "chapter": "Coherence and integrity",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "curriculum-design",
+        "law",
+        "public-administration"
+      ],
+      "notes": "Open question about where to locate DJ ethics: specialized vs integrated"
+    }
+  ]
+}

@@ -1,0 +1,1024 @@
+{
+  "source_id": "41",
+  "source_file": "41-journalists-toolbox-handbook.md",
+  "source_title": "The Journalist's Toolbox Handbook",
+  "author": "Mike Reilley",
+  "year": "2024",
+  "extracts": [
+    {
+      "extract": "Avoid 'tool soup, which is trying to put a pinch of everything into a story, for the sake of seeming thorough or well-rounded. Often one single tool alone is enough to tell a story at a higher plane. It is easy to go overboard and overwhelm the reader.' Put the story first and foremost, then try to find the tools to tell it.",
+      "chapter": "A Cautionary Tale: It's About the Journalism, Not Just the Tools",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "presentation design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Story-first over tool-first thinking applies equally to AI tools as to traditional digital tools"
+    },
+    {
+      "extract": "Pick-Stick-Dig-Dump framework for evaluating tools: (1) Pick an app that fills a specific need after checking reviews and privacy settings, (2) Stick with it by using it in daily coverage, (3) Dig into it for two to three months asking whether it saves time or enhances work, (4) Dump it after three months if it does not prove its value.",
+      "chapter": "Organizing Your Digital Life",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool selection",
+        "workflow design"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Framework is sound but needs to account for AI tools that combine multiple capabilities and evolve faster than 3-month cycles"
+    },
+    {
+      "extract": "When evaluating tools, assess four core attributes: Quality (does it help produce better or different work?), Time (does it save time or reduce friction?), Cost (can the newsroom and audience afford it?), and Reliability (is the tool likely to persist and is its team committed?).",
+      "chapter": "Organizing Your Digital Life",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool selection",
+        "workflow design",
+        "resource constraints"
+      ],
+      "notes": "Caplan framework",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Quality-time-cost-access evaluation still valid but LLMs collapse multiple tool categories and change the cost calculus"
+    },
+    {
+      "extract": "AI will transform journalism in five areas: Organizing (natural language queries over gathered information), Converting (translating and summarizing across languages and formats), Monitoring (tracking subtle changes in government and corporate data over time), Analyzing (identifying outliers and patterns in complex datasets), and Presenting (generating charts, infographics, audio/video versions of stories).",
+      "chapter": "AI Tools Are Game-Changers",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI adoption",
+        "automation",
+        "workflow design"
+      ],
+      "notes": "Caplan framework",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Five areas are correct but understates how deeply LLMs already perform these tasks natively rather than as separate tools"
+    },
+    {
+      "extract": "Teach journalism concepts, not tools. Tools are a vehicle for reporting, not a means to an end. Combine old-school shoe-leather reporting with cutting-edge digital techniques to produce data-driven and multimedia stories. Sprinkle ethics, editing and journalism into the software lessons rather than preaching ethics in long standalone slideshows.",
+      "chapter": "Teaching Digital Concepts, Not Just Tools",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pedagogy",
+        "ethics",
+        "workflow design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching concepts over tools is even more important when AI tools change rapidly"
+    },
+    {
+      "extract": "Be a reporter first -- this is the skill from which all else flows. Be a reader second -- channel your own reading behaviors to inform what you produce. Tell one story at a time or make one comparison (X vs. Y axis) at a time. If you have to explain what your tool is telling the reader, you have made it more complicated than you need. Quality over quantity: you do not need endless maps, charts and graphs on a single story.",
+      "chapter": "Working With Free Digital Tools",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "presentation design",
+        "data visualization",
+        "editorial judgment"
+      ],
+      "notes": "Warren framework",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Being a reporter first and reader second are foundational human skills unaffected by LLMs"
+    },
+    {
+      "extract": "There is no magic to setting up a good reporting workflow. Research before you go, and then research some more. Ask basic questions: What am I writing and why? What do I want or need to get from this source and when and how are the best ways to do that?",
+      "chapter": "Getting Organized: Establish a Digital Workflow",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "workflow design",
+        "reporting methodology"
+      ],
+      "notes": "Graves",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Research-before-you-go and asking basic questions remain core reporting discipline regardless of AI"
+    },
+    {
+      "extract": "For longer stories, keep a high-level timeline and short bios of key players for quick reference. Maintain a spreadsheet of sources with title, phone number, email, contact dates and follow-ups. Build separate folders for images, maps, data, and records so they can be accessed quickly as both reporting resources and story embeds.",
+      "chapter": "Getting Organized: Establish a Digital Workflow",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project management",
+        "data management",
+        "workflow design"
+      ],
+      "notes": "Graves",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Timeline and bio-tracking are now easily automated by LLMs that can maintain and query structured notes"
+    },
+    {
+      "extract": "Use a Google Drive file-naming system that makes sense: Assignment_(Name)_Date_StorySlugNOTES or Assignment_Names_(Dates)_Story slug. Check with editors for a specific naming system.",
+      "chapter": "What to Pack",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data management",
+        "workflow design"
+      ],
+      "notes": "Graves",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "File naming conventions still matter but LLM-powered search reduces dependence on rigid naming schemes"
+    },
+    {
+      "extract": "Nine rules for writing for the web: (1) Get the most newsworthy information in the first paragraph in 25-30 words, (2) Link to sources whenever you reference information, (3) Hotlink phrases not full URLs at four to five words maximum, (4) Indent quotes using blockquote, (5) Use brief paragraphs with 1 idea, 2-3 sentences, 4-5 typed lines, (6) Write literal SEO headlines under 75 characters in subject-verb-object structure, (7) Split articles with subheadings, (8) End with a call to action or what happens next, (9) Embed linked media such as tweets, videos, audio or images.",
+      "chapter": "Get the News in the Lead",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web writing",
+        "SEO",
+        "presentation design",
+        "audience engagement"
+      ],
+      "notes": "Bradshaw nine rules",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Web writing fundamentals endure but LLMs can now generate and optimize headlines, chunking, and linking"
+    },
+    {
+      "extract": "Great reporting drives great writing. If you cannot research, pull public records, interview sources and gather information, then your story will not work. It does not matter how talented a writer you are. You cannot write what you do not know, what you have not heard, what you have not seen.",
+      "chapter": "Great Reporting = Great Writing",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reporting methodology",
+        "editorial judgment"
+      ],
+      "notes": "Graves and Pagel/Streckfuss",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reporting skill as prerequisite for good writing is a human judgment that AI cannot replace"
+    },
+    {
+      "extract": "Covering a major story over several years requires next-level organization. Keep a spreadsheet of who is testifying in order, with ages, key details of testimony and background, linked to recorded testimony files. At end of each day, capture audio files with transcripts and link them to the testimony spreadsheet. Keep key prior stories in a Google Doc for quick reference.",
+      "chapter": "Covering Big Stories",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project management",
+        "data management",
+        "long-form reporting"
+      ],
+      "notes": "Graves Pike County method",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Spreadsheet tracking for long investigations is now supplemented by LLM-powered knowledge management tools"
+    },
+    {
+      "extract": "When filing FOI requests, be specific about the type of record, what dates the records cover and what the topic is. Simply asking for 'all of the mayor's email correspondence' is too broad. Requesting the mayor's emails over the past three years discussing the public funding of a new bridge with the city's chief financial officer is more specific and gives the agency a better roadmap to find the records. This typically cuts down on denials.",
+      "chapter": "Public Records Reporting",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "FOI",
+        "data acquisition"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOI request specificity and strategy remain essential human-driven legal processes"
+    },
+    {
+      "extract": "Triangulating journalistic sources: data, documents and human sources work in concert with one another when reporting a story. Reporters use public records, data analysis and interviews together to strengthen stories.",
+      "chapter": "Public Records Reporting",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "reporting methodology",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Triangulating data, documents, and human sources is a core epistemological principle unaffected by AI"
+    },
+    {
+      "extract": "It is particularly important to use a diverse group of experts in your stories regardless of topic. Many newsrooms now track diversity in their coverage -- cross-sections of the community, how they are quoted, where they appear, and that includes expert sources. Always vet expert sources: read beyond their bio, search their name for trouble, check if they are being paid by a company to shape what they tell you, and search Google Scholar for their publications.",
+      "chapter": "Finding Expert Sources",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "source diversity",
+        "verification",
+        "expert sourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Diverse sourcing is an ethical imperative that AI cannot automate away"
+    },
+    {
+      "extract": "Best advice for reporters using transcription tools: proceed at your own risk. The tools are fine for routine interviews and public meetings. But think twice before using them with sensitive stories and interview subjects because cloud-based services share data with third parties and respond to law enforcement requests, creating privacy and security vulnerabilities for confidential sources. For sensitive information, use a non-cloud recorder and transcribe manually.",
+      "chapter": "Using Transcription Tools to Speed Reporting",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source protection",
+        "digital security",
+        "transcription",
+        "ethics"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLM transcription is now far more accurate than earlier tools but caution for sensitive quotes still applies"
+    },
+    {
+      "extract": "Use transcription tools only to check quotes and for context when writing. Also take handwritten notes. Taking physical notes signals to sources that you are working. In advanced courses, require students to upload the audio file, the transcript and their handwritten notes with full source name and contact info. Spot check these files and use them to fact-check work when grading.",
+      "chapter": "Using Transcription Tools to Speed Reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "transcription",
+        "fact-checking",
+        "pedagogy"
+      ],
+      "notes": "Graves method",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLM transcription quality now rivals hand notes but maintaining parallel note-taking habit still valuable"
+    },
+    {
+      "extract": "An old reporter's trick: do not transcribe the entire interview. As you record, keep track of the time code on the recorder. In your notebook, list the times when an interesting quote starts or ends, and work forward or backward from there. This saves many hours of time with transcriptions.",
+      "chapter": "Transcription Without Tech",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "efficiency",
+        "transcription",
+        "workflow design"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "LLMs can now transcribe full interviews cheaply and instantly, making selective time-code transcription unnecessary"
+    },
+    {
+      "extract": "Self-editing process: step away from the story, clear your head, then read start to finish without editing as the reader would see it. Then make an editing pass for grammar, AP Style, punctuation, usage, spelling. Make a second pass for fact-checking names, data and hotlinks. Run grammar and spellcheck. Write the headline last. For longer stories, printing and editing by hand catches mistakes that backlit screens make eyes lazy to.",
+      "chapter": "Editing Your Work and Writing Headlines",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "editing",
+        "fact-checking",
+        "workflow design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Stepping away and reading as a reader is a cognitive editing practice no AI replaces"
+    },
+    {
+      "extract": "You must fact-check any AI-generated content for plagiarism, falsehoods, outdated information and biased or made-up information. Think of AI as making suggestions: you can accept or reject them the same way you would grammar check or spell check. AI should work for you, not vice versa.",
+      "chapter": "Editing Your Work and Writing Headlines",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI adoption",
+        "fact-checking",
+        "verification",
+        "editorial judgment"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Fact-checking AI output for plagiarism, falsehoods, and bias is foundational to responsible AI use"
+    },
+    {
+      "extract": "Write SEO headlines in present tense and subject-verb-object structure (who-did-what) at 8-10 words or around 75 characters maximum containing keywords from the story. Do not use puns and metaphors because search engines are literal. Do not write the headline as a title or label. Use Google Trends to test which keywords are searched more to choose the better headline term.",
+      "chapter": "Headline Writing",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "SEO",
+        "web writing",
+        "presentation design"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "SEO headline craft persists but LLMs can now draft and A/B test headlines at scale"
+    },
+    {
+      "extract": "The general rule when searching for a person, a story, or just about anything, is to start specific and work your way out from there. Type the exact term using quotes to denote an exact phrase and see what comes up. More often you will need to cut out a word or search for a more umbrella term, and then skim or read whatever comes up.",
+      "chapter": "Google Search Operators",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search techniques",
+        "research methodology"
+      ],
+      "notes": "Sunne",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Start-specific-go-broad search strategy remains sound methodology for any search tool including AI"
+    },
+    {
+      "extract": "Use 'filetype:' search operator to find specific data formats (xlsx, pdf, doc, ppt) on the open web. Use 'site:' operator to search within a specific website, which is particularly helpful with government websites that have poor built-in search engines. Use the AROUND operator in all caps to find two terms within a specified number of words of each other.",
+      "chapter": "Google Search Operators",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search techniques",
+        "data acquisition"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Filetype and site operators still work but LLM-powered search and document retrieval now offer alternative discovery paths"
+    },
+    {
+      "extract": "Set up Google Alerts with search operators to monitor specific agencies. Example: site:lla.la.gov investigative ('new orleans' OR 'orleans parish') pings you when the Louisiana Legislative Auditor posts a new investigative audit mentioning New Orleans. Google Alerts arrive within a day of a new result -- not instantaneous but good for staying on top of specific files, agencies or news topics.",
+      "chapter": "Google Search Operators",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "monitoring",
+        "search techniques",
+        "automation"
+      ],
+      "notes": "Sunne",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Google Alerts still useful but LLM agents can now monitor and summarize broader source sets"
+    },
+    {
+      "extract": "Google Dataset Search lets you search millions of datasets posted by academic researchers, nonprofits, companies and government agencies. Filter results by when data was posted, format and whether you must pay. Google does not fact-check the datasets -- it merely guides you to them and provides information so you can vet the data yourself. It is an incredibly efficient tool for finding clean datasets on deadline.",
+      "chapter": "Google's Dataset Search Engine",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data acquisition",
+        "data discovery",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Google Dataset Search remains relevant but LLMs can now also discover and interpret datasets conversationally"
+    },
+    {
+      "extract": "Be careful not to draw assumptions from Google Trends surges. Search the dates in Google News thoroughly before using them in a story. Explain the Trends chart y-axis to readers -- the 0 to 100 represents a normalization, not actual traffic numbers. When attributing results, use 'According to an analysis of Google search data.' Do not draw gross generalizations: just because candidates are searched more does not mean they are more popular.",
+      "chapter": "Analyzing the Chart and Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "verification",
+        "data visualization",
+        "Google Trends"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Caution about misinterpreting Google Trends is an analytical reasoning skill unaffected by AI"
+    },
+    {
+      "extract": "Use the Wayback Machine 'Changes' tool to see when a web page was updated. Select two captures and click Compare to see side-by-side views. This is helpful for seeing if an organization is changing or hiding something on its website.",
+      "chapter": "Using The Wayback Machine",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "verification",
+        "web archiving",
+        "accountability"
+      ],
+      "notes": "Silverman",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Wayback Machine comparison for tracking web changes remains a unique archival verification method"
+    },
+    {
+      "extract": "When searching an online database, you can sometimes get it to return all of the records by leaving the search bar blank. You can also try entering wildcards like '*' and '%%'. These tricks do not work with every database, but they are always worth trying.",
+      "chapter": "Deep Web Resources",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "search techniques"
+      ],
+      "notes": "Sunne",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Database query tricks persist but LLM-powered scraping and API access offer more systematic alternatives"
+    },
+    {
+      "extract": "To find older datasets on government sites that only show current data, hack the web address. Agencies have consistent URLs for naming files -- simply change the ID, date or section in a URL to pull up archived documents. Example: changing '20190430' to '20180430' in a DOD report URL retrieves the same location's report from a year earlier.",
+      "chapter": "Hacking a Web Address to Find Archived Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "search techniques",
+        "web scraping"
+      ],
+      "notes": "Sunne",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "URL hacking for older datasets still works but LLMs can now automate pattern detection in government URL structures"
+    },
+    {
+      "extract": "Steps to debunk fake news: (1) Think before sharing and read beyond the headline, (2) Search if other outlets are reporting it, (3) Check fact-checking sites like Snopes and PolitiFact and Google Fact Check Explorer, (4) Check the outlet and author's credibility and social media, (5) Look at the publish date and time, (6) Examine links and sources used -- are they attributed and current?, (7) Look for questionable quotes and AI-generated image tells like disproportionate eyes/ears/hands, (8) Beware of confirmation bias.",
+      "chapter": "Debunking Fake News Stories",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "verification",
+        "misinformation",
+        "media literacy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical thinking steps for debunking fake news are human judgment skills that AI assists but cannot replace"
+    },
+    {
+      "extract": "When fact-checking images, assess five dimensions: Provenance (is it the original content? does it look altered?), Source (who captured it? use reverse image search), Date (when was it captured?), Location (where was it captured? use Google Earth), and Motivation (why was it captured? consider the context and reputation of who is sharing it).",
+      "chapter": "Fact-Checking Images",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "verification",
+        "image forensics",
+        "visual journalism"
+      ],
+      "notes": "First Draft News framework",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Five-dimension image verification framework endures but AI vision models now automate several of these checks"
+    },
+    {
+      "extract": "Use reverse image search in Google Images and TinEye interchangeably as they run different algorithms and provide sometimes different results. Scroll through results to find the earliest posts and see where the photo first appeared. Use the Tools button to filter by date. If a photo may be doctored, use FotoForensics to check metadata and see if the photo has been layered and flattened/compressed.",
+      "chapter": "How to Do a Reverse Image Search",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "fact-checking",
+        "verification",
+        "image forensics"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Reverse image search still valuable but AI vision models and multimodal search now provide additional verification paths"
+    },
+    {
+      "extract": "Solutions for building trust with audiences: Be Right (explain how stories developed and changed over time), Be Your Community (be knowledgeable about local community issues), Be Real (be authentic and own up to mistakes), Be Neutral (leave personal opinions out of news coverage). If just one journalist from a local news source is not trusted, audiences are overwhelmingly less likely to use the source overall.",
+      "chapter": "Trusting News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "trust",
+        "audience engagement",
+        "ethics",
+        "transparency"
+      ],
+      "notes": "RTDNA/Magid",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Trust-building strategies with audiences are relationship and transparency practices unaffected by AI tools"
+    },
+    {
+      "extract": "Apply a scientific method to building audience campaigns: (1) Outline a specific audience goal at the beginning, (2) Formulate hypotheses to test, (3) Track as much data as you can using distinct bit.ly URLs to measure click-through rates, (4) At campaign end, revisit original hypotheses -- moments when hypotheses are wrong are often most useful, (5) Document findings immediately, including what you would do differently.",
+      "chapter": "Developing Social Audiences at Large Newsrooms",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "audience engagement",
+        "analytics",
+        "experimentation",
+        "workflow design"
+      ],
+      "notes": "Johnson/Guardian",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scientific method for audience engagement is a strategic framework independent of AI tools"
+    },
+    {
+      "extract": "Steps to verify information found on social media: (1) Be skeptical -- always read past the headline, (2) Review the original source's social media accounts for reliability, (3) Cross-check with other sources and contact directly, (4) Check the geo-location of the post, (5) Seek corroboration on social media via image search and other eyewitness accounts, (6) Seek official corroboration by calling authorities, (7) If an image seems suspicious, reverse image search it, (8) Use Google Earth to verify photo locations.",
+      "chapter": "Fact-Checking on Social Media",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "fact-checking",
+        "social media",
+        "crowdsourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism and multi-step social media verification remain essential human editorial judgment"
+    },
+    {
+      "extract": "Twitter threads are an effective way to roll out investigative projects. Keep a 'data diary' of the reporting, analysis and writing/editing process, then explain that reporting process to the reader through the thread. This makes your reporting transparent and builds trust with the reader. Incorporating graphics, video and photos into threads helps readers notice them in feeds and conveys data and background.",
+      "chapter": "Writing Twitter Threads",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "trust",
+        "social media",
+        "data journalism",
+        "audience engagement"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Twitter threads as rollout strategy needs updating for platform changes and LLM-assisted content distribution"
+    },
+    {
+      "extract": "Use analytics to look at what you can change or improve in coverage, design or presentation rather than what can be cut. Track social analytics over several weeks and months before making brash decisions about adjusting coverage and resources. Export Twitter analytics as spreadsheets and sort by impressions, engagements, replies and URL clicks to find patterns in which topics, days and times perform best.",
+      "chapter": "Social Media Analytics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "analytics",
+        "audience engagement",
+        "editorial judgment"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Analytics for editorial improvement endures but LLMs now enable more sophisticated audience analysis"
+    },
+    {
+      "extract": "Crowdsourcing is where mainstream media ask for or search for eyewitness accounts from breaking stories they are not staffing or have not arrived at yet. It is best practice to ask the person posting who shot the photo and get that person's permission to use it, though you can embed tweets rights-free.",
+      "chapter": "Social Media: Past, Present and Future",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "source acquisition",
+        "ethics",
+        "user-generated content"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Crowdsourcing concept endures but LLMs can now help filter, verify, and synthesize UGC at scale"
+    },
+    {
+      "extract": "Do not speculate on social media -- write only what you observe or know. Never delete tweets, but correct errors. Alert your audience when you will be live-tweeting. Include observations and try to put the reader into the scene. Live-tweeting is the best on-deadline writing: there is little time to overwrite or overthink, which produces the most powerful inverted pyramid leads.",
+      "chapter": "More Social Media Tips from Chris Graves for Covering Trials and Breaking News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social media",
+        "live reporting",
+        "accuracy",
+        "trust"
+      ],
+      "notes": "Graves",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Do not speculate and correct errors publicly are ethical principles unaffected by AI"
+    },
+    {
+      "extract": "Fact-checkers need automated tools from platforms that match fact-check articles to misinformation that is being repeated to enable them to work faster. Politicians often repeat the same false claims several times, so building a library of already-debunked claims enables near-real-time fact-checking of future speeches.",
+      "chapter": "Fact-Checking and the Rise of Fake News",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "fact-checking",
+        "automation",
+        "misinformation",
+        "workflow design"
+      ],
+      "notes": "Adhikari/Nicholson",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Automated fact-check matching is now more feasible with LLMs performing semantic matching at scale"
+    },
+    {
+      "extract": "For publications of any size, think about what the primary audience objective is with any platform and then make sure your work there supports that goal. When approaching existing online communities like Reddit, bring added value to a discussion within your coverage areas -- host an AMA with reporters who can provide expertise or comment on trending threads with additional context from previous reporting.",
+      "chapter": "Developing Social Audiences at Large Newsrooms",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "audience engagement",
+        "social media",
+        "distribution strategy"
+      ],
+      "notes": "Johnson/Guardian",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Platform strategy based on audience objectives is editorial judgment independent of AI"
+    },
+    {
+      "extract": "Reporters have many options for finding datasets. They can file a Freedom of Information Act (FOIA) request, like Ramos did for the Chicago police reports for his story. They can build the dataset themselves, like Ramos did when he merged the stolen cars dataset with the police report data that included the cars' make and model.",
+      "chapter": "Finding Data",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "dataset building",
+        "data merging",
+        "data acquisition"
+      ],
+      "notes": "Two pathways for data: FOIA requests and self-built datasets through merging",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Dataset discovery methods still valid but LLMs can now assist with FOIA drafting and data portal navigation"
+    },
+    {
+      "extract": "Data scraping, also known as web scraping, is the process of importing information from a website, a PDF or other document into a spreadsheet or local file on a computer. It's an efficient way to get data from the web beyond a download button on a page. A scraping formula creates a link between the web page being scraped and the spreadsheet. Then, when the web page updates, so does the spreadsheet. This saves time, is more efficient and produces cleaner results than cut-and-paste.",
+      "chapter": "Scraping Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "data acquisition",
+        "automation",
+        "efficiency"
+      ],
+      "notes": "Definition and rationale for web scraping as linked live data pipeline",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Web scraping concept endures but LLMs can now write scraping code, parse PDFs, and extract structured data conversationally"
+    },
+    {
+      "extract": "In two sentences, Eyre encapsulated the issue using three key data points, the last of which he calculated by dividing the 780 million pills by the state's population. More importantly, the 433 pain pills per resident brought the story into a crystal-clear focus and scaled the issue in an alarming way.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "scaling",
+        "per-capita calculation",
+        "narrative"
+      ],
+      "notes": "Per-capita calculation as technique for making data relatable to readers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using key data points to encapsulate a story is narrative craft that AI assists but does not replace"
+    },
+    {
+      "extract": "When writing for the web, specifically mobile, a paragraph should never be longer than three sentences in order to maintain clarity and readability on those devices. Spreading the data throughout the story and balancing it with human-centered anecdotes, quotes and context helps increase reader understanding of the issue.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "mobile writing",
+        "readability",
+        "humanizing data"
+      ],
+      "notes": "Heather Cherone on mobile-first data writing and balancing numbers with human stories",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Short paragraphs for mobile readability is a presentation principle that applies regardless of who writes the text"
+    },
+    {
+      "extract": "Cherone favors keeping one or two statistics per paragraph and keeping the stories focused on the people impacted by the numbers, not just the statistics themselves. She and many other data journalists are the first to tell you: Great data stories don't read like data stories. They are stories about how issues impact human beings.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data storytelling",
+        "humanizing data",
+        "narrative",
+        "reader engagement"
+      ],
+      "notes": "Principle: great data stories center people not numbers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Limiting statistics per paragraph and centering people is storytelling judgment AI does not replace"
+    },
+    {
+      "extract": "The number 29,912 can be rounded up: Nearly 30,000. Round off percentages, too: 62.2% is 62%; 79.9% is 80%; 75% is three-fourths or three in four. The percentages 12.55% of women and 25% of men can be 1 in 8 women and 1 in 4 men. Instead of a 100% increase, say it doubled. It's easier for the reader to understand. Break data into bullet-point lists and pullout boxes.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "simplification",
+        "readability",
+        "numeracy"
+      ],
+      "notes": "LaFleur and Hacker NICAR 2022 tips for simplifying numbers in stories",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Rounding numbers for readability is a presentation principle that persists regardless of AI"
+    },
+    {
+      "extract": "Could the data be better presented in a chart, infographic or database? Does it need to be written?",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "presentation format",
+        "data visualization",
+        "editorial judgment"
+      ],
+      "notes": "LaFleur and Hacker - question whether text is best format for data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Deciding between chart and text is now augmented by LLMs that can suggest and generate visualizations"
+    },
+    {
+      "extract": "You always, always, always work off a COPY of your dataset in case you mess something up.",
+      "chapter": "Exercises",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "workflow",
+        "data management"
+      ],
+      "notes": "Pro tip on always working from a copy of original data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Working on a copy of the dataset is a fundamental data integrity practice that applies to any workflow"
+    },
+    {
+      "extract": "A data dictionary provides a detailed description of the dataset, which includes the meaning of each column, the type of the data and any other relevant information.",
+      "chapter": "Exercises",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "documentation",
+        "data management",
+        "metadata"
+      ],
+      "notes": "Exercise introducing data dictionaries as standard practice",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data dictionaries remain essential but LLMs can now auto-generate and interpret them from raw datasets"
+    },
+    {
+      "extract": "As with any story, data-driven pieces need diverse sources and voices. This goes beyond interviewing people impacted by the issue. It also involves actively seeking diverse expert sources in stories on any subject.",
+      "chapter": "Diversity, Equity and Inclusion in Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "diversity",
+        "sourcing",
+        "equity",
+        "inclusion",
+        "framing"
+      ],
+      "notes": "Principle that diverse sourcing applies to data stories not just traditional reporting",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Diverse sourcing beyond data subjects is an ethical reporting principle unaffected by AI"
+    },
+    {
+      "extract": "Mojo kind of flips the script on you and says: No Picture, No Story. So we start out by learning how to report in pictures as a photojournalist, then working with shots as a filmmaker, and then learning how to write with those pictures like an editor, and then writing to those pictures like a scriptwriter.",
+      "chapter": "Visual Storytelling and Mobile Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visual storytelling",
+        "mobile journalism",
+        "workflow",
+        "multimedia"
+      ],
+      "notes": "Montgomery on visual-first reporting workflow for mobile journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Visual-first mobile journalism storytelling is a narrative principle independent of AI tools"
+    },
+    {
+      "extract": "Zoom with your feet, not the lens. Move closer to your subject and frame the shot. You'll get better-quality video and audio. Use the lens zoom on your phone only if you're in a restricted area and can't get closer to the subject. Remember, you're after sequences: wide, medium and close, so you'll want to move around a lot and shoot a variety of distances and angles.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "video technique",
+        "mobile journalism",
+        "multimedia",
+        "sequences"
+      ],
+      "notes": "Physical zoom over digital zoom; sequence composition 50% closeups, 25% medium, 25% wide",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Physical proximity to subjects for better video is a craft skill AI cannot replace"
+    },
+    {
+      "extract": "Be careful with editing too tightly. Quotes can be edited down so tightly that it changes the meaning of what the person was saying. Remember to edit to the full context of what was being said, even if you have to paraphrase in a voice-over.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "editing ethics",
+        "context",
+        "accuracy",
+        "video editing"
+      ],
+      "notes": "Commandment 4: context over soundbites in video editing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Caution against over-editing quotes is an ethical principle regardless of whether AI or humans edit"
+    },
+    {
+      "extract": "Focus Thy Story Into Three Words. 'Who Did What?' or Noun-Verb-Object. It's a simple way to start the editing process. My students are sometimes overwhelmed by all of the video they have. But editing an hour of content into a three-minute mobile video can be daunting. Start with 'who did what,' then decide how you want to organize it: narrative, timeline, process, chapters, etc. Once you have that organizational structure, editing becomes much easier.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "editing workflow",
+        "narrative",
+        "simplification"
+      ],
+      "notes": "Noun-Verb-Object framework for organizing video editing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Three-word story focus (noun-verb-object) is a narrative discipline that transcends tools"
+    },
+    {
+      "extract": "When you pitch a story idea to editors, think in terms of these types of videos to have a plan going in. Think of a 'shot sheet' of sequences you can shoot. But also be flexible; many times my students returned from shooting a video and shifted to a new type of video format during the shoot. Let the content dictate the format, not vice versa.",
+      "chapter": "Ten Types of Mobile Video",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "planning",
+        "flexibility",
+        "story format",
+        "editorial judgment"
+      ],
+      "notes": "Pre-production planning with shot sheets but letting content drive format",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Pre-planning video types before shooting is a production planning skill unaffected by AI"
+    },
+    {
+      "extract": "Journalists should understand what the native camera can do and set it up for their needs. For example, Apple users should go to Settings > Camera and explore the list of options. Another tip, while exploring Camera Settings, is to set video frame rates to match the country's electricity hertz cycle. This will avoid lights flickering in the video.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "camera settings",
+        "mobile journalism",
+        "video technique"
+      ],
+      "notes": "Rob Layton on configuring native camera including frame rate to match local Hz",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Native camera setup advice needs updating for AI-enhanced camera features and computational photography"
+    },
+    {
+      "extract": "It's also important to measure your screen time. Journalists also should organize their apps in a way that makes sense to them, so they can find them quickly without having to search for them. If you have a lot of apps, like I do, you should organize them into folders by type of tool.",
+      "chapter": "Apps, Apps and More Apps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool management",
+        "workflow",
+        "mobile journalism",
+        "productivity"
+      ],
+      "notes": "Reilley on organizing mobile tools for fast access during breaking news",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Managing screen time and app organization is personal productivity discipline independent of AI"
+    },
+    {
+      "extract": "They pulled public records of sidewalk complaints and tracked how many were repaired ... and which ones have not. The records weren't hard to find. They're posted on the City of Chicago Data Portal.",
+      "chapter": "The Chicago Stumbler Tumblr",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "data portals",
+        "accountability",
+        "verification"
+      ],
+      "notes": "Using open data portals to verify government responsiveness to complaints",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using public records to track government responsiveness is a reporting methodology AI does not replace"
+    },
+    {
+      "extract": "The concept was simple: Students would use their smartphones to shoot photos of poor sidewalk conditions and geolocate them. They would upload the photos to Tumblr from their phones and write a short description of the conditions and the precise location of the issue.",
+      "chapter": "The Chicago Stumbler Tumblr",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "geolocation",
+        "mobile journalism",
+        "data collection"
+      ],
+      "notes": "Chicago Stumbler as model for mobile crowd-sourced data collection with geolocation",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Smartphone geolocated photo collection now augmented by AI image analysis and automated geolocation"
+    },
+    {
+      "extract": "If something goes wrong with your digital security, GIJN recommends reaching out to nonprofit groups dedicated to detecting and tracking attacks and training users.",
+      "chapter": "Seek Help",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "digital security",
+        "journalist safety",
+        "support networks"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Digital security incident response through nonprofit groups is an organizational resource unrelated to AI"
+    },
+    {
+      "extract": "You can scrape data from the FDIC Failed Banks List (or any other site with a table of data) with this basic scraping formula.",
+      "chapter": "Exercise 3: Scraping a Website",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data scraping",
+        "spreadsheets",
+        "data collection"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Basic table scraping formulas are now trivially handled by LLMs that can scrape, parse, and structure any web table"
+    },
+    {
+      "extract": "The tool allows you to upload documents and analyze a document up to 75,000 words. You can upload multiple documents.",
+      "chapter": "Exercise 5: Claude.ai for Reporting",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "AI tools",
+        "document analysis",
+        "reporting workflow"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific tool for document upload and analysis is superseded by LLMs that natively analyze documents up to millions of tokens"
+    },
+    {
+      "extract": "She pulled data from the Bureau of Labor Statistics CPI Average Price Database, a one-screen data search where you can look up product average prices by U.S. cities, regions, etc.",
+      "chapter": "Exercise 8: Canva Exercise -- How Much Does That Greasy Cheeseburger Really Cost With Inflation?",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "government data",
+        "data collection",
+        "data visualization"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "BLS data retrieval process still valid but LLMs can now query and compute from such databases directly"
+    },
+    {
+      "extract": "Instead of outlining a step-by-step process, we're just offering you tips on how to build the map. It's best to base the map on the deaths per 10k rather than total deaths. The former factors in population.",
+      "chapter": "Exercise 7: Flourish.studio -- Death by Heart Disease by State Map (by Rate)",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "normalization",
+        "rate calculation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Map-building tips endure conceptually but AI now automates geocoding, base map selection, and layer generation"
+    },
+    {
+      "extract": "Business reporters use this to track companies and their stock prices across multiple markets.",
+      "chapter": "Exercise 2: Scraping Data from Google Finance",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data scraping",
+        "financial data",
+        "monitoring",
+        "spreadsheets"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific stock-tracking tool reference is superseded by LLM agents that can query financial data in real time"
+    }
+  ]
+}

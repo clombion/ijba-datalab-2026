@@ -1,0 +1,842 @@
+{
+  "source_id": "97",
+  "source_file": "97e-nicar-2020.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "2/4",
+  "chunk_file": "97e-nicar-2020_chunk2.md",
+  "chunk_words": 39587,
+  "extracts": [
+    {
+      "extract": "The goal is to see if we can spot something specific in a video. This would be useful especially if you had hours of video you didn't have time to watch. Our plan will be: Download a computer-vision model pre-trained on 1.2 million images; Further train that model on images containing 'yes bikes' and 'no bikes'; Chop up our video into frames; Use the model to detect bikes in frames",
+      "chapter": "Quartz AI Studio: Sorting Images with fast.ai",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "machine learning",
+        "image classification",
+        "transfer learning",
+        "video analysis"
+      ],
+      "notes": "Workflow for applying pre-trained CV model to journalistic video analysis"
+    },
+    {
+      "extract": "Training a computer-vision mode from scratch to solve our problem would take thousands of images. Maybe more. Instead we take advantage of an existing model that was trained to detect objects -- from planes, to cars, to dogs, to birds -- by processing millions of images. This model is called 'resnet34.' With fast.ai we can infuse this model with our images (and their labels). This takes advantage of all of resnet34's 'knowledge' of image-detection and tacks on our particular problem. This technique is called 'transfer learning.'",
+      "chapter": "Quartz AI Studio: Transfer Learning with ResNet",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transfer learning",
+        "neural networks",
+        "pre-trained models",
+        "image classification"
+      ],
+      "notes": "Core concept: reuse existing models rather than training from scratch"
+    },
+    {
+      "extract": "We can take a look to see where the model was most confused, and whether what the model predicted was reasonable or not. In this case the mistakes look reasonable (none of the mistakes seems obviously naive). This is an indicator that our classifier is working correctly. Furthermore, when we plot the confusion matrix, we can see how the mistakes are being made.",
+      "chapter": "Quartz AI Studio: Evaluating Model Performance",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "model evaluation",
+        "confusion matrix",
+        "error analysis",
+        "validation"
+      ],
+      "notes": "Inspecting top losses and confusion matrix as validation step for ML classifiers"
+    },
+    {
+      "extract": "Probably the trickiest part of machine learning image problems involve pairing the images with their proper labels. There are many ways to do this. Sometimes the labels are in the file names. Sometimes they're in a list. Ours are in two separate folders, or directories. I made these folders by sorting through about 300 maps of helicopter flight paths. Took me about 15 minutes.",
+      "chapter": "Quartz AI Studio: Helicopter Circling Detection",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data labeling",
+        "image classification",
+        "training data",
+        "manual coding"
+      ],
+      "notes": "Manual labeling effort is modest -- 300 images in 15 minutes -- for effective ML"
+    },
+    {
+      "extract": "Transformations apply visual fun to the training images to mix things up a bit and help make the model more generalizable -- that is, for example, seeing more kinds of images of bikes than the images we have by changing the lighting, the cropping, the rotation, and the flip of the images.",
+      "chapter": "Quartz AI Studio: Data Augmentation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data augmentation",
+        "generalization",
+        "image transforms",
+        "training data"
+      ],
+      "notes": "Augmentation compensates for small training sets"
+    },
+    {
+      "extract": "We'll add our new transforms, and we'll change the size of the training images. To the model, these will look like brand new images it has never seen before. That's because in the training process, our convolutional neural network looks at small groups of pixels at a time. If we use bigger versions of the image, it's still a bike to us, but those clusters of pixels will be completely new to the computer.",
+      "chapter": "Quartz AI Studio: Progressive Resizing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "progressive resizing",
+        "data augmentation",
+        "neural networks",
+        "training strategy"
+      ],
+      "notes": "Resizing images creates effectively new training data from the same source images"
+    },
+    {
+      "extract": "Working with Dan Keemahill and Madlin Mekelburg over a couple of weeks during the 2019 Texas state legislative session, I have have a set of 3,797 tweets humans at the Austin American-Statesman have determined are -- or are not -- statements that can be fact-checked.",
+      "chapter": "Quartz AI Studio: Checkable Tweets Classifier",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "fact-checking",
+        "human coding",
+        "collaboration",
+        "classification"
+      ],
+      "notes": "Newsroom-academic collaboration for hand-coding training data"
+    },
+    {
+      "extract": "First, we need a model trained to recognize the patterns of English. We'll be using a model trained on thousands of long Wikipedia articles. It's called wikitext-103. We'll then use transfer learning to further train wikitext-103 on our particular corpus: several thousand #txlege tweets. So we benefit from its training on both English-language articles and #txlege tweets. That will give us a language model that's good at detecting patterns in #txlege tweets.",
+      "chapter": "Quartz AI Studio: Language Model Fine-tuning",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "NLP",
+        "transfer learning",
+        "language models",
+        "text classification",
+        "fine-tuning"
+      ],
+      "notes": "Two-step approach: language model then classifier, both using transfer learning"
+    },
+    {
+      "extract": "We want as many tweets for the language model as possible to learn the patterns of #txlege tweets. We'll start with the text of the 3,797 'hand-coded' tweets (though for the language model, we ignore the checkable/not checkable part of that file). To that, we'll add the additional tweets I collected. We'll mush those all into one big file of tweets.",
+      "chapter": "Quartz AI Studio: Building Language Models",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "training data",
+        "corpus building",
+        "language models",
+        "data collection"
+      ],
+      "notes": "Labeled and unlabeled data combined for language model; labels only needed for classifier"
+    },
+    {
+      "extract": "We can open the 'black box' a little to see what words the model is keying into.",
+      "chapter": "Quartz AI Studio: Model Interpretability",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "interpretability",
+        "explainability",
+        "NLP",
+        "attention",
+        "transparency"
+      ],
+      "notes": "Using intrinsic attention to inspect which words drive classification decisions"
+    },
+    {
+      "extract": "'Entities' in documents are, generally, names -- names of people, places, and things such as companies. Finding out which entities are mentioned in a trove of documents can be pretty helpful, especially when you don't previously know someone or some place is included the document. There are services online that do this kind of extraction, including DocumentCloud, Amazon Comprehend and Google Natural Language.",
+      "chapter": "Quartz AI Studio: Entity Extraction from Documents",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "NER",
+        "entity extraction",
+        "document analysis",
+        "spaCy",
+        "DocumentCloud"
+      ],
+      "notes": "NER as discovery tool for document dumps -- finding unknown actors"
+    },
+    {
+      "extract": "JSONL is a file format that stores data in a JSON file, with each record living on its own line in the file. This next block reads the PDF file and turns it into a JSONL file, which is much easier to work with.",
+      "chapter": "Quartz AI Studio: PDF to JSONL Processing",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data formats",
+        "PDF processing",
+        "JSONL",
+        "data conversion",
+        "pipeline"
+      ],
+      "notes": "PDF-to-JSONL as standard preprocessing step for document analysis"
+    },
+    {
+      "extract": "We're going to remove 'stop' words, such as a and the. Then we'll remove all the punctuation and pronouns. Plus some garbage tokens that came along with the emails we have. Everything gets cleaned up with this reusable function.",
+      "chapter": "Quartz AI Studio: Text Preprocessing for Similarity",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "text preprocessing",
+        "stop words",
+        "NLP",
+        "data cleaning",
+        "tokenization"
+      ],
+      "notes": "Standard NLP preprocessing pipeline: stop words, punctuation, pronouns, domain-specific garbage"
+    },
+    {
+      "extract": "Almost every token in the text will have an associated vector of 300 values -- which is, in a way, its position in 300-dimentional space. For a series of words, or an entire page, spaCy averages all the token-vectors into one 300-value vector. We're going to use 'cosine similarity' to compare this one document to every other document in the set.",
+      "chapter": "Quartz AI Studio: Document Similarity with Vectors",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "word vectors",
+        "cosine similarity",
+        "document similarity",
+        "NLP",
+        "spaCy"
+      ],
+      "notes": "Vectors as mathematical representations enabling semantic comparison of documents"
+    },
+    {
+      "extract": "We have to do this because pages and paragraphs often cover multiple topics, which might confuse the model. And, Universal Sentence Encoder is built to encode sentences... and so it ignores anything after the 128th word in its input. The code below cuts the text into sentences, but groups any two consecutive sentences under 15 words long together.",
+      "chapter": "Quartz AI Studio: Semantic Search Engine",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "text chunking",
+        "sentence segmentation",
+        "semantic search",
+        "preprocessing"
+      ],
+      "notes": "Chunking strategy must respect both model input limits and topic coherence"
+    },
+    {
+      "extract": "When is a sentence 'similar' to another? Remember those 512-dimensional vectors? We're treating two sentences as similar if their vectors are close together. Our search results are 'nearest neighbors,' which is what it sounds like.",
+      "chapter": "Quartz AI Studio: Nearest Neighbor Search",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "nearest neighbors",
+        "semantic similarity",
+        "vector search",
+        "information retrieval"
+      ],
+      "notes": "Nearest neighbor as intuitive explanation of semantic search"
+    },
+    {
+      "extract": "Roughly a third of the content published by Bloomberg News uses some form of automated technology. The system used by the company, Cyborg, is able to assist reporters in churning out thousands of articles on company earnings reports each quarter.",
+      "chapter": "2020-newsroom-automation: Automation at Bloomberg",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom automation",
+        "NLG",
+        "Bloomberg",
+        "scale",
+        "earnings reporting"
+      ],
+      "notes": "Scale of automation in major newsroom -- one-third of all content"
+    },
+    {
+      "extract": "How do we decide on automation? Is the data available? Can we get it in a format we can use? Once we get the data, is it clean enough to use reliably? Can we process the data regularly? Does anyone care?",
+      "chapter": "2020-newsroom-automation: Bloomberg Decision Framework",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation strategy",
+        "editorial decision-making",
+        "feasibility assessment",
+        "data availability"
+      ],
+      "notes": "Five-question checklist for deciding whether to automate a reporting task"
+    },
+    {
+      "extract": "Automation can track down the what, freeing up the reporter to track down the why. Automation is never going to replace the journalist, it's going to augment the work that they do.",
+      "chapter": "2020-newsroom-automation: Automation Philosophy",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "automation",
+        "augmentation",
+        "journalism roles",
+        "human-machine collaboration"
+      ],
+      "notes": "Key framing: automation as augmentation not replacement"
+    },
+    {
+      "extract": "What could go wrong? Document format changes. Incorrect data. Human error. Data not available. Outliers. Something we haven't thought of... until it happens.",
+      "chapter": "2020-newsroom-automation: Automation Risks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation risks",
+        "error handling",
+        "data quality",
+        "robustness"
+      ],
+      "notes": "Taxonomy of failure modes for automated data pipelines"
+    },
+    {
+      "extract": "Improving technologies make it easier to scrape Web sites, pull down data, and produce stories. Automation doesn't have to be done with massive resources and limitless data servers. 'Automate the Boring Stuff With Python.' Web scraping/APIs. Time management skills.",
+      "chapter": "2020-newsroom-automation: Accessible Automation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation",
+        "accessibility",
+        "small newsrooms",
+        "Python",
+        "web scraping"
+      ],
+      "notes": "Automation is accessible to small newsrooms, not just Bloomberg-scale operations"
+    },
+    {
+      "extract": "Though Quakebot automatically writes posts and creates maps, posts are never published without human review. Once a post is written the copy desk gets a slack alert and reads through the story before publishing it.",
+      "chapter": "2020-newsroom-automation: LA Times Quakebot",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "automated publishing",
+        "human oversight",
+        "editorial workflow",
+        "earthquake reporting"
+      ],
+      "notes": "Human-in-the-loop requirement even for fully automated content"
+    },
+    {
+      "extract": "Quakebot is an application that monitors recent earthquakes, detects 'qualifying' earthquakes, automatically generates post and related assets about the qualifying earthquake, pushes the post into our CMS. Polls the USGS's ANSS GeoJSON feed of world earthquakes. Feed contains all earthquakes in the last hour. Polling frequency is every minute.",
+      "chapter": "2020-newsroom-automation: LA Times Quakebot Architecture",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data feeds",
+        "real-time monitoring",
+        "automated alerts",
+        "USGS",
+        "GeoJSON",
+        "earthquake"
+      ],
+      "notes": "Architecture of automated data monitoring: poll, detect, generate, publish"
+    },
+    {
+      "extract": "Our always-on live wildfires map aims to provide our most up-to-date coverage of fire perimeters, hotspots and evacuation zones in California. The map is populated by a custom feed of data sources we assembled and automated. It includes government sources such as CalFire, GeoMAC, NOAA, and NASA. It also mixes in an exclusive feeds of fires spotted by Descartes Labs' satellite imagery algorithm. Each data source has its own python scraper, most of which are available as packages on PyPi.",
+      "chapter": "2020-newsroom-automation: LA Times Fire Map",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data aggregation",
+        "geospatial",
+        "automated scraping",
+        "satellite imagery",
+        "wildfire",
+        "multi-source"
+      ],
+      "notes": "Multi-source automated data aggregation combining government and commercial satellite feeds"
+    },
+    {
+      "extract": "In addition to our overall fire map, the app also allows for specific fires to be embedded within articles. This eliminates the need for custom, one-off illustrator or d3 map fire perimeter and evacuation zone maps.",
+      "chapter": "2020-newsroom-automation: Reusable Map Components",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reusable components",
+        "data visualization",
+        "maps",
+        "automation",
+        "newsroom efficiency"
+      ],
+      "notes": "Automation eliminates one-off production work through reusable embeddable components"
+    },
+    {
+      "extract": "Right now we're working on several projects related to the idea of computational story discovery, which is the use of algorithms and automating to surface interesting news leads for journalists. For instance I have some students working on a fact spotting system to scan the congressional record for fact checkable claims and send a daily newsletter.",
+      "chapter": "2020-newsroom-automation: Computational Story Discovery",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "story discovery",
+        "fact-checking",
+        "algorithmic leads"
+      ],
+      "notes": "Diakopoulos: algorithms as lead-generation tools, not replacement for reporting"
+    },
+    {
+      "extract": "We developed this particular system to help support national politics reporters in figuring out where to go to talk to people. What it does is it data mines a national voter file, including every registered voter in the US to try to pull out interesting patterns in things like new registrations as well as other variables of interest. Counties get ranked on the degree of statistical outlier-y-ness as well as factors like the political relevance in terms of vote margins, if the district flipped recently, and if it has an open seat in 2020. A tip sheet is generated using natural language generation to convey the interesting bits from the statistical analysis.",
+      "chapter": "2020-newsroom-automation: Lead Locator",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data mining",
+        "voter files",
+        "statistical analysis",
+        "NLG",
+        "story leads",
+        "Washington Post"
+      ],
+      "notes": "Diakopoulos Lead Locator: statistical outlier detection + NLG tip sheets for reporters"
+    },
+    {
+      "extract": "The automation here is really limited to the collection and ranking of documents. All of the metadata, summarization, and subsequent reporting around the lead still requires a lot of human effort.",
+      "chapter": "2020-newsroom-automation: Algorithm Tips",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "human-machine collaboration",
+        "computational journalism"
+      ],
+      "notes": "Automation handles collection and ranking; humans handle interpretation and reporting"
+    },
+    {
+      "extract": "Some experts estimate that only about 15% of a reporter's job and about 9% of an editor's job could be automated using current levels of AI technology. More often than not AI and automation technologies actually create new types of work, like the configuration, parameterization, knowledge management, data production, and template writing tasks involved with setting up, operating, and supervising automated systems. Instead of destroying jobs in journalism, AI appears to be creating them.",
+      "chapter": "2020-newsroom-automation: AI and Journalism Jobs",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "automation",
+        "journalism jobs",
+        "new skills",
+        "AI impact",
+        "labor"
+      ],
+      "notes": "Diakopoulos: AI creates new work types rather than replacing existing journalism roles"
+    },
+    {
+      "extract": "Be honest with yourself. Is this going to take a lot of time? If yes, ask the agency for another file format. But if you're on deadline...",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "file formats",
+        "FOIA",
+        "data acquisition",
+        "time management"
+      ],
+      "notes": "First step in PDF extraction: assess effort and consider requesting native format"
+    },
+    {
+      "extract": "Try opening the PDF in MS Word. let it figure out where the row and column boundaries are. Then copy and paste to EXCEL. COMETDOCS.com: Free subscription for IRE members, converts in minutes. LAST RESORT: SUBLIME TEXT EDITOR. Copy and paste the PDF contents into Sublime. To ensure the contents can be imported into Google sheets or Excel, we must define where to split the columns. Add a delimiter such as *. Save as TXT or CSV file. Import into Excel.",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "data conversion",
+        "Excel",
+        "Cometdocs",
+        "text editors",
+        "delimiters"
+      ],
+      "notes": "Escalation ladder: Word copy-paste, Cometdocs, Sublime text editor as last resort"
+    },
+    {
+      "extract": "JOINING PDFS in a FOLDER: pdftk a.pdf b.pdf cat output c.pdf. Or all pdfs in the folder into a new file called combined.pdf: pdftk *.pdf cat output combined.pdf. SPLIT A PDF FILE INTO SEPARATE PAGES: pdftk combined.pdf burst. The files will be automatically named pg_0001.pdf, pg_0002.pdf, etc.",
+      "chapter": "2020-pdf-converting-to-excel",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pdftk",
+        "PDF manipulation",
+        "command line",
+        "splitting",
+        "merging"
+      ],
+      "notes": "pdftk commands for joining and splitting PDFs from the command line"
+    },
+    {
+      "extract": "Why extract text: Searching. Finding and counting entities (names, organizations). Crude count of records. Tabular data. Classifying. Different tools do better at different jobs: DocumentCloud: OCR, entity extraction. Overview: OCR, entity extraction. Cometdocs. Tabula: Text PDFs only, extract tables. PDF Tables. Adobe Acrobat Pro. Abbyy Finereader.",
+      "chapter": "2020-pdf-ocr-extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "PDF extraction",
+        "tool selection",
+        "DocumentCloud",
+        "Tabula",
+        "text extraction"
+      ],
+      "notes": "Tool-to-task mapping for PDF extraction; different tools excel at different jobs"
+    },
+    {
+      "extract": "Why use command-line tools? Free. Reproducible. Lots of online documentation. Many documents, able to run in background (or cloud). Integrate in pipeline with other tools/analysis (like classifier). Understand pieces of process, how other tools work under the hood.",
+      "chapter": "2020-pdf-ocr-extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "command line",
+        "reproducibility",
+        "pipeline integration",
+        "open source",
+        "OCR"
+      ],
+      "notes": "Case for CLI tools: reproducibility, scale, pipeline integration, understanding"
+    },
+    {
+      "extract": "A regular expression is a common, compact way to represent some sort of pattern in text. You can use one to: Help you search within a document. Reformat or otherwise clean up an inconsistent or 'dirty' data set. Extract structured data from plain text. Many common programming languages, text editors and search tools support regular expressions, so you can use them in whatever environment you find most comfortable.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "data cleaning",
+        "text extraction",
+        "cross-platform"
+      ],
+      "notes": "Regex as universal data-cleaning and extraction skill across environments"
+    },
+    {
+      "extract": "Literals: Letters and numbers refer to themselves. Escaping: A ton of characters in regular expressions have special meanings; to override that meaning for a particular character, put a backslash before it. Character classes: You can specify a class of characters by surrounding them in square brackets. Groups: You can surround a part of a regular expression in parentheses to treat it as a unit. Quantifiers: Several symbols exist to let you specify how many times in a row to match a given character, class or group. Anchors: A caret matches the beginning of a line of text. A dollar sign similarly matches the end of a line.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "syntax reference",
+        "text processing"
+      ],
+      "notes": "Core regex building blocks: literals, escaping, classes, groups, quantifiers, anchors"
+    },
+    {
+      "extract": "Scraping is... catching, collecting or coaxing data off the web. Web scrapers are often called CRAWLERS if they pull data from multiple webpages, EXTRACTORS if they pull data from a single webpage.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "crawlers",
+        "extractors",
+        "data acquisition"
+      ],
+      "notes": "Terminology distinction between crawlers (multi-page) and extractors (single-page)"
+    },
+    {
+      "extract": "You can use this Google Sheets formula to scrape a table or a list: =ImportHTML(\"url\", \"element\", number of element). The 'url' is the link you are scraping. The 'element' is the HTML tag. The number is the order the element is in.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Sheets",
+        "ImportHTML",
+        "web scraping",
+        "no-code",
+        "HTML tables"
+      ],
+      "notes": "No-code scraping with Google Sheets ImportHTML function"
+    },
+    {
+      "extract": "With XML, you can find the 'XPath'. An XPath is like an address, or a map, to a very specific spot in the webpage's code. You can scrape everything at a particular XPath using this Google Sheets formula: =importxml(\"url\",\"XPath\"). XPaths open up a whole new world: all bold text: //b. All large text (known as headers): //h1. All headers with the word 'Parish': //h1[contains(.,'parish')].",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "XPath",
+        "Google Sheets",
+        "ImportXML",
+        "web scraping",
+        "no-code",
+        "structured extraction"
+      ],
+      "notes": "XPath for targeted element extraction via Google Sheets ImportXML"
+    },
+    {
+      "extract": "Google Sheets has a third import function you can use for scraping: =importFeed(\"source\",\"items\"). It scrapes data from an RSS feed, which is useful if you want to scrape something at regular intervals.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "RSS feeds",
+        "Google Sheets",
+        "ImportFeed",
+        "monitoring",
+        "periodic scraping"
+      ],
+      "notes": "RSS feeds for regular-interval data collection via Google Sheets"
+    },
+    {
+      "extract": "Some other good tools: DownThemAll (Firefox add-on) highlights a whole list of links or images/media and downloads them. Zapier and IFTTT (websites) -- these automation tools can help keep track of new data, such as new Instagram posts or tweets. Try: save RSS feed content to a Google Sheet or get emailed tweets from a certain area. Web Scraper (Chrome extension) has you build a sitemap for a site to be crawled.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "scraping tools",
+        "browser extensions",
+        "IFTTT",
+        "Zapier",
+        "automation",
+        "monitoring"
+      ],
+      "notes": "Ecosystem of no-code/low-code scraping and monitoring tools"
+    },
+    {
+      "extract": "VisiData is an easy-to-use multipurpose tool to explore, clean, edit, and restructure data. Rows can be selected, filtered, and grouped; columns can be rearranged, transformed, and derived via regex or Python expressions; and workflows can be saved, documented, and replayed.",
+      "chapter": "VisiData Tutorial: Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "terminal tools",
+        "data exploration",
+        "data cleaning",
+        "reproducibility"
+      ],
+      "notes": "VisiData as terminal-based Swiss army knife for data exploration and cleaning"
+    },
+    {
+      "extract": "To persist your customizations from session to session, you can specify them in your computer's ~/.visidatarc file. The ~/.visidatarc file expects its commands to be written in Python. If you know Python and are willing to acquaint yourself with VisiData's architecture, you can use your ~/.visidatarc file to customize VisiData in ways far more powerful than simple option-setting -- including creating your own commands.",
+      "chapter": "VisiData Tutorial: Configuration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "configuration",
+        "customization",
+        "Python",
+        "reproducible workflow"
+      ],
+      "notes": "Persistent configuration via .visidatarc for repeatable data analysis workflows"
+    },
+    {
+      "extract": "From anywhere within VisiData, you can press D to view the command log relevant to your current sheet. Navigational commands do not appear in the command log. The reason: Navigating around a sheet doesn't alter its contents. The command log behaves virtually the same as any other sheet in VisiData. That means you can sort, filter, and otherwise edit its rows, columns, and cells. That also means you can save just like you'd save any other sheet.",
+      "chapter": "VisiData Tutorial: Command Log",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "command log",
+        "reproducibility",
+        "audit trail",
+        "data provenance"
+      ],
+      "notes": "VisiData command log enables reproducible data analysis workflows"
+    },
+    {
+      "extract": "To fully replay the example-cmdlog.vd log we saved, run the following command: vd --play example-cmdlog.vd. We don't point VisiData to the dataset itself, since that information (the path to the dataset) is now specified within the command log. You can also run: vd --play example-cmdlog.vd --batch --output cmdlog-results.csv, which will replay the command log in 'batch' mode and save the final sheet to a CSV.",
+      "chapter": "VisiData Tutorial: Replay and Batch Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "replay",
+        "batch processing",
+        "reproducibility",
+        "automation",
+        "command log"
+      ],
+      "notes": "Command log replay enables fully automated batch data processing pipelines"
+    },
+    {
+      "extract": "VisiData can open a range of filetypes, including: CSV files, and any other delimiter-separated formats. Excel spreadsheets. Fixed-width files. SQLite databases. Postgres databases. JSON / JSONL. XML. Shapefiles. HTML (looks for table tags). Website URLs.",
+      "chapter": "VisiData Tutorial: File Format Support",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "VisiData",
+        "file formats",
+        "data import",
+        "interoperability",
+        "CSV",
+        "JSON",
+        "databases"
+      ],
+      "notes": "VisiData handles wide range of formats including databases, geospatial, and web URLs"
+    },
+    {
+      "extract": "For machine learning, we need access to a computer that's got a lot of memory and can do a lot of math relatively quickly. For the math part, we'll want a computer with a graphics processing unit (GPU). The computer we use can be in the 'cloud'. We've tailored these notebooks for use with Google Colaboratory, which as of this writing is cheapest way to get going (it's currently free). You essentially 'borrow' a virtual computer in the Google universe to do your calculations.",
+      "chapter": "Quartz AI Studio: Cloud Computing Setup",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "cloud computing",
+        "GPU",
+        "Google Colab",
+        "machine learning infrastructure",
+        "accessibility"
+      ],
+      "notes": "Google Colab as free entry point for GPU-based ML in journalism"
+    },
+    {
+      "extract": "Given a folder full of images, we want a list of descriptions of each image. One way to solve this problem would be to teach, or train a model. For good results, we'd need to use millions of images. It's doable... but there's another option. That is, use a pre-trained model -- one already trained by some other, kind people, who built it using millions of images and then shared it on the internet for others to use. Note that ResNet does not contain 1.2 million images\\! It contains the complex mathematical formula -- the neural network and all of its structure and values -- that were fine-tuned by processing those images.",
+      "chapter": "Quartz AI Studio: Pre-trained Models",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pre-trained models",
+        "ResNet",
+        "ImageNet",
+        "neural networks",
+        "model reuse"
+      ],
+      "notes": "Key distinction: models contain learned parameters, not training data"
+    },
+    {
+      "extract": "Instead of downloading and using a pretrained model, we can send each image to an online service to detect the contents. There are several available, and in this case we'll use Google's Vision AI service. These services generally allow you to try some images for free, and then you must pay for any over that limit. As of this writing, Google Vision allows you to do 1,000 checks in a month for free.",
+      "chapter": "Quartz AI Studio: Cloud Vision APIs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Vision",
+        "cloud APIs",
+        "image classification",
+        "pricing",
+        "API services"
+      ],
+      "notes": "Cloud vision APIs as alternative to local models with free tiers for small-scale use"
+    },
+    {
+      "extract": "To process data in real time -- say, as tweets are tweeted or whenever a helicopter is flying -- you can also host your code on a service like Render. The guide for production deployment to Render is at course.fast.ai/deployment_render.html.",
+      "chapter": "Quartz AI Studio: Production Deployment",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "deployment",
+        "production",
+        "real-time",
+        "Render",
+        "cloud hosting",
+        "ML inference"
+      ],
+      "notes": "Moving from notebook prototype to production deployment for real-time classification"
+    },
+    {
+      "extract": "We want to make a model that will work for our specific, unique problem: detecting whether helicopter flight maps show a copter was 'circling' or 'not circling.' We'll use a pre-trained model -- one already trained by some other, kind people. We'll use the 'smarts' of that model, which has learned to detect patterns in images generally, to solve our particular problem. We do that by additionally training the original model on our own data set -- the helicopter flight maps.",
+      "chapter": "Quartz AI Studio: Custom Image Classifier for Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transfer learning",
+        "custom classifiers",
+        "helicopter surveillance",
+        "image classification"
+      ],
+      "notes": "Adapting general-purpose CV to specific journalistic investigation need"
+    },
+    {
+      "extract": "We'll be using a very cool, all-purpose video tool called 'ffmpeg.' The next, admittedly cryptic command, pulls out a .jpg image from the video every second (the fps or frames per second is set to 1). It also names the images using the format 'myframe0000.jpg' ... with the four zeros increasing with every frame.",
+      "chapter": "Quartz AI Studio: Video Frame Extraction",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "ffmpeg",
+        "video processing",
+        "frame extraction",
+        "data preparation",
+        "multimedia"
+      ],
+      "notes": "ffmpeg for converting video to frames as preprocessing for image classification"
+    },
+    {
+      "extract": "Making predictions -- that is, guessing the class or contents of an image -- is something for which you don't need a powerful computer. You don't need a GPU, or graphics processing unit. A regular computer's CPU (central processing unit) will do just fine.",
+      "chapter": "Quartz AI Studio: CPU vs GPU for Inference",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "GPU",
+        "CPU",
+        "inference",
+        "training",
+        "hardware requirements",
+        "accessibility"
+      ],
+      "notes": "Training requires GPU; inference can run on laptop CPU -- key accessibility point"
+    },
+    {
+      "extract": "Our election-result sentences are the brainchild of Aliza Aufrichtig. It is an algorithm that fills in variations in sentences based on notable possible events within voting patterns. You could consider it a madlib, but it takes a lot more programmatic and editorial awareness to get it right in so many cases.",
+      "chapter": "2020-newsroom-automation: NYT Election Sentences",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "template writing",
+        "NLG",
+        "election coverage",
+        "editorial judgment",
+        "New York Times"
+      ],
+      "notes": "Template-based automation requires both programming and editorial sophistication"
+    },
+    {
+      "extract": "How do journalists get data? ...from humans? Ask nicely. FOIA. Hard way. ...from computers? Download. Easy way. Scrape. Hard way.",
+      "chapter": "2020-scraping-without-programming",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "FOIA",
+        "web scraping",
+        "data sourcing"
+      ],
+      "notes": "Simple taxonomy of data acquisition methods for journalists"
+    },
+    {
+      "extract": "Different programming languages, text editors and other tools handle regular expressions in their own ways. Some of the things that differ most often are: Character classes -- the shorthand for various character classes can vary between environments. Escaping -- some environments have different rules about when certain characters do and don't need to be escaped. Group references -- you might need to refer to groups by using dollar signs rather than backslashes. Flags -- some environments support the use of 'flags', which modify the rules.",
+      "chapter": "2020-regex-for-rest-of-us",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "cross-platform differences",
+        "syntax variation",
+        "portability"
+      ],
+      "notes": "Regex syntax varies across environments -- check character classes, escaping, groups, flags"
+    }
+  ]
+}

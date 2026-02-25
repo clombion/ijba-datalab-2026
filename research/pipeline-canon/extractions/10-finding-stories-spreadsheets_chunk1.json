@@ -1,0 +1,648 @@
+{
+  "source_id": "10",
+  "source_file": "10-finding-stories-spreadsheets.md",
+  "source_title": "Finding Stories in Spreadsheets",
+  "author": "Paul Bradshaw",
+  "year": "2015",
+  "chunk": "1/3",
+  "chunk_file": "10-finding-stories-spreadsheets_chunk1.md",
+  "chunk_words": 32508,
+  "extracts": [
+    {
+      "extract": "I've yet to meet a spreadsheet that didn't have a story to tell. The key to all these stories, as with all sources, is knowing what questions to ask.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "question-driven analysis",
+        "data as source"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Please don't approach the book as something to be 'memorised' from beginning to end - it is better to remember what's possible in general with spreadsheets, and play with the techniques that are useful to you.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "learning strategy",
+        "tool fluency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most common stories is about change. Change is, almost by definition, newsworthy, and an integral part of storytelling. To calculate how much something has changed: what something is now MINUS what something was before.",
+      "chapter": "Stories about change, stories in context: basic calculations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "change calculation",
+        "newsworthiness",
+        "subtraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Calculating a proportion is a simple division: dividing a part by the whole. To calculate what proportion a change represents, divide the amount of change by the original figure it has changed from.",
+      "chapter": "Stories about change, stories in context: basic calculations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "proportion",
+        "percentage change",
+        "division"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Try to express proportions as a ratio such as 'almost one in ten' or 'over a quarter' - often this is easier for the reader to take in and understand than a dry, precise percentage - unless the precision is important.",
+      "chapter": "Ratios: calculating a proportion as '1 in 10'",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "ratios",
+        "audience comprehension",
+        "presentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When it comes to increases you need to be very careful about your language. You might talk about something being 66% higher, but you can also talk about figures being 166% what they were. Beware also of confusing percent with percentage points.",
+      "chapter": "Combining both: calculating what proportion a change is",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision of language",
+        "percentage points",
+        "numeracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We need to be careful that we talk about arrests rather than drunkenness, because the two are not the same. Arrests may be down because fewer people are getting drunk, but they could also be down because police resources are deployed elsewhere, or because there are fewer officers due to cuts, or changes in policy, law or strategy.",
+      "chapter": "The last chapter's story: are there more drunk and disorderly arrests?",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "proxy measures",
+        "causation",
+        "data limitations",
+        "precision of language"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be prepared to move your data 'angle' down the story as it becomes less about the data and more about the conversations you have as a result of the data. In a story about a new initiative to tackle drunkenness, the data becomes background, not the lead.",
+      "chapter": "The last chapter's story: are there more drunk and disorderly arrests?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story structure",
+        "data as background",
+        "reporting workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you only had arrest numbers for the last two months, it might be influenced by seasonal factors. We want to compare like with like, and November and December don't allow us to do that. Comparing one December with another, however, does.",
+      "chapter": "The last chapter's story: are there more drunk and disorderly arrests?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "seasonality",
+        "like-for-like comparison",
+        "temporal context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can start to search for useful functions whenever you come across a task or problem which you think others may have already solved, adding the word 'function'. For example, 'Excel function extract day from date' or 'Google spreadsheets function count blank cells'.",
+      "chapter": "How much did it cost? How many people were affected? The first function: adding a series of cells with SUM",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "self-directed learning",
+        "function discovery",
+        "search strategy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Typing functions is often quicker than using buttons. The placement and availability of buttons varies widely between spreadsheet software and versions, so knowing functions means you can use the same techniques whatever version you end up on.",
+      "chapter": "Why functions and not buttons",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "functions vs GUI",
+        "transferable skills",
+        "spreadsheet software"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you are going to specify a column or row range such as A:A, check: the heading is not numerical (years or dates will be included in the sum); there is no grand total at the bottom (giving you a total twice as large); there are no further tables beneath.",
+      "chapter": "How much did it cost? How many people were affected? The first function: adding a series of cells with SUM",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data validation",
+        "SUM pitfalls",
+        "column ranges"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using Freedom of Information to find out the costs of things is a well-worn approach. Financial totals can make attention-grabbing headlines.",
+      "chapter": "How much did it cost? How many people were affected? The first function: adding a series of cells with SUM",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "financial data",
+        "story angles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use the Sort buttons to bring the biggest and smallest values to the top. Use the Sort option in the Data menu to sort on more than one column at the same time. The MAX function gives the biggest number and MIN the smallest in a specified range.",
+      "chapter": "Who's top, who's bottom? MAX, MIN, and sorting",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sorting",
+        "MAX",
+        "MIN",
+        "ranking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can calculate what proportion the biggest fundraiser was responsible for by dividing the result of MAX by the result of SUM. So we might report that just one fundraiser was responsible for raising 43% of money, or 'over two fifths', or that four in every ten pounds were donated to one particular fundraiser.",
+      "chapter": "Who's top, who's bottom? MAX, MIN, and sorting",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "proportion of total",
+        "MAX/SUM",
+        "contextualizing extremes"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's worth knowing how to explore your spreadsheet quickly whenever you first open it, in order to check for common problems and make sure your data is fit for your purposes. Pitfalls to watch out for: empty rows in the middle, empty columns, grand totals at the end, rows before your header row, data which looks like one thing but Excel thinks is another, merged cells.",
+      "chapter": "Detour: getting to know the spreadsheet - useful shortcuts and tips to avoid mistakes",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "initial inspection",
+        "common pitfalls"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use the CTRL+cursor key keyboard shortcuts to explore the edges of your data at the start of any project. Hold down CTRL and the down arrow key to take you to the cell before the first empty cell. This helps you check for empty rows, grand totals, and multiple tables.",
+      "chapter": "Detour: getting to know the spreadsheet - useful shortcuts and tips to avoid mistakes",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "keyboard shortcuts",
+        "data exploration",
+        "Excel"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before you make any changes to a spreadsheet, make a copy of it. You can then always go back to it if you make a mistake, or check back against this copy. Select File > Save As to save the working version under a different name. You may want to make more than one copy at different stages.",
+      "chapter": "Detour: getting to know the spreadsheet - useful shortcuts and tips to avoid mistakes",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "version control",
+        "data preservation",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Some official data will come with several rows of descriptions before the actual headings. To fix this, delete rows before the headings so the first row contains your headings. Right-click on the row number and select Delete.",
+      "chapter": "Detour: getting to know the spreadsheet - useful shortcuts and tips to avoid mistakes",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "header rows",
+        "data cleaning",
+        "official data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Merged cells are a particularly awkward problem. The difficult part is making sure that unmerging does not put values in the wrong place or result in values missing. In cases like this it is best to explore specific data cleaning processes and tools like Open Refine.",
+      "chapter": "Detour: getting to know the spreadsheet - useful shortcuts and tips to avoid mistakes",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "merged cells",
+        "OpenRefine",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There's a quick way to see what type of data Excel thinks it is dealing with: if it thinks you have text, it will align it to the left. If it thinks it is a number it will put it to the right. If your spreadsheet gets the data type wrong, numbers treated as text cannot be calculated with, and text treated as numbers might strip out leading zeros.",
+      "chapter": "Hitting the deadline: understanding and formatting the data - number or text",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data types",
+        "text vs number",
+        "alignment",
+        "type detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you have numbers that Excel thinks is text, try to remove the things causing this. Currency signs can be problematic - use Find and Replace to remove them. Extra spaces can also be problematic. Copy the problematic character and paste it into the Find box so you know you're replacing exactly what you've found.",
+      "chapter": "Hitting the deadline: understanding and formatting the data - number or text",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "find and replace",
+        "type conversion",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If an individual hospital, school or police force is performing consistently well below average, we may want to investigate further. Causes may or may not be under the institution's control: local deprivation, understaffing or even poor data collection may all be factors.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "averages as leads",
+        "investigation triggers",
+        "confounding factors"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the roles that journalism plays is to ensure we have an accurate self-image - as a nation, as a region, a community, or an industry. We assume most people are 'like us', except when it flatters our egos. A 'journalism of averages' is an essential corrective to those assumptions.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalism of averages",
+        "public interest",
+        "self-image correction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There isn't just one function to calculate an average: there are three. AVERAGE calculates a mean; MEDIAN calculates the middle value; MODE calculates the most common value. People often assume average means half the values are higher and half lower, but that's not always the case with a mean.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mean",
+        "median",
+        "mode",
+        "statistical literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "MODE is the best sort of average to use when looking at ratings such as 1 to 5 scales, because ratings are actually categories not numbers: a rating of 2 is not twice as good as a rating of 1. If dealing with ratings it is much better to show the proportion of people who gave each rating.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "MODE",
+        "ordinal data",
+        "ratings",
+        "categorical data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When dealing with data about money we have to remember that while there may be unusually large values, it is unlikely that there are correspondingly small values to counterbalance them. A mean average can be skewed by very large values. For that reason it is often better to use a median.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "skewed distributions",
+        "median vs mean",
+        "financial data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You're probably safest working out both the mean and median for your numbers and seeing how different they are. If the difference is significant, that may be the start of a story itself. An organisation where the median wage is significantly lower than the mean may be one where the bosses take home large wages.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "mean-median gap",
+        "inequality detection",
+        "story discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can use this knowledge to avoid being misled. An organisation may use an artificially inflated average to gloss over low pay: knowing the difference means you can ask 'Is that a mean or a median?' Further enquiries may lead to a story fact-checking and debunking the boast.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical numeracy",
+        "misleading statistics",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Counting is different to adding up. If we were looking at a football club's wage bill, we might add up all the wages but count how many employees there were. A count allows us to put totals into perspective.",
+      "chapter": "How many payments? How many people? Counting, not adding up: COUNT",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "counting vs summing",
+        "contextualization",
+        "COUNT"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When writing about what you've counted, make sure you are accurate in how you describe it. FiveThirtyEight's story about kidnappings in Nigeria was based on counting media reports of kidnappings, but mistakenly described them as simply kidnappings. The two are not the same.",
+      "chapter": "How many payments? How many people? Counting, not adding up: COUNT",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "precision of language",
+        "proxy measures",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes the story is what's missing. COUNTBLANK can reveal where information is absent. If 10% of expense claim cells are blank, one in ten claims the politician didn't declare what they were claiming for. In any dataset where you expect full disclosure, COUNTBLANK gives a quick overview.",
+      "chapter": "The story is what's missing: COUNTBLANK",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "missing data",
+        "COUNTBLANK",
+        "transparency",
+        "story discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "COUNTIF allows us to count how many cells in a range meet a specific criteria. You can add 'greater than' or 'less than' symbols before the value. Once we know how many cells are above average, we can divide by the COUNT to find what percentage that represents.",
+      "chapter": "Only count if... setting criteria for a formula: COUNTIF",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "COUNTIF",
+        "conditional counting",
+        "criteria-based analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using text strings with COUNTIF only works properly if your data is very consistently entered - and text entries often aren't. The BBC was described as 'BBC', 'B.B.C.', and 'British Broadcasting Corporation'. A simple COUNTIF would only pick up one of those three. The only situations where text is entered consistently are where the person is selecting from a drop-down list.",
+      "chapter": "Only count if... setting criteria for a formula: COUNTIF",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data consistency",
+        "text matching",
+        "COUNTIF limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can broaden COUNTIF criteria using wildcards. The asterisk means 'none or any characters'. Place asterisks both before and after specific characters to find them anywhere in a cell. You can also use spaces intelligently to exclude wider matches than you want.",
+      "chapter": "Only count if... setting criteria for a formula: COUNTIF",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "wildcards",
+        "pattern matching",
+        "COUNTIF"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using wildcards can be a process of trial and error. One useful technique is to create a series of COUNTIF formulae which each count a single cell, giving 1 or 0 for each row. By sorting to bring positive results to the top, you can quickly identify matches and see if any don't match what you're looking for.",
+      "chapter": "Trial and error: the single-cell test",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "validation technique",
+        "single-cell test",
+        "COUNTIF verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As part of one investigation into Olympic torchbearers I used COUNTIF to find corporate sponsors mentioned in 6,000 nomination stories. The formula COUNTIF(A1,'*adidas*') told me if each cell contained 'adidas'. Copying down the column and sorting brought 21 matches to the top - a quick way to find leads in a large dataset.",
+      "chapter": "Only count if... setting criteria for a formula: COUNTIF",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "COUNTIF",
+        "investigation technique",
+        "pattern detection",
+        "case study"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Combining data is often a great way of telling new stories about spreadsheets. You may have one table showing pass rates for each school and another showing addresses. Combining these would allow you to identify geographical patterns. You could combine addresses with poverty rates or unemployment to see if there's a possible relationship - remembering that correlation does not equal causation.",
+      "chapter": "Putting the story into context: merging data using VLOOKUP",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data merging",
+        "correlation vs causation",
+        "contextualization",
+        "VLOOKUP"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To merge information from two tables with VLOOKUP: each table must have a column in common with the same data; that column must be to the left of anything you want to grab; always specify FALSE for the match type to require exact matches.",
+      "chapter": "Putting the story into context: merging data using VLOOKUP",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "VLOOKUP",
+        "data merging",
+        "join requirements"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you get N/A errors in VLOOKUP, the name may appear but be typed slightly differently - 'Devon and Cornwall' vs 'Devon & Cornwall'. Names are often inconsistently used and entered. But codes tend to be much more consistent. If you have the option, use codes to match separate sets of data.",
+      "chapter": "Putting the story into context: merging data using VLOOKUP",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data matching",
+        "identifier codes",
+        "name inconsistency",
+        "VLOOKUP errors"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even a few N/A results is good news: it means you've got a much smaller manual workload than if you matched them yourself. Sort your data to bring N/A results to the top and check each one manually using Find (CTRL+F).",
+      "chapter": "Putting the story into context: merging data using VLOOKUP",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "error handling",
+        "manual verification",
+        "VLOOKUP workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The VLOOKUP formula is always working, so if values change the results will change. If you want to keep results as they were, copy them and then paste using Edit > Paste special > Values only. This converts the live formula into static results.",
+      "chapter": "Putting the story into context: merging data using VLOOKUP",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "paste values",
+        "static results",
+        "VLOOKUP",
+        "data preservation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "TRIM removes extra spaces before and after data. CLEAN removes non-printing characters like carriage returns. SUBSTITUTE replaces particular characters or strings - useful when one dataset uses '&' and another uses 'and'. You can combine them: =CLEAN(TRIM(A2)).",
+      "chapter": "My data is dirty! Basic cleaning using TRIM, CLEAN and SUBSTITUTE",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "TRIM",
+        "CLEAN",
+        "SUBSTITUTE",
+        "text cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One investigation involved hundreds of company names. Rather than type each name manually into a company search website, we used SUBSTITUTE to generate a URL for each company by replacing spaces with %20 or +. Combined with TRIM: =SUBSTITUTE(TRIM(A2),\" \",\"+\"). A repetitive process like this is a prime candidate for some computer assistance.",
+      "chapter": "My data is dirty! Basic cleaning using TRIM, CLEAN and SUBSTITUTE",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "URL generation",
+        "SUBSTITUTE",
+        "automation",
+        "investigation technique"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Two years' data isn't a lot to draw conclusions - a 16% drop could be significant, or typical: we don't know. More historical data would help provide more context. You might also look for national rates to see if this data bucks the trend, or data on neighbouring areas, or add population data to draw conclusions on arrests per person.",
+      "chapter": "The last chapter's story: drunk and disorderly arrest totals",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "contextual data",
+        "trend analysis",
+        "per capita rates",
+        "benchmarking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can make the total more meaningful and concrete by converting into a daily or weekly rate, e.g. '46 people a week arrested for being drunk and disorderly' rather than '2400 arrested last year'.",
+      "chapter": "The last chapter's story: drunk and disorderly arrest totals",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "rate conversion",
+        "concreteness",
+        "audience comprehension"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When nesting functions, it can be helpful to first write each part in its own cell, then write a formula using those cell references. To create a single nested formula, replace the cell references with the formulae within each. Sometimes it makes more sense not to nest: if you want to see each stage separately for checking or to look for unusual results.",
+      "chapter": "Using more than one function at a time: nested functions",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "nested functions",
+        "formula transparency",
+        "debugging",
+        "auditability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A headline that screams 'Half of hospitals below average' is statistically illiterate, or at least pretending to be. By their very nature, some things will always be above average or lower than average - that's not news. But being consistently so may be an interesting lead to follow - if you pick up the phone and ask questions.",
+      "chapter": "Best sellers and averages: MEDIAN, AVERAGE and MODE",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical literacy",
+        "misleading headlines",
+        "averages"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "source_id": "80",
+  "source_file": "80-jornalismo-dados-conceitos-categorias.md",
+  "source_title": "Jornalismo de Dados: Conceitos e Categorias",
+  "author": "academic",
+  "year": "n.d.",
+  "chunk": null,
+  "chunk_words": 7541,
+  "extracts": [
+    {
+      "extract": "when information was scarce, most of our efforts were directed toward hunting and gathering data. Now that information is abundant, processing it has become more important.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "information abundance",
+        "paradigm shift",
+        "processing over gathering"
+      ],
+      "notes": "Quoting Flew et al. 2012; frames the shift from data scarcity to data abundance as requiring new analytical competencies"
+    },
+    {
+      "extract": "the traditional 'journalistic nose' and the ability to tell an engaging story are combined with the scale and the absolute reach of digital information now available",
+      "chapter": "Data Journalism: some principles",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "editorial judgment",
+        "digital scale",
+        "hybrid competencies"
+      ],
+      "notes": "Bradshaw 2014 definition; DJ as combination of traditional journalism instinct with digital data scale"
+    },
+    {
+      "extract": "the tools that allow the journalist today to automate processes, make complex associations between thousands of documents or even produce engaging infographics",
+      "chapter": "Data Journalism: some principles",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "cross-referencing",
+        "visualization",
+        "tools"
+      ],
+      "notes": "Bradshaw via authors; three capabilities technology enables: automation, association, visualization"
+    },
+    {
+      "extract": "the techniques would consist of production, treatment and cross-referencing of large quantities of data, allowing greater efficiency in the retrieval of information, in the reporting from data sets, in circulation across different platforms and in the generation of visualizations and infographics",
+      "chapter": "Data Journalism: some principles",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data treatment",
+        "cross-referencing",
+        "visualization",
+        "multi-platform"
+      ],
+      "notes": "Citing Träsel 2013; enumerates the core DJ technique chain: produce, treat, cross-reference, visualize"
+    },
+    {
+      "extract": "it is no use possessing statistical analysis software if there is no professional who knows that tool, knows how it works and how it can serve the purpose of journalism of producing relevant information and knowledge.",
+      "chapter": "The dimension of new competencies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "competency",
+        "tools vs skills",
+        "analytical literacy",
+        "human judgment"
+      ],
+      "notes": "Core argument: tools are necessary but insufficient; competency to use them for journalistic purpose is what matters"
+    },
+    {
+      "extract": "technology, the Freedom of Information Law or the investigative attitude are means that facilitate and promote the practice of DJ, and not what defines it.",
+      "chapter": "The dimension of new competencies",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "enabling conditions",
+        "FOI",
+        "technology determinism"
+      ],
+      "notes": "Authors reject technological determinism; technology and legal frameworks enable but do not constitute DJ"
+    },
+    {
+      "extract": "These new procedures helped journalists to improve their own knowledge about social and political reality, reducing dependence on sources external to the process of production and analysis of information.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "source independence",
+        "CAR",
+        "self-generated knowledge",
+        "precision journalism"
+      ],
+      "notes": "On CAR/Meyer tradition; DJ reduces reliance on institutional sources by enabling journalists to produce their own analyses"
+    },
+    {
+      "extract": "the problem is no longer finding information, but knowing which should be sought, analyzed and used to support the journalistic story",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "information abundance",
+        "editorial judgment",
+        "story-driven inquiry"
+      ],
+      "notes": "Flew et al. 2012; the challenge shifts from access to selection and prioritization of data"
+    },
+    {
+      "extract": "DJ begins with quantification and, evidently, questions about this quantification with the aim of clarifying what is counted and how it is counted. Data is created, it is a record, a document, an artifact that presents a meaning.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "quantification",
+        "data construction",
+        "critical questioning",
+        "methodology transparency"
+      ],
+      "notes": "Stray 2014 model; data is not natural but constructed — journalists must interrogate the counting methodology"
+    },
+    {
+      "extract": "Data is not something that exists in nature. The unemployed are a very different thing from unemployment data.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data construction",
+        "critical data literacy",
+        "representation vs reality"
+      ],
+      "notes": "Stray 2014; foundational epistemological claim that data represents but does not equal the phenomenon"
+    },
+    {
+      "extract": "if quantification transforms the world into data, analysis transforms data into knowledge. This is the stage at which journalism most resembles science, with a strong inclination toward mathematics, statistics and logic.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "analysis",
+        "quantification to knowledge",
+        "statistics",
+        "scientific method"
+      ],
+      "notes": "Stray 2014 model stage 2; analysis as the knowledge-producing step, bridging raw data and understanding"
+    },
+    {
+      "extract": "The journalist does not publish their story in a vacuum, but for human minds and for human society. The unemployment story included an unemployment chart because it is the best way to communicate changes in the unemployment rate, compared with a table of numbers.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "communication",
+        "visualization choice",
+        "audience",
+        "chart vs table"
+      ],
+      "notes": "Stray 2014 model stage 3; communication must be optimized for human comprehension, not just data completeness"
+    },
+    {
+      "extract": "the first stage of DJ is data collection or an evidence that, in traditional journalism, would come down to a combination of interviews and documents or personal observation. In the case of the Data Journalist, there is also the collection of information, but as a combination of research, experiments or data extraction from the internet.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "scraping",
+        "research",
+        "extraction"
+      ],
+      "notes": "Silver 2014 phase 1; DJ collection differs from traditional journalism by including scraping and experiments"
+    },
+    {
+      "extract": "Data journalists organize information with the statistical description of data, that is, through the relationships between them or through the construction of visualizations.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data organization",
+        "statistical description",
+        "relationships",
+        "structuring"
+      ],
+      "notes": "Silver 2014 phase 2; organization in DJ means statistical structuring, not just chronological ordering"
+    },
+    {
+      "extract": "the data journalist presents their explanation using statistical techniques to demonstrate or to verify relationships between the data.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "statistical explanation",
+        "verification",
+        "hypothesis testing",
+        "relationships"
+      ],
+      "notes": "Silver 2014 phase 3; explanation in DJ relies on statistical demonstration rather than narrative assertion"
+    },
+    {
+      "extract": "This stage would consist of using data and analyses of past events to infer how those events will behave in the future. This technique involves the use of scientific tools as a way of hypothesis verification or presentation of predictions, quite different from the inference model practiced by traditional journalism, which starts from non-statistical, but intuitive knowledge.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prediction",
+        "generalization",
+        "hypothesis testing",
+        "scientific method",
+        "inference"
+      ],
+      "notes": "Silver 2014 phase 4 (generalization); DJ enables evidence-based prediction vs traditional intuitive inference"
+    },
+    {
+      "extract": "We consider search as part of the process that involves both extraction (scraping), with the download of original databases, and the simple compilation of already aggregated data, but that was used according to a structuring established by the team and not those produced by the original source. By structuring, therefore, we understand the process by which the team creates temporal, numerical or categorical variables to make anything from a simple cross-reference (example: time series of unemployment rates versus industry investment rates), to estimates about future events",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "database compilation",
+        "variable creation",
+        "structuring",
+        "cross-referencing"
+      ],
+      "notes": "Authors' operational definition of search and structuring; includes scraping, re-aggregation, and variable construction"
+    },
+    {
+      "extract": "the understanding of what DJ is changes more as a function of the way we define data (numbers, bits, etc.) and the manner in which we work with them (techniques) than because of the application or not of a technology.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "technique over technology",
+        "data ontology"
+      ],
+      "notes": "Anderson 2014 via authors; DJ defined by technique and data conceptualization, not by tool adoption"
+    },
+    {
+      "extract": "it seems more interesting initially to know whether the graphic communication suggests or induces analyses and understandings about the content or phenomenon that the journalist presents in their report.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization quality",
+        "analytical visualization",
+        "communication effectiveness"
+      ],
+      "notes": "Authors argue visualization should be judged by analytical value, not aesthetic sophistication"
+    },
+    {
+      "extract": "incorporating into the analysis of what DJ is, infographics that are less creative from an aesthetic point of view or that do not require a great deal of production time and programming, but that maintain their analytical character.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "low-cost visualization",
+        "analytical charts",
+        "resource constraints",
+        "accessibility"
+      ],
+      "notes": "Argues simple charts with analytical substance count as DJ; pushes back against elite visualization bias"
+    },
+    {
+      "extract": "There is a difference between reports WITH and reports OF data. While the first would contemplate reports that appropriate data illustratively, in the second case, data would be the very reason of the report.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "classification",
+        "data-driven vs data-decorated",
+        "editorial intent"
+      ],
+      "notes": "Central distinction: data as illustration (journalism WITH data) vs data as story foundation (journalism OF data)"
+    },
+    {
+      "extract": "Seeks to identify whether the report includes data for which the team of journalists was responsible for extracting and structuring the raw material from some source and/or was responsible for the production and organization of the data itself.",
+      "chapter": "Investigative Dimension",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "extraction",
+        "structuring",
+        "original data",
+        "investigative competency"
+      ],
+      "notes": "Investigative dimension definition: did the team extract and/or structure data independently from any source?"
+    },
+    {
+      "extract": "the aim is to identify whether there is an analytical journalistic text, that is, one that seeks not only to present the content of the report and its context, but mainly whether it brings an analysis about the relationships between the data in a way that indicates causes and/or consequences of the subject of the publication.",
+      "chapter": "Interpretive Dimension",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interpretation",
+        "causal analysis",
+        "relationships",
+        "analytical text"
+      ],
+      "notes": "Interpretive dimension definition: does the text analyze data relationships to surface causes and consequences?"
+    },
+    {
+      "extract": "the use of data visualization as a component of the narrative of the report is analyzed, in the sense that it often helps to tell or clarify the point of the report itself.",
+      "chapter": "Communicative Dimension",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization as narrative",
+        "chart placement",
+        "editorial integration"
+      ],
+      "notes": "Communicative dimension: visualization must serve the narrative, not just decorate; placement and informational content matter"
+    },
+    {
+      "extract": "At Level 1, the team searches for and/or produces a primary database (from microdata) or secondary (from aggregated data). From the database, an analysis is carried out, resulting in a text and a presentation of charts or infographics (interactive or not). In attempting to understand and interpret the data (phenomena), the team uses statistical comparisons, pointing out causes, consequences or implications. That is, at this level, we have the competencies of (1) data extraction, (2) structuring, (3) analysis and (4) visualization.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "full pipeline",
+        "extraction",
+        "structuring",
+        "analysis",
+        "visualization",
+        "Level 1"
+      ],
+      "notes": "Level 1 (highest DJ): full pipeline with all four competencies — extraction, structuring, analysis, visualization"
+    },
+    {
+      "extract": "at level 2, the team searches for a database from some institution, or produces one of its own, and structures it. Unlike level 1, here the report only presents a visualization of the data. There is no textual analysis of causes and consequences of the phenomenon presented, leaving the reader the task of cross-referencing information and interpreting the data. In summary, at this level, we have (1) extraction, (2) structuring and (3) visualization.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "extraction",
+        "structuring",
+        "visualization",
+        "no analysis",
+        "reader interpretation",
+        "Level 2"
+      ],
+      "notes": "Level 2: extraction + structuring + visualization but missing analytical text; reader must interpret"
+    },
+    {
+      "extract": "At level 3, reports are found that are based on data or studies produced and presented by an institution. The main difference is that the team is not responsible for extracting the database, doing only the mediation work between the institution that produced the study and the reading public. At this level, data is presented through charts or infographics. There is also an analysis carried out directly, that is, by the author of the text themselves, or through specialists who are interviewed.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "institutional data",
+        "mediation",
+        "specialist interviews",
+        "visualization",
+        "Level 3"
+      ],
+      "notes": "Level 3: no original extraction; journalist mediates institutional data with analysis and visualization"
+    },
+    {
+      "extract": "at level 4, publications are classified that are based on data or studies produced and provided by institutions without there being, however, any effort at analysis or interpretation on the part of the journalists. The competencies of extraction, structuring and analysis are not identified, only that of data visualization so that the reader makes their own interpretation.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization only",
+        "no analysis",
+        "reader-driven interpretation",
+        "institutional data",
+        "Level 4"
+      ],
+      "notes": "Level 4: only visualization of institutional data; no extraction, structuring, or journalistic analysis"
+    },
+    {
+      "extract": "at level 5, we classify pieces that use data or numbers from the release of economic, financial or social indicators. The data are passed on by the institutes, but there is no greater concern for analysis (causes, relationships and consequences) and for exploiting the potential of quantitative interpretation. Occasionally, some data visualization is developed, but it has a more illustrative function.",
+      "chapter": "From Journalism With Data to Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "illustrative data",
+        "shallow use",
+        "indicator relay",
+        "Level 5"
+      ],
+      "notes": "Level 5 (lowest): data used decoratively; no extraction, structuring, or analytical depth; mere relay of institutional indicators"
+    },
+    {
+      "extract": "what matters is not exclusively the use of a technique, but how the technique can be used by the team to produce journalistic content.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "competency",
+        "technique application",
+        "editorial purpose",
+        "team capacity"
+      ],
+      "notes": "Concluding thesis: DJ quality determined by purposeful application of technique, not technique possession"
+    },
+    {
+      "extract": "The second dimension analyzed by Coddington refers to the transparency of the techniques and reports produced, that is, how visible are the methods used by journalists to readers or interested professionals.",
+      "chapter": "The use of data by journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "reproducibility",
+        "open methods"
+      ],
+      "notes": "Coddington 2014 dimension 2; DJ practice should make methods visible to readers and peers"
+    },
+    {
+      "extract": "investigative journalists are characterized as those who have an active attitude in the search for information, as opposed to the passive attitude of a mere mediating agent between institutions and society",
+      "chapter": "The dimension of new competencies",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "active vs passive journalism",
+        "investigative stance",
+        "source independence"
+      ],
+      "notes": "Hunter et al. 2013 via authors; DJ inherits the active-search ethos of investigative journalism vs passive relay"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "source_id": "83",
+  "source_file": "83-antecedentes-fundamentos.md",
+  "source_title": "Antecedentes y fundamentos del Periodismo de datos",
+  "author": "various",
+  "year": "n.d.",
+  "extracts": [
+    {
+      "extract": "Raw data is never sufficient by itself. For data to be useful and intelligible it must be processed, conceptualized, integrated into some kind of framework. The raw data must be inserted into some mental frame of reference that aids its interpretation and comprehensibility",
+      "chapter": "2.2.1. Precision Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data processing",
+        "interpretation",
+        "framing"
+      ],
+      "notes": "Meyer 1993 quote via Dader. Data without a conceptual frame is unusable.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Raw data requiring conceptual framing for interpretation is a foundational epistemological principle unaffected by LLMs"
+    },
+    {
+      "extract": "To locate new social facts of great journalistic relevance that allow knowledge previously unnoticed to be brought to light. To use methods developed in other disciplines in related fields to produce social knowledge. To apply a scientific perspective to newsworthy facts and phenomena. To locate new methods for identifying news stories. To build investigative models from those already developed in related disciplines.",
+      "chapter": "2.2.1. Precision Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "precision journalism",
+        "interdisciplinary methods",
+        "scientific method"
+      ],
+      "notes": "Five objectives of precision journalism analysis. Emphasis on borrowing methods from other disciplines.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Precision journalism objectives of borrowing methods from other disciplines to locate social facts remain valid"
+    },
+    {
+      "extract": "media organizations should create new specialized departments so that social scientists and journalists could share tasks. He showed the need to create mixed teams that could achieve a new type of journalistic information, that could discover stories that could only be obtained through extensive analysis.",
+      "chapter": "2.2.1. Precision Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teamwork",
+        "interdisciplinary",
+        "newsroom structure"
+      ],
+      "notes": "Meyer 1960s argument. Mixed teams of social scientists and journalists as prerequisite for data-driven stories.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Mixed teams of social scientists and journalists still needed but LLMs can now bridge some interdisciplinary skill gaps"
+    },
+    {
+      "extract": "know or apply methods such as statistical analysis using specially prepared computer programs, the conduct or critique of sociological surveys and the searching of computerized databases",
+      "chapter": "2.2.1. Precision Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "statistical analysis",
+        "database search",
+        "surveys"
+      ],
+      "notes": "Dader 2004 quote on required competencies for precision journalists: stats, survey critique, database querying.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Statistical analysis and database querying skills endure but LLMs dramatically lower the barrier to performing these tasks"
+    },
+    {
+      "extract": "it is the same old investigative journalism (including methods of in-depth, precision, analytical journalism and what is known as 'computer-assisted'), to which some essential components must be added: Work is done with large volumes of open data, many of which come from closed formats, so in these cases a prior task of opening the data must be undertaken. It is team work: together with a data analyst, a programmer and an interactive visualization designer",
+      "chapter": "2.4. Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "open data",
+        "data liberation",
+        "roles"
+      ],
+      "notes": "Crucianelli 2012 definition. Specifies three required team roles: analyst, programmer, visualization designer. Notes data often arrives in closed formats requiring liberation.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Team composition of analyst, programmer, and designer still valuable but LLMs enable individuals to cover multiple roles"
+    },
+    {
+      "extract": "data journalism involves the following steps: compile, clean, contextualize, combine and communicate the information. This process begins with a large amount of information that is gradually reduced throughout the process, leaving finally the information that we want to communicate or use.",
+      "chapter": "2.5. The Inverted Pyramid of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "inverted pyramid",
+        "Bradshaw",
+        "workflow"
+      ],
+      "notes": "Bradshaw inverted pyramid: compile-clean-contextualize-combine-communicate. Funnel from large volume to focused output.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Bradshaw inverted pyramid workflow of compile-clean-contextualize-combine-communicate remains a valid pipeline model"
+    },
+    {
+      "extract": "A journalist can obtain their database from different sources: 1. Databases obtained directly from a public or private company. Different organizations can offer us their data for thorough analysis in a reusable format. A great source of information today are public bodies, thanks to the Law of Transparency and Open Government. 2. Databases by browsing different Internet portals. Many websites offer information online that is susceptible to analysis. 3. Databases created through scraping. New technologies offer tools for extracting information from web pages in reusable format. 4. Databases from documents. Using a document, whether pdf or doc format, with conversion tools it is possible to obtain that information in a reusable format. 5. Self-produced databases. If we conduct an online survey or collect information through another system, it is possible to create a personal database.",
+      "chapter": "A. Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "FOI",
+        "scraping",
+        "document conversion",
+        "surveys",
+        "open data"
+      ],
+      "notes": "Five source categories: direct from orgs, online portals, scraping, document conversion, self-produced. Transparency law highlighted as key enabler.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Five data source categories endure but LLMs add new capabilities for scraping, document conversion, and survey design"
+    },
+    {
+      "extract": "This technique called scraping or in Spanish 'rascar' (to scrape) is carried out using applications such as: Kimono Labs, Scraper Wiki and Outwit Hub, which automatically extract information from an Internet portal in .xml format for subsequent analysis.",
+      "chapter": "A. Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "scraping",
+        "tools",
+        "data extraction"
+      ],
+      "notes": "Scraping tools circa 2016. Kimono Labs now defunct; ScraperWiki renamed. Historically situated.",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific scraping tools like Kimono Labs and ScraperWiki are defunct; LLM-assisted coding now handles web scraping tasks"
+    },
+    {
+      "extract": "Once we have the data, we need to trust it. The information in the database must be correct. To achieve this, human errors must be corrected, which sometimes arise when transferring data to a reusable format. In addition, we can eliminate data that is not useful for our investigation. Steps to carry out in data cleaning: Find and eliminate unwanted data in spreadsheets. Format the data appropriately according to the tools to be used for subsequent processing. Handle inconsistent data. Structure the data for easy handling.",
+      "chapter": "B. Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "trust",
+        "error correction",
+        "formatting",
+        "consistency"
+      ],
+      "notes": "Four cleaning sub-steps: remove unwanted data, format appropriately, handle inconsistencies, structure for handling. Trust framed as outcome of cleaning.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data cleaning sub-steps endure but LLMs can now automate much of the error correction and format standardization"
+    },
+    {
+      "extract": "At this step we must interrogate the source and know how to interpret all the data we have. Questions to ask: Who collected this information? When was the data collected? For what purposes was it collected? Many times we will have fields in our database whose meaning we will not know at first glance. We must look up their meaning and know how to interpret them, to gain a broader view of the information we are seeking. Sometimes this step will lead us to collect more information, in order to better understand the data.",
+      "chapter": "C. Contextualizing Data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "source interrogation",
+        "provenance",
+        "context",
+        "metadata",
+        "interpretation"
+      ],
+      "notes": "Three provenance questions: who, when, why collected. Acknowledges that contextualizing may loop back to data collection.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Interrogating data provenance with who/when/why questions is a critical verification practice unaffected by automation"
+    },
+    {
+      "extract": "In order to display the information, combining two datasets is necessary. Although the information may be found in one source, it is necessary to combine it with another template, such as a map template to provide spatial visualization.",
+      "chapter": "D. Combining the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data combination",
+        "joins",
+        "geospatial",
+        "mashup"
+      ],
+      "notes": "Combining framed as joining data with a presentation template (e.g. map). Thin on method detail.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data combination and joining endure as concepts but LLMs now make spatial joins and mashups far more accessible"
+    },
+    {
+      "extract": "This is the final point of a major effort to select and filter information. At this point the results are visualized through an infographic, a visualization or through a web application.",
+      "chapter": "E. Communicating the Information",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "communication",
+        "infographic",
+        "web application"
+      ],
+      "notes": "Three output formats: infographic, visualization, web app. Presentation as culmination of filtering.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Three output formats endure but LLMs now enable rapid prototyping of infographics and web applications"
+    },
+    {
+      "extract": "Data journalism must perform its public service function of providing information by reporting the news objectively and based on data. This journalistic modality makes use of mathematics and some journalists go so far as to consider it a science, since given the same sources, another person must reach the same conclusion as the journalist.",
+      "chapter": "4. Results",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "objectivity",
+        "scientific method",
+        "public service"
+      ],
+      "notes": "Reproducibility claim: same sources should yield same conclusions. Strong positivist framing.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reproducibility as a standard for data journalism remains a fundamental epistemological principle"
+    },
+    {
+      "extract": "the Data Unit is made up of a multidisciplinary team of three people: Daniele Grasso, Jesús Escudero and Adrián Blanco. They also have the support of developers, designers and layout artists from the media outlet. Among the computer applications they use for their daily work, the following stand out: Microsoft Excel, Open Refine, Datawrapper, Infogram and Tableau Public. For more complex visualizations and applications they use D3, a JavaScript library.",
+      "chapter": "3.1. El Confidencial",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "toolstack",
+        "team structure",
+        "Excel",
+        "OpenRefine",
+        "Datawrapper",
+        "Tableau",
+        "D3"
+      ],
+      "notes": "El Confidencial data unit toolstack circa 2016. Core team of 3 plus support staff. Two-tier viz: simple (Datawrapper/Infogram/Tableau) vs complex (D3).",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific toolstacks like Excel/OpenRefine/Datawrapper/D3 circa 2016 are dated; LLMs now handle many of these tasks directly"
+    },
+    {
+      "extract": "Among the tools they use to develop data journalism, the following stand out: Excel, OpenRefine, Tabula, Kimono Tableau, CartoDB and D3. As an independent section of the newspaper, they seek out their own topics, although they are permeable to current events and the topics being covered in the newsroom. Collaboration with the print newsroom is continuous.",
+      "chapter": "3.3. El Mundo",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "toolstack",
+        "Tabula",
+        "CartoDB",
+        "OpenRefine",
+        "newsroom integration"
+      ],
+      "notes": "El Mundo data unit toolstack circa 2016. Adds Tabula and CartoDB. Notable: independent topic selection but continuous collaboration with print newsroom.",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific toolstacks citing Tabula/Kimono/CartoDB are historically situated and largely superseded by LLM-assisted workflows"
+    },
+    {
+      "extract": "A team of five journalists fact-checks statements made by politicians and public figures, showing what truth lies in them. The verification of information and journalistic documentation through data journalism has earned it the status of the leading program in its time slot.",
+      "chapter": "3.4. El Objetivo",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "verification",
+        "television",
+        "political accountability"
+      ],
+      "notes": "El Objetivo as TV fact-checking via data journalism. Verification as audience draw.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Fact-checking political claims through data verification is a core journalistic function that endures regardless of tools"
+    },
+    {
+      "extract": "talking about data journalism means referring to new techniques in the creation of journalistic information that requires specific knowledge and skills in the use of databases and the presentation (visualization) of information in new interfaces.",
+      "chapter": "2.4. Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "skills",
+        "databases",
+        "visualization",
+        "interfaces"
+      ],
+      "notes": "Flores 2014 definition. Emphasizes dual competency: database skills + visualization skills.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Dual competency in databases and visualization still needed but LLMs lower the technical barrier to both"
+    },
+    {
+      "extract": "The goal was to establish a meeting point between computer scientists (Hackers) and journalists (Hacks), to exchange information about digital tools and analyze the contribution of programmers in areas such as handling large volumes of data, visualizations, etc.",
+      "chapter": "2.3 Foundations of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "Hacks and Hackers",
+        "collaboration",
+        "programmers",
+        "community of practice"
+      ],
+      "notes": "Hacks/Hackers model: structured knowledge exchange between technologists and journalists.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Hacks/Hackers model of structured knowledge exchange between technologists and journalists remains relevant"
+    },
+    {
+      "extract": "Through rigorous investigation he compared insurance costs for different public real estate values in the same county. He also cross-referenced the names of insurance company executives who had contributed to school board campaigns with the school board directors",
+      "chapter": "2.2.1. Precision Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "comparison",
+        "records matching",
+        "accountability"
+      ],
+      "notes": "Meyer 1959 method: compare costs across entities + cross-reference donor/beneficiary names. Foundational pattern for follow-the-money journalism.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-referencing costs with donor/beneficiary names is a foundational accountability pattern that transcends tooling"
+    },
+    {
+      "extract": "The laboratory is made up of a multidisciplinary team of journalists, web developers, designers and directors to get the most out of different digital narratives.",
+      "chapter": "3.5. RTVE",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "multidisciplinary",
+        "digital narratives",
+        "lab model"
+      ],
+      "notes": "RTVE Lab team: journalists + web devs + designers + directors. Lab model for multimedia/transmedia output.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Lab model with multidisciplinary teams for digital narratives remains a valid organizational approach"
+    },
+    {
+      "extract": "it is a discipline in which the power of computers is used to find, cross-check, visualize and combine information from various sources.",
+      "chapter": "2.4. Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "cross-checking",
+        "multiple sources",
+        "Bradshaw"
+      ],
+      "notes": "Bradshaw definition. Four verbs: find, cross-check, visualize, combine. Cross-checking implies verification is built into the workflow.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Bradshaw four-verb definition of find, cross-check, visualize, combine remains a valid pipeline description"
+    }
+  ]
+}

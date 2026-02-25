@@ -1,0 +1,300 @@
+{
+  "source_id": "61",
+  "source_file": "61-elementos-transparencia.md",
+  "source_title": "Os Elementos de Transparência no Jornalismo Guiado por Dados",
+  "author": "academic",
+  "year": "n.d.",
+  "chunk": "1/2",
+  "chunk_file": "61-elementos-transparencia_chunk1.md",
+  "chunk_words": 39996,
+  "extracts": [
+    {
+      "extract": "Faced with the provisional nature of the situation, I began to observe that, when drawing on public databases to write reports, journalists needed, for example, to expose the limitations of those records. They needed to explain that the numbers were not detailed or that there could be delays in entering information into public systems, which in turn would generate a temporary distortion in analyses.",
+      "chapter": "Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "data limitations",
+        "uncertainty",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In some cases, when certain statistics could not be used, data journalists would indicate, in the stories, why they decided to exclude one or another state from the analysis, or why such information should be observed with caution by the reader. They were, then, explaining their working method, informing what sources were consulted, how reliable those sources were, and how one or another result was reached.",
+      "chapter": "Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "methodology",
+        "sources",
+        "data quality",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Transparency in journalism carries the meaning of openness, of strategically managed visibility and of reduction of information asymmetry, since the journalist has first-hand access to data that the audience does not possess; thus, authors such as Kovach and Rosenstiel advocate that ways be found for journalism to compensate for this aspect, by revealing information about sources and reporting methods.",
+      "chapter": "Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "accountability",
+        "sources",
+        "methodology",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In Data-Driven Journalism, this includes, for example, providing hyperlinks to original databases and, when a programming language is employed, the source code that drove the collection, analysis, and results.",
+      "chapter": "Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "open source",
+        "reproducibility",
+        "hyperlinks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Volunteers work with a shared methodology to follow the same data collection process; moreover, there is a constant information verification process — including a kind of independent double-check before updating the shared system with new data — in order to avoid errors. All methodology and source code are available on GitHub.",
+      "chapter": "Public transparency and open data on Covid-19",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "collaboration",
+        "open source",
+        "methodology",
+        "reproducibility"
+      ],
+      "notes": "Brasil.io Covid-19 data collection"
+    },
+    {
+      "extract": "One of the first and most important lessons I drew from my experience with open data and the Covid-19 pandemic was precisely the precariousness in the collection and opening of information. Journalists were required to look skeptically at the statistics, understanding their contexts of production and availability.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "skepticism",
+        "open data",
+        "context",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-Driven Journalism is defined by Träsel as the application of computing and social science knowledge in the collection, processing, interpretation, and presentation of data, with the aim of expanding journalism's function as a defender of the public interest. I reiterate the definition that it is a set of practices and knowledge whose origins are associated with scientific knowledge, through truth and methodological objectivity, capable of offering high degrees of transparency and collaboration, producing enduring content.",
+      "chapter": "Characteristics of Data-Driven Journalism today",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "scientific method",
+        "transparency",
+        "collaboration",
+        "public interest"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The expression raw data is paradoxical. As the authors remind us, data do not exist by themselves in the world, but need to be collected, compiled, generated, and processed. Rosenberg explains that data derives from the verb dare, or to give, and is thus related to the production of an argument — that is, it presupposes an interpretive layer. Facts are ontological, evidence is epistemological, data is rhetorical.",
+      "chapter": "Characteristics of Data-Driven Journalism today",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data epistemology",
+        "context",
+        "critical thinking",
+        "interpretation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-Driven Journalism has as one of its differentiators its proximity to the scientific method. Therefore it bets, for example, on the use of hypotheses in place of the conventional construction of a story pitch. This hypothesis will serve as the starting point for the investigation, which has its own method.",
+      "chapter": "Ways of working: method and workflows",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis",
+        "scientific method",
+        "workflow",
+        "investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Meyer suggests the following stages for journalism to approach science: collection — data gathering through scientific method; storage — comprising the organization and forms of data storage; retrieval — presupposes consulting data made available by third parties and offering ways of consultation; analysis — combining statistical tests and other ways of investigating patterns in relation to a topic; reduction — selection of what is maintained in the analysis and what will not be addressed; communication — data presentation, which in DDJ usually occurs through the use of charts.",
+      "chapter": "Ways of working: method and workflows",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "data pipeline",
+        "scientific method",
+        "Meyer"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Escola de Dados developed its own methodology — the so-called Data Pipeline — to organize the stages that form a method: ask, find, obtain, verify, clean, analyze, and present. The main difference in relation to Meyer's proposal concerns the inclusion of a question as the starting point for obtaining data related to the topic to be addressed.",
+      "chapter": "Ways of working: method and workflows",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "data pipeline",
+        "question-driven",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Deutsche Welle Data-Driven Journalism team presents its own method for finding stories in databases. In general terms, the procedures involve: defining a main question or hypothesis, finding the data, verifying the source, understanding the data, cleaning the data, analyzing the data, analyzing the obtained results, visualizing the data, validating the results, and, finally, supplementing this work with reporting techniques.",
+      "chapter": "Ways of working: method and workflows",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "hypothesis",
+        "verification",
+        "validation",
+        "data pipeline"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The proposals presented here are still insufficient with regard to transparency and data openness, essential to the scientific process on which DDJ is based. The proposals are also limited in terms of checking information, whose numbers are usually interpreted literally by journalists when presented by official sources, but not always exhaustively verified.",
+      "chapter": "Ways of working: method and workflows",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "transparency",
+        "methodology gaps",
+        "official sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Transparency in journalism corresponds, broadly speaking, to the process of opening up information from the journalistic organization and the processes it develops. At the organizational level, it presupposes the disclosure of funding sources and error-correction policies; at the operational level, it explains, for example, how a news piece was produced, why the topic matters, what sources were consulted, what the results of the analysis are, and the existence of any limitations.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology",
+        "organizational",
+        "operational",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The journalist needs to be a filter, as well as a transmitter; an organizer and interpreter, as well as one who gathers and delivers facts. The competency of writing well would no longer be sufficient.",
+      "chapter": "Characteristics of Data-Driven Journalism today",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "skills",
+        "data literacy",
+        "journalist role",
+        "filtering"
+      ],
+      "notes": "Attributed to Philip Meyer"
+    },
+    {
+      "extract": "The sources and the method used must be transparent so that other journalists or experts can repeat the same procedure under the same conditions. They must also arrive at the same result.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "reproducibility",
+        "verification",
+        "scientific method"
+      ],
+      "notes": "Attributed to Sponholz"
+    },
+    {
+      "extract": "Rigor is going to the bottom of the materially achievable investigations, in the time given for this research. It is the collection of all confirmed available facts. It is everything that opposes falsification, distortion, and lying.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "rigor",
+        "verification",
+        "truth",
+        "methodology"
+      ],
+      "notes": "Attributed to Cornu"
+    },
+    {
+      "extract": "The emergence of practices like DDJ is closer to the promise of giving journalism a scientific character. They warn, however, that the authority lies not in simply showing the numbers and winning over audiences through their precision, but in the possibility of numbers contributing to the creation of a more rigorous discipline of verification. Data, therefore, demand greater methodological transparency.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "transparency",
+        "scientific method",
+        "data journalism"
+      ],
+      "notes": "Attributed to Kovach and Rosenstiel"
+    },
+    {
+      "extract": "Journalists place excessive trust in statistics provided by supposedly apolitical official sources, such as the United Nations and smaller non-governmental organizations. He concludes that journalists hide behind their sources, rarely verifying or questioning the numbers presented. The uncritical use of evidence of evidence allows journalists to protect themselves from criticism if they use incorrect statistics.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "official sources",
+        "critical thinking",
+        "statistics",
+        "accountability"
+      ],
+      "notes": "Attributed to Lawson (2021)"
+    },
+    {
+      "extract": "Philip Meyer stated that readers deserve not just the facts, but the truth of the facts: to guarantee the reliability of information, journalists need to use belt and suspenders, making an analogy to the need for double-checking.",
+      "chapter": "Transparency as the opening of method and editorial decisions",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "fact-checking",
+        "reliability",
+        "double-checking"
+      ],
+      "notes": ""
+    }
+  ]
+}

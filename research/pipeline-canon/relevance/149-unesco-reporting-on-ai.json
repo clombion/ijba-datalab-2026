@@ -1,0 +1,1196 @@
+{
+  "source_id": "149",
+  "source_file": "149-unesco-reporting-on-ai.md",
+  "source_title": "UNESCO Reporting on Artificial Intelligence: Handbook for Journalism Educators",
+  "author": "Maarit Jaakkola (ed.), UNESCO",
+  "year": "2023",
+  "extracts": [
+    {
+      "extract": "Critical journalistic scrutiny is essential for all sources (and statistics) concerning AI-related news – no matter whether sources are academics, regulators, big corporates or entrepreneurs. The same point applies to AI when reported as part of the operations of computer gaming companies, e-security services, vendors of Non-Fungible Tokens, crypto-currency exchanges, health care, agriculture, warfare, etc. There is a need to interrogate and deconstruct AI references, whatever the field of coverage.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source criticism",
+        "verification",
+        "AI hype"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical scrutiny of all AI-related sources is even more essential now that LLMs have accelerated AI hype across every sector"
+    },
+    {
+      "extract": "Arguably, the most interesting thing about AI is often not the technicalities around the software, nor the hardware side. It is the inter-linked human dimension - including the vested interests always involved in defining and promoting AI, in developing software and control and access of hardware. And of course, the availability, ownership and conditionalities around data.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "story framing",
+        "human dimension",
+        "power dynamics",
+        "data ownership"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Focusing on human dimensions, vested interests, and power behind AI remains the most important angle for journalism in the LLM era"
+    },
+    {
+      "extract": "Each micro-story – eg. like a medical breakthrough using AI – will be part of a bigger systemic human story that provides many rich angles to reporting the specifics. To grasp the extent, requires that we recognize how the ensemble of technologies broadly known as AI are inextricably embedded in society and its power dynamics and challenges.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "systems thinking",
+        "story framing",
+        "contextualization"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Embedding AI micro-stories in systemic human narratives about power dynamics is a framing principle that endures"
+    },
+    {
+      "extract": "This means knowing how to ask the questions about the existence (or not) and quality (or not) of ongoing human rights due diligence by AI developers, their institutions and customers and clients. Journalistic interviews should never neglect to enquire about pre- and post- impact assessments and resulting mitigation steps.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "interview technique",
+        "accountability",
+        "human rights",
+        "impact assessment"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Asking about human rights due diligence, impact assessments, and mitigation is more urgent than ever with rapid LLM deployment"
+    },
+    {
+      "extract": "What ethical protocols have been used concerning data creation, storage, sales and usage, and what testing of deployments have been done? What harm incident reporting and tracking is in place (or not), and what can be learnt for improvements? Does a system stack up against the global standard that 'both technical and institutional designs should ensure auditability and traceability'?",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data ethics",
+        "auditability",
+        "traceability",
+        "accountability questions"
+      ],
+      "notes": "Checklist of questions for AI-linked stories",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questions about ethical protocols, data usage, harm tracking, and auditability apply directly to LLM systems"
+    },
+    {
+      "extract": "Without informed and independent journalism on AI, society at large will have huge deficits in the transparency and accountability which are absolutely essential for the governance of such an impactful technology. On the other hand, it is quality reporting that can delve into what packages of state regulation and self-regulation are optimum, and what potential exists for alternatives like co-regulation and multi-stakeholder regulation.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "accountability",
+        "regulation",
+        "public interest"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The democratic necessity of informed independent journalism on AI for transparency and accountability is heightened by LLM proliferation"
+    },
+    {
+      "extract": "Very seldom do journalists report on the technology itself, as a pure isolated entity, and very seldom do journalists thus need to know about the technical operations of neural networks or deep learning. Instead, more often journalists report on democratic processes, people's behaviour or, for example, structural injustices – AI integrated in all these, and all these influenced by AI technologies.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story framing",
+        "contextualization",
+        "AI as societal topic"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The claim that journalists rarely need to understand neural networks is less true now that LLMs are directly embedded in journalism workflows"
+    },
+    {
+      "extract": "AI constitutes an abstract object with global implications for journalistic inquiry that is more inclined to report on concrete occurrences that can be clearly limited and identified. It is ubiquitous, yet it may be difficult to identify; it renders diverse implications that may be hard to foresee. It requires expert knowledge to be profoundly understood, and developing full comprehension often demands triangulation, that is, integrating and compromising different perspectives.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "expert sources",
+        "complexity",
+        "abstraction"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "AI as an abstract ubiquitous object requiring expert triangulation to understand remains an accurate characterization in the LLM era"
+    },
+    {
+      "extract": "What kind of relationship should journalists, as public gatekeepers and opinion makers, establish with AI? When participating in the journalistic coverage of AI-related topics, what kinds of things should be taken into consideration? Which sources should be drawn on?",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "source strategy",
+        "journalistic role",
+        "AI coverage"
+      ],
+      "notes": "Framing questions for the handbook",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questions about journalists relationship with AI as gatekeepers and what to consider in coverage are even more pressing with generative AI"
+    },
+    {
+      "extract": "Our understanding of AI constitutes an interdisciplinary infrastructure, where expert sources need to be identified across different fields of knowledge. Academic research that can deliver an in-depth understanding of the phenomena involves theoretical development using very specific concepts to capture such aspects. Technological development that leans upon the innovative application of these technologies is not always very easy to access.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interdisciplinary sourcing",
+        "expert identification",
+        "source access"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Identifying interdisciplinary expert sources across fields for AI reporting remains essential and challenging"
+    },
+    {
+      "extract": "The task of journalism is to balance these knowledge fields, bridging different aspects to gain insights into what is of public concern. In order to perform such a balancing act, a journalist needs to gain knowledge about these fields and be able to filter and synthetize information that may sometimes be contradictory and complicated.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "synthesis",
+        "knowledge bridging",
+        "public concern",
+        "contradictory evidence"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Balancing knowledge fields and synthesizing contradictory information about AI is a core journalism skill unchanged by LLMs"
+    },
+    {
+      "extract": "Journalists need to employ their strategies as with any other subject, including the journalistic processes of contextualization, data verification, consequence and risk analysis, relativization, the identification of normativity and bias and the creation of critical distances to the objects of inquiry.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "bias detection",
+        "contextualization",
+        "risk analysis"
+      ],
+      "notes": "Core journalistic processes applied to AI coverage",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Contextualization, verification, risk analysis, and identifying bias are foundational journalism processes that endure regardless of tools"
+    },
+    {
+      "extract": "A prerequisite for this area-specific literacy is the mapping of central actors and stakeholders, as well as infrastructures, and understanding how these cultural and political economies work. For example, concerning science, they need to know what scientific disciplines are at stake, how scientific knowledge production occurs, how scientific publications can be accessed and interpreted and how science works more generally.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "stakeholder mapping",
+        "source literacy",
+        "scientific publications",
+        "political economy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Mapping stakeholders, understanding political economies, and interpreting scientific knowledge production remain essential for AI beat reporters"
+    },
+    {
+      "extract": "A crucial step is taken when we understand that no technologies are neutral: there are always a number of interests underlying the technological structures and the modus operandi of different platforms.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "technology non-neutrality",
+        "platform interests",
+        "critical analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that no technology is neutral and always embeds interests is a timeless critical insight directly applicable to LLMs"
+    },
+    {
+      "extract": "The ICIJ collaborated with the AI studio at Quartz, which built a system that could 'read' all the documents. As phrased by Quartz, this was done to 'help journalists from Quartz, ICIJ and other partner organizations find the kinds of documents they expected in the cache of leaks – regardless of file format, spelling, transcription errors, phrasing, or even the language of the document'.",
+      "chapter": "Defining Artificial Intelligence",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "NLP",
+        "document processing",
+        "investigative journalism",
+        "Luanda Leaks",
+        "ICIJ"
+      ],
+      "notes": "Luanda Leaks: 715,000 documents processed with NLP",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "ICIJ document reading via AI is a valid precedent but LLMs now offer far more powerful document analysis capabilities than described here"
+    },
+    {
+      "extract": "In Argentina, La Nacion used computer vision to analyze election ballots to confirm the suitability of the electoral process and to avoid fraud. They used computer vision to analyze analogue voting ballots, and then validated the output through crowdsourced human reviews. The publisher had a similar project in 2015, in which they manually analyzed 16,000 ballots. By adding computer vision to their 2021 edition, they could review 100,000 ballots.",
+      "chapter": "Defining Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "computer vision",
+        "election verification",
+        "crowdsourcing",
+        "scale"
+      ],
+      "notes": "Scale jump: 16k manual to 100k with CV + human review",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Computer vision for ballot analysis is still valid but the specific 2021 approach is now superseded by multimodal LLMs with higher accuracy"
+    },
+    {
+      "extract": "True algorithmic literacy requires a different kind of toolkit that combines cultural knowledge and helpful metaphors with a basic understanding of both narrative and the technical abilities a new system might present. This is critical for journalism where future stories will heavily depend on an informed reporter who can convey this information to the general public.",
+      "chapter": "Cultural Myths and Narratives about Artificial Intelligence",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic literacy",
+        "cultural knowledge",
+        "technical understanding",
+        "reporting toolkit"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Algorithmic literacy combining cultural knowledge, metaphors, and technical understanding remains essential for journalists covering AI"
+    },
+    {
+      "extract": "Understanding every interaction with an AI system as a kind of trade or two-way conversation can be a helpful starting place: most systems, especially those that offer free services, are also collecting personal data or observing our actions in other ways that may not be immediately obvious or explicit. Developing some understanding of the real terms of our relationships with intelligent systems is an important step in building transparent and mutually beneficial collaborations.",
+      "chapter": "Cultural Myths and Narratives about Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "user-AI relationship",
+        "data collection",
+        "privacy",
+        "transparency"
+      ],
+      "notes": "Part of Reading the Algorithm framework",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding AI interactions as data trades and developing awareness of hidden data collection is directly applicable to LLM usage"
+    },
+    {
+      "extract": "AI algorithms depending on machine learning utilize large datasets with implicit bias or discrimination encoded into their data samples and the statistical correlations that are drawn from them. The choice of classical versus deep learning algorithms for an AI can have downstream effects on the performance, explainability and interpretability of the system.",
+      "chapter": "Cultural Myths and Narratives about Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data bias",
+        "algorithm choice",
+        "explainability",
+        "infrastructure analysis"
+      ],
+      "notes": "Part of Reading the Algorithm: Infrastructure and System Design",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Awareness of bias encoded in training data and downstream effects of algorithm choice is foundational AI literacy that endures"
+    },
+    {
+      "extract": "An important consideration is the data-driven nature of many modern AI techniques, meaning that they find patterns and make recommendations based on collected, often historic data. This leads to risks, such as cementing historical injustices and making biased decisions based on non-representative data.",
+      "chapter": "Policy Frameworks and Recommendations for Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "historical data bias",
+        "representativeness",
+        "injustice",
+        "risk assessment"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Risks of cementing historical injustices through pattern-based AI decisions applies directly to LLM training data biases"
+    },
+    {
+      "extract": "A second consideration is the fact that most AI methods optimize some objective function. They are designed to achieve the highest possible score by changing their behaviour. Since typical objective functions could involve, for example, maximizing ad revenue or time spent in an app, they could lead to both undesired and unethical behaviour. There are important constraints that are never made explicit in the simplified objective functions used by AI systems. This leads to the so-called value alignment problem.",
+      "chapter": "Policy Frameworks and Recommendations for Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objective functions",
+        "value alignment",
+        "optimization bias",
+        "hidden constraints"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The value alignment problem and risks of simplified objective functions apply directly to LLM reward modeling and RLHF"
+    },
+    {
+      "extract": "A third consideration is how to maintain meaningful human control over a system. AI systems are often much faster than humans, processing vastly larger volumes of data, and a single system can be used to determine thousands or millions of cases. Taken together, these systems work at a completely different scale than us and often use different methods than we do. This leads to the challenging question of how to maintain control of such a system.",
+      "chapter": "Policy Frameworks and Recommendations for Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human control",
+        "scale",
+        "automated decision-making",
+        "oversight"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Maintaining meaningful human control over fast, high-volume AI systems is more pressing with LLMs processing millions of queries"
+    },
+    {
+      "extract": "One should never assume that an algorithm is a neutral gatekeeper. It is important to consider the political economy of algorithms (e.g. the ownership structure), which often directs the results an algorithm will produce. An algorithm can also be used to manipulate human behaviour.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithm non-neutrality",
+        "political economy",
+        "ownership",
+        "manipulation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Never assuming algorithm neutrality and considering political economy of algorithms applies squarely to LLM platforms"
+    },
+    {
+      "extract": "Journalism has the important duty of spreading relevant information, which is not a simple task; it requires a decent understanding of rapidly advancing technology, and an algorithm needs to be studied over a certain period of time. Moreover, organisations – not only platforms but also government bodies – that own algorithms rarely provide insight into how they work. In part, this is because of trade secrets, but it is increasingly because the systems are not designed to explain their decisions (also known as black box algorithms). Algorithms are often opaque, and technical complexity is a barrier to reporting.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "black box algorithms",
+        "opacity",
+        "access barriers",
+        "trade secrets",
+        "longitudinal study"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Barrier of algorithmic opacity endures but LLMs have shifted the challenge -- they are more interactive yet their scale and training data remain opaque"
+    },
+    {
+      "extract": "The composition of a structured toolbox for reporting on algorithms can help. Reporters can compile this themselves or use existing toolkits. A toolbox may consist of an extensive AI glossary and a repository of articles on AI reporting or scientific publications with which a journalist can become acquainted with the terminology; a contact list of AI experts and stakeholders for reflecting on the subject of a report (differentiating between technical, social/ethical and legal experts); a list of AI tools with which one can experiment and become accustomed to the technology; and links to professional communities that share new trends and insights.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "reporting toolkit",
+        "expert contacts",
+        "AI glossary",
+        "professional communities"
+      ],
+      "notes": "Structured toolbox for algorithm reporting",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Structured toolbox for reporting on algorithms endures as concept but now must include LLM-specific tools, prompt auditing, and generative AI terminology"
+    },
+    {
+      "extract": "A second suggestion is to cultivate a critical attitude towards data, which several studies have shown is often lacking among journalists. Accuracy of data tends to be insufficiently questioned; this is important not only for interpreting press releases, research data or company results, but also for scrutinizing algorithms in times of big data. A good level of data awareness and data literacy is therefore an important prerequisite for being able to fulfil the mission of journalism.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "data accuracy",
+        "critical attitude",
+        "press releases"
+      ],
+      "notes": "Cites Simons et al. 2017; Stalph 2017; Kouts-Klemm 2019 on journalists lacking data criticism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical attitude toward data and data literacy as prerequisite for journalism mission is a timeless principle reinforced by LLM-era challenges"
+    },
+    {
+      "extract": "Journalistic opportunities do increase when one can evaluate algorithms through the lens of a data journalist. Courses for data journalists vary in content but often include components such as an elementary understanding of arithmetic and probability, advanced statistical techniques and data analysis, allowing journalists to dig deeper into the risks of algorithms and better assess what can go wrong in an investigation.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data journalism skills",
+        "statistics",
+        "probability",
+        "algorithm evaluation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Algorithmic accountability through data journalism lens endures but must now include LLM-specific evaluation methods like prompt injection testing"
+    },
+    {
+      "extract": "Another possibility is to learn algorithmic accountability reporting, a new branch of journalism that investigates the social power exercised by algorithms. Algorithmic accountability reporting, an umbrella term for various research methods, is a mechanism for investigating, clarifying and expressing the power structures, prejudices and influences that algorithms can exert in/on society. Effective algorithmic accountability reporting requires all the traditional skills of journalism in reporting, interviewing and domain knowledge and the ability to translate the results clearly and concisely. It also requires new skills, such as (at least) minimal knowledge of data journalism (e.g. scraping and cleaning data) and the use of advanced statistical techniques.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "scraping",
+        "data cleaning",
+        "statistical techniques",
+        "power structures"
+      ],
+      "notes": "Cites Diakopoulos 2014, 2021",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Algorithmic accountability reporting endures as discipline but needs updating to include generative AI auditing, model evaluation, and LLM-specific methods"
+    },
+    {
+      "extract": "Familiarize yourself with the terminology: read research papers and journalistic articles on AI to get acquainted with the correct terms; however, translate technological and scientific terms into everyday language and expressions whenever possible. Complicate the narrative: the 'true' narrative may not be that simple; problematize oversimplified narratives on AI and triangulate with several experts and stakeholders. Beat the hype: examine technologies with a critical lense, avoid buzzwords and ask yourself: what does this mean in practice, or in the life of your audiences?",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "terminology",
+        "translation",
+        "narrative complexity",
+        "triangulation",
+        "hype avoidance"
+      ],
+      "notes": "From Guidelines for Journalists Covering Algorithms (Sivadas & Argoub 2021), part 1 of 2",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Familiarizing with terminology, complicating narratives, and beating AI hype are timeless journalism practices amplified in the LLM era"
+    },
+    {
+      "extract": "Assess research results: when reporting on research on AI technologies, ask how the research was conducted, what data was used and how large the dataset was, what initial assumptions did the researchers have when approaching the study, and what consequences might come out of the technology. Test: if possible, try to acquire personal practical knowledge about the applications you are reporting about by testing new algorithms and systems by yourself. Follow professional online communities: national and international journalistic communities, both institutional projects and peer groups on social networking sites, provide journalists with up-to-date tools for thinking and action when reporting technologies and related issues.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "research assessment",
+        "hands-on testing",
+        "professional communities",
+        "methodology questions"
+      ],
+      "notes": "From Guidelines for Journalists Covering Algorithms (Sivadas & Argoub 2021), part 2 of 2",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Assessing research methods, testing systems personally, and following professional communities are enduring practices for tech reporters"
+    },
+    {
+      "extract": "When covering malicious uses of AI, journalists are faced with the question of how to report on issues related to intentionally harmful contents and processes in a proper way. Journalists need to see the relevance, volume and expected consequences in realistic proportions. Moreover, the general journalistic ethics rules that are applied to crime and justice reporting are valid even in the coverage of AI; individuals should be protected, no one should be publicly suspected or prosecuted by journalists and facts should be validated, to avoid spreading rumours.",
+      "chapter": "Reporting on Malicious Uses of AI Technologies",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "proportionality",
+        "ethics",
+        "crime reporting norms",
+        "validation",
+        "harm avoidance"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ethics of reporting on malicious AI uses while protecting individuals and validating facts endures as a journalism principle"
+    },
+    {
+      "extract": "They defined AI as a 'dual-use area of technology', meaning that AI technologies can be used to both beneficial and harmful ends, and the celebratory aspects of AI should always be balanced against misuse-related considerations. AI is a double-edged sword.",
+      "chapter": "Reporting on Malicious Uses of AI Technologies",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "dual-use framing",
+        "balanced reporting",
+        "risk-benefit analysis"
+      ],
+      "notes": "Brundage et al. 2018 Oxford workshop",
+      "llm_relevance": "endures",
+      "relevance_rationale": "AI as dual-use technology requiring balanced coverage of benefits and risks is even more relevant with generative AI capabilities"
+    },
+    {
+      "extract": "Deepfakes, as falsified content, counteract the historical conviction of images and visual materials as records of reality. Deepfakes easily go viral and, when depicting news events, may lead to mass panic among the audience, with fatal consequences. Deepfakes thus need active debunking measures from journalists.",
+      "chapter": "Reporting on Malicious Uses of AI Technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "deepfake detection",
+        "debunking",
+        "visual verification",
+        "misinformation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Deepfake threats endure but have intensified dramatically with generative AI, requiring updated detection methods and reporting frameworks"
+    },
+    {
+      "extract": "Several studies have discovered that in daily newspaper coverage, industry sources dominate and the discussion about AI is typically conducted by male stakeholders who can have financial gains from AI. In the study of AI coverage in the UK, the Reuters Institute report found that almost 60% of news articles across different outlets covered new industry products or initiatives. A third of unique sources across the articles were affiliated with industry, almost twice as many as those from academia, and six times as many as those from government.",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source bias",
+        "industry dominance",
+        "gender bias",
+        "source diversity"
+      ],
+      "notes": "Cites Brennen et al. 2018 Reuters Institute",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Industry source dominance and gender bias in AI coverage is an empirical finding that likely persists and warrants continued monitoring"
+    },
+    {
+      "extract": "The discussion should obviously be more diverse and multivoiced in terms of sourcing, and journalists should consciously give space to actors other than major industry sources. Activists, non-governmental organizations (NGOs), and other civil-society representatives, as well as customers, should be included in reporting, as they are experiencing the consequences of AI in their everyday lives.",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "source diversity",
+        "civil society",
+        "NGOs",
+        "affected communities",
+        "inclusive sourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Diversifying sources beyond industry to include civil society, activists, and affected communities is a timeless journalism principle"
+    },
+    {
+      "extract": "While media should explore in detail the promise and pitfalls of AI, they would be well served to treat it less as a world-shaking revolution and more as a set of technologies in the process of being designed, as set of choices in the process of being made, and a set of problems in the process of being collectively solved.",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing",
+        "balanced reporting",
+        "de-sensationalizing",
+        "process orientation"
+      ],
+      "notes": "Brennen et al. 2018 p.10",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Framing AI as choices being made rather than inevitable revolution is crucial counter-narrative in the generative AI hype cycle"
+    },
+    {
+      "extract": "AI is currently an area dominated by spot news events, but ideally it should be covered in more in-depth approaches following trends and long-term processes that affect society. If monitored in terms of individual events, which are typically product releases, investment decisions, or initiative launches by major industry organizations, reporting may relapse into following major players' agendas. As influential public actors, journalists can counteract AI-related representation of gender and race, as well as other biased structures, and contribute to increasing diversity in different fields.",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "trend analysis",
+        "long-term coverage",
+        "agenda independence",
+        "diversity",
+        "representation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Need for in-depth trend coverage rather than spot news about product launches applies directly to LLM coverage patterns"
+    },
+    {
+      "extract": "What kind of AI is the topic about? As AI is a very general term, broad in scope, it often needs to be specified. What is so special about this particular technology? What does it do, and possibly change? What is known about how the AI in question actually works? Is it clear to the audience how an app looks or how it is used in practice? Can the workings be illustrated in word or images somehow? Who are the stakeholders of the AI in question, and what are the financial interests in the background of this particular application? Who owns the product, and who has financed it?",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "AI specificity",
+        "stakeholder identification",
+        "ownership",
+        "financial interests",
+        "audience clarity"
+      ],
+      "notes": "Checklist of questions when covering AI, part 1 of 2",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Checklist for specifying what kind of AI, who owns it, and financial interests is directly applicable to reporting on LLM products"
+    },
+    {
+      "extract": "How does the AI affect the lives of different groups of people? How do these people, as citizens and customers, perceive these changes? What consequences does the AI have for the target groups of your media? What kind of image does your reporting deliver of the phenomenon?",
+      "chapter": "Patterns of Storytelling about Artificial Intelligence",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "impact assessment",
+        "affected communities",
+        "audience relevance",
+        "self-reflection"
+      ],
+      "notes": "Checklist of questions when covering AI, part 2 of 2",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Asking how AI affects different groups and centering audience impact is a timeless user-centered journalism principle"
+    },
+    {
+      "extract": "Reuters' algorithm News Tracer automatically searches for breaking news on social media. By detecting clusters of similar information and reviewing the accounts that published the information, the robot can notify a journalist about a news item the moment it occurs.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "news discovery",
+        "social media monitoring",
+        "cluster detection",
+        "breaking news",
+        "Reuters"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Reuters News Tracer social media monitoring is a specific tool example now superseded by more advanced LLM-powered news detection systems"
+    },
+    {
+      "extract": "BBC Juicer pipeline is watching RSS feeds of news outlets. When a new article is published on one of these RSS feeds, BBC Juicer scrapes the news article, both raw text and metadata (e.g., date, time, title, news source). In the next step, BBC Juicer identifies and tags concepts mentioned in the article text, making them searchable and therefore useful for trend analysis. By streamlining media workflows like that, AI enables journalists to focus on what they do best.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "news aggregation",
+        "RSS scraping",
+        "concept tagging",
+        "trend analysis",
+        "BBC"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "BBC Juicer RSS pipeline is a specific pre-LLM tool example; concept of automated content tagging endures but implementation has been superseded"
+    },
+    {
+      "extract": "They use AI and Natural Language Generation (NLG) to automatically produce publishable news texts from large datasets, including sports, property sales, traffic news, weather, the stock market, and local business registrations. Their robots analyse big datasets that are open and available to everyone and identify unusual events or patterns. The information can then be used to build extended articles or as alerts for the newsroom to follow up on.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "automated journalism",
+        "NLG",
+        "open data",
+        "pattern detection",
+        "United Robots"
+      ],
+      "notes": "United Robots example",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "NLG for automated news from structured data is now dramatically more capable with LLMs; the limitations described are partly overcome"
+    },
+    {
+      "extract": "Thurman, Dörr, and Kunert suggest several aspects where the influence of algorithms and increasing use of digital data present ethical challenges. These include how journalists acquire, validate, and use digital data in news production and the risk of bias in the algorithms that power automation. The transparency of code and data is of course an issue, both from a professional and a democratic perspective. It is also a question of machine autonomy: whether algorithms can 'reason' and draw appropriate conclusions in all contexts.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data validation",
+        "algorithm bias",
+        "code transparency",
+        "machine autonomy",
+        "ethics"
+      ],
+      "notes": "Cites Thurman Dorr Kunert 2017",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ethical challenges of algorithm bias, code transparency, and machine autonomy questions are enduring concerns amplified by LLMs"
+    },
+    {
+      "extract": "Asking journalists about their perceptions of working with automation, Thurman, Dörr and Kunert identify several limitations: 1. Its reliance on single, isolated data streams. 2. The one-dimensional nature of the quantitative data feeds it relies on. 3. The difficulties of interrogating that data. 4. The lack of human angles in the texts generated. 5. The requirement to template stories – predicting 'top lines' – in advance. 6. The difficulty of working creatively with the data in the templating process.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "automation limitations",
+        "data interrogation",
+        "templating",
+        "creativity constraints",
+        "human angles"
+      ],
+      "notes": "Thurman et al. 2017 p.1254",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Limitations of pre-LLM automation (single data streams, lack of human angles, rigid templates) are partly addressed by LLMs but new limitations emerge"
+    },
+    {
+      "extract": "Create an understanding of what type of AI you need, what problem it should solve, and how it relates to other editorial strategies and policies. Which parts of the organization are affected and need to collaborate on this? Identify the obstacles that may arise, such as resources, culture, and management, and address these in a systematic way.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI strategy",
+        "newsroom collaboration",
+        "obstacle identification",
+        "editorial policy"
+      ],
+      "notes": "Beckett 2019 advice for media companies",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Strategic planning for AI adoption including problem definition, organizational alignment, and obstacle identification endures as management advice"
+    },
+    {
+      "extract": "Collaboration is an important factor for successful automation of any business, and journalism is no exception. Collaboration involves sharing resources and utilizing them where they are needed and leads to new ways of combining skills, abilities, and material assets. Novel contact surfaces lead to a better flow of information, new insights into problems, and the opportunity to learn from the mistakes of others.",
+      "chapter": "Artificial Intelligence in Journalism and Journalistic Practice",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "interdisciplinary teams",
+        "resource sharing",
+        "newsroom innovation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaboration as key factor for successful AI adoption in newsrooms is an organizational principle that endures"
+    },
+    {
+      "extract": "Journalists can profitably apply the same critical mind-set to the integration of AI systems into their own workplaces and newsroom practices. And, of course, as in other fields, for all stories that touch on AI, transparency is also a must when journalists or their outputs are sponsored in one way or another.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "self-reflexivity",
+        "transparency",
+        "sponsorship disclosure",
+        "newsroom AI"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Applying critical mindset to AI integration in own newsroom and maintaining transparency about sponsorship is more relevant than ever"
+    },
+    {
+      "extract": "Journalists should not be misled by the science-fiction fantasies, even though possessing an understanding of them is crucial. Journalists should be more curious about asking how intelligent systems affect us in versatile ways and looking for alternatives.",
+      "chapter": "Introduction: Pedagogies of Teaching about AI Technologies",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "sci-fi bias",
+        "narrative avoidance",
+        "alternative framing",
+        "everyday AI"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Not being misled by science-fiction fantasies while understanding how AI affects us in everyday ways is directly applicable to LLM hype"
+    },
+    {
+      "extract": "Several empirical studies based on survey data and tracking data have indicated that the use of gatekeepers, such as search engines and social media, is, in most cases, associated with more diverse news consumption, the opposite of the filter bubble hypothesis.",
+      "chapter": "Reporting in Algorithmic Cultures",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "filter bubbles",
+        "empirical evidence",
+        "nuance",
+        "algorithmic effects"
+      ],
+      "notes": "Cites Ross Arguedas et al. 2022; complicates common filter bubble narrative",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Filter bubble research findings may need reassessment given LLM-powered recommendation systems that differ fundamentally from earlier search/social algorithms"
+    },
+    {
+      "extract": "The ubiquitous extraction (plus sale and use) of data from people to fuel AI is another narrative that needs continuous monitoring. Data are not just a resource that is somehow there for the taking – which is a key observation for journalists to dig into in regard to AI stories.",
+      "chapter": "Foreword: Addressing the Diversity of Artificial Intelligence",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data extraction",
+        "surveillance",
+        "monitoring beat",
+        "data as resource"
+      ],
+      "notes": "Cites Kate Crawford, Shoshana Zuboff",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data extraction from people to fuel AI as a narrative requiring monitoring is even more relevant with LLM training data controversies"
+    },
+    {
+      "extract": "Describing AI systems as taking actions independent of human supervision or implying that they may soon be able to do so is a pitfall. Rather than describing AI as a broad set of tools, such comparisons anthropomorphize AI tools and imply that AI tools have the potential to act as agents in the real world.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "anthropomorphism",
+        "framing",
+        "verification"
+      ],
+      "notes": "Pitfall 1: Attributing agency to AI",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Warning against anthropomorphizing AI endures but needs updating since LLMs exhibit more agent-like behaviors than earlier AI, complicating the framing"
+    },
+    {
+      "extract": "Images of humanoid robots are often used to illustrate articles about AI, even if the contents of the article have nothing to do with robots. This gives readers a false impression that AI tools are embodied, even when it is just software that learns patterns from data.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "visual framing",
+        "imagery",
+        "misleading representation"
+      ],
+      "notes": "Pitfall 2: Suggestive imagery",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critique of humanoid robot imagery for non-robot AI stories remains a valid media literacy point"
+    },
+    {
+      "extract": "Articles often compare how well AI tools perform with human skills on a given task. This falsely implies that AI tools and humans compete on an equal footing—hiding the fact that AI tools only work in a narrow range of settings.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "false equivalence",
+        "human-machine comparison",
+        "framing"
+      ],
+      "notes": "Pitfalls 3-4: Comparison with human intelligence and skills",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Warning against false human-AI competition framing endures but LLMs have genuinely expanded the range of tasks where comparison is relevant"
+    },
+    {
+      "extract": "Describing AI systems as revolutionary or groundbreaking without concrete evidence of their performance gives a false impression of how useful they will be. This issue is amplified when the AI tool is deployed in a setting where they are known to have past failures—we should be skeptical about the effectiveness of AI tools in these settings.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "hyperbole",
+        "evidence",
+        "critical assessment"
+      ],
+      "notes": "Pitfall 5: Hyperbole",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism toward claims of revolutionary AI without concrete performance evidence is a timeless journalistic principle"
+    },
+    {
+      "extract": "Comparing AI tools with major historical transformations like the invention of electricity or the industrial revolution is a great marketing tactic. However, when news articles adopt these terms, they can convey a false sense of potential and progress—especially when these claims are not backed by real-world evidence.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "historical analogy",
+        "hype",
+        "critical assessment"
+      ],
+      "notes": "Pitfall 6: Uncritical comparison with historical transformations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning against comparing AI to electricity or industrial revolution without evidence is directly applicable to current LLM hype narratives"
+    },
+    {
+      "extract": "Claims about how future developments in AI tools will affect an industry, when made without evidence, are mere speculation. Similarly, articles can include false claims about what an AI tool can do. News articles often cite academic studies to substantiate their claims, but there is sometimes a gap between the claims made based on an academic study and what the study reports.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "speculation",
+        "source verification",
+        "academic citation",
+        "fact-checking"
+      ],
+      "notes": "Pitfalls 7-9: Unjustified future claims, false progress claims, incorrect study reporting",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scrutinizing speculative future claims and checking academic studies against actual findings is a permanent verification standard"
+    },
+    {
+      "extract": "Using deep-sounding phrases like 'the elemental act of next-word prediction' or 'the magic of AI' implies that an AI tool is doing something remarkable. It hides an understanding of how mundane the tasks are, and that AI tools are functioning exactly as expected.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "language",
+        "hype",
+        "demystification"
+      ],
+      "notes": "Pitfall 10: Deep-sounding terms for banal actions. Cites Emily Bender.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critique of mystifying language about AI applies directly to LLM marketing phrases like 'reasoning' and 'understanding'"
+    },
+    {
+      "extract": "When an article only or primarily has quotes from company spokespeople or researchers who built an AI tool, it is likely to be over-optimistic about the potential benefits of the tool. News articles often re-use terms from companies' PR statements instead of describing how an AI tool works, which can lead to misleading wording that misrepresents the actual capabilities.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "sourcing",
+        "corporate PR",
+        "balance",
+        "AI coverage",
+        "critical sourcing"
+      ],
+      "notes": "Pitfalls 11-12: Treating spokespeople as neutral; repeating PR terms",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning about over-optimistic coverage when relying only on company sources and PR language is directly applicable to LLM product coverage"
+    },
+    {
+      "extract": "Limitations such as inadequate validation, bias, and potential for dual-use plague most AI tools. When these limitations are not discussed, readers get a skewed view. Even if an article discusses limitations and quotes experts, limitations are often downplayed in the structure of the article, for instance by positioning them at the end or giving them limited space. Limitations can also be caveated by positioning experts who explain them as skeptics who don't see the true potential of AI.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "limitations",
+        "story structure",
+        "balance",
+        "framing"
+      ],
+      "notes": "Pitfalls 13-15: No discussion of limitations, limitations de-emphasized, skeptics framing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Discussing limitations, bias, and dual-use rather than burying them is a critical reporting standard for all AI coverage"
+    },
+    {
+      "extract": "When discussing AI tools, articles often foreground the role of technical advances and downplay all the human labor that is necessary to build the system or keep it running. Downplaying human labor misleads readers into thinking that AI tools work autonomously, instead of clarifying that they require significant overhead in terms of human labor.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "invisible labor",
+        "automation narrative",
+        "human infrastructure"
+      ],
+      "notes": "Pitfall 16: Downplaying human labor. Cites Ghost Work by Gray and Suri.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Foregrounding human labor behind AI systems is even more relevant with LLMs that depend on massive annotation, RLHF, and content moderation labor"
+    },
+    {
+      "extract": "Including numbers like '90% accuracy' in the body of the article without specifying the conditions under which these numbers are calculated can misinform readers about the efficacy of an AI tool, especially because AI tools are known to suffer performance degradations even under slight changes to the datasets they are evaluated on.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "performance metrics",
+        "uncertainty",
+        "data literacy",
+        "statistical reporting"
+      ],
+      "notes": "Pitfall 17: Performance numbers reported without uncertainty estimation or caveats",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reporting AI accuracy claims without specifying conditions is a permanent verification pitfall amplified by LLM hype"
+    },
+    {
+      "extract": "Referring to AI tools as inscrutable black boxes is a category error. Instead of holding the developers of these tools accountable for their design choices, it shifts scrutiny to the technical aspects of the system. Journalists should hold developers accountable for the performance of AI tools rather than referring to these tools as black boxes and allowing developers to evade accountability.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "accountability",
+        "black box",
+        "transparency",
+        "developer responsibility"
+      ],
+      "notes": "Pitfall 18: The fallacy of inscrutability",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Holding AI developers accountable rather than hiding behind black box rhetoric is even more essential with LLMs"
+    },
+    {
+      "extract": "Identify working strategies for the following procedures in terms of where to find open data, which software to use, and what to do with the software: finding the most frequent words, phrases, and topics in governmental documents (textual analysis, topic modelling); visualizing statistics on a map (data visualization); automatic collection of news topics from different sites (aggregation). Reflect on what kind of competence requirements the methodology creates.",
+      "chapter": "Suggested Assignments",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "text analysis",
+        "topic modelling",
+        "data visualization",
+        "aggregation",
+        "open data",
+        "competence"
+      ],
+      "notes": "Assignment prompt; not direct method but outlines a practical pipeline for text/data work",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs now handle text analysis, topic modelling, and aggregation tasks directly, changing the software landscape for these procedures"
+    },
+    {
+      "extract": "To use AI for augmenting journalistic methods, reporters must learn more about the possibilities. Up to this point, responsibility for newsroom innovation is often located with IT departments. To ensure a professionally and financially sustainable development of journalism, editorial staff and management must get involved too.",
+      "chapter": "Creative Destruction of Journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom innovation",
+        "AI adoption",
+        "editorial leadership",
+        "organizational change"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial leadership involvement in AI adoption rather than leaving it to IT remains an essential organizational principle"
+    },
+    {
+      "extract": "The core elements of journalism — story telling in different formats, critical thinking, verification, human values, ethics, autonomy and integrity — become even more important at a time when smart machines are entering every part of society and professional life. The professional identity of journalists is likely to change, but the development indicates an upvaluation of the tasks, traits, and functions that are not possible to automate.",
+      "chapter": "Creative Destruction of Journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "professional identity",
+        "automation",
+        "human skills",
+        "verification",
+        "critical thinking"
+      ],
+      "notes": "Cites Lindén 2020",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalism skills becoming more valuable as automation handles routine tasks is a permanent professional identity truth"
+    },
+    {
+      "extract": "A critical understanding of AI requires tracing how system structures are based on decisions that veil economic, ethical or value-based political interests, which have consequences that maintain structures of power. Journalists play a pivotal role in mediating timely knowledge to policymakers, developers, researchers, educators, and civil society actors.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical AI literacy",
+        "power structures",
+        "journalism role",
+        "public interest"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tracing how AI system structures veil economic and political interests is permanently essential critical literacy"
+    },
+    {
+      "extract": "The public discourse in news media on AI has certain biases, such as the dominance of industry sources, major transnational organizations and their new products or initiatives, as well as insider and expert views. The gender, racial and regional biases of AI systems may also easily be transferred into the journalistic discourse and coverage if journalists are not conscious of them.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "source bias",
+        "industry dominance",
+        "gender bias",
+        "racial bias",
+        "AI discourse"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Bias in AI discourse from industry source dominance and gender/racial bias transfer is permanently relevant"
+    },
+    {
+      "extract": "Technology-anchored ways of reporting — such as immersive journalism and mobile journalism, as well as the collaborative work of data journalists, journalist-programmers and hacks and hackers — have deepened journalism's relationship to data and computer systems. Approaches with a problem-solving and developing mindset, such as constructive journalism, solutions-based journalism, investigative journalism and fact-checking, have helped journalists analyze and validate information and co-think with audiences.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "data journalism",
+        "fact-checking",
+        "solutions journalism",
+        "audience engagement"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs have transformed the computational journalism landscape; collaborative hacks-and-hackers model needs updating for AI-native workflows"
+    },
+    {
+      "extract": "Participatory, reciprocal and dialogical approaches in journalism invite citizens and consumers to investigate the everyday dimensions of narrow AI. Journalism can increase public understanding by diversifying the practices of presentation beyond mediation of information, engaging people through immersion, gamification and involvement.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience engagement",
+        "participatory journalism",
+        "immersion",
+        "gamification",
+        "AI literacy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Participatory approaches engaging citizens to investigate AI through immersion and gamification remain valid presentation strategies"
+    },
+    {
+      "extract": "The core competences foreseen as essential for future journalists include personal characteristics (curiosity, accuracy, ability to handle stress), personal competences (broad general knowledge, news judgment, criticality), abilities related to work and organisational behaviour (social skills, team player skills), and work practices and methods (information search and acquisition, interview techniques, analysis of information and data, sourcing, techniques of presentation and storytelling). Essential additions include numeracy skills — the ability to understand data, statistics and scale — and the ability to translate ideas from highly specialized terminology to everyday contexts.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "journalism competences",
+        "numeracy",
+        "data literacy",
+        "translation skills",
+        "education"
+      ],
+      "notes": "Cites Poynter industry report (Finberg & Klinger 2014)",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalism competences including numeracy, data literacy, and translation skills are permanently essential"
+    },
+    {
+      "extract": "Algorithms can be used to work closely with news valuation standards and praxis within an organization. The public service algorithm News Values developed for Swedish Radio personalizes the news feed based on news value ratings made by the journalists, both to create a more relevant news feed and to streamline organizational news valuation standards. The system of news values stimulates a discussion about how we do our journalism.",
+      "chapter": "AI's impact on journalistic professional identity and newsroom automation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "algorithms",
+        "news values",
+        "personalization",
+        "public service media",
+        "editorial standards"
+      ],
+      "notes": "Swedish Radio example; Zachrisson 2021",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "News value algorithms like Swedish Radio's need updating to account for LLM-based personalization and recommendation systems"
+    },
+    {
+      "extract": "Robots can easily learn to detect deviation from a norm or expectation: a feature used to generate news about earthquakes over 3.0 on the Richter scale or to scan the Swedish criminal record for deviations in comparison with historical data and then notify a journalist.",
+      "chapter": "AI's impact on journalistic professional identity and newsroom automation",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "anomaly detection",
+        "automated alerts",
+        "deviation from norm",
+        "news generation"
+      ],
+      "notes": "Examples: earthquake alerts (LeCompte 2015), Swedish crime data (Magnusson et al. 2016)",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Anomaly detection and automated alerts now benefit from LLM pattern recognition, expanding what robots can detect beyond simple numeric thresholds"
+    },
+    {
+      "extract": "Go through the national ethical code for journalists and discuss how the use of a chosen AI technology or methodology in journalism may alter the ethics.",
+      "chapter": "Suggested Assignments",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ethics",
+        "AI methodology",
+        "professional codes",
+        "ethical review"
+      ],
+      "notes": "Assignment prompt; practical exercise for ethics audit of AI tools",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reviewing ethical codes against AI methodology use is a permanent professional obligation that intensifies with LLMs"
+    }
+  ]
+}

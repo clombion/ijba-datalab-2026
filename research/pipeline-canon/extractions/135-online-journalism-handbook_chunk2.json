@@ -1,0 +1,563 @@
+{
+  "source_id": "135",
+  "source_file": "135-online-journalism-handbook.md",
+  "source_title": "The Online Journalism Handbook: Skills to Survive and Thrive in the Digital Age",
+  "author": "Paul Bradshaw",
+  "year": "3rd ed., 2023",
+  "chunk": "2/5",
+  "chunk_file": "135-online-journalism-handbook_chunk2.md",
+  "chunk_words": 39439,
+  "extracts": [
+    {
+      "extract": "Sharing the data behind stories is another way to make your stories adaptable: with access to that data, users can make new charts, infographics, and tools from it, or find new stories. These in turn may be interesting, informative, or useful to your audience---and move the story forward.",
+      "chapter": "Adaptable content",
+      "pipeline_step": "Present",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "reproducibility",
+        "audience engagement"
+      ],
+      "notes": "Frames data sharing as extending story impact, not just transparency"
+    },
+    {
+      "extract": "Nowadays, teams will often use the website GitHub to share their data---and code---allowing others to reproduce the results and even improve the scripts. One of the features of GitHub is that you can easily make a copy of someone's project by 'forking' it to your own account, which means a reader can work on the same code and data that the journalist used.",
+      "chapter": "Adaptable content",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "open source",
+        "GitHub",
+        "code sharing"
+      ],
+      "notes": "Positions reproducibility as a publishing norm, not just internal practice"
+    },
+    {
+      "extract": "Linking is a tool for providing transparency around the journalist's sources---and, by extension, trust. A 2021 Gallup/Knight Foundation survey of US news consumers found that 83% of 35-54-year-olds, and 65% of those aged 55 and older, said that linking was 'very important' in determining whether or not they trusted a news organisation, reinforcing earlier research that found hyperlinking to be the most highly rated tool in providing transparency.",
+      "chapter": "I is for interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "trust",
+        "source linking",
+        "verification"
+      ],
+      "notes": "Evidence-backed claim that linking directly builds audience trust"
+    },
+    {
+      "extract": "A journalist can communicate more succinctly through intelligent use of linking: the sentence 'police said in a Facebook post', for example, can be written as 'police said' instead, where 'said' is linked to the post that would otherwise need to be attributed. The link serves both as a clear signal that the information comes from an online source and information about where that source is.",
+      "chapter": "I is for interactivity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "attribution",
+        "source linking",
+        "brevity",
+        "transparency"
+      ],
+      "notes": "Linking as both attribution method and space-saving device"
+    },
+    {
+      "extract": "One reason is that the material may be deleted: in one survey of embeds in 2016, it was found that 10% had been 'modified or removed by their author since the article's publication'. If that happens then you will be left with a gap on your page where the embedded material should be---or worse, content that has been edited to misrepresent what was said. For this reason, some news organisations, or some stories, will instead use a screenshot of the social media post in order to ensure that there is a permanent record of the material.",
+      "chapter": "Embedding: The new linking",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "source preservation",
+        "embedded content",
+        "link rot"
+      ],
+      "notes": "Practical warning about embeds as ephemeral evidence"
+    },
+    {
+      "extract": "Passing along tweets as the official record grants authority and legitimacy to Twitter, not to sources, and certainly not to journalists. There is a risk of treating social media updates from officials as a form of 'convenient access' where journalists merely amplify what is said, rather than checking whether it is an accurate representation of what is happening, and where elite sources hide behind social media updates rather than engaging with journalists directly.",
+      "chapter": "Embedding: The new linking",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "source authority",
+        "social media as source",
+        "amplification bias"
+      ],
+      "notes": "Molyneux and McGregor critique of embed-as-evidence"
+    },
+    {
+      "extract": "We should be attentive to the intended audience for a social media post, and whether vastly increasing that audience reveals an important story---or just shames or embarrasses a random person. We should not automatically or even typically comply with a poster's original intention---but we should be aware of it.",
+      "chapter": "Embedding: The new linking",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "privacy",
+        "public interest",
+        "social media as source"
+      ],
+      "notes": "BuzzFeed editorial guidelines on embedding private social media content"
+    },
+    {
+      "extract": "Communities contain contributors who can lead you to a story or a key piece of information; communities contain keen moderators who can help maintain the standard of discussion; they even contain editors who will highlight mistakes, omissions, and new details to be incorporated into a story.",
+      "chapter": "C is for community ... and conversation",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "crowdsourcing",
+        "community",
+        "source finding",
+        "error correction"
+      ],
+      "notes": "Community as distributed verification and sourcing layer"
+    },
+    {
+      "extract": "Understanding what terms people are likely to use for something, then, is an important skill: when the Japanese volcano Mount Ontake erupted, most people outside Japan searched for 'Japan volcano', not 'Mount Ontake'. As a result, most news reporting used the former phrase over the latter.",
+      "chapter": "SEO level 1: Page content",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "keyword research",
+        "audience analysis",
+        "discoverability",
+        "SEO"
+      ],
+      "notes": "Keyword selection requires understanding audience mental models"
+    },
+    {
+      "extract": "Google Trends allows you to compare relative search volumes for different phrases. Check the country and time range matches your country and a recent timescale to get a more accurate result. Google's Keyword Planner will likewise suggest the most popular searches based on the word or phrase you type in.",
+      "chapter": "Trending topics",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Trends",
+        "keyword research",
+        "audience analysis",
+        "SEO tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The best way to have lots of people linking to you is, of course, to write fantastic, compelling, unique content that others want to share and link to. No amount of SEO techniques can avoid the need for great journalism.",
+      "chapter": "SEO level 3: Context",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "quality",
+        "discoverability",
+        "SEO",
+        "editorial standards"
+      ],
+      "notes": "Quality journalism as the ultimate SEO strategy"
+    },
+    {
+      "extract": "Publishing regularly, and persistently, for a long time on a core set of topics is a good strategy for improving your SEO. Search engines look for the same things we all do---evidence that you care.",
+      "chapter": "SEO level 3: Context",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "beat coverage",
+        "persistence",
+        "SEO",
+        "authority building"
+      ],
+      "notes": "Consistent beat reporting as both editorial and discovery strategy"
+    },
+    {
+      "extract": "The golden rule is to have a sense of who you are writing for. And this becomes more important when you're writing more than one piece. Always know what you expect of a single individual reader and what you would like them to get through in an ideal situation. Don't fall into that trap of just 'coverage'.",
+      "chapter": "Social media optimisation",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "audience analysis",
+        "editorial strategy",
+        "reader-centred design"
+      ],
+      "notes": "Chris Moran (Guardian) on audience-first editorial thinking"
+    },
+    {
+      "extract": "The same stories might be told in more engaging ways by using more socially successful formats such as debunking, explainers, or investigations that reveal a hidden truth.",
+      "chapter": "Jonah Peretti and the Google penalty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "format choice",
+        "explainers",
+        "investigations",
+        "audience engagement"
+      ],
+      "notes": "Annalee Newitz's 'Valley of Ambiguity' -- accessible formats for complex stories"
+    },
+    {
+      "extract": "Does the story involve a lot of facts or data? Consider an infographic or some sort of data visualisation. Have you secured an interview with a key character and a set of locations or items that tell their own story? An audio or video interview may be the most powerful choice of format.",
+      "chapter": "How? Thinking about format",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "format choice",
+        "data visualisation",
+        "infographics",
+        "storytelling"
+      ],
+      "notes": "Format selection decision tree driven by story content type"
+    },
+    {
+      "extract": "Such a strategy begins with the same principles as good journalism on any platform: knowing who you are writing for and why. If you know who your audience is, you have a good idea of what information is most valuable, what knowledge to take for granted, what style is appropriate, and where and when is best to reach them.",
+      "chapter": "The role of content strategy",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "content strategy",
+        "audience analysis",
+        "editorial planning"
+      ],
+      "notes": "Content strategy as the bridge between editorial judgement and publishing decisions"
+    },
+    {
+      "extract": "Just because you can publish your story instantly does not mean that you should. News organisations often adopt publishing schedules online so that stories that are not time-sensitive can reach the biggest audience.",
+      "chapter": "When? Thinking about timing",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "publishing timing",
+        "editorial strategy",
+        "audience reach"
+      ],
+      "notes": "Strategic timing as organizational practice, not just individual choice"
+    },
+    {
+      "extract": "One of the things that defines professional reporting is the fact that we are writing for a specific audience for purposes related to our job, rather than for our friends and our own purposes. That audience shapes what information we include, and what knowledge we take for granted.",
+      "chapter": "Starting out: Creating a professional social media account",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience analysis",
+        "professionalism",
+        "editorial judgement"
+      ],
+      "notes": "Audience-awareness as defining feature of professional journalism"
+    },
+    {
+      "extract": "Before you retweet, like, or share any update from another user, take a moment to check if you are confident it is true. If there is a link in the update have you clicked on it and checked that it is what the update says it is? Is the link on a reliable site? Does the story sound 'too good to be true'? Is the account reliable? If an image is included, use Google's reverse image search feature to find out where that image has been used before.",
+      "chapter": "Think before you retweet: The role of verification on social media",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "fact-checking",
+        "social media",
+        "reverse image search"
+      ],
+      "notes": "Verification checklist for social media sharing"
+    },
+    {
+      "extract": "Engage with the source and ask further questions first, for example, 'Where did you hear about this?' or 'Have you got a link to more details?' If they do not respond, assume that they cannot provide more details and be extra sceptical.",
+      "chapter": "Think before you retweet: The role of verification on social media",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "source engagement",
+        "scepticism",
+        "social media"
+      ],
+      "notes": "Active verification through source dialogue rather than passive acceptance"
+    },
+    {
+      "extract": "If you do make a mistake, it's important to acknowledge that quickly and take steps to correct it. Don't delete the update---it can suggest that you are trying to cover up your mistake and prevent you from reaching the same people who saw or shared it. If you can edit the original, then write 'Correction' along with any clarification. Make it clear what wasn't correct in the original post.",
+      "chapter": "What to do when you get it wrong",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "corrections",
+        "transparency",
+        "error handling",
+        "accountability"
+      ],
+      "notes": "Correction protocol for social media errors"
+    },
+    {
+      "extract": "Using your social media account to separate fact from fiction is one of the most valuable services you can perform as a journalist. You might find a claim by a politician or celebrity that is not supported by the facts---and make that part of your update. Adding context to a story is another way you can add value: if someone has made an important announcement, can you provide the background to that? The timeline leading up to it? A key statistic? If someone is saying more money is being spent, is that accounting for inflation?",
+      "chapter": "Separating fact from fiction---or adding context",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "context",
+        "inflation adjustment",
+        "claims verification"
+      ],
+      "notes": "Practical examples of adding analytical context to claims"
+    },
+    {
+      "extract": "You can invite others into your process. For example, if a politician is claiming that a protest was 'violent', you can ask people who were there whether that was their experience (you will still need to verify their claims, too). Or you might appeal to legal experts to clarify a point of law.",
+      "chapter": "Separating fact from fiction---or adding context",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourced verification",
+        "expert sourcing",
+        "open journalism"
+      ],
+      "notes": "Verification as community process, with caveat about recursive verification need"
+    },
+    {
+      "extract": "Experimentation and measurement are central to understanding what is effective in writing for your audience on social media. The measurement part is relatively easy. But experimentation is more important. Because while you can use measurement to find out which updates perform the best and worst, it requires experimentation to tell you why.",
+      "chapter": "The importance of experimenting and measuring",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "experimentation",
+        "measurement",
+        "audience analytics",
+        "evidence-based practice"
+      ],
+      "notes": "Measurement tells what; experimentation tells why"
+    },
+    {
+      "extract": "Commonly you experiment by trying to rule out various factors that could influence the results: if you are testing timing then you might leave the text itself unchanged between each update. If you are testing different text you may try to keep timing as close together as possible, and so on.",
+      "chapter": "The importance of experimenting and measuring",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "experimental design",
+        "controlled testing",
+        "variable isolation"
+      ],
+      "notes": "Describes basic controlled experiment methodology for content testing"
+    },
+    {
+      "extract": "One thing to beware of is analysing those that already follow you rather than those who you want to start following you (and might be online at a different time). It is important to analyse both your own account and those of direct competitors to see whether you could be doing anything differently.",
+      "chapter": "Measuring your audience",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "selection bias",
+        "audience analytics",
+        "survivorship bias"
+      ],
+      "notes": "Warns against survivorship bias in audience analysis"
+    },
+    {
+      "extract": "Online, however, publishers can measure how long the user spends on the page, how far they scroll down, and even where their mouse travels and how they interact with the page.",
+      "chapter": "B is for brevity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience analytics",
+        "engagement metrics",
+        "user behaviour data"
+      ],
+      "notes": "Behavioural data as empirical basis for editorial decisions"
+    },
+    {
+      "extract": "One analysis of over one million articles found that 'articles with an image once every 75-100 words got double the amount of shares of articles with fewer images'. Note, however, that you need to get the balance right: articles with even more frequent images got fewer shares.",
+      "chapter": "S is for scannability",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "visual storytelling",
+        "engagement metrics",
+        "image density",
+        "evidence-based practice"
+      ],
+      "notes": "Data-driven finding with non-linear relationship warning"
+    },
+    {
+      "extract": "Content that evokes high-arousal positive (awe) or negative (anger or anxiety) emotions is more viral. Content that evokes low-arousal, or deactivating, emotions (e.g. sadness) is less viral.",
+      "chapter": "Jonah Peretti and the Google penalty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "virality",
+        "emotional valence",
+        "audience psychology",
+        "engagement"
+      ],
+      "notes": "Berger and Milkman research on emotional arousal and sharing behaviour"
+    },
+    {
+      "extract": "The nature of the story influences the format you might use to report it. Does the event take place over a geographical area, and will users want to see the movement or focus on a particular location? Then a map might be most appropriate. Are things changing so fast that a traditional 'story' format is going to be inadequate? Then a liveblog may work better. Is there a wealth of material out there being produced by witnesses? A gallery, portal, or aggregator might all be good choices. Is there some complex science or backstory that needs to be understood? An explainer or backgrounder can work well.",
+      "chapter": "How? Thinking about format",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "format choice",
+        "maps",
+        "liveblogs",
+        "explainers",
+        "story-driven design"
+      ],
+      "notes": "Decision tree matching story characteristics to format types"
+    },
+    {
+      "extract": "The mistake that's often made here is to assume that something is either public or private. In reality, there is a sliding scale between the two. When in March 2014 one Twitter user asked her followers 'What were you wearing when you were sexually assaulted?' the answers were public to anyone who might search for them---but publishing those responses in an article generated a backlash. Why? Because tweeting to a few hundred followers is not the same as a tweet being published on BuzzFeed.",
+      "chapter": "Embedding: The new linking",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy spectrum",
+        "ethics",
+        "consent",
+        "social media as source"
+      ],
+      "notes": "Public-private is a continuum, not a binary -- key ethical principle for data sourcing"
+    },
+    {
+      "extract": "Search engine optimisation (SEO) is the practice of optimising your content so that search engines can best understand it and are more likely to suggest it in response to a relevant search query. This does not mean that we are 'writing for search engines': we are writing for people. It is people's behaviour---clicking through to your articles, reading them, sharing them, and linking to them---that shapes how highly search engines rank your content.",
+      "chapter": "Search engine optimisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "SEO",
+        "audience-centred design",
+        "discoverability"
+      ],
+      "notes": "Reframes SEO as human-centred rather than technical exercise"
+    },
+    {
+      "extract": "Code is particularly important for images, video, and audio. Remember that search engines can't 'see' or 'hear'. Instead, they use a number of clues to try to understand multimedia. This includes: the filename (try to avoid using default names like 'IMG5634.jpg' and change it to something descriptive like 'LionelMessi.jpg'); captions (make sure these use keywords); if you are embedding media you've uploaded to services like YouTube, Vimeo, Soundcloud, make sure you've edited the title, description, category, and tags to include keywords.",
+      "chapter": "SEO level 2: Code",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metadata",
+        "SEO",
+        "multimedia publishing",
+        "file naming"
+      ],
+      "notes": "Metadata hygiene for multimedia assets -- applies to data viz too"
+    },
+    {
+      "extract": "Don't just spread information. Be careful. Be skeptical. Add context.",
+      "chapter": "Think before you retweet: The role of verification on social media",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "scepticism",
+        "context",
+        "editorial judgement"
+      ],
+      "notes": "NPR social media guidelines -- concise verification principle"
+    },
+    {
+      "extract": "Look out for out-of-date material too. In the wake of terrorist attacks in Paris in November 2015, a seven-month-old story about attacks in Kenya became the top story on the BBC website with 7.5 million views coming from social media. Many---although not all---of these were people mistakenly believing the attack had just happened.",
+      "chapter": "Think before you retweet: The role of verification on social media",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "temporal verification",
+        "misinformation",
+        "social media",
+        "stale data"
+      ],
+      "notes": "Timeliness as verification dimension -- old data recycled as new"
+    },
+    {
+      "extract": "Fairness involves making sure that important or significant facts are not left out; making sure that all information is relevant; being honest; and providing the opportunity for individuals or organisations 'to address assertions or claims about them made by others'.",
+      "chapter": "Starting out: Creating a professional social media account",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "fairness",
+        "right of reply",
+        "editorial standards",
+        "completeness"
+      ],
+      "notes": "Washington Post definition of fairness as editorial standard"
+    },
+    {
+      "extract": "A clear summary that tells the story quickly. In other words, the 'inverted pyramid' structure recommended in traditional newswriting. Avoid 'setting the scene' unless you are writing a longform piece.",
+      "chapter": "S is for scannability",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "inverted pyramid",
+        "story structure",
+        "scannability",
+        "web writing"
+      ],
+      "notes": "Inverted pyramid persists as default online structure"
+    },
+    {
+      "extract": "When it comes to news tweets, quotes and digits can be more effective than videos in leading to retweets. It may be that quotes indicate original information (rather than the reporter's second-hand understanding) and digits indicate facts (rather than opinion). Again, it's all about scarcity and standing out from the noise on social.",
+      "chapter": "Use quotes and digits where you can",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numbers",
+        "quotes",
+        "social media",
+        "original information",
+        "scarcity"
+      ],
+      "notes": "Digits as trust signal -- implies data-backed claims have inherent social media advantage"
+    },
+    {
+      "extract": "The Washington Post found that photo galleries (without sound) performed better during the day while people were at work, while video was watched more in the evening when users might not have to worry about colleagues hearing what they were watching.",
+      "chapter": "When? Thinking about timing",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "audience behaviour",
+        "format-timing interaction",
+        "publishing strategy"
+      ],
+      "notes": "Format effectiveness varies by time of day -- data-driven finding"
+    },
+    {
+      "extract": "Among Republicans, compared with quotes, 'embedded tweets were unique in eliciting positive emotions which mediated higher ratings of Donald Trump's warmth and competence', potentially because of non-textual information such as the author's profile image; likes and retweets signalling community support; or elements that would not be part of a quote, such as hashtags. In other words, by embedding the tweet, you may be sacrificing editorial control over certain elements around how the words are presented.",
+      "chapter": "Embedding: The new linking",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing effects",
+        "editorial control",
+        "embedding",
+        "presentation bias"
+      ],
+      "notes": "Research evidence that presentation format (embed vs quote) changes audience perception"
+    }
+  ]
+}

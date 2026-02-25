@@ -1,0 +1,249 @@
+{
+  "source_id": "50",
+  "source_file": "50-que-es-periodismo-de-datos.md",
+  "source_title": "¿Qué es el periodismo de datos?",
+  "author": "Sandra Crucianelli",
+  "year": "2013",
+  "chunk": "1/1",
+  "chunk_file": "50-que-es-periodismo-de-datos_chunk1.md",
+  "chunk_words": 6308,
+  "extracts": [
+    {
+      "extract": "Data journalism involves investigative, in-depth, precision, computer-assisted and analytical journalism, to which three fruits of technological innovation are added: large volumes of data, interactive visualization, and incorporation of the programmer into the journalistic team.",
+      "chapter": "What is data journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "interdisciplinarity",
+        "team composition",
+        "data journalism identity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are at least four different products that arise from data journalism: data-driven articles, interactive visualizations, open datasets, and news apps.",
+      "chapter": "What is data journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "outputs",
+        "news apps",
+        "visualisation",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In countries where there are no public information access laws or these don't work as they should, media outlets and organizations can devote themselves to the search, extraction and opening of public data. Since there are data that governments do not allow access to, media outlets can venture into that territory.",
+      "chapter": "What is data journalism?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "open data",
+        "media role",
+        "access to information",
+        "civic function"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For data journalism one can do without many things, since there are free digital tools, but what we cannot do without is data. It is a necessary condition without which we cannot even begin to formulate any journalistic hypothesis.",
+      "chapter": "What is data journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data as prerequisite",
+        "hypothesis formation",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Visualizing data is not the same as accessing it. For data to be accessible it must be shown in a reusable format. An official document uploaded to Flickr as an image is not accessible — one would have to resort to OCR to extract the data, and these programs don't always work efficiently.",
+      "chapter": "Visualizing data is not the same as accessing it",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "file formats",
+        "reusability",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When a CSV data file is downloaded, the columns must be restructured using Text to Columns in the Data tab, selecting Delimited with Tab and Comma separators.",
+      "chapter": "Visualizing data is not the same as accessing it",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "CSV",
+        "spreadsheets",
+        "data cleaning",
+        "file formats"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Short chronicles are suggested, with forceful conclusions and an important, dominant visualization in the article, when telling a story. Without an appropriate visualization accompanying the analysis of that data, it would be impossible to simply visualize the variables under study.",
+      "chapter": "Short chronicles, with forceful conclusions and a strong visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "visualisation",
+        "brevity",
+        "narrative structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Comparison is perhaps one of the most used practices in journalism, but when a large amount of numerical information must be processed, the matter becomes complicated. Therefore, different ways of visualizing the dataset are used; in this way, we can better analyze certain processes and changes not detected at a glance.",
+      "chapter": "Short chronicles, with forceful conclusions and a strong visualization",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "comparison",
+        "visualisation",
+        "pattern detection",
+        "analytical method"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Stating that data journalism requires a specialized visualization team as a sine qua non condition would establish an excessively large and dangerous gap between some and others. For those who have not received formal instruction, simpler ready-to-use resources remain.",
+      "chapter": "For visualization beginners: ChartGo and, afterward, Many Eyes",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "accessibility",
+        "skills gap",
+        "resource constraints",
+        "democratisation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A GIS is software that allows a better visual representation of numerical data, as these are distributed geographically and spatially. Census data, for example, tend to be boring; although, managed through GIS programs, they can offer a clear view of the variables under study.",
+      "chapter": "A GIS allows a better visual representation of numerical data",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "GIS",
+        "mapping",
+        "spatial analysis",
+        "visualisation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Mashups allow the combination of data that exists in different sources, such as YouTube, Flickr, Google Maps and Google Earth. The scenario in which mashups are developed is incredibly versatile and new resources appear every day.",
+      "chapter": "Mashups allow combining data from different sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "mashups",
+        "data integration",
+        "hybrid applications",
+        "web tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Google Earth is very useful when investigating companies or cases involving properties acquired by public officials, or the ecological impact of pollution. Google's advanced search allows finding places, people, companies by selecting the KMZ/KML format that returns Google Earth views.",
+      "chapter": "Mashups allow combining data from different sources",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Earth",
+        "investigation",
+        "geolocation",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism requires permanent training and knowledge of subjects generally far from the preferences of the conventional journalist. One must understand how the Public Administration works, know how to interpret laws, decrees and ordinances. If a journalist does not understand how the institutions of their country function, they will find it difficult to embark on the path successfully.",
+      "chapter": "Data journalism requires permanent training",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training",
+        "institutional knowledge",
+        "skills development",
+        "domain expertise"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Skills developed in web searching: using Google in the traditional way is not enough. One must learn to get more out of advanced searches, by format, by domain and by date; but also, in the absence of a national open data initiative, monitor the possible official sites where there is data.",
+      "chapter": "Data journalism requires permanent training",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search skills",
+        "advanced search",
+        "data acquisition",
+        "monitoring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Have basic mathematics and statistics knowledge, both descriptive and inferential: a journalist who is innumerate will not have sufficient capacity to face the process known as the interview with the numbers. This is of particular interest when it comes to analysis of public budgets, taxes, crime and environmental contamination.",
+      "chapter": "Data journalism requires permanent training",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "statistics",
+        "quantitative literacy",
+        "analytical skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The data journalist must always consider the possibility that, on occasion, there are no stories behind the data. Data journalism involves hard work — one must access dozens, if not hundreds or thousands of spreadsheets. Sometimes the routine is disappointing, because you won't always find what you're looking for.",
+      "chapter": "Data journalism requires permanent training",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "expectations",
+        "persistence",
+        "null results",
+        "work ethic"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Often, the volume of data is so large that it is impossible to find a story unless an application is designed that allows us to group and analyze variables, for example, by geographic location, by date, by company name. News apps are the fruit of the joint work of journalists and computer programmers.",
+      "chapter": "What is data journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "news apps",
+        "programmer collaboration",
+        "scale",
+        "team composition"
+      ],
+      "notes": ""
+    }
+  ]
+}

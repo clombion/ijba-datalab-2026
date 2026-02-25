@@ -1,0 +1,717 @@
+{
+  "source_id": "8",
+  "source_file": "08-facts-are-sacred.md",
+  "source_title": "Facts Are Sacred",
+  "author": "Simon Rogers",
+  "year": "2013",
+  "chunk": null,
+  "chunk_words": 27593,
+  "extracts": [
+    {
+      "extract": "Data journalism is all about diverse sources. At the Guardian, being part of the news process means that we're part of the news desk (news organisations are obsessed with internal geography), go to the key news meetings and try to make sure that data is part of editorial debate.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom integration",
+        "editorial workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There's now so much data out there in the world that we try to provide the key facts for each story -- and finding the right information can be as much of a lengthy journalistic task as finding the right interviewee for an article.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data curation",
+        "source selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism is 80% perspiration, 10% great idea, 10% output. We spend hours making datasets work, reformatting pdfs, mashing datasets together. Mostly, we act as the bridge between the data (and those who are pretty much hopeless at explaining it) and the people out there in the real world who want to understand what that story is really about.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data wrangling",
+        "effort distribution",
+        "journalist as bridge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Increasingly there's a new short-form of data journalism, which is about swiftly finding the key data, analysing it and guiding readers through it while the story is still in the news. The trick is to produce these news data analyses, using the tech we have, as quickly as we can. And still get it right.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "speed",
+        "timeliness",
+        "short-form analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The bigger task is to think about the data like a journalist, rather than an analyst. What's interesting about these numbers? What's new? What would happen if I mashed it up with something else? Answering those questions is more important than anything else.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalistic thinking",
+        "questioning data",
+        "news judgement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism is not graphics and visualisations. It's about telling the story in the best way possible. Sometimes that will be a visualisation or a map. But sometimes it's a news story. Sometimes, just publishing the number is enough.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "format choice",
+        "output flexibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If data journalism is about anything, it's the flexibility to search for new ways of storytelling. And more and more reporters are realising that.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling innovation",
+        "flexibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The data has to be available in a form you can manipulate -- as an excel spreadsheet or a CSV file. PDF files look like books, read like books and may as well be books; they're of absolutely no use to anyone wanting to analyse the data for themselves or to visualise that data.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data formats",
+        "machine-readable data",
+        "PDF problem"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If that data is properly formatted, i.e. country names have codes on them so you can tell the difference between 'Burma' and 'Myanmar', or Congo and Congo, Dem Rep -- well, suddenly you can start mashing data together, combining poverty rates with carbon emissions or crime figures with economic growth.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data standardization",
+        "identifier codes",
+        "data merging"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Now we trust governments very little, and traditional media outlets even less. We want to know the numbers behind the story for ourselves -- to see if we're being told the truth and discover our own stories.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "trust",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Every local authority in England has been forced to publish every individual item of spending over £500. While some commentators worry about the end of local journalism with the closure of newspapers around the country, here is an endless source of stories just waiting to reward reporters hungry enough to find them.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "local journalism",
+        "story discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A new role for journalists as a bridge and guide between those in power who have the data (and are rubbish at explaining it) and the public who desperately want to understand the data and access it but need help. We can be that bridge.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalist role",
+        "bridge metaphor",
+        "public service"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What we wanted to do was enable our team of specialist reporters to get great human stories from the information -- and we wanted to analyse it to get the big picture, to show how the war really is going.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "team workflow",
+        "human stories from data",
+        "big picture analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It was central to what we would do quite early on that we would not publish the full database. WikiLeaks was already going to do that and we wanted to make sure that we didn't reveal the names of informants or unnecessarily endanger Nato troops.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "harm minimization",
+        "responsible publication",
+        "editorial judgement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The data came to us as a huge excel file -- over 92,201 rows of data, some with nothing in at all or poorly formatted. Anything over 60,000 rows or so brought our version of Excel down in dramatic fashion. After COINS, huge datasets hold no fear for us. Our team built a simple internal database. Reporters could now search stories for key words or events. Suddenly the dataset became accessible and generating stories became easier.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "large datasets",
+        "internal tools",
+        "Excel limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We also started filtering the data to help us tell one of the key stories of the war: the rise in IED attacks. This data allowed us to see that the south, where British and Canadian troops were based then, was the worst-hit area -- which backed up what our reporters who had covered the war knew.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "filtering",
+        "pattern finding",
+        "reporter knowledge as verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The casualties data brought its own challenges. It was often inaccurately compiled and incomplete -- we compared Nato-recorded casualties too, to test the veracity of the data, and the results varied.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "cross-referencing",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This is not 'every death' or anything close to it. This is every death recorded by Multi-National Forces Iraq. There is underreporting in these data for a number of reasons including: there was no Coalition or Iraqi unit around to record the death; the units were engaged in such high levels of combat that did not have time to track down every casualty; or the outcome of the incident was ambiguous.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data limitations",
+        "underreporting",
+        "completeness bias"
+      ],
+      "notes": "Quoting Jacob Shapiro of Princeton"
+    },
+    {
+      "extract": "One needs to understand how the data were created. This is critical for understanding the likely biases and weaknesses in the data. The reporting standards for Significant Actions changed dramatically over time and the reporting procedure varied across units. In general, the data are likely to be more complete later in the war, when reporting standards were more uniform.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "bias",
+        "reporting standards",
+        "methodology awareness"
+      ],
+      "notes": "Quoting Jacob Shapiro of Princeton"
+    },
+    {
+      "extract": "Only reviewing incidents that resulted in casualties may result in a heavily skewed view of the war. Whether a violent incident causes casualties, especially civilian ones, has a large random component and so we should be careful in the inferences we can draw from this reduced dataset.",
+      "chapter": "Data in the News: WikiLeaks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "selection bias",
+        "inference limitations",
+        "sampling"
+      ],
+      "notes": "Quoting Jacob Shapiro of Princeton"
+    },
+    {
+      "extract": "Every single department publishes its annual resource account as a PDF. Those PDFs are full of tables, but not one department publishes these as a spreadsheet or any accessible format. This really matters because we then have to spend a long time extracting the data from each report. We don't want to do this by hand because we do not want to make mistakes.",
+      "chapter": "3. UK Government Spending Broken Down",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "data formats",
+        "error prevention"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You cannot compare one year's report with another. This is because pretty much every year, each department shifts its spending around and changes the way it counts things. This is why we always just show the latest financial year and use the figures for the previous year given in the same report.",
+      "chapter": "3. UK Government Spending Broken Down",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "comparability",
+        "changing definitions",
+        "longitudinal analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first thing to do is to find each department's annual resource accounts, which come out in July each year. They give you the figures you want, just not in the format you need. Government departmental spending is split into four parts: DEL capital, DEL resource, AME capital, AME resource. Add those four together and you get the department's total spending.",
+      "chapter": "In Practice: How to Find Out UK Public Spending",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "government data",
+        "spending analysis",
+        "source identification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When you get the two figures, you may want to work out the %-change including inflation -- which makes small increases effectively a cut in spending. Inflation-adjusted changes are calculated by deflating the cash spending figures by the change in the GDP deflator, which is available from HM Treasury.",
+      "chapter": "In Practice: How to Find Out UK Public Spending",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "inflation adjustment",
+        "GDP deflator",
+        "spending analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "That environment is one where data journalism can start to provide real answers, based on evidence rather than assertion.",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evidence-based journalism",
+        "countering assertion"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For the Guardian it meant instant data journalism. Firstly, it was filling the hole of knowledge for anyone wanting to know what was happening where. We compiled a list of every incident where there was a verified report, then mapped it with Google Fusion tables, and allowed people to download the data behind it -- possibly the simplest but most popular thing we did.",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "breaking news data",
+        "mapping",
+        "verification",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When we requested these registers we were met with stony silence by the courts themselves. It was only when the Ministry of Justice sent an instruction to every court in the country that they released the data -- as PDFs. These were particularly tricky to extract, except by hand. We wanted to be able to create a picture of who was in court, what happened to them and where they came from.",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "court records",
+        "data access barriers",
+        "PDF extraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the defining features of the response to the riots is the pronouncement of causes before there was any data. 'These riots were not about poverty,' said David Cameron. But the question is: how do we know? If poverty affects health, education and crime, could it be a factor?",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evidence before assertion",
+        "questioning claims",
+        "hypothesis testing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We wanted to know what would happen if we overlaid those addresses with the poverty indicators mapped by England's Indices of Multiple Deprivation, which map poverty in very small areas across the country. We had already done this with the riot locations themselves, but knowing where people came from seemed a better indicator.",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data merging",
+        "geographic analysis",
+        "deprivation indices",
+        "spatial analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If data journalism is traditionally a long, drawn-out affair -- resulting in analysis of only marginal interest -- the riots highlighted a new type of data work: instant data journalism which helps to make an evolving news story clearer. But what made this compelling is what came next: a rigorous, academically significant piece of social research, which brought together the Guardian's best journalists and dedicated researchers.",
+      "chapter": "Data in the News: The Riots",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "instant data journalism",
+        "academic collaboration",
+        "research partnerships"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Caplan and Meyer got together, drafted a questionnaire and then trained 30 black interviewers to go into the affected areas and gather information. The next week the interviewers went into the field, sending each day's interviews back to the university. In the third week Meyer and Caplan analysed the data and Meyer started writing it up. Just a month after the disturbances had started, the Free Press published its findings.",
+      "chapter": "Reading the 1967 Detroit Riots",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "survey methods",
+        "academic-journalism collaboration",
+        "rapid research"
+      ],
+      "notes": "Philip Meyer's precision journalism approach"
+    },
+    {
+      "extract": "When the riots in Detroit started he saw an opportunity to apply academic rigour to journalistic reportage. 'It struck me like a bolt of lightning,' says Meyer. 'The University of California had just released their report into the Watts riots and I thought, we could do this too. But people wouldn't have to wait two years for the results. With journalists we could do it faster.'",
+      "chapter": "Reading the 1967 Detroit Riots",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision journalism",
+        "academic rigour",
+        "speed advantage"
+      ],
+      "notes": "Philip Meyer quote"
+    },
+    {
+      "extract": "A wealth of information creates a poverty of attention and a need to allocate that attention efficiently among the overabundance of information sources that might consume it.",
+      "chapter": "4. Making Money From Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "information overload",
+        "attention economy"
+      ],
+      "notes": "Quoting Herbert Simon"
+    },
+    {
+      "extract": "If you really want to wind people up, don't write about budget cuts or school buildings. Ask readers to help you compile a list of every Doctor Who villain. Ever. The comments on the article now read like the ultimate distillation of Doctor Who knowledge. It shows the power of putting raw data into the public arena.",
+      "chapter": "7. Crowdsourcing",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "community engagement",
+        "reader expertise"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While we got stories from the information, we didn't get the raw data to allow us to work out how different MPs in different parties claimed their expenses. A side effect of getting lots of people to help you with stories: you need lots of people at the other end to go through what it means.",
+      "chapter": "7. Crowdsourcing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourcing limitations",
+        "data quality",
+        "resource requirements"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The second time we repeated the exercise, it was more like a game and we asked less of our readers. The entire set of documents was reviewed twice over, but we didn't ask for data, just to help us find interesting stuff.",
+      "chapter": "7. Crowdsourcing",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing iteration",
+        "gamification",
+        "task design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The power of the web has made data analysis a collaborative process, which for us means better stories and more scrutiny. The Datablog now has an active community of users who visualise the data we publish. The data posts we produce are subject to intense scrutiny. If we get anything wrong, someone lets us know about it.",
+      "chapter": "7. Crowdsourcing",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "community verification",
+        "open scrutiny",
+        "collaborative analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Behind all our data journalism stories is a process. It's not rocket science -- the biggest part of the discussion comes in the creation of the stories rather than the process, which is time-consuming but simple. Some people say the answer is to become a sort of super hacker, write code and immerse yourself in SQL. You can decide to take that approach. But a lot of the work we do is just in Excel.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "accessibility",
+        "Excel",
+        "low-code approach",
+        "process"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sourcing the data is a much undervalued skill. The general approach is to look for the most authoritative place for your data.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source authority",
+        "data sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We then start looking at what we can do with the data -- do we need to mash it up with another dataset? How can we show changes over time? Those spreadsheets often have to be seriously tidied up -- all those extraneous columns and weirdly merged cells really don't help. And that's assuming it's not a PDF, the worst format for data known to humankind.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "spreadsheet tidying",
+        "planning analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tables on pages can sometimes be extracted using Adobe Professional (which has an option if you highlight the table and control-click it). Often it's simpler to use a basic programme like Text Wrangler to access the data. If a table's published on a web page, one thing worth trying is saving the web page as html -- and then opening it in Excel, which then opens it as a table.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "Adobe Professional",
+        "Text Wrangler",
+        "HTML tables"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The answer is to copy the data out, open a new Excel window and 'paste special' the data into it as 'values' -- then you can work out where those troublesome lines are. Another important thing to do is keep the codes. Often official data comes with the official codes added in -- each school, hospital, constituency and local authority has a unique identifier code. They're useful because you may want to start mashing datasets together and it's amazing how many different spellings and word arrangements can get in the way.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel paste special",
+        "identifier codes",
+        "data merging",
+        "standardization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "VLOOKUP in Excel allows you to bring datasets together. It looks for the value in one sheet and brings in the results from another. Pivot table reports in Excel also allow users to count the number of times something comes up, aggregate data or work out averages. It's really useful and we used it a lot with the WikiLeaks data.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel VLOOKUP",
+        "pivot tables",
+        "data aggregation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Next up we can actually start to perform the calculations that will tell us if there's a story or not -- and then sanity check them to see if it just sounds wrong. The most common are the simplest -- percentage change or rate per 100,000 people.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "sanity checking",
+        "basic calculations",
+        "percentage change",
+        "rates"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "At the end of that process is the output -- will it be a story or a graphic or a visualisation, and what tools will we use? Our top tools are the free ones that we can produce something quickly with. We commonly use Google charts for small line graphs and pies, or Google Fusion Tables to create maps quickly and easily.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Charts",
+        "Google Fusion Tables",
+        "free tools",
+        "quick output"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "But the best option of all is to find a designer you can work with. Designing a graphic and analysing data are two different jobs.",
+      "chapter": "8. How We Do It: The Minute Guide To Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "design collaboration",
+        "separation of skills",
+        "team roles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We often use free tools because they are quick and tell the story simply. But when we have the time, nothing beats having a good designer create something beautiful.",
+      "chapter": "In Defence of Bad Graphics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool selection",
+        "speed vs quality tradeoff",
+        "design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data visualisation is no more inherently neutral than any other form of statistical analysis. The great hope of some data visualisers runs into the buffers of reality. A graph is just another way of telling a story. But whose story?",
+      "chapter": "In Defence of Bad Graphics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization bias",
+        "neutrality",
+        "editorial choices"
+      ],
+      "notes": "Quoting Creative Review"
+    },
+    {
+      "extract": "Locally, those big campaigns have translated to thousands of ultra-local journalists -- reporters who might write about an area only a few miles wide. These reporters either hunt down the data they need or demand their local governments give it to them through Freedom of Information legislation. This is the Open Data movement in action.",
+      "chapter": "1. Data Everywhere",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "local journalism",
+        "data acquisition",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our guide to Nato operations in Libya is dynamically fed from a spreadsheet, which updates from the Nato daily action briefing. It looks good because it's been well-designed; it works because it's easy to update every day.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "live updating",
+        "spreadsheet-driven",
+        "design-data combination"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Without knowing the state of society, how can things ever get any better? This was using data to help fight for a decent education system. The tools we have to analyse the data may have changed; that motivation has stayed exactly the same.",
+      "chapter": "2. The First Guardian Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "social purpose",
+        "accountability",
+        "data journalism motivation"
+      ],
+      "notes": "Reflecting on 1821 Guardian data journalism"
+    },
+    {
+      "extract": "Patrick Cain works by doggedly pursuing datasets, often from official sources which don't want to know, but bolstered by a powerful freedom of information system. If something is uncontroversial there are often no issues about releasing it. Sometimes there is ineffective resistance. Mostly I get things in the mail as the law demands.",
+      "chapter": "6. Data Around The World",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "persistence",
+        "data acquisition strategy"
+      ],
+      "notes": "Quoting Patrick Cain, Toronto"
+    },
+    {
+      "extract": "Making that data more accessible and easier to do stuff with has become part of the data journalism process.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data accessibility",
+        "public service"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Good design still really matters. Work because they're designed not by machine but by humans who understand the issues involved.",
+      "chapter": "10 Things You Will Learn In This Book",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "design quality",
+        "human understanding",
+        "editorial design"
+      ],
+      "notes": ""
+    }
+  ]
+}

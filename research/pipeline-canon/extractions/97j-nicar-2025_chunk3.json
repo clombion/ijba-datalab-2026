@@ -1,0 +1,25 @@
+{
+  "source_id": "97",
+  "source_file": "97j-nicar-2025.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "3/3",
+  "chunk_file": "97j-nicar-2025_chunk3.md",
+  "chunk_words": 27852,
+  "extracts": [
+    {
+      "extract": "Other Tools: Docling (ds4sd.github.io/docling/), olmOCR (olmocr.allenai.org/), AWS Textract (aws.amazon.com/textract/)",
+      "chapter": "Other Tools",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "document extraction",
+        "tool alternatives"
+      ],
+      "notes": "Bare tool list with no explanatory text; offered as alternatives to Gemini-based OCR demonstrated in prior sections"
+    }
+  ]
+}

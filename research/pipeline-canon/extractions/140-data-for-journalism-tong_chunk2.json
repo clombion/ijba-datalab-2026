@@ -1,0 +1,658 @@
+{
+  "source_id": "140",
+  "source_file": "140-data-for-journalism-tong.md",
+  "source_title": "Data for Journalism: Between Transparency and Accountability",
+  "author": "Jingrong Tong",
+  "year": "2022",
+  "chunk": "2/2",
+  "chunk_file": "140-data-for-journalism-tong_chunk2.md",
+  "chunk_words": 24375,
+  "extracts": [
+    {
+      "extract": "collaboration was at the heart of their data journalism. The majority of the data stories with participants credited in the by-lines were the outcomes of collaborative work between non-data journalists and data journalists.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "newsroom integration",
+        "bylines"
+      ],
+      "notes": "Based on analysis of 8 UK data journalists across 3 national newsrooms"
+    },
+    {
+      "extract": "Data journalists having little or no programming skills would rely on third-party tools and thus be limited by their design.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tools",
+        "skills gap",
+        "third-party tools",
+        "tool dependency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "the former continued to mainly use out-of-the-box tools due to their shortage of resources, while the later was more inclined to turn to developing in-house tools",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tools",
+        "resources",
+        "in-house vs third-party",
+        "commercial vs public service"
+      ],
+      "notes": "Comparing commercial outlets vs public service media in Australia"
+    },
+    {
+      "extract": "data journalists at national newsrooms would have more resources to conduct long-term, time-consuming investigations than those at local newsrooms. In the UK, for example, data journalists at Reach plc are inclined to mostly use open data that is publicly available, while those at The Guardian may have more time and resources to collect and build up their own datasets for reporting.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "resources",
+        "national vs local",
+        "open data",
+        "dataset creation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "the BBC's shared data unit creates 'story packs', consisting of data – mostly open public records data retrieved from the data.gov.uk or through FOI requests – and data analysis and share them with local newsrooms so that they can find and develop their own angles.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "story packs",
+        "BBC shared data unit",
+        "local journalism",
+        "FOI"
+      ],
+      "notes": "Model for centralised data unit supporting distributed local reporting"
+    },
+    {
+      "extract": "The data teams in regional media companies such as Reach plc, JPI Media and Newsquest work like in-house 'data wire', supplying data analysis and bulletins to local newsrooms within organisations.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "data wire",
+        "regional media",
+        "centralised analysis",
+        "local newsrooms"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "data journalists in India seldom use RTI requests to obtain raw data or collect data by using methods like crowd-sourcing, which their Western counterparts undertake",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "RTI",
+        "FOI",
+        "crowdsourcing",
+        "data collection methods",
+        "Global South"
+      ],
+      "notes": "Contrasts Indian vs Western data acquisition practices"
+    },
+    {
+      "extract": "for well-resourced newsrooms like The New York Times, data journalists not only have sufficient time and skills to conduct time-consuming data analysis and long-term investigative projects but also are part of a team of people such as developers and graphic designers working together supporting data journalists' work. For smaller newsrooms that do not have this luxury, data journalists may have to be 'unicorns' with all-around skills.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "unicorn journalist",
+        "skills",
+        "team composition",
+        "resources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The reporters mixed traditional reporting skills such as interviews and field visits with data analysis skills and techniques.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "mixed methods",
+        "interviews",
+        "field visits",
+        "data analysis"
+      ],
+      "notes": "Describing Korea Times data story on Seoul housing conditions"
+    },
+    {
+      "extract": "Using the digital data – the viral video clip of the killing and related data from other sources such as Google Earth, Sentinel Hub and Bellingcat – journalists were able to probe into the truth and explore events in the foreign land of Cameroon.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "OSINT",
+        "geolocation",
+        "digital forensics",
+        "verification",
+        "Bellingcat"
+      ],
+      "notes": "BBC Africa Eye Anatomy of a Killing example"
+    },
+    {
+      "extract": "It analysed data from multiple sources and developed a compelling story about the pollution in the river... This story, combining human stories and interactive data visualisations, focusses readers' attention on water pollution, its causes and consequences and the gravity and urgency of the issue.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "multiple sources",
+        "data visualisation",
+        "human stories",
+        "narrative"
+      ],
+      "notes": "Reuters 'Race to Save the River Ganges' example"
+    },
+    {
+      "extract": "Language barriers act as a considerable obstacle to global collaborations or reporting on global topics. Despite the de-territorial access, data may be published in diverse languages... Without speaking and knowing the language used in a dataset, journalists would find it extremely difficult to use the dataset for reporting.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "language barriers",
+        "global data",
+        "accessibility",
+        "translation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "data published by government authorities is unlikely to contain personal information. Data publishers may merely publish pivot tables containing summary data generated from their data analysis and aggregation. A direct consequence of this is the difficulty in accessing detailed information about individual cases that are crucial for story-telling.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "aggregation",
+        "summary data",
+        "privacy",
+        "individual cases"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Poorly structured and messy data means data journalists need to convert it to structured data or to clean (prepare) it so that the data can be analysed using a computer. A data journalist from the Financial Times obtained data from the EU data portal. However, all documents were in pdf format, and it took them a very long time to convert these documents to machine-readable data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "PDF conversion",
+        "structured data",
+        "messy data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Not only does the data need to be cleaned, but it must also be verified. Even public records data published by government bodies is not guaranteed to be clean or 100% reliable and thus does not need to be verified. A Guardian data journalist commented: 'it's difficult (to verify the data they have got) because even if you get something under FOI from a government office, it doesn't mean it's right... and ...there is always an element of human error in everything.'",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data verification",
+        "government data",
+        "reliability",
+        "human error",
+        "FOI"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cross-checking, a traditional journalistic technique, is thought to be a good strategy to deal with the problem of data reliability. Cross-checking data against different sources and with people who are close to data is necessary to verify and understand data for reporting purposes.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "triangulation",
+        "data reliability",
+        "verification",
+        "sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "that's where you have to try to figure out if there are any problems with the data. And that comes from understanding how the data was collected, and what's supposed to be in there. And then a lot of it comes down to sense when you look at your data, and then something looks weird. Usually, that's a sign that something might be wrong. In talking to other sources, you show them your findings. When they come back at you and say that doesn't quite make sense, and it isn't quite what I'm seeing elsewhere. That's another red flag that maybe something is wrong: the underlying data or you do your analysis wrong or something like that.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data provenance",
+        "sense-checking",
+        "red flags",
+        "source consultation",
+        "analysis verification"
+      ],
+      "notes": "Minnesota Star Tribune data journalist interview"
+    },
+    {
+      "extract": "the meanings of data may be influenced by contextual factors such as the personal judgements of people who record or curate data, the criteria for producing data and the factors that delay the production of certain data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "context",
+        "construction of data",
+        "curation bias"
+      ],
+      "notes": "Example given: homicide index changes due to pending coroner reports"
+    },
+    {
+      "extract": "Basic journalistic techniques such as interviews and cross-referencing, and checking are considered to be essential in collecting and creating data and data verification. In cases where no data exists, interviews with people who know the situation are an effective way to collect and generate data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "interviews",
+        "cross-referencing",
+        "data creation",
+        "primary data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "when dealing with leaked data, the reliability of data needs to be handled with extra care in case it is fake. In 2015, The Sunday Times, for example, invited experts to verify the genuineness of leaked data about the athletics doping scandal. The involvement of experts can also help to 'endorse' the credibility of their reports.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data",
+        "expert verification",
+        "credibility",
+        "doping scandal"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalistic instinct is also thought to be important when it comes to verifying data. A data journalist commented, 'my journalistic instinct is sort of my most important tool'... Following journalistic instinct, data journalists find exclusives, great stories and appealing angles for their stories, and they can spot hooks and fake tip-offs.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "journalistic instinct",
+        "tacit knowledge",
+        "story selection",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "you need to try to find people who know the data and who may be who've worked with it and get them to answer those questions for you, like, what is the best source here.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "domain experts",
+        "human sources",
+        "data provenance",
+        "source evaluation"
+      ],
+      "notes": "Minnesota Star Tribune journalist comparing data sourcing to traditional human sourcing"
+    },
+    {
+      "extract": "(to verify leaked data) is much much harder. And that is a process that we more and more have to do... It's been usually raw data documents, so we have tried to see if it's a public document, can we find this document in the public domain. And if it's an event, we will find news stories that could be corresponding news stories of this event. So we do as much as possible, trying to check the things that we can check.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data verification",
+        "public domain cross-check",
+        "Panama Papers"
+      ],
+      "notes": "Journalist who covered Panama Papers"
+    },
+    {
+      "extract": "COVID-19 case and death numbers are 'inaccurate', reflecting changing testing capabilities, diagnosis, tracing and reporting situations during different periods and in different areas. COVID-data is influenced by the actual data generation and collection practices of governments, such as how many people are tested and what death cases are counted as caused by COVID.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "COVID",
+        "measurement error",
+        "counting methodology",
+        "comparability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "some (but not all) of the British news media such as The Guardian, The Independent and the Financial Times have acknowledged such an impact. They also draw readers' attention to the potential influence of different data collection and publishing schedules on the data about case and death numbers, as well as the discrepancies between official data and excess death.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "caveats",
+        "transparency",
+        "data limitations",
+        "methodology disclosure"
+      ],
+      "notes": "Best practice: disclosing data limitations to readers"
+    },
+    {
+      "extract": "the case and death numbers may not always reflect the gravity of the pandemic in these countries. The data about case and death numbers needs to be treated carefully with appropriate explanations. It would be more appropriate to put these figures in the context of population sizes and the actual testing situations in these countries.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "normalisation",
+        "per capita",
+        "contextualisation",
+        "data presentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "News coverage started using case or death rate (cases or deaths per unit/population) rather than merely the number and death cases. Data reporters and newsrooms are learning to deal with the problems associated with data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "normalisation",
+        "rates vs counts",
+        "learning",
+        "iterative improvement"
+      ],
+      "notes": "Evolution of COVID reporting practice over time"
+    },
+    {
+      "extract": "The Independent heat map published in July 2020, for example, simply showed COVID case numbers in selected countries from around the world but did not include the information on population sizes in these countries. With the biggest case number, the US would be easily interpreted as the worst-hit country on the map. However, given the huge population in the US, this might not be true. In January 2021, the same author published another article, which presented case numbers per million people, indicating that the UK was the country worst hit by the pandemic at the time.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "heat maps",
+        "normalisation",
+        "misleading visualisation",
+        "per capita",
+        "before/after"
+      ],
+      "notes": "Concrete before/after example of improving data presentation"
+    },
+    {
+      "extract": "Data reporting is time-consuming, particularly when it comes to long-term investigative data projects. Allowing sufficient time for data journalists to complete such projects would be crucial. As well as supporting the 24/7 daily reporting cycle, data journalists at big newsrooms can have the luxury of spending many weeks, months or even years working on a project.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "time investment",
+        "investigative projects",
+        "newsroom resources",
+        "daily vs longform"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The need to collect, clean and analyse data expands data journalists' work responsibilities to include the role of data analysts. Data journalists are expected to take on such new responsibilities and learn the related new skills, which imply potential changes in the identity and job perception of data journalists.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "role expansion",
+        "data analyst",
+        "skills",
+        "professional identity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Only those who have good knowledge of data and are aware of the problems associated with data can appropriately handle, manage and present data. The problems of data, such as the messiness of data, suggest the ethical practices of data journalism are particularly important.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "ethics",
+        "messiness",
+        "competence",
+        "quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "as data reporting may be seen as more accurate and objective than traditional reporting, the inability to ascertain and handle the problems about data, which are subtle and may not be perceivable, may lead to inaccurate reporting appearing to be deceptively accurate and thus misleading.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "false precision",
+        "objectivity",
+        "misleading accuracy",
+        "data ethics"
+      ],
+      "notes": "Key epistemological warning about data journalism"
+    },
+    {
+      "extract": "one way of producing data is to collect digital data with skills such as data scraping, clean it and store it in a database. Cleaning data means spotting and correcting errors in data, correcting incorrect formats of data and preparing the data for analysis.",
+      "chapter": "Opening up data from news reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data scraping",
+        "cleaning",
+        "error correction",
+        "data production"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "They may also produce new data by using social science and journalistic methods such as interviews, surveys, media coverage monitoring or filing FOIA requests. When they access ready-to-download datasets, they invest time to correct errors in them and verify them and merge different datasets from different sources, they are also producing data.",
+      "chapter": "Opening up data from news reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data production",
+        "social science methods",
+        "FOIA",
+        "dataset merging",
+        "surveys"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "participants believed data journalists should embrace transparency, provide hyperlinks to news sources and provide the details about methodology and open-source codes. They thought these elements to be central to data journalism's ethos to increase its credibility and fight against dis/misinformation. But participants did not consider sharing data as crucial.",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "open source",
+        "credibility",
+        "misinformation"
+      ],
+      "notes": "2019 survey of Brazilian data journalists"
+    },
+    {
+      "extract": "news organisations like the BBC's shared data unit, the Bureau (Investigative Journalism) Local, The Minnesota Star Tribune and The New York Times publish their code and data on their websites or servers like GitHub, a platform originally designed for version control and software development.",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub",
+        "open source",
+        "code sharing",
+        "data publishing",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "although most of these projects directly mentioned the data sources, few of them (20%) provided access to the data used in the projects, and less than half of them (48.8%) published their methodology",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency gap",
+        "methodology disclosure",
+        "data access",
+        "award projects"
+      ],
+      "notes": "Study of Data Journalism Awards 2019 and Sigma Awards 2020 candidates"
+    },
+    {
+      "extract": "The transparency of the data and analysis process may disadvantage news media by exposing them to criticism which may challenge their authority and legitimacy.",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency risk",
+        "authority",
+        "legitimacy",
+        "criticism",
+        "open analysis"
+      ],
+      "notes": "Illustrated by ProPublica Machine Bias case where published data/methodology drew academic criticism"
+    },
+    {
+      "extract": "They looked at reports dating back to 2007, sent 506 public records requests, gathered 72,677 use-of-force documents covering from 2012 to 2016 and verified and cleaned such data, which was originally messy.",
+      "chapter": "Data as financial resources",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "public records requests",
+        "data collection at scale",
+        "cleaning",
+        "verification"
+      ],
+      "notes": "NJ Advance Media Force Report project, cost ~K"
+    },
+    {
+      "extract": "I couldn't publish the data in the format that it came in, because it will link back to the people... and we don't want to personally identify these people... We also have GDPR considerations which we won't have a couple of years ago.",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy",
+        "GDPR",
+        "anonymisation",
+        "data protection",
+        "personal data"
+      ],
+      "notes": "Guardian data journalist on privacy constraints"
+    },
+    {
+      "extract": "data journalists play four roles in the circulation of data: (1) 'data intermediaries' between data holders and audiences, (2) 'translators' of data for audiences, (3) 'endorsers' for data and (4) data holders and publishers themselves.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "roles",
+        "intermediary",
+        "translator",
+        "endorser",
+        "data holder",
+        "circulation"
+      ],
+      "notes": "Core theoretical framework of the book"
+    },
+    {
+      "extract": "Only data transparency – which means making both data and metadata (data that explains the data) publicly accessible – can be achieved, data can be regularly and appropriately used.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "metadata",
+        "data documentation",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Checking and cleaning data and talking to those who are close to data definitely can help to correct errors if there are any and contribute to contextualising and interpreting the data. In so doing, the credibility of news organisations and data journalists also contributes to boosting or endorsing the credibility of data.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "cleaning",
+        "contextualisation",
+        "credibility endorsement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "its journalists tracked the details of each killing by monitoring data from multiple sources such as 'local news reports', 'law enforcement websites and social media' as well as 'independent databases such as Killed by Police and Fatal Encounters', collecting additional information about the fatal shooting by police and filing FOIA requests with government departments",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "multi-source monitoring",
+        "database building",
+        "FOIA",
+        "social media",
+        "independent databases"
+      ],
+      "notes": "Washington Post police shootings database methodology"
+    },
+    {
+      "extract": "data visualisations can offer them the opportunity to explore information. Through exploration, audiences can have the autonomy to interpret the data and story and connect the interpretation to their personal experiences.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualisation",
+        "interactivity",
+        "audience autonomy",
+        "exploration"
+      ],
+      "notes": ""
+    }
+  ]
+}

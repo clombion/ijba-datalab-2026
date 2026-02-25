@@ -1,0 +1,154 @@
+{
+  "source_id": "69",
+  "source_file": "69-open-data-journalism-domain-mapping.md",
+  "source_title": "Open Data Journalism: A Domain Mapping Review",
+  "author": "various",
+  "year": "2023",
+  "chunk": "1/1",
+  "chunk_file": "69-open-data-journalism-domain-mapping_chunk1.md",
+  "chunk_words": 7580,
+  "extracts": [
+    {
+      "extract": "data journalism is defined by Veglis and Bratsas (2017) as the use of data in all the stages of the journalistic process, the extraction of information, the compilation and the visualisation in a comprehensive way.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism definition",
+        "workflow",
+        "visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While CAR is viewed as a technique for gathering and analysing data to enhance investigative journalism, data journalism refers to using data throughout the journalistic process. Another difference between them was the availability of data; while in the past, journalists were more focused on the collection of data and the creation of their own data sources, in the age of data journalism, the high availability of data shifted the focus the collection to the analysis and the presentation.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "CAR",
+        "data journalism definition",
+        "data availability",
+        "analysis shift"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "our review process includes formulating the research question, defining the inclusion and exclusion criteria for the literature search, and then searching for publications with a formal process with the use of strictly defined keywords and screening the papers according to the defined inclusion and exclusion criteria.",
+      "chapter": "Methodology",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "systematic review",
+        "inclusion criteria",
+        "search protocol",
+        "screening"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "for each paper, we read the title and the abstract (and, if required, some parts of its text) to understand the central theme it investigates, and then we generalise it; next, we compare it with the previously identified themes, and if it belongs to one of them, we associate it with this theme, while if it is new, we express it in an abstract manner concisely using 3-5 words and add it to the list of the identified themes.",
+      "chapter": "Methodology",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open coding",
+        "thematic analysis",
+        "categorization",
+        "systematic review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "this lack of skills works as a barrier to the exploitation of the open data that governments publish and discourages journalists from getting involved with data-related activities. technical skills are not enough, but also experience in statistics is required for someone to be open data literate.",
+      "chapter": "Journalists' Data Literacy",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "statistical skills",
+        "barriers",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "in order to find and use open data effectively and extract deep insights and knowledge from them journalists need substantial technological as well as statistical data processing skills and abilities, which the vast majority of them do not have, and this constitutes a big barrier to open data exploitation by journalists; so on one hand relevant education of journalists is required, while on the other hand journalists have to co-operate extensively with technological and statistical experts, and this might result in the development of open data journalism ecosystems.",
+      "chapter": "Discussion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills gap",
+        "collaboration",
+        "ecosystems",
+        "education",
+        "interdisciplinarity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "most of the publications we found on open data journalism are based on case studies or interviews with small numbers of journalists (or other stakeholders) but are missing larger scale surveys of large numbers of participants, which would provide more generalizable conclusions; also, most of the publications lacked sound theoretical foundations.",
+      "chapter": "Discussion",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "research gaps",
+        "generalizability",
+        "theoretical foundations",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "the overwhelmingly mentioned solution was to work closely with other experts that can cover the skill gaps the journalists have. Interesting cases are the use of hackathons to find experts in the technology sector and the involvement of civil activists and open data hackers.",
+      "chapter": "Collaboration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "hackathons",
+        "civic tech",
+        "skill gaps",
+        "interdisciplinarity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "the focus of the publication is a comparative analysis between the Freedom of information act and the Open Data regulations in five countries. ethical issues that can arise when using open data, especially focusing on the potential harm from the possibility of de-anonymising data and exposing people's identities.",
+      "chapter": "Legislation and Ethics",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI",
+        "open data policy",
+        "ethics",
+        "de-anonymization",
+        "privacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "17% of the papers we discovered were not in the English language; we consider that to be quite remarkable since English is the predominant language in academic publications; 12% of these papers were in Spanish and 2% in Portuguese, published mostly from counties in South America. their volume made us formulate the assumption that there is a separate ecosystem in South America that is researching the topic of open data journalism.",
+      "chapter": "Discussion",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "language bias",
+        "Global South",
+        "Latin America",
+        "research ecosystems"
+      ],
+      "notes": ""
+    }
+  ]
+}

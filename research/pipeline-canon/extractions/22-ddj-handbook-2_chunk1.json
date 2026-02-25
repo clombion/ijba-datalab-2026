@@ -1,0 +1,788 @@
+{
+  "source_id": "22",
+  "source_file": "22-ddj-handbook-2.md",
+  "source_title": "The Data Journalism Handbook 2",
+  "author": "Liliana Bounegru, Jonathan Gray (eds.)",
+  "year": "2021",
+  "chunk": "1/4",
+  "chunk_file": "22-ddj-handbook-2_chunk1.md",
+  "chunk_words": 36640,
+  "extracts": [
+    {
+      "extract": "Data can no longer be taken for granted, and nor can data journalism. Data does not just provide neutral and straightforward representations of the world, but is rather entangled with politics and culture, money and power.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical data practice",
+        "data politics",
+        "epistemology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism can be viewed not just in terms of how things are represented, but in terms of how it organizes relations—such that it is not just a matter of producing data stories but also attending to who and what these stories bring together, including audiences, sources, methods, institutions and social media platforms.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "relational thinking",
+        "audience",
+        "stakeholders"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How can data journalism projects tell stories both with and about data including the various actors, processes, institutions, infrastructures and forms of knowledge through which data is made?",
+      "chapter": "Introduction: Twelve Challenges for Critical Data Practice",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "critical data practice",
+        "transparency",
+        "data provenance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How can data journalism projects tell stories about big issues at scale while also affirming the provisionality and acknowledging the models, assumptions and uncertainty involved in the production of numbers?",
+      "chapter": "Introduction: Twelve Challenges for Critical Data Practice",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "methodology transparency",
+        "scale"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How can data journalism projects cultivate their own ways of making things intelligible, meaningful and relatable through data, without simply uncritically advancing the ways of knowing baked into data from dominant institutions, infrastructures and practices?",
+      "chapter": "Introduction: Twelve Challenges for Critical Data Practice",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical data practice",
+        "institutional power",
+        "epistemic independence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a data-driven investigation, we used data to get from pattern to story. The choice of crops and countries was made based on a previous data analysis of 68 million records from the United Nations' World Trade Database.",
+      "chapter": "1. From Coffee to Colonialism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "pattern detection",
+        "data-driven inquiry",
+        "international databases"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We compiled the land use map of the country and overlaid the surface of palm plantations with protected areas. We found that 7,000 palm oil hectares were illegally planted in protected areas.",
+      "chapter": "1. From Coffee to Colonialism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "geospatial analysis",
+        "overlay analysis",
+        "environmental data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We created a database of all the sugar mills in the country. We dived into the local company registry to find out the owners and directors. Next we used public business records to link these individuals and entities with offshore companies.",
+      "chapter": "1. From Coffee to Colonialism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "corporate registries",
+        "entity linking",
+        "offshore finance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This work was undertaken not only by journalists, but also by editors, photographers, designers and developers who participated in the development and production process to develop an integrated web product.",
+      "chapter": "1. From Coffee to Colonialism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-functional teams",
+        "web production",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I looked for ways to measure segregation in an academic sense and base my reporting from there. I interviewed an associate professor of sociology who showed me the Multigroup Entropy Index (or Theil Index), a statistical measure that determines the spatial distribution of multiple racial groups simultaneously.",
+      "chapter": "2. Repurposing Census Data to Measure Segregation in the United States",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "academic methods",
+        "statistical measures",
+        "expert consultation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is no single measure that will prove or not prove segregation, but the measures can work together to explain how a community is comprised. I read a lot of research on census demographics and tried to mirror my categories to existing literature on the topic.",
+      "chapter": "2. Repurposing Census Data to Measure Segregation in the United States",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "measurement validity",
+        "academic grounding",
+        "multiple measures"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I found JavaScript and the node.js ecosystem to provide a rich set of tools to work with data and then display it on the web. One challenge was that I had to write several of my analysis functions by hand, but in return I was able to understand every step of my analysis and use the same functions on the web.",
+      "chapter": "2. Repurposing Census Data to Measure Segregation in the United States",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "JavaScript",
+        "reproducibility",
+        "web publishing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Botanical Garden refused to give us the full data even after we submitted multiple freedom of information requests. Our solution? Reach out to other organizations that had helped the Botanical Garden collect the data. They gave us the whole data set in no time.",
+      "chapter": "3. Multiplying Memories while Discovering Trees in Bogota",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "alternative data sources",
+        "persistence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We involved citizens by inviting them to help us build a collaborative tree catalogue and to share their own stories about the trees we had mapped. We shared a WhatsApp number where people could send voice notes with their stories about trees.",
+      "chapter": "3. Multiplying Memories while Discovering Trees in Bogota",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "citizen engagement",
+        "participatory journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Taking a data-driven approach to a story doesn't need to be technical or expensive. Sometimes simply following and counting occurrences of an event over time tells you a lot about the scale of a problem. As long as your data-gathering methodology remains consistent, there are many stories you can tell using data.",
+      "chapter": "4. Behind the Numbers: Home Demolitions in Occupied East Jerusalem",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "low-tech methods",
+        "consistency",
+        "longitudinal tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The most important thing is to thoroughly storyboard exactly what data you need before sending any reporters out into the field.",
+      "chapter": "4. Behind the Numbers: Home Demolitions in Occupied East Jerusalem",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "planning",
+        "storyboarding",
+        "project management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We cross-checked these with news reports and other local information about home demolitions. We then selected a case to highlight each month, as a way of showing different facets of the Israeli policy.",
+      "chapter": "4. Behind the Numbers: Home Demolitions in Occupied East Jerusalem",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "case selection",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-driven reporting need not end when the editor clicks publish. Combining data journalism with online and offline community engagement can lead to positive policy and social change.",
+      "chapter": "5. Mapping Crash Incidents to Advocate for Road Safety in the Philippines",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "impact",
+        "community engagement",
+        "policy change"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With no comprehensive national database on road crash numbers, we knocked on doors and gathered data from over a dozen national and local government units. Data acquired from these repositories are not standardized. A significant part of the work involved cleaning the data for analysis.",
+      "chapter": "5. Mapping Crash Incidents to Advocate for Road Safety in the Philippines",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "government data",
+        "data cleaning",
+        "standardization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using the open-source data-cleaning application OpenRefine, we were able to come up with a normalized database of information acquired from the different government agencies.",
+      "chapter": "5. Mapping Crash Incidents to Advocate for Road Safety in the Philippines",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "data normalization",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We started by submitting freedom of information requests and collecting data from trusted NGOs that were extracting data from various sources. The first challenge was that it was not easy to get open data through FOI requests. Sometimes it took two weeks, sometimes four months.",
+      "chapter": "6. Tracking Worker Deaths in Turkey",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "NGO data",
+        "data access challenges"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We ended up publishing monthly worker deaths by comparing official data gathered through FOI requests with the data that we collected through our own monitoring of these cases.",
+      "chapter": "6. Tracking Worker Deaths in Turkey",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "triangulation",
+        "media monitoring",
+        "official data comparison"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism needn't be solely based on existing data sets. There is a great case for making your own data. There is a wealth of information in data that is not routinely published or in some cases not even collected. In building your own data set you create a unique set of information with which to explore your story.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data creation",
+        "original data",
+        "investigative advantage"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The basis for using data in journalism is structured thinking. In order to use data to its full potential, at the outset of a project the journalist needs to think structurally: What is the story I want to be able to tell and what do I need to be able to tell it?",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "structured thinking",
+        "planning",
+        "story design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first step to making or gathering data for your analysis is assessing what is required and if it can be obtained. At the outset of any project it's worth making a story memo which sketches out what you expect the story will attempt to tell, where you think the data is, how long it will take to find it and where the potential pitfalls are.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story memo",
+        "planning",
+        "feasibility assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Research will help you clarify what exists, so comb through all of the sources of information that refer to the issue of interest and talk to academics, researchers and statisticians who gather or work with the data. This will help you identify shortcomings and possible pitfalls in using the data.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source identification",
+        "expert consultation",
+        "due diligence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When building a data set we need to consider if the source and method we're using to collect the information is the most accurate and complete possible. Examine the information from multiple angles and don't torture the data to get it to say something that is not a fair reflection of the reality. Be prepared to be transparent about the sourcing, analysis and limitations of the data.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "transparency",
+        "data limitations",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Get the data. This may be done manually through data entry into a spreadsheet, transforming information locked in PDFs into structured data, procuring documents through a human source or the Freedom of Information Act, programming to scrape data from web pages or automating data capture through an API. Don't sacrifice simplicity for the sake of it. Seek to find the most straightforward way of getting the information into a data set you can analyze.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "scraping",
+        "FOI",
+        "simplicity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Think of what the data set should look like at the end of the process. Consider the columns or variables you would want to be able to analyze. Look for inspiration in the methodology and structure underlying other similar data sets. Cast the net wide to begin with, then pare it back by assessing what you need for the story.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Clean",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "data structure",
+        "schema design",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep notes of the sources you have used to create your data set and always keep a copy of the original documents. Write up a methodology and a data dictionary to keep track of your sources, how the data has been processed and what each column contains. Assume nothing and check all your findings with further reporting.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "data dictionary",
+        "methodology",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We brainstormed what we wanted to know—name, age and date of the incident were all things we definitely wanted to record. We discussed what we thought we already knew about knife crime—it was mostly male with a disproportionate number of Black male victims. To check our assumptions we added columns for sex and ethnicity.",
+      "chapter": "7. Building Your Own Data Set: Documenting Knife Crime in the United Kingdom",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "variable selection",
+        "assumption testing",
+        "schema design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When you are faced with an untroubled surface, where no hint of moral tension is to be found, but still something lurks, then attune yourself to numbers and algorithms in situ; work out how to think with a number that catches at you. Find ways to dilate the peepholes that number names cover. Recognize that numbers have pre-established natures and special abilities that emerge in encounter; that the actualities of series of practices by which they come to be, matter.",
+      "chapter": "8. Narrating a Number and Staying With the Trouble of Value",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "number provenance",
+        "critical numeracy",
+        "sociology of quantification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are two basic speaking positions in mixing narratives and visuals. One might proceed as if the visual is embedded within the narrative, speaking to the visual which represents something in the story. Or you can proceed as if the narrative is embedded in the visual, speaking from within diagram. Switching between these speaking positions within a single piece is perhaps the most effective strategy.",
+      "chapter": "8. Narrating a Number and Staying With the Trouble of Value",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "narrative design",
+        "visualization",
+        "storytelling modes"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Indigenous data sovereignty is concerned with the rights of Indigenous peoples to own, control, access and possess data that derive from them, and which pertain to their members, knowledge systems, customs or territories. ID-SOV begets questions such as: Who owns the data? Who has the power to make decisions about how data is accessed and under what circumstances? Who are the intended beneficiaries?",
+      "chapter": "9. Indigenous Data Sovereignty: Implications for Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data sovereignty",
+        "Indigenous rights",
+        "data ownership",
+        "power"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists have ample opportunities to rethink how they use data to represent Indigenous peoples and stories, and to expose the complex ways in which Indigenous data is produced, controlled, disseminated and put to work by government and industry. Data journalists ought not to rely on non-Indigenous data producers and users; the rise of ID-SOV networks means there are a growing number of Indigenous data experts to call on.",
+      "chapter": "9. Indigenous Data Sovereignty: Implications for Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data sovereignty",
+        "source diversity",
+        "representation",
+        "marginalized communities"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In China, instead of data being the driver of stories, stories or particular issues drove the production of data. Citizens, government, civil society and the media may interact at multiple stages in this process. Data, instead of just serving as the starting point for stories, can also come into the picture at a later stage.",
+      "chapter": "10. Alternative Data Practices in China",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "issue-driven data",
+        "citizen data",
+        "alternative workflows"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Start with government websites, both central ministries and local agencies. You would need to know which department is the right one for the data you are looking for. Once you find some data that could be useful online, make sure to download a local copy. If the data is not released by the government, check if any user-generated content is available.",
+      "chapter": "10. Alternative Data Practices in China",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "government data",
+        "data acquisition",
+        "archiving",
+        "user-generated content"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We developed a documentation methodology in consultation with academics working on land governance. We put together a network of researchers and journalists, who live across the country, to document the conflicts in their regions following this methodology.",
+      "chapter": "11. Making a Database to Document Land Conflicts Across India",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "methodology design",
+        "distributed networks",
+        "academic collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Researchers file all the data into reporting-and-review software built into the website. Data is examined and verified by dedicated reviewers. The software allows to-and-fro workflow between the researchers and the reviewers before the data is published.",
+      "chapter": "11. Making a Database to Document Land Conflicts Across India",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "review workflow",
+        "quality control",
+        "collaborative verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We should not settle for existing published databases and we should not make too many early assumptions about what is and is not possible. Journalism students approached the Ministry of Labour and asked for information. In a few days the students had a database in their hands. We had wrongly assumed that the data was not intended for the public, whereas the ministry simply did not have an up-to-date Internet portal.",
+      "chapter": "12. Reassembling Public Data in Cuba",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "assumptions",
+        "direct request",
+        "persistence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To support our analysis and investigations, we have to create databases ourselves based on information that is public but not properly structured. For example, to report on Cuban elections, we had to build databases by combining information from different sources—data from the Cuban Parliament, press reports and Communist Party websites.",
+      "chapter": "12. Reassembling Public Data in Cuba",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "database construction",
+        "multi-source compilation",
+        "structuring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our advice for journalists who want to involve readers in data investigations is to appoint a dedicated community manager. Large collections of documents can be a good place to start: The learning curve is fast and participants feel part of something bigger. Support collaborators with video tutorials or contextual introductions.",
+      "chapter": "13. Making Data With Readers at La Nacion",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourcing",
+        "community management",
+        "reader collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When publishing outputs and stories, acknowledge the collaboration process and participant organizations in every platform. Emphasizing the collective character of such projects can send a stronger message to those who we want to hold accountable.",
+      "chapter": "13. Making Data With Readers at La Nacion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "attribution",
+        "collaboration",
+        "accountability",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Respondents cannot be handpicked—a representative pool would include people from all social categories. The selection of respondents needs to be randomised. The number of people taking a survey must reach a certain threshold for it to be representative. Keep the confidence level at 95% and the margin of error no bigger than 5%.",
+      "chapter": "14. Running Surveys for Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "survey methodology",
+        "sampling",
+        "statistical significance",
+        "representativeness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always describe your efforts accurately. If you polled three advisers on a yes-no question, say so. If you run a statistically significant study, have the courtesy to release its methodology. No methodology, no trust. Do not use facts to cover up a lack of certainty over what the truth is.",
+      "chapter": "14. Running Surveys for Investigations",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "methodology transparency",
+        "honesty",
+        "limitations disclosure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you run a survey, field-test your findings and protect your reporting against potentially problematic claims. Visit the places that you compare and contrast; talk to people on the streets, in shops, banks, pubs and schools. Such ground truthing efforts will allow you to evaluate your data and decide to what extent you can trust the results.",
+      "chapter": "14. Running Surveys for Investigations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ground truthing",
+        "field verification",
+        "data validation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Where does your story lie? In a pattern? In an outlier? Decide what data you need to collect based on this answer. Figure out where and how the data can be obtained before you decide on the most appropriate methods. The method is never the point, the story is.",
+      "chapter": "14. Running Surveys for Investigations",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story-driven method",
+        "patterns",
+        "outliers",
+        "research design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Structural inequality shows up in data collection in two ways. Specific bodies are overcounted through surveillance by those in power. The second way is undercounting or not counting at all. In cases of undercounting, data journalists can count it themselves, typically through a combination of crowdsourcing, story collection and statistical inference.",
+      "chapter": "15. Data Journalism: What's Feminism Got to Do With I.T.?",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "structural bias",
+        "overcounting",
+        "undercounting",
+        "feminist methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The pitfall is that journalists take numbers downloaded from the web at face value without understanding the nuances of the collection environment, including power differentials, social stigma and cultural norms. The opportunity is that there are many more data context stories to be told—using the numbers to interrogate the collection environment, point out flawed practices and shift counting practices.",
+      "chapter": "15. Data Journalism: What's Feminism Got to Do With I.T.?",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data context",
+        "collection bias",
+        "power dynamics",
+        "critical analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are many cases—usually having to do with women and other marginalized groups—in which a neutral title actually does harm to the group depicted by the data, precisely because it is not naming the structural forces at work.",
+      "chapter": "15. Data Journalism: What's Feminism Got to Do With I.T.?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing",
+        "visualization ethics",
+        "structural forces",
+        "marginalization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We call our philosophy radical sharing: ICIJ's partners communicate their findings as they are working, not only with their immediate co-workers, but also with journalists halfway around the world. Tax stories are like puzzles with missing pieces: A reporter in Estonia might understand one part of the story; a Brazilian reporter might come across another part.",
+      "chapter": "16. Infrastructuring Collaborations Around the Panama and Paradise Papers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "radical sharing",
+        "cross-border collaboration",
+        "distributed investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ICIJ's engineers put together a framework: using Apache Tika to extract metadata and text, Apache Solr to build search engines, and Tesseract to turn images into text. The team built an open-source software called Extract with the single mission of turning unstructured documents into searchable, machine-readable content.",
+      "chapter": "16. Infrastructuring Collaborations Around the Panama and Paradise Papers",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "text extraction",
+        "OCR",
+        "search infrastructure",
+        "open source"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By using network graph tools such as Neo4J and Linkurious, ICIJ was able to allow partners to quickly explore connections between people and offshore entities. No coding skills were needed to explore the data. Graph databases and technologies powered ICIJ's radical sharing model.",
+      "chapter": "16. Infrastructuring Collaborations Around the Panama and Paradise Papers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "graph databases",
+        "Neo4J",
+        "Linkurious",
+        "network analysis",
+        "entity connections"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is mandatory when joining an ICIJ investigation to setup a PGP key pair to encrypt emails. ICIJ implements two-factor authentication on all of its platforms. On some sensitive platforms, we even add third-factor authentication via client certificates.",
+      "chapter": "16. Infrastructuring Collaborations Around the Panama and Paradise Papers",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "security",
+        "encryption",
+        "PGP",
+        "operational security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Five ways journalists can use text analysis: length (how much they wrote or spoke), mentions (who said what, when and how many times), comparisons (how similar documents are), classification (categorizing text with machine learning), and sentiment (classifying as positive, negative or neutral).",
+      "chapter": "17. Text as Data: Finding Stories in Text Collections",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text analysis",
+        "NLP",
+        "computational journalism",
+        "text mining"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A low number or absence of mentions may be newsworthy as well. These omissions can be analyzed over time, but also based on the expectation that a person or organization mentions something in a given context.",
+      "chapter": "17. Text as Data: Finding Stories in Text Collections",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "omission analysis",
+        "absence as signal",
+        "text analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The LA Times analyzed more than 400,000 police reports and revealed that an estimated 14,000 serious assaults had been misclassified by the LAPD as minor offenses. The reporters used machine learning classifiers (SVM and MaxEnt) to re-classify eight years' worth of data in half the time needed for the first investigation, which covered one year only.",
+      "chapter": "17. Text as Data: Finding Stories in Text Collections",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "classification",
+        "police data",
+        "scalability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using off-the-shelf text mining software is a good starting point. Platforms designed for journalists such as DocumentCloud and Overview include text analysis features. A good command of regular expressions and the tools needed to collect texts (web scraping, API querying, FOIA requests) and process them (OCR, file format conversion) are must-haves.",
+      "chapter": "17. Text as Data: Finding Stories in Text Collections",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "DocumentCloud",
+        "Overview",
+        "text mining tools",
+        "OCR",
+        "regex"
+      ],
+      "notes": ""
+    }
+  ]
+}

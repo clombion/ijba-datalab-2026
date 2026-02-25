@@ -1,0 +1,569 @@
+{
+  "source_id": "22",
+  "source_file": "22-ddj-handbook-2.md",
+  "source_title": "The Data Journalism Handbook 2",
+  "author": "Liliana Bounegru, Jonathan Gray (eds.)",
+  "year": "2021",
+  "chunk": "3/4",
+  "chunk_file": "22-ddj-handbook-2_chunk3.md",
+  "chunk_words": 39079,
+  "extracts": [
+    {
+      "extract": "Digital methods are defined by the methodological principle of 'following the medium,' responding to and interfacing methods with developments in the digital environment. In a post-API era, researchers and journalists should be creative and inventive in exploring novel types of data in terms of their affordances for data investigations.",
+      "chapter": "34. Apps and Their Affordances for Data Investigations",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "platform data",
+        "digital methods",
+        "post-API research"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Research affordances attune to the action possibilities within software from the perspective of the researcher. Apps can be studied through three bottom-up data explorations: fake social infrastructures, app-platform relations via app stores, and third-party data connections mapped through a variation of the walkthrough method.",
+      "chapter": "34. Apps and Their Affordances for Data Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "platform data",
+        "digital methods",
+        "walkthrough method",
+        "app analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is important to improve data infrastructure literacy in order to understand how apps are related to different platforms and networks, how they operate between them, and how they involve a diversity of often unknown stakeholders.",
+      "chapter": "34. Apps and Their Affordances for Data Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "platform data",
+        "infrastructure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Mapping data flows in and out of apps using a walkthrough method provides critical insight into the political economy of the circulation and recombination of data: the data connections that are established, how they are triggered and which data types are being transferred to which parties.",
+      "chapter": "34. Apps and Their Affordances for Data Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "walkthrough method",
+        "data flows",
+        "platform data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Good algorithmic accountability investigations are only possible by joining forces with others and creating teams with diverse skill sets. This is important given both the scarcity of resources and legal restrictions that most journalists have to cope with. Since these projects bring together actors from different fields, it is crucial to discuss beforehand the underlying relevance criteria, requirements and capabilities.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "algorithmic accountability",
+        "team composition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reaching agreement about roles in advance has proven to be an important success criterion for collaborations in algorithmic accountability. A common timeline should be developed at an early stage and language rules for the presentation of the project on different channels should be defined.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "project management",
+        "algorithmic accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To set up a meaningful research design that produces useful data, you might need specialized partners. Close alliances with scientists from computer science, mathematics and related disciplines are particularly helpful for investigating technical aspects of algorithms. It may also be useful to cooperate with social and cultural researchers to gain a deeper understanding of classifications and norms implemented in them.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "research design",
+        "collaboration",
+        "algorithmic accountability",
+        "interdisciplinary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data donations from users may be useful to investigate algorithms. In such crowdsourcing projects legal support is indispensable in order to ensure data protection and to take into account the requirements of national laws and regulations. If your company has a data protection officer, involve them in the project early on.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data protection",
+        "legal",
+        "algorithmic accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a media partner, Der Spiegel positioned itself in collaborations more as a neutral commentator, not too deeply involved in the project itself, allowing editors to remain independent and justify the trust of their readers. This example emphasizes how important it is for journalists to reflect on their autonomy, especially in high-publicity topics.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editorial independence",
+        "collaboration",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Raising awareness of the operating principles of algorithms can be a first strong goal. Projects should also try to achieve as much transparency as possible. Checking whether algorithms have a discriminatory effect is a more challenging goal that requires extensive data sets and resources.",
+      "chapter": "35. Algorithms in the Spotlight",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "goal setting",
+        "discrimination"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data projects are more fragile than plain text-and-images stories. Dynamic data visualizations and news apps cannot be captured by existing web archiving technology. These types of stories tend to be built outside of a CMS, so even automated archival feeds would not capture them.",
+      "chapter": "37. Archiving Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "archiving",
+        "data preservation",
+        "news apps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To preserve data journalism: Take a video of the project in its original environment; make a scaled-down static version using libraries like Django-bakery ('baking out'); plan for the sunset of data stories at the same time you plan to launch them; work with libraries, memory institutions and commercial archives.",
+      "chapter": "37. Archiving Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "data preservation",
+        "sustainability",
+        "project lifecycle"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Civic technologists and data journalists complement each other around two core practices: facilitating (enabling others to take actions themselves) and gatekeeping (proactively pushing relevant information). These are complementary and can mutually reinforce each other. Civic tech applications can facilitate ordinary citizens while data journalists can use them for their own investigations.",
+      "chapter": "39. Data Journalism's Ties With Civic Tech",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "civic tech",
+        "collaboration",
+        "facilitating",
+        "gatekeeping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Rather than perceiving blurry boundaries with other fields as problematic, data journalists should ask whether there are synergies with other fields of data work, and how to best benefit from them. Data journalists can use their exclusive rights to get data that they share with civic technologists, while profiting from civic tech's advocacy for stronger FOI rights and open data policies.",
+      "chapter": "39. Data Journalism's Ties With Civic Tech",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "civic tech",
+        "collaboration",
+        "FOI",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We publish methodologies and data, inviting colleagues to correct our assumptions and giving readers reason to trust our results. Every time we seek feedback or outside contributions, we make our work more resilient. Someone else might spot a problem with how we used data or contribute a new feature that makes our software better.",
+      "chapter": "40. Open-Source Coding Practices in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "open source",
+        "transparency",
+        "verification",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Successful open-source journalism projects share key qualities: They solve a problem you run into every day; they solve a problem that is not fun to work on; they have great documentation; and they welcome contributors with a roadmap of features, tickets for different expertise levels, and sprints that welcome everyone.",
+      "chapter": "40. Open-Source Coding Practices in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open source",
+        "documentation",
+        "tool development",
+        "community"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Platform-based data sharing in investigative journalism networks needs to be accompanied by discussions of governance rules and technology design, as well as co-ownership of data and digital tools. The goal should not be to scale up a small number of networks to thousands, but to find a model applicable to a multitude of independent networks that may collaborate with each other.",
+      "chapter": "41. Data Feudalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-border investigation",
+        "platform governance",
+        "data ownership",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The impact of an analytics tool depends on the organization using it. Organizational context is highly influential in shaping if and how metrics influence the production of news. At Gawker, metrics were highly visible and influential; at The New York Times, they were less so, and often used to corroborate decisions editors had already made.",
+      "chapter": "42. Data-Driven Editorial? Considerations for Working With Audience Metrics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience metrics",
+        "newsroom culture",
+        "editorial practice"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Newsrooms should create opportunities for reflective, deliberate thinking removed from daily production pressures about how best to use analytics. This data is too powerful to implement on the fly. When choosing an analytics service, look beyond the tools and consider which vendor's strategic objectives and values best complement those of the newsroom.",
+      "chapter": "42. Data-Driven Editorial? Considerations for Working With Audience Metrics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "audience metrics",
+        "editorial strategy",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Newsrooms and analytics companies should be attentive to the limitations of metrics. There is danger in conflating what is quantitatively measurable with what is valuable. Not everything can or should be counted. Journalism's most compelling traits, such as its social mission, are not easily measured.",
+      "chapter": "42. Data-Driven Editorial? Considerations for Working With Audience Metrics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience metrics",
+        "measurement limitations",
+        "editorial values"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists should consciously diversify data sources and decentre methods that would privilege big data as the exclusive or most legitimate key to mapping empirical events and social realities. Moves towards a decolonization of knowledge underscore the significance of diverse ways citizens and researchers in the Global South are engaging in bottom-up data practices.",
+      "chapter": "43. Data Journalism, Digital Universalism and Innovation in the Periphery",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "digital universalism",
+        "decolonial computing",
+        "data sources",
+        "Global South"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists should be vigilantly wary of enabling data tracings and archives—regardless of how extensive they may be—to serve as the sole or dominant form of documenting, speaking for and assessing the diverse forms of social realities that the public relies on them to channel.",
+      "chapter": "43. Data Journalism, Digital Universalism and Innovation in the Periphery",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "big data critique",
+        "data limitations",
+        "representation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data alone does not tell stories. We still need journalists to make sense of it, by providing context and interrogating the data in the same way as any other source. Data, in itself, is seldom the story. It needs to be unpacked and its implications explained, if the full meaning behind it is to be understood.",
+      "chapter": "44. The Datafication of Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interpretation",
+        "journalistic context",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How you present your data matters. Data visualizations, graphs, infographics, charts, tables and interactives can help convey a story. Data-driven stories should be well designed so that audiences do not struggle to understand what is being shown or how to interact with the data. Think mobile: ensure positive mobile experience for data-rich material.",
+      "chapter": "44. The Datafication of Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "presentation",
+        "mobile design",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Showing your work—what Jay Rosen calls 'the new terms for trust in journalism'—allows readers to see the raw materials you worked with and interpreted, and thereby opens a door to transparency-based trust in news. This means being transparent about the data, providing links to original sources, and ensuring original data files are available for download.",
+      "chapter": "44. The Datafication of Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "trust",
+        "show your work",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Five ideas for industry-academy collaboration: More partnerships between classrooms and newsrooms; undertake classroom projects with potential news value; reverse-engineer relationships so journalists approach students/academics with stories needing help; open the door to researchers and independent critique; ensure research is accessible beyond academic paywalls.",
+      "chapter": "44. The Datafication of Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "academy-industry collaboration",
+        "teaching",
+        "partnerships"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists gathered data to measure the problem, the impact, the causes and the solution. An inherent advantage to data-driven beat reporting among marginalized communities is that the journalist can stay on the story after the initial scandal is forgotten. These stories use data not just to report the problem, but also what can be done about it.",
+      "chapter": "45. Data Journalism by, about and for Marginalized Communities",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "marginalized communities",
+        "beat reporting",
+        "impact",
+        "solutions journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Most of these problems were invisible in the past and will become invisible again if journalists stop counting. Data journalism at its best is by, about and for those who society has decided do not count. Year after year, we need to count the hungry, the abused, the imprisoned, the uneducated, the unheard.",
+      "chapter": "45. Data Journalism by, about and for Marginalized Communities",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "marginalized communities",
+        "counting",
+        "visibility",
+        "data journalism purpose"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Learning about data journalism begins with understanding how to think critically about information and how it can be collected, normalized and analyzed for journalistic purposes. It begins with figuring out the story, and asking: Who created the data? What is it supposed to include? When was it updated? Where does it represent? Why do we need it? How do we find answers?",
+      "chapter": "46. Teaching Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "critical thinking",
+        "data literacy",
+        "teaching",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you are teaching just one class: don't try to pack in too much. Pick the tools that are vital. Consider making the class at least partly project-based. Walk through the steps. Keep the focus on the journalism that comes out of using the tools. The goal is to teach students journalism while helping them understand what needs to happen with data to tell a story.",
+      "chapter": "46. Teaching Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "teaching",
+        "curriculum design",
+        "tools",
+        "project-based learning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A fully integrated model means more than one person is invested in teaching data journalism. Professors in engineering and journalism have worked together to teach classes that cross boundaries and educate journalism, law and computer science students. The best collaborative teams in newsrooms include folks from multiple disciplines.",
+      "chapter": "46. Teaching Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teaching",
+        "interdisciplinary",
+        "collaboration",
+        "integrated model"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In communities where connectivity, devices and technological literacies cannot be taken for granted, analogue data collection and analogue data visualization using low-cost materials like scissors, papers, stickers and post-its can facilitate participation. Traditional expressions of culture like weaving and beading can serve as means to more meaningfully access the lives of participants.",
+      "chapter": "47. Organizing Data Projects With Women and Minorities in Latin America",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "analogue methods",
+        "marginalized communities",
+        "participation",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists have become obsessed with increasing exactitude and certainty at the expense of a humbler understanding of provisionality and doubt. Journalism ought to rethink the means and mechanisms by which it conveys its own provisionality and uncertainty. If done correctly, this could make journalism more like modern science, rather than less.",
+      "chapter": "48. Genealogies of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "scientific method",
+        "data journalism history",
+        "critical reflexivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is impossible to understand journalistic authority without also understanding the authority of social science. Journalistic professionalism and knowledge can never be understood solely by looking at the field of journalism itself. Data journalism expertise is a networked phenomenon in which professional groupings struggle to establish jurisdiction over discursive and material artefacts.",
+      "chapter": "48. Genealogies of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "expertise",
+        "social science",
+        "journalism history",
+        "interdisciplinary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism exhibits a dependency on pre-processed public data from statistical offices and governmental institutions. Almost 70% of data sources come from official institutions. The share of self-collected, scraped, leaked and requested data is substantially smaller. Investigative and critical data journalism must overcome its dependency on publicly accessible data.",
+      "chapter": "49. Data-Driven Gold Standards",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "data sources",
+        "official data",
+        "data dependency",
+        "investigative journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Seven Cs of data journalism challenges: Collection (overcome dependency on public data), Collaboration (cross-border and cross-organizational work), Crowdsourcing (involve users as collectors and co-investigators), Co-Creation (involve users from topic finding to maintenance), Competencies (build cross-disciplinary teams), Combination (combine data sources for richer analysis), Complexity (confront data PR and fake data).",
+      "chapter": "49. Data-Driven Gold Standards",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data journalism framework",
+        "collaboration",
+        "crowdsourcing",
+        "competencies"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data is not a raw material; it does not allow direct, objective or otherwise privileged access to the social world. Responsible data journalism in the data society should investigate socially relevant issues, be aware of its own blind spots, actively try to uncover data manipulation and abuse, and keep in mind the character of data as human artefacts collected in relation to particular conditions and objectives.",
+      "chapter": "49. Data-Driven Gold Standards",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data epistemology",
+        "responsible data journalism",
+        "critical data practice"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The real interactive potential of data journalism lies not in increasingly sophisticated interactive features but in crowdsourcing approaches that sincerely involve users or citizens as collectors, categorizers and co-investigators of data.",
+      "chapter": "49. Data-Driven Gold Standards",
+      "pipeline_step": "Present",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "interactivity",
+        "crowdsourcing",
+        "user participation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Award-worthy data journalism is dominated by newspapers and investigative journalism organizations, produced by teams averaging five contributors, with about a third collaborating with external partners. Award-winning projects are produced by larger teams than those only nominated. Data journalism above a certain level appears to be an undertaking for larger organizations with resources for cross-disciplinary teams.",
+      "chapter": "49. Data-Driven Gold Standards",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "resources",
+        "collaboration",
+        "awards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The more data is out there, the more work is done with it, the greater pressure there is for more data to be released—a virtuous circle of data, easy processing, data visualization, and more data. Free tools combined with access to free public data facilitated the production of more public-facing visualizations and data projects.",
+      "chapter": "38. From The Guardian to Google News Lab",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "virtuous circle",
+        "tools",
+        "data journalism growth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Whenever a new technique is introduced in reporting, data would not only be a key part of it but data journalists would be right there in the middle of it. In less than three years, crowdsourcing became established, journalists found data, used databases to manage huge document dumps, published data sets and applied data-driven analytical techniques to complex news stories.",
+      "chapter": "38. From The Guardian to Google News Lab",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "innovation",
+        "crowdsourcing",
+        "data journalism evolution"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,975 @@
+{
+  "source_id": "37",
+  "source_file": "37-art-science-data-driven-journalism.md",
+  "source_title": "The Art and Science of Data-Driven Journalism",
+  "author": "Alexander Howard",
+  "year": "2014",
+  "chunk": null,
+  "chunk_words": 59526,
+  "extracts": [
+    {
+      "extract": "Data journalism is gathering, cleaning, organizing, analyzing, visualizing, and publishing data to support the creation of acts of journalism. In its most elemental forms, data journalism combines: 1) the treatment of data as a source to be gathered and validated, 2) the application of statistics to interrogate it, 3) and visualizations to present it.",
+      "chapter": "I. Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-as-source",
+        "workflow-design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Some proponents of open data journalism hold that there should be four components, where data journalists archive and publish the underlying raw data behind their investigations, along with the methodology and code used in the analyses that led to their published conclusions.",
+      "chapter": "I. Introduction",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "reproducibility",
+        "show-your-work"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data is socially constructed. In order to understand a data set, it is helpful to start with understanding the people who created the data set—think about what they were trying to do, or what they were trying to discover. Once you think about those people, and their goals, you're already beginning to tell a story.",
+      "chapter": "I. Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data-as-source",
+        "critical-thinking",
+        "social-construction"
+      ],
+      "notes": "Quote from Meredith Broussard"
+    },
+    {
+      "extract": "Publishers will need to continue to evolve toward a multidisciplinary approach to delivering the news, where reporters, developers, designers, editors, and community managers collaborate on storytelling, instead of being segregated by departments or buildings.",
+      "chapter": "I. Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "newsroom-structure",
+        "workflow-design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As data journalists grow in skill and craft, they move from using basic statistics in their reporting to working in spreadsheets, to more complex data analysis and visualization, finally arriving at computational journalism, the command line, and programming.",
+      "chapter": "II. History",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skill-progression",
+        "workflow-design"
+      ],
+      "notes": "Describes a learning trajectory for data journalists"
+    },
+    {
+      "extract": "By automating common reporting tasks, for instance, or creating custom alerts, one data journalist can increase the capacity of the people with whom she works, building out databases that may be used for future reporting.",
+      "chapter": "II. History",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation",
+        "efficiency",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Collaboration across newsrooms and a focus on publishing data and code that show your work differentiate the best of today's data journalism from the CAR of decades ago.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "collaboration",
+        "show-your-work"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists still have to confirm their sources, whether they're people or data sets, and present them in context. Using data as a source won't eliminate the need for fact-checking, adding context, or reporting that confirms the ground truth. Just the opposite, in fact.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data-as-source",
+        "ground-truth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We interviewed experts to understand which comparisons would be most meaningful in the data. We looked for top-line numbers that could serve as easy benchmarks people could understand quickly. What sets our app apart is that it allows you to compare your doctor to others in the same specialty and state.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "benchmarking",
+        "comparison",
+        "user-centric-design"
+      ],
+      "notes": "Quote from Charles Ornstein on ProPublica Treatment Tracker"
+    },
+    {
+      "extract": "We don't start with the data, or the technology. Everything we make starts with a user-centered design process. We talk about the users we want to speak to and the needs they have. Only then do we talk about what to make, and then we figure out how we're going to do it.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "user-centric-design",
+        "workflow-design"
+      ],
+      "notes": "Quote from Brian Boyer, NPR Visuals"
+    },
+    {
+      "extract": "If we report on data, and we open data while reporting, then others can reuse and build another layer of knowledge on top of it. This is not only a data revolution. It is an open innovation revolution around knowledge.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open-data",
+        "transparency",
+        "reproducibility"
+      ],
+      "notes": "Quote from Momi Peralta, La Nacion"
+    },
+    {
+      "extract": "Not all data sets are synonymous with facts. They must be treated with skepticism, from origin to quality to hidden biases. Data does not intrinsically imply truth. Yes, we can find truth in data, through a process of honest inference, but we can also find and argue multiple truths or even outright falsehoods from data.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical-thinking",
+        "data-quality",
+        "bias"
+      ],
+      "notes": "Paraphrases Nick Diakopoulos"
+    },
+    {
+      "extract": "A managing editor might float an assertion or hypothesis about what lies behind news, and then assign an investigative journalist to go find out whether it's true or not. That reporter then must go collect data, evidence, and knowledge about it. To prove conclusions are sound, the journalist may need to show his or her work, from the sources of the data to the process used to transform and present them. That also means embracing skepticism, avoiding confirmation bias, and not jumping to conclusions about observed correlations.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis-testing",
+        "show-your-work",
+        "critical-thinking",
+        "confirmation-bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-driven journalists could share their code and data on open source repositories like GitHub for others to inspect, replicate, and extend. Organizations that practice data-driven journalism should invite and provide empirical critiques of their analyses and findings. Making well-documented data available is extremely time-intensive, but if you're going to publish original empirical research, you should accept and respond to legitimate critiques.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "peer-review",
+        "transparency",
+        "show-your-work"
+      ],
+      "notes": "Paraphrasing Brian Keegan proposals"
+    },
+    {
+      "extract": "To do this kind of work well, journalists need a firm understanding of public records laws, a grasp of programs such as Excel or Access, contacts with statisticians, and a comfort level in creating data sets where none exist.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skill-requirements",
+        "data-creation",
+        "public-records"
+      ],
+      "notes": "Quote from Charles Ornstein"
+    },
+    {
+      "extract": "Data-driven investigative techniques enable beat reporters to look beyond anecdotes or a rotating cast of sources to find hidden trends or scoops. A body of empirical evidence, based upon rigorously vetted data, can give editors and reporters the ability to move away from 'he said, she said' journalism that leaves readers wondering where the truth lies.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evidence-based",
+        "critical-thinking",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using inbound search-engine analytics for reporting: Homicide Watch used clues in site search queries to ID a homicide victim. Organizing beats around databases may well hold similar importance in investigative projects.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "analytics",
+        "beat-reporting",
+        "data-as-source"
+      ],
+      "notes": "Homicide Watch case study"
+    },
+    {
+      "extract": "We should make decisions about when to publish based upon data. Who will the audience be for a particular piece of content? Who are they? What do they read? That will lead to a very different approach to being a publishing enterprise. We will go from a 'publish' to a 'launch.'",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "audience-analytics",
+        "publishing-strategy"
+      ],
+      "notes": "Quote from Aron Pilhofer, NYT"
+    },
+    {
+      "extract": "We embedded open data strategists and evangelists into the newsrooms, backed up by an external development team at a civic tech lab. They're structuring the data that's available, such as turning old microfiche rolls into digital information, cleaning it up, and building a data disk. They're building news APIs and pushing the idea that rather than building websites, design an API specifically for third-party repurposing of your content.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data-infrastructure",
+        "collaboration",
+        "open-data"
+      ],
+      "notes": "Quote from Justin Arenstein, African Media Initiative"
+    },
+    {
+      "extract": "Newsbots may be most useful as early alert systems for beat reporters and editors, finding signal in the noise that journalists can then use as digital tips to assign, investigate, and confirm. If a member of Congress is at risk, you see a spike in 'legal services,' a standard variation above the mean. That should send a notification to congressional reporters.",
+      "chapter": "III. Why Data Journalism Matters",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "monitoring",
+        "algorithmic-detection"
+      ],
+      "notes": "Paraphrases Aron Pilhofer on automated alerts"
+    },
+    {
+      "extract": "ProPublica wrote dozens of data scrapers to cross-reference their database of payments with state medical board and medical school listings. For the initial story, they teamed up with five other newsrooms including NPR and the Boston Globe, which required programmatically creating a system in which we could coordinate data and research. With all the data we had, this wasn't a project that would've succeeded by just sending Excel files back and forth.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "cross-referencing",
+        "collaboration",
+        "data-infrastructure"
+      ],
+      "notes": "Dollars for Docs project"
+    },
+    {
+      "extract": "ProPublica created a software application to enable volunteers to translate unsearchable PDF files into structured data and sort the files by market, amount, candidate, and political group. Nearly 1,000 people pored over the files, logging detailed ad spending data to create a public database that otherwise wouldn't exist.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data-creation",
+        "PDF-extraction"
+      ],
+      "notes": "Free the Files project"
+    },
+    {
+      "extract": "WNYC's Cicada Tracker project turned public radio listeners into sensor journalists: 800 people making trackers produced 8,000 cicada sightings and 1,500 collected temperature readings. The project made crowdsourcing data collection through sensor journalism and a distributed listening audience a reality.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "sensor-journalism",
+        "citizen-science",
+        "data-creation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The site demonstrated two important practices that deserve to become standard in data journalism: explaining the methodology behind its analysis, including source notes, and publishing the data behind the investigation.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology",
+        "show-your-work"
+      ],
+      "notes": "Oakland Police Beat case study"
+    },
+    {
+      "extract": "The L.A. Times found that poor recordkeeping is holding back state government efforts to upgrade California's 911 system. As with any database project, beware of garbage in, garbage out. Poor collection practices and aging IT will derail any institutional efforts to use data analysis to improve performance.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data-quality",
+        "verification",
+        "GIGO"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The projects I'm most proud of have taken large, ugly data sets and refined them into something worth knowing: a nut graf in an investigative story or a data-driven app that gives the reader some new insight into the world around them.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-quality",
+        "data-cleaning",
+        "workflow-design"
+      ],
+      "notes": "Quote from Ben Welsh, LA Times"
+    },
+    {
+      "extract": "The Upshot made editorial decisions to share how reporters found the income data, link to the data set, and share both the methodology behind the forecasting model and the code for it on Github. That is precisely the model for open data journalism that embodies the best of the craft.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "reproducibility",
+        "show-your-work",
+        "open-data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Doing original research on data is hard: It's the core of scientific analysis, and that's why academics have to go through peer-review to get their figures, methods, and approaches double-checked. Journalism is meant to be about transparency, and so should hold itself to this standard—at the very least.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "peer-review",
+        "transparency",
+        "scientific-method"
+      ],
+      "notes": "Quote from James Ball, Guardian"
+    },
+    {
+      "extract": "The International Consortium of Investigative Journalists analyzed 260 gigabytes of leaked corporate data, constituting text, PDF, images, spreadsheets, and images to reveal how government officials were offshoring money. More than 80 journalists from 40 different countries worked together.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "cross-border",
+        "document-analysis",
+        "scale"
+      ],
+      "notes": "Offshore Leaks / ICIJ"
+    },
+    {
+      "extract": "Reuters Connected China structured inherently qualitative relationships—the connections between people (family, mentorship, rivalry, alliances), the importance of particular job roles, the power dynamic between institutions. By quantifying and categorizing these complex relationships, we break from the constraints of long-form text and allow new ways of communicating and interpreting acquired knowledge.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "network-analysis",
+        "structured-data",
+        "relationship-mapping"
+      ],
+      "notes": "Quote from Irene Jay Liu"
+    },
+    {
+      "extract": "In countries without FOIA, Tola and her team aggregated or created the rest of the data used in the project, from scraping and processing PDFs of spending data from regional government websites, then adding geolocation in cooperation with a local developer.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "PDF-extraction",
+        "data-creation",
+        "geolocation"
+      ],
+      "notes": "Wired Italy school earthquake risk project"
+    },
+    {
+      "extract": "Irene Choge, a Kenyan journalist, started mining the available data and public records. She first looked at medical records to see if cholera was involved. Then, she examined water records and physical infrastructure. It was there that she found a key correlation: The schools that saw the worst drop-offs in academic performance by teenage girls were the ones that didn't have sanitation facilities.",
+      "chapter": "V. Notable Examples",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis-testing",
+        "cross-referencing",
+        "public-records"
+      ],
+      "notes": "Kenya data boot camp example"
+    },
+    {
+      "extract": "Journalism programs need to step up and understand that we live in a data-rich society, and math skills and basic data analysis skills are highly relevant to journalism. Journalism is one of the few professions that not only tolerates general innumeracy, but celebrates it. There is still far too much tolerance for anecdotal evidence as the foundation for news stories.",
+      "chapter": "V. Pathways to the Profession",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "numeracy",
+        "skill-requirements",
+        "education"
+      ],
+      "notes": "Quote from Aron Pilhofer"
+    },
+    {
+      "extract": "People with the right mindset, who feel valued for their editorial judgment and creativity, and who are given real responsibility over their work, will learn whatever they need to learn in order to get a project done. There's no magic threshold you have to pass between programmer and not-programmer. Making tools to automate tasks is what a programmer does.",
+      "chapter": "V. Pathways to the Profession",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skill-development",
+        "newsroom-culture",
+        "automation"
+      ],
+      "notes": "Quote from Scott Klein"
+    },
+    {
+      "extract": "Journalism schools still teach journalism as a very hierarchical, often solitary pursuit. That's not the way it works in data journalism. We need a pairing model across newsrooms, not just in the nerd corner.",
+      "chapter": "V. Pathways to the Profession",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "peer-learning",
+        "newsroom-culture"
+      ],
+      "notes": "Quote from Tasneem Raja"
+    },
+    {
+      "extract": "Introduce data journalism within the curriculum, then provide a venue for students to tinker and explore. Ideally, someone on faculty should know enough to guide them. The school should show an interest in data journalism work on par with more traditional storytelling. And they should require more math classes.",
+      "chapter": "V. Pathways to the Profession",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "education",
+        "numeracy",
+        "skill-development"
+      ],
+      "notes": "Quote from Chase Davis"
+    },
+    {
+      "extract": "We read Joel Best's Damned Lies and Statistics and talk about how data comes into being. Then, we go on to data analysis and we practice different ways of representing data. I focus on teaching the students how to use technological tools in the service of doing a story.",
+      "chapter": "V. Pathways to the Profession",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "education",
+        "social-construction",
+        "data-literacy"
+      ],
+      "notes": "Quote from Meredith Broussard on Temple curriculum"
+    },
+    {
+      "extract": "Cleaning data is often the most time consuming part of the data journalism process. A crucial part of what's needed to practice data journalism has little to do with tools and technology and everything to do with perspective and critical thinking. You need a mindset which is about putting this in the context of the story and spotting stories.",
+      "chapter": "VI. Tools of the Trade",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data-cleaning",
+        "critical-thinking",
+        "workflow-design"
+      ],
+      "notes": "Paraphrases Jonathan Stray and Emily Bell"
+    },
+    {
+      "extract": "The canonical suite of tools for computer-assisted reporting: spreadsheets, databases, text editors, and statistics software. Today, data journalists also leverage Web-based tools like Open Refine, Google Fusion Tables, and Tableau, and modern programming languages like Python, Ruby, and Javascript, as well as d3.",
+      "chapter": "VI. Tools of the Trade",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tool-ecosystem",
+        "workflow-design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Stories just as likely come from the unstructured information that comes from documents, audio and video, tweets, other social media—from government and non-government sources. The value that journalists can add has shifted from finding information to making sense of what's actually happening, processing, analyzing and vetting data, and finding signal in the digital noise.",
+      "chapter": "VI. Tools of the Trade",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured-data",
+        "sensemaking",
+        "data-as-source"
+      ],
+      "notes": "Paraphrases Sarah Cohen"
+    },
+    {
+      "extract": "The data stuck on your hard drive is sad data. Knowledge management isn't a sexy problem to solve, but it's a real business problem. People could be doing better reporting if they knew what was available. Data should be visible internally.",
+      "chapter": "VI. Tools of the Trade",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "knowledge-management",
+        "data-infrastructure",
+        "collaboration"
+      ],
+      "notes": "Quote from Brian Boyer on PANDA project"
+    },
+    {
+      "extract": "For data journalists, showing your work means sharing your source data, methodology, and code, not just a notebook. Members of newsrooms that compete on beats are working together on code.",
+      "chapter": "VI. Tools of the Trade",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "show-your-work",
+        "open-source",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Open government data means that more people can access and reuse official information. This in itself is not enough. Journalists need to know what official data means, what it says, and what it leaves out. Only by equipping journalists with the skills to use data more effectively can we break the current asymmetry, where our understanding of information that matters is mediated by governments, companies, and other experts.",
+      "chapter": "VII. Open Government",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data-literacy",
+        "critical-thinking",
+        "open-data",
+        "power-asymmetry"
+      ],
+      "notes": "Quote from Liliana Bounegru"
+    },
+    {
+      "extract": "The demand for structured, nicely scrubbed data for the purpose of building apps can result in fake records rather than real records being released. We get the lowest common denominator of information. When data gets pushed out as open government data, it often gets scrubbed of important details and then we have a harder time getting them under FOIA. We should push harder for actual records and get better at using records in whatever form they exist.",
+      "chapter": "VII. Open Government",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data-quality",
+        "public-records",
+        "FOIA",
+        "verification"
+      ],
+      "notes": "Quote from Sarah Cohen on limitations of sanitized open data"
+    },
+    {
+      "extract": "Data journalism doesn't have to be the product. Data journalism can also be the route that you follow to get to a final story. It doesn't have to produce an infographic or a map.",
+      "chapter": "VII. Open Government",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "workflow-design",
+        "investigation"
+      ],
+      "notes": "Quote from Justin Arenstein"
+    },
+    {
+      "extract": "Don't assume data is inherently accurate, fair, and objective. Don't mistake your access to data or your right to publish it as a legitimate rationale for doing so. Think critically about the public good and potential harm, the context surrounding the data, and its relevance to your other reporting. Then decide whether your data publishing is journalism.",
+      "chapter": "VII. Open Government",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "critical-thinking",
+        "harm-assessment"
+      ],
+      "notes": "Quote from Jeff Sonderman, Poynter"
+    },
+    {
+      "extract": "Journalists must consider when it's appropriate to scrape data, access data, store it—or not. Does the story require storing personal information? If so, such sensitive data will need to be protected with the same vigor that journalists have protected confidential sources.",
+      "chapter": "VIII. On to the Future",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "data-security",
+        "privacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Choose the right stories: a well-written review of the scholarly literature may better inform public debate. Embrace complexity: no interesting causal relationship involves only two variables. Use statistics intelligently: a scatterplot with a least-squares regression line is not 'doing statistics.' Bad statistics is worse than no statistics. Be modest: if you have so many caveats as to completely undermine any conclusion, then don't offer a conclusion.",
+      "chapter": "VIII. On to the Future",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical-rigor",
+        "critical-thinking",
+        "complexity",
+        "humility"
+      ],
+      "notes": "Andrew Whitby's four principles"
+    },
+    {
+      "extract": "Social scientists know that the sources for data and conditions under which it is collected will shape and bias any subsequent research conclusions. Data journalists have to go beyond acquiring and cleaning data to understanding its provenance and source. Then, they'll need to make sure that its presentation doesn't tell a different story than the data itself allows.",
+      "chapter": "VIII. On to the Future",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "provenance",
+        "bias",
+        "social-construction",
+        "data-quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The antidote to data-ism is for journalists to interrogate data just as they would human sources, checking facts and assumptions, comparing results, and documenting the process and results of their investigations as a social scientist or biologist would.",
+      "chapter": "VIII. On to the Future",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical-thinking",
+        "scientific-method",
+        "verification",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "First, searching. Using advanced search techniques, in countries like ours, you find there is more on the Deep Web than in the surface. Then scraping, converting data from PDFs, structuring datasets, and analyzing data. Then, learning to publish in open data formats.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Find",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "scraping",
+        "open data",
+        "data pipeline"
+      ],
+      "notes": "La Nacion interview - Momi Peralta on foundational data journalism skills sequence"
+    },
+    {
+      "extract": "If there are language barriers, translate. If there is no open data, start by doing it yourself. If technology is expensive, check first for free versions. Most are enough to do everything you need.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resourcefulness",
+        "open data",
+        "data acquisition"
+      ],
+      "notes": "La Nacion - creative problem solving for data access barriers"
+    },
+    {
+      "extract": "It's our job to make sure everybody in the newsroom can tell a story by any means necessary. That is, reporters should know how to map, the mapmaking pros on my team should know how to factcheck, the fact checkers should know when to use a column chart versus a bar chart, and so on. We don't believe in siloed skills.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "cross-training",
+        "newsroom collaboration",
+        "skill integration"
+      ],
+      "notes": "Tasneem Raja at Mother Jones on cross-functional team skills"
+    },
+    {
+      "extract": "Never build something you can only use once. Instead, think both in terms of the specific needs of the project in front of you, and the broader needs of a similar project you might not even know of till next year.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reusability",
+        "abstraction",
+        "project management"
+      ],
+      "notes": "Josh Williams advice via Tasneem Raja on building reusable tools"
+    },
+    {
+      "extract": "Everything is data. Words are data. Gifs are data. If it can be sorted, tracked, counted, merged, filtered: it's probably data. I'd say half the project my team does is more qualitative than quantitative.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data definition",
+        "qualitative data",
+        "framing"
+      ],
+      "notes": "Raja on expansive definition of data beyond quantitative"
+    },
+    {
+      "extract": "Pick a project you genuinely want to do, and then hack, Google, and plead for help in forums, and read books, until you get it working.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "learning",
+        "project-based learning",
+        "self-teaching"
+      ],
+      "notes": "Raja on best approach for learning data journalism skills"
+    },
+    {
+      "extract": "We don't have a pair programming model on the editorial side of the newsroom, and we need one. Journalism schools still teach journalism as a very hierarchical, often solitary pursuit. That's not the way it works in data journalism, and the best learning is still gonna be on the job. That requires cross-pollination between folks with different skill sets.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "pair programming",
+        "pedagogy",
+        "newsroom collaboration",
+        "cross-training"
+      ],
+      "notes": "Raja on need for collaborative coding model in newsrooms"
+    },
+    {
+      "extract": "At ProPublica, no one has a specific responsibility like design, backend development, data analysis, etc. Instead, people on the team tend to do the whole stack from beginning to end. When we need help, or don't understand something, we ask our teammates.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "full-stack journalism",
+        "team structure",
+        "newsroom collaboration"
+      ],
+      "notes": "Sisi Wei on ProPublica full-stack team model"
+    },
+    {
+      "extract": "An insatiable appetite to get to the bottom of something, and the willingness to learn any tool to help you find the answers you're looking for. In that process, you'll by necessity learn programming skills, or data analysis skills. But without knowing what questions to ask, or what you're trying to accomplish, neither of those skills will help you.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "question-driven inquiry",
+        "curiosity",
+        "skill acquisition"
+      ],
+      "notes": "Sisi Wei on questions driving tool selection, not vice versa"
+    },
+    {
+      "extract": "In terms of programming, just pick a project, make it simple, make it happen and then finish it.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project-based learning",
+        "prototyping"
+      ],
+      "notes": "Wei on learn-by-doing approach"
+    },
+    {
+      "extract": "Data journalism allows journalists to point to the raw data and ask questions, as well as question the very conclusions we are given. It allows us to use social science techniques to illuminate stories that might otherwise be hidden in plain sight.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "social science methods",
+        "accountability",
+        "verification",
+        "evidence-based reporting"
+      ],
+      "notes": "Wei on data journalism as social science method for journalism"
+    },
+    {
+      "extract": "The same core skills you need to practice any kind of journalism: curiosity, skepticism, an eye for detail and a sense of a good story. Also numeracy, or at least conceptual mathematical literacy, which is still unfortunately too rare. Also important are databases and spreadsheets, statistics, and some kind of programming language.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "foundational skills",
+        "skepticism",
+        "statistical literacy"
+      ],
+      "notes": "Chase Davis on foundational data journalism skills including numeracy"
+    },
+    {
+      "extract": "I think a data journalist needs news judgment and attention to detail in order to identify the newsworthiness and limitations of datasets. Statistics can help explain a dataset's strengths and weaknesses.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data limitations",
+        "news judgment",
+        "statistical literacy",
+        "verification"
+      ],
+      "notes": "Dan Hill on identifying dataset limitations"
+    },
+    {
+      "extract": "Our team adheres to modified scrum principles. We have a daily scrum at 10:00am for all of the members of our Visuals team. We work on projects in one-week sprints. At the end of each sprint we have an iteration review and a 'ticket shuffle' where we decide what tickets each of us should work on in the next sprint.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "agile methodology",
+        "project management",
+        "team structure",
+        "newsroom workflow"
+      ],
+      "notes": "Jeremy Bowers on NPR Visuals team agile/scrum workflow"
+    },
+    {
+      "extract": "Our projects involve minimally four people: One developer, one designer, one project manager and one stakeholder. Some projects add more designers or more developers as necessary.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team structure",
+        "project management",
+        "newsroom collaboration"
+      ],
+      "notes": "Bowers on minimum viable team composition at NPR Visuals"
+    },
+    {
+      "extract": "If we report on data, and we open data while reporting, then others can reuse and build another layer of knowledge on top of it.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "transparency",
+        "reproducibility",
+        "public service"
+      ],
+      "notes": "La Nacion on publishing data alongside reporting"
+    },
+    {
+      "extract": "Instead of a person, you're using data as a source. Over time, I shifted from being a reporter who does CAR to being a specialist at the Center for Public Integrity to a CAR editor at the New York Times and then started this team.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data as source",
+        "CAR",
+        "evidence-based reporting"
+      ],
+      "notes": "Pilhofer on treating data as a journalistic source"
+    },
+    {
+      "extract": "I feel strongly, and now there is a growing consensus, that we should make decisions like that based upon data. Who will the audience be for a particular piece of content? Who are they? What do they read? That will lead to a very different approach to being a publishing enterprise.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "audience analytics",
+        "data-driven publishing",
+        "distribution strategy"
+      ],
+      "notes": "Pilhofer on data-driven publishing decisions at NYT"
+    },
+    {
+      "extract": "There is still far too much tolerance for anecdotal evidence as the foundation for news stories.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evidence-based reporting",
+        "numeracy",
+        "rigor"
+      ],
+      "notes": "Pilhofer on cultural resistance to data-driven evidence"
+    },
+    {
+      "extract": "People with the right mindset, who feel valued for their editorial judgment and creativity, and who are given real responsibility over their work, will learn whatever they need to learn in order to get a project done. The people on my team focus on telling great journalistic stories and don't let not knowing how to do something stop them from doing so.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "culture",
+        "learning mindset",
+        "team management",
+        "autonomy"
+      ],
+      "notes": "Scott Klein on culture enabling skill acquisition at ProPublica"
+    },
+    {
+      "extract": "There are ways to design data so that more important numbers are bigger and more prominent than less important details. People know to scroll down a Web page for more fine-grained details. At ProPublica, we design things to move readers through levels of abstraction from the most general, national case to the most local example.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information hierarchy",
+        "data visualization",
+        "user experience",
+        "presentation"
+      ],
+      "notes": "Klein on ProPublica information design from general to local"
+    },
+    {
+      "extract": "Can you imagine a sports reporter who doesn't know what an on-base percentage is? Or doesn't know how to calculate it himself? You can now ask a version of that question for almost every beat.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "data literacy",
+        "beat reporting"
+      ],
+      "notes": "Klein on data literacy as essential for every beat"
+    },
+    {
+      "extract": "It makes lots of sense for us to make the effort of typing, building datasets, cleaning, converting and sharing data in open formats, even organizing our own 'datafest' to expose data to experts.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "open data",
+        "dataset building",
+        "community engagement"
+      ],
+      "notes": "La Nacion on investing in dataset creation and sharing"
+    }
+  ]
+}

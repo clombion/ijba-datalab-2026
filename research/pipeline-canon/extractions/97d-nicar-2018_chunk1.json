@@ -1,0 +1,916 @@
+{
+  "source_id": "97",
+  "source_file": "97d-nicar-2018.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "1/1",
+  "chunk_file": "97d-nicar-2018_chunk1.md",
+  "chunk_words": 16681,
+  "extracts": [
+    {
+      "extract": "Whatever you're doing, someone else could reproduce it — whether that's getting the data, analysis, visualization or the story. If you're coding, you run your code and get the same thing every time.",
+      "chapter": "How and why to make your data analysis reproducible",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Doesn't necessarily mean fully automated. Even if one part is reproducible, it still makes it easier.",
+      "chapter": "How and why to make your data analysis reproducible",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "pragmatism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Inputs and outputs. Inputs should yield the same outputs. What could I delete from my computer, hit one button and have it regenerate completely?",
+      "chapter": "How and why to make your data analysis reproducible",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "automation",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Extract-transform-load. Extract = get the raw data. Transform = Doing stuff. Load = Publish or load data into news app. Principles: Source data is lava. We don't touch it. Process is deterministic: You'll always get the same thing. Standard tool kit, standard process. We're all speaking the same language. Version control. Kind code. Kind code is easier to read and understand for you and others.",
+      "chapter": "What is an ETL Process?",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "ETL",
+        "data integrity",
+        "version control",
+        "code quality",
+        "workflow"
+      ],
+      "notes": "Core ETL principles for newsroom data work"
+    },
+    {
+      "extract": "Series of assumptions and inputs, series of outputs. Be explicit about what the findings are. Uses Make. Goal: One command that deletes all your outputs and runs all your code to reproduce the outputs.",
+      "chapter": "What is an ETL Process?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Make",
+        "automation",
+        "reproducibility",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Start thinking about reproducibility. First line of script is 'Download file'. Documenting decisions and processes.",
+      "chapter": "What is an ETL Process?",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Have an auditable trail of things you did to your data. Freedom to forget. Helpful if your code gives you sharable artifacts to help editors, reporters, etc. even if it's not for publication.",
+      "chapter": "How does ETL process guide data exploration",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audit trail",
+        "documentation",
+        "collaboration",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Radiating circle: Do it for myself, future self, collaborators, editors, for the public. Also adds accountability. All the other parts are for practical reasons, making it public is more about the principle.",
+      "chapter": "How does ETL process guide data exploration",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "accountability",
+        "open source",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reporting can't be automated. There's no computer script in the world that can impart meaning on this subjective subject that someone else made.",
+      "chapter": "What can't be automated and how do you deal with that?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human judgment",
+        "automation limits",
+        "interpretation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Anything manual should be part of the input. If there's a part in the middle you can't automate, think of it as two smaller reproducible projects with a step in the middle.",
+      "chapter": "What can't be automated and how do you deal with that?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "workflow design",
+        "human judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Hurricane Harvey-related industrial emissions. New data coming in all the time, wanted to make sure they had the most updated data. Human judgment: Records to ignore — science reporter identified things that had nothing to do with the hurricane.",
+      "chapter": "Example of when reproducibility was valuable",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "iterative updates",
+        "human judgment",
+        "domain expertise"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Build in a checking step. Notifies if something is wrong and doesn't push new data to production.",
+      "chapter": "Reproducing your data when it's meant to be live",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "quality assurance",
+        "automation",
+        "live data",
+        "testing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Definitely want to test throughout the process. Create logs. System that gives you alerts when stuff doesn't look the way it should. Airflow ETL system.",
+      "chapter": "Testing?",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "testing",
+        "logging",
+        "monitoring",
+        "Airflow",
+        "ETL"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Take something you've already written and make it reproducible. Take code that's sort of reproducible and make it reproducible. More of a mindset rather than a technical skillset. Write a methodology. The art of explaining.",
+      "chapter": "Good entry point",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "methodology",
+        "documentation",
+        "learning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do the basic stuff from the beginning, can add later. Assume that at some point it might go somewhere.",
+      "chapter": "Dealing with uncertainty of when something might be a story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "workflow",
+        "story development"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How do you work with it? Look up comparisons at school and district level. Larger analyses are more complicated and require feedback loops and teamwork.",
+      "chapter": "Education civil rights data: The good, the bad, the dirty",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "comparison analysis",
+        "collaboration",
+        "scale"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Vetting, spot-checking this data is very important.",
+      "chapter": "Education civil rights data: The good, the bad, the dirty",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data quality",
+        "spot-checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Narrowed in on K-3 suspensions. Big difference between in-school suspensions (mostly given to white kids), out-of-school (mostly given to black students). DIY data: surveys of resources, counselors, bias trainings.",
+      "chapter": "Education civil rights data: The good, the bad, the dirty",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "narrowing scope",
+        "disparities analysis",
+        "DIY data collection",
+        "surveys"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Where to get the data: Office for Civil Rights, NCES, state departments of education. Watch for data entry errors, look for impossible data, check against other datasets, verify with schools/districts if possible.",
+      "chapter": "Education civil rights data: Tips",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "verification",
+        "cross-referencing",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It had an impact. SLPS banned OSS for K-2, 20 other districts pledged to reduce or ban them. Different media, different approach: We created a database for people to look up their district.",
+      "chapter": "Education civil rights data: The good, the bad, the dirty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "impact",
+        "searchable database",
+        "audience engagement",
+        "public interest"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "No reliable stats exist. FBI says around 6,000 per year. Bureau of Justice Statistics estimates up to 250,000. Documenting Hate database by ProPublica.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data gaps",
+        "official statistics",
+        "crowdsourcing",
+        "underreporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Compare local data to state data to federal data. Hate crime convictions — there's no centralized database. Drill down by location: college campuses, public transit.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "multi-level analysis",
+        "geographic drill-down",
+        "data gaps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tweeted she was covering hate crimes and got stories. FOIAed police department to confirm. Don't have to wait to do huge all-encompassing story. Chip away at it.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "source development",
+        "social media sourcing",
+        "FOIA",
+        "iterative reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "FBI's master files are fixed-width and the dictionary is a typed, scanned document from the 90s. Easy impact. Ask for records from local agency and see if they match up with FBI reports. Does this mean you've had no hate crimes, or that you don't track hate crimes reported to you?",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "record matching",
+        "accountability",
+        "FOIA",
+        "questioning methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ask how they handle hate crimes? Do they do hate crimes training? How do they handle racist graffiti — does it get marked as a hate crime?",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "accountability questions",
+        "classification methodology",
+        "reporting practices"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes trolls submit to the form. Have to fact check. Real people worry about being doxxed. Engagement team monitored comments.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourced data",
+        "verification",
+        "trust",
+        "engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ADL, SPLC, other similar groups. Unifying that data is hard. Universities. Dept. of Education.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "cross-referencing",
+        "data integration"
+      ],
+      "notes": "Benchmark sources for hate crime data"
+    },
+    {
+      "extract": "Make a timeline, ask chronologically. ProPublica Unbelievable Story of Rape — reporter sent email, talked through lawyer first, no surprises. You're always free to go. Only a couple people, minimal gear.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interviewing technique",
+        "source safety",
+        "chronological verification",
+        "trauma-informed reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you're FOIAing lots of police agencies and they say they don't have data, find corroboration in the news and send it to them.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "corroboration",
+        "pushback tactics",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Responsibility matrix (RASCI). Across the top are people's names. Jobs down the side. What that person's responsibility is for that job at intersection. Responsible for \\!= boss. A for Accountable. S for Support. C for Consulted. I for Informed.",
+      "chapter": "More bibles, fewer priests: Tools for running self-managing teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team management",
+        "roles",
+        "RASCI",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Retrospectives. After a project or for a defined period of time. Catalogue everything. 1. What went well. 2. What didn't work. What was hard. 3. What should we do differently next time? Write down on post-its for defined period (5 minutes). Come back to it later, pick a few of #3, talk about how you'd deal with it. That's what makes it actionable.",
+      "chapter": "More bibles, fewer priests: Tools for running self-managing teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "retrospectives",
+        "process improvement",
+        "team learning",
+        "project management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "OKRs: Objectives and Key Results. Objective: Let's build the best photo website for Chicago. Key Results: What is evidence that we did that? (views, revenue, etc. needs to be measurable). Look at the key results every week. What is our confidence we're going to hit it?",
+      "chapter": "More bibles, fewer priests: Tools for running self-managing teams",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "OKRs",
+        "goal-setting",
+        "metrics",
+        "team management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What kinds of insights can you get? Patterns across documents — which documents are most similar to documents you already know are interesting. Outliers — What's distinctive about some documents compared to others. Extract meaning — topic/sentiment.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "NLP",
+        "text analysis",
+        "pattern detection",
+        "outlier detection",
+        "topic modeling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Pipeline: 1. Getting the data. 2. Dividing it up. 3. Analyzing. 4. Bulletproofing. 5. Presentation.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "NLP pipeline",
+        "workflow",
+        "text analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Getting data is harder than it sounds. Some sources: Readily available (Speeches, academics, libraries). APIs. Scraping. Speech to text. FOIA.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "text data",
+        "APIs",
+        "scraping",
+        "speech-to-text",
+        "FOIA"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cleaning: OCR. Filtering stuff out like documents in other languages. Lowercasing, punctuation, stripping HTML, bylines, etc. Tokenization (words -> columns). Stemming/lemmatization & part-of-speech tagging. Remove stopwords and meaningless words.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text cleaning",
+        "OCR",
+        "tokenization",
+        "NLP preprocessing",
+        "stopwords"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Counting words. TFIDF (Term Frequency Inverse Document Frequency). Keyword. Clustering. Sentiment. Vectorization. Vectorization = give it lots of documents, it'll figure out which words appear in similar contexts. Can ask analogies like what is the Republican version of what the Democrats call an estate tax.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "TFIDF",
+        "clustering",
+        "sentiment analysis",
+        "word vectors",
+        "NLP techniques"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Cleaning data and removing stop words = senator's most common words were his last name and 'previous_article'.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "stopwords",
+        "text analysis",
+        "pitfalls"
+      ],
+      "notes": "Cautionary example about insufficient cleaning"
+    },
+    {
+      "extract": "Bulletproofing doctor's harassment reports: Periodically check whether predictions were useful. Randomly select documents with low scores and read those. Be aware of whether you've unintentionally biased your algorithm. False negatives are ok, false positives are unacceptable.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "bulletproofing",
+        "model validation",
+        "bias detection",
+        "false positives",
+        "NLP"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Beware of external factors: One stylebook requires 'spokesperson', one requires 'spokesman/spokeswoman'.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "confounding variables",
+        "text analysis pitfalls",
+        "editorial conventions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "No word clouds. Bar charts, bubbles, heat maps. Small multiples.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "chart types",
+        "presentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Story planning process: Incremental process. People start coming to you with every pile of text. Use the easiest tool that will get the job done (DocumentCloud).",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tool selection",
+        "simplicity",
+        "DocumentCloud",
+        "text analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Initial loading step: figure out what you actually need from the data. When dealing with large amounts of data, just moving it around can take a long time. Paring it down can be helpful.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data reduction",
+        "scoping",
+        "efficiency",
+        "large datasets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As technology has progressed, you can't wait until the end. Everybody has to feel like an equal player.",
+      "chapter": "Building happy cross-functional teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "team structure",
+        "integration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Post-mortems after a project, not a blame game. Good/Bad things. Recently added a thankful section.",
+      "chapter": "Building happy cross-functional teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "retrospectives",
+        "team culture",
+        "process improvement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Needed basic data: Name, cause of death or near death, date, states, prior births, type of delivery. Looked for conversations, but it's treated as private tragedy but not public health crisis. Crowdsourcing. Spent two months developing the right form. Specific about intent. Questions changed based on conditional answers. Three audiences: I almost died, I know someone who died, I know someone who almost died.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "form design",
+        "data collection",
+        "audience segmentation",
+        "conditional logic"
+      ],
+      "notes": "Lost Mothers series methodology"
+    },
+    {
+      "extract": "Did all this in tandem with traditional reporting. Also searched out facebook groups — anything that touched maternal health at all. Shared the form widely. But then followed up. Constant communication, can't be just the form.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "community engagement",
+        "source development",
+        "follow-up"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The dataset that we used for this is not hugely robust. Telling the story beyond the data: this is a story about people. Data formed the basis for the story but wasn't the story.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "narrative",
+        "data limitations",
+        "human-centered storytelling"
+      ],
+      "notes": "Death behind bars project"
+    },
+    {
+      "extract": "Story started with anonymous tip: three suicides in the past month. Requested 10 years of data for basic info, then requested more data points later. Found big uptick after new sheriff, rate about 5x national average. But had to figure out why. Found out only one death had been investigated by outside agency.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "tip-driven investigation",
+        "FOIA",
+        "longitudinal analysis",
+        "benchmarking",
+        "causal analysis"
+      ],
+      "notes": "Death behind bars project"
+    },
+    {
+      "extract": "Use of video for explainers, interview and annotated raw video. Case studies/profiles. Combating cynicism: Told human stories, described in detail, this could be you or someone you know, the data helped bolster the story.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multimedia",
+        "video",
+        "case studies",
+        "humanizing data",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Corruption is not news. Inequality is not a story. Theft is not a story. If we can count it, if we can measure it, we can fix it.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story framing",
+        "measurement",
+        "impact",
+        "developing countries"
+      ],
+      "notes": "Eva Constantaras on data journalism in developing countries"
+    },
+    {
+      "extract": "Process: Background. Hypotheses. Questions. Analysis. Story Structure. Interviews. Visualization. Impact metrics. Start with headline story. Background: Has someone else written this? Can we get to the bottom of this?",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "investigation process",
+        "hypothesis-driven reporting",
+        "story planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Hypotheses. Why is this happening? Tips: can be proven or disproven with data, specific about what's measured, is it measuring problem, causes, impact and solutions, is it important to the public? Common mistakes: too simple, too broad, too narrow, can't be proved, already is proven and common knowledge.",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis formulation",
+        "research design",
+        "falsifiability",
+        "scoping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Questions: Problem/Impact/Cause/Solution categories. Impact: News you can use. How can someone act on this info?",
+      "chapter": "Data journalism that breaks the filter bubble",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "question framing",
+        "impact",
+        "actionable journalism",
+        "audience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Not everything is there: Orgs that file by paper. Tiny groups that file 990-N. Groups that don't file at all (churches, etc.). Forms that haven't been processed (takes a few months). Forms processed before 2011.",
+      "chapter": "Tips for harnessing new IRS nonprofit data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data completeness",
+        "IRS 990",
+        "data limitations",
+        "coverage gaps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Format: XML. There are index files for each year, JSON and CSV. They're slightly different. Approaches to downloading: Download all index files, download XML files from indexes, loop through XML files to grab key info, save data in new CSV files. Alternative: Download JSON, parse into SQL table, get URLs and download.",
+      "chapter": "Tips for harnessing new IRS nonprofit data",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "XML",
+        "JSON",
+        "CSV",
+        "data acquisition",
+        "IRS 990",
+        "ETL"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always read the footnotes.",
+      "chapter": "Life after FactFinder",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Census data",
+        "data literacy",
+        "documentation",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Re-think of what notifications should do. Instead of driving people to coverage, it is coverage.",
+      "chapter": "Evolving forms and the future of live coverage",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "notifications",
+        "mobile",
+        "distribution",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Live briefing: Removes sense of urgency from live-blog. What's important right now? Kind of like an article, but updated a lot. Ordered by importance rather than recency, but unlike an article it doesn't need to be a narrative.",
+      "chapter": "Evolving forms and the future of live coverage",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "live briefing",
+        "story forms",
+        "editorial judgment",
+        "prioritization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Think about audience, don't presume everyone wants to know. Be good stewards with people's expectations and attention.",
+      "chapter": "Evolving forms and the future of live coverage",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience awareness",
+        "notification ethics",
+        "attention stewardship"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Build a reputation to be someone to approach with the stories.",
+      "chapter": "Investigating hate when the data isn't there",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source development",
+        "trust",
+        "beat reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Database of more than 100,000 disciplinary documents of doctor misconduct, model to tag them and statistically estimate likelihood.",
+      "chapter": "How to find reporting leads and publishable facts in text data you already have",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "classification",
+        "machine learning",
+        "document tagging",
+        "NLP",
+        "large datasets"
+      ],
+      "notes": "Example use case for NLP in investigative journalism"
+    },
+    {
+      "extract": "Data may not be the best way to effect change, but it can make some people pay attention.",
+      "chapter": "Education civil rights data: The good, the bad, the dirty",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "impact",
+        "data limitations",
+        "advocacy",
+        "audience"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Implemented process and gotten buy-in because they can explain why the process is there. Get people on the same page about the problem first. Transparency and visualizations. Keep it short and keep it planned. Don't waste people's time. Be open about whys and whats. Treating process with a design eye.",
+      "chapter": "More bibles, fewer priests: Tools for running self-managing teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "process design",
+        "buy-in",
+        "team management",
+        "communication"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Learn how to speak each others' languages. Figure out how much technical savvy you're going to require of people. Figure out what the actual problem you're trying to solve is.",
+      "chapter": "Building happy cross-functional teams",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-functional teams",
+        "communication",
+        "technical literacy",
+        "problem framing"
+      ],
+      "notes": ""
+    }
+  ]
+}

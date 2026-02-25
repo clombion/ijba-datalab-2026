@@ -1,0 +1,738 @@
+{
+  "source_id": "139",
+  "source_file": "139-best-practices-data-journalism.md",
+  "source_title": "Best Practices for Data Journalism",
+  "author": "Kuang Keng Kuek Ser (MDIF)",
+  "year": "n.d.",
+  "extracts": [
+    {
+      "extract": "When setting up your data team, it is absolutely ok to start small. The diversity of skills matters more than team size. However, avoid having a single data journalist and expecting that person to do everything.",
+      "chapter": "Getting Started",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "skill diversity",
+        "staffing"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Starting small with diverse skills endures but team skill requirements shift when LLMs cover some coding and design tasks"
+    },
+    {
+      "extract": "The diversity of skills is more important than the size of the team. The key skills are Code, Design, and Journalism. Look for generalists with skills in at least two of the Code, Design and Journalism areas, and be willing to teach them the third.",
+      "chapter": "Getting Started",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "skill diversity",
+        "hiring"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Code-Design-Journalism triad endures but LLMs blur boundaries as journalists can now code and design with AI assistance"
+    },
+    {
+      "extract": "All data team members, regardless of their discipline, are part of the news desk. They should be treated as journalists and sit within the desk to encourage communication and collaboration.",
+      "chapter": "How the Team Works",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team integration",
+        "newsroom culture",
+        "collaboration"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data team members as part of the news desk, not siloed, is a permanent organizational principle"
+    },
+    {
+      "extract": "The data team should not be seen as a 'service desk' that is called in to help solve a technical issue during a project or asked to create graphics at the end of the reporting process. It should be involved in the project as early as possible.",
+      "chapter": "How the Team Works",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team integration",
+        "workflow",
+        "early involvement"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data team as partner from project start rather than service desk is a permanent workflow principle"
+    },
+    {
+      "extract": "Team members should be given self-learning time in their work schedule so they can expand or strengthen their skill-sets.",
+      "chapter": "How the Team Works",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "professional development",
+        "skill building",
+        "team management"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Allocating self-learning time for skill development is a permanent team management practice"
+    },
+    {
+      "extract": "For graphics, cut out those that are ineffective (dull), unnecessary (simply break up the text) or that add little or no value (don't help tell the story more effectively). Focus resources on improving the quality of essential visual elements, and optimize those graphics for platforms where your audience is most active.",
+      "chapter": "What Project/Stories to Start With?",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "graphics strategy",
+        "resource allocation",
+        "audience"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cutting ineffective graphics and focusing resources on essential visual elements is permanent editorial discipline"
+    },
+    {
+      "extract": "A quick way to kick-start a data project is to pick an issue where data is readily available, especially in countries where government data is not public. Another consideration is to piggy-back on similar projects by media in other countries so your team can reproduce or innovate based on them. Issues like healthcare, government budget/spending and voting are some low-hanging fruit. Choose one with broad public appeal and a relatively long shelf life to maximize the impact.",
+      "chapter": "What Project/Stories to Start With?",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "topic selection",
+        "story ideation",
+        "data availability",
+        "impact"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Starting with available data on topics with public appeal and long shelf life is permanent project selection wisdom"
+    },
+    {
+      "extract": "When providing data journalism training for your newsroom, include managers and editors at least in the introduction or overview part. You want them to empower the journalists and be able to edit data stories.",
+      "chapter": "Encouraging and Nurturing Data Culture in the Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training",
+        "editorial buy-in",
+        "data literacy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Including managers and editors in data journalism training is a permanent organizational change management practice"
+    },
+    {
+      "extract": "Customize training for your newsroom as every newsroom is different. Use participants' stories as examples or in exercises. Use real data relevant to topics covered by the participants. Start with tools/skills that have a low learning curve and will be used frequently.",
+      "chapter": "Encouraging and Nurturing Data Culture in the Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "training",
+        "curriculum design",
+        "skill building"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Customizing training with real data and participants own stories is timeless adult learning pedagogy"
+    },
+    {
+      "extract": "Sit programmers, designers and journalists together. Proximity works. Use an instant communication tool like Slack for the whole newsroom. Have 15-minute daily stand-up meetings, where those in the newsroom share briefly what they did yesterday and what they plan to do today.",
+      "chapter": "Collaborative Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "workflow",
+        "communication",
+        "agile methods"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Proximity and Slack for collaboration endure but LLMs as team productivity tools change daily standup content and communication patterns"
+    },
+    {
+      "extract": "Break down perceptions: i.e. developers and designers should not 'serve' journalists. They are an integral part in finding and presenting stories and designing how users interact with them.",
+      "chapter": "Collaborative Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "team roles",
+        "newsroom culture"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Breaking down perception that developers serve journalists; all are integral to finding and presenting stories is permanent"
+    },
+    {
+      "extract": "Involve everyone early in the project to build a shared sense of ownership. Start with projects on less time-sensitive issues to experience the collaborative process without rushing to meet a deadline.",
+      "chapter": "Collaborative Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "project management",
+        "ownership"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Involving everyone early to build shared ownership and starting with less time-sensitive projects is permanent project management wisdom"
+    },
+    {
+      "extract": "The key to producing such projects is story selection. Below are some characteristics that data teams should look for when conceiving projects: Evergreen or recurring topics, topics with broad and strong public interest, data that can be personalized.",
+      "chapter": "Topic Selection",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "topic selection",
+        "story ideation",
+        "impact",
+        "personalization"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Selecting evergreen topics with broad public interest and personalizable data is permanent story selection criteria"
+    },
+    {
+      "extract": "When such a need arises, the data team will ask developers to build what's required. Over time, the team will find some components or presentation formats are used repeatedly. This is when tools and templates should be built for journalists to create the components or plug in different types of content into the layout. The user interface should be easy enough for journalists to edit the content directly without touching any code.",
+      "chapter": "Build Reusable and Easy Tools",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reusable tools",
+        "templates",
+        "efficiency",
+        "newsroom infrastructure"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Building reusable templates endures but LLMs enable rapid generation of presentation components, reducing need for pre-built templates"
+    },
+    {
+      "extract": "If you can frame your question, hypothesis or reason in more specific terms, this helps make your reporting more efficient. Instead of 'Has crime risen or fallen in Gotham City?' use 'Has the intentional homicide rate risen or fallen in Gotham City despite the city tripling its crime-fighting spending in the last 3 years?'",
+      "chapter": "Why Do You Need Data?",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis framing",
+        "specificity",
+        "research questions"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Framing specific hypotheses rather than broad questions to guide reporting is a permanent research design principle"
+    },
+    {
+      "extract": "When government data is not accessible or is unreliable, journalists should look into other data sources: international/regional data portals, research reports, academics and universities, professional bodies and trade associations, NGOs, crowdsourced data, and APIs.",
+      "chapter": "Where to Find Data?",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "alternative sources",
+        "data access"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Looking beyond government data to international portals, academics, NGOs, and APIs is permanently relevant for data access"
+    },
+    {
+      "extract": "Asking your audience to provide you with data is usually a last resort on an issue your audience cares about but where no-one has collected any data. It can, though, be a challenge to verify crowdsourced data. However, the benefits of filling the data vacuum or complementing existing incomplete or flawed data can outweigh the shortcomings.",
+      "chapter": "Where to Find Data?",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "crowdsourcing",
+        "data collection",
+        "verification",
+        "data gaps"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Crowdsourcing as last resort with verification challenges but potential to fill data gaps remains relevant"
+    },
+    {
+      "extract": "Crowdsourced data journalism is not just about asking users for data points. Some successful crowdsourced data journalism projects asked users to help on tasks that can't be computer-automated. The Guardian, for example, asked readers to sieve out important information from some 700,000 documents in the MP's Expenses project.",
+      "chapter": "Where to Find Data?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "distributed analysis",
+        "human computation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Crowdsourcing for tasks that cant be automated is partially displaced as LLMs can now handle many document review tasks"
+    },
+    {
+      "extract": "Always question the quality of your data. Apply the same journalism ethics and standards - such as accuracy and accountability - to data-driven stories.",
+      "chapter": "3 Commandments",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "accuracy",
+        "accountability",
+        "ethics"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questioning data quality and applying journalism ethics and standards to data-driven stories is permanent"
+    },
+    {
+      "extract": "Your data might not be able to answer all these questions, but that doesn't mean you can't use it. The decision to use or not is an editorial one, just like whether you want to use the information provided by your sources. The circumstances vary, but what every data journalist can and should do is to be open and honest to their users. Let them know the weaknesses and limitations of your data. Explain your decision to use that data if necessary.",
+      "chapter": "Data Integrity",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "data limitations",
+        "editorial judgment",
+        "honesty"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Being transparent about data limitations and explaining editorial decisions about imperfect data is permanent"
+    },
+    {
+      "extract": "A good practice is to build a data biography - a document to record all the answers to the questions above.",
+      "chapter": "Data Integrity",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data biography",
+        "documentation",
+        "provenance"
+      ],
+      "notes": "References Heather Krause data biography template",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building a data biography to document provenance and quality answers is a permanent best practice"
+    },
+    {
+      "extract": "Is the data accurate? Does it reflect the real world objects? Do you have enough data? Is all necessary data present? Did you get the data for the relevant time period? Are all data values clearly defined by the data provider? Does it come with a data dictionary/codebook? Is there another source that collects similar or parallel data? Who collects, processes, publishes and maintains the data? Why, when and how was the data collected? Did the collection method change over time? Does the data come with disclaimers, limitations or assumptions?",
+      "chapter": "Data Integrity",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data evaluation",
+        "data quality checklist",
+        "provenance",
+        "methodology"
+      ],
+      "notes": "11-question checklist for evaluating data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "11-question data quality checklist covering accuracy, provenance, methodology, and limitations is permanently essential"
+    },
+    {
+      "extract": "Before doing anything to the dataset, keep a copy of the original in case you make mistakes and lose access to the data source.",
+      "chapter": "3 Commandments",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "backup",
+        "original data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Keeping a copy of original data before any manipulation is a permanent best practice"
+    },
+    {
+      "extract": "Data cleaning also involves transforming data: Split data into more than one data point - e.g. first and last name, street name and postal code. Transform data points into the same unit. Transform money values so they have a common time basis. Transform date and time into consistent formats. Transform the data structure in a spreadsheet to a proper layout e.g., only one row for header, one data point in each row.",
+      "chapter": "Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data transformation",
+        "normalization",
+        "standardization"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data cleaning transformations (splitting, normalizing, standardizing) endure but LLMs now automate much of this work"
+    },
+    {
+      "extract": "When you're about to start cleaning or processing your dataset, it is a recommended practice to log every step. This not only allows your colleagues or editors to 'bulletproof' your data and reporting, it also gives you a clear path to trace and reverse processes. It can be a useful reference when you deal with similar datasets in the future.",
+      "chapter": "Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "audit trail",
+        "reproducibility",
+        "logging",
+        "documentation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Logging every cleaning step for audit trail, bulletproofing, and future reference is a permanent reproducibility practice"
+    },
+    {
+      "extract": "When dealing with a data sample, scrutinize its size, sampling method, margin of error and confidence level to avoid misleading your audience.",
+      "chapter": "3 Commandments",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "sampling",
+        "statistical literacy",
+        "margin of error"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scrutinizing sample size, sampling method, margin of error, and confidence level is permanent statistical literacy"
+    },
+    {
+      "extract": "Be extra careful in making cause and effect conclusions among data points. Correlation between two variables does not mean causation.",
+      "chapter": "3 Commandments",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "statistical reasoning",
+        "analytical pitfalls"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation does not imply causation is a permanent analytical principle"
+    },
+    {
+      "extract": "In most cases you just need to perform basic statistical and mathematical procedures to find insight from the data. Know how to use spreadsheet program functions to find: Total, Maximum/minimum values, Averages: mean, median, mode, Percentage, Percent change, Rate: per capita, per cases, Distribution of data.",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "basic statistics",
+        "spreadsheet analysis",
+        "descriptive statistics"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Basic statistical procedures via spreadsheet functions endure conceptually but LLMs can compute these from natural language queries"
+    },
+    {
+      "extract": "As a rule of thumb, you should calculate both the mean and median. If they are close, stick with the 'mean', if they are far apart, because of extreme outliers, use the 'median'.",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "mean vs median",
+        "statistical reasoning",
+        "skewed data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Mean vs median rule of thumb for handling skewed data is a permanent statistical reasoning principle"
+    },
+    {
+      "extract": "Look out for: TREND - how the variables have changed over time or across groups. CONTRAST - the differences among comparable variables. OUTLIERS - data points that are far from the average (but double check to make sure they are not errors).",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "analytical patterns",
+        "trend analysis",
+        "outlier detection",
+        "comparison"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Looking for trends, contrasts, and outliers as analytical patterns is a permanent data analysis framework"
+    },
+    {
+      "extract": "Analyzing a dataset can prompt more questions that require other datasets to answer. For example, when you compare the number of murder cases in two cities, you need their population numbers to calculate the number of cases per capita for a fair comparison.",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "combining datasets",
+        "per capita rates",
+        "fair comparison"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Combining datasets for fair comparison using per capita rates is a permanent analytical principle"
+    },
+    {
+      "extract": "Many insights in the data are hidden from these 'interview' techniques. You need to convert the data into visual forms to see them. Relationships between variables, trends and insights within geospatial data are best recognized using visualization. The goal of visualization at this stage is exploratory data analysis rather than presentation.",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory visualization",
+        "EDA",
+        "visual analysis",
+        "hidden patterns"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Exploratory visualization to reveal hidden patterns endures but LLMs now generate exploratory charts from prompts"
+    },
+    {
+      "extract": "As in other forms of journalism, data journalism is vulnerable to mistake and bias. All the journalism ethics and standards apply to data-driven stories, but some steps are different from traditional reporting.",
+      "chapter": "Finding Stories from Data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "bias",
+        "verification",
+        "standards"
+      ],
+      "notes": "References ProPublica bulletproofing guide",
+      "llm_relevance": "endures",
+      "relevance_rationale": "All journalism ethics and standards apply to data-driven stories is a permanent principle"
+    },
+    {
+      "extract": "It cannot be emphasized enough that the goal of data visualization is to communicate information effectively. A common mistake among designers is to go for a powerful graphic rather than powerful journalism. This results in fancy and decorative visualizations that are unclear, confusing or misleading.",
+      "chapter": "Good and bad visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization purpose",
+        "clarity over decoration",
+        "communication"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Goal of visualization is effective communication, not decorative complexity -- permanent design principle"
+    },
+    {
+      "extract": "Data visualization expert Alberto Cairo has four principles for good visualization: Based on good data. Attract attention. Don't frustrate readers. Show the right amount of data.",
+      "chapter": "Good and bad visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization principles",
+        "Alberto Cairo",
+        "design guidelines"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cairo four principles for good visualization based on good data, attention, clarity, and right amount of data are permanent"
+    },
+    {
+      "extract": "Start by defining your goal. What is the single most important message you want your audience to take away from your visualization? Avoid trying to squeeze in too many messages. When you are clear with the message, select only enough data points to be visualized.",
+      "chapter": "Design with users in mind",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "message clarity",
+        "focus",
+        "data selection",
+        "user-centered design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Defining a single message goal before visualization design is permanent communication discipline"
+    },
+    {
+      "extract": "Next, identify your targeted or potential users, and understand them. What is their data literacy level? What kind of charts do they understand better? These questions will help you decide which type of charts to use. Always use charts that users are most familiar with.",
+      "chapter": "Design with users in mind",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience analysis",
+        "data literacy",
+        "chart selection",
+        "user-centered design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding audience data literacy for chart selection is permanent user-centered design practice"
+    },
+    {
+      "extract": "Perform user-testing on your design, and redesign it based on user feedback. User-testing is not necessarily expensive or resource-intensive. Studies found that just 5 users can find 85% of the usability problems in your design. Don't ask your newsroom colleagues to be your test users unless journalists are your target users.",
+      "chapter": "Design with users in mind",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "user testing",
+        "iteration",
+        "usability",
+        "design process"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "User testing with 5 users finding 85 percent of usability problems is permanent UX research principle"
+    },
+    {
+      "extract": "The key to your design thinking should be knowing what device users use to access your product. Bear in mind a saying among developers at news organizations with a majority of users on mobile - if it doesn't work on mobile, it doesn't work.",
+      "chapter": "Design with users in mind",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile-first",
+        "device awareness",
+        "responsive design"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Mobile-first design thinking is a permanent platform consideration"
+    },
+    {
+      "extract": "Avoid using pie charts to present your data as they are often less effective and widely misused. In most cases, a pie chart can be replaced by a bar chart.",
+      "chapter": "Which chart to use?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart selection",
+        "pie charts",
+        "bar charts",
+        "visualization best practice"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Avoiding pie charts in favor of bar charts is a permanent visualization best practice based on perceptual science"
+    },
+    {
+      "extract": "No 3D effects: These distort the data as the part closer to the viewer appears larger. Also avoid color gradients and drop shadows. These are unnecessary visual noise. Sort data from largest to smallest. Use only 2-3 colors in the same color in your graphic. Your headline should tell the story. Use direct labeling whenever possible. Don't let your audience jump back and forth between a graph and a legend. Make your message stand out from the rest: Use color tone, labeling or other visual effects to draw attention to the element that carries your message.",
+      "chapter": "Six Golden Rules",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization rules",
+        "chart design",
+        "headline writing",
+        "labeling"
+      ],
+      "notes": "6 golden rules adapted from Eva Constantaras",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Six golden rules for chart design (no 3D, sort data, limited colors, story headlines, direct labeling, highlight message) are permanent"
+    },
+    {
+      "extract": "Although visualization plays a major role in most data-driven stories, it has to be complemented by other traditional storytelling elements such as text, image and video. In some cases data visualization is not the primary medium to communicate the data.",
+      "chapter": "Narration",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "multimodal",
+        "narrative",
+        "complementary elements"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Visualization complemented by text, image, and video for multimodal storytelling is a permanent communication principle"
+    },
+    {
+      "extract": "A major pitfall of data-driven stories is putting numbers above journalism. Ultimately, journalism should be about people, but data can sometimes turn human stories into hard cold numbers. It is imperative to humanize data by going to the ground and telling the stories of people whose lives are affected by the data.",
+      "chapter": "Humanization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "humanization",
+        "people-centered",
+        "storytelling",
+        "journalism values"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Humanizing data by telling stories of affected people is a permanent journalism value"
+    },
+    {
+      "extract": "Personalization brings users closer to the data, making it more engaging and relevant. In data-driven stories, personalization is often through interactive features or news apps that invite users to input their details before showing data based on those inputs.",
+      "chapter": "Personalization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "personalization",
+        "interactivity",
+        "engagement",
+        "news apps"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Personalization through interactive features making data relevant to individual users is a permanent engagement strategy"
+    },
+    {
+      "extract": "Another way to communicate your data is to build tools that allow other users to use your data based on their own needs.",
+      "chapter": "Utilization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "utilization",
+        "news apps",
+        "public tools",
+        "data access"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building public tools for users to explore data based on their own needs is a permanent service journalism model"
+    },
+    {
+      "extract": "Don't hide your data. Open your data to public, including your competitors. Exposing data to experts and other users allows more findings and insights to be extracted. Sharing data, tools, technical know-how and newsroom workflow across news organizations has created a synergy that elevates the industry's capabilities as a whole. The wheel doesn't have to be reinvented by everyone every time.",
+      "chapter": "Open Your Data and Tools",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "sharing",
+        "collaboration",
+        "open source",
+        "transparency"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Open data, sharing tools and workflows to elevate the entire industry is a permanent collaborative journalism principle"
+    },
+    {
+      "extract": "Everyone in the newsroom, including editors, should be equipped with basic spreadsheet knowledge as this is the foundation that serves as a 'gateway' to other forms of data journalism.",
+      "chapter": "Encouraging and Nurturing Data Culture in the Newsroom",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data literacy",
+        "spreadsheet skills",
+        "newsroom culture",
+        "training"
+      ],
+      "notes": "Attributed to La Nacion",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Basic spreadsheet knowledge as gateway to data journalism endures but LLMs now provide an alternative gateway through natural language data analysis"
+    }
+  ]
+}

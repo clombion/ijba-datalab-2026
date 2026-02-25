@@ -1,5 +1,5 @@
 # Project Status: Data Pipeline Canon — What Endures in the LLM Era
-_Last updated: 2026-02-24 (v9)_
+_Last updated: 2026-02-25 (v11 — T10 RELEVANCE + T11 MERGE complete)_
 
 ## Research Questions
 - **RQ1**: What do data journalism practitioners and educators recommend at each stage of the data pipeline?
@@ -17,8 +17,8 @@ _Last updated: 2026-02-24 (v9)_
 | Find | ✅ Complete | 160 entries (v7); expansion search added 9 new candidates in verification, investigative methods, data ethics |
 | Get | ✅ Complete | ~90 acquired; 75 converted outputs; 15 included-not-acquired (purchase barrier or paywalled) |
 | Verify | ✅ Complete | T6 corpus profile: 71 sources, 5.31M words, 4 languages. 8 thin sources (<1K words), 2 conversion warnings, 15 gaps. See `corpus-profile.md` |
-| Clean | ⬜ Not started | Includes translation task for FR/ES/PT sources |
-| Analyse | ⬜ Not started | |
+| Clean | ✅ Complete | T8: 81 sources, 5.14M words. 7 excluded (4 stubs + 3 DDJ Handbook 1 translations). 15 non-EN sources translated to EN. See `corpus/corpus-registry.csv` |
+| Analyse | 🔶 In progress | T9 extraction complete (4,351 extracts). T10 relevance scoring complete. T11 horizon table merged. T12 analysis next. |
 | Present | ⬜ Not started | |
 
 ## Scope & Criteria
@@ -46,7 +46,37 @@ _Last updated: 2026-02-24 (v9)_
 | llm_relevance | enum: endures, displaced, needs_update | RQ2, H2, H3 |
 | notes | text (nullable) | — |
 
-## Current Step: VERIFY (T6) → CLEAN (T8)
+## Current Step: ANALYSE (T12)
+
+### T10 Relevance + T11 Merge (2026-02-25)
+
+T10 relevance scoring and T11 horizon table merge completed.
+
+- **4,351 extracts** scored across 81 sources
+- **Distribution**: endures 3,023 (69.5%), needs_update 1,282 (29.5%), displaced 46 (1.1%)
+- **Validation**: PASS (0 errors, 5 warnings — all >90% endures on short principled sources)
+- **Output**: `research/pipeline-canon/horizon-table.csv` (14 columns, 4,351 rows)
+- Scoring via `utils/analyse/t10_2_score_extract.py` + LLM agents + deterministic batch scoring
+- Code-block stripping pass added to `utils/clean/t8_clean_corpus.py` (pass4) for future re-cleans
+
+### T9 Extract (2026-02-25)
+
+LLM extraction against horizon table schema. Key outcomes:
+- **81 sources** → 124 chunks → 4,347 extracts (merged to 81 per-source JSONs)
+- **0 validation errors** via `utils/analyse/t9_6_validate_extraction.py`
+- Scripts: chunk → classify → annotate → scaffold → extract → validate → merge
+
+### T8 Clean + Translate (2026-02-25)
+
+Corpus cleaned and translated via `utils/clean_corpus.py` + direct LLM translation. Key outcomes:
+- **81 final sources** in `corpus/corpus-registry.csv` (single source of truth for T9+)
+- **5.14M words** total (down from 5.54M: cleaning removed ~1-5% artifacts per file)
+- **15 non-EN sources** translated to English (10 ES, 4 PT, 1 FR → excluded; remaining: 7 ES, 7 PT, 1 FR translated)
+- **7 excluded**: #105 (portal stub), #106 (MOOC stub), #116 (course stub), #58 (TOC only), #45/#55/#57 (DDJ Handbook 1 FR/ES/PT — duplicate of #7 EN)
+- **Cleaning passes**: page numbers, ISSN/DOI/copyright blocks, pandoc anchors/divs/spans, HTML tags, orphaned images, encoding artifacts
+- **Originals untouched** in `sources/`; cleaned files in `corpus/`
+
+Scripts: `utils/clean_corpus.py` (deterministic), `utils/translate_corpus.py` (API-based, unused — translations done directly)
 
 ### T6 Corpus Profile (2026-02-24)
 
@@ -83,8 +113,8 @@ T1 (Define) → T2+T3 (Find) → T4 (Get, manual) → T5 (Convert) → T6 (Verif
 ```
 
 ## Next Actions
-1. **Decision**: proceed to T8/T9 with current corpus, or go back to GET for remaining gaps?
-2. If proceeding: T8 (Clean + translate FR/ES/PT) → T9 (LLM extraction)
+1. **T12 (Analyse)**: Quantitative + qualitative analysis of horizon-table.csv — step distribution (H1), extract-type × relevance (H2), redefinition candidates (H3)
+2. **T13 (Present)**: Synthesize findings into deliverable format
 3. Optional: procure remaining gaps (#16 Houston ~$40, #25 Tong, paywalled articles)
 
 ## Completed: Research Expansion (v7)
@@ -107,4 +137,8 @@ T1 (Define) → T2+T3 (Find) → T4 (Get, manual) → T5 (Convert) → T6 (Verif
 - Source registry: `research/pipeline-canon/source-registry.md`
 - Raw search results: `research/pipeline-canon/search-results-raw.md`
 - Downloaded sources: `research/pipeline-canon/sources/{en,fr,es,pt}/`
+- Cleaned corpus: `research/pipeline-canon/corpus/` (81 .md files + corpus-registry.csv)
+- Extractions: `research/pipeline-canon/extractions/` (81 per-source JSONs, 4,351 extracts)
+- Relevance scores: `research/pipeline-canon/relevance/` (81 per-source JSONs with llm_relevance)
+- Horizon table: `research/pipeline-canon/horizon-table.csv` (final merged output, 4,351 rows)
 - DDJ Handbook 2 (already in repo): `research/ddj-handbook-2/`

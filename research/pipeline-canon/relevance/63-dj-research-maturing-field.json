@@ -1,0 +1,137 @@
+{
+  "source_id": "63",
+  "source_file": "63-dj-research-maturing-field.md",
+  "source_title": "Data Journalism Research: Studying a Maturing Field",
+  "author": "Stalph, Hahn et al.",
+  "year": "2019",
+  "extracts": [
+    {
+      "extract": "data journalism research has traditionally focused on a limited set of countries, primarily within the liberal and democratic corporatist media systems. Many recently published studies illustrate a growing scholarly interest in data journalism in other parts of the world, but these studies are still limited in number.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "comparative research",
+        "geographic bias",
+        "media systems",
+        "research gaps"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Geographic bias in data journalism research is a structural issue unaffected by LLM tools"
+    },
+    {
+      "extract": "tools and practices from Western countries may guide the journalistic epistemological approach to truth and knowledge as well as the study of such practices and expertise in other parts of the world, yet with different outcomes",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "epistemology",
+        "Western bias",
+        "knowledge production",
+        "data journalism practice"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Recognition that Western tools shape epistemological approaches globally is a critical insight independent of AI"
+    },
+    {
+      "extract": "without the development of a body of research about how data journalism is being practiced and/or hindered in non-Western contexts, there is a risk that it will contribute to a widening of the cultural divide.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "cultural divide",
+        "Global South",
+        "research gaps",
+        "inclusion"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Risk of cultural divide widening without non-Western research applies equally in the AI era"
+    },
+    {
+      "extract": "the specific contexts of these countries limit the generalizability or comparability of these findings to journalists working in other countries and media systems.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "generalizability",
+        "comparative research",
+        "media systems"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Limits on generalizability across media systems is a methodological concern unaffected by technology"
+    },
+    {
+      "extract": "even when open access or transparency regulation is in place, this does not guarantee that data journalists will have broad access to information. Next to legislation, a culture of accountability is needed to guarantee that journalists have access to information.",
+      "chapter": "Journalistic cultures, media markets, and the political environment",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "transparency",
+        "FOI",
+        "data access",
+        "accountability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Open data legislation without accountability culture is insufficient for data access regardless of AI capabilities"
+    },
+    {
+      "extract": "Access to data might not mean the same as usability as data, which, for instance, can be unstructured, paired with restrictions of use, or impossible to download in bulk. Future research should look into how such limitations, on the one hand, hinder data journalism beyond the Western world, but on the other hand may also lead to new forms of data journalism to circumvent these limitations.",
+      "chapter": "A maturing field of global data journalism research",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "data access",
+        "data usability",
+        "innovation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can help structure unusable data and work around format restrictions, partially addressing data usability barriers"
+    },
+    {
+      "extract": "the goals of civic tech are not the simple diffusion of Western ideas but rather a negotiation of local and national origins with global issues. The two practices that civic tech and journalists share are those of facilitating and gatekeeping, with facilitating being about enabling others to take action themselves and gatekeeping being about highlighting information that is deemed publicly relevant.",
+      "chapter": "Data journalism in different contexts",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "civic tech",
+        "collaboration",
+        "gatekeeping",
+        "participation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Civic tech as negotiation of local and global issues through facilitating and gatekeeping is a durable framework"
+    },
+    {
+      "extract": "journalistic ideals typically associated with the liberal media model rub on to how data journalism develops as a practice across the globe regardless of media systems. Future research should therefore critically examine how journalistic ideas related to the liberal model affect the data journalistic practice in other media systems.",
+      "chapter": "A maturing field of global data journalism research",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "liberal model",
+        "post-colonialism",
+        "research agenda",
+        "media systems"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical examination of how the liberal media model shapes global DJ practice is a structural research question unaffected by AI"
+    }
+  ]
+}

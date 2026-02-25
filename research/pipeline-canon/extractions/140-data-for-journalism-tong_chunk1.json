@@ -1,0 +1,656 @@
+{
+  "source_id": "140",
+  "source_file": "140-data-for-journalism-tong.md",
+  "source_title": "Data for Journalism: Between Transparency and Accountability",
+  "author": "Jingrong Tong",
+  "year": "2022",
+  "chunk": "1/2",
+  "chunk_file": "140-data-for-journalism-tong_chunk1.md",
+  "chunk_words": 25381,
+  "extracts": [
+    {
+      "extract": "Appropriately using data in journalism requires an apt understanding of data parameters and properties, such as data origins and sources, as well as the processes and practices of producing data. Being aware of power relations embodied in data, as well as potential social factors that influence data, is a precondition for journalists to be able to provide a proper interpretation of data for audiences.",
+      "chapter": "Data as a source of information — Understanding data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "power relations",
+        "interpretation",
+        "context"
+      ],
+      "notes": "Foundational claim about prerequisites for sound data journalism"
+    },
+    {
+      "extract": "Data provenance, collection, curation, access, and the context where all these happen are all under the influence of existing power relations. Therefore data and data systems are far from being objective or neutral but are deeply embedded and laden with social values and norms.",
+      "chapter": "Data as a source of information — Data as power",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "power relations",
+        "social construction",
+        "bias",
+        "provenance"
+      ],
+      "notes": "Core epistemological claim: data is never neutral"
+    },
+    {
+      "extract": "The material and power nature of data leads to the importance of metadata — data about certain data — and other related information that outlines data origin and context in relation to how the data was collected and produced, as this information can help users understand how data should be handled, analysed and interpreted.",
+      "chapter": "Data as a source of information — Data as power",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "metadata",
+        "provenance",
+        "interpretation",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "By analysing data, journalists can well play their various roles as information providers, watchdogs or custodians of conscience. Data is an alternative, rich source of information from which journalists can find stories or even secrets that are important to the public interest.",
+      "chapter": "Data as a source of information — The abundance of data and its benefits",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "accountability",
+        "watchdog role",
+        "public interest",
+        "story discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data stories do not have to be developed from large-scale data and involve long-time investigations but can come from small data with quick investigations. The Times' land banking story was developed from open data released by the land registry, and the whole reporting process was quick and efficient.",
+      "chapter": "Data as a source of information — The abundance of data and its benefits",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "story discovery",
+        "efficiency",
+        "small data"
+      ],
+      "notes": "Counters assumption that data journalism requires big data"
+    },
+    {
+      "extract": "Errors and inaccuracies mar data's quality. Any small mistakes occurring in the process of data production and curation may mean the inaccuracy of data, which makes verifying data incredibly hard, if not entirely impossible.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "errors",
+        "verification limits"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Much data is unstructured and thus not machine-readable. Most (90%) of big data is unstructured data. Different origins of data and different requirements during different times when data is produced may mean data would end up in incompatible, incoherent, and unusable formats.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "data formats",
+        "messiness",
+        "interoperability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In theory, data is repairable if specific problems in data are known and if the data's size is manageable. In practice, verifying and cleaning data is hard partly because it requires an enormous investment of resources and related technical skills which may not be available. The enormity of data with incomplete metadata would also make it unrealistic to correct and verify every single error in data.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data cleaning",
+        "resource constraints",
+        "verification",
+        "scalability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When it comes to interpreting the actual meanings of numbers provided by governments, we — including journalists — will need to consider what diagnostic methods each government is adopting, how cases and deaths are counted, and the levels of transparency in different countries. The discrepancies in standards for producing data might lead to data journalists and news media misinforming the public.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "interpretation",
+        "comparability",
+        "methodology awareness",
+        "misinformation risk"
+      ],
+      "notes": "Illustrated through COVID data cross-country comparability problem"
+    },
+    {
+      "extract": "The GDPR means that datasets published by political authorities may not contain any detailed data indicating personal information. The lack of personal information in data protects privacy but creates obstacles to finding stories from data and putting a human face onto data stories. Only providing summary data greatly reduces the potential of developing news stories in and from data.",
+      "chapter": "Data as a source of information — Privacy and national security concerns",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "privacy",
+        "GDPR",
+        "summary data",
+        "story discovery",
+        "regulation"
+      ],
+      "notes": "Tension between privacy regulation and journalistic potential"
+    },
+    {
+      "extract": "Some unstructured data and semi-structured data can be extracted and converted into structured data by using techniques and tools such as Optical Character Recognition (OCR) and data extraction and mining skills.",
+      "chapter": "Data as a source of information — Data as material",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "data extraction",
+        "format conversion",
+        "unstructured data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The EU data portal often hosts data in pdf format, which is unstructured data, and thus a considerable impediment to users' use of such data. That some data portals may require high technical skills to use makes the situation worse. Users need to know how to convert data in XML and JSON formats to Excel or CSV, or access data via an application programming interface (API).",
+      "chapter": "Data as a source of information — The problems with ordinary users using open/big data effectively",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data portals",
+        "PDF",
+        "API",
+        "format conversion",
+        "technical skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is an urgent need for data journalists to act as data intermediaries between data providers and citizens, translating data for citizens and ensuring government and business transparency and accountability. The absence of metadata increases the difficulty in using and interpreting data, as ordinary citizens may not have the interest or resources to find out about the context where data is produced, curated and shared.",
+      "chapter": "Data as a source of information — Three implications of data's promise and problems",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data intermediary",
+        "translation",
+        "metadata",
+        "public understanding",
+        "accountability"
+      ],
+      "notes": "Journalists as bridge between data and citizens"
+    },
+    {
+      "extract": "Using data as a source of information would need journalists to develop more technical and data-related skills and knowledge in terms of collecting, cleaning, analysing and visualising data. It involves fewer interactions with news sources than using traditional journalistic methods. Yet, using data for reporting requires human interactions and skills at some points, such as accessing data via FOIs, seeking clarification and explanations for data under analysis, verifying data and looking for individual human stories to be used in data stories.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "data pipeline",
+        "human sources",
+        "verification",
+        "traditional methods"
+      ],
+      "notes": "Data journalism still requires traditional journalistic skills at key points"
+    },
+    {
+      "extract": "The scientific, rigid, statistical appearance of data may create an illusion that data can offer a more objective and accurate account of reality. Deceived by such an appearance with insufficient understanding of the potential problems associated with data, journalists may be unable to produce news stories to the highest standards. The deceptively objective appearance of data may make journalists let their guard down.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity illusion",
+        "critical thinking",
+        "data literacy",
+        "bias"
+      ],
+      "notes": "Key warning about false confidence in quantitative evidence"
+    },
+    {
+      "extract": "Putting data in context not only means journalists need to interpret data in appropriate contexts. It also means they need to understand the context in which data was generated, collected and curated to gain an appropriate understanding of data before carrying out data analysis.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "interpretation",
+        "provenance",
+        "data collection methods"
+      ],
+      "notes": "Dual meaning of context: interpretive context and production context"
+    },
+    {
+      "extract": "For data journalists, accessing data is the first and foremost goal before finding a story in it. Open data is only a part of the whole picture. Data journalists may not even know whether the required data exists and where they can access it. Data journalists may also face technical difficulties in accessing data, which may require a high level of data collection and information retrieval skills.",
+      "chapter": "Access to data",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data access",
+        "discovery",
+        "technical skills",
+        "open data limits"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data stories are often developed from an analysis of public records data obtained from data providers in the public domain such as statistics offices or other government bodies. The data used in 545 data-driven news stories published between 2011 and 2019 were mostly retrieved from government bodies. Over two-thirds of news apps produced by US news organisations used publicly available data.",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "open data",
+        "government data",
+        "source patterns"
+      ],
+      "notes": "Empirical finding on dominant data sources"
+    },
+    {
+      "extract": "The first reason for prevalence of public records data in news reporting is the conventional thinking of official datasets as trustworthy: 'I'm generally using like government statistics, or the NHS or the Office for National Statistics. They will put my confidence in them, and they will usually highlight if they think some things are reliable.'",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "trust",
+        "official sources",
+        "reliability",
+        "institutional authority"
+      ],
+      "notes": "Reflects continuity with traditional reliance on official sources"
+    },
+    {
+      "extract": "Judging which data to analyse and report on follows the same news values as traditional journalism: 'there is so much data out there, you couldn't potentially turn it all into a piece of writing, and at least knowing what people actually care about like public interest topics will help us select data for reporting, it's the same as in any other kind of journalism.'",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "news values",
+        "story selection",
+        "public interest",
+        "editorial judgement"
+      ],
+      "notes": "Data selection follows same editorial logic as traditional journalism"
+    },
+    {
+      "extract": "There are cross-country differences in terms of the types and state of open data provided and how easily journalists can access it. In Sweden, a data-friendly country with one of the world's oldest FOIAs, a government agency extracted data from the database and printed out the Excel file, put the printed paper copies back into the copy machine and made PDFs out of them, and the PDFs are not machine-readable.",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "cross-country variation",
+        "data formats",
+        "government data practices",
+        "PDF"
+      ],
+      "notes": "Even in transparent countries, data delivery formats can be hostile"
+    },
+    {
+      "extract": "Sometimes providing data to journalists for reporting can be mutually beneficial. For journalists obtaining such data can help them cover the story, and for the commercial bodies concerned, being mentioned in news stories for the data they provide would be a good publicity opportunity. Companies that sell proprietary datasets sometimes provide them for free because 'we always mentioned in our report where we've got data from so that can be quite useful for them.'",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "private sector data",
+        "collaboration",
+        "mutual benefit",
+        "data sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Economist journalists wrote code to retrieve data from metro stations and museums in 18 cities every hour from Google Maps. Aggregating 150,000 files retrieved, they revealed the changes in foot traffic around selected metro stations and the impact of the pandemic on major cities. On April 30, 2020, Google Health started publishing COVID-19 Community Mobility Reports, which was seen as a response to the Economist's foot traffic reports.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "API",
+        "tech platforms",
+        "code",
+        "data collection at scale"
+      ],
+      "notes": "Journalist-driven data collection can push tech companies to publish open data"
+    },
+    {
+      "extract": "When using data automatically collected from users or generated by users' use of certain tools, such data may contain errors or fake data, which is very difficult to verify. While cleaning and verifying large-scale data, some dodgy data may be removed by detecting anomalies, yet due to the scale of data, it would be a mission impossible to verify every single data entry. This difficulty in data verification reinforces the importance of data journalists' role in making a judgement about and endorsing the reliability of their data.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "anomaly detection",
+        "user-generated data",
+        "credibility",
+        "scale"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data like user-generated data may be influenced by the existing digital divide among users as it would include the data collected from and created by users who are using the tools but exclude those non-users. Without acknowledging the exclusion of non-users, journalists would risk reinforcing the division between users and non-users. If they use the data to represent the actual reality without properly acknowledging and explaining the limitations, their news reports may distort the actual reality and mislead the audience.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "digital divide",
+        "representativeness",
+        "bias",
+        "limitations disclosure",
+        "audience"
+      ],
+      "notes": "Obligation to disclose data limitations"
+    },
+    {
+      "extract": "Sending FOI requests for public records data that is not published publicly is a common practice. Journalists should endeavour to obtain data that is not in the public domain, as it is 'problematic if the journalists have to rely on the publication of figures'. If the data needed is held by public authorities, sending FOIA requests to obtain that data would be the primary choice to get data and get around obstacles to data access.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data access",
+        "public records",
+        "proactive sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-orientated FOIs often require a round-robin approach, sending the same FOI to dozens and perhaps hundreds of the same organisations. This is extremely time-consuming as different bodies may interpret the request differently, return the data in different formats or refuse to give us the data. The question of effort versus reward is particularly important.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "round-robin requests",
+        "data harmonisation",
+        "resource constraints"
+      ],
+      "notes": "Pamela Duncan, The Guardian, on declining FOI use"
+    },
+    {
+      "extract": "Common strategies for submitting a successful FOI request include being specific in the requests and using specific statute language. If the rejection is based on costs exceeding the allowed cost limits or that the costs which authorities ask requesters to pay are too high, then asking the authorities to explain and break down the costs would be a good idea.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI strategy",
+        "request drafting",
+        "cost challenges",
+        "specificity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When open data is unavailable and FOI requests end in vain, journalists may use alternative ways to get data: using traditional journalistic methods, scraping data from the Internet, using Internet advanced research and search skills, and adopting social science methods. Interviews with experts such as prosecutors and finding alternative data sources such as court case files would also be a potential solution.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "alternative data sources",
+        "scraping",
+        "social science methods",
+        "interviews",
+        "court records"
+      ],
+      "notes": "Four alternative pathways when official channels fail"
+    },
+    {
+      "extract": "Digital techniques can create datasets that you wouldn't otherwise be able to obtain. A journalist scraped each individual page on the listings, enabling analysis of how many were actually breached. Scraping through tens of thousands, hundreds of thousands of webpages makes it much more efficient than manually gathering data over a year.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "automation",
+        "efficiency",
+        "dataset creation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The biggest challenge with leaked data comes from the difficulties in verifying the data. What data journalists would usually do is to cross-check the data from other sources to do their best to confirm its genuineness though they cannot be 100% sure. The size of large-scale leaked data means it may be beyond the ability of data journalists to handle such data.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data",
+        "cross-checking",
+        "verification",
+        "scale challenges"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For the Panama Papers, journalists did not have the techniques required to analyse the mostly unstructured data of that scale. Most of the stories were done with the 'fishing method': you have a fishing rod with a name, throw it into the big sea of documents, and pull it back — you found David Cameron's father. That's not really data analysis, that's just free text searching.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "Panama Papers",
+        "unstructured data",
+        "text search",
+        "scale limits",
+        "methodology"
+      ],
+      "notes": "Honest admission that massive leaks often reduce to keyword search rather than systematic analysis"
+    },
+    {
+      "extract": "When the data does not exist or is scattered and hidden, data journalists may turn to traditional social science methods, journalistic methods, advanced Internet research skills or crowd-sourcing to gather data and build their own datasets. The Minnesota Star Tribune and others like the Washington Post and The Guardian started building their own datasets basically from media reports.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "dataset building",
+        "social science methods",
+        "crowd-sourcing",
+        "media reports"
+      ],
+      "notes": "Journalists as primary data producers when no dataset exists"
+    },
+    {
+      "extract": "The Washington Post collected data about police fatal shootings from different open sources such as local news reports, law enforcement websites and social media, and independent databases such as Killed by Police and Fatal Encounters, on top of filing FOI requests. Based on the information collected and verified, they built a fatal shooting database shared on GitHub for other user groups to reuse.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "multi-source collection",
+        "GitHub",
+        "database building",
+        "verification",
+        "open sharing"
+      ],
+      "notes": "Exemplary pipeline: multi-source collection, verification, then open publication"
+    },
+    {
+      "extract": "The Star Tribune journalists found few sex assault investigations resulting in convictions, so they requested and verified data — case files — from government departments through FOI requests to build their own database. Apart from case files, they also collected and verified hundreds of pages of court records and police documents and interviewed more than 100 assault survivors, sex crimes investigators, jurists, women's advocates and academic researchers.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "dataset building",
+        "court records",
+        "interviews",
+        "triangulation"
+      ],
+      "notes": "Mixed-methods approach combining FOI, documents and interviews"
+    },
+    {
+      "extract": "In both the Guardian's Beyond the Knife and the Bureau of Investigative Journalism's dying homeless projects, the non-existence of related data made data journalists build datasets from scratch. FOI requests, monitoring media reports and interviews are three main journalistic methods they used to collect and verify data and build datasets.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "dataset building",
+        "FOI",
+        "media monitoring",
+        "interviews",
+        "absence of data"
+      ],
+      "notes": "Three-method approach for building data where none exists"
+    },
+    {
+      "extract": "The Guardian's MPs' expense receipts were far too big for journalists to go through manually, and because they are unstructured data, it was difficult to analyse them automatically. Therefore The Guardian turned to crowd-sourcing, inviting ordinary readers to look at the receipts, point out the dodgy ones and provide the reasons and some extra information.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowd-sourcing",
+        "unstructured data",
+        "scale",
+        "reader participation"
+      ],
+      "notes": "Crowd-sourcing as solution to unstructured data at scale"
+    },
+    {
+      "extract": "Statistical departments decide what kind of data to collect and produce, and their decisions are influenced by their perceived priorities and resources. The ONS statistician explained that something has to rise on their priority list either because of government targets, because a government department has asked them, or because it's become an issue of great public concern in the media. Otherwise, it stays on the wish list.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "data production",
+        "institutional priorities",
+        "statistical agencies",
+        "data absence"
+      ],
+      "notes": "Why some data does not exist — institutional priority-setting"
+    },
+    {
+      "extract": "Through using data for journalism, data journalists and news media can expose the data incompetency of governments by revealing problems and errors associated with government-published data, which are potentially pressurised to produce data of better quality and to open up data. In the NJ Advance Media force reports project, reporters found plenty of problems with the data provided by state governments, including misspellings, duplications, misclassification of agencies and errors in the data standardisation process.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "government data",
+        "error detection",
+        "accountability",
+        "cleaning"
+      ],
+      "notes": "Verification as accountability function"
+    },
+    {
+      "extract": "Receiving unstructured data that is not machine-readable from government bodies is a big headache for journalists. The EU data portal often contains data in PDF format, which is really difficult to analyse and read. In Sweden, despite high media freedom, the data handed to journalists is often in pre-digital formats such as print-outs. It would have been more helpful if government bodies would publish machine-readable data in the first place.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "PDF",
+        "machine-readable data",
+        "government data",
+        "format barriers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Checking the genuineness of the Telegraph's leaked expenses data was a considerable challenge which involved crosschecking and interviews to achieve it. Following the publication, the government decided to regularly publish all MPs' expenses claims. The data published annually by the IPSA provides an excellent opportunity for the news media to hold MPs accountable for what they spend.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "interviews",
+        "leaked data",
+        "accountability",
+        "transparency outcome"
+      ],
+      "notes": "Verification of leaked data led to permanent open data publication"
+    },
+    {
+      "extract": "Realising there was no data about the deaths of homeless people in the UK, journalists in the Bureau Local started to collect and verify the data by setting up a Google alert for related local news, interviewing people and sending FOI requests. They met with the Office for National Statistics who then published the data. Their work was cited in 800 different articles.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "Google alerts",
+        "media monitoring",
+        "FOI",
+        "dataset building",
+        "impact"
+      ],
+      "notes": "Journalist-built datasets can prompt official statistical agencies to produce the data"
+    },
+    {
+      "extract": "The Bureau Local's Sold from Under You project obtained data about land and property sold by local authorities between 2014 and 2018 via FOI requests made to 353 local councils in England. They made an interactive, searchable map using the data. They marked the refusals on the map and shared the raw data received through their FOI requests on Google Drive for free.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Present",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI at scale",
+        "interactive maps",
+        "open data sharing",
+        "transparency"
+      ],
+      "notes": "Publication includes both findings and raw data plus transparency about refusals"
+    },
+    {
+      "extract": "Larger news organisations such as The New York Times have the resources to file FOIA lawsuits, which smaller, poorly resourced newsrooms may not be able to do. The NYT has a two-lawyer legal team that filed 31 FOIA lawsuits during the Obama years. Winning from time to time, they were able to force the government to release secret information. When the paper won the lawsuits, the government even financially compensated them for their time and endeavour.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "FOIA litigation",
+        "newsroom resources",
+        "inequality",
+        "legal strategy"
+      ],
+      "notes": "Resource inequality shapes which newsrooms can fight for data access"
+    },
+    {
+      "extract": "Building datasets from scratch using FOI requests, media monitoring and interviews is more likely to be found in relatively large, resource-rich and better-off newsrooms in developed countries and international non-profit newsrooms. Journalists in small, resource-poor and cash-strapped newsrooms in developing countries may not be able to do the time-consuming work.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resource inequality",
+        "newsroom capacity",
+        "developing countries",
+        "dataset building"
+      ],
+      "notes": "Digital inequality in data journalism capacity"
+    }
+  ]
+}

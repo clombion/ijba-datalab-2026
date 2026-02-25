@@ -1,0 +1,678 @@
+{
+  "source_id": "38",
+  "source_file": "38-teaching-data-computational-journalism.md",
+  "source_title": "Teaching Data and Computational Journalism",
+  "author": "Charles Berret, Cheryl Phillips",
+  "year": "2016",
+  "extracts": [
+    {
+      "extract": "Data journalism is 'gathering, cleaning, organizing, analyzing, visualizing, and publishing data to support the creation of acts of journalism.' A more succinct definition might be simply the application of data science to journalism, where data science is defined as the study of the extraction of knowledge from data.",
+      "chapter": "Defining the Field of Study",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism definition",
+        "pipeline sequence"
+      ],
+      "notes": "Quoting Alexander Howard 2014 Tow Center report",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Definition of data journalism as extraction of knowledge from data applied to journalism remains valid"
+    },
+    {
+      "extract": "Data reporting includes: deploying computer-assisted reporting for writing journalistic stories; practicing precision journalism including social science research methods; visualizing data for exploration and analysis; programming to obtain and analyze data for stories.",
+      "chapter": "Four Key Areas of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "CAR",
+        "precision journalism",
+        "data analysis",
+        "visualization"
+      ],
+      "notes": "Taxonomy of data reporting practices",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "CAR taxonomy of practices endures but LLMs now assist with social science methods, visualization, and data analysis"
+    },
+    {
+      "extract": "Data reporting techniques include: invoking public records law to negotiate for data; using web scraping tools and techniques; using relational database software; understanding statistical concepts and software; using mapping and visualization tools.",
+      "chapter": "Four Key Areas of Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "web scraping",
+        "databases",
+        "statistics",
+        "mapping"
+      ],
+      "notes": "Practical technique inventory for data reporting",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "FOI, scraping, databases, statistics, and mapping remain relevant but LLMs automate significant portions of scraping and data wrangling"
+    },
+    {
+      "extract": "Computational journalism uses frameworks and applications like Jupyter that enable journalists to mix code and prose as they perform analysis and show the steps in their work. Platforms like Overview facilitate the use of complicated computational processes like natural language processing and topic modeling.",
+      "chapter": "Four Key Areas of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "reproducibility",
+        "computational journalism",
+        "NLP",
+        "topic modeling"
+      ],
+      "notes": "Jupyter for transparent analysis; Overview for NLP",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Jupyter and NLP tools endure but LLMs have dramatically simplified topic modeling and text analysis, reducing barrier to entry"
+    },
+    {
+      "extract": "Philip Meyer believed social science methodologies, including statistical tests and surveys, could have great impact in journalism. His survey of Detroit riot participants contradicted earlier theories about who participated and why. 'The tools of sampling, computer analysis, and statistical inference increased the traditional power of the reporter without changing the nature of his or her mission: to find the facts, to understand them, and to explain them without wasting time.'",
+      "chapter": "A Brief History of Computers and Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision journalism",
+        "social science methods",
+        "statistical analysis",
+        "evidence"
+      ],
+      "notes": "Foundational argument for quantitative methods in journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Social science methodologies in journalism as foundational epistemological commitment is unchanged by LLMs"
+    },
+    {
+      "extract": "Elliot Jaspin used databases to match felons and bad driving records to school bus drivers. Bill Dedman used data from a 9-track tape to show banks were redlining African Americans on loans. Steve Doig used data analysis and mapping to show that weakened building requirements were the reason Hurricane Andrew had so devastated certain parts of Miami.",
+      "chapter": "A Brief History of Computers and Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "record linkage",
+        "mapping",
+        "investigative journalism",
+        "database analysis"
+      ],
+      "notes": "Three canonical CAR investigations showing data matching and spatial analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Record linkage, mapping, and database analysis as investigative techniques remain foundational CAR practices"
+    },
+    {
+      "extract": "A key tenet of the boot camp is practical, hands-on training, using data sets that journalists routinely report on, such as school test scores. 'Learning by doing' is the model. Boot camp graduates have gone on to robust data journalism careers and integrated those teaching techniques into their classes.",
+      "chapter": "A Brief History of Computers and Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "pedagogy",
+        "hands-on training",
+        "boot camps",
+        "learning by doing"
+      ],
+      "notes": "NICAR boot camp model as pedagogical standard",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Hands-on learning-by-doing pedagogy with real datasets is a timeless training model"
+    },
+    {
+      "extract": "As journalism programs began to offer classes, they focused on the basics: negotiating for data, cleaning it, and using spreadsheets and relational databases, mapping, and statistics to find stories.",
+      "chapter": "A Brief History of Computers and Journalists",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data negotiation",
+        "data cleaning",
+        "spreadsheets",
+        "databases",
+        "statistics"
+      ],
+      "notes": "Core CAR curriculum sequence: negotiate, clean, analyze",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Core CAR curriculum of data negotiation, cleaning, and spreadsheet analysis endures but LLMs automate much of the cleaning step"
+    },
+    {
+      "extract": "It is important for classes to be designed so that they teach data and computation as fundamental styles of inquiry. Students can learn enough about the concepts behind a technique to be able to more easily learn new tools that address the technique—as opposed to focusing on the discrete tools used from time to time.",
+      "chapter": "The Task at Hand: Causes for Concern and Reasons for Hope",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "transferable skills",
+        "conceptual learning"
+      ],
+      "notes": "Teach concepts not tools; tools change but inquiry methods persist",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching concepts over tools is even more important when LLMs make tools change faster"
+    },
+    {
+      "extract": "It is not the purpose of a program in data journalism to compete with other disciplines, but to develop a curriculum that is intrinsically journalistic—one that reflects a mission to find and tell stories in the public interest—as well as develop partnerships and collaborations with other disciplines.",
+      "chapter": "The Task at Hand: Causes for Concern and Reasons for Hope",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "public interest",
+        "interdisciplinary",
+        "journalism mission"
+      ],
+      "notes": "Data journalism distinguished by public interest mission",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data journalism distinguished by public interest mission remains the core differentiator from data science"
+    },
+    {
+      "extract": "Journalists do not often work with samples, but they do work with entire data sets. A more useful statistics class might be the type of instruction Meyer provided, using social science to address journalistic challenges. Accommodating both techniques in a research or statistics class could foster collaboration instead of silos.",
+      "chapter": "The Task at Hand: Causes for Concern and Reasons for Hope",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistics",
+        "population data",
+        "social science methods",
+        "journalism pedagogy"
+      ],
+      "notes": "Key distinction: journalism uses whole populations not samples",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Key distinction that journalism uses whole populations not samples persists and matters for LLM-assisted analysis"
+    },
+    {
+      "extract": "We first collected the course offerings of 113 programs. We scraped what we could from journalism program websites and hand-entered the remainder. To verify the data, we emailed or called programs that had listed either no classes or very few. We then revisited every program website for all 113 programs and double-checked the data.",
+      "chapter": "The Scope of Our Study",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "data collection",
+        "verification",
+        "mixed methods"
+      ],
+      "notes": "Authors' own methodology: scrape then verify by phone/email",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Scrape-then-verify methodology endures but LLMs now assist with both web scraping and cross-verification steps"
+    },
+    {
+      "extract": "A key tenet of this field is that using data to report and tell stories can result in a more powerful story. As LaFleur described it: 'understand the data, interview the data, report the data.'",
+      "chapter": "The Scope of Our Study",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interviewing",
+        "data-driven reporting"
+      ],
+      "notes": "Core CAR maxim: treat data like a human source",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Treating data like a human source -- understand, interview, report -- is a permanent analytical stance"
+    },
+    {
+      "extract": "The core data syllabus should consist of negotiating for data, thinking critically about data, and using spreadsheets to analyze data. Students are taught critical thinking and developing a 'data frame of mind'—being able to question data in a disciplined way, make sense of discrepancies, and find the underlying patterns and outliers that are important to the analysis.",
+      "chapter": "Teaching Data Fundamentals: Rows and Columns",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "critical thinking",
+        "data frame of mind",
+        "patterns",
+        "outliers",
+        "spreadsheets"
+      ],
+      "notes": "Doig's three-part core: negotiate, think critically, spreadsheet analyze",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Core data syllabus of negotiation, critical thinking, spreadsheets endures but spreadsheet analysis is partially displaced by LLM-assisted code"
+    },
+    {
+      "extract": "Hard skills for CAR courses: searching for and finding documents and data including public requests, deep research, and scraping; understanding data structures and how to clean and standardize data; analyzing data using spreadsheets, databases, mapping, and visualization; learning advanced statistical methods. Guiding concepts: finding what no one has known before; developing data-driven storytelling techniques; thinking of data as an asset in the reporting process.",
+      "chapter": "Teaching Data Fundamentals: Rows and Columns",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data cleaning",
+        "standardization",
+        "storytelling",
+        "statistical methods"
+      ],
+      "notes": "Comprehensive CAR skills taxonomy: hard skills plus guiding concepts",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Hard skills taxonomy endures but FOI research, scraping, and cleaning can be substantially LLM-assisted"
+    },
+    {
+      "extract": "Data journalists need to know how to do basic exploratory visual analysis. Even journalists who practice data visualization need to start with the exploratory analysis. They need to know—just like the CAR specialists—how to 'interview' the data.",
+      "chapter": "Teaching Advanced Data Skills: Visualization and Programming",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory data analysis",
+        "visualization",
+        "data interviewing"
+      ],
+      "notes": "Cairo: visualization first as analysis tool, not presentation",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Exploratory visual analysis endures as concept but LLMs can now generate exploratory charts from natural language commands"
+    },
+    {
+      "extract": "There is a key difference between building a new website or multimedia presentation and building something like ProPublica's 'Dollars for Docs,' which enabled readers to drill into the story of pharmaceutical industry payments to doctors and also made it possible for other journalists to find and tell other stories.",
+      "chapter": "Teaching Advanced Data Skills: Visualization and Programming",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "news apps",
+        "public interest",
+        "reusable data",
+        "ProPublica"
+      ],
+      "notes": "Distinction: presentation vs. generative news apps that enable further journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Distinction between presentation websites and generative news apps that enable further journalism is permanently valuable"
+    },
+    {
+      "extract": "There is a consensus when it comes to the foundations of data journalism curricula: critical thinking, mastery of key data skills, and teaching programming concepts so that students will be able to learn new tools as needed.",
+      "chapter": "Identifying What to Teach",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "programming literacy",
+        "adaptability"
+      ],
+      "notes": "Consensus from 50 interviews on DJ foundations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Consensus on critical thinking, data skills, and programming concepts as DJ foundations remains valid"
+    },
+    {
+      "extract": "In a data journalism class, having that critical thinking skill means that the students learn to treat data in an ethical way, so that rather than bending the data to represent a particular view, the goal is toward truth and accuracy.",
+      "chapter": "Identifying What to Teach",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "accuracy",
+        "critical thinking",
+        "bias"
+      ],
+      "notes": "Ethical framing of data analysis: truth over advocacy",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ethical treatment of data toward truth and accuracy rather than bending data to fit views is a permanent principle"
+    },
+    {
+      "extract": "In the beginning, professors provide data to students to analyze. By the middle of a course, students often have to obtain their own data, submitting public records requests. The students then move on to data that require more complex analysis. By doing this, professors teach the critical thinking that goes with negotiating for information and understanding the bounds of that information.",
+      "chapter": "Identifying What to Teach",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "scaffolding",
+        "FOI",
+        "data acquisition",
+        "progressive complexity"
+      ],
+      "notes": "Pedagogical sequence: provided data -> self-sourced data -> complex analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scaffolded pedagogy from provided data to self-sourced data to complex analysis is a timeless teaching sequence"
+    },
+    {
+      "extract": "'I would always err on the teaching of critical thinking skills. That is the harder skill to ingrain in people. You can learn how to click things and write a line of code.'",
+      "chapter": "Identifying What to Teach",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "tool agnosticism"
+      ],
+      "notes": "LaFleur: critical thinking harder and more important than tool skills",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical thinking as harder and more important than tool skills is even more true when LLMs handle tool skills"
+    },
+    {
+      "extract": "Students need to develop a sense of when data could be problematic, what are signs of that, and what is each student's best practice for examining the data. The information should not always be presented to students up front—give them a chance to come up against obstacles.",
+      "chapter": "Identifying What to Teach",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "skepticism",
+        "problem detection",
+        "pedagogy"
+      ],
+      "notes": "Chinoy: let students encounter data problems firsthand",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Developing intuition for problematic data and encountering obstacles firsthand is irreplaceable experiential learning"
+    },
+    {
+      "extract": "To do more advanced data journalism, practitioners need, at a minimum, to understand how programming works. The ability to work with data and think in terms of computation is a skill broader and more necessary than any specific tool or programming language. It is vital that we don't confuse the two.",
+      "chapter": "The Coding Issue",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "programming literacy",
+        "tool agnosticism"
+      ],
+      "notes": "Computational thinking vs. coding as distinct but related skills",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Understanding how programming works endures but LLMs now enable computational thinking without writing code directly"
+    },
+    {
+      "extract": "By using programming, journalists can think beyond rows and columns as they search for answers in data of all forms, whether structured or unstructured.",
+      "chapter": "The Coding Issue",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "unstructured data",
+        "programming"
+      ],
+      "notes": "Hansen: programming expands what counts as data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Programming to think beyond rows and columns endures conceptually but LLMs now handle unstructured data without manual coding"
+    },
+    {
+      "extract": "It's all about working with data in a principled way. Diakopoulos ties this to CAR and Philip Meyer's crusade to bring the scientific way of thinking into journalism: thinking methodically, thinking about how to frame an experiment, gather data, and use rigorous methods to build evidence of some finding of journalistic importance.",
+      "chapter": "The Coding Issue",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "evidence",
+        "rigor",
+        "precision journalism"
+      ],
+      "notes": "Diakopoulos: data journalism as principled empirical inquiry",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Working with data in a principled way using scientific thinking and rigorous evidence methods is permanently essential"
+    },
+    {
+      "extract": "Data needs to be vetted and be expressed in a way that gets into the public's brain easily. From the investigative side, you are looking for evidence in the data.",
+      "chapter": "The Coding Issue",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "public communication",
+        "evidence",
+        "storytelling"
+      ],
+      "notes": "Donald: data must be both vetted and accessible",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data must be both vetted and accessible to the public -- dual requirement is permanent"
+    },
+    {
+      "extract": "Students should begin to develop a frame of mind in which they approach every story looking for data possibilities. They should understand how to use basic methods using spreadsheets and relational databases, get a primer on statistical concepts, learn how to take data findings and locate the people who illustrate those findings, and convert their data analysis into a pitch for a journalistic story.",
+      "chapter": "Model 1: Foundations of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data frame of mind",
+        "spreadsheets",
+        "statistics",
+        "humanizing data",
+        "story pitch"
+      ],
+      "notes": "Model curriculum: from data analysis to story pitch pipeline",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data frame of mind and humanizing data findings endure but spreadsheet and database skills are partially displaced by LLM code generation"
+    },
+    {
+      "extract": "Students will learn how to find data online, how to maintain personal records as they report stories, and how to use simple visualization methods to find new information: how keeping a timeline can help reveal discrepancies and how cross-checking sources of information may lead to new avenues of inquiry.",
+      "chapter": "Model 1: Foundations of Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "record keeping",
+        "timelines",
+        "cross-checking",
+        "discrepancies"
+      ],
+      "notes": "Practical data skills: timelines reveal discrepancies, cross-checks open leads",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Finding data online and record-keeping endure but timeline and cross-checking can now be LLM-assisted"
+    },
+    {
+      "extract": "Central concerns include: spreadsheet training, how to find data, clean it, look for patterns and outliers, and question the biases and omissions in how it was gathered. Students should also learn how to critically assess claims surrounding data. Reporting on data may go astray when it presumes this information is complete and accurate. Reporters should be trained to look for problems in data.",
+      "chapter": "Model 1: Foundations of Data Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "bias detection",
+        "completeness",
+        "accuracy",
+        "outliers"
+      ],
+      "notes": "Core DJ skills: clean, find patterns, question biases and completeness",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical assessment of data claims, looking for problems, biases, and omissions is permanent verification skill"
+    },
+    {
+      "extract": "Two skills that should emerge from this class are to look for trends and to identify outliers. Every data point is a possible source or anecdote.",
+      "chapter": "Model 1: Foundations of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "trends",
+        "outliers",
+        "human sources",
+        "anecdotes"
+      ],
+      "notes": "Dual analytical skill: trends for patterns, outliers for stories",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Identifying trends and outliers with every data point as potential source or anecdote is a permanent analytical skill"
+    },
+    {
+      "extract": "Instruction should include discussion of the ways that different visualization methods can be misleading. The goal is not to design a graphic for publication, but to graph for the sake of understanding the data. Students may think of this as a research method or a sketchpad for further reporting.",
+      "chapter": "Model 1: Foundations of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "visualization as analysis",
+        "misleading graphics",
+        "exploratory methods"
+      ],
+      "notes": "Visualization as research method, not publication design",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Visualization as research method endures but LLM-generated misleading graphics add new literacy demands"
+    },
+    {
+      "extract": "Data journalism must be taught as a foundational method in introductory classes, a distinct theme in media law and ethics, a reporting method suitable to any specialized reporting course, and a subject in which interested students can pursue advanced coursework or a concentration.",
+      "chapter": "Model 2: Integrating Data and Computation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum integration",
+        "data across curriculum",
+        "pedagogy"
+      ],
+      "notes": "Four-level integration model: foundation, ethics, beats, specialization",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Integrating data journalism across foundations, ethics, beats, and specialization is a permanent curriculum model"
+    },
+    {
+      "extract": "Legal considerations form one of the core concerns of data journalists: making public records requests can be one of the most fruitful avenues for reporting, but also one of the most frustrating. Students should also address the common misconception that data is sterile, objective, or in some sense detached from human experience. On the contrary, all data exists because someone has chosen to gather it, and the use of data has social and ethical consequences.",
+      "chapter": "Model 2: Media Law and Ethics",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI",
+        "data subjectivity",
+        "ethics",
+        "public records",
+        "data provenance"
+      ],
+      "notes": "Data is never objective: always shaped by collection choices",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data as never objective, always shaped by collection choices, plus FOI and ethical considerations are permanent"
+    },
+    {
+      "extract": "Courses should include material on the verification of photos through metadata or crowdsourcing, and ethical considerations surrounding leaked or sensitive data, as well as source protection and digital security in conditions of pervasive surveillance.",
+      "chapter": "Model 2: Media Law and Ethics",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "photo verification",
+        "metadata",
+        "digital security",
+        "source protection",
+        "leaked data"
+      ],
+      "notes": "Verification and security as linked ethical-technical concerns",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Photo verification via metadata endures but LLMs and AI-generated imagery add new verification challenges beyond metadata"
+    },
+    {
+      "extract": "Use Overview or DocumentCloud to explore a large cache of documents, such as the Congressional Record, Wikipedia, or a recent leak. Organize reporting for a long-form narrative piece by placing sources, quotes, and chronologies in a spreadsheet.",
+      "chapter": "Model 2: Narrative Reporting and Feature Writing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "document analysis",
+        "Overview",
+        "DocumentCloud",
+        "spreadsheet organization"
+      ],
+      "notes": "Tools for document-driven narrative: computational doc analysis + spreadsheet chronologies",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Overview and DocumentCloud for document analysis are partially displaced by LLMs that can directly analyze and summarize document caches"
+    },
+    {
+      "extract": "Students should emerge from science reporting class with an understanding of the scientific method, randomized controlled experiments, statistical significance, and other factors they will encounter while reporting on topics in science and the environment.",
+      "chapter": "Model 2: Science and Environmental Reporting",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "statistical significance",
+        "science reporting",
+        "evidence evaluation"
+      ],
+      "notes": "Science literacy as prerequisite for data-driven science/environment reporting",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding scientific method, statistical significance, and experimental design for science reporting is permanent"
+    },
+    {
+      "extract": "Methods of Collecting Data course skills: web scraping, APIs, cron jobs, bash scripting, digitizing paper documents, regular expressions, parsing text and data, fuzzy string matching, record linkage, content analysis. Tools: Python, Beautiful Soup, Mechanize, Scrapy, Tabula, SQL, MongoDB, data formats (CSV, JSON), Tesseract OCR.",
+      "chapter": "Model 3: Concentration in Data and Computation",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "APIs",
+        "OCR",
+        "record linkage",
+        "fuzzy matching"
+      ],
+      "notes": "Comprehensive data collection toolkit: scrape, parse, digitize, match, automate",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data collection toolkit of scraping, APIs, OCR, regex endures but LLMs substantially automate scraping, parsing, and OCR tasks"
+    },
+    {
+      "extract": "Advanced Data Analysis and Journalistic Algorithms course skills: Python for machine learning, clustering, classifying documents, standardizing and matching algorithms. Tools include clustering algorithms (k-means, k-nearest neighbor), topic modeling algorithms (LDA or NMF). Example: record linkage for data cleaning using machine learning to regularize names in Federal Election Commission data.",
+      "chapter": "Model 3: Concentration in Data and Computation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "clustering",
+        "topic modeling",
+        "record linkage",
+        "classification"
+      ],
+      "notes": "ML for journalism: clustering outliers, topic modeling documents, entity resolution",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "ML for journalism (clustering, topic modeling, record linkage) endures conceptually but LLMs provide these capabilities with far less setup"
+    },
+    {
+      "extract": "Advanced Journalistic Text Mining: Text is data. The purpose of this class is to teach journalists to gather, analyze, and present stories using large amounts of textual data. Skills: web scraping, analyzing large bodies of text, sentiment analysis, topic modeling. Tools: Overview, DocumentCloud, Natural Language Toolkit (NLTK) or Stanford NLP.",
+      "chapter": "Model 3: Concentration in Data and Computation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "text mining",
+        "NLP",
+        "sentiment analysis",
+        "topic modeling",
+        "unstructured data"
+      ],
+      "notes": "Text-as-data pipeline: scrape, analyze with NLP, present findings",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Text mining with NLP tools like NLTK/Overview is substantially displaced by LLMs that handle sentiment analysis and topic modeling natively"
+    },
+    {
+      "extract": "Journalism schools should build collaborative partnerships with other disciplines. Practitioners of data-driven and computational journalism have thrived by embracing interdisciplinarity. Several journalism schools have begun to build bridges with computer science departments by opening research centers, co-teaching and cross-listing classes, and developing joint degree programs.",
+      "chapter": "Fostering Collaboration",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interdisciplinary collaboration",
+        "computer science",
+        "research centers",
+        "joint degrees"
+      ],
+      "notes": "Structural models for cross-disciplinary DJ programs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Interdisciplinary collaboration between journalism and computer science departments is a permanent institutional model"
+    },
+    {
+      "extract": "There should not be a single faculty member juggling all the classes in data and computational skills, nor should guest lectures from that faculty member suffice. Journalism schools must commit to the idea that they cannot train information professionals to work in an increasingly complicated world of information without developing these crucial literacies. It must be integrated across the board.",
+      "chapter": "Institutional Recommendations",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "curriculum integration",
+        "faculty development",
+        "institutional commitment"
+      ],
+      "notes": "Systemic integration, not siloed specialist instruction",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Systemic integration of data skills across curriculum rather than siloed instruction is a permanent institutional requirement"
+    },
+    {
+      "extract": "Given the expense of proprietary software and its inevitable obsolescence, there are few advantages to using these applications in data and computation classes instead of free and open-source ones. F/OSS software is often more secure because it can be openly vetted by security researchers.",
+      "chapter": "Tools, Resources and Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "open source",
+        "free software",
+        "tool selection",
+        "security"
+      ],
+      "notes": "F/OSS preferred for DJ education: cost, longevity, security",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Preference for free and open-source software in DJ education for cost, longevity, and security reasons remains valid"
+    }
+  ]
+}

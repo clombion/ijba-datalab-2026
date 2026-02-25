@@ -1,0 +1,389 @@
+{
+  "source_id": "136",
+  "source_file": "136-power-of-data.md",
+  "source_title": "The Power of Data: Data Journalism Production and Ethics",
+  "author": "Zhang Chao",
+  "year": "2023",
+  "chunk": "3/3",
+  "chunk_file": "136-power-of-data_chunk3.md",
+  "chunk_words": 12513,
+  "extracts": [
+    {
+      "extract": "Whether data collection is based on proactive or passive 'consent' depends on the circumstances. If an organization publishes data on its own website, the data automatically becomes public information, and data journalists can access the data through various technical means (unless otherwise requested by the data owner), in which case passive consent applies to the data collection. However, if sensitive personal information is involved, proactive consent from the data subject is required.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "consent",
+        "personal data",
+        "ethics",
+        "data access"
+      ],
+      "notes": "Distinguishes proactive vs passive consent for data collection"
+    },
+    {
+      "extract": "Bots have as much responsibility as their human creators; the very important limit between web scraping and hacking is the respect of the law.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "ethics",
+        "legal boundaries"
+      ],
+      "notes": "Attributed to Cédric Sam, South China Morning Post"
+    },
+    {
+      "extract": "First, the reporters should always pay attention to the terms of service of the website they're accessing to understand whether the company prohibits scraping, even if its data is accessible. If they cannot determine what those terms are saying, they should reach out to an attorney. Second, if the terms of use prohibit data scraping, reporters should first seek alternate sources for the information. Third, if the information exists only on a company's site, it can be a good idea to contact the company and see if they will simply turn over the information. Fourth, whether the journalists contact the company or not, they should always diminish the risk of injury to the company or other individuals through whatever methods possible. For example, journalists should be careful not to build any tool that might overwhelm a company's servers. Additionally, if any sensitive data with privacy concerns are collected, journalists should be careful to redact and employ ethical journalistic standards. Fifth, journalists should be good citizens and ensure that any data collection is done in the public interest.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "legal compliance",
+        "terms of service",
+        "public interest",
+        "harm minimization"
+      ],
+      "notes": "5-step protocol from Victoria Baranetsky, Columbia TOW Center"
+    },
+    {
+      "extract": "Over-extended use refers to the use of personal data by a data reporter for purposes other than those initially stated, which may violate the rights of individuals. Over-display refers to the display of personal data with little public interest, which is essentially 'display for display's sake.'",
+      "chapter": "Excessive Mining of Personal Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "personal data",
+        "privacy",
+        "proportionality",
+        "data display"
+      ],
+      "notes": "Taxonomy of data misuse: over-extended use vs over-display"
+    },
+    {
+      "extract": "Just because content is publicly accessible does not mean that it was meant to be consumed by just anyone.",
+      "chapter": "Excessive Mining of Personal Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "public data",
+        "privacy",
+        "contextual integrity"
+      ],
+      "notes": "Attributed to Boyd & Crawford 2012"
+    },
+    {
+      "extract": "Data journalists must follow the principles of legality and proportionality in the use of personal data and need to collect data within the scope of the law, while data collection outside the law must be done only after obtaining the consent of the individuals concerned. In addition, the collected data may not be used for purposes other than those originally stated without the consent of the person concerned.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "legality",
+        "proportionality",
+        "consent",
+        "data collection scope"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If a regular user can't access it, journalists shouldn't try to get it.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data access",
+        "web scraping",
+        "legal boundaries"
+      ],
+      "notes": "Attributed to Shiab 2015; bright-line heuristic for scraping"
+    },
+    {
+      "extract": "The collection and use of personal data in data journalism need to be based on the issue, not just the pursuit of large quantities. It is necessary to determine the appropriate scope of the data to be scraped. Otherwise, inappropriate and excessive mining of citizens' personal information by the media may lead to excessive 'display' of the data subjects' privacy, which may be harmful to them and cause adverse social effects.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data scope",
+        "proportionality",
+        "harm minimization",
+        "privacy"
+      ],
+      "notes": "Invokes data science concept of threshold value -- collect only what the question requires"
+    },
+    {
+      "extract": "A distinction should be made between the protection of sensitive private personal information and the use of general personal information -- thus achieving a balance of interests.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sensitive data",
+        "classification",
+        "privacy tiers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When providing data to the media, data holders need to indicate the existence of privacy-sensitive information, anonymize or delete such information, and classify the level of privacy of the data so that the media can determine how to use it.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data handoff",
+        "anonymization",
+        "privacy classification",
+        "data providers"
+      ],
+      "notes": "Guidance directed at data holders supplying media"
+    },
+    {
+      "extract": "Journalists must weigh the benefits of open data against the risks of personal harm that may come with publication.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "publication ethics",
+        "harm minimization",
+        "public interest"
+      ],
+      "notes": "Attributed to Lewis & Westlund 2015"
+    },
+    {
+      "extract": "In 2012, data journalist Nils Mulvad finally got the veterinary prescriptions data that he had been fighting for for seven years, but he decided not to publish the data when he realized that it was full of errors, because 'publishing it directly would have meant identifying specific doctors for doing bad things which they hadn't done.'",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "harm minimization",
+        "withholding publication",
+        "verification"
+      ],
+      "notes": "Case study: errors in data can cause false attribution of wrongdoing"
+    },
+    {
+      "extract": "When reusing personal data, journalists can achieve privacy 'anonymization' by removing the identifiable elements of personal information through codification or encryption. For example, after erasing an individual's identifying information (name, address, credit card number, date of birth, etc.) from a database, the remaining data is available for use and sharing.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "anonymization",
+        "PII removal",
+        "data cleaning",
+        "privacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In the era of big data, anonymization of a single piece of information is not sufficient to avoid identification, and data subjects may still be identified through the combination of multiple anonymous single pieces of personal information. Data journalists need to comprehensively evaluate the potential risks of anonymous personal data and take corresponding measures to protect the legitimate rights and interests of data subjects.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "re-identification risk",
+        "anonymization limits",
+        "big data",
+        "privacy"
+      ],
+      "notes": "Warns that combining anonymized datasets can re-identify individuals"
+    },
+    {
+      "extract": "The journalists used linear regression, logistic regression, PCA (principal component analysis), K-means algorithm, and multiple expectation maximization algorithms to analyze the data. The study revealed the secrets of the $600 billion health care bill and eventually forced the U.S. government in April of that year to disclose for the first time important health care data that had been kept secret since 1979.",
+      "chapter": "Status of Big Data News Production",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "linear regression",
+        "PCA",
+        "K-means",
+        "machine learning",
+        "investigative journalism"
+      ],
+      "notes": "WSJ 'Medicare Unmasked' 2014; enumerates specific statistical methods"
+    },
+    {
+      "extract": "The most significant feature of big data news is open production. For example, CCTV cooperates with professional institutions and companies in big data mining, analysis, and data visualization.",
+      "chapter": "Status of Big Data News Production",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "outsourcing",
+        "big data",
+        "open production"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The media should not solely rely on the success of leaks and open government and thus make data-driven journalism remain a niche form of news reporting, but also develop its own internal database to provide various information services, such as public opinion monitoring, market analysis, and prospect prediction.",
+      "chapter": "From Content to Service: Upgrading the Media Profit Model",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "internal databases",
+        "self-sufficiency",
+        "data strategy",
+        "sustainability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Media organizations can start by employing programmers and data analysts for user analysis or data news production, which can be seen as a preparatory phase of a big data strategy, followed by further planning based on the development of journalism and big data.",
+      "chapter": "To Develop Big Data Strategies for Media Transformation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "hiring",
+        "phased strategy",
+        "capacity building",
+        "data teams"
+      ],
+      "notes": "Staged approach to building big-data capability"
+    },
+    {
+      "extract": "The big data strategy of media is not equal to simply accumulating a large amount of data, but should mean using reasonable technology to collect data strategically and process data purposefully according to the business strategy of media, so that the data assets can create more economic benefits.",
+      "chapter": "To Develop Big Data Strategies for Media Transformation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data strategy",
+        "purposeful collection",
+        "business alignment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists can acquire data in three ways: creating datasets, combining datasets, and accumulating data in non-standard data formats.",
+      "chapter": "To Accumulate Big Data Resources Actively",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "dataset creation",
+        "data combination",
+        "non-standard formats"
+      ],
+      "notes": "Attributed to Financial Times 2017 report"
+    },
+    {
+      "extract": "The data that the media should accumulate include (1) government public data, (2) data from the media's own platforms, (3) social media data, (4) IoT data, and (5) other data related to public interests. Media can accumulate big data of a certain category or a certain field purposely according to their own development strategies.",
+      "chapter": "To Accumulate Big Data Resources Actively",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "government data",
+        "social media",
+        "IoT",
+        "platform data"
+      ],
+      "notes": "Five-category taxonomy of data sources for media"
+    },
+    {
+      "extract": "There are three stages in which media can enhance their big data processing capabilities: the stage of outsourcing big data production, the stage of equal cooperation, and the stage of independent production.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "capacity building",
+        "outsourcing",
+        "collaboration",
+        "independence",
+        "maturity model"
+      ],
+      "notes": "Three-stage maturity model for newsroom data capability"
+    },
+    {
+      "extract": "If the production of big data news is controlled by people outside the media, the truthfulness, objectivity, and fairness of news reporting will be at risk.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial independence",
+        "outsourcing risk",
+        "objectivity",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "They tend to choose technology companies that have no conflict of interest with the news topic and have a good reputation, and will double-check the conclusions drawn from big data analysis through interviews and analyses of other data.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "conflict of interest",
+        "triangulation",
+        "verification",
+        "partner selection"
+      ],
+      "notes": "Attributed to Guo Junyi, CCTV; practical safeguard when outsourcing analysis"
+    },
+    {
+      "extract": "Data collection, analysis, narrative, and visualization are not neutral, natural, or transparent. For example, data collection may be incomplete, data analysis may be wrong, narrative may be biased, and data visualization may distort the facts ... Therefore, journalists need to follow the principles of objectivity and transparency.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "transparency",
+        "bias",
+        "data skepticism",
+        "epistemology"
+      ],
+      "notes": "Summarizing claim from the book's conclusion"
+    },
+    {
+      "extract": "Story-wise, I hope we're heading towards larger and more unstructured data sets. We will be looking for ways to conquer text; we haven't conquered text yet. In one way I wish that we had gotten the Panama Papers ten years from now because we would have been able to do much different stories than we do right now.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "text analysis",
+        "NLP",
+        "capability gaps"
+      ],
+      "notes": "Attributed to Helena Bengtsson, The Guardian"
+    },
+    {
+      "extract": "Whether as an application or as a data platform, big data news products have the ability to update and upgrade themselves, extending their 'shelf life' indefinitely, thus reaping both short-term and long-term benefits. Some important databases require only regular maintenance after they are built, so their operating costs can be greatly reduced.",
+      "chapter": "From Content to Service: Upgrading the Media Profit Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data products",
+        "sustainability",
+        "databases",
+        "long shelf life"
+      ],
+      "notes": ""
+    }
+  ]
+}

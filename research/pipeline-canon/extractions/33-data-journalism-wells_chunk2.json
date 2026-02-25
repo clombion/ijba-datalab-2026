@@ -1,0 +1,64 @@
+{
+  "source_id": "33",
+  "source_file": "33-data-journalism-wells.md",
+  "source_title": "Data Journalism: A Quick & Practical Guide",
+  "author": "Rob Wells",
+  "year": "ongoing",
+  "chunk": "2/4",
+  "chunk_file": "33-data-journalism-wells_chunk2.md",
+  "chunk_words": 830921,
+  "extracts": [
+    {
+      "extract": "Often the data you have will prompt questions that it doesn't immediately answer. The essence of mutate is using the data you have to answer a new question — calculating new metrics in a new field using existing fields of data.",
+      "chapter": "Mutating data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "derived columns",
+        "feature engineering",
+        "asking new questions"
+      ],
+      "notes": "R/dplyr context but principle is tool-agnostic"
+    },
+    {
+      "extract": "There's a mix of styles: 'Baltimore' and 'BALTIMORE' for example. R will think those are two different cities, and that will mean that any aggregates we create based on city won't be accurate. Use str_to_upper to standardize case before grouping.",
+      "chapter": "Another use of mutate",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "case standardization",
+        "text normalization",
+        "aggregation accuracy"
+      ],
+      "notes": "R-specific syntax but universal cleaning principle"
+    },
+    {
+      "extract": "You should never assume that missing values won't appear in a dataset. When classifying data with case_when or if_else, always account for blank or NA values as a separate category rather than letting them fall silently into another group.",
+      "chapter": "A more powerful use",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "missing data",
+        "defensive coding",
+        "NA handling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most frustrating things in data is working with dates. Everyone has a different opinion on how to record them, and every software package on the planet has to sort it out. Consider using a dedicated date library (lubridate) to solve common problems before they start.",
+      "chapter": "Working with dates",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "date parsing",
+        "data types",
+        "lubridate"
+      ],
+      "notes": "R context; equivalent libraries exist in Python (pandas/dateutil)"
+    }
+  ]
+}

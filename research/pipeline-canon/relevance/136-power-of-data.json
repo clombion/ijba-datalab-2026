@@ -1,0 +1,2423 @@
+{
+  "source_id": "136",
+  "source_file": "136-power-of-data.md",
+  "source_title": "The Power of Data: Data Journalism Production and Ethics",
+  "author": "Zhang Chao",
+  "year": "2023",
+  "extracts": [
+    {
+      "extract": "Journalists need to be data-savvy. These are the people whose jobs are to interpret what government is doing to the people. So it used to be that you would get stories by chatting to people in bars, and it still might be that you'll do it that way sometimes. But now it's also going to be about poring over data and equipping yourself with the tools to analyse it and picking out what's interesting.",
+      "chapter": "Foreword",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "skills",
+        "sourcing"
+      ],
+      "notes": "Tim Berners-Lee quote via Arthur 2010",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data literacy for journalists is even more essential in the LLM era, not less."
+    },
+    {
+      "extract": "Data journalists can no longer stay away from data or just be 'porters' relaying experts' conclusions as in the traditional journalism era, but should be data knowledge producers with independent data collection, analysis, and visualization capabilities.",
+      "chapter": "Foreword",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "roles",
+        "data literacy",
+        "independence"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalists as independent data knowledge producers remains essential even with LLM assistance."
+    },
+    {
+      "extract": "Data journalism should consider objectivity as a method rather than a goal. In addition, the significance of transparency for data journalism lies in the 'repeatability' of the data analysis process, which allows others to monitor the data journalism production process.",
+      "chapter": "Innovations of the Book",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "transparency",
+        "reproducibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Objectivity as method and reproducibility of analysis are foundational principles that persist."
+    },
+    {
+      "extract": "The authority of data journalism lies not in the name of 'data' but in a series of professional norms and ethical requirements in its production. The neglect of professional norms is gradually eroding the credibility and professional value of the data journalism field.",
+      "chapter": "Exploring the Sustainability of Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "credibility",
+        "professional norms",
+        "ethics"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Professional norms and ethics as the basis of data journalism credibility are timeless."
+    },
+    {
+      "extract": "The objectivity, neutrality, and authority of data journalism can only be achieved by following the production standards.",
+      "chapter": "The Fractured Perception of Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "standards",
+        "credibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Following production standards for objectivity and authority endures regardless of tooling."
+    },
+    {
+      "extract": "The essence of data journalism is the construction of discourse. In a sense, data journalism 'constructs' reality with data visualization, rather than 'reflecting' it in full sincerity.",
+      "chapter": "Importance of Critically Examining Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "discourse",
+        "visualization",
+        "critical awareness",
+        "constructivism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical awareness that data journalism constructs rather than reflects reality is a lasting epistemological insight."
+    },
+    {
+      "extract": "Data journalism is a news journalistic paradigm which uses data science methods to discover facts from various kinds of data and presents data through data visualization methods, serving news value and public interest.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "data science",
+        "visualization",
+        "public interest"
+      ],
+      "notes": "Author's own definition",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Definition holds but should now encompass LLM-assisted analysis and AI-generated visualizations."
+    },
+    {
+      "extract": "The basic form of data journalism must include three elements: the treatment of data as a source to be gathered and validated, the application of statistics to interrogate it, and visualizations to present it.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "definition",
+        "validation",
+        "statistics",
+        "visualization"
+      ],
+      "notes": "Howard 2014, Tow Center",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Three elements endure but the methods for validation and statistics now include LLM-assisted approaches."
+    },
+    {
+      "extract": "Data journalism means obtaining, reporting, curating, and publishing data in the public interest.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "definition",
+        "pipeline",
+        "public interest"
+      ],
+      "notes": "Jonathan Stray definition",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core definition of data journalism as obtaining, reporting, curating and publishing data remains stable."
+    },
+    {
+      "extract": "Data journalism can be regarded as a process of refinement, in which the original data is transformed into meaningful content. When complex facts are refined into clear stories that are understood and remembered by the public, the value of data to the public increases. The production process of data journalism can be divided into four stages: data, filter, visualize, and story.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "refinement",
+        "value chain"
+      ],
+      "notes": "Mirko Lorenz / European Journalism Centre 2010",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Pipeline concept of refining raw data into meaningful stories is a durable framework."
+    },
+    {
+      "extract": "Data journalism is 80% perspiration, 10% great idea, 10% output.",
+      "chapter": "The Unclear Boundaries of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "effort allocation",
+        "process"
+      ],
+      "notes": "Simon Rogers 2011",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs dramatically shift the effort allocation — the 80% perspiration for data wrangling can now be reduced significantly."
+    },
+    {
+      "extract": "Regardless of whether data journalism is defined through its form or process, two elements stand out: (1) quantitative information should play a central role in the development or telling of the story, and (2) there should be some visual representation of the data in the story.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "quantitative",
+        "visualization"
+      ],
+      "notes": "Zamith 2019",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Quantitative centrality and visual representation as defining elements of data journalism persist."
+    },
+    {
+      "extract": "Bradshaw uses the inverted pyramid structure of data journalism to illustrate the production process: data compilation, data cleaning, understanding of data context, and data combination.",
+      "chapter": "The Differences Between Data Journalism and Traditional Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "data cleaning",
+        "context",
+        "inverted pyramid"
+      ],
+      "notes": "Bradshaw 2016",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Inverted pyramid pipeline steps endure conceptually but data cleaning is increasingly LLM-assisted."
+    },
+    {
+      "extract": "Computer-assisted reporting follows a hypothesis-driven path, while data journalism follows a data-driven path.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "epistemology",
+        "hypothesis-driven",
+        "data-driven"
+      ],
+      "notes": "Parasie 2019",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Distinction between hypothesis-driven and data-driven approaches remains a valid epistemological framework."
+    },
+    {
+      "extract": "Data journalism demands three different news skills: computer-assisted reporting, news application development, and data visualization.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "visualization",
+        "programming",
+        "CAR"
+      ],
+      "notes": "Zotto et al. 2015",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Core skill areas endure but now include prompt engineering and LLM orchestration alongside traditional CAR and programming."
+    },
+    {
+      "extract": "The application of open data and open-source software makes the production of data journalism more transparent. Although computational journalism is deeply influenced by the open-source movement, as algorithms are often regarded as commercial secrets, the production of computational journalism is not transparent.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "open source",
+        "open data",
+        "algorithms"
+      ],
+      "notes": "Coddington 2015 comparison framework",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tension between open-source transparency and algorithmic opacity is even more acute with proprietary LLMs."
+    },
+    {
+      "extract": "It is not the increasing volume of data that makes data increasingly important, but the tools and ability of journalists to analyze it.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tools",
+        "skills",
+        "analysis capability"
+      ],
+      "notes": "David McCandless via Rogers and Gallagher 2013",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The primacy of analytical skill over data volume remains true — LLMs amplify but do not replace judgment."
+    },
+    {
+      "extract": "The barriers for entry have never been lower as free tools change the rules on who can analyse, visualize, and present data.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "open source",
+        "accessibility",
+        "tools",
+        "democratization"
+      ],
+      "notes": "Rogers 2015",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Barrier lowering has accelerated dramatically with LLMs making analysis accessible to non-coders."
+    },
+    {
+      "extract": "The main reasons the media use open-source software rather than purchase proprietary software are: (1) When the prospect of reusing and reprocessing data is unclear, purchasing proprietary software requires capital and staff investment, while open-source software is free, easy to obtain, and simple to operate, effectively reducing the cost of investment. (2) The development of certain functions of proprietary software must be completed by the developer, which is costly, while open-source software can be designed by the media according to their own needs for specific functions. (3) Open-source software can already meet most of the needs related to data news production, so there is no need to purchase proprietary software.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "open source",
+        "cost",
+        "customization",
+        "tooling"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Open-source rationale endures but the landscape now includes LLM APIs and AI-assisted coding tools alongside traditional OSS."
+    },
+    {
+      "extract": "Data-driven journalism can provide a more solid empirical basis for discussions about policy, economic trends, and social change.",
+      "chapter": "Crisis of Trust in British and American Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "empirical evidence",
+        "credibility",
+        "policy"
+      ],
+      "notes": "Brian Keegan via Howard 2014",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data journalism providing empirical grounding for policy discussions is a lasting public value."
+    },
+    {
+      "extract": "Data can trigger hypotheses, it can disprove your hypothesis, but it always enhances a story that would otherwise be based on anecdotes.",
+      "chapter": "Crisis of Trust in British and American Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis testing",
+        "evidence",
+        "verification"
+      ],
+      "notes": "Sandra Fish via Edge 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data as hypothesis trigger and evidence enhancer is a timeless epistemological principle."
+    },
+    {
+      "extract": "Data are everywhere all the time. They have something to say about us and how we live. But they aren't neutral, and neither are the algorithms we rely on to interpret them. The stories they tell are often incomplete, uncertain, and open-ended. Without journalists thinking in data, who will help us distinguish between good stories and bad?",
+      "chapter": "The Crisis of Professionalism in Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data neutrality",
+        "algorithms",
+        "critical thinking",
+        "interpretation"
+      ],
+      "notes": "Mark Hansen via Bell 2012",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical awareness that data and algorithms are not neutral is even more important with LLM-generated analysis."
+    },
+    {
+      "extract": "Data journalism has changed the definition of news from 'the reporting of newly occurring facts' to 'the reporting of newly discovered facts.'",
+      "chapter": "Discovering the Reality in the Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "discovery",
+        "news definition",
+        "paradigm shift"
+      ],
+      "notes": "Shen Hao, Tsinghua University",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Redefining news as discovery of facts in data persists regardless of the tools used for discovery."
+    },
+    {
+      "extract": "Alberto Nardelli, The Guardian's current data editor-in-chief, divides the paper's daily data journalism into three categories: quick and relevant numbers, data investigations to support stories, and making complex issues.",
+      "chapter": "Multiple Models of Data Journalism Production",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "production tiers",
+        "complexity levels",
+        "Guardian"
+      ],
+      "notes": "Reid 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Production tiers from quick numbers to deep investigations remain a valid organizational framework."
+    },
+    {
+      "extract": "In the endogenous model, the traditionally newsroom-centered working model is broken. News production requires cross-border integration in which people in various positions have to understand each other from the beginning stage. This has made programmers, who used to be downstream of the news production line and often did some support work, key or even central.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-disciplinary teams",
+        "programmers",
+        "integration"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Cross-disciplinary integration endures but the role of programmers shifts when LLMs handle much of the coding."
+    },
+    {
+      "extract": "In Facts are Sacred, Simon Rogers refers to the 'short-form of data journalism' in The Guardian's daily data journalism production, where journalists very quickly identify key data, analyze it as the story is happening, and guide the audience to participate in it.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "short-form",
+        "speed",
+        "audience participation"
+      ],
+      "notes": "Rogers 2015",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Short-form data journalism concept endures but LLMs now enable even faster identification and analysis of key data."
+    },
+    {
+      "extract": "The Guardian has templates with a choice of chart styles, color palettes, and interactive visualizations that journalists can use to produce data news quickly, and the BBC and Financial Times have similar ones.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "templates",
+        "visualization",
+        "speed",
+        "standardization"
+      ],
+      "notes": "Dick 2014",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Templates endure conceptually but are now supplemented by AI-generated charts and automated visualization tools."
+    },
+    {
+      "extract": "Data journalism competes on teamwork, not team size. News editors should bring data reporters in at the beginning of the story so that they can start identifying what needs to be developed for the project. Programmers need to judge the difficulty and cost based on the data journalist's choice of topic and research questions.",
+      "chapter": "Strengths of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teamwork",
+        "collaboration",
+        "planning",
+        "editorial workflow"
+      ],
+      "notes": "Au 2016; Huang and Zhang 2016",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teamwork over team size and early collaboration between editors and data reporters remains essential."
+    },
+    {
+      "extract": "For example, when we check the domestic rocket launch records, the data provided by these authorities, such as China Academy of Launch Vehicle Technology, China Great Wall Industry Corporation, and China Aerospace Science and Technology Corporation, are not the same, then we will decide not to write the news related to this.",
+      "chapter": "Strengths of Endogenous Model",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data verification",
+        "conflicting sources",
+        "editorial judgment"
+      ],
+      "notes": "In-depth interview, Editor A",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Verifying conflicting data sources before publishing is a timeless editorial practice."
+    },
+    {
+      "extract": "Training has been incredibly impactful in the U.S. to spread data journalism, there's hardly a newsroom in the U.S. that doesn't have a specialist in this area, and training is a huge reason for that.",
+      "chapter": "Weaknesses of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training",
+        "skills development",
+        "newsroom capacity"
+      ],
+      "notes": "Aron Pilhofer via Reid 2014",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Training to spread data journalism capacity in newsrooms remains critical, now including AI literacy."
+    },
+    {
+      "extract": "One of the problems with data journalism production is that it's hard to assemble teams that are cross-disciplinary and have the right combination of designers, developers, graphic artists, photographers.",
+      "chapter": "Weaknesses of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "cross-disciplinary",
+        "hiring"
+      ],
+      "notes": "Aron Pilhofer via Reid 2014",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Challenge of assembling cross-disciplinary teams persists but required roles are shifting — fewer pure coders, more AI-literate journalists."
+    },
+    {
+      "extract": "The potential risk is that the quality of the data and content collected by crowdsourcing is inconsistent, and implementers will have to weigh the pros and cons if they are to crowdsource, as they have no control over the quality of this data. In this case, the team has to make sure that the data is properly verified.",
+      "chapter": "Weaknesses of the Crowdsourcing Model",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data quality",
+        "verification"
+      ],
+      "notes": "Au 2016",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Crowdsourced data quality risks and verification requirements persist regardless of era."
+    },
+    {
+      "extract": "The crowdsourcing of data journalism is suitable for articles that seek breadth and diversity of coverage rather than depth and historicity of reporting. It is suitable for collecting data that is relevant to the public interest and more intuitive but struggles to show advantages when reporting on specialized issues and collecting authoritative data.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "scope",
+        "limitations",
+        "data collection"
+      ],
+      "notes": "Fang 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Crowdsourcing suited for breadth over depth remains a valid scoping principle."
+    },
+    {
+      "extract": "It is important to design crowdsourcing tasks in a playful way. In The Guardian's crowdsourcing of politicians' election spending scandals, the newspaper included game mechanics in the crowdsourcing, where users could see which challenges were accepted and completed, which was used to give the users a sense of achievement and being rewarded.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "gamification",
+        "engagement",
+        "design"
+      ],
+      "notes": "Simon Rogers; Vehkoo 2013",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Gamification principles for crowdsourcing engagement are tool-agnostic design insights."
+    },
+    {
+      "extract": "The media should not view each crowdsourcing participant as a one-time resource, but rather build a long-term relationship with them.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourcing",
+        "community building",
+        "audience relationships"
+      ],
+      "notes": "Vehkoo 2013",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building long-term relationships with crowdsourcing participants is a durable community strategy."
+    },
+    {
+      "extract": "The process of statistical analysis generally consists of data collection, data cleaning, and data analysis. Data collection is the acquisition of data based on research questions, while data cleaning is the discovery and correction of identifiable errors in data files, including checking data consistency, dealing with invalid and missing values, and so forth.",
+      "chapter": "Insight into Reality: Data Collection and Analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "data cleaning",
+        "error correction",
+        "consistency"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Pipeline of collection-cleaning-analysis endures but LLMs now automate much of the cleaning and error correction."
+    },
+    {
+      "extract": "Data journalists' access to data can be broadly classified in four ways: open access, access by application, self-collection, and shared access.",
+      "chapter": "Methods of Data Acquisition",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "classification",
+        "sourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Four-way classification of data access methods remains a valid taxonomy."
+    },
+    {
+      "extract": "Open data is favored by data journalists because it is easy to obtain, does not require payment, and does not involve complicated procedures such as licensing when producing, and only requires a clear explanation of the source of the data.",
+      "chapter": "Open Access",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "sourcing",
+        "attribution",
+        "licensing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Open data advantages for journalists persist regardless of analytical tools used."
+    },
+    {
+      "extract": "With advances in data collection technology, some data journalists are obtaining data from online platforms through web scraping. ProPublica's data story 'Dollars for Docs' focused on various payments to doctors by pharmaceutical companies, which are required by law to disclose these data on their websites. Unable to obtain the relevant data through normal channels, the reporter collected them through web scraping.",
+      "chapter": "Open Access",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "data collection",
+        "ProPublica"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Web scraping remains relevant but LLMs now offer alternative extraction methods and can assist with scraper code generation."
+    },
+    {
+      "extract": "In countries such as the U.K. and the U.S., it has become common for data journalists to request relevant data from the government under the Freedom of Information Act, which is known as a FOIA request.",
+      "chapter": "Access by Application",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "government data",
+        "information requests"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOIA requests as a data acquisition method are a legal/institutional practice unaffected by LLMs."
+    },
+    {
+      "extract": "The ubiquity of sensors and their ability to quantify something abstract are the main reasons why journalists are employing them to gather data. Journalists need data that is not all available from official sources, which may withhold information, which encourages journalists to open up some other ways of collecting data.",
+      "chapter": "Self-collection",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "sensors",
+        "self-collection",
+        "data gaps",
+        "alternative sourcing"
+      ],
+      "notes": "Fergus Pitt, Tow Center",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Sensor journalism for self-collected data remains a distinct method unaffected by LLMs."
+    },
+    {
+      "extract": "Assessment of data quality requires assessments on a number of dimensions. First, the data is free of error, or the correctness of data. Second, the completeness of data, which can be viewed from at least three perspectives: schema completeness, column completeness, and population completeness. Third, the consistency of data. Fourth, the believability of data, or the extent to which data is regarded as true and credible. Fifth, the appropriate amount of data. Sixth, the timeliness of data. Eighth, the accessibility of data.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "completeness",
+        "consistency",
+        "timeliness",
+        "assessment"
+      ],
+      "notes": "Lee et al. 2006",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Multi-dimensional data quality assessment framework is timeless and applies equally to LLM-processed data."
+    },
+    {
+      "extract": "There have been cases in the United States where media outlets have damaged the reputations of individuals because of inadequate verification of the data they obtained. A story in The Texas Tribune had a local man branded as a criminal, but it turned out to be a problem with the state's crime database itself.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data errors",
+        "harm",
+        "accountability"
+      ],
+      "notes": "Bradshaw 2013",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Case study illustrating harm from inadequate data verification is a lasting cautionary lesson."
+    },
+    {
+      "extract": "In late 2012, data journalist Nils Mulvad finally got his hands on veterinary prescription data that he had been fighting for seven years. But he decided not to publish the data when he realized that it was full of errors.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "editorial judgment",
+        "kill decision"
+      ],
+      "notes": "Bradshaw 2013",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial judgment to kill a story when data is unreliable is a timeless professional norm."
+    },
+    {
+      "extract": "Data journalists need to keep personal data properly in all aspects of data collection, analysis, and publication. Who is in control of the data? With whom can the data be shared? How should the data be protected and secured? News organizations should not only make sure that sensitive data is securely electronically stored, but also that journalists get appropriate training on how to avoid security risks and potential misuse of data due to increased sharing and partnerships.",
+      "chapter": "Violations and Controversies Arising from Non-compliance with Ethical Norms",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data security",
+        "privacy",
+        "ethics",
+        "personal data",
+        "training"
+      ],
+      "notes": "Colin Porlezza",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data security, privacy, and proper handling of personal data are enduring ethical requirements."
+    },
+    {
+      "extract": "There are three main types of data analysis methods. The first type, Descriptive Analytics, uses descriptive statistics and data visualization to describe the basic characteristics of data. The second type, Predictive Analytics, uses causal analysis, correlation analysis, and other methods to derive potential patterns, common patterns, or future trends based on past or current data. The third type, Prescriptive Analytics, combines a number of influencing factors based on known data to provide the best decision solution.",
+      "chapter": "Functions of Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "descriptive analytics",
+        "predictive analytics",
+        "prescriptive analytics",
+        "taxonomy"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Three analytics types endure as concepts but LLMs now dramatically expand predictive and prescriptive capabilities available to journalists."
+    },
+    {
+      "extract": "The original context of the data refers mainly to the purpose and method for which the data were collected, and relates to the boundaries of data interpretation. The context of the news text refers to the intent of the news to use the data, and is related to the applicability of the data. Generally speaking, the better the fit between the original context of the data and the context set by the news text, the more accurate people's understanding of the data will be, and the more credible the reality characterized by the data will be.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "recontextualization",
+        "data interpretation",
+        "credibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding original data context to avoid misinterpretation is a permanent analytical requirement."
+    },
+    {
+      "extract": "It is important to understand whether data are comparable and to be careful when normalizing data across time and from different organizations on the same topic.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "comparability",
+        "normalization",
+        "time series",
+        "data quality"
+      ],
+      "notes": "Lesson from Washington Post racial tolerance map criticism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data comparability and normalization cautions persist regardless of analytical tooling."
+    },
+    {
+      "extract": "Caixin's 'How far is a high-speed railway station from you' introduces a distance index, which is the ratio of the straight-line distance from the station to the city center and the radius of the built-up area. A smaller distance index means that the station is easier to reach. This makes the data comparable and makes it easier to draw reliable conclusions.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "normalization",
+        "index construction",
+        "comparability",
+        "context"
+      ],
+      "notes": "Caixin Data News Center, 2019 Data Creators Conference",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Index construction for comparability is a durable analytical technique."
+    },
+    {
+      "extract": "There is a case where the unreasonable choice of the time range leads to a large bias or even distortion in the recontextualized data. A powerful example is the widely reported 'national crime wave' in the United States in 2015. If journalists examine a broader period of time, they will see that crime rates were higher almost everywhere in the U.S. a decade ago, and almost twice as high two decades ago.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "time range",
+        "cherry-picking",
+        "bias",
+        "context"
+      ],
+      "notes": "Groskopf 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cherry-picking time ranges to distort data is a timeless analytical error to guard against."
+    },
+    {
+      "extract": "Open data is for government agencies, not journalists. That is, most datasets are named, structured, and organized according to the agencies, not the journalists looking for stories. Journalists should collect and analyze data with a good understanding of the original context of the data to avoid misinterpretation.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "context",
+        "misinterpretation",
+        "data structure"
+      ],
+      "notes": "D'Ignazio 2019",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Caution about open data being structured for agencies not journalists is a persistent challenge."
+    },
+    {
+      "extract": "The U.S. population grew by 80% between 1960 and 2015, and in fact if we go by the murder rate per 100,000 people, the 2015 figure is close to the lowest since 1960. A comparison of only the total number of people to draw conclusions is undoubtedly one-sided.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "per capita rates",
+        "normalization",
+        "misleading totals"
+      ],
+      "notes": "Whitby 2016 critique of Guardian murder stats",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Per capita rate normalization is a fundamental statistical literacy lesson that persists."
+    },
+    {
+      "extract": "Canada is so sparsely populated that the total population of the region does not reach 100,000 people, and the data was selected only for 2014, a year in which there were three murders in the region, compared to zero in the previous three years.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "small samples",
+        "cherry-picking",
+        "per capita rates",
+        "statistical validity"
+      ],
+      "notes": "McMaken 2015; Mises Wire error",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Small sample size and cherry-picking errors are timeless statistical pitfalls."
+    },
+    {
+      "extract": "Europe One Degree Warmer, produced by the European Data Journalism Network, analyzes more than 100 million meteorological data points. The journalists used two datasets in their analysis that could not be directly compared, so a reconciliation algorithm was used to allow historical comparisons to be made.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "reconciliation",
+        "data harmonization",
+        "incompatible datasets"
+      ],
+      "notes": "EDJNet 2019",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data harmonization across incompatible datasets is a durable analytical challenge."
+    },
+    {
+      "extract": "Correlation is not the same as causation. In data journalism, it happens that correlation is mistaken for causation due to poor recognition of logical relationships. Assuming that countries with higher gun ownership rates have more gun homicides, there could be several reasons: gun ownership breeds homicides; the presence of homicides causes more people to buy guns for self-defense; some other reason causes both; or it is just a coincidence.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "logical errors",
+        "confounders"
+      ],
+      "notes": "Stray 2014",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation vs causation is a foundational statistical literacy principle that never becomes obsolete."
+    },
+    {
+      "extract": "Some seeming 'correlations' are just 'coincidences' and do not mean that there is true causality between the two variables. A change in two variables in the same direction may be caused by a change in a third variable. Forcing the one explanatory variable to explain all the variation in the dependent variable is itself arbitrary.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "spurious correlation",
+        "confounding variables",
+        "overfitting"
+      ],
+      "notes": "Whitby 2014",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Spurious correlation and confounding variables are permanent pitfalls in data analysis."
+    },
+    {
+      "extract": "Another common logical error is to make linear long-term predictions about a non-linear phenomenon.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "prediction",
+        "linearity",
+        "logical errors"
+      ],
+      "notes": "FiveThirtyEight death penalty example",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning against linear extrapolation of non-linear phenomena is a timeless analytical principle."
+    },
+    {
+      "extract": "We believe that the quality of data analysis can be improved in two ways: improving journalists' data analysis ability and introducing experts into the production process.",
+      "chapter": "The Path to Improving Data Analysis in Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills",
+        "expert collaboration",
+        "quality improvement"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Two paths to quality endure but LLMs now serve as a third path — AI-assisted analysis augmenting both journalist skill and expert input."
+    },
+    {
+      "extract": "Unlike traditional journalism, which treats experts as sources, data journalism incorporates experts into the news production process, i.e., have them embedded in the editorial team as content producers.",
+      "chapter": "Inviting Experts to Participate in the Production Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "expert collaboration",
+        "embedded experts",
+        "team composition"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Embedding domain experts as content producers in editorial teams is a durable organizational insight."
+    },
+    {
+      "extract": "Experts can have two functions in data analysis. First, experts are gatekeepers for the entire process of data analysis -- journalists should discuss with experts and peers and listen to different opinions in order to improve data analysis and conclusions, rather than making decisions on their own. Second, experts are directly responsible for data analysis, equivalent to outsourcing the data analysis process.",
+      "chapter": "Inviting Experts to Participate in the Production Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "expert gatekeeping",
+        "intersubjective objectivity",
+        "outsourcing analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Expert gatekeeping and peer review of data analysis remain essential even with LLM assistance."
+    },
+    {
+      "extract": "Most awarded works rely heavily on data collected by governments and corporations, resulting in data journalism that lacks a critical awareness of these data and constructs reality in the way governments and corporations understand it.",
+      "chapter": "How Data Journalism Awards Winners Apply Data Science",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical awareness",
+        "data provenance",
+        "government data",
+        "power"
+      ],
+      "notes": "Analysis of DJA 2013-2018 winners",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical awareness that award-winning work over-relies on government data framing is a lasting insight about power dynamics."
+    },
+    {
+      "extract": "The methods commonly used by reporters include descriptive data analysis, exploratory data analysis, database or data warehouse, machine learning, and information retrieval. Of the 31 identifiable samples, 20 used descriptive and exploratory data analysis, and 9 had only descriptive data analysis.",
+      "chapter": "Data Analysis Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "descriptive analysis",
+        "exploratory analysis",
+        "machine learning",
+        "methods taxonomy"
+      ],
+      "notes": "DJA 2013-2018 analysis",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Methods taxonomy holds but LLMs have dramatically expanded accessible analytical methods beyond descriptive and exploratory analysis."
+    },
+    {
+      "extract": "We classify the data processing complexity into four levels: low (directly present the original data), medium (describe numerical and distributional characteristics like mean, median, variance), relatively high (multiple statistical analysis methods or simple programming tools such as R and Python), and high (mathematical modeling, big data mining, or algorithm innovation). The average score of the samples is only 0.94, which indicates that many of the Data Journalism Awards entries are low in the level of data processing.",
+      "chapter": "Data Processing Complexity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "complexity levels",
+        "professionalism",
+        "assessment framework"
+      ],
+      "notes": "DJA 2013-2018 analysis",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Complexity levels framework endures but LLMs lower the barrier to higher-complexity analysis, so the distribution should shift upward."
+    },
+    {
+      "extract": "There are two main ways for media to build their own databases. First, the media organize and clean open data sets into high-quality open databases. Second, the 'niche database': the media systematically integrates open data, public data, leaked data, and self-collected data based on research questions to create a more personalized, user experience-oriented database.",
+      "chapter": "Building Database to Provide Personalized Services and Innovate Profit Model",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "data curation",
+        "niche databases",
+        "open data"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Media building curated and niche databases is a durable strategic practice."
+    },
+    {
+      "extract": "Self-built databases help the media build 'strong ties' with users through interactive design, authoritative data, and topics of public interest. As a kind of product, databases have various profit models: attention-based advertising, fee-based download of datasets, and user-oriented targeted services.",
+      "chapter": "Building Database to Provide Personalized Services and Innovate Profit Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "databases as products",
+        "revenue models",
+        "audience engagement"
+      ],
+      "notes": "Texas Tribune, ProPublica Data Store, Thomson Reuters examples",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Databases as revenue-generating products with various profit models is a lasting business model insight."
+    },
+    {
+      "extract": "Unstructured data is more ubiquitous and accessible than structured data, allowing the media to cover more topics. Unstructured data are more 'honest' than structured data. The processing of structured data relies on statistical methods, which are inevitably biased in representing reality. However, unstructured data contains complete and continuous information and key details, and is more reliable and credible in representing reality.",
+      "chapter": "Using Unstructured Data to Represent the Broader Social Reality",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "representation",
+        "completeness",
+        "statistical bias"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs have fundamentally changed unstructured data processing — they now excel at extracting meaning from text, making this observation outdated."
+    },
+    {
+      "extract": "There are three main applications of machine learning in data journalism production. First, machine learning helps media do classification and prediction via supervised learning. Second, machine learning helps the media gain insight into the world via unsupervised learning that can autonomously find correlation between massive data and identify hidden structure. Third, machine learning helps media make decisions via reinforcement learning.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "classification",
+        "prediction",
+        "unsupervised learning",
+        "reinforcement learning"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "ML applications in journalism are now vastly expanded by LLMs, making this taxonomy incomplete without generative AI capabilities."
+    },
+    {
+      "extract": "The effectiveness of supervised learning depends heavily on the reliability of the algorithm and the training data; if they are not reliable, the data results will be wrong. In an investigation of the Los Angeles Times powered by machine learning algorithms, the algorithm had a 24% error rate and required manual review.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "error rates",
+        "manual review",
+        "validation"
+      ],
+      "notes": "Nahser 2018",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Need for human verification of ML outputs with known error rates is even more important with LLM hallucination risks."
+    },
+    {
+      "extract": "In Doctors and Sex Abuse from The Atlanta Journal-Constitution, journalists used 50 crawlers to obtain more than 100,000 physician disciplinary documents from the U.S. health care system, then used machine learning to clean and analyze the documents and retrieve keywords involving sexual assault.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "web scraping",
+        "document analysis",
+        "classification"
+      ],
+      "notes": "Global Investigative Journalism Network 2017",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Crawling plus ML classification pipeline endures conceptually but LLMs now handle document analysis far more efficiently than 50 separate crawlers."
+    },
+    {
+      "extract": "Data journalism is an opportunity for journalism to re-professionalize itself. Data science methodology is the core of data journalism production, so the level of journalists' mastery of it determines the level of understanding the world through data.",
+      "chapter": "Future Trends in the Application of Data Science to Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "professionalization",
+        "data science",
+        "methodology",
+        "skills"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data journalism as re-professionalization through methodology mastery is a lasting argument."
+    },
+    {
+      "extract": "Data journalism production is not a process in which meaning is generated automatically and the truth emerges naturally. For example, the algorithms which secretly contribute to data journalism appear to be 'objective,' but they are not. A researcher's unconscious cognitive bias may be expressed through the selection criteria chosen for the algorithm. Additionally, the cleaning phase of data is inherently subjective, as the data analysts would make decisions about what IVs and DVs will be counted or not.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "subjectivity",
+        "algorithmic bias",
+        "data cleaning"
+      ],
+      "notes": "Warns that both algorithm design and cleaning involve subjective editorial choices",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Subjectivity in algorithm design and data cleaning is a permanent epistemological insight, amplified by LLM prompt design."
+    },
+    {
+      "extract": "Although the same data and algorithms will yield the same data results, the interpretation of data results will vary among different media outlets. Meaning is not simply given, but is socially constructed across a number of institutional sites and practices.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "interpretation",
+        "framing",
+        "objectivity"
+      ],
+      "notes": "Same data can yield divergent stories depending on institutional context",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Same data yielding different interpretations across institutions is a lasting insight about social construction of meaning."
+    },
+    {
+      "extract": "It has been argued that framing in data journalism consists of two phases. The first stage -- building logical structures -- is drawing conclusions from the data, and the second stage -- building forms -- is visualizing the data.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "framing",
+        "visualization",
+        "workflow"
+      ],
+      "notes": "Two-phase framing model: logical structure then visual form",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Two-phase framing model of logical structure then visual form persists as an analytical framework."
+    },
+    {
+      "extract": "Our analysis of the Data Journalism Awards winners and other outstanding works reveals that the narratives and analyses of complex issues in data news stories are mostly organized around four dimensions: the temporal dimension, the spatial dimension, the social network dimension, and the data relationship dimension. Data news can be organized along one or several narrative dimensions.",
+      "chapter": "Dimensions of Complex Narratives in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "complexity",
+        "temporal",
+        "spatial",
+        "network",
+        "correlation"
+      ],
+      "notes": "Four-dimension framework derived from DJA winners analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Four narrative dimensions for complex data stories is a durable structural framework."
+    },
+    {
+      "extract": "In data journalism, time is a dimension that helps one construct a robust and intuitive framework to establish connections between events. The timeline in data visualization allows a clear and visual presentation of the chronological or cause-and-effect relationships between events. In the temporal dimension, moments and time periods appear in four main combinations: (1) a single moment; (2) a time period made up of multiple moments in series; (3) independent moments; and (4) independent time periods.",
+      "chapter": "Temporal Dimension: Depicting Changes and Trends",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "timelines",
+        "temporal analysis",
+        "visualization"
+      ],
+      "notes": "Four combinatorial patterns for temporal data presentation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Temporal dimension patterns for data visualization are tool-agnostic design principles."
+    },
+    {
+      "extract": "The choice of beginning and ending points is a process of meaning construction. While timelines can provide a great deal of information on the temporal dimension, they also 'simplify' the historical context of events. In particular, comparisons on the same timeline force different actors to be involved in the same history, since each actor may face different situations at the same point in time. The timeline allows some key information about the actors to be omitted, serving instead the subjective intention of the creator.",
+      "chapter": "Temporal Dimension: Depicting Changes and Trends",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "timelines",
+        "framing",
+        "editorial choice",
+        "context"
+      ],
+      "notes": "Caution: timeline start/end points are editorial choices that construct meaning",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical awareness that timeline start/end points construct meaning is a lasting editorial insight."
+    },
+    {
+      "extract": "Maps are some of the most information-dense ways of communicating data. You can do a lot in a map because people already understand the fundamentals -- unlike, say, a scatterplot. The use of color-based segmentation and various markers on the map can clearly convey important information within this geographic space.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "maps",
+        "spatial visualization",
+        "information density"
+      ],
+      "notes": "Len De Groot (LA Times) on maps as intuitively understood data formats",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Maps as information-dense communication and their intuitive readability are enduring visualization principles."
+    },
+    {
+      "extract": "Had the map been presented in a different way, for example, by reducing the scale of the map to make the dots appear dense, or by limiting the view of the map to the core of the city, or by increasing the diameter of the dots in the map so that they dominate the image, we are afraid the map would have presented a completely different meaning. So maps are not purely scientific; they are also aesthetic, religious, social, and political.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "maps",
+        "visual rhetoric",
+        "scale manipulation",
+        "framing"
+      ],
+      "notes": "Scale, viewport, and marker size on maps are rhetorical choices that change meaning",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scale, viewport, and marker size as rhetorical choices on maps is a timeless critical insight."
+    },
+    {
+      "extract": "If the producer wants to compare information related to spatial distribution, the map allows the reader to draw conclusions in a visual way. However, if the producer wants to compare information that does not relate to spatial distribution, the map's narrative will be inefficient and may even be misleading.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "maps",
+        "chart selection",
+        "misleading visualization"
+      ],
+      "notes": "Maps only efficient for spatially distributed data; misapplied maps mislead",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Maps only efficient for spatially distributed data is a permanent chart selection principle."
+    },
+    {
+      "extract": "During the presidential elections, the U.S. media often used a map of the United States to show the elections in different states, using red and blue to show the areas won by Republicans and Democrats respectively, which seems objective but is actually misleading. Usually 'red states' are larger than 'blue states,' so readers can easily see a large area of red on the map that represents the Republican Party, but this does not reflect the true election results. For example, Montana is about 15 times the size of Vermont, yet both have almost the same number of electors.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "maps",
+        "election coverage",
+        "area distortion",
+        "misleading visualization"
+      ],
+      "notes": "Geographic area \\!= political weight; standard maps distort electoral reality",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Area distortion in election maps misleading voters is a lasting visualization literacy lesson."
+    },
+    {
+      "extract": "Social network analysis is not yet mastered by all journalists and editors, and second, social network analysis requires sufficient data. A complete social network diagram can show three levels of information: macro view, relationship view, and micro view. Data journalists do not necessarily need to use all three views in a single story. Which views are used depends largely on the content and purpose of the story.",
+      "chapter": "Social Network Dimension: Revealing Relationships in Complex Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "social network analysis",
+        "macro micro views",
+        "skill gap"
+      ],
+      "notes": "Three-level SNA framework: macro, relationship, micro; choose by story purpose",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "SNA framework endures but LLMs now enable more journalists to perform network analysis without specialized training."
+    },
+    {
+      "extract": "Correlation is useful because it provides clearer perspectives than causality. Correlation analysis is significant in itself, and it also lays the foundation for studying the causal relationship. Sometimes, clues of causality are also implied in correlation analyses. News reporting cannot rely solely on correlations to provide audiences with explanations of social reality, because the task of news reporting is not only to tell people what happened but also to tell them why these things happened. The revelation of causes is often the discovery of causality.",
+      "chapter": "Correlation Dimension: Exploring Correlations Among Variables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "statistical reasoning",
+        "explanation"
+      ],
+      "notes": "Correlation valuable but insufficient; journalism must also pursue causal explanation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation as foundation for but not substitute for causal explanation is a permanent epistemological principle."
+    },
+    {
+      "extract": "Narrative visualization approaches can be divided into an author-driven approach and a reader-driven approach. A purely author-driven approach has a strict linear path, relies heavily on messaging, and includes no interactivity. In contrast, a purely reader-driven approach has no prescribed ordering of images, no messaging, and a high degree of interactivity. Most examples of narrative visualization fall somewhere in between, balancing both elements. Therefore, narrative visualization includes three basic models: Martini Glass Structure, Interactive Slideshow, and Drill-Down Story.",
+      "chapter": "Linear Narrative and Parallel Narrative in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "interactivity",
+        "author-driven",
+        "reader-driven"
+      ],
+      "notes": "Segel & Heer taxonomy: three models on author-reader spectrum",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Author-driven vs reader-driven narrative spectrum and three models remain a valid visualization taxonomy."
+    },
+    {
+      "extract": "Rather than providing users with a raw data set, data journalists use interactive tools to provide an intuitive and visual interface that retains meaningful information and removes useless variables after judging the value of the variables in the data set.",
+      "chapter": "Database-based Exploratory Narrative",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "interactive databases",
+        "variable selection",
+        "user interface"
+      ],
+      "notes": "Database narratives require editorial judgment on which variables to surface",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial judgment on which variables to surface in interactive tools is a durable design principle."
+    },
+    {
+      "extract": "Making complex data understandable to users should be realized by helping them follow a sequence from the general (far view) to the particular (near view). The far view is typically the landing page of the app, focused on broad meaning and context. This page should have the national picture of the data with ranked examples. The near view is the page at the lowest level of abstraction, where the reader is looking at her own school, his own town, etc. It is the means through which readers will understand the whole by relating it to the example they understand best.",
+      "chapter": "Database-based Exploratory Narrative",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information architecture",
+        "far-near view",
+        "news apps",
+        "ProPublica"
+      ],
+      "notes": "Scott Klein (ProPublica): general-to-particular sequence for data apps",
+      "llm_relevance": "endures",
+      "relevance_rationale": "General-to-particular information architecture for data apps is a lasting UX principle."
+    },
+    {
+      "extract": "Interactive narratives are centered on rules rather than neutral technologies. In newsgame-type data news pieces, rules are predetermined for the purpose of keeping the game on track, defining the game's storyline and scoring criteria. In database-type data news works, the permutations and calculations between different variables are set in advance. The rules are the invisible carriers of the author's will and pre-determine the connotation of the data news text.",
+      "chapter": "The Storytelling Mechanism of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interactivity",
+        "rules",
+        "editorial control",
+        "illusion of choice"
+      ],
+      "notes": "Interactive tools give illusion of user freedom but embed author intent via rules",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Rules embedded in interactive narratives controlling meaning is a permanent critical insight about interactivity."
+    },
+    {
+      "extract": "The first level of procedural rhetoric in interaction narratives is to use game mechanics to draw the user into a particular interaction diagram, thereby directing the user's attention to a specific area by anchoring. The main techniques used include: (1) Default views provide an initial point of interpretation anchored to the default visual configuration; (2) Fixed comparisons present some information by default so that users can contrast this information with other values in the visualization; (3) Navigation bars and menus allow users to search for specific information to constrain the data depiction based on a user's preferences for certain information, which can be called filtering.",
+      "chapter": "The Storytelling Mechanism of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "procedural rhetoric",
+        "default views",
+        "anchoring",
+        "filtering",
+        "interaction design"
+      ],
+      "notes": "Three anchoring techniques: default views, fixed comparisons, filtering via nav bars",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Procedural rhetoric techniques — default views, fixed comparisons, filtering — are lasting interaction design principles."
+    },
+    {
+      "extract": "Data visualization means that the reality represented by data and the intricate relationships between data are expressed through a combination of visual codes, a seemingly neutral process that actually achieves persuasive discourse production in an implicit way. Data visualization, because it is derived from 'data,' is given the aura of 'science' and 'objectivity.' In the eyes of the general audience, the 'translation' of data into data visualization is not a subjective creation, but a trustworthy and scientific knowledge production process.",
+      "chapter": "The Relationship Between Word and Image",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization rhetoric",
+        "objectivity illusion",
+        "persuasion"
+      ],
+      "notes": "Visualization appears neutral but implicitly produces persuasive discourse",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical insight that visualization produces persuasive discourse under an objectivity aura is timeless."
+    },
+    {
+      "extract": "Image domination, if abused -- in other words, if journalists take advantage of people's trust in data visualization and the belief that 'seeing is believing' -- can create discursive violence under the neutral veil of visual text. In data journalism, image domination can be used to distort the truth, intentionally or unintentionally, to prove one's own point of view, often by intercepting the Y-axis of a chart or by not following conventional design principles.",
+      "chapter": "The Image-dominant Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization ethics",
+        "Y-axis manipulation",
+        "design conventions",
+        "trust"
+      ],
+      "notes": "Truncated Y-axes and unconventional design exploit audience trust in visual data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning about image domination, Y-axis manipulation, and trust exploitation in visualization is permanent."
+    },
+    {
+      "extract": "Word domination occurs when the visual codes of data visualization cannot accomplish basic representation. A bar chart without labels and legends is just a graph without any meaningful information. Word domination also occurs when there is uncertainty about the meaning of images. Due to journalistic demands for truth, accuracy, and objectivity, words are needed to summarize, explain, or confirm the meaning of images when data visualization may have multiple meanings or may not achieve the intended communication purpose.",
+      "chapter": "The Word-dominant Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "annotation",
+        "labeling",
+        "word-image relationship",
+        "ambiguity"
+      ],
+      "notes": "Charts require textual anchoring (labels, legends, annotations) to fix meaning",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Charts requiring textual anchoring through labels and legends is a fundamental visualization principle."
+    },
+    {
+      "extract": "The most important aspect of data visualization is making sure 'visualizations are clarifying' the stories rather than simplifying them. Data journalism is not the same as bringing data analysis or visualization techniques directly into journalism. The narrative is still at the heart of data journalism. Paul Bradshaw argues that the core process of data journalism is data processing, and that its main task is storytelling.",
+      "chapter": "Story Awareness: Enhancing the Attractiveness of News",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "visualization purpose",
+        "narrative centrality"
+      ],
+      "notes": "Haddad (Al-Jazeera) and Bradshaw: viz should clarify not simplify; story is primary",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Information is transformed into a story through five specific elements: setting, plot, characters, conflict, and theme, and all stories must contain all five of these elements. While many people talk about the importance of data storytelling, few people use data to tell stories.",
+      "chapter": "Story Awareness: Enhancing the Attractiveness of News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "narrative elements",
+        "data storytelling"
+      ],
+      "notes": "Citraro (Periscopic): five required story elements; most data pieces lack them",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Data news works usually calls for a long period of time for its production, so the strength of data journalism lies not in timeliness, but in proximity. Establishing a relationship between data and the audience through proximity requires a great sense of relevance to the audience. In order to strengthen the connection between news content and users, data journalists should judge whether the topic is closely related to the audience in the topic selection stage, which kinds of data are important and relevant to the audience in the data collection stage, whether the analysis results meet the needs of the audience in the data analysis stage, and identify the common and personalized needs of the audience in the data visualization stage.",
+      "chapter": "Relevance Awareness: Highlighting Content Proximity",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "proximity",
+        "audience relevance",
+        "topic selection",
+        "personalization"
+      ],
+      "notes": "Relevance check at every pipeline stage: topic, collection, analysis, visualization",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The idea of making news personal is something we can do so much better now with online news. People really, really like talking about themselves. And giving them an opportunity to talk about themselves will turn them toward news. Some data journalists also use databases or other interactive means that can really allow readers to 'find themselves' in the news story.",
+      "chapter": "Relevance Awareness: Highlighting Content Proximity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "personalization",
+        "engagement",
+        "interactive databases",
+        "audience"
+      ],
+      "notes": "Claire Miller (Trinity Mirror): personal relevance drives engagement",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Asking readers to supply information can sometimes cut down on their desire to use a news app. Past projects have shown that asking people to enter their Zip code automatically guarantees that a large chunk of people won't use it while using geolocation is a way to ensure that everyone gets their location version.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "UX",
+        "geolocation",
+        "friction reduction",
+        "news apps"
+      ],
+      "notes": "Gregor Aisch (NYT): auto-geolocation removes friction vs. zip code entry",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "It is necessary to provide a global overview of the collection of data and, at the same time, let users analyze specific details or parts that they may judge as relevant to their goal.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "overview-detail",
+        "information architecture",
+        "user experience"
+      ],
+      "notes": "Mazza: overview + detail pattern for data visualization",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "On desktop, you can fill an article with lots of nice photos and little embeds, but I don't think that works quite as well on mobile because you can end up cluttering up a small screen and I think it loses some of the impacts that a single graphic has on mobile.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile design",
+        "responsive",
+        "desktop vs mobile"
+      ],
+      "notes": "Elliot Bentley (WSJ): mobile needs fewer, higher-impact graphics",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Social media-oriented production is a production mode relying on interpersonal relationships, oriented to make users share, and aimed at embedding in users' online social life; in short, to adapt news production to social platforms rather than just using them. Letting users 'share' is not simply designing a share button on the interface, which may not necessarily be useful, but implementing the concept of 'sharing' in the whole production chain, so that the news itself has the potential to be shared.",
+      "chapter": "Social Media-oriented Production of Data News",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "organizational",
+      "themes": [
+        "social media",
+        "sharing",
+        "production workflow",
+        "distribution"
+      ],
+      "notes": "Sharing must be embedded across entire production chain, not bolted on",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "Data journalism takes much longer to produce than traditional journalism because of the multiple components of data collection, analysis, and visualization. According to Google News Lab, 49% of data stories are created in a day or less, 30% take up to a week, 11% take several weeks, and 3% take a month or more. When selecting topics, data journalists must consider the production time of their work, so many focus on long-lasting topics rather than breaking news to extend the 'shelf life.'",
+      "chapter": "The Long Production Time of Data Journalism Requires a Long Shelf Life",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "production time",
+        "topic selection",
+        "timeliness",
+        "evergreen content"
+      ],
+      "notes": "Google News Lab data on production timelines; evergreen topics fit DJ production cycles",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "At the information level, journalists need to identify the content that is most likely to spark the interest of users. The journalists should open with the most interesting or relevant fact or surprising data point. Include engaging movement or eye-catching colors as this will be the first thing people see on social media, and maybe the only thing if they scroll past too fast.",
+      "chapter": "Sharing As the Core Production Strategy",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social media",
+        "lead design",
+        "visual hooks",
+        "engagement"
+      ],
+      "notes": "Segger: lead with most surprising data point; visual hook for scroll-past risk",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "At the formal level, data visualization designers should not pursue information in abundance, but rather make important data clearly identifiable. Alternatively, designers can let users gradually reveal the answers to questions that have been set up as they read the news. The Economist's team works to strip each chart down to make just one clear point so readers get the sense from scrolling through.",
+      "chapter": "Sharing As the Core Production Strategy",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart design",
+        "simplicity",
+        "one-point-per-chart",
+        "Economist"
+      ],
+      "notes": "Economist approach: one clear point per chart for social scroll context",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Lightweight design is about minimizing the technical or content load of data journalism without compromising the expression of meaning and user experience. Technical lightweighting means matching the technical form of data journalism products to the performance of mobile devices. Content lightweighting means that the amount of information should be based on the user's reading habits on social media platforms, which means that text should be short, graphics should be well focused, and video needs to tell the story in a short amount of time.",
+      "chapter": "Lightweight Design",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile optimization",
+        "lightweight design",
+        "content economy"
+      ],
+      "notes": "Two dimensions: technical (loading, swipe vs click) and content (brevity, focus)",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "There are still many challenges to data news production, including untrained analysts, data reliability, measuring the right thing, and unjustified data collection. When published without context or consideration for ethics, data journalism can cause harm through perpetuating stereotypes and biases. The tools of data journalism can also be used to spread untruths, as data points are not facts; they are only given elements from which facts are derived.",
+      "chapter": "Ethics of Data Journalism Production",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "data quality",
+        "bias",
+        "stereotypes",
+        "context"
+      ],
+      "notes": "Kayser-Bril: data points are not facts but raw material for deriving facts",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Pragmatic objectivity consists of the objective stance and five criteria. The objective stance consists in moral virtues such as honesty and intellectual virtues such as caring about truth. It requires journalists to place a critical distance between oneself and the story, to be open to evidence and counter-arguments, to fairly represent other perspectives, and to be committed to the disinterested pursuit of truth for the public. The five criteria are: empirical validity, completeness and implications, consistency, self-consciousness, and intersubjective objectivity.",
+      "chapter": "Objectivity Redefined: A Pragmatic Perspective",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "pragmatic objectivity",
+        "verification criteria",
+        "Ward framework"
+      ],
+      "notes": "Ward's five-criteria framework for pragmatic objectivity in journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "At the level of empirical validity, journalists need to systematically assess the quality of the data they collect. The main dimensions of evaluation include: First, the accuracy of the data -- journalists need to verify that the data is correct, cleaning formatting, spelling, and categorization errors. Second, the credibility of the data, including the credibility of the data source, the credibility compared to the usual internal standards, and the credibility based on the age of the data. Third, the appropriateness of the data -- journalists need to judge the amount of data necessary to solve a problem. Fourth, the scientificity of the data collection methods.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "accuracy",
+        "credibility",
+        "appropriateness",
+        "methodology"
+      ],
+      "notes": "Four-dimension data quality assessment: accuracy, credibility, appropriateness, scientificity",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Journalists must remain skeptical of data, 'unless it's coming from a really verified source, it's always important, especially when you're doing an original analysis of data, to be critical.' Usually data from authoritative sources (e.g., government, leading survey companies, reputable NGOs, and universities) can be trusted.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "source credibility",
+        "skepticism",
+        "verification",
+        "authoritative sources"
+      ],
+      "notes": "Bentley (WSJ): default skepticism unless source is verified authoritative",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "When collecting secondary data, it is important not to use only a single data set, but to collect from as many sources as possible, so that different data can corroborate each other. Simon Rogers believes that diverse data sources are essential for data journalism. At least two data sources should be included in data journalism production to demonstrate objectivity.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data triangulation",
+        "multiple sources",
+        "corroboration"
+      ],
+      "notes": "Rogers: minimum two data sources for objectivity; multi-source corroboration",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "Sometimes when direct data is not available or incomplete for researching certain issues, journalists may use alternative data to conduct research, and then they need to consider what data is needed. The FiveThirtyEight website produced a data story examining trends in kidnapping cases in Nigeria. However, this conclusion is not true and the main reason for the error is that the journalist mistakenly equated the number of cases reported in the media with the number of cases that actually occurred.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "proxy data",
+        "data limitations",
+        "survivorship bias",
+        "measurement validity"
+      ],
+      "notes": "Caution: proxy data (media reports) != actual occurrence data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "The criterion of intersubjective objectivity requires journalists to communicate with data collectors and experts, to discuss all aspects of data collection, to listen to more opinions and suggestions from different parties. A Miami Herald reporter's story about judges not punishing some DUI offenders turned out to be inaccurate because the reporter did not have knowledge of some of the special circumstances listed when he obtained the data.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "expert consultation",
+        "domain knowledge",
+        "intersubjective verification"
+      ],
+      "notes": "Consult domain experts to understand data context and special codes",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "While the results of data analysis may seem fair and objective, the values of journalists actually influence the process of data construction to interpretation. Data does not intrinsically imply truth. Yes, we can find truth in data, through a process of honest inference. But we can also find and argue multiple truths or even outright falsehoods from data.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interpretation",
+        "values",
+        "honest inference",
+        "multiple truths"
+      ],
+      "notes": "Gittleman and Diakopoulos: data does not intrinsically imply truth",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "WNYC's 'Median Income Across the US' uses medians to present income distributions, a simplistic treatment that leads to data maps that differ from the actual situation. Some of the green areas are actually the poorest areas of the city, due to the fact that people in some of these poor areas share an apartment with more than 10 people, thus driving up household income, but obviously this does not mean that the area is affluent.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical measures",
+        "medians",
+        "misleading aggregation",
+        "ecological fallacy"
+      ],
+      "notes": "Median household income can mislead when living arrangements vary across areas",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "The self-consciousness criterion requires journalists to have a thorough knowledge of data analysis methods and to maintain a critical attitude. Specifically, journalists need to understand the original context of the data they collect, the strengths and limitations of the data analysis methods they choose, and the problems that may arise in answering particular questions.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "method awareness",
+        "limitations",
+        "critical thinking"
+      ],
+      "notes": "Know context of data, strengths/limitations of method, and potential pitfalls",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The criterion of intersubjective objectivity requires journalists to communicate and discuss data analysis methods and their conclusions with experts and peers, rather than making their own decisions alone, and refining data analysis and conclusions by listening to different opinions. Data itself is a simplification of things, and with simplification comes the danger of distortion. Therefore, the role of experts is very important in the data analysis section.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "peer review",
+        "expert consultation",
+        "collaborative analysis"
+      ],
+      "notes": "Never analyze alone; consult experts because simplification risks distortion",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "Common inaccuracies in data visualizations include data sizes that are out of proportion to the area in the data visualization, and pie charts whose parts add up to more than 100%. Simon Rogers argues that aesthetic deficiencies and design flaws in data visualization are excusable, but factual distortions and misinformation are inexcusable.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "visualization accuracy",
+        "pie charts",
+        "proportions",
+        "factual distortion"
+      ],
+      "notes": "Rogers: aesthetic flaws forgivable, factual distortion not",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The New York Times made a distorted map, turning all the states into squares of varying sizes according to the number of electoral votes so that the comparison of the two candidates' votes would be more visual and accurate. The consistency criterion requires that data visualization follow design conventions and conform to people's perceptions of visual symbols in a certain period of time and in a certain cultural context.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cartogram",
+        "design conventions",
+        "electoral maps",
+        "proportional representation"
+      ],
+      "notes": "NYT used cartogram to fix area-distortion; follow cultural design conventions",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Reuters has published a graphic showing a dramatic spike in Florida murders by firearm after the Stand Your Ground law was enacted in 2005. However, this graph gives the impression that shootings are down after the Act was implemented because the Y-axis values grow from top to bottom instead of the generic bottom-to-top.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Y-axis inversion",
+        "misleading charts",
+        "design conventions",
+        "Florida gun deaths"
+      ],
+      "notes": "Inverted Y-axis reverses perceived trend; violates bottom-to-top convention",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "AI/automation landscape has evolved significantly since this was written"
+    },
+    {
+      "extract": "Data journalists should allow others to replicate their work, and therefore need to publish their research methods just like scientists do. For data journalists, making data, data analysis, and algorithms transparent can prompt them to review their operational processes, aware that an external audience is monitoring them. Transparency benefits the computing field and the community of data journalism, and the constructive feedback that a high-level audience will provide can improve the accuracy of their work.",
+      "chapter": "Transparency in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "replicability",
+        "open methods",
+        "accountability"
+      ],
+      "notes": "Scientific model: publish methods so work is replicable and externally auditable",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "AI/automation landscape has evolved significantly since this was written"
+    },
+    {
+      "extract": "Transparency in data collection means that data reporters should publish information related to the data (e.g., specific sources of data, evaluation of data quality, tools and processes used to collect the data, etc.) and provide links to the raw data or data. The transparency of data sources means that if someone wants to verify the accuracy and veracity of the data, they should be able to find the original data or the source at the lowest possible cost.",
+      "chapter": "Data Collection Transparency",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data transparency",
+        "source disclosure",
+        "raw data access",
+        "verification cost"
+      ],
+      "notes": "Publish source, quality assessment, tools, and links to raw data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "Transparency in data collection also involves an account of data quality. Sometimes the data used by journalists may even be flawed. Even data used in scientific research has limitations, so journalists need to make those limitations clear so that audiences can judge the extent to which they can trust the story.",
+      "chapter": "Data Collection Transparency",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data limitations",
+        "quality disclosure",
+        "audience trust"
+      ],
+      "notes": "Disclose data limitations so audience can calibrate trust",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Algorithmic transparency requires an accounting of the use of data and how the algorithm is involved in the news production process. The algorithms have a strong influence on the extraction of data, discourse analysis, and interpretation of results, because they are human 'creations,' meaning that multiple human factors, including the creator's intent, are embedded in the algorithms.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic transparency",
+        "human bias in algorithms",
+        "accountability"
+      ],
+      "notes": "Algorithms embed creator intent; transparency means disclosing how they shape results",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "AI/automation landscape has evolved significantly since this was written"
+    },
+    {
+      "extract": "According to Nicholas Diakopoulos, algorithmic transparency consists of five specific aspects: (1) the criteria used to prioritize, rank, emphasize, or editorialize things in the algorithm; (2) what data act as inputs to the algorithm; (3) the accuracy including the false positive and false negative rate of errors; (4) descriptions of training data and its potential bias; and (5) the definitions, operationalizations, or thresholds used by similarity or classification algorithms.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic transparency",
+        "Diakopoulos framework",
+        "error rates",
+        "training data"
+      ],
+      "notes": "Five-aspect algorithmic transparency checklist from Diakopoulos",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "BuzzFeed published the raw data, algorithmic procedures, and analysis process of 'The Tennis Racket,' a collaboration with the BBC, on GitHub. Although BuzzFeed stated in advance that the results of the analysis were not evidence that the player had faked the game and anonymized the data, those familiar with the field could easily find out who the suspected faker was based on the full data and analysis process provided by BuzzFeed. Transparency in this case is a bit 'excessive,' and there should be limits to transparency.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency limits",
+        "privacy",
+        "anonymization failure",
+        "harm"
+      ],
+      "notes": "Full transparency can harm individuals even with anonymization; limits needed",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "AI/automation landscape has evolved significantly since this was written"
+    },
+    {
+      "extract": "Transparency in data visualization means linking news sources in the visualization as much as possible, fully explaining any caveats related to the data or to the chart itself, and informing the wider public of the danger signs to watch out for before spreading what may turn out to be misinformation. If a data visualization designer uses an unconventional design, the audience needs to be reminded to avoid understanding it in a conventional way.",
+      "chapter": "Data Visualization Transparency",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization transparency",
+        "caveats",
+        "source linking",
+        "unconventional design"
+      ],
+      "notes": "Burn-Murdoch: link sources, explain caveats, flag unconventional designs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Correction transparency means that when a data journalism piece is significantly flawed, the media must explain the reasons for the error and apologize to the audience. The media also needs to make transparent some other details in data journalism production that should be explained to the audience, such as the motivation for the selection of the topic, the problems encountered in the interview, and how they were solved.",
+      "chapter": "Other Transparency Matters",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "corrections",
+        "error handling",
+        "editorial transparency",
+        "motivation disclosure"
+      ],
+      "notes": "Disclose corrections with explanations, topic motivation, and production challenges",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Liliana Bounegru et al. summarize five models for narrating networks: (1) Exploring Associations Around Single Actors (ego networks), (2) Detecting Key Players (by connection count), (3) Mapping Alliances and Oppositions (groupings and gaps), (4) Exploring the Evolution of Associations Over Time, and (5) Revealing Hidden Ties (hidden paths between nodes).",
+      "chapter": "Social Network Dimension: Revealing Relationships in Complex Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "network analysis",
+        "narrative models",
+        "ego networks",
+        "hidden ties"
+      ],
+      "notes": "Five models for network storytelling from Bounegru et al.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The Texas Tribune's Schools Explorer presents the state's data on easy-to-follow charts, empowers users to create their own side-by-side comparisons, and uses an algorithm to generate summary sentences. Although The Texas Education Agency has already published such data on the web, the information on the government site is too complex, forcing parents to navigate a bewildering sea of acronyms, links, and PDFs.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data apps",
+        "government data",
+        "user experience",
+        "automated summaries"
+      ],
+      "notes": "Texas Tribune model: simplify gov data with comparisons and auto-generated summaries",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The design of news gamification has three values: first, it caters to the participatory culture of social platforms; second, it enhances the fun and attractiveness of data products through interaction; and third, it changes the one-time consumption of data news and builds a 'strong relationship' with users through multiple participation of individual users and sharing with others.",
+      "chapter": "Gamified Design",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "gamification",
+        "engagement",
+        "repeat use",
+        "participatory culture"
+      ],
+      "notes": "Three values of news gamification: participation, attractiveness, repeat engagement",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Whether data collection is based on proactive or passive 'consent' depends on the circumstances. If an organization publishes data on its own website, the data automatically becomes public information, and data journalists can access the data through various technical means (unless otherwise requested by the data owner), in which case passive consent applies to the data collection. However, if sensitive personal information is involved, proactive consent from the data subject is required.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "consent",
+        "personal data",
+        "ethics",
+        "data access"
+      ],
+      "notes": "Distinguishes proactive vs passive consent for data collection",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Bots have as much responsibility as their human creators; the very important limit between web scraping and hacking is the respect of the law.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "ethics",
+        "legal boundaries"
+      ],
+      "notes": "Attributed to Cédric Sam, South China Morning Post",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "AI/automation landscape has evolved significantly since this was written"
+    },
+    {
+      "extract": "First, the reporters should always pay attention to the terms of service of the website they're accessing to understand whether the company prohibits scraping, even if its data is accessible. If they cannot determine what those terms are saying, they should reach out to an attorney. Second, if the terms of use prohibit data scraping, reporters should first seek alternate sources for the information. Third, if the information exists only on a company's site, it can be a good idea to contact the company and see if they will simply turn over the information. Fourth, whether the journalists contact the company or not, they should always diminish the risk of injury to the company or other individuals through whatever methods possible. For example, journalists should be careful not to build any tool that might overwhelm a company's servers. Additionally, if any sensitive data with privacy concerns are collected, journalists should be careful to redact and employ ethical journalistic standards. Fifth, journalists should be good citizens and ensure that any data collection is done in the public interest.",
+      "chapter": "Personal Data Collection Without Consent",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "legal compliance",
+        "terms of service",
+        "public interest",
+        "harm minimization"
+      ],
+      "notes": "5-step protocol from Victoria Baranetsky, Columbia TOW Center",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Manual data processing method can be augmented or streamlined by LLMs"
+    },
+    {
+      "extract": "Over-extended use refers to the use of personal data by a data reporter for purposes other than those initially stated, which may violate the rights of individuals. Over-display refers to the display of personal data with little public interest, which is essentially 'display for display's sake.'",
+      "chapter": "Excessive Mining of Personal Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "personal data",
+        "privacy",
+        "proportionality",
+        "data display"
+      ],
+      "notes": "Taxonomy of data misuse: over-extended use vs over-display",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Just because content is publicly accessible does not mean that it was meant to be consumed by just anyone.",
+      "chapter": "Excessive Mining of Personal Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "public data",
+        "privacy",
+        "contextual integrity"
+      ],
+      "notes": "Attributed to Boyd & Crawford 2012",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Data journalists must follow the principles of legality and proportionality in the use of personal data and need to collect data within the scope of the law, while data collection outside the law must be done only after obtaining the consent of the individuals concerned. In addition, the collected data may not be used for purposes other than those originally stated without the consent of the person concerned.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "legality",
+        "proportionality",
+        "consent",
+        "data collection scope"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "If a regular user can't access it, journalists shouldn't try to get it.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data access",
+        "web scraping",
+        "legal boundaries"
+      ],
+      "notes": "Attributed to Shiab 2015; bright-line heuristic for scraping",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "The collection and use of personal data in data journalism need to be based on the issue, not just the pursuit of large quantities. It is necessary to determine the appropriate scope of the data to be scraped. Otherwise, inappropriate and excessive mining of citizens' personal information by the media may lead to excessive 'display' of the data subjects' privacy, which may be harmful to them and cause adverse social effects.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data scope",
+        "proportionality",
+        "harm minimization",
+        "privacy"
+      ],
+      "notes": "Invokes data science concept of threshold value -- collect only what the question requires",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "A distinction should be made between the protection of sensitive private personal information and the use of general personal information -- thus achieving a balance of interests.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sensitive data",
+        "classification",
+        "privacy tiers"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "When providing data to the media, data holders need to indicate the existence of privacy-sensitive information, anonymize or delete such information, and classify the level of privacy of the data so that the media can determine how to use it.",
+      "chapter": "The Principles of Legality and Proportionality",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data handoff",
+        "anonymization",
+        "privacy classification",
+        "data providers"
+      ],
+      "notes": "Guidance directed at data holders supplying media",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "Journalists must weigh the benefits of open data against the risks of personal harm that may come with publication.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "publication ethics",
+        "harm minimization",
+        "public interest"
+      ],
+      "notes": "Attributed to Lewis & Westlund 2015",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "In 2012, data journalist Nils Mulvad finally got the veterinary prescriptions data that he had been fighting for for seven years, but he decided not to publish the data when he realized that it was full of errors, because 'publishing it directly would have meant identifying specific doctors for doing bad things which they hadn't done.'",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "harm minimization",
+        "withholding publication",
+        "verification"
+      ],
+      "notes": "Case study: errors in data can cause false attribution of wrongdoing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "When reusing personal data, journalists can achieve privacy 'anonymization' by removing the identifiable elements of personal information through codification or encryption. For example, after erasing an individual's identifying information (name, address, credit card number, date of birth, etc.) from a database, the remaining data is available for use and sharing.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "anonymization",
+        "PII removal",
+        "data cleaning",
+        "privacy"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data acquisition and cleaning workflows benefit from LLM-era tooling updates"
+    },
+    {
+      "extract": "In the era of big data, anonymization of a single piece of information is not sufficient to avoid identification, and data subjects may still be identified through the combination of multiple anonymous single pieces of personal information. Data journalists need to comprehensively evaluate the potential risks of anonymous personal data and take corresponding measures to protect the legitimate rights and interests of data subjects.",
+      "chapter": "The Principles of Public Interest Priority and Minimizing Harm",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "re-identification risk",
+        "anonymization limits",
+        "big data",
+        "privacy"
+      ],
+      "notes": "Warns that combining anonymized datasets can re-identify individuals",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "The journalists used linear regression, logistic regression, PCA (principal component analysis), K-means algorithm, and multiple expectation maximization algorithms to analyze the data. The study revealed the secrets of the $600 billion health care bill and eventually forced the U.S. government in April of that year to disclose for the first time important health care data that had been kept secret since 1979.",
+      "chapter": "Status of Big Data News Production",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "linear regression",
+        "PCA",
+        "K-means",
+        "machine learning",
+        "investigative journalism"
+      ],
+      "notes": "WSJ 'Medicare Unmasked' 2014; enumerates specific statistical methods",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Specific tool workflows change significantly with LLM-assisted alternatives"
+    },
+    {
+      "extract": "The most significant feature of big data news is open production. For example, CCTV cooperates with professional institutions and companies in big data mining, analysis, and data visualization.",
+      "chapter": "Status of Big Data News Production",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "outsourcing",
+        "big data",
+        "open production"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "The media should not solely rely on the success of leaks and open government and thus make data-driven journalism remain a niche form of news reporting, but also develop its own internal database to provide various information services, such as public opinion monitoring, market analysis, and prospect prediction.",
+      "chapter": "From Content to Service: Upgrading the Media Profit Model",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "internal databases",
+        "self-sufficiency",
+        "data strategy",
+        "sustainability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "Media organizations can start by employing programmers and data analysts for user analysis or data news production, which can be seen as a preparatory phase of a big data strategy, followed by further planning based on the development of journalism and big data.",
+      "chapter": "To Develop Big Data Strategies for Media Transformation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "hiring",
+        "phased strategy",
+        "capacity building",
+        "data teams"
+      ],
+      "notes": "Staged approach to building big-data capability",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "The big data strategy of media is not equal to simply accumulating a large amount of data, but should mean using reasonable technology to collect data strategically and process data purposefully according to the business strategy of media, so that the data assets can create more economic benefits.",
+      "chapter": "To Develop Big Data Strategies for Media Transformation",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data strategy",
+        "purposeful collection",
+        "business alignment"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Data journalists can acquire data in three ways: creating datasets, combining datasets, and accumulating data in non-standard data formats.",
+      "chapter": "To Accumulate Big Data Resources Actively",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "dataset creation",
+        "data combination",
+        "non-standard formats"
+      ],
+      "notes": "Attributed to Financial Times 2017 report",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "The data that the media should accumulate include (1) government public data, (2) data from the media's own platforms, (3) social media data, (4) IoT data, and (5) other data related to public interests. Media can accumulate big data of a certain category or a certain field purposely according to their own development strategies.",
+      "chapter": "To Accumulate Big Data Resources Actively",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "government data",
+        "social media",
+        "IoT",
+        "platform data"
+      ],
+      "notes": "Five-category taxonomy of data sources for media",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "There are three stages in which media can enhance their big data processing capabilities: the stage of outsourcing big data production, the stage of equal cooperation, and the stage of independent production.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "capacity building",
+        "outsourcing",
+        "collaboration",
+        "independence",
+        "maturity model"
+      ],
+      "notes": "Three-stage maturity model for newsroom data capability",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "If the production of big data news is controlled by people outside the media, the truthfulness, objectivity, and fairness of news reporting will be at risk.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial independence",
+        "outsourcing risk",
+        "objectivity",
+        "trust"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "They tend to choose technology companies that have no conflict of interest with the news topic and have a good reputation, and will double-check the conclusions drawn from big data analysis through interviews and analyses of other data.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "conflict of interest",
+        "triangulation",
+        "verification",
+        "partner selection"
+      ],
+      "notes": "Attributed to Guo Junyi, CCTV; practical safeguard when outsourcing analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core journalistic procedure remains essential regardless of tooling"
+    },
+    {
+      "extract": "Data collection, analysis, narrative, and visualization are not neutral, natural, or transparent. For example, data collection may be incomplete, data analysis may be wrong, narrative may be biased, and data visualization may distort the facts ... Therefore, journalists need to follow the principles of objectivity and transparency.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "transparency",
+        "bias",
+        "data skepticism",
+        "epistemology"
+      ],
+      "notes": "Summarizing claim from the book's conclusion",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Story-wise, I hope we're heading towards larger and more unstructured data sets. We will be looking for ways to conquer text; we haven't conquered text yet. In one way I wish that we had gotten the Panama Papers ten years from now because we would have been able to do much different stories than we do right now.",
+      "chapter": "To Improve Big Data Processing Capability",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "text analysis",
+        "NLP",
+        "capability gaps"
+      ],
+      "notes": "Attributed to Helena Bengtsson, The Guardian",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Core data journalism insight persists regardless of AI tooling"
+    },
+    {
+      "extract": "Whether as an application or as a data platform, big data news products have the ability to update and upgrade themselves, extending their 'shelf life' indefinitely, thus reaping both short-term and long-term benefits. Some important databases require only regular maintenance after they are built, so their operating costs can be greatly reduced.",
+      "chapter": "From Content to Service: Upgrading the Media Profit Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data products",
+        "sustainability",
+        "databases",
+        "long shelf life"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Newsroom organization and collaboration patterns remain relevant regardless of AI tools"
+    }
+  ]
+}

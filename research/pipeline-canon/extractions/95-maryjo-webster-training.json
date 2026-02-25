@@ -1,0 +1,155 @@
+{
+  "source_id": "95",
+  "source_file": "95-maryjo-webster-training.md",
+  "source_title": "MaryJo Webster Training Materials",
+  "author": "MaryJo Webster",
+  "year": "ongoing",
+  "chunk": null,
+  "chunk_words": 19341,
+  "extracts": [
+    {
+      "extract": "The first thing to do is to make sure you understand what you're looking at. What does each row represent? Are there any columns you don't understand? Do you have all the data you need? Is there anything missing that would be useful for our analysis?",
+      "chapter": "Prep for analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data understanding",
+        "data preparation",
+        "analytical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Then you want to come up with the questions you want to ask. We're going into an \"interview,\" so it's a good idea to have a list of questions at the ready. But just like an interview with a human, it's okay to veer off your list at some point later.",
+      "chapter": "Prep for analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interviewing",
+        "questioning",
+        "analytical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "General rule of thumb is that you'll want to use percent change (rather than simple subtraction) in any situation where the things you are comparing (city budgets, county populations, city crime totals, state spending, school enrollments) have a lot of underlying variability like we have here.",
+      "chapter": "Percent change",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "percent change",
+        "normalization",
+        "comparing data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The data didn't come with a total, but even if it did, I'd recommend calculating your own total just to check their work. (I've seen front page stories where news organizations discovered errors in city government totals).",
+      "chapter": "SUM function",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data quality",
+        "independent calculation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The rule of thumb in using average versus median is that you should use median (which returns the middle value) in situations where you have big outliers -- either a few values that are really low or really high compared to the majority of the other values.",
+      "chapter": "AVERAGE and MEDIAN functions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "median",
+        "average",
+        "outliers",
+        "descriptive statistics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Make sure the columns are labeled and that the column label only takes up one row. Any notes or titles --or anything else that might be above or below the data table -- should be separated from the data by a blank row (or more). No empty rows or empty columns within the area where the data is located.",
+      "chapter": "Prepping your data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preparation",
+        "spreadsheet hygiene",
+        "data structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Pivot Tables, which are available in Microsoft Excel and Google Sheets, are the most powerful tool (in my opinion) you have in a spreadsheet program. It allows you to take very detailed data -- in this case, where one row represents a reported crime -- and generate the summary findings that you need for your story.",
+      "chapter": "Pivot Tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pivot tables",
+        "summarization",
+        "aggregation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Notice the wide variety of ways that Hispanic and Non-Hispanic are listed? In order to get a good count, we need to make them consistent. This is called standardizing data.",
+      "chapter": "Cleaning dirty data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data standardization",
+        "data cleaning",
+        "consistency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be sure to troll through your data and look for anomalies. Use the Filter feature or run a Pivot Table to look for problem records.",
+      "chapter": "Splitting names",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "anomaly detection",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I find it helps to envision your answer before trying to create it.",
+      "chapter": "Pivot Tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "analytical thinking",
+        "planning",
+        "visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes leaving the formulas there gives you a sort of \"paper trail\" of what you did, or allows others to see what you did.",
+      "chapter": "Shortcuts and other useful tricks",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "documentation"
+      ],
+      "notes": ""
+    }
+  ]
+}

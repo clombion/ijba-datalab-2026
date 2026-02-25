@@ -1,0 +1,363 @@
+{
+  "source_id": "42",
+  "source_file": "42-data-journalism-heist.md",
+  "source_title": "Data Journalism Heist",
+  "author": "Paul Bradshaw",
+  "year": "2013",
+  "extracts": [
+    {
+      "extract": "If your government, region or city has an open data portal, that should have regular updates. If there's an office of national statistics, sign up for updates. FOI requests are often a good source of data. It's a good idea to have data regularly come to you — either by email or RSS.",
+      "chapter": "The scouting mission: where's the data?",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "open data",
+        "FOI",
+        "beat monitoring"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Monitoring open data portals, FOI requests, and setting up data feeds is a beat-building practice that endures"
+    },
+    {
+      "extract": "If you are reporting on a specific field like crime, health, education, welfare or the environment, try to find bodies (local, national and international) that publish data regularly in that area.",
+      "chapter": "The scouting mission: where's the data?",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "beat monitoring",
+        "data acquisition",
+        "domain expertise"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building domain expertise by identifying bodies that publish data regularly is a journalistic practice unaffected by LLMs"
+    },
+    {
+      "extract": "Given the choice, always avoid PDFs.",
+      "chapter": "Scouting a local government website",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "file formats",
+        "data acquisition"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Avoiding PDFs was critical when extraction was hard; LLMs now handle PDF extraction well, though structured formats remain preferable"
+    },
+    {
+      "extract": "What the data contains doesn't really matter here: the point is the exercises you'll be going through in looking at it. You can apply the same process to most regular public datasets, whether it's employment data, environmental information, or weather.",
+      "chapter": "Scouting a local government website",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transferable skills",
+        "analytical process",
+        "replicability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Transferability of analytical processes across datasets is an enduring epistemological principle"
+    },
+    {
+      "extract": "Building contacts is no less important in data journalism than other forms of journalism: these are the people who can alert you to the existence of data, or even leak it to you.",
+      "chapter": "Scouting a local government website",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source relationships",
+        "data acquisition",
+        "human sources"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building human source contacts for data tips and leaks is a relational practice AI cannot replace"
+    },
+    {
+      "extract": "Every dataset will have stories it can tell. Here are just some typical stories often found in data: top of the pops/flops, holding up a mirror, a freak occurrence, a claim debunked or supported, trend, postcode lottery, juking the stats, victims/winners/losers, things happen together, it's not working.",
+      "chapter": "Getting in",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "story types",
+        "analytical frameworks",
+        "newsworthiness"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Taxonomy of data story types (trends, anomalies, comparisons, etc.) is a framework for editorial judgment that endures"
+    },
+    {
+      "extract": "Spend five minutes looking at the fields (column labels) in your dataset and five minutes going through that list and writing down potential data stories. The dataset alone may not answer your questions — but it may set you on the journey to doing so.",
+      "chapter": "Getting in",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "story discovery",
+        "hypothesis generation",
+        "exploratory analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Column-label scanning for story ideas endures but LLMs can now rapidly surface potential stories from dataset structures"
+    },
+    {
+      "extract": "You will often find yourself distracted by many different possible stories in the data — but if you're up against a deadline then you'll need to be focused. Data has so many potential stories that it can be easy to get distracted following multiple avenues of enquiry.",
+      "chapter": "Getting in",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial judgment",
+        "time management",
+        "focus"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Focus and editorial judgment under deadline pressure is a human editorial skill unaffected by AI"
+    },
+    {
+      "extract": "The quickest way to crack open our data and get a good overview of it is by using a pivot table. A pivot table can aggregate figures so we can combine all payments by company to see how much they got in total. Pivot tables can also count things.",
+      "chapter": "The crowbar of data journalism: pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pivot tables",
+        "aggregation",
+        "spreadsheets",
+        "exploratory analysis"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Pivot tables as analytical tool endure but LLMs can now perform aggregations and counts conversationally without spreadsheet expertise"
+    },
+    {
+      "extract": "If you have a dataset it's a good idea to look through the fields and think of possible stories to tell about the subjects. We've narrowed our field to two strong candidates for the 'who' part of our story. The 'what' of the story needs to go into the Values field.",
+      "chapter": "Who might your story be about?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "who-what framework",
+        "analytical process"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Who-what framework for structuring data stories is an editorial thinking pattern that endures"
+    },
+    {
+      "extract": "In most cases adding columns to a pivot table will complicate the table to the point where any clarity is lost. Instead, it's generally better to create a new pivot table or use the report filter. Keep things simple wherever you can.",
+      "chapter": "What about the columns?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "simplicity",
+        "pivot tables",
+        "analytical clarity"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Simplicity principle for pivot tables endures but the specific spreadsheet techniques are now supplemented by LLM-assisted analysis"
+    },
+    {
+      "extract": "You'll notice that many of these stories don't require any further work on the data — so at this point it's time to make a clean exit, and start speaking to people.",
+      "chapter": "Bringing the cream to the top",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "human sources",
+        "verification",
+        "reporting"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Knowing when to leave the data and start talking to people is an editorial judgment that endures"
+    },
+    {
+      "extract": "Advanced filters allow you to use wildcards to find payments that have something in common. Wildcards allow us to be much more open in our criteria. Look for patterns in your data when filtering — for example, adding a space to exclude false matches like CAR matching CARE.",
+      "chapter": "Advanced filters - using wildcards",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "filtering",
+        "wildcards",
+        "spreadsheets",
+        "pattern matching"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Wildcard filtering in spreadsheets endures conceptually but LLMs can now handle pattern matching and fuzzy text queries directly"
+    },
+    {
+      "extract": "Searching for cost codes using Google search operators like filetype:xls, filetype:pdf, or site:birmingham.gov.uk can help narrow the search. Sometimes you will find a spreadsheet or document which lists all the codes in your data and adds extra context.",
+      "chapter": "Finding related data - search techniques of the professionals",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "data acquisition",
+        "contextual data"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Google search operators for finding related data endure but LLMs now offer additional ways to discover contextual datasets"
+    },
+    {
+      "extract": "When making an FOI request relating to data: request digital spreadsheet format (CSV or XLS); ask if different parts of codes have particular meanings; try requesting the data dictionary; anticipate any objections that may be made under exemptions; remember you can request documents as well as data.",
+      "chapter": "Finding related data - search techniques of the professionals",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data acquisition",
+        "data dictionaries",
+        "file formats"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOI request best practices like requesting CSV format and data dictionaries are procedural knowledge independent of AI"
+    },
+    {
+      "extract": "As FOI requests often take weeks or even months, it's worth making these requests even before you plan to chase any stories, so you have basic contextual data available when the next datasets come out.",
+      "chapter": "Finding related data - search techniques of the professionals",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "time management",
+        "workflow planning"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Pre-emptive FOI requests before stories arise is a workflow planning practice unaffected by LLMs"
+    },
+    {
+      "extract": "Remember to treat data as a source like any other. It is there to be questioned, followed-up and cross-referenced. Data is compiled by humans and published by humans. It is humans who decide when to gather it and how to classify it. All of these decisions influence what the final data looks like.",
+      "chapter": "No one gets hurt",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data skepticism",
+        "source criticism",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Treating data as a source to be questioned and cross-referenced is a foundational verification principle"
+    },
+    {
+      "extract": "You mustn't take replies at face value: it's just another source. Nor should you report it as 'he said, she said'. Look for evidence, revisit your data, speak to an independent expert, or whatever will help you be confident which party is correct, and no one is getting hurt unjustifiably.",
+      "chapter": "No one gets hurt",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "triangulation",
+        "editorial ethics",
+        "harm minimisation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Triangulation and avoiding he-said-she-said reporting by seeking evidence is a core journalistic standard"
+    },
+    {
+      "extract": "Once you have your story lead, there's no need to waste more time in the data. Turning that lead into a story means adding context, colour, and people. The five Ws and a H are useful starting points for reaction and explanation.",
+      "chapter": "The Debrief",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "human sources",
+        "reporting",
+        "context"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Adding context, colour, and people to data leads is a storytelling imperative that endures"
+    },
+    {
+      "extract": "Before you visualise any data, ask yourself whether you are telling a story about comparison, composition, distribution, or relationships. The key to clear data visualisation is to strip the data down to bare essentials — try to avoid having more than four or five data points. Use one colour for your focal point and another for everything else.",
+      "chapter": "The Debrief",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualisation",
+        "chart selection",
+        "simplicity",
+        "design"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Chart selection principles endure but LLMs can now suggest appropriate visualizations and generate them from data descriptions"
+    },
+    {
+      "extract": "Your story lead may have come from data, but the story itself doesn't have to have numbers — and it should certainly have people. What makes us care about it is reading about the woman who has been unemployed for a year or the couple who had to sell their house. Never forget that any data you work with is a means to an end, not the end itself.",
+      "chapter": "Why does it matter - why do I care?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "humanisation",
+        "editorial purpose",
+        "audience engagement"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Humanizing data stories with real people is a journalistic imperative that no AI can replace"
+    },
+    {
+      "extract": "A good story answers two questions in its first few pars: why does this story matter, and why do I care? The impact is the key piece of information here.",
+      "chapter": "Why does it matter - why do I care?",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "newsworthiness",
+        "impact",
+        "audience engagement"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Story impact and audience relevance as editorial criteria are human judgments that endure"
+    },
+    {
+      "extract": "Consider building relationships with FOI officers, data analysts, statisticians, academics and others who work with data directly and can explain the problems with it.",
+      "chapter": "Where next?",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "source relationships",
+        "collaboration",
+        "data literacy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building relationships with FOI officers, data analysts, and academics is a human networking practice"
+    }
+  ]
+}

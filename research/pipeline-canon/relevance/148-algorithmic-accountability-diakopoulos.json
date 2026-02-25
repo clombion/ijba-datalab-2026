@@ -1,0 +1,787 @@
+{
+  "source_id": "148",
+  "source_file": "148-algorithmic-accountability-diakopoulos.md",
+  "source_title": "Algorithmic Accountability Reporting",
+  "author": "Nicholas Diakopoulos, Tow Center / CJR",
+  "year": "2014",
+  "extracts": [
+    {
+      "extract": "We can start to assess algorithmic power by thinking about the atomic decisions that algorithms make, including prioritization, classification, association, and filtering. Sometimes these decisions are chained in order to form higher-level decisions and information transformations.",
+      "chapter": "Algorithmic Power",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "analytical framework",
+        "taxonomy"
+      ],
+      "notes": "Core taxonomy for classifying algorithmic decisions — foundational for any investigation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Taxonomy of algorithmic decisions (prioritization, classification, association, filtering) is even more relevant with LLMs"
+    },
+    {
+      "extract": "Embedded in every algorithm that seeks to prioritize are criteria, or metrics, which are computed and used to define the ranking through a sorting procedure. These criteria essentially embed a set of choices and value-propositions that determine what gets pushed to the top of the ranking.",
+      "chapter": "Prioritization",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "ranking",
+        "bias",
+        "values"
+      ],
+      "notes": "Criteria as embedded value-propositions — key analytical lens",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ranking criteria as embedded value-propositions is a permanent analytical lens for any algorithm including LLMs"
+    },
+    {
+      "extract": "Classification algorithms can be tuned to make fewer of either of those mistakes. However, as false positives are tuned down, false negatives will often increase, and vice versa. Tuned all the way toward false positives, the algorithm will mark a lot of fair use videos as infringing; tuned the other way it will miss a lot of infringing videos altogether. You get the sense that tuning one way or the other can privilege different stakeholders in a decision, implying an essential value judgment by the designer of such an algorithm.",
+      "chapter": "Classification",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "classification",
+        "false positives",
+        "false negatives",
+        "bias",
+        "stakeholders"
+      ],
+      "notes": "False-positive/negative tradeoff as stakeholder value judgment",
+      "llm_relevance": "endures",
+      "relevance_rationale": "False positive/negative tradeoff as stakeholder value judgment applies equally to LLM classification decisions"
+    },
+    {
+      "extract": "To understand the power of classification algorithms we need to ask: Are there errors that may be acceptable to the algorithm creator, but do a disservice to the public? And if so, why was the algorithm tuned that way?",
+      "chapter": "Classification",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "classification",
+        "public interest",
+        "investigative questions"
+      ],
+      "notes": "Diagnostic question for investigating classification algorithms",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Asking whether errors serve the creator but disserve the public is a permanent investigative question for any algorithm"
+    },
+    {
+      "extract": "In general, there are two kinds of mistakes a classification algorithm can make—often referred to as false positives and false negatives. Suppose Google is trying to classify a video into one of two categories: 'infringing' or 'fair use.' A false positive is a video classified as 'infringing' when it is actually 'fair use.' A false negative, on the other hand, is a video classified as 'fair use' when it is in fact 'infringing.'",
+      "chapter": "Classification",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "classification",
+        "error analysis",
+        "false positives",
+        "false negatives"
+      ],
+      "notes": "Concrete example of false-positive/negative framework applied to content moderation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Concrete false positive/negative framework applied to content moderation is directly applicable to LLM content filtering"
+    },
+    {
+      "extract": "What is the basis for a prioritization decision? Is it fair and just, or discriminatory? What are the criteria built into a ranking, classification, or association, and are they politicized or biased in some consequential way? What are the limits to measuring and operationalizing the criteria used by the algorithm?",
+      "chapter": "Algorithmic Accountability",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "investigative questions",
+        "bias",
+        "fairness"
+      ],
+      "notes": "Master diagnostic questions for beginning any algorithm investigation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Master diagnostic questions about bias, fairness, and criteria operationalization apply to all algorithms including LLMs"
+    },
+    {
+      "extract": "What are the limits of an algorithm and when is it known to break down or fail? For instance: What types of errors are made in classification? How has the algorithm been tuned to privilege false positive or false negative errors? Does that tuning benefit one set of stakeholders over another? What are thresholds used in classification decisions? What kind of uncertainty is there in the classifier?",
+      "chapter": "Algorithmic Accountability",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "investigative questions",
+        "error analysis",
+        "uncertainty"
+      ],
+      "notes": "Diagnostic questions focused on algorithm failure modes and uncertainty",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Diagnostic questions about failure modes, thresholds, and uncertainty apply with even greater force to LLMs"
+    },
+    {
+      "extract": "What are the potential biases of the training data used in a classifying algorithm? How has the algorithm evolved with that data? What types of parameters or data were used to initiate the algorithm?",
+      "chapter": "Algorithmic Accountability",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "training data",
+        "bias",
+        "machine learning"
+      ],
+      "notes": "Diagnostic questions about training data bias",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Questions about training data bias and algorithm evolution are even more critical for LLMs trained on massive datasets"
+    },
+    {
+      "extract": "Any investigation must therefore consider algorithms as objects of human creation and take into account intent, including that of any group or institutional processes that may have influenced their design.",
+      "chapter": "Algorithmic Accountability",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "design intent",
+        "institutional analysis"
+      ],
+      "notes": "Algorithms as human artifacts — intent and institutional process always relevant",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Treating algorithms as human artifacts shaped by intent and institutional processes is permanently essential"
+    },
+    {
+      "extract": "In the case of government, the federal Freedom of Information Act (FOIA) facilitates the public's right to relevant government data and documents. While in theory FOIA also applies to source code for algorithms, investigators may run into the trade secret issue here as well. Exemption 4 to FOIA covers trade secrets and allows the federal government to deny requests for transparency concerning any third-party software integrated into its systems.",
+      "chapter": "Transparency",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "trade secrets",
+        "algorithmic accountability",
+        "government data"
+      ],
+      "notes": "FOIA Exemption 4 as obstacle to algorithm source code requests",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOIA for government algorithm source code and trade secret exemption obstacles remain active legal concerns"
+    },
+    {
+      "extract": "Oftentimes corporations limit how transparent they are, since exposing too many details of their proprietary systems (trade secrets) may undermine their competitive advantage, hurt their reputation and ability to do business, or leave the system open to gaming and manipulation. Trade secrets are a core impediment to understanding automated authority like algorithms since they, by definition, seek to hide information for competitive advantage.",
+      "chapter": "Transparency",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "trade secrets",
+        "transparency",
+        "algorithmic accountability",
+        "corporate accountability"
+      ],
+      "notes": "Three reasons corporations resist transparency: competitive advantage, reputation, gaming",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Trade secrets as core impediment to algorithmic transparency is even more relevant with proprietary LLMs"
+    },
+    {
+      "extract": "Even when laws exist compelling government transparency, the lack of enforcement is an issue. Watchdogging from third parties is as important as ever.",
+      "chapter": "Transparency",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "enforcement",
+        "watchdog journalism"
+      ],
+      "notes": "Transparency laws without enforcement are insufficient — third-party watchdogging essential",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Third-party watchdog journalism as essential complement to transparency laws is permanently needed"
+    },
+    {
+      "extract": "Reverse engineering is the process of articulating the specifications of a system through a rigorous examination drawing on domain knowledge, observation, and deduction to unearth a model of how that system works.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reverse engineering",
+        "methodology",
+        "algorithmic accountability"
+      ],
+      "notes": "Core definition of reverse engineering as investigative method",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reverse engineering as rigorous deduction-based methodology for understanding systems is permanently valid"
+    },
+    {
+      "extract": "I would advocate that journalists engage in algorithmic accountability not just through reverse engineering but also by using reporting techniques, such as interviews or document reviews, and digging deep into the motives and design intentions behind algorithms.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "reverse engineering",
+        "traditional reporting",
+        "interviews",
+        "document review",
+        "design intent"
+      ],
+      "notes": "Reverse engineering must be complemented by traditional reporting — interviews and documents",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Complementing reverse engineering with traditional reporting (interviews, documents) for design intent is permanently essential"
+    },
+    {
+      "extract": "Algorithms are often described as black boxes, their complexity and technical opacity hiding and obfuscating their inner workings. At the same time, algorithms must always have an input and output; the black box actually has two little openings. We can take advantage of those inputs and outputs to reverse engineer what's going on inside. If you vary the inputs in enough ways and pay close attention to the outputs, you can start piecing together a theory, or at least a story, of how the algorithm works.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reverse engineering",
+        "black box",
+        "input-output analysis",
+        "algorithmic accountability"
+      ],
+      "notes": "Core method: vary inputs systematically, observe outputs, infer behavior",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Black box input-output analysis method is the primary approach for investigating proprietary LLMs"
+    },
+    {
+      "extract": "The first scenario corresponds to an ability to fully observe all of an algorithm's inputs and outputs. This is the case for algorithms accessible via an online API, which facilitates sending different inputs to the algorithm and directly recording the output.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "reverse engineering",
+        "API",
+        "data collection",
+        "input-output analysis"
+      ],
+      "notes": "Full observability scenario — APIs as ideal access point",
+      "llm_relevance": "endures",
+      "relevance_rationale": "APIs as ideal access point for full observability reverse engineering is directly applicable to LLM API auditing"
+    },
+    {
+      "extract": "The most common case that data journalists encounter: A large dataset is available but there is limited (or no) information about how that data was transformed algorithmically. Interviews and document investigation are especially important here in order to understand what was fed into the algorithm, in terms of data, parameters, and ways in which the algorithm is used.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reverse engineering",
+        "partial observability",
+        "interviews",
+        "document analysis"
+      ],
+      "notes": "Output-only scenario — most common; requires reporting to understand inputs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Output-only scenario requiring reporting to understand inputs is the most common case for investigating proprietary LLMs"
+    },
+    {
+      "extract": "In such cases, partial observability (e.g., of outputs) through FOIA, Web-scraping, or something like crowdsourcing can still lead to some interesting results.",
+      "chapter": "Reverse Engineering: Theory",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "web scraping",
+        "crowdsourcing",
+        "partial observability",
+        "data collection"
+      ],
+      "notes": "Three data-gathering tactics for partial observability: FOIA, scraping, crowdsourcing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOIA, web scraping, and crowdsourcing for partial observability remain key data-gathering tactics"
+    },
+    {
+      "extract": "Some transparency by the services through their FAQ's and blogs suggest a hypothesis and tip as to what types of input the algorithm might be sensitive to. Moreover, the algorithms themselves, both their inputs and outputs, are observable and accessible through APIs, which make it relatively easy to quickly collect a wide range of observations about the input-output relationship.",
+      "chapter": "Autocompletions on Google and Bing",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis generation",
+        "API",
+        "transparency",
+        "tip generation"
+      ],
+      "notes": "Company disclosures as hypothesis source; APIs as data collection mechanism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using company disclosures as hypothesis sources and APIs as data collection mechanisms is directly applicable to LLM investigation"
+    },
+    {
+      "extract": "Sometimes algorithms expose inputs and make it possible to record outputs, but those outputs are then further transformed and edited before they get to the user interface. What really matters in the end is not just the output of the algorithm, but how that output is made available to the user.",
+      "chapter": "Autocorrections on the iPhone",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "user experience",
+        "API vs UI",
+        "verification",
+        "algorithmic accountability"
+      ],
+      "notes": "Critical caveat: API output may differ from actual user-facing output",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Caveat that API output may differ from user-facing UI output is critical for LLM investigations where model behavior varies by interface"
+    },
+    {
+      "extract": "The lesson here for reverse engineering is that we need to be careful when using correlations to make claims about what inputs an algorithm is actually using. When we don't have access to the algorithm's inputs we can only make statistically informed guesses. Correlation does not imply causation, nor intent on the part of the designer. As much as algorithmic accountability can help us diagnose the existence of a problem, we have to go deeper and do reporting (when possible) to understand the motivations or intentions behind an algorithm.",
+      "chapter": "Targeting Political Emails",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "verification",
+        "reverse engineering",
+        "statistical inference",
+        "intent"
+      ],
+      "notes": "ProPublica Message Machine lesson: correlation-based claims need traditional reporting backup",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation does not imply causation or intent -- correlation-based claims need traditional reporting, even more so with LLMs"
+    },
+    {
+      "extract": "To get the story the WSJ had to simulate visiting the various sites from different computers and browsers in different geographies. This initially required using various proxy servers that made it appear like the website was being loaded from different geographies. The publication's staff also created different archetype users and built user profiles using cookies to see how those user profiles might impact the prices recorded.",
+      "chapter": "Price Discrimination in Online Commerce",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "simulation",
+        "proxy servers",
+        "user profiles",
+        "web scraping",
+        "price discrimination"
+      ],
+      "notes": "WSJ technique: simulate diverse users via proxy servers and constructed user profiles",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Simulating diverse users via proxies and constructed profiles for price discrimination investigation is a permanent technique"
+    },
+    {
+      "extract": "One of the issues is that sites like Staples might be using A/B testing to analyze whether or not subtle differences on their websites are useful to them. In other words, they're already running experiments on their sites, and to a reverse engineer it might look like noise, or just confusing irregularities. Algorithms may be unstable and change over time, or have randomness built in to them, which makes understanding patterns in their input-output relationship much more challenging.",
+      "chapter": "Price Discrimination in Online Commerce",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "A/B testing",
+        "noise",
+        "temporal instability",
+        "reverse engineering",
+        "confounders"
+      ],
+      "notes": "Major confounder: corporate A/B tests create noise that looks like algorithmic variation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "A/B testing creating confounding noise in reverse engineering is a permanent methodological challenge"
+    },
+    {
+      "extract": "If you suspect the algorithm may be extremely dynamic and time-sensitive you may need to initiate all of your inputs to the algorithm in parallel in order to minimize the impact of a changing and dynamic algorithm.",
+      "chapter": "Price Discrimination in Online Commerce",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "parallel collection",
+        "temporal sensitivity",
+        "reverse engineering",
+        "methodology"
+      ],
+      "notes": "Practical tip: parallel data collection to control for algorithmic instability",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Parallel data collection to control for algorithmic instability is a permanent practical methodology tip"
+    },
+    {
+      "extract": "In looking for algorithms that we want to hold accountable, we might ask several questions: What are the consequences and impact of that algorithm for the public, how significant are those consequences, and how many people might be affected by or perceive an effect by the algorithm? We might ask whether the algorithm has the potential for discrimination, or whether errors made by the algorithm may create risks that negatively impact the public.",
+      "chapter": "Identification",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story selection",
+        "algorithmic accountability",
+        "public impact",
+        "discrimination",
+        "risk"
+      ],
+      "notes": "Selection criteria for choosing which algorithms to investigate",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Selection criteria for choosing which algorithms to investigate (impact, discrimination, risk) apply even more to LLMs"
+    },
+    {
+      "extract": "Essentially what we're looking to identify is an algorithm that's made a bad decision, that somehow breaks an expectation for how we think it ought to be operating. Is the algorithm's output consistent with what we think it should be? And if not, what's driving that inconsistency—a bug, an incidental programming decision, or a deep seated design intent? Observations, tips, and digging through data are all ways that we can identify interesting and significant algorithmic decisions that might warrant accountability reporting.",
+      "chapter": "Identification",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story identification",
+        "expectation violation",
+        "algorithmic accountability",
+        "tips"
+      ],
+      "notes": "Core story trigger: algorithm output violates expectations — then diagnose cause",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Story trigger of algorithm output violating expectations then diagnosing cause is a permanently valid investigative approach"
+    },
+    {
+      "extract": "When a classification decision has negative consequences, then looking for false positives, like Content ID's identifying fair-use content as infringing, can be a tip indicating a deeper story.",
+      "chapter": "Identification",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "false positives",
+        "tip generation",
+        "story identification",
+        "classification"
+      ],
+      "notes": "False positives with negative consequences as story leads",
+      "llm_relevance": "endures",
+      "relevance_rationale": "False positives with negative consequences as story leads is directly applicable to LLM content moderation"
+    },
+    {
+      "extract": "After choosing an algorithm on which to focus, the challenge then becomes how to sample the input-output relationship of the algorithm in some meaningful way. Figuring out how to observe or simulate those inputs is a key part of a practical investigation involving reverse engineering. Reporting techniques and talking to sources are two ways to try to understand what inputs are being fed into an algorithm, but when trade secrets obscure the process we're often reduced to guessing.",
+      "chapter": "Sampling",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sampling",
+        "input simulation",
+        "reverse engineering",
+        "sources",
+        "trade secrets"
+      ],
+      "notes": "Sampling challenge: observe or simulate inputs; sources help when trade secrets block",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Sampling the input-output relationship and simulating inputs is the core method for auditing any algorithmic system"
+    },
+    {
+      "extract": "Given a potentially infinite sampling space, we must define what is interesting and important for us to feed into an algorithm. For my story on search-engine autocompletions I wanted to know which sex-related words were blocked by Google and Bing, as well as whether adding 'child' to the query led to any difference in output. The sampling strategy followed from these questions.",
+      "chapter": "Sampling",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "sampling strategy",
+        "research questions",
+        "reverse engineering",
+        "hypothesis-driven"
+      ],
+      "notes": "Sampling strategy must follow from specific research questions — not open-ended",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Sampling strategy derived from specific research questions rather than open-ended exploration is permanently valid"
+    },
+    {
+      "extract": "You also have to make sure that the sample simulates the reality of importance to your audience. This was a key difficulty for Michael Keller's project on iPhone autocorrections, which eventually demanded he simulate the iPhone with scripts that mimic how a human uses the phone.",
+      "chapter": "Sampling",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "ecological validity",
+        "simulation",
+        "user experience",
+        "sampling"
+      ],
+      "notes": "Sample must match real user experience — API results may not reflect UI behavior",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ecological validity of samples matching real user experience is essential for any algorithm audit including LLMs"
+    },
+    {
+      "extract": "Data returned from the API that never appears in the UI is less significant since users will never encounter it in their daily usage—so I didn't report on it even though I had it collected.",
+      "chapter": "Sampling",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "editorial judgment",
+        "user experience",
+        "API vs UI",
+        "relevance filtering"
+      ],
+      "notes": "Exclude API-only data that never reaches users — practical editorial principle",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Excluding API-only data that never reaches users is a permanent editorial principle for algorithm reporting"
+    },
+    {
+      "extract": "I would argue that an experimental methodology is more powerful as it allows you to directly sample the input-output relationship in ways that let you assess particular questions you may have about how the algorithm is functioning. Indeed, there is a strong connection between the reverse engineering I'm espousing here and the scientific method.",
+      "chapter": "Sampling",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "experimental method",
+        "scientific method",
+        "reverse engineering",
+        "hypothesis testing"
+      ],
+      "notes": "Experimental approach preferred over observational when inputs are controllable",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Experimental methodology preferred over observational for reverse engineering is a permanent scientific principle"
+    },
+    {
+      "extract": "Once you've got the input-output relationship of your black box mapped out, the next step is to search and filter for newsworthy insights. These expectations could be statistically based, built on an understanding of social and legal norms, or defined by comparing similar vendors of the technology like Google and Bing autocompletions, or iPhone and Android autocorrections.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "newsworthiness",
+        "statistical analysis",
+        "norms",
+        "comparative analysis"
+      ],
+      "notes": "Three bases for newsworthiness filters: statistical, social/legal norms, vendor comparison",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Three bases for newsworthiness filters (statistical, social/legal norms, vendor comparison) are permanently applicable"
+    },
+    {
+      "extract": "At the WSJ the first filter used for narrowing-in on e-commerce sites was a statistical one: the variance of prices returned from a site for a given item across a variety of geographies. If any non-random variance was observed, the site was marked for a more rigorous and in-depth analysis.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistical filtering",
+        "variance analysis",
+        "price discrimination",
+        "triage"
+      ],
+      "notes": "WSJ technique: variance as triage filter to identify sites for deeper investigation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Variance as triage filter to identify targets for deeper investigation is a permanent analytical technique"
+    },
+    {
+      "extract": "Rob Barry, who worked on the executive trading plans story for the WSJ, described a sophisticated data-mining technique involving clustering and Monte Carlo simulation to find newsworthy cases by trying to identify trading plans that fell outside of the norms of expectation.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "clustering",
+        "Monte Carlo simulation",
+        "outlier detection",
+        "data mining"
+      ],
+      "notes": "Clustering + Monte Carlo simulation for outlier detection in trading data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Clustering and Monte Carlo simulation for outlier detection endure but LLMs can now assist with or automate such statistical analyses"
+    },
+    {
+      "extract": "Knowing where the algorithm violates the designers' expectations (e.g., it lets through child pornography when the stated intent is not to do so), or where it may have unintended side effects can both make for interesting stories.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "expectation violation",
+        "unintended consequences",
+        "story identification",
+        "design intent"
+      ],
+      "notes": "Two story archetypes: violating designer expectations, or revealing unintended side effects",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Violations of designer expectations and unintended side effects as story archetypes are permanently applicable"
+    },
+    {
+      "extract": "Since violence becomes a more interesting story if it's being suggested toward other people or living things I filtered my results against man-, woman-, person-, and animal-related word lists, essentially creating a newsworthiness filter. This sped up my ability to go through the results. Rather than reading through 14,000 results, I was reviewing fewer than 1,000.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "newsworthiness filter",
+        "data reduction",
+        "keyword filtering",
+        "editorial judgment"
+      ],
+      "notes": "Newsworthiness word-list filter to reduce 14K results to under 1K reviewable items",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Newsworthiness word-list filter to reduce results is partially displaced by LLMs that can semantically filter large result sets"
+    },
+    {
+      "extract": "Even with newsworthiness filters helping to identify possible stories, it's absolutely essential to have reporters in the loop digging deeper. For every site that was flagged as a statistical hit, Singer-Vine's team did a much more comprehensive analysis, writing custom code to analyze each.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "human-in-the-loop",
+        "verification",
+        "custom code",
+        "statistical hits"
+      ],
+      "notes": "Statistical flags are starting points not endpoints — reporter verification essential",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Human reporters essential for deeper verification beyond statistical flags is a permanent human-in-the-loop principle"
+    },
+    {
+      "extract": "Knowing what makes something a story is perhaps less about a filter for statistical, social, or legal deviance than it is about understanding the context of the phenomenon, including historical, cultural, and social expectations related to the issue—all things with which traditional reporting and investigation can help.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "traditional reporting",
+        "editorial judgment",
+        "newsworthiness"
+      ],
+      "notes": "Statistical deviance alone insufficient — contextual understanding from traditional reporting required",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Contextual understanding from traditional reporting required beyond statistical deviance is permanently true"
+    },
+    {
+      "extract": "Scott Klein, the news applications editor at ProPublica, considered using some computational means to detect gerrymandering, but quickly decided that, 'it [gerrymandering] is a motive, not a shape,' which ultimately made traditional reporting techniques much more effective for investigating the story.",
+      "chapter": "Finding the story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational limits",
+        "traditional reporting",
+        "motive vs pattern",
+        "editorial judgment"
+      ],
+      "notes": "Key insight: some stories require understanding motive, which computation alone cannot reveal",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Motive cannot be detected computationally, requiring traditional reporting -- a permanent limit of algorithmic analysis"
+    },
+    {
+      "extract": "Developing the human resource to do algorithmic-accountability reporting will take dedicated efforts to teach the computational thinking, programming, and technical skills needed to make sense of algorithmic decisions. Teaming computationally literate reporters with tech-savvy computer scientists might be one method for doing more algorithmic accountability reporting.",
+      "chapter": "Discussion",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills",
+        "computational journalism",
+        "interdisciplinary teams",
+        "training"
+      ],
+      "notes": "Two approaches: train journalists in computation, or pair reporters with computer scientists",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Computational skills for algorithmic accountability are still needed but LLMs lower the programming barrier for journalists"
+    },
+    {
+      "extract": "Legally speaking, the reverse engineering of commercial software does have some pitfalls. Other than the Digital Millennium Copyright Act (DMCA), there are no laws that directly prohibit or restrict reverse engineering, and even the DMCA has exemptions. Software vendors do typically add anti-reverse engineering clauses to End User License Agreements (EULAs), forcing the decision: Is it okay to breach such a contract if it gets you closer to the truth about the algorithm?",
+      "chapter": "Discussion",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "legal risk",
+        "DMCA",
+        "EULA",
+        "reverse engineering",
+        "ethics"
+      ],
+      "notes": "Legal landscape: DMCA has exemptions but EULAs pose contractual risk",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Legal risks of reverse engineering including DMCA and EULA considerations remain active legal constraints"
+    },
+    {
+      "extract": "We need to ask ourselves about the possible ramifications or negative consequences of publishing details of how certain algorithms work. By publishing details of how an algorithm functions, specifically information about what inputs it pays attention to, how it uses various criteria in a ranking, or what criteria it uses to censor, how might that allow the algorithm to be manipulated or circumvented? The ethical principal of beneficence offers guidance here: Try to maximize anticipated benefits while minimizing possible risks of harm to the public.",
+      "chapter": "Discussion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "beneficence",
+        "gaming risk",
+        "publication decisions",
+        "harm minimization"
+      ],
+      "notes": "Ethical framework for publication: beneficence — balance public benefit vs gaming risk",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Weighing publication risks of exposing algorithm mechanics against beneficence is even more relevant with LLMs"
+    },
+    {
+      "extract": "In the same way that business journalists contextualize and help the public understand the information produced through financial transparency of companies, journalists will also be needed to frame, contextualize, and explain the transparency information about algorithms.",
+      "chapter": "Discussion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "contextualization",
+        "explanation",
+        "algorithmic literacy",
+        "journalism role"
+      ],
+      "notes": "Journalists as interpreters of algorithmic transparency — analogous to financial journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalists contextualizing algorithmic transparency information for the public is a permanently essential role"
+    },
+    {
+      "extract": "One of the main challenges to building newsroom algorithms is providing a window for the reporter into how a particular algorithmic decision was made. It remains to be seen how news organizations will incorporate the evidence that algorithms or simulations provide with an epistemology and ethic that demands full transparency.",
+      "chapter": "Discussion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom algorithms",
+        "transparency",
+        "epistemology",
+        "newsroom practice"
+      ],
+      "notes": "News orgs face same algorithmic transparency tensions they investigate in others",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Newsroom algorithms now include LLM-based tools; transparency and epistemology challenges have expanded significantly"
+    },
+    {
+      "extract": "Next time you hear about software or an algorithm being used to help make a decision, you might get critical and start asking questions about how that software could be affecting outcomes. Try to FOIA it, try to understand whether you can reverse engineer it, and when you're finished, write up your method for how you got there. By method-sharing we'll expand our ability to replicate these types of stories.",
+      "chapter": "Summary and Moving Forward",
+      "pipeline_step": "Present",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "method sharing",
+        "FOIA",
+        "reverse engineering",
+        "replicability",
+        "workflow"
+      ],
+      "notes": "Three-step workflow summary: FOIA, reverse engineer, publish methodology for replication",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Getting critical about algorithmic decisions, using FOIA, reverse engineering, and method sharing are permanent practices"
+    },
+    {
+      "extract": "ProPublica picked up the tip and started gathering hundreds and then thousands of these targeted emails, soliciting them from people who were willing to forward them on to the news organization. In addition to collecting the emails, ProPublica solicited the recipients to fill out a survey asking about basic demographic information, where they lived, and if they had donated or volunteered for the campaign before. These survey answers then served as the input to the algorithm they were trying to dissect.",
+      "chapter": "Targeting Political Emails",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "surveys",
+        "data collection",
+        "reverse engineering",
+        "proxy inputs"
+      ],
+      "notes": "ProPublica Message Machine: crowdsourced outputs + survey-based proxy inputs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Crowdsourcing data from users and surveying demographics to reverse engineer targeting algorithms is a permanent technique"
+    },
+    {
+      "extract": "This case underscores the challenge with trying to understand which inputs an algorithm pays attention to. There is a huge space of potential inputs, some of which are observable and some of which are not. Practically speaking you have to choose which inputs you want to investigate to see if they are relevant to the algorithm.",
+      "chapter": "Executive Stock Trading Plans",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "input space",
+        "reverse engineering",
+        "selection bias",
+        "analytical scope"
+      ],
+      "notes": "Infinite input space requires pragmatic scoping — choose which inputs to test",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Challenge of vast unobservable input spaces when reverse engineering algorithms is a permanent methodological constraint"
+    }
+  ]
+}

@@ -1,0 +1,794 @@
+{
+  "source_id": "136",
+  "source_file": "136-power-of-data.md",
+  "source_title": "The Power of Data: Data Journalism Production and Ethics",
+  "author": "Zhang Chao",
+  "year": "2023",
+  "chunk": "2/3",
+  "chunk_file": "136-power-of-data_chunk2.md",
+  "chunk_words": 35240,
+  "extracts": [
+    {
+      "extract": "Data journalism production is not a process in which meaning is generated automatically and the truth emerges naturally. For example, the algorithms which secretly contribute to data journalism appear to be 'objective,' but they are not. A researcher's unconscious cognitive bias may be expressed through the selection criteria chosen for the algorithm. Additionally, the cleaning phase of data is inherently subjective, as the data analysts would make decisions about what IVs and DVs will be counted or not.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "subjectivity",
+        "algorithmic bias",
+        "data cleaning"
+      ],
+      "notes": "Warns that both algorithm design and cleaning involve subjective editorial choices"
+    },
+    {
+      "extract": "Although the same data and algorithms will yield the same data results, the interpretation of data results will vary among different media outlets. Meaning is not simply given, but is socially constructed across a number of institutional sites and practices.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "interpretation",
+        "framing",
+        "objectivity"
+      ],
+      "notes": "Same data can yield divergent stories depending on institutional context"
+    },
+    {
+      "extract": "It has been argued that framing in data journalism consists of two phases. The first stage -- building logical structures -- is drawing conclusions from the data, and the second stage -- building forms -- is visualizing the data.",
+      "chapter": "Data Journalism as Discourse",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "framing",
+        "visualization",
+        "workflow"
+      ],
+      "notes": "Two-phase framing model: logical structure then visual form"
+    },
+    {
+      "extract": "Our analysis of the Data Journalism Awards winners and other outstanding works reveals that the narratives and analyses of complex issues in data news stories are mostly organized around four dimensions: the temporal dimension, the spatial dimension, the social network dimension, and the data relationship dimension. Data news can be organized along one or several narrative dimensions.",
+      "chapter": "Dimensions of Complex Narratives in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "complexity",
+        "temporal",
+        "spatial",
+        "network",
+        "correlation"
+      ],
+      "notes": "Four-dimension framework derived from DJA winners analysis"
+    },
+    {
+      "extract": "In data journalism, time is a dimension that helps one construct a robust and intuitive framework to establish connections between events. The timeline in data visualization allows a clear and visual presentation of the chronological or cause-and-effect relationships between events. In the temporal dimension, moments and time periods appear in four main combinations: (1) a single moment; (2) a time period made up of multiple moments in series; (3) independent moments; and (4) independent time periods.",
+      "chapter": "Temporal Dimension: Depicting Changes and Trends",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "timelines",
+        "temporal analysis",
+        "visualization"
+      ],
+      "notes": "Four combinatorial patterns for temporal data presentation"
+    },
+    {
+      "extract": "The choice of beginning and ending points is a process of meaning construction. While timelines can provide a great deal of information on the temporal dimension, they also 'simplify' the historical context of events. In particular, comparisons on the same timeline force different actors to be involved in the same history, since each actor may face different situations at the same point in time. The timeline allows some key information about the actors to be omitted, serving instead the subjective intention of the creator.",
+      "chapter": "Temporal Dimension: Depicting Changes and Trends",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "timelines",
+        "framing",
+        "editorial choice",
+        "context"
+      ],
+      "notes": "Caution: timeline start/end points are editorial choices that construct meaning"
+    },
+    {
+      "extract": "Maps are some of the most information-dense ways of communicating data. You can do a lot in a map because people already understand the fundamentals -- unlike, say, a scatterplot. The use of color-based segmentation and various markers on the map can clearly convey important information within this geographic space.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "maps",
+        "spatial visualization",
+        "information density"
+      ],
+      "notes": "Len De Groot (LA Times) on maps as intuitively understood data formats"
+    },
+    {
+      "extract": "Had the map been presented in a different way, for example, by reducing the scale of the map to make the dots appear dense, or by limiting the view of the map to the core of the city, or by increasing the diameter of the dots in the map so that they dominate the image, we are afraid the map would have presented a completely different meaning. So maps are not purely scientific; they are also aesthetic, religious, social, and political.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "maps",
+        "visual rhetoric",
+        "scale manipulation",
+        "framing"
+      ],
+      "notes": "Scale, viewport, and marker size on maps are rhetorical choices that change meaning"
+    },
+    {
+      "extract": "If the producer wants to compare information related to spatial distribution, the map allows the reader to draw conclusions in a visual way. However, if the producer wants to compare information that does not relate to spatial distribution, the map's narrative will be inefficient and may even be misleading.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "maps",
+        "chart selection",
+        "misleading visualization"
+      ],
+      "notes": "Maps only efficient for spatially distributed data; misapplied maps mislead"
+    },
+    {
+      "extract": "During the presidential elections, the U.S. media often used a map of the United States to show the elections in different states, using red and blue to show the areas won by Republicans and Democrats respectively, which seems objective but is actually misleading. Usually 'red states' are larger than 'blue states,' so readers can easily see a large area of red on the map that represents the Republican Party, but this does not reflect the true election results. For example, Montana is about 15 times the size of Vermont, yet both have almost the same number of electors.",
+      "chapter": "Spatial Dimension: Achieving Classification and Comparison",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "maps",
+        "election coverage",
+        "area distortion",
+        "misleading visualization"
+      ],
+      "notes": "Geographic area \\!= political weight; standard maps distort electoral reality"
+    },
+    {
+      "extract": "Social network analysis is not yet mastered by all journalists and editors, and second, social network analysis requires sufficient data. A complete social network diagram can show three levels of information: macro view, relationship view, and micro view. Data journalists do not necessarily need to use all three views in a single story. Which views are used depends largely on the content and purpose of the story.",
+      "chapter": "Social Network Dimension: Revealing Relationships in Complex Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "social network analysis",
+        "macro micro views",
+        "skill gap"
+      ],
+      "notes": "Three-level SNA framework: macro, relationship, micro; choose by story purpose"
+    },
+    {
+      "extract": "Correlation is useful because it provides clearer perspectives than causality. Correlation analysis is significant in itself, and it also lays the foundation for studying the causal relationship. Sometimes, clues of causality are also implied in correlation analyses. News reporting cannot rely solely on correlations to provide audiences with explanations of social reality, because the task of news reporting is not only to tell people what happened but also to tell them why these things happened. The revelation of causes is often the discovery of causality.",
+      "chapter": "Correlation Dimension: Exploring Correlations Among Variables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "statistical reasoning",
+        "explanation"
+      ],
+      "notes": "Correlation valuable but insufficient; journalism must also pursue causal explanation"
+    },
+    {
+      "extract": "Narrative visualization approaches can be divided into an author-driven approach and a reader-driven approach. A purely author-driven approach has a strict linear path, relies heavily on messaging, and includes no interactivity. In contrast, a purely reader-driven approach has no prescribed ordering of images, no messaging, and a high degree of interactivity. Most examples of narrative visualization fall somewhere in between, balancing both elements. Therefore, narrative visualization includes three basic models: Martini Glass Structure, Interactive Slideshow, and Drill-Down Story.",
+      "chapter": "Linear Narrative and Parallel Narrative in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "narrative structure",
+        "interactivity",
+        "author-driven",
+        "reader-driven"
+      ],
+      "notes": "Segel & Heer taxonomy: three models on author-reader spectrum"
+    },
+    {
+      "extract": "Rather than providing users with a raw data set, data journalists use interactive tools to provide an intuitive and visual interface that retains meaningful information and removes useless variables after judging the value of the variables in the data set.",
+      "chapter": "Database-based Exploratory Narrative",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "interactive databases",
+        "variable selection",
+        "user interface"
+      ],
+      "notes": "Database narratives require editorial judgment on which variables to surface"
+    },
+    {
+      "extract": "Making complex data understandable to users should be realized by helping them follow a sequence from the general (far view) to the particular (near view). The far view is typically the landing page of the app, focused on broad meaning and context. This page should have the national picture of the data with ranked examples. The near view is the page at the lowest level of abstraction, where the reader is looking at her own school, his own town, etc. It is the means through which readers will understand the whole by relating it to the example they understand best.",
+      "chapter": "Database-based Exploratory Narrative",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information architecture",
+        "far-near view",
+        "news apps",
+        "ProPublica"
+      ],
+      "notes": "Scott Klein (ProPublica): general-to-particular sequence for data apps"
+    },
+    {
+      "extract": "Interactive narratives are centered on rules rather than neutral technologies. In newsgame-type data news pieces, rules are predetermined for the purpose of keeping the game on track, defining the game's storyline and scoring criteria. In database-type data news works, the permutations and calculations between different variables are set in advance. The rules are the invisible carriers of the author's will and pre-determine the connotation of the data news text.",
+      "chapter": "The Storytelling Mechanism of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "interactivity",
+        "rules",
+        "editorial control",
+        "illusion of choice"
+      ],
+      "notes": "Interactive tools give illusion of user freedom but embed author intent via rules"
+    },
+    {
+      "extract": "The first level of procedural rhetoric in interaction narratives is to use game mechanics to draw the user into a particular interaction diagram, thereby directing the user's attention to a specific area by anchoring. The main techniques used include: (1) Default views provide an initial point of interpretation anchored to the default visual configuration; (2) Fixed comparisons present some information by default so that users can contrast this information with other values in the visualization; (3) Navigation bars and menus allow users to search for specific information to constrain the data depiction based on a user's preferences for certain information, which can be called filtering.",
+      "chapter": "The Storytelling Mechanism of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "procedural rhetoric",
+        "default views",
+        "anchoring",
+        "filtering",
+        "interaction design"
+      ],
+      "notes": "Three anchoring techniques: default views, fixed comparisons, filtering via nav bars"
+    },
+    {
+      "extract": "Data visualization means that the reality represented by data and the intricate relationships between data are expressed through a combination of visual codes, a seemingly neutral process that actually achieves persuasive discourse production in an implicit way. Data visualization, because it is derived from 'data,' is given the aura of 'science' and 'objectivity.' In the eyes of the general audience, the 'translation' of data into data visualization is not a subjective creation, but a trustworthy and scientific knowledge production process.",
+      "chapter": "The Relationship Between Word and Image",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization rhetoric",
+        "objectivity illusion",
+        "persuasion"
+      ],
+      "notes": "Visualization appears neutral but implicitly produces persuasive discourse"
+    },
+    {
+      "extract": "Image domination, if abused -- in other words, if journalists take advantage of people's trust in data visualization and the belief that 'seeing is believing' -- can create discursive violence under the neutral veil of visual text. In data journalism, image domination can be used to distort the truth, intentionally or unintentionally, to prove one's own point of view, often by intercepting the Y-axis of a chart or by not following conventional design principles.",
+      "chapter": "The Image-dominant Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization ethics",
+        "Y-axis manipulation",
+        "design conventions",
+        "trust"
+      ],
+      "notes": "Truncated Y-axes and unconventional design exploit audience trust in visual data"
+    },
+    {
+      "extract": "Word domination occurs when the visual codes of data visualization cannot accomplish basic representation. A bar chart without labels and legends is just a graph without any meaningful information. Word domination also occurs when there is uncertainty about the meaning of images. Due to journalistic demands for truth, accuracy, and objectivity, words are needed to summarize, explain, or confirm the meaning of images when data visualization may have multiple meanings or may not achieve the intended communication purpose.",
+      "chapter": "The Word-dominant Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "annotation",
+        "labeling",
+        "word-image relationship",
+        "ambiguity"
+      ],
+      "notes": "Charts require textual anchoring (labels, legends, annotations) to fix meaning"
+    },
+    {
+      "extract": "The most important aspect of data visualization is making sure 'visualizations are clarifying' the stories rather than simplifying them. Data journalism is not the same as bringing data analysis or visualization techniques directly into journalism. The narrative is still at the heart of data journalism. Paul Bradshaw argues that the core process of data journalism is data processing, and that its main task is storytelling.",
+      "chapter": "Story Awareness: Enhancing the Attractiveness of News",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "storytelling",
+        "visualization purpose",
+        "narrative centrality"
+      ],
+      "notes": "Haddad (Al-Jazeera) and Bradshaw: viz should clarify not simplify; story is primary"
+    },
+    {
+      "extract": "Information is transformed into a story through five specific elements: setting, plot, characters, conflict, and theme, and all stories must contain all five of these elements. While many people talk about the importance of data storytelling, few people use data to tell stories.",
+      "chapter": "Story Awareness: Enhancing the Attractiveness of News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "narrative elements",
+        "data storytelling"
+      ],
+      "notes": "Citraro (Periscopic): five required story elements; most data pieces lack them"
+    },
+    {
+      "extract": "Data news works usually calls for a long period of time for its production, so the strength of data journalism lies not in timeliness, but in proximity. Establishing a relationship between data and the audience through proximity requires a great sense of relevance to the audience. In order to strengthen the connection between news content and users, data journalists should judge whether the topic is closely related to the audience in the topic selection stage, which kinds of data are important and relevant to the audience in the data collection stage, whether the analysis results meet the needs of the audience in the data analysis stage, and identify the common and personalized needs of the audience in the data visualization stage.",
+      "chapter": "Relevance Awareness: Highlighting Content Proximity",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "proximity",
+        "audience relevance",
+        "topic selection",
+        "personalization"
+      ],
+      "notes": "Relevance check at every pipeline stage: topic, collection, analysis, visualization"
+    },
+    {
+      "extract": "The idea of making news personal is something we can do so much better now with online news. People really, really like talking about themselves. And giving them an opportunity to talk about themselves will turn them toward news. Some data journalists also use databases or other interactive means that can really allow readers to 'find themselves' in the news story.",
+      "chapter": "Relevance Awareness: Highlighting Content Proximity",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "personalization",
+        "engagement",
+        "interactive databases",
+        "audience"
+      ],
+      "notes": "Claire Miller (Trinity Mirror): personal relevance drives engagement"
+    },
+    {
+      "extract": "Asking readers to supply information can sometimes cut down on their desire to use a news app. Past projects have shown that asking people to enter their Zip code automatically guarantees that a large chunk of people won't use it while using geolocation is a way to ensure that everyone gets their location version.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "UX",
+        "geolocation",
+        "friction reduction",
+        "news apps"
+      ],
+      "notes": "Gregor Aisch (NYT): auto-geolocation removes friction vs. zip code entry"
+    },
+    {
+      "extract": "It is necessary to provide a global overview of the collection of data and, at the same time, let users analyze specific details or parts that they may judge as relevant to their goal.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "overview-detail",
+        "information architecture",
+        "user experience"
+      ],
+      "notes": "Mazza: overview + detail pattern for data visualization"
+    },
+    {
+      "extract": "On desktop, you can fill an article with lots of nice photos and little embeds, but I don't think that works quite as well on mobile because you can end up cluttering up a small screen and I think it loses some of the impacts that a single graphic has on mobile.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile design",
+        "responsive",
+        "desktop vs mobile"
+      ],
+      "notes": "Elliot Bentley (WSJ): mobile needs fewer, higher-impact graphics"
+    },
+    {
+      "extract": "Social media-oriented production is a production mode relying on interpersonal relationships, oriented to make users share, and aimed at embedding in users' online social life; in short, to adapt news production to social platforms rather than just using them. Letting users 'share' is not simply designing a share button on the interface, which may not necessarily be useful, but implementing the concept of 'sharing' in the whole production chain, so that the news itself has the potential to be shared.",
+      "chapter": "Social Media-oriented Production of Data News",
+      "pipeline_step": "Present",
+      "secondary_step": "Define",
+      "extract_type": "organizational",
+      "themes": [
+        "social media",
+        "sharing",
+        "production workflow",
+        "distribution"
+      ],
+      "notes": "Sharing must be embedded across entire production chain, not bolted on"
+    },
+    {
+      "extract": "Data journalism takes much longer to produce than traditional journalism because of the multiple components of data collection, analysis, and visualization. According to Google News Lab, 49% of data stories are created in a day or less, 30% take up to a week, 11% take several weeks, and 3% take a month or more. When selecting topics, data journalists must consider the production time of their work, so many focus on long-lasting topics rather than breaking news to extend the 'shelf life.'",
+      "chapter": "The Long Production Time of Data Journalism Requires a Long Shelf Life",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "production time",
+        "topic selection",
+        "timeliness",
+        "evergreen content"
+      ],
+      "notes": "Google News Lab data on production timelines; evergreen topics fit DJ production cycles"
+    },
+    {
+      "extract": "At the information level, journalists need to identify the content that is most likely to spark the interest of users. The journalists should open with the most interesting or relevant fact or surprising data point. Include engaging movement or eye-catching colors as this will be the first thing people see on social media, and maybe the only thing if they scroll past too fast.",
+      "chapter": "Sharing As the Core Production Strategy",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social media",
+        "lead design",
+        "visual hooks",
+        "engagement"
+      ],
+      "notes": "Segger: lead with most surprising data point; visual hook for scroll-past risk"
+    },
+    {
+      "extract": "At the formal level, data visualization designers should not pursue information in abundance, but rather make important data clearly identifiable. Alternatively, designers can let users gradually reveal the answers to questions that have been set up as they read the news. The Economist's team works to strip each chart down to make just one clear point so readers get the sense from scrolling through.",
+      "chapter": "Sharing As the Core Production Strategy",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart design",
+        "simplicity",
+        "one-point-per-chart",
+        "Economist"
+      ],
+      "notes": "Economist approach: one clear point per chart for social scroll context"
+    },
+    {
+      "extract": "Lightweight design is about minimizing the technical or content load of data journalism without compromising the expression of meaning and user experience. Technical lightweighting means matching the technical form of data journalism products to the performance of mobile devices. Content lightweighting means that the amount of information should be based on the user's reading habits on social media platforms, which means that text should be short, graphics should be well focused, and video needs to tell the story in a short amount of time.",
+      "chapter": "Lightweight Design",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mobile optimization",
+        "lightweight design",
+        "content economy"
+      ],
+      "notes": "Two dimensions: technical (loading, swipe vs click) and content (brevity, focus)"
+    },
+    {
+      "extract": "There are still many challenges to data news production, including untrained analysts, data reliability, measuring the right thing, and unjustified data collection. When published without context or consideration for ethics, data journalism can cause harm through perpetuating stereotypes and biases. The tools of data journalism can also be used to spread untruths, as data points are not facts; they are only given elements from which facts are derived.",
+      "chapter": "Ethics of Data Journalism Production",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "data quality",
+        "bias",
+        "stereotypes",
+        "context"
+      ],
+      "notes": "Kayser-Bril: data points are not facts but raw material for deriving facts"
+    },
+    {
+      "extract": "Pragmatic objectivity consists of the objective stance and five criteria. The objective stance consists in moral virtues such as honesty and intellectual virtues such as caring about truth. It requires journalists to place a critical distance between oneself and the story, to be open to evidence and counter-arguments, to fairly represent other perspectives, and to be committed to the disinterested pursuit of truth for the public. The five criteria are: empirical validity, completeness and implications, consistency, self-consciousness, and intersubjective objectivity.",
+      "chapter": "Objectivity Redefined: A Pragmatic Perspective",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "pragmatic objectivity",
+        "verification criteria",
+        "Ward framework"
+      ],
+      "notes": "Ward's five-criteria framework for pragmatic objectivity in journalism"
+    },
+    {
+      "extract": "At the level of empirical validity, journalists need to systematically assess the quality of the data they collect. The main dimensions of evaluation include: First, the accuracy of the data -- journalists need to verify that the data is correct, cleaning formatting, spelling, and categorization errors. Second, the credibility of the data, including the credibility of the data source, the credibility compared to the usual internal standards, and the credibility based on the age of the data. Third, the appropriateness of the data -- journalists need to judge the amount of data necessary to solve a problem. Fourth, the scientificity of the data collection methods.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "accuracy",
+        "credibility",
+        "appropriateness",
+        "methodology"
+      ],
+      "notes": "Four-dimension data quality assessment: accuracy, credibility, appropriateness, scientificity"
+    },
+    {
+      "extract": "Journalists must remain skeptical of data, 'unless it's coming from a really verified source, it's always important, especially when you're doing an original analysis of data, to be critical.' Usually data from authoritative sources (e.g., government, leading survey companies, reputable NGOs, and universities) can be trusted.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "source credibility",
+        "skepticism",
+        "verification",
+        "authoritative sources"
+      ],
+      "notes": "Bentley (WSJ): default skepticism unless source is verified authoritative"
+    },
+    {
+      "extract": "When collecting secondary data, it is important not to use only a single data set, but to collect from as many sources as possible, so that different data can corroborate each other. Simon Rogers believes that diverse data sources are essential for data journalism. At least two data sources should be included in data journalism production to demonstrate objectivity.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data triangulation",
+        "multiple sources",
+        "corroboration"
+      ],
+      "notes": "Rogers: minimum two data sources for objectivity; multi-source corroboration"
+    },
+    {
+      "extract": "Sometimes when direct data is not available or incomplete for researching certain issues, journalists may use alternative data to conduct research, and then they need to consider what data is needed. The FiveThirtyEight website produced a data story examining trends in kidnapping cases in Nigeria. However, this conclusion is not true and the main reason for the error is that the journalist mistakenly equated the number of cases reported in the media with the number of cases that actually occurred.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "proxy data",
+        "data limitations",
+        "survivorship bias",
+        "measurement validity"
+      ],
+      "notes": "Caution: proxy data (media reports) != actual occurrence data"
+    },
+    {
+      "extract": "The criterion of intersubjective objectivity requires journalists to communicate with data collectors and experts, to discuss all aspects of data collection, to listen to more opinions and suggestions from different parties. A Miami Herald reporter's story about judges not punishing some DUI offenders turned out to be inaccurate because the reporter did not have knowledge of some of the special circumstances listed when he obtained the data.",
+      "chapter": "Principle of Objectivity in Data Collection",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "expert consultation",
+        "domain knowledge",
+        "intersubjective verification"
+      ],
+      "notes": "Consult domain experts to understand data context and special codes"
+    },
+    {
+      "extract": "While the results of data analysis may seem fair and objective, the values of journalists actually influence the process of data construction to interpretation. Data does not intrinsically imply truth. Yes, we can find truth in data, through a process of honest inference. But we can also find and argue multiple truths or even outright falsehoods from data.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interpretation",
+        "values",
+        "honest inference",
+        "multiple truths"
+      ],
+      "notes": "Gittleman and Diakopoulos: data does not intrinsically imply truth"
+    },
+    {
+      "extract": "WNYC's 'Median Income Across the US' uses medians to present income distributions, a simplistic treatment that leads to data maps that differ from the actual situation. Some of the green areas are actually the poorest areas of the city, due to the fact that people in some of these poor areas share an apartment with more than 10 people, thus driving up household income, but obviously this does not mean that the area is affluent.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical measures",
+        "medians",
+        "misleading aggregation",
+        "ecological fallacy"
+      ],
+      "notes": "Median household income can mislead when living arrangements vary across areas"
+    },
+    {
+      "extract": "The self-consciousness criterion requires journalists to have a thorough knowledge of data analysis methods and to maintain a critical attitude. Specifically, journalists need to understand the original context of the data they collect, the strengths and limitations of the data analysis methods they choose, and the problems that may arise in answering particular questions.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "method awareness",
+        "limitations",
+        "critical thinking"
+      ],
+      "notes": "Know context of data, strengths/limitations of method, and potential pitfalls"
+    },
+    {
+      "extract": "The criterion of intersubjective objectivity requires journalists to communicate and discuss data analysis methods and their conclusions with experts and peers, rather than making their own decisions alone, and refining data analysis and conclusions by listening to different opinions. Data itself is a simplification of things, and with simplification comes the danger of distortion. Therefore, the role of experts is very important in the data analysis section.",
+      "chapter": "The Principle of Objectivity in Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "peer review",
+        "expert consultation",
+        "collaborative analysis"
+      ],
+      "notes": "Never analyze alone; consult experts because simplification risks distortion"
+    },
+    {
+      "extract": "Common inaccuracies in data visualizations include data sizes that are out of proportion to the area in the data visualization, and pie charts whose parts add up to more than 100%. Simon Rogers argues that aesthetic deficiencies and design flaws in data visualization are excusable, but factual distortions and misinformation are inexcusable.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "visualization accuracy",
+        "pie charts",
+        "proportions",
+        "factual distortion"
+      ],
+      "notes": "Rogers: aesthetic flaws forgivable, factual distortion not"
+    },
+    {
+      "extract": "The New York Times made a distorted map, turning all the states into squares of varying sizes according to the number of electoral votes so that the comparison of the two candidates' votes would be more visual and accurate. The consistency criterion requires that data visualization follow design conventions and conform to people's perceptions of visual symbols in a certain period of time and in a certain cultural context.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cartogram",
+        "design conventions",
+        "electoral maps",
+        "proportional representation"
+      ],
+      "notes": "NYT used cartogram to fix area-distortion; follow cultural design conventions"
+    },
+    {
+      "extract": "Reuters has published a graphic showing a dramatic spike in Florida murders by firearm after the Stand Your Ground law was enacted in 2005. However, this graph gives the impression that shootings are down after the Act was implemented because the Y-axis values grow from top to bottom instead of the generic bottom-to-top.",
+      "chapter": "The Principle of Objectivity in Data Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Y-axis inversion",
+        "misleading charts",
+        "design conventions",
+        "Florida gun deaths"
+      ],
+      "notes": "Inverted Y-axis reverses perceived trend; violates bottom-to-top convention"
+    },
+    {
+      "extract": "Data journalists should allow others to replicate their work, and therefore need to publish their research methods just like scientists do. For data journalists, making data, data analysis, and algorithms transparent can prompt them to review their operational processes, aware that an external audience is monitoring them. Transparency benefits the computing field and the community of data journalism, and the constructive feedback that a high-level audience will provide can improve the accuracy of their work.",
+      "chapter": "Transparency in Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "replicability",
+        "open methods",
+        "accountability"
+      ],
+      "notes": "Scientific model: publish methods so work is replicable and externally auditable"
+    },
+    {
+      "extract": "Transparency in data collection means that data reporters should publish information related to the data (e.g., specific sources of data, evaluation of data quality, tools and processes used to collect the data, etc.) and provide links to the raw data or data. The transparency of data sources means that if someone wants to verify the accuracy and veracity of the data, they should be able to find the original data or the source at the lowest possible cost.",
+      "chapter": "Data Collection Transparency",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data transparency",
+        "source disclosure",
+        "raw data access",
+        "verification cost"
+      ],
+      "notes": "Publish source, quality assessment, tools, and links to raw data"
+    },
+    {
+      "extract": "Transparency in data collection also involves an account of data quality. Sometimes the data used by journalists may even be flawed. Even data used in scientific research has limitations, so journalists need to make those limitations clear so that audiences can judge the extent to which they can trust the story.",
+      "chapter": "Data Collection Transparency",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data limitations",
+        "quality disclosure",
+        "audience trust"
+      ],
+      "notes": "Disclose data limitations so audience can calibrate trust"
+    },
+    {
+      "extract": "Algorithmic transparency requires an accounting of the use of data and how the algorithm is involved in the news production process. The algorithms have a strong influence on the extraction of data, discourse analysis, and interpretation of results, because they are human 'creations,' meaning that multiple human factors, including the creator's intent, are embedded in the algorithms.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic transparency",
+        "human bias in algorithms",
+        "accountability"
+      ],
+      "notes": "Algorithms embed creator intent; transparency means disclosing how they shape results"
+    },
+    {
+      "extract": "According to Nicholas Diakopoulos, algorithmic transparency consists of five specific aspects: (1) the criteria used to prioritize, rank, emphasize, or editorialize things in the algorithm; (2) what data act as inputs to the algorithm; (3) the accuracy including the false positive and false negative rate of errors; (4) descriptions of training data and its potential bias; and (5) the definitions, operationalizations, or thresholds used by similarity or classification algorithms.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic transparency",
+        "Diakopoulos framework",
+        "error rates",
+        "training data"
+      ],
+      "notes": "Five-aspect algorithmic transparency checklist from Diakopoulos"
+    },
+    {
+      "extract": "BuzzFeed published the raw data, algorithmic procedures, and analysis process of 'The Tennis Racket,' a collaboration with the BBC, on GitHub. Although BuzzFeed stated in advance that the results of the analysis were not evidence that the player had faked the game and anonymized the data, those familiar with the field could easily find out who the suspected faker was based on the full data and analysis process provided by BuzzFeed. Transparency in this case is a bit 'excessive,' and there should be limits to transparency.",
+      "chapter": "Algorithmic Transparency",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency limits",
+        "privacy",
+        "anonymization failure",
+        "harm"
+      ],
+      "notes": "Full transparency can harm individuals even with anonymization; limits needed"
+    },
+    {
+      "extract": "Transparency in data visualization means linking news sources in the visualization as much as possible, fully explaining any caveats related to the data or to the chart itself, and informing the wider public of the danger signs to watch out for before spreading what may turn out to be misinformation. If a data visualization designer uses an unconventional design, the audience needs to be reminded to avoid understanding it in a conventional way.",
+      "chapter": "Data Visualization Transparency",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization transparency",
+        "caveats",
+        "source linking",
+        "unconventional design"
+      ],
+      "notes": "Burn-Murdoch: link sources, explain caveats, flag unconventional designs"
+    },
+    {
+      "extract": "Correction transparency means that when a data journalism piece is significantly flawed, the media must explain the reasons for the error and apologize to the audience. The media also needs to make transparent some other details in data journalism production that should be explained to the audience, such as the motivation for the selection of the topic, the problems encountered in the interview, and how they were solved.",
+      "chapter": "Other Transparency Matters",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "corrections",
+        "error handling",
+        "editorial transparency",
+        "motivation disclosure"
+      ],
+      "notes": "Disclose corrections with explanations, topic motivation, and production challenges"
+    },
+    {
+      "extract": "Liliana Bounegru et al. summarize five models for narrating networks: (1) Exploring Associations Around Single Actors (ego networks), (2) Detecting Key Players (by connection count), (3) Mapping Alliances and Oppositions (groupings and gaps), (4) Exploring the Evolution of Associations Over Time, and (5) Revealing Hidden Ties (hidden paths between nodes).",
+      "chapter": "Social Network Dimension: Revealing Relationships in Complex Networks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "network analysis",
+        "narrative models",
+        "ego networks",
+        "hidden ties"
+      ],
+      "notes": "Five models for network storytelling from Bounegru et al."
+    },
+    {
+      "extract": "The Texas Tribune's Schools Explorer presents the state's data on easy-to-follow charts, empowers users to create their own side-by-side comparisons, and uses an algorithm to generate summary sentences. Although The Texas Education Agency has already published such data on the web, the information on the government site is too complex, forcing parents to navigate a bewildering sea of acronyms, links, and PDFs.",
+      "chapter": "Product Awareness: Emphasizing User Experience",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data apps",
+        "government data",
+        "user experience",
+        "automated summaries"
+      ],
+      "notes": "Texas Tribune model: simplify gov data with comparisons and auto-generated summaries"
+    },
+    {
+      "extract": "The design of news gamification has three values: first, it caters to the participatory culture of social platforms; second, it enhances the fun and attractiveness of data products through interaction; and third, it changes the one-time consumption of data news and builds a 'strong relationship' with users through multiple participation of individual users and sharing with others.",
+      "chapter": "Gamified Design",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "gamification",
+        "engagement",
+        "repeat use",
+        "participatory culture"
+      ],
+      "notes": "Three values of news gamification: participation, attractiveness, repeat engagement"
+    }
+  ]
+}

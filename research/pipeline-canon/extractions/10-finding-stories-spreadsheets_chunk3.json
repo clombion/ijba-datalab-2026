@@ -1,0 +1,219 @@
+{
+  "source_id": "10",
+  "source_file": "10-finding-stories-spreadsheets.md",
+  "source_title": "Finding Stories in Spreadsheets",
+  "author": "Paul Bradshaw",
+  "year": "2015",
+  "chunk": "3/3",
+  "chunk_file": "10-finding-stories-spreadsheets_chunk3.md",
+  "chunk_words": 23543,
+  "extracts": [
+    {
+      "extract": "What sparklines allow you to is at a glance see how a series of values are behaving. Sparklines are tiny line or bar charts drawn within a cell in your spreadsheet. Unlike data visualisation more generally, their purpose is entirely personal: a way for you to, at a glance, interpret the data in each row or column.",
+      "chapter": "Comparing change visually by generating sparkline charts",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory analysis",
+        "visual inspection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Specifying the minimum and/or maximum values for the sparkline is a good way to correct this if you want all your sparklines to be using the same base or maximum. Two sparkline charts may have different bases and peaks, unless the maximum and minimum are specified in the formula.",
+      "chapter": "Keeping it relative: specifying minimum and maximum scale",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "comparability",
+        "normalisation",
+        "visual inspection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "QUERY allows you to form questions of your data. There are two major advantages: firstly, it allows you to quickly perform a number of calculations and filters all at once. And secondly, it allows you to dynamically generate versions of your data which answer particular questions.",
+      "chapter": "Asking questions SQL-style: QUERY",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data querying",
+        "filtering",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If your data is published, QUERY allows you to create as many different URLs as the number of questions you can come up with. Each URL will show a different view on your data which answers that question. The user writes the query, not you.",
+      "chapter": "Generating hackable URLs for users to see the data their own way",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "data publishing",
+        "user engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you wanted to show the density of torchbearers in different areas you could scatter the markers slightly so people can get a visual impression of the distribution. Clearly this brings up issues around misleading users, so you must state clearly that positions are indicative and not exact.",
+      "chapter": "Adding some randomness: spreading out locations using RAND",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "mapping",
+        "visualisation ethics",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ranking is particularly useful if you want to compare ranks. You can use RANK to find out what rank each percentage would have placed in for each year. Once you have both ranks, you can calculate if they have moved up or down, and which have moved the most.",
+      "chapter": "Is this value ranked high or low: RANK, LARGE and SMALL",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ranking",
+        "comparability",
+        "change over time"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Both Kent and Birmingham are large authorities, with large populations. It highlights a problem with any dataset that only gives you absolute numbers rather than proportions or per capita figures: the biggest places will invariably come top; the smallest will come near the bottom. What you need to do is make sure you are comparing per capita figures.",
+      "chapter": "Is this value ranked high or low: RANK, LARGE and SMALL",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "normalisation",
+        "comparability",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is quite useful in reporting data stories to be able to say what percentage of values a number is above or below. PERCENTRANK allows you to see what percentage of numbers in a range are below a specified value. PERCENTILE gives you the value at a specified percentile, useful for reporting key benchmarks.",
+      "chapter": "What percentile is this at or above: PERCENTRANK and PERCENTILE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistical context",
+        "benchmarking",
+        "audience communication"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good habit is to always test your formula on a result you should be able to predict. In this case, let us test PERCENTRANK on the top performing runners. The results are already sorted by finishing order so we already know who finished first.",
+      "chapter": "What percentile is this at or above: PERCENTRANK and PERCENTILE",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "testing",
+        "error detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using quartiles allows you to get an accurate overview of the distribution of values. The more categories you create, the more complicated things become and the less clear the story is. Keep things simple and clear wherever you can unless there is a good reason to do otherwise.",
+      "chapter": "Classifying data into quarters: QUARTILE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "classification",
+        "distribution analysis",
+        "simplicity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "PFEye decided to colour code each contract in categories of contract value. These are meaningful categories but arbitrary: the contracts are not evenly distributed between these five categories. Two of the five categories have been allocated to the top fifth, while the bottom two fifths are squeezed into just one category. Perhaps the large amounts skew our perception of the data.",
+      "chapter": "Classifying data into quarters: QUARTILE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "classification",
+        "data distribution",
+        "bias awareness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Patrick used the LARGE function to find the second biggest number, combined it with MATCH to identify which column that was in, and then used that with INDEX to grab the authority at the same position. To do this manually would take forever: we would have to look across 200-ish columns for each of the 200-ish rows.",
+      "chapter": "Cross referencing: INDEX and MATCH",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "cross-referencing",
+        "scalability",
+        "automation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Correlation does not mean causation. In many ways for journalists a weak correlation is more useful than a strong one: it can help rule out a potential avenue of enquiry, while a strong correlation proves nothing. Correlation also helps with factchecking: if a politician is bandying around the phrase strong correlation then you can confidently say there is no strong correlation.",
+      "chapter": "Getting statistical: correlation with CORREL",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical literacy",
+        "causation",
+        "factchecking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This is sometimes called the multiple comparisons problem: the more variables you can look at, the more likely it is that you find a correlation between any two of them. This problem is particularly compounded by the rise of big data: large datasets with lots of different variables.",
+      "chapter": "Getting statistical: correlation with CORREL",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical literacy",
+        "big data",
+        "spurious correlation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You should have a broader understanding of computational thinking: the ability to break down a problem into logical steps, which can then be addressed through programming. It is not about memorising formulae and being able to reproduce them on demand, but rather to know what is possible and be able to access examples.",
+      "chapter": "The final chapter: next steps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "problem decomposition",
+        "skill development"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You do not have to write code from scratch: most of the time you will be able to find example macros that you can copy or adapt. A good path: follow a tutorial where you copy and paste, try to understand what one part is doing, then change that part so it does something slightly different. It is always useful to start with a problem which applies to you.",
+      "chapter": "The final chapter: next steps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "skill development",
+        "learning strategy",
+        "computational thinking"
+      ],
+      "notes": ""
+    }
+  ]
+}

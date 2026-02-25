@@ -1,0 +1,53 @@
+{
+  "source_id": "121",
+  "source_file": "121-escola-de-dados-tutorials.md",
+  "source_title": "Escola de Dados — Courses and Tutorials",
+  "author": "Escola de Dados",
+  "year": "ongoing",
+  "chunk": null,
+  "chunk_words": 1564,
+  "extracts": [
+    {
+      "extract": "Data scraping is a technique in which a computer program extracts information from an interface designed for human reading. In journalism, this technique has been applied mainly to extract information from web pages and from documents that are not organized in a structured way, such as PDFs.",
+      "chapter": "Tutorial 1: Scraping and Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "data acquisition",
+        "PDFs",
+        "structured data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Programming 'bots' that perform automated data collection from digital systems is a skill that any journalist of this century must develop. If before we needed to do good 'social scraping' to conduct our investigations (talking to sources and building lasting interpersonal relationships), today, in addition to that, we need to extend those skills to the digital realm using computing techniques.",
+      "chapter": "The Journalist-Programmer",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scraping",
+        "automation",
+        "digital skills",
+        "journalist-programmer"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Extracting and compiling information scattered around the web into a structured format can make it possible to uncover potential irregularities, correlations, raise important questions, and open paths to producing useful services and tools.",
+      "chapter": "Tutorial 1: Scraping and Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "scraping",
+        "structured data",
+        "investigation",
+        "public interest"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "source_id": "67",
+  "source_file": "67-dj-systematic-literature-review.md",
+  "source_title": "Data Journalism: A Systematic Literature Review",
+  "author": "Özlem Erkmen",
+  "year": "2023",
+  "chunk": "1/1",
+  "chunk_file": "67-dj-systematic-literature-review_chunk1.md",
+  "chunk_words": 9959,
+  "extracts": [
+    {
+      "extract": "SLRs offer advantages over traditional literature reviews, which tend to be limited to literature already known to the authors or found through cursory searches. By contrast, SLRs require researchers to use broader search strategies, predefined search strings, and uniform inclusion and exclusion criteria, which can help to uncover studies outside of their typical areas of research and networks.",
+      "chapter": "Method",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "systematic review",
+        "methodology",
+        "search strategy",
+        "inclusion criteria"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "an initial search was conducted in the WOS Core Collection using data journalism and data-driven journalism as keywords to identify relevant studies. Keywords related to earlier forms of quantitative journalism were omitted since data journalism is not solely considered an evolution of those fields. The search spanned from December 1, 2008, to December 31, 2022, marking 2008 as the starting point because that is when the term data journalism was first used.",
+      "chapter": "Keywords and Time Interval",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search strategy",
+        "keywords",
+        "Web of Science",
+        "time interval"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A coding guideline based on prior familiarity with data journalism scholarship was developed, covering article and author details, theoretical approaches, and methodological approaches. A pilot test involving a random sample of ten manuscripts validated the coding guidelines and predetermined categories for clarity and effectiveness. A coding log documented the rationale of categorization, encountered challenges, and their resolutions.",
+      "chapter": "Full Text Review: Coding and Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "coding guidelines",
+        "pilot testing",
+        "inter-coder reliability",
+        "systematic review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "data journalism focuses on using data as a primary source for storytelling and reporting. Additionally, it embraces participatory practices by involving the public in data collection, analysis, visualization, and storytelling. Furthermore, it advocates for open data policies and promotes the release of government or institutional datasets to the public.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism definition",
+        "participation",
+        "open data",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Verification, cross-checking from various sources, contextualizing the data, including the investigation methodology, and protecting sources are, in turn, the ethical standards of the practice.",
+      "chapter": "Findings",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "cross-checking",
+        "ethics",
+        "source protection",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "data journalism's dependence on readily accessible, pre-processed public data from official institutions and non-commercial organizations and easy-to-use or freely available software solutions, is considered an obstacle to its development.",
+      "chapter": "Findings",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "official data dependence",
+        "software tools",
+        "barriers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "incomplete, outdated or error-filled data, inconvenient file formats, such as scanned copies of texts or PDF files containing tables, and the lack of digital/data literacy are significant challenges faced by data journalists worldwide. However, these challenges are more severe in the Global South where the lack of open data infrastructure and right-to-information legislation hampers data journalists' work.",
+      "chapter": "Findings",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "file formats",
+        "data literacy",
+        "Global South",
+        "FOI"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "data journalism research tends to focus more on practice than theory. only 47% of the corpus referring to a theoretical framework. The most commonly used theoretical frameworks are actor-network theory and field theory.",
+      "chapter": "The Scholarship Lacks Strong Theoretical Framework and Methodological Diversity",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "theoretical frameworks",
+        "actor-network theory",
+        "field theory",
+        "research gaps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "the methodological approaches of the studies, like their theoretical frameworks, needed more diversity and clarity. the consistent use of small samples from a single outlet or country poses a challenge to generalizing findings and building theories through comparative work. Moreover, the repeated focus on cases from North America and Europe risks reinforcing the problematic notion of a more advanced West.",
+      "chapter": "The Scholarship Lacks Strong Theoretical Framework and Methodological Diversity",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "methodological diversity",
+        "generalizability",
+        "Western bias",
+        "comparative research"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The most common methods are in-depth interviews (48 studies) and content analysis (31 studies). Other techniques such as surveys (13 studies), observations/newsroom ethnographies (9 studies), and document reviews (6 studies) are also frequently used. However, less common methods such as experiments (2 studies), participatory mapping (1 study), and scenario network mapping (1 study) are used at lower rates.",
+      "chapter": "The Scholarship Lacks Strong Theoretical Framework and Methodological Diversity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "research methods",
+        "interviews",
+        "content analysis",
+        "methodological diversity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Qualitative interviews can provide valuable insights into the processes and dynamics of creating data-driven news. However, more than these testimonies alone is needed to reveal whether there are discrepancies between interviewees' perceived roles and their actual performance. Therefore, researchers often combine interviews with other techniques, such as content or document analysis, to examine the observable attributes of the news.",
+      "chapter": "The Scholarship Lacks Strong Theoretical Framework and Methodological Diversity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "interviews",
+        "content analysis",
+        "mixed methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "postcolonial theory highlights the importance of engaging with diverse voices and perspectives and recognizing how power and privilege shape who has access to data and who can shape data-driven narratives. Furthermore, it can help critically examine how data is used to reinforce existing power structures and inequalities and identify strategies for using data to challenge and disrupt these structures.",
+      "chapter": "The Scholarship Lacks Strong Theoretical Framework and Methodological Diversity",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "postcolonial theory",
+        "power structures",
+        "data access",
+        "critical perspectives"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Scholars should consider utilizing triangulation and long-term explorations to understand data journalism in diverse contexts comprehensively. For instance, newsroom ethnographies can provide an in-depth understanding of the roles of peripheral actors, such as non-profits and civic technologists. Focus groups can also yield comprehensive and in-depth insights into attitudes, beliefs, experiences, and behaviors.",
+      "chapter": "Discussion and Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "ethnography",
+        "focus groups",
+        "longitudinal research"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A holistic data journalism education should combine practical and theoretical content, encompassing both statistical and editorial skills, and encourage journalists to think in terms of data. Unfortunately, the lack of in-house professional development programs makes it challenging for data journalists working in the industry to acquire these skills.",
+      "chapter": "Findings",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data journalism education",
+        "skills gap",
+        "professional development",
+        "curriculum"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "technical and economic inequalities may create unequal access to data, exacerbating the gap in data journalism practices between information-rich and information-poor countries. More large-scale, comparative research is required to challenge dominant Western-centric approaches to data journalism and assess local practices in their distinct settings.",
+      "chapter": "Discussion and Conclusion",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data inequality",
+        "comparative research",
+        "Western-centrism",
+        "Global South"
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "source_id": "7",
+  "source_file": "07-ddj-handbook-1.md",
+  "source_title": "The Data Journalism Handbook 1",
+  "author": "Jonathan Gray, Liliana Bounegru, Lucy Chambers (eds.)",
+  "year": "2012",
+  "chunk": "2/2",
+  "chunk_file": "07-ddj-handbook-1_chunk2.md",
+  "chunk_words": 33490,
+  "extracts": [
+    {
+      "extract": "If you want to analyze, explore, or manipulate data using a computer, then you should explicitly ask for data in an electronic, machine-readable format. You may wish to clarify this by specifying, for example, that you require budgetary information in a format suitable for analysis with accounting software. You may also wish to explicitly ask for information in disaggregated or granular form.",
+      "chapter": "Getting Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data formats",
+        "machine-readable data",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is possible to find information about NGOs, private companies, religious organizations, and other organizations that are not required to release documents under FOI laws by asking public bodies which are covered by FOI laws. For example, you could ask a government department or ministry if they have funded or dealt with a specific private company or NGO and request supporting documents.",
+      "chapter": "Getting Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data acquisition",
+        "workarounds",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I used FOI to ensure the data released under the UK transparency agenda is well-explained and contains what it should. FOI can be used not just to obtain data, but to request the schema of the database, the guidance workers receive when they work with the data, and the contract with the database provider.",
+      "chapter": "Using FOI to Understand Spending",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data documentation",
+        "metadata",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Go wob-shopping. We have a fabulous diversity of freedom of information laws in Europe, and different countries have different political interests at different times. This can be used to your advantage. It greatly helped our case to point out to the Dutch authorities that the data was accessible in Denmark.",
+      "chapter": "Wobbing Works. Use It!",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "cross-border journalism",
+        "data acquisition",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't take no for an answer when it's about transparency. Be persistent and follow a story over time. Things may well change and allow better reporting based upon better access at a later point.",
+      "chapter": "Wobbing Works. Use It\\!",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI",
+        "persistence",
+        "transparency",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Get out good raw material even if you find it in unexpected places and combine it with existing publicly accessible data. In this case the data had to be extracted from documents and sorted in databases. By augmenting the data with further data, analysis, and research, they were able to map numerous routes of the illegal weapon trade.",
+      "chapter": "Wobbing Works. Use It!",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data extraction",
+        "document analysis",
+        "data combination",
+        "investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Comparing the records with comparable data from similar government entities can display deviations and shed light on probable corruption. Exaggerated and unusual expenses can be detected only by comparison. We put the data in spreadsheets, ran basic checks and comparisons among the municipalities and got maximum and minimum figures.",
+      "chapter": "FOI with Friends",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "comparative analysis",
+        "corruption",
+        "outlier detection",
+        "spreadsheets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Machine-readable data is created for processing by a computer, instead of the presentation to a human user. The structure of such data relates to contained information, and not the way it is displayed eventually. Examples of easily machine-readable formats include CSV, XML, JSON, and Excel files, while formats like Word documents, HTML pages, and PDF files are more concerned with the visual layout of the information.",
+      "chapter": "Getting Data from the Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "machine-readable data",
+        "data formats",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The real complexity involved in scraping a website is in addressing the right pages and the right elements within these pages to extract the desired information. These tasks aren't about programming, but understanding the structure of the website and database.",
+      "chapter": "Getting Data from the Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "web scraping",
+        "data structure",
+        "technical skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Choosing the right programming language is largely a question of which community you have access to: if there is someone in your newsroom or city already working with one of these languages, then it makes sense to adopt the same language.",
+      "chapter": "Getting Data from the Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "programming languages",
+        "newsroom skills",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The challenge with huge swathes of UK data isn't getting it released—it's getting it into a usable format. Using a service like ScraperWiki to ask coders to produce a scraper did around half of our job for us: we had all MPs' information in one sheet, ready for the lengthy task of analysing and cleaning. Services like this or tools such as Outwit Hub are a huge help to journalists trying to compile messy data who are unable to code themselves.",
+      "chapter": "Getting Data from the Web",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "ScraperWiki",
+        "data cleaning",
+        "non-coders"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you go to whois.domaintools.com you can get the basic registration information for any website. You can also enter numerical IP addresses and get data on the organization or individual that owns that server. This is especially handy when you're trying to track down more information on an abusive or malicious user of a service.",
+      "chapter": "The Web as a Data Source",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "verification",
+        "WHOIS",
+        "digital investigation",
+        "source checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's common for scammers and spammers to astroturf their way towards legitimacy by building multiple sites that review and link to each other. They look like independent domains, and may even have different registration details, but they'll often actually live on the same server because that's a lot cheaper. Cohosted-with statistics give you an insight into the hidden business structure of the site you're researching.",
+      "chapter": "The Web as a Data Source",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "digital investigation",
+        "web analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "TinEye offers a specialized reverse image search process, where you give it the image you have, and it finds other pictures on the web that look very similar. Because they use image recognition to do the matching, it even works when a copy has been cropped, distorted, or compressed. This can be extremely effective when you suspect that an image is being misrepresented, since it can lead back to the actual source.",
+      "chapter": "The Web as a Data Source",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "verification",
+        "reverse image search",
+        "TinEye",
+        "source checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When a page becomes controversial, the publishers may take it down or alter it without acknowledgment. The first place to turn is Google's cache of the page as it was when it did its last crawl. For longer time periods like months or years, the Internet Archive runs a service called The Wayback Machine that periodically takes snapshots of the most popular pages on the web.",
+      "chapter": "The Web as a Data Source",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "verification",
+        "web archives",
+        "Google cache",
+        "Wayback Machine"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Email headers work like postmarks, and can reveal a surprising amount about the sender. They often include the IP address of the machine that the email was sent from. You can then run whois on that IP number to find out which organization owns that machine. If it turns out to be a consumer ISP, you can visit MaxMind to get its approximate location.",
+      "chapter": "The Web as a Data Source",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "email analysis",
+        "IP geolocation",
+        "digital investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sometimes you will get a ton of files, statistics, or reports which it is impossible for one person to go through. This is where crowdsourcing can help. A lot of the crowdsourcing we have done relies on help from obsessives. Making it more like a game can really help to engage people. Giving people specific tasks made a big difference because presenting people with a mountain of information to go through can make for hard and unrewarding work.",
+      "chapter": "Crowdsourcing Data at the Guardian Datablog",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "audience engagement",
+        "gamification",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Regarding the reliability of crowdsourced data, the approach that Old Weather have got is really good. They get ten people to do each entry, which is a good way to ensure accuracy. The data we were getting out was not always reliable. Even though stories were great, it wasn't producing raw numbers that we could confidently use.",
+      "chapter": "Crowdsourcing Data at the Guardian Datablog",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "crowdsourcing",
+        "data quality",
+        "reliability",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can't just think 'What do I want to know for my story?', you have to think 'What do people want to tell me right now?' It's only when you tap into what people want to talk about that crowdsourcing is going to be successful.",
+      "chapter": "How the Datablog Used Crowdsourcing to Cover Olympic Ticketing",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "crowdsourcing",
+        "audience engagement",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Have very specific things you want to know. Ask things that get multiple choice responses as much as possible. Try to get some basic demographics of who you are talking to so you can see if your sample might be biased. If you are asking for amounts, try in the guidance to specify that it's in digits, that they have to use a specific currency. And always add a comment box.",
+      "chapter": "How the Datablog Used Crowdsourcing to Cover Olympic Ticketing",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "survey design",
+        "data collection",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Rather than taking only valid responses, I tried to fix what I had. Some people had used foreign currencies, so I converted them to sterling. I knocked out the obviously silly entries and a few dozen who put in obviously fake high amounts to try to distort the results. That left me with a set that I could use with the normal data principles we use every day. I did a pivot table. I did some averaging.",
+      "chapter": "How the Datablog Used Crowdsourcing to Cover Olympic Ticketing",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "outlier removal",
+        "crowdsourcing",
+        "spreadsheets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You have to start by thinking, 'What is the best tool for what I want to know?' Is it a comment thread? Or is it building an app? And if it is building an app, you have to think 'Is this worth the wait? And is it worth the resources that are required to do it?' Google Forms was chosen because if someone fills in the form, you can see the result as a row on a spreadsheet.",
+      "chapter": "How the Datablog Used Crowdsourcing to Cover Olympic Ticketing",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tool selection",
+        "Google Forms",
+        "crowdsourcing",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-literacy is the ability to consume for knowledge, produce coherently, and think critically about data. Data literacy includes statistical literacy, but also understanding how to work with large datasets, how they were produced, how to connect various datasets, and how to interpret them.",
+      "chapter": "Become Data Literate in Three Simple Steps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "statistical literacy",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When in doubt about a number's credibility, always double-check, just as you'd have if it had been a quote from a politician. For police data, sociologists often carry out victimization studies, in which they ask people if they are subject to crime. These studies are much less volatile than police data. Other tests let you assess precisely the credibility of the data, such as Benford's law, but none will replace your own critical thinking.",
+      "chapter": "Become Data Literate in Three Simple Steps",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data credibility",
+        "critical thinking",
+        "Benford's law"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always take the distribution and base rate into account. Checking for the mean and median, as well as mode helps you gain insights in the data. Knowing the order of magnitude makes contextualization easier. Reporting in natural frequencies (1 in 100) is way easier for readers to understand than using percentage (1%).",
+      "chapter": "Become Data Literate in Three Simple Steps",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "statistics",
+        "data interpretation",
+        "audience comprehension",
+        "numeracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a journalist, it makes little sense to challenge the numerical results of a study, such as the sample size, unless there are serious doubts about it. However, it is easy to see if researchers failed to take relevant pieces of information into account. If researchers don't control for lifestyle factors, they tell us nothing more than 'rich people are healthier.'",
+      "chapter": "Become Data Literate in Three Simple Steps",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "correlation vs causation",
+        "research literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Think of data as something to play with and explore and it will often yield secrets and stories with surprising ease. Handle it simply as you'd handle other evidence, without fear or favor. Be creative by thinking of the alternative stories that might be consistent with the data and explain it better, then test them against more evidence. 'What other story could explain this?' is a handy prompt.",
+      "chapter": "Tips for Working with Numbers in the News",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "data analysis",
+        "hypothesis testing",
+        "skepticism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you believe in data, try to let it speak before you slap on your own mood, beliefs, or expectations. Data journalism adds little value if you are not open-minded. It is only as objective as you strive to make it, and not by virtue of being based on numbers.",
+      "chapter": "Tips for Working with Numbers in the News",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "bias",
+        "critical thinking",
+        "data interpretation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Uncertainty is OK. We associate numbers with authority and certainty. Often the answer is that there is no answer, or the answer may be the best we have but still wouldn't hit a barn door for accuracy. There can often be more than one legitimate way of cutting the data. Numbers don't have to be either true or false.",
+      "chapter": "Tips for Working with Numbers in the News",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "uncertainty",
+        "data interpretation",
+        "epistemology",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The investigation is a story. The story of how you tried to find out can make great journalism, as you go from one piece of evidence to another. Different sources provide new angles, new ideas, and richer understanding. I wonder if we're too hung up on wanting to be authoritative and tell people the answer—and so we miss a trick by not showing the sleuthing.",
+      "chapter": "Tips for Working with Numbers in the News",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "storytelling",
+        "methodology",
+        "process journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data requests should begin with a list of questions you want to answer. Working with data is like interviewing a live source. You work backward. First, list the data-evidenced statements you want to make in your story. Then decide which variables and records you would have to acquire and analyze in order to make those statements.",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "research design",
+        "question-driven analysis",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's often a good idea to request all the variables and records in the database, rather than the subset that could answer the questions for the immediate story. Getting all the data can be cheaper than getting a subset. You can always subset the data on your own, and having access to the full dataset will let you answer new questions that may come up.",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "completeness",
+        "FOI",
+        "research design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the biggest problems in database work is that often you will be using data for analysis reasons that has been gathered for bureaucratic reasons. The standard of accuracy for those two is quite different. The first big piece of work when you acquire a new dataset is to examine how messy it is and then clean it up. A good quick way to look for messiness is to create frequency tables of the categorical variables.",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "data quality",
+        "frequency tables",
+        "bureaucratic data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data cleanup gets even more problematic when working with names. Are 'Joseph T. Smith', 'Joseph Smith', 'J.T. Smith', 'Jos. Smith', and 'Joe Smith' all the same person? It may take looking at other variables like address or date of birth, or even deeper research in other records, to decide. But tools like Google Refine can make the cleanup and standardization task faster and less tedious.",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "entity resolution",
+        "Google Refine",
+        "standardization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Rosetta Stone of any database is the so-called data dictionary. It will tell you how the data file is formatted, the order of the variables, the names of each variable, and the datatype of each variable. The other key element is an explanation of any codes being used by particular variables. Without the data dictionary, these datasets could be difficult or even impossible to analyze properly.",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "metadata",
+        "documentation",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always ask the agency giving you data if there are any undocumented elements in the data, whether it is newly created codes that haven't been included in the data dictionary, changes in the file layout, or anything else. Always examine the results of your analysis and ask 'Does this make sense?'",
+      "chapter": "Basic Steps in Working with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "verification",
+        "undocumented features",
+        "sense-checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do not assume that the background notes for government data will help explain what information is being presented or that the people responsible for the data will realize the data is not clear even when you tell them your mistaken assumption. Journalists have a responsibility to check ridiculous claims, even if it means that this drops the story down the news list.",
+      "chapter": "The 32 Pound Loaf of Bread",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data interpretation",
+        "government data",
+        "responsibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To draw your readers in, you have to be able to hit them with a headline figure that makes them sit up and take notice. You should almost be able to read the story without having to know that it comes from a dataset. We approached the dataset with specific queries in mind, looking for key terms like 'cocktail', 'golf', and 'away days'.",
+      "chapter": "Start With the Data, Finish With a Story",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "keyword search",
+        "data querying",
+        "headline writing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Another approach is to start with a blacklist and look for exclusions. An easy way to pull storylines from data is to know what you shouldn't find in there. We queried the data based on the Commission's own rules about what kinds of companies should be prohibited from receiving structural funds.",
+      "chapter": "Start With the Data, Finish With a Story",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "anomaly detection",
+        "rule-based analysis",
+        "exclusion lists",
+        "investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A typology of different kinds of data stories includes: Measurement (counting or totaling), Proportion, Internal comparison, External comparison, Change over time, League tables, Analysis by categories, and Association. Always remember that correlation and causation are not the same thing.",
+      "chapter": "Data Stories",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story typology",
+        "data analysis",
+        "comparison",
+        "correlation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I don't think that all reporters need to know how to code. But I do think it is very valuable for them to have a more general awareness of what is possible and know how to talk to coders. My advice is to learn Excel and do some simple stories first. Start out small and work your way up to database analysis and mapping.",
+      "chapter": "Data Journalists Discuss Their Tools of Choice",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills development",
+        "Excel",
+        "coding literacy",
+        "newsroom roles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With respect to interpreting data: don't take this lightly. You have to be conscientious. Pay attention to detail and question your results. Keep notes on how you're processing the data and keep a copy of the original data. It is easy to make a mistake. I always do my analysis two or three times practically from scratch. Even better would be to get your editor or someone else to analyze the data separately and compare the results.",
+      "chapter": "Data Journalists Discuss Their Tools of Choice",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "verification",
+        "audit trail",
+        "data integrity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What's really nice about R is that you're able to keep an exact protocol of what you're doing with the data throughout the entire process—from reading a CSV file to generating charts. If the data changes, you can regenerate the chart using one click. If someone is curious about the integrity of your chart, you can show the exact source, which allows everyone to recreate the exact chart on their own.",
+      "chapter": "Data Journalists Discuss Their Tools of Choice",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "reproducibility",
+        "transparency",
+        "audit trail"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is unrealistic to expect that data visualization tools and techniques will unleash a barrage of ready-made stories from datasets. There are no rules, no protocol that will guarantee us a story. Instead, it makes more sense to look for insights, which can be artfully woven into stories in the hands of a good journalist.",
+      "chapter": "Using Data Visualization to Find Insights in Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "insights",
+        "storytelling",
+        "expectations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Start the documentation by writing down initial thoughts before taking your first look at the data. This helps us to identify our bias and reduces the risk of misinterpretation of the data by just finding what we originally wanted to find. The documentation is the most important step of the process. Charts are only valuable if presented in the context in which they have been created.",
+      "chapter": "Using Data Visualization to Find Insights in Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "bias",
+        "audit trail",
+        "data visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Possible data transformations include: Zooming to look at a certain detail; Aggregation to combine many data points into a single group; Filtering to temporarily remove data points not in major focus; and Outlier removal to get rid of single points not representative for 99% of the dataset.",
+      "chapter": "Using Data Visualization to Find Insights in Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data transformation",
+        "filtering",
+        "aggregation",
+        "outlier removal"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Visualization and data wrangling should be easy and cheap. If changing parameters of the visualizations takes you hours, you won't experiment that much. It often makes a lot of sense to choose a tool that covers both the data wrangling and the data visualization issues. Separating the tasks in different tools means that you have to import and export your data very often.",
+      "chapter": "Using Data Visualization to Find Insights in Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tool selection",
+        "workflow efficiency",
+        "data visualization",
+        "iteration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We try to pick tools that anyone could get the hang of without learning a programming language or having special training and without a hefty fee attached. All the datasets we tidy and release are available as a Google Spreadsheet, which means people with a Google account can download the data, import it into their own account and make their own charts.",
+      "chapter": "Data Journalists Discuss Their Tools of Choice",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "accessibility",
+        "open data",
+        "Google Spreadsheets",
+        "audience tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bad data visualization is worse in many respects than none at all. With the barrier to entry now barely a speed bump, the question facing journalists is now less about whether you can turn your dataset into a visualization, but whether you should.",
+      "chapter": "Presenting Data to the Public",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "editorial judgment",
+        "quality standards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our workflow usually starts in Excel. It is such an easy way to quickly work out if there's something interesting in the data. If we have a sense that there is something in it, then we go to the news desk. Then we look at how we should visualize it or show it on the page. Then we write the post that goes with it.",
+      "chapter": "Presenting Data to the Public",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "Excel",
+        "newsroom integration",
+        "editorial process"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We often will embed our data onto our site in a visualization and in a form that allows for easy download of the dataset. It increases the transparency of The Seattle Times. We are showing the readers the same data that we used to draw powerful conclusions. By making the data available we also can enlist tips from these same critics and general readers on what we may have missed.",
+      "chapter": "Presenting Data to the Public",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "open data",
+        "audience engagement",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Giving news consumers easy access to the data we use for our work is the right thing to do. Readers can assure themselves that we aren't torturing the data to reach unfair conclusions. Opening up our data is in the social science tradition of allowing researchers to replicate our work. Encouraging readers to study the data can generate tips that may lead to follow-up stories.",
+      "chapter": "Presenting Data to the Public",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "transparency",
+        "reproducibility",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Know your scope. There's a big difference between hacking for fun and engineering for scale and performance. Make sure you've partnered with people who have the appropriate skill set for your project. Don't forget design. Usability, user experience, and presentation design can greatly affect the success of your project.",
+      "chapter": "Presenting Data to the Public",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "team composition",
+        "UX design",
+        "scope"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Any discussion about how to build a great news app should start with a product development mentality: keep a laser focus on the user. News apps don't serve the story for its own sake—they serve the user. Always be aware of the people who will be using it. Concentrate on designing and building features based on their needs.",
+      "chapter": "How to Build a News App",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "news apps",
+        "user-centered design",
+        "product development"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Developers in the newsroom are like water in the desert: highly sought-after and in short supply. Just because a story lends itself to a complex, beautiful news app doesn't mean you need to build one. Balancing priorities is critical. Every app you build comes at a cost: namely, another potentially more impactful app you could have been working on instead.",
+      "chapter": "How to Build a News App",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resource allocation",
+        "newsroom priorities",
+        "opportunity cost",
+        "developers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A news app should tell a story, and just like any good news story, it needs a headline, a byline, a lead, and a nut graph. A news app should be generative, meaning it should generate more stories and more reporting. We tend to build news apps when we have a dataset that is national in scope yet granular enough to expose meaningful details.",
+      "chapter": "News Apps at ProPublica",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "news apps",
+        "storytelling",
+        "generative journalism",
+        "data granularity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We follow a modified Agile methodology to build our apps. We iterate quickly and show drafts to the other folks in the newsroom. Most importantly, we work really closely with reporters and read their drafts. We work much more like reporters than like traditional programmers. In addition to writing code, we call sources, gather information, and build expertise.",
+      "chapter": "News Apps at ProPublica",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "agile methodology",
+        "newsroom collaboration",
+        "developer roles",
+        "iteration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In the reporting phase, visualizations can: help you identify themes and questions for the rest of your reporting; identify outliers—good stories, or perhaps errors, in your data; help you find typical examples; and show you holes in your reporting. Start early and often with visualizations in your reporting. Don't consider it a separate step, something to be considered after the story is largely written.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "reporting workflow",
+        "exploratory analysis",
+        "outliers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use small multiples to quickly orient yourself in a large dataset. This was really easy to see in a series of graphs rather than a table of numbers, and an interactive form let us check various types of grants, regions and agencies. Maps in small multiples can be a way to show time and place on a static image that's easy to compare.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "small multiples",
+        "data visualization",
+        "pattern detection",
+        "exploratory analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When you're trying to understand a story or a dataset, there's no wrong way to look at it; try it every way you can think of. Use raw numbers, percentages, and indexes. Look at them on different scales. Try following the rule that the x-axis must be zero. Then break that rule and see if you learn more. Try out logarithms and square roots for data with odd distributions.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory analysis",
+        "data visualization",
+        "scales",
+        "multiple perspectives"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you want to publish anything based on your early exploration, you have to resolve questions and you can't make assumptions. They're either interesting stories or mistakes. First, walk back your own work. Have you read the documentation, its caveats and does the problem exist in the original version of the data? If everything on your end seems right, then it's time to pick up the phone.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "assumption checking",
+        "source consultation",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Your exploratory graphics should be generally correct, but don't worry if you have various levels of rounding, if they don't add up to exactly 100 percent or if you are missing one or two years' data out of 20. This is part of the exploration process. You'll still see the big trends and know what you have to collect before it's time for publication.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory analysis",
+        "precision",
+        "iteration",
+        "data visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "At the start of any complex story, begin building chronologies of key events and cases. You can use Excel, a Word document, or a special tool like TimeFlow for the task, but at some point you will find a dataset you can layer behind. Reading through it periodically will show you what holes are in your reporting that have to be filled out.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "chronologies",
+        "reporting workflow",
+        "gap analysis",
+        "story structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Brainstorm about possible graphics with the artists and designers in your newsroom. They will have good ways to look at your data, suggestions of how it might work interactively, and know how to connect data and stories. It will make your reporting much easier if you know what you have to collect early on.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "graphics department",
+        "workflow",
+        "newsroom roles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There's no hiding in an interactive graphic. If you are really going to have your readers explore the data any way they want, then every data element has to be what it claims to be. If you're building your own database, you should expect to proofread, fact check, and copyedit the entire database.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "fact-checking",
+        "interactive graphics",
+        "publication standards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The graphic should satisfy two different kinds of readers. It should be easy to understand at a glance, but complex enough to offer something interesting to people who want to go further. Decide on the overwhelming impression you want a reader to get, and make everything else disappear.",
+      "chapter": "Visualization as the Workhorse of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "audience design",
+        "simplification",
+        "information hierarchy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data visualization leverages a powerful cognitive advantage: fully half of the human brain is devoted to processing visual information. A well-designed data visualization can give viewers an immediate and profound impression, and cut through the clutter of a complex story to get right to the point. Data visualization is deeply rooted in measurable facts—less emotionally charged, more concerned with shedding light than heat.",
+      "chapter": "Using Visualizations to Tell Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "cognition",
+        "storytelling",
+        "objectivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When not to use data visualization: when your story can be better told through text or multimedia; when you have very few data points; when you have very little variability in your data, no clear trend, or conclusion; when the spatial element is not meaningful; when a table would do.",
+      "chapter": "Using Visualizations to Tell Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "editorial judgment",
+        "chart selection",
+        "restraint"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a journalist, the most important aspect of working with the data is that you first choose the story you are interested in telling. Both grouped and stacked bar charts are valid displays of the same information, but they are two different stories using the same starting data. The story will guide the choice of visualization.",
+      "chapter": "Different Charts Tell Different Tales",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "chart selection",
+        "storytelling",
+        "data visualization",
+        "editorial judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bars are used for discrete units of measurement, whereas lines are used when it is a continuous value. It is OK to not use every piece of data in your story. You shouldn't have to ask permission to be concise, it should be the rule. Starting small is the most effective way to tell the story, slowly building only when needed.",
+      "chapter": "Different Charts Tell Different Tales",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart selection",
+        "data visualization",
+        "conciseness",
+        "bar vs line"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good visualization is like a good picture. You understand what it is about just by looking at it for a moment or two. The more you look at the visual, the more you see. The visualization is bad when the reader does not know where to start or where to stop, and when the visualization is overloaded by details.",
+      "chapter": "How We Serve Data at Verdens Gang",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "simplicity",
+        "information overload",
+        "design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When visualizing data, it is important to understand the level of data literacy of our users. Complex diagrams and interactive applications might not meaningfully communicate to our users. A good visualization will speak to the user in a language they can understand, and bring forth a story that they can easily connect with.",
+      "chapter": "Public Data Goes Social",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "audience awareness",
+        "data visualization",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Publish the raw data alongside your articles. Either host the data in comma-separated plain text, or host it in a third-party service like Google Docs. That way, there's only one version of the data around, and you can update it as necessary if you find errors. The most important thing you can do with your data is share it as widely and openly as possible.",
+      "chapter": "Engaging People Around Your Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "data publishing",
+        "transparency",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep an eye on metrics on which parts of your datasets are getting attention—it's likely that the most trafficked areas could have something to say that you might have missed. Think beyond the comment box. Can you attach comments to particular cells in a spreadsheet? Or a particular region of an infographic?",
+      "chapter": "Engaging People Around Your Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience engagement",
+        "analytics",
+        "feedback",
+        "interactive data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a rule of thumb: if data is published by government, you should neither ask forgiveness nor permission; if it is published by an organization that doesn't make money selling data, you shouldn't have to worry too much; if it is published by an organization that does make money from selling data, then you should definitely ask permission.",
+      "chapter": "Wobbing Works. Use It\\!",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "copyright",
+        "data rights",
+        "legal considerations",
+        "data acquisition"
+      ],
+      "notes": ""
+    }
+  ]
+}

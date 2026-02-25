@@ -1,0 +1,995 @@
+{
+  "source_id": "97",
+  "source_file": "97e-nicar-2020.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": "1/4",
+  "chunk_file": "97e-nicar-2020_chunk1.md",
+  "chunk_words": 32650,
+  "extracts": [
+    {
+      "extract": "Cloud-based notebooks (Google Colab, Binder, Kaggle, Azure) solve the problem of IT departments that won't let you install software, computer labs with restricted environments, and the need to share data exploration with journalism colleagues who don't have the same setup.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "cloud computing",
+        "collaboration",
+        "accessibility"
+      ],
+      "notes": "Surveys multiple platforms with tradeoffs: Colab free+Python, Binder no-login, Kaggle 20GB uploads"
+    },
+    {
+      "extract": "SQLite stores dates as text, unlike some other relational databases. To treat them as dates, use the date() function. The strftime function will return NULL if you attempt to parse an invalid date. You can use it to run some limited integrity checks on columns with date values.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "SQL",
+        "dates",
+        "data integrity"
+      ],
+      "notes": "strftime-as-validator pattern: SELECT *, strftime('%Y', open_date) AS date_test FROM inspections WHERE date_test IS NULL"
+    },
+    {
+      "extract": "Use julianday() to convert date strings into numbers so you can subtract them to find the difference between dates. To convert to years, divide by 365.25.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "SQL",
+        "dates",
+        "calculation"
+      ],
+      "notes": "Pattern: julianday(close_case_date) - julianday(open_date) / 365.25 AS years_open"
+    },
+    {
+      "extract": "When writing nested queries, it's helpful to write the inner query (subquery) first, then build the outer query on top of that. You must give the inner query a name using AS and set it off using parentheses. Use tabs to set off lines of your query so that you can easily read them.",
+      "chapter": "2020-advanced-sql.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "SQL",
+        "subqueries",
+        "code readability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "AP DataKit is an open-source command-line tool designed to better structure and manage projects. It makes it easier to standardize and share work among members of your team, and to keep your past projects organized and easily accessible for future reference. Keep all parts of a project cleanly separated: data, code, configuration, documentation.",
+      "chapter": "2020-ap-datakit.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "reproducibility",
+        "file organization"
+      ],
+      "notes": "Uses Cookiecutter templates; standard dirs: analysis/, config/, data/manual|processed|source, docs/, output/"
+    },
+    {
+      "extract": "Automate data and code syncing to take the guesswork out of storage and backup. Additional plugins can help you manage the storage of flat data files, sync your code to GitLab or GitHub and push your output to data.world for sharing.",
+      "chapter": "2020-ap-datakit.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "version control",
+        "cloud storage",
+        "data sharing",
+        "automation"
+      ],
+      "notes": "datakit-data for S3, datakit-github/gitlab for VCS, datakit-dworld for publishing"
+    },
+    {
+      "extract": "When default table-finding in pdfplumber doesn't work on complex PDFs, use explicit_vertical_lines and explicit_horizontal_lines to tell pdfplumber exactly where table boundaries are. Identify header regions first, extract column separators from header cells, then find row separators by locating key entities (like payee names) in a specific column. Feed those coordinates back as explicit lines.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "pdfplumber",
+        "table parsing",
+        "messy data"
+      ],
+      "notes": "VERIFY on every page, not just one sample page - 3000-page PDFs are not trivial"
+    },
+    {
+      "extract": "To rotate each page 90 degrees before extraction, use pdftk: pdftk file.pdf cat 1-endeast output file_rotated.pdf. Start with pdfplumber docs. Use debug_tablefinder() to visually inspect what pdfplumber detects. Crop the page to isolate regions of interest before attempting table extraction.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "pdfplumber",
+        "pdftk",
+        "visual debugging"
+      ],
+      "notes": "Iterative approach: visualize -> crop -> adjust settings -> re-visualize"
+    },
+    {
+      "extract": "IMPORTANT - THIS IS A DEMO, TO DO THIS FOR REAL YOU'D WANT TO VERIFY THAT THIS WORKED ON EVERY PAGE, NOT JUST THIS ONE. THIS IS FROM A 3000-PAGE PDF, IT'S NOT AS TRIVIAL AS IT SOUNDS.",
+      "chapter": "2020-congress-pdfplumber",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "PDF extraction",
+        "verification",
+        "scalability"
+      ],
+      "notes": "Extraction settings tuned on one page may fail on others in large documents"
+    },
+    {
+      "extract": "Request medical examiner data or physical reports of deaths. Then map to show where. Enrich with data from Census & Bureau of Labor Statistics. And don't stop checking. Request this information from your state department of health. FOIA new hires, system contracts, training, etc. Build a timeline of any failures.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "public records",
+        "COVID-19",
+        "investigative methods"
+      ],
+      "notes": "Covers racial disparities, unemployment, nursing homes, PPP loans"
+    },
+    {
+      "extract": "Get data from the state court system. Should include fields like: defendant, charged crime, case disposition, convicted crime. Explore the data and ask questions: How many charged with sexual assault are convicted? Do they plead down? Calculate by county/judicial district. Talk to sources: Rape crisis centers, assault victim advocates, state attorney general.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "courts",
+        "criminal justice",
+        "sourcing",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Procurement data can be the bread and butter of your beat. FOIA from state comptroller all expenditures and/or contracts on COVID-19 purchases. Build database over time to catch any patterns or interesting expenditures.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "procurement",
+        "FOIA",
+        "beat reporting",
+        "longitudinal tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Voter registration data - great for contacts and identity verification. Pet license database - people who won't give you their cell number do want to get their dogs back. Property or parcel databases - who owns that land? FOIA logs - what are other people requesting (most are not reporters).",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "sourcing",
+        "identity verification",
+        "creative data use"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A PDF is not a spreadsheet. ALWAYS fight for that spreadsheet. ALWAYS appeal.",
+      "chapter": "2020-data-docs-arsenal.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOIA",
+        "data formats",
+        "advocacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Create your own tracking systems, priority lists and alerts if you don't have an editor holding you to account. For FOIAs, create a system that tracks what you've sent, legal timeline, when to follow up, each time contact was made, and alerts to action. Give yourself cutoff dates for how long you have to dig into something before deciding you can't move forward (for a coding problem, it can be 20 mins, for a story idea, maybe it's a few days, for a data cleaning project, maybe it's 3 weeks).",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "FOIA tracking",
+        "time management",
+        "solo journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Never, never, never touch your raw data! Always make copies just in case.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data preservation",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Design a wide network of expert resources that you can call on for advice or data analysis and cultivate those relationships BEFORE you need them. Find an expert and build a relationship of respect. Let them challenge your method. Let them poke holes in your research. Let them ask questions. This will help you defend the decision-making process and write your methodology later.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "expert networks",
+        "methodology",
+        "peer review",
+        "sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "See whether other journalists in other regions have done similar stories to the one you're doing. Read their stories and methods, and reach out to them for advice. Often people are thrilled to share their lessons learned from a hard project and to know that they're contributing to your work.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "story research",
+        "collaboration",
+        "methodology",
+        "prior art"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't discount working with startups, NGOs, granting organizations and academic researchers who have an interest in your reporting. Be clear and transparent about roles and define journalistic boundaries early. For more formal agreements, consider signing an MOU making it clear what role you each have and that they do not have say in your story.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "academic partnerships",
+        "editorial independence",
+        "MOUs"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep track of all your steps. You need to be able to defend your work and it can be used in the future for other stories. Try tools like Workbench, Jupyter Notebooks for this. In Excel, consider making separate tabs for each step of work. Keep notes throughout the process of how you're doing everything, which choices you're making, and why, so that you can easily understand and summarize at the end when you're writing your methodology.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "methodology",
+        "documentation",
+        "data diary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Argue for an expandable methodology section. Even if only a few people read it, it's the knowledgeable ones who do. Admit what you don't know or couldn't figure out. Don't be ashamed about being unable to see the entire picture - sometimes stories come in stages. Those missing pieces can also become part of the story.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "methodology",
+        "transparency",
+        "limitations",
+        "honesty"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For an editor who isn't as tech-savvy, make a notebook or Excel doc showing the steps you did so they and others can understand. Transparency is critical. Don't talk down to them, help them understand what you're trying to achieve and why it can take time.",
+      "chapter": "2020-data-journalism-team-of-one.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editor communication",
+        "transparency",
+        "workflow documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's not just about the software or code: Critical, logical thinking. Basic math. Understanding the context of the data. Verifying the data with ground truth. Good organizational skills. Asking questions. Knowing which tool to use and how to use it. Knowing how to interpret results.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "analytical thinking",
+        "data literacy",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Getting the data: Find downloadable data online. Scrape it. Request via open records laws. Build your own database.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "FOIA",
+        "scraping",
+        "database building"
+      ],
+      "notes": "Four canonical paths to data"
+    },
+    {
+      "extract": "The role of data: Foundational data, Decorative data, Responsive data.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data role",
+        "story design",
+        "editorial judgment"
+      ],
+      "notes": "Three-part taxonomy of how data functions in a story"
+    },
+    {
+      "extract": "The editor's role in data projects: Be clear, consistent about goals. Ask what kinds of data are available. Discuss known/suspected problems with the data. Encourage creative thinking, brainstorm solutions. Ask reporters what worries them. Backstop frequently throughout. Do your own research. Discuss methodology. Look at the data with/without your reporter. Challenge the data (not the reporter).",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editing",
+        "editorial process",
+        "backstopping",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "10 questions every editor should ask: Does the data answer our questions? Does it tell us something we didn't think to ask? Where did you find the data? How did you vet/clean the data? How did you calculate those numbers? Are you keeping a data diary? Did you replicate your data work? Could someone else? Have you consulted experts or done a scientific lit review? Do we need a white paper? Can you write a nerd graf/story now? What is the significance of the data?",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial checklist",
+        "verification",
+        "reproducibility",
+        "methodology"
+      ],
+      "notes": "Canonical backstopping checklist from Beelman/LaFleur"
+    },
+    {
+      "extract": "Data checks: What is the source of the data? How many records should you have/do you have? Is data missing? Is the data within reasonable ranges? Is everything included? Are there consistency issues? Are totals within reasonable bounds? Have you done internal checks? Are there duplicates? Gut check.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "verification checklist",
+        "completeness",
+        "duplicates"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do my findings make sense? Compared to what? Company XX has done XX terrible thing, but what about other companies in the same industry? Should you report a rate or a raw number? Is your data on the same scale?",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "comparison",
+        "rates vs counts",
+        "analytical framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Other considerations: Are there codes that you don't understand or questions you need answered? Can you go look at one? Ground truth. Is the data a sample with a margin of error? Are changes over time reasonable? How else could you look at the data? Are there lurking variables? With maps -- did you use the right projection? Are you matching data sets? Beware data portals.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ground truth",
+        "sampling error",
+        "lurking variables",
+        "map projection",
+        "data matching"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Read the methodology. Know the sample size and margin of error. Know the questions. Know who funded the research. If the source won't provide the methodology, that's a red flag. Don't report numbers for which you haven't checked the methodology.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "polling data",
+        "methodology review",
+        "funding transparency",
+        "red flags"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Best practices: Look at your data. Maintain a consistent universe of cases. Keep a data diary or detailed markdown file. Backup your data (Never work from original). Check against reports. Make sure you're using the right tool. Check with experts from different sides of the issue. Show findings to the targets and experts. Duplicate your work - don't just rerun the same script that could have created an error. Have another person duplicate your work.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "best practices",
+        "data diary",
+        "reproducibility",
+        "independent verification",
+        "expert review"
+      ],
+      "notes": "Distinction: replicating via same script is not sufficient - need independent duplication"
+    },
+    {
+      "extract": "A name is not enough. Lots of people have the same name.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data matching",
+        "identity resolution",
+        "record linkage"
+      ],
+      "notes": "On matching datasets: need more than name alone"
+    },
+    {
+      "extract": "Understand the methodology: It should be logical, make sense. Find similar stories and study what they did. Check with experts from different sides. Find a guide. Use the IRE Resource Center. Understand the process of how data was gathered.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology review",
+        "editorial backstopping",
+        "prior art"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Other backstops: Ask for a copy of the record layout. Ask for who else may have done similar research. Read that research. Read the documentation or data how-to file. Find the experts. Ask for a detailed description of the work (white paper to nerd box). Seek a second opinion from a trusted colleague. Have a backstop process in place.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editorial process",
+        "backstopping",
+        "record layout",
+        "second opinion"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data diary: For backstop. For story footnoting/lawyering. For staying on track. What you did. How you did it. File names. Copy of code/syntax. Should be clear so that your editor and colleagues can make sense of it. Later you can link back to page or number in fact check. Highlight everything that was derived from data (or docs) and go back and check.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data diary",
+        "documentation",
+        "fact-checking",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Gathering your own data - Pitfalls: Time and effort, Accuracy concerns, Consistency concerns. Benefits: Totally original data reporting, Control over all aspects of the data. Reminders: Leave time for follow up after collecting your data. If you've built a database, set a cut-off date. Use verification or double entry. Attempt to get ground truth.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "original data",
+        "double entry",
+        "ground truth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Workflow: You need to have one. Everyone needs to use it. Make sure all parties are included in the beginning. Project management system. Google doc. Github. Backout scheduling.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "workflow",
+        "project management",
+        "team coordination"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Thesis, what is it, how does the data support it. Outline the project and the story/ies. Footnote story memos and drafts (increases accuracy and saves time). Write the nut grafs first. Structure is as important as prose. Avoid number overload - use your strongest finding from your data. Going from your data findings to your story is little different than going from notes/findings to your story.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story writing",
+        "structure",
+        "nut graf",
+        "number discipline"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Story Structure: Chronology (or reverse chronology) is the easiest to write and for a reader to follow. Warning: don't make the reader jump time. Thematic structure is more complicated to write, but can be effective for the right material. Even within a thematic structure, you can use internal chronology. Characters: Who are they and what themes/points do they illustrate? Data gives you an entire population to choose the best characters and scenes.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "chronology",
+        "thematic structure",
+        "character selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Nerd box: Details of what you did, why, and how you did it. Keeps story flowing. Adds transparency. You don't always need one. Sometimes you need something more extensive. Write it before writing story.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology box",
+        "transparency",
+        "story structure"
+      ],
+      "notes": "Write methodology before story so findings are clear in your mind"
+    },
+    {
+      "extract": "Words matter: Making conclusions you can't back up. Rates versus raw numbers. The 'more' dilemma. Percent versus percentage points. False precision: 53.14 percent. Avoid number overload. Adjust money for inflation. When analyzing income or home values, use median rather than average. Keep numbers to graphics.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision",
+        "rates vs counts",
+        "inflation adjustment",
+        "median vs average",
+        "number literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Don't forget about the graphics/apps: They can't be an afterthought. Text needs to be edited. Data needs to be rechecked. Need a workflow - that's not just email.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "graphics",
+        "visualization",
+        "workflow",
+        "editorial process"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most common things journalists want to do with a date/time field is to calculate response times of local public safety units. Convert time into seconds by multiplying TIME(HOUR,MINUTE,SECOND) by 86400. To deal with calls that run across midnight, use an IF statement checking whether the receive date differs from the arrive date.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "response times",
+        "date/time calculation",
+        "public safety"
+      ],
+      "notes": "Pattern: =(IF(N4=O4, M4-K4, (86400-K4)+M4))/60"
+    },
+    {
+      "extract": "Text-to-Columns is handy if the column you are trying to split is delimited. But sometimes it won't work and sometimes your data won't be neat and tidy. String functions (LEFT, MID, SEARCH, RIGHT) save the day when Text-to-Columns strips leading zeros or data isn't consistently delimited. These functions are also available in SQL, R and Python with slight syntax variations.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "string functions",
+        "data cleaning",
+        "leading zeros",
+        "text parsing"
+      ],
+      "notes": "Text-to-Columns destroys leading zeros; string functions preserve them"
+    },
+    {
+      "extract": "When splitting names with middle initials: first assess whether you have a consistent pattern. Check whether periods are consistent. Use LEN to measure string length, then test whether the second-to-last byte is a space using MID and IF. Be sure to troll through your data and look for anomalies. Use the Filter feature or run a Pivot Table to look for problem records.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "name parsing",
+        "data cleaning",
+        "pattern detection",
+        "anomaly detection"
+      ],
+      "notes": "Check for suffixes (Jr, III) that break patterns; handle manually if few"
+    },
+    {
+      "extract": "IF statements are extremely powerful for assigning categories to data based on certain criteria and for data cleanup functions that require looking for patterns. Use IF functions to rearrange data that comes in report fashion or has problems that make sorting or PivotTables impossible. IF functions need a pattern in order to work.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "IF statements",
+        "data restructuring",
+        "categorization"
+      ],
+      "notes": "Key insight: IF needs a pattern - identify the repeating structure first"
+    },
+    {
+      "extract": "Election data often comes with just raw vote totals and no indication of who won. Use a combination of IF, LARGE, MAX, INDEX, MATCH to determine winners and handle ties. LARGE finds the nth-largest value in an array; if the largest equals the second-largest, it's a tie. INDEX returns a value at a row/column intersection. MATCH finds which column holds the maximum.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "election data",
+        "INDEX-MATCH",
+        "winner determination"
+      ],
+      "notes": "Formula: =IF(LARGE(D3:i3,1)>LARGE(d3:i3,2), INDEX(header,1,MATCH(MAX(D3:i3),D3:i3,0)),Tie)"
+    },
+    {
+      "extract": "VLOOKUP requires that the field you're matching on is the farthest left column of the lookup table. If your table is set up differently, use a combination of INDEX and MATCH functions instead. MATCH finds the row number, INDEX returns the value at that position.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "VLOOKUP",
+        "INDEX-MATCH",
+        "data joining"
+      ],
+      "notes": "INDEX-MATCH is more flexible than VLOOKUP for non-standard table layouts"
+    },
+    {
+      "extract": "Tableau Reshaper is a tool for normalizing data, whether you plan to use Tableau or not. Make sure the columns you want to convert are on the right side of your spreadsheet and the columns you want attached to each row are on the left side. Make sure headers are presented exactly as you want them in the final data.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data normalization",
+        "wide to long",
+        "Tableau",
+        "Excel"
+      ],
+      "notes": "Converts wide data to long format; exports to CSV if exceeds 1M rows"
+    },
+    {
+      "extract": "You can use Weeknum and Weekday in conjunction with Pivot Tables to display data in a sort of calendar form. This would be useful if you're looking for patterns in your data based on the calendar. Put WeekNum in the Row, WeekDay in the Column and whatever field you want to count or sum in the Data box.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "pivot tables",
+        "temporal patterns",
+        "calendar analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can build hyperlinks with a formula to launch documents directly from Excel. Use HYPERLINK() with concatenation to build paths from file name columns. Store documents in a sub-directory of the folder where the spreadsheet lives. This works for Word documents, other Excel files or PDFs.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "hyperlinks",
+        "document management",
+        "FOIA"
+      ],
+      "notes": "Pattern: =HYPERLINK(.\\documents\\ & E2, E2) to link spreadsheet rows to source documents"
+    },
+    {
+      "extract": "In a graph database, the data is either a node, a relationship, or an attribute. Use Cypher commands CREATE, LOAD CSV, and MERGE to build the graph. MERGE prevents duplicate nodes when loading CSV data. Attributes go in curly braces as property key-value pairs. Every query must start with a MATCH and end with a RETURN.",
+      "chapter": "2020-graph-databases-networks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "graph databases",
+        "Neo4j",
+        "Cypher",
+        "network analysis"
+      ],
+      "notes": "Applied to political donation networks"
+    },
+    {
+      "extract": "Use fuzzy matching in Cypher with regex: WHERE d.name =~ '.*Bamford.*' for partial match, WHERE d.name =~ '(?i).*Bamford.*' for case-insensitive. Filter relationships by properties like donation value: WHERE t.value >= 100000. Whenever you're writing Cypher, keep the Refcard up as a syntax reference.",
+      "chapter": "2020-graph-databases-networks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Cypher",
+        "fuzzy matching",
+        "regex",
+        "graph queries"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An easy place to track down APIs is a government open data portal. Many are built on Socrata which standardizes the API. The API Endpoint returns JSON data. If you aren't sure about JSON, you can convert API contents to CSV using online tools. Use Postman to visually explore and test API calls before writing code.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "open data",
+        "Socrata",
+        "Postman",
+        "JSON"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are two kinds of API: a web API (talk to a URL) and a Python library API (a way of talking to Python that handles the URL for you behind the scenes). Sometimes it's just easier to write Python than trying to talk to a URL. Use Python requests to download data, then give it to pandas to turn it into a filterable dataframe.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "Python",
+        "requests",
+        "pandas",
+        "data acquisition"
+      ],
+      "notes": "Example: response = requests.get(url); df = pd.DataFrame(response.json())"
+    },
+    {
+      "extract": "When you use some APIs, you need to prove who you are via API keys. API keys are sometimes in the URL, sometimes a parameter in the URL, sometimes separate keys combined using OAuth, or signed requests with encryption. If you run into OAuth or signed requests, it's best to switch to a library.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "APIs",
+        "authentication",
+        "API keys",
+        "OAuth"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The best-kept secret of scraping: skipping scraping at all, and using the provider's unadvertised API. If you've ever tried to scrape a site and failed because the URLs didn't seem to work right, look for a secret website API that the site uses internally to load data.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "secret APIs",
+        "data acquisition",
+        "web inspection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Beyond data APIs: Geocoding APIs can convert locations into latitude and longitude (Google Maps, Census Bureau). Communication APIs enable texting or calling (Twilio) or sending emails (Mailgun, Sendgrid). For most APIs they'll offer both a URL-based API and official or unofficial libraries.",
+      "chapter": "2020-hitchhikers-guide-apis",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "geocoding",
+        "APIs",
+        "Twilio",
+        "communication tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For machine learning workshops, use Google Colaboratory which provides both a notebook environment and a GPU for free. Turn on the GPU from Runtime > Change runtime type. You can also load GitHub repos directly into Colab by entering the org name in the GitHub tab.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "Google Colab",
+        "GPU",
+        "Jupyter notebooks"
+      ],
+      "notes": "Quartz AI Studio workshops for journalists learning ML"
+    },
+    {
+      "extract": "If something seems like too much work, it probably is. Try to find a better solution. Take advantage of being in the IRE/NICAR community - everyone is here to share and help!",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "efficiency",
+        "community",
+        "IRE/NICAR",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This project began with a little moment: Reporter Maurice Tamman, who lives on a sailboat in New York Harbor, noticed fish in nearby waters that were normally found farther south. He started digging into the data, and he discovered that marine creatures are fleeing warming seas, in an epic underwater refugee crisis.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story origin",
+        "observation",
+        "curiosity",
+        "data-driven investigation"
+      ],
+      "notes": "Reuters Ocean Shock investigation - observation leading to data investigation"
+    },
+    {
+      "extract": "The Implant Files: Driving this investigation was data collected by the U.S. Food and Drug Administration. The analysis guided reporters to problem devices and helped focus reporting. AP decided to look at spinal cord stimulators. Data gives you an entire population to choose the best characters and scenes.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data-driven investigation",
+        "character selection",
+        "FDA data",
+        "story focus"
+      ],
+      "notes": "Data led to devices, devices led to victims/characters"
+    },
+    {
+      "extract": "You don't have to be able to do data analyses to be able to understand, manage and edit data-driven stories. But you should have an understanding of its power and limits. You do have to be an organized, logical thinker. Don't be intimidated by your data reporter's skills; have him/her walk you through everything.",
+      "chapter": "2020-editing-data-story.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editing",
+        "data literacy",
+        "editorial management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Datedif is useful for calculating ages from birthdates. It gives you the difference between two dates in whatever unit of measure you specify. You can use the TODAY() function to refer to today's date. Example: =Datedif(b2,today(), 'y') gives years since birthdate.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "dates",
+        "age calculation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Understanding Excel errors: #DIV/0\\! means dividing by zero or blank cell - use IF to check before dividing. #N/A means formula couldn't return a legitimate result, often from VLOOKUP with no match. #NAME? means a typo in your formula. #REF\\! means invalid cell reference. #VALUE\\! means wrong data type in a function.",
+      "chapter": "2020-excel-magic.pdf",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "error handling",
+        "debugging",
+        "data quality"
+      ],
+      "notes": "Pattern for DIV/0: =if(b2>0, b2/c2, 0)"
+    },
+    {
+      "extract": "Observable is a JS-based data viz canvas where other cells update in real time as changes are made. You can pull things in from other Observable notebooks. RStudio Cloud provides cloud-based RStudio instances where multiple accounts can participate in a workspace with different roles and modify a project together.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Observable",
+        "RStudio Cloud",
+        "visualization",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Littlest JupyterHub provides roughly 50-100 users with the same coding environment. Made for folks who are not network admins. You're in control: you specify how users log in, what data they have access to, what resources are available to them. You can set this up on services like Digital Ocean, AWS and others.",
+      "chapter": "2020-advanced-dj-browser.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "JupyterHub",
+        "teaching",
+        "infrastructure",
+        "cloud computing"
+      ],
+      "notes": "For newsroom or classroom environments needing shared compute"
+    },
+    {
+      "extract": "To manage large JSONL files from labeling tasks, use command-line tool json2csv to convert to CSV with selected fields. For large CSV files (3GB+), take a slice with tail -n 5000 to create a manageable working sample. Clean zip files of Mac artifacts with zip -d to remove __MACOSX and .DS_Store entries.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data wrangling",
+        "JSONL",
+        "CSV",
+        "command line",
+        "file management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use ClassificationInterpretation.from_learner to identify which images confuse the model most. top_losses() returns the indices of the most confused predictions, allowing you to inspect and fix mislabeled training data.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "fast.ai",
+        "model debugging",
+        "training data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use ffmpeg to extract frames from video at regular intervals: ffmpeg -i source -vf fps=1 -vsync 0 -frame_pts 1 %04d.jpg extracts one frame per second with frame number in filename.",
+      "chapter": "2020-ml-journalism-workshop",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "ffmpeg",
+        "video analysis",
+        "frame extraction"
+      ],
+      "notes": "For building image classification training sets from video"
+    }
+  ]
+}

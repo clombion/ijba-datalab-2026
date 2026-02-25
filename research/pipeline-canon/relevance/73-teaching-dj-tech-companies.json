@@ -1,0 +1,117 @@
+{
+  "source_id": "73",
+  "source_file": "73-teaching-dj-tech-companies.md",
+  "source_title": "Teaching Data Journalism in a World of Technology Companies",
+  "author": "MIT",
+  "year": "2021",
+  "extracts": [
+    {
+      "extract": "The goal of data journalism education amidst this complexity is not to teach tech, nor even to teach technical skills, but rather to model for students strategies of dealing with transformation and complexity. These include peer learning, hands-on learning activities, modeling learning and information seeking, and establishing a culture of critique.",
+      "chapter": "ABSTRACT",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pedagogy",
+        "peer learning",
+        "critical thinking",
+        "data journalism education"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching strategies for dealing with complexity rather than specific tech skills is even more relevant in the LLM era"
+    },
+    {
+      "extract": "We have students write reviews of tools for each other as a way to build and distribute expertise across the classroom. In class, students select the top 3 tools they are interested to learn, and then assign each student one tool to test and write a review about.",
+      "chapter": "Peer Learning",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "peer learning",
+        "tool evaluation",
+        "distributed expertise"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Peer tool reviews remain valuable but should now include evaluating AI-powered tools and LLM integrations"
+    },
+    {
+      "extract": "We introduce students to how to start looking for stories in a spreadsheet by brainstorming questions to ask the data in front of them, and looking for other datasets they might need to answer those questions.",
+      "chapter": "Learning by Doing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data exploration",
+        "question-driven analysis",
+        "story finding"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Brainstorming questions to ask data is a fundamental analytical skill that LLMs support but do not replace"
+    },
+    {
+      "extract": "Businesses that offer free tools that students and professionals come to rely on can easily shift into a paid business model, as DataWrapper did in 2014, or discontinue them altogether. Open source tools maintained by communities of dedicated volunteers can lose steam and have a hard time fixing bugs and creating good user experiences.",
+      "chapter": "TOOL OVERLOAD",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tool sustainability",
+        "open source",
+        "vendor risk"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Vendor risk and tool sustainability concerns apply equally to AI-powered tools and LLM platforms"
+    },
+    {
+      "extract": "The professor can explicitly position herself as a learner to set an example for students (by frequently saying 'I don't know, but let's find out together') and modeling information seeking and technical troubleshooting practices.",
+      "chapter": "Modeling Learning and Information Seeking",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "pedagogy",
+        "lifelong learning",
+        "information seeking"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Modeling learning and information-seeking behavior is a timeless pedagogical approach"
+    },
+    {
+      "extract": "Because producing data-driven stories is complex — doing it well may involve computational skills, quantitative skills, visual design skills and narrative skills — no single expert will look at the result in the same way. Data scientists will ask questions about the collection and analysis of data and offer suggestions for alternate comparisons, writers will offer better ways to contextualize numbers in the narrative, designers will give advice on ease of use and visual experience.",
+      "chapter": "Establishing a Culture of Critique",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interdisciplinary review",
+        "critique",
+        "quality assurance",
+        "collaboration"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Interdisciplinary critique from multiple expert perspectives remains essential for quality data journalism"
+    },
+    {
+      "extract": "Questions of data ownership and privacy get complicated when data (which may contain sensitive information about sources) is uploaded to and hosted on proprietary platforms. Too often it is unclear when, for how long, and what purposes uploaded data is stored on cloud services.",
+      "chapter": "TOOL OVERLOAD",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data privacy",
+        "data ownership",
+        "ethics",
+        "cloud services"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data privacy and ownership concerns with proprietary platforms are amplified in the era of LLM cloud services"
+    }
+  ]
+}

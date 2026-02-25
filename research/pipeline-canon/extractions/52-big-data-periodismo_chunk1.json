@@ -1,0 +1,311 @@
+{
+  "source_id": "52",
+  "source_file": "52-big-data-periodismo.md",
+  "source_title": "Big Data y periodismo en la sociedad red",
+  "author": "Carlos Elías",
+  "year": "2015",
+  "chunk": "1/2",
+  "chunk_file": "52-big-data-periodismo_chunk1.md",
+  "chunk_words": 39500,
+  "extracts": [
+    {
+      "extract": "Computer scientists know how to handle data, but journalists are the ones who know how to ask questions so that the data tell a story. It is journalists who, in contact with political and economic power, use their instinct to organize data and uncover information that the powerful perhaps prefer to keep hidden among trillions of numbers and that should not surface as a journalistic headline. And it is also journalists who know how to turn cold numbers into a compelling story that captures readers.",
+      "chapter": "Big data and virtual public opinion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data analysis",
+        "storytelling",
+        "journalist role",
+        "investigative instinct"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Working with numerical data, whether in large or small quantities, remains subjective and can in no way aspire to become the truth. The way of obtaining data, of quantifying what is human, is always subjective and depends on what we measure and how we measure it. Big data only reinforces the idea that we must know very well the measure of that datum and its source. Moreover, the algorithms for cross-referencing or searching data are also subjective and depend on what the algorithm's creator thinks.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "subjectivity",
+        "measurement",
+        "algorithms",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Big data is prone to apophenia, which is the pernicious tendency to see patterns, connections, or both in random events and meaningless data. Leinweber (2007) demonstrated that by using data mining techniques we can prove a spurious correlation between butter production in Bangladesh and changes in the Standard & Poor's 500 Index.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "correlation",
+        "patterns",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When one analyzes, for example, a Facebook friends list or a Twitter follower list, one finds an agglomeration of entities ranging from friends, work colleagues, and family members to politicians, celebrities, and companies. The results of such analyses of large datasets must be handled with great care, because one might conclude that a famous person interests us more than a family member, when reality contradicts that assertion.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "data quality",
+        "social media",
+        "interpretation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All of these aspects must be analyzed in depth before undertaking an investigation or a report using mass data techniques obtained from the Internet. A journalist or social researcher must understand that there is a difference between what is legal and what is moral.",
+      "chapter": "Ethical and critical questions about big data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "privacy",
+        "legal",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative journalism does not consist of summarizing or piecing together the discoveries or data of others, but of carrying out original research, often using raw materials. It can be conducted through a series of interviews, or by cross-checking data and figures. On many occasions, the fruits and originality of the investigation are due to the discovery of patterns or connections that no one had previously observed.",
+      "chapter": "Journalistic sources and network society",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "investigative journalism",
+        "cross-referencing",
+        "patterns",
+        "original research"
+      ],
+      "notes": "Attributed to David Randall"
+    },
+    {
+      "extract": "The five phases are: 1. The lead: the starting point of an investigative piece. 2. The inquiry: consulting sources and documents to support or refute the lead. 3. The publication: loose ends must be avoided, as they can undermine the entire investigative work. It is better to hold back a story if there are doubts. 4. The pressure: from the very first moment a piece of investigative journalism is published, the journalist and the outlet where they publish will face pressure from those affected. 5. The prison: in many cases those in power go after the investigative journalist.",
+      "chapter": "Journalistic sources and network society",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "investigative journalism",
+        "workflow",
+        "verification",
+        "sources"
+      ],
+      "notes": "De Pablos Coello 5Ps model"
+    },
+    {
+      "extract": "The journalist's role is fundamental and generally requires four things: 1. Without being a mathematician, it is useful to have an interest in numbers, statistics, large quantities of numerical data (data mining), and in general in everything that can be expressed through numerical variables. 2. Without having to be a computer engineer, it is highly advisable to have a special interest in computer programming and to be capable, if not of writing code, at least of knowing what to ask of an engineer. 3. A passion for journalistic narrative. 4. An enthusiasm for artistic expression: sometimes it is simply not enough to build a story from numbers.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "numeracy",
+        "programming",
+        "storytelling",
+        "visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Meyer proposes the opposite: he measures a great deal of data and seeks an explanation for it. Taking into account a very important principle of philosophical logic — which states that correlation does not imply causation — it becomes necessary to develop a theory capable of finding the real cause from a data correlation. This theory is called Grounded Theory.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "grounded theory",
+        "correlation",
+        "causation",
+        "hypothesis",
+        "methodology"
+      ],
+      "notes": "Philip Meyer's approach"
+    },
+    {
+      "extract": "The journalistic project was designed as a social science research project: each researcher received a guide of topics they were to ask the respondents. The questions were neutral and leading questions were not permitted. They lasted 45 minutes and space was left for respondents to provide first-person accounts of their experiences. Demographic data were collected from the interviewees, including where they lived, their age, ethnic origin, educational qualifications, and even their criminal history.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "data collection",
+        "research methods",
+        "collaboration"
+      ],
+      "notes": "Reading the Riots project"
+    },
+    {
+      "extract": "The steps for applying this theory to a phenomenon from which data can be obtained are the following: 1. Theoretical sample: individuals, situations, and events idealized for the process of analysis. 2. Data collection or familiarization: compiling data and designing databases. In this phase, memos begin to be constructed. 3. Coding or categorization: this is the process of naming or labeling things, categories, and properties. It begins with open coding, then axial coding, and finally selective coding, where the initial categories are reduced and the core variable or central category is sought.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "grounded theory",
+        "coding",
+        "categorization",
+        "methodology",
+        "data analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Meyer considers that his success as a journalist in discarding the first two sociological theories did not lie in the use of early computers but in applying the scientific method to the explanation and presentation of the facts. That is, the current change does not lie in the use of computers but in the application that newspaper made of grounded theory to construct a journalistic narrative. The Guardian's historical contribution lies in the method, not in the machinery.",
+      "chapter": "From big data to data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "methodology",
+        "grounded theory",
+        "narrative"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Finding the right data is just as difficult as locating the best source to interview for a report. Professional standards do not change. The traditional journalist must always be wary of statements and interested sources offered to them by communications offices. The same applies to data: one must check who compiled it, under what methodology, and above all whether the information extracted from it is valid.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data quality",
+        "sources",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism: 80% routine work, 10% great idea, and 10% production. Data journalism is laborious and highly routine: 80% of the time is spent reformatting PDF files or converting datasets into spreadsheets. The data journalist is the bridge between those who generate millions of data points and the public, which has no time to filter them but has the right to know what those data say.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "data cleaning",
+        "time management",
+        "routine"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism can only begin in two ways: either you have a question that requires data, or you have a dataset that needs to be questioned. Compilation is the true heart of data journalism. This data can be found through methods ranging from advanced computing techniques — even hacking — government websites to scraping hidden online databases using tools such as OutWit Hub, Scraperwiki. Sometimes data is provided by an organization, but many other times surveys or online forms are used: this is called crowdsourcing.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "scraping",
+        "crowdsourcing",
+        "question-driven"
+      ],
+      "notes": "Attributed to Paul Bradshaw"
+    },
+    {
+      "extract": "Raw data normally arrive duplicated, in incorrect codes, and in formats that those in power — political, economic, scientific, etc. — introduce to make them difficult to read. On the other hand, there is a lot of information irrelevant for journalistic purposes. Detecting and extracting the important data is the hardest part for the traditional journalist. In this regard, it is recommended to receive training in spreadsheet design or statistics and data mining programs.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "skills",
+        "spreadsheets",
+        "training"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The point is not to publish data, but to draw a conclusion, which becomes the headline. What matters is knowing how to cross-reference data from different sources to obtain new information: for example, we can cross-reference data on illnesses in Madrid's neighborhoods with data on air pollution. Within numerical data series, it is very important to detect patterns and trends and, above all, atypical behaviors. Anomaly has always been a news value since the birth of journalism.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "patterns",
+        "anomaly detection",
+        "data analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is not just about verifying the source that compiles the data, but above all the data themselves. Darrel Huff pointed out that if you want to prove something absurd, take a lot of data, torture them until they say what you want to prove and call the resulting confession statistics.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "statistics",
+        "data quality",
+        "critical thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the most common fallacies that can occur is inferring that two events are related because they occur together. From the beginnings of Western thought, great philosophers such as Aristotle, Hume, and Kant have warned us that correlation does not imply causation. The temptation to link data and, motu proprio, draw causal conclusions — that is, produce a good headline — can be very dangerous if what we seek is the truth, journalism's ultimate objective.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "fallacies",
+        "critical thinking",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In journalism, data are useless if they do not tell a story. Moreover, the story cannot be fiction — it has to be true. The journalist's obligation is not that of the artist. The journalist must first obtain — above all else — the truth, and only then produce an appropriate visualization. Not the reverse: attracting audiences with appealing visualizations that do not describe the truth, or that mask it.",
+      "chapter": "Steps to follow in the practice of data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "truth",
+        "storytelling",
+        "ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Good design still matters. And these turn out much better — more informative — if the visualization design is developed ad hoc for a specific story. That is, there is no comparison if the visualization is produced by human journalists who understand the specific problems they want to visualize, because they have in mind the story to tell, versus when the data are fed into a machine with a standard algorithm.",
+      "chapter": "What data journalism is and how it works",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "design",
+        "storytelling",
+        "journalist role"
+      ],
+      "notes": "Attributed to Simon Rogers"
+    }
+  ]
+}

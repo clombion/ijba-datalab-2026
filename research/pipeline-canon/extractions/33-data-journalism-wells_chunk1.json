@@ -1,0 +1,362 @@
+{
+  "source_id": "33",
+  "source_file": "33-data-journalism-wells.md",
+  "source_title": "Data Journalism: A Quick & Practical Guide",
+  "author": "Rob Wells",
+  "year": "ongoing",
+  "chunk": "1/4",
+  "chunk_file": "33-data-journalism-wells_chunk1.md",
+  "chunk_words": 10406,
+  "extracts": [
+    {
+      "extract": "Public records are the lifeblood of investigative reporting. Sunlight is the best disinfectant. Corruption hides in the shadows. You paid for it with your taxes. It should be yours (with exceptions). Journalism with a capital J is about holding the powerful accountable for their actions.",
+      "chapter": "Public records",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "accountability",
+        "public-records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a journalist, it is your job to know this law better than most lawyers. Which law applies depends on which branch of government you are asking. In addition to documents and other kinds of information, FOIA also provides access to structured datasets.",
+      "chapter": "Public records",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public-records",
+        "data-acquisition",
+        "legal-frameworks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Please and thank you will get you more records than any lawyer or well-written request. Be nice. Be polite. And be persistent. Following up regularly to check on status of a request lets an agency know they can't ignore you. Hunting for records is like any other kind of reporting -- you have to do research. You have to ask questions.",
+      "chapter": "Public records",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public-records",
+        "data-acquisition",
+        "source-relations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When requesting data, you are going to scare the press office and you are going to confuse the agency lawyer. Request to have their data person on the phone.",
+      "chapter": "Public records",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-acquisition",
+        "public-records",
+        "source-relations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good source of info? Records retention schedules, often required by law or administrative rule at an agency.",
+      "chapter": "Public records",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public-records",
+        "data-acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As a general rule, all assertions in a story based on data analysis should be reproducible. The methodology description in the story or accompanying materials should provide a road map to replicate the analysis.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "verification",
+        "methodology"
+      ],
+      "notes": "AP Stylebook commandment on replication"
+    },
+    {
+      "extract": "Reproducible research -- replication -- is a cornerstone of scientific inquiry. Researchers across disciplines use methods to find new knowledge and publish it in peer reviewed journals. And, when it works, other researchers take that knowledge and try it with their own samples in their own locations.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "scientific-method",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We journalists would be wrong less often if we adapted to our own use some of the research tools of the social scientists.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific-method",
+        "rigour",
+        "methodology"
+      ],
+      "notes": "Quoting Phil Meyer, New Precision Journalism (1971)"
+    },
+    {
+      "extract": "Journalism must become social science in a hurry. To cope with the acceleration of social change in today's world, journalism must adopt systematic methods.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific-method",
+        "methodology",
+        "rigour"
+      ],
+      "notes": "Paraphrasing Phil Meyer"
+    },
+    {
+      "extract": "The predominant way that data journalism gets done in a newsroom is through simple tools like Microsoft Excel or Google Sheets. Those simple tools, on their own, lack significant logging functions that automatically keep track of steps a data journalist took to reach a given conclusion. That means journalists using those tools have to maintain separate, detailed logs of what they did so any analysis can be replicated.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "tooling",
+        "workflow",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If the AP's replication rules are to be followed, journalism needs to become much more serious about the tools and techniques used to do data journalism. The days of 'point and click' tools to do 'quick and dirty' analysis that get published are dying. The days of formal methods using documented steps are here.",
+      "chapter": "Data journalism in the age of replication",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "rigour",
+        "methodology",
+        "tooling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Stylebook says at a minimum, today's data journalists should keep a log that details: The source of the data, making sure to work on a copy of the data and not the original file. Data dictionaries or any other supporting documentation of the data. Description of all steps required to transform the data and perform the analysis.",
+      "chapter": "Goodbye Excel?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "data-management",
+        "methodology"
+      ],
+      "notes": "AP Stylebook minimum standards"
+    },
+    {
+      "extract": "An increasing number of data journalists are switching to tools like analysis notebooks, which use languages like Python and R, to document their work. The notebooks, generally speaking, allow a data journalist to mix code and explanation in the same document. Combined with online sharing tools like GitHub, analysis notebooks seem to solve the problem of replication.",
+      "chapter": "Goodbye Excel?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "reproducibility",
+        "tooling",
+        "documentation",
+        "open-source"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Why should someone reading one of my articles believe my conclusions, if I don't provide the evidence that explains how I reached them? Simply saying what you've done is not as powerful as providing the means for others to repeat and build on your work.",
+      "chapter": "Goodbye Excel?",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "reproducibility",
+        "trust",
+        "verification"
+      ],
+      "notes": "Quoting Peter Aldous, BuzzFeed"
+    },
+    {
+      "extract": "If at all possible, an editor or another reporter should attempt to reproduce the results of the analysis and confirm all findings before publication.",
+      "chapter": "Replication",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "verification",
+        "editorial-process",
+        "quality-control"
+      ],
+      "notes": "AP Stylebook internal replication standard"
+    },
+    {
+      "extract": "Journalism, unlike science, has no history of replication. There is no scientific method for stories. There is no standard research methods class taught at every journalism school. And journalism school isn't a requirement to get into the news business. In other words, journalism lacks the standards other disciplines have.",
+      "chapter": "Replication",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "methodology",
+        "training",
+        "rigour"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Except for the largest newsrooms, most news organizations lack editors who could replicate the analysis. Many don't have a second person who would know what to do. Not having a second set of eyes in a newsroom is a problem. Having a data journalism team is an incredible luxury.",
+      "chapter": "Replication",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "newsroom-capacity",
+        "verification",
+        "staffing"
+      ],
+      "notes": "Quoting Troy Thibodeaux, AP"
+    },
+    {
+      "extract": "The more critical the analysis is to the story, and the more complex that analysis is, that's going to push the bar on what is a sufficient methodology statement. And it could end up being a whole code repo in order to just say, this isn't black magic, here's how we got it if you're so interested.",
+      "chapter": "Goodbye Excel?",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "methodology",
+        "documentation"
+      ],
+      "notes": "Quoting Troy Thibodeaux, AP — proportional transparency"
+    },
+    {
+      "extract": "Replication requires two things from you: What and why. What is this piece of code doing, and why are you doing that here and now? That you can copy and paste code from this book or the internet is not impressive. What is necessary for learning is that you know what a piece of code is doing and why you want to do that thing here.",
+      "chapter": "Replication in notebooks",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "literacy",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Replication is a theoretical standard, not a requirement that every investigator duplicate his or her own work for every project. Giving enough information in the report to enable another investigator to follow in your footsteps is enough. Just telling enough to make replication possible will build confidence.",
+      "chapter": "Replication",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "transparency",
+        "methodology",
+        "trust"
+      ],
+      "notes": "Quoting Phil Meyer"
+    },
+    {
+      "extract": "One of the critical components of data analysis, especially for beginners, is having a mental picture of your data. What does each row represent? What does each column in each row signify? How many rows do you have? How many columns?",
+      "chapter": "A Mental Picture",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-literacy",
+        "data-quality",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Is a zip code a number? When we think of data types, numbers are things we do math on. If the thing you want is not something you're going to do math on -- can you add two phone numbers together? -- then make it a character type. If you don't, most every software system on the planet will drop leading zeros.",
+      "chapter": "Types",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-types",
+        "data-quality",
+        "data-literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "After loading the data, it's a good idea to get a sense of its shape. What does it look like? Use functions like glimpse() for column names and types, head() for the first rows, and explore interactively to understand the structure before analysis.",
+      "chapter": "Aggregates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data-literacy",
+        "exploratory-analysis",
+        "methodology"
+      ],
+      "notes": "Paraphrase of practical guidance on initial data inspection"
+    },
+    {
+      "extract": "A massive amount of data analysis involves grouping like things together and then doing simple things like counting them, or averaging them together. The pattern you'll use many times is: data, then group_by a column, then summarize with an aggregate function.",
+      "chapter": "Aggregates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "aggregation",
+        "methodology",
+        "data-literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The mean loan amount is much higher than the median loan amount in every county. There are some very large loans skewing the mean higher. Examining both the median -- which is less sensitive to extreme values -- and the mean -- which is more sensitive to extreme values -- gives you a clearer picture of the composition of the data.",
+      "chapter": "Aggregates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistics",
+        "data-literacy",
+        "rigour",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Good practice -- one I'm going to insist on -- is that you put all your library steps at the top of your notebooks.",
+      "chapter": "Aggregates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "workflow",
+        "documentation"
+      ],
+      "notes": ""
+    }
+  ]
+}

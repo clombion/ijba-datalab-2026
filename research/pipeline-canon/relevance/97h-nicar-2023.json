@@ -1,0 +1,900 @@
+{
+  "source_id": "97",
+  "source_file": "97h-nicar-2023.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "extracts": [
+    {
+      "extract": "We publish our data and methodology",
+      "chapter": "2023-data-analysis-javascript.md",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "transparency",
+        "reproducibility",
+        "methodology publishing"
+      ],
+      "notes": "CBC News practice of publishing data and methodology alongside stories",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Publishing data and methodology alongside stories is a transparency principle that becomes more important with AI-assisted analysis"
+    },
+    {
+      "extract": "But had to learn JS to publish my results… So why not using JS for E-V-E-R-Y-T-H-I-N-G?",
+      "chapter": "2023-data-analysis-javascript.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "language choice",
+        "end-to-end workflow",
+        "JavaScript"
+      ],
+      "notes": "Argument for unifying analysis and presentation in a single language to avoid context-switching between Python/R and JS",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Using JS for end-to-end workflow is less compelling now that LLMs can bridge language gaps and generate code in any language on demand"
+    },
+    {
+      "extract": "I recommend also installing sqlite-utils - a companion tool to Datasette that makes it easy to create and manipulate the SQLite database files that Datasette uses.",
+      "chapter": "2023-datasette-ecosystem.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "sqlite",
+        "data management",
+        "Datasette",
+        "sqlite-utils"
+      ],
+      "notes": "sqlite-utils as companion CLI for creating/manipulating SQLite databases",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "sqlite-utils remains useful but LLMs can now generate equivalent database manipulation commands from natural language descriptions"
+    },
+    {
+      "extract": "sqlite-utils insert manatees.db locations Manatee_Carcass_Recovery_Locations_in_Florida.csv --csv -d",
+      "chapter": "Building a SQLite database",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "CSV import",
+        "sqlite",
+        "data ingestion",
+        "Datasette"
+      ],
+      "notes": "Procedural step: importing CSV into SQLite database via sqlite-utils insert command",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "CSV-to-SQLite import commands are still valid but LLMs can now generate these one-liners from natural language descriptions"
+    },
+    {
+      "extract": "sqlite-utils transform manatees.db locations --rename LAT latitude --rename LONG_ longitude --drop created_user --drop last_edited_user --drop X --drop Y --drop STATE --drop OBJECTID --pk FIELDID",
+      "chapter": "Building a SQLite database",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data transformation",
+        "column renaming",
+        "schema cleanup",
+        "sqlite-utils"
+      ],
+      "notes": "Renaming columns, dropping unnecessary fields, setting primary key via sqlite-utils transform",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Schema cleanup commands remain useful but LLMs can now generate transform commands and suggest cleanup steps automatically"
+    },
+    {
+      "extract": "datasette install datasette-cluster-map. This installs the datasette-cluster-map Datasette plugin.",
+      "chapter": "Building a SQLite database",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "geospatial",
+        "mapping",
+        "Datasette plugins",
+        "visualization"
+      ],
+      "notes": "Adding geographic visualization to data via plugin installation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Plugin-based tool extensibility for geospatial visualization remains a valid architectural pattern"
+    },
+    {
+      "extract": "Datasette was originally designed as a tool for publishing data. The 'datasette publish' command can be used to deploy a full copy of the Datasette application along with bundled data (the Baked Data architectural pattern) to a number of different hosting providers: Vercel - good for data less than 50MB, Google Cloud Run - good for larger datasets, up to about 2GB, Fly.io - good for predictable pricing and read-write volumes",
+      "chapter": "Publishing data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data publishing",
+        "deployment",
+        "Datasette",
+        "baked data",
+        "hosting"
+      ],
+      "notes": "Baked Data pattern: bundle application + data together for deployment. Size-based hosting recommendations.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The baked data architectural pattern for publishing data with zero infrastructure remains a sound deployment strategy"
+    },
+    {
+      "extract": "You can upload CSV data to Datasette Cloud, but a more exciting way to import data is to pull it directly from open government data portals that run using Socrata (a common platform for those portals).",
+      "chapter": "Datasette Cloud",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "open data",
+        "Socrata",
+        "government data",
+        "data acquisition",
+        "Datasette"
+      ],
+      "notes": "Direct integration with Socrata-based government open data portals",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Pulling data directly from Socrata government portals remains a practical data acquisition technique"
+    },
+    {
+      "extract": "Datasette Lite is a version of Datasette that runs entirely in your browser, using Python compiled to WebAssembly. Since there's no server-side component to this at all (it's just static HTML and JavaScript served by GitHub) there's very little that can go wrong. This is a very robust free way to share a link to a Datasette interface on top of some data.",
+      "chapter": "In your browser with Datasette Lite",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data sharing",
+        "WebAssembly",
+        "browser-based tools",
+        "Datasette Lite",
+        "zero infrastructure"
+      ],
+      "notes": "Client-side-only data exploration eliminates server dependencies and hosting costs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Browser-based zero-infrastructure data exploration via WebAssembly remains a robust free sharing approach"
+    },
+    {
+      "extract": "Enrichments: a plugin-based mechanism for 'enriching' data - select a column of addresses and hit 'geocode', select a column of URLs to PDF files and hit 'run OCR', select a column of URLs to YouTube videos and hit 'extract transcripts'.",
+      "chapter": "What's next?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "data enrichment",
+        "geocoding",
+        "OCR",
+        "transcription",
+        "Datasette"
+      ],
+      "notes": "Plugin-based column-level enrichment as a design pattern for data augmentation",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Plugin-based enrichment pattern endures but LLMs now offer more flexible enrichment via natural language prompting for geocoding, OCR, etc."
+    },
+    {
+      "extract": "Write API: Automatically populate your Datasette instance via a secure API - ideal for running in GitHub Actions and combining with tricks such as git scraping.",
+      "chapter": "What's next?",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "git scraping",
+        "automation",
+        "GitHub Actions",
+        "data collection",
+        "Datasette"
+      ],
+      "notes": "Git scraping: automated periodic data collection via version control",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Git scraping and automated data collection via GitHub Actions remains a valid and widely-used pattern"
+    },
+    {
+      "extract": "Plugins are global - if you 'datasette install datasette-cluster-map' it will be installed for anything else using that Datasette installation. BUT if you know how to use Python virtual environments you can run a separate environment for each of your Datasette projects and have different plugins installed in each one.",
+      "chapter": "Q&A",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "virtual environments",
+        "project isolation",
+        "dependency management",
+        "Datasette"
+      ],
+      "notes": "Use virtual environments to isolate per-project plugin configurations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Virtual environment isolation for project dependencies is a fundamental software practice unaffected by AI"
+    },
+    {
+      "extract": "Everything gets backed up regularly. Your original data must be sacrosanct. Make a copy out of email. Then make a copy of that. If you're putting more than 20 minutes into something, you should put it on Github. Make incremental backups of projects, with timestamps in the filename.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "backup strategy",
+        "version control",
+        "data integrity",
+        "Git"
+      ],
+      "notes": "Stucka. Sacrosanct original data + 20-minute Github threshold + timestamped incremental backups.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Backup discipline and sacrosanct original data are foundational data hygiene practices that AI does not change"
+    },
+    {
+      "extract": "Spend more time than you want to thinking about what you're going to do, and you won't regret it. Sketch out each section of your code. Think about your data models. Think about your data models more. Determine how things relate. Review what bridges you need to make things work. Think what you can recycle into this project. Think what this project can get you for future ones.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project planning",
+        "data modeling",
+        "code architecture",
+        "reusability"
+      ],
+      "notes": "Stucka. Emphasis on up-front planning of code structure and data models before writing.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Up-front planning of data models and code architecture remains valuable but LLMs now assist with rapid prototyping and iteration"
+    },
+    {
+      "extract": "Track everything for accountability. What you need to complete projects. Data peculiarities and definitions. Decision points. Missing records. Missing decisions. Phone calls.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "accountability",
+        "documentation",
+        "audit trail",
+        "decision tracking"
+      ],
+      "notes": "Stucka. Track data quirks, decisions, missing records, and communications for accountability.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tracking data peculiarities, decisions, and missing records for accountability is essential regardless of AI tools"
+    },
+    {
+      "extract": "Working with APIs: Understand what data it spits out. Read through the API documentation to understand field definitions and possible scenarios, edge cases (so you can anticipate all sorts of possible values that the API spits out). Free tools available to help you understand data structure, e.g. https://jsonformatter.org/json-pretty-print",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "APIs",
+        "data acquisition",
+        "edge cases",
+        "documentation reading"
+      ],
+      "notes": "Lung. Emphasizes reading API docs for field definitions and anticipating edge cases before building pipelines.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reading API documentation and anticipating edge cases before building pipelines remains essential even with LLM-generated code"
+    },
+    {
+      "extract": "You can input URL of source data, or link a local file and have Excel load it in tabular format. Get most up-to-date data using Refresh.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "live data",
+        "real-time updates",
+        "API consumption"
+      ],
+      "notes": "Lung. Using Excel's data connection features to consume live API/CSV data with auto-refresh.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Excel data connection features for live data are being supplemented by LLM-powered data pipeline tools with more flexibility"
+    },
+    {
+      "extract": "To manage tools development, I found Trello most useful. TRACK AND PRIORITIZE: My TODOs (must-have features identified for the pipeline and Excel UI), My questions for users / clarifications, Bugs during testing, Add-on requests from users (nice-to-haves). For the end users: Make checklists and guidelines for using the tool to reduce friction + increase adoption.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "Trello",
+        "task tracking",
+        "user adoption",
+        "pipeline development"
+      ],
+      "notes": "Lung. Using kanban boards to manage tool development lifecycle including user-facing documentation.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Kanban-based project management endures but AI assistants can now help manage task tracking and prioritization more dynamically"
+    },
+    {
+      "extract": "TESTING FOR SUCCESS: Always ask: 'What if...?' 'What can possibly break this?' Always think of edge cases (numbers: lower bound, upper bound, zeros; elections: wins/losses/tie/retraction) and where systems might fail. Document for posterity.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "testing",
+        "edge cases",
+        "quality assurance",
+        "documentation",
+        "robustness"
+      ],
+      "notes": "Lung. Systematic edge-case testing with domain-specific examples (elections: ties, retractions).",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Systematic edge-case testing and asking what can break remains essential even when LLMs generate the code"
+    },
+    {
+      "extract": "Reproducibility. Shared practice. Avoid rabbit holes. Reps on writing clearly about data.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "shared practice",
+        "clarity",
+        "workflow goals"
+      ],
+      "notes": "Hing. Four core goals for personal data journalism workflow.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reproducibility, shared practice, avoiding rabbit holes, and clear data writing are workflow goals that transcend tooling"
+    },
+    {
+      "extract": "Define a list of tasks across projects in a daily note. Further define a task within a project in a data diary entry. Do the task. Quickly inspect new data with VisiData. Write a script/Makefile rule to process data. Analyze data in an executable notebook. File a records request. Follow up with an agency about a data finding. Document what I learned from the task. Note the next step.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "daily workflow",
+        "task management",
+        "data diary",
+        "VisiData",
+        "Makefile",
+        "notebooks"
+      ],
+      "notes": "Hing. Complete daily workflow cycle from task definition through execution to documentation.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Daily workflow cycle remains valid but LLM assistants can now handle data inspection and script writing steps within the cycle"
+    },
+    {
+      "extract": "Home base for project work is a really long Markdown file. Lives in a project folder with analysis scripts. Editor features help make it navigable despite length.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project documentation",
+        "Markdown",
+        "single-file workflow",
+        "project organization"
+      ],
+      "notes": "Hing. Single long Markdown file as project hub, co-located with analysis scripts.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Single long Markdown file as project hub co-located with analysis scripts is a lightweight organizational pattern that remains valid"
+    },
+    {
+      "extract": "Data diary entry: Defines more precisely what I'm going to do. Reminds me what I did in the past in greater detail. Helps others reproduce or validate my work. Will reference or link to scripts, Makefile targets, analysis notebooks, records request trackers, clips.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Verify",
+      "secondary_step": "Define",
+      "extract_type": "organizational",
+      "themes": [
+        "data diary",
+        "reproducibility",
+        "documentation",
+        "audit trail",
+        "linking"
+      ],
+      "notes": "Hing. Data diary as reproducibility artifact that cross-references all project components.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data diary as reproducibility artifact cross-referencing all project components remains essential for accountability"
+    },
+    {
+      "extract": "Data source documentation: Tells me where to find source data. Reminds me of things that stood out when I first inspected data. Warns me of ambiguities I need to resolve... or traps to avoid. Gets copied into analysis notebooks.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "data provenance",
+        "source documentation",
+        "data inspection",
+        "ambiguity tracking"
+      ],
+      "notes": "Hing. Source documentation that captures provenance, first-inspection observations, and known traps.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Documenting data provenance, first-inspection observations, and known traps is fundamental and cannot be automated away"
+    },
+    {
+      "extract": "Makefile target: Orchestrates scripts to process data. Provides data that is smaller to analysis notebooks. Simplifies analysis notebooks.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "Makefile",
+        "pipeline orchestration",
+        "data processing",
+        "workflow automation"
+      ],
+      "notes": "Hing. Using Makefiles to orchestrate data processing and feed simplified outputs to notebooks.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Makefile orchestration endures as a pattern but LLM-powered pipeline tools offer more flexible alternatives for data processing"
+    },
+    {
+      "extract": "Analysis notebook: Starts as an outline of data questions. Evolves into a list of data findings with proof. Draft footnotes link here for fact-checking.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "analysis notebooks",
+        "fact-checking",
+        "findings documentation",
+        "iterative analysis"
+      ],
+      "notes": "Hing. Notebooks evolve from questions to findings; draft footnotes link back for verification.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Analysis notebooks evolving from questions to findings with fact-checking links is an enduring methodology practice"
+    },
+    {
+      "extract": "Do repeat yourself. Use the tool for the job. Link between things when possible. Reference items that can't be linked with easily searchable identifiers such as citations. Copy and paste if there's not an easier alternative. It's ok for some information to become outdated, but pay attention to which places need to be high fidelity (e.g. analysis notebooks). Having to re-write the same thing helps hone the language about data process and findings.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "redundancy",
+        "linking",
+        "cross-referencing",
+        "writing clarity",
+        "fidelity"
+      ],
+      "notes": "Hing. Contrarian 'do repeat yourself' principle: rewriting hones language; distinguish high-fidelity from ephemeral docs.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that rewriting hones language and distinguishing high-fidelity from ephemeral docs is a cognitive practice independent of tools"
+    },
+    {
+      "extract": "Documenting my process parallels writing about data for an audience. How did I get here? Why does it matter? What do I know? What do I want to know? What is the first, next step? I find that when I describe my data reporting process for co-reporters and editors, and for my future self, some of the things I want to convey to them, are the same things I want to convey to readers when I write about findings and methodology. Ultimately, it's all about trust in the rigor of reporting.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology writing",
+        "trust",
+        "process documentation",
+        "audience"
+      ],
+      "notes": "Hing. Process documentation and public methodology writing are fundamentally the same act -- both build trust.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Process documentation as trust-building that parallels public methodology writing is a foundational insight about journalism values"
+    },
+    {
+      "extract": "When I start a project: Running questions. One page - ReadMe, roadmap. Should answer my high-level questions about the topic. Links, links everywhere. Clips. Timeline (if helpful). Reminders / memos. Actionable items.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project kickoff",
+        "readme",
+        "roadmap",
+        "question-driven research"
+      ],
+      "notes": "Reyes. Single-page project roadmap with running questions, links, timeline, and actionable items.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Question-driven project roadmaps with links, timelines, and actionable items remain a sound organizational practice"
+    },
+    {
+      "extract": "Remove yourself. Change of scenery. Remove distractions. Build a zone. Paper notes.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "focus",
+        "deep work",
+        "physical environment",
+        "analog tools"
+      ],
+      "notes": "Stucka. Physical distance from computers and analog note-taking to support deeper thinking.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Physical distance from computers and analog note-taking for deeper thinking is human cognitive advice unaffected by AI"
+    },
+    {
+      "extract": "Daily log: Helps me plan my day. Reminds me what I did last week/last month/3 months ago. Can reflect multiple projects and things that aren't reporting.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "daily log",
+        "planning",
+        "project tracking",
+        "memory aid"
+      ],
+      "notes": "Hing. Daily log as cross-project planning and memory tool.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Daily log as cross-project planning and memory tool is a personal productivity practice independent of AI tools"
+    },
+    {
+      "extract": "When I start work, I update a 'log' and generate TODOs as needed. If existing project, link up research, information received.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "daily startup routine",
+        "logging",
+        "task generation",
+        "research linking"
+      ],
+      "notes": "Reyes. Daily startup: update log, generate TODOs, link incoming research to projects.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Daily startup routine of updating logs, generating TODOs, and linking research is a human workflow discipline"
+    },
+    {
+      "extract": "OpenRefine can help you clean big datasets even if you don't know how to code. Learn how to open a CSV file in OpenRefine. Learn how to use OpenRefine to pivot data and make it easier to work with. Learn faceting, clustering. Export cleaned data.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "no-code cleaning",
+        "pivoting",
+        "faceting",
+        "clustering"
+      ],
+      "notes": "OpenRefine as low-code data cleaning tool with pivot, facet, and cluster capabilities.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "OpenRefine as no-code cleaning tool is still useful but LLMs now offer conversational data cleaning that is more accessible to non-coders"
+    },
+    {
+      "extract": "This will 'pivot' the data from individual columns for each year to putting all of the years into one column and creating a bunch more rows, essentially making it longer and thinner. Select Transpose and then Transpose Cells Across Columns into Rows. Make sure the box marked Fill down in other columns is checked.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "wide to long",
+        "pivot",
+        "data reshaping",
+        "OpenRefine"
+      ],
+      "notes": "Converting wide-format data to long-format using OpenRefine's Transpose function.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Wide-to-long data reshaping concepts endure but LLMs can now perform these transformations via natural language prompts"
+    },
+    {
+      "extract": "While I generally use simple R commands to pivot my data, I still will often run data through OpenRefine before I open it in RStudio because it is very smart at recognizing patterns in cells that might take me longer to address in an R script.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "OpenRefine",
+        "R",
+        "pattern recognition",
+        "cleaning workflow"
+      ],
+      "notes": "Using OpenRefine for pattern-based cleaning even when R is available, because its clustering algorithms are faster for messy text.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "OpenRefine clustering for pattern recognition in messy text is being supplemented by LLM-based entity resolution and fuzzy matching"
+    },
+    {
+      "extract": "Clustering is my favorite function within OpenRefine, because it can allow you to quickly clean up a big dataset by identifying similar text values without a bunch of fancy fuzzy matching or other complex processes. OpenRefine uses two overarching clustering categories. The first, key collision, creates alternate versions of strings that contain only the most meaningful parts (the key part), then buckets the strings together based on whether those keys match (the collision part). The second, nearest neighbor, compares all the different strings to each other and bins them when they are similar enough. But nearest neighbor methods take forever for big datasets because each pair needs to be compared to every other pair.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "clustering",
+        "key collision",
+        "nearest neighbor",
+        "fuzzy matching",
+        "entity resolution",
+        "OpenRefine"
+      ],
+      "notes": "Two clustering strategies: key collision (efficient, fewer errors) vs nearest neighbor (thorough but slow). Key collision preferred for large datasets.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Clustering algorithms like key collision and nearest neighbor remain valid but LLMs offer more flexible entity resolution approaches"
+    },
+    {
+      "extract": "The first, fingerprint, is the default key collision method, because it tends to make the fewest mistakes (fingerprint groups different strings together by removing whitespace, changing all characters to lowercase, removing punctuation and several other intuitive steps.) There's also metaphone3, a method that transforms strings into how they are typically pronounced. This is useful for errors that involve misspellings.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fingerprint method",
+        "metaphone",
+        "string normalization",
+        "misspelling detection",
+        "OpenRefine"
+      ],
+      "notes": "Fingerprint (safest default) then metaphone (pronunciation-based) as sequential cleaning strategy.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Fingerprint and metaphone methods are still valid algorithmic approaches but LLMs can handle misspelling detection more contextually"
+    },
+    {
+      "extract": "Select Edit cells -> Common transforms -> Trim leading and trailing whitespace. This removes any spaces that are in the cells either before or after the city name. Now let's do one other easy transform, Edit cells -> Common transforms -> To titlecase.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "whitespace trimming",
+        "case normalization",
+        "text cleaning",
+        "OpenRefine"
+      ],
+      "notes": "Simple transforms (trim whitespace, titlecase) should be applied before clustering for quick wins.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Basic text transforms like whitespace trimming and case normalization are now trivially handled by LLM-generated cleaning scripts"
+    },
+    {
+      "extract": "This Undo/Redo pane, with all of our steps listed in a linear fashion, is also helpful to use in the future, should we encounter similar data and want to clean it quickly. Click the Extract button and the window Extract Operation History should pop up. Check the tasks that you'd want to repeat on similar data. Open a TextEdit window and paste the code you generated into a new window and save it with a .json extension. Now if you want to apply the same commands to a similar data file, you can\\! Just hit Apply, paste the .json script you saved into the window, and watch the replicable magic happen.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "operation history",
+        "reusable scripts",
+        "OpenRefine",
+        "JSON export"
+      ],
+      "notes": "Export cleaning steps as JSON for reuse on similar datasets. Key reproducibility feature of OpenRefine.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Exporting cleaning steps as reusable JSON scripts for reproducibility is a sound practice that generalizes to any pipeline tool"
+    },
+    {
+      "extract": "Some of the values have parentheses to indicate they are negative amounts, and some have commas while others do not. These characters and the dollar symbols are making the column get recognized as a text column rather than as numeric. You can click on Edit Cells and then click Replace. Type in an opening parenthesis into the Find box and then in the Replace box, type in a dash. Then get rid of the other three annoying characters by typing them into the Find box and leaving the Replace box blank. Once you do this, select Edit Cells, Common Transforms, To Number.",
+      "chapter": "2023-openrefine-powerwash/README.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "type conversion",
+        "currency cleaning",
+        "string replacement",
+        "numeric parsing",
+        "OpenRefine"
+      ],
+      "notes": "Step-by-step: strip parentheses/commas/dollar signs then convert to numeric. Common pattern for financial data.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Manual string replacement for financial data cleaning is now easily automated by LLM-generated cleaning scripts"
+    },
+    {
+      "extract": "A regular expression is a common, compact way to represent some sort of pattern in text. You can use one to: Help you search within a document. Reformat or otherwise clean up an inconsistent or 'dirty' data set. Extract structured data from plain text. Many common programming languages, text editors and search tools support regular expressions, so you can use them in whatever environment you find most comfortable.",
+      "chapter": "2023-regex-for-rest-of-us.md",
+      "pipeline_step": "Clean",
+      "secondary_step": "Find",
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "pattern matching",
+        "text extraction",
+        "data cleaning",
+        "cross-platform"
+      ],
+      "notes": "Myers/AP. Three use cases for regex: search, clean, extract. Portable across languages and editors.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Regex as a cross-platform tool endures but LLMs can now generate regex patterns from natural language and handle many text extraction tasks directly"
+    },
+    {
+      "extract": "Another is to save those groups so you can refer to them later, such as in the replacement step of a find-and-replace operation. These often are referenced by their position; for example, in (\\d\\d\\d)-(\\d\\d\\d)-(\\d\\d\\d\\d), you might use \\1 to refer to the first three digits, \\2 to refer to the second three digits and \\3 to refer to the last four digits.",
+      "chapter": "2023-regex-for-rest-of-us.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "capture groups",
+        "find-and-replace",
+        "data reformatting"
+      ],
+      "notes": "Myers/AP. Using regex capture groups for structured reformatting of text data.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Regex capture groups for reformatting remain useful but LLMs can now generate these patterns and perform complex text restructuring directly"
+    },
+    {
+      "extract": "Different programming languages, text editors and other tools handle regular expressions in their own ways. Some environments have different rules about when certain characters do and don't need to be escaped. Some languages such as R require backslashes themselves to be escaped, so you might have to type twice as many backslashes as you otherwise would think.",
+      "chapter": "2023-regex-for-rest-of-us.md",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "regex",
+        "cross-platform differences",
+        "escaping",
+        "portability"
+      ],
+      "notes": "Myers/AP. Regex syntax varies by environment; R double-escaping is a common gotcha.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Cross-platform regex differences and escaping rules are less burdensome when LLMs generate environment-specific patterns on demand"
+    },
+    {
+      "extract": "Average/Mean - Most common (Total/# of items). Median - Middle value. Better to show typical value. Mode: Value that comes up the most.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "central tendency",
+        "mean",
+        "median",
+        "mode",
+        "descriptive statistics",
+        "Excel"
+      ],
+      "notes": "Wallack/WBUR. Median recommended over mean for showing typical values.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding mean, median, and mode and when to use each is foundational statistical literacy that LLMs do not replace"
+    },
+    {
+      "extract": "Standard Deviation: How far numbers differ from the median. In a normal curve, 68% of values are within 1 standard deviation. 95% are within 2. And 99.7% are within three. So a difference of 2 standard deviations is usually significant. Outliers are generally beyond three standard deviations. Standard Error: How much numbers of a sample are likely to differ from the true value in the overall population. Bigger samples have lower standard errors.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "standard deviation",
+        "standard error",
+        "outliers",
+        "significance",
+        "dispersion",
+        "Excel"
+      ],
+      "notes": "Wallack/WBUR. Rule of thumb: 2 SD = significant, 3 SD = outlier. Standard error decreases with sample size.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding standard deviation, standard error, and outlier thresholds is core statistical literacy for data journalists"
+    },
+    {
+      "extract": "Per capita rates are 'per person' or per unit. Number / Population. But you can convert to other rates like Per 1,000 or Per 100,000. Best to use a rate that allows you to express numbers more clearly. Like 15 homicides per 100,000 people. Instead of .00015 gun deaths per person or per capita. Experiment with the rate that works best.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "rates",
+        "per capita",
+        "normalization",
+        "data presentation",
+        "clarity"
+      ],
+      "notes": "Wallack/WBUR. Choose rate denominator for readability; avoid tiny decimals.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Choosing appropriate rate denominators for readability is a presentation judgment that requires human editorial sense"
+    },
+    {
+      "extract": "Correlation is between 0 (weak) and 1 (strong). Negative correlations mean when one value goes up, the other goes down.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "correlation",
+        "statistical analysis",
+        "Excel"
+      ],
+      "notes": "Wallack/WBUR. Basic correlation interpretation for journalists.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Basic correlation interpretation is foundational statistical literacy that journalists must understand regardless of AI assistance"
+    },
+    {
+      "extract": "Regression only works on numerical values, like salaries and height. If you want to convert a categorical variable to numerical, you need to turn it into a numerical value (often called a dummy variable). So for instance, if you have a gender column with categories like male, female and nonbinary, you might create a new column called 'female' that has 1 for female and 0 for not female.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regression",
+        "dummy variables",
+        "categorical encoding",
+        "Excel"
+      ],
+      "notes": "Wallack/WBUR. Creating dummy variables for categorical data to enable regression analysis.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding dummy variable encoding for regression is statistical knowledge journalists need to interpret AI-generated analysis"
+    },
+    {
+      "extract": "To compare coefficients to see which one is most important, standardize values. The formula is =standardize(x,average,stdev)",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "standardization",
+        "regression coefficients",
+        "comparability",
+        "Excel"
+      ],
+      "notes": "Wallack/WBUR. Standardize regression coefficients to compare relative importance of predictors.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Standardizing regression coefficients for comparison is a statistical technique that requires human understanding to apply and interpret"
+    },
+    {
+      "extract": "Some of this stuff is complicated, particularly when it comes to regression. Before you publish a story, it often makes sense to contact a statistician or researcher who will look over your analysis and make sure you are not missing anything.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "peer review",
+        "expert consultation",
+        "statistical validation",
+        "publication standards"
+      ],
+      "notes": "Wallack/WBUR. Seek external statistical review before publishing regression-based findings.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Seeking expert statistical review before publishing regression-based findings is a quality control principle amplified by AI ease of analysis"
+    },
+    {
+      "extract": "Real-time results dashboard in a local spreadsheet\\! Excel 'magic': Macros (for auto refresh, sound alerts), Conditional highlights, Formulas.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "real-time dashboards",
+        "macros",
+        "election results",
+        "conditional formatting"
+      ],
+      "notes": "Lung. Using Excel macros and conditional formatting for real-time election results monitoring.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Excel macros for real-time dashboards are being supplemented by more modern real-time tools and LLM-generated dashboards"
+    },
+    {
+      "extract": "Zotero notes: Ties source document and takeaway. Linked from data diary, analysis notebook and, eventually draft.",
+      "chapter": "2023-journalism-workflow-hacks.md",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "Zotero",
+        "citation management",
+        "source tracking",
+        "cross-referencing",
+        "research workflow"
+      ],
+      "notes": "Hing. Zotero as connective tissue linking source documents to data diary, notebooks, and final draft.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Zotero as connective tissue linking sources to analysis and drafts remains a valid research workflow practice"
+    },
+    {
+      "extract": "For advanced visualizations I like to use Observable Notebooks. Since it's easy to get JSON or CSV data out of Datasette by URL you can build notebooks that use data from it.",
+      "chapter": "Observable Notebooks",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Observable",
+        "visualization",
+        "Datasette integration",
+        "JSON API",
+        "notebooks"
+      ],
+      "notes": "Willison. Datasette's URL-based data export feeds directly into Observable for visualization.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "URL-based data export feeding into visualization notebooks is a sound architectural pattern that remains valid"
+    },
+    {
+      "extract": "Skewness: Measures the shape of your curve. Positive skewness indicates a distribution with an asymmetric tail extending toward more positive values. Kurtosis: A measure of how often outliers occur (at one of the tails). Bigger numbers tend to have long thin tails.",
+      "chapter": "2023-stats-in-excel.md",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skewness",
+        "kurtosis",
+        "distribution shape",
+        "outlier detection",
+        "descriptive statistics"
+      ],
+      "notes": "Wallack/WBUR. Distribution shape measures: skewness for asymmetry, kurtosis for tail heaviness.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding distribution shape measures like skewness and kurtosis is statistical literacy that journalists need to interpret data correctly"
+    }
+  ]
+}

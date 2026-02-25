@@ -1,0 +1,953 @@
+{
+  "source_id": "97",
+  "source_file": "97g-nicar-2022.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "extracts": [
+    {
+      "extract": "When should you use a survey? The data doesn't exist or is really bad. There are no public records. You are looking to connect with sources. You want to collect personal stories.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "data gaps",
+        "source development"
+      ],
+      "notes": "Decision framework for when to create your own data via surveys",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Decision framework for when to create your own data via surveys remains valid; LLMs do not fill data gaps where no records exist"
+    },
+    {
+      "extract": "Talk to experts in this field: What information is already out there? What questions would the expert ask if they were writing the survey? What new information do you hope to learn? Identify your sources. Who is answering the survey? Collect and verify email addresses. How much of that population do you want to answer the survey? Do you want statistical significance and scientific rigor? Or a small sample? What questions are you trying to answer? Run the survey questions by at least one expert to find problems.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "expert consultation",
+        "methodology planning"
+      ],
+      "notes": "Pre-survey planning checklist emphasizing expert review and population scoping",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Pre-survey expert consultation and population scoping are research design fundamentals that AI cannot replace"
+    },
+    {
+      "extract": "Define your terms. Loose language gives sources room to hedge. Consider your format: Surveymonkey? Google form? Individual emails? Decide if the survey will be anonymous or not. If it is not anonymous, ask who is answering the survey and their title for attribution. Give sources a reasonable deadline, with time for you to follow up.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "precision",
+        "attribution",
+        "tool selection"
+      ],
+      "notes": "Survey execution guidance: term definition, format choice, anonymity decisions",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Defining precise survey terms, choosing format, and managing attribution are research design decisions requiring human judgment"
+    },
+    {
+      "extract": "Read responses as they come in and contact promising sources early. Did you give an early deadline? You can clarify unclear or non-responses. Talk to community leaders if something seems off (and to verify your info).",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "survey follow-up",
+        "source verification",
+        "community validation"
+      ],
+      "notes": "Post-survey verification through community cross-checks",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Real-time survey monitoring and community cross-checking of responses are human verification practices unaffected by AI"
+    },
+    {
+      "extract": "Carefully define terms in your initial contact. For me I should have outlined exactly what a SANE certification means (dozens of hours of classroom/clinical time, passing exam). I would have added another question for the number of nurses who had some SANE training but not a full certification. Specifically ask for the name and title of survey respondent.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "survey design",
+        "term definition",
+        "lessons learned"
+      ],
+      "notes": "Retrospective lesson: ambiguous terminology undermines survey responses",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Lesson that ambiguous terminology undermines survey quality is a research design principle independent of AI tools"
+    },
+    {
+      "extract": "Explain survey methods in story.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure"
+      ],
+      "notes": "Brief but critical advice on showing your work to readers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Explaining survey methods in the story is a transparency obligation that is more important when AI assists analysis"
+    },
+    {
+      "extract": "Filed records requests with 3 state agencies: None tracked SANE nurses. State nursing board also did not have reliable information. Searched any recent academic or legislative information on SANE numbers. Talked to experts in the space and ran survey questions by them. Collected and verified contact information for 130 hospitals and programs.",
+      "chapter": "Artisanal data collection methods",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "records requests",
+        "data gaps",
+        "source building",
+        "expert consultation"
+      ],
+      "notes": "Demonstrates exhausting official sources before building own dataset",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Exhausting official data sources before building your own dataset is a methodological discipline AI does not change"
+    },
+    {
+      "extract": "Survey language needs to be precise and not leading. Be specific and transparent with readers about how research was conducted. Think about data visuals beforehand.",
+      "chapter": "FALSE PROMISES",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "survey design",
+        "precision",
+        "transparency",
+        "visualization planning"
+      ],
+      "notes": "Pre-production survey design principles from homelessness investigation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Precise and non-leading survey language with transparency about methods are foundational research principles"
+    },
+    {
+      "extract": "Sample size: 300 people https://www.surveymonkey.com/mp/sample-size-calculator/ 26-question survey. Sent the survey to research and topic experts for review. Tested the survey among those we planned to interview. Paid homeless individuals to help us do the survey work (budget: $1,500). Made it anonymous. Google forms for data input.",
+      "chapter": "FALSE PROMISES",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "survey methodology",
+        "sample size",
+        "participant compensation",
+        "tool selection"
+      ],
+      "notes": "Concrete survey implementation including paying participants as co-researchers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Survey methodology decisions about sample size, expert review, testing, and participant compensation are human research design choices"
+    },
+    {
+      "extract": "Better Questions: Mix of quantitative & qualitative. Space for 'why' & 'if-then'. Better tracking: Utilizing traditional survey tools. Using 'no response' to tell the story.",
+      "chapter": "FINE-TUNING THE PROCESS",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "survey iteration",
+        "qualitative data",
+        "non-response analysis"
+      ],
+      "notes": "Iterating survey design; treating non-response as meaningful data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Iterating survey design with mixed methods and treating non-response as meaningful data are research principles independent of AI"
+    },
+    {
+      "extract": "Use mean for numbers that vary little: sports stats, commute times, water levels, etc. Use median for numbers with potential outliers: salaries, income, wealth, home values, etc. The mode is the most frequently occurring number; it is rarely used in journalism.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "descriptive statistics",
+        "mean vs median",
+        "data interpretation"
+      ],
+      "notes": "Decision rules for choosing the right average in journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Decision rules for choosing mean vs median in journalism are core data literacy skills that LLMs do not replace"
+    },
+    {
+      "extract": "For this data set, the best average is the median. Because most people think 'average' can only be a mean, phrase it this way: The median, or midpoint, was $120,000.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "writing with numbers",
+        "audience literacy",
+        "descriptive statistics"
+      ],
+      "notes": "Practical phrasing advice for explaining median to general audience",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Practical phrasing advice for explaining median to general audiences is a writing skill that remains human editorial work"
+    },
+    {
+      "extract": "Statistics help us sift meaningful patterns from random chance. Random fluctuations in data are normal. Statisticians call this noise. For example, we want to know if data showing racial disparities are indicative of a meaningful pattern or just noise.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical reasoning",
+        "signal vs noise",
+        "significance"
+      ],
+      "notes": "Foundational framing of statistics as pattern-vs-noise detection",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding that statistics separate meaningful patterns from random noise is foundational analytical literacy"
+    },
+    {
+      "extract": "Statistics are not voodoo. They are based on empirical testing and numerical laws such as the central limit theorem. It is, after all, a science. On the other hand, statistics are not magic. They require interpretation to avoid false interpretations or ascribe undue importance.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical literacy",
+        "interpretation",
+        "intellectual humility"
+      ],
+      "notes": "Dual warning: statistics are real science but require human judgment",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Statistics require human interpretation to avoid false conclusions; this warning is amplified when AI makes analysis easier"
+    },
+    {
+      "extract": "Correlation does not imply causation. Consider a plausible alternative explanation. An increase in antidepressants among older adults means lower suicide rates. However, that may be partly due to improvements in drugs that have reduced death risk from overdoses. Beware the law of small numbers. Rural U.S. states have both the highest and lowest rates of cancers. This is not a meaningful pattern but the result of the greater variance inherent when population numbers are relatively small.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "alternative explanations",
+        "small numbers",
+        "statistical pitfalls"
+      ],
+      "notes": "Three core statistical interpretation principles for journalists",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correlation-causation distinction, alternative explanations, and law of small numbers are timeless statistical reasoning principles"
+    },
+    {
+      "extract": "Because human behavior is so complex, social science sets the level of probability (p) to separate patterns from noise at less than 5%, or p < .05. Colloquially, p < .05 means there was a less than 5% probability a relationship was due to chance. Although p < .05 is considered statistically significant, a more precise term would be statistically noticeable or statistically detectable (Jordan Ellenberg, p. 121). Whether that relationship is meaningful depends on human judgment – yes, you!",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "p-values",
+        "statistical significance",
+        "interpretation",
+        "human judgment"
+      ],
+      "notes": "Reframing significance as detectability; judgment remains with the journalist",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding p-values, statistical significance vs practical significance, and the role of human judgment is essential regardless of AI"
+    },
+    {
+      "extract": "Correlations range from 0.00 (no relationship) to 1.00 (perfect relationship). The correlation coefficient measures the strength of the relationship. A general rule of thumb (Cohen, 1988): 0.10 to 0.28 Small, 0.30 to 0.49 Moderate, 0.50 to 0.99 Large.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "correlation",
+        "effect size",
+        "benchmarks"
+      ],
+      "notes": "Cohen's benchmarks for interpreting correlation strength",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cohen benchmarks for interpreting correlation strength are reference knowledge journalists need to evaluate AI-generated analyses"
+    },
+    {
+      "extract": "The strong correlation does not equal uniformity. Some cities are above the line (higher crime rates) and some are below. Also, do not treat this strong correlation as even remotely normal. In my research, 0.40 is about as strong as it gets.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "interpretation",
+        "variance",
+        "real-world expectations"
+      ],
+      "notes": "Calibrating expectations: 0.40 is typical ceiling for social science correlations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Calibrating expectations for real-world correlation strength and understanding within-group variance is essential interpretive skill"
+    },
+    {
+      "extract": "A third and more dominant variable may be at work: money. Schools that pay big salaries to coaches also can afford larger academic counseling staffs who keep players on track to graduate. The presence of a third, more influential variable, is reason to consider a plausible alternative explanation. The result may reflect a data definition that produces relative conformity. The NCAA created the GSR, or Graduation Success Rate, to be more generous than the federal data standard. The GSR allows universities to ignore athletes who transferred or who turned pro before graduation. Counting only players who stayed until the end of their athletic careers compresses potential variance.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "confounding variables",
+        "data definitions",
+        "institutional metrics",
+        "alternative explanations"
+      ],
+      "notes": "How third variables and metric definitions can mask or manufacture patterns",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Identifying confounding variables and questioning data definitions that manufacture patterns is core analytical thinking AI cannot replace"
+    },
+    {
+      "extract": "Despite the moderate strength of the relationship, unemployment was not a primary factor in vote share. Something else was. This statistic is an example of how statistics must be read carefully.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "spurious correlation",
+        "interpretation",
+        "critical reading of data"
+      ],
+      "notes": "Moderate correlation can still be misleading without theoretical rationale",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning that moderate correlation can be misleading without theoretical rationale requires human domain knowledge"
+    },
+    {
+      "extract": "The finding of statistical significance offers assurance the difference is beyond what would be expected by chance. You are free to write a story: Bloomington firefighters are paid above the national average. Please note: The statistic does not give license to use 'significantly' in that sentence. All the t-Test can tell us is that the difference was unlikely to occur by chance.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical significance",
+        "writing with numbers",
+        "word choice",
+        "precision"
+      ],
+      "notes": "Critical distinction: statistical significance does not license the word 'significantly' in copy",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Distinguishing statistical significance from the word significantly in copy is a writing discipline LLMs may not enforce"
+    },
+    {
+      "extract": "The primary goal is to help you understand how to work with data, in general, regardless of the tool.",
+      "chapter": "MaryJo Webster's Data Journalism Academy",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool agnosticism",
+        "pedagogy",
+        "data literacy"
+      ],
+      "notes": "Teaching philosophy: conceptual understanding over specific tool mastery",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tool-agnostic data literacy pedagogy is the right approach especially when AI tools change rapidly"
+    },
+    {
+      "extract": "Observed health statistics, that is, those counts, rates or percentages that are computed or estimated from health surveys, vital statistics registries, or other health surveillance systems, are not always an accurate reflection of the true underlying risk in the population. Observed rates can vary from sample to sample or year to year, even when the true underlying risk remains the same.",
+      "chapter": "Confidence Intervals in Public Health",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "sampling error",
+        "confidence intervals",
+        "public health data",
+        "uncertainty"
+      ],
+      "notes": "Foundational warning that observed statistics are not ground truth",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning that observed health statistics are not ground truth due to sampling variation is fundamental regardless of AI tools"
+    },
+    {
+      "extract": "Sampling error refers to random variation that occurs because only a subset of the entire population is sampled and used to estimate a finding for the entire population. It is often mis-termed 'margin of error' in popular use. In general, sampling error or random variation gets larger when the sample, population or number of events is small.",
+      "chapter": "Confidence Intervals in Public Health",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sampling error",
+        "margin of error",
+        "small samples",
+        "terminology"
+      ],
+      "notes": "Corrects common misuse of margin of error; small-sample warning",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding sampling error, its relationship to sample size, and correcting margin of error misuse are foundational concepts"
+    },
+    {
+      "extract": "If the state infant death rate of 5.94 increased to 6.03 in a one-year period, is that increase something that should cause concern? If the smoking rate among teens decreased from 13% to 8%, is that cause for celebration?",
+      "chapter": "Confidence Intervals in Public Health",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "confidence intervals",
+        "trend interpretation",
+        "significance testing"
+      ],
+      "notes": "Motivating example: apparent changes may fall within confidence intervals",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Recognizing that apparent trend changes may fall within confidence intervals is essential interpretive literacy"
+    },
+    {
+      "extract": "When comparing across geographic areas, some method of age adjusting is typically used to control for area-to-area differences in health events that can be explained by differing ages of the area populations. For example, an area that has an older population will have higher crude (not age-adjusted) rates for cancer, even though its exposure levels and cancer rates for specific age groups are the same as those of other areas. One might incorrectly attribute the high cancer rates to some characteristic of the area other than age.",
+      "chapter": "Confidence Intervals in Public Health",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "age adjustment",
+        "rate comparison",
+        "confounding",
+        "geographic analysis"
+      ],
+      "notes": "Why crude rates mislead when comparing populations with different age structures",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding age adjustment for geographic rate comparisons is domain knowledge essential for accurate reporting"
+    },
+    {
+      "extract": "If you can specify one variable as causing or influencing a second variable, the first variable is called the independent variable and the latter is called the dependent variable. You should percentage in the direction of your independent variable.",
+      "chapter": "Ratios, Proportions, Percentages, and Rates",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "percentaging tables",
+        "independent variable",
+        "data presentation",
+        "causal direction"
+      ],
+      "notes": "Rule of thumb for which direction to calculate percentages in cross-tabulations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Percentaging in the direction of the independent variable is a fundamental cross-tabulation principle"
+    },
+    {
+      "extract": "Odds ratios take some getting used to before feeling comfortable. Notice that an odds ratio of two does not mean the percentage or proportion for males is twice that for females. It just means that males are twice as likely to be in the labor force when compared to females (the odds for males is twice that for females).",
+      "chapter": "Ratios, Proportions, Percentages, and Rates",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "odds ratios",
+        "interpretation",
+        "common mistakes"
+      ],
+      "notes": "Critical caveat: odds ratios do not translate directly to percentage differences",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Correctly interpreting odds ratios as distinct from percentage differences is a common mistake AI may propagate"
+    },
+    {
+      "extract": "A running list of North Carolina cities and counties that aren't where you expect them to be. Make sure you get it right. Columbus is in Polk County not Columbus County. Lenoir is in Caldwell County, not Lenoir County. Washington is in Beaufort County, not Washington County.",
+      "chapter": "Not where you expect",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "geographic verification",
+        "name matching",
+        "data quality",
+        "known pitfalls"
+      ],
+      "notes": "Curated list of geographic name mismatches that cause join errors",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Curated lists of geographic name mismatches that cause join errors are domain-specific verification knowledge that endures"
+    },
+    {
+      "extract": "grep: Search text files for specific character sequences. Return lines containing a string from a specified file. Recursively search a directory of files, first line only: head -1 ./*/*|grep -B1 'Hospital overall rating' > variable.txt. Combining head and grep with a pipe allows you to chain commands, and the -B1 flag allows you to output the file name.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "command line",
+        "grep",
+        "text search",
+        "file processing"
+      ],
+      "notes": "grep recipes for searching through data files",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "grep command-line recipes for text search are still valid but LLMs can now perform text search and extraction more flexibly"
+    },
+    {
+      "extract": "pdftk: Combine all the PDF files in the present directory into a single file: pdftk *.pdf cat output all_documents.pdf. Split files by page number: pdftk blue_docs.pdf cat 1-700 output blue_docs01.pdf. Split a PDF portfolio: pdftk doj_emails_portfolio.pdf unpack_files output doj_emails. PDF portfolios contain a bunch of individual files bound up in a filetype that needs a native PDF reader. Get around this by unpacking each file into a specific directory.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF processing",
+        "pdftk",
+        "document management",
+        "public records"
+      ],
+      "notes": "PDF manipulation recipes for handling records releases",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "pdftk commands for PDF manipulation remain useful but LLMs and modern tools offer more accessible PDF processing workflows"
+    },
+    {
+      "extract": "esri2geojson: Download data from the ESRI REST endpoint that powers maps and save it as a geojson file. A targeted utility to pull down geographic data from ESRI maps.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "ESRI",
+        "geojson",
+        "GIS",
+        "web scraping",
+        "government data"
+      ],
+      "notes": "Extracting data from government ESRI map services",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Extracting geographic data from ESRI map services is a specialized acquisition skill that remains necessary for government data"
+    },
+    {
+      "extract": "wget: Download a single file, download a list of files from URLs specified in a TXT file, or recursively download an entire site's contents: wget --recursive --no-parent http://mtdukes.com",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "wget",
+        "bulk download",
+        "web archiving",
+        "command line"
+      ],
+      "notes": "wget patterns for batch downloading web resources",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "wget batch download patterns remain valid but LLM-assisted scraping tools offer more flexible alternatives for web data collection"
+    },
+    {
+      "extract": "file -I input.csv: Detect encoding of a file. sed: Replace all instances of a word and output result to new file: sed 's/dook/duke/g' ./old.csv > new.csv. Substitute directly in the file by passing an empty string after the -i flag.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "encoding detection",
+        "sed",
+        "text substitution",
+        "data cleaning"
+      ],
+      "notes": "Command-line recipes for encoding detection and text cleanup",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Command-line encoding detection and sed text substitution are still valid but LLMs can generate these commands and handle encoding issues more flexibly"
+    },
+    {
+      "extract": "libpst: A collection of tools to work with and convert PST files (Outlook folders containing email). Convert PST to MBOX: readpst public_records.pst. Convert PST to individual email files: readpst -e -D public_records.pst. Separates the PST into individual eml files. The -D flag preserves deleted items. Can be read by services like Google's Pinpoint.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "email records",
+        "PST conversion",
+        "public records processing",
+        "libpst"
+      ],
+      "notes": "Converting Outlook email archives for records analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Converting PST email archives for records analysis is a specialized public records skill that remains necessary for investigations"
+    },
+    {
+      "extract": "prop.test(x = c(323, 506), n = c(397827, 517889), correct = FALSE). Use a 2-sample test for equality of proportions to generate a p-value, which tells you how likely it is that the observed difference is due to random chance. Typically, p-values of less than 0.05 are considered statistically significant (95% confidence interval).",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "significance testing",
+        "proportions",
+        "p-values"
+      ],
+      "notes": "R recipe for proportion comparison with real maternal mortality example",
+      "llm_relevance": "endures",
+      "relevance_rationale": "R proportion test for significance testing with real examples is a statistical technique that requires human understanding to apply"
+    },
+    {
+      "extract": "Convert table to uppercase: clean_table <- dirty_table %>% mutate(across(where(is.character), toupper)). Transforms all columns containing characters to uppercase all at once. Incredibly useful for cleaning data\\! Fix multibyte strings and bad character encodings: df_clean <- df %>% mutate(across(everything(), ~ iconv(.x, sub = ''))). Works across an entire dataframe, removing all malformed characters.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "dplyr",
+        "data cleaning",
+        "encoding",
+        "standardization"
+      ],
+      "notes": "R recipes for text standardization and encoding fixes in data cleaning",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "R data cleaning recipes for standardization and encoding fixes are useful but LLMs can now generate these transformations from descriptions"
+    },
+    {
+      "extract": "Write and timestamp a csv: my_spreadsheet %>% write_csv(paste0('my_data/my_spreadsheet', format(Sys.time(),'%Y%m%d%H%M'), '.csv')). Using Sys.time(), you can quickly save a dataset with an automatic timestamp for easy organization. No more my_spreadsheet_final_Final_FINAL_FINALFORREAL.csv\\!",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "file management",
+        "reproducibility",
+        "version control"
+      ],
+      "notes": "Timestamped output pattern to avoid file naming chaos",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Timestamped output files for version tracking is a reproducibility practice that remains valid alongside version control"
+    },
+    {
+      "extract": "Calculating the rate of something happening in a subgroup and comparing it to another can help suss out disproportionate impact, especially when the groups are different sizes. A school has 300 white and 120 Black students. Last year, 30 white students were suspended, and 20 Black students were suspended. Calculate the suspension rate for Black students: 20/120 = 0.17. Do the same for white students: 30/300 = 0.1. Then you compare the two rates: 0.167/0.1 = 1.7. So black students are suspended at about 1.7 times the rate of white students.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "rate comparison",
+        "disparity analysis",
+        "equity",
+        "proportional analysis"
+      ],
+      "notes": "Step-by-step rate comparison method for documenting disparities",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Step-by-step rate comparison for documenting disparities is a foundational analytical method that journalists must understand"
+    },
+    {
+      "extract": "Instead of calculating and comparing the rate of something happening in a subgroup, calculating an odds ratio means you have to look at how much more likely something is to happen than not happen within that subgroup.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "odds ratios",
+        "rate comparison",
+        "analytical framing"
+      ],
+      "notes": "Conceptual distinction between rate comparison and odds ratio approaches",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Conceptual distinction between rate comparison and odds ratio approaches is analytical knowledge essential for interpretation"
+    },
+    {
+      "extract": "In contexts like public health, rare events such as cancer or maternal mortality assume a Poisson distribution, which we can use to calculate confidence intervals used to compare rates. This distribution is not symmetric about its mean and so the associated confidence intervals will not be symmetric (the upper limit is farther from the estimate than is the lower limit).",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "Poisson distribution",
+        "rare events",
+        "public health",
+        "confidence intervals"
+      ],
+      "notes": "When and why to use Poisson-based CIs instead of normal distribution",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding Poisson distribution for rare events in public health data is domain-specific statistical knowledge that endures"
+    },
+    {
+      "extract": "If you're missing one of North Carolina's 100 counties, or your map is inexplicably blank, check New Hanover County, McDowell County and Winston-Salem first. Then think of other location names that might not be a literal, string-to-string match.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "geographic verification",
+        "data matching",
+        "string matching",
+        "known pitfalls"
+      ],
+      "notes": "Start debugging geographic joins with known problem names",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Debugging geographic joins by checking known problem names is domain-specific verification knowledge that endures"
+    },
+    {
+      "extract": "Business reporters frequently use WARN Act notices to report when plants close and workers lose jobs. The routine is trained to download WARN Act notices posted by the state of Maryland's Department of Labor. The list is updated when companies based in the state disclose a mass layoff.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "WARN Act",
+        "automated scraping",
+        "public records",
+        "labor data"
+      ],
+      "notes": "Practical example: government disclosure pages as scraping targets",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using WARN Act and government disclosure pages as data sources for journalism is domain knowledge that remains valid"
+    },
+    {
+      "extract": "GitHub Actions uses YAML syntax to define the workflow. We will add settings in the workflow so that the Action runs on a schedule using cron. We will schedule the Action using Cron, a time-based job scheduler. There are websites such as crontab.guru that help translate time into cron schedule expressions. GitHub runs Actions in coordinated universal time (UTC).",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub Actions",
+        "cron scheduling",
+        "automation",
+        "web scraping"
+      ],
+      "notes": "Setting up scheduled automated data collection via GitHub Actions",
+      "llm_relevance": "endures",
+      "relevance_rationale": "GitHub Actions with cron scheduling for automated data collection is a current and widely-used infrastructure pattern"
+    },
+    {
+      "extract": "One problem: While GitHub was able to execute our scraper, we haven't told it to commit the results back to the repository. The data you gathered isn't being saved anywhere. We will accomplish this by instructing the Action to add, commit and push changes after the scraper runs, so they will show up in our repository.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "data preservation",
+        "version control",
+        "scraping pipeline"
+      ],
+      "notes": "Critical lesson: automated collection must include automated storage",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Automated data collection must include automated storage is a fundamental pipeline design principle"
+    },
+    {
+      "extract": "You may want to receive alerts for the following scenarios: Your action succeeded, but nothing new was committed. Your action succeeded, and there's new data. Your action failed. We will be using the Slack Incoming Webhook action to send customized alerts. Use outputs from steps to distinguish between success with new data versus success without changes.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "monitoring",
+        "alerts",
+        "automation reliability",
+        "Slack integration"
+      ],
+      "notes": "Monitoring layer for automated scrapers: distinguish new data from no-change runs",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Monitoring automated scrapers with differentiated alerts for success, new data, and failure is sound pipeline engineering"
+    },
+    {
+      "extract": "By default, Python's third-party packages are installed in a shared folder somewhere in the depths of your computer. Unless told otherwise, every Python project will draw from this common pool of programs. Programmers solve this problem by creating a virtual environment for each project, which isolates the code into a discrete, independent container that does not rely on the global environment. Strictly speaking, working within a virtual environment is not required. At first it might even feel like a hassle, but in the long run you will be glad you did it.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Python",
+        "virtual environments",
+        "reproducibility",
+        "dependency management"
+      ],
+      "notes": "Rationale for virtual environments as reproducibility infrastructure",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Virtual environments for Python project isolation and reproducibility remain fundamental software engineering practice"
+    },
+    {
+      "extract": "Latitude is the Y axis, with the equator at 0. Longitude is the X axis, with the prime meridian at 0. North America, located in the north-west quadrant, latitude values will be positive or N. Longitude values will be negative or W.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "GIS",
+        "latitude longitude",
+        "coordinate systems",
+        "geographic data"
+      ],
+      "notes": "Quick reference for lat/lng orientation; common source of errors",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding latitude-longitude orientation and common coordinate system errors is geographic data knowledge that endures"
+    },
+    {
+      "extract": "Removing a package can help when you have conflicts between functions with the same name: detach('package:plyr', unload=TRUE). This package conflicts with some dplyr commands, so if you're getting weird errors, this might be why.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "package conflicts",
+        "debugging",
+        "plyr vs dplyr"
+      ],
+      "notes": "Common R debugging issue: plyr/dplyr function name collisions",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "R package conflict debugging like plyr/dplyr is specific to R ecosystem and less relevant as LLMs can diagnose such conflicts instantly"
+    },
+    {
+      "extract": "The readr package is my preferred method for importing data, sometimes it chokes on strange file encodings even with the locale parameter set. Load a file with an annoying encoding: read.delim('cnty20210731.csv', fileEncoding = 'UTF-16LE', sep = '\\t'). guess_encoding(file = 'annoying_file.csv'): Useful for errors reading in the file (like embedded nulls).",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "R",
+        "encoding",
+        "data import",
+        "readr",
+        "troubleshooting"
+      ],
+      "notes": "R recipes for handling non-standard file encodings in government data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "File encoding troubleshooting in R is still relevant but LLMs can now diagnose and fix encoding issues much faster"
+    },
+    {
+      "extract": "Surveys get you noticed. Process may expose more than you expect. Showing you won't drop it. Provide a structure for collaboration. Rinse & Repeat.",
+      "chapter": "FINE-TUNING THE PROCESS",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "survey persistence",
+        "collaboration",
+        "institutional pressure"
+      ],
+      "notes": "Strategic value of repeated surveys: demonstrates persistence, enables collaboration",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Survey persistence creating institutional pressure and collaboration structure is a human organizational dynamic"
+    },
+    {
+      "extract": "Uniform Questions ≠ Uniform Answers - But that's OK. Information can get unwieldy and out of hand quickly.",
+      "chapter": "SETTING ASIDE COMPETITION",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "collaborative journalism",
+        "data standardization",
+        "survey variation"
+      ],
+      "notes": "Expectation-setting: standardized questions still yield heterogeneous responses",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Accepting that uniform questions produce non-uniform answers is a research design principle independent of tools"
+    },
+    {
+      "extract": "For normally distributed data (often described as a 'bell curve'), about two thirds of the observed values fall within one standard deviation of the average.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "standard deviation",
+        "normal distribution",
+        "descriptive statistics"
+      ],
+      "notes": "Quick reference for the 68% rule in normal distributions",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding standard deviation and the 68% rule for normal distributions is foundational statistical literacy"
+    },
+    {
+      "extract": "If your repository is public, you probably want to hide your webhook from others. You can do this by using GitHub Secrets. To add the webhook to your GitHub Secrets, go to your repo and click on Settings.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub Secrets",
+        "security",
+        "API keys",
+        "automation"
+      ],
+      "notes": "Credential management for automated scraping pipelines",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "GitHub Secrets for API key security is still valid but LLM-era automation workflows expand beyond GitHub Actions"
+    },
+    {
+      "extract": "Rates are a special form of a ratio which represents the probability of a certain event. The numerator is the number of occurrences of an event during a time period, and the denominator is the number of persons exposed to that event in the time period. To be a true rate we must try to have only those at risk in the denominator. Sometimes this is difficult to do so we use approximations or use the total population. In the latter case we generally call it a crude rate.",
+      "chapter": "Ratios, Proportions, Percentages, and Rates",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "rates",
+        "denominators",
+        "at-risk population",
+        "crude rate",
+        "measurement"
+      ],
+      "notes": "Definitional precision: true rates require at-risk denominator; crude rates are approximations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding rates, denominators, at-risk populations, and crude rates is foundational epidemiological literacy"
+    },
+    {
+      "extract": "Comparing two means, so t-Test. We hypothesized a direction ('Hamilton' more costly), so use the one-tailed result. This hypothesis has no direction (could be lower or higher), so use the two-tailed test.",
+      "chapter": "Basic Statistical Analysis in Excel",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "t-test",
+        "hypothesis testing",
+        "one-tailed vs two-tailed",
+        "test selection"
+      ],
+      "notes": "Decision rule for choosing one-tailed vs two-tailed based on directional hypothesis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Choosing between one-tailed and two-tailed t-tests based on hypothesis direction is core statistical reasoning"
+    },
+    {
+      "extract": "When the Action runs, it saves the data files to GitHub. The next time you want to make modifications to your code in the repository, you'll first need to pull the most recent changes from the remote branch on GitHub to your computer before committing and pushing any more changes. Use the git fetch and git pull commands from the command line.",
+      "chapter": "First GitHub Scraper",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "git workflow",
+        "automation",
+        "version control",
+        "sync discipline"
+      ],
+      "notes": "Workflow discipline: always pull before editing when automated commits are running",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Git fetch/pull workflow for GitHub Actions scraping is still valid but LLM-assisted automation simplifies these workflows"
+    },
+    {
+      "extract": "The U.S. Census Bureau has good resources for testing for significance with their data, which uses a 90% confidence level.",
+      "chapter": "Data Journalism Cheat Sheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "Census data",
+        "confidence intervals",
+        "significance testing",
+        "ACS"
+      ],
+      "notes": "Note: Census/ACS uses 90% CI not 95%; must account for this in analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Census Bureau significance testing resources at 90% confidence remain the authoritative reference for ACS data"
+    },
+    {
+      "extract": "If the survey used a complex sample design (such as clustering within households or disproportionate sampling from various geographic regions), special techniques must be used to calculate the standard error of the mean. Those techniques are accomplished using statistical software such as SAS, STATA, or SUDAAN.",
+      "chapter": "Confidence Intervals in Public Health",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "complex survey design",
+        "sampling",
+        "standard error",
+        "statistical software"
+      ],
+      "notes": "Simple CI formulas fail for clustered/stratified samples; requires specialized tools",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Complex survey design standard error calculation still requires specialized software but LLMs can now help select and run appropriate methods"
+    },
+    {
+      "extract": "North Carolina Watchdog Reporting Network. COVID chaos of spring 2020. Launched to cover a lot of ground quickly. Plan: Ask a series of uniform questions of all counties/health departments.",
+      "chapter": "SETTING ASIDE COMPETITION",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaborative journalism",
+        "crisis reporting",
+        "standardized inquiry",
+        "network reporting"
+      ],
+      "notes": "Organizational model: newsroom network using standardized survey to scale coverage",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaborative watchdog networks using standardized inquiry for crisis reporting is a permanent organizational model"
+    }
+  ]
+}

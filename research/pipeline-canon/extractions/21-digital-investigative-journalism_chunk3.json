@@ -1,0 +1,144 @@
+{
+  "source_id": "21",
+  "source_file": "21-digital-investigative-journalism.md",
+  "source_title": "Digital Investigative Journalism",
+  "author": "Oliver Hahn, Florian Stalph (eds.)",
+  "year": "2018",
+  "chunk": "3/3",
+  "chunk_file": "21-digital-investigative-journalism_chunk3.md",
+  "chunk_words": 5630,
+  "extracts": [
+    {
+      "extract": "Assume you are being watched. Do not put things in writing, do not do certain things if you do not want them to come out afterwards. You have to assume that everything you do is being recorded or traced. A change of practice in managing digital communications is required in response—at both the personal and professional levels.",
+      "chapter": "Just Assume You Are Being Watched",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "operational security",
+        "source protection",
+        "risk assessment",
+        "surveillance awareness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Going back to analogue basics: the only safe thing is face-to-face contact, brown envelopes, meetings in parks. Journalists revert to traditional methods—contract phones thrown away weekly, meeting sources in pubs, writing and hiding physical notes. Investigative reporters drove hours for 15-minute conversations rather than use digital communication.",
+      "chapter": "Going Back to Analogue Basics",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source protection",
+        "analogue methods",
+        "operational security",
+        "confidential sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Encryption was the default requirement of ICIJ during the Panama Papers investigation which saw 400 journalists from 80 countries working collaboratively for 12 months. All members were required to use two-factor authentication and encryption. After the collaboration using a secure interactive platform (Global I-Hub), over 60% of surveyed journalists reported the encryption requirements were easy to use.",
+      "chapter": "Taking Responsibility for Digital Security",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "encryption",
+        "collaboration infrastructure",
+        "Panama Papers",
+        "digital security training",
+        "secure platforms"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The more layers you can put between you and the source the better, and a lot of that is time. If someone gives you some really hot information, the temptation is to publish right away, but that is also when your source is potentially at most risk. Stretching the timeline between contact with a source and publication can disguise connections and minimise the chance a source will be caught.",
+      "chapter": "Going Back to Analogue Basics",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "source protection",
+        "publication timing",
+        "risk mitigation",
+        "operational security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is a new trend: journalists are beginning to train their sources in digital security to help them ensure their anonymity. If we want journalism to survive and flourish in the 21st century, there is no other option than give our reporters, and sources, the tools necessary to do their jobs. Even the best training cannot keep up with global intelligence services, but encryption may buy time and keep other hostile actors at bay.",
+      "chapter": "Journalists Need Training in Digital Security, But so Do Their Sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "source training",
+        "digital security",
+        "encryption",
+        "capacity building",
+        "source protection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "ICIJ essentially becomes the source in global investigations: by taking all the responsibility of source protection and putting the responsibility on each organisation to publish according to their own laws. International news organisations use secure drop boxes—AfriLeaks, Mexicoleaks, Sourcesure, Balkanleaks—to securely receive digital information from confidential sources and whistleblowers.",
+      "chapter": "Outsourcing Source Protection",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "source protection",
+        "intermediaries",
+        "secure dropboxes",
+        "collaboration infrastructure",
+        "whistleblowers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Digital security expertise gives investigative teams an edge in journalism based on confidential sources. Very few journalists use encryption and know how to use it—it is not in their toolbox and that is a major problem. When you come into contact with sources you get confronted with serious questions: how do you protect this source, will you store information on the company server, what level of encryption do you use?",
+      "chapter": "Taking Responsibility for Digital Security",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "digital security literacy",
+        "encryption",
+        "source protection",
+        "competitive advantage",
+        "newsroom capability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even face-to-face meetings can be compromised by the presence of geolocatable mobile devices and security cameras. The risk of exposure travels with journalists heading to face-to-face meetings if the route they take is subject to security camera surveillance, or they travel with traceable mobile devices that deliver geolocation data.",
+      "chapter": "The Chilling Effect",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "operational security",
+        "geolocation risk",
+        "analogue methods",
+        "surveillance",
+        "source protection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Seven tips for journalists: do not grow unnecessarily paranoid—act smarter and get properly equipped; be aware face-to-face meetings can be compromised by geolocatable devices; assume you are being watched; encrypt your data; be aware that using Tor, PGP and other encryption can red-flag digital communications making you a bigger target; recognise your ethical responsibility to protect and train sources in digital safety; recognise it may no longer be possible to guarantee protection for confidential sources.",
+      "chapter": "Seven Tips for Journalists to Help Make Communications with Sources and Whistleblowers More Secure",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "operational security checklist",
+        "encryption",
+        "source protection",
+        "risk awareness",
+        "digital safety"
+      ],
+      "notes": ""
+    }
+  ]
+}

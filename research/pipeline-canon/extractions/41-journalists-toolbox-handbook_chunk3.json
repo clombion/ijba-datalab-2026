@@ -1,0 +1,91 @@
+{
+  "source_id": "41",
+  "source_file": "41-journalists-toolbox-handbook.md",
+  "source_title": "The Journalist's Toolbox Handbook",
+  "author": "Mike Reilley",
+  "year": "2024",
+  "chunk": "3/3",
+  "chunk_file": "41-journalists-toolbox-handbook_chunk3.md",
+  "chunk_words": 7745,
+  "extracts": [
+    {
+      "extract": "If something goes wrong with your digital security, GIJN recommends reaching out to nonprofit groups dedicated to detecting and tracking attacks and training users.",
+      "chapter": "Seek Help",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "digital security",
+        "journalist safety",
+        "support networks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can scrape data from the FDIC Failed Banks List (or any other site with a table of data) with this basic scraping formula.",
+      "chapter": "Exercise 3: Scraping a Website",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data scraping",
+        "spreadsheets",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The tool allows you to upload documents and analyze a document up to 75,000 words. You can upload multiple documents.",
+      "chapter": "Exercise 5: Claude.ai for Reporting",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "AI tools",
+        "document analysis",
+        "reporting workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "She pulled data from the Bureau of Labor Statistics CPI Average Price Database, a one-screen data search where you can look up product average prices by U.S. cities, regions, etc.",
+      "chapter": "Exercise 8: Canva Exercise -- How Much Does That Greasy Cheeseburger Really Cost With Inflation?",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "government data",
+        "data collection",
+        "data visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Instead of outlining a step-by-step process, we're just offering you tips on how to build the map. It's best to base the map on the deaths per 10k rather than total deaths. The former factors in population.",
+      "chapter": "Exercise 7: Flourish.studio -- Death by Heart Disease by State Map (by Rate)",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "normalization",
+        "rate calculation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Business reporters use this to track companies and their stock prices across multiple markets.",
+      "chapter": "Exercise 2: Scraping Data from Google Finance",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data scraping",
+        "financial data",
+        "monitoring",
+        "spreadsheets"
+      ],
+      "notes": ""
+    }
+  ]
+}

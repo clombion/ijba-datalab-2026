@@ -1,0 +1,1154 @@
+{
+  "source_id": "142",
+  "source_file": "142-verification-handbook-3.md",
+  "source_title": "Verification Handbook 3: For Disinformation & Media Manipulation",
+  "author": "Craig Silverman (ed.), EJC",
+  "year": "2020",
+  "chunk": null,
+  "chunk_words": 37821,
+  "extracts": [
+    {
+      "extract": "Investigating the digital means taking nothing at face value. It means understanding that things which appear to be quantifiable and data-driven — likes, shares, retweets, traffic, product reviews, advertising clicks — are easily and often manipulated.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "default-distrust",
+        "digital-signals"
+      ],
+      "notes": "Core epistemological stance: all quantitative digital signals can be gamed"
+    },
+    {
+      "extract": "Think like an adversary. Each new feature of a platform or digital service can be exploited in some way. It's critical to put yourself in the shoes of someone looking to manipulate the environment for ideological, political, financial or other reasons. When you look at digital content and messages, you should consider the motivations driving its creation and propagation.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "adversarial-thinking",
+        "motivation-analysis",
+        "platform-manipulation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Focus on actors, content, behavior and networks. The goal is to analyze the actors, content and behavior and how they are to document how they might be working in unison as a network.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "network-analysis",
+        "actors",
+        "behavior-analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Monitor and collect. The best way to identify media manipulation and disinformation is to look for it all the time. Ongoing monitoring and tracking of known actors, topics and communities of interest is essential. Keep and organize what you find, whether in spreadsheets, screenshot folders or by using paid tools like Hunchly.",
+      "chapter": "Introduction",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "monitoring",
+        "archiving",
+        "workflow",
+        "tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be careful with attribution. It's sometimes impossible to say exactly who's behind a particular account, piece of content, or a larger information operation. One reason is that actors with different motives can behave in similar ways, and produce or amplify the same kind of content. Even the platforms themselves — which have far better access to data and more resources — make attribution mistakes. The most successful and compelling evidence usually combines digital proof with information from inside sources — an ideal mix of online and traditional investigative work.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "attribution",
+        "evidence-standards",
+        "mixed-methods"
+      ],
+      "notes": "Digital + traditional methods needed for reliable attribution"
+    },
+    {
+      "extract": "At First Draft, we talk about the concept of the tipping point. For journalists, reporting on falsehoods too early provides additional and potentially damaging oxygen to a rumor. Reporting too late means it has taken hold and there is little that can be done. Working out that tipping point is challenging. It differs by location, topic and platform.",
+      "chapter": "The Age of Information Disorder",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tipping-point",
+        "amplification",
+        "editorial-judgment"
+      ],
+      "notes": "No universal rule for when to debunk"
+    },
+    {
+      "extract": "The life cycle has five points of action, where the tactics of media manipulators can be documented using qualitative and quantitative methods. Note that most manipulation campaigns are not 'discovered' in this order. Instead when researching, look for any one of these points of action and then trace the campaign backward and forward through the life cycle.",
+      "chapter": "The Lifecycle of Media Manipulation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "lifecycle-model",
+        "campaign-tracing",
+        "qualitative-methods",
+        "quantitative-methods"
+      ],
+      "notes": "Five stages: planning, seeding, responses, ecosystem changes, adjustments"
+    },
+    {
+      "extract": "Grappling with the content and the context of disinformation requires us all to forensically document with rigor how campaigns start, change and end. And to recognize that every perceived ending of a campaign may very well be a new beginning.",
+      "chapter": "The Lifecycle of Media Manipulation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "documentation",
+        "lifecycle-model",
+        "rigor"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "First, I plug the username into Google. People — especially younger ones who eschew the larger social platforms — tend to leave a trail even in more unexpected places, including comment sections, reviews and forums, that can lead you to information and other accounts.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "username-search",
+        "OSINT",
+        "google-search"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When I find a username or email I think might belong to my subject, I plug it into an online tool like namechk or namecheckr that looks for username availability across multiple platforms. These tools are designed to be an easy way for marketers to see if a given username they're planning to register is available across platforms. But they're also useful for checking whether a username you're investigating also exists elsewhere.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "username-search",
+        "cross-platform",
+        "namechk"
+      ],
+      "notes": "Username match across platforms does not prove same person"
+    },
+    {
+      "extract": "Google's reverse image search is fine, but often other search engines — especially Russia's Yandex — may deliver better results. I use the Reveye Chrome extension, which allows me to right click on an image and search for its match across multiple platforms including Google, Bing, Yandex and Tineye.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "reverse-image-search",
+        "Yandex",
+        "verification-tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "I don't just trust my eyes. Identifying characteristics across photos like moles or facial hair or features is helpful; lately, I also like to check it with a facial recognition tool like Face++, which allows you to upload two photos and then gives a probability that those belong to the same person.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "facial-recognition",
+        "identity-verification",
+        "Face++"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's not just profile photos that can be signposts, however. As people become more aware of and concerned with their own privacy and that of their family, they're still inclined to share photos of things they're proud of. I've identified people by connecting photos of things like cars, homes or pets. In this sense, photos become a means to connect accounts and the people behind them to one another, enabling you to build out the network around your target.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "identity-verification",
+        "photo-matching",
+        "network-building"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With a new investigation, I like to start at the beginning of someone's Twitter history and work forward in time. You can get there by hand, with an assist from an autoscroller chrome extension, or you can use Twitter's advanced search to limit the time frame to the first few months of an account's existence.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "Twitter",
+        "chronological-analysis",
+        "social-media-investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Because of that truth, it's always illuminating to look at an account's earliest followers and friends. TweetBeaver is a good tool for investigating the connections between large accounts and for downloading things like timelines and favorites of smaller accounts. For larger datasets, I rely on a developer with API access.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "network-analysis",
+        "Twitter",
+        "early-followers",
+        "API"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To find recently deleted tweets, you can search Google's cache; older deleted tweets can also sometimes be accessed in the Internet Archive's Wayback Machine or another archive. The manual archive site archive.is turns up several deleted tweets.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "deleted-content",
+        "archiving",
+        "Wayback-Machine",
+        "cache"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Confirming a social account with the subject, family and friends, law enforcement and/or social media PR are ways to protect yourself from being duped.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "identity-confirmation",
+        "sourcing"
+      ],
+      "notes": "Applies especially in breaking news"
+    },
+    {
+      "extract": "Whether it's tracking your steps in a Google doc or letting a paid tool like Hunchly monitor as you search — is the key to clarifying connections between people and the lives they lead online, and turning those conclusions into stories.",
+      "chapter": "Investigating Social Media Accounts",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "workflow",
+        "audit-trail",
+        "Hunchly"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our first step in investigating the set of accounts was to try to verify if they were connected to real people. This part required good old fashioned fact-checking and began with our creating spreadsheets to track details related to the accounts, including the personal details they listed, the pages they liked and other information.",
+      "chapter": "Case Study: Philippines Facebook propaganda",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "spreadsheets",
+        "sockpuppet-detection",
+        "structured-data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Using reverse image search tools, we found that many of 26 accounts used profile photos of celebrities or personalities.",
+      "chapter": "Case Study: Philippines Facebook propaganda",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reverse-image-search",
+        "sockpuppet-detection",
+        "identity-verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Fake accounts are often used to spam groups with links, and you can sometimes catch them reusing the same text when they do it.",
+      "chapter": "Case Study: Philippines Facebook propaganda",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sockpuppet-detection",
+        "duplicate-content",
+        "coordination-signals"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We also found that OKD2.com shared the same Google AdSense ID as other websites, such as askphilippines.com and why0why.com, that the 26 accounts were sharing. We identified the AdSense IDs on these sites by viewing the source code of pages on them and looking for a series of numbers that began with the letters 'ca-pub-.' Each Google AdSense account is given a unique ID that begins with 'ca-pub-,' and each page of a site that is linked to an account will have this code on it.",
+      "chapter": "Case Study: Philippines Facebook propaganda",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "AdSense-ID",
+        "source-code",
+        "network-mapping",
+        "website-investigation"
+      ],
+      "notes": "Key technique for connecting seemingly separate websites"
+    },
+    {
+      "extract": "Developing sources at tech companies who are willing to tell you more information than the company will say on the record is becoming increasingly important as many stories cannot be uncovered purely using open source information as scammers and bad actors become more sophisticated.",
+      "chapter": "Case Study: Fake Black Lives Matter page",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "sourcing",
+        "tech-companies",
+        "open-source-limits"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What was particularly notable about this story was the array of techniques that Massler and I used to get it over the line. We relied heavily on archive sites like the Wayback Machine that allowed us to see the look of websites the page had been linking to and the page itself before it came on our radar. This was particularly useful, as after Massler initially contacted MacKay the people behind the page began trying to cover some of their tracks.",
+      "chapter": "Case Study: Fake Black Lives Matter page",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "Wayback-Machine",
+        "evidence-preservation",
+        "counter-measures"
+      ],
+      "notes": "Subjects may destroy evidence once aware of investigation"
+    },
+    {
+      "extract": "The simple act of picking up the phone to talk to MacKay and developing sources to provide information that would otherwise not be made public — traditional journalism techniques — were critical in exposing this scam.",
+      "chapter": "Case Study: Fake Black Lives Matter page",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "traditional-reporting",
+        "phone-calls",
+        "mixed-methods"
+      ],
+      "notes": "OSINT alone insufficient; traditional techniques remain essential"
+    },
+    {
+      "extract": "By default, you should distrust search engines from primary sources. They can give you a false impression of the actual content of the website and its associated databases. The proper way to search is to perform a 'primary source check.'",
+      "chapter": "Finding patient zero",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "search-engines",
+        "primary-sources",
+        "default-distrust"
+      ],
+      "notes": "Site-internal search often returns incomplete results"
+    },
+    {
+      "extract": "Go to a generic search engine. Start with the query and end with 'site:' followed directly with the URL (no spaces). This is the formula for finding out if an original source shows you everything.",
+      "chapter": "Finding patient zero",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google-search",
+        "site-operator",
+        "primary-sources"
+      ],
+      "notes": "Primary source check formula: query + site:domain"
+    },
+    {
+      "extract": "Try to find the common denominator of any online invitation. It's often a PDF document. Search for just that with 'filetype:pdf' and you might find it.",
+      "chapter": "Finding patient zero",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google-search",
+        "filetype-operator",
+        "document-trail"
+      ],
+      "notes": "Part of a 3-step document trail method: establish type, be neutral on wording, identify who is involved"
+    },
+    {
+      "extract": "Generic search engines like Google often struggle to deliver quality results from the trillions of posts on Twitter, or on big platforms such as Facebook and Instagram. The answer for Twitter is to use its Advanced Search functionality and add keywords, username and time period.",
+      "chapter": "Finding patient zero",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Twitter",
+        "advanced-search",
+        "platform-specific-search"
+      ],
+      "notes": "Google site: operator unreliable for social media platforms"
+    },
+    {
+      "extract": "Exclude the target website by adding -site:friendsofscience.org. This helps you find information from outside parties.",
+      "chapter": "Finding patient zero",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google-search",
+        "exclusion-operator",
+        "network-mapping"
+      ],
+      "notes": "Excluding target site reveals third-party references"
+    },
+    {
+      "extract": "In general, we suggest the following approach for identifying inauthentic and potentially automated behavior on social networks: Manually check the accounts for suspicious behavior. Combine this with the use of tools or more technical network analyses. Investigate their activity, content and network of other accounts they interact with. Combine this with traditional investigation techniques, such as trying to contact them or people they claim to know. Consult with outside experts who specialize in bots and inauthentic activity.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "bot-detection",
+        "inauthentic-behavior",
+        "mixed-methods",
+        "expert-consultation"
+      ],
+      "notes": "Four-step approach combining manual, technical, traditional, and expert methods"
+    },
+    {
+      "extract": "Bot detection tools are a great starting point but they should not be your sole evidence. One reason for their varying degree of accuracy is there is simply no universal list of criteria for recognizing bots with 100% certainty.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "bot-detection",
+        "tool-limitations",
+        "evidence-standards"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists must avoid falsely labeling suspicious accounts as bots without proper evidence and analysis, as a mistaken accusation can undermine your credibility.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "bot-detection",
+        "attribution-caution",
+        "credibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One way to deal with these different types of bots, cyborgs and hyperactive human accounts is to focus your investigation on monitoring all inauthentic or bot-like behavior, instead of trying to identify only one type of suspicious account.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "bot-detection",
+        "inauthentic-behavior",
+        "investigation-scope"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you come across such an account, analyze the account's tweet activity more deeply. Take the number of tweets located at the top of the page, and divide this by the number of days the account has been active.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "bot-detection",
+        "tweet-frequency",
+        "quantitative-analysis"
+      ],
+      "notes": "Calculate tweets-per-day to gauge plausibility"
+    },
+    {
+      "extract": "To get a better understanding of the activity of a whole bot network, you can use a visualization platform like Gephi.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Gephi",
+        "network-visualization",
+        "bot-networks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For now, a methodical analysis of account behavior, content, interactions and patterns remains the best approach for identifying inauthentic behavior.",
+      "chapter": "Spotting bots, cyborgs and inauthentic activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "bot-detection",
+        "methodical-analysis",
+        "behavior-patterns"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We wanted to focus on pro-China accounts and content, since these were the ones Twitter had already found engaging in inauthentic activity. We tried keyword formulations like: 'Shame on Hong Kong' -police -government. This search yields results that contain the phrase but not the words police or government.",
+      "chapter": "Case study: Hong Kong protests Twitter activity",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "Twitter-search",
+        "Boolean-operators",
+        "keyword-refinement"
+      ],
+      "notes": "Negative keywords to isolate pro-government content"
+    },
+    {
+      "extract": "You can filter by engagement simply by adding 'min_retweets:500' or 'min_faves:500' to your search query. This will get only tweets with at least 500 retweets or likes.",
+      "chapter": "Case study: Hong Kong protests Twitter activity",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Twitter-search",
+        "engagement-filter",
+        "viral-content"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The case study shows how it is possible to combine manual and automated techniques to quickly uncover a network of suspicious Twitter accounts. It also illustrates that it is useful to look for additional accounts and activity even after a platform announces a takedown of accounts.",
+      "chapter": "Case study: Hong Kong protests Twitter activity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "network-analysis",
+        "manual-automated-mix",
+        "post-takedown-monitoring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The key to monitoring and debunking during breaking news is to lay a strong foundation before it happens. This means having a solid grounding in basic verification skills, understanding how to monitor social networks and platforms, and knowing how to respond if you or your colleagues become targeted by bad actors.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "breaking-news",
+        "preparation",
+        "verification-skills",
+        "safety"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before looking for hoaxes, set up a folder for your documents and start a spreadsheet for what you find. Immediately take a screenshot of each hoax and relevant piece of content you discover, and archive the page. Be sure to record the original and archived URLs of the content in your spreadsheet.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "workflow",
+        "spreadsheets",
+        "evidence-preservation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To avoid helping spread pages associated with dis- or misinformation, be sure to link to the archived URL in any articles or social media posts instead of the original. It is also a best practice to watermark your images with a clear label such as 'False' or 'Misleading' to ensure they are spread and indexed with the proper context. If you do write an article, focus your headline and copy on what is true, rather than primarily saying what is false. Studies have shown that repeating falsehoods can cause people to retain the incorrect information.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "debunking",
+        "responsible-reporting",
+        "amplification-avoidance",
+        "watermarking"
+      ],
+      "notes": "Truth-first framing reduces retention of falsehoods"
+    },
+    {
+      "extract": "As the event unfolds, come up with a list of locations and relevant keywords. For location, take into account the city, state and country, and any relevant local terms such as the nickname for a city or affected neighborhood. Note that during stressful situations, people may misspell locations or names. Include common misspellings in your searches and try to identify possible autocorrect mistakes.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "keyword-lists",
+        "location-search",
+        "misspellings",
+        "monitoring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "InVID is a free browser extension and the best platform for helping you analyze and verify videos. It allows for users to paste a URL into its engine, which will then extract thumbnails from the video.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "InVID",
+        "video-verification",
+        "browser-extensions"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The best way to search Twitter is by using TweetDeck, which allows you to create unique columns for searches and lists. Finding and duplicating relevant lists is key for staying abreast of a situation. You can use Google to search for Twitter lists using a simple formula: site:twitter.com/*/lists 'Alabama reporters'.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "TweetDeck",
+        "Twitter-lists",
+        "monitoring-setup",
+        "Google-search"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Has it spread outside of its initial network of sharers? Has it been shared by figures of authority? Has it generated significant engagement? There are no simple rules on when to debunk a falsehood, but some good questions to ask.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "debunking-criteria",
+        "tipping-point",
+        "editorial-judgment"
+      ],
+      "notes": "Three questions to assess whether to debunk"
+    },
+    {
+      "extract": "After the dust settles, it is helpful to look back at your saved images and posts. While in the moment you want to highlight individual falsehoods by way of public service journalism, in the aftermath you should take stock of any themes or patterns that can be seen. A wrap-up story can help your readers fully grasp the purpose and methods of the disinformation's spread. It will also serve as a research tool for you and your newsroom.",
+      "chapter": "Monitoring for fakes during breaking news",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "post-event-analysis",
+        "pattern-recognition",
+        "wrap-up-story"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To go beyond standard forms of image verification, we have combined methods from art history with questions designed specifically for mis- and disinformation content. Our framework, '20 Questions for Interrogating Social Media Images,' designed collaboratively with First Draft and journalists, is an additional tool journalists can use when investigating images.",
+      "chapter": "Verifying and questioning images",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "image-analysis",
+        "framework",
+        "art-history-methods",
+        "visual-literacy"
+      ],
+      "notes": "Five core questions: What is it? What does it show? Who made it? What did it mean? What does it mean?"
+    },
+    {
+      "extract": "Misinformation does not necessarily involve fake images or even the misidentification of what they show. Sometimes images can be used to support a message that misrepresents a wider situation. Some misinformation requires more than verification. There is a need to critically examine how real images are used to manipulate, and what such images do and mean.",
+      "chapter": "Verifying and questioning images",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visual-disinformation",
+        "meaning-analysis",
+        "context-manipulation"
+      ],
+      "notes": "Verification alone is insufficient; meaning analysis is needed"
+    },
+    {
+      "extract": "Journalists should think carefully about bringing further attention to such emotionally fueled, controversial and potentially harmful disinformation by reporting on it, even with positive intentions.",
+      "chapter": "Verifying and questioning images",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "amplification-risk",
+        "editorial-judgment",
+        "harm-reduction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Technical approaches are useful until synthetic media techniques inevitably adapt to them. A perfect deepfake detection system will never exist.",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deepfakes",
+        "detection-limits",
+        "cat-and-mouse",
+        "synthetic-media"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists and investigators need to establish a mentality of measured skepticism around photos, videos and audio. They must assume that these forms of media will be challenged more frequently as knowledge and fear of deepfakes increases. It is also essential to develop a strong familiarity with media forensics tools.",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deepfakes",
+        "skepticism",
+        "media-forensics",
+        "verification-mindset"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An approach to analyzing and verifying deepfakes and synthetic media manipulation should include: 1. Reviewing the content for synthetic media-derived telltale glitches or distortions. 2. Applying existing video verification and forensics approaches. 3. Utilizing emerging new AI-based approaches and emerging forensics approaches when available.",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "deepfakes",
+        "verification-pipeline",
+        "forensics",
+        "three-step-approach"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Since most deepfakes or modifications are currently not fully synthesized but instead rely on making changes in a source video, you can use frames from a video to look for other versions using a reverse image search. You can also check the video to see if the landscape and landmarks are consistent with images of the same location in Google Street View.",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "deepfakes",
+        "reverse-image-search",
+        "geolocation",
+        "video-verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Given the nature of both media forensics and emerging deepfakes technologies, we have to accept that the absence of evidence that something was tampered with will not be conclusive proof that media has not been tampered with.",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deepfakes",
+        "evidence-absence",
+        "forensics-limits"
+      ],
+      "notes": "Absence of tampering evidence is not proof of authenticity"
+    },
+    {
+      "extract": "The best way to approach verification is using existing approaches to image/video, and complement these with forensics tools that can detect image manipulation. Trusting the human eye is not a robust strategy!",
+      "chapter": "Deepfakes and emerging manipulation technologies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deepfakes",
+        "human-perception-limits",
+        "tool-dependence",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before trying this, you should talk to your editor or manager about how to answer these questions. Will you be truthful about who you are and why you are in the group? Is there a way to join by staying deliberately vague? If not, how can you justify that decision to hide your identity?",
+      "chapter": "Monitoring and Reporting Inside Closed Groups and Messaging Apps",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "ethics",
+        "closed-groups",
+        "identity-disclosure",
+        "editorial-process"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The other technique is to set up a tipline, where you encourage the public to send you content. The key to a tipline is having a simple, clear call to action, and that you explain how you intend to use that content.",
+      "chapter": "Monitoring and Reporting Inside Closed Groups and Messaging Apps",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tiplines",
+        "audience-engagement",
+        "closed-groups",
+        "data-collection"
+      ],
+      "notes": "Tiplines can be gamed; transparency increases participation"
+    },
+    {
+      "extract": "Reporting from and about closed messaging apps and groups is full of challenges, yet those sources will become increasingly important as spaces where information is shared. As a first step, think about the questions outlined in this chapter, talk to your colleagues and editors, and if you don't have guidelines in your newsroom about this type of reporting, start working on some.",
+      "chapter": "Monitoring and Reporting Inside Closed Groups and Messaging Apps",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "closed-groups",
+        "newsroom-guidelines",
+        "editorial-policy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Unable to identify the authors of the recording, Comprova focused on a more conventional investigation, and requested the help of an expert report from Instituto Brasileiro de Pericia (the Brazilian Institute of Forensics). Experts compared the viral recording with Bolsonaro's voice in an April 2018 interview and concluded that the voice of the candidate was not the voice on the recording.",
+      "chapter": "Case Study: Bolsonaro at the Hospital",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audio-forensics",
+        "expert-analysis",
+        "voice-comparison"
+      ],
+      "notes": "When digital provenance fails, use forensic analysis"
+    },
+    {
+      "extract": "Remember that text, images or the entire site itself may disappear over time -- especially after you start contacting people and asking questions. A best practice is to use the Wayback Machine to save important pages on your target website as part of your workflow.",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "archiving",
+        "Wayback-Machine",
+        "evidence-preservation",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "This chapter will look at four categories to analyze when investigating a website: content, code, analytics, registration and connected elements.",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "website-investigation",
+        "four-categories",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An important part of examining the content is to see if it is original. Has text from the site's About page or other general text been copied from elsewhere? Is the site spreading false or misleading information, or helping push a specific agenda?",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "plagiarism-detection",
+        "content-analysis",
+        "website-investigation"
+      ],
+      "notes": "Copy-paste text into Google to check originality"
+    },
+    {
+      "extract": "This approach, first discovered by Lawrence Alexander, begins with viewing the source code of a webpage and then searching within it to see if you can locate a Google Analytics and/or Google AdSense code. These are hugely popular products from Google that enable a site owner to track stats or earn money from ads. If someone is running multiple sites, they often use the same Analytics or AdSense account to manage them. This provides an investigator with the opportunity to connect seemingly separate sites by finding the same ID in the source code.",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "Google-Analytics",
+        "AdSense-ID",
+        "source-code",
+        "network-mapping"
+      ],
+      "notes": "All Analytics IDs begin with ua-; AdSense IDs have pub-"
+    },
+    {
+      "extract": "One caveat is that it is relatively inexpensive to pay to have your personal information privacy protected when you register a domain. Even in those cases, a whois search will still tell us the date the domain was most recently registered, when it will expire and the IP address on the internet where the site is hosted.",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "whois",
+        "domain-registration",
+        "privacy-protection",
+        "IP-address"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As for IP addresses, beware that completely unconnected websites can be hosted on the same server. A general rule is that the fewer the websites hosted on the same server, the more likely they may be connected.",
+      "chapter": "Investigating websites",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "IP-address",
+        "shared-hosting",
+        "false-positives"
+      ],
+      "notes": "Shared IP is weak signal; fewer co-hosted sites = stronger signal"
+    },
+    {
+      "extract": "Ad libraries are nevertheless an important step toward more transparency and provide journalists and others with exciting new ways of investigating digital advertisements.",
+      "chapter": "Analyzing ads on social networks",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "ad-libraries",
+        "transparency",
+        "Facebook-ads",
+        "Google-ads"
+      ],
+      "notes": "Ad libraries available for Google, Facebook, Snapchat, LinkedIn"
+    },
+    {
+      "extract": "Don't trust anything on 4chan/8chan. These websites are literally built to troll, spread innuendo and falsehoods about perceived enemies, push lies about marginalized people. Don't go into a thread asking for more details. Don't post anything, actually. You will be targeted by people with too much time on their hands.",
+      "chapter": "Tracking actors across platforms",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "4chan",
+        "8chan",
+        "anonymous-platforms",
+        "source-reliability",
+        "safety"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Searching for '[city name] + [8chan or 4chan or incels.co]' or other extremist sites provides a useful template for any similar event.",
+      "chapter": "Tracking actors across platforms",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "extremist-platforms",
+        "search-template",
+        "breaking-news"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Right-clicking the timestamp and clicking 'inspect element' will bring up the site's source code, and it will highlight a section that starts with '<time unixtime=[number]>.' Copy and paste that number into an Epoch/Unix timestamp converter, and you'll get a to-the-second post timestamp in UTC time.",
+      "chapter": "Tracking actors across platforms",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "timestamps",
+        "Unix-time",
+        "8chan",
+        "verification"
+      ],
+      "notes": "Both 4chan and 8chan localize timestamps; inspect element reveals UTC"
+    },
+    {
+      "extract": "It is again important to emphasize that the presence of a username across platforms does not guarantee the accounts were created by one person.",
+      "chapter": "Tracking actors across platforms",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "username-matching",
+        "false-positives",
+        "attribution-caution"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Changing Google's search parameters to filter by posts in the 'last hour,' then searching 'site:4chan.org polls' will give you a pretty good window into the polls 4chan users are trying to manipulate in real time.",
+      "chapter": "Tracking actors across platforms",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "real-time-monitoring",
+        "Google-search",
+        "poll-manipulation",
+        "4chan"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For an investigator, the goal is to find as much of the operation as possible before reporting it, because once the operation is reported, the operators can be expected to hide -- potentially by deleting or abandoning other assets.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "operational-security",
+        "pre-publication",
+        "evidence-preservation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There is no single rule for identifying the first link in the chain by your own resources. The most effective strategy is to look for the incongruous. Taking the time to say 'That is weird: Why is it like that?' can be the first step in exposing a new operation.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "anomaly-detection",
+        "curiosity",
+        "investigation-start"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Three questions are crucial here, modeled on Camille Francois' Disinformation ABC: What information about the initial asset is available? How did the asset behave? What content did the asset produce?",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ABC-framework",
+        "assets",
+        "behavior",
+        "content",
+        "investigation-model"
+      ],
+      "notes": "Assets-Behavior-Content framework for information operations"
+    },
+    {
+      "extract": "If an asset shares a text, it is worth searching where else that text appeared. Especially with longer texts, it is advisable to select a sentence or two from the third or fourth paragraphs, or lower, as deceptive operations have been known to edit the headlines and ledes of articles they have copied, but are less likely to take the time to edit the body of the text.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text-matching",
+        "plagiarism-detection",
+        "network-mapping",
+        "search-technique"
+      ],
+      "notes": "Search from body text, not headlines, for better matches"
+    },
+    {
+      "extract": "Assets that post text with mistakes have particular value, as errors are, by their nature, more unusual than correctly spelled words. This made for a much more targeted Google search with far fewer results.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "spelling-errors",
+        "search-technique",
+        "unique-identifiers"
+      ],
+      "notes": "Misspellings narrow search results significantly"
+    },
+    {
+      "extract": "A key rule of analysis is to record them when you find them, because you may not get a second chance. Whatever the format, some pieces of information should always be recorded. These include how the asset was found, its name and URL, the date it was created, and the number of followers, follows, likes and/or views. They also include a basic description of the asset, to remind you what it was after looking at 500 other assets.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "evidence-recording",
+        "metadata",
+        "archiving",
+        "workflow"
+      ],
+      "notes": "Record how each asset was found for reproducibility"
+    },
+    {
+      "extract": "It is worth giving the asset a confidence score. The level of confidence (high, moderate or low) should be marked as a separate entry, and the reasons should be added to the notes.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "confidence-scoring",
+        "evidence-assessment",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ultimately, attribution is a question of self-restraint. The researcher has to imagine the question, 'How can you prove that this operation was run by the person you are accusing?' If they cannot answer that question with confidence to themselves, they should steer clear of making the accusation.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "attribution",
+        "self-restraint",
+        "evidence-standards",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Contacting the relevant platforms is a vital part of investigative work. As the platforms have scaled up their internal investigative teams, they have become more willing to offer public attribution for information operations.",
+      "chapter": "Network analysis and attribution",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "platform-cooperation",
+        "attribution",
+        "sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Endless Mayfly illustrates how you can combine network and narrative analysis with external reporting to arrive at attribution. It also highlights the difficulty involved in attributing information operations to a specific actor, why multiple indicators are required, and how to use a confidence level to indicate your level of certitude for the attribution.",
+      "chapter": "Case study: Attributing Endless Mayfly",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "attribution",
+        "triangulation",
+        "confidence-levels",
+        "mixed-methods"
+      ],
+      "notes": "Three analysis types: narrative, network, external reporting"
+    },
+    {
+      "extract": "Using content and discourse analysis on the 135 inauthentic articles collected in our investigation, we determined that the narratives being propagated were aligned with Iran's interests. Each article was coded into categories that were determined after an initial reading of all the articles. Two rounds of coding were conducted: The first round was executed independently by two researchers, and a second round was conducted together by the same researchers to resolve any discrepancies.",
+      "chapter": "Case study: Attributing Endless Mayfly",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "content-analysis",
+        "coding",
+        "intercoder-reliability",
+        "narrative-analysis"
+      ],
+      "notes": "Standard qualitative coding methodology applied to disinfo"
+    },
+    {
+      "extract": "To avoid hasty and poor attribution practices, it is important to consider multiple indicators, types of evidence and analyses, and to make use of a confidence level that considers alternative hypotheses and missing data.",
+      "chapter": "Case study: Attributing Endless Mayfly",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "attribution",
+        "confidence-levels",
+        "alternative-hypotheses",
+        "evidence-standards"
+      ],
+      "notes": "Uses intelligence-community framework: low/moderate/high confidence"
+    }
+  ]
+}

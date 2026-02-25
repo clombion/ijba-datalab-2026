@@ -1,0 +1,416 @@
+{
+  "source_id": "155",
+  "source_file": "155-analyzing-code-critical-code-studies.md",
+  "source_title": "Analyzing Code: What a Critical Code Studies Approach Reveals About the Epistemology of Data Journalism",
+  "author": "Aman Abhishek, Lucas Graves",
+  "year": "2024",
+  "chunk": null,
+  "chunk_words": 10092,
+  "extracts": [
+    {
+      "extract": "Data journalism is defined broadly as reporting involving the collection, analysis, and presentation of quantitative datasets. To study code, we need to unpack the wider sociotechnical assemblages in which it is embedded to understand how programs work in the world.",
+      "chapter": "Introduction",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism",
+        "definition",
+        "sociotechnical"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Interpreting code contextually requires considering the code in relation to other texts that define it, such as documentation, comments, program structure, and other ancillary material. We consider three interrelated texts—the code (and associated documentation), the data, and the published story—in order to highlight how programming code serves editorial purposes.",
+      "chapter": "Taking Code Seriously",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical code studies",
+        "contextual analysis",
+        "triangulation"
+      ],
+      "notes": "CCS methodology applied to journalism"
+    },
+    {
+      "extract": "Many analyses of content, discourse, or practice in data journalism have focused on the uppermost tier of the field: award entries, projects or teams of leading newsrooms, high-profile hackathons, etc. This results in an unrepresentative picture that fails to capture general or everyday or quick turnaround data journalism that typically falls short of ideals espoused by data journalism evangelists.",
+      "chapter": "Studying Data Journalism in Practice",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "sampling bias",
+        "representativeness",
+        "everyday practice"
+      ],
+      "notes": "Warns against studying only elite examples"
+    },
+    {
+      "extract": "We defined variables to capture various features of (1) data in the repository, (2) code in the repository, and (3) the published news story. We then used hierarchical clustering to triangulate across these characteristics and identify groups of stories for qualitative review.",
+      "chapter": "Content analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis",
+        "clustering",
+        "triangulation",
+        "mixed methods"
+      ],
+      "notes": "Quantitative classification followed by qualitative close reading"
+    },
+    {
+      "extract": "We classify data with respect to the repository as well as the published story. Journalists' reliance on government data has been understood as an information subsidy that both enables and influences news coverage. Government data may be released in response to Freedom of Information (FOIA) requests, or leaked. Datasets may also be scattered across disparate files or released in file formats inconvenient for data analysis, perhaps intentionally (e.g., tabular data in a PDF format).",
+      "chapter": "Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "government data",
+        "FOIA",
+        "information subsidy",
+        "data sources"
+      ],
+      "notes": "Data often deliberately released in unusable formats"
+    },
+    {
+      "extract": "Established practice in data journalism emphasizes making available the datasets that underlie analysis; scholars understand this as reflecting norms of transparency as well as civic engagement, where providing data may facilitate various forms of interactivity, engagement, participation and collaboration.",
+      "chapter": "Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "open data",
+        "reproducibility",
+        "civic engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Scraping is understood as a technique not just to access but to create datasets, a distinction which becomes blurry in practice. For example, The New York Times' award-winning COVID-19 dataset relies almost exclusively on health data which was publicly available from various agencies—but which gained tremendous value when systematically cleaned and collated. In other cases, scraping specific items from a large number of sources can be used to create a new dataset.",
+      "chapter": "Code",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "scraping",
+        "data creation",
+        "data wrangling",
+        "editorial labor"
+      ],
+      "notes": "Scraping blurs line between data access and data creation"
+    },
+    {
+      "extract": "Code may be used to generate quantitative data from qualitative observations (quantification) or to conduct mathematical operations on quantitative data once assembled (analysis). The variable quantification refers narrowly to cases where the repository includes code which converts textual data to numeric data, for example, measuring negative sentiment in a text.",
+      "chapter": "Code",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "quantification",
+        "text analysis",
+        "sentiment analysis",
+        "data transformation"
+      ],
+      "notes": "Distinguishes quantification from analysis as separate operations"
+    },
+    {
+      "extract": "Data featured helps to identify cases where the news organization highlights the creation and publication of datasets as public-facing newswork in itself, and could potentially mobilize data publics which put that data to new uses. This is distinct from data present which noted whether the repository contains a dataset; this may or may not be highlighted in the news article.",
+      "chapter": "News Story",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data publics",
+        "transparency",
+        "editorial framing",
+        "dataset as product"
+      ],
+      "notes": "Publishing data itself becomes a journalistic output"
+    },
+    {
+      "extract": "Simply sharing datasets is a primary use of GitHub by data journalists. Sharing datasets via GitHub was considered a worthy goal in itself. Publishing underlying data bolsters the claims made in the news report, as anyone can see it for themselves. In some cases, the dataset becomes the stepping stone for other reportage and research.",
+      "chapter": "Theme 1: Creating Databases as an End Goal of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data sharing",
+        "transparency",
+        "reproducibility",
+        "GitHub"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "GitHub provides version tracking, and therefore fosters transparency regarding how crowdsourcing was used to update/modify the dataset. GitHub permits automated updates to the dataset. GitHub brings together a programming community and provides publicly visible engagement metrics. A news report containing a weblink to GitHub might suggest to readers that the news organization is transparent and embraces an open source ethos—which is a performative aspect of transparency.",
+      "chapter": "Theme 1: Creating Databases as an End Goal of Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub",
+        "version control",
+        "transparency",
+        "crowdsourcing",
+        "automation"
+      ],
+      "notes": "GitHub as infrastructure for journalistic transparency"
+    },
+    {
+      "extract": "Databases can be used as crowdsourcing mechanisms to enrich existing data, although this method often proves unsuccessful. More than a hundred entries were updated in the dataset based on crowdsourced inputs.",
+      "chapter": "Theme 1: Creating Databases as an End Goal of Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data enrichment",
+        "community participation"
+      ],
+      "notes": "Crowdsourcing often fails but can work for specific verification tasks"
+    },
+    {
+      "extract": "Journalists use government data (sometimes in combination with other datasets) to perform statistical analysis that reveals a systemic issue of public concern. The authority vested in official data allows journalists to question those responsible—including public officials—while pointing to the results from the statistical analysis. In this model, data have no journalistic value on their own. The reporter has to find the hidden story in the data.",
+      "chapter": "Theme 2: Government data as an Anchor of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "government data",
+        "statistical analysis",
+        "investigative journalism",
+        "accountability"
+      ],
+      "notes": "Core epistemological model of investigative data journalism"
+    },
+    {
+      "extract": "More complicated analyses can potentially invite counter-claims. Using sophisticated statistical techniques may invite criticisms of methodology. When using such techniques is necessary, journalists strengthen their claim and mitigate risks by relying on external expertise—and by having published datasets in a way that allows outsiders to replicate and confirm their analysis.",
+      "chapter": "Theme 2: Government data as an Anchor of Investigative Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "external expertise",
+        "reproducibility",
+        "methodological risk",
+        "peer review"
+      ],
+      "notes": "Strategy for defending complex statistical analyses"
+    },
+    {
+      "extract": "News organizations may take specific steps to avoid potential controversies when they undertake complex data analysis. A Los Angeles Times story outsourced the analysis to a data scientist at Harvard University, who performed specialized statistical modeling. The Washington Post used data from NOAA and a climate scientist provided the initial analysis at The Post's request. Comments in the analysis code justified the statistical methodology by stating that The New York Times had used the same approach.",
+      "chapter": "Theme 2: Government data as an Anchor of Investigative Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "external validation",
+        "academic partnerships",
+        "methodological justification",
+        "credibility"
+      ],
+      "notes": "Three strategies: outsource analysis, cite precedent, invite replication"
+    },
+    {
+      "extract": "Access to government data can weaken the government's interpretive monopoly by allowing for alternative interpretations. Journalists' interpretation of data is often adversarial to the institutions which provide that data.",
+      "chapter": "Theme 2: Government data as an Anchor of Investigative Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "information subsidy",
+        "adversarial journalism",
+        "interpretive power",
+        "government data"
+      ],
+      "notes": "Data access enables counter-narratives to official accounts"
+    },
+    {
+      "extract": "The labor of scraping, formatting and cleaning data includes assembling data scattered across different sites or sources, checking for missing or incorrectly recorded data, and converting data into formats compatible with analysis tools. These steps feature prominently in data journalism textbooks and tutorials, referred to as data scraping, data wrangling, preprocessing, data cleaning.",
+      "chapter": "Theme 3: Data wrangling as Essential Work of Data Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data wrangling",
+        "cleaning",
+        "formatting",
+        "preprocessing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We learned early that individual scrapers needed to be strategically fragile: We wanted them to break when the source website changed or failed to respond, to alert us so that our team could figure out whether the issue was with our code or the source website's changes. In the early days of the pandemic, a few notable sites changed several times in just a couple of weeks, which meant we had to repeatedly rewrite our code.",
+      "chapter": "Theme 3: Data wrangling as Essential Work of Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "fragility",
+        "monitoring",
+        "maintenance",
+        "automation"
+      ],
+      "notes": "NYT quote on strategic fragility in scraper design"
+    },
+    {
+      "extract": "Scraping PDFs should never—emphasis on NEVER—be a data journalist's first approach. In the ideal world, this information would have also been neatly available in a structured format, such as an API. The decision to dive into a PDF ocean should only be taken after it has been confirmed beyond doubt that is the only way to obtain the information contained in them.",
+      "chapter": "Theme 3: Data wrangling as Essential Work of Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF scraping",
+        "data formats",
+        "APIs",
+        "last resort"
+      ],
+      "notes": "Seattle Times quote; PDF scraping as method of last resort"
+    },
+    {
+      "extract": "In a second set of data wrangling cases, code generates clean, structured data primarily as an input for further analysis, rather than to publish a dataset. Data wrangling is ubiquitous and labor intensive but celebrated only rarely, even among the practitioners. It is more likely to be highlighted in news reports when the resulting database is itself newsworthy, but not in numerous other cases where the data is consumed within the analysis.",
+      "chapter": "Theme 3: Data wrangling as Essential Work of Data Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data wrangling",
+        "invisible labor",
+        "editorial work"
+      ],
+      "notes": "Wrangling is essential but undervalued editorial labor"
+    },
+    {
+      "extract": "Web scraping provides a wider range of alternative sources of data, which helps in overcoming the topical saturation of open/FOI data. Scraping allows journalists to gather institutional data on their own terms, pushing against the dynamics of information subsidy; it is counterintuitively but unmistakably editorial effort.",
+      "chapter": "Theme 3: Data wrangling as Essential Work of Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scraping",
+        "editorial labor",
+        "data independence",
+        "alternative sources"
+      ],
+      "notes": "Scraping as counterweight to institutional data dependency"
+    },
+    {
+      "extract": "An abundance of data has invited a new genre based on relatively low-effort data mining to uncover interesting sociopolitical trends. These stories mirror the trend in social sciences where the availability of social media data can shape lines of inquiry. Stories in the social analysis cluster fit the descriptions of a daily, quick turnaround, generally visualised, brief form of data journalism which is often editorialised and entertaining.",
+      "chapter": "Theme 4: Abundance of Data Drives Quick Turnaround Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "datafication",
+        "quick turnaround",
+        "social media",
+        "data abundance"
+      ],
+      "notes": "Data availability drives story selection, parallel to big data critiques in academia"
+    },
+    {
+      "extract": "Data journalists are leveraging widespread datafication to collect their own data, going beyond traditional sources such as public data or FOIA requests. These include social media platforms, independent surveys, and miscellaneous online datasets.",
+      "chapter": "Theme 4: Abundance of Data Drives Quick Turnaround Data Journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data sources",
+        "social media",
+        "surveys",
+        "datafication",
+        "original data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Projects in the tech reporting clusters tend to harvest data from platforms and other major tech firms using specialized methods, and use the created datasets to scrutinize the firms' policies and opaque algorithms. They share the epistemic model of reverse-engineering computational artifacts. To retrieve data needed to reverse-engineer the platform's algorithms, the outlet paid volunteers to run an application it created to monitor which groups and pages Facebook recommended to its users.",
+      "chapter": "Theme 5: Algorithmic accountability reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "algorithmic accountability",
+        "reverse engineering",
+        "platform scrutiny",
+        "data harvesting"
+      ],
+      "notes": "Specialized data collection methods for investigating tech platforms"
+    },
+    {
+      "extract": "To uncover the blocklist, Markup located an undocumented and unpublicized YouTube API; systematically varying inputs to the API (random strings, hate speech, and uncontroversial words) revealed four classes of API outputs (no results, full results, blocked keywords, and partially blocked keywords).",
+      "chapter": "Theme 5: Algorithmic accountability reporting",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "reverse engineering",
+        "API probing",
+        "systematic variation",
+        "algorithmic audit"
+      ],
+      "notes": "Specific technique: systematically varying API inputs to map hidden categories"
+    },
+    {
+      "extract": "The heavy labor of scraping, formatting and cleaning data is addressed in the data science field but seldom considered in journalism studies. Institutions often provide data which is effectively unusable, perhaps intentionally so. In these cases, journalists do the labor of making this data comprehensible and easily accessible, or provide interpretations of it.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data wrangling",
+        "institutional obstruction",
+        "editorial labor",
+        "data science"
+      ],
+      "notes": "Institutions may deliberately release data in unusable formats"
+    },
+    {
+      "extract": "To hold tech companies accountable, journalists are adopting the methodology of reverse-engineering computational artifacts, which is distinct from traditional journalistic methods. Reverse-engineering is likely supplementary to traditional methods relying on whistleblowers and information from insiders.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reverse engineering",
+        "algorithmic accountability",
+        "methodology",
+        "tech scrutiny"
+      ],
+      "notes": "Reverse-engineering as new journalistic method distinct from traditional approaches"
+    },
+    {
+      "extract": "Looking contextually at the assemblage of code, data, repository, and published news report can compensate for missing or inaccessible elements in journalistic code (such as a proprietary API) by providing a generalized picture of the work that code and data are doing. A contextual reading helps to focus the analysis of code on relevant sections when it is impractical to understand every line of code in a sizable sample.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "contextual analysis",
+        "assemblage",
+        "holistic reading",
+        "methodological strategy"
+      ],
+      "notes": "Practical benefit: contextual reading compensates for incomplete code/data"
+    },
+    {
+      "extract": "GitHub appears to fulfill two infrastructural roles within data journalism. First is transparency by sharing of analysis material as a proof for the findings in the news report—ordinary users are not invited to make contributions because the analysis is supposed to be complete. Second is using GitHub to crowdsource databases and track changes to it—crowdsourcing provides missing data rather than changing the interpretations of the database or claims in the news report itself.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "GitHub",
+        "infrastructure",
+        "transparency",
+        "crowdsourcing",
+        "proof"
+      ],
+      "notes": "Two distinct GitHub roles: proof/transparency vs crowdsourcing/enrichment"
+    }
+  ]
+}

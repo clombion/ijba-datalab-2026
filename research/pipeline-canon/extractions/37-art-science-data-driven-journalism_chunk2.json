@@ -1,0 +1,320 @@
+{
+  "source_id": "37",
+  "source_file": "37-art-science-data-driven-journalism.md",
+  "source_title": "The Art and Science of Data-Driven Journalism",
+  "author": "Alexander Howard",
+  "year": "2014",
+  "chunk": "2/2",
+  "chunk_file": "37-art-science-data-driven-journalism_chunk2.md",
+  "chunk_words": 19534,
+  "extracts": [
+    {
+      "extract": "First, searching. Using advanced search techniques, in countries like ours, you find there is more on the Deep Web than in the surface. Then scraping, converting data from PDFs, structuring datasets, and analyzing data. Then, learning to publish in open data formats.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Find",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "scraping",
+        "open data",
+        "data pipeline"
+      ],
+      "notes": "La Nacion interview - Momi Peralta on foundational data journalism skills sequence"
+    },
+    {
+      "extract": "If there are language barriers, translate. If there is no open data, start by doing it yourself. If technology is expensive, check first for free versions. Most are enough to do everything you need.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resourcefulness",
+        "open data",
+        "data acquisition"
+      ],
+      "notes": "La Nacion - creative problem solving for data access barriers"
+    },
+    {
+      "extract": "It's our job to make sure everybody in the newsroom can tell a story by any means necessary. That is, reporters should know how to map, the mapmaking pros on my team should know how to factcheck, the fact checkers should know when to use a column chart versus a bar chart, and so on. We don't believe in siloed skills.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "cross-training",
+        "newsroom collaboration",
+        "skill integration"
+      ],
+      "notes": "Tasneem Raja at Mother Jones on cross-functional team skills"
+    },
+    {
+      "extract": "Never build something you can only use once. Instead, think both in terms of the specific needs of the project in front of you, and the broader needs of a similar project you might not even know of till next year.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reusability",
+        "abstraction",
+        "project management"
+      ],
+      "notes": "Josh Williams advice via Tasneem Raja on building reusable tools"
+    },
+    {
+      "extract": "Everything is data. Words are data. Gifs are data. If it can be sorted, tracked, counted, merged, filtered: it's probably data. I'd say half the project my team does is more qualitative than quantitative.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data definition",
+        "qualitative data",
+        "framing"
+      ],
+      "notes": "Raja on expansive definition of data beyond quantitative"
+    },
+    {
+      "extract": "Pick a project you genuinely want to do, and then hack, Google, and plead for help in forums, and read books, until you get it working.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "learning",
+        "project-based learning",
+        "self-teaching"
+      ],
+      "notes": "Raja on best approach for learning data journalism skills"
+    },
+    {
+      "extract": "We don't have a pair programming model on the editorial side of the newsroom, and we need one. Journalism schools still teach journalism as a very hierarchical, often solitary pursuit. That's not the way it works in data journalism, and the best learning is still gonna be on the job. That requires cross-pollination between folks with different skill sets.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "pair programming",
+        "pedagogy",
+        "newsroom collaboration",
+        "cross-training"
+      ],
+      "notes": "Raja on need for collaborative coding model in newsrooms"
+    },
+    {
+      "extract": "At ProPublica, no one has a specific responsibility like design, backend development, data analysis, etc. Instead, people on the team tend to do the whole stack from beginning to end. When we need help, or don't understand something, we ask our teammates.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "full-stack journalism",
+        "team structure",
+        "newsroom collaboration"
+      ],
+      "notes": "Sisi Wei on ProPublica full-stack team model"
+    },
+    {
+      "extract": "An insatiable appetite to get to the bottom of something, and the willingness to learn any tool to help you find the answers you're looking for. In that process, you'll by necessity learn programming skills, or data analysis skills. But without knowing what questions to ask, or what you're trying to accomplish, neither of those skills will help you.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "question-driven inquiry",
+        "curiosity",
+        "skill acquisition"
+      ],
+      "notes": "Sisi Wei on questions driving tool selection, not vice versa"
+    },
+    {
+      "extract": "In terms of programming, just pick a project, make it simple, make it happen and then finish it.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project-based learning",
+        "prototyping"
+      ],
+      "notes": "Wei on learn-by-doing approach"
+    },
+    {
+      "extract": "Data journalism allows journalists to point to the raw data and ask questions, as well as question the very conclusions we are given. It allows us to use social science techniques to illuminate stories that might otherwise be hidden in plain sight.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "social science methods",
+        "accountability",
+        "verification",
+        "evidence-based reporting"
+      ],
+      "notes": "Wei on data journalism as social science method for journalism"
+    },
+    {
+      "extract": "The same core skills you need to practice any kind of journalism: curiosity, skepticism, an eye for detail and a sense of a good story. Also numeracy, or at least conceptual mathematical literacy, which is still unfortunately too rare. Also important are databases and spreadsheets, statistics, and some kind of programming language.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "foundational skills",
+        "skepticism",
+        "statistical literacy"
+      ],
+      "notes": "Chase Davis on foundational data journalism skills including numeracy"
+    },
+    {
+      "extract": "I think a data journalist needs news judgment and attention to detail in order to identify the newsworthiness and limitations of datasets. Statistics can help explain a dataset's strengths and weaknesses.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data limitations",
+        "news judgment",
+        "statistical literacy",
+        "verification"
+      ],
+      "notes": "Dan Hill on identifying dataset limitations"
+    },
+    {
+      "extract": "Our team adheres to modified scrum principles. We have a daily scrum at 10:00am for all of the members of our Visuals team. We work on projects in one-week sprints. At the end of each sprint we have an iteration review and a 'ticket shuffle' where we decide what tickets each of us should work on in the next sprint.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "agile methodology",
+        "project management",
+        "team structure",
+        "newsroom workflow"
+      ],
+      "notes": "Jeremy Bowers on NPR Visuals team agile/scrum workflow"
+    },
+    {
+      "extract": "Our projects involve minimally four people: One developer, one designer, one project manager and one stakeholder. Some projects add more designers or more developers as necessary.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team structure",
+        "project management",
+        "newsroom collaboration"
+      ],
+      "notes": "Bowers on minimum viable team composition at NPR Visuals"
+    },
+    {
+      "extract": "If we report on data, and we open data while reporting, then others can reuse and build another layer of knowledge on top of it.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "transparency",
+        "reproducibility",
+        "public service"
+      ],
+      "notes": "La Nacion on publishing data alongside reporting"
+    },
+    {
+      "extract": "Instead of a person, you're using data as a source. Over time, I shifted from being a reporter who does CAR to being a specialist at the Center for Public Integrity to a CAR editor at the New York Times and then started this team.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data as source",
+        "CAR",
+        "evidence-based reporting"
+      ],
+      "notes": "Pilhofer on treating data as a journalistic source"
+    },
+    {
+      "extract": "I feel strongly, and now there is a growing consensus, that we should make decisions like that based upon data. Who will the audience be for a particular piece of content? Who are they? What do they read? That will lead to a very different approach to being a publishing enterprise.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "audience analytics",
+        "data-driven publishing",
+        "distribution strategy"
+      ],
+      "notes": "Pilhofer on data-driven publishing decisions at NYT"
+    },
+    {
+      "extract": "There is still far too much tolerance for anecdotal evidence as the foundation for news stories.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "evidence-based reporting",
+        "numeracy",
+        "rigor"
+      ],
+      "notes": "Pilhofer on cultural resistance to data-driven evidence"
+    },
+    {
+      "extract": "People with the right mindset, who feel valued for their editorial judgment and creativity, and who are given real responsibility over their work, will learn whatever they need to learn in order to get a project done. The people on my team focus on telling great journalistic stories and don't let not knowing how to do something stop them from doing so.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "culture",
+        "learning mindset",
+        "team management",
+        "autonomy"
+      ],
+      "notes": "Scott Klein on culture enabling skill acquisition at ProPublica"
+    },
+    {
+      "extract": "There are ways to design data so that more important numbers are bigger and more prominent than less important details. People know to scroll down a Web page for more fine-grained details. At ProPublica, we design things to move readers through levels of abstraction from the most general, national case to the most local example.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "information hierarchy",
+        "data visualization",
+        "user experience",
+        "presentation"
+      ],
+      "notes": "Klein on ProPublica information design from general to local"
+    },
+    {
+      "extract": "Can you imagine a sports reporter who doesn't know what an on-base percentage is? Or doesn't know how to calculate it himself? You can now ask a version of that question for almost every beat.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "data literacy",
+        "beat reporting"
+      ],
+      "notes": "Klein on data literacy as essential for every beat"
+    },
+    {
+      "extract": "It makes lots of sense for us to make the effort of typing, building datasets, cleaning, converting and sharing data in open formats, even organizing our own 'datafest' to expose data to experts.",
+      "chapter": "Radar interviews",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "open data",
+        "dataset building",
+        "community engagement"
+      ],
+      "notes": "La Nacion on investing in dataset creation and sharing"
+    }
+  ]
+}

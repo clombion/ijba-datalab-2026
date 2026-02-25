@@ -1,0 +1,659 @@
+{
+  "source_id": "82",
+  "source_file": "82-periodismo-datos-big-data-thesis.md",
+  "source_title": "Periodismo de datos: el big data como elemento diferenciador",
+  "author": "doctoral thesis",
+  "year": "n.d.",
+  "chunk": "1/3",
+  "chunk_file": "82-periodismo-datos-big-data-thesis_chunk1.md",
+  "chunk_words": 39999,
+  "extracts": [
+    {
+      "extract": "When information was scarce, most of our efforts went into the hunting and gathering. Now that information is abundant, processing is more important",
+      "chapter": "III.1.1.3. Big data as a sociocultural phenomenon and its implications for journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data processing",
+        "workflow shift",
+        "information abundance"
+      ],
+      "notes": "Philip Meyer quote in Data Journalism Handbook; marks paradigm shift from PP/CAR search-oriented workflow to DJ processing-oriented workflow"
+    },
+    {
+      "extract": "in PJ and CAR the journalist's efforts were focused on seeking and collecting information in a world where information was scarce, while in data journalism the efforts are concentrated on data processing rather than on the search and collection of information",
+      "chapter": "I.2. Data journalism in the academic field",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "data processing",
+        "workflow shift",
+        "precision journalism",
+        "CAR"
+      ],
+      "notes": "Author's restatement of the PP-to-DJ paradigm shift; frames DJ as processing-heavy discipline"
+    },
+    {
+      "extract": "Giving news consumers easy access to the data we use for our work is the right thing to do for several reasons. Readers can assure themselves that we are not torturing the data to reach unfair conclusions. It opens our data in the social science tradition of allowing researchers to replicate our work. Encouraging readers to study the data can generate tips that can lead to subsequent stories. Finally, engaged readers who are interested in our data are likely to come back again and again.",
+      "chapter": "III.1.3.2. Publication of data: open data philosophy and transparency",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "raw data publication",
+        "transparency",
+        "verification",
+        "audience engagement",
+        "replicability"
+      ],
+      "notes": "Steve Doig quote from Data Journalism Handbook; four-fold justification for publishing raw data"
+    },
+    {
+      "extract": "Data-driven journalism is based on large amounts of data with the purpose of writing news stories. Data journalists describe the journalistic process as a workflow that consists of digging deeply into the data, analyzing and filtering the data found, visualizing it and forming a story",
+      "chapter": "III.1.3.3. Data visualization: infographics and interactive applications",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "workflow",
+        "data analysis",
+        "filtering",
+        "visualization",
+        "storytelling"
+      ],
+      "notes": "Weber & Rall 2012 citing Lorenz and Bradshaw; four-step DJ production workflow"
+    },
+    {
+      "extract": "what data journalism experts recommend is to compile and clean data and then to contextualize and combine them (find stories) through the use of databases — that is, to use databases to carry out three of the first four steps of the inverted pyramid of data journalism",
+      "chapter": "III.1.3.1. Data processing and databases",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "inverted pyramid",
+        "data cleaning",
+        "compilation",
+        "contextualization",
+        "databases"
+      ],
+      "notes": "Author synthesizing Bradshaw inverted pyramid: compile -> clean -> contextualize -> combine -> communicate"
+    },
+    {
+      "extract": "Generating stories from complex data is a contemporary issue for journalists and (social) scientists, especially when the amounts of data are very large and cannot easily be processed by humans (…) Data journalism and computational social sciences both use statistical and computational methods to deal with the problem of processing many complex data (often in the form of text documents) and presenting them in an accessible way.",
+      "chapter": "III.1.3.1. Data processing and databases",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational methods",
+        "data processing",
+        "social science",
+        "text analysis",
+        "complexity"
+      ],
+      "notes": "Rusch et al. 2013; shared challenges between DJ and computational social science in processing complex data"
+    },
+    {
+      "extract": "Carlos Elías (2015:94) alerts us to the difficulty of constructing a theory or a narrative when only many numerical data exist without any explanation, and for such cases considers grounded theory a possible solution: it is useful for generating a hypothesis from the data obtained in an investigation.",
+      "chapter": "III.1.1.3. Big data as a sociocultural phenomenon and its implications for journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "grounded theory",
+        "hypothesis generation",
+        "narrative construction",
+        "big data"
+      ],
+      "notes": "Elias 2015; grounded theory as method when raw data lack explanatory context"
+    },
+    {
+      "extract": "The idea of collaboration already existed, which can occur on two levels: collaboration among specialists and collaboration among methodologies. Both things were already present at The New York Times in 1989 when a new unit was created comprising a sociologist, a computer scientist, a statistician, and a journalist.",
+      "chapter": "III.1.2.2. Computer-assisted reporting (CAR)",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "multidisciplinary teams",
+        "collaboration",
+        "newsroom structure",
+        "specialist roles"
+      ],
+      "notes": "Dader personal communication 2010; earliest documented multidisciplinary data team in a newsroom — NYT 1989"
+    },
+    {
+      "extract": "DJ is the ability to analyse and scrutinise numbers, and to know how to handle large datasets and read them correctly… [to] find and support your stories",
+      "chapter": "III.1.3.2. Publication of data: open data philosophy and transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "numeracy",
+        "dataset handling",
+        "story finding"
+      ],
+      "notes": "Egawhary & O'Murchu 2013; stories are the raison d'etre of DJ, not visualizations"
+    },
+    {
+      "extract": "The development of data journalism encapsulates the processes of digitalization; the philosophy of open data and transparency and public access to information; statistical and visualization tools; and the investigative skills of the journalist of all time for compiling, filtering, contextualizing, contrasting, organizing, ranking and telling a story in an appealing way.",
+      "chapter": "III.1.3.2. Publication of data: open data philosophy and transparency",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "DJ definition",
+        "compiling",
+        "filtering",
+        "contextualizing",
+        "contrasting",
+        "ranking",
+        "storytelling"
+      ],
+      "notes": "Rodriguez-Brito & Garcia-Chico 2013; seven-verb workflow chain for DJ"
+    },
+    {
+      "extract": "Elías (2015) demystifies one of the mythologies of big data — that of the veracity conferred by data — because deontological corruptions can occur that deliberately distort reality. Quantity is sometimes confused with quality, when so-called small data — interviews or expert opinions — explain reality better than a dataset. He also insists on the importance of explaining data in their context, outside of which big data loses its meaning",
+      "chapter": "III.1.1.3. Big data as a sociocultural phenomenon and its implications for journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data veracity",
+        "small data",
+        "context",
+        "data mythology",
+        "quality vs quantity"
+      ],
+      "notes": "Elias 2014-2015; caution against conflating volume with truth; small data sometimes better"
+    },
+    {
+      "extract": "Data journalism is the journalistic proposal born on the web that shares with precision journalism and CAR a methodological rigor similar to that of the social sciences for the extraction, systematization, and processing of data for the publication of journalistic stories. Its fundamental difference from these two branches of journalism lies in the incorporation of problems and techniques that emerged in the context of big data",
+      "chapter": "III.2. Proposal for an updated definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "DJ definition",
+        "methodological rigor",
+        "social science methods",
+        "big data context"
+      ],
+      "notes": "La Rosa 2015; formal DJ definition distinguishing it from PP and CAR"
+    },
+    {
+      "extract": "we define interactive information graphics as (1) a hybrid presentation of different combined modalities: text, photos, audio, video, tables, maps, charts; the interaction of these is more than the sum of the parts. (2) In addition to multimodality, interactivity and hypertextuality are defining characteristics of interactive information graphics. (3) Each interactive information graphic focuses on one story, one topic.",
+      "chapter": "III.1.3.3. Data visualization: infographics and interactive applications",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interactive visualization",
+        "multimodality",
+        "hypertextuality",
+        "storytelling"
+      ],
+      "notes": "Weber & Rall 2012; three-part definition of interactive info graphics in DJ"
+    },
+    {
+      "extract": "Information visualization emerges to change the communicative process and strategically restore primordial prominence to the visual. It is not about vulgarizing the data, but about delving deeper and taking advantage of the benefits offered by human perception and interaction, with the objective of transforming complex and abstract realities into simple ones.",
+      "chapter": "III.1.3.3. Data visualization: infographics and interactive applications",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "perception",
+        "complexity reduction",
+        "communication"
+      ],
+      "notes": "Sanchez-Bonvehi & Ribera 2014; visualization as cognitive simplification, not dumbing down"
+    },
+    {
+      "extract": "the publication of data by journalists is not the only transparency work in data journalism, but involves refinement processes among journalists",
+      "chapter": "III.1.3.2. Publication of data: open data philosophy and transparency",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data publication",
+        "peer refinement",
+        "transparency",
+        "collaborative verification"
+      ],
+      "notes": "Lesage & Hackett 2014; DJ transparency extends beyond publication to inter-journalist refinement"
+    },
+    {
+      "extract": "the need for an understanding of computational logic will enable data journalists to use new possibilities in the processing of information and data, finding new angles on information of social relevance, new facts and alternative information sources",
+      "chapter": "III.1.1.2. From Computational Journalism to Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "data processing",
+        "new angles",
+        "alternative sources"
+      ],
+      "notes": "Lima 2012; computational logic as prerequisite for finding new story angles in DJ"
+    },
+    {
+      "extract": "databases have become structuring agents of knowledge, of content, and in many cases even the backbone of media discourse",
+      "chapter": "III.1.3.1. Data processing and databases",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "databases",
+        "knowledge structure",
+        "media discourse",
+        "content organization"
+      ],
+      "notes": "Lopez-Garcia et al. 2009; databases as structuring agents rather than mere storage"
+    },
+    {
+      "extract": "there are lots of different ways of presenting your data to your audience, from simply publishing the raw data with stories to creating beautiful visualisations and interactive web applications",
+      "chapter": "III.1.3.2. Publication of data: open data philosophy and transparency",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data presentation",
+        "raw data",
+        "visualization",
+        "web applications",
+        "audience"
+      ],
+      "notes": "Data Journalism Handbook; spectrum of presentation formats from raw data to interactive apps"
+    },
+    {
+      "extract": "the practices depend on various social institutions and technological artifacts that lie outside its field, and therefore urges researchers to pay special attention to the ways in which public policies and struggles for data and open-government transparency affect journalistic production",
+      "chapter": "I.4. Theoretical framework around the influence of the Transparency Law on Spanish data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency laws",
+        "public policy",
+        "data access",
+        "institutional dependencies"
+      ],
+      "notes": "Anderson 2012 sociology of computational journalism; DJ practices shaped by external policy and institutions"
+    },
+    {
+      "extract": "Meaning condensation implies an abridgement of the meanings expressed by the interviewees into shorter formulations. Long statements are compressed into briefer ones in which the main sense of what has been said is paraphrased in a few words. Hence meaning condensation entails a reduction of a lengthy interview text into a shorter and more succinct formulation",
+      "chapter": "II.1.3.2. Interview analysis: meaning condensation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "meaning condensation",
+        "qualitative analysis",
+        "interview coding",
+        "paraphrasing"
+      ],
+      "notes": "Kvale 1996; method for reducing interview transcripts to essential meaning units"
+    },
+    {
+      "extract": "(1) Thematizing: formulating the purpose of an investigation and describing the concept of the topic to be investigated before beginning the interview. The why and what of the research must be clear before the how question — method; (2) Designing: planning the design of the study taking into consideration the seven stages before beginning the interview; (3) Interviewing: based on a guide with a reflective approach to the knowledge observed and the interpersonal relationship of the interview situation; (4) Transcribing: preparing the material for analysis; (5) Analyzing: based on the purpose and topic of the research, as well as the interview material, which methods of analysis are appropriate; (6) Verifying: how consistent are the results and whether the interview investigates what it was intended to investigate; (7) Reporting: communicating the findings of the study and the methods applied",
+      "chapter": "II.1. Methodology of in-depth interviews",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "interview methodology",
+        "research design",
+        "seven stages",
+        "thematizing",
+        "verification"
+      ],
+      "notes": "Kvale 1996:88; seven-stage interview research framework adopted by thesis"
+    },
+    {
+      "extract": "the natural meaning units as expressed by the subjects are determined by the researcher. Third, the central theme that dominates the natural meaning unit is expressed as simply as possible… the fourth step consists of interrogating the meaning units according to the specific purpose of the study… in the fifth step, the essential one, non-redundant themes from the entire interview were linked in a single descriptive paragraph",
+      "chapter": "II.1.3.2. Interview analysis: meaning condensation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "natural meaning units",
+        "thematic analysis",
+        "phenomenological method",
+        "theme extraction"
+      ],
+      "notes": "Kvale 1996:194 describing Giorgi 1975 method; five-step phenomenological analysis of interviews"
+    },
+    {
+      "extract": "content analysis is a research technique for making replicable and valid inferences from texts (or other meaningful matter) to the contexts of their use",
+      "chapter": "II.2.1.4. Quantitative and qualitative perspectives in content analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "content analysis",
+        "replicability",
+        "inference",
+        "methodology"
+      ],
+      "notes": "Krippendorff 1990:28; canonical definition of content analysis"
+    },
+    {
+      "extract": "we divided each analysis unit into four parts ranked from highest to lowest importance for the reader: headline, first paragraph, second paragraph, and third paragraph. Based on this hierarchy, the following questions related to our object of study are posed to the text, beginning with the headline: 1- Is the Transparency Law being complied with or violated? 2- Are the law and the transparency portal sufficient or insufficient? 3- Are there inconsistencies between the Transparency Law and the LOPD? 4- In what way are transparency and good governance being used by the sender?",
+      "chapter": "II.2.2.2.1. Language of the data (Analysis protocol)",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis protocol",
+        "topic assignment",
+        "hierarchical reading",
+        "inverted pyramid"
+      ],
+      "notes": "Thesis author's protocol; four questions posed in descending order of text hierarchy to assign topics"
+    },
+    {
+      "extract": "when a data journalist recounts what happens regarding transparency, they do so framed within a reality different from that of the traditional journalist: within a data unit. This is a perspective very much in keeping with the vision of Gaye Tuchman, who used framing theory to penetrate the media as organizations in order to discover working methods",
+      "chapter": "II.2.1.3. The framing effect",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "framing",
+        "data units",
+        "organizational structure",
+        "working methods",
+        "newsroom sociology"
+      ],
+      "notes": "Tuchman 1978 applied to DJ; data units as distinct organizational frames shaping coverage"
+    },
+    {
+      "extract": "Groups with different identities, expertises and occupational backgrounds can come together around particular objects to communicate and collaborate, without losing any alignment to their own field and their particular frame of reference toward those objects. In that way, boundary objects are flexible enough to facilitate a variety of meanings across knowledge",
+      "chapter": "I.3. Theoretical framework around big data as a differentiating element of data journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "boundary objects",
+        "interdisciplinary collaboration",
+        "trading zones",
+        "news production"
+      ],
+      "notes": "Lewis & Usher 2016:5; news as boundary object between programmers, designers, journalists"
+    },
+    {
+      "extract": "That few journalists are trained in data journalism translates, as is logical, into the scarce presence of the discipline in the newsrooms of media outlets",
+      "chapter": "II.1.2.1. Justification and selection of the interview sample",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training deficit",
+        "newsroom adoption",
+        "data literacy",
+        "workforce development"
+      ],
+      "notes": "Gaibar 2015; DJ training gap directly constrains newsroom adoption"
+    },
+    {
+      "extract": "the interview transcriptions in our study will not be literal: they will involve a degree of condensation and editing that will allow: (1) easy exposition of the interviewees' points of view, (2) the future categorization of the interviews, and (3) the avoidance of future refusals in view of future research",
+      "chapter": "II.1.3.1. Transcription of the interviews",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transcription method",
+        "condensation",
+        "categorization",
+        "research ethics"
+      ],
+      "notes": "Author's own method; non-literal transcription with three explicit goals"
+    },
+    {
+      "extract": "Since agenda-setting is a process that can affect both the topics we think about and the way we think about them, the way in which the journalist frames reality, providing the public with a way of interpreting events, is fundamental to our analysis. For this reason, it will be more qualitative than quantitative in nature, given that we are also seeking the capturing of meanings, the definition of situations, and above all, the emitter's point of view",
+      "chapter": "II.2.2.1. Unitizing and sample selection",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "agenda setting",
+        "framing",
+        "qualitative analysis",
+        "emitter perspective",
+        "meaning capture"
+      ],
+      "notes": "McCombs & Evatt 1995; thesis justification for qualitative-dominant content analysis approach"
+    },
+    {
+      "extract": "the use of databases in news production has already been linked to practices of collecting and structuring data that political observatories set in motion from the 1970s onwards",
+      "chapter": "I.3. Theoretical framework around big data as a differentiating element of data journalism",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "data collection",
+        "data structuring",
+        "political observatories",
+        "institutional data"
+      ],
+      "notes": "Schudson 2010; historical roots of structured data collection for public interest journalism"
+    },
+    {
+      "extract": "the 304 publications that our newspaper archive search yielded were reviewed one by one to purge errors from the sample. In this way the sample was composed of 231 publications. The errors purged were the following: 1. Repeated articles; 2. Articles in supplements of major newspapers; 3. Corporate transparency articles from the business section; 4. Book reviews",
+      "chapter": "II.2.2.1. Unitizing and sample selection",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sample cleaning",
+        "deduplication",
+        "inclusion criteria",
+        "newspaper archive",
+        "error purging"
+      ],
+      "notes": "Author's cleaning protocol; 304 reduced to 231 via four-category error purge"
+    },
+    {
+      "extract": "In qualitative research, samples are not designed according to statistical guidelines, but the quotations and examples that qualitative researchers present to their readers serve the same function as the use of samples. Citing typical examples in support of a general point implies that they represent similarities when they are not isolated cases",
+      "chapter": "II.2.2. Components of content analysis",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "qualitative sampling",
+        "representative examples",
+        "case selection",
+        "generalization"
+      ],
+      "notes": "Krippendorff 2004:84; justification for qualitative sample selection in content analysis"
+    },
+    {
+      "extract": "it is in the topic where one can best see whether the author of the journalistic piece projects transparency as a relevant issue for public opinion. The implications of this framing in the placement of the news event involve focusing on a topic in a certain way and setting an attribute agenda, choosing certain words to construct a discourse, manipulating the salience of certain features and elaborating a central organizing idea to construct the informational story",
+      "chapter": "II.2.2.2.1. Language of the data (Analysis protocol)",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "topic framing",
+        "attribute agenda",
+        "salience",
+        "discourse construction",
+        "organizing idea"
+      ],
+      "notes": "Iguartua 2006:218 applied to thesis protocol; framing mechanisms in topic-level analysis"
+    },
+    {
+      "extract": "Access to large volumes of data, their processing, and their publication are three of the fundamental elements of data journalism",
+      "chapter": "III.1.3. Fundamental aspects of data journalism framed within big data as a sociocultural phenomenon",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "DJ fundamentals",
+        "data access",
+        "data processing",
+        "data publication"
+      ],
+      "notes": "Ferreras Rodriguez 2013:119; three-element DJ core: access, process, publish"
+    },
+    {
+      "extract": "when the volume, variety, and velocity of data increase, the techniques and technologies might not be able to store and process data if they do not adapt to that new reality",
+      "chapter": "III.1.1.3. Big data as a sociocultural phenomenon and its implications for journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "big data Vs",
+        "volume",
+        "velocity",
+        "variety",
+        "technical adaptation"
+      ],
+      "notes": "Suthaharan 2014:70; tools must evolve with data scale — applies to newsroom tooling"
+    },
+    {
+      "extract": "Faced with the data deluge, what remains relatively constant is our own cognitive ability to make sense of the data and reach decisions based on trustworthy information",
+      "chapter": "III.1.3.3. Data visualization: infographics and interactive applications",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "cognitive limits",
+        "information overload",
+        "decision-making",
+        "visualization rationale"
+      ],
+      "notes": "Heer & Kandel 2012:50; human cognitive limits drive need for visualization in big data"
+    },
+    {
+      "extract": "Expressions such as data driven journalism — simply data journalism — are gaining ground or are more fashionable, sometimes to refer to work that could more correctly continue to be called precision journalism… this new terminology places emphasis on the fact of compiling and structuring data in order to subject them to some systematic procedure of analysis",
+      "chapter": "IV.1. The use of databases in journalism: from PP and CAR to the big data-journalism relationship in DJ",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "DJ terminology",
+        "data compilation",
+        "systematic analysis",
+        "precision journalism"
+      ],
+      "notes": "Tejedor 2011; terminological shift from PP to DJ reflects emphasis on compilation and systematic analysis"
+    },
+    {
+      "extract": "Messner and Garrison (2007) compiled nearly all the academic research on the use of databases and quantitative investigation in journalism through a content analysis of the most prestigious reference publications on communication. Their article was a wake-up call regarding the way databases were being used and the significant errors that journalists typically made in the course of their investigations due to a lack of technical knowledge",
+      "chapter": "IV.2.1. Concerns about the training of the data journalist on the research agenda: data literacy",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "journalist errors",
+        "technical knowledge",
+        "database misuse",
+        "dirty data"
+      ],
+      "notes": "Messner & Garrison 2007; persistent concern about journalist competency with data — dirty data problem"
+    },
+    {
+      "extract": "project-based teaching approaches have been proposed for generating journalistic stories, which had already been recommended in earlier years by practitioners invited to academic conferences",
+      "chapter": "IV.2.1. Concerns about the training of the data journalist on the research agenda: data literacy",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "DJ pedagogy",
+        "project-based learning",
+        "practitioner input",
+        "journalism education"
+      ],
+      "notes": "Graham 2018 and Grasso 2016; project-based DJ teaching endorsed by both academics and practitioners"
+    },
+    {
+      "extract": "Gray, Gerlitz, and Bounegru (2018) proposes viewing data literacy beyond professional competencies, taking into account the data infrastructure that makes it possible, and thus cultivating a sociology, culture and politics of data in training programs",
+      "chapter": "IV.2.1. Concerns about the training of the data journalist on the research agenda: data literacy",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data infrastructure literacy",
+        "sociology of data",
+        "critical data studies",
+        "training"
+      ],
+      "notes": "Gray et al. 2018; data literacy should include understanding of infrastructure, not just skills"
+    },
+    {
+      "extract": "the separation between technician and journalist is increasingly narrow, and the participation of programmers in newsrooms in social movements related to free software and open government initiatives has had a considerable bearing on this process of cultural hybridization",
+      "chapter": "IV.2.5 Cultural hybridization, open data and democratic values in DJ",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cultural hybridization",
+        "programmer-journalist convergence",
+        "open source",
+        "newsroom roles"
+      ],
+      "notes": "Parasie & Darigal 2012, Degan 2013; narrowing gap between technicians and journalists driven by open-source culture"
+    },
+    {
+      "extract": "Lesage and Hackett (2014) developed three key dimensions in the incorporation of data into DJ practices from mediation theory: the problem of scale, transparent working, and access to open data",
+      "chapter": "IV.2.4. The hybridization of different fields of knowledge in the research agenda on DJ",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scale",
+        "transparent working",
+        "open data access",
+        "mediation theory"
+      ],
+      "notes": "Lesage & Hackett 2014; three dimensions framework for understanding data in DJ"
+    },
+    {
+      "extract": "precision journalism is based on developing and interpreting empirical data collected, cross-referenced, and verified through scientific methods of socio-statistical and computational research",
+      "chapter": "III.1.2.1. Precision journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "precision journalism",
+        "social science methods",
+        "cross-referencing",
+        "verification",
+        "empirical data"
+      ],
+      "notes": "Dader 1997:156; PP definition emphasizing collection, cross-referencing, and verification through scientific methods"
+    },
+    {
+      "extract": "Snow did something that data journalists do today: he mapped the cases. Each death is represented on the map with a bar, and through this mapping Snow was able to identify where the majority of deaths were concentrated and how the remaining outliers were in some way near the water pumps.",
+      "chapter": "III.1.3.3. Data visualization: infographics and interactive applications",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data mapping",
+        "spatial analysis",
+        "pattern detection",
+        "historical precedent",
+        "visualization"
+      ],
+      "notes": "Rogers 2013 citing Snow 1854; cholera map as foundational DJ visualization method — map cases to find patterns"
+    },
+    {
+      "extract": "technologists question paternalistic design elements that journalists consider justified in their decision-making as part of what journalism is",
+      "chapter": "IV.2.4. The hybridization of different fields of knowledge in the research agenda on DJ",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "paternalistic design",
+        "interactivity",
+        "journalist-technologist tension",
+        "editorial control"
+      ],
+      "notes": "Appelgren 2018:308; tension between journalistic editorial control and technologist expectations of user agency"
+    }
+  ]
+}

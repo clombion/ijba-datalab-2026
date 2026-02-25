@@ -1,0 +1,667 @@
+{
+  "source_id": "33",
+  "source_file": "33-data-journalism-wells.md",
+  "source_title": "Data Journalism: A Quick & Practical Guide",
+  "author": "Rob Wells",
+  "year": "ongoing",
+  "chunk": "4/4",
+  "chunk_file": "33-data-journalism-wells_chunk4.md",
+  "chunk_words": 13941,
+  "extracts": [
+    {
+      "extract": "by examining the number of hospital beds per 100,000 people in each county, what regional geographic patterns can we identify? ... Each hospital exists inside of a county, so we're going to first calculate the total number of beds in each county.",
+      "chapter": "Geographic analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "per-capita normalisation",
+        "geographic analysis",
+        "aggregation"
+      ],
+      "notes": "Demonstrates the standard move of normalising raw counts by population to make geographic comparisons meaningful"
+    },
+    {
+      "extract": "But there's a problem. The column in our population data that has county names is called 'NAME,' and it has the full name of the county spelled out in title case ... If they're going to join properly, we need to clean one of them up to make it match the other.",
+      "chapter": "Geographic analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "join preparation",
+        "string normalisation"
+      ],
+      "notes": "Key pre-join cleaning pattern: standardise case, remove extraneous text, trim whitespace so keys match across datasets"
+    },
+    {
+      "extract": "We have two NAs after we join, for Queen Anne's County and Caroline County. That's not an error. There are no General Acute Care hospitals in those counties, according to our data ... So let's convert those values to 0 using replace_na().",
+      "chapter": "Geographic analysis",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "missing data",
+        "join diagnostics",
+        "NA handling"
+      ],
+      "notes": "Post-join verification: explain why NAs appear and decide whether they represent missing data or true zeros"
+    },
+    {
+      "extract": "Baltimore City is still up there at the top, even when measuring by beds per 100k. But there are some surprising ones at the top, some of Maryland's smallest counties\\! Allegany, Talbot, Somerset may not have that many beds, but they also don't have a lot of people.",
+      "chapter": "Geographic analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "per-capita normalisation",
+        "small-denominator effect",
+        "outlier interpretation"
+      ],
+      "notes": "Illustrates how per-capita measures can surface surprising results driven by small populations"
+    },
+    {
+      "extract": "So let's change the color scale to a 'log' scale, which will help us see those differences a bit more clearly.",
+      "chapter": "Geographic analysis",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "choropleth",
+        "log scale",
+        "colour scale",
+        "visualisation"
+      ],
+      "notes": "Log scales compress wide-ranging data so geographic patterns in the middle range become visible"
+    },
+    {
+      "extract": "Many of the data analyses that you do will be largely one-off efforts -- you're going to do the analysis and write the story and be done. ... But what happens when you have a long-running story, where you're going to update it every day, or every week? What changes when you're writing that code? 1. How will this run again without changing anything? 2. What questions do you have that have to be answered each time? 3. What changes when you have to repeat questions to changing data?",
+      "chapter": "Automating analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "automation",
+        "reproducibility",
+        "recurring analysis",
+        "workflow design"
+      ],
+      "notes": "Three design questions that distinguish a repeatable pipeline from a one-off analysis"
+    },
+    {
+      "extract": "You could look at a county or state website, copy and paste some information into a file and then do some calculations, but there's a better way. Instead, let's build a system that goes out each day to retrieve the data, makes it easier to analyze and then calculates the percentage change in the number of people getting fully vaccinated between the latest date and a week earlier. And makes us a chart showing that.",
+      "chapter": "Automating analysis",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "data pipeline",
+        "live data",
+        "percent change"
+      ],
+      "notes": "End-to-end automated pipeline: fetch, clean, compute, visualise -- replaces manual copy-paste"
+    },
+    {
+      "extract": "The dashboard is a series of HTML pages placed on the main page via iframe ... But if you view the source on that URL, there's ... no data. It's being pulled in from another URL. If we want to automate getting this data, we'll need to find out where it lives. One big clue is in the composition of that URL: 'github.io.' Are these files (and maybe the data) already on GitHub?",
+      "chapter": "Automating downloads and imports",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data sourcing",
+        "web scraping",
+        "URL inspection",
+        "government data"
+      ],
+      "notes": "Technique for tracing dashboard data back to its raw source by inspecting URLs and following hosting clues"
+    },
+    {
+      "extract": "when we read in that data, the vaccination_date column is formatted as a <chr> column, not as a date. Let's fix that using lubridate's handy mdy_hms function, which matches the format in the dataframe.",
+      "chapter": "Exploring the data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "date parsing",
+        "data types",
+        "type coercion"
+      ],
+      "notes": "Always check and fix date column types on import; lubridate functions match the source format"
+    },
+    {
+      "extract": "Let's see if there's anything unusual in the data by counting the number of rows for each county ... There are totals for all of Maryland's jurisdictions, plus one for 'Unknown' and one that's NA. All but the last one have roughly the same number of records. What's going on with the NA records?",
+      "chapter": "Exploring the data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "row counts",
+        "exploratory checks",
+        "anomaly detection"
+      ],
+      "notes": "Count rows per group as a quick data-quality check; unexpected categories (Unknown, NA) signal issues to investigate"
+    },
+    {
+      "extract": "They don't seem to pertain to any county (or no county), and it's not clear what these records represent. Let's remove them from our dataset",
+      "chapter": "Exploring the data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "NA removal",
+        "filtering"
+      ],
+      "notes": "Remove unexplainable NA rows only after investigating and confirming they add no analytical value"
+    },
+    {
+      "extract": "Let's look at the most recent date, and that's something that takes on different meaning when we're talking about updating data. We need to make this generic so that every time we pull this up and run it, it's the most recent date at the top.",
+      "chapter": "Exploring the data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "dynamic filtering",
+        "reproducibility"
+      ],
+      "notes": "Use dynamic date references (not hardcoded) so repeated runs always surface the latest data"
+    },
+    {
+      "extract": "now is when we need to start asking ourselves -- what are the questions that are going to come up day after day? What about how this most current date compares to the previous day, or the previous week or month?",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "recurring questions",
+        "comparison",
+        "temporal analysis"
+      ],
+      "notes": "Identifying the recurring editorial questions that drive the design of an automated analysis"
+    },
+    {
+      "extract": "What if we just ranked them? Where does this date rank? For that, we'll create a new column called Rank using mutate and we'll use a function called min_rank to rank them.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ranking",
+        "contextualisation",
+        "temporal comparison"
+      ],
+      "notes": "Ranking the current day against all prior days to contextualise a single data point"
+    },
+    {
+      "extract": "How about the percent change between the latest date and one week ago? To do that, we need to find the latest date ... Luckily, if we have one date we can calculate another one by adding or subtracting days",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "percent change",
+        "week-over-week",
+        "temporal comparison"
+      ],
+      "notes": "Standard percent-change calculation using date arithmetic to locate the comparison point"
+    },
+    {
+      "extract": "The first layer will be all the bars. The second layer will just be the latest, and we'll make that bar red. Then we'll add a point to the top of that line to really draw attention to it. Then we'll use ggrepel to label it. Then I'm going to add a smoothing line. That'll illustrate the trend clearly. The rest is labeling and adjusting the text to make it look more like a news graphic.",
+      "chapter": "Making updating graphics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "layered charts",
+        "annotation",
+        "trend line",
+        "news graphic"
+      ],
+      "notes": "Build up chart layers: all data, highlight latest, label, add trend line, style for publication"
+    },
+    {
+      "extract": "One thing we are missing? An automated summary. What if we programmatically wrote the description for this chart using the percent change calculation we did before? ... we're going to use a function called paste to merge some text together. We're going to paste together a sentence fragment, the percent change number and another sentence fragment together to form a sentence.",
+      "chapter": "Making updating graphics",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "automated text",
+        "chart subtitle",
+        "programmatic writing",
+        "template"
+      ],
+      "notes": "Generate chart subtitle text programmatically so the narrative updates automatically with the data"
+    },
+    {
+      "extract": "This is going to be a story for months, if not years. So repeating this analysis is a must for a reporter covering health care in Maryland. We've set ourselves up to do this every week when the data comes out. We just open our notebook, go to Run > Restart R and Run All Chunks and sit back and watch as it does it all again. Then we go report.",
+      "chapter": "Making updating graphics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "reproducibility",
+        "automation",
+        "beat reporting",
+        "workflow"
+      ],
+      "notes": "The payoff of automation: one-click re-run frees the reporter to do actual reporting"
+    },
+    {
+      "extract": "when you have counties with a large number of cases, you'd use a different kind of scale called a log scale. It's a way of representing a very wide range of data in a more compact way",
+      "chapter": "Automating geographic analysis",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "log scale",
+        "visualisation",
+        "wide-range data"
+      ],
+      "notes": "Log scales make line charts readable when some series dwarf others"
+    },
+    {
+      "extract": "for a map, we can't have multiple days. We need a single day. Ideally, it would be the most recent date. We can get it using the max function.",
+      "chapter": "Mapping continuously",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "latest date",
+        "dynamic filtering",
+        "map automation"
+      ],
+      "notes": "Use max(date) to programmatically select latest snapshot for map, avoiding hardcoded dates"
+    },
+    {
+      "extract": "The story didn't present any evidence of political meddling. Instead, it offered the results of several lines of data analysis that attempted to answer this central question: did red states get a bigger slice of the PPP pie than blue states? Mostly, it used basic descriptive statistics, calculating rates, ranking states and computing averages. But the data set it used also presents an opportunity to use two slightly more advanced statistical analysis methods to look for patterns: linear regression, to examine relationships, and a t.test, to confirm the statistical validity of an average between two groups.",
+      "chapter": "Basic Stats: Linear Regression and The T-Test",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "statistical methods",
+        "regression",
+        "t-test",
+        "descriptive statistics",
+        "analytical strategy"
+      ],
+      "notes": "Progression from descriptive stats to inferential: rates and rankings first, then correlation and significance testing"
+    },
+    {
+      "extract": "We can be a bit more precise by calculating a statistic called the correlation coefficient, also called 'r.' r is a value between 1 and -1. An r of 1 indicates a strong positive correlation. ... A correlation of 0 indicates no relationship. All r values will fall somewhere on this scale, and how to interpret them isn't always straightforward. They're best used to give general guidance when exploring patterns.",
+      "chapter": "Linear Regression",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation coefficient",
+        "r value",
+        "pattern detection",
+        "interpretation"
+      ],
+      "notes": "r is a guide, not a verdict; interpretation requires context"
+    },
+    {
+      "extract": "Is this finding statistically valid? We can get a general sense of that by calculating the p-value of this correlation, a test of statistical significance. For that, we can use the cor.test function.",
+      "chapter": "Linear Regression",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "p-value",
+        "statistical significance",
+        "correlation test"
+      ],
+      "notes": "After computing r, always test statistical significance with cor.test to check p-value"
+    },
+    {
+      "extract": "p < .05 is accepted in many scientific disciplines -- and by many data journalists -- as the cutoff for statistical significance. But there's heated debate about that level, and some academics question whether p-values should be relied on so heavily.",
+      "chapter": "Linear Regression",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "p-value",
+        "statistical significance",
+        "threshold debate"
+      ],
+      "notes": "Acknowledges the contested nature of the .05 threshold; caution against mechanical reliance"
+    },
+    {
+      "extract": "And to be clear, a low p-value does not prove that we've found what we set out to find. There's nothing on this graph or in the regression model output that proves that Trump's administration tipped the scales in favor of states that voted for it. It's entirely possible that there's some other variable -- or variables -- not considered here that explain this pattern. All we know is that we've identified a potentially promising pattern, worthy of additional reporting and analysis to flesh out.",
+      "chapter": "Linear Regression",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation vs causation",
+        "confounders",
+        "statistical humility",
+        "reporting"
+      ],
+      "notes": "Critical epistemological point: statistical significance does not equal causal proof; patterns require further reporting"
+    },
+    {
+      "extract": "A t-test can help us answer that question. It can tell us where there's a statistically significant difference between the means of two groups. Have we found a real difference, or have we chanced upon a statistical aberration?",
+      "chapter": "T-tests",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "t-test",
+        "group comparison",
+        "statistical significance"
+      ],
+      "notes": "Use t-test when comparing means of exactly two groups to confirm the difference is not random"
+    },
+    {
+      "extract": "This is a bit more promising. T is much stronger -- about 3 -- and the p-value is .002. Both of these should give us assurance that we've found something statistically meaningful. Again, this doesn't prove that Trump is stacking the deck for states. It just suggests there's a pattern worth following up on.",
+      "chapter": "T-tests",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "t-test interpretation",
+        "statistical significance",
+        "pattern vs proof"
+      ],
+      "notes": "Reinforces that even a strong t-test result suggests a pattern, not proof of causation"
+    },
+    {
+      "extract": "Turning unstructured text into data to analyze is a whole course in and of itself -- and one worth taking if you've got the credit hours -- but some simple stuff is in the grasp of basic data analysis.",
+      "chapter": "An intro to text analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "text analysis",
+        "unstructured data",
+        "accessibility"
+      ],
+      "notes": "Frames text analysis as an extension of data analysis skills, not a separate discipline"
+    },
+    {
+      "extract": "What we want to do is to make the content column easier to analyze. ... We'll probably want to remove URLs from the text of the tweets since they aren't actual words.",
+      "chapter": "An intro to text analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text cleaning",
+        "URL removal",
+        "preprocessing"
+      ],
+      "notes": "Strip URLs before tokenising text; they add noise to word frequency counts"
+    },
+    {
+      "extract": "If you are trying to create a list of unique words, R will treat differences in capitalization as unique and also will include punctuation by default ... Fortunately, this is a solved problem with tidytext, which has a function called unnest_tokens that will convert the text to lowercase and remove all punctuation.",
+      "chapter": "An intro to text analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "tokenisation",
+        "case normalisation",
+        "punctuation removal",
+        "text preprocessing"
+      ],
+      "notes": "unnest_tokens handles lowercase conversion and punctuation removal in one step"
+    },
+    {
+      "extract": "Well, that's a bit underwhelming - a lot of very common (and short) words. This also is a solved problem in working with text data, and words like 'a' and 'the' are known as 'stop words.' In most cases you'll want to remove them from your analysis since they are so common.",
+      "chapter": "An intro to text analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "stop words",
+        "text preprocessing",
+        "word frequency"
+      ],
+      "notes": "Remove stop words to surface meaningful content words in frequency analysis"
+    },
+    {
+      "extract": "The next step in text analysis is using ngrams. An ngram is any combination of words that you specify. Two word ngrams are called bigrams (bi-grams). Three would be trigrams.",
+      "chapter": "Going beyond a single word",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ngrams",
+        "bigrams",
+        "text analysis",
+        "multi-word phrases"
+      ],
+      "notes": "Move from single-word to multi-word analysis to capture phrases and richer patterns"
+    },
+    {
+      "extract": "There are some differences here, too, but also some potential challenges to doing an analysis. For one, there are variations of words like 'vaccine' that could probably be standardized - maybe using OpenRefine - that would give us cleaner results. There might be some words among our list of stop words that actually are meaningful in this context.",
+      "chapter": "Going beyond a single word",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "lemmatisation",
+        "domain stop words",
+        "text cleaning",
+        "context sensitivity"
+      ],
+      "notes": "Generic stop-word lists and raw token forms may not suit every domain; consider standardisation and custom stop words"
+    },
+    {
+      "extract": "Gauging the sentiment of a word can be heavily dependent on the context, and as with other types of text analysis sometimes larger patterns are more meaningful than individual results. But the potential with text analysis is vast: knowing what words and phrases that public officials employ can be a way to evaluate their priorities, cohesiveness and tactics for persuading voters and their colleagues. And those words and phrases are data.",
+      "chapter": "Sentiment Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "sentiment analysis",
+        "context dependency",
+        "text as data",
+        "accountability"
+      ],
+      "notes": "Sentiment lexicons are blunt instruments; value lies in aggregate patterns, not individual word scores"
+    },
+    {
+      "extract": "The number one sin of all early career data journalist is to get really, really, really attached to the analysis you've done and include every number you find. Don't do that. Numbers tell you what. Numbers rarely tell you why. What question has driven most people since they were three years old? Why. The very first thing to do is realize that is the purpose of reporting. You've done the analysis to determine the what. Now go do the reporting to do the why.",
+      "chapter": "Writing with numbers",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "writing",
+        "restraint",
+        "numbers as starting point",
+        "reporting"
+      ],
+      "notes": "Data analysis finds the what; reporting explains the why. Do not overload the reader with numbers."
+    },
+    {
+      "extract": "The trick to writing a numbers story is to frame your story around people. Sometimes, your lead can be a number, if that number is compelling. Often, your lead is a person, a person who is one of the numbers you are writing about. Tell their story. Briefly. Then, let us hear from them. Let them speak about what it is you are writing about. Then come the numbers.",
+      "chapter": "Writing with numbers",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "writing",
+        "narrative structure",
+        "humanisation",
+        "story framing"
+      ],
+      "notes": "Lead with a person, then pivot to numbers; the human story frames the data"
+    },
+    {
+      "extract": "Using ratios instead of percents. Often, it's better to put it in counts of 10. 6 of 10, 4 of 10. It's easy to translate that from a percentage to a ratio. But be careful when your number is 45 percent. Is that 4 in 10 or 5 in 10? If a ratio doesn't make sense, round. There's 287,401 people in Lincoln, according to the Census Bureau. It's easier, and no less accurate, to say there's more than 287,000 people in Lincoln.",
+      "chapter": "How to write about numbers without overwhelming with numbers",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ratios",
+        "rounding",
+        "simplification",
+        "writing with numbers"
+      ],
+      "notes": "Practical hierarchy: prefer ratios over percentages, round when appropriate, only use exact numbers when precision matters"
+    },
+    {
+      "extract": "A critical question your writing should answer: As compared to what? How does this compare to the average? The state? The nation? The top? The bottom?",
+      "chapter": "How to write about numbers without overwhelming with numbers",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "comparison",
+        "context",
+        "benchmarking",
+        "writing"
+      ],
+      "notes": "Every number in a story needs a comparison point to be meaningful"
+    },
+    {
+      "extract": "Sometimes ratios and rounding are not appropriate. ... Case counts are where an exact number is called for. You don't say that there are more than 70 cases in Lancaster County on the day this was written. You specify. It's 75. You don't say almost 30 deaths. It's 28. Where this also comes into play is any time there are deaths: Do not round bodies.",
+      "chapter": "When exact numbers matter",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "precision",
+        "death counts",
+        "exact numbers",
+        "writing ethics"
+      ],
+      "notes": "Hard rule: never round death counts or case counts. Precision signals respect and accountability."
+    },
+    {
+      "extract": "Then notice how they take what is a complex analysis using geographic information systems, raster analysis, the merging of multiple different datasets together and show that it's quite simple -- the averaging together of pixels on a 1-5 scale. ... Simplify, round, ratios: simple metrics, powerful results.",
+      "chapter": "An example",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "simplification",
+        "writing",
+        "complex methods",
+        "accessibility"
+      ],
+      "notes": "Present complex methodology in its simplest accurate form; readers need the result, not the machinery"
+    },
+    {
+      "extract": "The complexity comes when you realize the data you are dealing with represent real people's lives.",
+      "chapter": "Ethics in data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "human impact",
+        "data responsibility"
+      ],
+      "notes": "Framing principle: data represents people, and publication has consequences"
+    },
+    {
+      "extract": "Because we were going to put this information in front of a big audience, Google was going to find it. That meant if we used our normal open door policy for the Googlebot, someone's mug shot was going to be the first record in Google for their name, most likely. ... And that record in Google would exist as long as the URL did. ... That was a problem because here are the things we could not know: Was this person wrongly arrested? Was this person innocent? Were the charges dropped against this person?",
+      "chapter": "Ethics in data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "SEO ethics",
+        "search indexing",
+        "privacy",
+        "arrest records",
+        "unintended consequences"
+      ],
+      "notes": "Publication at scale changes the nature of public records; what was findable-in-principle becomes findable-in-practice"
+    },
+    {
+      "extract": "The life of your data matters. You have to ask yourself, Is it useful forever? Does it become harmful after a set time? ... So, at the 60 day mark, we deleted the data. We had no way of knowing if someone was guilty or innocent, so all of them had to go.",
+      "chapter": "Data Lifetimes",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "data expiry",
+        "data lifecycle",
+        "deletion policy",
+        "ethics"
+      ],
+      "notes": "Design a data retention policy that reflects what you can and cannot verify about the records"
+    },
+    {
+      "extract": "We couldn't stop people from posting a mug on Facebook, but we didn't have to make it easy and we didn't have to put that mug front and center. So we blocked Facebook from using the mug as the thumbnail image on a shared link. And, after 60 days, the URL to the mug will throw a 404 page not found error. Because it's gone.",
+      "chapter": "Data Lifetimes",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "social sharing",
+        "friction design",
+        "link expiry",
+        "privacy engineering"
+      ],
+      "notes": "Design friction into sharing: block thumbnails, expire URLs. Cannot prevent sharing but can limit amplification."
+    },
+    {
+      "extract": "What we didn't realize when we launched, and what we figured out after Pick the Perp, was that we had become data provider, in a sense. We had done the hard work of getting the data out of a website and we put it into neat, semantic, easily digestible HTML. If you were after a stream of mugshots, why go through all the hassle of scraping four different sheriff's office's horrible HTML when you could just come get ours easily?",
+      "chapter": "You Are a Data Provider",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unintended data provider",
+        "downstream use",
+        "scraping risk",
+        "data architecture"
+      ],
+      "notes": "Any well-structured public data app becomes a de facto API; plan for downstream reuse"
+    },
+    {
+      "extract": "What I want you to think about, before you write a line of code, is what does it mean to put your data on the internet? What could happen, good and bad? What should you do to be responsible about it?",
+      "chapter": "Ethical Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "pre-publication checklist",
+        "responsible data",
+        "risk assessment"
+      ],
+      "notes": "Ethics must be addressed at the design stage, before any code is written"
+    },
+    {
+      "extract": "Because you can put data on the web does not mean you should put data on the web. And there's a difference between a record being 'public' and 'in front of a large audience.'",
+      "chapter": "Ethical Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "public records",
+        "amplification",
+        "privacy",
+        "publication ethics"
+      ],
+      "notes": "Crucial distinction: legal availability vs mass exposure. Scale changes the ethical calculus."
+    },
+    {
+      "extract": "So before you write the first line of code, ask these questions: This data is public, but is it widely available? And does making it widely available and easy to use change anything? Should this data be searchable in a search engine? Does this data expose information someone has a reasonable expectation that it would remain at least semi-private? Does this data change over time? Does this data expire? What is my strategy to update or delete data? How easy should it be to share this data on social media? How should I deal with other people who want this data? API? Bulk download?",
+      "chapter": "Ethical Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "ethics checklist",
+        "data publication",
+        "privacy",
+        "data lifecycle",
+        "responsible design"
+      ],
+      "notes": "Comprehensive pre-publication ethics checklist covering discoverability, privacy, expiry, sharing, and downstream access"
+    }
+  ]
+}

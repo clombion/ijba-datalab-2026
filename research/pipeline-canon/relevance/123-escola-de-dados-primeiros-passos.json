@@ -1,0 +1,40 @@
+{
+  "source_id": "123",
+  "source_file": "123-escola-de-dados-primeiros-passos.md",
+  "source_title": "Escola de Dados — Primeiros passos no jornalismo de dados",
+  "author": "Escola de Dados",
+  "year": "n.d.",
+  "extracts": [
+    {
+      "extract": "Numbers alone are not relevant — you need to answer 'so what?': what do these numbers affect, who do they affect, and how?",
+      "chapter": "General Guidance",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "so-what test",
+        "critical thinking",
+        "audience",
+        "impact"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The so-what test for numbers is fundamental editorial judgment that no LLM replaces"
+    },
+    {
+      "extract": "It is fundamental to read the notes on data-recording methodologies. The date a piece of data was recorded may differ from the date the recorded event actually occurred.",
+      "chapter": "General Guidance",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "metadata",
+        "data quality",
+        "temporal validity"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Reading metadata and data-recording methodology notes remains essential for data quality verification"
+    }
+  ]
+}

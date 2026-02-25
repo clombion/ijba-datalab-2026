@@ -1,0 +1,926 @@
+{
+  "source_id": "15",
+  "source_file": "15-investigative-reporters-handbook-6e.md",
+  "source_title": "Investigative Reporter's Handbook (6th ed.)",
+  "author": "Brant Houston, Mark Horvit, IRE",
+  "year": "2020",
+  "chunk": "1/5",
+  "chunk_file": "15-investigative-reporters-handbook-6e_chunk1.md",
+  "chunk_words": 38355,
+  "extracts": [
+    {
+      "extract": "Investigative journalists should have a 'documents state of mind' — knowing that documents exist somewhere that can explore, contradict or confirm each point of an investigation.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "document trails",
+        "source identification",
+        "verification mindset"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The 'working from the outside in' technique uses concentric circles: secondary sources on the outermost ring provide the most information and are easiest to find but may not be reliable; primary documents in the middle ring reflect a direct picture of events; human sources at the center provide eyewitness accounts.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "investigative method",
+        "source hierarchy",
+        "research design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Beginning with a hypothesis is not the same as starting with an angle to prove. The best investigative journalists collect both supporting and contradictory evidence for a story, then weigh carefully what the evidence shows.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis testing",
+        "evidence weighing",
+        "objectivity"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The possible questions to ask on the way to launching a project are: How is the system supposed to work? How well is the system working? Who is benefiting and who is suffering because of the way the system works?",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "hypothesis testing",
+        "systems analysis",
+        "scoping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Secondary sources are most useful when they lead to primary documents or databases. Documents and databases can lie and err just like human sources can, because documents and databases are prepared by humans. However, unlike humans, documents do not claim to have been misquoted.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "source hierarchy",
+        "document trails",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Too many investigators contact only the obvious sources — those in current positions — while ignoring 'formers' (the former spouse, former professional colleague, former accountant, former neighbor). The 'formers' often have scores to settle or outdated knowledge, but they can be candid, have had time to reflect and may have kept relevant documents.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source identification",
+        "human sources",
+        "interviewing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Human sources are crucial because documents take on new meaning when explained or discussed by insiders or experts. This is one reason to refrain from key interviews until the document trail has been firmly established. Information in documents often serves as the basis for questions during the interview; because a journalist might get only one interview with a source, it is best to wait until most documents are in hand.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "interview sequencing",
+        "document trails",
+        "human sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Parallel backgrounding: when the subject is connected to an institution, the organization will leave its own trails. By following those trails, investigators might locate new information about the subject. Indirect backgrounding is parallel backgrounding on a grand scale — analyzing the larger economic or political environment to understand the subject's relationships.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "backgrounding",
+        "document trails",
+        "research techniques"
+      ],
+      "notes": "Dennis King's techniques from 'Get the Facts on Anyone'"
+    },
+    {
+      "extract": "As a journalist collects primary documents and human sources, prepare digital files and folders to catch the information as it comes in and then evaluate the information often (perhaps weekly). The potentially valuable material should be entered into a chronology. Creating a chronology does not mean writing the story chronologically — the chronology is meant to organize large amounts of information in a linear way to help illuminate links among factors that might otherwise seem unrelated.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data organization",
+        "chronology",
+        "information management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Information excluded from the chronology early in an investigation may become relevant later. As a result, all information collected must be reevaluated from time to time during the reporting stage.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data organization",
+        "iterative analysis",
+        "chronology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Hannah-Jones stresses that reporters often try to prove that an official acted with prejudicial intent. But it can be difficult or impossible to prove what someone was thinking. If a journalist uses documents, data and interviews to prove that the resulting system is inequitable and that people are suffering as a result, proving intent becomes unnecessary. The outcome of people suffering is the point to focus on.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "outcomes vs intent",
+        "systems analysis",
+        "social justice"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Star Tribune team grounded its investigation in accepted principles of sound social science research, such as studying a sample of adequate size. Previous studies had been flawed by short follow-up periods, faulty study groups that lumped different types of offenders together, poor counting techniques that only noted convictions rather than arrests, and erroneous time calculations.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "research methodology",
+        "social science",
+        "sample design",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Storyboarding template for investigative feasibility: Key question (state your goal in one or two sentences), New ground (will it tell your audience something new?), Impact on real people, Room for reform, Potential victims, Key people sources (who must you talk to and how realistic is access?), Data (what data do you need and is it obtainable?), Documents and records (how many open records requests?), Timeline (projected timeframe), and visual/interactive components.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project planning",
+        "storyboarding",
+        "feasibility",
+        "scoping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "After conceiving of an investigation, a journalist has to make a realistic assessment including: accessibility of records and sources, access to buildings and sites, the time it will take, the possibility of public attacks and threats of lawsuits, computer security and physical security, and who might be a good collaborator. Lists of documents needed, people to interview and places to visit should be made.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "feasibility assessment",
+        "project planning",
+        "risk assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Periodically, an assessment of how the investigation is going should be done. Decisions on whether to stop, postpone or publish should be calmly considered. The investigative journalist should ensure that all those accused have had a chance to respond. An assessment also allows the journalists to look for inconsistencies in interviews, documents or data. Journalists should begin writing parts of the story as early as possible — it is through writing and editing that gaps in reporting are found earlier.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "quality assurance",
+        "iterative review",
+        "fairness",
+        "gap analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bogdanich discovered numerous accidents that had been reported and, by comparing the data to news articles, he also discovered those that were not reported. By interviewing plaintiffs' attorneys and victims and victims' families to fill in the gaps, he collected evidence of accident sites being tampered with by railroad companies.",
+      "chapter": "Chapter 1 The Investigative Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data comparison",
+        "gap filling",
+        "cross-referencing"
+      ],
+      "notes": "NYT 'Death on the Tracks' example"
+    },
+    {
+      "extract": "Journalists should independently verify all secondary source information. A journalist must check later issues of the publication for corrections, comments on stories, letters to the editor and clarifying follow-up articles, and then confirm the accuracy of the information by seeking out the original sources, if possible.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "secondary sources",
+        "fact-checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One of the first places to go on any organization's website is the 'About' section, to look for a statement of purpose and to evaluate the people behind the site. If it is a nonprofit, look for a list of financial supporters. Also check to see if the site is part of a larger organization and look into that group.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "source evaluation",
+        "web research",
+        "credibility assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A large amount of information — known as the Invisible or Deep Web — resides in layers below the information that traditional search engines see. Google and other search engines mine the 'surface web' but in most cases do not pull results from many of the databases available on individual websites. Using a traditional search engine is essential but it is important to supplement your search by going to specific sites.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "deep web",
+        "search strategy",
+        "data discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Google Advanced Search allows a journalist to point all the power of Google toward one specific web domain, often finding many more results than a website's own search engine. It also allows specifying the type of information sought, from specific types of data files to PDFs, PowerPoints and text files. This is a great way to find reports and databases.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Advanced Search",
+        "data discovery",
+        "search strategy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Almost any project should begin with a review of what's already been reported; there's no point in devoting time to a story if new ground can't be broken. Previously reported stories can offer a goldmine of information unavailable elsewhere — comments a politician made years ago can provide examples of hypocrisy. Reviewing past stories is also a great way to find experts, skeptics, victims and advocates.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "literature review",
+        "secondary sources",
+        "source identification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Editors of subject-specific magazines, newsletters and websites will have years of experience overseeing coverage of a topic. They are often generous with their knowledge, sharing industry norms as well as specific tips. Trade publications reveal how insiders talk to each other, in the secure belief that no prying outsider would have access — the gap between public and trade communications can be revealing.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "trade publications",
+        "source identification",
+        "industry intelligence"
+      ],
+      "notes": "Jessica Mitford insight on trade vs public-facing publications"
+    },
+    {
+      "extract": "Doctoral and master's students often receive unparalleled access to institutions because they are seen as nonthreatening. They may obtain access to records or sources that working journalists may not. A journalist should assume a thesis or dissertation has been composed on the project at hand, and then find it through online databases.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "dissertations",
+        "academic sources",
+        "secondary sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When a journalist locates a useful book, it is wise to contact the author to request any relevant information that may not have found its way between covers and resides unpublished in a file drawer.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source cultivation",
+        "books",
+        "unpublished data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Full-text databases are usually preferable to those providing citations or abstracts only. A passing reference to your investigative subject might hold the key to the investigation — journalists have found subjects' names in footnotes to judges' opinions and near the bottom of feature stories that became starting points for entire new sections of investigative projects.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database search",
+        "full-text search",
+        "secondary sources"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Good reporters will find primary documents pertinent to any investigative topic, obtain those documents and make sure they have an overview and details of a person or an institution before the first formal interview. The best interviewers often compose a dossier — a collection of documents about a particular person, event or subject — on the subject or topic before they set up the interview.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "interview preparation",
+        "dossier building"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It would be a mistake to assume that everything gathered through research is complete and accurate. Nor should investigative journalists assume they can forego checking for hard-copy documents that existed before computers. A database may be composed of only parts of primary documents because they often are a summary of all the information actually filed.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "completeness",
+        "verification",
+        "analog records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "MuckRock provides free summaries and links to public records guides throughout the U.S. It also collates Freedom of Information requests and the documents resulting from those requests. DocumentCloud allows thousands of journalists to post millions of searchable public documents. MuckRock and DocumentCloud are an ongoing tutorial in the effective use of open-records laws.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "MuckRock",
+        "DocumentCloud",
+        "FOI",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "During an investigation of an individual, a journalist should try to examine every public record concerning the individual, including property records, loans, property taxes, licenses, voter's registration, liens and lawsuits, including any divorce or probate court proceedings.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "document trails",
+        "people investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative journalists must try to verify all information in primary documents. As with all other documents, the information contained in vital records might be misleading — doctors may list incorrect causes of death, military veterans may falsify service records, and driver's licenses can be fraudulently obtained.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "document authenticity",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists can use UCC (Uniform Commercial Code) filings to document who is doing business with whom. UCC forms have revealed the address of a borrower unlisted in telephone directories, names of a borrower's spouse or business partners, dates of transactions, and property owned as collateral. They have been used to track airplanes, yachts, art fraud and misuse of government funds.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "UCC filings",
+        "business investigation",
+        "financial records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A journalist should consider which level of government records (federal, state, county, city or special district) to examine first. Having done that, an investigator should search all branches of that level. Every level has three branches: legislative, executive and judiciary.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "government records",
+        "systematic search",
+        "institutional structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Following a document trail for tracking a political donor: (1) Campaign finance reports for name, occupation, address, donation amount; (2) News articles for background; (3) Social media for statements; (4) Property records for home value and vehicles; (5) Secretary of State for corporate records; (6) SEC records for affiliations; (7) Professional regulation records for licensing/discipline; (8) Court records for criminal or civil cases.",
+      "chapter": "Chapter 3 Primary Documents",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "political investigation",
+        "systematic search"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Database analysis — also known as computer-assisted reporting (CAR) or data journalism — is an integral part of investigative reporting and has improved the accuracy, credibility and breadth of journalism. But investigative journalists must still use other primary methods — like interviewing and getting out into the field — to judge how accurate the data are and to bring the human stories into their reporting.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data journalism",
+        "CAR",
+        "mixed methods",
+        "human-data balance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If online data is not easily available, journalists have become adept at 'scraping' the data — running a program that downloads all of the data and automatically puts the information into a database. When no database yet exists, reporters can build databases themselves by getting paper or digital records and entering the information manually into a spreadsheet.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "web scraping",
+        "data acquisition",
+        "database building"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Three basic tools of CAR: (1) Finding and downloading data — searching using combinations of key words, web domains like .gov, and file types like xls. (2) Spreadsheets like Excel or Google Sheets — adept at filtering and summarizing data. (3) Database managers like Access, DB Browser SQLite or MySQL — which allow sorting, filtering, summarizing and joining hundreds of thousands of records, especially when two or more files need to be compared based on a common ID.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "spreadsheets",
+        "database managers",
+        "CAR tools",
+        "data analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Advanced tools for data journalism: (1) Data visualization — charts and maps using Google Maps, Tableau, or ArcGIS Online. (2) Statistical software like R for significant patterns and possible causes. (3) Social network analysis software like NodeXL for visualizing connections among people or entities. (4) Coding with Python for downloading, cleaning, restructuring, analyzing and visualizing data.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "data visualization",
+        "statistical software",
+        "network analysis",
+        "Python",
+        "R"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "How to find if a relevant government database exists: Check the IRE Resource Center with keywords; check the NICAR database library; check audit reports (auditors cite which databases they reviewed in appendices); check the GIJN weekly data updates; check the government agency website's data section; check the agency's record-retention schedule for an inventory of databases; check IRE tip sheets on specific topics.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "government data",
+        "IRE",
+        "NICAR"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before acquiring a database: (1) Ask for the record layout (what columns are included), the code sheet (translating any codes), and the form that is filled out for each record. (2) Ask to see the actual data — just because columns are listed doesn't mean data was entered. (3) Determine the format and size — format tells you how difficult it will be for software to read, size helps check whether records are missing.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "record layout",
+        "data quality",
+        "metadata"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "After receiving a database, always do an 'outer integrity' check: Compare electronic records against a sample of hard-copy records or other studies using the data, and compare the totals of amounts in the database to totals in other reports. Other journalists or experts who have worked with the same database can explain its potential flaws. Remember that every database is incomplete and imperfect — just like human sources.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data validation",
+        "integrity checking",
+        "cross-referencing",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Principles for managing newsroom databases: Community databases come from more than just local agencies — federal and commercial databases can be sliced to local level. A database should not be used for just one story — archive it for years. Have a plan for periodic updating. Keep up with online databases that can augment in-house ones. When a database doesn't exist, consider building your own from hard copy if it can produce a minimum story.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "database management",
+        "newsroom workflow",
+        "data archiving"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Elliot Jaspin's strategy for gaining access to databases: (1) Get a hard-copy record or digital form so you know it exists and what it contains. (2) Request and obtain one electronic record. (3) Then request a copy of the full database since the release of one record has established it is public information.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI strategy",
+        "data access",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Reporters have matched lottery ticket sales to income data to show how the poor gamble the most, house mortgage denials against racial data to show racial disparity, toxic waste sites against income data to show chemicals dumped in poor areas, and disallowed voter ballots against racial data to show the oldest election technology used in minority areas.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data joining",
+        "demographic analysis",
+        "social justice",
+        "cross-referencing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "DocumentCloud allows journalists to upload public and business documents and run them through software that identifies patterns and key entities — people, places and things — repeated throughout the documents. Adobe Acrobat Pro DC is useful for optical character recognition tools, which index words on each page allowing journalists to search for key words.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "DocumentCloud",
+        "OCR",
+        "unstructured data",
+        "text analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When beginning an investigation, divide potential sources into 'currents' and 'formers.' Currents are easy to find with online directories, phone calls, email and social media. Formers are much more likely to talk freely about their previous place of work. Finding formers: check newspaper archives for comings and goings, government paper trails, press releases, industry magazines, LinkedIn and social media.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source identification",
+        "human sources",
+        "currents and formers"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Many whistleblowers are sincere and correct, having become whistleblowers reluctantly. Some are correct but seeking publicity or payback. Others are sincere but ultimately incorrect. Some may simply want money. A journalist must evaluate the motivation of each whistleblower, whether contacted directly or found through unions, government offices, or online forums.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "whistleblowers",
+        "source evaluation",
+        "motivation assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is important to background outside experts to see if their knowledge is up-to-date and if they are respected in the field. Check résumés, articles, and social media postings. When experts from think tanks are used, it is critical to identify the think tank's ideology or politics.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "expert evaluation",
+        "source credibility",
+        "bias detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Whether investigating an agency, business or institution, it is often clear who has ultimate authority. But sometimes titles and organization charts can be deceptive. Some journalists have used social network analysis — an accepted method of social science — to diagram networks of power.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "network analysis",
+        "power structures",
+        "social science methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For covering marginalized communities: Don't practice 'parachute journalism.' Do go to lunches, meetings, rallies. Consider doing smaller stories to show you value what is important to the community. Seek out solutions-based stories. Ask 'Who else should I know?' and 'Who doesn't represent you?'",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "marginalized communities",
+        "source cultivation",
+        "community engagement"
+      ],
+      "notes": "Maria Polletta tips for IRE"
+    },
+    {
+      "extract": "The interviewer needs to know as much as possible going into the interview. Look for points of commonality with a source: a school or church connection, following the same sports teams. Be genuine — 'Folks smell fake a mile away.' Documents discovered during preparation come in handy: reluctant witnesses are more willing to talk if asked about documents and what they mean.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interview preparation",
+        "source cultivation",
+        "document-based interviewing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Mike McGraw's three-phase interview approach: Phase one is the 'time to lie' interview — ask softball questions and let the subject claim everything is fine. Phase two is the 'interim' interview — return with harder questions, adopt the subject's angle of vision. Phase three is the 'come to Jesus' interview — present all research results and ask 'Have you told me everything?'",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interview technique",
+        "confrontation interview",
+        "phased interviewing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Some of the best interviewers use silence to their advantage. Most people feel impelled to fill a silence. It is important to figure out what is not being said as well as what is. An investigative reporter should leave no easy out — rather than ask whether the subject fired the whistleblower, ask why. That puts the subject in the position of explaining rather than issuing a simple denial.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interview technique",
+        "silence",
+        "questioning strategy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Conducting interviews by email, text or direct message instead of one-on-one conversation is a bad idea except for the most basic information. It's difficult to ask follow-up questions, impossible to read body language or seize a moment and take an interview in a new direction, and with top officials, a journalist doesn't even know who is typing the responses.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "interview technique",
+        "communication channels"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Start writing as soon as the reporting begins, whether that means jotting down a weekly memo or composing small sections of the story. Constantly work on summarizing your story in as few words as possible — be able to tell an editor what the story is about in 25 words or less. If you have worked primarily in print, start thinking visually from the day you start investigating.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "writing process",
+        "story focus",
+        "early writing",
+        "visual thinking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative stories must show the impact of the issue on people. It is almost impossible to make readers care about an injustice without showing the impact of the misdeeds on an individual or group. Journalists must weave human experience throughout stories — the heavier and harder a story is, the more humanity it needs.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human impact",
+        "storytelling",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Two rules for graphics in investigative journalism: (1) Each graphic has to make its own point, sharp enough to be conveyed in a short declarative sentence — not 'Patterns of Crime' but 'Sex Criminals Commit Multiple Offenses.' (2) Graphics must stand on their own — they exist to make their own point, not to say in pictures what has already been said in words.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data visualization",
+        "graphics",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sarah Cohen's advice on numbers: Readers want people, not numbers. Choose only numbers with meaning for readers — effective writing comes from selection, not compression. Consider charting numbers instead of writing them. Pepper your story with just the right number in just the right place. Recast numbers in simple terms — ratios, rates and rounding can help simplify.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "numbers in journalism",
+        "data presentation",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Get feedback on a draft before publication. Ask a half-dozen uninitiated readers to look it over and react. You can use people from around the newsroom or people from outside who can be trusted. Odds are they will show you things that could be done better.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "peer review",
+        "audience testing",
+        "quality assurance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ken Armstrong's writing advice: If circumstances allow, write a story, not an expose — create suspense, use dialogue, shift perspective. If you reach a bold conclusion, state it boldly — but you must earn the right through your reporting. Put sourcing and how-we-did-it elements in a 'nerd box' — provides authority and transparency without getting in the story's way.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "writing technique",
+        "transparency",
+        "nerd box",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "An experienced journalist will start building a chronology from the first week. After each interview, decide what to include. A chronology should include revealing direct quotations and relevant descriptions. Experienced journalists use the chronology as a basic text as they write first drafts to check the original thesis, identify gaps in reporting and look for new angles.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "chronology",
+        "writing process",
+        "information management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "T. Christian Miller on story structure: 'My favorite organization structure is the chronology. If you can unspool a story in more or less chronological order, it helps the reader understand what's happening, makes clear how one event is linked to another, and makes for easier reading.' Generally write a top to summarize story and main points, a compelling scene, nut graphs, key findings and responses — about 10-15 paragraphs. Then the story unwinds along the timeline.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "chronology",
+        "narrative technique"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Brant Houston calls it 'investigation by annotation' — publicly posting documents obtained under FOI and highlighting misleading or outdated information, annotating with comments about what was wrong and what the actual facts were. This approach tells a second, more detailed story that allows readers to follow along in the investigation.",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "document annotation",
+        "audience engagement",
+        "FOI"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Carole Rich's six story structures: inverted pyramid (most to least important), high fives formula (News/Context/Scope/Edge/Impact), Wall Street Journal formula (specific to general with soft lead), hourglass (most important news then chronological), pyramid (lead/foreshadowing/chronological/climax), and sections structure (book-like chapters each with lead/body/kicker).",
+      "chapter": "Chapter 6 Writing the Compelling Investigation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "narrative technique",
+        "writing formats"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Investigative reporting demands the highest standards of accuracy and delivers more ethical dilemmas than almost any other form of journalism. Journalists must investigate fairly, with factual accuracy, with contextual accuracy and without any ethical breaches. As trust in the media has dropped, the need for bulletproof reporting and strong ethical guidelines has only increased.",
+      "chapter": "Chapter 7 Ethics of Investigative Reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "accuracy",
+        "credibility",
+        "trust"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists at the Post and Courier built a database from police and judicial records, newspaper articles and published obituaries, because no single organization had investigated or kept track of all domestic violence cases. All of the information went into a database built by the journalists. This continues a long tradition of searching both hard copy and digital news articles to identify patterns.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "secondary sources",
+        "pattern identification"
+      ],
+      "notes": "Till Death Do Us Part project example"
+    },
+    {
+      "extract": "The best resource for finding old information still online is archive.org, the Wayback Machine. The site has been methodically collecting and saving webpages for decades, and often documents posted years ago are still obtainable through old versions of an organization's website.",
+      "chapter": "Chapter 2 Secondary Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Wayback Machine",
+        "archival research",
+        "web archives"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Whenever a journalist begins an investigation, get the in-house directory, whether for a business, government agency, church, college or social organization. It is worth using an advanced search function to search for the place of work, the word 'directory' and the file type for a spreadsheet. It is startling how many internal directories are posted in publicly accessible spreadsheets.",
+      "chapter": "Chapter 5 People Trails",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "directories",
+        "source identification",
+        "search technique"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If reporters build their own databases, they should carefully consider what information is needed for the story and do test analyses as the database is being constructed. You don't want to spend hours entering data and then discover you left out a crucial column of information.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "schema design",
+        "test analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Requesting a breakdown of the costs of obtaining information can help break through an agency's reluctance to release records. If the charges are too high that can be a story in itself. Most open-records laws provide an exemption for a journalist using data in the public interest — so always request a cost waiver.",
+      "chapter": "Chapter 4 Data Analysis for Investigations",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI strategy",
+        "cost waivers",
+        "data access"
+      ],
+      "notes": ""
+    }
+  ]
+}

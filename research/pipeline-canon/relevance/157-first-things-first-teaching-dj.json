@@ -1,0 +1,565 @@
+{
+  "source_id": "157",
+  "source_file": "157-first-things-first-teaching-dj.md",
+  "source_title": "First Things First: Teaching Data Journalism as a Core Skill",
+  "author": "Lynette Sheridan Burns, Benjamin J. Matthews",
+  "year": "2018",
+  "extracts": [
+    {
+      "extract": "When information was scarce, most of our efforts were devoted to hunting and gathering. Now that information is abundant, processing is more important. We process at two levels: (1) analysis to bring sense and structure out of the never-ending flow of data and (2) presentation to get what's important and relevant into the consumer's head. Like science, data journalism discloses its methods and presents its findings in a way that can be verified by replication.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "replicability",
+        "scientific method"
+      ],
+      "notes": "Meyer 2012 quote; frames DJ as two-level processing: analysis then presentation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Processing information at analysis and presentation levels remains essential regardless of LLM tools; transparency and replicability are timeless journalism values"
+    },
+    {
+      "extract": "Information asymmetry—not the lack of information, but the inability to take in and process it with the speed and volume that it comes to us—is one of the most significant problems that citizens face in making choices about how to live their lives. Information taken in from print, visual and audio media influence citizen's choices and actions. Good data journalism helps to combat information asymmetry.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "information asymmetry",
+        "public interest",
+        "civic function"
+      ],
+      "notes": "Fries 2012 quote; frames DJ purpose as reducing information asymmetry",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Combating information asymmetry is a permanent civic function of journalism that LLMs do not change"
+    },
+    {
+      "extract": "data journalists can work in multidisciplinary teams to tackle datasets, particularly large amounts of data, as scientists do, in order to achieve a coherent 'sense and structure' and bring it to the audience.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "multidisciplinary teams",
+        "scientific method"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Multidisciplinary teamwork endures but team composition changes when LLMs can substitute for some specialist roles"
+    },
+    {
+      "extract": "The processes by which the data is edited, interpreted, shaped and filtered alters it to a new form to evidence the claims made by the journalist.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data transformation",
+        "interpretation",
+        "editorial judgment"
+      ],
+      "notes": "Data processing as epistemic transformation, not neutral relay",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding data transformation as epistemic act remains fundamental regardless of whether LLMs assist the processing"
+    },
+    {
+      "extract": "rather than focus on conducting research for information that has been published by reliable sources, data journalists also interpret, synthesize, analyse and evaluate data in a range of creative modes. Students need to learn to work mindfully with this source from the beginning of their studies, just as they do with primary and secondary sources.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "core skills",
+        "interpretation"
+      ],
+      "notes": "DJ as interpretation not just retrieval; treat data as core from day one",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Interpreting, synthesizing, and evaluating data as core journalism skills persist even when LLMs assist with mechanics"
+    },
+    {
+      "extract": "they need to understand that data journalism is likely to require them to work collaboratively, with other journalists, data scientists and information designers.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "multidisciplinary teams",
+        "information design"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Collaborative work endures but LLMs change the team composition; AI can partially fill data science or design gaps"
+    },
+    {
+      "extract": "students need to understand the limitations of data and become comfortable with manipulating it. Working with statistics is a good way to introduce students to the complexities of data and demonstrate that it is not value free.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "bias",
+        "statistics",
+        "critical thinking"
+      ],
+      "notes": "Data is not value-free; statistics as entry point to understanding limitations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding data limitations and that data is not value-free is a critical thinking skill no LLM replaces"
+    },
+    {
+      "extract": "data is a source that can be taken apart like any other.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "source interrogation",
+        "core skills"
+      ],
+      "notes": "Framing: data should be interrogated like any journalistic source",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Treating data as a source to interrogate is a foundational epistemological stance unchanged by LLMs"
+    },
+    {
+      "extract": "Bad data, biased data, and flawed experiments can and will be used ignorantly or cynically to twist the truth, mislead, or misinform, even by journalists who wish to do the opposite. Even good data and solid research may be misrepresented or mistaken, a risk that will grow if journalists are pushed to create data visualizations or analyses without training in information design, statistics, and social science.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "bias",
+        "data quality",
+        "training",
+        "visualization risk"
+      ],
+      "notes": "Howard 2014 quote; untrained visualization as a misinformation risk",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Risks of misrepresentation from untrained visualization persist and may increase with LLM-generated charts"
+    },
+    {
+      "extract": "Journalists need to inspect data and identify the means by which it may be corrupted, made biased or how it is derived from flawed processes of experimentation. They know data is not value free. It has been created by people whose processes deserve investigation, verification and interrogation the same as any other journalistic source.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "bias detection",
+        "source interrogation"
+      ],
+      "notes": "Inspect provenance and process behind data creation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Inspecting data provenance and verifying bias in data creation processes remains essential human judgment work"
+    },
+    {
+      "extract": "Students need to learn to accurately interpret and represent data in summary form such as visualizations, and to draw on techniques and understandings that fall outside the traditional domain of media studies.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "interdisciplinary skills",
+        "data literacy"
+      ],
+      "notes": "DJ requires skills beyond traditional media studies",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Accurate data representation in visualizations endures but LLMs now generate charts, requiring new literacy about AI-generated viz quality"
+    },
+    {
+      "extract": "the basics can be grouped into five key areas—data collection, cleaning, analysis, presentation and publishing",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline model",
+        "workflow",
+        "core skills"
+      ],
+      "notes": "Howard 2014 five-area framework; maps roughly to pipeline steps",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Five-area pipeline model endures conceptually but LLMs automate parts of cleaning, analysis, and presentation steps"
+    },
+    {
+      "extract": "data is not uniform, and there are no universal tools, applicable in all contexts. Furthermore, the tools professionals use often demand expert skills and knowledge, such as the creation of bespoke coding solutions using programming languages that respond to the challenges peculiar to individual datasets.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool selection",
+        "bespoke solutions",
+        "context specificity"
+      ],
+      "notes": "No universal tools; each dataset may require custom code",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "No universal tools claim is weakened as LLMs provide general-purpose coding and analysis capabilities across contexts"
+    },
+    {
+      "extract": "Data journalists also work at expert levels of engagement over longer periods of time, and often create multimodal, interactive content in communication with multidisciplinary teams. These teams may include developers, designers, broadcast designers and project managers and processes that take large periods time.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "multidisciplinary teams",
+        "long-form",
+        "interactive"
+      ],
+      "notes": "DJ as extended team-based production process",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Team-based multimodal production endures but LLMs reduce dependency on large specialist teams for some interactive content"
+    },
+    {
+      "extract": "working with data is like interviewing a human source. Students must ask questions of the data and invite it to reveal the answers. But just as a source can only give answers about which he or she has information, a dataset can only answer questions for which it has the right records and the proper variables.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "question framing",
+        "data as source",
+        "limitations"
+      ],
+      "notes": "Data-as-interview metaphor; dataset scope constrains possible answers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data-as-interview metaphor and understanding dataset scope limitations is timeless analytical wisdom"
+    },
+    {
+      "extract": "Students must consider carefully what questions they want to answer even before they acquire their data, then look for data-evidenced statements to make in the story—gathering any information about the data needed to verify those statements.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "question framing",
+        "hypothesis",
+        "verification",
+        "evidence"
+      ],
+      "notes": "Question-first workflow: define questions before acquiring data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Question-first workflow before data acquisition is a foundational research design principle unaffected by LLMs"
+    },
+    {
+      "extract": "students need to think about the data from within a strong critical framework, and to interrogate the data based on questions that are meaningful.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "question framing",
+        "critical reflection"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical framework and meaningful question formulation are human judgment tasks that LLMs cannot replace"
+    },
+    {
+      "extract": "Students need to ask questions of the data source such as 'Is this data ethically framed?', 'What processes were used?', 'What processes am I using?' and 'Why?'.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ethics",
+        "critical reflection",
+        "source interrogation",
+        "provenance"
+      ],
+      "notes": "Concrete verification questions: ethics, process, reflexivity",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Ethical and process interrogation questions for data sources remain essential verification practice"
+    },
+    {
+      "extract": "data always comes from questions that are framed somewhere, somehow, as part of the human process of interpretation. Using the model of critical reflection, students first need to consider the analytic processes that yield the data.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical reflection",
+        "provenance",
+        "framing",
+        "interpretation"
+      ],
+      "notes": "All data originates from human framing decisions; must interrogate those",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Recognizing that all data originates from human framing decisions is a permanent epistemological principle"
+    },
+    {
+      "extract": "Often journalists start with a summary of data, but it is a good idea to provide students with an accessible set where they can see all the variables and records in the database rather than the subset that could answer the questions for the immediate story. Having access to the full data allows them to answer new questions that may come up in reporting, and even produce new ideas for follow-up stories.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "full dataset",
+        "exploration",
+        "follow-up stories"
+      ],
+      "notes": "Get the full dataset, not just the subset for the immediate question",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Obtaining full datasets rather than pre-filtered subsets remains best practice for thorough investigation"
+    },
+    {
+      "extract": "They should also have access to the 'data dictionary' that explains any codes being used by particular variables.",
+      "chapter": "Teaching Students to Interrogate Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "documentation",
+        "metadata"
+      ],
+      "notes": "Always obtain the data dictionary alongside the dataset",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Always obtaining the data dictionary alongside the dataset is a permanent best practice"
+    },
+    {
+      "extract": "A good place for students to begin is by reflecting on the statistics for their own suburb in the Australian census dataset, or its equivalent wherever they are. It reminds them that census statistics are about people like them, and that we can all be reduced to numbers even though everyone has a story to tell.",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "personal connection",
+        "critical reflection",
+        "humanizing data"
+      ],
+      "notes": "Start with personally relevant data subset to build engagement and reflexivity",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Starting with personally relevant data to build engagement and reflexivity is timeless pedagogy"
+    },
+    {
+      "extract": "Asking students to create a basic visualization of part of the data, such as a pie chart, provides the opportunity to reflect on whether the visualization reveals something that the numbers did not. Ask them to reflect on their expectations and assumptions about the data. Usually there is a reason why they are drawn a particular data subset and documenting these initial thoughts help students to identify bias and reduce the risk of misinterpretation of the data.",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "bias detection",
+        "critical reflection",
+        "assumptions"
+      ],
+      "notes": "Visualize early to reveal patterns; document assumptions to identify bias",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Documenting assumptions and using early visualization to identify bias remains essential analytical practice"
+    },
+    {
+      "extract": "Students need to understand the basics in reading data, such as the difference between the mean and median. Students need to interview the data if you are to use it as a source of stories. Do the median figures tell the whole story?",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistics literacy",
+        "mean vs median",
+        "critical reading"
+      ],
+      "notes": "Basic statistical literacy: know what summary measures hide",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding mean vs median and what summary statistics hide is fundamental statistical literacy"
+    },
+    {
+      "extract": "The summary data about marital status in the dataset is a good example of why you do not take statistics at face value, and the importance of reflecting on them first. This datasets the parameter of 'aged 15 years and over' which could actually skew your reading of the data. As the age of consent in Australia is 16, it is likely that there are children in the 'never married category'. To know more, students would need to sort the data to remove the youngest age group.",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "parameter scrutiny",
+        "filtering",
+        "hidden assumptions",
+        "data cleaning"
+      ],
+      "notes": "Check parameter definitions; inclusion criteria can skew interpretation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Scrutinizing parameter definitions and inclusion criteria to avoid interpretation skew is permanent verification skill"
+    },
+    {
+      "extract": "Can I trust this data? Why? Is it ethically collected? Are the parameters used clear? What assumptions are evident in the data? Is the dataset complete? Can you determine the mean scores in each category?",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "trust",
+        "ethics",
+        "completeness",
+        "parameters",
+        "verification checklist"
+      ],
+      "notes": "From Figure 1 guided-questions flowchart; first-gate trust check",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Trust, ethics, completeness, and parameter verification checklist is universally applicable regardless of tools"
+    },
+    {
+      "extract": "Would visualization help me to understand the data? What style of visualization works best for the data you are looking at? Why? Consider again how visualization can be used in interpreting data. Will it help you to see trends in the data?",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "visualization selection",
+        "exploratory analysis",
+        "trend detection"
+      ],
+      "notes": "From Figure 1; visualization as analytical tool not just presentation",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Visualization as analytical tool endures but LLMs now auto-generate exploratory charts, changing the workflow"
+    },
+    {
+      "extract": "Are the answers to all my questions in the data? What further information do you need from the larger dataset? What tools will you use to get this data?",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "gap analysis",
+        "data sufficiency",
+        "iterative inquiry"
+      ],
+      "notes": "From Figure 1; check whether dataset answers your questions, seek more if not",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Gap analysis and checking data sufficiency against research questions is permanent analytical practice"
+    },
+    {
+      "extract": "Is there a story of public interest in the data? What news values are you prioritizing in making this decision? Have you considered the interests of the audience?",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "news values",
+        "public interest",
+        "audience",
+        "story selection"
+      ],
+      "notes": "From Figure 1; editorial judgment on whether data yields a public-interest story",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial judgment about public interest and news values in data is irreplaceable human decision-making"
+    },
+    {
+      "extract": "If you cannot see a pattern or trend worth investigating, try visualizing new approaches to the data—you could try comparing trends over time, or creating subsets of data that are not simply mean figures.",
+      "chapter": "A Model for Working with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "exploratory analysis",
+        "subsetting",
+        "trend comparison",
+        "visualization"
+      ],
+      "notes": "From Figure 1; iterate with different visualizations and subsets if no story emerges",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Iterative exploratory analysis endures but LLMs can now rapidly generate alternative visualizations and subsets on demand"
+    },
+    {
+      "extract": "Visualization is critical to data analysis. It provides a front line of attack, revealing intricate structure in data that cannot be absorbed in any other way. We discover unimagined effects, and we challenge imagined ones.",
+      "chapter": "Introducing Visualizing Data",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "exploratory analysis",
+        "pattern discovery"
+      ],
+      "notes": "Aisch 2012 quote; visualization as primary analytical method, not just output",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Visualization as primary analytical method revealing structure invisible in raw numbers is a permanent epistemological principle"
+    },
+    {
+      "extract": "it is unrealistic to expect that data visualization tools and techniques will provide ready-made stories from datasets. It makes more sense to look for 'insights' which can become stories with further investigation.",
+      "chapter": "Introducing Visualizing Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "insight discovery",
+        "story development"
+      ],
+      "notes": "Viz yields insights not stories; further investigation still required",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Visualization yields insights not ready-made stories; further investigation is always required regardless of tools"
+    },
+    {
+      "extract": "tables are very powerful when you are dealing with a relatively small number of data points. They are useful to demonstrate one-dimensional outliers (such as the top 10), but they are poor when it comes to comparing multiple dimensions at the same time. Charts, in general, allow mapping dimensions in data to visual properties of geometric shapes. Line charts are especially suited for showing temporal evolutions, while bar charts are perfect for comparing categorical data.",
+      "chapter": "Introducing Visualizing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart selection",
+        "tables",
+        "line charts",
+        "bar charts",
+        "visualization types"
+      ],
+      "notes": "Guidance on when to use tables vs line vs bar charts",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Chart selection guidance (tables vs line vs bar) reflects perceptual science that remains valid"
+    },
+    {
+      "extract": "like other forms of narrative journalism, data visualization can be effective for both breaking news—quickly imparting new information like the location of an accident and the number of casualties—and for feature stories, where it can go deeper into a topic and offer a new perspective.",
+      "chapter": "Introducing Visualizing Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "breaking news",
+        "feature stories",
+        "narrative"
+      ],
+      "notes": "Viz serves both breaking-news speed and feature-story depth",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data visualization serving both breaking news and feature stories is a permanent functional truth"
+    },
+    {
+      "extract": "Data is neither a primary source or a secondary one. It is 'live' in the sense you can ask it questions and arrive at answers, unlike secondary sources, which must be taken at face value. Data is also as significant and as valid as primary and secondary sources. But it is not value free. It has been created by people whose processes deserve investigation, verification and interrogation the same as any other journalistic source. Someone has set parameters on the information collected which in turn affects what is presented.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data ontology",
+        "source interrogation",
+        "parameters",
+        "verification"
+      ],
+      "notes": "Data as third source type: live/queryable but shaped by collection parameters",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data as a third source type requiring interrogation of collection parameters is a foundational epistemological claim"
+    },
+    {
+      "extract": "A capacity for effective collaboration with multidisciplinary teams and teams of other journalists in ways that move outside traditional industrial settings are also becoming more commonplace.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "multidisciplinary teams",
+        "post-industrial journalism"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Collaboration with multidisciplinary teams endures but LLMs change team composition and what counts as post-industrial journalism"
+    }
+  ]
+}

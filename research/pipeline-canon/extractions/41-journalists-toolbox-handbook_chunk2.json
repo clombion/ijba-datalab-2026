@@ -1,0 +1,276 @@
+{
+  "source_id": "41",
+  "source_file": "41-journalists-toolbox-handbook.md",
+  "source_title": "The Journalist's Toolbox Handbook",
+  "author": "Mike Reilley",
+  "year": "2024",
+  "chunk": "2/3",
+  "chunk_file": "41-journalists-toolbox-handbook_chunk2.md",
+  "chunk_words": 39767,
+  "extracts": [
+    {
+      "extract": "Reporters have many options for finding datasets. They can file a Freedom of Information Act (FOIA) request, like Ramos did for the Chicago police reports for his story. They can build the dataset themselves, like Ramos did when he merged the stolen cars dataset with the police report data that included the cars' make and model.",
+      "chapter": "Finding Data",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "dataset building",
+        "data merging",
+        "data acquisition"
+      ],
+      "notes": "Two pathways for data: FOIA requests and self-built datasets through merging"
+    },
+    {
+      "extract": "Data scraping, also known as web scraping, is the process of importing information from a website, a PDF or other document into a spreadsheet or local file on a computer. It's an efficient way to get data from the web beyond a download button on a page. A scraping formula creates a link between the web page being scraped and the spreadsheet. Then, when the web page updates, so does the spreadsheet. This saves time, is more efficient and produces cleaner results than cut-and-paste.",
+      "chapter": "Scraping Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "data acquisition",
+        "automation",
+        "efficiency"
+      ],
+      "notes": "Definition and rationale for web scraping as linked live data pipeline"
+    },
+    {
+      "extract": "In two sentences, Eyre encapsulated the issue using three key data points, the last of which he calculated by dividing the 780 million pills by the state's population. More importantly, the 433 pain pills per resident brought the story into a crystal-clear focus and scaled the issue in an alarming way.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "scaling",
+        "per-capita calculation",
+        "narrative"
+      ],
+      "notes": "Per-capita calculation as technique for making data relatable to readers"
+    },
+    {
+      "extract": "When writing for the web, specifically mobile, a paragraph should never be longer than three sentences in order to maintain clarity and readability on those devices. Spreading the data throughout the story and balancing it with human-centered anecdotes, quotes and context helps increase reader understanding of the issue.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "mobile writing",
+        "readability",
+        "humanizing data"
+      ],
+      "notes": "Heather Cherone on mobile-first data writing and balancing numbers with human stories"
+    },
+    {
+      "extract": "Cherone favors keeping one or two statistics per paragraph and keeping the stories focused on the people impacted by the numbers, not just the statistics themselves. She and many other data journalists are the first to tell you: Great data stories don't read like data stories. They are stories about how issues impact human beings.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data storytelling",
+        "humanizing data",
+        "narrative",
+        "reader engagement"
+      ],
+      "notes": "Principle: great data stories center people not numbers"
+    },
+    {
+      "extract": "The number 29,912 can be rounded up: Nearly 30,000. Round off percentages, too: 62.2% is 62%; 79.9% is 80%; 75% is three-fourths or three in four. The percentages 12.55% of women and 25% of men can be 1 in 8 women and 1 in 4 men. Instead of a 100% increase, say it doubled. It's easier for the reader to understand. Break data into bullet-point lists and pullout boxes.",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data storytelling",
+        "simplification",
+        "readability",
+        "numeracy"
+      ],
+      "notes": "LaFleur and Hacker NICAR 2022 tips for simplifying numbers in stories"
+    },
+    {
+      "extract": "Could the data be better presented in a chart, infographic or database? Does it need to be written?",
+      "chapter": "Writing Data Stories",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "presentation format",
+        "data visualization",
+        "editorial judgment"
+      ],
+      "notes": "LaFleur and Hacker - question whether text is best format for data"
+    },
+    {
+      "extract": "You always, always, always work off a COPY of your dataset in case you mess something up.",
+      "chapter": "Exercises",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "workflow",
+        "data management"
+      ],
+      "notes": "Pro tip on always working from a copy of original data"
+    },
+    {
+      "extract": "A data dictionary provides a detailed description of the dataset, which includes the meaning of each column, the type of the data and any other relevant information.",
+      "chapter": "Exercises",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data dictionary",
+        "documentation",
+        "data management",
+        "metadata"
+      ],
+      "notes": "Exercise introducing data dictionaries as standard practice"
+    },
+    {
+      "extract": "As with any story, data-driven pieces need diverse sources and voices. This goes beyond interviewing people impacted by the issue. It also involves actively seeking diverse expert sources in stories on any subject.",
+      "chapter": "Diversity, Equity and Inclusion in Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "diversity",
+        "sourcing",
+        "equity",
+        "inclusion",
+        "framing"
+      ],
+      "notes": "Principle that diverse sourcing applies to data stories not just traditional reporting"
+    },
+    {
+      "extract": "Mojo kind of flips the script on you and says: No Picture, No Story. So we start out by learning how to report in pictures as a photojournalist, then working with shots as a filmmaker, and then learning how to write with those pictures like an editor, and then writing to those pictures like a scriptwriter.",
+      "chapter": "Visual Storytelling and Mobile Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visual storytelling",
+        "mobile journalism",
+        "workflow",
+        "multimedia"
+      ],
+      "notes": "Montgomery on visual-first reporting workflow for mobile journalism"
+    },
+    {
+      "extract": "Zoom with your feet, not the lens. Move closer to your subject and frame the shot. You'll get better-quality video and audio. Use the lens zoom on your phone only if you're in a restricted area and can't get closer to the subject. Remember, you're after sequences: wide, medium and close, so you'll want to move around a lot and shoot a variety of distances and angles.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "video technique",
+        "mobile journalism",
+        "multimedia",
+        "sequences"
+      ],
+      "notes": "Physical zoom over digital zoom; sequence composition 50% closeups, 25% medium, 25% wide"
+    },
+    {
+      "extract": "Be careful with editing too tightly. Quotes can be edited down so tightly that it changes the meaning of what the person was saying. Remember to edit to the full context of what was being said, even if you have to paraphrase in a voice-over.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "editing ethics",
+        "context",
+        "accuracy",
+        "video editing"
+      ],
+      "notes": "Commandment 4: context over soundbites in video editing"
+    },
+    {
+      "extract": "Focus Thy Story Into Three Words. 'Who Did What?' or Noun-Verb-Object. It's a simple way to start the editing process. My students are sometimes overwhelmed by all of the video they have. But editing an hour of content into a three-minute mobile video can be daunting. Start with 'who did what,' then decide how you want to organize it: narrative, timeline, process, chapters, etc. Once you have that organizational structure, editing becomes much easier.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "editing workflow",
+        "narrative",
+        "simplification"
+      ],
+      "notes": "Noun-Verb-Object framework for organizing video editing"
+    },
+    {
+      "extract": "When you pitch a story idea to editors, think in terms of these types of videos to have a plan going in. Think of a 'shot sheet' of sequences you can shoot. But also be flexible; many times my students returned from shooting a video and shifted to a new type of video format during the shoot. Let the content dictate the format, not vice versa.",
+      "chapter": "Ten Types of Mobile Video",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "planning",
+        "flexibility",
+        "story format",
+        "editorial judgment"
+      ],
+      "notes": "Pre-production planning with shot sheets but letting content drive format"
+    },
+    {
+      "extract": "Journalists should understand what the native camera can do and set it up for their needs. For example, Apple users should go to Settings > Camera and explore the list of options. Another tip, while exploring Camera Settings, is to set video frame rates to match the country's electricity hertz cycle. This will avoid lights flickering in the video.",
+      "chapter": "Producing Smartphone Video",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "camera settings",
+        "mobile journalism",
+        "video technique"
+      ],
+      "notes": "Rob Layton on configuring native camera including frame rate to match local Hz"
+    },
+    {
+      "extract": "It's also important to measure your screen time. Journalists also should organize their apps in a way that makes sense to them, so they can find them quickly without having to search for them. If you have a lot of apps, like I do, you should organize them into folders by type of tool.",
+      "chapter": "Apps, Apps and More Apps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool management",
+        "workflow",
+        "mobile journalism",
+        "productivity"
+      ],
+      "notes": "Reilley on organizing mobile tools for fast access during breaking news"
+    },
+    {
+      "extract": "They pulled public records of sidewalk complaints and tracked how many were repaired ... and which ones have not. The records weren't hard to find. They're posted on the City of Chicago Data Portal.",
+      "chapter": "The Chicago Stumbler Tumblr",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "data portals",
+        "accountability",
+        "verification"
+      ],
+      "notes": "Using open data portals to verify government responsiveness to complaints"
+    },
+    {
+      "extract": "The concept was simple: Students would use their smartphones to shoot photos of poor sidewalk conditions and geolocate them. They would upload the photos to Tumblr from their phones and write a short description of the conditions and the precise location of the issue.",
+      "chapter": "The Chicago Stumbler Tumblr",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "geolocation",
+        "mobile journalism",
+        "data collection"
+      ],
+      "notes": "Chicago Stumbler as model for mobile crowd-sourced data collection with geolocation"
+    }
+  ]
+}

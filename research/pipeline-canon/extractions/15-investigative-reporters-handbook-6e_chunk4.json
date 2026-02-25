@@ -1,0 +1,353 @@
+{
+  "source_id": "15",
+  "source_file": "15-investigative-reporters-handbook-6e.md",
+  "source_title": "Investigative Reporter's Handbook (6th ed.)",
+  "author": "Brant Houston, Mark Horvit, IRE",
+  "year": "2020",
+  "chunk": "4/5",
+  "chunk_file": "15-investigative-reporters-handbook-6e_chunk4.md",
+  "chunk_words": 38187,
+  "extracts": [
+    {
+      "extract": "Reporters frequently find the annual report's most interesting information, whether in hard copy or electronic form, in its footnotes. A typical annual report to the SEC contains at least a dozen pages of footnotes, many of them revealing to a knowledgeable journalist.",
+      "chapter": "Annual and Financial Reports",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document analysis",
+        "financial records",
+        "corporate investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is also worth taking a close look in documents for anything that involves the words 'litigation' or 'risk.' It is those sections of a 10-K that corporations reveal whether they are under criminal investigation or facing civil lawsuits.",
+      "chapter": "Annual and Financial Reports",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "document analysis",
+        "financial records",
+        "corporate investigation",
+        "keyword search"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One way to find a document trail is to find out what filings and licenses a business or an individual would have to get to open and continue to operate. By cross-referencing documents and databases, a journalist might be able to arrive at an informed approximation of how much even the most secretive company is taking in.",
+      "chapter": "State and Local Business Agencies",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "document trails",
+        "cross-referencing",
+        "corporate investigation",
+        "public records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As with all credit reports, journalists need to confirm their validity and make sure they are current. This can be done by cross-referencing them with other business documents or simply by running the numbers by the business itself.",
+      "chapter": "Other Documents",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "cross-referencing",
+        "financial records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Written records lay the foundation for a business story, but human sources are essential to provide the detail and road maps for business stories.",
+      "chapter": "Human Sources",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source development",
+        "human sources",
+        "document analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "After an accident, journalists should request the OSHA inspection report, including the inspector's handwritten notes.",
+      "chapter": "Safety and Health",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "workplace safety",
+        "document acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists should not wait for accidents to happen before they begin an investigation. Instead, they should request employers' inspection histories from OSHA and then visit the work sites to see if the current situation is better or worse.",
+      "chapter": "Safety and Health",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "proactive investigation",
+        "workplace safety",
+        "public records",
+        "field reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In-person visits can determine how accurate the OSHA reports are. Many workers suffer injuries that are never reported because of employer pressure.",
+      "chapter": "Safety and Health",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "field reporting",
+        "verification",
+        "workplace safety",
+        "official data limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When disciplinary bodies refuse to discuss individual cases, a journalist can ask for aggregate data on cases. Such information can help lead a journalist to a good story.",
+      "chapter": "Investigating Licensed Professionals",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "aggregate data",
+        "source development"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Studying the small print in the state manual on professional licensing boards can lead to investigative leads. For example, every board consists of professionals from the occupation being licensed; at most, there is one 'public member' per board. This means that the profession is left to police itself, which could include colleagues, former colleagues and friends.",
+      "chapter": "Investigating Licensed Professionals",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "regulatory capture",
+        "licensing",
+        "institutional investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists should routinely check to see if the nonprofits' audited financial statements and other financial reports are posted online or immediately available upon request. Journalists should find out what section of the Internal Revenue Code an organization used to gain its tax exemption.",
+      "chapter": "Investigating Charities and Foundations",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "nonprofit investigation",
+        "financial records",
+        "tax records"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Audited statements are generally posted on nonprofits' websites or can be obtained from nonprofits that are operating responsibly. Fundraising appeals might include audited statements or might explain how to obtain copies. However, be cautious when making comparisons. Form 990s and audited statements do not always match exactly because of accounting definitions, different fiscal years or other reasons.",
+      "chapter": "Investigating Charities and Foundations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "nonprofit investigation",
+        "financial records",
+        "data quality",
+        "comparison methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As part of an investigation, a journalist should put together a corporate profile of the nonprofit. 990s will list all the related organizations of the nonprofit, both tax exempt and for profit. It's also useful for determining whether a nonprofit is parking huge sums in another company or in a 527, which is basically a political action committee.",
+      "chapter": "Form 990",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "nonprofit investigation",
+        "corporate profiling",
+        "financial records",
+        "network analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Nonprofit consultants have said financial reports are all about allocation of funds and doing it correctly, but some nonprofits understate their profits by playing accounting games that make them appear poorer than they really are. An organization can make it look as if it is spending more on its legitimate activities than it really is by using an accounting tactic called joint cost allocation.",
+      "chapter": "Form 990",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "nonprofit investigation",
+        "financial analysis",
+        "accounting fraud",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Medical records of individual patients provide additional credibility for investigative projects, and journalists should ask patients, family members and lawyers representing patients for access to case histories, fees and correspondence with hospitals. Many individuals will provide this access. If a lawsuit is already filed, detailed individual medical records and hospital treatment studies are likely to be available.",
+      "chapter": "Investigating Hospitals and Other Providers",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "medical records",
+        "source development",
+        "document acquisition",
+        "health care investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "At the heart of my reporting was the creation of a custom database compiled from a dozen state and federal sources, from databases at the Food and Drug Administration to files from the Centers for Medicare and Medicaid Services to disciplinary records from every state.",
+      "chapter": "Hospital Errors",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "database construction",
+        "multi-source integration",
+        "health care investigation"
+      ],
+      "notes": "Quote from Mike Berens, Chicago Tribune"
+    },
+    {
+      "extract": "Berens pointed out that the data are neither conclusive nor reliable but pointed him in the right direction for talking to experts.",
+      "chapter": "Hospital Errors",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data limitations",
+        "data quality",
+        "source development",
+        "health care investigation"
+      ],
+      "notes": "Referring to MAUDE database"
+    },
+    {
+      "extract": "Journalists should always question claims about new drugs: Were studies purporting to validate the drug's effectiveness funded by the company that would be selling it? Did the drug affect people in the trial sample so that they dropped out before the final results were tabulated?",
+      "chapter": "Pharmaceutical Companies",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "pharmaceutical investigation",
+        "conflicts of interest",
+        "research methods"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "HIPAA, which was designed to protect electronic patient information, only applies to 'covered entities.' Those generally include health care providers (hospitals, physicians, EMTs, social workers, etc.) and health insurance providers. However, a host of people who are not covered by HIPAA often cite the law to withhold information.",
+      "chapter": "HIPAA and Patient Privacy",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "health care investigation",
+        "access to information",
+        "legal knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first stop should be the U.S. Department of Energy's Energy Information Administration, which maintains dozens of databases with thousands of measurements of every facet of the electric industry. For example, the annual database created from form EIA-826 contains monthly sales figures for most utilities in the nation ... Using that data, a reporter could quickly piece together the cost-per-kilowatt for his local utility over a decade and compare it to other trends for other utilities.",
+      "chapter": "Federal Regulation",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "databases",
+        "energy investigation",
+        "longitudinal analysis",
+        "comparison methods"
+      ],
+      "notes": "Quote from Tom McGinty"
+    },
+    {
+      "extract": "Although FOI laws can help reporters gather information about government-run utilities, they're of no use to those who are writing about investor-owned utilities. Instead, [reporters] must turn to the numerous regulatory filings that utilities must submit even in the wake of deregulation.",
+      "chapter": "Federal Regulation",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "access to information",
+        "regulatory filings",
+        "energy investigation"
+      ],
+      "notes": "Quote from Tom McGinty"
+    },
+    {
+      "extract": "Analyzing 31 million lending records, the project 'Kept Out' demonstrated how the disparities persisted and how government regulators failed to prevent the practice.",
+      "chapter": "Investigating Financial Institutions",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data analysis",
+        "discrimination",
+        "financial investigation",
+        "large datasets"
+      ],
+      "notes": "Referring to Reveal investigation"
+    },
+    {
+      "extract": "Even the most secretive banks must make some financial information public. Journalists make a habit of getting and studying the call reports, or consolidated reports of condition and income required quarterly at the Federal Financial Institutions Examination Council's website.",
+      "chapter": "Banks",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "financial records",
+        "banking investigation",
+        "public records",
+        "routine monitoring"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Examiners tend to look at similar criteria no matter what type of financial institutions they are inspecting. A useful acronym for journalists is CAMEL, which stands for five kinds of criteria to see if an institution meets: Adequate and stable Capital. High quality of Assets. Management with competency and integrity. High-quality and sufficient Earnings. Necessary Liquidity.",
+      "chapter": "Government Regulators",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "financial investigation",
+        "evaluation frameworks",
+        "banking investigation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalists who understand the anatomy of fraud in auto insurance will look for suspicious circumstances in police reports and lawsuits. Those journalists will also talk regularly to insurance company investigators who can direct them to compelling stories.",
+      "chapter": "Automobile Insurance",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fraud investigation",
+        "source development",
+        "insurance investigation",
+        "pattern recognition"
+      ],
+      "notes": ""
+    }
+  ]
+}

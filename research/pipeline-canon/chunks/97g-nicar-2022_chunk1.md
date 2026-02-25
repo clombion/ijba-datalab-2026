@@ -1,0 +1,3771 @@
+<!-- chunk: 1/1 | source: 97g-nicar-2022.md | words: 21328 -->
+<!-- headings: NICAR 2022 Tipsheets & Session Notes; 2022-artisanal-data-collection.md; 2022-basic-stats-excel/Excel Stats handout.pdf; **Basic Statistical Analysis in Excel**; 2022-data-journalism-academy.md; MaryJo Webster's Data Journalism Academy; Learning Path; Tier 1 — Foundational; Tier 2 — Technical; Tier 3 — Advanced; 2022-data-journalism-cheat-sheets/documents/confidence_intervals.pdf; ∑ ∑; ∑; ∑ ∑ [W][si]; **iply these** **ervals by** **number** **events** **to get** **e range** **aw values**; 2022-data-journalism-cheat-sheets/documents/odds_ratios.pdf; 2022-data-journalism-cheat-sheets/not-where-you-expect.md; Not where you expect; 2022-data-journalism-cheat-sheets/readme.md; Jump to: -->
+
+# NICAR 2022 Tipsheets & Session Notes
+
+
+## 2022-artisanal-data-collection.md
+
+Artisanal data collection methods: Hand crafting surveys for investigative journalism
+
+
+Nicole Hayden, The Oregonian @Nicole_A_Hayden
+Emily Featherston, InvestigateTV @EmVestigates
+Kate Martin, Carolina Public Press @KateReports
+
+When should you use a survey?
+The data doesn’t exist or is really bad
+There are no public records
+You are looking to connect with sources
+You want to collect personal stories
+
+
+Talk to experts in this field: What information is already out there? What questions would the expert ask if they were writing the survey? What new information do you hope to learn?
+Identify your sources. Who is answering the survey? Collect and verify email addresses.
+How much of that population do you want to answer the survey?
+Do you want statistical significance and scientific rigor? Or a small sample?
+What questions are you trying to answer?
+Run the survey questions by at least one expert to find problems.
+
+
+Research and write your survey
+
+Finalize and send the survey.
+Define your terms. Loose language gives sources room to hedge.
+Consider your format: Surveymonkey? Google form? Individual emails?
+Decide if the survey will be anonymous or not.
+If it is not anonymous, ask who is answering the survey and their title for attribution.
+Give sources a reasonable deadline, with time for you to follow up.
+
+
+Sexual Assault Nurse Examiners in North Carolina
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: What is a Sexual Assault Nurse Examiner?
+Must be a nurse nurse for at least two years.
+Complete dozens of hours of training and clinical work.
+Pass a written exam from the International Association of Forensic Nurses.
+Trained to help assault victims.
+Collects forensic evidence
+Can provide medicine to prevent STI and pregnancy, and provide moral support
+Exams can take several hours.
+
+
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: Steps I took before my survey
+I wanted to know: Where are SANE nurses in North Carolina?
+Another question: What agency might have this information?
+Filed records requests with 3 state agencies: None tracked SANE nurses.
+State nursing board also did not have reliable information.
+Searched any recent academic or legislative information on SANE numbers.
+Talked to experts in the space and ran survey questions by them.
+Collected and verified contact information for 130 hospitals and programs
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: What happens if they don’t respond?
+
+Finding Nurses: Track your responses!
+
+Finding Nurses: Conduct follow up interviews
+Read responses as they come in and contact promising sources early.
+Did you give an early deadline? You can clarify unclear or non-responses. 
+Talk to community leaders if something seems off (and to verify your info).
+Example: Cape Fear Valley Medical Center, one of the busiest ERs in the country, said it had no SANE-certified nurses. Community response:
+“I knew it was bad. I didn’t realize that the number was zero.” — Deanne Gerdes, executive director of Rape Crisis of Cumberland County.
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: Do you have enough to analyze?
+In my case, no
+About half of hospitals responded at all
+Many responses were statements that did not fully answer survey
+Map required too much explanation for a common reader
+Limited access to versatile data visualization
+Explain survey methods in story.
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: Lessons learned
+Carefully define terms in your initial contact. For me I should have outlined exactly what a SANE certification means (dozens of hours of classroom/clinical time, passing exam).
+I would have added another question for the number of nurses who had some SANE training but not a full certification.
+Specifically ask for the name and title of survey respondent.
+Series link: https://bit.ly/3s4gN9e
+
+Finding Nurses: Results!
+NC General Assembly approved $125,000 for a Cumberland County pilot project for SANE nurses.
+U.S. Congresswoman said she was inspired by our research and has co-authored a bill that includes $30 million per year for SANE training/pay through 2028.
+Pending legislation at state level:
+Fine hospitals $25,000 if they charge victims for their rape kits.
+In discussion: Require hospitals to have a SANE nurse.
+Increase funding to hospitals for doing rape kits.
+More is coming (I don’t want to get scooped).
+
+
+Series link: https://bit.ly/3s4gN9e
+
+Using surveys to tell stories of vulnerable individuals
+
+Nicole Hayden/The Oregonian
+NICAR 2022
+
+FALSE PROMISES
+
+FALSE PROMISES: Why we did the project
+The factual dilemma: Portland city officials said they routinely sent outreach workers to the streets to offer resources, shelter and housing to individuals experiencing homelessness. In contrast, folks on the street said they never saw these workers.
+The investigation: We wanted to know where the truth was between those two statements and city data did not provide that insight.
+
+FALSE PROMISES: How we conducted the research
+
+Sample size: 300 people https://www.surveymonkey.com/mp/sample-size-calculator/ 
+26-question survey
+Sent the survey to research and topic experts for review
+Tested the survey among those we planned to interview 
+Paid homeless individuals to help us do the survey work (budget: $1,500)
+Made it anonymous
+Google forms for data input
+To incentivize or not?
+
+FALSE PROMISES: Attention to detail
+
+Survey language needs to be precise and not leading
+Be specific and transparent with readers about how research was conducted
+Think about data visuals beforehand
+
+FALSE PROMISES: Lessons learned
+More time training those who helped conduct surveys
+Anticipate how city/county officials will react to the findings
+Manage workers in-house
+Collect audio
+
+OTHER SURVEY PROJECTS
+a variety of design structures
+
+Not your average survey:  Using survey methods to gather info & collaborate
+
+Emily Featherston/InvestigateTV (Gray Television)
+NICAR 2022
+
+SETTING ASIDE COMPETITION
+North Carolina Watchdog Reporting Network
+COVID chaos of spring 2020
+Launched to cover a lot of ground quickly
+Plan: Ask a series of uniform questions of all counties/health departments
+
+
+COVID IN NC NURSING HOMES
+State refused to share information
+Anecdotally knew some counties were giving details
+Replicated efforts on testing
+What we learned:
+Uniform Questions ≠ Uniform Answers - But that’s OK
+Information can get unwieldy and of hand quickly
+
+
+RESULTS 
+April 23, 2020
+April 27, 2020
+But there’s always another story…
+Story links: https://tinyurl.com/mrjcthax
+
+FINE-TUNING THE PROCESS
+Better Questions
+Mix of quantitative & qualitative
+Space for “why” & “if-then”
+Better tracking
+Utilizing traditional survey tools
+Using “no response” to tell the story
+
+SURVEYS GET YOU NOTICED…
+Process may expose more than you expect
+Showing you won’t drop it
+Provide a structure for collaboration
+Rinse & Repeat
+
+Artisanal data collection methods: Hand crafting surveys for investigative journalism
+
+
+Nicole Hayden, The Oregonian @Nicole_A_Hayden
+Emily Featherston, Gray Television @EmVestigates
+Kate Martin, Carolina Public Press @KateReports
+
+## 2022-basic-stats-excel/Excel Stats handout.pdf
+
+# **Basic Statistical Analysis in Excel**
+
+NICAR 2022 Atlanta | Norm Lewis, University of Florida | nplewis@ufl.edu
+
+
+**For Macintosh: Installing Analysis ToolPak**
+Only available in Office 365 subscription version.
+
+
+**PART 2: DESCRIPTIVE STATISTICS**
+Choose Faculty worksheet.
+
+
+12. Adjust the columns for
+readability and to line up the
+decimal points.
+
+
+Some key numbers from this output, a 2021 list of assistant professors (untenured, entry
+level) at the University of Florida.
+
+
+Use **mean** for numbe
+that vary little: sport
+stats, commute times
+water levels, etc.
+
+
+All three
+averages are
+provided.
+
+
+±1 SD around
+mean includes
+66% of salaries.
+Here: $65,600 to
+$257,490.
+
+
+The min and
+max are the
+range.
+
+
+Use **median** for
+numbers with poten
+outliers: salaries,
+income, wealth, hom
+values, etc.
+
+
+The **mode** is the mos
+frequently occurring
+number; it is rarely
+used in journalism.
+
+
+For this data set, the best average is the median. Because most people think “average” can
+only be a mean, phrase it this way:
+
+The median, or midpoint, was $120,00.
+
+
+**PART 3: BRIEF STATISTICS PRIMER**
+
+
+1. Statistics help us sift meaningful patterns from random chance. Random fluctuations
+
+in data are normal. Statisticians call this _noise_ . For example, we want to know if data
+showing racial disparities are indicative of a meaningful pattern or just noise.
+
+
+2. Statistics is the science of probability. Probability is not certainty. All a statistic can
+
+tell you is whether a relationship could have happened by chance.
+
+
+3. Statistics are not voodoo. They are based on empirical testing and numerical laws
+
+such as the central limit theorem. It is, after all, a _science_ .
+
+
+4. On the other hand, statistics are not magic. They require interpretation to avoid
+
+false interpretations or ascribe undue importance.
+
+
+5. To avoid common interpretation mistakes, remember these three principles:
+
+a. **Correlation does not imply causation.** People who live in larger cities are more
+
+likely to consider the arts important. Is that because:
+
+i. Larger cities with more facilities stimulate more interest in the arts, or
+ii. People with greater arts interest tend to locate in larger cities?
+
+b. **Consider a plausible alternative explanation** . An increase in antidepressants
+
+among older adults means lower suicide rates. However, that may be partly
+due to improvements in drugs that have reduced death risk from overdoses.
+
+c. **Beware the law of small numbers** . Rural U.S. states have both the highest and
+
+lowest rates of cancers. This is not a meaningful pattern but the result of the
+greater variance inherent when population numbers are relatively small.
+
+
+6. Because human behavior is so complex, social science sets the level of probability
+
+( _p_ ) to separate patterns from noise at less than 5%, or _p_ < .05. Colloquially, _p_ < .05
+means there was a less than 5% probability a relationship was due to chance.
+
+
+7. Although _p_ < .05 is considered statistically _significant_, a more precise term would be
+
+statistically _noticeable_ or statistically _detectable_ (Jordan Ellenberg, p. 121). Whether
+that relationship is _meaningful_ depends on human judgment – yes, you!
+
+
+8. If you want to read more about statistics, I recommend:
+
+a. “Naked Statistics: Stripping the Dread from the Data” by Charles Wheelan
+b. “Statistics for People Who (Think They) Hate Statistics” by Neil J. Salkind
+c. “How Not to Be Wrong” by Jordan Ellenberg
+d. “Statistics Unplugged” by Sally Caldwell
+
+
+**PART 4: CORRELATION**
+
+**Correlation 1: Crime**
+
+_Question: How closely is crime correlated with population?_
+
+Correlation measures if two variables are related.
+
+Two types of correlation:
+
+
+  - Positive: Either:
+
+`o` Both rise together, like more height and more weight.
+
+`o` Both fall together, like less physical activity and less life expectancy.
+
+  - Negative: One increases while other falls, like more beers & less GPA.
+
+Correlation may, or may not, be causation.
+
+Correlation measures
+
+
+  - Correlations range from 0.00 (no relationship) to 1.00 (perfect relationship).
+
+  - The correlation coefficient measures the strength of the relationship.
+
+  - A general rule of thumb (Cohen, 1988) for the correlation coefficient is:
+
+`o` 0.10 to 0.28 Small
+
+`o` 0.30 to 0.49 Moderate
+
+`o` 0.50 to 0.99 Large
+
+Open Crime data. These are 2019 data for cities of at least 25,000 in Georgia and nearby
+states, excluding Alabama (whose data are unreliable, FBI says).
+
+First, examine a scatterplot.
+
+
+Next, measure strength of correlation.
+
+
+Open the Analysis ToolPak by clicking on the Data Analysis button at the far
+right of the Data ribbon.
+
+
+The statistic looks like this.
+
+
+**Interpretation**
+Population and crime are almost perfectly
+correlated: More people = more crime.
+
+The strong correlation does not equal
+uniformity. Some cities are above the line
+(higher crime rates) and some are below.
+
+Also, do not treat this strong correlation as even
+remotely normal. In my research, 0.40 is about as
+strong as it gets.
+
+
+**Correlation 2: Coaches**
+
+_Question: Are college football coaching salaries and player graduation rates correlated?_
+
+Click on the Coaches sheet. These are college football coaches. Sources:
+
+  - Pay_2020: Total salaries paid, USA Today database.
+
+  - GSR_2020: Percent of 2014 football players who graduated within 6 years, NCAA.
+
+First, scatterplot.
+
+Select the Pay_2020 and GSR_2020 columns.
+
+In Insert ribbon, select the Scatterplot, as we did
+for the Crime sheet.
+
+
+Interpretation:
+
+First, GSR rates vary little. Most are
+between 70% and 85%.
+
+Second, trend line is flat. This means
+that higher salaries make little
+difference in GSR rates.
+
+Second, calculate correlation
+
+
+**Interpretation**
+A weak correlation with a flat line = a nonexistent correlation.
+
+Salaries paid college football coaches and the
+graduation rates of their players are not
+correlated.
+
+
+Two possible explanations for the weak correlation.
+
+
+1. A third and more dominant variable may be at work: money.
+
+
+Schools that pay big salaries to coaches also can afford larger academic counseling
+staffs who keep players on track to graduate. The presence of a third, more
+influential variable, is reason to consider a plausible alternative explanation.
+
+
+2. The result may reflect a data definition that produces relative conformity.
+
+
+The NCAA created the GSR, or Graduation Success Rate, to be more generous than
+the federal data standard. The GSR allows universities to ignore athletes who
+transferred or who turned pro before graduation. Counting only players who stayed
+until the end of their athletic careers compresses potential variance.
+
+One final correlation …
+
+
+**Correlation 3: Election**
+
+_Question: Was the share of votes Trump received and unemployment correlated?_
+
+Sources:
+
+  - Jobless_Pct: Bureau of Labor Statistics county averages for 2020
+
+  - Trump_Pct: MIT 2020 elections project, supplemented with county elections data
+
+Open Elections sheet. Select the two data columns and create a scatterplot with trend line.
+
+
+Not what was
+hypothesized.
+
+The trend line is down.
+Thus, this is a negative
+correlation. As
+unemployment (x-axis)
+increases, Trump’s vote
+share (y-axis) decreases.
+
+Next, use the Analysis ToolPak to calculate the correlation coefficient.
+
+
+**Interpretation**
+Negative sign = negative correlation
+Coefficient: -0.40 = moderate strength
+
+Yes, Trump support and unemployment are
+moderately correlated. However, an assertion
+that greater unemployment is associated with
+lower voter support lacks a rationale.
+
+Instead, this statistic is an example of how
+statistics must be read carefully. Despite the
+moderate strength of the relationship,
+unemployment was not a primary factor in
+vote share. Something else was.
+
+
+**PART 5: T-TEST**
+
+**T-Test 1: Broadway**
+
+_Question: Were “Hamilton” tickets substantially more expensive than for other big musicals?_
+
+The data are from the Internet Broadway Database. Data for “Hamilton” are compared to
+averages for four other long-running musicals: “Aladdin,” “Lion King,” “Book of Mormon,”
+and “Wicked.” Weekly means for those four are combined in the Big4Avg.
+
+Which statistic to use?
+
+  - Comparing two means, so t-Test
+
+
+Mean ticket price for
+“Hamilton”: $294.64
+
+
+Mean ticket price for
+other 4 musicals: $130.88
+
+
+The t-statistic. We could
+look up the significance
+level in a stats book … or
+
+
+We hypothesized a
+direction (“Hamilton”
+more costly ), so use
+the one-tailed result.
+
+
+Thus, reject the nodifference hypothesis
+and conclude difference
+is statistically significant.
+
+
+Well, d’oh! We did not need a fancy statistics test to discover that “Hamilton” tickets cost
+more – in fact, twice what the other four big musicals did.
+
+But We Are Not Throwing Away Our Shot, so do another test …
+
+
+**T-Test 2: Firefighters**
+
+_Question: Is pay for firefighters in Bloomington, Ind., different from the national average?_
+
+Sources:
+
+  - Salaries for front-line firefighters for 2017, via Data.gov.
+
+  - National firefighter pay mean, Bureau of Labor Statistics for 2017.
+
+This hypothesis has no direction (could be lower or higher), so use the two-tailed test.
+
+Repeat the same steps above, with a paired-sample t-test.
+
+
+Bloomington mean: $58,283 National mean: $51,930
+
+
+No direction
+hypothesized, so use
+the one-tailed result.
+
+
+The p-value is < .05.
+Thus, reject the nodifference hypothesis
+and conclude difference
+is statistically significant.
+
+
+Difference in firefighter pay, 11 percent, is not small, but not large, either.
+
+Therefore, the finding of statistical significance offers assurance the difference is beyond
+what would be expected by chance. You are free to write a story:
+
+  - Bloomington firefighters are paid above the national average.
+
+Please note The statistic does not give license to use “significantly” in that sentence. All the
+t-Test can tell us is that the difference was unlikely to occur by chance.
+
+## 2022-data-journalism-academy.md
+
+# MaryJo Webster's Data Journalism Academy
+_Source: https://sites.google.com/view/mj-basic-data-academy/home_
+_Author: MaryJo Webster_
+
+Comprehensive teaching resource combining videos, exercises, tipsheets and reading materials.
+
+## Learning Path
+### Tier 1 — Foundational
+- Introduction to data journalism
+- Data State of Mind: finding data, avoiding pitfalls, writing with data
+
+### Tier 2 — Technical
+- Excel basics OR Google Sheets
+- Intermediate Excel tutorials
+
+### Tier 3 — Advanced
+- Excel Magic (date/string/logical functions, VLOOKUP/XLOOKUP, reshaping)
+- Introduction to R
+- Other resources
+
+Philosophy: "the primary goal is to help you understand how to work with data, in general, regardless of the tool."
+
+## 2022-data-journalism-cheat-sheets/documents/confidence_intervals.pdf
+
+**Confidence Intervals in Public Health**
+
+
+When public health practitioners use health statistics, sometimes they are interested in the
+actual number of health events, but more often they use the statistics to assess the true underlying
+risk of a health problem in the community. Observed health statistics, that is, those counts, rates or
+percentages that are computed or estimated from health surveys, vital statistics registries, or other
+health surveillance systems, are not always an accurate reflection of the true underlying risk in the
+population. Observed rates can vary from sample to sample or year to year, even when the true
+underlying risk remains the same.
+
+
+Statistics based on samples of a population are subject to sampling error. Sampling error
+refers to random variation that occurs because only a subset of the entire population is sampled and
+used to estimate a finding for the entire population. It is often mis-termed "margin of error" in
+popular use. Even health events that are based on a complete count of an entire population, such as
+deaths, are subject to random variation because the number of events that occurred may be
+considered as one of a large series of possible results that could have arisen under the same
+circumstances. In general, sampling error or random variation gets larger when the sample,
+population or number of events is small.
+
+
+Statistical sampling theory is used to compute a confidence interval to provide an estimate
+of the potential discrepancy between the true population parameters and observed rates.
+Understanding the potential size of that discrepancy can provide information about how to interpret
+the observed statistic. For instance, if the state infant death rate of 5.94 increased to 6.03 in a oneyear period, is that increase something that should cause concern? If the smoking rate among teens
+decreased from 13% to 8%, is that cause for celebration?
+
+
+Technically speaking, the 95% confidence interval indicates the range of values within
+which the statistic would fall 95% of the time if the researcher were to calculate the statistic (e.g., a
+percentage or rate) from an infinite number of samples of the same size, drawn from the same
+population. In less technical language, the confidence interval is a range of values within which the
+“true” value of the rate is expected to occur (with 95% probability). This document describes the
+most common methods for calculation of 95% confidence intervals for some rates and estimates
+commonly used in public health.
+
+95% Confidence Interval for a Percentage From a Survey Sample:
+
+
+To calculate a confidence interval for a percentage from a survey sample, one must first
+calculate the _standard error_ of the percentage. A percentage is also known as the mean of a
+binomial distribution. The standard error of the mean is a measure of dispersion for the hypothetical
+distribution of means called the _sampling distribution of the mean_ . This is a distribution of means
+calculated from an infinite number of samples of the same size drawn from the same population as
+the original sample.
+
+
+Once you have calculated the standard error of the percentage, you must decide how large
+you want the confidence interval to be. The most common alternative is a 95% confidence interval.
+This is the width of the interval that includes the mean (the _sampling distribution of the mean_,
+
+
+mentioned above) 95% of the time. In a little plainer language, a 95% confidence interval for a
+percentage is the range of values within which the percentage will be found at least 95% of the time
+if you went back and got a different sample of the same size from the same population.
+
+
+Transforming the standard error into a 95% confidence interval is rather simple.
+Fortunately, the _sampling distribution of the mean_ has a shape that is almost identical to what is
+known as the _normal distribution_ . [1] You need only multiply the standard error by the _Z_ -score of the
+points in the normal distribution that exclude 2.5% of the distribution on either end (two-tailed).
+That _Z_ -score is 1.96. A _Z_ -score of 1.96 defines the 95% confidence interval. A _Z_ -score of 1.65
+defines a 90% confidence interval.
+
+For a simple random sample, the standard error = √ pq/n
+
+where: p is the rate,
+q is 1 minus the rate, and
+n is the sample size.
+
+Example: 13% of surveyed respondents indicated that they smoked cigarettes. The sample
+consisted of 500 persons in a simple random sample.
+
+
+The standard error =√ (0.13*0.87) /500 = .015
+
+
+1 A _distribution_ is a tool that is used in statistics to associate a statistic (e.g., a percentage, average, or other statistic)
+with its probability. When researchers talk about a measure being "statistically significant," they have used a
+_distribution_ to evaluate the probability of the statistic, and found that it would be improbable under ordinary conditions.
+In most cases, we can rely on measures such as rates, averages, and proportions as having an underlying _normal_
+_distribution_, at least when the sample size is large enough.
+
+
+Then the 95% confidence interval is:
+
+
+.13 + 1.96 * standard error = .13 + 1.96 * .015 = .13 + .0294 = .101 - .159
+
+
+So the 95% confidence interval has a lower limit of 10.1% and an upper limit of 15.9%
+
+
+The formula used above applies to a binomial distribution, which is the distribution of two
+complimentary values (e.g., heads and tails, for and against). If you are calculating a confidence
+interval for a different statistic, such as an average, you’ll need to modify the equation. The
+quantity (pq) is the variance of a binomial distribution. If your measure is not a proportion, but, say,
+an average, you must modify the formula, substituting the pq quantity with the variance. The
+standard error can also be calculated as the standard deviation divided by the square root of the
+sample size:
+
+σ
+√ n
+
+Small Samples
+
+
+If the sample from which the percentage was calculated was rather small (according to
+central limit theorem we can define small as 29 or fewer) then the shape of the sampling
+distribution of the mean is not the same as the shape of the normal distribution. In this special case,
+we can use another distribution, known as the _t_ distribution, that has a slightly different shape than
+the normal distribution. [2]
+
+
+The procedures in this case are analogous to those above but the t-score comes from a
+family of distributions that depend on the “degrees of freedom.” The number of degrees of freedom
+is defined as “n-1” where “n” is the size of the sample. For a sample of size=30 the degrees of
+freedom is equal to 29. So, for a 95% confidence interval, you must use the t-score associated with
+29 degrees of freedom. That particular t-score is 2.045 (see Appendix 1.). So you would multiply
+the standard error by 2.045 instead of 1.96 to generate the 95% confidence interval.
+
+
+If our sample were a different size, say 20, then the degrees of freedom would be 19, which
+is associated with a _t_ -score of 2.093 for a 95% confidence interval. As you see the interval will get
+wider as our sample size is reduced. This reflects the uncertainty in our estimate of the variance in
+the population. For a 95% confidence interval with 9 degrees of freedom the _t_ -score is 2.262. Table
+1. lists the _t_ -scores for specific degrees of freedom and sizes of confidence interval. For a 95%
+confidence interval, you would use the _t_ -score that defines the points on the distribution that
+excludes the most extreme 5% of the distribution, which is 0.025 on either end of the curve.
+
+
+2 [Student's t-distribution, downloaded on 2/13/09 from http://en.wikipedia.org/wiki/File:Student_densite_best.JPG](http://en.wikipedia.org/wiki/File:Student_densite_best.JPG)
+
+
+**Student’s** _t_ **Distribution at Varying Degrees of Freedom (k)**
+
+
+Appendix 1 lists the t-scores for specific degrees of freedom and sizes of confidence
+interval. For a 95% confidence interval, you would use the t-score that defines the points on the
+distribution that excludes the most extreme 5% of the distribution, which is 0.025 on either end of
+the distribution.
+
+
+Finite Populations
+
+
+If the survey sampled all or most of the members of the population, then using the finite
+population correction factor will improve (decrease the width of) the confidence interval.
+
+The finite population correction factor = 1- _f_, where _f_ is the sampling fraction
+
+_f_ = n/N where n is the size of the sample and N is the size of the population. The sampling fraction
+is simply the proportion of the population that was included in the sample.
+
+The standard error of the mean for a binomial distribution for a finite sample
+
+
+s.e.percentage= √ pq/n * (1- _f_ )
+
+When the Percentage is Close to 0% or 100%
+
+
+When the percentage is close to 0% or 100%, the formulas given above can result in
+illogical results - confidence limits that fall below 0% or above 100%. A special formula is used to
+calculate asymmetric confidence limits in these cases. Because survey estimates can be small
+percentages, the confidence intervals for the surveys on IBIS-Q are based on logit transformations.
+Logit transformations yield asymmetric interval boundaries that are more balanced with respect to
+
+
+the probability that the true value falls below or above the interval boundaries than is the case for
+standard symmetric confidence intervals for small proportions.
+
+The method used is as follows:
+(1) Perform a logit transformation of the original percentage estimate:
+f = log(p)-log(1-p)
+where:
+p = the percentage estimate
+f = the logit transformation of the percentage
+
+(2) Transform the standard error of the percentage to a standard error of the it’s logit
+transformation:
+se(f) = se(p)/(p*(1-p))
+where:
+se = standard error
+
+(3) Calculate the lower and upper confidence bounds of the logit transformation of the percentage:
+Lf = f - t(alpha/2, df)*se
+Uf = f + t(alpha/2, df)*se
+where:
+Lf = lower confidence bound of f
+Uf = upper confidence bound of f
+t(alpha/2, df) = the value of the t-score corresponding to the desired alpha level (0.05 for a
+95% Confidence Interval) and the degrees of freedom (degrees of freedom is defined as “n1” where “n” is the sample size).
+
+(4) Finally, perform inverse logit transformations to get the confidence bounds of p:
+Lp = exp(Lf)/(1+exp(Lf))
+Up = exp(Uf)/(1+exp(Uf))
+where:
+Lp = lower confidence bound of p
+Up = upper confidence bound of p
+
+Complex Sample Designs
+
+
+The above formulas assume that the survey sample was a _simple random sample_ . If the
+survey used a complex sample design (such as clustering within households or disproportionate
+sampling from various geographic regions), special techniques must be used to calculate the
+standard error of the mean. Those techniques are accomplished using statistical software such as
+SAS®, STATA®, or SUDAAN®.
+
+
+When the Rate is Equal to 0
+
+
+When the percentage or rate is equal to zero, using the above calculation will yield a
+confidence interval of zero, which is incorrect. A simple method you can use to estimate the
+
+
+confidence interval when the percentage or rate is zero is to assume the number of cases in the
+numerator of your rate is “3,” then calculate the confidence interval using the population size in
+your original calculation. [3]
+
+95% Confidence Intervals for Rare Events:
+
+
+In the case of rare events distributed randomly across time, the normal distribution no
+longer applies. A different distribution, the Poisson distribution is used to model rare events that
+occur across time, such as the "100 year flood." [4] It is used to calculate confidence intervals for rare
+health events, such as infant mortality or cancer. This distribution is not symmetric about its mean
+and so the associated confidence intervals will not be symmetric (the upper limit is farther from the
+estimate than is the lower limit).
+
+
+The Poisson distribution does, however, assume the shape of a normal distribution when
+there are 20 or more events in the numerator. So we use a Poisson distribution for rare events
+(when the number of events is less than 20), but we can use the normal distribution when the
+number of events is 20 or more.
+
+
+**Poisson Distribution**
+
+
+In Appendix 2 you will find lower and upper confidence factors for use in calculating a 95%
+confidence interval for a rate based on a specified number of events, from 1 to 20. To calculate the
+confidence interval, multiply the estimated rate by the confidence factor associated with the number
+of events on which the rate is based.
+
+
+3 Lilienfeld, DE and Stolley, PD Foundations of Epidemiology (3rd Ed.). Oxford University Press, 1994.
+4 “In probability theory and statistics, the Poisson distribution is a discrete probability distribution that expresses the
+probability of a number of events occurring in a fixed period of time if these events occur with a known average rate
+and independently of the time since the last event.” Poisson Distribution, downloaded on 2/13/09 from
+[http://en.wikipedia.org/wiki/Poisson_distribution.](http://en.wikipedia.org/wiki/Poisson_distribution)
+
+
+For example, in a given geographic area, there were 722 births in a single year, and seven
+infant deaths. The infant mortality rate in was 9.7 per 1,000 live births, calculated as
+
+[(7/722)*1,000]. The lower and upper confidence limits are calculated using the confidence factors
+found on Appendix 2. The factors for seven events are .4021 and 2.0604 for the lower and upper
+limits of the confidence interval, respectively. The lower limit of the confidence interval =
+9.7*.4021 = 3.90, and the upper limit = 9.7*2.0604 = 19.99, for a rate of 9.7 and a 95% confidence
+interval from 3.90 to 19.99. If this same rate had been based on 100 deaths then the confidence
+factors would be .8136 and 1.2163. The lower limit would be 9.7*.8136, and the upper limit
+9.7*1.2163 for an estimate of 9.7 with a confidence interval from 7.89 to 11.80. This interval is
+much smaller due to the greater number of deaths on which the rate is based.
+
+
+In the Utah IBIS-PH query system, starting in March 2010, the confidence factors are
+obtained by using SAS® software that requires specification of the percentage of the inverse
+gamma distribution to be excluded on either end of the distribution (2.5% for a 95% confidence
+interval), and the two parameters associated with the distribution function: the mean and the
+variance. In the case of the crude rate, where the variance and mean are equal, this is the special
+case of the gamma family of distributions known as the Poisson distribution.
+
+
+Directly Age-Adjusted Rates
+
+
+When comparing across geographic areas, some method of age adjusting is typically used to
+control for area-to-area differences in health events that can be explained by differing ages of the
+area populations. For example, an area that has an older population will have higher crude (not ageadjusted) rates for cancer, even though its exposure levels and cancer rates for specific age groups
+are the same as those of other areas. One might incorrectly attribute the high cancer rates to some
+characteristic of the area other than age. Age-adjusted rates control for age effects, allowing better
+comparability of rates across areas. Direct standardization adjusts the age-specific rates observed in
+the small area to the age distribution of a standard population (Lilienfeld & Stolley, 1994) [5] .
+
+The directly age-adjusted death rate is a weighted average of the age-specific death rates where the
+age-specific weights represent the relative age distribution of the standard population.
+
+Directly age-adjusted death rate (DAADR) = Wsi * Di/ Pi = Wsi * Ri
+## ∑ ∑
+
+
+Where…..
+Wsi = the weight for the i [th] age group in the standard population (the proportion of the
+
+standard population in the i [th] age group) = Psi / Psi
+## ∑
+
+Psi = the population in age group i in the standard population
+Di = number of deaths (or other event) in age group i of the study population
+Pi = the population in age group i in the study population
+Ri = the age-specific rate in the i [th ] age group
+
+
+5 Lilienfeld, DE and Stolley, PD (1994)
+
+
+Using the properties of the Poisson distribution, the variance of the age-specific death rate is given
+by
+
+
+var(Ri) = var(Di/ Pi) = 1/ Pi 2  var(Di) = Di/ Pi 2 = Ri2/Di
+
+The variance of a directly age-adjusted death rate can then be computed as follows:
+
+
+var(DAADR) = Wsi2 * var (Ri) = 2 * Ri2/Di
+## ∑ ∑ [W][si]
+se(DAADR) = square root (var(DAADR))
+
+Where…..
+var(DAADR) = the variance of the directly standardized rate
+Wsi = the weight for the i [th] age group in the standard population
+Ri = the age-specific rate in the i [th ] age group
+var (Ri) = the variance of the age-specific death rate in the i [th] age group of the
+
+
+study population = Ri2/Di
+
+
+Di = number of deaths (or other event) in age group i of the study population
+se(DAADR) = standard error of the directly standardized rate
+
+The age-adjusted death rate is a linear combination of independent Poisson random
+variables and therefore is not a Poisson random variable itself. It can be placed in the more general
+family of gamma distributions of which the Poisson is a member. Statistical packages such as SAS
+have a function to calculate factors that may be applied to age-adjusted death rates to calculate 95percent confidence intervals. These factors are derived from a standard gamma distribution.
+
+
+In the IBIS-PH query system, starting in March 2010, the confidence intervals are obtained
+by using SAS® software that requires specification of the percentage of the distribution to be
+excluded on either end of the distribution (2.5% for a 95% confidence interval), and the two
+parameters associated with the distribution function: the mean and the variance. In the case of the
+age-adjusted rate, the variance and mean are not equal and this fact is accounted for in the
+calculation of the confidence factors used to compute the gamma confidence intervals for ageadjusted rates. [6] Gamma intervals perform well even when the number in any specific ageadjustment age group cell is small. [7]
+
+Indirectly Age-Adjusted Rates
+
+
+The direct method can present problems when population sizes are particularly small.
+Calculating directly standardized rates requires calculating age-specific rates, and for small areas
+these age-specific rates may be based on one or two events. The general rule of thumb is that if
+
+6 Anderson RN, Rosenberg HM, Age Standardization of Death Rates: Implementation of the Year 2000 Standard.
+National vital statistics reports; vol 47 no.3. Hyattsville, Maryland: National Center for Health Statistics. 1998
+7 Fay MP, Feuer EF, Confidence Intervals for Directly Standardized Rates: A Method based on the Gamma
+Distribution. Statistics in medicine, vol 16, 791-801 (1997)
+
+
+there are fewer than 20 (some say 25) cases in the index population, indirect standardization of
+rates should be used.
+
+
+Indirectly standardized rates are based on the Standardized Mortality Ratio (SMR) and the
+crude rate for a standard population. Indirect standardization adjusts the overall standard population
+rate to the age distribution of the small area (Lilienfeld & Stolley, 1994) [8] . Strictly speaking, it is
+valid to compare indirectly standardized rates only with the rate in the standard population, not with
+each other. [9]
+
+An indirectly standardized death or disease rate (ISR) can be computed as:
+
+
+ISR = SMR*Rs
+
+SMR = observed deaths/disease in the small area = D  =    D
+
+expected deaths/disease in the small area   e     ∑ (Rsi * ni)
+
+Where...
+
+SMR = observed deaths in the small area/expected deaths in the small area
+
+
+D = observed number of deaths in the small area
+
+
+e = ∑(Rsi * ni) = expected number of deaths in small area
+
+
+Rs = the crude death rate in the standard population
+
+
+Rsi = the age-specific death rate in age group i of the standard population ( # deaths / population
+count, before applying the constant)
+
+
+ni = the population count in age group i of the small area
+
+
+For indirectly standardized rates based on events that follow a Poisson distribution and for
+which the ratio of events to total population is small (<.3) and the sample size is large, the
+following two methods can be used to calculate confidence interval (Kahn & Sempos, 1989) [10] .
+
+(1) When the number of events >20:
+
+
+CIISR = +1.96 √(SMR/e) * Rs * K
+
+
+8 Lilienfeld & Stolley (1994)
+9 Rothman, Kenneth J. and Greenland, Sander (1998) Modern Epidemiology (2nd Ed.). Philadelphia, PA: Lippincott.
+10 Harold A. Kahn and Christopher T. Sempos (1989) Statistical Methods in Epidemiology. New York: Oxford
+University Press.
+
+
+Where...
+
+SMR = observed deaths in the small area/expected deaths in the small area
+e = expected deaths in the small area = ∑(Rsi * ni)
+Rs = the crude death rate in the standard population
+Rsi = the age-specific death rate in age group i of the standard population ( # deaths / population
+count)
+ni = the population count in age group i of the small area
+K = a constant (e.g., 100,000) that is being used to communicate the rate
+
+(2) When the number of events <=20:
+
+
+LLISR = (Lower limit for parameter estimate from Poisson table/e)) * Rs * K
+ULISR = (Upper limit for parameter estimate from Poisson table/e)) * Rs * K
+
+Where…
+
+LL is the lower confidence interval limit, and
+UL is the upper confidence interval limit.
+
+**Revision History**
+
+
+|1/15/2002|Document created|Brian Paoli, Lois M. Haggard, Gulzar Shah, Office ofPublic Health Assessment, Utah Department of Health|
+|---|---|---|
+|8/11/2009|Images of samplingdistributions, errorcorrection, when rate=zero.|Lois M. Haggard, Community Health AssessmentProgram, New Mexico Department of Health|
+|12/02/2009|Asymmetric confidenceintervals for percentagesclose to 0% or 100%.|Michael Friedrichs, Chronic Disease Bureau, UtahDepartment of Health, Kathryn Marti, Brian Paoli,Office of Public Health Assessment, Utah Departmentof Health|
+|4/23/2010|Paragraph on CI for non-binomial distributions|Lois M. Haggard, Community Health AssessmentProgram, New Mexico Department of Health|
+|4/30/2010|Added text in ‘95%Confidence Intervals forRare Events’ and ‘DirectlyAge-adjusted Rates’ re:using SAS procedure tocalculate confidenceintervals for rare events.|Kathryn Marti, Brian Paoli, Office of Public HealthAssessment, Utah Department of Health|
+
+
+**Appendix 1. Upper critical values of Student's t distribution with** _**K**_ **degrees of freedom**
+
+
+Probability of exceeding the critical value
+
+
+_**K**_ **0.10** **0.05** **0.025** **0.01** **0.001**
+1 3.078 6.314 12.706 31.821 318.313
+2 1.886 2.920 4.303 6.965 22.327
+3 1.638 2.353 3.182 4.541 10.215
+4 1.533 2.132 2.776 3.747 7.173
+5 1.476 2.015 2.571 3.365 5.893
+6 1.440 1.943 2.447 3.143 5.208
+7 1.415 1.895 2.365 2.998 4.782
+8 1.397 1.860 2.306 2.896 4.499
+9 1.383 1.833 2.262 2.821 4.296
+10 1.372 1.812 2.228 2.764 4.143
+11 1.363 1.796 2.201 2.718 4.024
+12 1.356 1.782 2.179 2.681 3.929
+13 1.350 1.771 2.160 2.650 3.852
+14 1.345 1.761 2.145 2.624 3.787
+15 1.341 1.753 2.131 2.602 3.733
+16 1.337 1.746 2.120 2.583 3.686
+17 1.333 1.740 2.110 2.567 3.646
+18 1.330 1.734 2.101 2.552 3.610
+19 1.328 1.729 2.093 2.539 3.579
+20 1.325 1.725 2.086 2.528 3.552
+21 1.323 1.721 2.080 2.518 3.527
+22 1.321 1.717 2.074 2.508 3.505
+23 1.319 1.714 2.069 2.500 3.485
+24 1.318 1.711 2.064 2.492 3.467
+25 1.316 1.708 2.060 2.485 3.450
+26 1.315 1.706 2.056 2.479 3.435
+27 1.314 1.703 2.052 2.473 3.421
+28 1.313 1.701 2.048 2.467 3.408
+29 1.311 1.699 2.045 2.462 3.396
+30 1.310 1.697 2.042 2.457 3.385
+
+
+**Appendix 2. 95% Confidence Interval Factors for Poisson-Distributed Events**
+
+
+# **iply these** **ervals by** **number** **events** **to get** **e range** **aw values**
+
+
+0 0.0000 3.7000
+
+
+1 0.0253 5.5716
+
+
+2 0.1211 3.6123
+
+
+3 0.2062 2.9224
+
+
+4 0.2725 2.5604
+
+
+5 0.3247 2.3337
+
+
+6 0.3670 2.1766
+
+
+7 0.4021 2.0604
+
+
+8 0.4317 1.9704
+
+
+9 0.4573 1.8983
+
+
+10 0.4795 1.8390
+
+
+11 0.4992 1.7893
+
+
+12 0.5167 1.7468
+
+
+13 0.5325 1.7100
+
+
+14 0.5467 1.6778
+
+
+15 0.5597 1.6493
+
+
+16 0.5716 1.6239
+
+
+17 0.5825 1.6011
+
+
+18 0.5927 1.5804
+
+
+19 0.6021 1.5616
+
+
+20 0.6108 1.5444
+
+## 2022-data-journalism-cheat-sheets/documents/odds_ratios.pdf
+
+**RATIOS, PROPORTIONS, PERCENTAGES, AND RATES**
+
+
+1. **Ratios:** ratios are one number expressed in relation to another by dividing the one number
+by the other. For example, the sex ratio of Delaware in 1990 was:
+
+
+343,200 females to 322,968 males or 1.06
+
+
+This can easily be expressed in terms of males to females, .94. There is really no way
+other than tradition and practice or your specific purpose to determine which figure is the
+numerator and which is the denominator. The interpretation of the sex ratio is that for every
+male there are 1.06 females. Sometimes we express this as the ratio per 100, 1,000, or
+100,000 persons. So, we could say 106 females for every 100 males.
+
+
+Other ratios commonly used are:
+
+
+**Population Density** -- the number of people per square mile. In 1990 in Delaware, the
+population density was:
+666,168 persons / 1955 sq. miles = 341 persons per square mile
+
+
+In New Castle County, the population density was:
+441,946/426 = 1,037 persons per square mile
+
+
+**The Dependency Ratio** -- the number of people under age 15 plus the number 65 and over
+divided by the number of people 15 to 64. It is a crude measure of dependency that
+assumes age defines your economic contribution. :
+
+
+In 1994 in Delaware, the dependency ratio was estimated as:
+( 152,869+ 90,329)/462,396 = .53
+_For every 100 workers there are 53 dependents_, or
+_For every dependent, there are 1.9 workers_
+
+
+2. **Proportions:** proportions are special kinds of ratios where the denominator is the total
+while the numerator is a subpart of the total. This tells us what part the numerator is of the
+total. Thus, while the ratio of females to males in Delaware is 1.06, females represent .515
+proportion of the total. Percentages are just a form of the proportion based on 100 people.
+To calculate a percentage we simply multiply a proportion by 100 (females are 51.5% of the
+total).
+
+
+3. **Rates:** rates are a special form of a ratio which represents the probability of a certain
+event. The numerator is the number of occurrences of an event during a time period, and
+the denominator is the number of persons exposed to that event in the time period. To be a
+true rate we must try to have only those at risk in the denominator. Sometimes this is
+difficult to do so we use approximations or use the total population. In the latter case we
+generally call it a _crude rate_ . Let’s use fertility rates as examples:
+
+
+**The Crude Birth Rate** is given by the number of live births per 1,000 population in a given
+year. In 1994 the crude birth rate for Delaware was estimated as:
+(10,390/705,594) x 1,000 = 14.7
+
+
+**HOW TO PERCENTAGE A TABLE**
+
+
+Often people are confused as to the correct way to percentage a table. In fact, the correct percentage
+depends upon the purpose of the user. Suppose we have a simple table of labor force participation by
+sex (see Table 1). The Percentage of males in the labor force could be expressed as:
+
+
+a: The # of males in the labor force over the total # of persons 16 years and over:
+(188,631/518,946) x 100 = 36.35%
+b. The # of males in the labor force over the total # in the labor force:
+(188,631/354,474) x 100 = 53.21%
+c. The # of males in the labor force over the total # of males 16 years and over:
+(188,631/247,566) x 100 = 76.19%
+
+
+**Table 1: Labor Force Participation of Males and Females 16 Years and Over in Delaware, 1990**
+
+|Labor Force Participation|Males|Females|Total|
+|---|---|---|---|
+|**Labor Force Participation**|**N**|**N**|**N**|
+|In the Labor Force|188,631|165,843|354,474|
+|Not in the Labor Force|58,935|105,537|164,472|
+|TOTAL|247,566|271,380|518,946|
+
+
+Table 2 shows the table using all three percentages, which is often given by a computer statistical
+package such as SAS. We have three numbers, but which one is right? The simple answer is that all
+three are right, but they tell different stories. Calculation (a) tells what percent of the total possible labor
+force (persons 16 years and over) are males in the labor force. Most times this is not all that interesting.
+Calculation (b) gives an indication of the percentage of those in the labor force who are male. This is
+analogous to saying: _Given a person is in the labor force, what is the probability that this person is a male?_
+The answer is that 53.21 percent of the those in the labor force are males. This may be of interest, but in
+a causal sense we don’t think that being in the labor force causes (or influences) a person to be male.
+
+
+**Table 2: Labor Force Participation of Males and Females 16 Years and Over, in Delaware, 1990**,
+**with Row, Column, and Total Percentages**
+
+
+|Labor Force Participation|Males|Females|Total|
+|---|---|---|---|
+|**Labor Force Participation**|**N**|**N**|**N**|
+|**In the Labor Force**|**188,631**53.21%76.19%36.35%|**165,843**46.79%61.11%31.96%|**354,474**68.31%|
+|**Not in the Labor Force**|**58,935**35.83%23.81%11.36%|**105,537**64.17%38.89%20.34%|**164,472**31.69%|
+|**TOTAL**|**247,566**47.71%|**271,380**52.29%|**518,946**|
+
+
+On the other hand, calculation (c) gives the percentage of all males 16 years and older who are in the
+labor force. This is analogous to saying: _**Given a person is male, what is the probability of being in**_
+_**the labor force?**_ The latter calculation is a labor force participation rate and is generally what we want to
+report. Table 2 shows the full labor force participation rates for males and females.
+
+
+The Rule of Thumb is:
+
+
+_If you can specify one variable as causing or influencing a second variable, the first variable is called_
+_the_ _**independent variable**_ _and the latter is called the_ _**dependent variable**_ _. You should percentage in_
+_the direction of your independent variable._
+
+
+For example, consider the following table.
+
+
+|Table 2: Labor Force Participat Over, in Delaware, 1990|tion Rates of Males|and Females 16 Ye|ears and|
+|---|---|---|---|
+|**Labor Force Participation**|**Males**|**Females**|**Total**|
+|**Labor Force Participation**|**N****(Percent)**|**N****(Percent)**|**N****(Percent)**|
+|In the Labor Force|188,631(76.19%)|165,843(61.11%)|354,474(68.31%)|
+|Not in the Labor Force|58,935(23.81%)|105,537(38.89%)|164,472(31.69%)|
+|TOTAL|247,566|271,380|518,946|
+
+
+In this case, **the independent variable is the total number of males** . **The dependent variable is**
+**the number in the labor force** . “In the direction of... “ means that the independent variable should be
+used as the denominator or the point of comparison.
+
+
+**HOW TO CALCULATE AN ODDS RATIO**
+
+
+Odds ratios have become popular ways of displaying data. Whenever you hear an expression such as,
+“One group is 3 times more likely to suffer from chronic disease”, this is an odds ratio. It expresses the
+likelihood of one group experiencing a situation relative to another group. Here’s how it works. Table 1
+shows the labor force participation of males and females 16 years and over in Delaware.
+
+
+**Table 1: Labor Force Participation of Males and Females 16 Years and Over in Delaware, 1990**
+
+|Labor Force Participation|Males|Females|Total|
+|---|---|---|---|
+|**Labor Force Participation**|**N**|**N**|**N**|
+|In the Labor Force|188,631|165,843|354,474|
+|Not in the Labor Force|58,935|105,537|164,472|
+|TOTAL|247,566|271,380|518,946|
+
+
+The odds of males being in the labor force is the ratio of males in the labor force to males not in the
+labor force:
+
+
+**Oddsmales in LF** = 188,631/58,935 = 3.20
+
+
+This means males are 3.2 times more likely to be in the labor force rather than not be in the labor
+force.
+
+
+The odds of females being in the labor force is the ratio of females in the labor force to females not in
+the labor force:
+
+
+**Oddsfemales in LF** = 165,843/105,537 = 1.57
+
+
+This means that females are 1.57 times more likely to be in the labor force rather than not be in
+the labor force.
+
+
+The **Odds Ratio** of males in the labor force to females in the labor force is the ratio of the two odds:
+
+
+**Odds RatioMales to Females** = 3.20/1.57 = 2.04
+
+
+This means that males are twice as likely to be in the labor force than are females.
+
+
+Odds ratios take some getting used to before feeling comfortable. Notice that an odds ratio of two does
+not mean the percentage or proportion for males is twice that for females. It just means that males are
+twice as likely to be in the labor force when compared to females (the odds for males is twice that for
+females).
+
+
+Odds ratios are very useful when comparing subgroups to each other. For example, labor force
+participation rates for women with children is much higher than those without children. Part of the
+difference is due to age - women with children are younger, and younger persons are more likely to be in
+the labor force. However, part of the difference reflects real social change as over time more women in
+families with children are working to make ends meet. In 1990, 73.64 percent of women with children
+under 18 were in the labor force. Consider the following analysis using odds and odds ratios:
+
+
+The odds of females with children under 18 being in the labor force is the ratio of females with children in
+the labor force to females with children not in the labor force:
+
+
+**Oddsfemales with children** = 62,390/22,338 = 2.79
+
+
+This means that females with children under 18 are 2.79 times more likely to be in the labor force
+rather than not be in the labor force.
+
+
+The odds of females without children under 18 being in the labor force is the ratio of females without
+children in the labor force to females without children not in the labor force:
+
+
+**Oddsfemales with children** = 103,453/83,199 = 1.24
+
+
+This means that females without children under 18 are only 1.24 times more likely to be in the
+labor force rather than not be in the labor force.
+
+
+The **Odds Ratio** of females with children under 18 in the labor force to females without children under 18
+in the labor force is the ratio of the two odds:
+
+
+**Odds RatioFealesW/C to Females Wo/C** = 2.79/1.24 = 2.25
+
+
+This means that women with children are over twice as likely to be in the labor force than are women
+without children under 18.
+
+## 2022-data-journalism-cheat-sheets/not-where-you-expect.md
+
+# Not where you expect
+
+A running list of North Carolina cities and counties that aren't where you expect them to be. Make sure you get it right.
+
+* **Columbus** is in **Polk County**  not **Columbus County**
+* **Lenoir** is in **Caldwell County**, not **Lenoir County**
+* **Washington** is in **Beaufort County**, not **Washington County**
+* **Beaufort** is in **Carteret County**, not **Beaufort County**
+* **Rockingham** is in **Richmond County**, not **Rockingham County**
+* **Rutherford College** is in **Burke County**, not **Rutherford County**
+* **Wilson's Mills** is in **Johnston County**, not **Wilson County**
+* **Vanceboro** is in **Craven County**, not **Vance County**
+* **Henderson** is in **Vance County**, not **Henderson County**
+* **Brunswick** is in **Columbus County**, not **Brunswick County**
+* **Gaston** is in **Northhampton County**, not **Gaston County**
+* **Jackson** is in **Northhampton County**, not **Jackson County**
+
+There are a few that sound similar
+
+* **Elizabeth City**, in Pasquotank County, is not **Elizabethtown**, in Bladen County
+* **King**, in Stokes and Forsyth counties, is not **Kings Mountain**, in Cleveland County
+* **Henderson**, in Vance County, is not **Hendersonville**, in Henderson County
+
+There are a few that are where you expect, though.
+
+* **Durham** is in **Durham County**
+* **Wilson** is in **Wilson County**
+* **Franklinton** is in **Franklin County**
+* **Gastonia** is in **Gaston County**
+* **Nashville** is in **Nash County**
+* **Rutherfordton** is in **Rutherford County**
+* **Hendersonville** is in **Henderson County**
+* **Bladenboro** is in **Bladen County**
+* **Gatesville** is in **Gates County**
+* **Yadkinville** is in **Yadkin County**
+* **Wilkesboro** is in **Wilkes County**
+
+## 2022-data-journalism-cheat-sheets/readme.md
+
+```
+ooooo   ooooo   .oooooo.   oooooo   oooooo     oooo         ooooooooooooo   .oooooo.
+`888'   `888'  d8P'  `Y8b   `888.    `888.     .8'          8'   888   `8  d8P'  `Y8b
+ 888     888  888      888   `888.   .8888.   .8'                888      888      888
+ 888ooooo888  888      888    `888  .8'`888. .8'                 888      888      888
+ 888     888  888      888     `888.8'  `888.8'     8888888      888      888      888
+ 888     888  `88b    d88'      `888'    `888'                   888      `88b    d88'
+o888o   o888o  `Y8bood8P'        `8'      `8'                   o888o      `Y8bood8P'
+```
+A cheat sheet for common data journalism stuff. For details on installing these tools, [see how I work](http://mtdukes.com/work.html). Use <kbd>CMD</kbd> + <kbd>F</kbd> to search the page, or the jump menu below if you know what you're looking for.
+
+### Jump to:
+**Command line tools** [grep](https://github.com/mtdukes/how-to#grep) | [head/tail](https://github.com/mtdukes/how-to#headtail) | [ffmpeg](https://github.com/mtdukes/how-to#ffmpeg) | [pdftk](https://github.com/mtdukes/how-to#pdftk) | [esridump](https://github.com/mtdukes/how-to#esridump) | [wget](https://github.com/mtdukes/how-to#wget) | [file](https://github.com/mtdukes/how-to#file) | [sed](https://github.com/mtdukes/how-to#sed) | [wc](https://github.com/mtdukes/how-to#wc) | [imagemagick](https://github.com/mtdukes/how-to#imagemagick) | [libpst](https://github.com/mtdukes/how-to#libpst) | [gunzip](https://github.com/mtdukes/how-to#gunzip) | [sysctl](https://github.com/mtdukes/how-to#sysctl)
+
+**R packages** [shortcut keys](https://github.com/mtdukes/how-to#shortcut-keys) | [base](https://github.com/mtdukes/how-to#base) | [readr](https://github.com/mtdukes/how-to#readr) | [scales](https://github.com/mtdukes/how-to#scales) | [ggpmisc](https://github.com/mtdukes/how-to#ggpmisc) | [dplyr](https://github.com/mtdukes/how-to#dplyr) | [stringr](https://github.com/mtdukes/how-to#stringr) | [plyr](https://github.com/mtdukes/how-to#plyr) | [clipr](https://github.com/mtdukes/how-to#clipr) | [googlesheets4](https://github.com/mtdukes/how-to#googlesheets4) | [janitor](https://github.com/mtdukes/how-to#janitor)
+*For more on tips and tricks for working with common data formatting issues in R, [check out the code snippet collection here](working-with-data-in-r.md)*
+
+**Math for journalists** [Standard deviation](https://github.com/mtdukes/how-to#standard-deviation) | [Rate comparisons](https://github.com/mtdukes/how-to#rate-comparisons) | [Odds ratios](https://github.com/mtdukes/how-to#odds-ratios) | [Poisson distributions](https://github.com/mtdukes/how-to#poisson-distributions) | [Making sense of symbols](https://github.com/mtdukes/how-to#making-sense-of-symbols)
+
+**GIS tips** [Latitude and longitude](https://github.com/mtdukes/how-to#latitude-and-longitude) | [NC bounding box](https://github.com/mtdukes/how-to#nc-bounding-box)
+
+**Browser tricks** [PDFs](https://github.com/mtdukes/how-to#pdfs) | [Video](https://github.com/mtdukes/how-to#video)
+
+**Troubleshooting** [Location errors](https://github.com/mtdukes/how-to#location-errors)
+
+**Convenience files** [U.S. states](https://github.com/mtdukes/how-to#us-states) | [N.C. places](https://github.com/mtdukes/how-to#nc-places)
+
+# Command line tools
+A collection of tips and tricks for working with tools executed using bash terminals.
+
+## grep
+Search text files for specific character sequences.
+
+### Basic search
+
+```bash
+grep "DUKES" absentee.csv
+```
+Return lines containing a string from a specified file and print to the command line.
+
+### Print to a file
+```bash
+grep "\"DUKES\",\"MICHAEL\",\"TYLER\"" absentee.csv > dukes.csv
+```
+Search for a string with quotes and output all lines to a file.
+
+### Recursively search a directory of files, first line only
+```bash
+head -1 ./*/*|grep -B1 'Hospital overall rating' > variable.txt
+```
+Combining `head` and `grep` with a pipe allows you to chain commands, and the `-B1` flag allows you to output the file name.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## head/tail
+Get a preview of a file.
+
+### See the top
+```bash
+head absentee.csv
+```
+Print the first 10 lines of a file to the command line.
+
+### Specify the number of lines
+
+```bash
+head -1 absentee.csv > absentee_header.csv
+```
+Get the first line of a file and save it to a CSV file.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## ffmpeg
+A power tool for processing and converting video and audio files.
+
+### Make a GIF
+```bash
+ffmpeg -ss 5 -t 1.7 -i video.MOV -vf "fps=24,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 video.gif
+```
+Create a high quality GIF 640 pixels wide at 24 frames per second using the specified video file, skipping 5 seconds and lasting 1.7 seconds and save the output.
+
+### Caption the GIF
+```bash
+ffmpeg -ss 278.8 -t 3.3 -i wings.mp4 -filter_complex "fps=24,scale=640:-1:flags=lanczos,drawtext=box=1:boxcolor=black@0.4:boxborderw=5:fontfile=/System/Library/Fonts/Supplemental/Impact.ttf:text='CONTRARY TO MY APPEARANCE,':fontsize=48:fontcolor=white:x=(w-tw)/2:y=(h/PHI)+th,drawtext=box=1:boxcolor=black@0.4:boxborderw=5:fontfile=/System/Library/Fonts/Supplemental/Impact.ttf:text='I AM ENJOYING THIS.':fontsize=48:fontcolor=white:x=(w-tw)/2:y=(h/PHI)+th+50,split[x1][x2];[x1]palettegen[p];[x2][p]paletteuse" wings.gif
+```
+Tweak the parameters (or delete the second line) to adjust the font, text etc. of the caption.
+
+### MOV to mp4
+```bash
+ffmpeg -i apple.mov -vcodec h264 -acodec aac apple.mp4
+```
+Use a codec flag to convert a video file from QuickTime to the more universal mp4 format.
+
+### AVI to mp4
+```bash
+ffmpeg -i full_video.avi full_video.mp4
+```
+Convert an AVI file to the more universal mp4 format.
+
+### Combine video clips
+```bash
+ffmpeg -f concat -safe 0 -i vidlist.txt -c copy full_video.avi
+```
+Combine all of the files recorded in a text file called `vidlist.txt`, which looks like this:
+```
+file '/Users/username/directory/vid_seq001.avi'
+file '/Users/username/directory/vid_seq002.avi'
+```
+
+### Create a video from a sequence of images
+```bash
+ffmpeg -r 1/5 -i img%03d.jpg -c:v libx264 -vf "fps=25,format=yuv420p" out.mp4
+```
+Read in a sequence of images from a folder and write to an mp4 file. The `-r` flag is the framerate, where the duration of each image is the inverse of the provided value (e.g. 1/5 is 5 seconds, 60 is 1/60 of a second). The `-i` flag specifies the filename structure, with 0 padding specified (e.g.  img%03d.jpg will iterate through img001.jpg, img002.jpg, img003.jpg etc.). [More details here](https://hamelot.io/visualization/using-ffmpeg-to-convert-a-set-of-images-into-a-video/).
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## pdftk
+A power tool for processing and converting PDF files.
+
+### Combine files
+```bash
+pdftk *.pdf cat output all_documents.pdf
+pdftk doc01.pdf doc02.pdf cat output all_documents.pdf
+```
+Combine all the PDF files in the present directory into a single file. Or specify individual files *Note: check to make sure the capitalization of the filetype matches.*
+
+### Split files by page number
+```bash
+pdftk blue_docs.pdf cat 1-700 output blue_docs01.pdf
+pdftk blue_docs.pdf cat 701-end output blue_docs02.pdf
+````
+Specify the page number or use the `end` keyword to slice up a document.
+
+### Split a PDF portfolio
+```bash
+pdftk doj_emails_portfolio.pdf unpack_files output doj_emails
+```
+PDF portfolios contain a bunch of individual files bound up in a filetype that needs a native PDF reader. Get around this by unpacking each file into a specific directory.
+
+### Split a PDF portfolio with attachments
+```bash
+pdftk doj_emails_portfolio.pdf unpack_files output doj_emails;
+IFS=$'\n'; set -f
+for f in $(find ./doj_emails/ -name '*.pdf'); do pdftk "$f" unpack_files output ./doj_emails/; done
+unset IFS; set +f
+```
+If your PDF portfolio has attachements within the individual PDF, you can use your terminal to unpack the portfolio into a directory, then set up a loop to unpack all of the PDFs in that directory on by one (Thanks to this [Stackoverflow thread](https://stackoverflow.com/questions/4638874/how-to-loop-through-a-directory-recursively-to-delete-files-with-certain-extensi) for tips on bash recursion and dealing with spaces in filenames.)
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## esridump
+[A targeted utility](https://github.com/openaddresses/pyesridump) to pull down geographic data from ESRI maps.
+
+### Download a geojson
+```bash
+esri2geojson https://services.arcgis.com/iFBq2AW9XO0jYYF7/arcgis/rest/services/Covid19byZIPnew/FeatureServer/0 nc_zipDATE.geojson
+```
+Download data from the ESRI REST endpoint that powers the N.C. DHHS COVID map of cases by zip code and save it as a geojson file.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## wget
+A power tool for recursively downloading files, for example from the Web.
+
+### Download a single file
+```bash
+wget http://mtdukes.com/work.html
+```
+Saves the file from the specified URL.
+
+### Download a list of files
+```bash
+wget -i file_list.txt
+```
+Saves individual files from URLs specified in a TXT file, one URL on each line.
+
+### Download a directory
+```bash
+wget --recursive --no-parent http://mtdukes.com
+```
+Recursively download an entire site's contents.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## file
+Tool to do various file formatting things I think.
+
+### Detect encoding of a file
+```bash
+file -I input.csv
+```
+Detect encoding of a file.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## sed
+Tool to make substitutions in a text file (submitted by [Chris Alcantara](https://github.com/chrisalcantara)).
+
+### Replace all instances of a word and output result to new file
+```bash
+sed "s/dook/duke/g" ./old.csv > new.csv
+```
+[Syntax](https://www.tutorialspoint.com/unix/unix-regular-expressions.htm) uses `/` as a delimiter to separate patterns you want to substitute.
+
+### Replace all instance of a word within the file
+```bash
+sed -i "" "s/dook/duke/g" ./data.csv
+```
+Substitute directly in the file by passing an empty string after the `-i` flag.
+
+### Pass a file name to make a backup.
+
+```bash
+sed -i "./data-backup.csv" "s/dook/duke/g" ./data.csv
+```
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## wc
+A basic character counting utility for the command line.
+
+### Count the number of lines in a file
+```bash
+wc -l < data_file.txt
+```
+The `<` flag excludes the file name from the results.
+
+### Pipe the results of some data and count the lines
+```bash
+curl mtdukes.com --silent | wc -l
+```
+
+## imagemagick
+[A power tool](https://imagemagick.org/index.php) for quickly editing images.
+
+### Batch crop a folder of images
+```bash
+mogrify -crop 800x450+0+40 -path ./cropped *.jpg
+```
+In a folder of images, crop every jpg image at size 800x450, with a 0px offset from the left (x) and a 40px offset from the top (y).
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## libpst
+A [collection of tools](https://www.five-ten-sg.com/libpst/) to work with and convert PST files (Outlook folders containing email). On Macs, [install with homebrew](https://formulae.brew.sh/formula/libpst).
+
+### Convert PST to MBOX
+```bash
+readpst public_records.pst
+```
+Outputs a single file in mbox format, which is a more open format you can import into a number of email clients. That includes Mozilla's Thunderbird, which you can import [using the ImportExportNG add-on](https://addons.thunderbird.net/en-US/thunderbird/addon/importexporttools-ng/).
+
+### Convert PST to individual email files
+```bash
+readpst -e -D public_records.pst
+```
+Separates the PST into individual eml files. Attachments are embedded in the file. The `-D` flag preserves deleted items. Can be read by services like Google's Pinpoint.
+
+### Convert PST to rich text files and export attachments
+```bash
+readpst -S -D public_records.pst
+```
+Separates the PST into individual eml files, each emails rich text body and individual attachment. The numbered files are in eml format, with no extension. The `-D` flag preserves deleted items.
+
+### Convert PST to eml and msg files
+```bash
+readpst -m -D public_records.pst
+```
+Produces both msg and eml files for each message.  The `-D` flag preserves deleted items.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## gunzip
+Quickly and efficiently unzip files (or a folder full of files). Can also unzip some files where a normal unzipping GUI throws errors. Useful for `.gz` file extensions.
+
+### Unzip a single file
+```bash
+gunzip map_file.gz
+```
+Unzips a specific file and replaces it with the unzipped version.
+
+### Keep the original zipped file
+```bash
+gunzip -c map_file.gz > map_file.shp
+```
+Uses the `stdout` flag to read to the console, but pipe to a new file to keep the original.
+
+### Unzip a folder full of files
+```bash
+gunzip -r /map_files
+```
+Uses the recursive flag to iterate through every zipped file in a folder and replace it with the unzipped version.
+
+## sysctl
+A suite of tools to anaylze your system (for Mac).
+
+### Examine CPU threads
+```bash
+sysctl hw.physicalcpu hw.logicalcpu
+```
+Provides an output of physical and logical cores [your CPU has](https://superuser.com/questions/1101311/how-many-cores-does-my-mac-have).
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# R packages
+
+## shortcut keys
+A few common shortcuts save you from typing in RStudio.
+
+### Start a new section
+<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
+
+Prompt for a new label used in the document outline for an R script
+
+### Execute a command
+<kbd>Command</kbd> + <kbd>Enter</kbd>
+
+Run a section of code in your R script.
+
+### Use a pipe
+<kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd>
+
+Input a `%>%` at your cursor to pipe output to the next line with the `dplyr` library.
+
+### Use an assignment
+<kbd>Option</kbd> + <kbd>-</kbd>
+
+Input a `<-` at your cursor to assign output to a variable.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## base
+The stripped down version of R has lots of built-in stuff worth using.
+
+### Clear all environment variables
+```R
+rm(list = ls())
+```
+Start with a clean slate using the `rm` command.
+
+### Set your working directory
+```R
+setwd('~/projects/newsobserver/big_investigation/data')
+```
+Save time otherwise spent typing out long path names.
+
+### Get unique values
+```R
+property_sales %>% 
+  unique()
+```
+Generates a dataframe of unique rows across all fields.
+
+### Get duplicate values
+```R
+wake_sales %>% 
+  .[duplicated(.), ]
+```
+Generates a dataframe of duplicated rows, comparing all fields.
+
+### Get a list of files in a folder
+```R
+county_data <- list.files(path = './data/counties', full.names = TRUE)
+```
+The `full.names` flag prepends the directory path if `TRUE`, and file name only if `false`.
+
+### Remove a package
+```R
+detach("package:plyr", unload=TRUE)
+```
+Removing a package can help when you have conflicts between functions with the same name.
+
+### Format a date
+```R
+as.Date('01/01/2001', format = '%m/%d/%Y' )
+```
+Specify the format explicitly [using the syntax](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/strptime) from `strptime`.
+
+### Find and replace characters in a string
+```R
+gsub(',', '', 'womp,womp')
+gsub('\\(', ',for real', 'Replace the literal parenthesis (' )
+```
+Enter a [pattern](http://uc-r.github.io/regex), replacement and data value to search.
+
+### Get rid of non-ASCII characters
+```R
+gsub('[^ -~]', '', '日本人GALATIA')
+```
+This [pattern](https://boyter.org/2014/02/explain-regex-matches-ascii-characters/), translates to "not any ASCII character". Useful when cleaning a malformed file. Can also use the `[^ -~]` in other contexts.
+
+### Load a file with an annoying encoding
+```R
+vax_data <- read.delim('cnty20210731.csv', fileEncoding = 'UTF-16LE', sep = '\t',
+                              col.names = c('index', 'county', 'week_of', 'age12_17',
+                              'age18_24', 'age25_49', 'age50_64')
+                              )
+```
+The [readr package](https://github.com/mtdukes/how-to#readr) is my preferred method for importing data, sometimes [it chokes](https://github.com/tidyverse/readr/issues/306) on strange file encodings even with the `locale` parameter set. So this method is worth trying.
+
+### Turn off scientific notation
+```R
+options(scipen = 999)
+```
+Prints out the full numeral in your current workspace.
+
+### Test for significance when preparing proportions
+
+```R
+#Black maternal mortality in 2020 and 2021 compared to the number of live births
+prop.test(x = c(323, 506), n = c(397827, 517889), correct = FALSE)
+```
+Use a 2-sample test for equality of proportions to generate a p-value, which tells you [how likely it is that the observed difference is due to random chance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4111019/#:~:text=The%20P%20value%20is%20defined,groups%20is%20due%20to%20chance.). Typically, p-values of less than 0.05 are considered statistically signficant (95% confidence interval).
+
+The `prop.test` function accepts a vector of values for the numerator (`x`) and the denominator (`n`).
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## readr
+A ["fast and friendly way"](https://www.rdocumentation.org/packages/readr/versions/1.3.1) to read in data. Part of the tidyverse suite of packages.
+
+### Specify a default column type
+```R
+my_data <- read_csv('../my_data.csv', col_types = cols(.default = 'c', date = 'D'))
+```
+Tell `read_csv` to import all columns as a character by default, except for the date field, which should be a date (you can remove the date part if you want to read everything in as a character).
+
+### Get the file encoding
+```R
+guess_encoding(file = 'annoying_file.csv')
+```
+Useful for errors reading in the file (like embedded nulls).
+
+### Pull data from a GitHub gist
+```R
+county_fips <- read_tsv( url(
+    'https://gist.githubusercontent.com/mtdukes/e0c6563927fb4f3e48f4e092b84b7023/raw/56e5abc1daf2277b5d901cbc25b9f9e64ab8c073/nc_fips_tab.tsv'
+    ))
+```
+Use the `url` function from base R to pull formatted data posted in public gists, [like these convenience files](https://github.com/mtdukes/how-to#convenience-files). Swap out the delimiter function (read_csv, read_delim, etc) as needed. Get the URL by clicking "Raw" on the Gist page.
+
+### Specify a file encoding when loading data
+```R
+my_dataframe <- read_tsv('annoying_file.csv', locale = locale(encoding = "UTF-16LE") )
+```
+Specify non-UTF encodings you get from the `guess_encoding` output.
+
+### Write and timestamp a csv
+```R
+my_spreadsheet %>% 
+  write_csv(paste0('my_data/my_spreadsheet',
+                   format(Sys.time(),'%Y%m%d%H%M'),
+                   '.csv'))
+```
+Using `Sys.time()`, you can quickly save a dataset with an automatic timestamp for easy organization. No more `my_spreadsheet_final_Final_FINAL_FINALFORREAL.csv`!
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## scales
+[A library](https://scales.r-lib.org/) to make scaling and labeling easier.
+
+### Show figures as dollars
+```R
+vax_income %>%
+  ggplot(aes(x = median_income, y=PctTotal)) +
+  geom_point() +
+  scale_x_continuous(labels = scales::dollar_format())
+```
+The `dollar_format` function shortcuts the annoying parsing issues.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## ggpmisc
+[Miscellaneous extensions](https://exts.ggplot2.tidyverse.org/ggpmisc.html) to the ggplot package.
+
+### Include a regression equation on your scatterplot
+```R
+vax_income %>%
+  ggplot(aes(x = median_income, y = pct_total)) +
+  geom_point() +
+  geom_smooth(method = "lm", formula = y ~ x, show.legend = FALSE) +
+  stat_poly_eq(aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+               label.x.npc = "right", label.y.npc = 0.15,
+               formula = y ~ x, parse = TRUE, size = 3)
+```
+The `stat_poly_eq` function lets you annotate the graph with a regression formula. *BONUS: [What's a good value for R-squared?](https://people.duke.edu/~rnau/rsquared.htm)*
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## dplyr
+A ["grammar of data manipulation"](https://dplyr.tidyverse.org/) and part of the [tidyverse](https://www.tidyverse.org/) package.
+
+### Get a random sample of rows
+```R
+nc_voters %>% 
+  sample_n(10)
+```
+Specify the number of rows from the dataframe to return.
+
+### Convert table to uppercase
+```R
+clean_table <- dirty_table %>% 
+  mutate(across(where(is.character), toupper))
+```
+Tranforms all columns containing characters to uppercase all at once. Incredibly useful for cleaning data!
+
+## Fix multibyte strings and bad character encodings
+
+```R
+df_clean <- df %>% mutate(across(everything(), ~ iconv(.x, sub = '') ))
+```
+Works across an entire dataframe, removing all malformed characters, multibyte strings or bad, non-UTF8 encodings that can't be converted.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## stringr
+A suite of convenient functions [for working with strings](https://stringr.tidyverse.org/), and part of the [tidyverse](https://www.tidyverse.org/) package.
+
+### Remove prefix characters from column names
+
+```R
+clean_table <- dirty_table %>%
+  rename_all(~str_replace(., 'column_prefix', ''))
+```
+Uses `str_replace` and `rename_all` to replace all matching patterns. Uses regex.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## plyr
+[Tools to solve common problems](https://www.rdocumentation.org/packages/plyr/versions/1.8.6), like performing the same task over and over. *NOTE: This package conflicts with some dplyr commands, so if you're getting weird errors, this might be why.*
+
+### Repeat a function using a list as input
+```R
+precinct_sort <- ldply(county_files, read_tsv, na='', col_types = cols(
+  county_id = col_double(),
+  election_dt = col_date(format = '%m/%d/%Y'),
+  contest_id = col_double(),
+  contest_title = col_character(),
+  contest_vote_for = col_double(),
+  precinct_code = col_character(),
+  candidate_id = col_double(),
+  candidate_name = col_character(),
+  candidate_party_lbl = col_character(),
+  voting_method_lbl = col_character(),
+  voting_method_rslt_desc = col_character(),
+  vote_ct = col_double()
+))
+```
+The first parameter is the list and the second is the function you want to repeat. Everything that follows are parameters specific to your function. You can use your own functions too.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## clipr
+[A set of simple commands](https://github.com/mdlincoln/clipr) for writing to and reading from the clipboard.
+
+### Write to the clipboard
+```R
+age_group_populations %>%
+  mutate(lookup_helper = paste0(fips,age_group), .after = 'age_group') %>% 
+  write_clip()
+```
+Copies dataframes in a tab-delimited format for easy pasting into spreadsheets.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## googlesheets4
+[Read and write data](https://googlesheets4.tidyverse.org/) from Google Sheets. Part of the tidyverse.
+
+### Read in data from a Google Sheet
+```R
+test <- read_sheet('https://docs.google.com/spreadsheets/d/<<SPREADSHEET_ID>>/edit#gid=<<SHEET_ID>>')
+```
+Authentication may be required depending on permissions. Accepts the URL of the sheet and writes to a dataframe.
+
+### Overwrite data in an existing sheet
+```R
+write_sheet(census_data,
+            as_sheets_id('https://docs.google.com/spreadsheets/d/<<SPREADSHEET_ID>>/edit#gid=<<SHEET_ID>>'),
+            sheet = "census_data"
+            )
+```
+Accepts a dataframe and writes to a sheet specified with the `as_sheets_id` function and a URL. If a sheet name isn't specified, it will create a new sheet with the dataframe name.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## janitor
+[Excellent library](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html) with convenience functions for cleaning and exploring data.
+
+### Get the totals of a dataframe
+```R
+zoo_animals %>%
+  count(animal_type) %>%
+  adorn_totals()
+```
+Use `adorn_totals` to tally up a number column (or multiple columns) in a dataframe. Particularly useful with `count`.
+
+### Calculate percentages across categories
+```R
+zoo_animals %>%
+  count(animal_type) %>%
+  adorn_totals() %>% 
+  adorn_percentages('col') %>% 
+  adorn_pct_formatting() %>% 
+  adorn_ns(position = "front")
+```
+A few extra lines of code place both the raw number and percentage together.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# Math for journalism
+Formulas and concepts I always have to look up. For more, read [Numbers in the Newsroom](https://www.ire.org/product/numbers-in-the-newsroom-using-math-and-statistics-in-news-second-edition-e-version/) by Sarah Cohen.
+
+Also check out Ben Welsh's [Observable collection of calculators](https://observablehq.com/collection/@palewire/numbers-in-the-newsroom) based on Cohen's book.
+
+## Standard deviation
+A measure of how tightly clustered, or varied, data is around a set of values. Often described using the Greek letter sigma (σ).
+
+### Normal distribution
+
+![Distribution of values based on standard deviation.](https://github.com/mtdukes/how-to/blob/main/media/standard_deviation_diagram.svg)
+
+[(Image by M. W. Toews)](https://commons.wikimedia.org/w/index.php?curid=1903871)
+
+For normally distributed data (often described as a "bell curve"), about two thirds of the observed values fall within one standard deviation of the average.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## Rate comparisons
+Calculating the rate of something happening in a subgroup and comparing it to another can help suss out disproportionate impact, especially when the groups are different sizes.
+
+### Comparing two groups
+
+> A school has 300 white and 120 Black students. Last year, 30 white
+> students were suspended, and 20 Black students were suspended.
+
+It may be enough to say that Black students made up 60% of suspensions while only making up 29% of the school. But you may want to put a finer point on the disparity. First, calculate the suspension rate for Black students
+```R
+20 / 120 = 0.17
+```
+
+Next, do the same for white students.
+```R
+30 / 300 = 0.1
+```
+
+Then you compare the two rates of suspension.
+```R
+0.167 / 0.1 = 1.7
+``` 
+
+So black students are suspended at about 1.7 times the rate of white students.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## Odds ratios
+Compare the likelihood of something happening for one group compared to another ([h/t to Arianna Giorgi](https://twitter.com/ArianaNGiorgi/status/1068208108596588544)). Often used in medical contexts. For more, see [this worksheet from the University of Delaware](https://github.com/mtdukes/how-to/blob/main/documents/odds_ratios.pdf).
+
+### Comparing two groups
+Instead of calculating and comparing the *rate* of something happening in a subgroup, calculating an odds ratio means you have to look at how much more likely something is to happen *than not happen* within that subgroup. So:
+
+> A class has 21 boys and 16 girls. On a recent test, 11 boys and 14
+> girls passed.
+
+First calculate the likelihood that boys passed the test vs. not passing the tests
+```R
+11 / 10 = 1.1
+```
+
+Do the same for the girls.
+```R
+14 / 2 = 7
+```
+
+Now you can compare the ratios.
+```R
+7 / 1.1 = 6.4
+```
+So girls are 6.4 times as likely to pass the test than boys.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## Making sense of symbols
+Tips and tricks for understanding mathematical symbols outside the scope of the normal add, subtract, etc.
+
+### Summation/Product
+![Not scary!](https://github.com/mtdukes/how-to/blob/main/media/summation_product.png)
+As [Freya Holmér](https://twitter.com/FreyaHolmer/status/1436696408506212353) points out, these two "scary math symbols" are just for loops (Image courtesy of Freya Holmér).
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## Poisson distributions
+In contexts like public health, rare events such as cancer or maternal mortality assume a *Poisson distribution*, which we can use to calculate confidence intervals used to compare rates. For more, see [this handout from the Utah Department of Health and Human Services](https://github.com/mtdukes/how-to/blob/main/documents/confidence_intervals.pdf):
+
+> This distribution is not symmetric about its mean and so the associated confidence intervals will not be symmetric (the upper limit is farther from the estimate than is the lower limit).
+
+You can use a Poisson confidence interval calculator (examples [here](https://www.statology.org/poisson-confidence-interval-calculator/) and [here](https://www.analyticscalculators.com/calculator.aspx?id=86)) to calculate the upper and lower bounds of the confidence intervals for rates like these.
+
+```R
+#Pregnancy-related deaths (observed events)
+
+#95% confidence Interval
+0.95
+
+#Calcuated confidence interval
+[1274.07160, 1418.84932]
+
+#Live births
+4636541
+
+#Pregnancy-related death rate per 100,000 live births
+1345 / 4636541 * 100000 = 29.0
+
+#Lower bound
+1274.07160 / 4636541 * 100000 = 27.5
+
+#Upper bound
+1418.84932 / 4636541 * 100000 = 30.6
+```
+
+If you don't want to use a calculator, you can also calculate the upper and lower bounds using the chi square critical value in R [using the formulas here](https://www.math.mcmaster.ca/peter/s743/poissonalpha.html).
+
+```R
+#for 95% (0.95) confidence interval
+#where x is the number of observed events
+lower_bound <- qchisq((1-ci)/2, 2*x)/2
+upper_bound < qchisq(1-(1-ci)/2, 2*(x+1))/2
+```
+
+## More significance testing
+
+![Confidence interval, illustrated](https://github.com/mtdukes/how-to/blob/main/media/ci_plot.gif)
+
+One of the most common confidence levels is 95% (also called the [97.5th percentile](https://en.wikipedia.org/wiki/97.5th_percentile_point) point).
+
+| Confidence level | Alpha (α) | α/2 | Z<sub>α/2</sub> | Z<sub>1 - α/2</sub> | Z score (Z<sub>α/2</sub>) |
+|--|--|--|--|--|--|
+| 80% | 0.20 | 0.100 | Z<sub>0.1</sub> | Z<sub>0.90</sub> | <-1.285, >1.285 |
+| 90% | 0.10 | 0.050 | Z<sub>0.05</sub> | Z<sub>0.95</sub> | <-1.645, >1.645 |
+| 94% | 0.06 | 0.030 | Z<sub>0.03</sub> | Z<sub>0.96</sub> | <-1.88, >1.88 |
+| **95%** | **0.05** | **0.025** | **Z<sub>0.025</sub>** | **Z<sub>0.975</sub>** | **<-1.96, >1.96** |
+| 96% | 0.04 | 0.020 | Z<sub>0.02</sub> | Z<sub>0.98</sub> | <-2.055, >2.055 |
+| 98% | 0.02 | 0.010 | Z<sub>0.01</sub> | Z<sub>0.99</sub> | <-2.33, >2.33 |
+| 99% | 0.01 | 0.005 | Z<sub>0.005</sub> | Z<sub>0.995</sub> | <-2.575, >2.575 |
+
+The U.S. Census Bureau [has good resources for testing for signficance](https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2021_ACS_Accuracy_Document_Worked_Examples.pdf#page=6) with their data, which used a 90% confidence level.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# GIS tips
+General guidance for working with mapping files and geographic information systems.
+
+## Latitude and Longitude
+![Latitude and longitude](https://github.com/mtdukes/how-to/blob/main/media/lat_lng.gif)
+
+(Image credit [Illinois State University](https://journeynorth.org/tm/LongitudeIntro.html))
+
+Latitude is the **Y axis**, with the **equator** at 0. Longitude is the **X axis**, with the **prime meridian** at 0.
+
+North America, located in the north-west quadrant, latitude values will be **positive or N**. Longitude values will be **negative or W**.
+
+## NC bounding box
+For subsetting coordinates or geometries that requires a "bounding box," use these coordinates for North Carolina (h/t to [Anthony Louis D'Agostino](https://anthonylouisdagostino.com/bounding-boxes-for-all-us-states/)).
+|reference|value|
+|:--|--:|
+| xmin | -84.321869 |
+| ymin | 33.842316 |
+| xmax | -75.460621 |
+| ymax | 36.588117 |
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# Browser tricks
+Plugins, URL parameters and other neat stuff.
+
+## PDFs
+Tips and tricks for handling PDFs in a Web browser (like Chrome)
+
+### Jump to a page
+```
+https://assets.avigilon.com/file_library/pdf/acc7/avigilon-player7-en.pdf#page=21
+```
+Pass the `page` number as a URL parameter to link directly to a page.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## Video
+Shortcuts and other cool things that help navigate various online video players.
+
+### Jump to a time in YouTube
+```
+https://youtu.be/UwVNkfCov1k?t=30
+```
+Add a `t` parameter to specify the jump point in seconds.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# Troubleshooting
+A few common things to check when things get mucked up.
+
+## Location errors
+Mapping or working with counties, cities, etc. in North Carolina.
+
+### You three again.
+![Check New Hanover County, McDowell County and Winston-Salem](https://github.com/mtdukes/how-to/blob/main/media/you-three.jpeg)
+
+If you're missing one of North Carolina's 100 counties, or your map is inexplicably blank, check New Hanover County, McDowell County and Winston-Salem first. Then think of other location names that might not be a literal, string-to-string match.
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+# Convenience files
+Collections of commonly used lists and references in various data structures.
+
+## U.S. states
+-   [State names and postal code abbreviations, comma- and line-separated and text-qualified by single quotes](https://gist.github.com/mtdukes/e6636bb7e7423fbf0faf52134257d675)
+-   [US counties and FIPS codes by state, tab-delimited](https://gist.github.com/mtdukes/ff6e59acde4858a8b174a83d2fce915c)
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## N.C. places
+
+- [NC counties, comma- and line-separated and text-qualified by single quotes](https://gist.github.com/mtdukes/ed03837107a7e173a56b71cf7c785424)
+- [NC counties and FIPS codes, tab-delimited](https://gist.github.com/mtdukes/e0c6563927fb4f3e48f4e092b84b7023)
+- [NC counties and election/voter data codes, tab-delimited](https://gist.github.com/mtdukes/c3abc68866e884a7b0fa418e712b40c8)
+- [NC counties and court codes, as tuples](https://gist.github.com/mtdukes/88e089e6dd08b12e57667dd7fe3b4305)
+- [NC counties and court codes, tab-delimited](https://gist.github.com/mtdukes/a1689d5c678cc52b3efd6ac1a3409e70)
+- [NC municipalities and counties, tab-delimited](https://gist.github.com/mtdukes/809c44e2e33f35425b9d4a173c6a4151)
+- [NC places and census designation, tab-delimited](https://gist.github.com/mtdukes/17073dc3116a082cbb7ff7dcf6efe669)
+- [Not where you expect - A list of NC cities not in the counties you think](not-where-you-expect.md)
+
+[▲ BACK TO NAV](https://github.com/mtdukes/how-to#jump-to)
+
+## 2022-data-journalism-cheat-sheets/working-with-data-in-r.md
+
+# Working with data in R
+
+A cheat sheet for common data journalism issues in R. An addendum to the main [how-to page](https://github.com/mtdukes/how-to).
+
+## Reformatting data
+
+### Create new rows from a delimited column
+
+Given a table with a column of delimited values...
+
+|column_a |column_b                           |
+|:--------|:----------------------------------|
+|a        |Wake, Mecklenburg, New Hanover     |
+|b        |Wake, Wake, Columbus               |
+|c        |Hoke, Beaufort, Craven, Pasquotank |
+
+...separate each comma-delimited value into its own row.
+
+```R
+tidyr::tibble(
+  column_a = c('a', 'b', 'c'),
+  column_b = c('Wake, Mecklenburg, New Hanover', 'Wake, Wake, Columbus', 'Hoke, Beaufort, Craven, Pasquotank')
+  ) %>%
+  tidyr::separate_longer_delim(cols = column_b, delim = ', ')
+```
+
+### Create a named list from a vector of values and labels
+
+Given two vectors containing values (data) and labels (column names), create a named list.
+
+```R
+setNames(as.list(c('DUKES', 'TYLER', '101 MAIN ST', 'RALEIGH', 'NC')),
+         as.list(c('last_name', 'first_name', 'st_address', 'city', 'state'))
+         )
+```
+
+Useful for later assigning values in a dataframe by name.
+
+### Convert named list to dataframe
+
+Given two vectors stored into a named list, asign the values to columns in a dataframe or tibble.
+
+```R
+user_list <- setNames(as.list(c('DUKES', 'TYLER', '101 MAIN ST', 'RALEIGH', 'NC')),
+         as.list(c('last_name', 'first_name', 'st_address', 'city', 'state'))
+         ) 
+user_table <- tidyr::tibble(
+  last_name = user_list$last_name,
+  first_name = user_list$first_name,
+  st_address = user_list$st_address,
+  city = user_list$city,
+  state = user_list$state,
+)
+```
+
+### Convert a list of lists into a dataframe
+
+Given a "big list" containing named lists, convert it to a dataframe/tibble.
+
+```R
+parsed_tibble <- list_of_lists %>%
+  map_df(as_tibble)
+```
+
+### Create an empty dataframe for known columns/data types
+
+Use `tibble` from the `tidyverse` package to create a dataframe with column names and defined [column types](https://tibble.tidyverse.org/articles/types.html).
+
+```R
+#define the dataframe and the character types
+df_template <- tidyr::tibble(
+  column_one = character(),
+  column_two = double(),
+  columnt_three = logical(),
+  column_four = integer()
+)
+
+#duplicate tempalte to create an empty table
+my_table <- df_template
+```
+
+### Create an empty dataframe for unknown columns/data types
+
+When you don't know how many columns you need or what data type they'll be, initialize a table with no rows or defined columns.
+
+```R
+new_table <- tidyr::tibble()
+```
+
+## Processing data
+
+### Loop through a dataframe
+
+Use a `for` loop to iterate through a dataframe row by row, using the row index number. Useful for when you need to access multiple columns in a dataframe, instead of just one set of values.
+
+```R
+df_to_loop -> tidyr::tibble(
+  column_a = c(1, 2, 3, 4),
+  column_b = c('Bob', 'Jenee', 'Marcus', 'Sally')
+  )
+
+# loop through each row and print the variables
+for(row in 1:nrow(df_to_loop)){
+  
+  #store the value of the row item, rather than the item as a dataframe
+  column_a_value <- df_to_loop[row, 'column_a'][[1]]
+  column_b_value <- df_to_loop[row, 'column_b'][[1]]
+
+  #print the values in a loop
+  print(column_a_value)
+  print(column_b_value)
+}
+```
+
+## 2022-first-github-scraper-src/README.md
+
+An introduction to free, automated web scraping with GitHub’s powerful new Actions framework
+
+Published at [palewi.re/docs/first-github-scraper/](https://palewi.re/docs/first-github-scraper/)
+
+## Contributing
+
+Clone the repository and move into the code directory. Then install the Python dependencies.
+
+```bash
+pipenv install
+```
+
+Start the test documentation server on your computer.
+
+```
+make docs
+```
+
+Visit [localhost:8000](http://localhost:8000) in your browser to see the current state of the site. Edit files in the `./docs` directory and save. The page should reload with the latest.
+
+## 2022-first-github-scraper-src/docs/action.md
+
+# Run via GitHub Actions
+
+This chapter will walk you through creating a GitHub Action that executes a scraper on a schedule.
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## Create a generic Action
+
+Navigate back to the GitHub repo and click on the Actions tab.
+
+
+This page will display a log of the Action we configure.
+
+
+Let's start by running a simple workflow as a test. In the "Simple workflow," click the "Configure" button
+
+
+Let's rename this workflow file `test.yml`, like so:
+
+
+Without changing anything, push the green "Start commit" button.
+
+
+When a popup appears, write a commit message like "create workflow" and commit the file to your repository but hitting the green button at the bottom.
+
+
+After you commit, you will be led back to your repository’s Code tab. Note that a directory `.github` was created at the root. Inside it you will find a `workflows` directory with your action.
+
+
+## Understand the generic Action
+
+Navigate back to the "Actions" tab.
+
+
+Notice that it logged the first run of the template workflow you just created. 
+<!-- 
+
+Click on "create workflow" next to the green check.
+
+
+Click on "build" to dig into our Action’s activity.
+
+
+The check mark next to each step indicates that the step within the build job was successfully executed.
+
+
+The name of the workflow is "CI." This is an optional name given to the workflow and it appears in the Actions tab of the GitHub repository. It is defined by this line of the workflow file.
+
+```{code-block} yaml
+:emphasize-lines: 3
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+This Action is triggered when there is a "pull" or a "push" to the repository's `main` branch. This Action just ran when we pushed our commit to the repository. These events are defined by this portion of the workflow. 
+
+```{code-block} yaml
+:emphasize-lines: 6-11
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+This workflow can be run manually by a user from the Actions tab in GitHub. This is defined by the following line in the workflow file.
+
+```{code-block} yaml
+:emphasize-lines: 14
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+The first step in the workflow — "Set up job" — gives the "job" a name, "build". This step also configures the job to run on the latest version of an Ubuntu Linux runner, hosted by GitHub. This was defined by this portion of the workflow file.
+
+```{code-block} yaml
+:emphasize-lines: 17-21
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+The second step, "Run actions/checkout@v2," specified that this step ran v2 of the actions/checkout action. We need to use the checkout action any time our workflow file runs agains the repository's code. This was defined by this portion of the workflow file.
+
+```{code-block} yaml
+:emphasize-lines: 24-26
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+The third step, “Run a one-line script,” prints a simple string "Hello, world!" and the fourth step, "Run a multi-line script" prints two lines: "Add other actions to build," and "test, and deploy your project" using the `echo` command. `echo` in linux is used to [display a line of text or string](https://www.shellscript.sh/echo.html) that is passed following the command.
+
+```{code-block} yaml
+:emphasize-lines: 28-36
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+```
+
+## Customize the workflow (with `pip` and Google Collab)
+
+<!-- CREATE NEW BLANK WORKFLOW TO START WIRTING NEW ACTION FILE  -->
+
+Now, we'll create a similar workflow to trigger the run of our scraper at a particular interval.
+
+Let's go back to the "Actions" tab. Notice that our last Action's run is logged here. Click the "New workflow" button to build another workflow.
+
+
+This time, we will create a workflow from scratch to run our scraper. Click on the blue link that says, "set up a workflow yourself."
+
+
+This time, we will call our `yml` file, `main.yml`.
+
+
+GitHub Actions uses YAML syntax to define the workflow. These workflows are stored in the repository, in a hidden directory (denoted by the `.` in front of it) called `.github/workflows`.
+
+We will start by giving our workflow a `name` — something like "Scrape."
+
+```{code-block} yaml
+name: Scrape
+```
+
+Next, we will add settings in the workflow so that the Action runs on a schedule — instead of running on `push`, like in our first test. We will use the `on` keyword.
+
+```{code-block} yaml
+:emphasize-lines: 3-6
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+```
+This will tell our workflow to execute on a schedule, at 9 a.m. UTC every day.
+
+```{note}
+We will schedule the Action using [Cron](https://en.wikipedia.org/wiki/Cron), a time-based job scheduler that the computer uses to execute commands. There are websites — such as [this one](https://crontab.guru/) — that help translate time into cron schedule expressions. GitHub runs Actions in coordinated universal time (UTC).
+```
+
+Now let's tell the workflow what tasks — using the `jobs` keyword — to execute. Let's call this job `scrape`.
+
+```{code-block} yaml
+:emphasize-lines: 8-9
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+```
+
+We will use the `runs-on` keyword to tell GitHub what runner the job will use.
+
+```{note}
+A [runner](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners) is a virtual machine hosted by GitHub with the GitHub Actions application. GitHub offers runners with Linux, Windows, and macOS operating systems.
+```
+
+In our case, the runner will be the latest version of Ubuntu, an open-source operating system on Linux.
+
+```{code-block} yaml
+:emphasize-lines: 10
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+```
+
+Using the `steps` keyword we will tell GitHub the sequence of tasks that we want the job to execute.
+
+```{code-block} yaml
+:emphasize-lines: 11
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+```
+
+Next, we will tell the virtual machine that is hosting this Action to install Python 3, along with the libraries our scraper will use. 
+
+The `name` keyword denotes the title we give the step.
+
+The `uses` keyword specifies which version of the `actions/checkout` action to run. In our case, we will use `v2`.
+
+The `run` keyword tells the job to execute a command on the runner.
+
+```{note}
+For those who are running scraper notebooks on Collab or Jupyter Lab Desktop apps see below. If you are using your scraper locally with pipenv skip to next section
+```
+
+Remember the imports for the scraper, your actions file will need to direct Github Actions to install them. 
+
+```{code-block} yaml
+:emphasize-lines: 12-16
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - run: pip install notebook requests bs4
+```
+
+Now that we have all the requirements installed, let's run the code. Let's `name` this step `Run scraper` since we will `run` the notebook using the `jupyter execute scrape.ipynb` command. 
+
+```{code-block} yaml
+:emphasize-lines: 17-18
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - run: pip install notebook requests bs4
+    - name: Run scraper
+      run: jupyter execute scrape.ipynb
+```
+
+Let's commit this workflow to our repository. 
+
+Similar to how we committed our previous test workflow, let's click the green "Start commit." 
+
+Write a message for this commit — something like "create workflow" — and press the green "Commit new file" button.
+
+
+## Run the workflow manually
+
+Let's test the workflow we created on GitHub. Navigate back to your repository on and click on the 'Actions' tab.
+
+
+Click on "Scrape" under "All workflows."
+
+
+Push the white "Run workflow" button.
+
+
+Then the green "Run workflow" button to trigger the job.
+
+
+Reload the page and your job will be running.
+
+
+Within a minute or two, the job should complete. The yellow dot will turn green.
+
+
+Congratulations, you’ve run a scraper in the cloud.
+
+One problem: While GitHub was able to execute our scraper, we haven’t told it to commit the results back to the respository. The data you gathered isn't being saved anywhere. Yet.
+
+## Optional: Customize workflow (Advanced, with `pipenv`)
+
+<!-- ## Pull the workflow from GitHub
+
+The next step is to pull the changes we made on GitHub to the local branch on your computer. Go back to terminal and enter the following command:
+
+```
+git pull origin main
+```
+
+Open the directory in a code editor and navigate to the workflow file we created called `main.yml` in the `.github/workflows` directory.
+
+Select **everything** in the `main.yml` workflow file and **delete it**. We will write steps to iteratively build the workflow. 
+
+CREATE A NEW BLANK WORKFLOW THIS TIME TO START WRITING NEW ACTION FILE FOR SCRAPING 
+-->
+
+```{note}
+For those who are running the scraper locally with pipenv. 
+```
+
+```{code-block} yaml
+:emphasize-lines: 12-19
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install pipenv
+      run: pipx install pipenv
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+        cache: 'pipenv'
+    - run: pipenv install --python `which python`
+```
+
+```{note}
+GitHub has a detailed explanation of every keyword in the workflow on [this](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#understanding-the-workflow-file) page.
+```
+
+Now that we have all the requirements installed, let's run the code. Let's `name` this step `Run scraper` since we will `run` the notebook using the `pipenv jupyter execute scrape.ipynb` command. 
+
+```{code-block} yaml
+:emphasize-lines: 20-21
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install pipenv
+      run: pipx install pipenv
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+        cache: 'pipenv'
+    - run: pipenv install --python `which python`
+    - name: Run scraper
+      run: pipenv run jupyter execute scrape.ipynb
+```
+
+## 2022-first-github-scraper-src/docs/commit.md
+
+# Saving the data
+
+This chapter will walk you through saving the data in your repository and spotting and fixing common errors.  
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## Log the result
+
+In your repo, navigate to the `main.yml` file in the `.github/workflows` directory. 
+
+Click the pencil icon on top of the file to edit it.
+
+
+We will add commands to this file to ask GitHub to save the results of the scraper. 
+
+We will accomplish this by instructing the Action to `add`, `commit` and `push` changes after the scraper runs, so they will show up in our respository. This is very similar to the commands you would write to push local changes on your computer to GitHub, either using GitHub Desktop or the command line.
+
+
+```{code-block} bash
+:emphasize-lines: 21-28
+name: Scrape
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 8 a.m. every day UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - run: pip install notebook requests bs4
+    
+    - name: Run scraper
+      run: jupyter execute scrape.ipynb
+    
+    - name: Add and commit	
+      run: |
+        git add .	
+        git config user.name "Automated"	
+        git config user.email "actions@users.noreply.github.com"	
+        git commit -m "Latest data" 	
+    - name: Push	
+      run: git push
+```
+
+Let's save these changes. Click on the green "Start commit" button, add a message — something like "added steps for committing data" — and click "Commit changes."
+
+
+## Update repository settings
+
+Normally, when you commit and push changes to your repository, either using GitHub Desktop (like we did in Step 1) or using the command line, GitHub knows that it's OK to accept those changes, since you are logged in to your account. 
+
+However, when GitHub Actions runs a workflow on a virtual computer, your repository automatically rejects the commits by default. We need to change this setting, so your repository accepts commits from the Actions you run.
+
+Head over the settings tab of your repository. 
+
+From the menu bar on the right, choose "Actions" and then "General."
+
+
+At the very top of the section under "Workflow permissions," select "Read and write permissions." Save your changes.
+
+
+Now, you should be able to run the Action, and the virtual machine that runs your workflow will be able to commit and push changes to your repository.
+
+## Run the Action
+
+Navigate back to your respository on GitHub, and once again, click on the "Actions" tab. Then click on "Scrape" under "All workflows" and run the workflow. 
+
+
+After the Action has run, go to the "Code" tab on GitHub, and notice a new `warn-data.csv` file logged to our repository.
+
+
+```{note}
+When the Action runs, it saves the data files to GitHub. The next time you want to make modifications to your code in the repository, you'll first need to pull the most recent changes from the remote branch on GitHub to your computer before committing and pushing any more changes. 
+
+Use the `git fetch` and `git pull` commands from the command line.
+```
+
+## Examine failed actions
+
+Let's go back to our action tab and run the action one more time.
+A failed action looks like this:
+
+
+Github will email you when your action fails. It can happen quite often!
+
+
+To find out what went wrong with your action, click into your job. 
+
+
+This action failed because there was nothing to commit when your scrape notebook `scrape.ipynb` ran for the second time. 
+If the site you want to scrape updates sporadically, having nothing new to commit from every scrape won't be an issue. Let's find a way to allow Github Actions to succeed even if there is nothing to commit. 
+
+## Add an action from Github Marketplace
+
+We can easily change few lines in our code to make sure an action succeeds regardless of an actual commit. However, common actions used in workflows can be found in the Github Actions [Marketplace](https://github.com/marketplace?type=actions). These actions have more options that will be useful for us later on.
+
+Let's use [this](https://github.com/marketplace/actions/add-commit) Github Action to add and commit our work. 
+
+The [examples](https://github.com/marketplace/actions/add-commit#examples) section will show you how to add this action to your existing workflow. 
+
+Go to your actions file and replace the `Add and commit` section with the following. We are giving a new `id` attribute to the step.
+
+```yaml
+    - name: Add and commit
+      id: add_commit
+      uses: EndBug/add-and-commit@v8
+      with:
+        committer_name: Automated
+        committer_email: actions@users.noreply.github.com
+        message: "Latest data"
+```
+
+## Check your work
+
+Run the action one more time and make sure the issue is fixed. 
+
+
+Great! Now your scraper is 🌟automated🌟. You will receive an email associated with your GitHub account if the action fails for whatever reason. We can "set it and forget it," but it's likely that you want to know when data is updated. In the next chapter we will go over how to integrate Slack into your actions file for customized alerts.
+
+## 2022-first-github-scraper-src/docs/index.md
+
+# First GitHub Scraper
+
+A step-by-step introduction to free, automated web scraping with GitHub’s powerful [Actions feature](https://github.com/features/actions).
+
+You will learn how to:
+
+* Create a GitHub repository to store your code
+* Use Python to scrape data from the web
+* Configure GitHub Actions to schedule the scrape
+* Automatically save the results to the repository
+* Send a Slack notification when new data arrive
+
+## Table of contents
+
+```{toctree}
+:maxdepth: 1
+:name: mastertoc
+:numbered:
+
+repo
+scrape-locally
+scrape
+action
+commit
+notify
+```
+
+## About
+
+This guide was prepared for [a training session](https://www.ire.org/product/nicar22-first-github-scraper/) at the [National Institute for Computer-Assisted Reporting (NICAR)](http://data.nicar.org/)’s 2022 conference in Atlanta. The authors are [Iris Lee](http://irisslee.com/), [Aadit Tambe](https://aadittambe.com/) and [Ben Welsh](https://palewi.re/who-is-ben-welsh/). The tutorial is published as [open-source software](https://github.com/palewire/first-github-scraper/).
+
+## 2022-first-github-scraper-src/docs/notify.md
+
+# Blast the results
+
+This chapter will walk you through creating custom Slack messages depending on the outcome of your action. 
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## What kind of alerts do you need?
+Now that your scraper has been automated, let's talk about alerts. You may want to receive alerts for the following scenarios 
+1. Your action succeeded, but nothing new was committed
+2. Your action succeeded, and there's new data 
+3. Your action failed 😔
+
+## Send a message with Slack's Incoming Webhooks
+Join `#nicar23` at nicar-2023-sandbox.slack.com. You should have received an email invite to Slack, along with a Google Doc containing a webhook. 
+
+Slack's incoming webhooks allow you to send messages from your apps. Visit [Slack](https://api.slack.com/messaging/webhooks) for instructions on how to create one for your channel.  
+
+Let's send a simple message using the channel's webhook.
+
+```bash
+curl -d '{"text":"Hello world. I am Iris :wave:"}'  WEBHOOK
+```
+
+## Save the Webook as a GitHub Secret
+
+If your repository is public, you probably want to hide your webhook from others. You can do this by using [GitHub Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets). 
+
+To add the webhook to your GitHub Secrets, go to your repo and click on `Settings`. In the left corner you will see the `Secrets` dropdown menu. Select `Actions`. Then select the `New repository secrets` button in the top right corner.
+
+
+Copy the webhook and add as a secret. Name it `SLACK_WEBHOOK`
+
+### Customizing your Slack messages
+
+We will be using the [Slack Incoming Webhook](https://github.com/marketplace/actions/slack-incoming-webhook) action from the GitHub Actions Marketplace.
+
+Copy the code below. This step will send a message once your action is completed 
+
+```yaml
+      - name: Slack Notification on SUCCESS
+        if: success()
+        uses: tokorom/action-slack-incoming-webhook@main
+        env:
+            INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+        with:
+            text: A successful scrape!
+```
+
+Below that add another step for a message to be sent when your scrape fails - this time let's add some useful links and colors.
+
+```yaml
+      - name: Slack Notification on FAILURE
+        if: failure()
+        uses: tokorom/action-slack-incoming-webhook@main
+        env:
+            INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+        with:
+            text: Something went wrong.
+            attachments: |
+            [
+                {
+                "color": "bad",
+                "author_name": "${{ github.actor }}",
+                "author_icon": "${{ github.event.sender.avatar_url }}",
+                "fields": [
+                    {
+                    "title": "GitHub Actions URL",
+                    "value": "https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"
+                    }
+                ]
+                }
+            ] 
+```
+
+Let's test it out! Edit your action file to trigger a fail. For example, a simple change in `jupyter execute scrape.ipynb` to `jupyter execute s.ipynb` is going to trigger a fail. Let's see what happens to your Slack message. 
+
+
+## Use outputs to distinguish "Success"
+
+The "Success" message will be sent whether or not a new file was committed. To differentiate between the two outcomes, we will use the output from the `Add and commit` step to create two different slack messages.
+
+In actions, some steps can create an [output](https://github.com/marketplace/actions/add-commit#outputs) that can be referenced in another step. 
+
+Outputs are formatted like so: `steps.<action id>.outputs.<output name>`. We will be using the `committed` output, which is listed in the action's [documentation](https://github.com/marketplace/actions/add-commit#outputs). 
+
+Let's go back to your first Slack message and specify the message for a successful scrape without changes. Change the condition from `success()` to 
+
+```yaml
+if: (success() && steps.add_commit.outputs.committed=='false')
+```
+And change the message to 
+
+```yaml
+text: Nothing was committed.
+```
+
+Now let's add one last Slack message for a successful run with a brand new file commit. 
+
+```yaml
+    - name: Slack Notification on no new commits
+      if: (success() && steps.add_commit.outputs.committed=='true')
+      uses: tokorom/action-slack-incoming-webhook@main
+      env:
+        INCOMING_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
+      with:
+        text: New file alert!
+        attachments: |
+        [
+            {
+            "color": "good",
+            "author_name": "${{ github.actor }}",
+            "author_icon": "${{ github.event.sender.avatar_url }}",
+            "fields": [
+                {
+                "title": "GitHub Actions URL",
+                "value": "https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}"
+                },
+                {
+                "title": "Commit URL",
+                "value": "https://github.com/${{github.repository}}/commits"
+                }
+            ]
+            }
+        ] 
+```
+
+Delete the warn-data.csv file and run the action one more time. Because there has been a new file committed, your message will say "New file alert!"
+
+Congratulations! You’ve completed the class!
+
+## 2022-first-github-scraper-src/docs/repo.md
+
+# Create a repository
+
+This chapter will walk you through creating a repository hosted by GitHub that will hold code you can edit on your local computer.
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## Get started on GitHub
+
+The first step is to visit [github.com](https://www.github.com).
+
+
+If you have an account, you should [log in](https://github.com/login). If you don’t have an account, you'll need to [make one](https://github.com/signup). Once that's done GitHub will take you to [your personal homepage](https://github.com/).
+
+
+Click the green button in upper-left corner to create a [new code repository](https://github.com/new).
+
+
+On the next page, fill in a name for your repository. Something like `my-first-github-scraper` will work, but you can name it anything.
+
+Make sure the repo is public, which ensures your scraper will run for free. Then hit the green button at the bottom of the page.
+
+
+## Enter GitHub Desktop
+
+There are several ways to interact with the repository you created online in the previous step from your local machine.
+
+We'll use a tool called [GitHub Desktop](https://desktop.github.com/), a Graphical User Interface (GUI) developed by GitHub to communicate with the repository you just created.
+
+```{note}
+Advanced users take advantage of their computer's command line to have more control over managing their code on [github.com](https://github.com/). We cover this advanced method of cloning the repository in step 1.4. It requires using your computer’s command-line interface.
+```
+
+Head over to the GitHub Desktop website at [desktop.github.com](https://desktop.github.com/).
+
+
+Next, depending on the type of computer you're using — a Mac or a PC — download the software. 
+
+Depending on the directory you downloaded GitHub Desktop to, you should see a newly downloaded zipped folder. Opening it will reveal the GitHub Desktop application.
+
+
+Let's open the application and sign in. Open the settings window of the application.
+
+
+In the "Preferences" window, click "Sign In."
+
+
+A window will show up prompting us to sign in to the account we created in [1.1](#id2) through the browser.
+
+
+Assuming you're already signed in to GitHub in your browser, this instance should automatically authenticate your account and direct you back to the GitHub Desktop application.
+
+
+Now, let's use GitHub Desktop to download the repo we created in [1.1](#id2) onto your local computer in the next step.
+
+## Clone the repository
+
+There are numerous methods for downloading the code in an online repository, which GitHub calls "cloning." They are covered in [GitHub’s documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+This tutorial will demonstrate how to use GitHub Desktop (which we installed in step [1.2](#id3)) to download clone the repository (which we created in step [1.1](#id2)).
+
+In the GitHub Desktop app, click the "Add" button, and then select the "Clone Repository" option.
+
+
+A window will show up asking which repository associated with your GitHub account you would like to clone to your computer.
+
+
+As you start typing the name of the repository — "my-first-github-scraper" — you will see it listed in the dropdown options.
+
+In this window, you will see an option for specifying a "Local Path." This is the directory on your computer to which the repository will be cloned. In my case, it is in a directory called `Code.`
+
+
+Click on the blue "Clone" button.
+
+
+GitHub Desktop will clone the repository, and you will be taken to a screen that looks like this. Note, in the top left corner is the name of the repository we are currently in. 
+
+
+Next we’ll install a Python web scraper and start downloading data.
+
+
+## Advanced Git (Optional)
+
+While there are numerous ways to interact with your repository on GitHub, advanced users generally use the command line for managing their files — also known pulling and pushing code — between their local machines and the remote repository on GitHub for more control.
+
+This **optional** section will demonstrate how to use the [`gh`](https://cli.github.com/) command-line utility to accomplish what we did in step [1.3](#id4). If you don't have it installed, visit [cli.github.com](https://cli.github.com/) and follow the instructions there.
+
+
+### Introduction to the command line
+Whether you know it or not, there is a way to open a special window and directly issue commands to your operating system. Different systems give this tool slightly different names, but they all have some form of it.
+
+On Windows this is called the “command prompt.” On MacOS it is called the “terminal.” Others may call it the “command line.” They’re the same thing, just in slightly different shapes.
+
+This is the tool we’ll use to make a copy of your repository on your computer. Depending on your operating system and personal preferences, open a terminal program so we can get started.
+
+```{note}
+If you're a Windows user, we recommend you avoid the standard command line provided by the operating system. Instead, you'd be well served by the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), which will create a development environment better suited for open-source software work.
+
+We recommend you install the Ubuntu distribution from the Windows Store. This will give you access to a generic terminal without the quirks of Windows.
+```
+
+Once you have your terminal open, it will start you off in your computer’s home directory, much like your file explorer.
+
+Let’s verify that using a command called [`pwd`](https://en.wikipedia.org/wiki/Pwd), which stands for present working directory. The output is the full path of your terminal’s current location in the file system. You should get back something like `/Users/aadittambe`.
+
+```bash
+pwd
+```
+
+Next let’s enter the [`ls`](https://en.wikipedia.org/wiki/Ls) command to see all of its subdirectories. The terminal should print out the same list of folders you can see in your home directory via the file explorer.
+
+```bash
+ls
+```
+
+### Create a code directory
+
+Using GitHub Desktop took care of this step for us. However, if we were to use `gh` to clone the repository, we would need to first create a directory on the computer to store our code.
+
+We will use the [`mkdir`](https://en.wikipedia.org/wiki/Mkdir) command to create a new directory in the same style as the Desktop, Documents and Downloads folders included by most operating systems.
+
+We will name this folder `Code`. To verify the command works, open the file explorer and navigate to your home folder. After it has run, you should see the new directory alongside the rest.
+
+```bash
+mkdir Code
+```
+
+Now jump into the new directory with the [`cd`](https://en.wikipedia.org/wiki/Cd_(command)) command, which operates the same as double clicking on a folder in your file explorer.
+
+```bash
+cd Code
+```
+
+This is the location where we’ll download a copy of your repository.
+
+
+### Clone the repository
+
+In order to clone the repository, you need to make sure you have `gh` installed by executing the following command, which should print out the version of gh you have installed.
+
+
+```bash
+gh --version
+```
+
+The output should look something like this:
+
+```bash
+gh version 2.5.1 (2022-02-15)
+https://github.com/cli/cli/releases/tag/v2.5.2
+```
+
+```{note}
+If you get an error instead, open a fresh terminal and try again. If it’s still not working, revisit [cli.github.com](https://cli.github.com) to make sure you've followed all the necessary steps.
+```
+
+Use `gh` to login to GitHub, which will verify that your computer has permission to access and edit the repositories owned by your account.
+
+```bash
+gh auth login
+```
+
+After you authenticate, it’s time to clone the new repository we created. Edit the code below by inserting your user name and repository. Then run it.
+
+```bash
+gh repo clone https://github.com/<your-username>/<your-repo>
+```
+
+In my case, the command looks like this:
+
+```bash
+gh repo clone https://github.com/aadittambe/my-first-github-scraper
+```
+
+After clone completes, run the `ls` command again. You should see a new folder created by `gh`.
+
+```bash
+ls
+```
+
+Use `cd` to move into the directory, where we can begin work.
+
+```bash
+cd my-first-github-scraper
+```
+
+## 2022-first-github-scraper-src/docs/scrape-locally.md
+
+# Scrape data locally 
+
+This chapter will guide you through the process of adding a Python web scraper to your repository.
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## Download a scraper
+
+The mechanics of devising a web scraper are beyond the scope of this class. Rather than craft our own, we will use the scraper created as part of the [“Ẅeb Scraping with Python”](https://github.com/ireapps/teaching-guide-python-scraping/blob/master/Web%20scraping%20with%20Python.ipynb) class put on by [Investigative Reporters and Editors](https://www.ire.org/). If you'd like to learn more about the scraping process, check out [their tutorial](https://github.com/ireapps/teaching-guide-python-scraping/blob/master/Web%20scraping%20with%20Python.ipynb).
+
+
+A completed, simplified version of IRE’s scraper is available at [github.com/palewire/first-github-scraper](https://www.github.com/palewire/first-github-scraper/). Open the `scrape.ipynb` file there and click the button labeled "Raw." It will give you the scraper’s [source code](https://raw.githubusercontent.com/palewire/first-github-scraper/main/scrape.ipynb). Save that file into your repository’s root directory as `scrape.ipynb`.
+
+The routine is trained to download [WARN Act](https://en.wikipedia.org/wiki/Worker_Adjustment_and_Retraining_Notification_Act_of_1988) notices [posted](https://www.dllr.state.md.us/employment/warn.shtml) by the state of Maryland’s Department of Labor. The list is updated when companies based in the state disclose a mass layoff. Business reporters frequently use notices like these to report when plants close and workers lose jobs.
+
+```{note}
+If you’re interested in getting more involved with tracking WARN Act notices, investigate the [scraping system maintained by Stanford’s Big Local News](https://github.com/biglocalnews/warn-scraper) project. It scrapes filings from dozens of different state websites, consolidating them into a single file. That process is automated via, you guessed it, a [GitHub Action](https://github.com/biglocalnews/warn-github-flow).
+```
+
+There are different ways to run and test this scraper. This section will show you how to install Python tools on your computer to run this locally. If you want to learn how to run this notebook without installing them, [skip to section 3]((https://palewi.re/docs/first-github-scraper/scrape.html)). 
+
+## Install pipenv
+
+Our web scraper will depend on a set of Python tools that we’ll need to install before we can run the code.
+
+They are the [JupyterLab](https://jupyter.org/) computational notebook, the [requests](https://docs.python-requests.org/en/latest/) library for downloading webpages and [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/), a handy utility for parsing data from HTML.
+
+JupyterLab is required to run the `.ipynb` notebook file. We can tell `requests` and `bs4` will be necessary because they are imported at the top of the script, as seen on GitHub.
+
+
+By default, Python's third-party packages are installed in a shared folder somewhere in the depths of your computer. Unless told otherwise, every Python project will draw from this common pool of programs.
+
+That approach is fine for your first experiments with Python, but it quickly falls apart when you start to get serious about coding.
+
+For instance, say you develop a web application today with [Flask](https://palletsprojects.com/p/flask/) version 1.1. What if, a year from now, you start a new project and use a newer version of Flask? Your old app is still running and may require occasional patches, but you may not have time to rewrite your old code to make it compatible with the latest version.
+
+Open-source projects are changing every day and such conflicts are common, especially when you factor in the sub-dependencies of your project’s direct dependencies, as well as the sub-dependencies of those sub-dependencies.
+
+Programmers solve this problem by creating a [virtual environment](https://docs.python.org/3/tutorial/venv.html) for each project, which isolates the code into a discrete, independent container that does not rely on the global environment.
+
+Strictly speaking, working within a virtual environment is not required. At first it might even feel like a hassle, but in the long run you will be glad you did it. 
+
+```{note}
+You don’t have to take our word for it, you can read discussions on [StackOverflow](https://conda.io/docs/index.html) and [Reddit](https://www.reddit.com/r/Python/comments/2qq1d9/should_i_always_use_virtualenv/).
+```
+
+There are several different ways to run a virtual environment. In this tutorial, we will take advantage of [`pipenv`](https://pipenv.kennethreitz.org/en/latest/), a widely used tool that is [recommended](https://packaging.python.org/en/latest/guides/tool-recommendations/) by leaders in the Python community.
+
+Like the commands we've already learned, `pipenv` is executed with your computer’s command-line interface. You can verify it’s there by typing the following into your terminal:
+
+```bash
+pipenv --version
+```
+
+If you have it installed, you should see the terminal respond with the version on your machine. That will look something like this:
+
+```bash
+pipenv, version 2021.11.23
+```
+
+If you get an error that says `pipenv` isn’t present, you will need to install it.
+
+If you are on a Mac, the `pipenv` maintainers [recommend](https://pipenv.kennethreitz.org/en/latest/install/#homebrew-installation-of-pipenv) installing via the [Homebrew](https://brew.sh/) package manager, like so:
+
+```bash
+brew install pipenv
+```
+
+If you are on Windows and using the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), you can use Homebrew’s cousin [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) to install Pipenv.
+
+If neither option makes sense for you, the `pipenv` [documentation](https://pipenv.kennethreitz.org/en/latest/install/#pragmatic-installation-of-pipenv) recommends an [install](https://pip.pypa.io/en/stable/user_guide/#user-installs) via another Python tool, [`pip`](https://pypi.org/project/pip/):
+
+```bash
+pip install --user pipenv
+```
+
+Whatever installation route you choose, you can confirm your success by asking for the `pipenv` version, as we did above.
+
+```bash
+pipenv --version
+```
+
+## Install Python tools
+
+Now let's use `pipenv` to install our Python packages. We can add them to our project's virtual environment by typing their names after the `install` command.
+
+```bash
+pipenv install jupyterlab requests bs4
+```
+
+```{note}
+Save yourself some hassle by copying and pasting the command. There’s no shame. It’s the best way to avoid typos.
+```
+
+When you invoke the `install` command, `pipenv` checks for an existing virtual environment connected to your project’s directory. Finding none, it creates a new environment and installs your packages into it.
+
+The packages we’ve requested are downloaded and installed from the [Python Package Index](https://pypi.org/), an open directory of free tools. Each of our programs has a page there. For instance, JupyterLab is indexed at [pypi.org/project/jupyterlab](https://pypi.org/project/jupyterlab/). 
+
+When the installation finishes, two files will added to your project directory: `Pipfile` and `Pipfile.lock`. Open them in a text editor and you’ll see how they describe your project’s Python requirements.
+
+In the `Pipfile`, you'll find the name and version of the packages we directed `pipenv` to install. We didn’t specify an exact version, so you’ll see something like:
+
+```
+[packages]
+jupyterlab = "*"
+requests = "*"
+bs4 = "*"
+```
+
+`Pipfile.lock` has a more complicated, nested structure that specifies the exact version of your project‘s direct dependencies, along with all their sub-dependencies. It’s a complete blueprint for how to install your project on any computer.
+
+## Run the scraper
+
+With your Python tools installed, you’re ready to run the scraper. JupyterLab comes equipped with a special command — `jupyter execute` — that can run any `.ipynb` file from the command line.
+
+Since JupyterLab was installed inside of a `pipenv` virtual environment, you’ll need to invoke it with the `pipenv run` command to access the special container where our programs were installed.
+
+Here's how to do it. Give it a try.
+
+```bash
+pipenv run jupyter execute scrape.ipynb
+```
+
+Once it finishes, list out the files in your directory with the `ls` command.
+
+```bash
+ls
+```
+
+You should see a new file named `warn-data.csv` created by the scraper. Open it in the spreadsheet program of your choice. You should see the data from [Maryland’s site](https://www.dllr.state.md.us/employment/warn.shtml) structured and ready to analyze.
+
+
+## Save to GitHub
+
+Now we'll log our work with [`git`](https://en.wikipedia.org/wiki/Git), a command-line tool that allows us to carefully track changes to files in our repository. It is the open-source technology at the heart of GitHub’s social network and publishing system.
+
+The first command to learn is [`status`](https://git-scm.com/docs/git-status), which prints out a report card on the current state of your repository.
+
+```bash
+git status
+```
+
+Run it and your terminal should list out the four files we added to the repository. The next step is to instruct `git` to track the new files with the [`add`](https://git-scm.com/docs/git-add) command.
+
+```bash
+git add scrape.ipynb
+git add warn-data.csv
+git add Pipfile
+git add Pipfile.lock
+```
+
+```{note}
+Rather than introduce files one by one, you can add more than one file by using a [wildcard character](https://en.wikipedia.org/wiki/Wildcard_character) in your command. One common shortcut is `git add .`, which will add all of the files in your repository at once.
+```
+
+Logging changes also requires using the [`commit`](https://git-scm.com/docs/git-commit) command, which expects a summary of your work after the `-m` flag.
+
+```bash
+git commit -m "First commit"
+```
+
+````{warning}
+If this is your first time using Git, you may be prompted to configure you name and email. If so, take the time now. 
+
+```bash
+git config --global user.email "your@email.com"
+git config --global user.name "your name"
+```
+
+Then run the `commit` command above again.
+````
+
+The final step is to syncronize the changes we’ve made on our computer with the copy of the repository hosted on Github. This is done via the [`push`](https://git-scm.com/docs/git-push) tool. This complicated `git` command requires two inputs.
+
+First, the command asks for the name of the remote repository where you’d like to send your changes. In the parlance of `git`, the default name is `origin`.
+
+Second, you need to provide the [branch](https://en.wikipedia.org/wiki/Branching_(version_control)) of the code you’d like to syncronize. Branching is a tool for maintaining parallel versions of your code within the same respository. We won't get that sophisticated in this tutorial, so you can stick to the default code branch, which is called `main`.
+
+Taking all that into account, the command to push local changes to GitHub is typically the following. Try it. 
+
+```bash
+git push origin main
+```
+
+Your terminal should log the action, reporting back on its interaction with GitHub. Congratulations. You have made your first code commit. Reload your repository’s page on GitHub to see your handiwork.
+
+
+Next we'll learn how to create a GitHub Action that can automatically run your scraper every day.
+
+## 2022-first-github-scraper-src/docs/scrape.md
+
+# Scrape data using Google Collab
+
+This chapter will guide you through the process of adding a Python web scraper to your repository.
+
+```{contents} Sections
+  :depth: 1
+  :local:
+```
+
+## Find the scraper
+
+The mechanics of how to devise a web scraper are beyond the scope of this class. Rather than craft our own, we will use the scraper created as part of the [“Ẅeb Scraping with Python”](https://github.com/ireapps/teaching-guide-python-scraping/blob/master/Web%20scraping%20with%20Python.ipynb) class put on by [Investigative Reporters and Editors](https://www.ire.org/). If you'd like to learn more about the scraping process, follow [their tutorial](https://github.com/ireapps/teaching-guide-python-scraping/blob/master/Web%20scraping%20with%20Python.ipynb).
+
+
+A completed, simplified version of IRE’s scraper is available at [github.com/palewire/first-github-scraper](https://www.github.com/palewire/first-github-scraper/). 
+
+The routine is trained to download [WARN Act](https://en.wikipedia.org/wiki/Worker_Adjustment_and_Retraining_Notification_Act_of_1988) notices [posted](https://www.dllr.state.md.us/employment/warn.shtml) by the state of Maryland’s Department of Labor. The list is updated when companies based in the state disclose a mass layoff. Business reporters frequently use notices like these to report when plants close and workers lose jobs.
+
+```{note}
+If you’re interested in getting more involved with tracking WARN Act notices, investigate the [scraping system maintained by Stanford’s Big Local News](https://github.com/biglocalnews/warn-scraper) project. It scrapes filings from dozens of different state websites, consolidating them into a single file. That process is automated via, you guessed it, a [GitHub Action](https://github.com/biglocalnews/warn-github-flow).
+```
+
+## Verify what tools are being used
+
+If you want to run the web scraper locally, we will need to install a set of Python tools.
+
+They are the [JupyterLab](https://jupyter.org/) computational notebook, the [requests](https://docs.python-requests.org/en/latest/) library for downloading webpages and [BeautifulSoup](https://beautiful-soup-4.readthedocs.io/en/latest/), a handy utility for parsing data from HTML.
+
+JupyterLab is required to run the `.ipynb` notebook file. We can tell `requests` and `bs4` will be necessary because they are imported at the top of the script, as seen on GitHub.
+
+
+By default, Python's third-party packages are installed in a shared folder somewhere in the depths of your computer. Unless told otherwise, every Python project will draw from this common pool of programs.
+
+To run this notebook locally on your computer check out [section 2]((https://palewi.re/docs/first-github-scraper/scrape-locally.html)) of this documentation. Section 2 and 3 are interchangeable - whether you would want to run this locally or on a web browser (which is covered on this section) is up to you.
+
+A simpler way to run a notebook without installing Python and its libraries is to use [Google Collab](https://colab.research.google.com/). Google Collab is a product from Google research that allows you to run python code on your browser - and it's free! It's an easy way to start using Jupyter notebook without having to install all its requirements.
+
+## Import and the scraper on Google Collab
+
+Make your way to [Goolge Collab](https://colab.research.google.com/) - you will need a to have a Google account and sign in to it. Choose the Github button and add the [link](https://github.com/palewire/first-github-scraper/blob/main/scrape.ipynb) to our scraper. Hit the search button. 
+
+
+This will open up the notebook on your browser. First, let's make sure to save a copy of this scraper in our Google Drive. Go to File -> Save a copy in Drive. This will allow you to run the scraper on your Collab account without having to search for the GitHub link.
+
+
+## Run the scraper
+
+Notebooks are composed of "cells" in which you can add your code. You have to execute each line of code in your cell by "running" the cell. You can do this in many ways. Try clicking the play button on the left side of the cell. If you are familiar with Jupyter notebooks, you'll find that keyboard shortcuts like SHIFT + ENTER will work on the cell as well. You can also run the notebook from top to bottom all at once by clicking on Runtime --> Run all. Notice our last cell, which creates a warn-data.csv. Click on the folder icon at the bottom of left panel to see your file. 
+
+
+You should see a new file named `warn-data.csv` created by the scraper. Clicking on the Mount Drive icon on the top of the folder panel will create a new cell in your notebook. If you run the cell, it will create a link to your Google Drive and allow you to drag your output into Drive. You can also download the csv to your computer by right clicking on the csv file. 
+
+
+Open it in the spreadsheet program of your choice. You should see the data from [Maryland’s site](https://www.dllr.state.md.us/employment/warn.shtml) structured and ready to analyze.
+
+
+## Save to GitHub
+
+Now we'll log our work in our repository using GitHub Desktop. First let's download the files we want to keep in our repository. Go to your Google Drive page, right click and download your scraper notebook. It should be an `ipynb` file. 
+
+Open your desktop and click on "View the files of your repository in Finder". Drag the downloaded scrape.ipynb file to the folder. You will see the file in the right panel. You can leave a specific commit message (as a default it will say "Create scrape.ipynb"). Click on "Commit to main". Then click "Push to origin".
+
+
+Now you will see your scraper in your Github repository. 
+
+Next we'll learn how to create a GitHub Action that can automatically run your scraper every day.
+
+## 2022-first-github-scraper-src/scrape.ipynb
+
+# First Github Scraper
+
+This notebook is a simplified version of the IRE tutorial "Web scraping with Python." Consult [the original material](https://github.com/ireapps/teaching-guide-python-scraping) to learn more about how to write a web scraper.
+
+``` python
+import requests
+import bs4
+```
+
+``` python
+URL = 'http://www.dllr.state.md.us/employment/warn.shtml'
+```
+
+``` python
+warn_page = requests.get(URL)
+```
+
+``` python
+soup = bs4.BeautifulSoup(warn_page.text, 'html.parser')
+```
+
+``` python
+table = soup.find('table')
+```
+
+``` python
+rows = table.find_all('tr')
+```
+
+``` python
+import csv
+```
+
+``` python
+HEADERS = [
+    'warn_date',
+    'naics_code',
+    'biz',
+    'address',
+    'wia_code',
+    'total_employees',
+    'effective_date',
+    'type_code'
+]
+```
+
+``` python
+with open('warn-data.csv', 'w', newline='') as outfile:
+    writer = csv.writer(outfile)
+    writer.writerow(HEADERS)
+    for row in rows[1:]:
+        cells = row.find_all('td')
+        values = [c.text.strip() for c in cells]
+        writer.writerow(values)
+```

@@ -1,0 +1,1066 @@
+{
+  "source_id": "11",
+  "source_file": "11-data-literacy.md",
+  "source_title": "Data Literacy: A User's Guide",
+  "author": "David Herzog",
+  "year": "2015",
+  "chunk": null,
+  "chunk_words": 64796,
+  "extracts": [
+    {
+      "extract": "We consider data to be any computerized file that uses columns and rows (a tabular structure) to organize data that are represented as text, numbers, dates and the like. These files can be manipulated using programs like spreadsheets and database managers, and can be transmitted over computer networks.",
+      "chapter": "Data Defined",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data definition",
+        "tabular data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We usually prefer to get raw data. Raw data afford us more flexibility when it comes to analysis. We can make our own decisions about how to summarize. Raw data make it easier for us to examine our data and test the integrity—or quality—of our data.",
+      "chapter": "Data Defined",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "raw data",
+        "data quality",
+        "analytical flexibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Working effectively with data requires more than computing. It requires thought and reflection on our own parts. As we climb the pyramid, we rely less on computers and more on our own experiences and thoughts.",
+      "chapter": "Climbing the Pyramid",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "DIKW hierarchy",
+        "critical thinking",
+        "data literacy"
+      ],
+      "notes": "References Ackoff DIKW hierarchy"
+    },
+    {
+      "extract": "One of the big challenges in becoming data literate is being able to quickly identify data and determine which government agency keeps them. If the data are posted on the Internet, we can find and download them. If data are not posted online, we request them from the agency. To meet that challenge we need to develop a data state of mind, one that opens our eyes to the proliferation of data online, in government agency mainframes and servers, and in university libraries.",
+      "chapter": "Clues for Uncovering Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data state of mind",
+        "source identification",
+        "government data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Agencies collect, analyze and publish data for one or more of three primary reasons: (1) they are required to do so by law, (2) agencies believe the data will help them execute their missions or (3) agencies are participating in an open-government effort.",
+      "chapter": "How and Why Agencies Collect, Analyze and Publish Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "government data",
+        "data provenance",
+        "open government"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our goals for working with the data can differ greatly from the goals of the people at the agencies that collect them. For instance, we may be interested in determining which industry group's employees contributed the most money to candidates, but our state probably records the occupation and employer—not industry category—of each contributor. That means we won't be able to answer that question without a lot of additional research and changes to our data.",
+      "chapter": "How and Why Agencies Collect, Analyze and Publish Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "question scoping",
+        "data limitations",
+        "fitness for purpose"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you're interested in a database, get a copy of the form that's used to feed data into it. Forms tell a lot about what you can expect to find in databases. You should assume that all of the data collected on the form will be entered. You may be incorrect, but you should start with the assumption that more data are available.",
+      "chapter": "Clues from Data Entry",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "government forms",
+        "source identification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Web form URLs with a .php extension are a clue to the presence of a database. PHP is a programming language that lets Web forms pass data to databases. Also be on the lookout for .cfm (Adobe ColdFusion) and .asp (Microsoft Active Server Pages), which can also pass data from a Web form to a database.",
+      "chapter": "Clues from Data Entry",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "web forms",
+        "technical clues"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use Google Advanced Search to find data files. The trick is to think of words that appear on webpages that link to downloadable data. Try 'downloadable data site:.gov' to look for pages with those terms on government websites. You could narrow further by adding 'filetype:xls' for Excel files.",
+      "chapter": "Search Tricks",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search techniques",
+        "Google Advanced Search",
+        "data discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before we download any data, we need to practice safe computing and document our work. Create a word processing document or file with the name Data_Notebook; this is going to be where we take notes about the data we get and what we do with them. Enter the date, then the dataset name and URL. Don't forget to include details about the data, such as the number of rows, time span, update frequency, and source.",
+      "chapter": "Online Databases",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "data notebook",
+        "provenance tracking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When downloading data from a government website, make sure you also download a copy of any documentation. The data documentation, often stored as a Word, PDF or other document file, usually is essential in helping understand what's in the data file. There's no standard name for the documentation, so it might be called record layout, file layout, data dictionary or something entirely different.",
+      "chapter": "Don't Forget the Road Map",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data documentation",
+        "data dictionary",
+        "record layout"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The documentation usually provides some key pieces of information about the data set: table names along with record counts for each table; column or field names in each table along with a field description, type of data (character, number, date, etc.) and width; and codes and their meanings.",
+      "chapter": "Don't Forget the Road Map",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data documentation",
+        "metadata",
+        "data dictionary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Before using data from a nongovernmental source, ask: How did the NGO obtain the data? What did the NGO do to process or change the data? What interest does the NGO have in making the data available? Can you get the data directly from the official government source instead?",
+      "chapter": "Nongovernmental Resources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source verification",
+        "NGO data",
+        "data provenance"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Government data (at least in the United States) are considered to be free of licensing rules that restrict distribution and use. For journalists, official documents and data provide an additional benefit: protection against libel suits. The fair report privilege provides a shield to journalists who base their news accounts on fair and accurate use of official sources.",
+      "chapter": "Nongovernmental Resources",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "government data",
+        "fair report privilege",
+        "legal protections"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Records retention schedules, audit reports, federal agency major information system listings and nongovernmental organization sites are tools particularly well suited for helping identify offline data. Records retention schedules provide details about records held by state and local government agencies.",
+      "chapter": "Other Clues for Offline Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "offline data",
+        "records retention",
+        "audit reports",
+        "data discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "GAO audit reports can easily run dozens of pages, but you can get to the meat quickly by reading the Summary of Findings or What GAO Found section, as well as the Scope and Methodology. If a GAO auditor reviewed databases for the report, he or she will list those in the Scope and Methodology.",
+      "chapter": "Other Clues for Offline Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audit reports",
+        "GAO",
+        "data discovery",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Once you've identified an offline database, the agency employees who create or maintain the data can be helpful because they are the ones who are most familiar with the system. As a negotiating tactic, you can always ask to speak to the data specialist directly, in the interests of making things easier for everyone.",
+      "chapter": "Find the Data Nerd",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source cultivation",
+        "data specialists",
+        "negotiation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A good open-records request letter is clear, concise and includes enough detail about what you are seeking: the name of the database as known inside the agency; the names of the data columns if known; the time frame of the data; the format in which you'd like to receive the data; request for the documentation; request for written explanation in case of denial; fee waiver request or limitation.",
+      "chapter": "Writing the Data Request",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "open records",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ron Nixon estimated that he files two or three FOIA requests a month, trying to obtain data for stories on his to-do list. Getting data pursuant to a FOIA request can take a while, so Nixon says he tries to give himself plenty of time. When he requests data, Nixon says he tries to be as specific as possible; he avoids making requests for everything in the database because FOIA officers in agencies usually kick back those requests.",
+      "chapter": "FOIA in Action",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "specificity",
+        "newsroom workflow"
+      ],
+      "notes": "Based on Ron Nixon interview"
+    },
+    {
+      "extract": "Nixon recommends that requesters do a lot of leg work before filing requests. Sometimes he bases his requests on the information collected on federal forms. Sometimes he looks at online federal agency FOIA logs to see what data others have already requested. If someone has already requested and received data, the agency should be able to easily provide a copy.",
+      "chapter": "FOIA in Action",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "preparation",
+        "FOIA logs"
+      ],
+      "notes": "Based on Ron Nixon interview"
+    },
+    {
+      "extract": "When government agencies tell you data are private, ask them to cite the law in writing so you have a copy of the agency's legal reasoning on the record. If some of the data truly are private, you can probably get the public portion, because under FOIA and state open-records laws, agencies are supposed to disclose what's public.",
+      "chapter": "Negotiating Through Obstacles",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "negotiation",
+        "privacy exemptions",
+        "redaction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When we get a data file—by downloading it or through a public records request—it's tempting to want to start analyzing it right away. But at this point, we need to pause and take time to understand our data better. What are the data's strengths? What are their weaknesses? Is anything missing? How important are those missing data? Can we use the data to accurately answer any questions that we might have?",
+      "chapter": "Data Dirt Is Everywhere",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "verification before analysis",
+        "critical assessment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As analysts, we have a duty to know our data inside and out. We need to have an intimate understanding of their shortcomings. We owe the consumers of our data analysis—whether that's other researchers, business clients or the public—the most accurate reading of our data that we can possibly deliver.",
+      "chapter": "Data Dirt Is Everywhere",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data ethics",
+        "analytical responsibility",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Blindly trusting that government agencies and others will collect and report data accurately is a neglect of duty on our part. Veteran data users will tell you that government data can run the gamut from slightly messy to so flawed that the data are unusable. Government agencies often have poor data quality control, if they have any at all.",
+      "chapter": "Data Dirt Is Everywhere",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data skepticism",
+        "government data quality",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "All data are dirty. Dirty data thrive where there are poor controls during the data entry process—the old GIGO, garbage in, garbage out, effect. Data-entry clerks are low paid and perform this work for hours-long stretches. It's easy to get distracted and make mistakes, and easy to enter data inconsistently.",
+      "chapter": "All Data Are Dirty",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "dirty data",
+        "data entry errors",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Changing rules for collecting data can hurt your data quality, or at least limit your analysis. Federal government agencies often tweak or even radically change their data collection methods and rules. Any comparisons across rule changes would prove inaccurate.",
+      "chapter": "Changed Rules = Changed Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data comparability",
+        "methodology changes",
+        "temporal analysis"
+      ],
+      "notes": "Examples: BLS mass layoffs scope change 2004, bankruptcy law 2005, MEPS survey hold 2007"
+    },
+    {
+      "extract": "FAPRI analysts look over the data in tables and create charts that help them spot data that are inconsistent or improbable. Analysts examine supply and use data to see if they are in balance—making sure the sum of production and imports equals the sum of domestic use, exports and ending stocks.",
+      "chapter": "Detecting Dirt in Agricultural Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data validation",
+        "balance checks",
+        "visualization for verification"
+      ],
+      "notes": "Based on Patrick Westhoff interview"
+    },
+    {
+      "extract": "Immediately after we get a file, we want to answer a few big-picture questions before moving on to more-detailed data-integrity checks: What is the file format? How many rows do we have? Are all of the columns present with proper headers?",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "initial checks",
+        "file inspection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For detailed integrity checks, generate pivot tables that list each data value and the number of times that value appears. These checks let us take a good look at what we have to work with. Check each column against the metadata to verify values match expected formats, ranges, and patterns.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pivot tables",
+        "data integrity",
+        "frequency analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When you run data integrity checks you'll need to have your data documentation at your side. Practice safe computing by making a copy of the metadata for yourself, so you always have a copy somewhere.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data documentation",
+        "safe computing",
+        "backup"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Look at the column headers in Row 1 and make sure they are the same as in the metadata. It's tempting to change the headers to something that's more meaningful to us. However, it's best to practice safe computing by keeping the original names. That way, anyone who works with the data can easily refer to the metadata.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "column headers",
+        "metadata",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Practice safe computing: We've made changes to our sheet, so let's preserve the original and create a new, working version. Save a working version of the file. After working with data for a while you will no doubt adopt a file-naming convention that fits your workflow.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "version control",
+        "safe computing",
+        "file management"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Look for suspect values—outliers, or numbers that are so extreme that they might be incorrect. Suspect values pop up in columns that contain dates or numbers. For dates, check that all values fall within the expected time frame. For amounts, look at both extremes.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "outlier detection",
+        "data validation",
+        "suspect values"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We can use pivot tables to combine cities and states in our results, testing location data more rigorously than checking each field alone. This allows us to spot errors like a city listed in the wrong state.",
+      "chapter": "Data Integrity Checks",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-field validation",
+        "pivot tables",
+        "location data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When importing text files into Excel, we should make all of the columns text to avoid any import flubs that may delete data. Excel's General format will treat zip codes with leading zeros as numbers and lop off the leading zero. We can always change the format of the columns in Excel later.",
+      "chapter": "Downloading, Unzipping and Inspecting Data Files",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data import",
+        "text format",
+        "leading zeros",
+        "Excel"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Excel and other spreadsheet programs have built-in features and functions for data cleaning: Text to Columns to parse data stored in one column into multiple columns; Remove Duplicates to remove repeated rows; and formulas to carve out and reassemble data. OpenRefine is an open-source program from Google that lets users quickly run data integrity checks, then clean flawed values.",
+      "chapter": "Getting Your Data in Shape",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "OpenRefine",
+        "data cleaning tools"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "More-advanced data users will use database managers, such as Microsoft Access or MySQL, to clean data using string functions inserted into SQL queries. Data users who are even more advanced write scripts using programming languages like Python, Ruby, PHP or Perl to clean and transform data sets, processing huge amounts of data more quickly than traditional programs.",
+      "chapter": "Getting Your Data in Shape",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "SQL",
+        "Python",
+        "programming",
+        "advanced cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use Excel's TRIM function to remove extraneous leading and trailing spaces, as well as duplicate spaces inside a text entry. Spaces technically are data (one of the basic ASCII characters) and can throw off any analysis.",
+      "chapter": "Column Carving",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "TRIM function",
+        "whitespace",
+        "Excel",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "OpenRefine's Clustering feature uses algorithms designed to find text values that might be the same. It employs two methods—key collision and nearest neighbor—each with multiple keying functions. This allows cleaning of misspelled or inconsistent entries en masse rather than one at a time.",
+      "chapter": "Power Scrubbing with OpenRefine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "clustering",
+        "standardization",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Text files are perhaps the most useful format of all because they can be read, processed and exported by all computers and data analysis programs. These text files come in two different flavors: fixed-width and delimited. Delimited data are easier to import than fixed-width, because computer programs can read the delimiters and automatically determine where the column breaks go.",
+      "chapter": "File Formats",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "file formats",
+        "text files",
+        "CSV",
+        "delimited data",
+        "interoperability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use a text editor such as Notepad++ (Windows) or TextWrangler (Mac) to inspect data files before importing them into a spreadsheet. Text editors can handle large files and let you see hidden characters like tabs and carriage returns that serve as delimiters.",
+      "chapter": "Downloading, Unzipping and Inspecting Data Files",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "text editors",
+        "file inspection",
+        "Notepad++",
+        "data verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If agencies are unable to produce Excel files, they should be able to create ASCII text (delimited or fixed-width), because that is the format common to all computers. Under FOIA, federal agencies are supposed to provide data in the format that's requested if the agency is able to do so.",
+      "chapter": "Requesting the Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data formats",
+        "FOIA",
+        "ASCII text",
+        "negotiation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use website navigation tabs to look for words like Data, Open Data, Transparency and Statistics when searching agency sites for data. Try typing www.agencyname.gov/data in your browser. You can also try typing data instead of www in a URL, such as data.mo.gov for a state portal.",
+      "chapter": "Agency Sites",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "agency websites",
+        "URL patterns"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When someone creates a data file and stores columns with date data as text, it limits our ability to analyze the file. We won't be able to run date formulas, calculate elapsed time between dates, or figure out the day of the week. Another database design problem is run-on data—when the person who created the file stuffs more data than we'd like into one column.",
+      "chapter": "Data Dirt Is Everywhere",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data structure",
+        "dates as text",
+        "run-on data",
+        "schema design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Let's practice safe computing and make sure we downloaded all of the data: check that we downloaded all columns, then use Ctrl-End to navigate to the bottom right corner of the spreadsheet to verify the row count matches what the source indicated.",
+      "chapter": "Online Databases",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "download verification",
+        "row count",
+        "safe computing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "OpenRefine's clustering function uses algorithms to identify similar text values and standardize them. After clicking Merge Selected & Re-Cluster, Refine standardizes all of those variations. We'd go through each of these clusters, then apply all of the other methods and keying functions.",
+      "chapter": "Data Cleaning with OpenRefine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "clustering",
+        "standardization",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Many government agencies publish data tables inside PDFs. In order to work with the tables, we must first liberate them. Cometdocs and Zamzar are two proven services. Sometimes one does better than the other, depending on how the PDF is structured. So try both in real-life situations. Note that conversions will not work with PDFs that were created by scanning other documents.",
+      "chapter": "Extracting Data from PDFs",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "PDF extraction",
+        "data liberation",
+        "format conversion"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For students and professionals working with data, cleaning is an essential part of the process. This chapter showed how you can get started to solve some of the most vexing problems with Excel, OpenRefine and online PDF converters.",
+      "chapter": "Data Cleaning with OpenRefine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data cleaning",
+        "workflow",
+        "essential practice"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When we work with data, we will often compare numbers, because raw numbers hardly ever are meaningful by themselves. We create meaning when we compare them to other numbers or benchmarks.",
+      "chapter": "Number Comparisons",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "comparison",
+        "context",
+        "meaning-making"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When we work with data, we often generate what are called summary statistics. Some examples are counts, sums and averages. These numbers are used to take snapshots or descriptions of our data. We can generate these easily and they will tell us much about our data.",
+      "chapter": "Simple Summary Statistics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "summary statistics",
+        "counts",
+        "sums",
+        "averages"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Outliers, or numbers that are notably low or high, can skew the mean. In those instances, the median is a more accurate reflection of the central tendency. Numbers with an unlimited cap—such as incomes or home sale prices—are more prone to having outliers.",
+      "chapter": "Simple Summary Statistics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "outliers",
+        "median",
+        "mean",
+        "central tendency",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In our analytical toolbox we have a number of comparisons that are easy to generate: amount change or raw change, percent change, percent of total, ratios and rates. The amount change doesn't say much because we lack context. That's why we always want to compare the raw change to the starting point.",
+      "chapter": "Compared to What?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "percent change",
+        "ratios",
+        "rates",
+        "comparison",
+        "context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Rates are helpful tools because they allow us to more fairly compare numbers from areas with dissimilar populations. When we calculate rates, it's a two-step process. First, we calculate a per capita rate. Then, we multiply that by a standard number to normalize our results. Per capita rates are usually so small that they're fractions and don't make much sense. So we normally multiply them by a standard number.",
+      "chapter": "Compared to What?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "rates",
+        "per capita",
+        "normalization",
+        "population comparison"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We can have internal and external benchmarks. Internal benchmarks are numbers that are contained within our data. Percent change could be considered an external benchmark because we're comparing a number from one year to that number in the previous year. Reports created by government agencies, or nongovernmental organizations using data, can be a benchmarking tool.",
+      "chapter": "Benchmarking",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "benchmarking",
+        "internal comparison",
+        "external comparison"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ratios are helpful when we want to calculate proportions that show differences between numbers. To generate a ratio we take our number and divide it by another number to which we are drawing a comparison.",
+      "chapter": "Compared to What?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ratios",
+        "proportions",
+        "comparison"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sorting in Excel can be tricky because you first need to highlight all of the data you want to sort, including the headers but excluding any summary functions calculated at the bottom of the sheet. If you fail to highlight all of your data, Excel may sort some of your columns and leave others unsorted. This is a big problem, because you'll have mismatched data.",
+      "chapter": "Sorting",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sorting",
+        "Excel",
+        "data integrity",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We used Excel's pivot table function to run simple integrity checks that gave us a better understanding of the values in each of our data columns. Here, we use pivot tables to answer 'How much?' or 'How many?' questions about categories that we find in our data.",
+      "chapter": "Grouping and Summarizing",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "pivot tables",
+        "integrity checks",
+        "grouping",
+        "summarizing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A filter is a temporary view of data in Excel. If we want to create a permanent copy we can copy our filtered results and then paste them into a new sheet.",
+      "chapter": "Filtering",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "filtering",
+        "Excel",
+        "data subsetting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Visualization is simply the act of creating charts based on data. Data analysts will often create many different visualizations that can help show the data from different perspectives, or they will show a subset of data. The techniques of exploratory data analysis, as promoted by statistician Tukey, use different types of graphs to get a better understanding.",
+      "chapter": "Visualization Defined",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "exploratory data analysis",
+        "Tukey",
+        "perspective"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The first goal of an infographic is not to be beautiful just for the sake of eye appeal, but above all, to be understandable first, and beautiful after that; or to be beautiful because of its exquisite functionality. Graphics reveal data.",
+      "chapter": "Visualization Defined",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "design principles",
+        "Cairo",
+        "Tufte"
+      ],
+      "notes": "Quoting Cairo (2013) and Tufte (1983)"
+    },
+    {
+      "extract": "Tufte's theory of graphical excellence instructs us to: show the data; induce the viewer to think about the substance rather than methodology; avoid distorting what the data have to say; present many numbers in a small space; make large data sets coherent; encourage the eye to compare different pieces of data; reveal the data at several levels of detail; serve a reasonably clear purpose; be closely integrated with statistical and verbal descriptions.",
+      "chapter": "Visualization Defined",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "Tufte",
+        "graphical excellence",
+        "design principles"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Give your chart a title. Label your chart elements including axes and legends. Include a source line—it shows others where you got the data, because you want to give others the ability to try to replicate or even challenge your results. Display enough data to provide context; showing only three years of unemployment data might mask the fact that the rate had been rising in earlier years.",
+      "chapter": "Some Best Practices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "labeling",
+        "source attribution",
+        "replicability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Which chart will be the most appropriate and communicate the best? The answer depends on the kind of data that we want to visualize. Pie charts are best for showing proportions of the whole. Vertical column charts are ideal for showing change over time with discrete time-series data. Line charts are a great choice for continuous time-series data. Scatterplots help us show whether we might have a relationship between two variables.",
+      "chapter": "Charting Choices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart selection",
+        "pie chart",
+        "column chart",
+        "line chart",
+        "scatterplot"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Avoid the temptation to use 3-D pie charts because they can distort results and make some slices appear bigger than they ought to be.",
+      "chapter": "Charting Choices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "visualization",
+        "pie chart",
+        "distortion",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A map is often the best way to visualize geographic data. Excel is unable to create maps but can do so using plug-in programs. We can use geographic information system programs, such as ArcGIS or Quantum GIS, to create data maps. We can also use online programs, such as Google Fusion Tables.",
+      "chapter": "Charting Choices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "mapping",
+        "GIS",
+        "ArcGIS",
+        "Fusion Tables",
+        "geographic data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We prefer to use data based on real dollars because doing so takes into account the effects of inflation. The title also signals to viewers they are looking at data spanning the years 2000 to 2013.",
+      "chapter": "Some Best Practices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "inflation adjustment",
+        "real dollars",
+        "chart labeling",
+        "context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The scatterplot includes a linear trend line that shows the central tendency of the data. Any point that's well above the trend line represents a city whose violent crime numbers are higher than expected. Excel uses a statistical calculation called linear regression to determine the position of the linear trend line.",
+      "chapter": "Charting Choices",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "scatterplot",
+        "trend line",
+        "linear regression",
+        "outlier detection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Sparklines are intense, simple, word-sized graphics that are placed inside individual cells. A sparkline is an excellent tool for helping compare patterns in large data sets.",
+      "chapter": "Charting Choices",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "sparklines",
+        "Tufte",
+        "pattern detection",
+        "Excel"
+      ],
+      "notes": "Quoting Tufte"
+    },
+    {
+      "extract": "When evaluating Web-based data visualization platforms, consider that you often surrender control of your data when you make it available on these sites. Make sure that you read the terms of service and the privacy statement. A related risk is that the visualization platform could be taken offline completely.",
+      "chapter": "Evaluating Web Visualization Platforms",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "web tools",
+        "data control",
+        "terms of service",
+        "platform risk"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Database managers, such as Microsoft Access and the open source MySQL, are designed to work with large files. Some database programs can easily work with millions of rows of data, something that's impossible with Excel's default installation settings. Database managers are especially powerful because they allow us to extract specific pieces of data that interest us.",
+      "chapter": "Database Managers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "database managers",
+        "Access",
+        "MySQL",
+        "scalability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Anyone who learns SQL on one database manager can apply that knowledge to another. Anyone who learns SQL can talk intelligently to database administrators at government agencies, making it easier to negotiate for offline data. Learning SQL forces database users to think logically about their data and how they are structured.",
+      "chapter": "Database Managers",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "SQL",
+        "logical thinking",
+        "data negotiation",
+        "transferable skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Database managers allow us to link tables together through a process called joining. If we get a database from a government agency that's stored in more than one table, we can stitch the data together to better make sense of it.",
+      "chapter": "Database Managers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database joins",
+        "relational data",
+        "government data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Most advanced data analysts prefer to use more robust standalone statistical programs, such as IBM's SPSS, SAS or the open source R. Statistical programs can generate descriptive statistics and run tests that allow us to see whether there's any statistical relationship between variables. These are called inferential statistics.",
+      "chapter": "Statistical Programs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "SPSS",
+        "SAS",
+        "R",
+        "inferential statistics",
+        "statistical software"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In medical and social science research, analysts will often run descriptive statistics first to understand their data. Then they will run inferential statistics to test their hypotheses.",
+      "chapter": "Statistical Programs",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "descriptive statistics",
+        "inferential statistics",
+        "workflow",
+        "hypothesis testing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Refine can also split and merge values in columns. It even has its own scripting language called GREL, which allows you to write code for cleaning data.",
+      "chapter": "Data Cleaning with OpenRefine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "GREL",
+        "scripting",
+        "data cleaning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Anyone who wants to work with data needs to have some basic tools: spreadsheets, text editors and data cleaner. OpenRefine should work comfortably with data files of up to 10 columns by 100,000 rows.",
+      "chapter": "Data Toolkit",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "toolkit",
+        "spreadsheets",
+        "text editors",
+        "OpenRefine",
+        "tool selection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Practice safe computing by saving a working copy of the file using File Save As, using a new file name.",
+      "chapter": "Calculating Summary Statistics",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "backup",
+        "workflow discipline"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Experienced data users typically use database manager programs, such as Microsoft Access and MySQL, to create groups and summaries. However, we can perform many of the same functions using spreadsheets.",
+      "chapter": "Spreadsheets as Database Managers",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "spreadsheets",
+        "database managers",
+        "tool progression"
+      ],
+      "notes": ""
+    }
+  ]
+}

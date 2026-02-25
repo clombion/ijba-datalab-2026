@@ -1,0 +1,155 @@
+{
+  "source_id": "71",
+  "source_file": "71-data-science-ml-digital-journalism.md",
+  "source_title": "Data Science, ML and Big Data in Digital Journalism: A Survey",
+  "author": "various",
+  "year": "2023",
+  "chunk": null,
+  "chunk_words": 14180,
+  "extracts": [
+    {
+      "extract": "This well-defined process allow us to identify, evaluate and interpret the literature to answer relevant research questions (RQs) that are detailed at Section 3.",
+      "chapter": "Systematic literature review",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "research design",
+        "systematic review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The initial keywords selection was based on filter the top keywords of the Journals 'Decision Support Systems' and 'Digital Journalism'. We selected the 20 most frequent keywords by year in the last 5 years in both Journals. Then, we saved the keywords that are in the top 20 more than one year.",
+      "chapter": "Study design, data collection and selection",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "keyword selection",
+        "systematic review",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Our approach is the only literature review study that includes Text Mining (TM) automated methods and a clearly identified criteria for the keywords' selection, followed by a Hierarchical Clustering to define exclusion criteria's. Thus, this approach reduces the SLR manual effort, resulting in a more easily replicable semi-automated methodology while simultaneously avoiding human bias.",
+      "chapter": "Contribution",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "text mining",
+        "automation",
+        "bias reduction",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To reduce the subjectivity, the three authors (a head of digital media and analytics office at a wide audience journal; and two senior scholars in data science and analytics) analysed all HLT decisions until a consensus was reached.",
+      "chapter": "Study design, data collection and selection",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "inter-coder reliability",
+        "subjectivity",
+        "consensus"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data precessing and cleaning was performed. The second keywords selection was improved by excluding the top terms that are out of the research scope. TM methods were used to find the top terms presented in the sample. Then, non-related documents were removed from the collection by adding an exclusion condition in the second search query.",
+      "chapter": "Keywords enhancement with text mining",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "text mining",
+        "exclusion criteria"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The term frequency-inverse document frequency (tf-idf) measures the relative importance of a word to a document. Finally, agglomerative hierarchical clustering (AHC) was performed to find the main clusters in the sample.",
+      "chapter": "Keywords enhancement with text mining",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tf-idf",
+        "clustering",
+        "text mining"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The statistical analysis was performed by using two open-source tools: biblioshiny that is a shiny app providing a web-interface for bibliometrix and VOSviewer.",
+      "chapter": "Data analysis and findings",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "bibliometrics",
+        "VOSviewer",
+        "R",
+        "open source"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A content analysis was carried out by a meticulous abstracts' reading to guarantee that we selected contributions concerning the topic studied.",
+      "chapter": "Data analysis and findings",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis",
+        "quality assurance",
+        "manual verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The large number of articles makes the usage of TM convenient for a better selection and analysis of the literature. Bibliometric research and HTC were combined to answer the RQs.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scalability",
+        "mixed methods",
+        "text mining"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Research on data sources and data quality in DJ can help to improve DS models and results. When dealing with real data, the future can be completely different from the past. Indeed, one of the three types of uncertainties when dealing with real forecasting situations is data uncertainty.",
+      "chapter": "Discussion and challenges",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "uncertainty",
+        "forecasting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "As the information increases, the information credibility and readers' trustworthiness become a matter of concern. Thus, explore new models on fake news detection is an opportunity of research.",
+      "chapter": "Potential research opportunities",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "fact-checking",
+        "credibility",
+        "fake news detection"
+      ],
+      "notes": ""
+    }
+  ]
+}

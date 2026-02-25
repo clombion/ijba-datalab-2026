@@ -1,0 +1,125 @@
+{
+  "source_id": "77",
+  "source_file": "77-ai-automation-investigative-journalism.md",
+  "source_title": "Use Cases of AI and Automation Support in Investigative Journalism",
+  "author": "various",
+  "year": "2025",
+  "chunk": "1/1",
+  "chunk_file": "77-ai-automation-investigative-journalism_chunk1.md",
+  "chunk_words": 7158,
+  "extracts": [
+    {
+      "extract": "Automation assists investigative reporting by analyzing large datasets, finding correlations, and recognizing hidden patterns in documents that might be overlooked otherwise. Accordingly, this allows journalists to automate repetitive tasks, focus on framing better insights, and create newsworthy stories.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "pattern recognition",
+        "efficiency",
+        "investigative journalism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "We emphasize the importance of involving experts, affected stakeholders, and developers in a co-creation process to enhance the transparency of such systems.",
+      "chapter": "Automation Helps When Done Right",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "co-creation",
+        "transparency",
+        "stakeholders",
+        "tool design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Users should be able to (1) get (un) structured data quickly using multi-modal agents running periodically; (2) automatically convert and store collected data in multiple formats with the support of LLMs; (3) document, record, and track the actions during investigations; and (4) securely share automation flows without sharing sensitive data.",
+      "chapter": "Automation Helps When Done Right",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "data collection",
+        "documentation",
+        "security",
+        "LLMs"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Even if outlets automate fact-checking through automatic claim verification, human intervention would still be necessary to validate and ensure the relevance and accuracy of results. While automation helps in information retrieval and could bridge knowledge gaps, journalism involves more than just collecting data.",
+      "chapter": "Ironies When Automating Investigations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "human-in-the-loop",
+        "verification",
+        "automation limits",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The ability of journalists to structure and fact-check sources and evaluate automation outcomes utilizing computational and data thinking is crucial in preserving the integrity of automated reporting. Additionally, journalists need statistical knowledge and a deep understanding of how information flows on the internet to identify suitable data, interpret it, and create the right stories.",
+      "chapter": "Ironies When Automating Investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "computational thinking",
+        "verification",
+        "skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Raising awareness, 'AI literacy', and establishing clear guidelines for using AI in the newsroom are essential for building trust in autonomous systems. This could be achieved by organizing workshops within investigative teams or developing simple prototypes to demonstrate and test system capabilities.",
+      "chapter": "Ironies When Automating Investigations",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "AI literacy",
+        "trust",
+        "training",
+        "newsroom guidelines"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Documenting this process could be challenging and time-consuming, and recalling the origin of the data may be difficult. P05 described a tool, which he referred to as 'a time machine', that records users' digital activities during investigations and allows them to retrace their steps back to the source.",
+      "chapter": "Documenting",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "provenance",
+        "investigation trail",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Participants P02, P03, and P08 warned about hallucinations when using LLMs. Despite these concerns, their ability to quickly identify patterns overlooked during research makes them useful data visualizers.",
+      "chapter": "Analyzing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "LLMs",
+        "hallucinations",
+        "pattern recognition",
+        "visualization"
+      ],
+      "notes": ""
+    }
+  ]
+}

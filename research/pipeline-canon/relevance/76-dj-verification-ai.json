@@ -1,0 +1,168 @@
+{
+  "source_id": "76",
+  "source_file": "76-dj-verification-ai.md",
+  "source_title": "Data Journalism, Digital Verification and AI",
+  "author": "various",
+  "year": "n.d.",
+  "extracts": [
+    {
+      "extract": "The ability to analyse data sets enables journalists to verify for themselves information that is provided to them by a source, an organisation or a government. Instead of reporting the supplied figures and assuming them to be correct, data journalism examines the data and comes to its own conclusions.",
+      "chapter": "Beyond Numbers: Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "independent analysis",
+        "source critique",
+        "data journalism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Independent verification of data rather than trusting supplied figures is a core journalistic principle"
+    },
+    {
+      "extract": "Verification (checking and verifying statements and sources) is a basic journalistic routine. Digital verification simply makes use of online sources and tools such as open-source intelligence (OSINT) to do so. Fact-checking, in turn, is a specific application within the verification process.",
+      "chapter": "The importance of Digital Verification and Fact-Checking in Journalistic Work",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "OSINT",
+        "fact-checking",
+        "digital verification"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Digital verification and OSINT principles endure but the toolset now includes LLM-powered analysis alongside traditional OSINT"
+    },
+    {
+      "extract": "The number one rule of fact-checking is the journalistic routine to always seek out the source for basic verification. Whether it is a political claim in a speech or a viral photograph surfacing on social media, finding the source is the first most important thing a fact-checker needs to do. This requires search skills and knowing where to look for relevant information.",
+      "chapter": "The importance of Digital Verification and Fact-Checking in Journalistic Work",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source verification",
+        "fact-checking",
+        "search skills"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Seeking out the original source as the first step in fact-checking is an enduring verification principle"
+    },
+    {
+      "extract": "It is (still) rare for journalists to be an expert in all fields (and will likely continue to be rare) when it comes to data collection, data cleaning, statistical analysis, data visualisation, and so on. Each area needs the expertise of the other.",
+      "chapter": "Moving Data Journalism and Fact-Checking to the Centre of the Newsroom through Newsroom Convergence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "specialization",
+        "interdisciplinary",
+        "newsroom convergence"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Interdisciplinary collaboration remains essential but LLMs reduce some specialization barriers, changing team composition needs"
+    },
+    {
+      "extract": "Media groups who brought data into the heart of their news operations and skilled up their journalists to return to their departments with new tools, saw reporting take on an extra dimension.",
+      "chapter": "Opportunities and Challenges around Artificial Intelligence",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "upskilling",
+        "newsroom integration",
+        "data skills",
+        "reporting quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Upskilling journalists and integrating data into core reporting remains an enduring organizational strategy"
+    },
+    {
+      "extract": "All journalists should be encouraged to feel comfortable and confident in challenging figures and statistics that are presented to them by outside sources on a daily basis. It does not need all members of a newsroom to be able to develop data collection tools, coding or visualisation techniques. More broadly shared insight in data-related journalistic possibilities, will improve the quality of reporting.",
+      "chapter": "Opportunities and Challenges around Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "statistical literacy",
+        "source critique",
+        "numeracy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "All journalists challenging figures and statistics from sources is a timeless numeracy and verification principle"
+    },
+    {
+      "extract": "This level of competency is not a big ask. The MediaNumeric informants would gouge it at maths taught to 12-year-olds and enough of an understanding of statistics to get started in the field of storytelling with data.",
+      "chapter": "Beyond Numbers: Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "statistical literacy",
+        "accessibility",
+        "data journalism education"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Basic numeracy as an accessible entry point to data journalism is an enduring pedagogical argument"
+    },
+    {
+      "extract": "Countless projects have been lost because the tools that were used to create the work no longer function. All data journalists and storytellers who were interviewed for the MediaNumeric project, said that some of their work no longer is accessible because the technology on which it was built has been retired.",
+      "chapter": "Concerns",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "archiving",
+        "preservation",
+        "tool obsolescence",
+        "sustainability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Tool obsolescence and digital preservation challenges persist and are arguably worsened by rapid AI tool turnover"
+    },
+    {
+      "extract": "Editors need to become aware of the impact that data can offer to be able to justify the time investment of their staff. They need therefore to understand more of the tools and the work process in order for them to commit budget and human resources to support data journalism.",
+      "chapter": "Opportunities and Challenges around Artificial Intelligence",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "editorial buy-in",
+        "resource allocation",
+        "management",
+        "data journalism"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial buy-in and resource allocation for data journalism are enduring organizational challenges"
+    },
+    {
+      "extract": "Challenges in using AI include ownership of the data and the computational processes used to sort and analyse these. Many AI initiatives that began with a public interest mandate have been taken over by major companies such as Microsoft and Google. As the technology passes into the hands of private companies, it becomes difficult to know how the Large Language Models (LLMs) were put together, with what content and what kind of algorithms as algorithmic bias will change the type of results the AI provides.",
+      "chapter": "Opportunities and Challenges around Artificial Intelligence",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI transparency",
+        "algorithmic bias",
+        "data ownership",
+        "LLMs"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Concerns about AI transparency, algorithmic bias, and data ownership are directly about the LLM era and remain fully relevant"
+    }
+  ]
+}

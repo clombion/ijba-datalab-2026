@@ -1,0 +1,1479 @@
+{
+  "source_id": "140",
+  "source_file": "140-data-for-journalism-tong.md",
+  "source_title": "Data for Journalism: Between Transparency and Accountability",
+  "author": "Jingrong Tong",
+  "year": "2022",
+  "extracts": [
+    {
+      "extract": "Appropriately using data in journalism requires an apt understanding of data parameters and properties, such as data origins and sources, as well as the processes and practices of producing data. Being aware of power relations embodied in data, as well as potential social factors that influence data, is a precondition for journalists to be able to provide a proper interpretation of data for audiences.",
+      "chapter": "Data as a source of information — Understanding data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "power relations",
+        "interpretation",
+        "context"
+      ],
+      "notes": "Foundational claim about prerequisites for sound data journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical thinking about data provenance, power relations, and contextual interpretation is a foundational literacy that no LLM can replace."
+    },
+    {
+      "extract": "Data provenance, collection, curation, access, and the context where all these happen are all under the influence of existing power relations. Therefore data and data systems are far from being objective or neutral but are deeply embedded and laden with social values and norms.",
+      "chapter": "Data as a source of information — Data as power",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "power relations",
+        "social construction",
+        "bias",
+        "provenance"
+      ],
+      "notes": "Core epistemological claim: data is never neutral",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding that data embeds power relations and social values is a critical epistemological insight that persists regardless of tools used."
+    },
+    {
+      "extract": "The material and power nature of data leads to the importance of metadata — data about certain data — and other related information that outlines data origin and context in relation to how the data was collected and produced, as this information can help users understand how data should be handled, analysed and interpreted.",
+      "chapter": "Data as a source of information — Data as power",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "metadata",
+        "provenance",
+        "interpretation",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Metadata literacy and understanding data provenance remain essential even when LLMs can process data faster."
+    },
+    {
+      "extract": "By analysing data, journalists can well play their various roles as information providers, watchdogs or custodians of conscience. Data is an alternative, rich source of information from which journalists can find stories or even secrets that are important to the public interest.",
+      "chapter": "Data as a source of information — The abundance of data and its benefits",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "accountability",
+        "watchdog role",
+        "public interest",
+        "story discovery"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The watchdog and accountability roles of data journalism are purpose-driven and persist regardless of tooling."
+    },
+    {
+      "extract": "Data stories do not have to be developed from large-scale data and involve long-time investigations but can come from small data with quick investigations. The Times' land banking story was developed from open data released by the land registry, and the whole reporting process was quick and efficient.",
+      "chapter": "Data as a source of information — The abundance of data and its benefits",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "story discovery",
+        "efficiency",
+        "small data"
+      ],
+      "notes": "Counters assumption that data journalism requires big data",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The insight that impactful stories can come from small data with quick investigations remains true irrespective of AI capabilities."
+    },
+    {
+      "extract": "Errors and inaccuracies mar data's quality. Any small mistakes occurring in the process of data production and curation may mean the inaccuracy of data, which makes verifying data incredibly hard, if not entirely impossible.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "errors",
+        "verification limits"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data quality concerns and the difficulty of verification are fundamental challenges that LLMs do not eliminate."
+    },
+    {
+      "extract": "Much data is unstructured and thus not machine-readable. Most (90%) of big data is unstructured data. Different origins of data and different requirements during different times when data is produced may mean data would end up in incompatible, incoherent, and unusable formats.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "data formats",
+        "messiness",
+        "interoperability"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs have dramatically improved ability to process unstructured data, making the 90% unstructured barrier less formidable."
+    },
+    {
+      "extract": "In theory, data is repairable if specific problems in data are known and if the data's size is manageable. In practice, verifying and cleaning data is hard partly because it requires an enormous investment of resources and related technical skills which may not be available. The enormity of data with incomplete metadata would also make it unrealistic to correct and verify every single error in data.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "data cleaning",
+        "resource constraints",
+        "verification",
+        "scalability"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now assist with data cleaning and verification at scale, reducing the resource investment described here."
+    },
+    {
+      "extract": "When it comes to interpreting the actual meanings of numbers provided by governments, we — including journalists — will need to consider what diagnostic methods each government is adopting, how cases and deaths are counted, and the levels of transparency in different countries. The discrepancies in standards for producing data might lead to data journalists and news media misinforming the public.",
+      "chapter": "Data as a source of information — The uncertainty and messiness of data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "interpretation",
+        "comparability",
+        "methodology awareness",
+        "misinformation risk"
+      ],
+      "notes": "Illustrated through COVID data cross-country comparability problem",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Critical interpretation of government statistics and understanding methodological differences remains a human judgment task."
+    },
+    {
+      "extract": "The GDPR means that datasets published by political authorities may not contain any detailed data indicating personal information. The lack of personal information in data protects privacy but creates obstacles to finding stories from data and putting a human face onto data stories. Only providing summary data greatly reduces the potential of developing news stories in and from data.",
+      "chapter": "Data as a source of information — Privacy and national security concerns",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "privacy",
+        "GDPR",
+        "summary data",
+        "story discovery",
+        "regulation"
+      ],
+      "notes": "Tension between privacy regulation and journalistic potential",
+      "llm_relevance": "endures",
+      "relevance_rationale": "GDPR constraints on data granularity are regulatory realities unaffected by AI tooling."
+    },
+    {
+      "extract": "Some unstructured data and semi-structured data can be extracted and converted into structured data by using techniques and tools such as Optical Character Recognition (OCR) and data extraction and mining skills.",
+      "chapter": "Data as a source of information — Data as material",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OCR",
+        "data extraction",
+        "format conversion",
+        "unstructured data"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "OCR and data extraction tools are being rapidly superseded by LLM-based document understanding and multimodal parsing."
+    },
+    {
+      "extract": "The EU data portal often hosts data in pdf format, which is unstructured data, and thus a considerable impediment to users' use of such data. That some data portals may require high technical skills to use makes the situation worse. Users need to know how to convert data in XML and JSON formats to Excel or CSV, or access data via an application programming interface (API).",
+      "chapter": "Data as a source of information — The problems with ordinary users using open/big data effectively",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data portals",
+        "PDF",
+        "API",
+        "format conversion",
+        "technical skills"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now parse PDFs and interact with APIs more accessibly, lowering the technical skills barrier described here."
+    },
+    {
+      "extract": "There is an urgent need for data journalists to act as data intermediaries between data providers and citizens, translating data for citizens and ensuring government and business transparency and accountability. The absence of metadata increases the difficulty in using and interpreting data, as ordinary citizens may not have the interest or resources to find out about the context where data is produced, curated and shared.",
+      "chapter": "Data as a source of information — Three implications of data's promise and problems",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data intermediary",
+        "translation",
+        "metadata",
+        "public understanding",
+        "accountability"
+      ],
+      "notes": "Journalists as bridge between data and citizens",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The intermediary role of translating data for citizens and ensuring accountability is a journalistic mission that persists."
+    },
+    {
+      "extract": "Using data as a source of information would need journalists to develop more technical and data-related skills and knowledge in terms of collecting, cleaning, analysing and visualising data. It involves fewer interactions with news sources than using traditional journalistic methods. Yet, using data for reporting requires human interactions and skills at some points, such as accessing data via FOIs, seeking clarification and explanations for data under analysis, verifying data and looking for individual human stories to be used in data stories.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "data pipeline",
+        "human sources",
+        "verification",
+        "traditional methods"
+      ],
+      "notes": "Data journalism still requires traditional journalistic skills at key points",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "While combining data and human sources endures, the specific technical skills pipeline needs updating for LLM-assisted workflows."
+    },
+    {
+      "extract": "The scientific, rigid, statistical appearance of data may create an illusion that data can offer a more objective and accurate account of reality. Deceived by such an appearance with insufficient understanding of the potential problems associated with data, journalists may be unable to produce news stories to the highest standards. The deceptively objective appearance of data may make journalists let their guard down.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity illusion",
+        "critical thinking",
+        "data literacy",
+        "bias"
+      ],
+      "notes": "Key warning about false confidence in quantitative evidence",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The warning against false objectivity from data is even more relevant when LLMs can generate convincing but misleading statistical narratives."
+    },
+    {
+      "extract": "Putting data in context not only means journalists need to interpret data in appropriate contexts. It also means they need to understand the context in which data was generated, collected and curated to gain an appropriate understanding of data before carrying out data analysis.",
+      "chapter": "Data as a source of information — Comparing data with traditional sources",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "interpretation",
+        "provenance",
+        "data collection methods"
+      ],
+      "notes": "Dual meaning of context: interpretive context and production context",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Contextualising data within its production circumstances is a critical thinking skill undiminished by AI tools."
+    },
+    {
+      "extract": "For data journalists, accessing data is the first and foremost goal before finding a story in it. Open data is only a part of the whole picture. Data journalists may not even know whether the required data exists and where they can access it. Data journalists may also face technical difficulties in accessing data, which may require a high level of data collection and information retrieval skills.",
+      "chapter": "Access to data",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "data access",
+        "discovery",
+        "technical skills",
+        "open data limits"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The challenge of discovering whether needed data exists and how to access it remains a fundamentally human investigative task."
+    },
+    {
+      "extract": "Data stories are often developed from an analysis of public records data obtained from data providers in the public domain such as statistics offices or other government bodies. The data used in 545 data-driven news stories published between 2011 and 2019 were mostly retrieved from government bodies. Over two-thirds of news apps produced by US news organisations used publicly available data.",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "public records",
+        "open data",
+        "government data",
+        "source patterns"
+      ],
+      "notes": "Empirical finding on dominant data sources",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The prevalence of public records as primary data sources for journalism is a structural reality unchanged by AI."
+    },
+    {
+      "extract": "The first reason for prevalence of public records data in news reporting is the conventional thinking of official datasets as trustworthy: 'I'm generally using like government statistics, or the NHS or the Office for National Statistics. They will put my confidence in them, and they will usually highlight if they think some things are reliable.'",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "trust",
+        "official sources",
+        "reliability",
+        "institutional authority"
+      ],
+      "notes": "Reflects continuity with traditional reliance on official sources",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Trust in official data sources as a journalistic convention persists and requires the same critical evaluation regardless of tools."
+    },
+    {
+      "extract": "Judging which data to analyse and report on follows the same news values as traditional journalism: 'there is so much data out there, you couldn't potentially turn it all into a piece of writing, and at least knowing what people actually care about like public interest topics will help us select data for reporting, it's the same as in any other kind of journalism.'",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "news values",
+        "story selection",
+        "public interest",
+        "editorial judgement"
+      ],
+      "notes": "Data selection follows same editorial logic as traditional journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Editorial judgment about which data stories serve public interest is a core journalistic value that AI cannot replace."
+    },
+    {
+      "extract": "There are cross-country differences in terms of the types and state of open data provided and how easily journalists can access it. In Sweden, a data-friendly country with one of the world's oldest FOIAs, a government agency extracted data from the database and printed out the Excel file, put the printed paper copies back into the copy machine and made PDFs out of them, and the PDFs are not machine-readable.",
+      "chapter": "Access to data — Accessing open data in the public sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "cross-country variation",
+        "data formats",
+        "government data practices",
+        "PDF"
+      ],
+      "notes": "Even in transparent countries, data delivery formats can be hostile",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-country variation in open data formats and FOI regimes is a structural reality unaffected by LLM tools."
+    },
+    {
+      "extract": "Sometimes providing data to journalists for reporting can be mutually beneficial. For journalists obtaining such data can help them cover the story, and for the commercial bodies concerned, being mentioned in news stories for the data they provide would be a good publicity opportunity. Companies that sell proprietary datasets sometimes provide them for free because 'we always mentioned in our report where we've got data from so that can be quite useful for them.'",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "private sector data",
+        "collaboration",
+        "mutual benefit",
+        "data sourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Relationship-based data sourcing from private sector collaborations is a human negotiation skill that persists."
+    },
+    {
+      "extract": "Economist journalists wrote code to retrieve data from metro stations and museums in 18 cities every hour from Google Maps. Aggregating 150,000 files retrieved, they revealed the changes in foot traffic around selected metro stations and the impact of the pandemic on major cities. On April 30, 2020, Google Health started publishing COVID-19 Community Mobility Reports, which was seen as a response to the Economist's foot traffic reports.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "API",
+        "tech platforms",
+        "code",
+        "data collection at scale"
+      ],
+      "notes": "Journalist-driven data collection can push tech companies to publish open data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "While the investigative logic endures, LLMs and AI can now automate much of the code-writing for API scraping and data aggregation."
+    },
+    {
+      "extract": "When using data automatically collected from users or generated by users' use of certain tools, such data may contain errors or fake data, which is very difficult to verify. While cleaning and verifying large-scale data, some dodgy data may be removed by detecting anomalies, yet due to the scale of data, it would be a mission impossible to verify every single data entry. This difficulty in data verification reinforces the importance of data journalists' role in making a judgement about and endorsing the reliability of their data.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "anomaly detection",
+        "user-generated data",
+        "credibility",
+        "scale"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can assist with anomaly detection in user-generated data at scale, though the verification challenge core insight endures."
+    },
+    {
+      "extract": "Data like user-generated data may be influenced by the existing digital divide among users as it would include the data collected from and created by users who are using the tools but exclude those non-users. Without acknowledging the exclusion of non-users, journalists would risk reinforcing the division between users and non-users. If they use the data to represent the actual reality without properly acknowledging and explaining the limitations, their news reports may distort the actual reality and mislead the audience.",
+      "chapter": "Access to data — Collaborating with data holders in the private sector",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "digital divide",
+        "representativeness",
+        "bias",
+        "limitations disclosure",
+        "audience"
+      ],
+      "notes": "Obligation to disclose data limitations",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Digital divide biases in user-generated data are structural inequalities that AI tools do not address and may amplify."
+    },
+    {
+      "extract": "Sending FOI requests for public records data that is not published publicly is a common practice. Journalists should endeavour to obtain data that is not in the public domain, as it is 'problematic if the journalists have to rely on the publication of figures'. If the data needed is held by public authorities, sending FOIA requests to obtain that data would be the primary choice to get data and get around obstacles to data access.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data access",
+        "public records",
+        "proactive sourcing"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOI as a proactive data sourcing practice is a legal and investigative strategy unaffected by AI capabilities."
+    },
+    {
+      "extract": "Data-orientated FOIs often require a round-robin approach, sending the same FOI to dozens and perhaps hundreds of the same organisations. This is extremely time-consuming as different bodies may interpret the request differently, return the data in different formats or refuse to give us the data. The question of effort versus reward is particularly important.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "round-robin requests",
+        "data harmonisation",
+        "resource constraints"
+      ],
+      "notes": "Pamela Duncan, The Guardian, on declining FOI use",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs could help draft, harmonise, and process round-robin FOI requests at scale, updating the time-consuming manual process."
+    },
+    {
+      "extract": "Common strategies for submitting a successful FOI request include being specific in the requests and using specific statute language. If the rejection is based on costs exceeding the allowed cost limits or that the costs which authorities ask requesters to pay are too high, then asking the authorities to explain and break down the costs would be a good idea.",
+      "chapter": "Access to data — FOI practices and the undisclosed secrets",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI strategy",
+        "request drafting",
+        "cost challenges",
+        "specificity"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can assist with drafting FOI requests using specific statutory language, though strategic thinking still requires human judgment."
+    },
+    {
+      "extract": "When open data is unavailable and FOI requests end in vain, journalists may use alternative ways to get data: using traditional journalistic methods, scraping data from the Internet, using Internet advanced research and search skills, and adopting social science methods. Interviews with experts such as prosecutors and finding alternative data sources such as court case files would also be a potential solution.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "alternative data sources",
+        "scraping",
+        "social science methods",
+        "interviews",
+        "court records"
+      ],
+      "notes": "Four alternative pathways when official channels fail",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "While alternative data sourcing strategies endure, LLMs enhance scraping, text analysis, and social science method execution."
+    },
+    {
+      "extract": "Digital techniques can create datasets that you wouldn't otherwise be able to obtain. A journalist scraped each individual page on the listings, enabling analysis of how many were actually breached. Scraping through tens of thousands, hundreds of thousands of webpages makes it much more efficient than manually gathering data over a year.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "automation",
+        "efficiency",
+        "dataset creation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Web scraping for dataset creation is now substantially easier with LLM-assisted code generation and data extraction."
+    },
+    {
+      "extract": "The biggest challenge with leaked data comes from the difficulties in verifying the data. What data journalists would usually do is to cross-check the data from other sources to do their best to confirm its genuineness though they cannot be 100% sure. The size of large-scale leaked data means it may be beyond the ability of data journalists to handle such data.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data",
+        "cross-checking",
+        "verification",
+        "scale challenges"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-checking leaked data against other sources is a verification principle that remains essential regardless of tools."
+    },
+    {
+      "extract": "For the Panama Papers, journalists did not have the techniques required to analyse the mostly unstructured data of that scale. Most of the stories were done with the 'fishing method': you have a fishing rod with a name, throw it into the big sea of documents, and pull it back — you found David Cameron's father. That's not really data analysis, that's just free text searching.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "Panama Papers",
+        "unstructured data",
+        "text search",
+        "scale limits",
+        "methodology"
+      ],
+      "notes": "Honest admission that massive leaks often reduce to keyword search rather than systematic analysis",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now process unstructured documents at scale, fundamentally changing the fishing method approach used for Panama Papers."
+    },
+    {
+      "extract": "When the data does not exist or is scattered and hidden, data journalists may turn to traditional social science methods, journalistic methods, advanced Internet research skills or crowd-sourcing to gather data and build their own datasets. The Minnesota Star Tribune and others like the Washington Post and The Guardian started building their own datasets basically from media reports.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Define",
+      "extract_type": "procedural",
+      "themes": [
+        "dataset building",
+        "social science methods",
+        "crowd-sourcing",
+        "media reports"
+      ],
+      "notes": "Journalists as primary data producers when no dataset exists",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can accelerate dataset building from scattered sources via text extraction, classification, and entity resolution."
+    },
+    {
+      "extract": "The Washington Post collected data about police fatal shootings from different open sources such as local news reports, law enforcement websites and social media, and independent databases such as Killed by Police and Fatal Encounters, on top of filing FOI requests. Based on the information collected and verified, they built a fatal shooting database shared on GitHub for other user groups to reuse.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "multi-source collection",
+        "GitHub",
+        "database building",
+        "verification",
+        "open sharing"
+      ],
+      "notes": "Exemplary pipeline: multi-source collection, verification, then open publication",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Multi-source data collection and verification endure as principles, but LLMs can automate monitoring and cross-referencing workflows."
+    },
+    {
+      "extract": "The Star Tribune journalists found few sex assault investigations resulting in convictions, so they requested and verified data — case files — from government departments through FOI requests to build their own database. Apart from case files, they also collected and verified hundreds of pages of court records and police documents and interviewed more than 100 assault survivors, sex crimes investigators, jurists, women's advocates and academic researchers.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "dataset building",
+        "court records",
+        "interviews",
+        "triangulation"
+      ],
+      "notes": "Mixed-methods approach combining FOI, documents and interviews",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Building investigative datasets through FOI, court records, and interviews is a human-driven investigative process that persists."
+    },
+    {
+      "extract": "In both the Guardian's Beyond the Knife and the Bureau of Investigative Journalism's dying homeless projects, the non-existence of related data made data journalists build datasets from scratch. FOI requests, monitoring media reports and interviews are three main journalistic methods they used to collect and verify data and build datasets.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "dataset building",
+        "FOI",
+        "media monitoring",
+        "interviews",
+        "absence of data"
+      ],
+      "notes": "Three-method approach for building data where none exists",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Dataset building from scratch via media monitoring and FOI can now be significantly augmented by LLM-powered information extraction."
+    },
+    {
+      "extract": "The Guardian's MPs' expense receipts were far too big for journalists to go through manually, and because they are unstructured data, it was difficult to analyse them automatically. Therefore The Guardian turned to crowd-sourcing, inviting ordinary readers to look at the receipts, point out the dodgy ones and provide the reasons and some extra information.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "crowd-sourcing",
+        "unstructured data",
+        "scale",
+        "reader participation"
+      ],
+      "notes": "Crowd-sourcing as solution to unstructured data at scale",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now process unstructured documents like expense receipts at scale, potentially displacing the crowdsourcing approach."
+    },
+    {
+      "extract": "Statistical departments decide what kind of data to collect and produce, and their decisions are influenced by their perceived priorities and resources. The ONS statistician explained that something has to rise on their priority list either because of government targets, because a government department has asked them, or because it's become an issue of great public concern in the media. Otherwise, it stays on the wish list.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Define",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "data production",
+        "institutional priorities",
+        "statistical agencies",
+        "data absence"
+      ],
+      "notes": "Why some data does not exist — institutional priority-setting",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Institutional decisions about what data to collect reflect power dynamics that are structural and unaffected by AI tools."
+    },
+    {
+      "extract": "Through using data for journalism, data journalists and news media can expose the data incompetency of governments by revealing problems and errors associated with government-published data, which are potentially pressurised to produce data of better quality and to open up data. In the NJ Advance Media force reports project, reporters found plenty of problems with the data provided by state governments, including misspellings, duplications, misclassification of agencies and errors in the data standardisation process.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "government data",
+        "error detection",
+        "accountability",
+        "cleaning"
+      ],
+      "notes": "Verification as accountability function",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Exposing government data incompetency through journalism is an accountability function that persists regardless of tooling."
+    },
+    {
+      "extract": "Receiving unstructured data that is not machine-readable from government bodies is a big headache for journalists. The EU data portal often contains data in PDF format, which is really difficult to analyse and read. In Sweden, despite high media freedom, the data handed to journalists is often in pre-digital formats such as print-outs. It would have been more helpful if government bodies would publish machine-readable data in the first place.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "PDF",
+        "machine-readable data",
+        "government data",
+        "format barriers"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs have substantially improved PDF parsing and conversion to machine-readable formats, reducing this barrier."
+    },
+    {
+      "extract": "Checking the genuineness of the Telegraph's leaked expenses data was a considerable challenge which involved crosschecking and interviews to achieve it. Following the publication, the government decided to regularly publish all MPs' expenses claims. The data published annually by the IPSA provides an excellent opportunity for the news media to hold MPs accountable for what they spend.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "interviews",
+        "leaked data",
+        "accountability",
+        "transparency outcome"
+      ],
+      "notes": "Verification of leaked data led to permanent open data publication",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-checking and interviewing to verify leaked data authenticity is a core investigative practice that persists."
+    },
+    {
+      "extract": "Realising there was no data about the deaths of homeless people in the UK, journalists in the Bureau Local started to collect and verify the data by setting up a Google alert for related local news, interviewing people and sending FOI requests. They met with the Office for National Statistics who then published the data. Their work was cited in 800 different articles.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "Google alerts",
+        "media monitoring",
+        "FOI",
+        "dataset building",
+        "impact"
+      ],
+      "notes": "Journalist-built datasets can prompt official statistical agencies to produce the data",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Google alerts and media monitoring for dataset building can now be augmented by LLM-powered monitoring and extraction pipelines."
+    },
+    {
+      "extract": "The Bureau Local's Sold from Under You project obtained data about land and property sold by local authorities between 2014 and 2018 via FOI requests made to 353 local councils in England. They made an interactive, searchable map using the data. They marked the refusals on the map and shared the raw data received through their FOI requests on Google Drive for free.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Present",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI at scale",
+        "interactive maps",
+        "open data sharing",
+        "transparency"
+      ],
+      "notes": "Publication includes both findings and raw data plus transparency about refusals",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOI at scale with data sharing via interactive maps is a civic journalism practice that persists regardless of AI tools."
+    },
+    {
+      "extract": "Larger news organisations such as The New York Times have the resources to file FOIA lawsuits, which smaller, poorly resourced newsrooms may not be able to do. The NYT has a two-lawyer legal team that filed 31 FOIA lawsuits during the Obama years. Winning from time to time, they were able to force the government to release secret information. When the paper won the lawsuits, the government even financially compensated them for their time and endeavour.",
+      "chapter": "Access to data — Struggles and pushing for data of quality and openness",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "FOIA litigation",
+        "newsroom resources",
+        "inequality",
+        "legal strategy"
+      ],
+      "notes": "Resource inequality shapes which newsrooms can fight for data access",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Resource inequalities in FOIA litigation are structural organisational realities unaffected by AI capabilities."
+    },
+    {
+      "extract": "Building datasets from scratch using FOI requests, media monitoring and interviews is more likely to be found in relatively large, resource-rich and better-off newsrooms in developed countries and international non-profit newsrooms. Journalists in small, resource-poor and cash-strapped newsrooms in developing countries may not be able to do the time-consuming work.",
+      "chapter": "Access to data — Alternative ways of getting data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "resource inequality",
+        "newsroom capacity",
+        "developing countries",
+        "dataset building"
+      ],
+      "notes": "Digital inequality in data journalism capacity",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs may reduce resource barriers for dataset building, partially democratising capabilities previously limited to rich newsrooms."
+    },
+    {
+      "extract": "collaboration was at the heart of their data journalism. The majority of the data stories with participants credited in the by-lines were the outcomes of collaborative work between non-data journalists and data journalists.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "newsroom integration",
+        "bylines"
+      ],
+      "notes": "Based on analysis of 8 UK data journalists across 3 national newsrooms",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaboration between data and non-data journalists is an organisational practice that persists and may become more important with AI."
+    },
+    {
+      "extract": "Data journalists having little or no programming skills would rely on third-party tools and thus be limited by their design.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "tools",
+        "skills gap",
+        "third-party tools",
+        "tool dependency"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs dramatically lower the programming barrier, enabling journalists to generate code without deep technical skills."
+    },
+    {
+      "extract": "the former continued to mainly use out-of-the-box tools due to their shortage of resources, while the later was more inclined to turn to developing in-house tools",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tools",
+        "resources",
+        "in-house vs third-party",
+        "commercial vs public service"
+      ],
+      "notes": "Comparing commercial outlets vs public service media in Australia",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The in-house vs third-party tool distinction is shifting as LLMs enable rapid custom tool creation even in resource-poor newsrooms."
+    },
+    {
+      "extract": "data journalists at national newsrooms would have more resources to conduct long-term, time-consuming investigations than those at local newsrooms. In the UK, for example, data journalists at Reach plc are inclined to mostly use open data that is publicly available, while those at The Guardian may have more time and resources to collect and build up their own datasets for reporting.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "organizational",
+      "themes": [
+        "resources",
+        "national vs local",
+        "open data",
+        "dataset creation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs may narrow the resource gap between national and local newsrooms for data analysis capabilities."
+    },
+    {
+      "extract": "the BBC's shared data unit creates 'story packs', consisting of data – mostly open public records data retrieved from the data.gov.uk or through FOI requests – and data analysis and share them with local newsrooms so that they can find and develop their own angles.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "story packs",
+        "BBC shared data unit",
+        "local journalism",
+        "FOI"
+      ],
+      "notes": "Model for centralised data unit supporting distributed local reporting",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The BBC shared data unit model of distributing analysis to local newsrooms is an organisational innovation that persists."
+    },
+    {
+      "extract": "The data teams in regional media companies such as Reach plc, JPI Media and Newsquest work like in-house 'data wire', supplying data analysis and bulletins to local newsrooms within organisations.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "data wire",
+        "regional media",
+        "centralised analysis",
+        "local newsrooms"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Centralised data wire models for regional media are organisational structures that persist regardless of AI tools."
+    },
+    {
+      "extract": "data journalists in India seldom use RTI requests to obtain raw data or collect data by using methods like crowd-sourcing, which their Western counterparts undertake",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "RTI",
+        "FOI",
+        "crowdsourcing",
+        "data collection methods",
+        "Global South"
+      ],
+      "notes": "Contrasts Indian vs Western data acquisition practices",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The gap in FOI and crowdsourcing practices between Western and Global South newsrooms reflects structural conditions unaffected by AI."
+    },
+    {
+      "extract": "for well-resourced newsrooms like The New York Times, data journalists not only have sufficient time and skills to conduct time-consuming data analysis and long-term investigative projects but also are part of a team of people such as developers and graphic designers working together supporting data journalists' work. For smaller newsrooms that do not have this luxury, data journalists may have to be 'unicorns' with all-around skills.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "unicorn journalist",
+        "skills",
+        "team composition",
+        "resources"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs blur the unicorn journalist ideal by enabling broader skill application without deep expertise in each area."
+    },
+    {
+      "extract": "The reporters mixed traditional reporting skills such as interviews and field visits with data analysis skills and techniques.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "mixed methods",
+        "interviews",
+        "field visits",
+        "data analysis"
+      ],
+      "notes": "Describing Korea Times data story on Seoul housing conditions",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Mixing traditional reporting with data analysis is a methodological principle that persists and strengthens with AI assistance."
+    },
+    {
+      "extract": "Using the digital data – the viral video clip of the killing and related data from other sources such as Google Earth, Sentinel Hub and Bellingcat – journalists were able to probe into the truth and explore events in the foreign land of Cameroon.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "OSINT",
+        "geolocation",
+        "digital forensics",
+        "verification",
+        "Bellingcat"
+      ],
+      "notes": "BBC Africa Eye Anatomy of a Killing example",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "OSINT and digital forensics methods are being augmented by AI-powered geolocation, image analysis, and verification tools."
+    },
+    {
+      "extract": "It analysed data from multiple sources and developed a compelling story about the pollution in the river... This story, combining human stories and interactive data visualisations, focusses readers' attention on water pollution, its causes and consequences and the gravity and urgency of the issue.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "multiple sources",
+        "data visualisation",
+        "human stories",
+        "narrative"
+      ],
+      "notes": "Reuters 'Race to Save the River Ganges' example",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Combining human stories with interactive data visualisation for narrative impact is a storytelling principle that persists."
+    },
+    {
+      "extract": "Language barriers act as a considerable obstacle to global collaborations or reporting on global topics. Despite the de-territorial access, data may be published in diverse languages... Without speaking and knowing the language used in a dataset, journalists would find it extremely difficult to use the dataset for reporting.",
+      "chapter": "What is data used for in journalism?",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "language barriers",
+        "global data",
+        "accessibility",
+        "translation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLM translation capabilities are rapidly reducing language barriers for accessing and analysing global data sources."
+    },
+    {
+      "extract": "data published by government authorities is unlikely to contain personal information. Data publishers may merely publish pivot tables containing summary data generated from their data analysis and aggregation. A direct consequence of this is the difficulty in accessing detailed information about individual cases that are crucial for story-telling.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data access",
+        "aggregation",
+        "summary data",
+        "privacy",
+        "individual cases"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The tension between privacy protections and journalistic access to individual-level data is a structural issue unaffected by AI."
+    },
+    {
+      "extract": "Poorly structured and messy data means data journalists need to convert it to structured data or to clean (prepare) it so that the data can be analysed using a computer. A data journalist from the Financial Times obtained data from the EU data portal. However, all documents were in pdf format, and it took them a very long time to convert these documents to machine-readable data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "PDF conversion",
+        "structured data",
+        "messy data"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can now parse PDFs and clean messy data far more efficiently than the manual processes described here."
+    },
+    {
+      "extract": "Not only does the data need to be cleaned, but it must also be verified. Even public records data published by government bodies is not guaranteed to be clean or 100% reliable and thus does not need to be verified. A Guardian data journalist commented: 'it's difficult (to verify the data they have got) because even if you get something under FOI from a government office, it doesn't mean it's right... and ...there is always an element of human error in everything.'",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data verification",
+        "government data",
+        "reliability",
+        "human error",
+        "FOI"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The principle that even official government data requires verification is a critical stance that persists regardless of tools."
+    },
+    {
+      "extract": "Cross-checking, a traditional journalistic technique, is thought to be a good strategy to deal with the problem of data reliability. Cross-checking data against different sources and with people who are close to data is necessary to verify and understand data for reporting purposes.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-checking",
+        "triangulation",
+        "data reliability",
+        "verification",
+        "sources"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-checking data against multiple sources and human experts is a verification principle that persists in the LLM era."
+    },
+    {
+      "extract": "that's where you have to try to figure out if there are any problems with the data. And that comes from understanding how the data was collected, and what's supposed to be in there. And then a lot of it comes down to sense when you look at your data, and then something looks weird. Usually, that's a sign that something might be wrong. In talking to other sources, you show them your findings. When they come back at you and say that doesn't quite make sense, and it isn't quite what I'm seeing elsewhere. That's another red flag that maybe something is wrong: the underlying data or you do your analysis wrong or something like that.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "data provenance",
+        "sense-checking",
+        "red flags",
+        "source consultation",
+        "analysis verification"
+      ],
+      "notes": "Minnesota Star Tribune data journalist interview",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding data provenance and sense-checking through source consultation remain essential human verification steps."
+    },
+    {
+      "extract": "the meanings of data may be influenced by contextual factors such as the personal judgements of people who record or curate data, the criteria for producing data and the factors that delay the production of certain data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data provenance",
+        "context",
+        "construction of data",
+        "curation bias"
+      ],
+      "notes": "Example given: homicide index changes due to pending coroner reports",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Recognising that data meanings are shaped by contextual factors like personal judgments and criteria is an enduring epistemological insight."
+    },
+    {
+      "extract": "Basic journalistic techniques such as interviews and cross-referencing, and checking are considered to be essential in collecting and creating data and data verification. In cases where no data exists, interviews with people who know the situation are an effective way to collect and generate data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "interviews",
+        "cross-referencing",
+        "data creation",
+        "primary data collection"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Interviews and cross-referencing as essential data verification techniques are core journalism practices that persist."
+    },
+    {
+      "extract": "when dealing with leaked data, the reliability of data needs to be handled with extra care in case it is fake. In 2015, The Sunday Times, for example, invited experts to verify the genuineness of leaked data about the athletics doping scandal. The involvement of experts can also help to 'endorse' the credibility of their reports.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data",
+        "expert verification",
+        "credibility",
+        "doping scandal"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Expert verification of leaked data authenticity is a trust-building practice that remains essential and cannot be automated away."
+    },
+    {
+      "extract": "Journalistic instinct is also thought to be important when it comes to verifying data. A data journalist commented, 'my journalistic instinct is sort of my most important tool'... Following journalistic instinct, data journalists find exclusives, great stories and appealing angles for their stories, and they can spot hooks and fake tip-offs.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "journalistic instinct",
+        "tacit knowledge",
+        "story selection",
+        "verification"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Journalistic instinct and tacit knowledge for story selection and verification are human capacities that LLMs cannot replicate."
+    },
+    {
+      "extract": "you need to try to find people who know the data and who may be who've worked with it and get them to answer those questions for you, like, what is the best source here.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "domain experts",
+        "human sources",
+        "data provenance",
+        "source evaluation"
+      ],
+      "notes": "Minnesota Star Tribune journalist comparing data sourcing to traditional human sourcing",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Consulting domain experts who know the data is a human relationship skill essential for data interpretation that persists."
+    },
+    {
+      "extract": "(to verify leaked data) is much much harder. And that is a process that we more and more have to do... It's been usually raw data documents, so we have tried to see if it's a public document, can we find this document in the public domain. And if it's an event, we will find news stories that could be corresponding news stories of this event. So we do as much as possible, trying to check the things that we can check.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "leaked data verification",
+        "public domain cross-check",
+        "Panama Papers"
+      ],
+      "notes": "Journalist who covered Panama Papers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Verifying leaked documents by cross-referencing with public domain sources is a core investigative practice that persists."
+    },
+    {
+      "extract": "COVID-19 case and death numbers are 'inaccurate', reflecting changing testing capabilities, diagnosis, tracing and reporting situations during different periods and in different areas. COVID-data is influenced by the actual data generation and collection practices of governments, such as how many people are tested and what death cases are counted as caused by COVID.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "COVID",
+        "measurement error",
+        "counting methodology",
+        "comparability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding measurement methodology limitations in official data is a critical literacy skill that persists regardless of AI tools."
+    },
+    {
+      "extract": "some (but not all) of the British news media such as The Guardian, The Independent and the Financial Times have acknowledged such an impact. They also draw readers' attention to the potential influence of different data collection and publishing schedules on the data about case and death numbers, as well as the discrepancies between official data and excess death.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "caveats",
+        "transparency",
+        "data limitations",
+        "methodology disclosure"
+      ],
+      "notes": "Best practice: disclosing data limitations to readers",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Disclosing data limitations and methodology caveats to audiences is an ethical transparency practice that persists."
+    },
+    {
+      "extract": "the case and death numbers may not always reflect the gravity of the pandemic in these countries. The data about case and death numbers needs to be treated carefully with appropriate explanations. It would be more appropriate to put these figures in the context of population sizes and the actual testing situations in these countries.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "normalisation",
+        "per capita",
+        "contextualisation",
+        "data presentation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Normalising data per capita and contextualising numbers is a statistical literacy principle that persists regardless of AI."
+    },
+    {
+      "extract": "News coverage started using case or death rate (cases or deaths per unit/population) rather than merely the number and death cases. Data reporters and newsrooms are learning to deal with the problems associated with data.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "normalisation",
+        "rates vs counts",
+        "learning",
+        "iterative improvement"
+      ],
+      "notes": "Evolution of COVID reporting practice over time",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using rates vs counts and iteratively improving data presentation are enduring data literacy principles."
+    },
+    {
+      "extract": "The Independent heat map published in July 2020, for example, simply showed COVID case numbers in selected countries from around the world but did not include the information on population sizes in these countries. With the biggest case number, the US would be easily interpreted as the worst-hit country on the map. However, given the huge population in the US, this might not be true. In January 2021, the same author published another article, which presented case numbers per million people, indicating that the UK was the country worst hit by the pandemic at the time.",
+      "chapter": "Handling the problems of data and potential issues in data reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "heat maps",
+        "normalisation",
+        "misleading visualisation",
+        "per capita",
+        "before/after"
+      ],
+      "notes": "Concrete before/after example of improving data presentation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The lesson about misleading visualisations lacking normalisation is an enduring data presentation literacy insight."
+    },
+    {
+      "extract": "Data reporting is time-consuming, particularly when it comes to long-term investigative data projects. Allowing sufficient time for data journalists to complete such projects would be crucial. As well as supporting the 24/7 daily reporting cycle, data journalists at big newsrooms can have the luxury of spending many weeks, months or even years working on a project.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "time investment",
+        "investigative projects",
+        "newsroom resources",
+        "daily vs longform"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The time investment required for investigative data projects is a resource reality that persists even with AI assistance."
+    },
+    {
+      "extract": "The need to collect, clean and analyse data expands data journalists' work responsibilities to include the role of data analysts. Data journalists are expected to take on such new responsibilities and learn the related new skills, which imply potential changes in the identity and job perception of data journalists.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "organizational",
+      "themes": [
+        "role expansion",
+        "data analyst",
+        "skills",
+        "professional identity"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs are reshaping the data analyst role expansion, as journalists can now perform analysis tasks with AI assistance rather than solo skill-building."
+    },
+    {
+      "extract": "Only those who have good knowledge of data and are aware of the problems associated with data can appropriately handle, manage and present data. The problems of data, such as the messiness of data, suggest the ethical practices of data journalism are particularly important.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "ethics",
+        "messiness",
+        "competence",
+        "quality"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The requirement for deep data knowledge to handle data problems competently is an enduring quality standard."
+    },
+    {
+      "extract": "as data reporting may be seen as more accurate and objective than traditional reporting, the inability to ascertain and handle the problems about data, which are subtle and may not be perceivable, may lead to inaccurate reporting appearing to be deceptively accurate and thus misleading.",
+      "chapter": "Explaining the variations",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "false precision",
+        "objectivity",
+        "misleading accuracy",
+        "data ethics"
+      ],
+      "notes": "Key epistemological warning about data journalism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The warning against false precision and misleading objectivity from data is amplified in the LLM era where AI can generate convincing statistical narratives."
+    },
+    {
+      "extract": "one way of producing data is to collect digital data with skills such as data scraping, clean it and store it in a database. Cleaning data means spotting and correcting errors in data, correcting incorrect formats of data and preparing the data for analysis.",
+      "chapter": "Opening up data from news reporting",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data scraping",
+        "cleaning",
+        "error correction",
+        "data production"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data scraping and cleaning workflows are being substantially augmented by LLM-powered code generation and data processing."
+    },
+    {
+      "extract": "They may also produce new data by using social science and journalistic methods such as interviews, surveys, media coverage monitoring or filing FOIA requests. When they access ready-to-download datasets, they invest time to correct errors in them and verify them and merge different datasets from different sources, they are also producing data.",
+      "chapter": "Opening up data from news reporting",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data production",
+        "social science methods",
+        "FOIA",
+        "dataset merging",
+        "surveys"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "While social science methods endure, LLMs can accelerate surveys, media monitoring, and dataset merging processes."
+    },
+    {
+      "extract": "participants believed data journalists should embrace transparency, provide hyperlinks to news sources and provide the details about methodology and open-source codes. They thought these elements to be central to data journalism's ethos to increase its credibility and fight against dis/misinformation. But participants did not consider sharing data as crucial.",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "open source",
+        "credibility",
+        "misinformation"
+      ],
+      "notes": "2019 survey of Brazilian data journalists",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Transparency through methodology disclosure, hyperlinks, and open source code is an enduring credibility principle."
+    },
+    {
+      "extract": "news organisations like the BBC's shared data unit, the Bureau (Investigative Journalism) Local, The Minnesota Star Tribune and The New York Times publish their code and data on their websites or servers like GitHub, a platform originally designed for version control and software development.",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "GitHub",
+        "open source",
+        "code sharing",
+        "data publishing",
+        "reproducibility"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "GitHub and code sharing practices need updating to include LLM prompts, AI-assisted workflows, and reproducibility of AI-augmented analyses."
+    },
+    {
+      "extract": "although most of these projects directly mentioned the data sources, few of them (20%) provided access to the data used in the projects, and less than half of them (48.8%) published their methodology",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency gap",
+        "methodology disclosure",
+        "data access",
+        "award projects"
+      ],
+      "notes": "Study of Data Journalism Awards 2019 and Sigma Awards 2020 candidates",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The transparency gap in methodology and data sharing among award-winning projects is a structural accountability concern that persists."
+    },
+    {
+      "extract": "The transparency of the data and analysis process may disadvantage news media by exposing them to criticism which may challenge their authority and legitimacy.",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency risk",
+        "authority",
+        "legitimacy",
+        "criticism",
+        "open analysis"
+      ],
+      "notes": "Illustrated by ProPublica Machine Bias case where published data/methodology drew academic criticism",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The tension between transparency and vulnerability to criticism is a perennial institutional concern unaffected by AI tools."
+    },
+    {
+      "extract": "They looked at reports dating back to 2007, sent 506 public records requests, gathered 72,677 use-of-force documents covering from 2012 to 2016 and verified and cleaned such data, which was originally messy.",
+      "chapter": "Data as financial resources",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "public records requests",
+        "data collection at scale",
+        "cleaning",
+        "verification"
+      ],
+      "notes": "NJ Advance Media Force Report project, cost ~K",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Large-scale public records collection and cleaning can now be partially automated with LLM-assisted processing."
+    },
+    {
+      "extract": "I couldn't publish the data in the format that it came in, because it will link back to the people... and we don't want to personally identify these people... We also have GDPR considerations which we won't have a couple of years ago.",
+      "chapter": "Why choosing not to publish data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy",
+        "GDPR",
+        "anonymisation",
+        "data protection",
+        "personal data"
+      ],
+      "notes": "Guardian data journalist on privacy constraints",
+      "llm_relevance": "endures",
+      "relevance_rationale": "GDPR compliance, anonymisation requirements, and privacy protections are legal obligations that persist regardless of AI capabilities."
+    },
+    {
+      "extract": "data journalists play four roles in the circulation of data: (1) 'data intermediaries' between data holders and audiences, (2) 'translators' of data for audiences, (3) 'endorsers' for data and (4) data holders and publishers themselves.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "roles",
+        "intermediary",
+        "translator",
+        "endorser",
+        "data holder",
+        "circulation"
+      ],
+      "notes": "Core theoretical framework of the book",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The four roles of data journalists in data circulation are fundamental professional functions that persist in the LLM era."
+    },
+    {
+      "extract": "Only data transparency – which means making both data and metadata (data that explains the data) publicly accessible – can be achieved, data can be regularly and appropriately used.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "metadata",
+        "data documentation",
+        "accessibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data transparency through accessible data and metadata is an enduring principle that becomes more important with AI-generated content."
+    },
+    {
+      "extract": "Checking and cleaning data and talking to those who are close to data definitely can help to correct errors if there are any and contribute to contextualising and interpreting the data. In so doing, the credibility of news organisations and data journalists also contributes to boosting or endorsing the credibility of data.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "cleaning",
+        "contextualisation",
+        "credibility endorsement"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Verification through cleaning, contextualisation, and consulting data-adjacent sources is an enduring credibility practice."
+    },
+    {
+      "extract": "its journalists tracked the details of each killing by monitoring data from multiple sources such as 'local news reports', 'law enforcement websites and social media' as well as 'independent databases such as Killed by Police and Fatal Encounters', collecting additional information about the fatal shooting by police and filing FOIA requests with government departments",
+      "chapter": "Sharing is caring",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "multi-source monitoring",
+        "database building",
+        "FOIA",
+        "social media",
+        "independent databases"
+      ],
+      "notes": "Washington Post police shootings database methodology",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Multi-source monitoring for database building can now be substantially augmented by LLM-powered information extraction and classification."
+    },
+    {
+      "extract": "data visualisations can offer them the opportunity to explore information. Through exploration, audiences can have the autonomy to interpret the data and story and connect the interpretation to their personal experiences.",
+      "chapter": "Using data in journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualisation",
+        "interactivity",
+        "audience autonomy",
+        "exploration"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Audience autonomy through interactive data exploration is an enduring design principle for data journalism presentation."
+    }
+  ]
+}

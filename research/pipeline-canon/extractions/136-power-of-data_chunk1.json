@@ -1,0 +1,959 @@
+{
+  "source_id": "136",
+  "source_file": "136-power-of-data.md",
+  "source_title": "The Power of Data: Data Journalism Production and Ethics",
+  "author": "Zhang Chao",
+  "year": "2023",
+  "chunk": "1/3",
+  "chunk_file": "136-power-of-data_chunk1.md",
+  "chunk_words": 39510,
+  "extracts": [
+    {
+      "extract": "Journalists need to be data-savvy. These are the people whose jobs are to interpret what government is doing to the people. So it used to be that you would get stories by chatting to people in bars, and it still might be that you'll do it that way sometimes. But now it's also going to be about poring over data and equipping yourself with the tools to analyse it and picking out what's interesting.",
+      "chapter": "Foreword",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "skills",
+        "sourcing"
+      ],
+      "notes": "Tim Berners-Lee quote via Arthur 2010"
+    },
+    {
+      "extract": "Data journalists can no longer stay away from data or just be 'porters' relaying experts' conclusions as in the traditional journalism era, but should be data knowledge producers with independent data collection, analysis, and visualization capabilities.",
+      "chapter": "Foreword",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "roles",
+        "data literacy",
+        "independence"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism should consider objectivity as a method rather than a goal. In addition, the significance of transparency for data journalism lies in the 'repeatability' of the data analysis process, which allows others to monitor the data journalism production process.",
+      "chapter": "Innovations of the Book",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "transparency",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The authority of data journalism lies not in the name of 'data' but in a series of professional norms and ethical requirements in its production. The neglect of professional norms is gradually eroding the credibility and professional value of the data journalism field.",
+      "chapter": "Exploring the Sustainability of Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "credibility",
+        "professional norms",
+        "ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The objectivity, neutrality, and authority of data journalism can only be achieved by following the production standards.",
+      "chapter": "The Fractured Perception of Data Journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "standards",
+        "credibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The essence of data journalism is the construction of discourse. In a sense, data journalism 'constructs' reality with data visualization, rather than 'reflecting' it in full sincerity.",
+      "chapter": "Importance of Critically Examining Data Journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "discourse",
+        "visualization",
+        "critical awareness",
+        "constructivism"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism is a news journalistic paradigm which uses data science methods to discover facts from various kinds of data and presents data through data visualization methods, serving news value and public interest.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "data science",
+        "visualization",
+        "public interest"
+      ],
+      "notes": "Author's own definition"
+    },
+    {
+      "extract": "The basic form of data journalism must include three elements: the treatment of data as a source to be gathered and validated, the application of statistics to interrogate it, and visualizations to present it.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "definition",
+        "validation",
+        "statistics",
+        "visualization"
+      ],
+      "notes": "Howard 2014, Tow Center"
+    },
+    {
+      "extract": "Data journalism means obtaining, reporting, curating, and publishing data in the public interest.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "definition",
+        "pipeline",
+        "public interest"
+      ],
+      "notes": "Jonathan Stray definition"
+    },
+    {
+      "extract": "Data journalism can be regarded as a process of refinement, in which the original data is transformed into meaningful content. When complex facts are refined into clear stories that are understood and remembered by the public, the value of data to the public increases. The production process of data journalism can be divided into four stages: data, filter, visualize, and story.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "refinement",
+        "value chain"
+      ],
+      "notes": "Mirko Lorenz / European Journalism Centre 2010"
+    },
+    {
+      "extract": "Data journalism is 80% perspiration, 10% great idea, 10% output.",
+      "chapter": "The Unclear Boundaries of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "effort allocation",
+        "process"
+      ],
+      "notes": "Simon Rogers 2011"
+    },
+    {
+      "extract": "Regardless of whether data journalism is defined through its form or process, two elements stand out: (1) quantitative information should play a central role in the development or telling of the story, and (2) there should be some visual representation of the data in the story.",
+      "chapter": "Definition of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "quantitative",
+        "visualization"
+      ],
+      "notes": "Zamith 2019"
+    },
+    {
+      "extract": "Bradshaw uses the inverted pyramid structure of data journalism to illustrate the production process: data compilation, data cleaning, understanding of data context, and data combination.",
+      "chapter": "The Differences Between Data Journalism and Traditional Journalism",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "data cleaning",
+        "context",
+        "inverted pyramid"
+      ],
+      "notes": "Bradshaw 2016"
+    },
+    {
+      "extract": "Computer-assisted reporting follows a hypothesis-driven path, while data journalism follows a data-driven path.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "epistemology",
+        "hypothesis-driven",
+        "data-driven"
+      ],
+      "notes": "Parasie 2019"
+    },
+    {
+      "extract": "Data journalism demands three different news skills: computer-assisted reporting, news application development, and data visualization.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "skills",
+        "visualization",
+        "programming",
+        "CAR"
+      ],
+      "notes": "Zotto et al. 2015"
+    },
+    {
+      "extract": "The application of open data and open-source software makes the production of data journalism more transparent. Although computational journalism is deeply influenced by the open-source movement, as algorithms are often regarded as commercial secrets, the production of computational journalism is not transparent.",
+      "chapter": "The Relationship Between Data Journalism and Precision Journalism, Computer-Assisted Reporting, and Computational Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "open source",
+        "open data",
+        "algorithms"
+      ],
+      "notes": "Coddington 2015 comparison framework"
+    },
+    {
+      "extract": "It is not the increasing volume of data that makes data increasingly important, but the tools and ability of journalists to analyze it.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tools",
+        "skills",
+        "analysis capability"
+      ],
+      "notes": "David McCandless via Rogers and Gallagher 2013"
+    },
+    {
+      "extract": "The barriers for entry have never been lower as free tools change the rules on who can analyse, visualize, and present data.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "tool-specific",
+      "themes": [
+        "open source",
+        "accessibility",
+        "tools",
+        "democratization"
+      ],
+      "notes": "Rogers 2015"
+    },
+    {
+      "extract": "The main reasons the media use open-source software rather than purchase proprietary software are: (1) When the prospect of reusing and reprocessing data is unclear, purchasing proprietary software requires capital and staff investment, while open-source software is free, easy to obtain, and simple to operate, effectively reducing the cost of investment. (2) The development of certain functions of proprietary software must be completed by the developer, which is costly, while open-source software can be designed by the media according to their own needs for specific functions. (3) Open-source software can already meet most of the needs related to data news production, so there is no need to purchase proprietary software.",
+      "chapter": "Technical Context: The Open-Source Movement",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "open source",
+        "cost",
+        "customization",
+        "tooling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data-driven journalism can provide a more solid empirical basis for discussions about policy, economic trends, and social change.",
+      "chapter": "Crisis of Trust in British and American Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "empirical evidence",
+        "credibility",
+        "policy"
+      ],
+      "notes": "Brian Keegan via Howard 2014"
+    },
+    {
+      "extract": "Data can trigger hypotheses, it can disprove your hypothesis, but it always enhances a story that would otherwise be based on anecdotes.",
+      "chapter": "Crisis of Trust in British and American Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis testing",
+        "evidence",
+        "verification"
+      ],
+      "notes": "Sandra Fish via Edge 2015"
+    },
+    {
+      "extract": "Data are everywhere all the time. They have something to say about us and how we live. But they aren't neutral, and neither are the algorithms we rely on to interpret them. The stories they tell are often incomplete, uncertain, and open-ended. Without journalists thinking in data, who will help us distinguish between good stories and bad?",
+      "chapter": "The Crisis of Professionalism in Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data neutrality",
+        "algorithms",
+        "critical thinking",
+        "interpretation"
+      ],
+      "notes": "Mark Hansen via Bell 2012"
+    },
+    {
+      "extract": "Data journalism has changed the definition of news from 'the reporting of newly occurring facts' to 'the reporting of newly discovered facts.'",
+      "chapter": "Discovering the Reality in the Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "discovery",
+        "news definition",
+        "paradigm shift"
+      ],
+      "notes": "Shen Hao, Tsinghua University"
+    },
+    {
+      "extract": "Alberto Nardelli, The Guardian's current data editor-in-chief, divides the paper's daily data journalism into three categories: quick and relevant numbers, data investigations to support stories, and making complex issues.",
+      "chapter": "Multiple Models of Data Journalism Production",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "production tiers",
+        "complexity levels",
+        "Guardian"
+      ],
+      "notes": "Reid 2015"
+    },
+    {
+      "extract": "In the endogenous model, the traditionally newsroom-centered working model is broken. News production requires cross-border integration in which people in various positions have to understand each other from the beginning stage. This has made programmers, who used to be downstream of the news production line and often did some support work, key or even central.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-disciplinary teams",
+        "programmers",
+        "integration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In Facts are Sacred, Simon Rogers refers to the 'short-form of data journalism' in The Guardian's daily data journalism production, where journalists very quickly identify key data, analyze it as the story is happening, and guide the audience to participate in it.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "short-form",
+        "speed",
+        "audience participation"
+      ],
+      "notes": "Rogers 2015"
+    },
+    {
+      "extract": "The Guardian has templates with a choice of chart styles, color palettes, and interactive visualizations that journalists can use to produce data news quickly, and the BBC and Financial Times have similar ones.",
+      "chapter": "Team Building of Endogenous Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "templates",
+        "visualization",
+        "speed",
+        "standardization"
+      ],
+      "notes": "Dick 2014"
+    },
+    {
+      "extract": "Data journalism competes on teamwork, not team size. News editors should bring data reporters in at the beginning of the story so that they can start identifying what needs to be developed for the project. Programmers need to judge the difficulty and cost based on the data journalist's choice of topic and research questions.",
+      "chapter": "Strengths of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teamwork",
+        "collaboration",
+        "planning",
+        "editorial workflow"
+      ],
+      "notes": "Au 2016; Huang and Zhang 2016"
+    },
+    {
+      "extract": "For example, when we check the domestic rocket launch records, the data provided by these authorities, such as China Academy of Launch Vehicle Technology, China Great Wall Industry Corporation, and China Aerospace Science and Technology Corporation, are not the same, then we will decide not to write the news related to this.",
+      "chapter": "Strengths of Endogenous Model",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data verification",
+        "conflicting sources",
+        "editorial judgment"
+      ],
+      "notes": "In-depth interview, Editor A"
+    },
+    {
+      "extract": "Training has been incredibly impactful in the U.S. to spread data journalism, there's hardly a newsroom in the U.S. that doesn't have a specialist in this area, and training is a huge reason for that.",
+      "chapter": "Weaknesses of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "training",
+        "skills development",
+        "newsroom capacity"
+      ],
+      "notes": "Aron Pilhofer via Reid 2014"
+    },
+    {
+      "extract": "One of the problems with data journalism production is that it's hard to assemble teams that are cross-disciplinary and have the right combination of designers, developers, graphic artists, photographers.",
+      "chapter": "Weaknesses of Endogenous Model",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "team composition",
+        "cross-disciplinary",
+        "hiring"
+      ],
+      "notes": "Aron Pilhofer via Reid 2014"
+    },
+    {
+      "extract": "The potential risk is that the quality of the data and content collected by crowdsourcing is inconsistent, and implementers will have to weigh the pros and cons if they are to crowdsource, as they have no control over the quality of this data. In this case, the team has to make sure that the data is properly verified.",
+      "chapter": "Weaknesses of the Crowdsourcing Model",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data quality",
+        "verification"
+      ],
+      "notes": "Au 2016"
+    },
+    {
+      "extract": "The crowdsourcing of data journalism is suitable for articles that seek breadth and diversity of coverage rather than depth and historicity of reporting. It is suitable for collecting data that is relevant to the public interest and more intuitive but struggles to show advantages when reporting on specialized issues and collecting authoritative data.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "scope",
+        "limitations",
+        "data collection"
+      ],
+      "notes": "Fang 2015"
+    },
+    {
+      "extract": "It is important to design crowdsourcing tasks in a playful way. In The Guardian's crowdsourcing of politicians' election spending scandals, the newspaper included game mechanics in the crowdsourcing, where users could see which challenges were accepted and completed, which was used to give the users a sense of achievement and being rewarded.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "gamification",
+        "engagement",
+        "design"
+      ],
+      "notes": "Simon Rogers; Vehkoo 2013"
+    },
+    {
+      "extract": "The media should not view each crowdsourcing participant as a one-time resource, but rather build a long-term relationship with them.",
+      "chapter": "Threats of the Crowdsourcing Model",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "crowdsourcing",
+        "community building",
+        "audience relationships"
+      ],
+      "notes": "Vehkoo 2013"
+    },
+    {
+      "extract": "The process of statistical analysis generally consists of data collection, data cleaning, and data analysis. Data collection is the acquisition of data based on research questions, while data cleaning is the discovery and correction of identifiable errors in data files, including checking data consistency, dealing with invalid and missing values, and so forth.",
+      "chapter": "Insight into Reality: Data Collection and Analysis",
+      "pipeline_step": "Clean",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline",
+        "data cleaning",
+        "error correction",
+        "consistency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalists' access to data can be broadly classified in four ways: open access, access by application, self-collection, and shared access.",
+      "chapter": "Methods of Data Acquisition",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data acquisition",
+        "classification",
+        "sourcing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Open data is favored by data journalists because it is easy to obtain, does not require payment, and does not involve complicated procedures such as licensing when producing, and only requires a clear explanation of the source of the data.",
+      "chapter": "Open Access",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open data",
+        "sourcing",
+        "attribution",
+        "licensing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With advances in data collection technology, some data journalists are obtaining data from online platforms through web scraping. ProPublica's data story 'Dollars for Docs' focused on various payments to doctors by pharmaceutical companies, which are required by law to disclose these data on their websites. Unable to obtain the relevant data through normal channels, the reporter collected them through web scraping.",
+      "chapter": "Open Access",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "web scraping",
+        "data collection",
+        "ProPublica"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In countries such as the U.K. and the U.S., it has become common for data journalists to request relevant data from the government under the Freedom of Information Act, which is known as a FOIA request.",
+      "chapter": "Access by Application",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOIA",
+        "government data",
+        "information requests"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The ubiquity of sensors and their ability to quantify something abstract are the main reasons why journalists are employing them to gather data. Journalists need data that is not all available from official sources, which may withhold information, which encourages journalists to open up some other ways of collecting data.",
+      "chapter": "Self-collection",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "sensors",
+        "self-collection",
+        "data gaps",
+        "alternative sourcing"
+      ],
+      "notes": "Fergus Pitt, Tow Center"
+    },
+    {
+      "extract": "Assessment of data quality requires assessments on a number of dimensions. First, the data is free of error, or the correctness of data. Second, the completeness of data, which can be viewed from at least three perspectives: schema completeness, column completeness, and population completeness. Third, the consistency of data. Fourth, the believability of data, or the extent to which data is regarded as true and credible. Fifth, the appropriate amount of data. Sixth, the timeliness of data. Eighth, the accessibility of data.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "completeness",
+        "consistency",
+        "timeliness",
+        "assessment"
+      ],
+      "notes": "Lee et al. 2006"
+    },
+    {
+      "extract": "There have been cases in the United States where media outlets have damaged the reputations of individuals because of inadequate verification of the data they obtained. A story in The Texas Tribune had a local man branded as a criminal, but it turned out to be a problem with the state's crime database itself.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "data errors",
+        "harm",
+        "accountability"
+      ],
+      "notes": "Bradshaw 2013"
+    },
+    {
+      "extract": "In late 2012, data journalist Nils Mulvad finally got his hands on veterinary prescription data that he had been fighting for seven years. But he decided not to publish the data when he realized that it was full of errors.",
+      "chapter": "Problems with the Quality of the Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "editorial judgment",
+        "kill decision"
+      ],
+      "notes": "Bradshaw 2013"
+    },
+    {
+      "extract": "Data journalists need to keep personal data properly in all aspects of data collection, analysis, and publication. Who is in control of the data? With whom can the data be shared? How should the data be protected and secured? News organizations should not only make sure that sensitive data is securely electronically stored, but also that journalists get appropriate training on how to avoid security risks and potential misuse of data due to increased sharing and partnerships.",
+      "chapter": "Violations and Controversies Arising from Non-compliance with Ethical Norms",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data security",
+        "privacy",
+        "ethics",
+        "personal data",
+        "training"
+      ],
+      "notes": "Colin Porlezza"
+    },
+    {
+      "extract": "There are three main types of data analysis methods. The first type, Descriptive Analytics, uses descriptive statistics and data visualization to describe the basic characteristics of data. The second type, Predictive Analytics, uses causal analysis, correlation analysis, and other methods to derive potential patterns, common patterns, or future trends based on past or current data. The third type, Prescriptive Analytics, combines a number of influencing factors based on known data to provide the best decision solution.",
+      "chapter": "Functions of Data Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "descriptive analytics",
+        "predictive analytics",
+        "prescriptive analytics",
+        "taxonomy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The original context of the data refers mainly to the purpose and method for which the data were collected, and relates to the boundaries of data interpretation. The context of the news text refers to the intent of the news to use the data, and is related to the applicability of the data. Generally speaking, the better the fit between the original context of the data and the context set by the news text, the more accurate people's understanding of the data will be, and the more credible the reality characterized by the data will be.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "context",
+        "recontextualization",
+        "data interpretation",
+        "credibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is important to understand whether data are comparable and to be careful when normalizing data across time and from different organizations on the same topic.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "comparability",
+        "normalization",
+        "time series",
+        "data quality"
+      ],
+      "notes": "Lesson from Washington Post racial tolerance map criticism"
+    },
+    {
+      "extract": "Caixin's 'How far is a high-speed railway station from you' introduces a distance index, which is the ratio of the straight-line distance from the station to the city center and the radius of the built-up area. A smaller distance index means that the station is easier to reach. This makes the data comparable and makes it easier to draw reliable conclusions.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "normalization",
+        "index construction",
+        "comparability",
+        "context"
+      ],
+      "notes": "Caixin Data News Center, 2019 Data Creators Conference"
+    },
+    {
+      "extract": "There is a case where the unreasonable choice of the time range leads to a large bias or even distortion in the recontextualized data. A powerful example is the widely reported 'national crime wave' in the United States in 2015. If journalists examine a broader period of time, they will see that crime rates were higher almost everywhere in the U.S. a decade ago, and almost twice as high two decades ago.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "time range",
+        "cherry-picking",
+        "bias",
+        "context"
+      ],
+      "notes": "Groskopf 2015"
+    },
+    {
+      "extract": "Open data is for government agencies, not journalists. That is, most datasets are named, structured, and organized according to the agencies, not the journalists looking for stories. Journalists should collect and analyze data with a good understanding of the original context of the data to avoid misinterpretation.",
+      "chapter": "Distortion of Meaning Due to Ignoring the Original Context of the Data",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "open data",
+        "context",
+        "misinterpretation",
+        "data structure"
+      ],
+      "notes": "D'Ignazio 2019"
+    },
+    {
+      "extract": "The U.S. population grew by 80% between 1960 and 2015, and in fact if we go by the murder rate per 100,000 people, the 2015 figure is close to the lowest since 1960. A comparison of only the total number of people to draw conclusions is undoubtedly one-sided.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "per capita rates",
+        "normalization",
+        "misleading totals"
+      ],
+      "notes": "Whitby 2016 critique of Guardian murder stats"
+    },
+    {
+      "extract": "Canada is so sparsely populated that the total population of the region does not reach 100,000 people, and the data was selected only for 2014, a year in which there were three murders in the region, compared to zero in the previous three years.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "small samples",
+        "cherry-picking",
+        "per capita rates",
+        "statistical validity"
+      ],
+      "notes": "McMaken 2015; Mises Wire error"
+    },
+    {
+      "extract": "Europe One Degree Warmer, produced by the European Data Journalism Network, analyzes more than 100 million meteorological data points. The journalists used two datasets in their analysis that could not be directly compared, so a reconciliation algorithm was used to allow historical comparisons to be made.",
+      "chapter": "Unreliable Conclusions from Ignoring the Applicability of Analytical Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "reconciliation",
+        "data harmonization",
+        "incompatible datasets"
+      ],
+      "notes": "EDJNet 2019"
+    },
+    {
+      "extract": "Correlation is not the same as causation. In data journalism, it happens that correlation is mistaken for causation due to poor recognition of logical relationships. Assuming that countries with higher gun ownership rates have more gun homicides, there could be several reasons: gun ownership breeds homicides; the presence of homicides causes more people to buy guns for self-defense; some other reason causes both; or it is just a coincidence.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "logical errors",
+        "confounders"
+      ],
+      "notes": "Stray 2014"
+    },
+    {
+      "extract": "Some seeming 'correlations' are just 'coincidences' and do not mean that there is true causality between the two variables. A change in two variables in the same direction may be caused by a change in a third variable. Forcing the one explanatory variable to explain all the variation in the dependent variable is itself arbitrary.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "spurious correlation",
+        "confounding variables",
+        "overfitting"
+      ],
+      "notes": "Whitby 2014"
+    },
+    {
+      "extract": "Another common logical error is to make linear long-term predictions about a non-linear phenomenon.",
+      "chapter": "Mistaking Correlation for Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "prediction",
+        "linearity",
+        "logical errors"
+      ],
+      "notes": "FiveThirtyEight death penalty example"
+    },
+    {
+      "extract": "We believe that the quality of data analysis can be improved in two ways: improving journalists' data analysis ability and introducing experts into the production process.",
+      "chapter": "The Path to Improving Data Analysis in Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills",
+        "expert collaboration",
+        "quality improvement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Unlike traditional journalism, which treats experts as sources, data journalism incorporates experts into the news production process, i.e., have them embedded in the editorial team as content producers.",
+      "chapter": "Inviting Experts to Participate in the Production Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "expert collaboration",
+        "embedded experts",
+        "team composition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Experts can have two functions in data analysis. First, experts are gatekeepers for the entire process of data analysis -- journalists should discuss with experts and peers and listen to different opinions in order to improve data analysis and conclusions, rather than making decisions on their own. Second, experts are directly responsible for data analysis, equivalent to outsourcing the data analysis process.",
+      "chapter": "Inviting Experts to Participate in the Production Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "expert gatekeeping",
+        "intersubjective objectivity",
+        "outsourcing analysis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Most awarded works rely heavily on data collected by governments and corporations, resulting in data journalism that lacks a critical awareness of these data and constructs reality in the way governments and corporations understand it.",
+      "chapter": "How Data Journalism Awards Winners Apply Data Science",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical awareness",
+        "data provenance",
+        "government data",
+        "power"
+      ],
+      "notes": "Analysis of DJA 2013-2018 winners"
+    },
+    {
+      "extract": "The methods commonly used by reporters include descriptive data analysis, exploratory data analysis, database or data warehouse, machine learning, and information retrieval. Of the 31 identifiable samples, 20 used descriptive and exploratory data analysis, and 9 had only descriptive data analysis.",
+      "chapter": "Data Analysis Methods",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "descriptive analysis",
+        "exploratory analysis",
+        "machine learning",
+        "methods taxonomy"
+      ],
+      "notes": "DJA 2013-2018 analysis"
+    },
+    {
+      "extract": "We classify the data processing complexity into four levels: low (directly present the original data), medium (describe numerical and distributional characteristics like mean, median, variance), relatively high (multiple statistical analysis methods or simple programming tools such as R and Python), and high (mathematical modeling, big data mining, or algorithm innovation). The average score of the samples is only 0.94, which indicates that many of the Data Journalism Awards entries are low in the level of data processing.",
+      "chapter": "Data Processing Complexity",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "complexity levels",
+        "professionalism",
+        "assessment framework"
+      ],
+      "notes": "DJA 2013-2018 analysis"
+    },
+    {
+      "extract": "There are two main ways for media to build their own databases. First, the media organize and clean open data sets into high-quality open databases. Second, the 'niche database': the media systematically integrates open data, public data, leaked data, and self-collected data based on research questions to create a more personalized, user experience-oriented database.",
+      "chapter": "Building Database to Provide Personalized Services and Innovate Profit Model",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "database building",
+        "data curation",
+        "niche databases",
+        "open data"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Self-built databases help the media build 'strong ties' with users through interactive design, authoritative data, and topics of public interest. As a kind of product, databases have various profit models: attention-based advertising, fee-based download of datasets, and user-oriented targeted services.",
+      "chapter": "Building Database to Provide Personalized Services and Innovate Profit Model",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "databases as products",
+        "revenue models",
+        "audience engagement"
+      ],
+      "notes": "Texas Tribune, ProPublica Data Store, Thomson Reuters examples"
+    },
+    {
+      "extract": "Unstructured data is more ubiquitous and accessible than structured data, allowing the media to cover more topics. Unstructured data are more 'honest' than structured data. The processing of structured data relies on statistical methods, which are inevitably biased in representing reality. However, unstructured data contains complete and continuous information and key details, and is more reliable and credible in representing reality.",
+      "chapter": "Using Unstructured Data to Represent the Broader Social Reality",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "unstructured data",
+        "representation",
+        "completeness",
+        "statistical bias"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "There are three main applications of machine learning in data journalism production. First, machine learning helps media do classification and prediction via supervised learning. Second, machine learning helps the media gain insight into the world via unsupervised learning that can autonomously find correlation between massive data and identify hidden structure. Third, machine learning helps media make decisions via reinforcement learning.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "classification",
+        "prediction",
+        "unsupervised learning",
+        "reinforcement learning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The effectiveness of supervised learning depends heavily on the reliability of the algorithm and the training data; if they are not reliable, the data results will be wrong. In an investigation of the Los Angeles Times powered by machine learning algorithms, the algorithm had a 24% error rate and required manual review.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "error rates",
+        "manual review",
+        "validation"
+      ],
+      "notes": "Nahser 2018"
+    },
+    {
+      "extract": "In Doctors and Sex Abuse from The Atlanta Journal-Constitution, journalists used 50 crawlers to obtain more than 100,000 physician disciplinary documents from the U.S. health care system, then used machine learning to clean and analyze the documents and retrieve keywords involving sexual assault.",
+      "chapter": "Using Machine Learning to Enhance Big Data Processing",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "machine learning",
+        "web scraping",
+        "document analysis",
+        "classification"
+      ],
+      "notes": "Global Investigative Journalism Network 2017"
+    },
+    {
+      "extract": "Data journalism is an opportunity for journalism to re-professionalize itself. Data science methodology is the core of data journalism production, so the level of journalists' mastery of it determines the level of understanding the world through data.",
+      "chapter": "Future Trends in the Application of Data Science to Data Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "professionalization",
+        "data science",
+        "methodology",
+        "skills"
+      ],
+      "notes": ""
+    }
+  ]
+}

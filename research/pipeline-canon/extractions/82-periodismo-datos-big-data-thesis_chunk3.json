@@ -1,0 +1,297 @@
+{
+  "source_id": "82",
+  "source_file": "82-periodismo-datos-big-data-thesis.md",
+  "source_title": "Periodismo de datos: el big data como elemento diferenciador",
+  "author": "doctoral thesis",
+  "year": "n.d.",
+  "chunk": "3/3",
+  "chunk_file": "82-periodismo-datos-big-data-thesis_chunk3.md",
+  "chunk_words": 25816,
+  "extracts": [
+    {
+      "extract": "Este reportaje es una pieza periodística que denuncia el deterioro del sistema sanitario de Castilla-La Mancha a través de una investigación que combina Datos Abiertos, análisis y sistematización de estos datos publicados, junto con la investigación periodística tradicional que se vale habitualmente de entrevistas y declaraciones de archivo. Todo ello presentado en un formato tradicional sin espectaculares visualizaciones ni aplicaciones interactivas.",
+      "chapter": "VI.3.1.2.4. Voluntad Política",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "open-data",
+        "mixed-methods",
+        "traditional-formats"
+      ],
+      "notes": "Example of combining open data analysis with traditional journalism methods without requiring sophisticated visualisation"
+    },
+    {
+      "extract": "La noticia fue el género periodístico con mayor número de publicaciones, con un 71% del total de la muestra. De estas publicaciones, más del 80% reprodujeron información interesada de las fuentes, de las cuales el 60% eran portavoces de un partido político. Un hallazgo importante fue el hecho de que la mayoría de autorías perteneciesen a agencias de noticias, haciendo patente que estas tuvieron una influencia muy grande en casi todos los medios analizados",
+      "chapter": "VI.4.1. La noticia y la reproducción interesada de fuentes predominan",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source-verification",
+        "agency-dependence",
+        "source-bias"
+      ],
+      "notes": "Finding: 71% news articles, 80% of those reproduced self-interested sources. Agency authorship dominates, enabling political party messaging to bypass editorial control"
+    },
+    {
+      "extract": "Un hallazgo importante a tener en cuenta en las noticias sin reproducción de fuentes interesadas es que las que tienen pluralidad de fuentes representan más de la mitad, un 53,85%, siendo el 66,66% de las noticias de autoría firmada y el 50% de autoría propia las que presentaban contraste informativo. Incluso las noticias de agencias con estas características tienen un porcentaje alto de pluralidad de fuentes, un 40%, aunque estas no fueron mayoría. Esto significa que en este tipo de noticias hay más rigor y precisión, y que las autorías firmadas y propias son más representativas a la hora de juzgar si los periodistas de los medios de la muestra están intentando influir en las políticas y en las políticas públicas de transparencia ante la opinión pública.",
+      "chapter": "VI.4.2. Las noticias sin reproducción directa de fuentes interesadas",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source-plurality",
+        "journalistic-rigor",
+        "named-authorship"
+      ],
+      "notes": "Key finding: articles without self-interested sources show much higher source plurality (54%), correlating named authorship with greater informational contrast and rigor"
+    },
+    {
+      "extract": "Uno de los datos más relevantes de este género periodístico fue que todas las autorías propias de Elconfidencial.com estuvieron firmadas por Elconfidencial.lab, cuyas publicaciones suelen ser producidas junto con los periodistas de datos del medio. Estos reportajes intentaron explícitamente ejercer influencia en las políticas y en las políticas públicas de transparencia en dos publicaciones que claramente no se alineaban con lo que suele ser la línea editorial del medio.",
+      "chapter": "VI.4.3. Los reportajes con pluralidad de fuentes y autoría firmada",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "data-units",
+        "editorial-independence",
+        "agenda-setting"
+      ],
+      "notes": "Data journalism labs (Elconfidencial.lab) produced reports that crossed the outlet's editorial line, suggesting data units can operate with editorial autonomy"
+    },
+    {
+      "extract": "los periodistas de la unidad de datos de este medio —Jesús Escudero, Daniele Grasso y Adrián Blanco— publicaron artículos que posicionaban la transparencia como un aspecto fundamental ante las elecciones del 20 de diciembre. También resultó relevante el hecho de que la periodista de datos de la Fundación Ciudadana CIVIO, Eva Belmonte, publicara en Elconfidencial.com, haciendo patente que este medio da voz a periodistas de datos y activistas de la transparencia que no forman parte de la plantilla del medio.",
+      "chapter": "VI.4.3. Los reportajes con pluralidad de fuentes y autoría firmada",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "data-units",
+        "civic-tech-collaboration",
+        "external-contributors"
+      ],
+      "notes": "Media outlets publishing work by external data journalists and civic-tech org (CIVIO) staff, showing porous boundary between newsroom and transparency activism"
+    },
+    {
+      "extract": "Uno de los puntos más importantes del análisis temático fue el hecho de que los temas Cumplimiento de la Ley y Suficiencia de la Ley tuvieran mayores porcentajes de noticias, y que Incumplimiento de la Ley e Insuficiencia de la Ley —tras Elecciones del 20D— fueran los temas con mayor porcentaje de reportajes. Esto está íntimamente ligado al hecho de que el género noticia tiene un porcentaje muy alto de información de agencias que reproducían directamente los intereses de las fuentes, y que los reportajes tienen el mayor porcentaje de autorías firmadas con pluralidad de fuentes, sin reproducción directa de los intereses de fuentes. Esto significa que los temas Cumplimiento de la Ley y Suficiencia de la Ley se posicionaron gracias a los sesgos de los portavoces políticos, gabinetes de prensa y fuentes institucionales que influyeron en los medios de la muestra, mientras que Insuficiencia de la Ley e Incumplimiento de la Ley se posicionaron gracias a los periodistas que trabajaban en los medios analizados.",
+      "chapter": "VI.4.5. Los periodistas intentaron posicionar la insuficiencia e incumplimiento de la Ley de Transparencia",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "agenda-setting",
+        "genre-bias",
+        "journalist-agency",
+        "source-dependence"
+      ],
+      "notes": "Critical finding: compliance/sufficiency narratives driven by press offices and agency wire; insufficiency/non-compliance narratives driven by journalists' own reporting with multiple sources. Genre choice (news vs report) correlates with who controls the narrative"
+    },
+    {
+      "extract": "El movimiento de datos abiertos y la cultura de transparencia ligada a la filosofía del dato abierto. Esto se ha visto reflejado en un mayor acceso a datos gracias a las leyes de acceso y transparencia de la información pública, que incluyen ahora la digitalización de grandes cantidades de información pública y la publicación activa y reactiva de datos por parte de las administraciones públicas. Este punto también ha sido demostrado mediante la publicación por parte del periodista de los datos en bruto de sus informaciones, así como la publicación del proceso a través del cual se adquirieron y analizaron los datos que componen su pieza periodística.",
+      "chapter": "VII.1. Big Data es un fenómeno tecnológico y sociocultural",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "open-data",
+        "FOI",
+        "raw-data-publication",
+        "process-transparency"
+      ],
+      "notes": "Two-part open data claim: (1) FOI laws now include digitised public data; (2) data journalists publish both raw data and methodology, extending transparency to the journalistic process itself"
+    },
+    {
+      "extract": "El movimiento del software libre y las prácticas de trabajo colaborativas implícitas en este movimiento. Este punto se comprueba a través de la democratización de la tecnología que forma parte del periodismo de datos por la comunidad hacker activista o 'hacktivista', lo que ha permitido al periodista utilizar herramientas informáticas que no existían en la época del periodismo de precisión y el CAR. Otra demostración de este movimiento y sus prácticas de trabajo colaborativas en el periodismo de datos ha sido la detección de la ética de trabajo hacker que fomenta la reutilización de datos y herramientas tecnológicas por actores diferentes a los creadores, así como la incorporación de otros actores culturales al proceso de producción de noticias, como programadores, desarrolladores web y diseñadores de producto digital —infografistas, diseñadores gráficos, productores de video, etc.",
+      "chapter": "VII.1. Big Data es un fenómeno tecnológico y sociocultural",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "free-software",
+        "collaborative-work",
+        "hacktivist-tools",
+        "multidisciplinary-teams"
+      ],
+      "notes": "DJ teams incorporate hacker work ethic (reuse of tools and data) and new roles: programmers, web developers, designers, infographics specialists. Tools democratised by hacktivist community"
+    },
+    {
+      "extract": "Mitologías propias de big data como fenómeno. Estas han reforzado los valores tradicionales del periodismo en las prácticas del periodismo de datos, como el rigor, la objetividad y la precisión, llevando a los periodistas de datos a asociar más estrechamente estos valores con las prácticas periodísticas que involucran el manejo de grandes cantidades de datos. En este sentido, la proliferación de técnicas de verificación adaptadas a la era digital, como el fact-checking, demuestra la incorporación de mitologías propias de big data como fenómeno en el periodismo de datos.",
+      "chapter": "VII.1. Big Data es un fenómeno tecnológico y sociocultural",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "big-data-mythology",
+        "fact-checking",
+        "objectivity",
+        "verification"
+      ],
+      "notes": "Big data mythologies reinforce traditional journalism values (rigour, objectivity, accuracy) and drive adoption of verification techniques like fact-checking"
+    },
+    {
+      "extract": "La Ley 19/2013 de transparencia, acceso a la información pública y buen gobierno ha impulsado la creación de equipos de periodismo de datos en España porque ha proporcionado a periodistas, activistas y ciudadanía en general mecanismos de acceso a la información que no existían con anterioridad. Esto ha sido utilizado como plataforma para exigir mayor transparencia y para que esta permee el discurso político. Sin embargo, la ley y su portal son claramente insuficientes para el correcto desarrollo del periodismo de datos en España, a lo que se suma que la administración pública no cumple con la ley.",
+      "chapter": "VII.2. La Ley de Transparencia ha impulsado el periodismo de datos en España",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI-law",
+        "transparency-portal",
+        "access-to-information",
+        "data-journalism-teams"
+      ],
+      "notes": "FOI law created DJ teams in Spain by providing access mechanisms, but law and portal remain insufficient and are not complied with by public administration"
+    },
+    {
+      "extract": "el estado del periodismo de datos sigue siendo incipiente debido a la insuficiencia de la Ley de Transparencia, cuyas principales causas son su rango legal y su falta de capacidad sancionadora. Su rango legal no la sitúa al nivel de la Ley Orgánica de Protección de Datos (LOPD), por lo que siempre estará subordinada a esta ley, incluso en solicitudes de información pública relativas a funcionarios públicos y cargos electos. En este sentido, las denegaciones a facilitar información pública solicitada a través del portal de transparencia relacionadas con la LOPD, así como el doble silencio administrativo que da por denegada una solicitud no contestada dentro del plazo, son aspectos que han hecho que esta ley no haya prosperado en el espíritu para el que fue creada",
+      "chapter": "VII.3. La insuficiencia de la Ley de Transparencia ha dejado al periodismo de datos en un estado aún incipiente",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI-law",
+        "legal-hierarchy",
+        "administrative-silence",
+        "data-protection-conflict"
+      ],
+      "notes": "DJ remains incipient because: (1) transparency law outranked by data protection law; (2) administrative silence treats non-response as denial; (3) no sanctions for non-compliance"
+    },
+    {
+      "extract": "la ley carece de mecanismos sancionadores que obliguen a su cumplimiento en caso de denegaciones por parte de organismos públicos, por lo que el ciudadano o periodista tendría que acudir a los tribunales para intentar obtener la información denegada. Este sector profesional, ya tan maltratado económicamente en los últimos tiempos, tampoco puede permitirse acudir a los tribunales por una información pública que puede que ya no sea relevante para cuando se gane un juicio, lo que sitúa al periodista en una situación similar a la que existía antes de la aprobación de la Ley de Transparencia y Buen Gobierno, haciendo más que evidente la insuficiencia de esta ley para el correcto ejercicio del periodismo de datos.",
+      "chapter": "VII.3. La insuficiencia de la Ley de Transparencia",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI-law",
+        "legal-costs",
+        "timeliness",
+        "sanctioning-capacity"
+      ],
+      "notes": "Without sanctions, journalists must litigate to obtain denied information — prohibitively expensive and slow, rendering data irrelevant by the time it is obtained"
+    },
+    {
+      "extract": "La falta de un registro de lobbies es otra razón por la cual la Ley de Transparencia es insuficiente. Sin dicho registro, es imposible desvelar información sobre sectores que influyen en las decisiones políticas que afectan a toda la ciudadanía. En este sentido, sin un registro de lobbies, uno de los pilares más importantes del periodismo en democracia queda directamente socavado: la rendición de cuentas.",
+      "chapter": "VII.3. La insuficiencia de la Ley de Transparencia",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "lobby-register",
+        "accountability",
+        "transparency-gaps"
+      ],
+      "notes": "Without a lobbying register, journalists cannot trace influence on political decisions, directly undermining accountability function of journalism"
+    },
+    {
+      "extract": "el uso del litigio estratégico como herramienta fundamental en el activismo por la transparencia y para el ejercicio del periodismo de datos, ya que, como se ha señalado, el gasto de recursos que conlleva llevar a los tribunales una denegación de respuesta a una solicitud de información pública es muy alto en términos tanto de dinero como de tiempo.",
+      "chapter": "VII.3. La insuficiencia de la Ley de Transparencia",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "strategic-litigation",
+        "FOI-enforcement",
+        "resource-cost"
+      ],
+      "notes": "Strategic litigation identified as fundamental but costly tool for both transparency activists and data journalists to enforce FOI compliance"
+    },
+    {
+      "extract": "Todas las insuficiencias de la Ley de Transparencia señaladas anteriormente fueron expuestas por medios de comunicación con equipos de periodismo de datos ante las elecciones generales del 20 de diciembre de 2015. Además, fueron asumidas e incluso utilizadas por algunos portavoces políticos, por lo que la insuficiencia de la ley tal como la proyectaron los medios con equipos de periodismo de datos influyó en la agenda política de aquel año. Esto también significa que hay una coincidencia entre los valores asociados a la cultura de la transparencia expresados por los periodistas de datos en las entrevistas en profundidad y los intrínsecos al tratamiento informativo de la transparencia en los medios.",
+      "chapter": "VII.4. El sector del periodismo de datos ha influido en la agenda política",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "agenda-setting",
+        "political-influence",
+        "data-journalism-impact",
+        "transparency-values"
+      ],
+      "notes": "DJ teams successfully influenced the political agenda by exposing law deficiencies; values of DJ practitioners matched the values embedded in the media coverage itself"
+    },
+    {
+      "extract": "El incumplimiento de la Ley de Transparencia ha sido una constante desde su entrada en vigor. El retraso en responder a las solicitudes de información pública es un ejemplo de ello, ya que según la ley el plazo para responder a una solicitud de información pública no puede exceder de dos semanas. [...] Este incumplimiento de la ley evidencia la falta de una cultura de la transparencia en la administración pública española, lo que ha multiplicado el uso del crowdsourcing y la filtración de datos que deberían ser públicos para producir piezas de periodismo de datos.",
+      "chapter": "VII.5. El incumplimiento de la Ley de Transparencia se debe a una falta de cultura de la transparencia",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "crowdsourcing",
+        "data-leaks",
+        "FOI-non-compliance",
+        "workarounds"
+      ],
+      "notes": "When FOI requests fail due to non-compliance, DJ practitioners turn to crowdsourcing and leaked data as alternative acquisition strategies"
+    },
+    {
+      "extract": "Un primer paso para resolver todos estos obstáculos al ejercicio del periodismo de datos en España sería otorgar capacidad sancionadora a la ley y, por extensión, al Consejo de Transparencia. De esta manera, tanto los funcionarios como las instituciones que incumplan las resoluciones del consejo, los plazos establecidos para responder a las solicitudes de información y la subordinación de los datos personales de un alto cargo público a la Ley de Transparencia serían sancionados. Un segundo paso sería equiparar la ley con sus homólogas anglosajonas.",
+      "chapter": "VII.6. Debate y propuestas sobre los obstáculos al ejercicio del PD en España",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "FOI-reform",
+        "sanctioning-capacity",
+        "Anglo-Saxon-benchmarks"
+      ],
+      "notes": "Two-step proposal: (1) grant sanctioning power to Transparency Council; (2) align Spanish FOI law with Anglo-Saxon standards (UK Extractive Industries directive as example)"
+    },
+    {
+      "extract": "Desde la academia debemos profundizar en el estudio de las mitologías de big data, ya que la resignificación en el periodismo de datos de valores periodísticos tradicionales —como la objetividad y la veracidad— está estrechamente relacionada con el auge de las fake news y el problema del sesgo en los algoritmos usados en el periodismo automatizado. Es precisamente en este punto donde la Universidad podría proporcionar tanto a periodistas como a activistas herramientas para avanzar en la lucha por la transparencia y la rendición de cuentas en las democracias contemporáneas.",
+      "chapter": "VII.7. Propuestas para futuras investigaciones",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic-bias",
+        "fake-news",
+        "academic-role",
+        "big-data-mythology"
+      ],
+      "notes": "Calls for academic study of big data mythologies given their connection to fake news and algorithmic bias in automated journalism; university as tool-provider for transparency"
+    },
+    {
+      "extract": "el subtema Capacidad Sancionadora es otro ejemplo que muestra la voluntad de las redacciones con periodistas de datos de ejercer presión sobre las políticas y las políticas públicas de transparencia que afectan al periodismo: todas las publicaciones de este subtema pertenecen al tema Insuficiencia de la Ley y tienen autoría firmada, con una mayoría de reportajes (50% del total) y solo un 25% reproduciendo fuentes interesadas",
+      "chapter": "VI.3.1.2.5. Capacidad Sancionadora",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "organizational",
+      "themes": [
+        "data-units",
+        "sanctioning-capacity",
+        "advocacy-journalism",
+        "named-authorship"
+      ],
+      "notes": "Newsrooms with data journalists used signed reports (not agency wire) to pressure for stronger transparency enforcement, showing deliberate editorial strategy"
+    },
+    {
+      "extract": "la exigencia de un documento de identidad electrónico para acceder al portal de transparencia y solicitar información pública es una de las insuficiencias que más directamente socava este derecho ciudadano.",
+      "chapter": "VII.3. La insuficiencia de la Ley de Transparencia",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "access-barriers",
+        "electronic-ID",
+        "transparency-portal"
+      ],
+      "notes": "Requiring electronic national ID to access transparency portal creates practical barrier to FOI requests for both journalists and citizens"
+    },
+    {
+      "extract": "los periodistas mostraron a la opinión pública cuáles han sido los principales problemas de esta insuficiencia e incumplimiento: 1- la cultura de la transparencia entre los representantes políticos y la administración pública; 2- la voluntad política de nuestros representantes para compensar las insuficiencias y evitar el incumplimiento de la ley; y 3- la falta de capacidad sancionadora del Consejo de Transparencia, y por extensión, de la ley.",
+      "chapter": "VI.4.5. Los periodistas intentaron posicionar la insuficiencia e incumplimiento",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency-culture",
+        "political-will",
+        "sanctioning-capacity",
+        "public-accountability"
+      ],
+      "notes": "Three core problems DJ sector surfaced: (1) lack of transparency culture; (2) lack of political will to fix the law; (3) lack of sanctioning power for the Transparency Council"
+    }
+  ]
+}

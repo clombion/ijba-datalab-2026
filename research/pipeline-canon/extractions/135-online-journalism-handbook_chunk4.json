@@ -1,0 +1,853 @@
+{
+  "source_id": "135",
+  "source_file": "135-online-journalism-handbook.md",
+  "source_title": "The Online Journalism Handbook: Skills to Survive and Thrive in the Digital Age",
+  "author": "Paul Bradshaw",
+  "year": "3rd ed., 2023",
+  "chunk": "4/5",
+  "chunk_file": "135-online-journalism-handbook_chunk4.md",
+  "chunk_words": 39928,
+  "extracts": [
+    {
+      "extract": "Data journalism can involve all sorts of skills and people, from those who are good at getting information in the first place to those who can pull stories out of it (analysis), those who can write the stories, tell those stories visually (data visualisation), or make them interactive. The key to data journalism is to start with simple projects that build different types of skills.",
+      "chapter": "Getting started with data journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "skills",
+        "workflow",
+        "incremental learning"
+      ],
+      "notes": "Frames data journalism as multi-role pipeline; advocates learning by doing"
+    },
+    {
+      "extract": "Data journalism ideas start in exactly the same way as every other journalism idea: You are either reacting to new information (in this case, data) or you have an idea---perhaps based on a lead or tip-off---and decide to seek out the information that allows you to write a story about that.",
+      "chapter": "Coming up with ideas for data-driven journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "story ideas",
+        "reactive vs proactive",
+        "hypothesis"
+      ],
+      "notes": "Establishes reactive/proactive dichotomy for data story generation"
+    },
+    {
+      "extract": "Having a hypothesis helps: be prepared to change your hypothesis as you start to look at the evidence. Sometimes that hypothesis can be as simple as 'things are working as they are supposed to'. Are things that are supposed to go down, going down? Are things that are supposed to be getting better doing just that? Do people have access to the services and opportunities they are supposed to?",
+      "chapter": "Coming up with ideas for data-driven journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis testing",
+        "accountability",
+        "falsification"
+      ],
+      "notes": "Hypothesis as a starting point that must yield to evidence"
+    },
+    {
+      "extract": "Another form of a proactive story is to come up with an idea to follow up on a current news story, providing a data-driven angle on the issue. A national announcement about child poverty, for example, may give you the idea to follow up with an analysis of regional data to give readers a local picture of the situation. A sports team struggling may be the inspiration for a historical overview of their decline over time. A politician's claim about immigration may be factchecked against the reality.",
+      "chapter": "Coming up with ideas for data-driven journalism",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "follow-up",
+        "localization",
+        "fact-checking",
+        "timeliness"
+      ],
+      "notes": "Three follow-up patterns: localize, historicize, factcheck"
+    },
+    {
+      "extract": "Look at lots of examples of data journalism as well: often you can adapt one idea in a number of different ways. If the story was done about one country or region, for example, why not repeat it for a different place? If it was focused on a particular category, see if you can repeat it for a different category; or see if you can adapt the idea for a different field entirely. You can also simply take an idea that was done a year or two ago and repeat it with newer figures. If an idea has worked before, there's a good chance it will work again.",
+      "chapter": "Coming up with ideas for data-driven journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "replication",
+        "adaptation",
+        "story patterns"
+      ],
+      "notes": "Replication as a legitimate and productive idea-generation strategy"
+    },
+    {
+      "extract": "Data is regularly used to tell stories about how big or small a problem is; to identify whether things are getting better or worse; to identify unfair variation in people's experiences; and to identify people, places, or organisations that are doing particularly badly---or well. Scale stories, Change stories, Ranking stories, Variation stories tend to be the basis of news articles. Exploratory, Relationship, Needle in the haystack, and Bad data/No data/Get the data stories tend to be used more for features and in-depth reporting.",
+      "chapter": "Eight types of stories you can tell",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "story typology",
+        "angle selection",
+        "news values"
+      ],
+      "notes": "Eight-type taxonomy: Scale, Change, Ranking, Variation, Exploratory, Relationship, Needle-in-haystack, Bad/No/Get data"
+    },
+    {
+      "extract": "One emerging branch of data journalism that has a particular focus on Variation stories is 'algorithmic accountability' reporting. ProPublica has been a leader in this field: its Machine Bias series looks at the power that algorithms have on people's lives, often leading to a variation of outcomes for people where you would want fairness: people being sentenced differently, or given different insurance quotes, despite no meaningful difference between them on the dimensions that matter.",
+      "chapter": "Eight types of stories you can tell",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "algorithmic accountability",
+        "variation",
+        "fairness",
+        "bias"
+      ],
+      "notes": "Algorithmic accountability as a variation story subtype"
+    },
+    {
+      "extract": "Stories about problems with data quality can be incredibly important: power is exercised, money spent, and lives affected on the basis of data, so if the data is flawed then the exercise of power is likely to be flawed too. If a police force is underreporting crime, a hurricane-hit country is inaccurately reporting deaths, or tests sent are being counted as 'tests conducted', then there is the risk of those in power making false claims unchallenged. Story ideas can come from checking those claims, from hearing about someone who has been through the system and seen its gaps, or from simply scrutinising existing data for problematic features.",
+      "chapter": "Eight types of stories you can tell",
+      "pipeline_step": "Verify",
+      "secondary_step": "Define",
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "accountability",
+        "power",
+        "bad data"
+      ],
+      "notes": "Data quality critique as journalism; flawed data enables flawed power"
+    },
+    {
+      "extract": "Sometimes there is no data at all---and instead of thinking that this is the end of your story, consider that it might be the beginning. Are there concerns being raised about the lack of information or transparency that you can report on? If it's not easy for people to get hold of important data, you might also work on a project to collect the data yourself and make that available to readers.",
+      "chapter": "Eight types of stories you can tell",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "epistemological",
+      "themes": [
+        "data gaps",
+        "transparency",
+        "data collection",
+        "public interest"
+      ],
+      "notes": "Absence of data is itself newsworthy; journalists as data creators"
+    },
+    {
+      "extract": "A great way to get data for exclusive stories is to use Right to Information (RTI) laws. When requesting data through an FOI request, it is always useful to specify the format that you wish the information to be supplied in---typically, a spreadsheet in electronic format if you want to avoid having to convert PDFs or Word documents. You should also request as much detail as possible: try asking for breakdowns by incident, day, week, or month rather than aggregate totals.",
+      "chapter": "Finding data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI",
+        "data format",
+        "granularity",
+        "data acquisition"
+      ],
+      "notes": "Practical FOI advice: specify spreadsheet format; request granular breakdowns"
+    },
+    {
+      "extract": "If you are using a search engine to find the data you are looking for, it can help to specify the type of file you want (e.g. spreadsheet) and the type of domain it is on (e.g. government sites). You can do this by using the advanced search facility or you can use search operators such as filetype: or site:. Examples: 'School spending filetype:xls', 'disclosure log site:ac.uk', 'hate crime site:police.uk filetype:pdf'.",
+      "chapter": "Using search engines to find data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "data discovery",
+        "advanced search"
+      ],
+      "notes": "Concrete search operator patterns for data discovery"
+    },
+    {
+      "extract": "There are two basic approaches you can take in gathering data: compiling it from other sources such as newspapers or other reports (secondary research) or collecting it yourself through methods such as observation or surveys (primary research). Whichever method you use, you should understand potential weaknesses in the methodology and seek to address these. The selection, size, and generalisability of the sample; the selection and phrasing of questions; the environment; the use of a control group; your own presence; and myriad other factors must be considered to ensure that your methods stand up to scrutiny.",
+      "chapter": "Gathering data yourself",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "primary research",
+        "secondary research",
+        "methodology",
+        "sampling",
+        "validity"
+      ],
+      "notes": "Journalists must understand and address methodological weaknesses in data they gather"
+    },
+    {
+      "extract": "Sometimes news organisations use live data in their data journalism, particularly in sports and elections. This requires a certain amount of preparation and organisation: you'll need to identify where you will get the data from, and how you might filter it. If the live source is one that the public can contribute to themselves---such as a social media feed---you'll need to consider whether people might try to 'game' that data, intentionally skewing the results for political reasons, commercial gain, or simply for fun.",
+      "chapter": "Live data",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "live data",
+        "gaming",
+        "data integrity",
+        "planning"
+      ],
+      "notes": "Live data requires pre-planning and gaming-risk assessment"
+    },
+    {
+      "extract": "Sentiment analysis has a number of weaknesses: it is not always good at detecting irony or sarcasm. You should also be careful not to suggest that public sentiment on social media is the same as public opinion in general (social media users are not representative of the wider population---and stronger opinions are over-represented). Any coverage should make these weaknesses clear and be careful that results are not presented as representative of the general public.",
+      "chapter": "Live data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "sentiment analysis",
+        "representativeness",
+        "social media bias",
+        "limitations"
+      ],
+      "notes": "Methodological caution about sentiment analysis and social media representativeness"
+    },
+    {
+      "extract": "'Scraping' is the process of automatically gathering information from webpages or online documents. It can be especially useful in data journalism because it allows you to combine data from potentially thousands of webpages into one easy-to-analyse spreadsheet. To scrape information, it must be in a consistent format. So, for example, results from searching a jobs database can be scraped because each page of results has the same structure but results from different job listings websites cannot because each site will use its own way of presenting that information.",
+      "chapter": "Live data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "automation",
+        "data collection",
+        "consistency"
+      ],
+      "notes": "Scraping requires structural consistency in source pages"
+    },
+    {
+      "extract": "Sometimes data will need to be 'cleaned' in some way so that it can be properly or accurately analysed. Examples of issues that require cleaning include: misspellings or variations in spelling; numbers that are being treated as words (or vice versa); unnecessary columns or rows; duplicate entries; mistyped entries; mixed data that you want to separate. Finding out if your data is dirty might involve checking that the spreadsheet software understands things the same way you do: a computer will see 'New Town', 'Newtown', and 'newtown' as three separate towns when they may not be.",
+      "chapter": "Cleaning data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "dirty data",
+        "data quality",
+        "consistency"
+      ],
+      "notes": "Taxonomy of common data cleaning issues"
+    },
+    {
+      "extract": "Some tips for cleaning your data include: Use a spellchecker to check for misspellings. Use 'find and replace' to remove double spaces and other common punctuation errors. Remove duplicate entries. Watch out for extra spaces at the beginning and end of text. Sort your data in numerical columns from largest to smallest: look out for unusually small or large numbers that may be errors. If you want to split an address or name into separate columns, try using the Text to Columns option under the Data menu in Excel.",
+      "chapter": "Cleaning data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "spreadsheet techniques",
+        "outlier detection",
+        "deduplication"
+      ],
+      "notes": "Practical cleaning checklist with specific tool techniques"
+    },
+    {
+      "extract": "For cleaning challenges that take up a lot of time, it is worth exploring a dedicated cleaning tool like Open Refine. Open Refine's import wizard allows you to easily merge heading rows, ignore rows before your headings, remove empty rows, and even merge sheets or files. Once imported, you can also perform 'common transforms' such as removing double spaces and inconsistent formatting across an entire dataset or use the 'cluster and edit' option to identify entries that are similar and mass-edit them.",
+      "chapter": "Cleaning data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Open Refine",
+        "clustering",
+        "data cleaning",
+        "transformation"
+      ],
+      "notes": "Open Refine recommended for complex cleaning; cluster-and-edit for fuzzy matching"
+    },
+    {
+      "extract": "Once you have the data in front of you, it can be easy to be overwhelmed by the possibilities. So before you begin questioning your data, decide what the most important newsworthy aspect of the data is for your audience---and how much time you have to do the story. If your audience is local, check the scale of the issue for local organisations. If your audience is national, identifying broader trends may be more relevant, and have more impact. Make sure you stay focused on finishing one story before you move on to the others.",
+      "chapter": "Questioning data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "prioritization",
+        "audience",
+        "newsworthiness",
+        "focus",
+        "time management"
+      ],
+      "notes": "Must prioritize analysis angles by audience and deadline before diving in"
+    },
+    {
+      "extract": "You can ask questions about data in a number of ways. Common techniques used to ask questions in a spreadsheet table include: Sorting the table by a particular column to bring the biggest or smallest values to the top; Filtering by one or more columns to focus on a particular category or area; Performing basic calculations, such as subtracting one figure from another to find out how much something has changed; Using 'wizards' such as a pivot table; Using spreadsheet functions to perform more advanced calculations such as averages.",
+      "chapter": "Questioning data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sorting",
+        "filtering",
+        "calculations",
+        "pivot tables",
+        "spreadsheet analysis"
+      ],
+      "notes": "Five core spreadsheet interrogation techniques ordered by complexity"
+    },
+    {
+      "extract": "Simple calculations that can give you stories as a journalist include: Subtracting an older figure from a recent figure to find out how much something has changed; Dividing that change by the older figure to find out what percentage something has changed by; Dividing a part by the whole to find out what proportion it is of that whole.",
+      "chapter": "Calculations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "calculations",
+        "percentage change",
+        "proportion",
+        "spreadsheet formulas"
+      ],
+      "notes": "Three fundamental journalistic calculations: change, percent change, proportion"
+    },
+    {
+      "extract": "One of the most powerful ways to use a spreadsheet to ask questions about data is to use a pivot table. This is useful when you are dealing with very detailed data---for example, with hundreds of rows representing lots of different events or organisations. A pivot table will take that detailed data and organise it by a particular piece of information in your data.",
+      "chapter": "Pivot tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pivot tables",
+        "aggregation",
+        "spreadsheet analysis"
+      ],
+      "notes": "Pivot tables for aggregating detailed data by category"
+    },
+    {
+      "extract": "One of the most important things to look for in your data is what isn't in it. Whenever you are dealing with a total number of events for each part of a country, you can expect that the most populated areas will generally have the most of anything. Those organisations and locations are likely to feature at the top of any ranking---so you should always look to find out how they rank per person instead (events 'per capita'). To do that you simply need to divide the number of events or items by the number of people.",
+      "chapter": "Putting the data into context",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "per capita",
+        "normalization",
+        "context",
+        "population",
+        "missing data"
+      ],
+      "notes": "Always normalize by population; look for what is absent from the dataset"
+    },
+    {
+      "extract": "Always try to speak to experts to find out if there are other contextual factors that might be important as well. 'The ability for people to get in touch and explain to me the why is super important---I'm not saying I'm going to accept those anecdotes at face value but it gives me new lines of enquiry' (Mona Chalabi).",
+      "chapter": "Putting the data into context",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "expert sources",
+        "contextual factors",
+        "qualitative context",
+        "verification"
+      ],
+      "notes": "Chalabi: anecdotes from affected people generate new lines of inquiry"
+    },
+    {
+      "extract": "Another important aspect of context is how the data was gathered. Data scientist Heather Krause recommends creating a data biography for data journalism projects that details where the data came from, who collected it, why they collected it, and how. The data biography covers: Funding (who paid for it), Motivation (why collected), Project design (sampling, classification, cleaning), Data collection and sourcing (methodologies), Analysis (methods and assumptions), Interpretation (discretion in focus or classification), Communication (selective emphasis, language, chart design).",
+      "chapter": "Putting the data into context",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data biography",
+        "provenance",
+        "bias",
+        "methodology audit",
+        "data source evaluation"
+      ],
+      "notes": "Krause's 7-factor data biography framework for source evaluation"
+    },
+    {
+      "extract": "Just because two things happen together, you cannot prove that they are related. During the first few months of the Covid-19 pandemic, there was a strong positive correlation between the wealth of a country and the number of deaths from the virus. The reason wasn't that wealthy countries were worse at fighting the virus---it was that wealthy countries were better at diagnosing people with the virus and collecting data on it. Normally to establish causation you need to be able to control various factors (called variables), and typically journalists cannot do that.",
+      "chapter": "Correlation is not causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "confounding variables",
+        "statistical literacy"
+      ],
+      "notes": "Journalists typically cannot control variables needed to establish causation"
+    },
+    {
+      "extract": "There are actually three different types of average: the mean is what you get when you add up all values and divide by the number of people. But mean averages can be misleading: an average wage might be skewed by a few very big earners at the top. The median is a much better average when dealing with man-made figures: this is the mid-point at which half of values are higher and half are lower. Finally, there is the mode: the most commonly occurring value. If you are in any doubt about your figures, you should double-check your findings wherever possible with statisticians in the field you're covering.",
+      "chapter": "Correlation is not causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "mean",
+        "median",
+        "mode",
+        "statistical literacy",
+        "averages"
+      ],
+      "notes": "Median preferred over mean for skewed distributions; verify with statisticians"
+    },
+    {
+      "extract": "Margin of error indicates how accurate the data is: if someone says that the number of people unemployed in your town is 14,000 but the margin of error is plus/minus 2000, then the real figure could be anywhere from 12,000 to 16,000. Most data is based on samples: the larger the sample, the more accurate the results are going to be when generalised to the wider population. But it is still generalising, and that introduces room for error. In fact, even the margin of error is typically only the range within which the survey is expected to be right 19 times out of 20.",
+      "chapter": "Correlation is not causation",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "margin of error",
+        "confidence interval",
+        "sampling",
+        "statistical literacy"
+      ],
+      "notes": "Margin of error only 95% confidence; sample-based data always involves generalization"
+    },
+    {
+      "extract": "To merge data, the two datasets you wish to combine will need a common field---a column of data that they both share. If you have a choice, codes are generally better for matching than names. This is because names may be written differently in different datasets: a police force that might be referred to as Avon and Somerset in one could be called Avon and Somerset in the other. That slight difference will be enough to stop you from getting a match for that particular row.",
+      "chapter": "Combining data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data merging",
+        "join keys",
+        "VLOOKUP",
+        "data matching",
+        "codes vs names"
+      ],
+      "notes": "Prefer codes over names as join keys to avoid matching failures from spelling variations"
+    },
+    {
+      "extract": "The key thing when writing up a data story is to try to make the numbers relevant and meaningful---especially if they are big numbers. A story about parking charges generating 3.9 million for hospitals did not lead on that large but abstract figure---it ran under the headline Nurses charged almost 200 a month just to park their cars at work. And when the Evening Standard wrote about attacks by prisoners on wardens, they led on the five attacks every day rather than the 4000 attacks in the previous two years. Big numbers without context can be misleading.",
+      "chapter": "Narrating: Writing a story that uses data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "writing",
+        "humanizing numbers",
+        "relevance",
+        "framing"
+      ],
+      "notes": "Translate abstract big numbers into relatable everyday measures"
+    },
+    {
+      "extract": "A good data story should also have more than just numbers. You should seek out quotes too: if it affects real people, it is important to hear about their experiences so the reader can understand why the figures matter. If it needs explaining further or contextualising, seek out experts to interview. If the story is critical or negative, you should seek a response to the figures from the organisations responsible. A spokesperson might suggest a mistake has been made in the calculations---but do not take their word for it! Check your calculations and consult an expert if you are not sure.",
+      "chapter": "Narrating: Writing a story that uses data",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "right of reply",
+        "expert quotes",
+        "verification",
+        "story structure"
+      ],
+      "notes": "Data stories need human voices and right-of-reply; never trust spokesperson rebuttals unchecked"
+    },
+    {
+      "extract": "Many good data stories do not start with numbers---they start with people or, in the jargon of the newsroom, a case study. If your reporting leads you to victims of a particular issue, and their stories are compelling, then be prepared to put the data into the background and focus on them. Strong case studies can bring a data story to life in a way that the numbers will not. In short, the case study tells us why we should care, then the data tells us why this matters.",
+      "chapter": "Humanising: Finding case studies",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "case studies",
+        "humanizing",
+        "narrative structure",
+        "empathy"
+      ],
+      "notes": "Case study = why we care; data = why it matters"
+    },
+    {
+      "extract": "Personalisation is the process of making a story more personal to a reader by helping them to find the aspect of it that relates to them. There are ethical considerations in using personalisation: one of the roles that journalism plays in society is to form bridges between communities and help readers to be aware of the issues affecting communities other than our own. Without personalisation, some audiences may not read about the issue at all; but inviting a user to find out the impact on their own area also has the potential to keep them ignorant of how that issue affects others. Any use of personalisation should attempt to ensure that the resulting story still puts the personal dimension into a bigger context.",
+      "chapter": "Personalised data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "personalisation",
+        "ethics",
+        "audience engagement",
+        "context",
+        "community"
+      ],
+      "notes": "Tension: personalisation drives engagement but risks parochialism; must contextualize"
+    },
+    {
+      "extract": "Broadly speaking there are two typical reasons for visualising data: To find a story (or allow readers to find them) and To tell a story. The key to successful data visualisation is to be clear about what sort of story you are trying to tell: opting for fancy impressive chart types is pointless if the charts do not actually work. Broadly speaking there are four types of stories you may want to tell with charts: Stories about composition, Stories about comparison, Stories about relationships, And stories about distribution.",
+      "chapter": "Data visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data visualization",
+        "chart selection",
+        "story types",
+        "composition",
+        "comparison",
+        "distribution"
+      ],
+      "notes": "Four visualization story types: composition, comparison, relationship, distribution"
+    },
+    {
+      "extract": "In some cases, your visualisation may not be trying to tell a story, but instead helping the user to find their own story in the data. This type of chart is known as exploratory visualisation (as opposed to explanatory). The general principle when designing such visualisations is sometimes known as the Visual Information Seeking Mantra: Overview first, filter, then zoom (Schneiderman 1996), meaning that a good exploratory visualisation should provide an overview of the whole to begin with, but then the facility for a user to filter and zoom in to a particular point, which then reveals more details.",
+      "chapter": "Exploratory data visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "exploratory visualization",
+        "explanatory visualization",
+        "Schneiderman mantra",
+        "overview-filter-zoom"
+      ],
+      "notes": "Exploratory vs explanatory distinction; Schneiderman mantra as design principle"
+    },
+    {
+      "extract": "Double source data wherever possible---even the UN and WorldBank can make mistakes. Take information out---stories are about clear threads with extraneous information fuzzed out. Journalism is about telling stories. You can only truly do that when you mask out the irrelevant or minor data. Avoid standard abstract units---tons of carbon, billions of dollars---try to rework or process units down to everyday measures. All graphs, charts, and infographics should be self-sufficient: each should have a clear title, legend, source, labels. Show your workings---Google Drive makes it incredibly easy to share your data and thought processes with readers.",
+      "chapter": "Exploratory data visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "McCandless tips",
+        "double-sourcing",
+        "simplification",
+        "transparency",
+        "self-sufficiency"
+      ],
+      "notes": "David McCandless: 5 tips including double-source, simplify, everyday units, self-sufficiency, show workings"
+    },
+    {
+      "extract": "Just because you have some geographical data does not mean you should map it. Maps are designed for a purpose. They tell particular types of stories well---but not all of them. If the story is not about the visible distribution or clustering of those points, but about comparison or composition, you are probably better using a bar chart or a pie chart. A map can actually give a misleading impression of comparison due to varying population density: a large area with fewer people will take up more space on your map, and be easier to see, than a smaller area with more people.",
+      "chapter": "Maps",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "maps",
+        "chart selection",
+        "population density",
+        "misleading visualization"
+      ],
+      "notes": "Maps mislead when area size does not correlate with population; use only for distribution/clustering stories"
+    },
+    {
+      "extract": "The journalist must also consider whether to exclude any data points from the chart---or put another way, which elements to focus on---for the purposes of clarity. A bar chart with 100 bars, or a pie chart with 75 slices, is not going to be easy for someone to understand. Filter and simplify the data to deliver the essence of the data to your intended audience. It makes a distinction between the research stage when the journalist is gathering more data to conduct more in-depth analysis and the edit phase when it is important to assess whether all your extra information buries the main point of the story or enhances it.",
+      "chapter": "Elements of visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data filtering",
+        "simplification",
+        "chart editing",
+        "clarity",
+        "research vs edit phase"
+      ],
+      "notes": "WSJ Guide: distinguish research phase (gather all) from edit phase (simplify to essence)"
+    },
+    {
+      "extract": "Instead of having a rainbow of colours for data points, choose one eye-catching colour for your story element (the column, line, or slice that your story focuses on) and a less striking colour for all the other points. The reader's eye will naturally go to the red---the point of contrast---which is the point of the story. Before choosing a colour consider any meanings that colour may have: red can signify danger and negativity for Western audiences. Remember that colour's interpretations are culturally specific.",
+      "chapter": "Tips on using colour effectively",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "colour",
+        "contrast",
+        "cultural sensitivity",
+        "chart design",
+        "accessibility"
+      ],
+      "notes": "Use color for contrast not decoration; one highlight color plus neutral; consider cultural color meanings"
+    },
+    {
+      "extract": "Start with the title: instead of writing a title that merely labels the data, write the title as you would a headline, telling us a story. Instead of Price of chocolate bars 2000-2020, write Chocolate bars double in price in 20 years. If it is an exploratory chart or map, use the title to invite the reader to explore. The footer is important: it is the place where you should indicate the source of the data, the time period covered, and what aspect of the data you focused on if you needed to leave data out.",
+      "chapter": "Tips on editing chart and map text",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "chart titles",
+        "headlines",
+        "source attribution",
+        "footer",
+        "labeling"
+      ],
+      "notes": "Chart title = headline that tells the story; footer for source, scope, caveats"
+    },
+    {
+      "extract": "Data journalists are increasingly using annotations to create a narrative across their visualisations: a simple line chart can be given a beginning, middle, and end by adding an annotation to peaks and troughs explaining what was happening at each point to cause those; a scatterplot might be made more inviting by labelling a few of the most newsworthy points. Most chart tools provide accessibility options including alternative descriptions: make sure you create one.",
+      "chapter": "Tips on editing chart and map text",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "annotations",
+        "narrative",
+        "accessibility",
+        "alt text",
+        "chart design"
+      ],
+      "notes": "Annotations create narrative arc on charts; always add alt text for accessibility"
+    },
+    {
+      "extract": "With bar charts, the y-axis should always have a baseline of zero: charts that start from other points can be misleading because they make differences between amounts look more pronounced than they actually are. Line charts do not have to start from zero---but starting a line chart from zero can be as misleading as not starting a bar chart from zero: showing changes in global temperatures on a zero-based scale can make those changes look minimal. Instead, try to pick a point that is meaningful and relevant.",
+      "chapter": "Choosing the right scales",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "y-axis baseline",
+        "scale selection",
+        "misleading charts",
+        "bar charts",
+        "line charts"
+      ],
+      "notes": "Bar charts: always zero baseline. Line charts: choose meaningful baseline; zero can also mislead."
+    },
+    {
+      "extract": "With time-based axes, consider if the timescale is an appropriate one: sometimes organisations will choose a timescale that starts from a high or a low in order to make change look worse than it is. Decide in advance what your timescale is going to be, based on what data is available: five years---sometimes ten years---is quite common to get a long-term view; three years is sometimes chosen to focus on more recent developments. You might choose a timescale that relates to the story being focused on: a period covering two different governments being in power, for example.",
+      "chapter": "Choosing the right scales",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "timescale",
+        "x-axis",
+        "cherry-picking",
+        "temporal scope"
+      ],
+      "notes": "Cherry-picked timescales distort; choose scale that matches editorial purpose transparently"
+    },
+    {
+      "extract": "Fancy 3D effects are considered bad practice in data circles. This is because they add extra visual information that distracts from the information being conveyed through the other dimensions of the chart. In fact, it can actually distort the chart by adding perspective that can make angles look narrower. Adding 3D is like adding overly long words to a news report: it might show off your skills---but it will make the story harder for a reader to understand.",
+      "chapter": "Three-dimensional effects and icons",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "3D effects",
+        "chart distortion",
+        "visual noise",
+        "best practices"
+      ],
+      "notes": "3D effects distort perception of chart values; avoid"
+    },
+    {
+      "extract": "The best data visualisation does not just present data---it presents a narrative by using sequence to create a form of movement. These formats often adopt a narrative structure similar to Schneiderman's Information Seeking Mantra, Overview first, filter, then zoom: starting with a chart that shows the bigger picture and then following that with charts that drill down to specific aspects, highlighting or presenting key figures separately. A second common approach is to tour multiple sources of data instead of different facets of a single dataset. This more episodic structure provides a wider, more varied picture of an issue, sacrificing depth in order to achieve greater breadth.",
+      "chapter": "Sequence in visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "narrative sequence",
+        "overview-filter-zoom",
+        "drill-down",
+        "episodic structure"
+      ],
+      "notes": "Two narrative structures: drill-down (single dataset) vs episodic tour (multiple datasets)"
+    },
+    {
+      "extract": "Infographics not only use charts and maps but also other graphical and typographical elements such as quotes, photos, and individual numbers in big type. The skill is to combine these using principles of contrast, repetition, alignment, and proximity (sometimes called the CRAP rule): Contrast---pick your most important element and make it much bigger than all the other elements. Repetition---try to make the other smaller elements the same size as each other. Alignment---align different elements with each other. Proximity---do not leave large gaps between elements.",
+      "chapter": "Infographics",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "infographics",
+        "CRAP rule",
+        "layout",
+        "contrast",
+        "alignment",
+        "visual hierarchy"
+      ],
+      "notes": "CRAP design principles for infographic layout: Contrast, Repetition, Alignment, Proximity"
+    },
+    {
+      "extract": "The key with the scrollytell is to ensure that the story and the map or chart work in tandem, both focusing on the same element at the same time, with the scrolling action helping to trigger a transition in the chart that helps the reader focus on the relevant data points. But do not use the scrollytelling format unless there is a good reason for it: if there is not enough detail in the chart to warrant this animation, use a simpler and less time-consuming format instead.",
+      "chapter": "Scrollytelling techniques in data journalism",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scrollytelling",
+        "animation",
+        "text-visual alignment",
+        "format selection"
+      ],
+      "notes": "Scrollytelling requires text-visual synchronization; only use when data complexity warrants it"
+    },
+    {
+      "extract": "Animation can be used to explain the visuals that the person is seeing by slowing or breaking them down for easier comprehension. The data documentary US Gun Killings In 2018, for example, animates a curved line for each person killed---but the first line is animated slowly, slowing and pausing at the point that the person was killed, in order to help the audience understand what is being shown. And animation can be used to convey uncertainty in the figures being communicated: the New York Times famously used a gauge with a jiggling needle to indicate the predicted gap between votes---the animation was designed to convey that the figures were uncertain, rather than fixed.",
+      "chapter": "Animation in visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "animation",
+        "uncertainty",
+        "pacing",
+        "comprehension",
+        "visual storytelling"
+      ],
+      "notes": "Animation for: pacing comprehension, conveying uncertainty, showing scale"
+    },
+    {
+      "extract": "Polls conducted via social media cannot tell you, or your audience, anything about the population as a whole---or even the readership of your publication. Research on online polls has found that women are less likely to participate, while polls can be hijacked by people who do not normally read your publication or can be artificially manipulated. It is important to ensure that readers understand the limitations of polls too: if 90 percent of respondents said they agreed with something, you must not report that 90 percent of people agreed with it.",
+      "chapter": "Technologies of interactivity: Polls",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "online polls",
+        "representativeness",
+        "manipulation",
+        "statistical literacy"
+      ],
+      "notes": "Online polls are non-representative and gameable; never generalize results to population"
+    },
+    {
+      "extract": "To be reactive, you need to be regularly checking new sources of data, whether that is government data releases, company reports, or press releases. To be proactive, you need to be curious about the world around you, and issues that are already in the news. Identifying forthcoming data releases (most are public) is a good way to get started with simple data journalism techniques.",
+      "chapter": "Coming up with ideas for data-driven journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "monitoring",
+        "data releases",
+        "proactive journalism",
+        "story generation"
+      ],
+      "notes": "Systematic monitoring of data release calendars as story generation practice"
+    },
+    {
+      "extract": "Needle in the haystack stories involve using datasets to find individual instances of behaviour that may be suspicious or unethical---in other words, a story lead. Often you are already interested in a particular organisation or individual and want to see what you can find out about their activities: there may be an unusual payment buried in the data or a pattern of behaviour that raises questions. The data provides the jumping-off point, and the authority, to begin asking questions---or to identify the key people, places, or companies that you need to start talking to.",
+      "chapter": "Eight types of stories you can tell",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "needle in haystack",
+        "anomaly detection",
+        "investigation",
+        "leads"
+      ],
+      "notes": "Data as lead-generation tool: find anomalies, then report traditionally"
+    },
+    {
+      "extract": "Even simple changes to your data can make a big difference. Spreadsheet software assumes that your headings are in your first row: deleting unnecessary rows before those headings, and making sure the headings only fill one row, can help with analysis. Likewise, Excel will assume any empty row is the end of one table and will only sort, filter, or calculate up to that point. Removing empty rows solves that problem.",
+      "chapter": "Cleaning data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "spreadsheet structure",
+        "headers",
+        "empty rows",
+        "Excel behavior"
+      ],
+      "notes": "Excel-specific structural cleaning: single header row, no empty rows"
+    },
+    {
+      "extract": "Once you have the main story, you can always do further work on the data to provide other details that give context to that: you might lead on the fact that one particular school has a lot of police callouts, but also find out if callouts across all schools have gone up or down in order to mention that later on in the piece. You might also choose to explore more easily answered questions first in order to hit a tighter deadline, only tackling more challenging ones if you have the time.",
+      "chapter": "Questioning data",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "story structure",
+        "context",
+        "deadline management",
+        "prioritization"
+      ],
+      "notes": "Lead with main finding, then contextualize; triage analysis by deadline pressure"
+    },
+    {
+      "extract": "Many of my stories---and I think the best---have not started with the data but with an idea, a hypothesis, a question, a curiosity, a similar story that I have read, a different angle for a story, an academic paper, a blog post from an activist, a chat with colleagues. I do not think these ways of coming up with data story ideas differ much from traditional story ideas. The data comes later when solving the questions or approaching the story from a data perspective.",
+      "chapter": "Combining data",
+      "pipeline_step": "Define",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "story generation",
+        "hypothesis",
+        "curiosity",
+        "data as method not starting point"
+      ],
+      "notes": "Carmen Aguilar Garcia: data is a method applied to questions, not the origin of questions"
+    },
+    {
+      "extract": "To map points, you will need as precise a description of locations as possible. Ideally, this should be a latitude and longitude---but if you have postcodes or zip codes you can find tools online that will convert those into latitude and longitude references, a process called geocoding. Bear in mind that these will not be exact, and you may need to clarify that they are only indicative of the general location. Beware of place names that also exist elsewhere: there is a Cambridge, Massachusetts, as well as a Cambridge, England. You may need to check the results and clean up the data to correct any places that have been incorrectly converted.",
+      "chapter": "Mapping points and heatmaps",
+      "pipeline_step": "Present",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "geocoding",
+        "mapping",
+        "data quality",
+        "disambiguation",
+        "location data"
+      ],
+      "notes": "Geocoding introduces errors: ambiguous place names, approximate coordinates need verification"
+    },
+    {
+      "extract": "Pie charts represent a particular challenge: as well as being the most commonly used chart, they are also the most commonly misused. Comparing the slices of a pie chart is much harder than comparing different columns in a column chart, so if you do use a pie chart stick to five or fewer slices by focusing on the top five, or grouping together the rest into a separate category.",
+      "chapter": "Elements of visualisation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pie charts",
+        "chart misuse",
+        "simplification",
+        "best practices"
+      ],
+      "notes": "Limit pie charts to 5 or fewer slices; column charts often better for comparison"
+    },
+    {
+      "extract": "If you are working on campaigning journalism you might use data journalism techniques to build tools that empower readers to make informed decisions, find others with shared experiences, or hold power to account. Once the reader has found out how their local school is affected by budget cuts, you might provide a tool for them to email their local politician about it or find online groups campaigning for that school. You might build a tool that allows them to add to a shared dataset, send a Freedom of Information request for information, or categorise hundreds of documents.",
+      "chapter": "Using data journalism to create tools for audiences",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tools for audiences",
+        "empowerment",
+        "crowdsourcing",
+        "campaigning",
+        "accountability"
+      ],
+      "notes": "Data journalism tools as civic infrastructure: empower reader action beyond consumption"
+    },
+    {
+      "extract": "For most journalists, an API can be hard work. If you come across an API while looking for data, see if there is an option to get all the data in a bulk download. If you cannot get that, look for a documentation page that explains how you can query the API for different bits of data and specify the format you get it in. In practical terms, querying an API means generating a URL: when you visit that URL, it will provide the data in a file, often in a format called JSON. JSON looks intimidating but you can convert it into a more traditional spreadsheet by using a free converter.",
+      "chapter": "Live data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "APIs",
+        "JSON",
+        "bulk download",
+        "data formats",
+        "data acquisition"
+      ],
+      "notes": "Prefer bulk download over API; JSON can be converted to CSV"
+    },
+    {
+      "extract": "Because of the wide variety of skills involved, data journalism often involves collaboration. Look out for mailing lists and meetups where you can ask questions and share your work with others who might be able to build on it. Designers or developers might be interested in creating things with the data you have found, or you might be able to find data collected by others that you can work with.",
+      "chapter": "Summary",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "community",
+        "skill sharing",
+        "interdisciplinary"
+      ],
+      "notes": "Data journalism as inherently collaborative; leverage community resources"
+    }
+  ]
+}

@@ -1,0 +1,2571 @@
+<!-- chunk: 1/1 | source: 97d-nicar-2018.md | words: 16681 -->
+<!-- headings: NICAR 2018 Tipsheets & Session Notes; nicar18-notes/01-01-reproducible-data-analysis.md; How and why to make your data analysis reproducible; Description; Notes; What is Data Reproducibility?; What is an ETL Process?; How does ETL process guide data exploration; What can't be automated and how do you deal with that?; Example of when reproducibility was valuable:; Favorite tasks to replicate:; Hardest task to replicate:; Good entry point:; Questions:; Reproducing your data when it's meant to be live; Testing?; How to use on a team?; Dealing with uncertainty of when something might be a story; Speakers; nicar18-notes/01-02-education-civil-rights-data.md -->
+
+# NICAR 2018 Tipsheets & Session Notes
+
+
+## nicar18-notes/01-01-reproducible-data-analysis.md
+
+# How and why to make your data analysis reproducible
+
+**Tipsheet: [bitly.com/reproducible-data](http://www.bitly.com/reproducible-data)**
+
+* [Ryann Grochowski Jones](https://twitter.com/ryanngro)
+* [Hannah Recht](https://twitter.com/hannah_recht)
+* [Jeremy Singer-Vine](https://twitter.com/JSVine)
+* [Hannah Cushman](https://twitter.com/hancush)
+
+##### Description
+
+You understand how you processed your data. Does your editor? Your reader? You, in six months? Without a replicable approach to extracting, transforming and loading data, we are often frustrated in our efforts to share or update our work. Join us for a panel discussion of reproducible data workflows. We’ll talk about why we use standardized processes for collecting, cleaning and analyzing data, and share practices that work for us. We’ll also discuss strategies for smart human intervention (i.e. reporting, logging and documentation) in automated workflows.
+
+## Notes
+
+### What is Data Reproducibility?
+
+**Hannah Recht (HR):** "Whatever you're doing, someone else could reproduce it" whether that's getting the data, analysis, visualization or the story. If you're coding, you run your code and get the same thing every time. Good if you decide to change course halfway through or revisit your data later on.
+
+**Hannah Cushman (HC):** Doesn't necessarily mean fully automated. Even if one part is reproducible, it still makes it easier.
+
+**Jeremy Singer-Vine (JSV):** Inputs and outputs. Inputs should yield the same outputs. "What could I delete from my computer, hit one button and have it regenerate completely?" Reproducibility vs. transparency.
+
+### What is an ETL Process?
+
+**HC:** Extract-transform-load. Extract = get the raw data. Transform = Doing stuff. Load = Publish or load data into news app.
+
+Principles:
+
+* Source data is lava. We don't touch it.
+* Process is deterministic: You'll always get the same thing.
+* Standard tool kit, standard process. We're all speaking the same language.
+* Version control
+* Kind code. Kind code is easier to read and understand for you and others.
+
+**JSV:** Series of assumptions and inputs, series of outputs. Could be lots of things — lots of data types. Be explicit about what the findings are. Uses Make (DataMade does too). Goal: One command that deletes all your outputs and runs all your code to reproduce the outputs.
+
+**HR:** Start thinking about reproducibility. First line of script is "Download file". Documenting decisions and processes. 
+
+### How does ETL process guide data exploration
+
+**HC:** Have an auditable trail of things you did to your data. "Freedom to forget". Helpful if your code gives you "sharable artifacts" to help editors, reporters, etc. even if it's not for publication.
+
+**JSV:** Radiating circle: Do it for myself, future self, collaborators, editors, for the public. Also adds accountability. All the other parts are for practicle reasons, making it public is more about the principle.
+
+### What can't be automated and how do you deal with that?
+
+**HC:** Reporting can't be automated. "There's no computer script in the world that can impart meaning on this subjective subject that someone else made."
+
+**HR:** Building your own datasets. Gathering the data sometimes can't be; once you've gathered it, it can.
+
+**JSV:** Anything manual should be part of the input. If there's a part in the middle you can't automate, think of it as two smaller reproducible projects with a step in the middle.
+
+### Example of when reproducibility was valuable:
+
+**HC:** Gives you street cred. Helps you explain things more intelligently to other folks in the newsroom.
+
+**HR:** Saves a lot of work; Factfinder and punching a button hundreds of times or automating it.
+
+**JSV:** Hurricane Harvey-related industrial emissions. New data coming in all the time, wanted to make sure they had the most updated data. Human judgment: Records to ignore — science reporter identified things that had nothing to do with the hurricane.
+
+### Favorite tasks to replicate:
+
+**HC:** SQL queries.
+
+**HR:** Standardizing county names and joining them to FIPS codes.
+
+**JSV:** Everything. Command to re-run all jupyter notebooks and export the output.
+
+### Hardest task to replicate:
+
+**HC:** Chicago lead analysis. Lots of data in PDFs in different formats.
+
+**HR:** Horrible data formats.
+
+**JSV:** Time. Some things take a very long time to run. Figure skating analysis, one cell could take 4-8 hours.
+
+### Good entry point:
+
+**HC:** Take something you've already written and make it reproducible.
+
+**HR:** Take code that's "sort of reproducible" and make it reproducible. More of a mindset rather than a technical skillset.
+
+**JSV:** Write a methodology. "The art of explaining".
+
+## Questions:
+
+### Reproducing your data when it's meant to be live
+
+**HC:** Build in a checking step. Notifies if something is wrong and doesn't push new data to production.
+
+### Testing?
+
+**HR:** Definitely want to test throughout the process. Create logs.
+
+**Ryann Grochowski Jones (RGJ):** System that gives you alerts when stuff doesn't look the way it should. Airflow ETL system.
+
+### How to use on a team?
+
+**HC:** Lots of documentation. Tutorials.
+
+**JSV:** Have some flexibility so it's fun.
+
+**RGJ:** Trainings. Show reporters why it matters.
+
+### Dealing with uncertainty of when something might be a story
+
+**HR:** Do the basic stuff from the beginning, can add later. Assume that at some point it might go somewhere.
+
+
+##### Speakers
+
+Ryann Grochowski Jones is the deputy editor for data at ProPublica. Previously, she was a data reporter at ProPublica and at Investigative Newsource in San Diego, California. She received her master’s degree from the University of Missouri School of Journalism, where she was a data librarian for IRE/NICAR. Ryann began her career as a municipal beat reporter for her hometown newspaper in Wilkes-Barre, Pennsylvania. [@ryanngro](https://twitter.com/ryanngro)
+
+Hannah Recht is a data journalist at Bloomberg News. She likes scraping obscure insurance filings and wrote an R package that accesses Census data. She previously worked at the Urban Institute as a researcher and data visualization developer. [@hannah_recht](https://twitter.com/hannah_recht)
+
+Jeremy Singer-Vine is the data editor at BuzzFeed News. He also publishes Data Is Plural, a weekly newsletter of useful/curious datasets. [www.jsvine.com](https://www.jsvine.com/)
+
+Hannah Cushman is a journalist turned hacker for public good. She arrived at DataMade, a civic technology company in Chicago, by way of The Associated Press. She believes in open information, empathy, and Dark Matter coffee. [@hancush](https://twitter.com/hancush)
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3532/)*
+
+## nicar18-notes/01-02-education-civil-rights-data.md
+
+# Education civil rights data: The good, the bad, the dirty (Diversity Track)
+
+[Slides](https://docs.google.com/presentation/d/15PJ9R-L3Qljh6zV6be0r3gJCU6hXIQeAUi9qvmI7O30/edit#slide=id.p)
+
+* Jennifer LaFleur
+* Alex Harwin
+* Kameel Stanley
+
+##### Description
+
+Panelists with a range of expertise will discuss the federal civil rights dataset, how to make the most of it and avoid the pitfalls. We also will talk about how to use state data to tell stories about disparities in schools. This session will provide lots of story ideas, so come with questions!
+
+## Notes
+
+### Alex Harwin
+
+Data available for every school. What can you get from it? Special ed, arrests at schools, corporal punishment, teacher absences.
+
+Data is messy but powerful. Impact: RI Govornor, White House Brief, other local and state level results.
+
+How do you work with it? Look up comparisons at school and district level. Larger analyses are more complicated and require feedback loops and teamwork.
+
+**Jennifer LaFleur (JLF):** Vetting, spot-checking this data is very important.
+
+### Kameel
+
+Working on [We Live Here](http://www.welivehere.show/). Tim Lloyd started the process by getting the data from DESE.
+
+"When white kids act out they get kicked out of class, but the black kids get kicked out of school." Nut graf.
+
+Johnny — 7 years old, out of school for 38 days in 1 year.
+
+Data we got: Narrowed in on K-3 suspensions. Big difference between in-school suspensions (mostly given to white kids), out-of-school (mostly given to black students).
+
+DIY data: surveys of resources, counselors, bias trainings.
+
+Lessons: It had an impact. SLPS banned OSS for K-2, 20 other districts pledged to reduce or ban them. Different media, different approach: We created a database for people to look up their district.
+
+
+### Tips
+
+Where to get the data: Office for Civil Rights, NCES, state departments of education
+
+Watch for data entry errors, look for impossible data, check against other datasets, verify with schools/districts if possible.
+
+New data points are coming out.
+
+## Questions
+
+### How can this data effect change?
+
+**Kameel Stanley (KS):** Data may not be the best way to effect change, but it can make some people pay attention.
+
+##### Speakers
+
+Jennifer LaFleur is data editor at The Investigative Reporting Workshop and teaches at American University.  She previously was a senior editor at Reveal/CIR, data editor at ProPublica, The Dallas Morning News, the San Jose Mercury News and the St. Louis Post-Dispatch. She was NICAR's founding training director and has won awards for her coverage of disability, legal and open government issues. 
+
+Alex Harwin is a quantitative research analyst for the Education Week Research Center. She works on a wide variety of projects, from marquee annual reports such as Quality Counts to data-driven reporting in collaboration with the Education Week newsroom. She received her education at Stanford, and UT with degrees in Sociology and policy analysis. Areas of Focus: Policy analysis, government data analysis, and research communication.
+
+Kameel Stanley produces and co-hosts We Live Here, an award-winning podcast about race and class from St. Louis Public Radio and PRX. Previously, Kameel worked at the Tampa Bay Times, where she investigated racial disparities in policing and government. In her spare time these days, she runs a storytelling organization in St. Louis and a brunch club for women of color. She’s a Michigan native, a dog owner, a yogi and spaghetti enthusiast. [@cornandpotatoes](https://twitter.com/cornandpotatoes)
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3585/)*
+
+## nicar18-notes/01-04-cross-functional-teams.md
+
+# Building happy cross-functional teams
+
+* Becca Aaronson
+* Joe Germuska
+* Emily Ingram
+
+##### Summary
+
+As more newsrooms adopt a product mindset, the culture clash between traditional editorial workflows and Agile development processes often comes to a head. Learn how tech-forward newsrooms are building cross-functional teams and the lessons they've learned along the way.
+
+## Notes
+
+**Joe Germuska (JG):** Attitude used to be "Think of them as the photo desk." But as technology has progressed, you can't wait until the end. Everybody has to feel like an equal player.
+
+**Becca Aaronson (BA):** Everybody has different roles but you have to work together toward a common goal. How do we work efficiently but also collaboratively without stepping on each other's toes or running afoul of ethics issues?
+
+**JG:** Recognize it's uncharted territory and no one knows exactly where we're going.
+
+### Common conflicts, communication issues and cultural issues that arise.
+
+**JG:** Software development mindset, strong specifications, does the code pass tests? Book: Difficult Conversations.
+
+**BA:** Empathy is important. I may be making their job more difficult.
+
+**JG:** Hard to build that on a service desk type environment.
+
+### How to build trust?
+
+**JG:** "Trench Warfare" helps. Consistent team routine. T-shirt: "Scrum Lunch Coffee". Not everyone has the bandwidth for that though. Make sure that people get together regularly. "Good occasions to get together that aren't about the work." The satisfaction of finishing something.
+
+**BA:** Doing something where you communicate with someone outside your circle is work. 
+
+**JG:** Post-mortems after a project, not a blame game.
+
+**BA:** Good/Bad things. Recently added a "thankful" section.
+
+## Questions
+
+### Working with business side, marketing, etc.?
+
+**BA:** Less of a clear divide. We all want to engage with the audience.
+
+### Dealing with stepping on each others' toes?
+
+**JG:** Looking at motivations, why are they doing that. Agree on principles. "These are our goals and our guiding principles."
+
+**BA:** Approach with empathy and figure out why is something frustrating to them. Figure out how task has value for them, or at least realize you asking a favor of them.
+
+Audience member: Conflict between shiny new thing and established code base. Have to compromise.
+
+**BA:** Help accommodate different teams. It all connects back to larger goals.
+
+### What questions should we ask of new managers?
+
+**BA:** How do you manage conflict?
+
+**JG:** Uncover their affinity for things we're talking about. Sometimes direct isn't best. Examples are good.
+
+**BA:** How do you define success?
+
+### Using markdown?
+
+**BA:** Figure out how much technical savvy you're going to require of people. Figure out what the actual problem you're trying to solve is.
+
+
+### Misc.
+
+**BA:** Learn how to speak each others' languages.
+
+### What to keep an eye out for when building a team?
+
+**BA:** Create a consistent relationship, not just one-time.
+
+**JG:** Or try it first before making a big committment, like a "ride-along".
+
+**BA:** A medical-school match program, picking top candidates and mentors.
+
+Audience member: Have reporters who miss their deadlines spend time on the copy desk.
+
+### Synchronizing vocab/methodogies of developers and editorial
+
+**BA:** Make your own language or find one that's in between. 
+
+**JG:** Play games/run a simulation together.
+
+### Editorial complaint that things are very rigid and formal
+
+**BA:** Word template, they can edit the questions if they want but they have to see the original one. Follow up in person.
+
+##### Speakers
+
+Becca Aaronson is the first-ever product manager at The Texas Tribune. She manages the Tribune’s website redesign, coordinates cross-departmental projects and conducts user research to improve reader experience. She previously worked on the Tribune’s Data Visuals team as a developer and project manager, contributing to several award-winning investigative projects. [@becca_aa](https://twitter.com/becca_aa)
+
+Joe is the Chief Nerd at Northwestern University Knight Lab, a community of designers, developers, students, and educators working on experiments designed to push journalism into new spaces. He's also the project lead for CensusReporter.org, and an alum of the Chicago Tribune News Applications team. Once a week he gets up before dawn to host "Conference of the Birds," an eclectic music radio show on WNUR-FM. Ask him for Chicago restaurant recommendations! [@JoeGermuska](https://twitter.com/JoeGermuska)
+
+Emily Ingram is lead product manager at Chartbeat, where she builds tools to help publishers understand the nuances of reader behavior. Previously, she was a senior product manager at HuffPost and the Washington Post, where she started her career as a producer in the newsroom.
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3539/Ï)*
+
+## nicar18-notes/01-05-investigating-hate.md
+
+# Investigating hate when the data isn’t there (Diversity Track)
+
+* Duaa Eldeib
+* Melissa Lewis
+* Ken Schwencke
+* Nadine Sebai
+
+##### Description 
+
+How can we report on victims of bias-motived crimes when half of them don’t report the crimes to police, and when they do, police frequently fail to mark them down as such? Come listen to how we’ve done it (or tried to).
+
+## Notes
+
+No reliable stats exist. FBI says around 6,000 per year. Bureau of Justice Statistics estimates up to 250,000.
+
+[Documenting Hate database by ProPublica](http://documentinghate.com)
+
+### Nadine
+
+AJ+ Documenting Hate partnership put out a form and callout video. Used the database to find individual tips to create multimedia stories. Needed stories powerful enough to be told on social media.
+
+### Duaa
+
+Compare local data to state data to federal data. Hate crime convictions — there's no centralized database.
+
+Drill down by location: college campuses, public transit.
+
+Tweeted she was covering hate crimes and got stories. FOIAed police department to confirm.
+
+Plea deals can drop hate crime charges.
+
+Don't have to wait to do huge all-encompassing story. Chip away at it.
+
+### Melissa
+
+Build a reputation to be someone to approach with the stories.
+
+The area isn't very racially diverse, which hinders reporting and recognition.
+
+### Ken
+
+Why America fails at collecting hate crime statistics.
+
+FBI's master files are fixed-width and the dictionary is a typed, scanned document from the 90s.
+
+Easy impact. Ask for records from local agency and see if they match up with FBI reports.
+
+"Does this mean you've had no hate crimes, or that you don't track hate crimes reported to you?"
+
+Ask how they handle hate crimes? Do they do hate crimes training? How do they handle racist graffiti — does it get marked as a hate crime?
+
+## Questions
+
+### Getting people to talk to you — "We saw this in the database, please talk to me"
+
+**NS:** Sometimes trolls submit to the form. Have to fact check. Real people worry about being doxxed. Engagement team monitored comments.
+
+**DE:** Fear. "Complaining witness not in court." "When they're contacted by a reporter, it's real."
+
+**ML:** People feel like it's not worth reporting because it's happened to them a lot, they don't want to rehash it.
+
+**DE:** Can't make them feel pressured. The power is in their hands.
+
+### Tips to help people open up.
+
+**DE:** Let them know you trust them. You're invested in this, not a story you'll check off your list and move on. Multiple interviews. Ask open ended questions. "Tell me in your words."
+
+### How can we tell stories of people not like us?
+
+**NS:** Understand your audience. Can collaborate with other newsrooms that have other audiences.
+
+**DE:** Look for some kind of connection.
+
+**ML:** How do you partner with with other orgs?
+
+Rachel (propublica): Play to your strengths. If two newsrooms are interested in the same thing, matchmaking.
+
+### How do you verify?
+
+**NS:** Sometimes you have to go with your gut if there's no other way. Witnesses, police reports, etc.
+
+**KS:** Police were skeptical. Talked to other members of LGBT community and they were skeptical. Tried to get court records.
+
+### Dealing with distrust of media
+
+**DE:** "But I'm here now, trying to tell this story."
+
+**NS:** When they're reporting it, it's not usually the first time it's happened. This gives people a platform to realize this isn't normal.
+
+### Outside of the US
+
+**KS:** Not part of Documenting Hate project. Familiarity with laws helps.
+
+### Other institutions you can benchmark reports against
+
+**KS:** ADL, SPLC, other similar groups. Unifying that data is hard. Universities. Dept. of Education.
+
+### LGBTQ incarceration and sexual assault while incarcerated; interview techniques to let people know you believe them but that you need more info
+
+**DE:** Repeat the story in different ways. "For my publication…"
+
+**NS:** Blame my editor for everything.
+
+**KS:** Make a timeline, ask chronologically.
+
+**ML:** ProPublica "Unbelievable Story of Rape" — reporter sent email, talked through lawyer first, no surprises. "You're always free to go." Only a couple people, minimal gear.
+
+Audience: If you're FOIAing lots of police agencies and they say they don't have data, find corroboration in the news and send it to them.
+
+##### Speakers
+
+Duaa Eldeib is an investigative reporter for ProPublica Illinois. Her work has examined the death of children in state care, the treatment of juveniles in adult court and police use of polygraphs in cases where suspects were wrongly convicted. She previously worked at the Chicago Tribune, where she and two colleagues were finalists for the Pulitzer Prize for Investigative Reporting in 2015. [@deldeib](https://twitter.com/deldeib)
+
+Melissa Lewis is the data editor and a developer at The Oregonian. She's a former software engineer and research scientist, and currently volunteers as an organizer for PyLadies Portland. She's an occasional technical reviewer for O'Reilly Media and contributor to The Recompiler. [@iff_or](https://twitter.com/iff_or)
+
+Ken Schwencke is a journalist and developer on ProPublica's news apps team, covering hate crimes and election administration. Previously, he worked on The New York Times’ interactive news team and the Los Angeles Times data desk. [@schwanksta](https://twitter.com/schwanksta)
+
+Nadine Sebai is a radio reporter in the S.F. Bay Area, working part-time at KQED News. In 2016, Nadine investigated a hepatitis C outbreak in Fremont, NE. The story won the SPJ Mark of Excellence Award and the Reva and David Logan Prize for Excellence in Investigative Reporting. In 2016, she was an Ida B. Wells fellow with the Investigative Fund. Prior to working in journalism, Nadine worked as an accountant and investigative analyst. [@NadineSebai](https://twitter.com/NadineSebai)
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3560/)*
+
+## nicar18-notes/01-06-self-managing-teams.md
+
+# Conversation: More bibles, fewer priests: Tools for running self-managing teams
+
+* Brian Boyer
+
+##### Description
+
+A lot of managers see themselves at the center of the team’s universe — the linchpin, making the decisions every day. And that’s a great way to burn out, stifle the growth of your teammates and totally avoid thinking about the important stuff, like the future. So, forget that! Let’s talk about the tools and techniques you can use to make yourself non-essential. (This session is also good for non-managers who have bosses that are making poor choices.)
+
+### Notes
+
+I don't want to be the single source of truth. I want to be able to go on vacation.
+
+We're not interchangeable but we need to be able to take a break.
+
+Having the opportunity to think about higher-level stuff. You can spend time planning.
+
+An exercise in self-control. Easiest to be the person who tells everybody else what to do.
+
+Roles, goals and rules.
+
+We have rules so we don't have to argue.
+
+#### Frameworks
+
+Daily scrum. Room: 5-30 minutes. Try keeping it to 5 minutes or less. Team of 50 can do it in less than 10.
+
+Set parameters for what you talk about: Yesterday, today, blockers and that's it. Be prepared for it.
+
+Slack channels can work. Sometimes followup is an issue.
+
+How much detail? Depends on context. Maybe have two if you've got a regular meeting and a significant project.
+
+If you have rules, you can call it out when someone is violating them. If you don't you just look like a jerk.
+
+Iteration review — weekly review. Like a scrum but with outside parties.
+
+Secrecy and investigations. Codenames. Multiple meetings.
+
+#### Roles
+
+"I don't know what my job is."
+
+Without a set of clearly defined roles, people step on each others' toes, ask why they weren't consulted. "You're allowed to have an opinion? I thought I was the boss of this." Job descriptions.
+
+Job descriptions might describe your job but they don't describe how people interact with each other.
+
+Responsibility matrix (RASCI). Across the top are people's names. Jobs down the side. What that person's responsibility is for that job at intersection.
+
+Responsible for != boss.
+
+A for Accountable. S for Support. C for Consulted. I for Informed.
+
+Relationships among your team but also between other teams.
+
+If you're not in agreement about who has a say about what, you've got problems.
+
+Create a sense of co-responsibility. Teams should feel responsible to each other. No one's too important to do QA.
+
+Don't want to be teams of divas.
+
+#### Issues
+
+People feel like process is extra. Stylebook metaphor might be helpful. How do you create rules where life is easier when you have them. e.g. Checklists. Implemented process and gotten buy-in because they can explain why the process is there. Get people on the same page about the problem first. Transparency and visualizations.
+
+Strategies for getting other managers on board for making room for these new processes. Luck with being very visible about it. Keep it short and keep it planned. Don't waste people's time. Be open about whys and whats. Treating process with a design eye. Keep a cadence. "Scrum Lunch Coffee".
+
+#### Retrospectives
+
+After a project or for a defined period of time. Catalogue everything.
+
+1. What went well.
+2. What didn't work. What was hard.
+3. What should we do differently next time?
+
+Write down on post-its for defined period (5 minutes).
+
+Come back to it later, pick a few of #3, talk about how you'd deal with it. That's what makes it actionable.
+
+How do you do it when you're distributed? Chat with a designated post-it writer. Mural app.
+
+"Yes, and" rule.
+
+#### Goals
+
+Pair praise and ask. Play to ego.
+
+"What are we trying to do as a group?" "What are we trying to do as a company?"
+
+OKRs: Objectives and Key Results. Objective: Let's build the best photo website for Chicago. Key Results: What is evidence that we did that? (views, revenue, etc. needs to be measurable)
+
+Look at the key results every week. What is our confidence we're going to hit it?
+
+Send it to other teams so they know what they're doing.
+
+Book: "Radical Focus"
+
+#### How do you find a good manager? How do you tell a good manager.
+
+Give them a project and ask them how they would've solved that problem.
+
+How do you know if you're good at managing? One on one conversations with your reports. Regularly and predictably. Find someone else on the same level to talk to.
+
+"Decided I was jazzed about catalyzing work instead of doing it." Service leadership. Do the work and help people do their jobs well.
+
+"Delegate everything that's fun."
+
+"Give the credit but take the blame."
+
+Bringing it to newsrooms?
+
+Breaking news checklist. Have to trust each other is doing their job. And that they know what their job is.
+
+Covert operation.
+
+Brown bags/show and tell.
+
+We hold our dysfunction close. The news is not different. It just doesn't value good management.
+
+##### Speakers
+
+Brian is the vice president of product and people at Spirited Media. Previously, he was the visuals editor at NPR, founded the news applications team at the Chicago Tribune, and was a happy intern at ProPublica. He was one of the first programmers to receive a Knight-funded scholarship to study journalism at Northwestern University. [@brianboyer](https://twitter.com/brianboyer)
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3686/)*
+
+## nicar18-notes/02-01-data-you-already-have.md
+
+# How to find reporting leads and publishable facts in text data you already have
+
+[Slides](http://www.bit.ly/nlp-car18) | [Examples](http://bit.ly/nlp-car18-examples)
+
+* Jeff Ernsthausen
+* Jeremy Merrill
+* Youyou Zhou
+
+##### Description
+
+Let's discuss some published projects that have extracted useful, newsy information from big piles of text data — so you can use similar techniques. We'll walk you through real-world examples of every step of the process: gathering text data, dividing it into chunks the computer can understand, analyzing it with fancy or simple techniques and the challenges you'll face in analyzing, bulletproofing and presenting what you find. This session isn't quite a hands-on, but the panelists will discuss the tools, practical techniques and tricks they used to transform giant piles of text into publishable insights and reporting leads. These techniques are often called "natural language processing," but we're going to keep it practical: no obscure mathematical formulas, guaranteed!
+
+## Notes
+
+What kinds of insights can you get? What sorts of text do you have (or can get)?
+
+### Example insights
+
+* Patterns across documents — which documents are most similar to documents you already know are interesting.
+* Outliers — What's distinctive about some documents compared to others
+* Extract meaning — topic/sentiment
+
+Example: Extract motivation and mentions of killer's race from 141 hours of TV coverage
+
+Example: Database of more than 100,000 disciplinary documents of doctor misconduct, model to tag them and statistically estimate liklihood.
+
+Example: Press releases of government representatives — similar to other legislators, distinctive topics, policy priorities.
+
+### Pipeline (How)
+
+1. Getting the data
+2. Dividing it up
+3. Analyzing
+4. Bulletproofing
+5. Presentation
+
+### 1. Getting data is harder than it sounds
+
+Some sources:
+
+* Readily available (Speeches, academics, libraries)
+* APIs
+* Scraping
+* Speech to text
+* FOIA
+
+### 2. Dividing it up
+
+* Cleaning
+	* OCR
+	* Filtering stuff out like documents in other languages
+	* Lowercasing, punctuation, stripping HTML, bylines, etc.
+* Tokenization (words -> columns)
+	* "this is not comprehensible to the computer" -> ["this", "is", "not", "comprehensible", "to", "the", "computer"]
+* Stemming/lemmatization & part-of-speech tagging
+* Remove stopwords and meaningless words
+
+DocumentCloud
+
+### 3. Analysis
+
+Counting words
+TFIDF (Term Frequency Inverse Document Frequency)
+Keyword
+Clustering
+Sentiment
+Vectorization
+
+Cleaning data and removing stop words = senator's most common words were his last name and "previous_article"
+
+Vectorization = give it lots of documents, it'll figure out which words appear in similar contexts
+
+Can ask analogies like "what is the Republican version of what the Democrats call an estate tax".
+
+### 4. Bulletproofing
+
+Bulletproofing doctor's harassment reports: Periodically check whether predictions were useful. Randomly select documents with low scores and read those. Be aware of whether you've unintentionally biased your algorithm. False negatives are ok, false positives are unacceptable.
+
+Beware of external factors: One stylebook requires "spokesperson", one requires "spokesman/spokeswoman".
+
+### 5. Presenting and visulization
+
+Bar charts, bubbles, heat maps. Small multiples. 
+
+No word clouds. (exception: Street name visualization)
+
+## Questions
+
+Story planning process: Incremental process.
+
+People start coming to you with every pile of text. Use the easiest tool that will get the job done (DocumentCloud).
+
+Initial loading step: figure out what you actually need from the data. When dealing with large amounts of data, just moving it around can take a long time. Paring it down can be helpful.
+
+What do you want to do with this next: JM - Integrate it into search engine (e.g. search for estate tax, also get stuff related to death tax). 
+
+##### Speakers
+
+Jeff Ernsthausen is a data reporter at the Atlanta Journal-Constitution. He previously interned at The Nation and Harper's Magazine.
+
+Jeremy is a news apps developer at ProPublica. He likes scraping data that's hard to get, maps and public records. He lives in Atlanta, Georgia. He works on a variety of open-source newsroom tools like Tabula, Stevedore and FOIA Lawya. 
+
+Youyou Zhou is a visual journalist at Quartz. She digs into data, writing stories, designing visuals and building interactives out of it. Youyou has a keen interest in the global transfer of knowledge and text data. She is a Mizzou alum and has previously built interactives and election apps for The Associated Press. [@zhoyoyo](https://twitter.com/zhoyoyo)
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3545/)*
+
+## nicar18-notes/02-02-evolving-live-coverage.md
+
+# Evolving forms and the future of live coverage
+
+[Slides](https://docs.google.com/presentation/d/1gQH5wycI20sj909AdSNjk1qUTpfWtT3n57mVpMBNWuw/)
+
+* Hamilton Boardman
+* Tiff Fehr
+* Tyler Fisher
+
+##### Description
+
+Breaking news formats have evolved and so have reader devices and preferences. Both The New York Times and The Guardian — through its Mobile Innovation Lab — have broadened their breaking news formats and experimented with new forms. In this session, we’ll review our current story forms and discuss the pros and cons, then share lessons from early experiments from the future of live coverage.
+
+## Notes
+
+Agenda:  Tour the classics, newer forms. Discuss the future. Intra-panel questions. Audience questions.
+
+Goals: Shared vocabulary. Learn spectrum of pros/cons per forms. Dispel myths. Ground new ideas with next steps.
+
+### Audience evolution, myths and realities
+
+Realities:
+
+* Shifting to mobile (except business junkies)
+* Rich native app UX expectations
+* Skimming, tl;dr
+
+Myths:
+
+* Folks are news junkies (newsroom folks are, but others aren't) "News is one of many" of the alerts on their screen. Also sub-topics in news like sports, entertainment, etc.
+* Drop-by traffic converts into long-term readers
+* Do we support late-comers? (We often lose the summary)
+
+**Hamilton Boardman (HB):** Survey found large number of latecomers would go to Wikipedia to get caught up
+
+### The classics
+
+Articles and liveblogs
+
+Articles are time-tested, but time-consuming. Familiar to readers and comprehensive. But tl;dr, have they already read this (or this update?) "mentally diffing". For reporters, well-known, cohesive but takes the time to write it and there are expectations about effort.
+
+Liveblogs are recent trend but attention-demanding. Learned expectations, up-to-date and feels urgent for readers, but hard to orient, oversaturation and things get buried quickly. For reporters, it's fast-paced and you can have varied depth, but you need to "feed the beast" and cohesiveness is hard.
+
+### Newer forms
+
+* Briefings
+* Chats
+* Chatbots
+* Notifications
+* Augmented
+* 'Smarticles'
+* Mobile-focused experiences
+
+##### Live chats
+
+Reverse-chron vs. forward-chron (chat).
+
+Pros: expert analysis and debate, cons: transcript of cable-news talking heads
+
+For readers: very up-to-date, second-screen experience, asked to join (sort of). Cons, tl;dr
+
+For reporters: brevity, second-screen banter, slack comfort (perhaps). But they need to feed the beast. Editing questions. Threading comments and having a "host" is tough.
+
+Politico's slack -> Live chat thing is open source. Can transform slack data into anything. 
+
+### Live briefing
+
+Removes sense of urgency from live-blog (feed-the-beast notion). "What's important right now"? Kind of like an article, but updated a lot. Ordered by importance rather than recency, but unlike an article it doesn't need to be a narrative.
+
+Good: Daily digest and big moments. Bad: can turn into a live blog.
+
+Doesn't demand consistent attention and helps readers catch up, but can be an ambiguously ordered collection of stuff.
+
+Writing is brief, but things still get buried and editors can struggle with it.
+
+### More new forms
+
+Data driven events: Sports, voting, awards shows
+
+### State of the Union — Politico
+
+Transcipt and annotations 
+
+Every annotation is in context. Transcription becomes a resource. But long events make for long transcripts, hard to keep track of new info.
+
+For tech side, it breaks down into components well and the data already exists. But getting structure from the google doc is hard and transcripts are messy
+
+### Notifications
+
+Re-think of what notifications should do. Instead of driving people to coverage, it is coverage.
+
+More engagement sometimes.
+
+But repeated alerts can be irritating. Can be cold and distance. Currently are low-fi, but improving.
+
+### Augmented podcasting
+
+Expand on player limitations, notifications per timestamp, audience on platform.
+
+### Smarticles and chatbots
+
+Expand on format limitations, notifications based on place in story, audience on platform. Sending incremental changes.
+
+## Questions
+
+**Tyler Fisher (TyF):** Live briefings writing style?
+
+**HB:** There's no tool. Might be helpful to have one. Often a bottleneck on the editor. "If you've got anthing, send it to us!"
+
+Me: Long-running but variations in urgency (like ferguson)
+
+**HB:** Daily briefings, good for daily but not catchup. People will still go to wikipedia
+
+Audience: Can and should be doing?
+
+**Tiff Fehr (TiF):** Think about audience, don't presume everyone wants to know.
+
+**HB:** Some apps let you dial up or down number of notifications. Let people set those preference easily.
+
+**TiF:** Be good stewards with people's expectations and attention.
+
+**TyF:** What about users who don't want to be a part of breaking news?
+
+Audience: Timing on notifications, browser notifications
+
+**HB:** Try to be aware of time of day as far as after 10 p.m. or before 6 a.m.
+
+**TiF:** Target different readerships; coasts, international. Browser notifications might be useful page-specific vs. site-specific. Very easy to opt-out and tied with privacy/security so it's hard to ask people to change it.
+
+
+##### Speakers
+
+Hamilton Boardman ([@nytham](https://twitter.com/nytham)) is a senior editor at The New York Times, currently serving as deputy Washington editor for digital. He has worked for nearly a decade on The Times's news desk as an editor on the digital home page and print front page and as a coordinator of live and breaking news coverage.
+
+Alastair is a developer at the Guardian Mobile Innovation Lab, where he experiments in new forms of news coverage on both the web and in native apps. [@\_alastair](https://twitter.com/_alastair)
+
+Tiff Fehr ([@tiffehr](https://twitter.com/tiffehr)) is an assistant editor on the Interactive Desk of The New York Times. She leads development on The Times' live coverage toolset and explores new ideas in breaking news storyforms with newsroom collaborators.
+
+Tyler is a news applications developer at POLITICO on its new interactives team. He previously worked as a news applications developer on the NPR Visuals Team and as an undergraduate fellow at the Northwestern University Knight Lab.
+
+*Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3546/)*
+
+## nicar18-notes/02-03-break-filter-bubble.md
+
+# Data journalism that breaks the filter bubble
+
+[Slides](https://docs.google.com/presentation/d/1Tjsg506bcb1xORpZkj_ydYnFCmfQkZsgNUOE4Qr-ElM/edit#slide=id.p)
+
+* Eva Constantaras
+* Adriana Gallardo
+* Anjeanette Damon
+
+##### Description
+
+Too often, data journalism falls into the trap of preaching to the converted — informing elite, liberal, white audiences on issues they already understand pretty well. This panel will look at three case studies of how journalists harnessed data, innovative storytelling and audience engagement to expose injustices faced by marginalized communities and bring those communities into the policy debate. 
+
+## Notes
+
+How can we produce journalism about marginalized communities when they're not in the room? 
+
+### Lost Mothers series
+
+[Tipsheet](https://docs.google.com/document/d/15ZRYLjsMLFTEnrOM2mdGxPouLDqu7Q2mQyz_tnTyWOQ/edit)
+
+Adriana Gallardo
+
+Maternal harm and deaths in the US. About 800 women die each year in the U.S., about about 50,000 nearly die. 60 percent are preventable. Black mothers die at 3-4X the rate of white mothers. Last mandated to be reported in 2010.
+
+Needed basic data: Name, cause of death or near death, date, states, prior births, type of delivery. Looked for conversations, but it's treated as private tragedy but not public health crisis. Crowdsourcing.
+
+Spent two months developing the right form. Specific about intent (not interested in difficult pregnancies or births, for example). Questions changed based on conditional answers.
+
+Three audiences: I almost died, I know someone who died, I know someone who almost died.
+
+Majority were self-reported.
+
+Had to be conscious of tone.
+
+Did all this in tandem with traditional reporting.
+
+Also searched out facebook groups — anything that touched maternal health at all.
+
+Shared the form widely.
+
+But then followed up. Constant communication, can't be just the form.
+
+### Death behind bars
+
+[Tipsheet](https://drive.google.com/file/d/0B-dTRqkrNLbcbDBUeEV1V2tpQi1sbVhDNTdjalBjWkkwU1Nv/view)
+
+Anjeanette Damon
+
+"The dataset that we used for this is not hugely robust." Telling the story beyond the data: this is a story about people. Data formed the basis for the story but wasn't the story.
+
+Mostly vulnerable communities, so they don't have a voice or access and their stories were either overlooked or ridiculed.
+
+Jail officials seemed sympathetic but didn't feel like they should be held accountable.
+
+Family members became targets too.
+
+Story started with anonymous tip: three suicides in the past month.
+
+Requested 10 years of data for basic info, then requested more data points later.
+
+Found big uptick after new sheriff, rate about 5x national average.
+
+But had to figure out why. Found out only one death had been investigated by outside agency.
+
+Use of video for explainers, interview and annotated raw video. 
+
+Case studies/profiles.
+
+Combating cynicism: Told human stories, described in detail, this could be you or someone you know, the data helped bolster the story.
+
+Impact: Lots of calls, adovcated, law enforcement (for training purposes), sheriff changed policies and death rate fell.
+
+
+### Data Journalism where everything is terrible
+
+[Tipsheet](https://docs.google.com/document/d/1qxY9GY9uzBUjYAfue1rGrqPPo6w8XwtPC4Buqi1jPU8/edit)
+
+Eva Contantraras
+
+Corruption is not news. Inequality is not a story. Theft is not a story.
+
+If we can count it, if we can measure it, we can fix it.
+
+Process:
+
+* Background
+* Hypotheses
+* Questions
+* Analysis
+* Story Structure
+* Interviews
+* Visualization
+* Impact metrics
+
+Start with headline story.
+
+Background. Has someone else written this? Can we get to the bottom of this?
+
+Hypotheses. Why is this happening? Tips: can be proven or disproven with data, specific about what's measured, is it measuring problem, causes, impact and solutions, is it important to the public? Common mistakes: too simple, too broad, too narrow, can't be proved, already is proven and common knolwedge.
+
+Questions: Problem/Impact/Cause/Solution categories.
+
+Impact: "News you can use". How can someone act on this info?
+
+
+##### Speakers
+
+Eva Constantaras is a data journalist specialized in building data journalism teams in developing countries. These teams that have reported from across Latin America, Asia and East Africa on topics ranging from displacement and kidnapping by organized crime networks to extractive industries and public health. As a Google Scholar and a Fulbright Fellow, she developed a course for investigative and data journalism in high-risk environments. [@evaconstantaras](https://twitter.com/evaconstantaras)
+
+Adriana Gallardo is an engagement reporter at ProPublica. This means she works on investigative series to fuel the reporting process with communities. Last year, she led engagement and reported for the Lost Mothers series which illuminated a national disgrace: the U.S. has the worst rate of maternal deaths in the developed world, and up to 60 percent of those deaths are preventable. Prior to ProPublica, she oversaw a series of 15 projects at NPR member stations and traveled the country with StoryCorps. In her hometown Chicago, she spent over a decade working as a journalist and radio producer.
+
+Anjeanette Damon is the Reno Gazette Journal's government watchdog reporter. Damon has been covering communities in Nevada for two decades for both the Gazette Journal and the Las Vegas Sun. During her career, Damon has covered the police beat, the city hall beat and state and national politics.  Damon has a journalism degree from the University of Nevada, Reno and a master in public administration from the Harvard Kennedy School of Government.
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3548/)_
+
+## nicar18-notes/02-04-life-after-factfinder.md
+
+# Life after FactFinder
+
+[Tipsheet](https://www.dropbox.com/s/sihtg7l2b6mxbb3/RonCampbellFactFindertipsheet.pdf?dl=0)
+
+* Ronald Campbell
+* Paul Overberg
+* Ally Burleson-Gibson
+
+##### Description
+
+Just when you had finally learned American FactFinder’s many foibles, the Census Bureau is shutting the site down. We’ll introduce you to its successor, data.census.gov, take you on a test drive and dish some tricks and secrets we’ve discovered. The new site will become the main source for census information in June.
+
+## Notes
+
+**Ally Burleson-Gibson (ABG):** How are we going to move to a single-search approach?
+
+Want to replace FactFinder — it doesn't have all the data in it.
+
+Data, software, access to API.
+
+Ron Campbell
+
+"Always read the footnotes."
+
+How far back will we go (1970s)?
+
+**ABG:** TBD.
+
+
+##### Speakers
+
+Ronald Campbell is data editor for the NBC Owned Television Stations. He previously created the computer-assisted reporting program at the Orange County Register. He has won the IRE Award, the Loeb Award and placed in the Philip Meyer Award. He lives in Orange County, CA, with his wife, kids and cat. When not getting frustrated with databases he gets frustrated rock-climbing. [@campbellronaldw](https://twitter.com/campbellronaldw)
+
+Paul Overberg is a data reporter at the Wall Street Journal and a member of its investigative team. He focuses on economic and demographic stories but helps reporters working on many subjects. He previously worked at USA TODAY, where he worked on projects that won the Philip Meyer Award for Precision Journalism and the National Headliner Award. [@poverberg](https://twitter.com/poverberg)
+
+Ally Burleson-Gibson has worked with the Census Bureau since 2012, first as a data dissemination specialist (DDS) and now as part of the communications team for the Center for Enterprise Dissemination Services and Consumer Innovation (CEDSCI).  Ally provides presentations and training on the Bureau’s project to streamline users’ access to Census Bureau data on Census.gov, and gathers user feedback for an intuitive, customer-focused data dissemination experience.  
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3574/)_
+
+## nicar18-notes/02-05-irs-nonprofit-data.md
+
+# Tips for harnessing new IRS nonprofit data
+
+[Slides](http://bit.ly/2C9DuQV) | [Tipsheet](http://bit.ly/NICAR18-IRS)
+
+* Andrea Fuller
+* Todd Wallack
+
+##### Description
+
+Did you know the IRS recently started uploading most nonprofits' annual financial filings to the web in electronic format? We'll give you an overview of how to download the filings and extract key fields into a database. We'll also cover some of the tricks and pitfalls in working with the new IRS data.
+
+This session will be most useful if: You are either familiar with basic programming or can track down a programmer later to help.
+
+## Notes
+
+**Todd Wallack (TW):** Lots of info in 990s.
+
+Now they're available electronically. More than 2 million filings.
+
+Not everything is there:
+
+* Orgs that file by paper
+* Tiny groups that file 990-N
+* Groups that don't file at all (churches, etc.)
+* Forms that haven't been processed (takes a few months)
+* Forms processed before 2011
+
+Format: XML
+
+There are index files for each year, JSON and CSV. They're slightly different.
+
+Approaches to downloading the data:
+
+**TW:** Download all index files, download XML files from indexes, loop through XML files to grab key info, save data in new CSV files. (on GitHub)
+
+**Andrea Fuller (AF):** Download JSON, parse into SQL table, get URLS and download.
+
+##### Speakers
+
+Andrea Fuller is an investigative reporter for The Wall Street Journal in New York City where she specializes in computer-assisted reporting. She is a North Carolina native and previously worked for Gannett Digital, The Center for Public Integrity, and The Chronicle of Higher Education. [@anfuller](https://twitter.com/anfuller)
+
+Todd Wallack is a data journalist and investigative reporter for the Boston Globe’s Spotlight team. He has won national awards for his work on public records and been a finalist for the Pulitzer Prize.  Prior to joining the Globe in 2007, he worked for the San Francisco Chronicle, Boston Herald, and Dayton Daily News. [@twallack](https://twitter.com/twallack)
+
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3593/)_
+
+## nicar18-notes/03-01-lat-map-maker.md
+
+# Introducing the L.A. Times Map Maker: Make maps faster
+
+[GitHub](http://github.com/datadesk/web-map-maker)
+
+* Jon Schleuss
+
+##### Description
+
+The Los Angeles Times' Map Maker was created and released to help journalists make locator and other maps faster. Whether it's a quick web locator map or a more detailed map of, say, all the rides at Disneyland, the Map Maker allows you to download both images and vector files to create better maps faster. Jon Schleuss from the Times will demo how to install, use and customize Map Maker for your newsroom.
+
+## Notes
+
+Basic purpose: Make locator map quickly.
+
+Setup config.js and config.yaml. Uses nextzen (mapzen successor).
+
+Can get coordinates from Google Maps if you're not geolocating.
+
+Text is large so it scales on mobile.
+
+Can drag bottom corner for custom sizes.
+
+Can upload basic GeoJSON.
+
+Layer palette to turn on and off different layers.
+
+Add custom labels.
+
+Download as png or svg.
+
+RGB to CMYK converter.
+
+Use Jquery in the console to change imported JSON.
+
+
+##### Speakers
+
+Jon Schleuss is a data reporter, mapmaker and graphics artist at the Los Angeles Times. He enjoys the challenge of telling stories through maps: Los Angeles' homeless population, Girl Scout cookies, California's precinct election results, housing costs and more. When he's not a a deadline he's improving the Times' mapmaking tools. [@gaufre](https://twitter.com/gaufre)
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3604/)_
+
+## nicar18-notes/03-02-disaster-data-money.md
+
+# Data of disasters: Following the money
+
+* Lee Zurik
+* Matt Dempsey
+* Omaya Sosa
+
+##### Description
+
+Natural disasters such as hurricanes, floods and wildfires caused record damage to U.S. cities in 2017. These panelists — veterans of some of the worst storms in history, Hurricanes Harvey, Maria and Katrina — will cover resources to help you dig into the problems left in the disaster's wake, including disaster relief efforts, using databases and mapping to show the extent of damage in certain areas and neighborhoods, and how to follow the money.
+
+## Notes
+
+### Matt Dempsey
+
+[Slides](https://docs.google.com/presentation/d/1ShWU96ghA7Ht_sDSpgYZnLkjlBOahTt4M5z8UTpAMZs/edit#slide=id.p)
+
+Natural disasters are tests for your newsroom. How well it knows your community. What are the vulnerable points?
+
+You maybe can't predict when thery're going to happen, but you know they're going to happen.
+
+#### Flooding
+
+* Floodplain shapefiles
+* dam conditions, ACOE ratings
+* NFIP claims (by blockgroup/county/community)
+* buyout data
+* rain data from NOAA
+* Number of shelters/shelter plan
+
+#### Fires
+
+* Shapefiles of previous fires
+* WUI shapefiles from University of Wisconsin (wildland-urban interface)
+* Raster maps to see changes in vegetation
+* Check building codes to see allowed development, compare with Firewise guidelines
+
+#### Earthquakes
+
+* Lots of maps (fault, hazard, landslide)
+* Realtime feeds
+* Historical data
+
+#### Hurricanes
+
+* Historical path data
+* Historical strength and stats
+* Evacuation plans and procedures
+
+#### Tornadoes
+
+* Historical trends and locations
+* Siren locations, repairs, tests, usage plan
+* Building codes
+
+#### Chemical release/explosion
+
+* Local planning committee
+* Tier II chemical inventories
+* ECHO (epa data search)
+* OSHA
+* Rtk.net.RMP "Right to know network" Risk management plan data.
+
+#### Blizzards
+
+* Plows
+* Plowing plans
+
+#### General prep
+
+* OEM
+* Assessor data
+* Building codes
+* Disaster plans
+* Academic studies
+
+---
+
+### Investigating a disaster when nothing works
+
+Omaya Sosa
+
+No power, water, internet, cellphone, food, ports and airports closed, almost no media outlets (1 radio station), most roads blocked, govt. collapsed, no official data.
+
+Local journalists were also victims.
+
+Temporary newsroom.
+
+Back to basics + creative use of technology = great, high-impact, necessary stories.
+
+"We had to move on the ground everywhere" to interview people. No way to make a phone call.
+
+How did it start? Common sense. 16 deaths being reported by government didn't make sense. Interviewed two doctors who had 9 casualties in 1 day.
+
+On the ground sources. Some official sources, much later, not very useful.
+
+Other sources: Missing persons reports, radio, community leaders, social media.
+
+Took picture of picture on cellphone because no way to send it. 
+
+Started with basic spreadsheet. Added to it as much as possible.
+
+Were able to prove the government wrong with data.
+
+Online form for people to report deaths they knew about.
+
+Get to know your community. Get to know the details of your systems. Don't lose perspective, the data isn't the story. Marry data with reality (deaths listed in hospitals when people died at home). Humanize the data.
+
+---
+
+### Data of disasters
+
+Lee Zurik
+
+Long-term, after disasters. The bigger the disaster, the longer the money's going to be spent.
+
+* Check registers before and after
+* Salary and overtime
+* Business corporations
+* Campaign finance (also before/after)
+
+What I'm looking for:
+
+* Who's making the most money
+* Do campaign contributions = contracts?
+
+Data only tells some of the story. Will lead to other documents, invoices, build your own dataset.
+
+Case study — Plaquemines Parish Schools
+
+Took years to rebuild after Katrina. Used check register to build Pivot Table, found most money went to one contractor, requested invoices. Construction management company.
+
+Invoice said they spent 200 hours in a month to maintain project files.
+
+Federal procurement data system has reports on disasters.
+
+---
+
+## Questions
+
+Community Block Grant money goes from federal to state, how to keep track of it after it goes to the state?
+
+FEMA appeals drags out?
+
+Check register?
+
+Fast moving disaster, good working relationships?
+
+Data on how disasters affect undocumented or other off-the-grid people?
+
+###### Speakers
+
+Lee Zurik is an IRE Board Member and Evening Anchor and Chief Investigative Reporter at WVUE-TV in New Orleans. He also serves as Director of Investigations for Raycom Media. He's been honored with local and national awards including the Peabody, duPont-Columbia, and IRE. Before Hurricane Katrina, Lee was a sports anchor. He taught himself to be an investigative reporter by reading IRE resources (books and tipsheets) and attending nine IRE conferences. [@leezurik](https://twitter.com/leezurik)
+
+Matt Dempsey is the data reporter for the Houston Chronicle. Matt previously worked for the Arizona Republic and Atlanta Journal-Constitution. He has worked on projects involving wildfires, state pensions, and the chemical industry. His passion for public records frequently leads to disclosure of data from all levels of government. His series Chemical Breakdown won the 2016 IRE Innovation award and the National Press Foundation's "Feddie" award. [@mizzousundevil](https://twitter.com/mizzousundevil)
+
+ 
+Omaya Sosa is an award winning journalist, entrepreneur, and adventurer with 20 years of experience. She is co-Founder of Puerto Rico’s Center for Investigative Journalism. Her recent work on the underreported death toll of hurricane Maria has been republished and quoted by more than a dozen media outlets. Omaya is also co-Founder of NotiCel.com digital news outlet sold in 2016. Before her digital media life she worked at El Nuevo Día newspaper and radio news station Red 96. [@omayasosa](https://twitter.com/omayasosa)
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3596/)_
+
+## nicar18-notes/03-03-environmental-hazards.md
+
+# Uncovering environmental hazards faced by urban children
+
+* Chris Zubak-Skees
+* Molly Peterson
+* Dylan Purcell
+
+##### Summary
+
+Decaying, pollution-choked schools, old homes with lead paint, toxic soil left behind by shuttered factories and even urban heat islands — all environmental dangers faced by children. This panel will show how to uncover these lurking dangers in your own communities by analyzing often-overlooked data sources and, when data is lacking, doing your own testing. 
+
+## Notes
+
+### Schools near roads
+
+Chris Zubak-Skees
+
+"Can we find all the places where schools are next to busy roads?"
+
+Ultrafine particles spike near highways.
+
+Wanted to nationalize the story and bring it out of academia.
+
+FHA Office of Highway Policy Administration. NCES school dataset.
+
+NCES school data takes addresses, geocodes them, manually correct some of the results, and that's all. Wrong about 16 percent of the time.
+
+Theshold of 500 means being off by a few hundred feet makes your analysis bad.
+
+Things they tried:
+
+Loading all the parcel shapefiles in the country and matching them to school locations. How do you figure out which parcel is the school?
+
+Retrieving Google's database of school points of interest and matching them to NCES data. Both of those are messy.
+
+Neural networks to identify things that look like schools. Terrapattern. A lot of schools don't look like schools anymore, e.g. charter schools.
+
+Ran addresses through Google geocoder instead.
+
+### Urban heat & children's health risk
+
+Molly Peterson
+
+Wanted to know how the people most vulnerable to heat were affected by it.
+
+"I see change", crowdsourced climate data.
+
+Project design/sensor design. Arduino.
+
+Cost around $60 each.
+
+Indoor sensors got temp and humidity every 5 minutes, compared with outside data from nearby airport.
+
+Also published and mapped ER visits for heat-related visits.
+
+Existing data don't capture and existing policies don't address what people are actually going through.
+
+Community engagement project: "Where are the hottest and coolest places?" Collected text message data.
+
+Failures: There's no single prescribed outcome.
+
+Scientists offered lots of feedback.
+
+Renters can use this data in rental disputes.
+
+### Toxic City
+
+[Tipsheet](https://www.dropbox.com/s/q5um23esr707coz/Dylan%20Purcell%20tipsheet.pdf?dl=0)
+
+Dylan Purcell
+
+Lead paint 
+
+Lead paint in rental homes. Only about 500 of 2,700 kids were helped by city health departments.
+
+Most they could get was ZIP code breakdown. Philadelphia started "lead court" where they'd bring landlords in. Slap on the wrist, but a roadmap to addresses.
+
+Tainted soil
+
+No database of toxic soil exists, so they dug up dirt and made one. 500 samples from 114 locations. 3/4 of properties had hazardous lead.
+
+Found locations of former smelters.
+
+Old news clips helped.
+
+Boom in housing stirred up dirt.
+
+Construction workers weren't taking basic steps like watering down dirt.
+
+Used satellite imagery to look at it over time.
+
+After story, the state tested.
+
+Children at risk in school
+
+Mostly lead paint and asbestos. Some mold and pests. Drinking water concerns. Work orders often get delayed.
+
+### Questions
+
+Lead risk score? Do other cities have Lead Court?
+
+How do you determine threshold for emissions?
+
+##### Speakers
+
+Chris Zubak-Skees leads a small team of computational journalists as data editor at the Center for Public Integrity. He was previously the Center's developer, doing analysis and interactive journalism with code. He has been part of teams that have won Meyer, Loeb, Goldsmith and Malofiej awards.
+
+Molly Peterson ([@Mollydacious](https://twitter.com/Mollydacious)) reports on climate and environment for public media and print, including High Country News, NPR, CodeSwitch, KQED, & PRI’s The World. In 2009, while at Southern California Public Radio, she was an IRE finalist in radio for a project investigating faulty pumps in New Orleans. Her latest project documented extreme heat in LA’s San Fernando Valley. She has worked for ISeeChange, a citizen climate observation platform funded in part by NASA.
+
+Dylan Purcell is a data reporter on the Inquirer’s investigative team. He has uncovered low conviction rates for violent crimes, widespread cheating on state tests, and the high rate of newborn deaths after heart surgery at a for-profit hospital. He was a member of the reporting team that won a Pulitzer and IRE award for examining violence in Philadelphia’s public schools. Recently, he’s focused on the dangers of lead exposure faced by urban children. [@dylancpurcell](https://twitter.com/dylancpurcell)
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3693/)_
+
+## nicar18-notes/03-04-guns.md
+
+# Shoot us straight: Correctly using data and docs on guns
+
+[Tipsheet](http://bit.ly/NICAR18-guns) | [Slides](http://bit.ly/NICAR18-gunSlides)
+
+* Nick Penzenstadler
+* Matt Drange
+* Kim Smith
+
+##### Description
+
+Shotspotter? Federal Firearms Licenses? Trace data? We’ll help you sort out what data and documents you should routinely gather for reporting on guns, where you’re wasting your time and when it’s time to build from the ground up. We’ll cover common pitfalls and how to accurately cover the gun industry, firearm violence and regulatory agencies. You’ll leave with: sample data on guns, tips on finding sources and tips on reliable data streams.
+
+## Notes
+
+### Chicago Crime Lab
+
+Kim Smith
+
+Helps out all of Chicago
+
+Gun trace report 2017
+
+Fiiling in missing data:
+
+ATF trace data: 1st retail sale.
+
+Data on transfers: Ethnographics interviews; jail survey.
+
+Recovered gun: Police admin data
+
+Did prison/jail surveys of gun offenders.
+
+How do prohibited possessors acquire guns?
+
+Not gun shows, internet or theft, according to their data. Caveat: Only applies to person convicted; intermediaries may have.
+
+Gun violence in Chicago 2016 report
+
+"synthetic control" to figure out if gun violence interventions are working.
+
+#### Shotspotter
+
+Matt Drange
+
+Know what the agency can see on its end: Wav files and location
+
+Type,ID,Date,Time,Address,Round,CAD,Beat
+
+PD might say shotspotter owns the data, but ownership may not affect what's public
+
+#### FFLs: inspections, Tiahrt and revocation
+
+Nick Penzenstadler
+
+FFL lists available from ATF.
+
+From FOIA: Inspection history, violations, narrative, corrective action. 10,000 inspections in 2011, 71 revocations.
+
+Some FFLs get shut down, transfer their license, then reopen cleanly.
+
+Tiahrt amendment means trace data is hard to get.
+
+Background checks, NCIC and NICS
+
+#### Online gun sales
+
+Matt Drange
+
+Building your own dataset.
+
+Manually: Armslist or Facebook.
+
+What's the scope of your universe? Zero in. Be transparent with the limits of your data.
+
+"Sometimes getting a bunch of really bad examples is enough."
+
+Know the jargon before you start collecting data. (Searching "AR-15" on ebay won't get you much, but searching the barrel diameter might)
+
+#### Questions
+
+Data sources on gun violence
+
+**Kim Smith (KS):** CDC WISQARS is comprehensive. Non-fatal shootings hard to track over time.
+
+Gun violence archive
+
+Harrassed for joining gun groups on Facebook?
+
+**Matt Drange (MD):** Yes.
+
+Demographic info on gun ownership?
+
+None, really.
+
+What makes a gun illegal?
+
+Someone having one who isn't supposed to. In Illinois, FOID Card is required.
+
+The Trace made gun tracking data they collected available.
+
+Gun buyback programs?
+
+Not much data.
+
+Spikes in gun sales after shootings?
+
+May be available to county level. Probably only numbers though.
+
+What public records are available?
+
+Inspections of FFL. DOJ does it in California.
+
+
+##### Speakers
+
+Nick Penzenstadler is a reporter on USA TODAY's investigative team based at the paper's Denver bureau. [@npenzenstadler](https://twitter.com/npenzenstadler)
+
+Matt Drange is a staff writer at Forbes magazine, where he reports on Donald Trump's business dealings. Before joining Forbes in 2016, Matt worked at The Center for Investigative Reporting, covering technology and guns. He joined IRE as a student in 2010. Matt's proposal to allow student members of IRE to vote for the Board of Directors was adopted by membership in 2015. [@mattdrange](https://twitter.com/mattdrange) or #FOIAFriday hashtag.
+
+Kim Smith is a Sr. Research Manager at the University of Chicago Crime Lab, where she manages the multi-city gun markets project, work done in partnership with affiliates in six major U.S. cities – Chicago, LA, Boston, NY, Baltimore, and New Orleans. Kim also provides implementation support to a Chicago Police Department initiative that brings together police officers and analysts from the Crime Lab to integrate crime intelligence, data analysis, and technology. 
+
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3583/)_
+
+## nicar18-notes/03-05-entitled-to-a-spreadsheet.md
+
+# I'm entitled to a spreadsheet, dang it!
+
+* Steven Rich
+* Sarah Ryley
+* Annie Waldman
+
+#### Description
+
+Public records requests for data come with their own unique set of challenges — from agencies that insist their databases can only export documents, to those that will only send a fraction of the fields that are disclosable under the law. We’ll give you tips on writing rock-solid public records request for data, and how to respond to the common excuses used to deny these requests. Topics will include: Common sources that prove the agency has a database and can export data; statute, case law and language to make it more likely you’ll receive data (versus a PDF, or even worse, scans of redacted printouts); how to negotiate the confidentiality issues that come with medical and educational data; and managing the mass FOIA request project. We’ll provide a sample data request, a few good war stories, and links to helpful resources.
+
+## Notes
+
+### Sarah Ryley
+
+[Slides](https://drive.google.com/file/d/1rernesalk-vWpI5TW16CUE2G6zQkRJG6/view)
+
+* Make sure it's not already online.
+* Treat everything you write as a legal document.
+* All communications should be clear, concise, professional and well-formatted — you're writing for both people with no data literacy as well as the data folks who will generate the request.
+* Followup phone calls with emails summarizing the conversation so you have a record.
+* Request should preempt common objections.
+* Negotiation can strengthen your appeal. Asking for data dictionary and record layout helps make an informed effort to narrow your request.
+* Check validity of exemptions or falsehoods.
+* Insist on determination in writing.
+
+Acknowledge existence of online data in a request.
+
+Common objections:
+
+We don't keep it as data
+Can only export 5 fields
+Overly burdensome
+Etc.
+
+Cite evidence that data exist and can be exported. RFQ/P, contracts can detail "current data environment".
+
+Documentation:
+
+Record layout, ERD, Data Dictionary, User Manuals, Report Writing Guides
+
+You can look at released records to see what exists.
+
+Tips for overly burdensome.
+
+Data format does not limit disclosability.
+
+Make sure you get everything, frame followups as missing records, not questions.
+
+### Healthcare and ED data
+
+Annie Waldman
+
+[Slides](http://bit.ly/2p35dd4) | [Tipsheet](http://bit.ly/2FHxlwM)
+
+Main reasons: exempt under other laws, privacy, HIPAA, FERPA, other delays
+
+#### Before:
+
+* Research
+* be friendly
+* find internal data wizard
+* ask first
+* request itemized cost estimate
+* negotiations are crucial
+* know privacy restrictions
+* research AG decisions
+
+#### Health data:
+
+Claimed that b6 exemption and HIPAA were essentially the same. Under b6 court has to do a balancing test. HIPAA doesn't.
+
+Applies to Health care organizations, any org that bills/transmits health care data, hybrid entities (schools, prisons, etc.).
+
+HIPAA lasts even after someone dies.
+
+Personally identifiable info.
+
+But you can still get some data. And people are entitled to their own records.
+
+Does allow for De-identified data. Can ask for personally identifiable data to be de-identified or dummy ids.
+
+Can get limited or restricted-use data set with, e.g. ZIP codes. Will have to sign data use agreement.
+
+If limited data sets are not enough, institutional review board.
+
+#### Education data:
+
+FERPA
+
+Can still get lots of data; "directory data".
+
+FERPA also allows for de-identified data and limited-use data.
+
+### Mass FOIA
+
+Steven Rich
+
+Same request to a bunch of same kinds of agencies, or same request to different types of agencies.
+
+Fired/Rehired
+
+Law enforcement data:
+
+* Not a ton of standardization
+* Kept in different formats
+* Databases no one ever uses
+* Certain exemptions apply
+
+Approach:
+
+* Check the internet
+* Ask the agency if they'll turn it over
+* Familiarize with state's laws
+* File request
+* Pester like crazy
+
+Understanding what you can get:
+
+* Every state has different exemptions _and_ legal precedent
+* Generally speaking there's discretion
+* Ask for things that are exempt
+
+Request all the things:
+
+* Request the same thing from everyone
+* Mass email (mail merge) or tailored request with specific legal language
+* Automate if you can
+* Know your deadlines
+
+Fight for the things:
+
+* Request is a first step
+* Create alerts for deadlines
+* Pick up the phone
+* Use a spreadsheet (or tracker)
+* Be nice, then get mean
+* Push for correct format
+
+If you don't get things:
+
+* Some battles are worth fighting
+* Others aren't
+* Always be appealing
+* Prioritize based on your time
+* Name and shame
+* Apply pressure
+
+Now what:
+
+* Standardize
+* Pick up the phone
+* Get the collection methodology
+* Understand that things can change
+* Don't force it
+
+Stuff you should look out for:
+
+* 65,536 records
+* Changing definitions in the data
+* Changing fields in the data
+* Definitional issues in general
+* PDF data
+* Missing fields (is a missing field a caveat for one you are using?)
+
+Aftermath:
+
+* Pick your targets
+* Don't always focus on outliers
+* Put everything in context
+* Check legal issues
+* Talk to experts
+* Make what data you can public
+
+### Questions
+
+**University hasn't responded (sexual assault complaints), what should I do?**
+
+Talk to expert in the state, see if there are deadlines. They may have reported it somewhere else. Can file "constructive denial" appeal. Contact state attorney general.
+
+**Data that's statutorily limited who it can share it with. Can you get it by partnering?**
+
+Probably can't partner due to data use agreement, maybe can get it de-identified.
+
+**Disagreeing with legal precedents, what do you do?**
+
+Google state public records law. Attorney general can help.
+
+**When should you appeal?**
+
+Appeal immediately. Can get denied because of deadlines.
+
+**When do you standardize?**
+
+Immediately. Don't wait for them to come back.
+
+**Agency that charges a lot of money and also gives it to competitors?**
+
+Shame them. Technically nothing illegal with giving it to competitors. 
+
+#### Speakers
+
+Steven Rich is the database editor for investigations at The Washington Post. He's worked on investigations probing the National Security Agency, tax lien sales, asset forfeiture, policing and college athletics. He has been a reporter on two teams awarded Pulitzer Prizes, in 2014 for Public Service and in 2016 for National Reporting. Steven is a graduate of Mizzou and Virginia Tech. He was elected to IRE’s Board of Directors in 2015. [@dataeditor](https://twitter.com/dataeditor)
+
+Sarah Ryley is an investigative reporter at The Trace, a non-profit news outlet that covers gun issues. Previously, she was the data editor at the New York Daily News, where her work triggered numerous criminal justice reforms. Her series on the NYPD's abuse of eviction laws, done in partnership with ProPublica, was awarded the Pulitzer Prize for Public Service. She has also taught data journalism and investigative journalism at CUNY and The New School. [@MissRyley](https://twitter.com/MissRyley)
+
+Annie Waldman ([@AnnieWaldman](https://twitter.com/AnnieWaldman)) is a reporter at ProPublica, working on both data and education projects. She is based in Brooklyn. 
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3572/)_
+
+## nicar18-notes/03-06-data-culture.md
+
+# Creating a data culture that lasts
+
+[Slides](http://bit.ly/dataculture_nicar18)
+
+* Annie Daniel
+* Tom Meagher
+* Mark Nichols
+
+##### Description
+
+How can news organizations create a sustainable culture for data and interactive journalism? In some cases, when one dynamic, charismatic CAR leader leaves for a new job, the data team left behind suffers and struggles to rebuild. Get practical advice and tips on ways to build a data culture in your newsroom that's sustainable and independent of any one staffer. How can data teams make a lasting impact on newsroom leadership and culture?
+
+## Notes
+
+How do we make sure we're not seen as expendable?
+
+About 42% of reporters use data regularly, about half of organizations have someone doing data. But if there's someone who does do data, they're probably the only one.
+
+Appetite for data training varies widely. Most people don't want to leave their newsrooms to learn.
+
+Who uses data?
+
+* Beat or projects reporters who learned skills on their own or through IRE
+* Designated data reporter/editor (singular)
+* Team of several journalists dedicated to data reporting/interactives/news apps
+
+### If you're the only one, what can you do?
+
+**Mark Nichols (MN):** Be the data evangelist. Invite yourself to meetings. Create usable in-house databases. Brown-bag lunches.
+
+### How has support for data changed?
+
+**MN:** There's more data available now. Journalists are interested in data earlier.
+
+### What does the future look like? Is it necessary that we still have data reporters/editors, or will everyone be one?
+
+**Annie Daniel (AD):** It's possible that will happen, reporters are getting more comfortable doing basic things. Allows people with data skills to do more interesting things.
+
+**Tom Meagher (TM):** If there isn't someone with that title, it's easy to overlook it altogether. It isn't part of the day to day job for everyone yet.
+
+Audience: What are our aspirations for what data journalism is? If it's just getting basic numbers from spreadsheets, sure. But maybe we can go past that.
+
+**AW:** Reporters report on the data, we publish it.
+
+### When it's viewed as a prestige team, how do we work better day to day? When someone leaves, who's responsible.
+
+**MN:** Make the data seem important to reports and editors on every story. Editors are important in setting the culture.
+
+**TM:** Make you colleagues' jobs easier.
+
+**AD:** Hiring is important. Mentorship/intern programs. Let newer people bother you.
+
+### Tools that fade away
+
+**AD:** Two kinds of people, people who adapt and people who fix it. User testing. They may not want to bother you with "It's broken."
+
+**MN:** Sometimes you have to be your own cheerleader.
+
+**TM:** Envy can be a very powerful marketing tool.
+
+### Fight for your byline
+
+**AD:** Sometimes editors don't think about it; they're more in contact with the reporter. It probably isn't malicious. Consider writing a policy.
+
+### What about double bylines on radio and broadcast? And distributed team? Pushing dealines.
+
+**MN:** Editor helps. Show value of data to your story.
+
+**TM:** Data isn't magic and editors need to understand what it can do and what its limitations are.
+
+### How can you evolve
+
+**AD:** At the end of the day we're reporters. Learning in public. Most of our job is calling people and asking really dumb questions.
+
+### IRE/NICAR collective byline policy?
+
+Good idea.
+
+### How important is the title?
+
+Title doesn't make you known.
+
+
+##### Speakers
+
+Annie Daniel makes charts, maps and web apps at The Texas Tribune. Prior to joining the Tribune, she interned with the Washington Post’s graphics team creating charts and graphics for print and web. She graduated from UNC-Chapel Hill where she studied journalism and political science. Annie lives in Austin, Texas where she knits, bakes and reads science fiction. [@anieldaniel](https://twitter.com/anieldaniel)
+
+Tom Meagher is the deputy managing editor at The Marshall Project, where he leads a team of designers, developers, visual journalists and reporters covering the criminal justice system. He's part of the team behind "Klaxon," an open-source tool for monitoring the web for changes. A veteran reporter and editor, he previously led an interactive team for the Digital First Media newspaper chain and was the data editor at the Newark Star-Ledger. [@ultracasual](https://twitter.com/ultracasual)
+
+Mark Nichols is data journalist on the national desk of USA TODAY. He has worked as a data specialist for the digital reporting team at WCPO-TV in Cincinnati, OH, and was the computer-assisted reporting coordinator for The Indianapolis Star for nearly 20 years. [@nicholsmarkc](https://twitter.com/nicholsmarkc)
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3578/)_
+
+## nicar18-notes/04-01-sensor-journalism.md
+
+# Sensor journalism: How do we do it and what are the limits?
+
+[Slides](https://docs.google.com/presentation/d/1O8wpjEtVmnkb0RWtI0r626TPtJdqw11BLmaFYtydfaQ/edit#slide=id.p)
+
+* Michael Corey
+* Marianne Bouchart
+* Denise Lu
+* Kelly Calagna
+
+##### Description
+
+Journalists are using a wide range of sensors to find stories, from spectrometers in space to cameras on drones to Raspberry Pis on the street. We'll talk about our processes, what we'd like to see more of, the challenges, and discuss the variety of ethical frameworks that may overlap and even contradict each other.
+
+## Notes
+
+### Marianne Bouchart 
+
+Examples
+
+Breathe map from India uses Air Quality Index
+
+Losing Ground by ProPublica
+
+Speeding cops by Sun Sentinel
+
+Houston Chrinicle air toxins
+
+Cicada Tracker by radiolab
+
+Where do you get data?
+
+* Use existing data
+* Collect data by deploying sensors
+* Collect data from sensors deployed by public
+
+A data journalist's microguide to environmental data
+
+World Resources Institute
+
+NASA Earth Data
+
+AQCIN
+
+What kind of data is useful for what kind of stories?
+
+[Taxonomy of sensors](https://punkish.org/Taxonomy-of-Sensors?tag=science)
+
+What does the data look like?
+
+Most of the time, like any other type. May require research to understand the format.
+
+Project to build easy-to-use sensor toolkit for journalists.
+
+#### Environmental sensor journalism
+
+Kelly Calagna
+
+Desire to democratize data.
+
+EPA monitors are few and far between. They use algorithms to fill in the missing data. But it varies a lot based on factories, construction, geography.
+
+Making it accessible. Cost, energy, time, knowledge.
+
+* Arduino
+* LoRa Radio
+* LiPo Batteries and solar
+
+Deploying
+
+Homes, businesses or public land? Still figuring it out.
+
+Depends on project.
+
+Collecting particulate matter (PM10 & PM2.5) with optical sensors, but testing other types of sensors.
+
+Things to consider:
+
+How does this affect people's lives?
+
+How do we ensure accuracy?
+
+What happens if we discover harmful concentrations?
+
+#### Catching crooks with science
+
+Michael Corey
+
+Top water users in Bel-Air. "Which one is it?" Had ZIP Code but that's it.
+
+Using other bands of satellite imagery to detect water usage.
+
+Two-step process. 
+
+NDVI - measures how healthy plants are by measuring photosynthesis. Higher ratio of infrared to red light means healthy plants.
+
+Doesn't directly measure water though.
+
+"Tasseled cap" transformation. Can get measure of soil moisture.
+
+Scatter plot of area and green/wet index.
+
+Other remote sensors:
+
+* Spectrometry
+* LIDAR
+* INSAR - magnetic
+* GRACE - gravity
+
+#### Imagery in maps for news
+
+Denise Lu
+
+Resolution
+
+Different sources have different resolutions. "15m" means 1px = 15m x 15m. Free imagery usually has higher revisit rates for lower res imagery.
+
+Pansharpening
+
+Panchromatic sharpening: merging high-res single-band with low-res multi-band
+
+Leveraging data for news
+
+Las Vegas shooting
+
+Google Earth 3D
+
+EgyptAir Crash
+
+SRTM - shuttle/satellite radar topography mission elevation data (land only)
+
+Natural Disasters
+
+Hurricane Maria
+
+Slippy Maps with vector data from National Hurricane Center. Automatic updates instead of out-of-date static maps.
+
+Binary raster files for sea surface temperature data.
+
+Satellite imagery to show power loss before and after.
+
+DigitalGlobe (for profit, but provides data during breaking news) for up-to-date satellite imagery.
+
+Katrina anniversary looking at 1 block. Pictometry.
+
+Timelapse, GOES-16.
+
+Satellite data products, Copernicus.
+
+Conflict zones, Islamic State scorched earth tactics
+
+Battle for Mosul, satellite band recipes
+
+Out-of-reach areas, South China Sea, North Korea
+
+Science and environment
+
+Land use/land cover
+
+Historical imagery, Lake Erie algae bloom
+
+Hyperlocal satellite imagery, Larsen C ice shelf crack
+
+
+##### Speakers
+
+Michael Corey is Reveal's acting data editor. He leads a team of data journalists who seek to distill large datasets into compelling and easily understandable stories using the tools of journalism, statistics and programming. His specialties include mapping, the U.S.-Mexico border, scientific data and working with remote sensing. He previously worked for the Des Moines Register and graduated from Drake University. [@mikejcorey](https://twitter.com/mikejcorey)
+
+Marianne Bouchart is a data journalist based in France. She is the manager of the Data Journalism Awards. She is also the founder of HEI-DA, a nonprofit organisation promoting news innovation, the future of data journalism and open data. She runs data journalism programmes in various regions around the world as well as HEI-DA's Sensor Journalism Toolkit project. She also created the Data Journalism Blog in 2011.
+
+Denise Lu makes maps, charts, data visualizations and other knickknacks. She is currently a graphics editor at The New York Times and was previously a graphics editor at The Washington Post. [@DeniseDSLu](https://twitter.com/DeniseDSLu)
+
+Kelly Calagna is a postgraduate fellow at Northwestern University's Knight Lab. She is part of a team that is developing an environmental sensor project, called SensorGrid. As an environmental journalist, Kelly has covered topics from sea level rise in Puerto Rico to climate change research on the Tibetan Plateau. Kelly earned her MSJ from the Medill School of Journalism and has a communications degree from UCLA. [@kellycalagna](https://twitter.com/kellycalagna)
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3549/)_
+
+## nicar18-notes/04-02-python-tests.md
+
+# Python: Writing tests for your code
+
+[Github Repo](https://github.com/DallasMorningNews/python-testing-101)
+
+* Andrew Chavez
+
+##### Description
+
+Every programmer makes mistakes. Writing good tests can help you avoid making them in production. In this session, you will learn how to use Python's built-in tools to automate testing so you can sleep better at night. 
+
+This session is good for: People who use Python regularly and want to improve their workflow.
+
+## Notes
+
+Code that exercises your code.
+
+Code that ensures consistent behavior of code you've already written.
+
+Gift for future developers who have to maintain your code.
+
+Blueprint for what your code is supposed to do.
+
+Cover things in tests that could keep you up at night. Things that interact with readers or staff.
+
+Regression testing: If something breaks, write a test to make sure it doesn't break again.
+
+Good tests test one narrow behavior. When the test fails, you know exactly what it wrong.
+
+In output:
+
+. = passed test
+E = error
+F = failed
+
+Coverage.py
+
+makefile to integrate command line into testing (e.g. check for existence of other files)
+
+Testing things with randomness or other behavior:
+
+E.g. site being up. Is your code wrong or is the site down?
+
+Mocking tricks test into returning a different thing than it otherwise would.
+
+Freezegun lets you freeze time. Other mocking libraries let you mock S3, etc.
+
+Setup, Teardown and Class functions for test cases can be useful.
+
+Continuous integration with Circle
+
+Push to git, tests pass, deployed.
+
+##### Speakers
+
+Andrew Chavez is a senior computational journalist on the data and interactives team at The Dallas Morning News and a lecturer at the journalism school at The University of Texas at Austin.
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3631/)_
+
+## nicar18-notes/04-03-archiving-data-journalism.md
+
+# Archiving data journalism
+
+* Katherine Boss
+* Meredith Broussard
+* Nora Paul
+* Ben Welsh
+
+##### Description
+
+Remember that story you read online in 2005, the one with the cool Flash graphics? How about that amazing interactive data visualization that you saw way back when, the one that made you want to level up your news nerd game? Good luck finding those stories today. Data journalism is disappearing from the web. 
+
+Data journalism is more fragile than most people realize. Every time a news organization reorganizes its staff or updates its CMS or stops paying the bill for the data team’s servers, complex data journalism projects are lost. Conventional archiving methods, like the Internet Archive’s crawlers or the automated archiving feeds of companies like Lexis-Nexis, are no longer sufficient to capture projects that involve big data, databases, streaming data or interactive graphics.
+
+In this session, we’ll discuss why data journalism is the new digital ephemera, and we’ll explore the state of the art for archiving. We’ll talk about strategies data journalists can use to preserve their own work and how news organizations can better preserve their valuable digital assets. Finally, we’ll report on how journalists, librarians and scholars are thinking about future-proofing the news.
+
+### Notes
+
+**Nora Paul (NP)**
+
+There's no one whose job it is to advocate for saving old news; if you do that's not all they're doing.
+
+News orgs have never been good at preserving the news.
+
+**Ben Welsh (BW)**
+
+Having CMS be archive ready is best way, but we aren't (usually) CMS people.
+
+5-10 years old stuff is probably dead.
+
+The Five Commandments
+
+I. Thou shalt not make a mess and expect someone else to clean it up for you.
+II. Thou shalt publish as static files immediately or eventually.
+III. Thou shalt not depend on rando links.
+IV. Thou shalt version your CSS and base templates.
+V. Thou shalt see the big archives as a platform.
+
+**Katherine Boss (KB)**
+
+Internet archive is only searchable by date.
+
+The problem: Our stuff is dynamic, libraries haven't figured out what to do with it.
+
+Maybe we can monetize our archives.
+
+Flash. :(
+
+Emulation might be a solution.
+
+For static objects, PDFs. But migration is not successful for dynamic projects.
+
+Reprozip, the reproducibility packer.
+
+**Meredith Broussard (MB)**
+
+Four recommendations for what you can do.
+
+This has to happen at the institutional level. Individuals should save their own work, but that's not enough.
+
+1. Take a video. Walkthrough of your project.
+2. Bake out. Static versions of dynamic pages.
+3. Plan for the future. Sunset plan at time of launch.
+4. Work with libraries, institutions and commercial archives.
+
+#### Questions
+
+These are human issues, not computational problems. What are those?
+
+**NP:** Difference between libraries and archives. Preservation v. access.
+
+**BW:** People underestimate the risk to their work until they lose something they care about. And people who do know and care don't know how they can make a difference. There needs to be "The Checklist" to make sure stuff is archive-ready.
+
+**MB:** We need digital archivists and libraians back in newsrooms
+
+What are some resources that can help?
+
+* Reprozip
+* Dodging the Memory Hole
+* Internet Archive API tools
+
+How do you think about linkrot?
+
+Local files vs. CDNs for updates?
+
+Technical and design challenges of archiving?
+
+##### Speakers
+
+Katherine Boss is the Librarian for Journalism, Media, Culture and Communication at New York University. Her research focuses on archiving and preserving born digital news content, and she is the co-leader of the Archiving and Preserving News Applications working group of the Journalism Digital News Archive. She holds a bachelor’s in Journalism, a master’s in Library and Information Science, and a master’s in Media Studies. [@katy_boss](https://twitter.com/katy_boss)
+
+Meredith Broussard teaches data journalism at NYU's Arthur L. Carter Journalism Institute. Her current research focuses on artificial intelligence in investigative reporting, with a particular interest in using data analysis for social good. Her new book is "Artificial Unintelligence: How Computers Misunderstand the World." [@merbroussard](https://twitter.com/merbroussard) or [meredithbroussard.com](http://meredithbroussard.com)
+
+Nora Paul is co-author of Future-Proofing the News: Preserving the First Draft of History.  She is the former director of the Minnesota Journalism Center at the University of Minnesota where she also taught classes on information strategies. Formerly at the Poynter Institute as a faculty member and at the Miami Herald where she ran the news research library. Now blissfully retired, but happy to share her perspective on the archiving panel.
+
+Ben Welsh is the editor of the Data Desk, a team of reporters and computer programmers in the Los Angeles Times newsroom. He is also an organizer of the California Civic Data Coalition, an network of journalists working to open public data, and the founder of PastPages, an open-source archive dedicated to better preserving digital news.
+
+_Description and speakers from [official schedule](https://www.ire.org/events-and-training/event/3189/3576/)_
+
+## nicar18-notes/README.md
+
+# NICAR 2018
+
+Chicago, Ill. March 8-11, 2018
+
+Here are the sessions I went to at NICAR 2018. Each session title links to more detailed notes, including links to tipsheets and the session description on [ire.org](https://ire.org/). (Pro tip: If you're an IRE member, the audio links will be posted on the sessions' pages at IRE several weeks after the conference).
+
+Also see the end of this list for more resources.
+
+### Thursday
+
+#### [How and why to make your data analysis reproducible](01-01-reproducible-data-analysis.md)
+
+_Ryann Grochowski Jones, Hannah Recht, Jeremy Singer-Vine, Hannah Cushman_
+
+I learned how making your data analysis pipeline a reproducible thing can save you. Reproducibility doesn't necessarily mean automated. And how do deal with those pesky steps you have to do by hand.
+
+#### [Education civil rights data: The good, the bad, the dirty (Diversity Track)](01-02-education-civil-rights-data.md)
+
+_Jennifer LaFleur, Alex Harwin, Kameel Stanley_
+
+My colleague Kameel Stanley along with Alex Harwin and Jennifer LaFleur talked about what kinds of education civil rights data exist, how to get them and some pitfalls. Kameel talked about a project I helped with where we discovered very [high disparities in suspensions of students in Kindergarten through 3rd grade](http://www.welivehere.show/posts/2016/4/15/suspended-futures).
+
+#### Conversation: Learn from my fail
+
+_Saurabh Datar, Brent Jones, Maggie Lee_
+
+No link here, because I helped lead this one along with Maggie Lee and Saurabh Datar. This well-attended conversation was about how we all fail and what we learn from it. Having the first few tales of fails come from the likes of the New York Times and the Washington Post made it clear that this really does happen to everyone and the important thing is what we can learn.
+
+#### [Building happy cross-functional teams](01-04-cross-functional-teams.md)
+
+_Becca Aaronson, Joe Germuska, Emily Ingram_
+
+A follow-on from the previous therapy session, this one focused on the people around us. We heard about how newsrooms are integrating data desks into their workflow and moving away from the service-desk mentality, as well as how to split up work, what to look for in a manager and how to deal with less-technical people.
+
+#### [Investigating hate when the data isn’t there (Diversity Track)](01-05-investigating-hate.md)
+
+_Duaa Eldeib, Melissa Lewis, Ken Schwencke, Nadine Sebai_
+
+I learned about the ProPublica Documenting Hate database, and a few projects that it helped power. Also why hate crime data in the U.S. is terrible, and tips for interviewing people who have experienced bias crimes.
+
+#### [Conversation: More bibles, fewer priests: Tools for running self-managing teams](01-06-self-managing-teams.md)
+
+_Brian Boyer_
+
+Brian Boyer, as usual, facilitated a fantastic discussion about team management and how teams can better manage themselves. We learned about "roles, goals and rules" for better management.
+
+### Friday
+
+#### [How to find reporting leads and publishable facts in text data you already have](02-01-data-you-already-have.md)
+
+_Jeff Ernsthausen, Jeremy Merrill, Youyou Zhou_
+
+I learned how to take piles of text data and find patterns across documents, outliers and extract meaning from them. As well as how to find some data in the first place, bulletproof your analysis and present text data.
+
+#### [Evolving forms and the future of live coverage](02-02-evolving-live-coverage.md)
+
+_Hamilton Boardman, Alastair Coote, Tiff Fehr, Tyler Fisher_
+
+The panel explored current ways of doing live coverage, and then looked at a few experimental forms and their positives and negatives.
+
+#### [Data journalism that breaks the filter bubble](02-03-break-filter-bubble.md)
+
+_Eva Constantaras, Adriana Gallardo, Anjeanette Damon_
+
+Through three case studies, we learned how to tell stories of marginalized or not-often-talked-about groups. We heard about the Lost Mothers series, about maternal harm and deaths in the U.S.; Death Behind Bars, about prisoners dying in jail; and how to do data journalism in developing countries.
+
+#### [Life after FactFinder](02-04-life-after-factfinder.md)
+
+_Ronald Campbell, Paul Overberg, Ally Burleson-Gibson_
+
+An employee of the U.S. Census, Ally Burleson-Gibson, went into the belly of the beast and faced down a roomful of reporters to demo the soon-to-come updates to American FactFinder, the tool to access Census data online.
+
+#### [Tips for harnessing new IRS nonprofit data](02-05-irs-nonprofit-data.md)
+
+_Andrea Fuller, Todd Wallack_
+
+Unfortunately I had to leave this one early (I hadn't seen my wife and kid since leaving for Chicago and they had time to FaceTime), but what I did get to hear of it was great. I've looked at this data before but it seemed inscrutable. Andrea and Todd explained the format and gave some tips for using it.
+
+#### [Lightning Talks](lightning-talks.md)
+
+Lightning talks are a series of five-minute talks given to the entire conference (i.e. there's nothing else scheduled during this time). This year we heard about
+
+* Sensor journalism when the EPA is cutting back — Kelly Calagna
+* Why non-US data sources look terrible in text processors — Jonathan Soma
+* Why good copy editors make good data journalists — Justin Myers
+* Why news nerds need more career paths in newsrooms — Matt Dempsey
+* Challenges facing immigrants working in the news industry — Kai Teoh
+* How a bunch of News Nerds helped the L.A. Times form a union — Jon Schleuss and Anthony Pesce
+* What happens when the unexpected happens in the middle of your story — Allie Kanik and Kate Howard
+* How the Washington Post built its eclipse map with rubber bands — Denise Lu
+* Why alcohol and journalism don't _have_ to go together — Rachel Alexander
+* What building a dining room table can teach you about data journalism — Steven Rich
+
+### Saturday
+
+#### [Introducing the L.A. Times Map Maker: Make maps faster](03-01-lat-map-maker.md)
+
+_Jon Schleuss_
+
+Jon Schleuss demoed the open-source map maker from the LA Times. I've been looking for a good self-service mapmaking tool that's a bit more flexible than the one we currently use, and this one may be it.
+
+#### [Data of disasters: Following the money](03-02-disaster-data-money.md)
+
+_Lee Zurik, Matt Dempsey, Omaya Sosa_
+
+Matt Dempsey gave an overview of types of disasters and some of the data that might be useful for each. Lee Zurik gave tips on following the money after a disaster, including one parish in Louisiana that was spending a ridiculous amount of money to rebuild schools. And Omaya Sosa talked about what it was like to do important, impactful journalism in Puerto Rico after Hurricane Maria.
+
+#### [Uncovering environmental hazards faced by urban children](03-03-environmental-hazards.md)
+
+_Chris Zubak-Skees, Molly Peterson, Dylan Purcell_
+
+I learned about three projects to uncover environmental hazards faced by kids, particularly in cities: Schools near busy roads (air pollution), urban heat, and a project that looked at lead paint and tainted soil in Philadelphia.
+
+#### [Shoot us straight: Correctly using data and docs on guns](03-04-guns.md)
+
+_Nick Penzenstadler, Matt Drange, Kim Smith_
+
+I learned about data on guns, including the Chicago Crime Lab's work, how to get Shotspotter data, what data is and isn't available about gun dealers, and how to build your own dataset about online gun sales.
+
+#### [I'm entitled to a spreadsheet, dang it!](03-05-entitled-to-a-spreadsheet.md)
+
+_Steven Rich, Sarah Ryley, Annie Waldman_
+
+This was a fun session about getting data from public agencies in formats we can use, including how to format records requests, what data is and isn't available because of HIPAA and FERPA, and how to manage large FOIA projects.
+
+#### [Creating a data culture that lasts](03-06-data-culture.md)
+
+_Annie Daniel, Tom Meagher, Mark Nichols_
+
+In yet another therapy session, we talked about how to better integrate ourselves in the newsroom, get support for what we do and fight…for the right…to byyyyyyylines (sorry).
+
+### Sunday
+
+#### [Sensor journalism: How do we do it and what are the limits?](04-01-sensor-journalism.md)
+
+_Michael Corey, Marianne Bouchart, Denise Lu, Kelly Calagna_
+
+We learned about different types of sensor data that are available or in the works, a project called SensorGrid that's trying to democratize the collection of data, using sensor journalism to catch crooks, and using map imagery.
+
+#### [Python: Writing tests for your code](04-02-python-tests.md)
+
+_Andrew Chavez_
+
+I learned about unit testing in Python. I've read about it before but not really been sure how to go about it. Now I know how to start.
+
+#### [Archiving data journalism](04-03-archiving-data-journalism.md)
+
+_Katherine Boss, Meredith Broussard, Nora Paul, Ben Welsh_
+
+Finally, a panel that began with Ben Welsh saying "This is going to be a dark panel," and included Meredith Broussard later saying, "Death comes to all of us." This was about why we're terrible at archiving data journalism and ways we might be better at it.
+
+## More resources
+
+[NICAR Schedule (see all the sessions)](https://www.ire.org/events-and-training/event/3189/)
+
+[Conference Blog](https://ire.org/blog/car-conference-blog/)
+
+[IRE's repository of tipsheets and slides](https://www.ire.org/conferences/nicar18/tipsheets-and-links/)
+
+[Chrys Wu's repository of tipseets, slides, tools, etc.](http://blog.chryswu.com/2018/01/23/nicar18-slides-links-tutorials/)
+
+## nicar18-notes/lightning-talks.md
+
+# Lightning Talks
+
+## Sensor Journalism in the Age of Trump’s EPA
+
+[Slides](https://drive.google.com/file/d/1Z0AxXGX46xUk9208TB14H7OIjVfUrODR/view)
+
+Proposed by: Kelly Calagna
+
+With significant EPA budget cuts and program rollbacks set in place by the Trump administration, the role of environmental journalists has become vital in watching over the health of the public and the planet. In this talk, I will share the concept of a sensor project being developed by Northwestern University’s Knight Lab that will enable journalists and citizen scientists to collect high-definition air quality data that can be used to uncover at-risk populations.
+
+### Notes:
+
+Air pollution causes 1 in 9 deaths, mostly lung cancer.
+
+Killing ourselves and our climate.
+
+Administration is doing little to change it. Lowered standards and budget of EPA.
+
+What can journalists and citizen scientists do to fill the gaps?
+
+Sensor journalism. Can monitor pollutants, ozone, sound, etc.
+
+SensorGrid. Democratize environmental data. Each node open source, open architecture, low-cost (under $200). Currently does particulate matter.
+
+Not many sensors even in Chicago. Currently, algorithms calculate estimates.
+
+---
+
+## HELLO WORLD: How the English langauge failed international data journalism
+
+[Slides](http://jonathansoma.com/projects/charsets/)
+
+Proposed by: Jonathan Soma
+
+Why do non-US and accented data sources tend to look like ⍰⍰⍰⍰? Let's take a trip into the magical land of çharacter encodìng! Learn why Excel can't cope with the Champs-Élysées, how emoji saved the planet, and how to say adiós/さようなら/до свидания to these kinds of problems forever. 👋
+
+### Notes:
+
+Why your international data looks like garbage
+
+Character encoding.
+
+US-ASCII just has letters, numbers.
+
+Latin-1 doubled it.
+
+ISO-88591-SOMETHING
+
+You open a file and it's a bunch of numbers. Your computer has to interpret. There's no way to know just going in.
+
+Unicode 1.x - 16k characters, unicode 2.x - 1.1m
+
+You can select different encodings in excel and most programming packages.
+
+---
+
+## Good Copy Editors Make Good Data Journalists
+
+[Slides](https://docs.google.com/presentation/d/1_KlcTijrcHwQXVNwkPG072j7WboAvhtuB18H8_6UXSE/view#slide=id.p)
+
+Proposed by: Justin Myers
+
+Data journalists love to talk about precision. So do copy editors! I'll show you how thinking like a copy editor can help you find bugs, lock down your methodology and ensure your stories say exactly what you mean.
+
+### Notes:
+
+Enjoyed copyeding most.
+
+It's not trendy but it's the truth.
+
+Both about precision. Say what we mean and mean what we say.
+
+"What do you mean by that?" in english and in code.
+
+Last line of defense against doublespeak.
+
+Punctuation.
+
+Everything reflects some sort of editorial decision. Copyeditors excel at thinking about these decisions and their ramifications.
+
+---
+
+## We Need Multiple Career Paths for News Nerds
+
+[Slides](https://medium.com/@mizzousundevil_7561/hi-my-name-is-matt-dempsey-and-im-the-data-editor-at-the-houston-chronicle-7891b509e0d7)
+
+Proposed by: Matt Dempsey
+
+Data journalists provide an essential role in modern newsrooms. We request, clean up and crunch data for stories big and small. We build interactive experiences and data visualizations for important projects. We're the hotness. But what does advancing in journalism look like if you have data skills? Few of us get to become editors. Why? Why does our news judgement mean less than those who come up as writers first? Why is the only career path for most over on the digital or tech side of things? I'll make an argument that just like with bylines, data journalists deserve a seat at the management table too.
+
+### Notes:
+
+Few of us are in leadership positions even though journalists are in huge demand. Either access or because we're not good candidates, but we're awesome so it's probably the access thing.
+
+Had to argue for bylines. Fight for title of editor. Still doesn't oversee team of reporters.
+
+"I was more respected when I was an intern."
+
+30% of us feel our organizations don't value our work. 39% need editors who are qualified.
+
+Who better to understand some of our challenges?
+
+What can we do?
+
+Help current leaders understand this is a problem.
+
+Passionate people who want to take journalism to a higher level.
+
+We need more of us in positions of power. And support each other.
+
+Journalism needs us there.
+
+---
+
+## Immigrants working in the news industry
+
+[Slides](https://docs.google.com/presentation/d/1NYcufcRDX6YPuK7e65gsFyo3uqfjio3Oh52YfVPJbvA/edit)
+
+Proposed by: Kai Teoh
+
+I want to talk about immigrants working in the industry, what the visa challenges they might face (that I've learned or experienced or am experiencing), and maybe focus a little on how others can be better supporters or allies to them.How "just get married" is really not a good suggestion, and can be really hurtful.How job departments and titles and classifications can matter a great deal more.How having a support network not just amongst peers, but also amongst supervisors/managers can mean the difference between being in the country or, well, not.
+
+### Notes:
+
+Why should you care? Immigrants are people too.
+
+Common experiences: Job offers rescinded because they need a visa. Job in the product team but they have a degree in journalism. People have to leave the country because they missed a deadline.
+
+How can we do better?
+
+"Why don't you just get married?" That's kind of not the point.
+
+"I'd harbor you!" Yeah, no.
+
+If there's a union it can protect you.
+
+If you're hiring, announce the policy. Don't want to go through the process of interviewing and find out later it doesn't work.
+
+If you're a candidate, know the process.
+
+Amplify our voice. When we talk about it it makes people uncomfortable.
+
+---
+
+## The news nerd guide to forming a union
+
+[Slides](https://docs.google.com/presentation/d/1azXdAK_RJVzSY2Lmxa3jycKXOoo5EOhkmucwE4KosNM/edit)
+
+Proposed by: Jon Schleuss and Anthony Pesce
+
+Data nerds Jon Schleuss and Anthony Pesce started the union at the L.A. Times. Learn how they relied on good data, used the company’s technology against it and organized the newsroom at a historically anti-union paper.
+
+### Notes:
+
+85% said "hell yes"
+
+Reported on ourselves.
+
+Data analysis on commutes, sent to publisher, published his response.
+
+Technical issues: Getting a list of all the employees.
+
+Protect your communication. The company was monitoring their comms.
+
+Built a website. Just go with squarespace.
+
+Logo.
+
+Had to email whole newsroom. Company blocked access to listserv, had to figure out way around.
+
+Predicted election.
+
+And they won.
+
+---
+
+## Hope for the best, prepare for the worst
+
+[Slides](https://docs.google.com/presentation/d/1xDJwf9Btpa4B8xCt--cBIa3xVItJSBpbRQYfa-qd76w/edit#slide=id.p)
+
+Proposed by: Alexandra Kanik and Kate Howard
+
+Part of publishing an investigation is anticipating how your audience will react, and being ready for it. But what about when the unexpected happens? In December 2017, we published a 5-part series about a state representative. In the middle of the roll out, he killed himself. We share what we learned about being prepared technologically, editorially, and emotionally for the unexpected.
+
+### Notes:
+
+The Pope's Long Con
+
+It was going pretty well. We were getting a lot of attention and a lot of traffic. Then he killed himself.
+
+We planned for a Kentucky audience. How to figure out how micro aws server could not crash. In the end I just had to go to bed and pray that the website would stay up.
+
+Pjax — single page application, limited requests to server. Assets split between 2 servers — django on ec2 and media on s3.
+
+Expected that rep might step down or not step down. Did not expect this.
+
+But some of the conversations help them be prepared.
+
+They'd done an extensive fact check. The story was right. Legal review.
+
+Had additional reporters on hand to cover fallout (funeral, etc.).
+
+Statement offered condolences but stood by story. Ignored trolls.
+
+Brought in counselor and security. Editor gave them credit card (beers and lunches).
+
+Make sure you're thinking about everyone on team, not just main writers. Keep doing journalism.
+
+---
+
+## I can’t believe it’s not georeferenced! How we made a scrolly eclipse map with rubber bands, screenshots and math. (to be presented with Armand Emamdjomeh)
+
+[Slides](https://docs.google.com/presentation/d/1nSzb-FjwmCFoI0lnPbiEH4F76xSUYw75TfyRJiTw4UA/edit?usp=sharing)
+
+Proposed by: Denise Lu
+
+No georeference? No problem. We had a what-if idea and put it together with nontraditional methods. What if you could scroll through the path of the Great American eclipse and look at it from a birds-eye view? ...What if it was one seamless image, from West Coast to East? ...What if you superimpose the umbra of the eclipse as you scrolled? ...What if the page could follow the eclipse in real time? The 30,000-pixel journey involves screenshots, rubber bands, some Photoshop and D3 magic and a lot of hacks, and was literally held together with Scotch tape at points.
+
+### Notes:
+
+Step 0: "Wouldn't it be cool if?"
+
+1. Shaded relief
+2. Raster land use
+3. Tone in photoshop, export geotiffs
+4. Import to google earth. (still georeferenced at this point)
+5. Vector data
+6. Screenshot time = rubber bands (Why? Easiest way)
+7. Photoshop merge, then fix by hand
+8. point of no return: Flatten.
+
+Post-Flattening (P.F.)
+
+Ai2HTML - 21 artboards!
+
+Custom-fit vector data
+
+3000+ labels added by hand
+
+The Great American Eclipse Road Trip (GEART)
+
+Needs a minimap.
+
+Minimap, time and shadow shape all done using position on page.
+
+Progressive image loading.
+
+---
+
+## Real Talk: Alcohol, Journalism and What I Did About It
+
+[Slides](https://docs.google.com/presentation/d/19aJGbKu6mjJBURtMUqe2fsKSuenfq8RKeEj_mmQ5icg/edit#slide=id.g34c155cfec_0_1)
+
+Proposed by: Rachel Alexander
+
+Journalism isn’t the healthiest industry for someone with eight alcoholics in her family. Using my experience as an addiction reporter and beer enthusiast, I'll talk about how I realized I was using alcohol in unhealthy ways, how I cut back and what you can do if you'd like to drink less while doing a stressful job.
+
+I designed and built a dining room table; here's what it taught me about data.
+
+### Notes:
+
+We all have stressful jobs. What if we saw this as a problem instead of a fun quirky feature?
+
+Not moralizing. Just be mindful. What if heavy drinking wasn't a default.
+
+Why change? You might be drinking more than you think.
+
+Used to think either you're an alcoholic or you're not. Turns out people are more complicated.
+
+Federal guidelines: 7 drinks per week for women, 14 for men.
+
+Geek out about it. Spreadsheet! Kind of like a reporting project.
+
+Didn't make it easier. I miss not having to think about it. But a bunch of good stuff was happening too!
+
+---
+
+## I designed and built a dining room table; here’s what it taught me about data
+
+[Slides](http://slides.com/stevenrich/woodendata#/)
+
+Proposed by: Steven Rich
+
+Working with wood is more like working with data than anything else I've ever done. It also taught me a lot I never would have considered otherwise. Allow me to be the Nick Offerman of data and impart my experience to you and I'll give you both a new perspective on data and a design for a functional extendable dining room table.
+
+### Notes:
+
+Expectation is almost never reality. Something will go wrong.
+
+Don't start by building a table.
+
+Design for humans first. Think about usability from the beginning.
+
+There are a lot of ways to build a table.
+
+Don't reinvent the wheel.
+
+The type of join(t) matters. Butt joint = matching on names.
+
+Measure twice, cut once.
+
+Cut bigger and sand it down.
+
+Perfect fits should scare you.
+
+Fix problems as you see them.
+
+Use the right tools.
+
+You're going to get cut. Learn from it.
+
+Don't stain good wood.
+
+You need to think about what's missing.
+
+No one is a master, the best never stop learning.

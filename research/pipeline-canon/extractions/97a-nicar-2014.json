@@ -1,0 +1,141 @@
+{
+  "source_id": "97",
+  "source_file": "97a-nicar-2014.md",
+  "source_title": "NICAR Tipsheets Archive (2020–2025)",
+  "author": "IRE/NICAR, compiled by Sharon Machlis",
+  "year": "ongoing",
+  "chunk": null,
+  "chunk_words": 3968,
+  "extracts": [
+    {
+      "extract": "Think about the end product when choosing the best tools to get there.",
+      "chapter": "Rifling through the mapping toolbox",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "tool selection",
+        "workflow design"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Use Caution: Doublecheck your results. Lat/Lng may be wrong. Check the precision field.",
+      "chapter": "Rifling through the mapping toolbox",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "geocoding",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tips to help avoid mistakes: Try to prove yourself wrong. Run it by your targets. Ask an expert (in the newsroom or not). Make sure you're using the right test.",
+      "chapter": "Enhance your stories with statistics",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "statistical analysis",
+        "verification",
+        "bulletproofing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Stop doing stuff by hand. Automate it. Create a pipeline from start to finish.",
+      "chapter": "Workflows for data projects",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "automation",
+        "workflow design",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Can't automate decisions, can automate processes. Always work on a copy. Unit test when you are making a novel assertion. You are responsible for the code you write.",
+      "chapter": "Workflows for data projects",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "reproducibility",
+        "testing",
+        "data integrity",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Is the data good? Define good. Boxplots compare individual to aggregate. Step 0: Plot the data. All models are wrong, but some are useful.",
+      "chapter": "Data in the sciences",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "statistical analysis",
+        "visualization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Collect everything. You can't know it disappeared if you didn't know it was there in the first place.",
+      "chapter": "Lightning Talks",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "data preservation",
+        "monitoring"
+      ],
+      "notes": "Sisi Wei on detecting censorship/ghosting"
+    },
+    {
+      "extract": "Define — write a headline for the project and display it. Brainstorm — no idea is bad. Wireframe/prototype — sanity check. Refine and perfect — start small and work up, not the other way around. Deliver.",
+      "chapter": "Presentation as a storytelling tool",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "design process",
+        "user-centric design",
+        "storytelling"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do a rolling investigation: get (and show) some data, explain the data, engage with the community, repeat.",
+      "chapter": "Cross-platform collaboration for data projects",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience engagement",
+        "iterative reporting",
+        "collaboration"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Check out the subject definitions file. It might not mean what you think it means. Check out the universe. It might not be counting who you think it's counting.",
+      "chapter": "Census I: Must-have data for every beat",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data definitions",
+        "census data",
+        "data literacy"
+      ],
+      "notes": ""
+    }
+  ]
+}

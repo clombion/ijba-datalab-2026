@@ -1,0 +1,290 @@
+{
+  "source_id": "152",
+  "source_file": "152-dj-lessons-interdisciplinary-course.md",
+  "source_title": "Data Journalism: Lessons Learned While Designing an Interdisciplinary Service Course",
+  "author": "Plaue and Cook",
+  "year": "2015",
+  "extracts": [
+    {
+      "extract": "Data journalism is defined as a workflow that consists of: obtaining datasets via scraping or Freedom of Information Act Requests; cleaning (i.e. correcting errors and structuring data) and manipulating large datasets (i.e. using similar fields to combine relevant datasets); producing original data analysis using statistical concepts; designing graphics, visualizations, or multimedia accompaniments; using statistics to tell stories and illustrate concepts in an easy-to-understand way; creating media that has value for readers",
+      "chapter": "Related Work",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "workflow",
+        "pipeline",
+        "data journalism definition"
+      ],
+      "notes": "6-step workflow definition from Gray et al. Data Journalism Handbook",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The six-step workflow definition endures conceptually but specific steps like scraping and cleaning are now substantially LLM-assisted"
+    },
+    {
+      "extract": "The unit on data acquisition focused on locating, examining and searching through government data sets. In-class exercises primarily used datasets obtained from HealthData.gov and FDA.gov. To provide practical knowledge about gaining data through public information requests, we had two guest speakers provide their expertise from drastically different viewpoints: the journalist submitting requests and the administrator at our institution who receives requests.",
+      "chapter": "Course Content — Data Acquisition",
+      "pipeline_step": "Get",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "government data",
+        "FOIA",
+        "public records",
+        "data acquisition"
+      ],
+      "notes": "Dual-perspective FOIA teaching: requestor and administrator",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching data acquisition through government portals and dual-perspective FOIA instruction remains essential civic and legal knowledge"
+    },
+    {
+      "extract": "Data sets are often dirty where it may be formatted incorrectly or inconvenient for data processing. In addition, data sets may contain erroneous data. Our data-cleaning unit focused on using Google Refine and advanced features of Microsoft Excel to spot questionable data and reformat data.",
+      "chapter": "Course Content — Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "dirty data",
+        "data quality",
+        "cleaning rationale"
+      ],
+      "notes": "Framing: dirty data = formatting errors + erroneous values",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding that data is dirty and recognizing formatting errors vs erroneous values is conceptual knowledge that endures even when AI cleans data"
+    },
+    {
+      "extract": "using conditional rules to highlight data that exceeds the expected range",
+      "chapter": "Course Content — Data Cleaning",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "range checking",
+        "conditional formatting",
+        "outlier detection"
+      ],
+      "notes": "Excel conditional formatting as verification technique",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Conditional formatting for range-checking is now supplemented by LLMs that can identify outliers and anomalies conversationally"
+    },
+    {
+      "extract": "using advanced Excel formulas including VLOOKUP, RIGHT, LEFT, SEARCH to combine and format data; using Excel formulas to change contents of a cell into more useful formats (e.g. convert a date in the format of 2/13/2014 into 4 columns with a weekday, day, month, and year)",
+      "chapter": "Course Content — Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Excel",
+        "VLOOKUP",
+        "data transformation",
+        "date parsing"
+      ],
+      "notes": "Specific Excel formulas for restructuring data",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Specific Excel formulas like VLOOKUP, RIGHT, LEFT, SEARCH for data transformation are now handled more naturally by LLM-assisted coding"
+    },
+    {
+      "extract": "identifying characteristics of suspicious and/or misleading data",
+      "chapter": "Course Content — Data Cleaning",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data integrity",
+        "suspicious data",
+        "verification heuristics"
+      ],
+      "notes": "Listed as core cleaning competency but is fundamentally a verification skill",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Identifying characteristics of suspicious and misleading data is a critical thinking skill that becomes more important when AI automates cleaning"
+    },
+    {
+      "extract": "using Google Refine to correct spelling mistakes in hand-entered data",
+      "chapter": "Course Content — Data Cleaning",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Refine",
+        "spelling correction",
+        "data standardization"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Google Refine for spelling corrections in hand-entered data is now largely handled by LLM-powered fuzzy matching and entity resolution"
+    },
+    {
+      "extract": "the instructor taught user-centered design methods. As part of a motivation for the course, Martin Wattenberg's Baby Name Wizard was used as an example of an interactive visualization of a large, public data set. Students critiqued the Name Wizard along dimensions of usability, interaction design, and journalistic value.",
+      "chapter": "Course Content — Data Reporting and Visualization Techniques",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "user-centered design",
+        "visualization critique",
+        "usability",
+        "journalistic value"
+      ],
+      "notes": "Three critique dimensions: usability, interaction design, journalistic value",
+      "llm_relevance": "endures",
+      "relevance_rationale": "User-centered design methods and critiquing visualizations along usability, interaction, and journalistic value dimensions endure as design principles"
+    },
+    {
+      "extract": "Use the Wehrend and Lewis analytical framework to explore and report relationships in data; Describe proper visualization techniques to effectively convey data, including multi-variate and time-series data.",
+      "chapter": "Course Content — Data Reporting and Visualization Techniques",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "analytical framework",
+        "Wehrend and Lewis",
+        "visualization selection",
+        "multivariate data"
+      ],
+      "notes": "Analytical framework for matching data relationships to visualization types",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Analytical frameworks for matching data relationships to visualization types remain valid design knowledge regardless of AI chart generation"
+    },
+    {
+      "extract": "The final project in the course consisted of each student picking a story that he or she wished to focus on, conducting background research, acquiring and clean data, interviewing multiple sources, conducting analysis, and turning in completed visualization with companion story and methods.",
+      "chapter": "Portfolios",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "project pipeline",
+        "story selection",
+        "methodology documentation"
+      ],
+      "notes": "End-to-end pipeline: story pick -> research -> acquire -> clean -> interview -> analyse -> visualize + write + document methods",
+      "llm_relevance": "endures",
+      "relevance_rationale": "End-to-end project pipeline from story selection through methodology documentation remains a valid capstone assessment structure"
+    },
+    {
+      "extract": "In this model, student work in a newsroom setting during class producing stories or projects as they would in a real newsroom. These stories are published for real audiences. ... by using some flipped-classroom strategies, we used class time for students to work on their news stories and visualizations and collaborate with each other. We encouraged, but did not require, students to submit their stories to publication venues.",
+      "chapter": "Related Work — Practical Knowledge in the Classroom",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "teaching hospital model",
+        "flipped classroom",
+        "authentic audience",
+        "newsroom simulation"
+      ],
+      "notes": "Teaching hospital model: students produce for real publication, not just grading",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching hospital model with flipped classroom and real-audience publication remains an effective pedagogical approach"
+    },
+    {
+      "extract": "Search through government databases for relevant data sets; Prepare a public information request (e.g. FOIA); Discuss the challenges associated with public information requests",
+      "chapter": "Course Content — Data Acquisition (Table 2)",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "government databases",
+        "FOIA",
+        "public records requests"
+      ],
+      "notes": "Three-part acquisition unit: search, prepare request, discuss challenges",
+      "llm_relevance": "endures",
+      "relevance_rationale": "FOIA preparation and understanding public records request challenges remain essential civic literacy skills"
+    },
+    {
+      "extract": "The final project should have more milestones to help students see progress more clearly.",
+      "chapter": "Conclusions",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "project management",
+        "milestones",
+        "scaffolding"
+      ],
+      "notes": "Lesson learned: insufficient milestones hindered student progress tracking",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Project milestones and scaffolding for student progress tracking are pedagogy fundamentals unaffected by AI tools"
+    },
+    {
+      "extract": "A mix of journalism and computer science students has the potential to help both populations hone their analytical and communication skills.",
+      "chapter": "Conclusions",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "interdisciplinary teams",
+        "skill complementarity",
+        "collaboration"
+      ],
+      "notes": "Recommendation: joint JOUR/CSCI enrollment for mutual skill development",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Mixed journalism/CS teams remain valuable but LLMs now bridge some of the skill complementarity gap between disciplines"
+    },
+    {
+      "extract": "Microsoft Excel Pivot Tables, for large data set summaries; Google Fusion Tables to create basic charts and maps of data, providing HTML code that can be embedded into Web pages; TileMill, an online resource that allows users to design aesthetically pleasing interactive maps using a CSS-like class structure; Data-Driven Documents (D3), a JavaScript library for creating interactive (and often strikingly beautiful) visualizations.",
+      "chapter": "Course Content — Data Reporting and Visualization Techniques",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "pivot tables",
+        "Google Fusion Tables",
+        "TileMill",
+        "D3",
+        "interactive maps",
+        "visualization tools"
+      ],
+      "notes": "Tool stack from simple (pivot tables) to complex (D3), scaffolded progression",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "Google Fusion Tables is defunct; TileMill is deprecated; the specific tool stack has been superseded by modern alternatives and AI-assisted viz"
+    },
+    {
+      "extract": "One goal for the class was to minimize purchases of additional software. Thus, software packages used in the course were either freely available or were provided through the university.",
+      "chapter": "Software Packages",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "tool selection",
+        "free software",
+        "accessibility",
+        "cost barriers"
+      ],
+      "notes": "Design principle: minimize cost barriers by using free/institutional tools",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Minimizing software cost barriers by using free and institutional tools remains a valid design principle"
+    },
+    {
+      "extract": "we flipped the classroom, where individual learning occurred at home and class time was used for interactive group activities and for connecting the dots between the two disciplines. Likewise, we introduced essential programming concepts through a mix of assigned lecture notes and Codeacademy's interactive lessons on JavaScript, using class time for group activities and providing hands-on time for students to seek assistance with concepts that they found challenging.",
+      "chapter": "Course Content — Programming Concepts",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "flipped classroom",
+        "self-paced learning",
+        "Codeacademy",
+        "programming pedagogy"
+      ],
+      "notes": "Flipped model: tutorials at home, class time for interdisciplinary connection and hands-on help",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Flipped classroom with Codeacademy for JavaScript endures pedagogically but LLMs now offer more adaptive and personalized programming instruction"
+    },
+    {
+      "extract": "it was a different way of thinking to sit down and figure out the best way to tell your story, and to know that there are those options available, and how can you go about that and either do it yourself or talk to somebody else about how you want to do this",
+      "chapter": "Evaluation — Theme 1",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "computational thinking",
+        "story selection",
+        "data literacy",
+        "collaboration"
+      ],
+      "notes": "Student quote: data journalism shifts editorial thinking toward what is computationally possible",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Computational thinking as a shift in editorial reasoning about what is possible with data endures and is amplified by LLM capabilities"
+    }
+  ]
+}

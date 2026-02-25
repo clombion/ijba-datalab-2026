@@ -1,0 +1,347 @@
+{
+  "source_id": "149",
+  "source_file": "149-unesco-reporting-on-ai.md",
+  "source_title": "UNESCO Reporting on Artificial Intelligence: Handbook for Journalism Educators",
+  "author": "Maarit Jaakkola (ed.), UNESCO",
+  "year": "2023",
+  "chunk": "2/2",
+  "chunk_file": "149-unesco-reporting-on-ai_chunk2.md",
+  "chunk_words": 14394,
+  "extracts": [
+    {
+      "extract": "Describing AI systems as taking actions independent of human supervision or implying that they may soon be able to do so is a pitfall. Rather than describing AI as a broad set of tools, such comparisons anthropomorphize AI tools and imply that AI tools have the potential to act as agents in the real world.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "anthropomorphism",
+        "framing",
+        "verification"
+      ],
+      "notes": "Pitfall 1: Attributing agency to AI"
+    },
+    {
+      "extract": "Images of humanoid robots are often used to illustrate articles about AI, even if the contents of the article have nothing to do with robots. This gives readers a false impression that AI tools are embodied, even when it is just software that learns patterns from data.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "visual framing",
+        "imagery",
+        "misleading representation"
+      ],
+      "notes": "Pitfall 2: Suggestive imagery"
+    },
+    {
+      "extract": "Articles often compare how well AI tools perform with human skills on a given task. This falsely implies that AI tools and humans compete on an equal footing—hiding the fact that AI tools only work in a narrow range of settings.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "false equivalence",
+        "human-machine comparison",
+        "framing"
+      ],
+      "notes": "Pitfalls 3-4: Comparison with human intelligence and skills"
+    },
+    {
+      "extract": "Describing AI systems as revolutionary or groundbreaking without concrete evidence of their performance gives a false impression of how useful they will be. This issue is amplified when the AI tool is deployed in a setting where they are known to have past failures—we should be skeptical about the effectiveness of AI tools in these settings.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "hyperbole",
+        "evidence",
+        "critical assessment"
+      ],
+      "notes": "Pitfall 5: Hyperbole"
+    },
+    {
+      "extract": "Comparing AI tools with major historical transformations like the invention of electricity or the industrial revolution is a great marketing tactic. However, when news articles adopt these terms, they can convey a false sense of potential and progress—especially when these claims are not backed by real-world evidence.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "historical analogy",
+        "hype",
+        "critical assessment"
+      ],
+      "notes": "Pitfall 6: Uncritical comparison with historical transformations"
+    },
+    {
+      "extract": "Claims about how future developments in AI tools will affect an industry, when made without evidence, are mere speculation. Similarly, articles can include false claims about what an AI tool can do. News articles often cite academic studies to substantiate their claims, but there is sometimes a gap between the claims made based on an academic study and what the study reports.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "speculation",
+        "source verification",
+        "academic citation",
+        "fact-checking"
+      ],
+      "notes": "Pitfalls 7-9: Unjustified future claims, false progress claims, incorrect study reporting"
+    },
+    {
+      "extract": "Using deep-sounding phrases like 'the elemental act of next-word prediction' or 'the magic of AI' implies that an AI tool is doing something remarkable. It hides an understanding of how mundane the tasks are, and that AI tools are functioning exactly as expected.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "language",
+        "hype",
+        "demystification"
+      ],
+      "notes": "Pitfall 10: Deep-sounding terms for banal actions. Cites Emily Bender."
+    },
+    {
+      "extract": "When an article only or primarily has quotes from company spokespeople or researchers who built an AI tool, it is likely to be over-optimistic about the potential benefits of the tool. News articles often re-use terms from companies' PR statements instead of describing how an AI tool works, which can lead to misleading wording that misrepresents the actual capabilities.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "sourcing",
+        "corporate PR",
+        "balance",
+        "AI coverage",
+        "critical sourcing"
+      ],
+      "notes": "Pitfalls 11-12: Treating spokespeople as neutral; repeating PR terms"
+    },
+    {
+      "extract": "Limitations such as inadequate validation, bias, and potential for dual-use plague most AI tools. When these limitations are not discussed, readers get a skewed view. Even if an article discusses limitations and quotes experts, limitations are often downplayed in the structure of the article, for instance by positioning them at the end or giving them limited space. Limitations can also be caveated by positioning experts who explain them as skeptics who don't see the true potential of AI.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "limitations",
+        "story structure",
+        "balance",
+        "framing"
+      ],
+      "notes": "Pitfalls 13-15: No discussion of limitations, limitations de-emphasized, skeptics framing"
+    },
+    {
+      "extract": "When discussing AI tools, articles often foreground the role of technical advances and downplay all the human labor that is necessary to build the system or keep it running. Downplaying human labor misleads readers into thinking that AI tools work autonomously, instead of clarifying that they require significant overhead in terms of human labor.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "invisible labor",
+        "automation narrative",
+        "human infrastructure"
+      ],
+      "notes": "Pitfall 16: Downplaying human labor. Cites Ghost Work by Gray and Suri."
+    },
+    {
+      "extract": "Including numbers like '90% accuracy' in the body of the article without specifying the conditions under which these numbers are calculated can misinform readers about the efficacy of an AI tool, especially because AI tools are known to suffer performance degradations even under slight changes to the datasets they are evaluated on.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "AI coverage",
+        "performance metrics",
+        "uncertainty",
+        "data literacy",
+        "statistical reporting"
+      ],
+      "notes": "Pitfall 17: Performance numbers reported without uncertainty estimation or caveats"
+    },
+    {
+      "extract": "Referring to AI tools as inscrutable black boxes is a category error. Instead of holding the developers of these tools accountable for their design choices, it shifts scrutiny to the technical aspects of the system. Journalists should hold developers accountable for the performance of AI tools rather than referring to these tools as black boxes and allowing developers to evade accountability.",
+      "chapter": "A checklist of eighteen pitfalls in AI journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "AI coverage",
+        "accountability",
+        "black box",
+        "transparency",
+        "developer responsibility"
+      ],
+      "notes": "Pitfall 18: The fallacy of inscrutability"
+    },
+    {
+      "extract": "Identify working strategies for the following procedures in terms of where to find open data, which software to use, and what to do with the software: finding the most frequent words, phrases, and topics in governmental documents (textual analysis, topic modelling); visualizing statistics on a map (data visualization); automatic collection of news topics from different sites (aggregation). Reflect on what kind of competence requirements the methodology creates.",
+      "chapter": "Suggested Assignments",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "text analysis",
+        "topic modelling",
+        "data visualization",
+        "aggregation",
+        "open data",
+        "competence"
+      ],
+      "notes": "Assignment prompt; not direct method but outlines a practical pipeline for text/data work"
+    },
+    {
+      "extract": "To use AI for augmenting journalistic methods, reporters must learn more about the possibilities. Up to this point, responsibility for newsroom innovation is often located with IT departments. To ensure a professionally and financially sustainable development of journalism, editorial staff and management must get involved too.",
+      "chapter": "Creative Destruction of Journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom innovation",
+        "AI adoption",
+        "editorial leadership",
+        "organizational change"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The core elements of journalism — story telling in different formats, critical thinking, verification, human values, ethics, autonomy and integrity — become even more important at a time when smart machines are entering every part of society and professional life. The professional identity of journalists is likely to change, but the development indicates an upvaluation of the tasks, traits, and functions that are not possible to automate.",
+      "chapter": "Creative Destruction of Journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "professional identity",
+        "automation",
+        "human skills",
+        "verification",
+        "critical thinking"
+      ],
+      "notes": "Cites Lindén 2020"
+    },
+    {
+      "extract": "A critical understanding of AI requires tracing how system structures are based on decisions that veil economic, ethical or value-based political interests, which have consequences that maintain structures of power. Journalists play a pivotal role in mediating timely knowledge to policymakers, developers, researchers, educators, and civil society actors.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "critical AI literacy",
+        "power structures",
+        "journalism role",
+        "public interest"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The public discourse in news media on AI has certain biases, such as the dominance of industry sources, major transnational organizations and their new products or initiatives, as well as insider and expert views. The gender, racial and regional biases of AI systems may also easily be transferred into the journalistic discourse and coverage if journalists are not conscious of them.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "source bias",
+        "industry dominance",
+        "gender bias",
+        "racial bias",
+        "AI discourse"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Technology-anchored ways of reporting — such as immersive journalism and mobile journalism, as well as the collaborative work of data journalists, journalist-programmers and hacks and hackers — have deepened journalism's relationship to data and computer systems. Approaches with a problem-solving and developing mindset, such as constructive journalism, solutions-based journalism, investigative journalism and fact-checking, have helped journalists analyze and validate information and co-think with audiences.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "data journalism",
+        "fact-checking",
+        "solutions journalism",
+        "audience engagement"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Participatory, reciprocal and dialogical approaches in journalism invite citizens and consumers to investigate the everyday dimensions of narrow AI. Journalism can increase public understanding by diversifying the practices of presentation beyond mediation of information, engaging people through immersion, gamification and involvement.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "audience engagement",
+        "participatory journalism",
+        "immersion",
+        "gamification",
+        "AI literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The core competences foreseen as essential for future journalists include personal characteristics (curiosity, accuracy, ability to handle stress), personal competences (broad general knowledge, news judgment, criticality), abilities related to work and organisational behaviour (social skills, team player skills), and work practices and methods (information search and acquisition, interview techniques, analysis of information and data, sourcing, techniques of presentation and storytelling). Essential additions include numeracy skills — the ability to understand data, statistics and scale — and the ability to translate ideas from highly specialized terminology to everyday contexts.",
+      "chapter": "Afterword: Educating AI-savvy Journalists",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "journalism competences",
+        "numeracy",
+        "data literacy",
+        "translation skills",
+        "education"
+      ],
+      "notes": "Cites Poynter industry report (Finberg & Klinger 2014)"
+    },
+    {
+      "extract": "Algorithms can be used to work closely with news valuation standards and praxis within an organization. The public service algorithm News Values developed for Swedish Radio personalizes the news feed based on news value ratings made by the journalists, both to create a more relevant news feed and to streamline organizational news valuation standards. The system of news values stimulates a discussion about how we do our journalism.",
+      "chapter": "AI's impact on journalistic professional identity and newsroom automation",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "algorithms",
+        "news values",
+        "personalization",
+        "public service media",
+        "editorial standards"
+      ],
+      "notes": "Swedish Radio example; Zachrisson 2021"
+    },
+    {
+      "extract": "Robots can easily learn to detect deviation from a norm or expectation: a feature used to generate news about earthquakes over 3.0 on the Richter scale or to scan the Swedish criminal record for deviations in comparison with historical data and then notify a journalist.",
+      "chapter": "AI's impact on journalistic professional identity and newsroom automation",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "anomaly detection",
+        "automated alerts",
+        "deviation from norm",
+        "news generation"
+      ],
+      "notes": "Examples: earthquake alerts (LeCompte 2015), Swedish crime data (Magnusson et al. 2016)"
+    },
+    {
+      "extract": "Go through the national ethical code for journalists and discuss how the use of a chosen AI technology or methodology in journalism may alter the ethics.",
+      "chapter": "Suggested Assignments",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ethics",
+        "AI methodology",
+        "professional codes",
+        "ethical review"
+      ],
+      "notes": "Assignment prompt; practical exercise for ethics audit of AI tools"
+    }
+  ]
+}

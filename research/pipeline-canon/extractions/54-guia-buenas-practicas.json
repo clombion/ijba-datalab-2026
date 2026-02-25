@@ -1,0 +1,174 @@
+{
+  "source_id": "54",
+  "source_file": "54-guia-buenas-practicas.md",
+  "source_title": "Guía de Buenas Prácticas para Periodistas de Datos",
+  "author": "Lorena R. Romero-Domínguez",
+  "year": "n.d.",
+  "chunk": null,
+  "chunk_words": 7917,
+  "extracts": [
+    {
+      "extract": "Identify the problem that motivates your journalistic work and define what purpose guides you: why it is of interest, how it affects citizens and how it does so in different geographic contexts over different chronological stages. Doing so helps you focus on a specific dataset, discarding numerical noise.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "problem definition",
+        "research design",
+        "scoping"
+      ],
+      "notes": "Citing protocol from Dougherty and Ilyankou (Hands on Data Visualization)"
+    },
+    {
+      "extract": "Question the data: what aspects remain unclear, which ones are uncertain, what are the causes that originate the phenomenon described by the data and in what context they occur. Always consider original ideas and unexpected angles, questioning accepted truths and approaching the familiar as if it were something new.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Define",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "critical thinking",
+        "questioning data",
+        "hypothesis formation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Datasets become 'subjects' that must be interrogated to discover their history, to understand their potentiality as sources. Once useful databases are located, ask who, how and why the data was collected, what the reliability of the catalog is, and what interests lie behind the publication.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source evaluation",
+        "data provenance",
+        "critical assessment"
+      ],
+      "notes": "Quoting Hassel Fallas (La Data Cuenta)"
+    },
+    {
+      "extract": "Prioritize access to raw data rather than those that have already been aggregated, since this will introduce constraints and biases. Raw data allow broadening the perspectives from which we view the phenomena analyzed to discover trends that might have gone unnoticed.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "raw data",
+        "aggregation bias",
+        "data collection"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Ensure that the requested data are returned in a reusable format and clean them before setting to work. The most common tools among data journalists are spreadsheet programs and OpenRefine, an open-source tool designed to clean and transform messy data: remove spaces and non-printable characters, round decimals, reformat dates, clean misspelled words, remove duplicate rows or columns, convert non-tabular formats.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data cleaning",
+        "formats",
+        "OpenRefine",
+        "spreadsheets"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always be transparent in your methods and open your data, as organizations such as CIVIO open the data they have used and indicate the methodology they followed to carry out their journalistic work.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "open data",
+        "reproducibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bear in mind what your potential audience may know about the topic and frame your work within this level of knowledge. Audiences are never uniform: people have different expectations, concerns and worries. What someone understands when they look at the data depends on what they already believe.",
+      "chapter": "Finding Data and Preparing It to Convert into Journalistic Information",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "audience awareness",
+        "framing",
+        "knowledge gaps"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A breaking news event can prompt us to search for data to generate context. We must ask: is it a common occurrence? Has it happened before? How many times? The goal is to make the event evolve from what happened to the broader phenomenon in which it is embedded. The window of opportunity is brief, requiring the story to be published in less than 24-48 hours.",
+      "chapter": "Selecting the Journalistic Angle",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "news judgment",
+        "contextualization",
+        "timeliness"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Add credibility: present information without adding biases, recognizing what is important and what is not. Sometimes the only data you have comes from an unidentified source. Always verify with another expert and do not publish biased data unless you have substantial evidence to corroborate them. Do not forget the ethical impact of the story and the care that must be applied when collecting data, the necessary protection of privacy and the transparency of the methodological process.",
+      "chapter": "From Data to Narrative",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "credibility",
+        "verification",
+        "ethics",
+        "privacy",
+        "bias"
+      ],
+      "notes": "Refs Chaparro Dominguez and Diaz-Campos on ethical best practices"
+    },
+    {
+      "extract": "Humanize your data by telling the stories of the people affected. After the data, shoe leather: you have to go to places and see what the data is saying, because if you don't, you are not telling anything. Find the people who identify and help you understand what the large chunk of data you are covering means.",
+      "chapter": "Humanizing the Story",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "humanization",
+        "field reporting",
+        "shoe-leather reporting",
+        "empathy"
+      ],
+      "notes": "Quoting Ana Tudela of Datadista"
+    },
+    {
+      "extract": "The visualization must meet three basic principles: Accuracy (clarity and integrity to not distort information), Usefulness (design must facilitate user exploration and interaction), and Adaptability (to consumption environments and users' needs in terms of depth, complexity and data modality). Resist the temptation to make spectacular decorative visualizations because the story told by the data may be lost. Functionality takes precedence over aesthetics.",
+      "chapter": "Choosing the Best Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "design principles",
+        "accuracy",
+        "usability"
+      ],
+      "notes": "Citing Material Design principles"
+    },
+    {
+      "extract": "Label your data directly rather than including legends or keys, since this allows readers to see the data and the label at the same time. Labels should be as close as possible to the points of interest, to prevent readers from constantly moving their eyes. Use annotations to include tips and explanations that highlight outliers and historical milestones. Prepare users for intensive visualizations by including one or two introductory paragraphs before the visualization.",
+      "chapter": "Choosing the Best Visualization",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "visualization",
+        "labeling",
+        "annotation",
+        "readability"
+      ],
+      "notes": ""
+    }
+  ]
+}

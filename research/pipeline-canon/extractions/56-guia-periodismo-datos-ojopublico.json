@@ -1,0 +1,237 @@
+{
+  "source_id": "56",
+  "source_file": "56-guia-periodismo-datos-ojopublico.md",
+  "source_title": "Guía de periodismo de datos",
+  "author": "David Hidalgo, Fabiola Torres (Ojo Público)",
+  "year": "n.d.",
+  "chunk": null,
+  "chunk_words": 20772,
+  "extracts": [
+    {
+      "extract": "A change in the technical capacities and operational thinking of the investigative journalist is required. The classic metaphor of the craft would have to shift from having a toolbox to managing a laboratory kit. Journalists don't need to learn to program, but they do need to develop a big data mindset, so that they understand that data contains stories that may go untold.",
+      "chapter": "The digital journalism ecosystem",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "big data mindset",
+        "skills evolution",
+        "data literacy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Journalistic work with databases comprises five stages: collection, cleaning, analysis, verification and presentation of findings. At the collection stage, know the formats and tools for collecting data; big data can be obtained through scraping. At the cleaning stage, identify duplicate records, incomplete fields, misspelled words, invisible characters or blank spaces. At the cross-referencing stage, the value of findings depends on the quality of the questions and on combining two or more records to find revealing coincidences.",
+      "chapter": "Guide for Investigating with Data",
+      "pipeline_step": "Define",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "pipeline stages",
+        "data collection",
+        "cleaning",
+        "cross-referencing",
+        "methodology"
+      ],
+      "notes": "Based on Paul Bradshaw's five-stage framework"
+    },
+    {
+      "extract": "The investigative journalist must apply traditional methodology at the verification stage: going to the necessary places, interviewing the people involved, reviewing new documents to detect the strengths and weaknesses of the database. Ask: Do the data reflect the real condition of the people? What expert can I consult to validate the cross-referencing methodology? Is it possible that the finding is correct but admits more than one interpretation?",
+      "chapter": "Guide for Investigating with Data",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "field reporting",
+        "expert consultation",
+        "interpretation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You can become a coding virtuoso if you wish, but the main task is to think about data as a journalist rather than as an analyst. No digital tool will replace the exercise of asking what relevant information the data can provide, or what would happen if one mixed one database with another.",
+      "chapter": "The digital journalism ecosystem",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "journalistic thinking",
+        "analytical mindset",
+        "questioning data"
+      ],
+      "notes": "Quoting Simon Rogers (Facts are Sacred)"
+    },
+    {
+      "extract": "The basic skills of investigative journalists are similar to those of the most qualified prosecutors and police, field anthropologists and private investigators: the use of primary sources, verification of evidence, first-hand witness interviews, and following the trails of people, documents, and money. Spreadsheets must be seen as forensic records of reality: they offer details, but the truth requires work.",
+      "chapter": "The dimension of what is investigated",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "investigative skills",
+        "primary sources",
+        "verification",
+        "forensic approach"
+      ],
+      "notes": "Quoting David Kaplan (GIJN); distinguishing leaks journalism from investigative journalism"
+    },
+    {
+      "extract": "The ICIJ performed data cleaning and organization using OpenRefine. The program dtSearch helped track names among 260 gigabytes of data. Nuix software obtained connections of keywords in email attachments without opening documents. Talend Open Studio integrated and organized data in relationship graphs. The programmers reconstructed the software system of offshore service companies, paving the way for journalists to navigate structured files and identify who was behind the companies.",
+      "chapter": "Investigations with leaked data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Analyse",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "data cleaning",
+        "cross-referencing",
+        "collaborative investigation",
+        "leaked data"
+      ],
+      "notes": "From Offshore Leaks case study (ICIJ, 2013)"
+    },
+    {
+      "extract": "For Swiss Leaks, the first step was to reconstruct the HSBC customer database from available flat Excel files. Next, relationships were drawn between names and countries. Talend software transferred the database to Neo4j graph database for organizing relationships. Linkurious facilitated visualization and analysis. The database gave rise to a diagram of 275,000 nodes with 400,000 relationships. Reporters communicated through the Voyager platform for sharing files and interview transcripts — the closest thing to a global newsroom.",
+      "chapter": "Investigations with leaked data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "graph databases",
+        "Neo4j",
+        "collaboration platforms",
+        "data reconstruction",
+        "network analysis"
+      ],
+      "notes": "Swiss Leaks case (ICIJ, 2015); 154 journalists, 47 countries"
+    },
+    {
+      "extract": "When I design a spreadsheet for a story I think about the goals: what I want to know and what the possible patterns in the data are. I never begin a process without developing a plan. I use my own matrix, which helps us aim at specific questions.",
+      "chapter": "The digital journalism ecosystem",
+      "pipeline_step": "Define",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "planning",
+        "research design",
+        "hypothesis-driven analysis",
+        "spreadsheet methodology"
+      ],
+      "notes": "Quoting Ginna Morelo (El Tiempo, Colombia) and Lise Olsen (Houston Chronicle)"
+    },
+    {
+      "extract": "The seven pharmaceutical companies had published information on their websites but in formats difficult to analyze (PDF and JPG). Two journalists and a developer downloaded and organized it in Excel, then used OpenRefine to clean and standardize doctor names. They cross-referenced with public databases of medical licenses and disciplinary records. ProPublica presented the investigation as a journalistic application where anyone can search their doctor's name.",
+      "chapter": "Investigations with constructed databases",
+      "pipeline_step": "Clean",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "format conversion",
+        "data cleaning",
+        "cross-referencing",
+        "public accountability apps"
+      ],
+      "notes": "Dollars for Docs (ProPublica, 2010)"
+    },
+    {
+      "extract": "Journalists manually created an Excel database from 59 price resolutions. The components of the price formula were broken down to determine how operating costs were included in fuel tariffs. With the help of specialists, cross-subsidies were found. The team had to build five versions of the database before finding the correct one.",
+      "chapter": "Investigations with constructed databases",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "manual database construction",
+        "iteration",
+        "expert consultation",
+        "formula analysis"
+      ],
+      "notes": "Aresep fuel pricing investigation (La Nacion Costa Rica, Hassel Fallas, 2014)"
+    },
+    {
+      "extract": "The starting point of Cuidados Intensivos was the design of a fundamental database structure for understanding the sector and identifying all State institutions that held necessary information. The main challenge was verifying data update dates. When taking random verification samples, they detected that the Medical Association was not regularly updating accredited specialties. The problem had to be corrected by hand, with specific searches of specialists' records.",
+      "chapter": "Case Study: Intensive Care",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "database design",
+        "data freshness",
+        "sampling",
+        "manual correction",
+        "verification"
+      ],
+      "notes": "OjoPúblico Cuidados Intensivos project"
+    },
+    {
+      "extract": "Official information is contradictory. When we compared physical documents with what was on Indecopi's website, we found 30 penalty resolutions against clinics that did not appear online. The application processed more resolutions than the government body itself. Always insist on obtaining physical documents in addition to digital records, as bodies may have more information than they have processed for online publication.",
+      "chapter": "Case Study: Intensive Care",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "official data gaps",
+        "document verification",
+        "persistence"
+      ],
+      "notes": "OjoPúblico lesson from Cuidados Intensivos"
+    },
+    {
+      "extract": "Technical terms hide revelations. During the investigation, we had to immerse ourselves in technical terms used by the State. Without mastery of this specialized jargon, we would have missed relevant data. When reports stated a clinic had an 'Operational risk level: 6%,' what was actually revealed was that the establishment was failing to comply with 94% of care standards. Journalists turned to experts who helped explain terminology in simple language for users.",
+      "chapter": "Case Study: Intensive Care",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "domain knowledge",
+        "technical literacy",
+        "expert consultation",
+        "reframing"
+      ],
+      "notes": "OjoPúblico lesson from Cuidados Intensivos"
+    },
+    {
+      "extract": "If the database doesn't exist, there are always ways to build it. Peru lacks an official record of sanctioned medical negligence. We resolved to build an initial database from complaints reported in the media that had been formalized with the justice system. We reviewed archives of three newspapers from 1991 through mid-2015, transferred information to a spreadsheet, then cross-referenced doctors and establishments with records from the Prosecutor's Office and the Judiciary. Only formalized cases were included.",
+      "chapter": "Case Study: Intensive Care",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "database construction",
+        "archival research",
+        "cross-referencing",
+        "data gaps"
+      ],
+      "notes": "OjoPúblico Cuidados Intensivos — building data from scratch"
+    },
+    {
+      "extract": "Liz Mineo combined traditional journalistic techniques with incipient data-thinking. She built a database of 293 works in 21 departments totaling 100 million soles by 61 companies from an 80-page leaked file. The first filter revealed works concentrated in non-vulnerable areas. The second identified shell companies owned by associates of the agency chief. The third stage was verification: visiting investment sites to discover unfinished or non-existent works. Without that field visit, findings might not have been as conclusive.",
+      "chapter": "The data community in Peru",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "database construction",
+        "pattern detection",
+        "field verification",
+        "corruption investigation"
+      ],
+      "notes": "Pioneering Peruvian case from 1997 (Liz Mineo / El Comercio)"
+    },
+    {
+      "extract": "The collaborative spirit among experts from different fields is the defining feature of Big Data era journalism. The symbiosis between code writers and journalists has taken this profession into uncharted territory in the exploration of documents previously impossible for any outlet to analyze. Investigative journalists can no longer work in isolation as lone wolves.",
+      "chapter": "The digital journalism ecosystem",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaboration",
+        "interdisciplinary teams",
+        "hackers and journalists",
+        "newsroom structure"
+      ],
+      "notes": "Recurring theme across foreword, HacksHackers, OjoPublico cases"
+    }
+  ]
+}

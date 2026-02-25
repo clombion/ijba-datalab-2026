@@ -1,0 +1,132 @@
+{
+  "source_id": "72",
+  "source_file": "72-data-journalism-africa-slr.md",
+  "source_title": "Data Journalism in Africa: A Systematic Review",
+  "author": "various",
+  "year": "2024",
+  "extracts": [
+    {
+      "extract": "Fink (2005) postulates that a systematic literature review is meant to provide a comprehensive and reproducible method for the identification, evaluation, and synthesis of the existing body of works produced by scholars and practitioners.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "systematic review",
+        "reproducibility",
+        "methodology"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Definition of systematic literature review as comprehensive and reproducible is a methodological principle independent of tools"
+    },
+    {
+      "extract": "Okoli (2015) advanced Fink's postulation by adding that for a systematic review to be rigorous, it must follow an unequivocal methodological approach that explains the procedures by which the review was conducted. The author adds that the approach must be comprehensive in such a way that the scope will include all available and relevant materials.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "rigour",
+        "transparency",
+        "comprehensiveness",
+        "systematic review"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Requirement for rigorous and transparent methodological approach in systematic reviews is a permanent standard"
+    },
+    {
+      "extract": "The researcher used Google Scholar, Sage, ResearchGate, and Taylor&Francis as the research database to search for literature using specific keywords as well as the Boolean operator OR.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database selection",
+        "Boolean search",
+        "literature search"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLM-powered semantic search now supplements traditional Boolean database searching for literature discovery"
+    },
+    {
+      "extract": "The researcher color-coded the parts relevant for achieving the objectives of the systematic review. For instance, the focus of the study, theories and methods employed were code-colored. The close and continuous reading of the selected data was to satisfy the immersion criterion proposed by Braun and Clarke (2018) to help the researcher familiarize himself with the data.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "coding",
+        "immersion",
+        "thematic analysis",
+        "close reading"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can assist with initial color-coding and thematic categorization, augmenting manual close reading"
+    },
+    {
+      "extract": "The researcher developed a table with columns that contained data on the study focus, theories, methods, and the findings and discussion sections in each literature. The last thing the researcher did was to synthesize the data extracted from the selected works. This was done through an examination of the final extracts under each column to translate the issues identified.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data extraction",
+        "synthesis",
+        "tabulation",
+        "translation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "LLMs can accelerate data extraction, tabulation, and synthesis steps in systematic reviews"
+    },
+    {
+      "extract": "The researcher purposively selected all articles published in a journal and or as book chapters. This is because journal articles and book chapters go through peer reviews and could be accorded some high level of credibility.",
+      "chapter": "METHOD AND PROCEDURE",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "inclusion criteria",
+        "peer review",
+        "credibility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Privileging peer-reviewed sources for credibility is a selection criterion independent of search technology"
+    },
+    {
+      "extract": "This study argues that future scholars interested in understanding in a more in-depth manner how journalists have appropriated data-driven journalism techniques in their news reporting should employ the ethnographic design to perform newsroom ethnography to better appreciate the culture in the newsroom.",
+      "chapter": "Research gaps",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethnography",
+        "methodology gaps",
+        "newsroom research"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Recommendation for newsroom ethnography as a research method is a methodological insight unaffected by AI"
+    },
+    {
+      "extract": "Curran (2007, as cited in Bhaskaran (2022), postulates that a foremost challenge with systematic reviews in journalism studies is the existence of grey data (thus unpublished and non-peer-reviewed materials such as research reports, working papers, conference proceedings, theses, etc).",
+      "chapter": "LIMITATIONS",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "grey literature",
+        "limitations",
+        "systematic review"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The challenge of grey literature in journalism systematic reviews persists regardless of LLM capabilities"
+    }
+  ]
+}

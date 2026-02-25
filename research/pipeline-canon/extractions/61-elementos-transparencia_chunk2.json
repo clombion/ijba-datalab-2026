@@ -1,0 +1,238 @@
+{
+  "source_id": "61",
+  "source_file": "61-elementos-transparencia.md",
+  "source_title": "Os Elementos de Transparência no Jornalismo Guiado por Dados",
+  "author": "academic",
+  "year": "n.d.",
+  "chunk": "2/2",
+  "chunk_file": "61-elementos-transparencia_chunk2.md",
+  "chunk_words": 32221,
+  "extracts": [
+    {
+      "extract": "The best journalism describes its methods with such clarity and precision that the reader is convinced that they could follow the same procedures and reach the same conclusions.",
+      "chapter": "Transparency practices in DDJ newsrooms (Brazil and Germany)",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "replicability",
+        "methodology",
+        "credibility",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In the case of DDJ, access to the original databases would allow the audience and other reporters to conduct their own analyses and judge the validity of the conclusions derived from a given journalistic piece.",
+      "chapter": "Transparency practices in DDJ newsrooms (Brazil and Germany)",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "open data",
+        "verification",
+        "replicability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The Markup Method, according to editor Julia Angwin (2021), consists of the detailed publication of the methodology used in the reports. There are three main steps toward the scientific method: the elaboration of original data, peer review by specialists, and the communication of the data.",
+      "chapter": "Emerging transparency-focused outlets (Nucleo, The Markup)",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "methodology",
+        "peer review",
+        "transparency",
+        "scientific method"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "For transparency to sustain itself as an operator of an ethical practice and a discursive resource of legitimation, it must, strictly speaking, be an element that resonates both at the organizational level and at the operational level — in this case, it must also be reflected in the product.",
+      "chapter": "Transparency and its levels: organizational and operational",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "ethics",
+        "organizational design",
+        "credibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The methodology employed in a Data-Driven Journalism report typically appears at the end of the text, in the form of a methodological note. This is a section that seeks to translate a series of procedures carried out by reporters to ensure clarity regarding the scope of data selection and collection, as well as to justify choices such as the adoption of certain sources and procedures.",
+      "chapter": "Methodology",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology",
+        "transparency",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Traces of reporting refer to journalistic records that normally remain behind the scenes and are not exposed in published texts, but that help readers gain an overview of the difficulties involved in the reporting process. They differ from methodology in that they are more specific and subtle; they indicate, for example, how many times the journalist called a given source or contacted a press office, how many databases had to be searched to find a particular topic or analytical value, as well as errors found in the original documents, among other problems.",
+      "chapter": "Traces of Reporting",
+      "pipeline_step": "Present",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "reporting process",
+        "documentation",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In addition to the possibility of describing the working method only in narrative form, one of the distinguishing features of DDJ is precisely organizing its methods in code format and, in this way, enabling the reproducibility and verification of information. Thus, other journalists and newsrooms are able to verify the content produced, as in a kind of peer review, and eventually reuse the code.",
+      "chapter": "Reproducibility and Open Source",
+      "pipeline_step": "Present",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "open source",
+        "peer review",
+        "verification",
+        "code"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The proposal depicted in Figure 32 presents a series of steps for journalistic work. It starts from a problem (1) and a hypothesis (2) for which information must be sought through research (3), and whose databases present a context (4) about how they were produced and where they are situated. After examining the feasibility of using the information found, the process moves to the stages of collection (5) and analysis of information (6), which require the elaboration of lines of open source code (7) for subsequent reproducibility.",
+      "chapter": "Proposed Method with a Focus on Transparency and Reproducibility",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology",
+        "pipeline",
+        "transparency",
+        "reproducibility",
+        "hypothesis"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The insertion of information into a spreadsheet or other type of document involves an initial human effort and is therefore subject to mistakes. Thus, data must be treated as any documentary source and, for this reason, must be evaluated in their totality. I argue that the context of data must be studied as soon as the journalist finds the evidence they intend to work with.",
+      "chapter": "Context",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "verification",
+        "source criticism",
+        "context"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "While replicability presupposes the use of code for new analyses, or could even refer to a methodology explained narratively, reproducibility involves the execution of step by step, allowing for the complete verification of results and their validation, similar to the premises adopted in open science.",
+      "chapter": "Open Source and Reproducibility",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "replicability",
+        "reproducibility",
+        "open science",
+        "verification"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When spreadsheet software is used for data analysis, formulas, filters, and pivot tables are generally employed — processes that tend to remain hidden in the results. When the analytical stages are structured in a programming language, the tools allow the step-by-step to be commented and documented, making the procedures clear and accessible so that they can be replicated or reproduced later.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "code",
+        "spreadsheets",
+        "documentation",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data collection must be related to the problem and the hypothesis proposed at the beginning of the method, and therefore may involve combining different sources. Data collection is not always simple and direct — in some government portals, for example, data are made available in closed formats (such as .pdfs, which make it difficult to extract information). In these cases, we say that the data are available, but not accessible.",
+      "chapter": "Collection",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data collection",
+        "open data",
+        "scraping",
+        "accessibility"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The formulation of a hypothesis is central to scientific investigation. It functions as a kind of guide for the researcher, directing focus toward specific questions to be answered, and for the reader, who has a kind of plan and set of premises for understanding the results presented.",
+      "chapter": "Hypothesis",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "hypothesis",
+        "scientific method",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Especially at the beginning of the pandemic, the availability and organization of data related to Covid-19 presented gaps and problems, such as underreporting of cases. In this way, data journalists needed to seek alternatives. Upon finding databases that presented numbers about the pandemic, a kind of explanation about the uncertainties and limitations of the databases needed to accompany the reports.",
+      "chapter": "Degrees of uncertainty",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "uncertainty",
+        "data quality",
+        "limitations",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Whether public or developed within a journalistic organization, a dataset must be accompanied by comprehensive documentation so that the audience is able to understand how the information was collected and how it is presented. The sources, in turn, present their own context of production and the limitations inherent to the process.",
+      "chapter": "Research",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "data biography",
+        "context",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data analysis requires multiple precautions. It is first necessary to verify whether the figures form part of a dataset that exhibits a normal distribution. Numbers that do not belong to this orderly distribution are called outliers and, although journalism has a tradition of reporting singular cases, a single absolute or isolated number is rarely able to explain a phenomenon.",
+      "chapter": "Analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "statistics",
+        "outliers",
+        "analysis",
+        "data quality"
+      ],
+      "notes": ""
+    }
+  ]
+}

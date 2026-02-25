@@ -1,0 +1,145 @@
+{
+  "source_id": "94",
+  "source_file": "94-gijn-intro-data-journalism.md",
+  "source_title": "GIJN Intro to Investigative Journalism: Data Journalism",
+  "author": "Purity Mukami, Emilia Díaz-Struck (GIJN)",
+  "year": "n.d.",
+  "chunk": null,
+  "chunk_words": 3015,
+  "extracts": [
+    {
+      "extract": "Ask who created the data, in other words, determine the source of the data, validate their credentials, and assess their credibility. Read the documentation behind the data source to figure out how the data was gathered. Also determine if the data is from a primary dataset or a secondary dataset created from other data sources.",
+      "chapter": "The Process",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source evaluation",
+        "data provenance",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data can be verified by cross-referencing it with other datasets, checking other documents, and speaking to experts. Later in the reporting process, journalists should contact the individuals or entities directly mentioned in the datasets for comment and verification.",
+      "chapter": "The Process",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "cross-referencing",
+        "right of reply"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you end up restructuring the data, remember to make a README file, known as a document of instructions, about the data and your methodology. Keep notes of your processes while working with the data. This will help to reduce errors. Keep a copy of the original data — in case of an error, it's possible to trace it to its origin.",
+      "chapter": "The Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "documentation",
+        "reproducibility",
+        "data integrity",
+        "methodology"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep a data diary of the steps taken to arrive at a value or insight. This will help during fact-checking or if you are asked questions by editors — or lawyers.",
+      "chapter": "The Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "documentation",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Also, use self-referencing and reproducible processes to answer questions later. These could include the use of Excel formulas instead of copy-pasting data; the use of programming codes; the use of a GitHub repository or other methods to keep track of the work.",
+      "chapter": "The Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "reproducibility",
+        "version control",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If someone has done an analysis, reproduce the analysis to verify that the same results are obtained. Here, a secondary person to reproduce the analysis and help fact-check is crucial.",
+      "chapter": "Fact-checking",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "reproducibility",
+        "fact-checking",
+        "peer review"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When sharing data with other organizations or even your teammates in-house, make sure you are transparent about where the data was sourced, how it was analyzed, and the limitations of the data.",
+      "chapter": "Collaborations with Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "transparency",
+        "collaboration",
+        "data sharing",
+        "limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It is also important to consider writing a methodology companion piece that explains the nature of the data, and how the work with the data was conducted.",
+      "chapter": "From data to the story: a checklist",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "methodology",
+        "transparency",
+        "publication"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Always treat data the way you treat human sources — interview the data. Ask yourself, what questions can the data answer, and document how you arrive at those answers.",
+      "chapter": "The Process",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interrogation",
+        "critical thinking",
+        "documentation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Audiences don't always care about raw data so it takes careful and creative storytelling and visual presentation for the data to make sense. Mapping the findings into a storyboard helps organize and define the aspects of a good story such as the characters, the conflict, the plot, the structure, etc.",
+      "chapter": "From data to the story: a checklist",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "storytelling",
+        "visualization",
+        "audience",
+        "narrative"
+      ],
+      "notes": ""
+    }
+  ]
+}

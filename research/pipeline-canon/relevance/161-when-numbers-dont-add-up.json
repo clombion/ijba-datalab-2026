@@ -1,0 +1,314 @@
+{
+  "source_id": "161",
+  "source_file": "161-when-numbers-dont-add-up.md",
+  "source_title": "When the Numbers Don't Add Up: Accommodating Data Journalism",
+  "author": "Sue Green",
+  "year": "2018",
+  "extracts": [
+    {
+      "extract": "The rich story potential inherent in the vast quantities of data created and captured daily is an opportunity lost to journalism students if they do not learn how to source this data, to analyse and to storify it. It is clear that data journalism skills are now not only a means for journalists to find stories but also they increase the attractiveness of new journalism graduates to employers",
+      "chapter": "Introduction",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "data sourcing",
+        "story discovery",
+        "employability"
+      ],
+      "notes": "Frames data journalism as three-step process: source, analyse, storify",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The imperative for journalism students to learn data sourcing, analysis, and storification for employability endures"
+    },
+    {
+      "extract": "Journalists need to be data-savvy … now it's also going to be about poring over data and equipping yourself with the tools to analyse it and picking out what's interesting",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Find",
+      "extract_type": "epistemological",
+      "themes": [
+        "data literacy",
+        "tool selection",
+        "analytical judgment"
+      ],
+      "notes": "Tim Berners-Lee quote, 2010. Emphasises journalist's role in selecting what is interesting from data.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Being data-savvy and equipping yourself with analysis tools needs updating since LLMs are now the primary analysis tool for many journalists"
+    },
+    {
+      "extract": "Data journalists have also innovated by institutionalising a whole new range of norms and conventions to both legitimise their practice, and overcome generalised public mistrust of journalism. In this respect, data journalism uses methods reinforced by values such as numeric infallibility, scientific rigour, computational neutrality, crowd sourced collaboration, intra-and extra-newsroom cooperation, and hyperlocal empathy to generate exclusives that are generally perceived as more accurate and transparent",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "credibility",
+        "transparency",
+        "scientific method",
+        "collaboration"
+      ],
+      "notes": "Borges-Rey 2016. Lists epistemic values data journalists use to legitimise practice.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Epistemic values of scientific rigor, transparency, and collaboration to build credibility endure and become more important with AI"
+    },
+    {
+      "extract": "Knight (2015, p. 70) cautions over 'the appropriation of the language of investigative data journalism for somewhat less rigorous material' while Flew, Spurgeon, Daniel and Swift (2012, p. 167) argue that data journalism is only as good as its data.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "rigour",
+        "data quality",
+        "critical assessment"
+      ],
+      "notes": "Warning against appropriating investigative DJ language for weak work",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Caution against appropriating investigative DJ language for less rigorous material is amplified when AI makes data work appear deceptively easy"
+    },
+    {
+      "extract": "The strength of computational journalism relies on the integrity, quality and reliability of the data available: a central concern for both journalism and information technology. Statistical anomalies, a lack of sense, misinterpretations, conflicting data standards, incomplete data, skewed results or malignly altered data pose serious problems.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data integrity",
+        "statistical anomalies",
+        "data standards",
+        "verification"
+      ],
+      "notes": "Taxonomy of data quality threats: anomalies, misinterpretations, conflicting standards, incompleteness, skew, tampering",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The taxonomy of data quality threats -- anomalies, misinterpretations, conflicting standards, tampering -- is a verification framework that endures"
+    },
+    {
+      "extract": "However important is teaching students to find and analyse data, equally important must be teaching them to verify and assess the reliability of that data.",
+      "chapter": "Introduction",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "reliability assessment",
+        "data literacy"
+      ],
+      "notes": "Positions verification as co-equal with finding and analysis",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching verification and reliability assessment as co-equal with finding and analysis is a principle amplified by AI-era risks"
+    },
+    {
+      "extract": "the teaching of data journalism 'frequently neglects fundamental journalistic topics such as ethical issues, transparency, accountability, and responsiveness'",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "transparency",
+        "accountability"
+      ],
+      "notes": "Splendore et al. 2015. Warns that technical DJ teaching neglects journalistic ethics.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "The critique that DJ teaching neglects ethics, transparency, and accountability becomes more urgent as AI introduces new ethical risks"
+    },
+    {
+      "extract": "a majority of the journalists who worked on the data journalism projects samples did so as researchers and had minimal computer skills, while those with graphic design, statistics and computer skills did most of the complex project creation.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "organizational",
+      "themes": [
+        "division of labour",
+        "team structure",
+        "skill specialisation"
+      ],
+      "notes": "Tabary et al. 2016 Quebec study. Documents role split: journalists as researchers vs technical staff as builders.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The role split between journalists-as-researchers and technical staff-as-builders is shifting as LLMs enable journalists to do more building"
+    },
+    {
+      "extract": "Journalism programs can integrate alternative teaching methods to help fill the gaps in their own faculty. Examples include cooperative teaching among different university departments, online courses, and independent tutorial packs",
+      "chapter": "Meeting the Challenge",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-disciplinary collaboration",
+        "pedagogy",
+        "curriculum design"
+      ],
+      "notes": "Berret and Phillips 2016. Recommends cross-department cooperation, MOOCs, and tutorial packs.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Cross-departmental cooperation and online courses endure but LLMs now offer an additional pathway for filling faculty expertise gaps"
+    },
+    {
+      "extract": "The postgraduate project demonstrated the value of collaborative teaching to help instructors tackle new curriculum content, including both data analysis skills and innovative approaches to their delivery",
+      "chapter": "Meeting the Challenge",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "collaborative teaching",
+        "curriculum development",
+        "cross-institutional"
+      ],
+      "notes": "Treadwell et al. 2016. NZ two-university collaboration on gambling investigation as teaching vehicle.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Collaborative teaching across institutions to tackle new curriculum content is a pedagogical strategy that endures"
+    },
+    {
+      "extract": "active engagement with techniques for the large-scale manipulation of data using computing software to enable new ways to access, organise and present information",
+      "chapter": "Meeting the Challenge",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "computational journalism",
+        "data manipulation",
+        "information access"
+      ],
+      "notes": "Flew et al. 2012 definition of computational journalism. Frames it as access-organise-present.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Active engagement with large-scale data manipulation using computing software needs updating to account for LLM-mediated data manipulation"
+    },
+    {
+      "extract": "Each separately explained that to describe students as mathematics averse and to think of data journalism as about mathematics was a misconception. Rather, it was more accurate to think of those daunted by it as numbers averse, given that modern software, including sorting and scraping tools, meant very little mathematics was required.",
+      "chapter": "A Non-journalist to Teach Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "maths aversion",
+        "software tools",
+        "scraping",
+        "sorting"
+      ],
+      "notes": "Reframes DJ as numbers-work mediated by software, not raw mathematics. Mentions sorting and scraping tools.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "The reframing of DJ as numbers-work mediated by software needs updating since LLMs further reduce even the numbers-work to natural language interaction"
+    },
+    {
+      "extract": "basic maths and statistics are just journalism",
+      "chapter": "A Non-journalist to Teach Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "numeracy",
+        "statistics",
+        "journalistic identity"
+      ],
+      "notes": "Jason Thomas (SBS data journalist) via Walkley Foundation. Normalises quantitative work as core journalism.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Normalizing basic maths and statistics as core journalism rather than optional extra endures as a professional identity claim"
+    },
+    {
+      "extract": "Using an open-source software which the students could download during his classes, he has begun with a module in the third year investigative journalism unit, comprising two lectures, tutorial exercises and a requirement that data analysis be incorporated in the student's final major assignment.",
+      "chapter": "A Non-journalist to Teach Journalism",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "open-source tools",
+        "curriculum integration",
+        "hands-on learning"
+      ],
+      "notes": "Describes practical integration: open-source software, lectures, exercises, embedded assessment.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Integrating DJ through open-source tools, lectures, exercises, and embedded assessment is practical curriculum design that endures"
+    },
+    {
+      "extract": "Journalism schools can collaborate across the university to meet the burgeoning need for instruction in data and computation but should be wary of trying to outsource too much—while understanding how to do math, statistics, or computer programming is an important component, data journalism is much more than that.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "cross-disciplinary limits",
+        "journalistic judgment",
+        "outsourcing risk"
+      ],
+      "notes": "Berret and Phillips 2016 warning. DJ requires journalistic judgment beyond technical skills.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "DJ requiring journalistic judgment beyond technical skills and the warning against outsourcing too much is amplified when AI handles technical work"
+    },
+    {
+      "extract": "In cases where a data unit was not in operation, a minimum of one data journalist was appointed—or worked informally—to write data-driven journalism or to collaborate with other specialist correspondents in co-authored pieces. In this respect, data journalism practice is fully ingrained within the news cycles of the majority of the mainstream organisations studied.",
+      "chapter": "Introduction",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "newsroom structure",
+        "data units",
+        "collaboration",
+        "mainstreaming"
+      ],
+      "notes": "Borges-Rey 2016 UK survey. Documents minimum viable DJ staffing: at least one data journalist per newsroom.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Minimum viable DJ staffing with at least one data journalist per newsroom documents an organizational reality that endures"
+    },
+    {
+      "extract": "Other university departments or faculties may have expertise which can be drawn on beyond those administrative silos. Guest lectures and small teaching modules inserted into existing courses may overcome issues of a lack of staff expertise and packed curricula. International collaborations can provide opportunities for student intensives like summer schools. A collaborative team approach between journalism and data analytics educators may assist in overcoming the shortage of skilled data journalism lecturers and sessional teachers.",
+      "chapter": "Conclusion",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "cross-departmental",
+        "guest lectures",
+        "summer schools",
+        "team teaching"
+      ],
+      "notes": "Four-point summary of Swinburne lessons learned for DJ curriculum integration.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-departmental expertise, guest lectures, summer schools, and team teaching are institutional strategies for DJ that endure"
+    },
+    {
+      "extract": "In a single lecture towards the end of semester, the students are shown the wide range of data on political issues available to them and encouraged to explore these.",
+      "chapter": "A Non-journalist to Teach Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data discovery",
+        "political data",
+        "government data"
+      ],
+      "notes": "Describes teaching students to discover available political datasets as entry point.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Teaching students to discover available political datasets as an entry point to DJ practice endures as data discovery skill"
+    },
+    {
+      "extract": "students were encouraged to draw on the substantial quantity of comparative data available on the Victorian Government's know your council website. Few, however, appeared confident about tapping into and analysing this rich and readily available information.",
+      "chapter": "The Challenge of Incorporating Data Journalism",
+      "pipeline_step": "Find",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "government open data",
+        "local government",
+        "comparative data"
+      ],
+      "notes": "Concrete example: Victorian 'know your council' as accessible DJ data source. Notes student reluctance.",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Student reluctance to use readily available comparative government data reflects a confidence gap that persists regardless of AI tools"
+    },
+    {
+      "extract": "Amid claims of journalistic authority over computational proficiency, at least half of regional data journalists felt limited by their inability to write software code, regarding the skill as a powerful enabling agent in data journalism",
+      "chapter": "Introduction",
+      "pipeline_step": "Get",
+      "secondary_step": "Analyse",
+      "extract_type": "epistemological",
+      "themes": [
+        "coding skills",
+        "computational proficiency",
+        "enabling technology"
+      ],
+      "notes": "Borges-Rey 2016 UK finding. Coding seen as enabling agent, not optional extra.",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Coding as an enabling agent for data journalism is being substantially augmented by LLMs that generate code from natural language prompts"
+    }
+  ]
+}

@@ -1,0 +1,1096 @@
+{
+  "source_id": "143",
+  "source_file": "143-verification-handbook-2.md",
+  "source_title": "Verification Handbook 2: A Definitive Guide to Verifying Digital Content for Emergency Coverage",
+  "author": "Craig Silverman (ed.), EJC",
+  "year": "2015",
+  "extracts": [
+    {
+      "extract": "Just about any investigation today should incorporate the search, gathering and verification of open source information. This has become inseparable from the work of cultivating sources, securing confidential information and other investigative tactics that rely on hidden or less-public information.",
+      "chapter": "User-generated content in investigative work",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "open source intelligence",
+        "investigation design",
+        "UGC"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Integrating OSINT into investigations is a strategic principle that AI amplifies but does not replace"
+    },
+    {
+      "extract": "Verification is a mix of three elements: Sources knowledge, reliability and honesty, and the number, variety and reliability of sources you can find and persuade to talk; Documentation.",
+      "chapter": "User-generated content in investigative work",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "sourcing",
+        "documentation"
+      ],
+      "notes": "Attributed to Steve Buttry",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Three-element verification framework (sources, reliability, documentation) is epistemologically fundamental"
+    },
+    {
+      "extract": "Just as we know that human memory is faulty and that sources lie, we must also remember that documents and data aren't always what they appear.",
+      "chapter": "User-generated content in investigative work",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "data skepticism",
+        "source reliability"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism toward documents and data is a core journalistic principle that applies to AI outputs too"
+    },
+    {
+      "extract": "The simple two-letter word 'is' reveals opinions and facts about your subject. To avoid clutter, include the company name of the person or any other detail you know, and tell Google that both words should not be that far from each other. The AROUND() operator MUST BE IN CAPITALS. It sets the maximum distance in words between two terms.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "Google",
+        "background research"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Boolean search operators still work but LLMs now enable natural-language queries that achieve similar filtering"
+    },
+    {
+      "extract": "Search for PDF documents with the name of the CEO in it, but exclude documents from the company of the subject itself. This helps you to see what opponents, competitors or opinionated people say about your subject.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "background research",
+        "filetype search"
+      ],
+      "notes": "Using filetype:pdf and -site: operators",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Filetype PDF search for CEO documents still valid but LLMs can now search and summarize across document collections"
+    },
+    {
+      "extract": "Search for worldwide official documents about a person using site:gov.uk, site:gov.au, site:gov.cn, site:gov and other governmental websites. If you don't have a .gov website in your country, use the local word for it with the site: operator.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "government records",
+        "public records"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Government site searches endure but LLMs can now aggregate and cross-reference across multiple jurisdictions simultaneously"
+    },
+    {
+      "extract": "With a name variation formula you can find results that use different spellings of the name. You will receive documents with the word Shell, but not those that include 'Ben' as the first name. With this, you find out that he is also referred to as Bernardus van Beurden. Now repeat steps with this new name.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "name variations",
+        "iterative search"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Name variation search formulas are now handled by LLMs that understand transliteration and spelling variants natively"
+    },
+    {
+      "extract": "Most of the research you do is not based on today, but an earlier period. Always tell your search engine to go back in time.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "date search",
+        "temporal filtering",
+        "search strategy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Using date ranges in searches to find historical context is a methodological habit that remains important"
+    },
+    {
+      "extract": "Websites often cease to exist. There is a chance you can still view them by using archive.org. This tool can do its work only if you know the URL of the webpage you want to see. The problem is that often the site is gone and therefore you don't know it. So find an index first — a source about the missing page such as its Wikipedia page — then put the index in the time machine, then find the original website.",
+      "chapter": "Who, Where and When of a person",
+      "pipeline_step": "Find",
+      "secondary_step": "Get",
+      "extract_type": "tool-specific",
+      "themes": [
+        "web archive",
+        "archive.org",
+        "dead links",
+        "source recovery"
+      ],
+      "notes": "Three-step process for recovering disappeared websites",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Wayback Machine for retrieving defunct websites remains a unique archival resource AI cannot replace"
+    },
+    {
+      "extract": "Search engines like Google don't actually know what web pages are about. They do, however, know what words are on the pages. So to get a search engine to behave itself, you need to work out which words are on your target pages. Choose your search terms wisely. Each word you add to the search focuses the results by eliminating results that don't include your chosen keywords. Avoid subjective keywords, as they can eliminate useful pages from the results.",
+      "chapter": "Effective web searching",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search strategy",
+        "keyword selection",
+        "Google"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Understanding search engine keyword mechanics still useful but LLM semantic search now transcends keyword matching"
+    },
+    {
+      "extract": "If you don't have definite keywords, you can still build in other possible keywords without damaging the results. Pages discussing heroin use in Texas might not include the word 'Texas'; they may just mention the names of different cities. You can build these into your search as optional keywords by separating them with the word OR (in capital letters). You can use the same technique to search for different spellings of the name of an individual, company or organization.",
+      "chapter": "Effective web searching",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "search operators",
+        "OR operator",
+        "keyword strategy"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Building keyword alternatives with OR operators now supplemented by LLMs that infer related terms semantically"
+    },
+    {
+      "extract": "You can focus your search on a particular site by using the search syntax 'site:' followed by the domain name. You can also use it to focus your search on municipal and academic sources. This is particularly effective when researching countries that use unique domain types for government and university sites.",
+      "chapter": "Effective web searching",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "site search",
+        "domain filtering"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Site-specific search syntax endures but LLM agents can now crawl and index specific domains more flexibly"
+    },
+    {
+      "extract": "Some information comes in certain types of file formats. For instance, statistics, figures and data often appear in Excel spreadsheets. Professionally produced reports can often be found in PDF documents. You can specify a format in your search by using 'filetype:' followed by the desired data file extension.",
+      "chapter": "Effective web searching",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "search operators",
+        "filetype search",
+        "data formats"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Filetype search for data formats still works but LLMs can now discover and parse spreadsheets across formats"
+    },
+    {
+      "extract": "Start by building a dossier on the person you're trying to locate or learn more about. This can include: the person's name (bearing in mind different variations, spelling of foreign names, married names, middle names); the town the person lives in; the person's job and company; phone number; usernames (as these are often constant across various social networks); email address; and a photograph.",
+      "chapter": "Finding people",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "people search",
+        "dossier building",
+        "identity research"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Dossier building is still essential but LLMs can now automate assembly from multiple open sources simultaneously"
+    },
+    {
+      "extract": "People often use the same photo as a profile picture for different social networks. Reverse image search on sites like TinEye and Google Images will help you identify linked accounts.",
+      "chapter": "Finding people",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "tool-specific",
+      "themes": [
+        "reverse image search",
+        "identity verification",
+        "cross-platform"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Profile photo reverse search remains valid but AI face-matching and cross-platform identity tools now augment this"
+    },
+    {
+      "extract": "Many journalists have been fooled by malicious websites. Since it's easy for anyone to buy an unclaimed .com, .net or .org site, we should not go on face value. A site that looks well produced and has an authentic-sounding domain name may still be a political hoax, false company or satirical prank. Some degree of quality control can be achieved by examining the domain name itself. A whois search will bring up the registration details given by the site owner when the domain name was purchased.",
+      "chapter": "Identifying domain ownership",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "domain verification",
+        "whois",
+        "source authentication"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Skepticism toward domain names and malicious websites is a verification mindset unaffected by AI"
+    },
+    {
+      "extract": "Whois is not a panacea for verification. People can often get away with lying on a domain registration form. Some people will use an anonymizing service like Domains by Proxy, but combining a whois search with other domain name and IP address tools forms a valuable weapon in the battle to provide useful material from authentic sources.",
+      "chapter": "Identifying domain ownership",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "domain verification",
+        "whois limitations",
+        "triangulation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Whois limitations and domain registration fraud awareness remain relevant regardless of AI tools"
+    },
+    {
+      "extract": "Everything has a paper trail, a lead that exposes the systemic underwire of a network, company, or person's illicit or illegal activities. The trick is to find it.",
+      "chapter": "Records and other publicly available material to investigate companies",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "paper trail",
+        "corporate investigation",
+        "public records"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Paper trail investigation principle is a foundational investigative mindset AI cannot replace"
+    },
+    {
+      "extract": "The most important aspects of any investigation are to dig, listen and ask pertinent questions. But asking questions requires context, and listening to the right sources means finding the core of the story. Data, free or otherwise, can never replace good investigative research. In order to do good investigative research, these days, one must become familiar with how and where knowledge can be found, and how best to access and develop it.",
+      "chapter": "Following the trail",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "investigation design",
+        "data limitations",
+        "research strategy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Digging, listening, and asking pertinent questions are core human investigative skills"
+    },
+    {
+      "extract": "We made use of free public databases such as Duedil that allow for individual and corporate director searches. These enable users to identify the number of companies — current, dissolved, etc. — a director is involved in. It can also provide other important information: Shareholders, registered offices and a timeline of retired and current individuals involved. We also used LinkedIn to probe personal and corporate connections.",
+      "chapter": "Following the trail",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "corporate registries",
+        "Duedil",
+        "LinkedIn",
+        "director search"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Corporate database searches like Duedil still valid but LLMs can now aggregate data from multiple registries"
+    },
+    {
+      "extract": "Along with databases, we used Whois Internet searches where possible to determine the date of creation and ownership information of websites that were connected to the network. We then cross-referenced the contact details of the websites with the information listed in corporate databases for brokers and shell entities. Using specific search phrases, we were able to draw out mentions of certain names, companies, products etc. from various files on the Internet.",
+      "chapter": "Following the trail",
+      "pipeline_step": "Verify",
+      "secondary_step": "Find",
+      "extract_type": "procedural",
+      "themes": [
+        "cross-referencing",
+        "whois",
+        "corporate investigation",
+        "triangulation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Whois and domain ownership checks persist but AI tools now automate cross-referencing of registration data"
+    },
+    {
+      "extract": "We 'cross-examined' our evidence. This is a process taken from the legal world and adapted for investigative journalism. We looked for bias, contradictions, consistency and probability within evidence, resources, interviews and sources.",
+      "chapter": "Following the trail",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "cross-examination",
+        "evidence evaluation",
+        "legal methods"
+      ],
+      "notes": "Attributed to Heinrich Bohmke at ANCIR",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Cross-examining evidence against itself is a core investigative logic principle unaffected by AI"
+    },
+    {
+      "extract": "By identifying the broad relations within, and between, people, companies, jurisdictions and sectors, we were able to visualize the network's structure. This told us how the scheme functioned and who was involved.",
+      "chapter": "Following the trail",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "network analysis",
+        "visualization",
+        "corporate investigation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Network visualization for corporate structures endures but LLMs can now auto-generate relationship graphs from documents"
+    },
+    {
+      "extract": "It doesn't take a genius to develop a good investigation or to lift the corporate veil — it simply takes curiosity, technique and a commitment to read as much and as far into the issue as possible. Scour as many data sources as possible: Corporate, media, NGO, shipping, sanctions, court... Look for what is not obvious, seems illogical, or that just plain sticks out to you. Follow your instinct. Ask as many questions as possible.",
+      "chapter": "Questions",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "investigation mindset",
+        "corporate investigation",
+        "curiosity"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Curiosity and tenacity as investigation drivers are human qualities AI cannot substitute"
+    },
+    {
+      "extract": "The most important lesson I've learned from two decades of using data for investigations is that data lies just as much as people, or even more so. Data, after all, is often created and maintained by people. Data is meant to be a representation of the reality of a particular moment of time.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data skepticism",
+        "data quality",
+        "verification"
+      ],
+      "notes": "Attributed to Giannina Segnini",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Data lies as much as people is a skeptical epistemological stance that applies equally to AI-generated data"
+    },
+    {
+      "extract": "Two key verification tasks need to be performed during a data-driven investigation: An initial evaluation must occur immediately after getting the data; and findings must be verified at the end of the investigation or analysis phase.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data verification",
+        "workflow",
+        "two-phase verification"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Data verification tasks endure but LLMs can now automate initial evaluation and cross-referencing steps"
+    },
+    {
+      "extract": "The first practice I recommend is to explore the extreme values (highest or lowest) for each variable in a dataset, and to then count how many records (rows) are listed within each of the possible values.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "data completeness",
+        "extreme values",
+        "data profiling"
+      ],
+      "notes": "Is the data complete?",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Exploring extreme values is sound practice now automatable by LLMs that can profile datasets instantly"
+    },
+    {
+      "extract": "A common mistake made when working with data is to fail to identify the existence of duplicate records. Whenever processing disaggregated data or information about people, companies, events or transactions, the first step is to search for a unique identification variable for each item.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "deduplication",
+        "unique identifiers",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Duplicate detection is now trivially automated by LLMs and data tools but awareness of the issue remains important"
+    },
+    {
+      "extract": "One of the best ways to assess a dataset's credibility is to choose a sample record and compare it against reality. It is always recommended to repeat this validation exercise on a significant sample of the records.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "ground-truthing",
+        "spot-checking",
+        "data accuracy"
+      ],
+      "notes": "Are the data accurate?",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Spot-checking sample records against reality requires human field work AI cannot perform"
+    },
+    {
+      "extract": "From the moment it's first entered in a computer to the time when we access it, data goes through several input, storage, transmission and registry processes. At any stage, it may be manipulated by people and information systems. It is therefore very common that relations between tables or fields get lost or mixed up, or that some variables fail to get updated. This is why it's essential to perform integrity tests.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data integrity",
+        "data lifecycle",
+        "systems thinking"
+      ],
+      "notes": "Assessing data integrity",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Understanding data provenance through input-storage-transfer chains is a conceptual framework AI does not replace"
+    },
+    {
+      "extract": "Open Refine is an excellent tool to quickly explore and evaluate the quality of databases. Open Refine can be used to run a numeric 'facet' which groups numbers into numeric range bins. This enables you to select any range that spans a consecutive number of bins. The same can be done for dates and text values.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "data profiling",
+        "data quality"
+      ],
+      "notes": "",
+      "llm_relevance": "displaced",
+      "relevance_rationale": "OpenRefine for data exploration is now largely superseded by LLMs that can profile and clean data conversationally"
+    },
+    {
+      "extract": "It is mandatory to learn how to decrypt codes and to understand how they are used to better understand the logic behind databases and, more importantly, their relations. Decoding acronyms is not only a best practice for evaluating the quality of data, but, more important, to finding stories of public interest.",
+      "chapter": "Initial verification",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "codes",
+        "acronyms",
+        "data literacy",
+        "database logic"
+      ],
+      "notes": "Deciphering codes and acronyms",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Understanding data codes remains important but LLMs can now decode and explain code systems from documentation"
+    },
+    {
+      "extract": "Not even the best data analysis can replace on-the-ground journalism and field verification.",
+      "chapter": "Verifying data after the analysis",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "field verification",
+        "ground-truthing",
+        "data limitations"
+      ],
+      "notes": "Core lesson from Segnini's Avancemos investigation",
+      "llm_relevance": "endures",
+      "relevance_rationale": "On-the-ground journalism and field verification are irreplaceable human activities"
+    },
+    {
+      "extract": "After obtaining the database of all beneficiary students, we added the names of their parents. Then we queried other databases related to properties, vehicles, salaries and companies in the country. This enabled us to create an exhaustive inventory of the families' assets. Before the analysis, we made sure to evaluate and clean all of the records, and to verify the relationships between each person and their assets.",
+      "chapter": "Verifying data after the analysis",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "record linkage",
+        "data joining",
+        "cross-database analysis",
+        "cleaning"
+      ],
+      "notes": "La Nacion Costa Rica Avancemos investigation",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Cross-referencing beneficiary databases is now accelerated by LLMs that can join and query multiple datasets"
+    },
+    {
+      "extract": "It was not until we went to visit their homes that we could prove what the data alone could have never told us: These kids lived in real poverty with their mothers because they had been abandoned by their fathers. No one ever asked about their fathers before granting the benefit.",
+      "chapter": "Verifying data after the analysis",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "field verification",
+        "ground-truthing",
+        "data-reality gap"
+      ],
+      "notes": "Data showed wealthy fathers; field work revealed abandoned children",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Field visits to prove what data alone cannot show is irreplaceable human verification"
+    },
+    {
+      "extract": "I used satellite maps to look for landmarks visible in videos to confirm where they had been filmed. I compared the position of the minaret, the dome and a nearby wall on the satellite map imagery to the video, and it was clear it was a perfect match. Now that the likely position of the camera in the town was established, I could watch the whole video comparing other details to what was visible on satellite map imagery.",
+      "chapter": "Matching roads",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "satellite imagery",
+        "video verification",
+        "landmarks"
+      ],
+      "notes": "Tiji, Libya example",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Satellite geolocation of video landmarks now significantly augmented by AI geolocation and object recognition"
+    },
+    {
+      "extract": "As they walked through the streets, it was possible to map out the roads along the route they took, and then match that pattern to what was visible in satellite map imagery.",
+      "chapter": "Matching roads",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "road pattern matching",
+        "satellite imagery"
+      ],
+      "notes": "Brega, Libya example — hand-drawn road maps compared to satellite",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Route mapping from video content now aided by AI-powered video analysis and map matching"
+    },
+    {
+      "extract": "While things like billboards and streetlights are small objects, the shadows they cast can actually indicate their presence. Shadows can also be used to reveal information about the comparative height of buildings, and the shape of those buildings. I used the website SunCalc, which allows users to calculate the position of the sun throughout the day using a Google Maps based interface. It was then possible to establish the time of day.",
+      "chapter": "Counting shadows",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "shadow analysis",
+        "SunCalc",
+        "chronolocation",
+        "geolocation"
+      ],
+      "notes": "MH17 Buk missile launcher example",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Shadow analysis for object detection now augmented by AI computer vision and sun-position calculators"
+    },
+    {
+      "extract": "By bringing together different sources, tools and techniques, it was possible to connect these individual pieces of information and establish critical facts about this incident. A key element of working with user-generated content in investigations is understanding how that content is shared.",
+      "chapter": "Counting shadows",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "triangulation",
+        "UGC",
+        "information ecosystem",
+        "multi-source"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Combining multiple evidence types for corroboration is a methodological principle independent of specific tools"
+    },
+    {
+      "extract": "The videos were uncovered by first geolocating the initial videos we found, then using that to predict the likely route those vehicles would have taken to get from each geolocated site. Then we would keyword search on various social media sites for the names of locations that were along the route the vehicle would have to had to travel. We also searched for keywords such as 'convoy,' 'missile,' etc. that could be associated with sightings.",
+      "chapter": "Counting shadows",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "geolocation",
+        "route prediction",
+        "keyword search",
+        "OSINT"
+      ],
+      "notes": "MH17 Buk convoy tracking",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Systematic approach to UGC geolocation now enhanced by AI that can predict routes and identify landmarks automatically"
+    },
+    {
+      "extract": "It's remarkable what you can turn up when you approach UGC and open source information in a systematic way. You tend to learn quickly by just doing it. Even something as simple as double-checking the geolocation someone else has done can teach you a lot about comparing videos and photographs to satellite map imagery.",
+      "chapter": "Counting shadows",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "learning by doing",
+        "systematic approach",
+        "OSINT",
+        "geolocation"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Systematic approach to open-source investigation yields results regardless of whether AI assists the process"
+    },
+    {
+      "extract": "In a human rights investigation, we compare all facts gathered with relevant human rights norms and laws to make determinations of violations or abuses. Consequently, a single analyst who looks at UGC must be part of a team comprising relevant country, policy and legal experts.",
+      "chapter": "Principles of human rights investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "human rights",
+        "interdisciplinary teams",
+        "legal framework"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Comparing evidence against human rights norms and laws is legal-analytical judgment AI cannot replace"
+    },
+    {
+      "extract": "Today we are achieving the best results when combining a variety of evidence, such as testimony, official documents, satellite imagery and UGC. This requires the close collaboration of researchers who possess country expertise, trusted contacts on the ground, and highly specialized analysts who do not focus on a specific region or country, but are able to provide analysis based on satellite imagery or UGC.",
+      "chapter": "Principles of human rights investigations",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "organizational",
+      "themes": [
+        "multi-source evidence",
+        "collaboration",
+        "specialization",
+        "UGC"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Multi-evidence convergence (testimony, documents, satellite, video) is a methodological principle unaffected by AI"
+    },
+    {
+      "extract": "In some instances, one piece of evidence does not corroborate some of the information gathered during an investigation, such as when satellite imagery does not support eyewitness claims of a large massacre. We then exercise caution and hold back on making statements of fact or determinations of violations.",
+      "chapter": "Principles of human rights investigations",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "corroboration",
+        "caution",
+        "conflicting evidence",
+        "epistemic humility"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Handling contradictory evidence through further investigation is a core investigative logic principle"
+    },
+    {
+      "extract": "We first performed standard content analysis. This involved extracting the specifications of the roads, street lamps, buildings and vegetation, as well as details related to the people seen in the video such as clothes and military equipment. Reviewing the video frame by frame greatly aided with this process. The geographic features were then compared to satellite images of the area on Google Earth.",
+      "chapter": "War crimes on camera",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis",
+        "frame-by-frame",
+        "video verification",
+        "geolocation"
+      ],
+      "notes": "Nigeria Giwa barracks incident",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Content analysis of infrastructure in images now significantly aided by AI object recognition and measurement"
+    },
+    {
+      "extract": "Several photographs in our possession were actually geotagged. We discovered this by using an EXIF viewer to examine the metadata in the photo. This location data proved a perfect match to the street corner we identified as part of the content analysis of the initial video.",
+      "chapter": "War crimes on camera",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "EXIF metadata",
+        "geolocation",
+        "photo verification",
+        "cross-validation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "EXIF data extraction remains valid but AI tools now combine metadata analysis with visual content verification"
+    },
+    {
+      "extract": "We followed the video to perform a content analysis in order to identify distinctive markings on the soldiers and victims, or anything that could indicate location, time or date. This revealed two important details: a soldier wearing a black flak jacket stating 'Borno State. Operation Flush,' the name of the military operation; and, for a split second, an ID number on a rifle became visible.",
+      "chapter": "War crimes on camera",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "content analysis",
+        "identifying markings",
+        "linkage evidence",
+        "attribution"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Visual content analysis for identifying markings now augmented by AI pattern recognition and enhancement"
+    },
+    {
+      "extract": "An AI researcher was also able to secure the actual video files while on a field mission to the area. This allowed us to conduct metadata analysis. Social media platforms strip metadata during the upload process. Obtaining the original files was possible only through well-established local contacts and networks.",
+      "chapter": "War crimes on camera",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "metadata",
+        "original files",
+        "field collection",
+        "social media limitations"
+      ],
+      "notes": "Social media strips metadata; must obtain originals",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Video file forensic analysis now enhanced by AI metadata extraction and deepfake detection tools"
+    },
+    {
+      "extract": "Savvy news desk researchers and journalists who might be inclined to contact local sources via Twitter or other public platform should consider the risk implications for asking for such sensitive footage from contacts in insecure environments.",
+      "chapter": "War crimes on camera",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source safety",
+        "operational security",
+        "ethics",
+        "sensitive content"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Protecting sources from exposure via public social media contact is an ethical principle unaffected by AI"
+    },
+    {
+      "extract": "It's essential to determine what ethical standards will work for you and your audience, and what actions will allow you to establish and preserve a relationship with them. Our approach must be ethical so that it can be sustainable.",
+      "chapter": "Entering private communities",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "sustainability",
+        "audience relationship",
+        "UGC"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Establishing ethical standards for content use is a values-based editorial decision AI does not change"
+    },
+    {
+      "extract": "The key takeaway is to consider how the content creator sees their activity, rather than how the platform defines it. Private communities can be extremely fruitful for generating investigative leads. A less-obvious private community might be when an individual uses a YouTube page to share videos with friends and family. It's a public account, but the user assumes a level of privacy.",
+      "chapter": "Entering private communities",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "privacy expectations",
+        "UGC ethics",
+        "private communities",
+        "consent"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Considering how content creators view their activity is an ethical empathy principle that transcends technology"
+    },
+    {
+      "extract": "Securing permission to use content from creators of UGC helps establish and maintain the reputation of your organization as one that gives fair treatment. Securing permission will also help you ensure you are using content from an original source. Communication with individuals is an important part of any verification process. The act of asking for permission also opens up a potential source of additional information on the content.",
+      "chapter": "Securing Permission",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "permission",
+        "UGC ethics",
+        "verification",
+        "source relationships"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Securing permission from UGC creators is a copyright and trust principle unaffected by AI"
+    },
+    {
+      "extract": "Does an assignment put someone at risk? Could an individual get too close to a dangerous event or to people who may cause them harm? What is your responsibility to a person who is harmed while carrying out an assignment set by you? What impact does an assignment have on the honesty/authenticity of the content being produced versus something that was created unprompted?",
+      "chapter": "Contributor management and safety",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "contributor safety",
+        "duty of care",
+        "UGC ethics",
+        "assignments"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Assessing risk to individuals from assignments is an ethical duty of care independent of technology"
+    },
+    {
+      "extract": "When someone uploads a photograph or video to a social network, the copyright remains with them. So if you want to download the picture or video to use elsewhere, you must first seek permission. If you simply want to embed the material, using the embed code provided by the social networks, legally you don't need to seek permission. Ethically, however, it might be appropriate to contact the person.",
+      "chapter": "Seeking permission",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "copyright",
+        "UGC",
+        "embedding vs downloading",
+        "legal",
+        "ethics"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Copyright remaining with content uploaders is a legal principle unaffected by AI"
+    },
+    {
+      "extract": "An important question to ask is whether the person actually captured the material him or herself. It is amazing how many people upload other people's content on their own channels. They will often 'give permission' for use even though they have no right to do so. You also want to ask basic questions about location, and what else they could see, to help you authenticate what they claim to have witnessed.",
+      "chapter": "Seeking permission",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "provenance",
+        "permission",
+        "authentication",
+        "original source"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Verifying whether a person actually captured the material is a sourcing principle that applies regardless of AI"
+    },
+    {
+      "extract": "If you do seek permission on the social network itself, make sure that you take a screenshot of the exchange. People will sometimes provide permission for use, and then, after negotiating an exclusive deal with another organization, they will delete any exchanges on social media to show them giving permission to others.",
+      "chapter": "Seeking permission",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "permission",
+        "evidence preservation",
+        "screenshots",
+        "legal protection"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Screenshotting permission exchanges for records is a documentation practice independent of AI"
+    },
+    {
+      "extract": "We must seek informed consent, not just consent, meaning: Does the uploader understand what you are giving permission for? And when it comes to crediting, you must talk to them about whether and how they would like credit.",
+      "chapter": "Being ethical",
+      "pipeline_step": "Get",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "informed consent",
+        "crediting",
+        "UGC ethics",
+        "transparency"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Informed consent for UGC use is an ethical-legal requirement unaffected by AI tools"
+    },
+    {
+      "extract": "Best practice is to label any content with the information you can confirm, whether that's source, date or location. If you can confirm only two of three, add this information over the photo or video. The most important role for journalists is to provide the necessary context about the content that is being shared: debunk what is false, and provide crucial information about time, date or location, as well as showing how this content relates to other material.",
+      "chapter": "Verification",
+      "pipeline_step": "Present",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "labeling",
+        "transparency",
+        "context",
+        "verification status"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Labeling content with confirmed information is a transparency standard that persists regardless of AI"
+    },
+    {
+      "extract": "Many news organizations will run pictures or videos with the caveat that 'this cannot be independently verified.' This is problematic, as the truth is that the newsroom may have run many verification checks, or relied on agencies to do these checks, before broadcasting or publishing. So this phrase is being used as an insurance policy. Repeating it undermines the verification processes that are being carried out.",
+      "chapter": "Verification",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification labeling",
+        "transparency",
+        "credibility",
+        "newsroom practices"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Criticizing lazy cannot be independently verified caveats is a journalistic standards argument unaffected by AI"
+    },
+    {
+      "extract": "It is best practice to 'label' who has captured the content. Was it a staff member? Was it a freelance journalist? Was it a citizen journalist? When someone unrelated to the newsroom takes a picture that is used by the newsroom, for reasons of transparency, any affiliation should be explained to the audience. Simply labeling this type of material as 'Amateur Footage' or something similar doesn't provide the necessary context.",
+      "chapter": "Labeling",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "attribution",
+        "labeling",
+        "transparency",
+        "content provenance"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Labeling content by who captured it (staff, freelance, citizen) is a transparency practice independent of AI"
+    },
+    {
+      "extract": "Any fact that is to be published will be checked to see if it is correct on its own and in context. Every verifiable piece of information will be underlined. Standardized marks will be used to denote statements as correct, incorrect, not verifiable, etc. The source of factual corrections and quotations must be given. When fact-checking a manuscript, other and if possible more accurate sources than the author's sources should be used. A statement is considered verified only if confirmed by reliable sources or experts.",
+      "chapter": "How Spiegel does fact-checking today",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "verification protocol",
+        "Der Spiegel",
+        "standards"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Checking every verifiable fact for correctness and context is a foundational accuracy principle"
+    },
+    {
+      "extract": "If a piece of research contradicts an author's statement, the author must be notified of the contradiction during the discussion of the manuscript. If a fact is unverifiable, the author must also be notified. When in doubt, it is better not to use a piece of information rather than to run the risk of an incorrect report.",
+      "chapter": "How Spiegel does fact-checking today",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "organizational",
+      "themes": [
+        "fact-checking workflow",
+        "author-checker relationship",
+        "editorial standards"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Notifying authors when research contradicts their statements is a fairness process unaffected by AI"
+    },
+    {
+      "extract": "When time is limited, facts that are the clear responsibility of the fact-checker must be checked first, particularly: Are the times and dates correct? Does the text contradict itself? Are the names and offices/jobs correct? Are the quotations correct (in wording and in context)? How current and trustworthy are the sources used?",
+      "chapter": "How Spiegel does fact-checking today",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking priorities",
+        "triage",
+        "time constraints",
+        "checklist"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Prioritizing fact-checks on claims carrying legal or reputational risk is editorial judgment AI does not replace"
+    },
+    {
+      "extract": "Prefer original documents. If an academic study is quoted, obtain the original, full text. If company earnings are cited, obtain their financials. Do not rely on press summaries and press releases when the original document can be obtained. Prefer sources that delineate between facts and opinion, and that supply facts in their work. Prefer sources that clearly indicate the source of their information, as this enables you to verify their work. Beware of sources that make factual errors about basic facts, or that confuse basic concepts.",
+      "chapter": "Evaluating Sources",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source evaluation",
+        "original documents",
+        "source hierarchy"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Preferring original documents over secondary reports is a core verification principle that applies to AI summaries too"
+    },
+    {
+      "extract": "Accuracy is the basic prerequisite for good journalism and objective reportage. Journalists make mistakes, intended or not. Mistakes damage the most valuable asset of journalism: credibility. The method to reduce the probability of mistakes is verification; that is, checking facts before publication.",
+      "chapter": "Examples of checked manuscripts",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "accuracy",
+        "credibility",
+        "verification",
+        "journalism values"
+      ],
+      "notes": "",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Accuracy as prerequisite for journalism is a foundational principle unaffected by AI"
+    },
+    {
+      "extract": "Their search for exculpatory video involved looking on social networks, asking those who were at the event, and obtaining footage from the prosecution and courts. In a frame-by-frame analysis of roughly three hours of an archived livestream of the protest (324,000 frames!) the defense team uncovered a single frame of video that showed the police vehicle Seixas was being accused of having set ablaze was the exact same vehicle that drove him away after he was detained.",
+      "chapter": "Videos help prove the innocence of an activist in Rio",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "frame-by-frame analysis",
+        "video evidence",
+        "exculpatory evidence",
+        "livestream"
+      ],
+      "notes": "WITNESS / Rio case",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Searching social networks for exculpatory video now augmented by AI-powered video search and analysis at scale"
+    },
+    {
+      "extract": "WITNESS helped the defense identify and prepare this evidence, both by assembling screenshots of these videos into a storyboard as well as by editing a 10-minute evidentiary submission video that was delivered to the judge, along with the accompanying documentation.",
+      "chapter": "Videos help prove the innocence of an activist in Rio",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "video evidence",
+        "storyboard",
+        "evidentiary submission",
+        "legal presentation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Assembling video evidence into storyboards now aided by AI video analysis and automated timeline creation"
+    },
+    {
+      "extract": "Reymond took a full two hours to verify the photo's authenticity before posting it. Reymond's process of verification included comparing the facial features with details that emerged as witnesses and officials shared details of the attack. Along with the rifle, two other key pieces of evidence were the fact that the man in the photo was wearing a keffieh, which witnesses had described, and the fact that he was carrying an umbrella.",
+      "chapter": "Evidence from the #OttawaShooting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "photo verification",
+        "corroboration",
+        "witness details",
+        "responsible publishing"
+      ],
+      "notes": "Ottawa shooting case study",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Taking two hours to verify before posting exemplifies verification discipline that remains essential with AI"
+    },
+    {
+      "extract": "Despite its failure to substantiate this claim or provide appropriate credit, Canadian journalists seized upon @ArmedResearch's claim, reporting the photo was 'tweeted from an ISIS account,' with all the implications that accompany such an assertion. Technical data from the Twitter page, captured before the account was suspended, show that the ISIS account sourced the photo from Breaking3zero. The temptation to draw a connection between vivid photos like this one and our worst fears is enormous. Avoiding this temptation is one of the chief responsibilities of 21st century journalists.",
+      "chapter": "Evidence from the #OttawaShooting",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source attribution",
+        "misinformation",
+        "confirmation bias",
+        "provenance"
+      ],
+      "notes": "False ISIS attribution of photo that actually came from journalist",
+      "llm_relevance": "endures",
+      "relevance_rationale": "Warning against seizing unverified claims from social media sources is a critical media literacy lesson"
+    },
+    {
+      "extract": "Searching for names of companies or people in the Middle East presents some special challenges. The first step is to determine which language to search for the information you need, and then to find the spelling in Arabic. Keep in mind that the pronunciation of a single word can differ greatly among Arabic-speaking countries. Be aware that even within the same registry you should search using multiple spellings of the same word.",
+      "chapter": "Search for companies in the Middle East",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "multilingual search",
+        "Arabic",
+        "transliteration",
+        "name variation"
+      ],
+      "notes": "",
+      "llm_relevance": "needs_update",
+      "relevance_rationale": "Middle Eastern name transliteration challenges now partially addressed by LLMs with multilingual capabilities"
+    }
+  ]
+}

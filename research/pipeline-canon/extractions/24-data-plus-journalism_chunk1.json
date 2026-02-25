@@ -1,0 +1,794 @@
+{
+  "source_id": "24",
+  "source_file": "24-data-plus-journalism.md",
+  "source_title": "Data + Journalism: A Story-Driven Approach",
+  "author": "Mike Reilley, Samantha Sunne",
+  "year": "2022",
+  "chunk": "1/2",
+  "chunk_file": "24-data-plus-journalism_chunk1.md",
+  "chunk_words": 38846,
+  "extracts": [
+    {
+      "extract": "In order to show the scale of a problem, just start counting.",
+      "chapter": "Introduction: The Power of Data Storytelling",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "counting",
+        "scale",
+        "story framing"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data journalism is the use of data and statistical analysis to uncover, better explain and/or provide context to a news story. Specialized data journalism skills focus on acquiring, cleaning, analyzing and visualizing data.",
+      "chapter": "What Is Data Journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "definition",
+        "pipeline",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It forces us to test the theses of our stories using the scientific method, rather than just through our individual experiences. Sometimes it reveals human experiences that we weren't previously aware of. And ultimately, it helps us be more curious and empathetic journalists.",
+      "chapter": "What Is Data Journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "scientific method",
+        "hypothesis testing",
+        "empathy"
+      ],
+      "notes": "Alvin Chang quote"
+    },
+    {
+      "extract": "If you have a data-oriented frame of mind, it will help you in everything you do, not just in your journalism career, but in your life. Everything is data, and the quicker you understand that, the faster you'll be able to find stories.",
+      "chapter": "What Is Data Journalism?",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "mindset",
+        "story discovery"
+      ],
+      "notes": "Andy Boyle quote"
+    },
+    {
+      "extract": "It is also important to analyze that data without fear or favour and without a desired conclusion.",
+      "chapter": "What Is Data Journalism?",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "objectivity",
+        "bias avoidance"
+      ],
+      "notes": "Heather Cherone quote"
+    },
+    {
+      "extract": "Journalists often don't explain that data (or good data) on a specific topic or issue doesn't exist. This is something readers and viewers typically want to know but are rarely told. If the data doesn't exist, it doesn't mean we are hiding information, it means we don't have it to share.",
+      "chapter": "Ethics, Trust and Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "transparency",
+        "data limitations",
+        "trust"
+      ],
+      "notes": "Lynn Walsh quote"
+    },
+    {
+      "extract": "If you do create your own database and collect your own data, explain why you had to do this, as the data didn't exist, why you thought it was important to invest the time in doing this and how you did it.",
+      "chapter": "Ethics, Trust and Data",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "transparency",
+        "methodology disclosure",
+        "trust"
+      ],
+      "notes": "Lynn Walsh quote"
+    },
+    {
+      "extract": "Technical skills can be acquired -- not without effort -- but with time people can learn the technical side of working with data. But far less time is spent teaching and developing the skills needed to find story ideas -- and good story ideas are the true currency of all forms of journalism.",
+      "chapter": "Ethics, Trust and Data",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "story ideas",
+        "skills hierarchy",
+        "editorial judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "What really counts is shoe-leather reporting, the curiosity to seek out stories, the imagination to see the opportunities for storytelling using data and the doggedness to stick with a complicated investigation, no matter where it leads. A journalist can be equipped with all the technical skills in the world, but if they don't have ideas for stories they will always be beaten to the punch by someone with a good idea for a story but only a fairly basic grasp of how to sort a spreadsheet.",
+      "chapter": "History of Data Journalism",
+      "pipeline_step": "Define",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "editorial judgment",
+        "curiosity",
+        "story ideas",
+        "skills hierarchy"
+      ],
+      "notes": "John Walton quote"
+    },
+    {
+      "extract": "Public records provide credible, substantive proof for story angles that sources have a difficult time refuting. They avoid being spun by officials.",
+      "chapter": "Using FOI Laws",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "public records",
+        "credibility",
+        "verification"
+      ],
+      "notes": "David Cuillier quote"
+    },
+    {
+      "extract": "When you start on a beat, go to the agency office or website that you're covering. Study the forms that the agency collects. What kinds of data are they gathering from the public? How are they organizing it, and what formats do they keep it in? Check the data portal to see if the information is readily available. This also serves as a road map for when you need to pull data later on.",
+      "chapter": "Making a Public Records Request",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "beat reporting",
+        "data scouting",
+        "agency forms",
+        "planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be specific about the type of record you want, what dates the records cover and what the topic is. Simply asking for 'all of the mayor's email correspondence' is too broad. However, requesting the mayor's emails over the past three years discussing the public funding of a new bridge with the city's CFO is more specific and gives the agency a better road map to find the records. This typically cuts down on denials.",
+      "chapter": "Making a Public Records Request",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "specificity",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Listing a specific file format in the request is especially important; otherwise, the agency can send the documents as PDFs, which make it harder to extract data. It's also wise to stipulate what costs you would cover for file transfer.",
+      "chapter": "Making a Public Records Request",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "file formats",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep at it until you get the records. It takes persistence, tenacity and sometimes a little psychology. Don't take officials' denials at face value -- check with records experts. Find out what other agencies do (peer pressure is effective at getting records). Team up with other journalism organizations. Always appeal denials (a third of the time it will kick them loose). And triangulate your records work with people sourcing -- they go hand-in-hand.",
+      "chapter": "Making a Public Records Request",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI appeals",
+        "persistence",
+        "collaboration",
+        "sourcing"
+      ],
+      "notes": "David Cuillier quote"
+    },
+    {
+      "extract": "Get to know the records officers. If they see you as a real person, they are more likely to help you. Hone your letter with specific keywords for agencies to use in their search. Invest time into finding the existence of records by scouring agency websites for references to reports, records and data. Find an hour each week to set aside as your records time -- this will get agencies used to you.",
+      "chapter": "Five Tips for Getting Public Records",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI requests",
+        "relationship building",
+        "routine",
+        "planning"
+      ],
+      "notes": "David Cuillier five tips, condensed"
+    },
+    {
+      "extract": "When denied and thwarted by a hostile agency, ramp up the pressure. Write stories about the denial, quoting experts and elected officials. Survey surrounding agencies to show that the recalcitrant agency is an outlier (peer pressure is extremely effective). Submit additional requests about their expense reports, disciplinary records, claims against the agency, and emails about your requests.",
+      "chapter": "Appealing a Request Denial",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI appeals",
+        "pressure tactics",
+        "accountability"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Todd Wallack files an appeal letter with the agency and then files a separate FOI request requesting the internal emails from the agency officials discussing why his initial public records request was denied. This prompts the agency to take the initial request more seriously and the emails help him better understand the denial process.",
+      "chapter": "Appealing a Request Denial",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "FOI appeals",
+        "meta-requests",
+        "strategy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "With any data story, it's important to seek outside experts who can help you understand your subject. Find them early in your reporting process as they can help guide you to good datasets and assist in the cleaning process. Someone somewhere studies the subject you're writing about. Academics have developed standard methodologies to study all kinds of things. You don't need to reinvent them. You'll end up with a better analysis and a measure of credibility you could never achieve on your own.",
+      "chapter": "Academic Studies and Expert Sources",
+      "pipeline_step": "Find",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "expert sources",
+        "academic methods",
+        "credibility",
+        "planning"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To find older datasets, you can hack the web address of the most recent dataset as agencies have consistent URLs for naming files. Simply change the year or quarter in the URL to find archived pages. This can be an effective way to sort through government sites and other poorly navigated websites to find data buried deep in the archives.",
+      "chapter": "Hacking a Web Address to Find Archived Data",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "URL hacking",
+        "archives",
+        "data discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Testing and verifying data is one of the most challenging parts of data reporting. Build time into your reporting process to check and recheck your data. One verification method is to compare datasets from different sources. What doesn't add up? What slips through the cracks in one dataset may appear in another.",
+      "chapter": "Evaluating the Information You Find Online",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "verification",
+        "cross-referencing",
+        "data quality"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Check with the PIO or data experts about what criteria are used in building the dataset. Some organizations classify a mass shooting as having three or more victims. Others use 10 or more. Those criteria greatly adjust the number of mass shootings in the database. It's important to explain those criteria to the reader and how it compares to other datasets.",
+      "chapter": "Evaluating the Information You Find Online",
+      "pipeline_step": "Verify",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "data definitions",
+        "classification criteria",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Keep a data diary that will help track how you're analyzing your data. Keep a log of any changes or corrections you're making. List where you got the data, when, the software and steps you took to get it, clean it and analyze it. List it as a process. It's helpful in finding mistakes or replicating the process for future stories.",
+      "chapter": "Evaluating the Information You Find Online",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data diary",
+        "documentation",
+        "reproducibility",
+        "audit trail"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Verify your data with actual, on-the-ground reporting. Does your data describe a place? Go there. Does it describe a person? Talk to them.",
+      "chapter": "Evaluating the Information You Find Online",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ground-truthing",
+        "verification",
+        "shoe-leather reporting"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The best way to find data is the same as finding any other type of source: shoe-leather reporting. Often, your search for data will begin with an online query, but it won't stop there. Call up sources or stakeholders and ask them about what data is collected and where. Building a stable of sources, and establishing rapport with them, is as important in data reporting as it is in any other part of journalism.",
+      "chapter": "Searching the Deep Web",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "sourcing",
+        "shoe-leather reporting",
+        "relationship building"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "In the data journalism field, government databases are considered more reliable than other sources because they are subject to laws like public information and anti-corruption rules. But it doesn't mean a database is reliable just because it came from a government. You should evaluate a dataset's reliability by fact-checking and cross-checking it with other sources. These can be human, like an expert source, or nonhuman, like another dataset.",
+      "chapter": "How to Determine If a Government Source Is Reliable",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "source reliability",
+        "government data",
+        "cross-checking"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you can't find a proper dataset for your story, you can sometimes use something called a proxy source -- data that is similar or is expected to correlate with the data you are looking for. It can be useful to use proxy data in a story, but you should be clear what the data is actually representing. You may also want to note that actual data was not available.",
+      "chapter": "Searching the Deep Web",
+      "pipeline_step": "Find",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "proxy data",
+        "transparency",
+        "data limitations"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When using nongovernmental data sources, background the source the same way you would any journalism source: due diligence and backgrounding. Read the group's About page. Find their funders, tax forms, donors or other background information. Search the group online including in news sources. When in doubt, share this potential bias with your audience.",
+      "chapter": "How to Determine If a Nongovernmental Source Is Reliable",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "source vetting",
+        "bias disclosure",
+        "transparency",
+        "backgrounding"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you can't find or access the database you are looking for, you may want to create your own. The first step is to determine whether it's worth the effort. For the technology side, make sure you are separating out values and variables as much as possible. Always keep a copy of raw data files somewhere else, entirely untouched from when you downloaded them.",
+      "chapter": "Create Your Own Database",
+      "pipeline_step": "Get",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "database creation",
+        "data structure",
+        "raw data preservation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Many journalists recommend creating a 'notes' or 'miscellaneous' field, typically all the way to the right in the spreadsheet. It will act as a catchall for annotations, reminders, attributions or unanswered questions. Make sure to create it as a separate column so that you aren't combining values and comments in the same cell.",
+      "chapter": "Create Your Own Database",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database design",
+        "annotations",
+        "spreadsheet structure"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Data scraping is the process of extracting information from a source file into a spreadsheet, when it's more difficult than simply clicking Download. Typically, journalists scrape data to move it into a spreadsheet so they can manipulate and analyze it to find patterns and develop story ideas.",
+      "chapter": "Scraping Data",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "scraping",
+        "data extraction",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "The IMPORTHTML scraping formula continues to update the spreadsheet as the web page is updated, up to once a day. This is an excellent option for reporters tracking government pages that update daily, weekly, monthly. To do analysis or to save a snapshot of the data, you must make a copy of the dataset and work off that copy.",
+      "chapter": "Scraping from the Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "IMPORTHTML",
+        "live scraping",
+        "Google Sheets",
+        "snapshots"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You always, always, always work off a COPY of your dataset in case you mess something up. You may want to save an offline copy.",
+      "chapter": "Scraping from the Web",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "workflow",
+        "backup"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Watch for small glitches as you scrape and move data, and check it after each step in the process.",
+      "chapter": "Scraping from the Web",
+      "pipeline_step": "Verify",
+      "secondary_step": "Get",
+      "extract_type": "procedural",
+      "themes": [
+        "data quality",
+        "incremental checking",
+        "scraping"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "PDFs are the scourge of the data journalism world as they provide valuable data but in a format that's useless. You cannot sort, filter or analyze the data in a PDF, so you must first extract it. When requesting public documents, journalists should always ask for them in the electronic format they want to use.",
+      "chapter": "Scraping Documents",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "PDF extraction",
+        "file formats",
+        "data acquisition"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Tabula is a free software that scrapes tables out of PDFs. It was created by journalists and is wildly popular among investigative journalists because it's secure. Rather than loading the PDF to a live website, they can scrape the file right on their desktop.",
+      "chapter": "Scraping Documents",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Tabula",
+        "PDF extraction",
+        "security"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Be careful with scanned documents and OCR. Characters often get misread. A 3 can look like an 8 when converted, or a 7 may appear as a 2. After scraping, make sure to carefully review the spreadsheet to make sure the data is clean.",
+      "chapter": "Scraping Documents",
+      "pipeline_step": "Get",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "OCR",
+        "data quality",
+        "verification",
+        "PDF extraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Bulletproofing is one of the most vital steps to a valid and ethical data analysis. Data journalists recommend doing data integrity checks during and after the analysis itself. Data from government databases, papers and websites is often dirty, meaning it is unorganized, incorrect, incomplete or contains other flaws that prevent accurate analysis.",
+      "chapter": "Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "epistemological",
+      "themes": [
+        "bulletproofing",
+        "data quality",
+        "integrity checks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "If you get an amazing analysis, look first to see if you've made a mistake.",
+      "chapter": "How to Find Errors",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "verification",
+        "skepticism",
+        "error checking"
+      ],
+      "notes": "Jaimi Dowdell quote"
+    },
+    {
+      "extract": "Save the original version in a completely separate file. Background your data the same way you would an interview subject. Find the methodology -- how was the data collected? Keep a data diary of all actions taken. Double-check row counts and do spot checks against the source. Run tests with SUM() and COUNTA(). Cross-reference with other analyses. Don't allow for confirmation bias. Consult human experts.",
+      "chapter": "How to Find Errors",
+      "pipeline_step": "Verify",
+      "secondary_step": "Clean",
+      "extract_type": "procedural",
+      "themes": [
+        "bulletproofing checklist",
+        "data diary",
+        "verification",
+        "bias avoidance"
+      ],
+      "notes": "11-point verification checklist, condensed"
+    },
+    {
+      "extract": "If major problems arise, and you think you can't clean or vet the data enough to write the story ethically, it's best not to use it at all.",
+      "chapter": "How to Find Errors",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "ethics",
+        "data quality",
+        "editorial judgment"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Remember, data can be bad for lots of reasons. Sometimes, the records are wrong or incomplete. Other times, the actual methods for collecting the data produce inaccuracies. If the data are wrong, so is the story.",
+      "chapter": "Evaluating the Information You Find Online",
+      "pipeline_step": "Verify",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data quality",
+        "provenance",
+        "accuracy"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "To be a good coder means that you have to be a resourceful coder, one who knows how to look for and ask for help solving any problems you encounter.",
+      "chapter": "Troubleshooting Common Programming Errors",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "programming",
+        "resourcefulness",
+        "problem solving"
+      ],
+      "notes": "Lam Thuy Vo quote"
+    },
+    {
+      "extract": "Downloading or scraping data from a website and then sorting, filtering and analyzing that information is one of the foundational blocks of data journalism. Even the simplest spreadsheet skills can produce newsworthy results and drive your reporting in new ways.",
+      "chapter": "Basic Spreadsheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "spreadsheets",
+        "accessibility",
+        "foundational skills"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Interview data the same way you would a person. Just as you would background a person you were interviewing for a story, data has its own history. Interviewing data takes some practice, but the benefits are plentiful. You'll learn how to find the holes in data (and there are always holes), how to avoid misinterpretations and how to find better stories.",
+      "chapter": "Interviewing Your Dataset",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "data interview",
+        "questioning",
+        "story discovery",
+        "critical thinking"
+      ],
+      "notes": "Derek Willis approach"
+    },
+    {
+      "extract": "Develop the habit of always working with a copy of the original data. By duplicating your worksheet, you can name each sheet whenever you make a significant change. That way, you will have an audit trail of your work.",
+      "chapter": "Basic Spreadsheets",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "data preservation",
+        "audit trail",
+        "workflow"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Do a slow scroll through your dataset and make sure the set is complete and there are no empty or garbled cells. Data entry with some government entities can be spotty. Make sure your set passes initial inspection before starting any analysis.",
+      "chapter": "Basic Spreadsheets",
+      "pipeline_step": "Clean",
+      "secondary_step": "Verify",
+      "extract_type": "procedural",
+      "themes": [
+        "data inspection",
+        "data quality",
+        "pre-analysis checks"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Rates help level the playing field when making comparisons. They have been very helpful in calculating COVID-19 data by comparing rates in large cities to those in smaller towns. Normalizing the data gives readers scale and helps them better understand the impact rather than just looking at raw numbers.",
+      "chapter": "Figuring Rates",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "procedural",
+      "themes": [
+        "rates",
+        "normalization",
+        "per capita",
+        "comparisons"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "You always need to fact-check budget totals as there can be errors. Use the SUM formula to calculate the totals independently and compare them to what the city gave you.",
+      "chapter": "Basic Spreadsheets",
+      "pipeline_step": "Verify",
+      "secondary_step": "Analyse",
+      "extract_type": "procedural",
+      "themes": [
+        "fact-checking",
+        "budgets",
+        "verification",
+        "SUM"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It may be tempting to say that COVID-19 cases spiked due to students returning to campus, but we don't actually know for sure. Correlation means two values are related, while causation means that one caused the other. This is notoriously hard to establish with data alone, and it's not ethical to imply causation without doing additional research.",
+      "chapter": "Correlation and Causation",
+      "pipeline_step": "Analyse",
+      "secondary_step": "Present",
+      "extract_type": "epistemological",
+      "themes": [
+        "correlation",
+        "causation",
+        "statistical reasoning",
+        "ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "One way around this is to share that cases were highest in the fall and also share opinions from experts that it may be due to students returning to campus. This way, you are accurately conveying your findings, as well as possible reasons why, without overstating them. Another method is to be clear with your audience that you don't actually have enough evidence of causation.",
+      "chapter": "Correlation and Causation",
+      "pipeline_step": "Present",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "correlation",
+        "causation",
+        "hedging language",
+        "transparency"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "OpenRefine uses a collection of linguistic analysis techniques to identify and cluster rows containing similar values or ones that OpenRefine thinks are related, like 'Central Intelligence Agency' and 'CIA.' You can then batch edit these values or rename them.",
+      "chapter": "OpenRefine",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "OpenRefine",
+        "entity resolution",
+        "clustering",
+        "standardization"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Make sure you understand which delimiter the source data is using, because that can have enormous effects on the integrity of your data.",
+      "chapter": "Cleaning Data",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "delimiters",
+        "data integrity",
+        "import"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A pivot table groups together values in order to create a summary. Grouping values is an extremely common task. Before creating a pivot table, think: What would my ideal table look like? You can even sketch it out on a napkin.",
+      "chapter": "Pivot Tables",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "pivot tables",
+        "aggregation",
+        "planning",
+        "summary"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "When searching an online database, you can sometimes get it to return all of the records by leaving the search bar blank. You can also try entering wildcards like '*' and '%%'. These tricks don't work with every database, but they are always worth trying.",
+      "chapter": "Searching the Deep Web",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "database querying",
+        "wildcards",
+        "data extraction"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "It's important to know the fundamentals, like search syntax, so you can keep up with whichever tools are available. The most foolproof way to navigate it is to ask your fellow journalists for the most recent active tools.",
+      "chapter": "Social Media",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "tool literacy",
+        "fundamentals",
+        "community knowledge"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Google's Dataset Search guides you to datasets and provides information about them so you can vet the data yourself. Google doesn't fact-check the datasets. Datasets are easier to find when they include clear and consistent supporting information, such as the data's description, source and file format.",
+      "chapter": "Google's Dataset Search Engine",
+      "pipeline_step": "Find",
+      "secondary_step": null,
+      "extract_type": "tool-specific",
+      "themes": [
+        "Google Dataset Search",
+        "metadata",
+        "data discovery"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A confounding variable is a variable that might affect your findings but isn't visible in the dataset. Remember to keep these possibilities in mind when implying any correlation -- or stricter yet, causation -- between variables.",
+      "chapter": "Cleaning Data",
+      "pipeline_step": "Analyse",
+      "secondary_step": null,
+      "extract_type": "epistemological",
+      "themes": [
+        "confounding variables",
+        "statistical reasoning",
+        "causation"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "Much of the data that journalists scrape is public record. But some datasets are proprietary and are protected by copyright law. Always check for usage rights, and reach out to the authors if you're unsure if you can use the dataset without paying a fee.",
+      "chapter": "Scraping with Code",
+      "pipeline_step": "Get",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "copyright",
+        "legal issues",
+        "scraping ethics"
+      ],
+      "notes": ""
+    },
+    {
+      "extract": "A single empty cell can bring down an entire data analysis, making it one of the first errors a data journalist looks for. Blank rows can truncate filters, skew averages or trigger error messages.",
+      "chapter": "Finding Empty Values",
+      "pipeline_step": "Clean",
+      "secondary_step": null,
+      "extract_type": "procedural",
+      "themes": [
+        "null values",
+        "data quality",
+        "error prevention"
+      ],
+      "notes": ""
+    }
+  ]
+}
