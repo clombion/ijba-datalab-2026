@@ -5,11 +5,12 @@
 """T9 Validation — check extraction completeness and quality.
 
 Usage:
-    uv run utils/validate_extraction.py              # validate all
-    uv run utils/validate_extraction.py --only 07    # one source
+    uv run utils/analyse/t9_6_validate_extraction.py              # validate all
+    uv run utils/analyse/t9_6_validate_extraction.py --only 07    # one source
 """
 
 import json
+import subprocess
 import sys
 from collections import Counter
 from pathlib import Path
@@ -84,11 +85,19 @@ def validate_file(path: Path) -> tuple[list[str], list[str]]:
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     only_id = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
+    i = 0
+    while i < len(args):
+        if args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     files = sorted(EXTRACTIONS_DIR.glob("*_chunk*.json"))
     if only_id:
@@ -126,6 +135,13 @@ def main():
     console.print(f"  Total extracts: {total_extracts}")
     console.print(f"  Errors: {total_errors}")
     console.print(f"  Warnings: {total_warnings}")
+
+    subprocess.run(
+        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+         "--script", Path(__file__).name,
+         "--message", f"Validated {len(files)} files, {total_extracts} extracts, {total_errors} errors, {total_warnings} warnings"],
+        check=False, capture_output=True,
+    )
 
     if total_errors:
         console.print(f"  [red]FAIL[/] — {len(files_with_errors)} files with errors")

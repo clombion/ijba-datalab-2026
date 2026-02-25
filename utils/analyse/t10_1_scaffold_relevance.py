@@ -9,11 +9,12 @@ relevance/{stem}.json with each extract's text + classification
 but llm_relevance: null.
 
 Usage:
-    uv run utils/scaffold_relevance.py              # scaffold all
-    uv run utils/scaffold_relevance.py --only 07
+    uv run utils/analyse/t10_1_scaffold_relevance.py              # scaffold all
+    uv run utils/analyse/t10_1_scaffold_relevance.py --only 07
 """
 
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -27,11 +28,19 @@ console = Console()
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     only_id = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
+    i = 0
+    while i < len(args):
+        if args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     RELEVANCE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -85,12 +94,13 @@ def main():
     console.print(f"  Created: {created}")
     console.print(f"  Skipped (exist): {skipped}")
 
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent)); from log_action import log_action
-        if created:
-            log_action("scaffold_relevance.py", f"Created {created} relevance scaffolds, skipped {skipped} existing")
-    except ImportError:
-        pass
+    if created:
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Created {created} relevance scaffolds, skipped {skipped} existing"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":

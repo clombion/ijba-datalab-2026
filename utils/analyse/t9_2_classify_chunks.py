@@ -8,12 +8,13 @@ Reads each chunk file, inspects its headings, and updates chunks-manifest.csv
 with a context_status column.
 
 Usage:
-    uv run utils/classify_chunks.py                # classify all
-    uv run utils/classify_chunks.py --only 07      # one source
+    uv run utils/analyse/t9_2_classify_chunks.py                # classify all
+    uv run utils/analyse/t9_2_classify_chunks.py --only 07      # one source
 """
 
 import csv
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -63,11 +64,19 @@ def classify_chunk(chunk_path: Path) -> str:
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     only_id = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
+    i = 0
+    while i < len(args):
+        if args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found. Run chunk_corpus.py first.")
@@ -120,11 +129,12 @@ def main():
     if needed_files:
         console.print(f"  Needed: {', '.join(needed_files)}")
 
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent)); from log_action import log_action
-        log_action("classify_chunks.py", f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}")
-    except ImportError:
-        pass
+    subprocess.run(
+        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+         "--script", Path(__file__).name,
+         "--message", f"{ok_count} chunks context_ok, {needed_count} chunks context_needed\ncontext_needed: {', '.join(needed_files)}"],
+        check=False, capture_output=True,
+    )
 
 
 if __name__ == "__main__":

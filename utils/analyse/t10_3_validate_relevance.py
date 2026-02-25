@@ -5,8 +5,8 @@
 """T10 Validation — check relevance scoring completeness.
 
 Usage:
-    uv run utils/validate_relevance.py              # validate all
-    uv run utils/validate_relevance.py --only 07
+    uv run utils/analyse/t10_3_validate_relevance.py              # validate all
+    uv run utils/analyse/t10_3_validate_relevance.py --only 07
 """
 
 import json
@@ -25,11 +25,19 @@ VALID_RELEVANCE = {"endures", "displaced", "needs_update"}
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     only_id = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
+    i = 0
+    while i < len(args):
+        if args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     files = sorted(RELEVANCE_DIR.glob("*.json"))
     if only_id:

@@ -5,7 +5,7 @@
 """CLI for LLM to score an extract for LLM-era relevance (T10).
 
 Usage:
-    uv run utils/score_extract.py \
+    uv run utils/analyse/t10_2_score_extract.py \
       --file relevance/07-ddj-handbook-1.json \
       --index 3 \
       --relevance endures \
@@ -28,6 +28,10 @@ def main():
     relevance = None
     rationale = None
 
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     args = sys.argv[1:]
     i = 0
     while i < len(args):
@@ -40,7 +44,8 @@ def main():
         elif args[i] == "--rationale" and i + 1 < len(args):
             rationale = args[i + 1]; i += 2
         else:
-            i += 1
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     # Validate
     missing = []
@@ -49,12 +54,12 @@ def main():
     if not relevance: missing.append("--relevance")
     if not rationale: missing.append("--rationale")
     if missing:
-        print(f"Error: missing required arguments: {', '.join(missing)}")
+        print(f"Error: missing required arguments: {', '.join(missing)}", file=sys.stderr)
         sys.exit(1)
 
     if relevance not in VALID_RELEVANCE:
-        print(f"Error: --relevance must be one of: {', '.join(sorted(VALID_RELEVANCE))}")
-        print(f"  Got: {relevance}")
+        print(f"Error: --relevance must be one of: {', '.join(sorted(VALID_RELEVANCE))}", file=sys.stderr)
+        print(f"  Got: {relevance}", file=sys.stderr)
         sys.exit(1)
 
     # Resolve path
@@ -64,14 +69,14 @@ def main():
     if not p.exists():
         p = RELEVANCE_DIR / Path(file_path).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}")
+        print(f"Error: file not found: {file_path}", file=sys.stderr)
         sys.exit(1)
 
     data = json.loads(p.read_text())
     extracts = data.get("extracts", [])
 
     if index < 0 or index >= len(extracts):
-        print(f"Error: index {index} out of range (0-{len(extracts) - 1})")
+        print(f"Error: index {index} out of range (0-{len(extracts) - 1})", file=sys.stderr)
         sys.exit(1)
 
     extracts[index]["llm_relevance"] = relevance

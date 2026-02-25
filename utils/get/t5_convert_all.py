@@ -364,8 +364,8 @@ def convert_maryjo_webster(src_dir: Path, dst: Path) -> ManifestRow:
             )
             if result.returncode == 0 and result.stdout.strip():
                 parts.append(f"# {html_file.stem}\n\n{result.stdout}")
-        except Exception:
-            pass
+        except Exception as e:
+            err_console.print(f"  [red]pandoc failed for {html_file.name}:[/] {e}")
 
     # R/ subdirectory Rmd files
     r_dir = src_dir / "R"
@@ -454,7 +454,8 @@ def convert_nicar_file(path: Path, fmt: str) -> str | None:
             if result.returncode == 0:
                 return result.stdout
             return None
-    except Exception:
+    except Exception as e:
+        err_console.print(f"  [red]convert_nicar_file failed for {path.name}:[/] {e}")
         return None
 
 

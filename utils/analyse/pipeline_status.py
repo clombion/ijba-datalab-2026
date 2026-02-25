@@ -5,11 +5,11 @@
 """Pipeline status tracker — shows progress and suggests next actions.
 
 Usage:
-    uv run utils/pipeline_status.py                    # full status
-    uv run utils/pipeline_status.py --next 10          # next 10 to process
-    uv run utils/pipeline_status.py --stage chunks     # chunking status
-    uv run utils/pipeline_status.py --stage extract    # T9 status
-    uv run utils/pipeline_status.py --stage relevance  # T10 status
+    uv run utils/analyse/pipeline_status.py                    # full status
+    uv run utils/analyse/pipeline_status.py --next 10          # next 10 to process
+    uv run utils/analyse/pipeline_status.py --stage chunks     # chunking status
+    uv run utils/analyse/pipeline_status.py --stage extract    # T9 status
+    uv run utils/analyse/pipeline_status.py --stage relevance  # T10 status
 """
 
 import csv
@@ -32,6 +32,10 @@ RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
 
 
 def read_registry() -> list[dict]:
+    if not REGISTRY_CSV.exists():
+        from rich.console import Console
+        Console().print(f"[red]corpus-registry.csv not found: {REGISTRY_CSV}")
+        sys.exit(1)
     rows = []
     with open(REGISTRY_CSV, newline="") as f:
         for row in csv.DictReader(f):
@@ -58,14 +62,22 @@ def count_extracts(path: Path) -> int:
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     stage = None
     next_n = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--stage" and i + 1 < len(args):
-            stage = args[i + 1]
-        elif arg == "--next" and i + 1 < len(args):
-            next_n = int(args[i + 1])
+    i = 0
+    while i < len(args):
+        if args[i] == "--stage" and i + 1 < len(args):
+            stage = args[i + 1]; i += 2
+        elif args[i] == "--next" and i + 1 < len(args):
+            next_n = int(args[i + 1]); i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     console = Console()
     registry = read_registry()

@@ -38,6 +38,10 @@ def main():
     script = None
     message = None
     tag = "live"
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     args = sys.argv[1:]
     i = 0
     while i < len(args):
@@ -51,14 +55,15 @@ def main():
             tag = args[i + 1]
             i += 2
         else:
-            i += 1
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not script or not message:
-        print("Usage: uv run utils/log_action.py --script NAME --message MSG [--tag TAG]")
+        print("Usage: uv run utils/log_action.py --script NAME --message MSG [--tag TAG]", file=sys.stderr)
         sys.exit(1)
 
     log_action(script, message, tag)
-    print(f"Logged: {script} [{tag}]")
+    print(f"Logged: {script} [{tag}]", file=sys.stderr)
 
 
 if __name__ == "__main__":

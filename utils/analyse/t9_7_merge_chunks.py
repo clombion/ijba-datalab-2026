@@ -7,12 +7,13 @@
 Won't merge a source unless ALL its chunks have extraction files.
 
 Usage:
-    uv run utils/merge_chunks.py                  # merge all complete
-    uv run utils/merge_chunks.py --only 07        # one source
+    uv run utils/analyse/t9_7_merge_chunks.py                  # merge all complete
+    uv run utils/analyse/t9_7_merge_chunks.py --only 07        # one source
 """
 
 import csv
 import json
+import subprocess
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -28,11 +29,19 @@ console = Console()
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     only_id = None
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
+    i = 0
+    while i < len(args):
+        if args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found.")
@@ -109,12 +118,13 @@ def main():
     console.print(f"  Incomplete (skipped): {skipped_incomplete}")
     console.print(f"  Already merged (skipped): {skipped_exists}")
 
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent)); from log_action import log_action
-        if merged:
-            log_action("merge_chunks.py", f"Merged {merged} sources, skipped {skipped_incomplete} incomplete + {skipped_exists} existing")
-    except ImportError:
-        pass
+    if merged:
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Merged {merged} sources, skipped {skipped_incomplete} incomplete + {skipped_exists} existing"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":

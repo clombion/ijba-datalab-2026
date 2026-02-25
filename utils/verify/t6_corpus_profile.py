@@ -6,6 +6,9 @@
 
 Reads convert-manifest.csv and source-registry.md to produce a
 sanity-check report before LLM extraction begins.
+
+Usage:
+    uv run utils/verify/t6_corpus_profile.py
 """
 
 import csv
@@ -288,6 +291,13 @@ def section_warnings(sources: list[dict], md_lines: list[str]):
 # ── Main ────────────────────────────────────────────────────────────
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+    for arg in sys.argv[1:]:
+        print(f"Unknown argument: {arg}", file=sys.stderr)
+        sys.exit(1)
+
     if not MANIFEST.exists():
         console.print(f"[red]Manifest not found: {MANIFEST}")
         sys.exit(1)

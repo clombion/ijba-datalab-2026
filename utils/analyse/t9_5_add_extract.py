@@ -8,7 +8,7 @@ The LLM passes plain text arguments; this script handles all JSON assembly
 and enum validation.
 
 Usage:
-    uv run utils/add_extract.py \
+    uv run utils/analyse/t9_5_add_extract.py \
       --file extractions/07-ddj-handbook-1_chunk2.json \
       --extract "Always verify your data against the original source" \
       --chapter "Getting Data from the Web" \
@@ -40,6 +40,10 @@ def main():
     themes = None
     notes = None
 
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     args = sys.argv[1:]
     i = 0
     while i < len(args):
@@ -60,7 +64,8 @@ def main():
         elif args[i] == "--notes" and i + 1 < len(args):
             notes = args[i + 1]; i += 2
         else:
-            i += 1
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     # Validate required
     missing = []
@@ -70,23 +75,23 @@ def main():
     if not step: missing.append("--step")
     if not extract_type: missing.append("--type")
     if missing:
-        print(f"Error: missing required arguments: {', '.join(missing)}")
-        print("Required: --file --extract --chapter --step --type")
+        print(f"Error: missing required arguments: {', '.join(missing)}", file=sys.stderr)
+        print("Required: --file --extract --chapter --step --type", file=sys.stderr)
         sys.exit(1)
 
     # Validate enums
     if step not in VALID_STEPS:
-        print(f"Error: --step must be one of: {', '.join(sorted(VALID_STEPS))}")
-        print(f"  Got: {step}")
+        print(f"Error: --step must be one of: {', '.join(sorted(VALID_STEPS))}", file=sys.stderr)
+        print(f"  Got: {step}", file=sys.stderr)
         sys.exit(1)
 
     if extract_type not in VALID_TYPES:
-        print(f"Error: --type must be one of: {', '.join(sorted(VALID_TYPES))}")
-        print(f"  Got: {extract_type}")
+        print(f"Error: --type must be one of: {', '.join(sorted(VALID_TYPES))}", file=sys.stderr)
+        print(f"  Got: {extract_type}", file=sys.stderr)
         sys.exit(1)
 
     if secondary_step and secondary_step != "null" and secondary_step not in VALID_STEPS:
-        print(f"Error: --secondary-step must be null or one of: {', '.join(sorted(VALID_STEPS))}")
+        print(f"Error: --secondary-step must be null or one of: {', '.join(sorted(VALID_STEPS))}", file=sys.stderr)
         sys.exit(1)
 
     # Resolve file path
@@ -96,7 +101,7 @@ def main():
     if not p.exists():
         p = EXTRACTIONS_DIR / Path(file_path).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}")
+        print(f"Error: file not found: {file_path}", file=sys.stderr)
         sys.exit(1)
 
     # Parse themes

@@ -12,6 +12,7 @@ Usage:
 """
 
 import csv
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -270,6 +271,17 @@ def print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_the
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+    for arg in sys.argv[1:]:
+        print(f"Unknown argument: {arg}", file=sys.stderr)
+        sys.exit(1)
+
+    if not HORIZON_CSV.exists():
+        console.print(f"[red]horizon-table.csv not found: {HORIZON_CSV}")
+        sys.exit(1)
+
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     console.rule("[bold]T12 ANALYSE HORIZON TABLE")
 
@@ -289,12 +301,12 @@ def main():
     print_summary(rows, primary_counts, type_rel, step_rel, step_totals, all_themes, displaced_rows, step_sources)
 
     # Log action
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-        from log_action import log_action
-        log_action("t12_1_analyse_horizon.py", f"Generated 6 analysis CSVs from {len(rows)} extracts")
-    except ImportError:
-        pass
+    subprocess.run(
+        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+         "--script", Path(__file__).name,
+         "--message", f"Generated 6 analysis CSVs from {len(rows)} extracts"],
+        check=False, capture_output=True,
+    )
 
 
 if __name__ == "__main__":

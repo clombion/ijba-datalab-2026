@@ -7,12 +7,13 @@
 All 81 sources must have T9 + T10 complete.
 
 Usage:
-    uv run utils/merge_horizon.py                  # merge all
-    uv run utils/merge_horizon.py --force          # skip count gate
+    uv run utils/analyse/t11_1_merge_horizon.py                  # merge all
+    uv run utils/analyse/t11_1_merge_horizon.py --force          # skip count gate
 """
 
 import csv
 import json
+import subprocess
 import sys
 from pathlib import Path
 
@@ -35,7 +36,19 @@ CSV_FIELDS = [
 
 
 def main():
-    force = "--force" in sys.argv
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
+    force = False
+    args = sys.argv[1:]
+    i = 0
+    while i < len(args):
+        if args[i] == "--force":
+            force = True; i += 1
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     # Read registry
     registry = []
@@ -102,11 +115,12 @@ def main():
     console.print(f"  Total rows: {len(rows)}")
     console.print(f"  Written to: {HORIZON_CSV.relative_to(ROOT)}")
 
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent)); from log_action import log_action
-        log_action("merge_horizon.py", f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv")
-    except ImportError:
-        pass
+    subprocess.run(
+        ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+         "--script", Path(__file__).name,
+         "--message", f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv"],
+        check=False, capture_output=True,
+    )
 
 
 if __name__ == "__main__":

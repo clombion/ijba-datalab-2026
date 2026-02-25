@@ -5,7 +5,7 @@
 """CLI for LLM Pass 0 — write section labels into chunk metadata header.
 
 Usage:
-    uv run utils/annotate_chunk.py \
+    uv run utils/analyse/t9_3_annotate_chunk.py \
       --file chunks/82-periodismo-datos_chunk2.md \
       --sections "Research methodology; Survey design and sampling"
 """
@@ -18,6 +18,10 @@ CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
 
 
 def main():
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
     file_path = None
     sections = None
     args = sys.argv[1:]
@@ -30,10 +34,11 @@ def main():
             sections = args[i + 1]
             i += 2
         else:
-            i += 1
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not file_path or not sections:
-        print("Usage: uv run utils/annotate_chunk.py --file PATH --sections TEXT")
+        print("Usage: uv run utils/analyse/t9_3_annotate_chunk.py --file PATH --sections TEXT", file=sys.stderr)
         sys.exit(1)
 
     # Resolve path (could be relative or absolute)
@@ -43,7 +48,7 @@ def main():
     if not p.exists():
         p = CHUNKS_DIR / Path(file_path).name
     if not p.exists():
-        print(f"Error: file not found: {file_path}")
+        print(f"Error: file not found: {file_path}", file=sys.stderr)
         sys.exit(1)
 
     text = p.read_text()

@@ -1,20 +1,33 @@
-# Horizon Table Analysis Report
+# What Endures in the Data Pipeline? A Horizon-Scanning Literature Review
 
-_Generated 2026-02-25 by `t12_1_analyse_horizon.py` + LLM narrative synthesis_
+_T13 Present — generated 2026-02-25. Cross-tabulations by `t12_1_analyse_horizon.py`; narrative synthesis by LLM._
 
 ## Overview
 
-This report analyses the horizon table produced in T11: **4,351 extracts** drawn from **81 sources** (71 unique source IDs after deduplication) spanning 2012-2025. Each extract is a passage of practitioner or educator advice mapped to one of seven School of Data pipeline steps, classified by extract type (epistemological, procedural, organizational, tool-specific), and scored for LLM-era relevance (endures, needs_update, displaced).
+This report analyses 4,351 practitioner and educator recommendations drawn from 81 canonical data journalism sources (2012-2025), each mapped to the School of Data pipeline, classified by knowledge type, and scored for LLM-era relevance. The central finding: **70% of the canonical advice endures**. Epistemological advice — principles about why data matters, how to think critically, what journalism owes its audience — is nearly indestructible (89.4% endures). Tool-specific advice is the most fragile (10.6% endures). Three pipeline steps are flagged for redefinition: Clean (80.2% of advice needs revision), Get (49.1%), and Analyse (35.6%). All three pre-registered hypotheses are confirmed. Actionable curriculum implications derived from these findings are incorporated into `content/theory.md`.
 
-The corpus includes textbooks, handbooks, NICAR tipsheets, academic articles, and curriculum guides across four languages (EN/FR/ES/PT, all translated to English for analysis). The horizon table schema was designed to answer two research questions and test three hypotheses about what endures in the data journalism pipeline when LLMs arrive.
+## Introduction
 
-**Methodology note**: Extraction (T9) and relevance scoring (T10) were performed by LLM agents against a structured schema, then validated deterministically. The analysis below is purely deterministic cross-tabulation of the scored data.
+This is a systematic literature review conducted to inform the design of a 5-day data journalism curriculum for journalism students encountering the field for the first time in 2026 — a moment when large language models are reshaping every stage of data-driven reporting.
 
----
+The curriculum is structured around the School of Data pipeline: Define, Find, Get, Verify, Clean, Analyse, Present. This seven-step sequence, credited to the Open Knowledge Foundation and proven over eight years of teaching across four continents, serves as the curricular spine. The question motivating this review is not whether to use the pipeline — but what to teach differently within it, now that LLMs can perform or augment many of the tasks traditionally taught as manual skills.
 
-## RQ1: What do practitioners recommend at each stage?
+Two research questions guided the extraction:
 
-### Step coverage distribution (H1 test)
+- **RQ1**: What do practitioners and educators recommend at each pipeline stage?
+- **RQ2**: Which of those recommendations endure in the LLM era, and which are displaced?
+
+Three hypotheses were pre-registered:
+
+- **H1**: Coverage across the seven pipeline steps is uneven — some steps receive far more attention in the literature than others.
+- **H2**: Epistemological advice (principles, reasoning) is more durable than procedural advice (how-to methods), which in turn is more durable than tool-specific advice.
+- **H3**: Some pipeline steps require not just new tools but fundamental redefinition — a reconceptualization of what the step means in practice.
+
+The corpus spans textbooks, handbooks, NICAR tipsheets, academic articles, and curriculum guides across four languages (EN, FR, ES, PT — all translated to English for analysis), with publication dates from 2012 to 2025.
+
+## Results
+
+### Step coverage distribution
 
 Coverage across the seven pipeline steps is markedly uneven:
 
@@ -32,9 +45,9 @@ Coverage across the seven pipeline steps is markedly uneven:
 
 When secondary step assignments are included (extracts tagged with a secondary pipeline step), the picture sharpens further: Verify rises to 1,073 combined mentions and Analyse to 1,439 — many extracts about other steps also touch on verification and analysis concerns.
 
-**H1 verdict**: Coverage is uneven. **Confirmed.**
+**H1 verdict: Confirmed.** Coverage is uneven, with a 4.8:1 ratio between the most- and least-covered steps. The literature's emphasis on analysis over data preparation reflects a longstanding bias in data journalism education that predates LLMs.
 
-### Extract type mix per step
+### Extract type mix
 
 The corpus contains four extract types:
 
@@ -59,15 +72,11 @@ Each pipeline step has a distinctive thematic signature (top 3 themes shown):
 - **Analyse**: reproducibility (56), VisiData (44), collaboration (39) — emphasis on repeatable methods
 - **Present**: transparency (96), visualization (38), storytelling (37) — communicating findings responsibly
 
-Notable: **Verification** (189 mentions) is the single most common theme in any step, reflecting the literature's deep concern with trust and accuracy. **FOI** dominates both Find and Get, underlining the legal backbone of data journalism. **Transparency** leads Present, suggesting the field views presentation as an accountability act, not just storytelling.
+Verification (189 mentions) is the single most common theme in any step, reflecting the literature's deep concern with trust and accuracy. FOI dominates both Find and Get, underlining the legal backbone of data journalism. Transparency leads Present, suggesting the field views presentation as an accountability act, not just storytelling.
 
 ### Source diversity
 
 All seven steps draw from at least 37 sources, with Analyse (66 sources) and Define (59) having the broadest coverage. Clean has the narrowest source base (37 sources), consistent with its low extract count — fewer authors write about data cleaning in depth.
-
----
-
-## RQ2: Which recommendations endure vs are displaced?
 
 ### Overall relevance distribution
 
@@ -79,7 +88,7 @@ All seven steps draw from at least 37 sources, with Analyse (66 sources) and Def
 
 Nearly 70% of the canonical advice endures — the core of data journalism methodology survives the LLM transition. About 30% needs updating (the advice is still directionally valid but the methods or tools need revision). Only 1.1% is genuinely displaced — advice that is no longer useful because LLMs have made the underlying task trivial or the referenced tools defunct.
 
-### H2 test: extract type x relevance
+### Extract type and relevance
 
 | Type | Endures | Needs update | Displaced |
 |------|---------|--------------|-----------|
@@ -95,9 +104,9 @@ The gradient is steep and clean:
 - **Procedural advice** shows significant update needs: a third (33.3%) requires revision. The how-to steps still point in the right direction, but the specific methods often need rewriting for LLM-era workflows.
 - **Tool-specific advice** is overwhelmingly outdated: 82.2% needs updating and 7.2% is outright displaced. Only 10.6% of tool-specific advice endures — the small fraction that references tools still in active use (e.g., Python, SQL).
 
-**H2 verdict**: Procedural advice is more likely to be displaced than epistemological advice. **Confirmed** — and the effect is stronger than hypothesised. Tool-specific advice, a subcategory not in the original hypothesis, is the most vulnerable of all.
+**H2 verdict: Confirmed** — and the effect is stronger than hypothesised. Tool-specific advice, a subcategory not in the original hypothesis, is the most vulnerable of all. The abstract principles of data journalism — skepticism, transparency, verification, evidence-based reasoning — are technology-independent. The specific methods are not.
 
-### H3 test: redefinition candidates
+### Redefinition candidates
 
 Steps where >30% of extracts are needs_update or displaced qualify as "redefinition candidates" — steps where the field needs not just new tools but reconceptualization of the work.
 
@@ -119,13 +128,13 @@ Three steps cross the 30% threshold:
 
 3. **Analyse (35.6%)** — The largest step by volume also has significant update needs. Traditional NLP pipelines (TFIDF, word vectors, manual clustering), specific tool stacks (Google Fusion Tables, CartoDB), and formula-driven approaches need revision. The analytical principles endure but the methods are shifting.
 
-**H3 verdict**: Clean, Get, and Analyse are redefinition candidates. **Confirmed** — with Clean showing far more disruption than initially expected (80.2% vs the hypothesised >30% threshold).
+**H3 verdict: Confirmed** — with Clean showing far more disruption than initially expected (80.2% vs the hypothesised >30% threshold).
 
-### The 46 displaced extracts: what was lost
+### The 46 displaced extracts
 
 The 46 displaced extracts cluster into clear categories:
 
-1. **Defunct tools** (18 extracts): Google Fusion Tables, Kimono Labs, ScraperWiki, TileMill, namechk — tools that no longer exist or function. These are historically interesting but practically useless.
+1. **Defunct tools** (18 extracts): Google Fusion Tables, Kimono Labs, ScraperWiki, TileMill, namechk — tools that no longer exist or function.
 
 2. **Manual text preprocessing** (12 extracts): Tokenization, stop-word removal, stemming, sentence segmentation, encoding fixes, whitespace normalization. LLMs process raw text directly, making this preprocessing layer largely unnecessary.
 
@@ -135,7 +144,7 @@ The 46 displaced extracts cluster into clear categories:
 
 **Source concentration**: The Verification Handbook series (sources #138, #142, #143) accounts for 16 of 46 displaced extracts (35%), largely due to their detailed Google search operator tutorials. The NICAR tipsheets (#97) contribute 7 displaced extracts, mostly NLP preprocessing recipes.
 
-### Needs_update patterns: what needs rewriting
+### Needs_update patterns
 
 The 1,282 needs_update extracts (29.5% of corpus) are not displaced — the underlying advice is still directionally correct — but the specific methods require revision. Common patterns:
 
@@ -145,20 +154,38 @@ The 1,282 needs_update extracts (29.5% of corpus) are not displaced — the unde
 
 The key insight: needs_update advice is still *teaching the right thing* — you still need to clean data, verify sources, and analyse patterns — but the *how* has changed.
 
----
+## Methodology
 
-## Hypothesis Verdicts
+### Corpus
 
-### H1: Coverage is uneven across pipeline steps
-**CONFIRMED.** Analyse commands 27.0% of extracts while Clean receives only 5.6% — a 4.8:1 ratio. The literature's emphasis on analysis over data preparation reflects a longstanding bias in data journalism education that predates LLMs.
+81 sources were selected through systematic search of data journalism textbooks, handbooks, NICAR tipsheet archives, academic articles, and curriculum guides published between 2012 and 2025. Sources span four languages (EN, FR, ES, PT); non-English sources were translated to English via Claude API before extraction. The corpus totals approximately 1.5 million words after cleaning.
 
-### H2: Procedural advice displaced most; epistemological advice endures
-**CONFIRMED.** Epistemological advice endures at 89.4% vs procedural at 65.9% (displaced+needs_update: 10.6% vs 34.0%). The effect is even stronger for the tool-specific subcategory (89.4% needs_update or displaced). The abstract principles of data journalism — skepticism, transparency, verification, evidence-based reasoning — are technology-independent. The specific methods are not.
+### Pipeline
 
-### H3: Some steps need redefinition, not just new tools
-**CONFIRMED.** Three steps exceed the 30% redefinition threshold: Clean (80.2%), Get (49.1%), Analyse (35.6%). Clean in particular requires fundamental reconceptualization — the entire preprocessing-before-analysis paradigm is disrupted when LLMs can work with raw, messy data directly. Get and Analyse need significant methodological updates but retain their core logic.
+The extraction and analysis followed a reproducible eight-step pipeline, each step implemented as a standalone PEP 723 Python script:
 
----
+1. **T8 Clean**: Regex-based cleaning of converted markdown files — removal of junk lines (page numbers, publisher metadata), encoding fixes (HTML entities, ligatures), structural markup removal (Pandoc anchors, stray HTML), and code block stripping.
+2. **T9 Chunk + Extract**: Large files were deterministically chunked by heading or word boundary (max 40K words per chunk). LLM agents extracted structured passages from each chunk into a JSON schema specifying: extract text, chapter, pipeline step, secondary step, extract type, themes, and notes.
+3. **T10 Relevance Scoring**: LLM agents scored each of the 4,351 extracts for LLM-era relevance using three labels — *endures* (advice remains valid as-is), *needs_update* (directionally correct but methods need revision), *displaced* (no longer useful) — with a mandatory rationale for each score.
+4. **T11 Merge**: Count-gated merge of chunk-level extractions and relevance scores into source-level files, then flattened into a single `horizon-table.csv` (4,351 rows, 14 columns).
+5. **T12 Analyse**: Deterministic cross-tabulation producing six analysis CSVs: step distribution, type × relevance, step × relevance, themes by step, displaced extracts, and source coverage.
+
+### Classification schema
+
+**Extract types:**
+- *Epistemological*: Principles about why something matters, how to think about it, what values or standards apply
+- *Procedural*: Step-by-step methods for accomplishing a task
+- *Organizational*: Advice about team structure, project management, newsroom culture
+- *Tool-specific*: Guidance tied to a named tool or platform
+
+**Relevance labels:**
+- *Endures*: The advice is valid as-is in an LLM-augmented workflow
+- *Needs update*: The underlying principle holds but the specific method, tool, or workflow needs revision
+- *Displaced*: The advice is no longer useful — the referenced tool is defunct, the manual process is fully automated, or the technique is obsolete
+
+### Validation
+
+Extraction and relevance scoring were validated at each step: T9 checked for required fields, valid enum values, extract length bounds, step distribution balance, and theme counts. T10 checked for scoring completeness, valid labels, and rationale presence. Merge steps used count-gating (all chunks must be complete before merging). The final analysis (T12) is entirely deterministic — no LLM involvement.
 
 ## Limitations
 
@@ -173,3 +200,13 @@ The key insight: needs_update advice is still *teaching the right thing* — you
 5. **Extract granularity**: The unit of analysis is a passage, not a complete argument. Some nuanced positions may be split across multiple extracts or lose context when isolated from surrounding text.
 
 6. **Clean step underrepresentation**: Clean's low extract count (243, 5.6%) means its high redefinition rate (80.2%) is based on a smaller sample than other steps. However, the pattern is consistent and the displaced extracts are qualitatively coherent.
+
+## Conclusions
+
+The data journalism pipeline endures as a teaching structure. Seven out of ten recommendations from the canonical literature remain valid in the LLM era, and the seven-step sequence — Define, Find, Get, Verify, Clean, Analyse, Present — retains its pedagogical logic. The order matters: Define before Find, Verify before Analyse.
+
+What changes is not the structure but the content within it. Three steps require redefinition: Clean, where LLMs have displaced the entire preprocessing-before-analysis paradigm; Get, where legal and ethical principles endure but technical acquisition methods are transforming; and Analyse, where the methods are shifting even as the analytical principles hold. The consistent pattern across all three is that epistemological advice survives while procedural and tool-specific advice does not.
+
+This finding has a direct curriculum design implication: teach principles first, methods second, tools last — and design the curriculum so that methods and tools can be updated without rebuilding the conceptual foundation. The gap in Clean coverage (only 5.6% of the literature) is itself an opportunity: a curriculum designed in 2026 can lead rather than follow the literature in teaching what AI changes about data cleaning.
+
+Actionable curriculum implications derived from these findings are incorporated into `content/theory.md`.

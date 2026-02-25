@@ -8,14 +8,15 @@ Type-aware strategies split large files into ≤40K-word chunks.
 Outputs chunks/{stem}_chunk{N}.md + chunks/chunks-manifest.csv.
 
 Usage:
-    uv run utils/chunk_corpus.py                  # chunk all
-    uv run utils/chunk_corpus.py --only 97e       # one source (matches file prefix)
-    uv run utils/chunk_corpus.py --dry-run        # show plan without writing
-    uv run utils/chunk_corpus.py --max-words 40000
+    uv run utils/analyse/t9_1_chunk_corpus.py                  # chunk all
+    uv run utils/analyse/t9_1_chunk_corpus.py --only 97e       # one source (matches file prefix)
+    uv run utils/analyse/t9_1_chunk_corpus.py --dry-run        # show plan without writing
+    uv run utils/analyse/t9_1_chunk_corpus.py --max-words 40000
 """
 
 import csv
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -230,16 +231,26 @@ def extract_chunk_headings(text: str) -> list[str]:
 
 
 def main():
-    dry_run = "--dry-run" in sys.argv
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
+    dry_run = False
     max_words = DEFAULT_MAX_WORDS
     only_id = None
 
     args = sys.argv[1:]
-    for i, arg in enumerate(args):
-        if arg == "--only" and i + 1 < len(args):
-            only_id = args[i + 1]
-        elif arg == "--max-words" and i + 1 < len(args):
-            max_words = int(args[i + 1])
+    i = 0
+    while i < len(args):
+        if args[i] == "--dry-run":
+            dry_run = True; i += 1
+        elif args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        elif args[i] == "--max-words" and i + 1 < len(args):
+            max_words = int(args[i + 1]); i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not REGISTRY_CSV.exists():
         console.print("[red]corpus-registry.csv not found.")
@@ -370,13 +381,14 @@ def main():
         console.print(f"  Manifest: {MANIFEST_CSV.relative_to(ROOT)}")
 
     # Log action
-    try:
-        sys.path.insert(0, str(Path(__file__).resolve().parent.parent)); from log_action import log_action
-        if not dry_run:
-            breakdown = ", ".join(f"{v} {k}" for k, v in sorted(stats.items()) if v)
-            log_action("chunk_corpus.py", f"Chunked {len(registry)} sources into {total_chunks} chunks\nStrategy breakdown: {breakdown}")
-    except ImportError:
-        pass
+    if not dry_run:
+        breakdown = ", ".join(f"{v} {k}" for k, v in sorted(stats.items()) if v)
+        subprocess.run(
+            ["uv", "run", str(ROOT / "utils" / "log_action.py"),
+             "--script", Path(__file__).name,
+             "--message", f"Chunked {len(registry)} sources into {total_chunks} chunks\nStrategy breakdown: {breakdown}"],
+            check=False, capture_output=True,
+        )
 
 
 if __name__ == "__main__":

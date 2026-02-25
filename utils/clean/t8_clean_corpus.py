@@ -9,9 +9,9 @@ cleaning passes (junk lines, encoding, pandoc markup, HTML), then
 generates corpus-registry.csv as the single source of truth for T9+.
 
 Usage:
-    uv run utils/clean_corpus.py              # full run
-    uv run utils/clean_corpus.py --dry-run    # show what would happen
-    uv run utils/clean_corpus.py --registry-only  # regenerate CSV only
+    uv run utils/clean/t8_clean_corpus.py              # full run
+    uv run utils/clean/t8_clean_corpus.py --dry-run    # show what would happen
+    uv run utils/clean/t8_clean_corpus.py --registry-only  # regenerate CSV only
 """
 
 import csv
@@ -373,8 +373,29 @@ def discover_nicar_sources() -> list[dict]:
 
 
 def main():
-    dry_run = "--dry-run" in sys.argv
-    registry_only = "--registry-only" in sys.argv
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
+    dry_run = False
+    registry_only = False
+    args = sys.argv[1:]
+    i = 0
+    while i < len(args):
+        if args[i] == "--dry-run":
+            dry_run = True; i += 1
+        elif args[i] == "--registry-only":
+            registry_only = True; i += 1
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
+
+    if not REGISTRY.exists():
+        console.print(f"[red]source-registry.md not found: {REGISTRY}")
+        sys.exit(1)
+    if not MANIFEST.exists():
+        console.print(f"[red]convert-manifest.csv not found: {MANIFEST}")
+        sys.exit(1)
 
     reg = parse_registry()
     manifest = parse_manifest()

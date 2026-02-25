@@ -11,9 +11,9 @@ results to translation-log.csv.
 Idempotent: files with a <!-- translated --> marker are skipped.
 
 Usage:
-    uv run utils/translate_corpus.py              # translate all non-EN
-    uv run utils/translate_corpus.py --dry-run    # show what would be translated
-    uv run utils/translate_corpus.py --only 45    # translate only source #45
+    uv run utils/clean/t8_translate_corpus.py              # translate all non-EN
+    uv run utils/clean/t8_translate_corpus.py --dry-run    # show what would be translated
+    uv run utils/clean/t8_translate_corpus.py --only 45    # translate only source #45
 
 Requires ANTHROPIC_API_KEY in environment.
 """
@@ -144,12 +144,22 @@ def _translate_chunk(
 
 
 def main():
-    dry_run = "--dry-run" in sys.argv
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__)
+        sys.exit(0)
+
+    dry_run = False
     only_id = None
-    if "--only" in sys.argv:
-        idx = sys.argv.index("--only")
-        if idx + 1 < len(sys.argv):
-            only_id = sys.argv[idx + 1]
+    args = sys.argv[1:]
+    i = 0
+    while i < len(args):
+        if args[i] == "--dry-run":
+            dry_run = True; i += 1
+        elif args[i] == "--only" and i + 1 < len(args):
+            only_id = args[i + 1]; i += 2
+        else:
+            print(f"Unknown argument: {args[i]}", file=sys.stderr)
+            sys.exit(1)
 
     if not REGISTRY_CSV.exists():
         console.print("[red]Registry not found. Run clean_corpus.py first.")
