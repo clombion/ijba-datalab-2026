@@ -1,8 +1,15 @@
 # IJBA Datalab 2026
 
-Curriculum, research, and tooling for the 2026 edition of the IJBA data journalism intensive — a 5-day workshop for journalism students at the Institut de Journalisme Bordeaux Aquitaine.
+Curriculum, research, and tooling for the 2026 edition of the IJBA data journalism module and Datalab — 5 days of classes followed by a 5-day investigation week for graduate journalism students at the Institut de Journalisme Bordeaux Aquitaine.
 
-This edition is a significant departure from previous years. Large language models are now part of the student toolkit from day one, and the curriculum is redesigned around a **scaffold fading** model: students encounter each pipeline step manually before AI is introduced, then work at escalating levels of AI autonomy (docs → Q&A → assistant → fast). The goal is to teach data journalism *with* AI, not *about* AI — the editorial pipeline comes first, the capability layer follows.
+A substantial amount of research has been done to prepare this edition. Large language models are now integrated in the curriculum, and that meant rethinking the place existing frameworks (data pipeline), methodologies (horizon table), and tools (google sheets, openrefine, tabula...) had in the program. 
+
+So what did change? The broad answer is: workflows change, but frameworks remain. The structure that has been refined over the years has emerged from my research as the greatest asset to harness LLMs in a way that centers journalism instead of displace or degrade it. Consequently, the pace of the course (which was already quite fast due to time constraints) doesn't evolve much, and even the central tool, Google Sheets, preserves its place. Instead, two things evolve:
+
+1. AI tools are introduced as a way to document, research, and speed up some of the tasks
+1. The core frameworks and methodologies are refined and strenghtened
+
+Just like for any other tool, we plan to introduce AI a tool in service of journalism, and not the other way around.
 
 ## Structure
 
