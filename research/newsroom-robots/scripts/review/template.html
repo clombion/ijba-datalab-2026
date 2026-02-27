@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recode Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>/* {{STYLE}} */</style>
+</head>
+<body>
+
+<!-- Toolbar -->
+<header id="toolbar">
+  <div class="toolbar-row toolbar-top">
+    <h1>Recode Review</h1>
+    <div class="episode-nav">
+      <button id="btn-prev" type="button" aria-label="Previous episode">&larr;</button>
+      <span id="episode-counter">1 / 42</span>
+      <button id="btn-next" type="button" aria-label="Next episode">&rarr;</button>
+    </div>
+    <span id="progress">0 / 0 reviewed</span>
+    <div class="toolbar-actions">
+      <button id="btn-github" type="button" aria-label="GitHub sync"><span id="gh-indicator" class="gh-dot"></span> Connect</button>
+      <span id="gh-status-text" class="gh-status-text"></span>
+      <button id="btn-theme" type="button" aria-label="Toggle light/dark">Light</button>
+      <button id="btn-export" type="button">Export</button>
+      <button id="btn-import" type="button">Import</button>
+    </div>
+    <button id="hamburger" type="button" aria-label="Toggle menu">
+      <svg width="20" height="14" viewBox="0 0 20 14" fill="none"><path d="M1 1h18M1 7h18M1 13h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="toolbar-row toolbar-bottom" id="toolbar-controls">
+    <div class="toolbar-group">
+      <label class="toggle"><input type="checkbox" id="hide-reviewed"><span>Hide reviewed episodes</span></label>
+    </div>
+    <div class="toolbar-group">
+      <select id="filter-relevance" aria-label="Filter relevance"><option value="">All relevance</option></select>
+    </div>
+  </div>
+</header>
+
+<!-- Content container -->
+<div id="content-container">
+  <div id="episode-header"></div>
+  <div id="theme-rows"></div>
+</div>
+
+<!-- Import modal -->
+<div id="modal-overlay" class="hidden" role="dialog" aria-modal="true" aria-label="Import decisions">
+  <div id="modal">
+    <h2>Import Decisions</h2>
+    <p>Select a JSON decision file to import.</p>
+    <input type="file" id="import-files" accept=".json">
+    <div id="import-status"></div>
+    <div class="modal-actions">
+      <button id="modal-cancel" type="button">Cancel</button>
+      <button id="modal-confirm" type="button">Import</button>
+    </div>
+  </div>
+</div>
+
+<!-- GitHub settings modal -->
+<div id="gh-modal" class="hidden" role="dialog" aria-modal="true" aria-label="GitHub connection">
+  <div class="gh-modal-content">
+    <h2>Connect to GitHub</h2>
+    <p>Enter a fine-grained Personal Access Token with Contents read/write permission for the target repo.</p>
+    <label class="gh-field">Token <input id="gh-input-token" type="password" placeholder="github_pat_..." autocomplete="off"></label>
+    <label class="gh-field">Owner <input id="gh-input-owner" type="text" value="clombion"></label>
+    <label class="gh-field">Repo <input id="gh-input-repo" type="text" value="ijba-datalab-2026"></label>
+    <label class="gh-field">Path <input id="gh-input-path" type="text" value="research/newsroom-robots/decisions.json" disabled></label>
+    <div id="gh-modal-status" class="gh-modal-status"></div>
+    <div class="modal-actions">
+      <button id="gh-disconnect-btn" type="button" style="display:none;color:var(--fg-muted)">Disconnect</button>
+      <button id="gh-close-btn" type="button">Cancel</button>
+      <button id="gh-connect-btn" type="button">Connect</button>
+    </div>
+  </div>
+</div>
+
+<!-- Embedded data -->
+<script id="recode-data" type="application/gzip+base64">{{DATA}}</script>
+
+<!-- fflate decompression library (0.8.2) -->
+<script>/* {{FFLATE}} */</script>
+
+<!-- Application -->
+<script>/* {{SCRIPT}} */</script>
+
+</body>
+</html>

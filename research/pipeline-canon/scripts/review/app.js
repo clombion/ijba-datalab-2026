@@ -819,8 +819,8 @@
       gh.token = localStorage.getItem("gh_token") || "";
       gh.owner = localStorage.getItem("gh_owner") || GH_DEFAULTS.owner;
       gh.repo = localStorage.getItem("gh_repo") || GH_DEFAULTS.repo;
-      gh.path = localStorage.getItem("gh_path") || GH_DEFAULTS.path;
     } catch (e) {}
+    gh.path = GH_DEFAULTS.path;
 
     if (gh.token && gh.owner && gh.repo && gh.path) {
       ghConnect(true);
@@ -889,7 +889,6 @@
       localStorage.removeItem("gh_token");
       localStorage.removeItem("gh_owner");
       localStorage.removeItem("gh_repo");
-      localStorage.removeItem("gh_path");
     } catch (e) {}
     if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
     ghUpdateIndicator();
@@ -902,7 +901,6 @@
       localStorage.setItem("gh_token", gh.token);
       localStorage.setItem("gh_owner", gh.owner);
       localStorage.setItem("gh_repo", gh.repo);
-      localStorage.setItem("gh_path", gh.path);
     } catch (e) {}
   }
 

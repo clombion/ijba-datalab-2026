@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IJBA DataLab 2026 — Review Tools</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root, [data-theme="light"] {
+  --bg: #f0f4f8;
+  --surface: #fafbfc;
+  --fg: #475569;
+  --fg-muted: #64748b;
+  --fg-heading: #1e293b;
+  --border: #e2e8f0;
+  --accent: #0ea5e9;
+  --accent-hover: #0284c7;
+  --accent-light: #e0f2fe;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --fg: #e2e8f0;
+  --fg-muted: #94a3b8;
+  --fg-heading: #f1f5f9;
+  --border: #334155;
+  --accent: #38bdf8;
+  --accent-hover: #7dd3fc;
+  --accent-light: rgba(14, 165, 233, 0.12);
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+:root {
+  --radius: 12px;
+  --font: 'Inter', system-ui, -apple-system, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--fg);
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  -webkit-font-smoothing: auto;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+}
+
+header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--fg-heading);
+  margin-bottom: 6px;
+}
+header p {
+  font-size: 14px;
+  color: var(--fg-muted);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  width: 100%;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 340px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: var(--accent);
+}
+.card h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--fg-heading);
+  margin-bottom: 6px;
+}
+.card .desc {
+  font-size: 13px;
+  color: var(--fg-muted);
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.card .stats {
+  font-size: 12px;
+  color: var(--fg-muted);
+  display: flex;
+  gap: 12px;
+}
+.card .stat-value {
+  font-weight: 700;
+  color: var(--fg-heading);
+}
+
+.footer {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.gh-status {
+  font-size: 12px;
+  color: var(--fg-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.gh-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--fg-muted);
+}
+.gh-dot.connected { background: #22c55e; }
+
+.theme-btn {
+  font-family: var(--font);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+  color: var(--fg);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.theme-btn:hover { border-color: var(--accent); color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>IJBA DataLab 2026</h1>
+  <p>Human review tools for machine-generated analyses</p>
+</header>
+
+<div class="cards">
+  <a class="card" href="research/pipeline-canon/scripts/review/index.html">
+    <h2>Horizon Table Review</h2>
+    <p class="desc">Review 4,351 extracts from 81 canonical sources. Verify pipeline step, extract type, and temporal relevance classifications.</p>
+    <div class="stats">
+      <span><span class="stat-value">4,351</span> extracts</span>
+      <span><span class="stat-value">81</span> sources</span>
+      <span><span class="stat-value">4</span> decision columns</span>
+    </div>
+  </a>
+  <a class="card" href="research/newsroom-robots/scripts/review/index.html">
+    <h2>Recode Review</h2>
+    <p class="desc">Review thematic relevance judgments across 42 podcast episodes. Verify primary, secondary, and tangential theme classifications.</p>
+    <div class="stats">
+      <span><span class="stat-value">503</span> codings</span>
+      <span><span class="stat-value">42</span> episodes</span>
+      <span><span class="stat-value">12</span> themes</span>
+    </div>
+  </a>
+</div>
+
+<div class="footer">
+  <div class="gh-status">
+    <span class="gh-dot" id="gh-dot"></span>
+    <span id="gh-label">Not connected</span>
+  </div>
+  <button class="theme-btn" id="btn-theme">Dark</button>
+</div>
+
+<script>
+(function () {
+  // Theme
+  var stored = null;
+  try { stored = localStorage.getItem("horizon-theme"); } catch(e) {}
+  if (stored === "light" || stored === "dark") {
+    document.documentElement.setAttribute("data-theme", stored);
+  } else {
+    var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.setAttribute("data-theme", prefersDark ? "dark" : "light");
+  }
+  function updateBtn() {
+    var theme = document.documentElement.getAttribute("data-theme");
+    document.getElementById("btn-theme").textContent = theme === "dark" ? "Light" : "Dark";
+  }
+  updateBtn();
+  document.getElementById("btn-theme").addEventListener("click", function () {
+    var current = document.documentElement.getAttribute("data-theme");
+    var next = current === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try { localStorage.setItem("horizon-theme", next); } catch(e) {}
+    updateBtn();
+  });
+
+  // GitHub status
+  try {
+    var token = localStorage.getItem("gh_token");
+    if (token) {
+      document.getElementById("gh-dot").classList.add("connected");
+      document.getElementById("gh-label").textContent = "GitHub connected";
+    }
+  } catch(e) {}
+})();
+</script>
+
+</body>
+</html>
