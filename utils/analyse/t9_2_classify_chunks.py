@@ -86,7 +86,7 @@ def main(
     """Classify chunks as context_ok or context_needed."""
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found. Run chunk_corpus.py first.")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     # Read manifest
     with open(MANIFEST_CSV, newline="") as f:

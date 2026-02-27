@@ -76,7 +76,7 @@ err_console = Console(stderr=True)
 # ---------------------------------------------------------------------------
 
 
-@dataclass
+@dataclass(slots=True)
 class Article:
     title: str
     authors: list[str]

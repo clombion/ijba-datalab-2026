@@ -82,7 +82,7 @@ def main(
             console.print(f"  [red]Missing relevance ({len(missing_relevance)}):[/] {', '.join(missing_relevance[:10])}")
         if missing_extract or missing_relevance:
             console.print("  [red]Count gate failed.[/] Use --force to override.")
-            sys.exit(1)
+            raise typer.Exit(1)
 
     # Build horizon table
     rows = []

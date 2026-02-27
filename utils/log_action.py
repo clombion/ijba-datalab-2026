@@ -27,11 +27,11 @@ ROOT = Path(__file__).resolve().parent.parent
 ACTION_LOG = ROOT / "research" / "pipeline-canon" / "action-log.md"
 
 
-def log_action(script: str, message: str, tag: str = "live") -> None:
+def log_action(script: str, message: str, tag: str = "live", ts: str | None = None) -> None:
     """Append a timestamped entry to action-log.md."""
-    ts = datetime.now().strftime("%Y-%m-%dT%H:%M")
+    ts = ts or datetime.now().strftime("%Y-%m-%dT%H:%M")
     lines = message.strip().splitlines()
-    body = "\n".join(f"- {l}" for l in lines)
+    body = "\n".join(f"- {line}" for line in lines)
     entry = f"\n## {ts} — {script} [{tag}]\n{body}\n"
 
     ACTION_LOG.parent.mkdir(parents=True, exist_ok=True)

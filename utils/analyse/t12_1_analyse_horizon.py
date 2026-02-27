@@ -63,7 +63,7 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict], *, dry_run: b
     console.print(f"  {prefix}✓ {path.relative_to(ROOT)} ({len(rows)} rows)")
 
 
-def step_distribution(rows: list[dict], *, dry_run: bool = False) -> Counter:
+def step_distribution(rows: list[dict], *, dry_run: bool = False) -> Counter[str]:
     """Per-step counts, %, secondary_step counts (H1)."""
     total = len(rows)
     primary = Counter(r["pipeline_step"] for r in rows)
@@ -88,7 +88,7 @@ def step_distribution(rows: list[dict], *, dry_run: bool = False) -> Counter:
     return primary
 
 
-def type_x_relevance(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
+def type_x_relevance(rows: list[dict], *, dry_run: bool = False) -> defaultdict[str, Counter[str]]:
     """extract_type × llm_relevance cross-tab with row % (H2)."""
     counts = defaultdict(Counter)
     type_totals = Counter()
@@ -115,7 +115,7 @@ def type_x_relevance(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
     return counts
 
 
-def step_x_relevance(rows: list[dict], *, dry_run: bool = False) -> tuple[defaultdict, Counter]:
+def step_x_relevance(rows: list[dict], *, dry_run: bool = False) -> tuple[defaultdict[str, Counter[str]], Counter[str]]:
     """pipeline_step × llm_relevance cross-tab with row % (H3)."""
     counts = defaultdict(Counter)
     step_totals = Counter()
@@ -189,7 +189,7 @@ def displaced_extracts(rows: list[dict], *, dry_run: bool = False) -> list[dict]
     return displaced
 
 
-def source_coverage(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
+def source_coverage(rows: list[dict], *, dry_run: bool = False) -> defaultdict[str, set[str]]:
     """Which sources cover which steps, source count per step (RQ1)."""
     step_sources = defaultdict(set)
     source_info = {}
@@ -220,7 +220,7 @@ def source_coverage(rows: list[dict], *, dry_run: bool = False) -> defaultdict:
     return step_sources
 
 
-def print_summary(rows: list[dict], primary_counts: Counter, type_rel: defaultdict, step_rel: defaultdict, step_totals: Counter, all_themes: set[str], displaced_rows: list[dict], step_sources: defaultdict) -> None:
+def print_summary(rows: list[dict], primary_counts: Counter[str], type_rel: defaultdict[str, Counter[str]], step_rel: defaultdict[str, Counter[str]], step_totals: Counter[str], all_themes: set[str], displaced_rows: list[dict], step_sources: defaultdict[str, set[str]]) -> None:
     """Print summary stats to console."""
     total = len(rows)
     sources = len({r["source_id"] for r in rows})
@@ -296,7 +296,7 @@ def main(
 ) -> None:
     if not HORIZON_CSV.exists():
         console.print(f"[red]horizon-table.csv not found: {HORIZON_CSV}")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     console.rule("[bold]T12 ANALYSE HORIZON TABLE")

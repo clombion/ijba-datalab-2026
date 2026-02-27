@@ -166,7 +166,7 @@ def main(
 ) -> None:
     if not REGISTRY_CSV.exists():
         console.print("[red]Registry not found. Run clean_corpus.py first.")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     non_en = read_registry()
     if only:
@@ -178,7 +178,7 @@ def main(
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             console.print("[red]ANTHROPIC_API_KEY not set.")
-            sys.exit(1)
+            raise typer.Exit(1)
         client = anthropic.Anthropic(api_key=api_key)
 
     log_rows: list[dict] = []

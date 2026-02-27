@@ -51,7 +51,7 @@ def main(
     """Merge chunk extractions into per-source extraction JSONs."""
     if not MANIFEST_CSV.exists():
         console.print("[red]chunks-manifest.csv not found.")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     # Group manifest by source
     sources: dict[str, list[dict]] = defaultdict(list)

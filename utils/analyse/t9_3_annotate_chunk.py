@@ -45,7 +45,7 @@ def main(
         p = CHUNKS_DIR / Path(file).name
     if not p.exists():
         typer.echo(f"Error: file not found: {file}", err=True)
-        sys.exit(1)
+        raise typer.Exit(1)
 
     text = p.read_text()
     sections_line = f"<!-- sections: {sections} -->\n"

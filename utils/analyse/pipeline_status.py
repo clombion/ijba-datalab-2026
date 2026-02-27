@@ -48,7 +48,7 @@ def read_registry() -> list[dict]:
     if not REGISTRY_CSV.exists():
         from rich.console import Console
         Console().print(f"[red]corpus-registry.csv not found: {REGISTRY_CSV}")
-        sys.exit(1)
+        raise typer.Exit(1)
     rows = []
     with open(REGISTRY_CSV, newline="") as f:
         for row in csv.DictReader(f):

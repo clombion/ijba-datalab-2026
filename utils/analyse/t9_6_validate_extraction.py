@@ -145,7 +145,7 @@ def main(
 
     if total_errors:
         console.print(f"  [red]FAIL[/] — {len(files_with_errors)} files with errors")
-        sys.exit(1)
+        raise typer.Exit(1)
     else:
         console.print("  [green]PASS[/]")
 

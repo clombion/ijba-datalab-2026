@@ -67,7 +67,10 @@ def main(
             total_errors += 1
             console.print(f"  [red]ERROR[/] {f.name}: {len(unscored)} unscored extracts (indices: {unscored[:5]})")
 
-        no_rationale = [i for i, e in enumerate(extracts) if e.get("llm_relevance") and not e.get("relevance_rationale")]
+        no_rationale = [
+            i for i, e in enumerate(extracts)
+            if e.get("llm_relevance") and not e.get("relevance_rationale")
+        ]
         if no_rationale:
             total_errors += 1
             console.print(f"  [red]ERROR[/] {f.name}: {len(no_rationale)} missing rationales")
@@ -106,7 +109,7 @@ def main(
 
     if total_errors:
         console.print(f"  [red]FAIL[/]")
-        sys.exit(1)
+        raise typer.Exit(1)
     else:
         console.print("  [green]PASS[/]")
 

@@ -63,7 +63,7 @@ def build(
         help="Output HTML path",
     ),
     dry_run: bool = typer.Option(False, "--dry-run", help="Show sizes without writing"),
-):
+) -> None:
     """Build the self-contained review tool HTML."""
     if not csv_path.exists():
         typer.echo(f"Error: CSV not found: {csv_path}", err=True)

@@ -252,7 +252,7 @@ def main(
     """Deterministic chunking of corpus files for LLM extraction."""
     if not REGISTRY_CSV.exists():
         console.print("[red]corpus-registry.csv not found.")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     registry = read_registry()
     if only:

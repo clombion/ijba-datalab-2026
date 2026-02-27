@@ -101,7 +101,7 @@ class VerifyStats:
     missing_headings: int
 
 
-@dataclass(slots=True)
+@dataclass(frozen=True, slots=True)
 class AnalysisResult:
     total_pages: int
     repeated_headers: list[str]
@@ -109,7 +109,7 @@ class AnalysisResult:
     suggested_margins: int
     has_toc: bool
     toc_heading_count: int
-    margin_trials: list[dict]
+    margin_trials: list[dict[str, float | int]]
 
 
 # ---------------------------------------------------------------------------

@@ -60,16 +60,16 @@ def main(
     if step not in VALID_STEPS:
         typer.echo(f"Error: --step must be one of: {', '.join(sorted(VALID_STEPS))}", err=True)
         typer.echo(f"  Got: {step}", err=True)
-        sys.exit(1)
+        raise typer.Exit(1)
 
     if extract_type not in VALID_TYPES:
         typer.echo(f"Error: --type must be one of: {', '.join(sorted(VALID_TYPES))}", err=True)
         typer.echo(f"  Got: {extract_type}", err=True)
-        sys.exit(1)
+        raise typer.Exit(1)
 
     if secondary_step and secondary_step != "null" and secondary_step not in VALID_STEPS:
         typer.echo(f"Error: --secondary-step must be null or one of: {', '.join(sorted(VALID_STEPS))}", err=True)
-        sys.exit(1)
+        raise typer.Exit(1)
 
     # Resolve file path
     p = Path(file)
@@ -79,7 +79,7 @@ def main(
         p = EXTRACTIONS_DIR / Path(file).name
     if not p.exists():
         typer.echo(f"Error: file not found: {file}", err=True)
-        sys.exit(1)
+        raise typer.Exit(1)
 
     # Parse themes
     theme_list = [t.strip() for t in (themes or "").split(",") if t.strip()]

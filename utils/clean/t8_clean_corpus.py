@@ -394,10 +394,10 @@ def main(
 ) -> None:
     if not REGISTRY.exists():
         console.print(f"[red]source-registry.md not found: {REGISTRY}")
-        sys.exit(1)
+        raise typer.Exit(1)
     if not MANIFEST.exists():
         console.print(f"[red]convert-manifest.csv not found: {MANIFEST}")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     reg = parse_registry()
     manifest = parse_manifest()

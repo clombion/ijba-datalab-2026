@@ -311,10 +311,10 @@ def main(
 ) -> None:
     if not MANIFEST.exists():
         console.print(f"[red]Manifest not found: {MANIFEST}")
-        sys.exit(1)
+        raise typer.Exit(1)
     if not REGISTRY.exists():
         console.print(f"[red]Registry not found: {REGISTRY}")
-        sys.exit(1)
+        raise typer.Exit(1)
 
     manifest_rows = parse_manifest()
     registry = parse_registry()

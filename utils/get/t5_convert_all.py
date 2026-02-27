@@ -39,7 +39,7 @@ import sys
 from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, TypedDict
 
 import typer
 from rich.console import Console
@@ -100,7 +100,14 @@ err_console = Console(stderr=True)
 # Manifest tracking
 # ---------------------------------------------------------------------------
 
-ManifestRow = dict[str, str]
+class ManifestRow(TypedDict):
+    source_path: str
+    output_path: str
+    format: str
+    word_count: str
+    warnings: str
+    status: str
+    timestamp: str
 
 
 def word_count(text: str) -> int:
@@ -398,22 +405,19 @@ def convert_maryjo_webster(src_dir: Path, dst: Path) -> ManifestRow:
 
 def should_convert_nicar(path: Path) -> str | None:
     """Return pandoc format string if this file should be converted, else None."""
-    suffix = path.suffix.lower()
-    if suffix in (".md", ".txt"):
-        return "text"  # just read as-is
-    if suffix == ".pdf":
-        return "pdf"
-    if suffix == ".ipynb":
-        return "ipynb"
-    if suffix == ".html":
-        return "html"
-    if suffix == ".rst":
-        return "rst"
-    if suffix == ".qmd":
-        return "text"  # quarto markdown is still markdown
-    if suffix == ".rmd":
-        return "text"  # R markdown is still markdown
-    return None
+    match path.suffix.lower():
+        case ".md" | ".txt" | ".qmd" | ".rmd":
+            return "text"
+        case ".pdf":
+            return "pdf"
+        case ".ipynb":
+            return "ipynb"
+        case ".html":
+            return "html"
+        case ".rst":
+            return "rst"
+        case _:
+            return None
 
 
 def get_nicar_year(path: Path, nicar_dir: Path) -> int | None:
@@ -427,13 +431,11 @@ def get_nicar_year(path: Path, nicar_dir: Path) -> int | None:
             if top_dir == prefix or top_dir.startswith(prefix):
                 return year
         # Year-prefixed dirs: 2020-batch-pdfs-pdfplumber → 2020
-        m = re.match(r"^(20\d{2})-", top_dir)
-        if m:
+        if m := re.match(r"^(20\d{2})-", top_dir):
             return int(m.group(1))
 
     # Flat files: 2024-large-scale-scraping.md → 2024
-    m = re.match(r"^(20\d{2})-", path.name)
-    if m:
+    if m := re.match(r"^(20\d{2})-", path.name):
         return int(m.group(1))
 
     return None
@@ -735,22 +737,23 @@ def main(
                 continue
 
             try:
-                if suffix == ".pdf":
-                    row = convert_pdf(src, dst)
-                elif suffix == ".epub":
-                    row = convert_epub(src, dst)
-                elif suffix == ".txt":
-                    row = copy_txt(src, dst)
-                elif suffix in (".ipynb",):
-                    row = convert_ipynb(src, dst)
-                elif suffix in (".html", ".htm"):
-                    row = convert_html(src, dst)
-                elif suffix in (".rst",):
-                    row = convert_rst(src, dst)
-                else:
-                    console.print(f"  [yellow]Unknown format: {suffix}[/]")
-                    stats["skipped"] += 1
-                    continue
+                match suffix:
+                    case ".pdf":
+                        row = convert_pdf(src, dst)
+                    case ".epub":
+                        row = convert_epub(src, dst)
+                    case ".txt":
+                        row = copy_txt(src, dst)
+                    case ".ipynb":
+                        row = convert_ipynb(src, dst)
+                    case ".html" | ".htm":
+                        row = convert_html(src, dst)
+                    case ".rst":
+                        row = convert_rst(src, dst)
+                    case _:
+                        console.print(f"  [yellow]Unknown format: {suffix}[/]")
+                        stats["skipped"] += 1
+                        continue
 
                 rows.append(row)
                 stats["converted"] += 1
