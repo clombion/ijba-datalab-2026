@@ -5,8 +5,8 @@
 """T10 Validation — check relevance scoring completeness.
 
 Usage:
-    uv run utils/analyse/t10_3_validate_relevance.py              # validate all
-    uv run utils/analyse/t10_3_validate_relevance.py --only 07
+    uv run research/pipeline-canon/scripts/analyse/t10_3_validate_relevance.py              # validate all
+    uv run research/pipeline-canon/scripts/analyse/t10_3_validate_relevance.py --only 07
 """
 
 import json
@@ -21,8 +21,8 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+RELEVANCE_DIR = PIPELINE_ROOT / "relevance"
 
 console = Console()
 

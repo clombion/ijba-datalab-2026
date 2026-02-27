@@ -9,8 +9,8 @@ relevance/{stem}.json with each extract's text + classification
 but llm_relevance: null.
 
 Usage:
-    uv run utils/analyse/t10_1_scaffold_relevance.py              # scaffold all
-    uv run utils/analyse/t10_1_scaffold_relevance.py --only 07
+    uv run research/pipeline-canon/scripts/analyse/t10_1_scaffold_relevance.py              # scaffold all
+    uv run research/pipeline-canon/scripts/analyse/t10_1_scaffold_relevance.py --only 07
 """
 
 import json
@@ -23,12 +23,12 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
-RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
+RELEVANCE_DIR = PIPELINE_ROOT / "relevance"
 
 console = Console()
 

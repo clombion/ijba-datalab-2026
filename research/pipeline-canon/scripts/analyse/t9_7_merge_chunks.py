@@ -7,8 +7,8 @@
 Won't merge a source unless ALL its chunks have extraction files.
 
 Usage:
-    uv run utils/analyse/t9_7_merge_chunks.py                  # merge all complete
-    uv run utils/analyse/t9_7_merge_chunks.py --only 07        # one source
+    uv run research/pipeline-canon/scripts/analyse/t9_7_merge_chunks.py                  # merge all complete
+    uv run research/pipeline-canon/scripts/analyse/t9_7_merge_chunks.py --only 07        # one source
 """
 
 import csv
@@ -23,13 +23,13 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
+CHUNKS_DIR = PIPELINE_ROOT / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
 
 console = Console()
 

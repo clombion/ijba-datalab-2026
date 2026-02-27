@@ -8,7 +8,7 @@ Reads horizon-table.csv (4,351 extracts) and generates 6 analysis CSVs
 into research/pipeline-canon/analysis/ plus console summary stats.
 
 Usage:
-    uv run utils/analyse/t12_1_analyse_horizon.py
+    uv run research/pipeline-canon/scripts/analyse/t12_1_analyse_horizon.py
 """
 
 import csv
@@ -23,12 +23,12 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-HORIZON_CSV = ROOT / "research" / "pipeline-canon" / "horizon-table.csv"
-OUT_DIR = ROOT / "research" / "pipeline-canon" / "analysis"
+HORIZON_CSV = PIPELINE_ROOT / "horizon-table.csv"
+OUT_DIR = PIPELINE_ROOT / "analysis"
 
 PIPELINE_STEPS = ["Define", "Find", "Get", "Verify", "Clean", "Analyse", "Present"]
 RELEVANCE_LABELS = ["endures", "needs_update", "displaced"]
@@ -60,7 +60,7 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict], *, dry_run: b
             writer.writeheader()
             writer.writerows(rows)
     prefix = "[DRY RUN] " if dry_run else ""
-    console.print(f"  {prefix}✓ {path.relative_to(ROOT)} ({len(rows)} rows)")
+    console.print(f"  {prefix}✓ {path.relative_to(PIPELINE_ROOT)} ({len(rows)} rows)")
 
 
 def step_distribution(rows: list[dict], *, dry_run: bool = False) -> Counter[str]:
@@ -302,7 +302,7 @@ def main(
     console.rule("[bold]T12 ANALYSE HORIZON TABLE")
 
     rows = read_horizon()
-    console.print(f"  Loaded {len(rows)} extracts from {HORIZON_CSV.relative_to(ROOT)}")
+    console.print(f"  Loaded {len(rows)} extracts from {HORIZON_CSV.relative_to(PIPELINE_ROOT)}")
     console.print()
 
     # Generate all 6 CSVs

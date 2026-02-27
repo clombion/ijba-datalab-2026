@@ -5,7 +5,7 @@
 """CLI for LLM Pass 0 — write section labels into chunk metadata header.
 
 Usage:
-    uv run utils/analyse/t9_3_annotate_chunk.py \
+    uv run research/pipeline-canon/scripts/analyse/t9_3_annotate_chunk.py \
       --file chunks/82-periodismo-datos_chunk2.md \
       --sections "Research methodology; Survey design and sampling"
 """
@@ -18,8 +18,8 @@ import typer
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+CHUNKS_DIR = PIPELINE_ROOT / "chunks"
 
 app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=True)
 

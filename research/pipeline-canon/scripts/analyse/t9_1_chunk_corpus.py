@@ -8,10 +8,10 @@ Type-aware strategies split large files into ≤40K-word chunks.
 Outputs chunks/{stem}_chunk{N}.md + chunks/chunks-manifest.csv.
 
 Usage:
-    uv run utils/analyse/t9_1_chunk_corpus.py                  # chunk all
-    uv run utils/analyse/t9_1_chunk_corpus.py --only 97e       # one source (matches file prefix)
-    uv run utils/analyse/t9_1_chunk_corpus.py --dry-run        # show plan without writing
-    uv run utils/analyse/t9_1_chunk_corpus.py --max-words 40000
+    uv run research/pipeline-canon/scripts/analyse/t9_1_chunk_corpus.py                  # chunk all
+    uv run research/pipeline-canon/scripts/analyse/t9_1_chunk_corpus.py --only 97e       # one source (matches file prefix)
+    uv run research/pipeline-canon/scripts/analyse/t9_1_chunk_corpus.py --dry-run        # show plan without writing
+    uv run research/pipeline-canon/scripts/analyse/t9_1_chunk_corpus.py --max-words 40000
 """
 
 import csv
@@ -26,12 +26,12 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+CORPUS = PIPELINE_ROOT / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
-CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
+CHUNKS_DIR = PIPELINE_ROOT / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
 
 console = Console()
@@ -377,7 +377,7 @@ def main(
     if total_skipped_nicar:
         console.print(f"  NICAR sections filtered: {total_skipped_nicar}")
     if not dry_run:
-        console.print(f"  Manifest: {MANIFEST_CSV.relative_to(ROOT)}")
+        console.print(f"  Manifest: {MANIFEST_CSV.relative_to(PIPELINE_ROOT)}")
 
     # Log action
     if not dry_run:

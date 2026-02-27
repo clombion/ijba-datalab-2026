@@ -5,11 +5,11 @@
 """Pipeline status tracker — shows progress and suggests next actions.
 
 Usage:
-    uv run utils/analyse/pipeline_status.py                    # full status
-    uv run utils/analyse/pipeline_status.py --next 10          # next 10 to process
-    uv run utils/analyse/pipeline_status.py --stage chunks     # chunking status
-    uv run utils/analyse/pipeline_status.py --stage extract    # T9 status
-    uv run utils/analyse/pipeline_status.py --stage relevance  # T10 status
+    uv run research/pipeline-canon/scripts/analyse/pipeline_status.py                    # full status
+    uv run research/pipeline-canon/scripts/analyse/pipeline_status.py --next 10          # next 10 to process
+    uv run research/pipeline-canon/scripts/analyse/pipeline_status.py --stage chunks     # chunking status
+    uv run research/pipeline-canon/scripts/analyse/pipeline_status.py --stage extract    # T9 status
+    uv run research/pipeline-canon/scripts/analyse/pipeline_status.py --stage relevance  # T10 status
 """
 
 import csv
@@ -26,13 +26,13 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+CORPUS = PIPELINE_ROOT / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
-CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
+CHUNKS_DIR = PIPELINE_ROOT / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
-RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
+RELEVANCE_DIR = PIPELINE_ROOT / "relevance"
 
 app = typer.Typer(help=__doc__, add_completion=False, no_args_is_help=False)
 

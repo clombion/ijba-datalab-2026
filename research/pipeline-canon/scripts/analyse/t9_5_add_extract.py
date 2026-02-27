@@ -8,7 +8,7 @@ The LLM passes plain text arguments; this script handles all JSON assembly
 and enum validation.
 
 Usage:
-    uv run utils/analyse/t9_5_add_extract.py \
+    uv run research/pipeline-canon/scripts/analyse/t9_5_add_extract.py \
       --file extractions/07-ddj-handbook-1_chunk2.json \
       --extract "Always verify your data against the original source" \
       --chapter "Getting Data from the Web" \
@@ -28,8 +28,8 @@ import typer
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
 
 VALID_STEPS = {"Define", "Find", "Get", "Verify", "Clean", "Analyse", "Present"}
 VALID_TYPES = {"procedural", "epistemological", "organizational", "tool-specific"}

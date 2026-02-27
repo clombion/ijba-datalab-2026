@@ -7,8 +7,8 @@
 All 81 sources must have T9 + T10 complete.
 
 Usage:
-    uv run utils/analyse/t11_1_merge_horizon.py                  # merge all
-    uv run utils/analyse/t11_1_merge_horizon.py --force          # skip count gate
+    uv run research/pipeline-canon/scripts/analyse/t11_1_merge_horizon.py                  # merge all
+    uv run research/pipeline-canon/scripts/analyse/t11_1_merge_horizon.py --force          # skip count gate
 """
 
 import csv
@@ -22,15 +22,15 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+CORPUS = PIPELINE_ROOT / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
-RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
-HORIZON_CSV = ROOT / "research" / "pipeline-canon" / "horizon-table.csv"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
+RELEVANCE_DIR = PIPELINE_ROOT / "relevance"
+HORIZON_CSV = PIPELINE_ROOT / "horizon-table.csv"
 
 console = Console()
 
@@ -120,7 +120,7 @@ def main(
 
     prefix = "[DRY RUN] " if dry_run else ""
     console.print(f"  {prefix}Total rows: {len(rows)}")
-    console.print(f"  {prefix}Written to: {HORIZON_CSV.relative_to(ROOT)}")
+    console.print(f"  {prefix}Written to: {HORIZON_CSV.relative_to(PIPELINE_ROOT)}")
 
     if not dry_run:
         log_action(Path(__file__).name, f"Merged {len(rows)} extracts from {len(registry)} sources into horizon-table.csv")

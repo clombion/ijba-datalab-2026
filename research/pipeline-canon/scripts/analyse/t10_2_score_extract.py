@@ -5,7 +5,7 @@
 """CLI for LLM to score an extract for LLM-era relevance (T10).
 
 Usage:
-    uv run utils/analyse/t10_2_score_extract.py \
+    uv run research/pipeline-canon/scripts/analyse/t10_2_score_extract.py \
       --file relevance/07-ddj-handbook-1.json \
       --index 3 \
       --relevance endures \
@@ -21,8 +21,8 @@ import typer
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-RELEVANCE_DIR = ROOT / "research" / "pipeline-canon" / "relevance"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+RELEVANCE_DIR = PIPELINE_ROOT / "relevance"
 
 VALID_RELEVANCE = {"endures", "displaced", "needs_update"}
 

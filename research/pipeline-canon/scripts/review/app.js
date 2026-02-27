@@ -22,6 +22,7 @@
   let activeCol = 1;        // 0=chunk, 1=step, 2=type, 3=relevance
   let openDropdown = null;  // { dataIdx, col } or null
   let isMobile = false;
+  let readonly = true;       // true until GitHub PAT is configured
 
   const ROW_HEIGHT = 120;
   const ROW_HEIGHT_MOBILE = 200;
@@ -133,7 +134,7 @@
       var wrapper = e.target.closest(".dropdown-wrapper");
       var decCell = !isMobile ? e.target.closest(".cell-decision") : null;
 
-      if (wrapper || decCell) {
+      if ((wrapper || decCell) && !readonly) {
         e.stopPropagation();
         var col, dIdx;
         if (wrapper) {
@@ -177,9 +178,10 @@
         (resolvedConflicts.has(dataIdx) ? '&#10003;' : '!') + '</span>'
       : '';
 
+    var roClass = readonly ? " readonly" : "";
     return '<div class="cell cell-chunk' + (isActive && activeCol === 0 ? ' focused' : '') + '" data-col="0">' +
       '<div class="chunk-header">' +
-        '<div class="dropdown-wrapper verdict-dropdown" data-col="0" data-data-idx="' + dataIdx + '">' +
+        '<div class="dropdown-wrapper verdict-dropdown' + roClass + '" data-col="0" data-data-idx="' + dataIdx + '">' +
           verdictInner +
         '</div>' +
         '<span class="meta"><span>' + escHTML(row.source_title || "") + ' (' + (row.year || "") + ')</span></span>' +
@@ -197,10 +199,11 @@
     const displayValue = overrideValue || originalValue || "";
     const isOverridden = overrideValue && overrideValue !== originalValue;
     const focused = isActive && activeCol === col ? " focused" : "";
+    const roClass = readonly ? " readonly" : "";
 
-    return '<div class="cell cell-decision' + focused + '" data-col="' + col + '" data-data-idx="' + dataIdx + '">' +
+    return '<div class="cell cell-decision' + focused + roClass + '" data-col="' + col + '" data-data-idx="' + dataIdx + '">' +
       '<div class="cell-label">' + label + '</div>' +
-      '<div class="dropdown-wrapper" data-col="' + col + '" data-data-idx="' + dataIdx + '">' +
+      '<div class="dropdown-wrapper' + roClass + '" data-col="' + col + '" data-data-idx="' + dataIdx + '">' +
         '<span class="current-value">' + escHTML(displayValue) + '</span>' +
       '</div>' +
       (isOverridden ? '<div class="override-note">was: ' + escHTML(originalValue) + '</div>' : '') +
@@ -263,9 +266,13 @@
   // 4. KEYBOARD HANDLER
   // =========================================================================
   function handleKeydown(e) {
-    // Modal open — only handle Esc
+    // Modals open — only handle Esc
     if (!document.getElementById("modal-overlay").classList.contains("hidden")) {
       if (e.key === "Escape") closeModal();
+      return;
+    }
+    if (!document.getElementById("gh-modal").classList.contains("hidden")) {
+      if (e.key === "Escape") ghCloseSettings();
       return;
     }
 
@@ -296,9 +303,10 @@
       return;
     }
 
-    // Enter — toggle dropdown
+    // Enter — toggle dropdown (editing only)
     if (key === "Enter") {
       e.preventDefault();
+      if (readonly) return;
       if (activeCol >= 1 && activeCol <= 3) {
         if (openDropdown && openDropdown.col === activeCol) {
           closeDropdown();
@@ -318,8 +326,9 @@
       return;
     }
 
-    // Number shortcuts (1-9)
+    // Number shortcuts (1-9, editing only)
     const num = parseInt(key);
+    if (readonly) return;
     if (num >= 1 && num <= 9 && activeCol >= 0) {
       e.preventDefault();
       const col = activeCol < 1 ? 0 : activeCol;
@@ -381,6 +390,7 @@
   }
 
   function applyDecision(dataIdx, col, value) {
+    if (readonly) return;
     if (!decisions[dataIdx]) {
       decisions[dataIdx] = { timestamp: Date.now() };
     }
@@ -394,6 +404,7 @@
 
     updateProgress();
     renderVisibleRows();
+    ghScheduleSave();
   }
 
   // =========================================================================
@@ -404,6 +415,7 @@
   let pillStripActive = false;
 
   function handleTouchStart(e) {
+    if (readonly) return;
     const wrapper = e.target.closest(".dropdown-wrapper");
     if (!wrapper) return;
 
@@ -742,7 +754,286 @@
   };
 
   // =========================================================================
-  // 10. INIT
+  // 10. GITHUB SYNC
+  // =========================================================================
+  var gh = { owner: "", repo: "", path: "", token: "", sha: "", connected: false };
+  var saveTimer = null;
+  var SAVE_DEBOUNCE = 2000;
+  var POLL_INTERVAL = 30000;
+  var pollTimer = null;
+
+  var GH_DEFAULTS = {
+    owner: "clombion",
+    repo: "ijba-datalab-2026",
+    path: "research/pipeline-canon/decisions.json"
+  };
+
+  function ghHeaders() {
+    return {
+      Authorization: "Bearer " + gh.token,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28"
+    };
+  }
+
+  function ghApiUrl() {
+    return "https://api.github.com/repos/" + gh.owner + "/" + gh.repo + "/contents/" + gh.path;
+  }
+
+  function ghSetStatus(text, fadeMs) {
+    var el = document.getElementById("gh-status-text");
+    if (!el) return;
+    el.textContent = text;
+    el.classList.remove("fade-out");
+    if (fadeMs) {
+      setTimeout(function () { el.classList.add("fade-out"); }, fadeMs);
+    }
+  }
+
+  function ghUpdateIndicator() {
+    var dot = document.getElementById("gh-indicator");
+    var btn = document.getElementById("btn-github");
+    if (!dot || !btn) return;
+    if (gh.connected) {
+      dot.className = "gh-dot connected";
+      btn.textContent = "Connected";
+    } else {
+      dot.className = "gh-dot";
+      btn.textContent = "Connect";
+    }
+  }
+
+  function buildDecisionPayload() {
+    return {
+      tool: "horizon-review",
+      version: 1,
+      exported: new Date().toISOString(),
+      total_rows: allRows.length,
+      reviewed_count: Object.keys(decisions).length,
+      decisions: decisions
+    };
+  }
+
+  function ghInit() {
+    try {
+      gh.token = localStorage.getItem("gh_token") || "";
+      gh.owner = localStorage.getItem("gh_owner") || GH_DEFAULTS.owner;
+      gh.repo = localStorage.getItem("gh_repo") || GH_DEFAULTS.repo;
+      gh.path = localStorage.getItem("gh_path") || GH_DEFAULTS.path;
+    } catch (e) {}
+
+    if (gh.token && gh.owner && gh.repo && gh.path) {
+      ghConnect(true);
+    } else {
+      readonly = true;
+      ghUpdateIndicator();
+    }
+  }
+
+  function ghConnect(silent) {
+    ghSetStatus("Connecting...");
+    fetch(ghApiUrl(), { headers: ghHeaders() })
+      .then(function (resp) {
+        if (resp.status === 404) {
+          // File doesn't exist yet — that's fine, we'll create it on first save
+          gh.sha = "";
+          gh.connected = true;
+          readonly = false;
+          ghSaveCredentials();
+          ghUpdateIndicator();
+          ghSetStatus("Connected (no decisions yet)", 3000);
+          pollTimer = setInterval(ghPoll, POLL_INTERVAL);
+          renderVisibleRows();
+          return;
+        }
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        if (!data) return; // handled in 404 branch
+        gh.sha = data.sha;
+        gh.connected = true;
+        readonly = false;
+        ghSaveCredentials();
+        ghUpdateIndicator();
+
+        // Decode and load decisions
+        var json = atob(data.content.replace(/\n/g, ""));
+        var parsed = JSON.parse(json);
+        if (parsed.decisions && Object.keys(parsed.decisions).length > 0) {
+          mergeImports([{ source: "github", decisions: parsed.decisions }]);
+          ghSetStatus("Loaded " + Object.keys(parsed.decisions).length + " decisions", 3000);
+        } else {
+          ghSetStatus("Connected", 3000);
+        }
+        pollTimer = setInterval(ghPoll, POLL_INTERVAL);
+        renderVisibleRows();
+      })
+      .catch(function (err) {
+        gh.connected = false;
+        readonly = true;
+        ghUpdateIndicator();
+        ghSetStatus("Error: " + err.message);
+        if (!silent) {
+          document.getElementById("gh-modal-status").textContent = "Connection failed: " + err.message;
+        }
+      });
+  }
+
+  function ghDisconnect() {
+    gh.connected = false;
+    gh.token = "";
+    gh.sha = "";
+    readonly = true;
+    try {
+      localStorage.removeItem("gh_token");
+      localStorage.removeItem("gh_owner");
+      localStorage.removeItem("gh_repo");
+      localStorage.removeItem("gh_path");
+    } catch (e) {}
+    if (pollTimer) { clearInterval(pollTimer); pollTimer = null; }
+    ghUpdateIndicator();
+    ghSetStatus("");
+    renderVisibleRows();
+  }
+
+  function ghSaveCredentials() {
+    try {
+      localStorage.setItem("gh_token", gh.token);
+      localStorage.setItem("gh_owner", gh.owner);
+      localStorage.setItem("gh_repo", gh.repo);
+      localStorage.setItem("gh_path", gh.path);
+    } catch (e) {}
+  }
+
+  function ghSave() {
+    if (!gh.connected) return;
+    ghSetStatus("Saving...");
+
+    var payload = JSON.stringify(buildDecisionPayload(), null, 2);
+    var body = {
+      message: "Update review decisions (" + Object.keys(decisions).length + " reviewed)",
+      content: btoa(unescape(encodeURIComponent(payload))),
+      committer: { name: "Horizon Review", email: "noreply@review.tool" }
+    };
+    if (gh.sha) body.sha = gh.sha;
+
+    fetch(ghApiUrl(), {
+      method: "PUT",
+      headers: ghHeaders(),
+      body: JSON.stringify(body)
+    })
+      .then(function (resp) {
+        if (resp.status === 409) {
+          // SHA mismatch — re-fetch and retry
+          ghSetStatus("Conflict, reloading...");
+          return ghLoad().then(function () { ghSave(); });
+        }
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        if (data && data.content) {
+          gh.sha = data.content.sha;
+        }
+        ghSetStatus("Saved", 3000);
+      })
+      .catch(function (err) {
+        ghSetStatus("Save failed: " + err.message);
+      });
+  }
+
+  function ghLoad() {
+    return fetch(ghApiUrl(), { headers: ghHeaders() })
+      .then(function (resp) {
+        if (resp.status === 404) {
+          gh.sha = "";
+          return;
+        }
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        return resp.json();
+      })
+      .then(function (data) {
+        if (!data) return;
+        gh.sha = data.sha;
+        var json = atob(data.content.replace(/\n/g, ""));
+        var parsed = JSON.parse(json);
+        if (parsed.decisions) {
+          mergeImports([{ source: "github", decisions: parsed.decisions }]);
+        }
+      });
+  }
+
+  function ghScheduleSave() {
+    if (!gh.connected) return;
+    if (saveTimer) clearTimeout(saveTimer);
+    saveTimer = setTimeout(ghSave, SAVE_DEBOUNCE);
+  }
+
+  function ghPoll() {
+    if (!gh.connected) return;
+    fetch(ghApiUrl(), {
+      method: "HEAD",
+      headers: ghHeaders()
+    }).catch(function () {
+      // HEAD not reliable on GitHub Contents API, use GET with If-None-Match
+    });
+    // Simpler: just GET and check sha
+    fetch(ghApiUrl(), { headers: ghHeaders() })
+      .then(function (resp) {
+        if (!resp.ok) return null;
+        return resp.json();
+      })
+      .then(function (data) {
+        if (!data) return;
+        if (data.sha && data.sha !== gh.sha) {
+          gh.sha = data.sha;
+          var json = atob(data.content.replace(/\n/g, ""));
+          var parsed = JSON.parse(json);
+          if (parsed.decisions) {
+            mergeImports([{ source: "github-poll", decisions: parsed.decisions }]);
+            ghSetStatus("Updated from remote", 3000);
+          }
+        }
+      })
+      .catch(function () {});
+  }
+
+  function ghShowSettings() {
+    var modal = document.getElementById("gh-modal");
+    document.getElementById("gh-input-token").value = gh.token;
+    document.getElementById("gh-input-owner").value = gh.owner || GH_DEFAULTS.owner;
+    document.getElementById("gh-input-repo").value = gh.repo || GH_DEFAULTS.repo;
+    document.getElementById("gh-input-path").value = gh.path || GH_DEFAULTS.path;
+    document.getElementById("gh-modal-status").textContent = "";
+
+    var disconnBtn = document.getElementById("gh-disconnect-btn");
+    disconnBtn.style.display = gh.connected ? "" : "none";
+
+    modal.classList.remove("hidden");
+  }
+
+  function ghCloseSettings() {
+    document.getElementById("gh-modal").classList.add("hidden");
+  }
+
+  function ghHandleConnect() {
+    gh.token = document.getElementById("gh-input-token").value.trim();
+    gh.owner = document.getElementById("gh-input-owner").value.trim();
+    gh.repo = document.getElementById("gh-input-repo").value.trim();
+    gh.path = document.getElementById("gh-input-path").value.trim();
+
+    if (!gh.token) {
+      document.getElementById("gh-modal-status").textContent = "Token is required.";
+      return;
+    }
+
+    ghCloseSettings();
+    ghConnect(false);
+  }
+
+  // =========================================================================
+  // 11. INIT
   // =========================================================================
   // Theme toggle — user-controlled light/dark, persisted to localStorage
   function initTheme() {
@@ -842,9 +1133,24 @@
       document.getElementById("toolbar-controls").classList.toggle("open");
     });
 
+    // GitHub sync
+    document.getElementById("btn-github").addEventListener("click", ghShowSettings);
+    document.getElementById("gh-connect-btn").addEventListener("click", ghHandleConnect);
+    document.getElementById("gh-disconnect-btn").addEventListener("click", function () {
+      ghDisconnect();
+      ghCloseSettings();
+    });
+    document.getElementById("gh-close-btn").addEventListener("click", ghCloseSettings);
+    document.getElementById("gh-modal").addEventListener("click", function (e) {
+      if (e.target === this) ghCloseSettings();
+    });
+
     // Initial render
     renderVisibleRows();
     updateProgress();
+
+    // Try auto-connect from stored credentials
+    ghInit();
   }
 
   // Boot

@@ -8,8 +8,8 @@ Reads chunks-manifest.csv and corpus-registry.csv, creates
 extractions/{stem}_chunk{N}.json with source metadata and empty extracts[].
 
 Usage:
-    uv run utils/analyse/t9_4_scaffold_extraction.py              # scaffold all
-    uv run utils/analyse/t9_4_scaffold_extraction.py --only 07    # one source
+    uv run research/pipeline-canon/scripts/analyse/t9_4_scaffold_extraction.py              # scaffold all
+    uv run research/pipeline-canon/scripts/analyse/t9_4_scaffold_extraction.py --only 07    # one source
 """
 
 import csv
@@ -23,15 +23,15 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+CORPUS = PIPELINE_ROOT / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
-CHUNKS_DIR = ROOT / "research" / "pipeline-canon" / "chunks"
+CHUNKS_DIR = PIPELINE_ROOT / "chunks"
 MANIFEST_CSV = CHUNKS_DIR / "chunks-manifest.csv"
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
 
 console = Console()
 

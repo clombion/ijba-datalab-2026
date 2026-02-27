@@ -5,8 +5,8 @@
 """T9 Validation — check extraction completeness and quality.
 
 Usage:
-    uv run utils/analyse/t9_6_validate_extraction.py              # validate all
-    uv run utils/analyse/t9_6_validate_extraction.py --only 07    # one source
+    uv run research/pipeline-canon/scripts/analyse/t9_6_validate_extraction.py              # validate all
+    uv run research/pipeline-canon/scripts/analyse/t9_6_validate_extraction.py --only 07    # one source
 """
 
 import json
@@ -20,11 +20,11 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-sys.path.insert(0, str(ROOT / "utils"))
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(PIPELINE_ROOT / "scripts"))
 from log_action import log_action  # noqa: E402
 
-EXTRACTIONS_DIR = ROOT / "research" / "pipeline-canon" / "extractions"
+EXTRACTIONS_DIR = PIPELINE_ROOT / "extractions"
 
 console = Console()
 

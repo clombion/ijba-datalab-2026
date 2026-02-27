@@ -24,16 +24,16 @@ Prerequisites:
 
 Examples:
     # Convert (uses layout mode if pymupdf-layout is installed):
-    ./utils/pdf2md.py document.pdf
+    ./research/pipeline-canon/scripts/get/t5_pdf2md.py document.pdf
 
     # Force legacy mode with manual margins:
-    ./utils/pdf2md.py document.pdf --no-layout --margins 40
+    ./research/pipeline-canon/scripts/get/t5_pdf2md.py document.pdf --no-layout --margins 40
 
     # Analyze PDF to find optimal legacy-mode settings:
-    ./utils/pdf2md.py document.pdf --analyze
+    ./research/pipeline-canon/scripts/get/t5_pdf2md.py document.pdf --analyze
 
     # Custom output path:
-    ./utils/pdf2md.py document.pdf -o out.md
+    ./research/pipeline-canon/scripts/get/t5_pdf2md.py document.pdf -o out.md
 
 Exit codes:
     0  Success

@@ -8,7 +8,7 @@ Reads horizon-table.csv, converts to JSON, gzips, base64-encodes,
 and injects into template.html along with inlined CSS, JS, and fflate.
 
 Usage:
-    uv run utils/review/build.py [--csv PATH] [--output PATH] [--dry-run]
+    uv run research/pipeline-canon/scripts/review/build.py [--csv PATH] [--output PATH] [--dry-run]
 """
 
 from __future__ import annotations
@@ -23,7 +23,7 @@ import typer
 
 app = typer.Typer(add_completion=False)
 
-ROOT = Path(__file__).resolve().parent.parent.parent
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
 HERE = Path(__file__).resolve().parent
 
 # fflate 0.8.2 UMD — vendored at build time
@@ -53,7 +53,7 @@ def _csv_to_json(csv_path: Path) -> str:
 @app.command()
 def build(
     csv_path: Path = typer.Option(
-        ROOT / "research" / "pipeline-canon" / "horizon-table.csv",
+        PIPELINE_ROOT / "horizon-table.csv",
         "--csv",
         help="Path to horizon-table.csv",
     ),

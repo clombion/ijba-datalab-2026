@@ -8,7 +8,7 @@ Reads convert-manifest.csv and source-registry.md to produce a
 sanity-check report before LLM extraction begins.
 
 Usage:
-    uv run utils/verify/t6_corpus_profile.py
+    uv run research/pipeline-canon/scripts/verify/t6_corpus_profile.py
 """
 
 from __future__ import annotations
@@ -27,10 +27,10 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-MANIFEST = ROOT / "research" / "pipeline-canon" / "sources" / "convert-manifest.csv"
-REGISTRY = ROOT / "research" / "pipeline-canon" / "source-registry.md"
-OUTPUT = ROOT / "research" / "pipeline-canon" / "corpus-profile.md"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+MANIFEST = PIPELINE_ROOT / "sources" / "convert-manifest.csv"
+REGISTRY = PIPELINE_ROOT / "source-registry.md"
+OUTPUT = PIPELINE_ROOT / "corpus-profile.md"
 
 console = Console()
 
@@ -364,7 +364,7 @@ def main(
     # Write markdown
     OUTPUT.write_text("\n".join(md_lines) + "\n")
     console.rule("[bold green]Done")
-    console.print(f"  Written to {OUTPUT.relative_to(ROOT)}")
+    console.print(f"  Written to {OUTPUT.relative_to(PIPELINE_ROOT)}")
 
 
 if __name__ == "__main__":

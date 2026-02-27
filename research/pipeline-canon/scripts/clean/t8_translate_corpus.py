@@ -11,9 +11,9 @@ results to translation-log.csv.
 Idempotent: files with a <!-- translated --> marker are skipped.
 
 Usage:
-    uv run utils/clean/t8_translate_corpus.py              # translate all non-EN
-    uv run utils/clean/t8_translate_corpus.py --dry-run    # show what would be translated
-    uv run utils/clean/t8_translate_corpus.py --only 45    # translate only source #45
+    uv run research/pipeline-canon/scripts/clean/t8_translate_corpus.py              # translate all non-EN
+    uv run research/pipeline-canon/scripts/clean/t8_translate_corpus.py --dry-run    # show what would be translated
+    uv run research/pipeline-canon/scripts/clean/t8_translate_corpus.py --only 45    # translate only source #45
 
 Requires ANTHROPIC_API_KEY in environment.
 """
@@ -34,8 +34,8 @@ from rich.console import Console
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+CORPUS = PIPELINE_ROOT / "corpus"
 REGISTRY_CSV = CORPUS / "corpus-registry.csv"
 TRANSLATION_LOG = CORPUS / "translation-log.csv"
 
@@ -263,7 +263,7 @@ def main(
             writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
             writer.writerows(log_rows)
-        console.print(f"\n  Log: {TRANSLATION_LOG.relative_to(ROOT)}")
+        console.print(f"\n  Log: {TRANSLATION_LOG.relative_to(PIPELINE_ROOT)}")
 
     console.rule("[bold green]Done")
 

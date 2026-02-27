@@ -543,6 +543,78 @@ body {
   border-color: var(--accent);
 }
 
+/* === GitHub Sync === */
+.gh-dot {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--fg-dim);
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.gh-dot.connected { background: #22c55e; }
+.gh-status-text {
+  font-size: 11px;
+  color: var(--fg-muted);
+  white-space: nowrap;
+  transition: opacity 0.5s ease;
+}
+.gh-status-text.fade-out { opacity: 0; }
+
+/* GitHub settings modal */
+#gh-modal {
+  position: fixed; inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+}
+#gh-modal.hidden { display: none; }
+.gh-modal-content {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 24px;
+  max-width: 440px;
+  width: 90%;
+  box-shadow: var(--shadow-lg);
+}
+.gh-modal-content h2 { font-size: 18px; font-weight: 700; margin-bottom: 10px; color: var(--fg-heading); }
+.gh-modal-content p { font-size: 13px; color: var(--fg-muted); margin-bottom: 16px; line-height: 1.5; }
+.gh-field {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--fg-muted);
+  margin-bottom: 10px;
+}
+.gh-field input {
+  display: block;
+  width: 100%;
+  margin-top: 4px;
+  padding: 7px 10px;
+  font-family: var(--font);
+  font-size: 13px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  color: var(--fg);
+}
+.gh-field input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+.gh-modal-status {
+  font-size: 12px;
+  color: var(--fg-muted);
+  min-height: 18px;
+}
+
+/* Readonly mode — disable dropdown affordance */
+.dropdown-wrapper.readonly { cursor: default; pointer-events: none; }
+.dropdown-wrapper.readonly::after { content: ""; }
+.dropdown-wrapper.readonly:hover { background: transparent; }
+.cell-decision.readonly { cursor: default; }
+
 /* === Mobile (<=768px) === */
 @media (max-width: 768px) {
   :root { --toolbar-height: 40px; }

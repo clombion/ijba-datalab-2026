@@ -9,9 +9,9 @@ cleaning passes (junk lines, encoding, pandoc markup, HTML), then
 generates corpus-registry.csv as the single source of truth for T9+.
 
 Usage:
-    uv run utils/clean/t8_clean_corpus.py              # full run
-    uv run utils/clean/t8_clean_corpus.py --dry-run    # show what would happen
-    uv run utils/clean/t8_clean_corpus.py --registry-only  # regenerate CSV only
+    uv run research/pipeline-canon/scripts/clean/t8_clean_corpus.py              # full run
+    uv run research/pipeline-canon/scripts/clean/t8_clean_corpus.py --dry-run    # show what would happen
+    uv run research/pipeline-canon/scripts/clean/t8_clean_corpus.py --registry-only  # regenerate CSV only
 """
 
 from __future__ import annotations
@@ -29,11 +29,11 @@ from rich.table import Table
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-SOURCES = ROOT / "research" / "pipeline-canon" / "sources"
-CORPUS = ROOT / "research" / "pipeline-canon" / "corpus"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent.parent
+SOURCES = PIPELINE_ROOT / "sources"
+CORPUS = PIPELINE_ROOT / "corpus"
 MANIFEST = SOURCES / "convert-manifest.csv"
-REGISTRY = ROOT / "research" / "pipeline-canon" / "source-registry.md"
+REGISTRY = PIPELINE_ROOT / "source-registry.md"
 CSV_OUT = CORPUS / "corpus-registry.csv"
 
 console = Console()
@@ -529,7 +529,7 @@ def main(
         write_registry(rows)
         console.rule("[bold green]Registry")
         console.print(f"  Rows: {len(rows)}")
-        console.print(f"  Written to: {CSV_OUT.relative_to(ROOT)}")
+        console.print(f"  Written to: {CSV_OUT.relative_to(PIPELINE_ROOT)}")
 
 
 if __name__ == "__main__":

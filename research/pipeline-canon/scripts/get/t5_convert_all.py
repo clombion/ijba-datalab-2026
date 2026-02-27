@@ -23,10 +23,10 @@ Routes each source file to the right converter based on extension:
 Writes a manifest CSV logging every conversion.
 
 Usage:
-    uv run utils/convert_all.py                    # convert everything
-    uv run utils/convert_all.py --dry-run          # preview without writing
-    uv run utils/convert_all.py --only-lang en     # only English sources
-    uv run utils/convert_all.py --force            # re-convert even if .md exists
+    uv run research/pipeline-canon/scripts/get/t5_convert_all.py                    # convert everything
+    uv run research/pipeline-canon/scripts/get/t5_convert_all.py --dry-run          # preview without writing
+    uv run research/pipeline-canon/scripts/get/t5_convert_all.py --only-lang en     # only English sources
+    uv run research/pipeline-canon/scripts/get/t5_convert_all.py --force            # re-convert even if .md exists
 """
 
 from __future__ import annotations
@@ -49,15 +49,15 @@ from rich.table import Table
 # pdf2md reuse — import convert/verify from sibling script
 # ---------------------------------------------------------------------------
 
-_UTILS_DIR = Path(__file__).resolve().parent
-sys.path.insert(0, str(_UTILS_DIR))
+_SCRIPTS_GET_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(_SCRIPTS_GET_DIR))
 from pdf2md import convert as pdf_convert, verify as pdf_verify  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
 
-SOURCES_ROOT = Path(__file__).resolve().parent.parent / "research" / "pipeline-canon" / "sources"
+SOURCES_ROOT = Path(__file__).resolve().parent.parent.parent / "sources"
 MANIFEST_PATH = SOURCES_ROOT / "convert-manifest.csv"
 
 LANG_DIRS = ["en", "es", "fr", "pt"]
@@ -782,7 +782,7 @@ def main(
             )
             writer.writeheader()
             writer.writerows(rows)
-        console.print(f"\nManifest written to {MANIFEST_PATH.relative_to(SOURCES_ROOT.parent.parent.parent)}")
+        console.print(f"\nManifest written to {MANIFEST_PATH.relative_to(SOURCES_ROOT.parent)}")
 
     # ── Summary ─────────────────────────────────────────────────────────
     console.print()

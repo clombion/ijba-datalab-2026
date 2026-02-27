@@ -7,7 +7,7 @@
 Both a CLI tool and an importable module.
 
 CLI usage:
-    uv run utils/log_action.py --script "chunk_corpus.py" --message "Chunked 81 sources into 142 chunks"
+    uv run research/pipeline-canon/scripts/log_action.py --script "chunk_corpus.py" --message "Chunked 81 sources into 142 chunks"
 
 Module usage:
     from log_action import log_action
@@ -23,8 +23,8 @@ from typing import Annotated
 
 __version__ = "1.0.0"
 
-ROOT = Path(__file__).resolve().parent.parent
-ACTION_LOG = ROOT / "research" / "pipeline-canon" / "action-log.md"
+PIPELINE_ROOT = Path(__file__).resolve().parent.parent
+ACTION_LOG = PIPELINE_ROOT / "action-log.md"
 
 
 def log_action(script: str, message: str, tag: str = "live", ts: str | None = None) -> None:

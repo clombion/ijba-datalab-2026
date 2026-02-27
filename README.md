@@ -29,12 +29,15 @@ reference/          External reference materials
   pipeline-reference.md        SCoDA pipeline notes
   iri_data_literacy_curriculum_final.md
 
-utils/              Python scripts (PEP 723, run via uv)
-  analyse/            T9–T12 extraction and analysis pipeline
-  clean/              T8 corpus cleaning and translation
-  verify/             T6 corpus profiling
-  get/                T4–T5 source acquisition and conversion
-  log_action.py       Action logging utility
+research/
+  pipeline-canon/
+    scripts/          Python scripts (PEP 723, run via uv)
+      log_action.py     Action logging utility
+      analyse/          T9–T12 extraction and analysis pipeline
+      clean/            T8 corpus cleaning and translation
+      verify/           T6 corpus profiling
+      get/              T4–T5 source acquisition and conversion
+      review/           Horizon-table review tool
 ```
 
 ## Curriculum
@@ -81,11 +84,11 @@ A systematic literature review of 81 canonical data journalism sources (2012–2
 
 Located in `research/pipeline-canon/`. See `analysis/t13_report.md` for the full literature review and `analysis/t12_results.md` for raw cross-tabulation results.
 
-## Utils
+## Scripts
 
-All scripts are standalone PEP 723 Python files, run via `uv run`. They are designed to be called by LLM agents during the research pipeline — structured stdout for parsing, errors to stderr, `--help` on every script.
+All scripts are standalone PEP 723 Python files, run via `uv run`, and live alongside their data in `research/pipeline-canon/scripts/`. They are designed to be called by LLM agents during the research pipeline — structured stdout for parsing, errors to stderr, `--help` on every script.
 
-The pipeline sequence: T8 (clean) → T9 (chunk, extract) → T10 (score relevance) → T11 (merge) → T12 (analyse). See `utils/analyse/pipeline_status.py` for progress tracking.
+The pipeline sequence: T8 (clean) → T9 (chunk, extract) → T10 (score relevance) → T11 (merge) → T12 (analyse). See `research/pipeline-canon/scripts/analyse/pipeline_status.py` for progress tracking.
 
 ## Requirements
 
