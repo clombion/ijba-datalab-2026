@@ -1,156 +1,188 @@
 {
-  "episode_id": "2025-09-08-djordje-padejski-ai-literacy-education",
-  "episode_title": "Djordje Padejski: Why AI Literacy Belongs at the Core of Journalism Education",
-  "date": "2025-09-08",
-  "pass": "4-deductive-recode",
+  "episode_date": "2025-09-08",
+  "episode_title": "Ivar Krustok: How Estonia’s Media Giant Builds AI That Actually Works",
   "theme_codings": [
     {
       "theme_id": "T01",
-      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
       "relevance": "secondary",
       "sub_themes_present": [
         "T01.2",
-        "T01.3"
+        "T01.3",
+        "T01.4"
       ],
       "best_quote": {
-        "text": "AI is not going to replace a journalist, right? But a journalist using AI might replace a journalist not using AI.",
+        "text": "AI can technically generate headlines but it may not be a good headline because AI does not understand use judgment It doesn't understand the context, it doesn't understand the audience.",
         "speaker": "Djordje Padejski"
       },
-      "summary": "Padejski: 'AI is not going to replace a journalist, but a journalist using AI might replace a journalist not using AI.' Emphasizes AI as complementary tool, not replacement. Silicon Valley attempts to replace human workers critiqued. ChatGPT positioned as text processing tool, not knowledge generator -- defining the boundary of automation."
+      "summary": "Padejski argues that journalism is more than text processing and that core human skills like judgment, context, accountability, and challenging power remain irreducible. He acknowledges AI can handle low-hanging tasks like headline generation and brainstorming, but frames this as freeing journalists to go deeper rather than replacing them. He references the familiar formulation that AI won't replace journalists, but journalists using AI may replace those who don't."
     },
     {
       "theme_id": "T02",
       "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
       "relevance": "secondary",
       "sub_themes_present": [
+        "T02.2",
         "T02.3",
-        "T02.1"
+        "T02.4"
       ],
       "best_quote": {
-        "text": "We as journalists we tend to ignore the fact that the media is also responsible for the ways that this major topic is being reported, actually.",
+        "text": "if they, for example, used AI to brainstorm or generate some of these responses for their writing assignments. Right, they will have to disclose and not only disclose but tell me how effective was that? What do they learn from that experience?",
         "speaker": "Djordje Padejski"
       },
-      "summary": "Media responsible for AI hype cycle. Google generative AI search producing problematic results from questionable sources. ChatGPT training data limited to deal partners, creating information bias. Media moral panic cycle historically recurring."
+      "summary": "Padejski requires students to disclose AI use and reflect on its effectiveness, modeling transparency practices for future newsrooms. The authenticity question surfaces when discussing whether AI-generated text constitutes real journalism, and Padejski warns against treating AI outputs as trustworthy knowledge, noting that LLMs produce plausible but not necessarily accurate information."
     },
     {
       "theme_id": "T03",
-      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
-      "relevance": "primary",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
+      "relevance": "secondary",
       "sub_themes_present": [
         "T03.1",
-        "T03.3",
+        "T03.2",
         "T03.4"
       ],
       "best_quote": {
-        "text": "I really thought about how do I teach AI to see AI more than just a tool? It's a sort of like a socio-technical phenomenon that needs obviously more critical engagement, whether you're using it or you're covering it.",
+        "text": "culturally embedded biases, you know, if you think about Deep Seek is now kind of great example of yes, it's great, it's cheaper, but it brings also cultural cultural bias. From those who created those tools, right?",
         "speaker": "Djordje Padejski"
       },
-      "summary": "AI as socio-technical phenomenon requiring critical engagement, not just tool use. Culturally embedded biases (DeepSeek from Chinese society, ChatGPT from American). Historical bias reproduction through training data. Silicon Valley AI as ideology critique. Journalism's responsibility for AI hype. Disclosure requirements for student AI use."
+      "summary": "Ethics runs throughout the episode as a pillar of AI literacy education. Padejski discusses culturally embedded biases in AI systems, using DeepSeek versus ChatGPT as examples of how different origins produce different biases. He frames ethical considerations as essential classroom content and advocates for structured frameworks that help students assess responsible AI use in journalism settings."
     },
     {
       "theme_id": "T04",
-      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
-      "relevance": "secondary",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
+      "relevance": "tangential",
       "sub_themes_present": [
-        "T04.4"
+        "T04.3"
       ],
       "best_quote": {
-        "text": "ChatGPT and chatbots are way more effective text generators, text processing tools than knowledge generators. There's some knowledge that are generating, but it's a plausible knowledge and therefore it's problematic.",
+        "text": "The history of AI started with symbolic AI. I don't know how much you know about symbolic but It was a knowledge representation AI, right? So it was a knowledge graphs that we had in 10 or 15 years ago where most of the tech companies were building knowledge graphs versus processing deep neural networks that we have now.",
         "speaker": "Djordje Padejski"
       },
-      "summary": "LLMs as probability-based systems with provable limits (infinite loops, computational theory). Distinction between symbolic AI and deep neural networks. Stanford Storm project combining LLMs with Wikipedia as knowledge base. Freshness as LLM limitation. Temporal concepts as hard problem."
+      "summary": "Technical architecture is only lightly touched. Padejski references the historical distinction between symbolic AI and deep neural networks, and mentions the Stanford Storm project that combines LLMs as processing interfaces with separate knowledge bases like Wikipedia to improve accuracy. Model selection surfaces briefly when comparing ChatGPT, Perplexity, Claude, and Gemini in classroom experiments."
     },
     {
       "theme_id": "T05",
-      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
       "relevance": "primary",
       "sub_themes_present": [
         "T05.1",
         "T05.2",
+        "T05.3",
         "T05.4"
       ],
       "best_quote": {
-        "text": "I cannot just teach them how to use Notebook LM today, but there's going to be a different Notebook LM that will be launched in five, ten years from now. And so how do I bring those fundamentals to them so they are ready to do this assessment on their own.",
+        "text": "I really thought about How do I teach AI to see AI more than just a tool? It's a sort of like a socio-technical phenomenon that needs obviously more critical engagement, whether you're using it or you're covering it.",
         "speaker": "Djordje Padejski"
       },
-      "summary": "This is the dominant theme. Course design around critical thinking and AI literacy, not productivity. Hands-on experimentation comparing multiple tools. Teaching fundamentals over ephemeral tools. Historical and philosophical context (ENIAC 1945, Minsky 1971, Eliza). In-person assessment to counter AI-enabled plagiarism. AI across all beats, not just tech. Interdisciplinary course design. Student-professor AI gap."
+      "summary": "This is the central theme of the entire episode. Padejski details his Stanford course designed to build AI literacy through a combination of historical context, philosophical grounding, critical thinking, and hands-on experimentation. He advocates teaching fundamentals over specific tools so students can assess future technologies independently. The course structure includes lectures, guest speakers, lab-style experiments comparing multiple AI tools, and investigative proposals on AI-related topics. He emphasizes experimentation culture where students learn by testing tools in controlled journalism settings, comparing outputs across platforms, and reflecting on limitations. He calls for AI literacy to be embedded across all journalism curricula, not confined to standalone courses, and envisions full degree programs marrying AI with journalism, communication, and storytelling."
     },
     {
       "theme_id": "T06",
-      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
-      "relevance": "tangential",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
+      "relevance": "secondary",
       "sub_themes_present": [
+        "T06.1",
         "T06.3"
       ],
-      "summary": "Universities should design new degrees combining AI with journalism, communication, storytelling. Interdisciplinary collaboration between journalism and CS. But this is about education institutions, not newsroom organizational strategy."
+      "best_quote": {
+        "text": "Universities across college should think about not just including AI in their teaching, but also thinking about how do they design these kind of new degrees focused on AI and journalism, AI and communication, AI and storytelling",
+        "speaker": "Djordje Padejski"
+      },
+      "summary": "While the episode focuses on education rather than newsroom management, Padejski addresses institutional transformation in academia. He calls for universities to redesign degree programs around AI, emphasizes interdisciplinary collaboration (referencing Stanford's Human-Centered AI institute bringing together humanities and technologists), and discusses the leadership challenge of updating curricula as tools rapidly evolve. His advocacy for embedding AI across all courses rather than siloing it parallels organizational change management."
     },
     {
       "theme_id": "T07",
       "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
       "relevance": "tangential",
       "sub_themes_present": [
-        "T07.3"
+        "T07.1",
+        "T07.2"
       ],
-      "summary": "ChatGPT training data limited to deal partners, creating access divide. Google generative AI search distorting search experience. Silicon Valley AI ideology. But no deep platform-power analysis."
+      "best_quote": {
+        "text": "They don't include like so many news websites and chat GPT because they just don't have deals with them.",
+        "speaker": "Djordje Padejski"
+      },
+      "summary": "Platform power is mentioned only in passing. Padejski critiques how media coverage of AI has served as promotional culture for tech companies and notes that ChatGPT's training data excludes many news websites due to lack of licensing deals, pointing to data and content rights tensions. The Silicon Valley ideology of replacing human workers with AI is briefly flagged as a power dynamic."
     },
     {
       "theme_id": "T08",
-      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
       "relevance": "tangential",
-      "sub_themes_present": [],
-      "summary": "No substantive discussion of news product reimagination."
+      "sub_themes_present": [
+        "T08.2"
+      ],
+      "best_quote": {
+        "text": "I think it's more than just us writing stories anymore. It's a lot more about how do we understand an o our audience and build that product for them.",
+        "speaker": "Nikita Roy"
+      },
+      "summary": "Product reimagination is only briefly touched when Nikita Roy notes that journalism is no longer just about writing stories but about understanding audiences and building products for them. Padejski's mention of converting news articles, generating headlines, and experimenting with different AI outputs hints at new formats, but the episode does not deeply explore product innovation."
     },
     {
       "theme_id": "T09",
-      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
       "relevance": "tangential",
       "sub_themes_present": [],
-      "summary": "No substantive discussion of business models or revenue."
+      "best_quote": {
+        "text": "a lot of on the other hand, we had, you know, a lot of critics and threats to journalism as sort of business models.",
+        "speaker": "Djordje Padejski"
+      },
+      "summary": "Business model threats are acknowledged only at a high level. Padejski references the broader narrative of AI threatening journalism's economic foundations and the existential anxieties students feel about career viability. DeepSeek is noted as cheaper than ChatGPT, hinting at market dynamics, but the episode does not substantively discuss revenue models or funding."
     },
     {
       "theme_id": "T10",
-      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
-      "relevance": "secondary",
-      "sub_themes_present": [
-        "T10.2"
-      ],
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
+      "relevance": "tangential",
+      "sub_themes_present": [],
       "best_quote": {
-        "text": "We as journalists we tend to ignore the fact that the media is also responsible for the ways that this major topic is being reported, actually.",
+        "text": "I had a disclosure also, if they, for example, used AI to brainstorm or generate some of these responses for their writing assignments. Right, they will have to disclose",
         "speaker": "Djordje Padejski"
       },
-      "summary": "Journalism as accountability mechanism for AI systems. Model testing as journalism. Book in progress on investigating AI and using it. Students developing investigative proposals for AI topics. Journalism's responsibility to cover AI critically, not just hype."
+      "summary": "Regulation is not a direct topic of the episode. The closest reference is Padejski's classroom self-regulation framework requiring AI disclosure. He also mentions student investigative proposals on topics including government surveillance and algorithmic bias, which touch regulatory territory. The early ban on AI in education is referenced as a failed regulatory approach."
     },
     {
       "theme_id": "T11",
-      "theme_name": "The Prototype Pipeline: From Experiment to Production",
-      "relevance": "tangential",
-      "sub_themes_present": [],
-      "summary": "No substantive discussion of prototype-to-production pipelines."
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "Various groups would use, one group would use ChatGPT, the other one would use Perplexity, and then we would have a discussion after that. You know, what were their findings?",
+        "speaker": "Djordje Padejski"
+      },
+      "summary": "Padejski's classroom functions as a prototype pipeline for journalism AI use cases. Students rapidly test tools on real journalism tasks like summarizing city council meetings, generating articles, writing headlines, and doing research. The compare-and-contrast methodology across ChatGPT, Perplexity, Claude, and Gemini is essentially use case discovery and evaluation. The group discussions after experiments serve as evaluation methods, assessing which tools work best for which journalism tasks."
     },
     {
       "theme_id": "T12",
-      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
       "relevance": "tangential",
-      "sub_themes_present": [],
-      "summary": "No substantive discussion of data governance or privacy."
+      "sub_themes_present": [
+        "T12.1"
+      ],
+      "best_quote": {
+        "text": "the bias is in the data and not saying that the Google is not biased, and I'm not defending Google from ChatGPT. What I'm trying to say is that Still, ChatGPT are way more effective text generators, text processing tools than knowledge generators",
+        "speaker": "Djordje Padejski"
+      },
+      "summary": "Data issues surface only tangentially. Padejski notes that bias originates in training data and that ChatGPT's knowledge base is limited by which news organizations have licensing deals. The distinction between text processing and knowledge generation implicitly raises questions about data strategy, but privacy and source protection are not directly discussed."
     }
   ],
   "primary_themes": [
-    "T05",
-    "T03"
+    "T05"
   ],
   "secondary_themes": [
     "T01",
-    "T04",
     "T02",
-    "T10"
+    "T03",
+    "T06",
+    "T11"
   ],
   "tangential_themes": [
-    "T06",
+    "T04",
     "T07",
     "T08",
     "T09",
-    "T11",
+    "T10",
     "T12"
   ]
 }

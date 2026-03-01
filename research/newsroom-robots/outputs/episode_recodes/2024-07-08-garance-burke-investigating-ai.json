@@ -4,9 +4,13 @@
   "theme_codings": [
     {
       "theme_id": "T01",
-      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
       "relevance": "secondary",
-      "sub_themes_present": ["T01.2", "T01.4", "T01.5"],
+      "sub_themes_present": [
+        "T01.2",
+        "T01.4",
+        "T01.5"
+      ],
       "best_quote": {
         "text": "At AP, we're really very cautious about implementing any AI tools. Our journalism always starts with a human being and ends with a human being.",
         "speaker": "Garance Burke"
@@ -17,7 +21,10 @@
       "theme_id": "T02",
       "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
       "relevance": "primary",
-      "sub_themes_present": ["T02.1", "T02.3"],
+      "sub_themes_present": [
+        "T02.1",
+        "T02.3"
+      ],
       "best_quote": {
         "text": "I think that taking it back to those journalistic basics of how the systems work, where they're deployed, how well these models are performing, whether the tools are regulated, who's benefiting and making money as a result of AI's growth and then which communities may be impacted by these tools, whether that be negatively or positively, can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad.",
         "speaker": "Garance Burke"
@@ -26,9 +33,12 @@
     },
     {
       "theme_id": "T03",
-      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
       "relevance": "primary",
-      "sub_themes_present": ["T03.1", "T03.3"],
+      "sub_themes_present": [
+        "T03.1",
+        "T03.3"
+      ],
       "best_quote": {
         "text": "This is not a beat in which you want to be taking AI companies press releases as the final word.",
         "speaker": "Garance Burke"
@@ -37,9 +47,12 @@
     },
     {
       "theme_id": "T04",
-      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
       "relevance": "secondary",
-      "sub_themes_present": ["T04.4", "T04.5"],
+      "sub_themes_present": [
+        "T04.4",
+        "T04.5"
+      ],
       "best_quote": {
         "text": "Sometimes these large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood.",
         "speaker": "Garance Burke"
@@ -48,9 +61,12 @@
     },
     {
       "theme_id": "T05",
-      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
       "relevance": "secondary",
-      "sub_themes_present": ["T05.1", "T05.2"],
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2"
+      ],
       "best_quote": {
         "text": "You really don't need to be an engineer to interrogate these systems or understand them. I think that really focusing on the people who build AI tools, who are affected by AI tools... there's always human beings who you can access.",
         "speaker": "Garance Burke"
@@ -59,9 +75,11 @@
     },
     {
       "theme_id": "T06",
-      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
       "relevance": "tangential",
-      "sub_themes_present": ["T06.3"],
+      "sub_themes_present": [
+        "T06.3"
+      ],
       "best_quote": {
         "text": "I think it's important to think about both the upside, but also proceed cautiously. There's an opportunity to have deeper ethical discussions about what is the right way to implement AI tooling in our sacred news production.",
         "speaker": "Garance Burke"
@@ -72,7 +90,10 @@
       "theme_id": "T07",
       "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
       "relevance": "primary",
-      "sub_themes_present": ["T07.1", "T07.3"],
+      "sub_themes_present": [
+        "T07.1",
+        "T07.3"
+      ],
       "best_quote": {
         "text": "AI companies are seeking to extend their power into a whole number of realms from military applications to education to health care... As journalists, we need to understand how power and money moves.",
         "speaker": "Garance Burke"
@@ -81,7 +102,7 @@
     },
     {
       "theme_id": "T08",
-      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
       "relevance": "tangential",
       "sub_themes_present": [],
       "best_quote": {
@@ -92,7 +113,7 @@
     },
     {
       "theme_id": "T09",
-      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
       "relevance": "tangential",
       "sub_themes_present": [],
       "best_quote": {
@@ -103,9 +124,12 @@
     },
     {
       "theme_id": "T10",
-      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
       "relevance": "primary",
-      "sub_themes_present": ["T10.1", "T10.2"],
+      "sub_themes_present": [
+        "T10.1",
+        "T10.2"
+      ],
       "best_quote": {
         "text": "AI systems are really unregulated by and large around the world. And so there's an opportunity to have real-world impact with journalism that deeply and in a nuanced fashion helps the public understand how these tools work, don't work and who they're impacting.",
         "speaker": "Garance Burke"
@@ -114,7 +138,7 @@
     },
     {
       "theme_id": "T11",
-      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
       "relevance": "tangential",
       "sub_themes_present": [],
       "best_quote": {
@@ -125,9 +149,12 @@
     },
     {
       "theme_id": "T12",
-      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
       "relevance": "secondary",
-      "sub_themes_present": ["T12.1", "T12.2"],
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
       "best_quote": {
         "text": "We live in an age where it's so easy to clone a person's voice or face, as we've seen in the discussion about Scarlett Johansson and OpenAI's talking chatbot, that some real concerns about privacy and ownership of one's likeness are important to keep at top of mind.",
         "speaker": "Garance Burke"
@@ -135,7 +162,22 @@
       "summary": "Burke raises privacy through the lens of investigative concern: personal data used for AI training, the ease of cloning voices and faces (Scarlett Johansson/OpenAI controversy), government surveillance of marginalized populations post-COVID, and the child welfare algorithm's use of sensitive family data like maternal smoking history."
     }
   ],
-  "primary_themes": ["T02", "T03", "T07", "T10"],
-  "secondary_themes": ["T01", "T04", "T05", "T12"],
-  "tangential_themes": ["T06", "T08", "T09", "T11"]
+  "primary_themes": [
+    "T02",
+    "T03",
+    "T07",
+    "T10"
+  ],
+  "secondary_themes": [
+    "T01",
+    "T04",
+    "T05",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T06",
+    "T08",
+    "T09",
+    "T11"
+  ]
 }

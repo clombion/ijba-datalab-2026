@@ -4,127 +4,168 @@
   "theme_codings": [
     {
       "theme_id": "T01",
-      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
       "relevance": "primary",
-      "sub_themes_present": ["T01.1", "T01.2", "T01.3"],
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.3"
+      ],
       "best_quote": {
         "text": "I don't see the role of the designer changing that much. But I see the inputs, I see different outputs, I see how, you know, the speed at which things are done, the volume of information that can be collated in a short space of time. I see those are the things that change the output that the designer can bring to the table.",
         "speaker": "Adrian Gill"
       },
-      "summary": "Gill argues the designer's role persists while speed and volume change dramatically (weeks to days), emphasizes the irreplaceable human creative vision, and both Gill and Roy address real job displacement testimony -- people directly told they were replaced by AI -- while arguing for expanding the pie rather than replacing workers."
+      "summary": "The central tension of this episode: AI image generation tools dramatically accelerate creative workflows (two days of ideation looks like two weeks) and expand what designers can produce, yet the irreducible human elements — vision, ingenuity, future-oriented thinking, editorial judgment — remain essential. Gill repeatedly argues that AI is 'just a tool' that augments but never replaces the designer's role, while acknowledging real job displacement is occurring in the creative industry."
     },
     {
       "theme_id": "T02",
       "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
-      "relevance": "tangential",
-      "sub_themes_present": ["T02.1"],
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T02.3",
+        "T02.4"
+      ],
       "best_quote": {
-        "text": "We didn't say anything about it. We just showed it. And you know, audience engagement is a big part of what we do. So sometimes you want people to feel things without being told.",
+        "text": "Well, it was in a closing video for the President Innovation Challenge. So we didn't say anything about it. Okay. We just showed it. And you know, audience engagement is a big part of what we do. So sometimes you want people to feel things without being told.",
         "speaker": "Adrian Gill"
       },
-      "summary": "Transparency is raised through Gill's admission of not disclosing AI use in the Harvard Innovation Challenge video, raising questions about disclosure obligations when AI-generated content is blended with real photography."
+      "summary": "Gill reveals that AI-generated imagery used at the Harvard President's Innovation Challenge was presented without disclosure or credit to Midjourney, raising questions about labeling and transparency. Roy probes whether credit should be given to AI tools, and Gill struggles with attribution — noting the images derive from other artists' work. The authenticity question surfaces through discussion of whether AI-generated content can be truly 'new' versus a recombination of past inputs."
     },
     {
       "theme_id": "T03",
-      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
       "relevance": "secondary",
-      "sub_themes_present": ["T03.2", "T03.3"],
+      "sub_themes_present": [
+        "T03.2",
+        "T03.3"
+      ],
       "best_quote": {
-        "text": "All of these images are based on things that have been created in the past. So if you just rely on this solely, you're gonna get maybe something that's interesting, but if it's all been done before, then is it really new? That's where your ingenuity, our ingenuity as humans come in to really create something that is distinctive.",
+        "text": "I think it's tricky, right? Because there's a lot of skepticism around the journey and Dali and stuff like this. And most of the concern around those things are around intellectual property and copyright infringement and stuff like this. So that's the qualifier from the very beginning because these tools are scraping millions of images, for example, from everywhere and it comes from images that were already created by someone.",
         "speaker": "Adrian Gill"
       },
-      "summary": "Ethical concerns about copyright infringement and IP are central to the episode, with Gill acknowledging that image generation tools scrape millions of copyrighted images and cautioning against verbatim use, while noting the difficulty of determining credit attribution."
+      "summary": "Copyright and IP concerns are discussed as the primary barrier to adoption of image generation tools, particularly in news organizations. Roy notes that 50% of journalists refuse to even try these tools because they feel unethical. Gill acknowledges the legitimacy of these concerns — tools scrape millions of existing images — and argues designers must add their own creative input rather than using AI outputs verbatim. Editorial boundaries surface in how the Harvard Innovation Labs team deliberately reworked overly literal AI outputs."
     },
     {
       "theme_id": "T04",
-      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
       "relevance": "tangential",
-      "sub_themes_present": ["T04.1"],
+      "sub_themes_present": [
+        "T04.3"
+      ],
       "best_quote": {
-        "text": "Being able to drop something like that into a Midjourney definitely might help pull themes from what you saw, something that would be next to impossible or would take really, really long.",
-        "speaker": "Adrian Gill"
+        "text": "You can put in a bunch of these inspirations off all of Axios illustrations and then when you prompt it, it's maybe able to do a sort of like a you can do fine-tuning the way you fine-tune large language models. You're fine-tuning like all of these image generation models based on inspiration of past illustrations to start spitting things out in that direction.",
+        "speaker": "Nikita Roy"
       },
-      "summary": "Technical architecture is not a focus; Gill discusses tool capabilities (Midjourney, DALL-E, GPT Vision, Sora) from a user perspective rather than an engineering one."
+      "summary": "Technical architecture is only lightly touched. Roy briefly mentions fine-tuning image generation models on a brand's existing illustration style (citing Axios), and references ChatGPT's vision feature for analyzing design inspiration photos. Specific tools mentioned include Midjourney, DALL-E, OpenAI Sora, ChatGPT, and Photoshop, but the discussion stays at user-level rather than diving into technical implementation."
     },
     {
       "theme_id": "T05",
-      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
-      "relevance": "secondary",
-      "sub_themes_present": ["T05.2"],
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.4"
+      ],
       "best_quote": {
-        "text": "At least 50% of people in newsroom workshops have never even tried image generation tools.",
-        "speaker": "Nikita Roy"
+        "text": "I think that there's no reason to be afraid of these tools. I think it's really about collaboration versus competition. And at the end of the day, if it can help give you a a new idea or make something just a little bit better. I I think that is fair.",
+        "speaker": "Adrian Gill"
       },
-      "summary": "Roy highlights extremely low adoption of image generation tools among journalists (50%+ never tried), partly due to ethical concerns, while Gill emphasizes that the quality of creative input determines the quality of output -- suggesting a skills gap beyond mere tool access."
+      "summary": "A major thread throughout the episode. Roy reports that in her newsroom workshops, at least 50% of journalists have never even tried image generation tools, driven largely by ethical fears. Both speakers argue strongly for experimentation — Gill frames the issue as 'collaboration versus competition' with AI. The episode itself functions as a literacy exercise, showing journalists how creative professionals actually integrate these tools into real workflows rather than using them as simple input-output machines."
     },
     {
       "theme_id": "T06",
-      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
-      "relevance": "tangential",
-      "sub_themes_present": ["T06.3"],
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.3"
+      ],
       "best_quote": {
-        "text": "It comes down to mindset. What is the mindset of the organization? Is it an innovative organization? Do you want your editors to be creative about this or are you just trying to get something out quickly and efficiently and you don't mind if it sits down into the sea of sameness.",
+        "text": "What is the mindset of the organization? Is it an innovative organization? Is it a creative organization? Do you want your editors to be creative about this or are you just trying to get something out quickly and efficiently and you don't mind if it sits down into the sea of sameness.",
         "speaker": "Adrian Gill"
       },
-      "summary": "Organizational mindset is briefly raised as the determinant of whether AI tools lead to differentiation or homogenization, but leadership strategy is not a central focus."
+      "summary": "Gill frames AI adoption as fundamentally an organizational mindset question — whether leadership values differentiation and innovation or just efficiency. He argues that brands that 'stand apart' will be those that understand design's value and don't merely exploit AI to lower costs. Roy draws explicit parallels between design leadership decisions and newsroom leadership decisions about AI deployment. The discussion implicitly addresses change management challenges around creative professionals' resistance to new tools."
     },
     {
       "theme_id": "T07",
       "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
       "relevance": "tangential",
-      "sub_themes_present": ["T07.1"],
+      "sub_themes_present": [
+        "T07.2"
+      ],
       "best_quote": {
-        "text": "These tools are scraping millions of images from everywhere and it comes from images that were already created by someone. So you have to be careful.",
+        "text": "It's not mid journey, right? It's some other artist that has created something that Midjourney has pulled from. So that's why I mean when I say you can't just take images from my mid-journey and use them verbatim without having some of your own prompts.",
         "speaker": "Adrian Gill"
       },
-      "summary": "The scraping/IP issue is acknowledged as a concern but discussed from a creative ethics perspective rather than the publisher-tech power dynamics angle."
+      "summary": "Platform power dynamics are implicitly present through the discussion of how tools like Midjourney and DALL-E scrape millions of images from creators without compensation or attribution, concentrating creative assets in the hands of platform companies. The data and content rights question surfaces when Gill questions who deserves credit for AI-generated outputs, but the episode does not deeply explore Big Tech dependency or market consolidation dynamics."
     },
     {
       "theme_id": "T08",
-      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
-      "relevance": "primary",
-      "sub_themes_present": ["T08.4"],
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T08.2",
+        "T08.3"
+      ],
       "best_quote": {
-        "text": "It's important, you know, for my work not to let AI be visible. It's like, for example, everybody uses Photoshop. But you don't want your images to look photoshopped. Right? So it's the same principle where you can leverage AI, but at the end of the day, your own vision has to be front and foremost.",
+        "text": "We took descriptions of all of the teams that were finalists at the President Innovation Challenge, and we dropped those descriptions into Midjourney. Out of those descriptions came some very, very, very interesting imagery, which we applied themes to to get common look and feel.",
         "speaker": "Adrian Gill"
       },
-      "summary": "This is the episode's core creative territory: Gill explores AI image generation as a tool for visual communication, from the Harvard Innovation Challenge video to Newsroom Robots' logo creation, while warning against the 'sea of sameness' and insisting on human creative vision as the differentiator."
+      "summary": "The episode explores how AI image generation enables new visual formats and experiences. Gill describes creating a fusion of photography and AI-generated imagery for the Harvard Innovation Challenge closing video — a format that would have taken weeks to produce manually. Roy mentions newsrooms like IF Media building image generation directly into their CMS for article illustrations. The discussion of Axios's distinctive illustration brand and AI-generated podcast artwork (Newsroom Robots logo) illustrate new approaches to visual brand identity in media."
     },
     {
       "theme_id": "T09",
-      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
-      "relevance": "tangential",
-      "sub_themes_present": ["T09.1"],
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.2"
+      ],
       "best_quote": {
-        "text": "The brands that stand apart are going to be the ones that understand the value of design.",
+        "text": "I don't think that that is going to be the way forward for brands that are sustaining themselves in any meaningful way. So what I'd say to designers is perfect your craft.",
         "speaker": "Adrian Gill"
       },
-      "summary": "Business sustainability is touched upon through Gill's argument that brands investing in design differentiation will outperform those that commoditize creative output through AI."
+      "summary": "Cost reduction is a recurring subtext — the Harvard Innovation Labs project that would have taken weeks was completed in days, and organizations without large budgets can use AI to fill creative gaps. Roy explicitly raises the economic threat: AI saves time, cost, and enables rapid iteration that humans cannot match. Gill pushes back, arguing that organizations purely chasing cost savings via AI replacement will not sustain themselves, and that differentiation through genuine design investment is the viable long-term economic strategy."
     },
     {
       "theme_id": "T10",
-      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
       "relevance": "tangential",
-      "sub_themes_present": ["T10.3"],
+      "sub_themes_present": [
+        "T10.2"
+      ],
       "best_quote": {
-        "text": "Who do you credit? Because it's not Midjourney, right? It's some other artist that has created something that Midjourney has pulled from.",
-        "speaker": "Adrian Gill"
+        "text": "You can go and create like Disney characters, Pixar like copyrighted images from Mid Journey. Now there's a lot of other things that are there. God reels that have been put up in like Dali and all of the other models where if you ask them for a specific person, they will not generate those images just to lead to like less of uh fake images being created.",
+        "speaker": "Nikita Roy"
       },
-      "summary": "Content provenance and attribution are raised as unresolved questions -- who gets credit for AI-generated images -- but formal regulatory frameworks are not discussed."
+      "summary": "Copyright law surfaces briefly through Roy's observation that users can generate Disney and Pixar-like copyrighted imagery through Midjourney, and that platforms like DALL-E have implemented guardrails against generating specific persons' likenesses. However, there is no substantive discussion of the EU AI Act, platform regulation, or formal self-regulation frameworks. The copyright concern is noted but not explored in regulatory depth."
     },
     {
       "theme_id": "T11",
-      "theme_name": "The Prototype Pipeline: From Experiment to Production",
-      "relevance": "tangential",
-      "sub_themes_present": ["T11.1"],
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
       "best_quote": {
-        "text": "If you're ideating maybe two days of ideating, it really looks like two weeks of ideating with AI.",
+        "text": "And that process, if we were to try to do it or cells would have taken weeks and it took days, right? So things like that can improve the effect of the creativity. It doesn't replace things and they're complements, right?",
         "speaker": "Adrian Gill"
       },
-      "summary": "The prototyping speed enabled by AI image generation is noted -- weeks compressed to days -- but the episode does not address the broader pipeline from experiment to production."
+      "summary": "Gill describes concrete prototyping workflows: the Harvard Innovation Challenge video project went from venture descriptions to themed AI imagery to final video in days instead of weeks. The Newsroom Robots podcast logo creation is another example — a designer prompted Midjourney for a specific robot hand/human hand concept, then completed the design in Photoshop. Roy describes IF Media's CMS-integrated image generation as a prototype that reached production. These cases illustrate rapid prototyping with AI tools, though formal evaluation methods and failure patterns are not discussed."
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "So that's the qualifier from the very beginning because these tools are scraping millions of images, for example, from everywhere and it comes from images that were already created by someone. So you have to be careful as you at least in your approach, being very mindful of that.",
+        "speaker": "Adrian Gill"
+      },
+      "summary": "Content licensing is the only data-related sub-theme meaningfully addressed. Gill acknowledges that image generation tools scrape millions of existing images created by others, raising questions about the provenance and licensing of training data. However, the episode does not discuss data strategy, privacy concerns, or synthetic data in any depth."
     }
   ],
-  "primary_themes": ["T01", "T08"],
-  "secondary_themes": ["T03", "T05"],
-  "tangential_themes": ["T02", "T04", "T06", "T07", "T09", "T10", "T11"]
+  "primary_themes": [],
+  "secondary_themes": [],
+  "tangential_themes": []
 }

@@ -1,0 +1,232 @@
+{
+  "episode_date": "2024-07-24",
+  "episode_title": "Natali Helberger: Audience-Centric Approaches to AI Ethics in Media",
+  "transcript_file": "2024-07-24 - Natali Helberger Audience-Centric Approaches to AI Ethics in Media.txt",
+  "summary_claims": [
+    "Nearly 20% of newsrooms surveyed said their strategy for ethical use of AI was simply not to use AI",
+    "The major ethical concern among newsrooms was the lack of human oversight, and there is a strong belief that as long as a human is watching over AI, it is more trustworthy",
+    "The least popular strategy among newsrooms was to audit the systems or do responsible procurement",
+    "Ecological concerns and the role of big tech companies were almost not mentioned in the survey responses despite being prominent in public discourse"
+  ],
+  "guests": [
+    {
+      "name": "Natali Helberger",
+      "role": "Professor of Law and Digital Technology; Co-founder, AI, Media and Democracy Lab; Chair, Council of Europe Expert Group on AI and Freedom of Expression",
+      "organization": "University of Amsterdam"
+    }
+  ],
+  "host": "Nikita Roy",
+  "matches": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T01.4",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "Someone who's a party here that is at the moment completely excluded from the loop are, for example, users. And their ability to feedback or to criticize or to let the media organization know when something goes wrong. And in our research we actually saw that users would very much appreciate being included in this loop.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "The episode discusses transcription and translation as routine AI tools not requiring transparency disclosure, and extensively examines human-in-the-loop models, arguing users should be included in oversight loops alongside editorial staff.",
+      "passage_start": 0,
+      "passage_end": 846,
+      "match_method": "window-6",
+      "matched_text": "This is Newsroom Robots, the podcast where we explore the intersection of artificial intelligence and the news industry. I'm Nikita Roy, data scientist, media entrepreneur, and one of the many founders currently building their. Ventures at the Harvard Innovation Labs. On the Newsroom Robots, I'm excited to bring you insightful conversations with industry experts about how AI is impacting the way we do journalism. Joining me today is Natalie Helberger, a professor of law and digital technology at the University of Amsterdam and co-founder of the AI, Media and Democracy Lab. Natalie is also the chair of the Council of Europe's Expert Group on AI and Freedom of Expression and serves as an advisory board member of the Reuters Institute for Journalism at Oxford. In this episode, we discuss the ethical concerns surrounding AI in newsrooms. "
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.1",
+        "T02.2",
+        "T02.3",
+        "T02.4"
+      ],
+      "best_quote": {
+        "text": "Being transparent about what parameter you use is very nice and good, but it starts only being really meaningful if you also give people a choice maybe between different parameters or recommendation logics.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "This is the episode's dominant theme. Helberger argues transparency alone is insufficient without user agency, documents that 60% of Dutch respondents feel misled by undisclosed AI use, warns of label blindness, and highlights the alarming trust parity between news media and social media in using AI responsibly.",
+      "passage_start": 21717,
+      "passage_end": 22313,
+      "match_method": "anchor-8",
+      "matched_text": "being transparent about what parameter you use is very nice and good, but it starts only being really meaningful if you also give people a choice maybe between different parameters or recommendation logics Or remind them, that is something else we heard in our research, remind them from time to time about their profile and if that still represents what they're really interested in Because that is something that we also saw that a lot of people are very concerned about, you know, being labeled as this Early morning person who only drinks latte and listens to Taylor Swift on Spotify, right? "
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.2",
+        "T03.3",
+        "T03.4"
+      ],
+      "best_quote": {
+        "text": "Responsible use of AI is not simply something that you can write up in a guideline and that it will automatically materialize, but one also really needs to think of how that should be then internalized in working practices, in skills, in new routines.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Helberger reveals that nearly 20% of newsrooms adopt non-use as their AI ethics strategy, that responsible procurement is the least popular approach, and that guidelines-to-practice gaps persist. She advocates procurement checklists and emphasizes convergence across existing guidelines on shared principles.",
+      "passage_start": 13506,
+      "passage_end": 13761,
+      "match_method": "anchor-8",
+      "matched_text": "responsible use of AI is not simply something that you can write up in a guideline and that it will automatically materialize, but one also really needs to think of how that should be then internalized in working practices, in skills, in in new routines. "
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "AI and the implementation of AI in newsrooms is often talked about as a technical problem. But I think this survey also very much showed it's not only a technical problem, it's also an ethical and a cultural problem.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Technical architecture is mentioned only to note that AI implementation challenges are not primarily technical, and that explainability research exists but remains unactionable for end users.",
+      "passage_start": 2709,
+      "passage_end": 2934,
+      "match_method": "anchor-8",
+      "matched_text": "AI and the implementation of AI in newsrooms is often talked about as a as a technical problem But I think this survey also very much showed it's not only a technical problem, it's also an ethical and and a cultural problem. "
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T05.2"
+      ],
+      "best_quote": {
+        "text": "AI and the implementation of AI in newsrooms is often talked about as a technical problem. But I think this survey also very much showed it's not only a technical problem, it's also an ethical and a cultural problem.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Adoption barriers are touched upon in the context of nearly 20% of newsrooms refusing to use AI as an ethical stance, but training and literacy are not the episode's focus.",
+      "passage_start": 2709,
+      "passage_end": 2934,
+      "match_method": "anchor-8",
+      "matched_text": "AI and the implementation of AI in newsrooms is often talked about as a as a technical problem But I think this survey also very much showed it's not only a technical problem, it's also an ethical and and a cultural problem. "
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "Responsible use of AI is not simply something that you can write up in a guideline and that it will automatically materialize, but one also really needs to think of how that should be then internalized in working practices, in skills, in new routines.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Organizational change is referenced when Helberger argues that ethics guidelines must be translated into working practices, skills, routines, funding, and incentives, but specific organizational structures are not discussed.",
+      "passage_start": 13506,
+      "passage_end": 13761,
+      "match_method": "anchor-8",
+      "matched_text": "responsible use of AI is not simply something that you can write up in a guideline and that it will automatically materialize, but one also really needs to think of how that should be then internalized in working practices, in skills, in in new routines. "
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "I think we really need to think of how to distinguish the media and make sure that people know if I want trustworthy content, I go there because it is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "The episode addresses the power dynamics between news media and social media platforms, arguing newsrooms must differentiate themselves on trust. Helberger notes that ecological concerns and Big Tech's role were notably absent from newsroom survey responses despite their prominence in public discourse.",
+      "passage_start": 34946,
+      "passage_end": 35680,
+      "match_method": "anchor-8",
+      "matched_text": "I think we really need to think of how to distinguish the media and make sure that that people know if I want trustworthy content, I go there because It is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it, they know what they're doing, and they do it for my good to inform me better and not to you know make me click more or fall down rabbit holes and and that is really opportunity also to to use it in a good way Yeah, and I find that that explanation you're talking about, that disting it's an opportunity for us to distinguish ourselves from social media companies by being more transparent and explaining more about how we are using AI. "
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T08.1"
+      ],
+      "best_quote": {
+        "text": "Being transparent about what parameter you use is very nice and good, but it starts only being really meaningful if you also give people a choice maybe between different parameters or recommendation logics.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Helberger discusses diversity metrics for recommendation algorithms (fragmentation, activation, representation) and the Panopticum project exploring user agency in expressing real preferences, framing personalization as a domain where ethical design and audience autonomy intersect.",
+      "passage_start": 21717,
+      "passage_end": 22313,
+      "match_method": "anchor-8",
+      "matched_text": "being transparent about what parameter you use is very nice and good, but it starts only being really meaningful if you also give people a choice maybe between different parameters or recommendation logics Or remind them, that is something else we heard in our research, remind them from time to time about their profile and if that still represents what they're really interested in Because that is something that we also saw that a lot of people are very concerned about, you know, being labeled as this Early morning person who only drinks latte and listens to Taylor Swift on Spotify, right? "
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "I think we really need to think of how to distinguish the media and make sure that people know if I want trustworthy content, I go there because it is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Resource constraints for smaller newsrooms are mentioned in the context of their inability to access legal departments or reach large AI providers for support, but business models are not a primary focus.",
+      "passage_start": 34946,
+      "passage_end": 35680,
+      "match_method": "anchor-8",
+      "matched_text": "I think we really need to think of how to distinguish the media and make sure that that people know if I want trustworthy content, I go there because It is fact-checked, there's human oversight, someone has been testing the system, there was responsible procurement, they are transparent about it, they know what they're doing, and they do it for my good to inform me better and not to you know make me click more or fall down rabbit holes and and that is really opportunity also to to use it in a good way Yeah, and I find that that explanation you're talking about, that disting it's an opportunity for us to distinguish ourselves from social media companies by being more transparent and explaining more about how we are using AI. "
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T10.1",
+        "T10.3"
+      ],
+      "best_quote": {
+        "text": "Simply the fact that something has been made with AI does not necessarily say that this is bad content. So I think it's a good first step. But I also think it doesn't tell you enough. So I don't think it will solve the deep fake issue.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "The EU AI Act is referenced as facing enforcement challenges. Helberger critiques 'made with AI' labeling as regulation of the willing and argues for provenance-based approaches over simple labels, connecting to Council of Europe expert group work.",
+      "passage_start": 30687,
+      "passage_end": 30925,
+      "match_method": "anchor-8",
+      "matched_text": "simply the fact that something has been made with AI does not necessarily say that this is bad content. So I think it's a good first step But I also think it doesn't tell you as enough. So I don't think it will solve the deep fake issue. "
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "AI and the implementation of AI in newsrooms is often talked about as a technical problem. But I think this survey also very much showed it's not only a technical problem, it's also an ethical and a cultural problem.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "The episode does not substantively address prototyping or production pipelines; its focus is on the ethical and audience-facing dimensions of AI adoption rather than the operational journey from experiment to deployment.",
+      "passage_start": 2709,
+      "passage_end": 2934,
+      "match_method": "anchor-8",
+      "matched_text": "AI and the implementation of AI in newsrooms is often talked about as a as a technical problem But I think this survey also very much showed it's not only a technical problem, it's also an ethical and and a cultural problem. "
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "AI and the implementation of AI in newsrooms is often talked about as a technical problem. But I think this survey also very much showed it's not only a technical problem, it's also an ethical and a cultural problem.",
+        "speaker": "Natali Helberger"
+      },
+      "summary": "Data privacy surfaces in the procurement checklist discussion (data quality, data security, training data use) and in the broader concern about liability being dumped on end users by AI providers' terms of service.",
+      "passage_start": 2709,
+      "passage_end": 2934,
+      "match_method": "anchor-8",
+      "matched_text": "AI and the implementation of AI in newsrooms is often talked about as a as a technical problem But I think this survey also very much showed it's not only a technical problem, it's also an ethical and and a cultural problem. "
+    }
+  ]
+}

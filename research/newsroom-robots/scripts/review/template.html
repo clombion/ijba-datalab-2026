@@ -35,23 +35,113 @@
   </div>
   <div class="toolbar-row toolbar-bottom" id="toolbar-controls">
     <div class="toolbar-group">
-      <label class="toggle"><input type="checkbox" id="hide-reviewed"><span>Hide reviewed episodes</span></label>
-    </div>
-    <div class="toolbar-group">
-      <select id="filter-relevance" aria-label="Filter relevance"><option value="">All relevance</option></select>
+      <label class="toggle"><input type="checkbox" id="hide-reviewed"><span>Hide reviewed</span></label>
     </div>
   </div>
 </header>
 
-<!-- Content container -->
-<div id="content-container">
-  <div id="episode-header"></div>
-  <div id="theme-rows"></div>
+<!-- Main layout: transcript + side panel -->
+<div id="main-layout">
+  <!-- Transcript column -->
+  <div id="transcript-column">
+    <div id="episode-header"></div>
+    <div id="transcript-body"></div>
+  </div>
+
+  <!-- Side panel (hidden until highlight clicked) -->
+  <aside id="side-panel" class="hidden">
+    <div class="panel-header">
+      <span id="panel-theme-id" class="theme-id"></span>
+      <span id="panel-theme-name" class="theme-name"></span>
+      <button id="panel-close" type="button" aria-label="Close panel">&times;</button>
+    </div>
+    <div class="panel-actions">
+      <button id="btn-validate" type="button" class="action-btn valid">&#10003; Valid</button>
+      <button id="btn-invalidate" type="button" class="action-btn invalid">&#10007; Invalid</button>
+    </div>
+    <div class="panel-field">
+      <label>Relevance</label>
+      <div id="panel-relevance" class="relevance-selector">
+        <button type="button" data-rel="primary" class="rel-btn rel-primary">primary<span class="shortcut">1</span></button>
+        <button type="button" data-rel="secondary" class="rel-btn rel-secondary">secondary<span class="shortcut">2</span></button>
+        <button type="button" data-rel="tangential" class="rel-btn rel-tangential">tangential<span class="shortcut">3</span></button>
+      </div>
+    </div>
+    <div class="panel-field">
+      <label>Codes <button id="btn-add-code" type="button" class="add-code-btn">+ Add</button></label>
+      <div id="panel-codes"></div>
+    </div>
+    <div class="panel-field">
+      <label>Quote</label>
+      <blockquote id="panel-quote"></blockquote>
+    </div>
+    <div class="panel-field">
+      <label>Summary</label>
+      <div id="panel-summary"></div>
+    </div>
+    <div id="panel-override-note" class="override-note"></div>
+  </aside>
+</div>
+
+<!-- Add passage floating button -->
+<div id="add-passage-btn" class="hidden">+ Add passage</div>
+
+<!-- Code search modal -->
+<div id="code-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-label="Add/Remove codes">
+  <div class="modal-content code-modal-content">
+    <h2>Add/Remove Codes</h2>
+    <input type="search" id="code-search" placeholder="Search codes..." autocomplete="off">
+    <div id="code-list"></div>
+    <div class="modal-actions">
+      <button id="code-modal-done" type="button">Done</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add passage modal -->
+<div id="passage-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-label="Add new passage">
+  <div class="modal-content passage-modal-content">
+    <h2>Add New Passage</h2>
+    <div id="passage-selected-text" class="passage-preview"></div>
+    <label class="modal-field">
+      Theme
+      <select id="passage-theme"></select>
+    </label>
+    <label class="modal-field">
+      Relevance
+      <select id="passage-relevance">
+        <option value="">Select...</option>
+        <option value="primary">primary</option>
+        <option value="secondary">secondary</option>
+        <option value="tangential">tangential</option>
+      </select>
+    </label>
+    <label class="modal-field">
+      Codes
+      <div id="passage-codes-container">
+        <button id="passage-add-code-btn" type="button" class="add-code-btn">+ Add codes</button>
+        <div id="passage-codes-list"></div>
+      </div>
+    </label>
+    <label class="modal-field">
+      Speaker
+      <input type="text" id="passage-speaker" placeholder="Speaker name">
+    </label>
+    <label class="modal-field">
+      Summary
+      <textarea id="passage-summary" rows="3" placeholder="Brief summary of this passage's relevance"></textarea>
+    </label>
+    <div id="passage-modal-status" class="modal-status"></div>
+    <div class="modal-actions">
+      <button id="passage-cancel" type="button">Cancel</button>
+      <button id="passage-save" type="button" disabled>Save</button>
+    </div>
+  </div>
 </div>
 
 <!-- Import modal -->
-<div id="modal-overlay" class="hidden" role="dialog" aria-modal="true" aria-label="Import decisions">
-  <div id="modal">
+<div id="modal-overlay" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-label="Import decisions">
+  <div class="modal-content">
     <h2>Import Decisions</h2>
     <p>Select a JSON decision file to import.</p>
     <input type="file" id="import-files" accept=".json">
@@ -64,8 +154,8 @@
 </div>
 
 <!-- GitHub settings modal -->
-<div id="gh-modal" class="hidden" role="dialog" aria-modal="true" aria-label="GitHub connection">
-  <div class="gh-modal-content">
+<div id="gh-modal" class="modal-overlay hidden" role="dialog" aria-modal="true" aria-label="GitHub connection">
+  <div class="modal-content gh-modal-content">
     <h2>Connect to GitHub</h2>
     <p>Enter a fine-grained Personal Access Token with Contents read/write permission for the target repo.</p>
     <label class="gh-field">Token <input id="gh-input-token" type="password" placeholder="github_pat_..." autocomplete="off"></label>

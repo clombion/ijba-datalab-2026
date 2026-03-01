@@ -1,0 +1,228 @@
+{
+  "episode_date": "2024-07-08",
+  "episode_title": "Garance Burke: A Journalist's Guide to Investigating Artificial Intelligence",
+  "transcript_file": "2024-07-08 - Garance Burke A Journalist's Guide to Investigating Artificial Intelligence.txt",
+  "summary_claims": [
+    "AP's work is seen by half the world's population every day",
+    "AI systems are really unregulated by and large around the world",
+    "AP reporting on child welfare algorithms helped prompt a federal civil rights investigation from the U.S. Department of Justice",
+    "A chatbot told a user in a predominantly Black neighborhood in Philadelphia there was no polling place, and another said California voters could vote by text message"
+  ],
+  "guests": [
+    {
+      "name": "Garance Burke",
+      "role": "Global Investigative Journalist",
+      "organization": "Associated Press"
+    }
+  ],
+  "host": "Nikita Roy",
+  "matches": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T01.2",
+        "T01.4",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "At AP, we're really very cautious about implementing any AI tools. Our journalism always starts with a human being and ends with a human being.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke describes AP's strict human-starts-human-ends principle for AI use, mentions transcription as the primary proven productivity win, and emphasizes that journalists don't need engineering backgrounds to investigate AI systems, establishing the irreplaceable human role in both using and scrutinizing AI.",
+      "passage_start": 0,
+      "passage_end": 892,
+      "match_method": "window-6",
+      "matched_text": "This is Newsroom Robots, the podcast where we explore the intersection of artificial intelligence and the news industry. I'm Nikita Roy, data scientist, media entrepreneur, and one of the many founders currently building their. Ventures at the Harvard Innovation Labs. On the Newsroom Robots, I'm excited to bring you insightful conversations with industry experts about how AI is impacting the way we do journalism. Joining me today is Karan Sperk, a global investigative journalist with the Associated Press, where she leads investigations on the impacts of AI technologies. She led the development of the new AI chapter in the AP stylebook and also helped to write the AP standards guiding the internal use of AI in the newsroom. In this episode, we discuss the crucial role of journalism in holding AI systems accountable and the challenges reporters face in covering this complex topic. "
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T02.1",
+        "T02.3"
+      ],
+      "best_quote": {
+        "text": "I think that taking it back to those journalistic basics of how the systems work, where they're deployed, how well these models are performing, whether the tools are regulated, who's benefiting and making money as a result of AI's growth and then which communities may be impacted by these tools, whether that be negatively or positively, can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke frames the trust crisis through concrete misinformation examples -- chatbots telling Philadelphia residents there's no polling place and California voters they can vote by text -- while arguing that journalism must transcend the good/bad binary to help the public understand how AI actually works and who it affects.",
+      "passage_start": 3403,
+      "passage_end": 3981,
+      "match_method": "anchor-8",
+      "matched_text": "I think that taking it back to those journalistic basics of how the systems work where they're deployed, how well these models are performing, whether the tools are regulated, who's benefiting and making money as a result of AI's growth and then which communities may be impacted by these tools, whether that be negatively or positively. can help anchor a lot of the journalism around AI so that we get out of this kind of tiresome binary, frankly, of is AI good or bad? Well Actually, our job is to help people understand how it works and what it's already doing in our lives. "
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T03.1",
+        "T03.3"
+      ],
+      "best_quote": {
+        "text": "This is not a beat in which you want to be taking AI companies press releases as the final word.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke provides a journalistic ethics framework for AI coverage centered on who/what/where/when/why, advocates for investigating training data composition and community impacts, and warns against press-release journalism on AI, positioning AP Stylebook's AI chapter as an operational ethics guide for the profession.",
+      "passage_start": 17430,
+      "passage_end": 17526,
+      "match_method": "exact",
+      "matched_text": "This is not a beat in which you want to be taking AI companies press releases as the final word."
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T04.4",
+        "T04.5"
+      ],
+      "best_quote": {
+        "text": "Sometimes these large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke addresses the opacity of AI systems as both a technical reality and an investigative challenge, noting that even engineers cannot explain LLM behaviors, and advocating for multiple methodologies (GitHub logs, synthetic datasets, community interviews) when code access is unavailable.",
+      "passage_start": 10986,
+      "passage_end": 11132,
+      "match_method": "exact-ci",
+      "matched_text": "sometimes these large language models are so complex that even the engineers who built them can't exactly explain what's happening under the hood."
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.2"
+      ],
+      "best_quote": {
+        "text": "You really don't need to be an engineer to interrogate these systems or understand them. I think that really focusing on the people who build AI tools, who are affected by AI tools... there's always human beings who you can access.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke democratizes AI literacy by arguing journalists already have the 'street smarts' to understand AI, countering the perception that statistical complexity places AI reporting beyond average reporters' reach, and positioning the AP Stylebook AI chapter as a literacy resource.",
+      "passage_start": 31857,
+      "passage_end": 32332,
+      "match_method": "anchor-8",
+      "matched_text": "you really don't need to be an engineer to interrogate these systems or understand them. I think that really focusing on the people who build AI tools, who are affected by AI tools, whether that's Hollywood writers who are striking over their concerns about AI replacing them as script writers, or whether that's people in Kenya who have helped to go through all of these very disturbing images to create AI-powered deepfakes, there's always human beings who you can access. "
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T06.3"
+      ],
+      "best_quote": {
+        "text": "I think it's important to think about both the upside, but also proceed cautiously. There's an opportunity to have deeper ethical discussions about what is the right way to implement AI tooling in our sacred news production.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke briefly touches on organizational strategy, noting AP's cautious approach to AI implementation and the need for newsrooms to have deeper ethical discussions about when AI assistance is appropriate in news production.",
+      "passage_start": 33413,
+      "passage_end": 33687,
+      "match_method": "anchor-5",
+      "matched_text": "I think it's important to, you know, think about both the upside, but also proceed cautiously. You know, there's an opportunity to have deeper ethical discussions about what is the right way to implement you know, AI tooling in our, you know, sacred news production, right? "
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T07.1",
+        "T07.3"
+      ],
+      "best_quote": {
+        "text": "AI companies are seeking to extend their power into a whole number of realms from military applications to education to health care... As journalists, we need to understand how power and money moves.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke exposes the power dynamics behind AI through investigative examples: the opacity of OpenAI's training data, Brad Parscale's AI-powered campaign tools for exporting conservative victories worldwide, and the global south labor force (Kenya, Venezuela) that feeds AI systems, framing journalism as essential accountability infrastructure.",
+      "passage_start": 32398,
+      "passage_end": 32709,
+      "match_method": "anchor-8",
+      "matched_text": "AI companies are seeking to extend their power into a whole number of realms from you know military applications to education to health care is an important thing to keep in mind. As journalists, we need to understand how power and money moves And keeping track of that is is only gonna help inform the public. "
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "We're really thinking about what kinds of very personal data have we as a society given over? And how are these models now using that to predict and surveil?",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Product innovation is not a focus; Burke's concern is investigative rather than product-oriented, though she mentions AI content analysis of election messaging as a potential augmentation tool.",
+      "passage_start": 37283,
+      "passage_end": 37440,
+      "match_method": "exact-ci",
+      "matched_text": "we're really thinking about what kinds of very personal data Have we as a society given over? And how are these models now using that to predict and surveil?"
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "Who's benefiting and making money as a result of AI's growth.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Economic concerns are framed investigatively -- following the money behind AI growth -- rather than through the lens of newsroom business sustainability.",
+      "passage_start": 3579,
+      "passage_end": 3741,
+      "match_method": "anchor-8",
+      "matched_text": "who's benefiting and making money as a result of AI's growth and then which communities may be impacted by these tools, whether that be negatively or positively. "
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T10.1",
+        "T10.2"
+      ],
+      "best_quote": {
+        "text": "AI systems are really unregulated by and large around the world. And so there's an opportunity to have real-world impact with journalism that deeply and in a nuanced fashion helps the public understand how these tools work, don't work and who they're impacting.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke positions journalism as a de facto regulator in the absence of adequate AI governance, citing AP's child welfare algorithm reporting that prompted a DOJ civil rights investigation as evidence of the reporting-prompts-regulation pipeline, while warning that existential risk narratives distract from real-world harms like voter misinformation.",
+      "passage_start": 30251,
+      "passage_end": 30656,
+      "match_method": "anchor-8",
+      "matched_text": "AI systems are really unregulated by and large around the world. And so there's an opportunity To have real-world impact with journalism that deeply and in a nuanced fashion helps the public understand how these tools work don't work and who they're impacting. We saw that, for example, with our reporting on child welfare algorithms that helped to prompt a federal civil rights investigation from the U. "
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "There's some other approaches that we're considering looking at content analysis of huge amounts of data, particularly in this election cycle.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "The prototype pipeline is not a focus; Burke mentions exploring AI content analysis tools but does not discuss the mechanics of building or deploying them.",
+      "passage_start": 26017,
+      "passage_end": 26357,
+      "match_method": "anchor-8",
+      "matched_text": "There's some other approaches that we're considering looking at content analysis of huge amounts of data, um, particularly in this election cycle that I think could also help add some new insights to what we're able to glean about the messaging that's being shown to voters out there in the universe where AI can really give us more power. "
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T12.1",
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "We live in an age where it's so easy to clone a person's voice or face, as we've seen in the discussion about Scarlett Johansson and OpenAI's talking chatbot, that some real concerns about privacy and ownership of one's likeness are important to keep at top of mind.",
+        "speaker": "Garance Burke"
+      },
+      "summary": "Burke raises privacy through the lens of investigative concern: personal data used for AI training, the ease of cloning voices and faces (Scarlett Johansson/OpenAI controversy), government surveillance of marginalized populations post-COVID, and the child welfare algorithm's use of sensitive family data like maternal smoking history.",
+      "passage_start": 36819,
+      "passage_end": 37143,
+      "match_method": "anchor-8",
+      "matched_text": "we live in an age where it's so easy to clone a person's voice or face, as we've seen in the discussion about Scarlett Johansson and OpenAI's talking chatbot that, you know, some real concerns about privacy and ownership of one's likeness. are important to keep at top of mind when experimenting with these tools, for sure. "
+    }
+  ]
+}

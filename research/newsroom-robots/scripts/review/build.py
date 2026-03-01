@@ -2,9 +2,9 @@
 # requires-python = ">=3.12"
 # dependencies = ["typer>=0.9.0", "rich>=13.0.0"]
 # ///
-"""Build self-contained recode review HTML.
+"""Build self-contained contextual recode review HTML.
 
-Reads 42 recode JSONs + 42 extraction JSONs (for guest metadata) + codebook.json.
+Reads matched_passages/ + transcripts + codebook.json.
 Assembles a single blob, gzips, base64-encodes, and injects into template.html.
 
 Usage:
@@ -25,9 +25,9 @@ app = typer.Typer(add_completion=False)
 NEWSROOM_ROOT = Path(__file__).resolve().parent.parent.parent
 HERE = Path(__file__).resolve().parent
 
-RECODES_DIR = NEWSROOM_ROOT / "outputs" / "episode_recodes"
-EXTRACTIONS_DIR = NEWSROOM_ROOT / "outputs" / "episode_extractions"
+MATCHED_DIR = NEWSROOM_ROOT / "outputs" / "matched_passages"
 CODEBOOK_PATH = NEWSROOM_ROOT / "outputs" / "codebook.json"
+EPISODES_DIR = NEWSROOM_ROOT / "episodes"
 
 # fflate 0.8.2 UMD — vendored at build time
 FFLATE_PATH = Path("/tmp/fflate-0.8.2.umd.js")
@@ -46,7 +46,7 @@ def _ensure_fflate() -> str:
 
 
 def _build_data() -> dict:
-    """Assemble episodes + codebook into a single dict."""
+    """Assemble episodes + codebook + transcripts into a single dict."""
     codebook_raw = json.loads(CODEBOOK_PATH.read_text())
 
     # Build codebook lookup: { "T01": { "name": ..., "sub_themes": { "T01.1": "..." } } }
@@ -59,48 +59,41 @@ def _build_data() -> dict:
 
     # Build episodes sorted by date
     episodes = []
-    recode_files = sorted(RECODES_DIR.glob("*.json"))
+    matched_files = sorted(MATCHED_DIR.glob("*.json"))
 
-    for recode_path in recode_files:
-        recode = json.loads(recode_path.read_text())
+    for mp_path in matched_files:
+        mp = json.loads(mp_path.read_text())
 
-        # Load matching extraction for guest metadata
-        extraction_path = EXTRACTIONS_DIR / recode_path.name
-        guests = []
-        host = "Nikita Roy"
-        if extraction_path.exists():
-            extraction = json.loads(extraction_path.read_text())
-            meta = extraction.get("episode_meta", {})
-            guests = meta.get("guests", [])
-            host = meta.get("host", "Nikita Roy")
+        # Load transcript
+        transcript_file = mp.get("transcript_file", "")
+        transcript = ""
+        if transcript_file:
+            transcript_path = EPISODES_DIR / transcript_file
+            if transcript_path.exists():
+                transcript = transcript_path.read_text(encoding="utf-8")
 
-        # Handle variant key names across recode files
-        ep_date = recode.get("episode_date") or recode.get("date", "")
-        ep_title = recode.get("episode_title", "")
-
-        # Classify theme relevance levels
-        primary = recode.get("primary_themes", [])
-        secondary = recode.get("secondary_themes", [])
-        tangential = recode.get("tangential_themes", [])
-
-        # If relevance lists are empty, rebuild from theme_codings
-        if not primary and not secondary and not tangential:
-            for tc in recode["theme_codings"]:
-                rel = tc.get("relevance", "tangential")
-                tid = tc["theme_id"]
-                if rel == "primary":
-                    primary.append(tid)
-                elif rel == "secondary":
-                    secondary.append(tid)
-                else:
-                    tangential.append(tid)
+        # Classify themes by relevance
+        primary = []
+        secondary = []
+        tangential = []
+        for m in mp.get("matches", []):
+            rel = m.get("relevance", "tangential")
+            tid = m["theme_id"]
+            if rel == "primary":
+                primary.append(tid)
+            elif rel == "secondary":
+                secondary.append(tid)
+            else:
+                tangential.append(tid)
 
         episodes.append({
-            "date": ep_date,
-            "title": ep_title,
-            "guests": guests,
-            "host": host,
-            "theme_codings": recode["theme_codings"],
+            "date": mp.get("episode_date", ""),
+            "title": mp.get("episode_title", ""),
+            "guests": mp.get("guests", []),
+            "host": mp.get("host", "Nikita Roy"),
+            "summary_claims": mp.get("summary_claims", []),
+            "transcript": transcript,
+            "matches": mp.get("matches", []),
             "primary_themes": primary,
             "secondary_themes": secondary,
             "tangential_themes": tangential,
@@ -118,7 +111,7 @@ def build(
     ),
     dry_run: bool = typer.Option(False, "--dry-run", help="Show sizes without writing"),
 ) -> None:
-    """Build the self-contained recode review tool HTML."""
+    """Build the self-contained contextual recode review tool HTML."""
     # 1. Build data blob → gzip → base64
     data = _build_data()
     json_str = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
@@ -126,9 +119,11 @@ def build(
     compressed = gzip.compress(json_bytes, compresslevel=9)
     b64 = base64.b64encode(compressed).decode("ascii")
 
-    total_codings = sum(len(ep["theme_codings"]) for ep in data["episodes"])
+    total_codings = sum(len(ep["matches"]) for ep in data["episodes"])
+    transcript_bytes = sum(len(ep["transcript"].encode()) for ep in data["episodes"])
     typer.echo(f"Episodes: {len(data['episodes'])}")
     typer.echo(f"Total codings: {total_codings}")
+    typer.echo(f"Transcript text: {transcript_bytes:,} bytes")
     typer.echo(f"JSON: {len(json_bytes):,} bytes")
     typer.echo(f"Gzipped: {len(compressed):,} bytes")
     typer.echo(f"Base64: {len(b64):,} bytes")

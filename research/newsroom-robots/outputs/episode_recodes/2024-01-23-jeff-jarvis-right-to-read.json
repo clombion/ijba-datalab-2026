@@ -1,12 +1,14 @@
 {
   "episode_date": "2024-01-23",
-  "episode_title": "Jeff Jarvis (Part One): Should AI have the 'right to read' news like humans do?",
+  "episode_title": "Jeff Jarvis (Part One): Should AI have the ‘right to read’ news like humans do?",
   "theme_codings": [
     {
       "theme_id": "T01",
-      "theme_name": "The Automation Paradox: Human-AI Labor Division in the Newsroom",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
       "relevance": "secondary",
-      "sub_themes_present": ["T01.2"],
+      "sub_themes_present": [
+        "T01.2"
+      ],
       "best_quote": {
         "text": "The biggest threat that AI brings to our business is that it commodifies content. Now comes a machine that can make no end of content. And making content ain't so special. Writing isn't so special. Reporting is. Trust is, authority is, service is. That's where the value of journalism should be resident.",
         "speaker": "Jeff Jarvis"
@@ -17,7 +19,9 @@
       "theme_id": "T02",
       "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
       "relevance": "tangential",
-      "sub_themes_present": ["T02.2"],
+      "sub_themes_present": [
+        "T02.2"
+      ],
       "best_quote": {
         "text": "One of my students said, whoa, there's a lot of people who never trusted news. And I think that's absolutely true. And we've got to consider that.",
         "speaker": "Jeff Jarvis"
@@ -26,9 +30,11 @@
     },
     {
       "theme_id": "T03",
-      "theme_name": "The Ethics Infrastructure: From Principles to Practice",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
       "relevance": "secondary",
-      "sub_themes_present": ["T03.3"],
+      "sub_themes_present": [
+        "T03.3"
+      ],
       "best_quote": {
         "text": "All it's playing back to us is our cliches and our biases and our misapprehensions about the world as it is.",
         "speaker": "Jeff Jarvis"
@@ -37,9 +43,11 @@
     },
     {
       "theme_id": "T04",
-      "theme_name": "Building the Machine: Technical Architecture and Engineering Choices",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
       "relevance": "secondary",
-      "sub_themes_present": ["T04.4"],
+      "sub_themes_present": [
+        "T04.4"
+      ],
       "best_quote": {
         "text": "They went through a lot of hoops to get the machine to repeat something. They gave them lots of paragraphs of an article, and kind of the only words left for it to predict were those that were left... that was a parlor trick on a parlor trick.",
         "speaker": "Jeff Jarvis"
@@ -48,9 +56,11 @@
     },
     {
       "theme_id": "T05",
-      "theme_name": "The Literacy Imperative: Upskilling, Adoption, and the Knowledge Gap",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
       "relevance": "tangential",
-      "sub_themes_present": ["T05.1"],
+      "sub_themes_present": [
+        "T05.1"
+      ],
       "best_quote": {
         "text": "I've argued that LLMs might extend literacy to the extent that they enable people who are intimidated by writing or illustrating to write or illustrate their own stories.",
         "speaker": "Jeff Jarvis"
@@ -59,9 +69,11 @@
     },
     {
       "theme_id": "T06",
-      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Change",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
       "relevance": "secondary",
-      "sub_themes_present": ["T06.3"],
+      "sub_themes_present": [
+        "T06.3"
+      ],
       "best_quote": {
         "text": "News organizations are being quite short-sighted, as they have been in the past... when radio came along newspapers tried to keep them out of the news business.",
         "speaker": "Jeff Jarvis"
@@ -72,7 +84,11 @@
       "theme_id": "T07",
       "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
       "relevance": "primary",
-      "sub_themes_present": ["T07.1", "T07.2", "T07.3"],
+      "sub_themes_present": [
+        "T07.1",
+        "T07.2",
+        "T07.3"
+      ],
       "best_quote": {
         "text": "Does the machine have the same right to read and learn and use information as a journalist? Because every journalist on Earth reads other journalists' work and gets information from sources and does not pay them, learns from it and uses it and repurposes it in their journalism.",
         "speaker": "Jeff Jarvis"
@@ -81,9 +97,11 @@
     },
     {
       "theme_id": "T08",
-      "theme_name": "Reimagining the News Product: Personalization, Formats, and Audience Experience",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
       "relevance": "tangential",
-      "sub_themes_present": ["T08.3"],
+      "sub_themes_present": [
+        "T08.3"
+      ],
       "best_quote": {
         "text": "If it is just data, then you can't own information. You can only own the treatment of it. I argue that news stories are just another form of data visualization. You could make a chart, you could make a box, you could make a story.",
         "speaker": "Jeff Jarvis"
@@ -92,9 +110,12 @@
     },
     {
       "theme_id": "T09",
-      "theme_name": "Survival Economics: Business Models, Revenue, and the Market for AI Journalism",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
       "relevance": "primary",
-      "sub_themes_present": ["T09.1", "T09.2"],
+      "sub_themes_present": [
+        "T09.1",
+        "T09.2"
+      ],
       "best_quote": {
         "text": "Rather than fighting at this point, as we are out of our field, we should be looking for ways to make it possible for AI companies to query and serve information from us and license for that purpose.",
         "speaker": "Jeff Jarvis"
@@ -103,9 +124,12 @@
     },
     {
       "theme_id": "T10",
-      "theme_name": "Regulating the Revolution: Law, Policy, and Governance of AI",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
       "relevance": "primary",
-      "sub_themes_present": ["T10.1", "T10.3"],
+      "sub_themes_present": [
+        "T10.1",
+        "T10.3"
+      ],
       "best_quote": {
         "text": "If we regulate and write laws for what we expected [generative AI] to do today, we would completely miss this path of technological development.",
         "speaker": "Nikita Roy (citing Rebecca Tushnet)"
@@ -114,7 +138,7 @@
     },
     {
       "theme_id": "T11",
-      "theme_name": "The Prototype Pipeline: From Experiment to Production",
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
       "relevance": "tangential",
       "sub_themes_present": [],
       "best_quote": {
@@ -125,9 +149,11 @@
     },
     {
       "theme_id": "T12",
-      "theme_name": "Data, Privacy, and the Boundaries of Responsible AI Use",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
       "relevance": "secondary",
-      "sub_themes_present": ["T12.2"],
+      "sub_themes_present": [
+        "T12.2"
+      ],
       "best_quote": {
         "text": "Just think about all of the countries that are still not as digitized... what if we go and invest heavily on making, transforming things from print to digital, that's there.",
         "speaker": "Nikita Roy"
@@ -135,7 +161,22 @@
       "summary": "Data provenance and quality are substantively discussed: the ethical issues around Books3 acquisition, the problem of models trained on AI-generated content degrading, the Western bias in available training data, and the need to digitize underrepresented regions' content."
     }
   ],
-  "primary_themes": ["T07", "T09", "T10"],
-  "secondary_themes": ["T01", "T03", "T04", "T06", "T12"],
-  "tangential_themes": ["T02", "T05", "T08", "T11"]
+  "primary_themes": [
+    "T07",
+    "T09",
+    "T10"
+  ],
+  "secondary_themes": [
+    "T01",
+    "T03",
+    "T04",
+    "T06",
+    "T12"
+  ],
+  "tangential_themes": [
+    "T02",
+    "T05",
+    "T08",
+    "T11"
+  ]
 }

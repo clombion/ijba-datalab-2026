@@ -1,0 +1,236 @@
+{
+  "episode_date": "2025-02-18",
+  "episode_title": "Rune Ytreberg & Lars Adrian Giske: Building AI Tools for Investigative Journalism in Local News",
+  "transcript_file": "2025-02-18 - Rune Ytreberg & Lars Adrian Giske Building AI Tools for Investigative Journalism in Local News.txt",
+  "summary_claims": [
+    "80% of the time a journalist spends on a story is spent on initial research and finding the story",
+    "50% of all correspondence between municipalities and inhabitants of Norway is about urban development or planning and zoning",
+    "60% of municipalities in Norway publish all needed zoning/planning data openly, leaving 40% that do not",
+    "80% of Norwegians own their own house, making urban development and zoning a critical beat for local newspapers"
+  ],
+  "guests": [
+    {
+      "name": "Rune Ytreberg",
+      "role": "Head of Data Journalism Lab",
+      "organization": "iTromso / Polaris Media"
+    },
+    {
+      "name": "Lars Adrian Giske",
+      "role": "Head of AI",
+      "organization": "iTromso"
+    }
+  ],
+  "host": "Nikita Roy",
+  "matches": [
+    {
+      "theme_id": "T01",
+      "theme_name": "The Automation Paradox: What AI Replaces, What Remains Irreplaceable",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T01.1",
+        "T01.2",
+        "T01.5"
+      ],
+      "best_quote": {
+        "text": "It's gone from spending an hour to an hour and a half sitting and manually doing this work to spending five minutes doing it. That's a huge timesaver... every day when you come to work, you have the day's stories ready for you. You just have to start calling sources.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "A defining episode for this theme: GIN compressed daily document review from 60-90 minutes to 5 minutes, while the fisheries database detected anomalies across 5 million transactions. The episode strongly asserts journalists are ideal AI users because of their verification skills, and maintains human-in-the-loop as essential for all AI outputs.",
+      "passage_start": 21168,
+      "passage_end": 21445,
+      "match_method": "anchor-8",
+      "matched_text": "it's gone from spending an hour to an hour and a half sitting and manually doing this work to spending five minutes doing it. That's a huge timesaver. But we're also we've also built a notification system on top of it. So we send out alerts in Slack now that are personalized. "
+    },
+    {
+      "theme_id": "T02",
+      "theme_name": "Trust on the Line: Credibility, Transparency, and the Audience Contract",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T02.2"
+      ],
+      "best_quote": {
+        "text": "Nobody else is as capable of asking the right questions in a methodical way... And verify the answers. And be able to very easily detect okay this is a hallucination because this information here is not part of the document because we are very good at verifying outputs.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "Trust is implied through the emphasis on verification and hallucination detection, but audience-facing transparency and disclosure are not directly discussed. The focus is on internal trust-building through accuracy rather than external audience trust.",
+      "passage_start": 37524,
+      "passage_end": 37830,
+      "match_method": "anchor-8",
+      "matched_text": "Nobody else is as capable of asking the right questions in a methodical way. I completely agree with you. And verify the answers. And be able to very easily detect okay this is a hallucination because it's this information here is not part of the document because we are very good at at verifying outputs. "
+    },
+    {
+      "theme_id": "T03",
+      "theme_name": "The Ethics Infrastructure: From Principles on Paper to Practice in the Newsroom",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T03.1"
+      ],
+      "best_quote": {
+        "text": "We started with low hanging fruits. That was very easy to get our hands on and that we could very efficiently get the product out and show our editor that this is actually working and it's going to have an impact.",
+        "speaker": "Rune Ytreberg"
+      },
+      "summary": "Ethics are implicitly present through the emphasis on journalist-in-the-loop verification and domain-specific tool design to reduce hallucination risk. No formal ethics framework or guideline discussion, but the pragmatic approach embodies mission-aligned AI adoption.",
+      "passage_start": 0,
+      "passage_end": 972,
+      "match_method": "window-6",
+      "matched_text": "This is Newsroom Robots, the podcast where we explore the intersection of artificial intelligence and the news industry. I'm Nikita Roy, data scientist, media entrepreneur, and one of the many founders currently building their. Ventures at the Harvard Innovation Labs. On the Newsroom Robots, I'm excited to bring you insightful conversations with industry experts about how AI is impacting the way we do journalism. Joining me on the show today are Runa Jutterberg and Lars Adrian Giski, two journalists leading AI-driven investigative journalism at iTromsel, a local newsroom in Norway that's at the forefront of AI innovation. Rune is the head of iTromso's Data Journalism Lab, where he's been developing AI-driven editorial solutions for 70 local newspapers in the Polaris Media Group since 2020. Lars is the head of AI at iTromso and led the development of Gen, an AI-powered system that helps journalists surface newsworthy stories from vast amounts of public data. "
+    },
+    {
+      "theme_id": "T04",
+      "theme_name": "Building the Machine: Technical Architecture and Engineering Decisions",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T04.1",
+        "T04.2",
+        "T04.4"
+      ],
+      "best_quote": {
+        "text": "I think it's all about combining complementary methods. Be they gen AI or machine learning or traditional just if-and-then coding. Once you start seeing how they can complement each other and building systems that integrate all of these approaches, that's when you get something really useful.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "Deeply technical episode: describes RAG systems with vector databases, OCR preprocessing pipelines, Python-to-JSON batch processing for timeline extraction when RAG fails at aggregation, anomaly detection on structured data, and the philosophical commitment to hybrid approaches combining genAI, classical ML, and traditional coding.",
+      "passage_start": 42444,
+      "passage_end": 42748,
+      "match_method": "anchor-8",
+      "matched_text": "I think it's all about combining complementary methods. Like be they gen AI or machine learning or traditional just if and then coding, once you start like seeing how they can complement each other and building systems that integrate all of these approaches, that's when you get Something really useful. "
+    },
+    {
+      "theme_id": "T05",
+      "theme_name": "The Literacy Imperative: Upskilling the Newsroom for an AI Era",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T05.1",
+        "T05.3"
+      ],
+      "best_quote": {
+        "text": "The knowledge that the senior journalists have on their beat is somehow transferred into the system. So now fresh journalists will learn from the ranking of the documents.",
+        "speaker": "Rune Ytreberg"
+      },
+      "summary": "The episode illustrates how AI systems can encode and transfer expert knowledge -- two summer interns delivered five cover stories in their first week using GIN. Prompting quality differences between a 21-year-old developer and veteran journalist highlight the need for collaborative upskilling, though formal training programs are not the focus.",
+      "passage_start": 24018,
+      "passage_end": 24305,
+      "match_method": "anchor-5",
+      "matched_text": "the knowledge that the senior journalist have on their bit. It's somewhere transferred into the system. Okay? So now fresh journalists will understand, will learn. From the ranking of the documents, the algorithm is finding the rank the documents which have the most newsworthy content. "
+    },
+    {
+      "theme_id": "T06",
+      "theme_name": "Organizing for AI: Leadership, Strategy, and Institutional Transformation",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T06.1",
+        "T06.4"
+      ],
+      "best_quote": {
+        "text": "We started with low hanging fruits. That was very easy to get our hands on and that we could very efficiently get the product out and show our editor that this is actually working and it's going to have an impact. It's going to produce better journalism.",
+        "speaker": "Rune Ytreberg"
+      },
+      "summary": "Demonstrates a strategic approach to AI adoption: start with high-impact, low-friction tools (Property Bot) to win editorial buy-in, then scale to more complex systems (GIN, LAILA). Leadership at Polaris Media funded further development after seeing Property Bot's success. Strategic prioritization drives the entire narrative.",
+      "passage_start": 0,
+      "passage_end": 972,
+      "match_method": "window-6",
+      "matched_text": "This is Newsroom Robots, the podcast where we explore the intersection of artificial intelligence and the news industry. I'm Nikita Roy, data scientist, media entrepreneur, and one of the many founders currently building their. Ventures at the Harvard Innovation Labs. On the Newsroom Robots, I'm excited to bring you insightful conversations with industry experts about how AI is impacting the way we do journalism. Joining me on the show today are Runa Jutterberg and Lars Adrian Giski, two journalists leading AI-driven investigative journalism at iTromsel, a local newsroom in Norway that's at the forefront of AI innovation. Rune is the head of iTromso's Data Journalism Lab, where he's been developing AI-driven editorial solutions for 70 local newspapers in the Polaris Media Group since 2020. Lars is the head of AI at iTromso and led the development of Gen, an AI-powered system that helps journalists surface newsworthy stories from vast amounts of public data. "
+    },
+    {
+      "theme_id": "T07",
+      "theme_name": "Power, Money, and the Platform: Big Tech and the News Industry",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T07.4"
+      ],
+      "best_quote": {
+        "text": "I think it's all about combining complementary methods.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "Brief mention of IBM as a co-creation partner for GIN development and cross-border collaboration with Swedish newspaper Goteborgs-Posten. Platform dependency and big tech power dynamics are not discussed.",
+      "passage_start": 42444,
+      "passage_end": 42499,
+      "match_method": "exact",
+      "matched_text": "I think it's all about combining complementary methods."
+    },
+    {
+      "theme_id": "T08",
+      "theme_name": "Reimagining the News Product: Personalization, Formats, and the Experience Layer",
+      "relevance": "tangential",
+      "sub_themes_present": [],
+      "best_quote": {
+        "text": "All the police published was a short little notification saying there is an ongoing raid at a fisheries plant in northern Norway. That was all we had. But we knew exactly where to go.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "The tools described are internal journalist-facing, not audience-facing. The fisheries scoop and GIN alerts represent new ways of discovering stories rather than new product formats for audiences.",
+      "passage_start": 6151,
+      "passage_end": 6339,
+      "match_method": "anchor-8",
+      "matched_text": "all the police published was a short little notification in their put uh notification service saying there is an ongoing raid at a fisheries plant in northern norway. That was all we had. "
+    },
+    {
+      "theme_id": "T09",
+      "theme_name": "Survival Economics: Business Models, Revenue, and Market Position in the AI Era",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T09.3",
+        "T09.2"
+      ],
+      "best_quote": {
+        "text": "All the police published was a short little notification saying there is an ongoing raid at a fisheries plant in northern Norway. That was all we had. But we knew exactly where to go. So we were there ten minutes after the police and were able to film it, do interviews. Nobody had access like we did.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "A 25-person newsroom competing against a rival twice its size uses AI to punch above its weight. The fisheries database and GIN represent data assets as competitive advantage. The episode illustrates how resource-constrained local newsrooms can use AI to survive and produce investigative work that otherwise would be impossible.",
+      "passage_start": 6151,
+      "passage_end": 6467,
+      "match_method": "anchor-8",
+      "matched_text": "all the police published was a short little notification in their put uh notification service saying there is an ongoing raid at a fisheries plant in northern norway. That was all we had. But we knew exactly where to go. So we were there ten minutes after uh the police and were able to like film it, do interviews. "
+    },
+    {
+      "theme_id": "T10",
+      "theme_name": "Regulating the Revolution: Law, Policy, and Journalism as Accountability",
+      "relevance": "secondary",
+      "sub_themes_present": [
+        "T10.2"
+      ],
+      "best_quote": {
+        "text": "All the police published was a short little notification saying there is an ongoing raid at a fisheries plant in northern Norway. That was all we had. But we knew exactly where to go.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "The entire investigative apparatus -- fisheries anomaly detection, hospital understaffing investigation, municipal document monitoring -- positions journalism as an accountability mechanism. The X-ray crisis investigation (five deaths) and fisheries raid exemplify journalism functioning as a de facto regulator through AI-enabled oversight of government and industry.",
+      "passage_start": 6151,
+      "passage_end": 6339,
+      "match_method": "anchor-8",
+      "matched_text": "all the police published was a short little notification in their put uh notification service saying there is an ongoing raid at a fisheries plant in northern norway. That was all we had. "
+    },
+    {
+      "theme_id": "T11",
+      "theme_name": "The Prototype Pipeline: From Experiment to Shipped Product",
+      "relevance": "primary",
+      "sub_themes_present": [
+        "T11.1",
+        "T11.2"
+      ],
+      "best_quote": {
+        "text": "We started with low hanging fruits. That was very easy to get our hands on and that we could very efficiently get the product out and show our editor that this is actually working and it's going to have an impact.",
+        "speaker": "Rune Ytreberg"
+      },
+      "summary": "Exemplary prototype-to-production journey: Property Bot was the first win, GIN scaled to 36 newspapers covering 130 municipalities, and multiple tools are now in daily production. The episode also surfaces production challenges -- 40% of municipalities lack open data, RAG fails at aggregation, OCR preprocessing is required -- making it a rich case study of scaling realities.",
+      "passage_start": 0,
+      "passage_end": 972,
+      "match_method": "window-6",
+      "matched_text": "This is Newsroom Robots, the podcast where we explore the intersection of artificial intelligence and the news industry. I'm Nikita Roy, data scientist, media entrepreneur, and one of the many founders currently building their. Ventures at the Harvard Innovation Labs. On the Newsroom Robots, I'm excited to bring you insightful conversations with industry experts about how AI is impacting the way we do journalism. Joining me on the show today are Runa Jutterberg and Lars Adrian Giski, two journalists leading AI-driven investigative journalism at iTromsel, a local newsroom in Norway that's at the forefront of AI innovation. Rune is the head of iTromso's Data Journalism Lab, where he's been developing AI-driven editorial solutions for 70 local newspapers in the Polaris Media Group since 2020. Lars is the head of AI at iTromso and led the development of Gen, an AI-powered system that helps journalists surface newsworthy stories from vast amounts of public data. "
+    },
+    {
+      "theme_id": "T12",
+      "theme_name": "Data Privacy, Source Protection, and the Boundaries of Responsible Use",
+      "relevance": "tangential",
+      "sub_themes_present": [
+        "T12.2"
+      ],
+      "best_quote": {
+        "text": "Nobody else is as capable of asking the right questions in a methodical way... And verify the answers.",
+        "speaker": "Lars Adrian Giske"
+      },
+      "summary": "Data quality issues are central to the technical challenges -- poor municipal portal UI, uninformative metadata, PDF images requiring OCR -- but privacy and source protection are not directly addressed. Data quality is treated as a precondition for responsible AI deployment.",
+      "passage_start": 37524,
+      "passage_end": 37630,
+      "match_method": "anchor-8",
+      "matched_text": "Nobody else is as capable of asking the right questions in a methodical way. I completely agree with you. "
+    }
+  ]
+}
